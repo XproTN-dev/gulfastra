@@ -1,3 +1,11 @@
+## Expanded intelligence sources — official advisories and X integration
+
+The ingestion now configures **31 news/RSS/search channels** (including direct QNA RSS and Reuters/AP/UKMTO/State Department *source-restricted discovery*). GDACS supplies separate official disaster advisories. ReliefWeb, OpenSky and official X API retrieval are supported only with appropriate credentials and API access. The X feed is **disabled by default** and explicitly requires billing approval; no unapproved paid requests are made. See **[source types, status, credentials and restrictions](docs/SOURCES_V12.md)**.
+
+The new **OFFICIAL** and **X POSTS** tabs distinguish institutional notices from social posts and published news. Neither social posts nor sourced news discovery is considered independent incident verification. The X tab provides free links to public X searches even when the API connector is disabled.
+
+---
+
 # GULFASTRA X — Global Intelligence Command Center (v11)
 
 **Main website:** https://xprotn-dev.github.io/gulfastra/ (opens v11)  
