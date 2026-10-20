@@ -94,7 +94,7 @@ with sync_playwright() as pw:
             page.locator('[data-mode="spatial"]').click()
             assert page.locator(".network-svg.spatial").count()==1
             page.locator('[data-mode="network"]').click()
-            page.locator(".graph-node circle:not(.hit-zone)").first.click()
+            page.locator(".graph-node .hit-zone").first.click()
             assert page.locator("#contextContent .context-link").count()>0
             page.locator("#contextClose").click() if page.locator("#contextClose").is_visible() else page.locator("#labExplain").click()
             page.locator('[data-view="markets"]').click()
