@@ -61,6 +61,9 @@
 <div class="modal-backdrop" id="backdrop" hidden></div>
 <section class="drawer" id="drawer" aria-hidden="true"><div class="drawer-top"><span class="panel-eyebrow" id="drawerTag">SOURCE DETAIL</span><button id="drawerClose" aria-label="Close detail">✕</button></div><div id="drawerContent"></div></section>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
-<script src="https://unpkg.com/maplibre-gl@6.15.0/dist/maplibre-gl.js"></script>
-<script src="assets/v3.js?v=20261020-8" defer></script>
+<script type="module">
+import * as maplibregl from "https://unpkg.com/maplibre-gl@6.15.0/dist/maplibre-gl.mjs";
+window.maplibregl=maplibregl;
+await import("./assets/v3.js?v=20261020-9");
+</script>
 </body></html>
