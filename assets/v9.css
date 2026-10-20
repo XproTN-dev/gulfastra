@@ -64,9 +64,9 @@ body{font:11px "IBM Plex Mono",monospace!important;letter-spacing:.13px}
  min-height:0!important;max-height:none!important;flex:auto!important;background:#030b0b!important;
  border:0!important}
 #map{position:absolute!important;inset:0!important;width:100%!important;height:100%!important}
-.map-stage .maplibregl-canvas{filter:brightness(.48) contrast(1.38) saturate(.46) hue-rotate(26deg)!important}
-body[data-v9-palette="arctic"] .map-stage .maplibregl-canvas{filter:brightness(.50) saturate(.68) contrast(1.34) hue-rotate(154deg)!important}
-body[data-v9-palette="ember"] .map-stage .maplibregl-canvas{filter:brightness(.42) sepia(.35) contrast(1.35) saturate(.55)!important}
+.map-stage .maplibregl-canvas{filter:brightness(.68) contrast(1.22) saturate(.46) hue-rotate(26deg)!important}
+body[data-v9-palette="arctic"] .map-stage .maplibregl-canvas{filter:brightness(.66) saturate(.68) contrast(1.25) hue-rotate(154deg)!important}
+body[data-v9-palette="ember"] .map-stage .maplibregl-canvas{filter:brightness(.60) sepia(.35) contrast(1.27) saturate(.55)!important}
 .map-grid{background:repeating-linear-gradient(90deg,transparent 0,transparent 126px,#62b26808 127px,#62b26808 128px),
  repeating-linear-gradient(0deg,transparent 0,transparent 126px,#62b26808 127px,#62b26808 128px)!important;
  pointer-events:none!important;opacity:1!important;z-index:2!important}
@@ -252,7 +252,7 @@ body[data-v9-palette="ember"] .map-stage .maplibregl-canvas{filter:brightness(.4
  .v9-ticker-tag{padding:0 5px;font-size:7px}
  .v9-ticker-age{display:none}
  .v9-appearance-menu{top:111px;right:5px}
- .map-stage .maplibregl-canvas{filter:brightness(.42) contrast(1.35) saturate(.52) hue-rotate(26deg)!important}
+ .map-stage .maplibregl-canvas{filter:brightness(.60) contrast(1.28) saturate(.52) hue-rotate(26deg)!important}
 }
 @media(prefers-reduced-motion:reduce){
  .v9-ticker-items{animation:none!important}
