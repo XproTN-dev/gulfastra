@@ -149,7 +149,7 @@ if(action==="watch-add"){let value=$("gfWatchSelect")?.value;if(value&&!D.watch.
 if(action==="hazard-map"){hazardOverlay(!D.hazardsVisible);close();$("mapColumn")?.scrollIntoView({behavior:"smooth"});return}
 draw();
 }
-async function requestData(name){let r=await fetch("data/"+name+"?v="+Date.now(),{cache:"no-store"});if(!r.ok)throw Error("HTTP "+r.status+" "+name);return r.json()}
+async function requestData(name){return window.GulfastraData.get(name)}
 async function refresh(){
 const attempts=await Promise.allSettled(["events.json","revisions.json","observations.json","reports.json"].map(requestData));
 if(attempts[0].status==="fulfilled"){
