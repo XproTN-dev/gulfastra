@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "generated_at": "2026-10-20T22:48:53.670806Z",
+  "generated_at": "2026-10-20T22:49:27.081397Z",
   "model": "deterministic-source-correlation-v2-coverage-lifecycle",
   "disclaimer": "Clusters are related PUBLIC REPORTS, not confirmed incidents. Source counts are not proof. Country names are mentions, not incident locations.",
   "events": [
@@ -18868,64 +18868,6 @@
       "digest": "49183e5d301da638b836",
       "revision": 1,
       "updated_at": "2026-10-20T22:32:26.889638Z"
-    },
-    {
-      "id": "GF-16094BD5B10138",
-      "title": "السعودية والإمارات تدينان الهجمات الإيرانية على البحرين والكويت والأردن وتؤكدان دعمهما لأمن الدول الشقيقة - الساحل الغربي",
-      "category": "security",
-      "topic": "regional",
-      "countries": [
-        "Bahrain",
-        "Iran",
-        "Saudi"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "ar"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-19T21:42:52Z",
-      "last_published": "2026-10-19T21:42:52Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "6df264a43f4803d464219aca",
-          "title": "السعودية والإمارات تدينان الهجمات الإيرانية على البحرين والكويت والأردن وتؤكدان دعمهما لأمن الدول الشقيقة - الساحل الغربي",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBITGlFa05BRWUwWDUwVzhPWlZFaC1yQ0RmMUxpMXZLUF9neHYtZ0lmdFRmQk4ta0VWT1hRZ25YVFlRdENrajdBcTQ2OVdFYmM?oc=5",
-          "source": "الساحل الغربي",
-          "publisher_key": "الساحل الغربي",
-          "provider": "عربي · الإمارات والبحرين",
-          "published_at": "2026-10-19T21:42:52Z",
-          "date_quality": "publisher-time",
-          "first_seen_at": "2026-10-20T16:54:36.300300Z",
-          "collected_at": null,
-          "language": "ar",
-          "country": ""
-        }
-      ],
-      "coverage_stage": "quiet-coverage",
-      "coverage_first_published_at": "2026-10-19T21:42:52Z",
-      "coverage_last_published_at": "2026-10-19T21:42:52Z",
-      "current_reporting": false,
-      "recent_publisher_count": 0,
-      "recent_article_count": 0,
-      "incident_status": "unknown",
-      "event_occurrence_verified": false,
-      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "796e1c7799bf0cc64266",
-      "revision": 16,
-      "updated_at": "2026-10-20T22:48:53.670806Z"
     },
     {
       "id": "GF-59345064D5A1D3",
@@ -44863,6 +44805,62 @@
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
+      "id": "GF-AB5DC2B176E068",
+      "title": "جامعة الدول العربية تدعو لمحاسبة المسؤولين عن هجمات الحوثيين في اليمن - emirates24.net",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-17T14:23:56Z",
+      "last_published": "2026-10-17T14:23:56Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "4e100c4ce86bf6fcec01904e",
+          "title": "جامعة الدول العربية تدعو لمحاسبة المسؤولين عن هجمات الحوثيين في اليمن - emirates24.net",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ENEdwMjMzYWVTZmwzU0ZXbVBlQ0RWWjZtY011UXBVNmJwV0s4aFJnVl9HVUhXZk5jN0FzbUtlSlhPc0V1anZRUU54RWJFZ3JNZlNPOW1pOGMyVzdtVUE?oc=5",
+          "source": "emirates24.net",
+          "publisher_key": "emirates24 net",
+          "provider": "عربي · الإمارات والبحرين",
+          "published_at": "2026-10-17T14:23:56Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T22:49:18.324028Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Yemen"
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-17T14:23:56Z",
+      "coverage_last_published_at": "2026-10-17T14:23:56Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "6b9ed07af645b59ec5a3",
+      "revision": 1,
+      "updated_at": "2026-10-20T22:49:27.081397Z"
+    },
+    {
       "id": "GF-EACDE57B60B9F8",
       "title": "انفجار ناقلة في هرمز وإيران تعرض خطة لإعادة فتح المضيق - الجزيرة نت",
       "category": "security",
@@ -50215,7 +50213,7 @@
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE92M0dTMURCdnVfVE9xSGg0Wjc3UnN5RTZzbUtZNHFtS21nY2otdVljZzRoOGV4QzZiZWF5WHQ4WmF1RThWVTVGTXpaQlljVlEwT0lxdERnM1VQS0FY?oc=5",
           "source": "The Jerusalem Post",
           "publisher_key": "the jerusalem post",
-          "provider": "Google News · regional",
+          "provider": "Google News · missiles/drones",
           "published_at": "2026-10-16T22:31:23Z",
           "date_quality": "publisher-time",
           "first_seen_at": "2026-10-20T12:09:48.504938Z",
@@ -50233,9 +50231,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "5acae68853c83735b540",
-      "revision": 4,
-      "updated_at": "2026-10-20T22:48:53.670806Z"
+      "digest": "cfb21b7924f6398c78d2",
+      "revision": 5,
+      "updated_at": "2026-10-20T22:49:27.081397Z"
     },
     {
       "id": "GF-76AC1A25BC530B",
@@ -56951,6 +56949,64 @@
       "digest": "b77ed8392bf6d7f0959c",
       "revision": 3,
       "updated_at": "2026-10-20T16:52:31.264495Z"
+    },
+    {
+      "id": "GF-16094BD5B10138",
+      "title": "السعودية والإمارات تدينان الهجمات الإيرانية على البحرين والكويت والأردن وتؤكدان دعمهما لأمن الدول الشقيقة - الساحل الغربي",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Bahrain",
+        "Iran",
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-16T03:25:46Z",
+      "last_published": "2026-10-16T03:25:46Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "6df264a43f4803d464219aca",
+          "title": "السعودية والإمارات تدينان الهجمات الإيرانية على البحرين والكويت والأردن وتؤكدان دعمهما لأمن الدول الشقيقة - الساحل الغربي",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBITGlFa05BRWUwWDUwVzhPWlZFaC1yQ0RmMUxpMXZLUF9neHYtZ0lmdFRmQk4ta0VWT1hRZ25YVFlRdENrajdBcTQ2OVdFYmM?oc=5",
+          "source": "الساحل الغربي",
+          "publisher_key": "الساحل الغربي",
+          "provider": "عربي · الإمارات والبحرين",
+          "published_at": "2026-10-16T03:25:46Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T16:54:36.300300Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-16T03:25:46Z",
+      "coverage_last_published_at": "2026-10-16T03:25:46Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "958e3f0a4184cbfda211",
+      "revision": 17,
+      "updated_at": "2026-10-20T22:49:27.081397Z"
     },
     {
       "id": "GF-2754D409258FEA",
@@ -82020,9 +82076,9 @@
       "sources": 6
     },
     "Yemen": {
-      "events": 268,
-      "reports": 280,
-      "security_coverage": 254,
+      "events": 269,
+      "reports": 281,
+      "security_coverage": 255,
       "transport_coverage": 12,
       "sources": 132
     },
@@ -82046,25 +82102,25 @@
     "2026-10-13": 115,
     "2026-10-14": 152,
     "2026-10-15": 148,
-    "2026-10-16": 139,
-    "2026-10-17": 187,
+    "2026-10-16": 140,
+    "2026-10-17": 188,
     "2026-10-18": 152,
-    "2026-10-19": 221,
+    "2026-10-19": 220,
     "2026-10-20": 312
   },
   "revisions": [
     {
-      "id": "GF-16094BD5B10138",
-      "revision": 16,
-      "at": "2026-10-20T22:48:53.670806Z",
+      "id": "GF-AF8E727FB24624",
+      "revision": 5,
+      "at": "2026-10-20T22:49:27.081397Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-AF8E727FB24624",
-      "revision": 4,
-      "at": "2026-10-20T22:48:53.670806Z",
+      "id": "GF-16094BD5B10138",
+      "revision": 17,
+      "at": "2026-10-20T22:49:27.081397Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1

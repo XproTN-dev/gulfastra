@@ -1,7 +1,7 @@
 {
   "version": 6,
-  "last_run": "2026-10-20T22:48:46.693517Z",
-  "last_successful_run": "2026-10-20T22:48:46.693517Z",
+  "last_run": "2026-10-20T22:49:18.324028Z",
+  "last_successful_run": "2026-10-20T22:49:18.324028Z",
   "successful_sources": 30,
   "reports": [
     {
@@ -8204,31 +8204,6 @@
       "tag": "DIPLOMACY REPORT",
       "provider": "Google News · diplomacy",
       "first_seen_at": "2026-10-20T22:32:08.637740Z",
-      "date_quality": "publisher-time",
-      "freshness": "older-reporting",
-      "context": "reporting",
-      "severity": "routine-reporting",
-      "critical_candidate": false,
-      "alert_eligible": false,
-      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
-    },
-    {
-      "id": "6df264a43f4803d464219aca",
-      "title": "السعودية والإمارات تدينان الهجمات الإيرانية على البحرين والكويت والأردن وتؤكدان دعمهما لأمن الدول الشقيقة - الساحل الغربي",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBITGlFa05BRWUwWDUwVzhPWlZFaC1yQ0RmMUxpMXZLUF9neHYtZ0lmdFRmQk4ta0VWT1hRZ25YVFlRdENrajdBcTQ2OVdFYmM?oc=5",
-      "source": "الساحل الغربي",
-      "published_at": "2026-10-19T21:42:52Z",
-      "country": "",
-      "countries": [
-        "Iran",
-        "Saudi",
-        "Bahrain"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "تقرير امني",
-      "provider": "عربي · الإمارات والبحرين",
-      "first_seen_at": "2026-10-20T16:54:36.300300Z",
       "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
@@ -19336,6 +19311,29 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "4e100c4ce86bf6fcec01904e",
+      "title": "جامعة الدول العربية تدعو لمحاسبة المسؤولين عن هجمات الحوثيين في اليمن - emirates24.net",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ENEdwMjMzYWVTZmwzU0ZXbVBlQ0RWWjZtY011UXBVNmJwV0s4aFJnVl9HVUhXZk5jN0FzbUtlSlhPc0V1anZRUU54RWJFZ3JNZlNPOW1pOGMyVzdtVUE?oc=5",
+      "source": "emirates24.net",
+      "published_at": "2026-10-17T14:23:56Z",
+      "country": "Yemen",
+      "countries": [
+        "Yemen"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير امني",
+      "provider": "عربي · الإمارات والبحرين",
+      "first_seen_at": "2026-10-20T22:49:18.324028Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "25ba4e64e742ddaf9c575078",
       "title": "انفجار ناقلة في هرمز وإيران تعرض خطة لإعادة فتح المضيق - الجزيرة نت",
       "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxOZF92cVQtSlhvek5EekNjU3FQMWtwTHJHdTNXMWczLTRmaFUydHpNNXZrWmxuTlE3Ulgta3RWdTJEU21MMGVzeE9zaTdHX1Zvb0stU0JxTjZvY2hFQUFCNDNsSEZMenl1RUZpUjA1SlRVVHFmVWF0b183b240VmVzMUk4ejJlaTViWjAwb2dGYWZaUkFiMU92cWpNbFBXNVZSdVUydG5rT3ExM2lvbjVjQmdseFhCNERnbzI0V2NELThjOGM3S3NPOE9uRm41Mk5yT1E5X19mWktIWi1NSGVlUUFoTTJ1VDg4c1Z4emc1NG1SSFRkMDJnQjg4NWdyZVRyZE1sSFZwS0FOelBIODJ2Q3BkOHplOFJhRVRUNkpRczVsdWM0a3AxMnk0NGFXQWNQdTNEaWZIOXZfRlZETzloNmJlYkE0NWxTaGwxVtIB0gJBVV95cUxOOGdpZm5CT0pqQnpRam5nN1lwSWhaWGhkZ0ZlZmNkMUZzd3FZaGFGdVFQQTRHNHNGaXlIU1ZxMHBLb1d4Qkh1VXJUNUdXSnZSZ3dMVFE3TmhXZTdIcmRvR3ZROHhzd3U5T1BsT2hQZ3hkbDJwb2Juc3pxQThEWFBxQnJ5QjJsZlptT0NWM05BNUJlOVBDNkZiNWV4RWpHdzFtUTFuNXBxQ3BSNmVaVFQ1bTdWdkRnTkU3S0ZZcHN1Q1oxbVlPaGhFYURXQXRWYm1NWjAwMnF6MWdOUDdLNHFJTWlweVhvWFdHanltaXN6dWFlM3NnMWE2cTNOM0ppU0ZPT1RJVU9OVUNmVnBxdW93T1FJZmRSdDFXdkEwZEFTelJhOUxuMkcxRVl3RGx4clBBN1hSQU9SZ1I5NnVxdWZDUUhtcXRpb1I3NFN5MnVEaUozUQ?oc=5",
@@ -21748,7 +21746,7 @@
       "language": "en",
       "category": "security",
       "tag": "INTERCEPTION REPORT",
-      "provider": "Google News · regional",
+      "provider": "Google News · missiles/drones",
       "first_seen_at": "2026-10-20T12:09:48.504938Z",
       "date_quality": "publisher-time",
       "freshness": "older-reporting",
@@ -24589,6 +24587,31 @@
       "provider": "عربي · الإمارات والبحرين",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "6df264a43f4803d464219aca",
+      "title": "السعودية والإمارات تدينان الهجمات الإيرانية على البحرين والكويت والأردن وتؤكدان دعمهما لأمن الدول الشقيقة - الساحل الغربي",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBITGlFa05BRWUwWDUwVzhPWlZFaC1yQ0RmMUxpMXZLUF9neHYtZ0lmdFRmQk4ta0VWT1hRZ25YVFlRdENrajdBcTQ2OVdFYmM?oc=5",
+      "source": "الساحل الغربي",
+      "published_at": "2026-10-16T03:25:46Z",
+      "country": "",
+      "countries": [
+        "Iran",
+        "Saudi",
+        "Bahrain"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير امني",
+      "provider": "عربي · الإمارات والبحرين",
+      "first_seen_at": "2026-10-20T16:54:36.300300Z",
+      "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -35298,17 +35321,17 @@
     "Google News · missiles/drones": {
       "ok": true,
       "items": 100,
-      "relevant": 77
+      "relevant": 76
     },
     "Google News · security": {
       "ok": true,
       "items": 100,
-      "relevant": 73
+      "relevant": 72
     },
     "Google News · aviation": {
       "ok": true,
-      "items": 89,
-      "relevant": 83
+      "items": 88,
+      "relevant": 82
     },
     "Google News · shipping": {
       "ok": true,
@@ -35318,17 +35341,17 @@
     "Google News · diplomacy": {
       "ok": true,
       "items": 100,
-      "relevant": 51
+      "relevant": 54
     },
     "Google News · regional": {
       "ok": true,
-      "items": 55,
-      "relevant": 29
+      "items": 27,
+      "relevant": 15
     },
     "Reuters · indexed Gulf reporting": {
       "ok": true,
       "items": 100,
-      "relevant": 32
+      "relevant": 31
     },
     "AP · indexed Gulf reporting": {
       "ok": true,
@@ -35337,7 +35360,7 @@
     },
     "UKMTO · indexed official advisories": {
       "ok": true,
-      "items": 11,
+      "items": 10,
       "relevant": 0
     },
     "US State Dept · indexed advisories": {
@@ -35352,7 +35375,7 @@
     },
     "عربي · قطر": {
       "ok": true,
-      "items": 56,
+      "items": 57,
       "relevant": 25
     },
     "عربي · السعودية": {
@@ -35363,17 +35386,17 @@
     "عربي · الإمارات والبحرين": {
       "ok": true,
       "items": 61,
-      "relevant": 46
+      "relevant": 45
     },
     "عربي · الكويت والعراق": {
       "ok": true,
-      "items": 49,
-      "relevant": 46
+      "items": 52,
+      "relevant": 49
     },
     "عربي · مضيق هرمز": {
       "ok": true,
       "items": 100,
-      "relevant": 75
+      "relevant": 76
     },
     "عربي · الجزيرة": {
       "ok": true,
@@ -35383,12 +35406,12 @@
     "عربي · العربية": {
       "ok": true,
       "items": 100,
-      "relevant": 37
+      "relevant": 33
     },
     "عربي · الشرق": {
       "ok": true,
       "items": 100,
-      "relevant": 33
+      "relevant": 31
     },
     "عربي · وكالات الخليج": {
       "ok": true,
