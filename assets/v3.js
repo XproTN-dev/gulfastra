@@ -15,7 +15,7 @@ const s={reports:[],providers:{},last_run:null,chosenCountry:"",search:"",hours:
 const $=id=>document.getElementById(id);
 function txt(x){return String(x??"").replace(/[&<>"']/g,ch=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch]))}
 function fmtDate(v){let d=new Date(v);return isNaN(d)?"Unknown":d.toLocaleString(undefined,{month:"short",day:"numeric",hour:"2-digit",minute:"2-digit"})}
-function fmtFull(v){let d=new Date(v);return isNaN(d)?"Unknown":d.toLocaleString(undefined,{dateStyle:"medium",timeStyle:"medium",timeZoneName:"short"})}
+function fmtFull(v){let d=new Date(v);return isNaN(d)?"Unknown":d.toLocaleString(undefined,{year:"numeric",month:"short",day:"numeric",hour:"2-digit",minute:"2-digit",timeZoneName:"short"})}
 function age(v){let t=new Date(v).getTime();if(!Number.isFinite(t))return"UNKNOWN TIME";let m=Math.max(0,Math.floor((Date.now()-t)/60000));return m<1?"JUST NOW":m<60?m+"M AGO":m<1440?Math.floor(m/60)+"H AGO":Math.floor(m/1440)+"D AGO"}
 function notify(message){let e=$("toast");e.textContent=message;e.classList.add("show");clearTimeout(notify.timer);notify.timer=setTimeout(()=>e.classList.remove("show"),3600)}
 function countryOptions(){let c=$("country");for(let [id,v]of Object.entries(GEOGRAPHY)){let o=document.createElement("option");o.value=id;o.textContent=v.label;c.appendChild(o)}}
