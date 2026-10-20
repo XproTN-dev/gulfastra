@@ -12,7 +12,7 @@ import os
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = Path(os.environ.get("GULFASTRA_DATA_DIR", str(ROOT / "data")))
-FILES = ("reports.json", "events.json", "revisions.json", "observations.json")
+FILES = ("reports.json", "events.json", "revisions.json", "observations.json", "alerts.json")
 
 def make_manifest(folder):
     files = {}
