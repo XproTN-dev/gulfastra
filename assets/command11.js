@@ -18,6 +18,11 @@ const raw=()=>({
  allEvents:C.asArray(S.files["events.json"]?.events),
  allObs:C.asArray(S.files["observations.json"]?.observations),
  allAlerts:C.asArray(S.files["alerts.json"]?.alerts),
+ allAdvisories:C.asArray(S.files["advisories.json"]?.items),
+ allSocial:C.asArray(S.files["social.json"]?.posts),
+ supplementalSources:S.files["advisories.json"]?.sources||{},
+ socialSource:S.files["social.json"]?.source||{state:"not-collected"},
+ aviationSnapshot:S.files["advisories.json"]?.aviation_snapshot||null,
  providers:S.files["reports.json"]?.providers||{},
  new_alert_ids:C.asArray(S.files["alerts.json"]?.new_alert_ids),
  alerts:C.asArray(S.files["alerts.json"]?.alerts),
@@ -39,7 +44,14 @@ function filtered(){
   reports:reports.filter(r=>related(r.title)),
   events:events.filter(e=>related(e.title)||C.asArray(e.sources).some(r=>related(r.title))),
   observations:C.selectObs(data.allObs,f),
-  alerts:C.selectAlerts(data.allAlerts,f)};
+  alerts:C.selectAlerts(data.allAlerts,f),
+  advisories:data.allAdvisories.filter(a=>C.within(a.published_at,f.hours,f.asof)&&
+    (!f.country||String(a.title||"").toLowerCase().includes((C.COUNTRY[f.country]?.label||f.country).toLowerCase()))&&
+    (!f.query||String(a.title||"").toLowerCase().includes(f.query.toLowerCase()))),
+  social:data.allSocial.filter(p=>C.within(p.published_at,f.hours,f.asof)&&
+    (!f.country||String(p.text||"").toLowerCase().includes((C.COUNTRY[f.country]?.label||f.country).toLowerCase()))&&
+    (!f.query||String(p.text||"").toLowerCase().includes(f.query.toLowerCase()))),
+  };
 }
 function healthy(){
  const t=C.dt(S.manifest?.collected_at);
@@ -48,7 +60,9 @@ function healthy(){
 }
 function elapsed(){return S.manifest?.collected_at?C.age(S.manifest.collected_at):"UNAVAILABLE"}
 function viewContext(){return {tab:S.tab,workspace:S.workspace,channel:S.channel,quality:S.manifest?.quality_gate||"unknown",
- delayed:!healthy(),collected:S.manifest?.collected_at||null,hours:S.hours,filter:filter()}}
+ delayed:!healthy(),collected:S.manifest?.collected_at||null,hours:S.hours,filter:filter(),
+ supplementalSources:raw().supplementalSources,socialSource:raw().socialSource,
+ aviationSnapshot:raw().aviationSnapshot}}
 function paintClock(){
  $("utc").textContent=new Date().toLocaleTimeString("en-GB",{hour:"2-digit",minute:"2-digit",timeZone:"UTC"})+" UTC";
  if(!S.replay)S.asof=Date.now();
