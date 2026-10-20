@@ -1,7 +1,7 @@
 # موجز جلفاسترا للمصادر العلنية
 الفترة: آخر 24 ساعة (حسب وقت نشر التقارير)
 
-مجموعات التغطية: 153 | عناوين مرتبطة: 179
+مجموعات التغطية: 152 | عناوين مرتبطة: 178
 هذه تقارير صحفية وليست أحداثا مؤكدة، ولا تعتبر توجيهات سلامة رسمية.
 
 ## Security (86 coverage groups)
@@ -38,7 +38,7 @@
 - Iran war live: Houthi attack on Yemen military camp kills 58 - Arabian Business (1 headlines; single-source)
   - Arabian Business: https://news.google.com/rss/articles/CBMigwFBVV95cUxNeGVzSjhrbUhOTTctX0ViTkJTRnFEZnkwNTJQR3gySTJRQlk3aXNwenJ2Qk1DejVYcF84dmF4WDFPd2xKRzEwazEtOEdOb05OOFhJaXZQVTd3R2lDRHdGbTgtM1JSSEMxeFN5OTlLc0tLNE55MHlHRDZNU3lOVFBDaTJwQQ?oc=5
 
-## Transport (48 coverage groups)
+## Transport (47 coverage groups)
 - UAE flight status today: Saudi disruptions and full list of delays, cancellations - Gulf News (1 headlines; single-source)
   - Gulf News: https://news.google.com/rss/articles/CBMiygFBVV95cUxQcXJoME9Ic29uaThXRzZXZHdaUDNmazJ4OWVOcXhxVDN5dW1iaTFwd0g4RVJpNG1ORWhNdVFPSjU4Q1prT2stRjRBVzJEN2xrS3ZwYlhkVG1NVEE0MGJnMjB3S2R6Wi1feGl0MlBFM3hnTERKZ05SdHJKY3VyazI3cktxek9yTlRWNlI4UFMtZDhIbUZnbjV4Z1A3VjgzNFk5Zk95NF9NWTFzVUxtVWtoYXRNeTRTNVpqNEh4WEdLWUl1WHdJRV9IbmhB?oc=5
 - Riyadh Airport reopens: Saudi flights status, refunds update here - Pakistan Connect (1 headlines; single-source)

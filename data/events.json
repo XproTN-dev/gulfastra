@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "generated_at": "2026-10-20T07:34:17.146880Z",
+  "generated_at": "2026-10-20T07:35:48.589714Z",
   "model": "deterministic-source-correlation-v1",
   "disclaimer": "Clusters are related PUBLIC REPORTS, not confirmed incidents. Source counts are not proof. Country names are mentions, not incident locations.",
   "events": [
@@ -20650,7 +20650,7 @@
     },
     {
       "id": "GF-825ED56C1A3A18",
-      "title": "إيران تنفي الاتهامات السعودية بالضلوع في هجمات الحوثيين.. وتعرض الوساطة بين الرياض والجماعة - Euronews.com",
+      "title": "إيران تنفي الاتهامات السعودية بالضلوع في هجمات الحوثيين.. وتعرض الوساطة بين الرياض والجماعة - Euronews",
       "category": "security",
       "topic": "regional",
       "countries": [
@@ -20675,9 +20675,9 @@
       "sources": [
         {
           "id": "3ff7fb3b6117def30a6d76ab",
-          "title": "إيران تنفي الاتهامات السعودية بالضلوع في هجمات الحوثيين.. وتعرض الوساطة بين الرياض والجماعة - Euronews.com",
+          "title": "إيران تنفي الاتهامات السعودية بالضلوع في هجمات الحوثيين.. وتعرض الوساطة بين الرياض والجماعة - Euronews",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSGVjV0Q1MTlicFZjWUM4ZHF1S3NoQ2NtcmZLbEgxWWxqMEh0T3EtS3FjWXFVTEZtT3BGejU3eUZ4R0lXT1hJZzJBZThuOGM2cWNUaWpRQUpsTTFzZUJnZWFCSnY0N1JsTm5VcHV6MEhoRnBYNDZ3Sm1pdjBPcEs5R0hfVkVIeW5ZVkNQbTBqYUs5a2E4SzNWa19JWlpYTGxoOHRJ?oc=5",
-          "source": "Euronews.com",
+          "source": "Euronews",
           "provider": "عربي · إيران والخليج",
           "published_at": "2026-10-16T16:52:58Z",
           "collected_at": null,
@@ -20685,9 +20685,9 @@
           "country": ""
         }
       ],
-      "digest": "59d8915c8c3c24c27c3a",
-      "revision": 1,
-      "updated_at": "2026-10-20T07:28:07.135706Z"
+      "digest": "17525dead4cb623fcab5",
+      "revision": 2,
+      "updated_at": "2026-10-20T07:35:48.589714Z"
     },
     {
       "id": "GF-33DEA297B05CE8",
@@ -24812,6 +24812,45 @@
       "digest": "ed15966a88a0a42becef",
       "revision": 1,
       "updated_at": "2026-10-20T07:28:07.135706Z"
+    },
+    {
+      "id": "GF-8CD158C4FD94BB",
+      "title": "السعودية تعلن اعتراض هجوم باتجاه المدينة المنورة والحوثيون ينفون تنفيذه - عرب 48",
+      "category": "security",
+      "topic": "interception",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-15T18:06:00Z",
+      "last_published": "2026-10-15T18:06:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "c17fe20f9e1c6680981d1cf1",
+          "title": "السعودية تعلن اعتراض هجوم باتجاه المدينة المنورة والحوثيون ينفون تنفيذه - عرب 48",
+          "url": "https://news.google.com/rss/articles/CBMihAVBVV95cUxOZkZxeG1Cako2bGFLT29iMlZCQ00zN1BNR0ViNjRpYXg2ZVUtU243UkVWeVBJNng5LXkwLWNGdGZMeFdhUGFpNmZwaXZYY3hpLVMxS0R2UDRLT3ZMdTlWRmdhU0RScEptbnkzODBEbC1FQk5NaWpaTDNFT1E0UWZaMXE3OUxQZy1vTWpOWEc2Sm1GalpPdWZ0TUEyMFBUdTgtVlI2ZVNIUldzQzJjbTRlNUVKelpXWWthRDNqUW15RnJJMTdMYVZOd3BCWVpscEQzV0ZaaWpSVTZYRHVCVVN0LWpFNk1zbFpBSjRPYmpmM0xZMm9ucWV5M2EyczhvcjlMbnIxMTdZTjlSLVJjRnAxdlc3Z3lzdUlTRHB2b09NSHVvQTJPZDdfVmc2SWxtWmhHdHBaMnVJY3VlNzd4OTVHNEMzSi1xMEhacFdfMXZQTnQ0Z1dENUQ0SFhrNUVybUNaZjNJQ0pIaXZNeEd4VjFkWC1kWXg5ZnRqQmkyal9ic0FNTmdoeHAyVnRweEthRHRObFFETnNINTJVZEFTc1hVLTd6cGpOVmhkdVMyTjAtM29UamNjMDdtNmxONC1QSzdaal9xOVlVRkdVbGUxaXRJbXJfOGNRZ3pTVTNtWFNlQlhRZ1lFemtPV0tETGlMcXQxdjVJS0dUam9YV2JRamFCZEVvRlJYNzduaEhrSjdLLVJ2OGVvLW9tdmsySmp4TW1ubmFHUXBaSDRka1BaYXUwSlFYeDVmRjA3RTd5NElCeDAwa1JPZXhPb3lFYzVYVGNwMzNPWm52ZWpwY1JOVi1JZ0VnNDNxWG9ITkFvV2RZaUk5THp5czBBYjFLM01xMUM0RDU0ddIBigVBVV95cUxPaGU4T01nanNBaFVYNjhITzZNQjJPVl9IUUJEREFJMjR0aXpiZ1lDQ1RLWW9zMXZ1VERtX1lQOU5SVWZVZzFoeWstd19fZlh1QnMwbmV1RmthcDJFakRrd2drTWhrYzV0dWJDVGxCU2RIUUhKN3F5ejVXQWtEa3ZYUEduQ1JiUVNqeDlpaHBPRzcwbDFhc2NGbFNRbHY2OGhqSk14X0NjVjFBcWlsaU8zTjNvUmE2VkdWR0NreFdqbzRYM0ZSdnFXOFVGS09xSWc0cXMtMFM5UFJhc09pNVltZkJ0UVE2Q3FSc1Z5VTBXbWJNSWZzdjJoUzIwSFBZNURwdjhVNG10Zi1TOG9ZdDVHU2d4RjRzdDlqRERHMkQza1VueXBqU0VXLTk4cV9tb294Vk9iMS1sSEdtLVFWTDdkOTJZSTY2b1lBamdVQnpyVnZPRDlvb2tseEoxMjFKcmpEV0s2eHdhZHlzdGRBNGh1NFV2VWNkQmdxS3JrSlNXa25pYW5kRUZBVnRnNzE4ckxtVElKQjRSazFsem5URzFwYlRCUW1NeXJ0ZGFHTVdaMzhUSHNmSEJyX2x0V1JVN0Q1cW9PNlZXY01xbnJsZzNFX3B6LVZRUDl6WFhJcjNzY3NUQ0JhbzJvUWdkdGlHcndia09wRmVXSUwtb3BKTW9ZQ251X1hpUjVodXc4am5IemxnNHJuQklISUExcTRyZHhkSmtDYkVzNmJiOVdrQXNGRUNGMloyX3E2OTZLS3d0dmc3Uk5JZUdsYUkyTFp2R19XZ2tjV01LVURsNDN3WUszZjJFc2tIRmVRVTB2Q3NGb1YxSFlHSDZKY2xRcXhEY2RyRm1DU2t0RmU3UQ?oc=5",
+          "source": "عرب 48",
+          "provider": "عربي · السعودية",
+          "published_at": "2026-10-15T18:06:00Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Saudi"
+        }
+      ],
+      "digest": "c2bffc903b504f4a6ffb",
+      "revision": 1,
+      "updated_at": "2026-10-20T07:35:48.589714Z"
     },
     {
       "id": "GF-F7D389805CE475",
@@ -35663,12 +35702,12 @@
       "reports": 426,
       "security_coverage": 185,
       "transport_coverage": 98,
-      "sources": 175
+      "sources": 174
     },
     "Saudi": {
-      "events": 264,
-      "reports": 283,
-      "security_coverage": 181,
+      "events": 265,
+      "reports": 284,
+      "security_coverage": 182,
       "transport_coverage": 70,
       "sources": 145
     },
@@ -35736,7 +35775,7 @@
     "2026-10-12": 1,
     "2026-10-13": 81,
     "2026-10-14": 113,
-    "2026-10-15": 103,
+    "2026-10-15": 104,
     "2026-10-16": 101,
     "2026-10-17": 165,
     "2026-10-18": 125,
@@ -35745,17 +35784,9 @@
   },
   "revisions": [
     {
-      "id": "GF-FEFDEE84343B18",
+      "id": "GF-825ED56C1A3A18",
       "revision": 2,
-      "at": "2026-10-20T07:34:17.146880Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-B09D0E6ED840BC",
-      "revision": 2,
-      "at": "2026-10-20T07:34:17.146880Z",
+      "at": "2026-10-20T07:35:48.589714Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
