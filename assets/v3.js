@@ -11,7 +11,7 @@ transport:{name:"Airspace / shipping reports",short:"TRANSPORT",color:"#f8ba70"}
 diplomacy:{name:"Diplomacy / sanctions",short:"DIPLOMACY",color:"#59cef4"},
 other:{name:"Other regional reporting",short:"REGIONAL",color:"#b1a3ff"}
 };
-const s={reports:[],providers:{},last_run:null,chosenCountry:"",search:"",hours:24,mode:"all",enabled:new Set(Object.keys(CATEGORIES)),map:null,mapReady:false,markers:[],bright:false,loadedOnce:false,alertPermission:false,shown:[],lastSeen:null};
+const s={reports:[],providers:{},last_run:null,chosenCountry:"",search:"",hours:24,mode:"all",language:"all",enabled:new Set(Object.keys(CATEGORIES)),map:null,mapReady:false,markers:[],bright:false,loadedOnce:false,alertPermission:false,shown:[],lastSeen:null};
 const $=id=>document.getElementById(id);
 function txt(x){return String(x??"").replace(/[&<>"']/g,ch=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch]))}
 function fmtDate(v){let d=new Date(v);return isNaN(d)?"Unknown":d.toLocaleString(undefined,{month:"short",day:"numeric",hour:"2-digit",minute:"2-digit"})}
@@ -23,9 +23,11 @@ function categoryControls(){let root=$("layers");root.innerHTML=Object.entries(C
 root.addEventListener("click",e=>{let b=e.target.closest("[data-layer]");if(!b)return;let key=b.dataset.layer;if(s.enabled.has(key))s.enabled.delete(key);else s.enabled.add(key);b.classList.toggle("off",!s.enabled.has(key));b.setAttribute("aria-pressed",String(s.enabled.has(key)));b.querySelector("em").textContent=s.enabled.has(key)?"✓":"–";$("layerCount").textContent=s.enabled.size+" OF 4 ON";render()})}
 function initMap(){
  if(typeof maplibregl==="undefined"){$("mapLoad").textContent="Map library unavailable. Reports remain accessible below.";return}
+ try{maplibregl.setRTLTextPlugin("https://unpkg.com/@mapbox/mapbox-gl-rtl-text@0.3.0/dist/mapbox-gl-rtl-text.js",true).catch(err=>console.warn("Map RTL text plugin unavailable",err))}catch(err){console.warn("Map RTL setup skipped",err)}
  try{
   s.map=new maplibregl.Map({container:"map",style:"https://tiles.openfreemap.org/styles/fiord",center:[49.4,26.7],zoom:4.6,minZoom:3,maxZoom:13,renderWorldCopies:false,attributionControl:true});
   s.map.addControl(new maplibregl.NavigationControl({showCompass:false}),"bottom-right");
+  window.__gulfastraMap=s.map; window.__gulfastraGeography=GEOGRAPHY;
   s.map.on("load",()=>{s.mapReady=true;$("mapLoad").classList.add("off");plot()});
   let fallback=false;
   s.map.on("error",e=>{if(!s.mapReady&&!fallback){fallback=true;s.map.setStyle("https://tiles.openfreemap.org/styles/liberty")}else if(!s.mapReady){$("mapLoad").innerHTML="Map tiles unavailable. News and filters remain usable."}});
@@ -33,12 +35,12 @@ function initMap(){
 }
 function centerMap(){if(s.map)s.map.flyTo({center:[49.4,26.7],zoom:4.6,duration:900})}
 function clearPins(){s.markers.forEach(m=>m.remove());s.markers=[]}
-function plot(){if(!s.mapReady||!s.map)return;clearPins();let groups={};for(let r of filtered()){if(!GEOGRAPHY[r.country])continue;(groups[r.country]??=[]).push(r)}for(let [country,list]of Object.entries(groups)){let color=list.some(x=>x.category==="security")?"#ff687a":list.some(x=>x.category==="transport")?"#f8ba70":"#59cef4";
-let node=document.createElement("button");node.className="country-pin";node.style.setProperty("--pin-color",color);node.type="button";node.title=list.length+" news reports mention "+country+"; click to filter";node.setAttribute("aria-label",node.title);node.innerHTML='<span class="pin-number">'+list.length+'</span><span class="pin-label">'+txt(GEOGRAPHY[country].label)+'</span>';
+function plot(){if(!s.mapReady||!s.map)return;clearPins();let groups={};for(let r of filtered()){const mentions=Array.isArray(r.countries)&&r.countries.length?r.countries:(r.country?[r.country]:[]);for(const country of mentions){if(GEOGRAPHY[country])(groups[country]??=[]).push(r)}}for(let [country,list]of Object.entries(groups)){let color=list.some(x=>x.category==="security")?"#ff687a":list.some(x=>x.category==="transport")?"#f8ba70":"#59cef4";
+let node=document.createElement("button");node.className="country-pin";node.dataset.country=country;node.style.setProperty("--pin-color",color);node.type="button";node.title=list.length+" news reports mention "+country+"; click to filter";node.setAttribute("aria-label",node.title);node.innerHTML='<span class="pin-number">'+list.length+'</span><span class="pin-label">'+txt(GEOGRAPHY[country].label)+'</span>';
 node.addEventListener("click",()=>{s.chosenCountry=country;$("country").value=country;render();notify("Filtering reports mentioning "+country);if(window.innerWidth<=850)document.querySelector("#feedpanel").scrollIntoView({behavior:"smooth"})});
 let marker=new maplibregl.Marker({element:node,anchor:"center"}).setLngLat(GEOGRAPHY[country].center).addTo(s.map);s.markers.push(marker)}
 $("mapCount").textContent=filtered().length}
-function filtered(){let low=s.hours?Date.now()-s.hours*3600000:0;return s.reports.filter(r=>s.enabled.has(CATEGORIES[r.category]?r.category:"other")&&(!s.chosenCountry||r.country===s.chosenCountry)&&(!s.search||[r.title,r.source,r.country].join(" ").toLowerCase().includes(s.search))&&(!low||(new Date(r.published_at).getTime()||0)>=low)).sort((a,b)=>new Date(b.published_at)-new Date(a.published_at))}
+function filtered(){let low=s.hours?Date.now()-s.hours*3600000:0;return s.reports.filter(r=>s.enabled.has(CATEGORIES[r.category]?r.category:"other")&&(!s.chosenCountry||r.country===s.chosenCountry||(Array.isArray(r.countries)&&r.countries.includes(s.chosenCountry)))&&(s.language==="all"||(r.language||(/[؀-ۿ]/.test(r.title)?"ar":"en"))===s.language)&&(!s.search||[r.title,r.source,r.country].join(" ").toLowerCase().includes(s.search))&&(!low||(new Date(r.published_at).getTime()||0)>=low)).sort((a,b)=>new Date(b.published_at)-new Date(a.published_at))}
 function visibleList(){let rows=filtered();return s.mode==="all"?rows:rows.filter(r=>s.mode==="security"?r.category==="security":r.category==="transport")}
 function updateMetrics(){
  $("mTotal").textContent=s.reports.length.toLocaleString();$("mSecurity").textContent=s.reports.filter(r=>r.category==="security").length;$("mTransport").textContent=s.reports.filter(r=>r.category==="transport").length;
@@ -64,7 +66,7 @@ function updateFeed(){
  let rawRows=visibleList(),rows=groupReports(rawRows);s.shown=rows;$("feedCount").textContent=rows.length;$("feedSummary").textContent=rows.length+" COVERAGE GROUPS FROM "+rawRows.length+" REPORTS";
  $("feed").innerHTML=rows.length?rows.slice(0,250).map((r,i)=>{
  let kind=CATEGORIES[r.category]||CATEGORIES.other;
- return '<article class="report" tabindex="0" role="button" data-report="'+i+'" aria-label="Open report"><div class="report-header"><span class="event-pill '+txt(r.category)+'">'+txt(r.tag||kind.short)+'</span><span class="report-age">'+txt(age(r.published_at))+'</span></div><h3>'+txt(r.title)+'</h3><div class="report-byline"><strong>'+txt(r.related.length>1?r.related.length+" RELATED HEADLINES":r.source||"News source")+'</strong><span>'+txt(r.country||"REGIONAL")+'</span></div></article>'}).join(""):'<div class="empty"><div class="empty-symbol">⌁</div><strong>No reports in this view</strong><p>Try ALL dates, another country, or clear your search. An empty result does not mean no incidents occurred.</p></div>';
+ return '<article class="report" tabindex="0" role="button" data-report="'+i+'" aria-label="Open report"><div class="report-header"><span class="event-pill '+txt(r.category)+'">'+txt(r.tag||kind.short)+'</span><span class="report-age">'+txt(age(r.published_at))+'</span></div><h3 dir="auto" lang="'+(r.language==="ar"?"ar":"en")+'">'+txt(r.title)+'</h3><div class="report-byline"><strong>'+txt(r.related.length>1?r.related.length+" RELATED HEADLINES":r.source||"News source")+'</strong><span>'+txt(r.country||"REGIONAL")+'</span></div></article>'}).join(""):'<div class="empty"><div class="empty-symbol">⌁</div><strong>No reports in this view</strong><p>Try ALL dates, another country, or clear your search. An empty result does not mean no incidents occurred.</p></div>';
  $("feed").querySelectorAll("[data-report]").forEach(node=>{let open=()=>showReport(rows[+node.dataset.report]);node.addEventListener("click",open);node.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();open()}})});
  $("alertUnread").textContent=s.reports.filter(r=>r.category==="security"&&Date.now()-new Date(r.published_at)<86400000).length;
 }
@@ -75,8 +77,8 @@ function showReport(r){
  if(!r)return;
  const related=r.related||[r],category=CATEGORIES[r.category]||CATEGORIES.other;
  const external=typeof r.url==="string"&&/^https:\/\//i.test(r.url)?r.url:"#";
- const links=related.length>1?'<p>'+related.length+' published headlines have similar wording. Similar headlines do not establish independent verification.</p><div class="panel-eyebrow">RELATED ARTICLE LINKS</div>'+related.map(item=>{const url=/^https:\/\//i.test(item.url||"")?item.url:"#";return '<div class="alert-card"><span>'+txt(item.source||"News outlet")+' · '+txt(fmtDate(item.published_at))+'</span><p><a href="'+txt(url)+'" target="_blank" rel="noopener noreferrer">'+txt(item.title)+' ↗</a></p></div>'}).join(""):"";
- const body='<h2>'+txt(r.title)+'</h2><div class="detail-grid"><div><small>NEWS OUTLET</small><strong>'+txt(r.source||"Not specified")+'</strong></div><div><small>MENTIONED COUNTRY</small><strong>'+txt(r.country||"Regional / uncertain")+'</strong></div><div><small>PUBLICATION DATE</small><strong>'+txt(fmtDate(r.published_at))+'</strong></div><div><small>VERIFICATION</small><strong>Unverified report</strong></div></div><p>This is a publicly indexed news headline, not an independently confirmed attack. Countries are general reference markers, not exact incident locations.</p><a class="open-source" href="'+txt(external)+'" target="_blank" rel="noopener noreferrer">OPEN ORIGINAL NEWS SOURCE ↗</a>'+links;
+ const links=related.length>1?'<p>'+related.length+' published headlines have similar wording. Similar headlines do not establish independent verification.</p><div class="panel-eyebrow">RELATED ARTICLE LINKS</div>'+related.map(item=>{const url=/^https:\/\//i.test(item.url||"")?item.url:"#";return '<div class="alert-card"><span dir="auto">'+txt(item.source||"News outlet")+' · '+txt(fmtDate(item.published_at))+'</span><p dir="auto"><a href="'+txt(url)+'" target="_blank" rel="noopener noreferrer">'+txt(item.title)+' ↗</a></p></div>'}).join(""):"";
+ const body='<h2 dir="auto">'+txt(r.title)+'</h2><div class="detail-grid"><div><small>NEWS OUTLET</small><strong>'+txt(r.source||"Not specified")+'</strong></div><div><small>MENTIONED COUNTRY</small><strong>'+txt(r.country||"Regional / uncertain")+'</strong></div><div><small>PUBLICATION DATE</small><strong>'+txt(fmtDate(r.published_at))+'</strong></div><div><small>VERIFICATION</small><strong>Unverified report</strong></div></div><p>This is a publicly indexed news headline, not an independently confirmed attack. Countries are general reference markers, not exact incident locations.</p><a class="open-source" href="'+txt(external)+'" target="_blank" rel="noopener noreferrer">OPEN ORIGINAL NEWS SOURCE ↗</a>'+links;
  setDrawer("PUBLIC REPORT / "+category.short,body);
 }
 function showAlerts(){let rows=s.reports.filter(r=>r.category==="security"&&Date.now()-new Date(r.published_at).getTime()<86400000).sort((a,b)=>new Date(b.published_at)-new Date(a.published_at)).slice(0,35);
@@ -90,13 +92,46 @@ function checkNewReports(){let latest=s.reports.filter(r=>r.category==="security
 try{const key="gulfastra-last-security";let previous=localStorage.getItem(key);if(previous&&s.loadedOnce&&new Date(latest.published_at).getTime()>new Date(previous).getTime()){notify("New security reporting is available");if(Notification.permission==="granted")new Notification("Gulfastra: new published security reporting",{body:"New source-linked headline(s). Not independently verified."})}if(!previous||new Date(latest.published_at)>new Date(previous))localStorage.setItem(key,latest.published_at)}catch(e){}}
 async function load(){try{const response=await fetch("data/reports.json?time="+Date.now(),{cache:"no-store"});if(!response.ok)throw new Error("HTTP "+response.status);let data=await response.json();if(!Array.isArray(data.reports))throw Error("Invalid dataset schema");s.reports=data.reports;s.last_run=data.last_run;s.providers=data.providers||{};checkNewReports();s.loadedOnce=true;render()}catch(e){$("feed").innerHTML='<div class="empty"><strong>Published archive unavailable</strong><p>'+txt(e.message)+'. Source collection is independent of this browser.</p></div>';$("freshness").textContent="FETCH ERROR";$("headerUpdated").textContent="ARCHIVE UNAVAILABLE";notify("Unable to load published reports")}}
 function toggleFilters(open){$("controlpanel").classList.toggle("open",open);$("backdrop").hidden=!open&&!$("drawer").classList.contains("open")}
+
+function languageTabs(){
+ $("languageTabs").addEventListener("click",e=>{
+  const b=e.target.closest("[data-lang]");if(!b)return;
+  s.language=b.dataset.lang; $("languageTabs").querySelectorAll("button").forEach(x=>x.classList.toggle("active",x===b));
+  render();notify(s.language==="ar"?"عرض الأخبار العربية":s.language==="en"?"English reporting":"All languages");
+ });
+}
+function linkCard(title,url,description){
+ return '<a class="discovery-link" href="'+txt(url)+'" target="_blank" rel="noopener noreferrer"><strong dir="auto">'+txt(title)+' ↗</strong><small dir="auto">'+txt(description)+'</small></a>';
+}
+function showNabd(){
+ const links=[
+ ["نبض — الأخبار العاجلة","https://nabd.com/category/877-227ac9/عاجل","أخبار مجمّعة من مصادر متعددة"],
+ ["نبض — السعودية","https://nabd.com/category/4-93ad90/","أخبار السعودية من ناشرين محليين"],
+ ["نبض — مصادر الأخبار العربية","https://nabd.com/","البحث عن المصادر والناشرين"],
+ ["الجزيرة نت","https://www.aljazeera.net/","مصدر عربي مباشر"],
+ ["العربية","https://www.alarabiya.net/","متابعة الأخبار الخليجية مباشرة"],
+ ["وكالة الأنباء القطرية","https://qna.org.qa/ar-QA/","بيانات وأخبار رسمية قطرية"]
+ ];
+ setDrawer("NABD / GULF PUBLISHER DISCOVERY",'<h2 dir="auto">مصادر أخبار الخليج — نبض</h2><p dir="auto">نبض يجمع أخبار الناشرين. هذه روابط للبحث والتحقق من الناشر الأصلي؛ لا ندّعي امتلاك وصول مباشر لواجهة برمجة خاصة بتطبيق نبض. الأخبار العربية في Gulfastra تأتي من RSS وفهارس Google News العربية.</p>'+links.map(x=>linkCard(...x)).join(""));
+}
+function showXWatch(){
+ const searches=[
+ ["بحث عربي: إيران والخليج","(إيران OR الخليج OR السعودية OR قطر) (صواريخ OR مسيرات OR اعتراض)"],
+ ["بحث عربي: مضيق هرمز","(هرمز OR الخليج) (ناقلات OR سفن OR ملاحة)"],
+ ["English: Gulf reporting","(Iran OR Saudi OR Qatar OR Bahrain) (missile OR drone OR airspace)"],
+ ["Official-account discovery","(QNA OR SPA OR WAM OR CENTCOM) Gulf Iran"]
+ ];
+ const html='<h2>X / PUBLIC POST WATCH</h2><p>Open current public X searches directly in X. The free Gulfastra site cannot automatically retrieve X posts through the official paid API; these are external searches, not a live embedded ingestion feed. Posts are unverified until corroborated.</p>'+searches.map(([title,q])=>linkCard(title,"https://x.com/search?q="+encodeURIComponent(q)+"&f=live","Open public X search · Latest")).join("");
+ setDrawer("X / SOCIAL SOURCE DISCOVERY",html);
+}
 function setupEvents(){
+languageTabs();$("openNabd").onclick=showNabd;$("openXWatch").onclick=showXWatch;
 categoryControls();countryOptions();$("country").onchange=e=>{s.chosenCountry=e.target.value;if(s.map){let c=GEOGRAPHY[s.chosenCountry];if(c)s.map.flyTo({center:c.center,zoom:5.5});else centerMap()}render();if(window.innerWidth<=850)toggleFilters(false)};
 $("search").oninput=e=>{s.search=e.target.value.toLowerCase().trim();render()};
 $("windows").addEventListener("click",e=>{let b=e.target.closest("[data-hours]");if(!b)return;s.hours=+b.dataset.hours;$("windows").querySelectorAll("button").forEach(x=>x.classList.toggle("active",x===b));render()});
 $("feedTabs").addEventListener("click",e=>{let b=e.target.closest("[data-mode]");if(!b)return;s.mode=b.dataset.mode;$("feedTabs").querySelectorAll("button").forEach(x=>x.classList.toggle("active",x===b));updateFeed()});
 $("mapRecenter").onclick=centerMap;$("mapStyle").onclick=()=>{if(!s.map)return;s.bright=!s.bright;s.mapReady=false;$("mapLoad").classList.remove("off");s.map.setStyle("https://tiles.openfreemap.org/styles/"+(s.bright?"liberty":"fiord"));s.map.once("style.load",()=>{s.mapReady=true;$("mapLoad").classList.add("off");plot()});$("mapStyle").textContent=s.bright?"◈ FIORD MAP":"◈ LIGHT MAP"};
-$("sync").onclick=()=>{load();notify("Checking published data…")};$("refreshFromPanel").onclick=load;$("showAll").onclick=()=>{s.chosenCountry="";$("country").value="";s.search="";$("search").value="";s.hours=0;$("windows").querySelectorAll("button").forEach(b=>b.classList.toggle("active",b.dataset.hours==="0"));s.mode="all";$("feedTabs").querySelectorAll("button").forEach(b=>b.classList.toggle("active",b.dataset.mode==="all"));render();notify("All archived reports shown")};
+$("sync").onclick=()=>{load();notify("Checking published data…")};$("refreshFromPanel").onclick=load;$("showAll").onclick=()=>{s.chosenCountry="";$("country").value="";s.search="";$("search").value="";s.hours=0;$("windows").querySelectorAll("button").forEach(b=>b.classList.toggle("active",b.dataset.hours==="0"));s.mode="all";s.language="all";$("languageTabs").querySelectorAll("button").forEach(b=>b.classList.toggle("active",b.dataset.lang==="all"));$("feedTabs").querySelectorAll("button").forEach(b=>b.classList.toggle("active",b.dataset.mode==="all"));render();notify("All archived reports shown")};
 $("alertToggle").onclick=showAlerts;$("openHelp").onclick=showHelp;$("drawerClose").onclick=closeDrawer;$("closeLayers").onclick=()=>toggleFilters(false);$("backdrop").onclick=()=>{closeDrawer();toggleFilters(false)};
 document.querySelectorAll("[data-mobile]").forEach(b=>b.onclick=()=>{document.querySelectorAll("[data-mobile]").forEach(x=>x.classList.toggle("active",x===b));let to=b.dataset.mobile;if(to==="filters")toggleFilters(true);if(to==="reports")$("feedpanel").scrollIntoView({behavior:"smooth"});if(to==="map")$("mapColumn").scrollIntoView({behavior:"smooth"});if(to==="alerts")showAlerts()});
 document.addEventListener("keydown",e=>{if(e.key==="Escape"){closeDrawer();toggleFilters(false)}});
