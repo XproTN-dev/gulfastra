@@ -12,7 +12,7 @@ import os
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = Path(os.environ.get("GULFASTRA_DATA_DIR", str(ROOT / "data")))
-FILES = ("reports.json", "events.json", "revisions.json", "observations.json", "alerts.json")
+FILES = ("reports.json", "events.json", "revisions.json", "observations.json", "alerts.json", "collector_health.json")
 
 def make_manifest(folder):
     files = {}
@@ -29,6 +29,10 @@ def make_manifest(folder):
         fused = json.loads((folder / "events.json").read_text("utf-8"))
     except (ValueError, OSError):
         fused = {}
+    try:
+        health = json.loads((folder / "collector_health.json").read_text("utf-8"))
+    except (ValueError, OSError):
+        health = {}
     feeds = report.get("providers") or {}
     items = report.get("reports") or []
     latest = max((i.get("published_at", "") for i in items), default="")
@@ -46,6 +50,9 @@ def make_manifest(folder):
         "healthy_sources": sum(v.get("ok") is True for v in feeds.values()),
         "failed_sources": sum(v.get("ok") is False for v in feeds.values()),
         "collection_success": any(v.get("ok") is True for v in feeds.values()),
+        "quality_gate": health.get("quality_gate", "unknown"),
+        "alerts_available": health.get("alerts_available", False),
+        "collection_state": health.get("collection_state", "unknown"),
         "source_count": len(feeds),
         "files": files,
         "precision_note": "Publication and collector timestamps are different. Data is public reporting, not confirmed incidents."
