@@ -66,6 +66,18 @@ function paintMetrics(){
   $("freshnessUpdates").textContent=S.newlyIndexed>0?
     "+"+S.newlyIndexed+" NEWLY INDEXED ARTICLES":"BEST-EFFORT 5-MIN TARGET · NOT REAL-TIME";
  }
+ const newsAge=$("mobileNewsAge"),batchAge=$("mobileBatchAge");
+ if(newsAge&&batchAge){
+  const published=m?.latest_article_published_at;
+  const validPub=Number.isFinite(C.dt(published));
+  const ageMinutes=validPub?Math.max(0,(Date.now()-C.dt(published))/60000):Infinity;
+  newsAge.textContent=validPub?C.age(published):"UNKNOWN";
+  newsAge.classList.toggle("delay",!ok||ageMinutes>60);
+  newsAge.title="Latest source article published at "+(published||"unknown")+
+   ". This is NOT the incident time or real-time streaming.";
+  batchAge.textContent="COLLECTED "+elapsed();
+  batchAge.title="Last successfully completed GitHub Actions feed collection";
+ }
  $("metricChannel").textContent=S.channel==="live"?"GITHUB DATA":S.channel==="fallback"?"BUNDLED SNAPSHOT":"DEGRADED DATA";
  $("metricChannelSub").textContent=S.warning||"GITHUB ACTIONS / PERIODIC FETCH";
  $("metricReports").textContent=d.reports.length.toLocaleString();
