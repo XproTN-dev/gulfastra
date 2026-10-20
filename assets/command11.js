@@ -5,7 +5,7 @@ const C=root.GXCore,M=root.GXMap,V=root.GXStream,E=root.GXExtras,$=id=>document.
 if(!C||!M||!V||!E){document.body.textContent="GULFASTRA module failed to load.";return}
 const KEY="gulfastra-x-v11";
 const defaults={workspace:"global",region:"global",country:"",topic:"all",hours:72,asof:Date.now(),replay:false,
- layers:{observed:true,fires:false,outages:false,coverage:false,reference:true},
+ layers:{observed:true,advisories:true,fires:false,outages:false,coverage:false,reference:true},
  tab:"priority",theme:"midnight",language:"en",mapStyle:"fiord",globe:false,watchlist:[],query:""};
 const previous=C.loadState(KEY,{});
 const S={...defaults,...previous,layers:{...defaults.layers,...previous.layers},asof:Date.now(),replay:false,
@@ -145,7 +145,7 @@ function render(){
  stream.scrollTop=sameTab?position:0;
  S.lastRenderedTab=S.tab;
  timeline();
- M.update({observations:d.observations,reports:d.reports,layers:S.layers,country:S.country});
+ M.update({observations:d.observations,advisories:d.advisories,reports:d.reports,layers:S.layers,country:S.country});
 }
 function period(hours){
  S.hours=hours;S.asof=Date.now();S.replay=false;$("timelineScrub").value=100;store();render();
