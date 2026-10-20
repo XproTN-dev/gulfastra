@@ -233,7 +233,12 @@ function setup(){
  $("zoomIn").onclick=()=>M.zoom(1);
  $("zoomOut").onclick=()=>M.zoom(-1);
  $("dossierClose").onclick=V.hideDossier;$("dossierBackdrop").onclick=V.hideDossier;
- $("stream").onclick=e=>{const el=e.target.closest("[data-open]");if(el)V.showDossier(el.dataset.open,el.dataset.id)};
+ $("stream").onclick=e=>{
+  const action=e.target.closest("[data-action]");
+  if(action?.dataset.action==="load-x-timelines"){V.loadXTimelines();return}
+  const el=e.target.closest("[data-open]");
+  if(el)V.showDossier(el.dataset.open,el.dataset.id);
+ };
  $("dossierContent").onclick=e=>{
   const f=e.target.closest("[data-filter-country]");if(f){S.country=f.dataset.filterCountry;V.hideDossier();store();render();return}
   const el=e.target.closest("[data-open]");if(el)V.showDossier(el.dataset.open,el.dataset.id);
