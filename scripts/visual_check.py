@@ -25,10 +25,10 @@ with sync_playwright() as pw:
         mapcanvas=page.locator(".maplibregl-canvas").count()
         if label=="mobile":
             assert page.locator(".mobile-nav").is_visible(),"Mobile navigation missing"
-            page.get_by_role("button",name="FILTERS").click()
+            page.locator('[data-mobile="filters"]').click()
             assert page.locator("#controlpanel").evaluate("(node)=>node.classList.contains('open')"),"Filters drawer failed"
-            page.get_by_role("button",name="Close filters").click()
-        page.screenshot(path=str(OUT/f"{label}.png"),full_page=True)
+            page.locator("#closeLayers").click()
+        assert count > 0,f"{label} report cards not rendered despite {total} archived reports"\n        page.screenshot(path=str(OUT/f"{label}.png"),full_page=True)
         print(label,"reported_count=",total,"visible_articles=",count,"mapcanvas=",mapcanvas,"pageerrors=",errors[:5])
         assert mapcanvas==1,"MapLibre canvas missing"
         assert not errors,"JavaScript errors: "+" ; ".join(errors)
