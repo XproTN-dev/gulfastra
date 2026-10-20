@@ -9,6 +9,22 @@ const esc=x=>String(x??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&
 const validURL=x=>/^https:\/\//i.test(x||"")?x:"#";
 const shortTime=x=>{const d=new Date(x);return Number.isFinite(+d)?d.toLocaleString(undefined,{month:"short",day:"numeric",hour:"2-digit",minute:"2-digit"}):"UNKNOWN"};
 const age=x=>{const t=Date.now()-new Date(x).getTime();if(!Number.isFinite(t))return"UNKNOWN";const m=Math.max(0,Math.floor(t/60000));return m<1?"JUST NOW":m<60?m+"M":m<1440?Math.floor(m/60)+"H":Math.floor(m/1440)+"D"};
+const ageLong=x=>{const t=Date.now()-new Date(x).getTime();if(!Number.isFinite(t))return"TIME UNKNOWN";const m=Math.max(0,Math.floor(t/60000));return m<1?"LESS THAN 1 MIN AGO":m<60?m+" MIN AGO":m<1440?Math.floor(m/60)+" HR AGO":Math.floor(m/1440)+" DAY AGO"};
+function headline(record){
+ const raw=String(record?.title||"").trim(),source=String(record?.source||"").trim();
+ const match=raw.match(/^(.+?)\s+[-—|]\s+([^—|]+)$/u);
+ if(!match||!source)return raw;
+ const clean=x=>x.toLowerCase().replace(/^www\./,"").replace(/[^\p{L}\p{N}]/gu,"");
+ const suffix=clean(match[2]),origin=clean(source);
+ return suffix&&origin&&(suffix===origin||suffix===origin.replace(/com$|net$|org$/,""))?match[1].trim():raw;
+}
+function maritimeRelevant(record){
+ const t=headline(record).toLowerCase();
+ const specific=/strait of hormuz|hormuz strait|مضيق\s*هرمز|مضيق\s*باب\s*المندب|bab.el.mandeb/i;
+ const water=/shipping|tanker|vessel|merchant ship|maritime|port (?:closure|operations|traffic)|sea lane|naval blockade|commercial shipping|ship traffic|حركة\s*السفن|الشحن\s*البحري|الملاحة|الناقلات|ناقلة|السفن|سفينة|ميناء|موانئ|الموانئ|البحر\s*الاحمر|البحر\s*العربي/i;
+ const region=/hormuz|الخليج|هرمز|gulf|iran|إيران|ايران|qatar|قطر|bahrain|البحرين|oman|عمان|emirates|الإمارات|saudi|السعودية|red sea|البحر\s*الأحمر|yemen|اليمن|kuwait|الكويت/i;
+ return specific.test(t)||(water.test(t)&&region.test(t));
+}
 const state={reports:[],events:[],sources:{},manifest:null,windows:new Map(),sequence:100,newsLimit:28,country:"",currentMode:"map",palette:"phosphor",lastError:null};
 const names={
  wire:{title:"PUBLIC INTELLIGENCE WIRE",icon:"▤",foot:"ORIGINAL PUBLISHED HEADLINES · UNVERIFIED"},
@@ -24,9 +40,12 @@ function health(){
  const ok=provider.filter(([,v])=>v?.ok===true).length;
  const status=window.GulfastraData?.info()||{};
  const manifest=status.manifest||state.manifest;
- const channel=status.channel==="data-branch"?"PUBLIC GITHUB DATA":status.channel==="static-fallback"?"BUNDLED SNAPSHOT":status.channel==="cached-branch"?"CACHED DATA":"CHECKING DATA";
- $("v9DataStatus").textContent=channel+" / "+ok+"/"+provider.length+" SOURCES / "+(manifest?.collected_at?age(manifest.collected_at):"COLLECTING");
- $("v9TickerAge").textContent=manifest?.latest_article_published_at?"NEWEST "+age(manifest.latest_article_published_at):"DATA CHECKING";
+ const versions=status.dataVersions||{};
+ const fromBranch=Object.values(versions).some(v=>v&&v!=="bundled-fallback");
+ const channel=fromBranch?"PUBLIC GITHUB DATA":status.channel==="cached-branch"?"CACHED DATA":status.channel==="static-fallback"?"BUNDLED SNAPSHOT":"CONNECTING DATA";
+ const stale=manifest?.collected_at&&(Date.now()-new Date(manifest.collected_at).getTime()>20*60000);
+ $("v9DataStatus").textContent=(stale?"DELAYED · ":"")+channel+" / "+ok+"/"+provider.length+" SOURCES / "+(manifest?.collected_at?ageLong(manifest.collected_at):"COLLECTING");
+ $("v9TickerAge").textContent=manifest?.latest_article_published_at?"ARTICLE "+ageLong(manifest.latest_article_published_at):"ARTICLE TIME UNKNOWN";
  $("v9DataStatus").title="Source: "+channel+". Data timestamp: "+(manifest?.collected_at?shortTime(manifest.collected_at):"pending")+". Not live weapon tracking.";
 }
 function ticker(){
@@ -38,13 +57,12 @@ function ticker(){
   seen.add(key);items.push(r);
   if(items.length>=12)break;
  }
- const html=items.map(r=>'<a dir="auto" target="_blank" rel="noopener noreferrer" href="'+esc(validURL(r.url))+'">'+esc(r.title)+' <small>['+esc(r.source||"SOURCE")+']</small></a>').join("");
+ const html=items.map(r=>'<a dir="auto" target="_blank" rel="noopener noreferrer" href="'+esc(validURL(r.url))+'">'+esc(headline(r))+' <small>['+esc(r.source||"SOURCE")+']</small></a>').join("");
  $("v9TickerItems").innerHTML=html?html+html:'AWAITING PUBLIC SOURCE REPORTING';
 }
 function filteredNews({maritime=false,alerts=false}={}){
- const maritimeTerms=/hormuz|strait|tanker|shipping|vessel|maritime|naval|port|harbor|هرمز|مضيق|ملاحة|ناقلات|سفن|السفن|ميناء|موانئ/i;
  return state.reports.filter(r=>(!state.country||(r.countries||[r.country]).includes(state.country))&&
- (!maritime||maritimeTerms.test(r.title||""))&&(!alerts||r.category==="security")&&
+ (!maritime||maritimeRelevant(r))&&(!alerts||r.category==="security")&&
  (!alerts||Date.now()-new Date(r.published_at).getTime()<86400000))
  .sort((a,b)=>new Date(b.published_at)-new Date(a.published_at));
 }
@@ -52,7 +70,7 @@ function newsItem(r){
  const rtl=r.language==="ar"||/[\u0600-\u06ff]/.test(r.title||"");
  return '<article class="v9-news"><div class="v9-news-top"><span class="v9-tag">'+esc((r.category||"REGIONAL").toUpperCase())+'</span>'+
  '<span>'+esc(age(r.published_at))+'</span><span>◉ '+esc(r.country||"REGIONAL")+'</span></div>'+
- '<h3 dir="'+(rtl?"rtl":"ltr")+'">'+esc(r.title)+'</h3>'+
+ '<h3 dir="'+(rtl?"rtl":"ltr")+'">'+esc(headline(r))+'</h3>'+
  '<span class="v9-news-source" dir="auto">'+esc(r.source||"Published outlet")+'</span> '+
  '<a href="'+esc(validURL(r.url))+'" target="_blank" rel="noopener noreferrer">READ ORIGINAL ↗</a></article>';
 }
@@ -76,15 +94,29 @@ function panelContent(type){
  }
  if(type==="verify"){
   const events=state.events.filter(e=>!state.country||(e.countries||[]).includes(state.country)).slice(0,40);
-  return '<p>Related published sources are grouped for review. These are NOT independently confirmed incidents.</p>'+
-    events.map(e=>'<article class="v9-news"><div class="v9-news-top"><span class="v9-tag">'+esc(e.category||"SOURCE")+'</span>'+
-    '<span>'+esc(e.report_count)+" ARTICLES · "+esc(e.publisher_count)+' OUTLETS</span></div><h3 dir="auto">'+esc(e.title)+'</h3>'+
-    '<small class="v9-news-source">'+esc((e.countries||[]).join(", "))+'</small></article>').join("")+
-    '<button class="v9-lab-button" data-v9-action="verify-full">OPEN COMPLETE EVIDENCE WORKBENCH ↗</button>';
+  const entries=events.map(e=>{
+    const sourceList=Array.isArray(e.sources)?e.sources:[];
+    const publisherNames=new Set(sourceList.map(x=>String(x.source||"").trim().toLowerCase()).filter(Boolean));
+    const publishers=publisherNames.size||Number(e.publisher_count)||0;
+    const headlineCount=sourceList.length||Number(e.report_count)||0;
+    const attribution=publishers>0?publishers+" NAMED OUTLET"+(publishers>1?"S":""):"ORIGIN UNAVAILABLE";
+    const review=e.wording_review?.review_required?'<span class="v9-tag v9-warning">WORDING REVIEW</span>':"";
+    const links=sourceList.filter(x=>/^https:\/\//i.test(x.url||"")).slice(0,5).map(x=>
+      '<a href="'+esc(validURL(x.url))+'" target="_blank" rel="noopener noreferrer">'+esc(x.source||"ORIGINAL ARTICLE")+' ↗</a>').join("");
+    return '<article class="v9-news v9-verify"><div class="v9-news-top"><span class="v9-tag">'+
+      esc((e.category||"SOURCE").toUpperCase())+'</span><span>'+headlineCount+
+      ' REPORT'+(headlineCount===1?"":"S")+' · '+esc(attribution)+'</span>'+review+'</div><h3 dir="auto">'+
+      esc(headline(e))+'</h3><small class="v9-news-source">'+esc((e.countries||[]).join(", ")||"REGIONAL")+
+      ' · '+esc(e.corroboration||"UNVERIFIED")+'</small><div class="v9-verify-links">'+
+      (links||'<span>Source URLs not present in this record</span>')+'</div></article>';
+  });
+  return '<p>Source-linked candidate coverage groups. Article volume does not prove independent confirmation.</p>'+
+   (entries.length?entries.join(""):'<div class="v9-empty">No candidate coverage records available for this filter.</div>')+
+   '<button class="v9-lab-button" data-v9-action="verify-full">OPEN COMPLETE EVIDENCE WORKBENCH ↗</button>';
  }
  if(type==="hormuz"){
   const a=filteredNews({maritime:true});
-  return '<p>GULF SHIPPING & STRAIT COVERAGE / '+a.length+' SOURCE HEADLINES<br>Not direct AIS or official UKMTO ingestion.</p>'+
+  return '<p>GULF MARITIME KEYWORD MATCHES / '+a.length+' ARTICLES<br>These are candidate maritime reports, not verified incidents or live AIS/UKMTO data.</p>'+
    (a.length?a.slice(0,35).map(newsItem).join(""):'<div class="v9-empty">No maritime headlines match current filters.</div>')+
    '<a class="v9-lab-button" href="https://www.ukmto.org/" target="_blank" rel="noopener noreferrer">UKMTO ORIGINAL BULLETINS ↗</a>';
  }
