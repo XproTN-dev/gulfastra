@@ -122,19 +122,51 @@ async function request(url,ms=9500){
   if(!response.ok)throw Error("HTTP "+response.status);return await response.json();
  }finally{clearTimeout(clock)}
 }
-async function load(){
- let manifest=null,status="live",warning="";
+async function load(previous={}){
+ let manifest=null,status="live",warning="",changed=false;
+ const cached=previous.files||{},priorManifest=previous.manifest||null;
  try{
   manifest=await request(REPO+"live-manifest.json?time="+now(),7500);
-  if(manifest.schema!==7||manifest.channel!=="github-intelligence-data"||!manifest.files)throw Error("Invalid branch manifest");
- }catch(error){status="fallback";warning="GitHub data branch unavailable: "+error.message}
+  if(manifest.schema!==7||manifest.channel!=="github-intelligence-data"||!manifest.files)
+   throw Error("Invalid branch manifest");
+ }catch(error){
+  status=priorManifest?"partial":"fallback";
+  warning="GitHub manifest unavailable: "+error.message;
+  // Preserve last known source-backed data instead of replacing with an old
+  // bundled snapshot on transient network outages. Mark it degraded.
+  manifest=priorManifest;
+ }
  const files={};
  await Promise.all(FILES.map(async name=>{
-  const uri=manifest?.files?.[name]?.sha256?REPO+name+"?v="+manifest.files[name].sha256:null;
-  if(uri){try{files[name]=await request(uri);return}catch(e){warning+="; "+name+" branch fetch failed";status="partial"}}
-  try{files[name]=await request(FALLBACK+name,6000)}catch(e){files[name]={};status="partial";warning+="; "+name+" unavailable"}
+  const hash=manifest?.files?.[name]?.sha256;
+  const previousHash=priorManifest?.files?.[name]?.sha256;
+  if(hash&&previousHash===hash&&cached[name]){
+   files[name]=cached[name];return;
+  }
+  if(hash){
+   try{
+    files[name]=await request(REPO+name+"?v="+encodeURIComponent(hash));
+    changed=true;return;
+   }catch(error){
+    status="partial";warning+="; "+name+" fetch failed";
+   }
+  }
+  if(cached[name]){
+   files[name]=cached[name];return;
+  }
+  try{
+   files[name]=await request(FALLBACK+name,6000);
+   status=status==="live"?"partial":status;
+   warning+="; "+name+" bundled fallback";
+   changed=true;
+  }catch(error){
+   files[name]={};
+   status="partial";
+   warning+="; "+name+" unavailable";
+  }
  }));
- return {manifest,files,status,warning,checkedAt:new Date().toISOString()};
+ return {manifest,files,status,warning,changed,
+  checkedAt:new Date().toISOString()};
 }
 root.GXCore={REPO,FALLBACK,FILES,COUNTRY,FACILITIES,dt,now,esc,validUrl,age,date,sourceName,safeText,asArray,num,within,countryOk,queryOk,dedupReports,latestEvidence,selectReports,selectEvents,relevance,selectObs,selectAlerts,coords,geojson,observedPoints,countryCoverage,staticFacilities,timeline,loadState,store,request,load};
 })(window);
