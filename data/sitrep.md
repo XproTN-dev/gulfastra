@@ -1,9 +1,11 @@
 # Gulfastra | Open-source situation report
 Window: last 24 hours (publication-based)
-Coverage groups: 219 | linked headlines: 239
+Coverage groups: 220 | linked headlines: 240
 IMPORTANT: Unverified published reporting; not confirmed attacks or official safety advice.
 
-## Security (152 coverage groups)
+## Security (153 coverage groups)
+- وزير الدفاع البريطاني: مقاتلات تايفون ستنفذ عمليات دفاع جوي فوق السعودية - صدى البلد (1 headlines; single-source)
+  - صدى البلد: https://news.google.com/rss/articles/CBMiR0FVX3lxTE9wU2lzLUYwN051Z3ViNXdZazFhWUNaRUxrWkYtcFVkWDctTVJibzkwUWVSMU1vZTBkX0trQjJIczcyZG93Ti0w?oc=5
 - UK to deploy jets to defend Saudi Arabia from Houthi attacks (1 headlines; single-source)
   - BBC Middle East RSS: https://www.bbc.co.uk/news/articles/ckr5yqe1r1llo?at_medium=RSS&at_campaign=rss
 - مقاتلات تايفون البريطانية تستعد لحماية أجواء السعودية من الصواريخ والمسيّرات - موقع الدفاع العربي (1 headlines; single-source)
@@ -30,8 +32,6 @@ IMPORTANT: Unverified published reporting; not confirmed attacks or official saf
   - article.wn.com: https://article.wn.com/view/2026/10/20/Explained_Why_is_Egypt_discussing_military_involvement_in_Sa/
 - Saudi Arabia says it intercepted Houthi missile as blasts heard in Riyadh (1 headlines; single-source)
   - freemalaysiatoday.com: https://www.freemalaysiatoday.com/category/world/2026/10/20/saudi-arabia-says-it-intercepted-houthi-missile-as-blasts-heard-in-riyadh
-- Yemen war escalates with deadly Houthi strike on military recruits (1 headlines; single-source)
-  - middle-east-online.com: https://www.middle-east-online.com/en/yemen%E2%80%99s-war-escalates-deadly-houthi-strike-military-recruits
 
 ## Transport (43 coverage groups)
 - Yemen’s critically ill are trapped as war closes the country’s airports (1 headlines; single-source)
