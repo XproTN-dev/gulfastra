@@ -41,6 +41,26 @@ with sync_playwright() as pw:
             page.locator("#closeLayers").click()
         assert count > 0,f"{label} report cards not rendered despite {total} archived reports"
         assert "COVERAGE GROUPS" in page.locator("#feedSummary").inner_text(),"Coverage grouping missing"
+        # v6 regression checks: genuine highlights, dynamic status, themes and map sizing
+        page.wait_for_selector("#v6Briefs .intel-card",timeout=20000)
+        assert page.locator("#v6Briefs .intel-card").count()==3,"Source-linked news highlight rail did not populate"
+        assert page.locator("#headerUpdated").inner_text().startswith("COLLECTED"),"Collector time not distinct from headline date"
+        assert page.locator("#sourcebox .provider-list").is_hidden(),"Provider diagnostics should start condensed"
+        assert page.locator("#v6Theme").count()==1
+        page.locator("#v6Theme").click()
+        assert page.evaluate("document.body.dataset.gfTheme")=="obsidian","Theme selector failed to switch"
+        old_map_height=page.locator("#mapStage").bounding_box()["height"]
+        page.locator("#v6ExpandMap").click()
+        page.wait_for_timeout(400)
+        expanded_height=page.locator("#mapStage").bounding_box()["height"]
+        assert expanded_height>old_map_height+35,f"{label}: map expansion failed {old_map_height=} {expanded_height=}"
+        page.locator("#v6ExpandMap").click()
+        page.wait_for_timeout(400)
+        restored_height=page.locator("#mapStage").bounding_box()["height"]
+        assert abs(restored_height-old_map_height)<30,f"{label}: compact mode not restored"
+        if label=="desktop":
+            assert old_map_height < 0.47*height,f"Desktop map consumes too much height: {old_map_height}"
+        print(label,"compact_map_px",round(old_map_height),"expanded_px",round(expanded_height),"highlights",page.locator("#v6Briefs .intel-card").count())
         page.wait_for_selector("#fusionHealth",state="attached")
         assert page.locator('[data-gf-open="fusion"]').count() >= 1
         page.locator('[data-gf-open="fusion"]').first.click()
