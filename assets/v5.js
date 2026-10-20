@@ -39,4 +39,45 @@ controls()+'<section class="gf-card gf-sitrep" dir="'+(D.lang==="ar"?"rtl":"ltr"
 ["security","transport","diplomacy","other"].map(cat=>{let x=rec.filter(r=>r.category===cat).slice(0,18);if(!x.length)return"";return '<h3>'+cat.toUpperCase()+'</h3><ul>'+x.map(e=>'<li dir="auto"><strong>'+esc(e.title)+'</strong> <span class="gf-small">('+e.report_count+' reports; '+esc(e.corroboration)+')</span><p><a target="_blank" rel="noopener noreferrer" class="gf-source-link" href="'+esc(url(e.sources[0]?.url))+'">'+esc(e.sources[0]?.source||"Source")+' ↗</a></p></li>').join("")+'</ul>'}).join("")+
 '<p class="gf-notice">'+esc(disclaimer)+'</p></section>'}
 
+
+function parseQuery(input){
+const tokens=input.match(/(?:[^\s"]+|"[^"]*")+/g)||[];
+const q={words:[],error:[],country:"",type:"",lang:"",source:"",topic:"",after:0};
+for(let tok of tokens){let m=tok.match(/^([a-z]+):(.+)$/i);if(!m){q.words.push(tok.toLowerCase().replace(/^"|"$/g,""));continue}
+let key=m[1].toLowerCase(),v=m[2].toLowerCase().replace(/^"|"$/g,"");
+if(["country","type","lang","source","topic"].includes(key))q[key]=v;
+else if(key==="after"){let duration=v.match(/^(\d+)(h|d)$/);if(duration)q.after=+duration[1]*(duration[2]==="d"?24:1);else q.error.push("after: uses 24h or 7d")}
+else q.error.push("Unknown operator "+key)
+}return q
+}
+function queryMatches(query){
+let q=parseQuery(query);if(q.error.length)return {error:q.error.join("; "),records:[]};
+let records=D.events.filter(e=>{
+if(q.country&&!e.countries.some(x=>x.toLowerCase().includes(q.country)))return false;
+if(q.type&&e.category!==q.type)return false;
+if(q.lang&&!e.languages.includes(q.lang))return false;
+if(q.topic&&e.topic!==q.topic)return false;
+if(q.source&&!e.sources.some(x=>x.source.toLowerCase().includes(q.source)))return false;
+if(q.after&&since(e.last_published)>q.after)return false;
+let blob=[e.title,e.topic,e.category,...e.sources.map(x=>x.title)].join(" ").toLowerCase();
+return q.words.every(x=>blob.includes(x))
+});
+return {error:"",records};
+}
+function queryView(){
+let match=D.query?queryMatches(D.query):{error:"",records:D.events.slice(0,40)};
+D.queryResults=match.records;
+return title("Analyst query console","Structured, multilingual search across original published coverage.",
+'<button class="gf-control" data-act="export-query">↓ EXPORT CSV</button>')+
+'<section class="gf-card"><h4>QUERY OPERATORS</h4><form id="gfQueryForm" class="gf-querybox"><input class="gf-field" id="gfQueryInput" spellcheck="false" placeholder="country:Qatar type:security lang:ar after:7d" value="'+esc(D.query)+'"><button class="gf-control">EXECUTE ↵</button></form><p>country: · type:security/transport/diplomacy · lang:ar/en · source: · topic: · after:24h/7d · keywords</p></section>'+
+'<div class="gf-console">'+esc(match.error||"MATCHED "+match.records.length+" source-linked coverage groups.")+'</div><section class="gf-card"><h4>SEARCH RESULTS</h4>'+list(match.records,100)+'</section>'
+}
+function healthView(){
+let rows=Object.entries(D.reportHealth);
+return title("Source health & data provenance","Live source diagnostics and independent environmental provider statuses.")+
+kpis([["NEWS SOURCES",rows.length,"RSS and open news search"],["OK",rows.filter(([,v])=>v.ok===true).length,"Successful collectors"],["ERRORS",rows.filter(([,v])=>v.ok===false).length,"No simulated responses"],["OTHER FEEDS",D.obsHealth.length,"Natural context providers"]])+
+'<div class="gf-row"><section class="gf-card"><h4>NEWS</h4>'+rows.map(([name,v])=>'<div class="gf-signal"><span dir="auto">'+esc(name)+'</span>'+pill(v.ok?"OK · "+(v.relevant??v.items??0):"ERROR",v.ok?"good":"warn")+'</div>'+(v.error?'<p>'+esc(v.error)+'</p>':"")).join("")+'</section>'+
+'<section class="gf-card"><h4>INDEPENDENT OBSERVATIONS</h4>'+D.obsHealth.map(v=>'<div class="gf-signal"><span>'+esc(v.source)+'</span>'+pill(v.ok===true?"OK · "+v.count:v.ok===null?"NOT CONFIGURED":"ERROR",v.ok===true?"good":"warn")+'</div>'+(v.error?'<p>'+esc(v.error)+'</p>':"")).join("")+'<div class="gf-notice">Cloudflare Radar requires an authorized token and its noncommercial license must be respected.</div></section></div>'
+}
+
 })();
