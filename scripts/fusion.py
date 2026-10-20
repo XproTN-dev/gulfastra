@@ -158,6 +158,20 @@ def merge(articles):
     return groups
 
 
+def wording_flags(reports):
+    """Surface possible disagreement cues without interpreting truth or event identity."""
+    denial=("denies","denied","debunk","false claim","not true","نفى","ينفي","مزاعم كاذب","غير صحيح","مزيف")
+    affirmation=("confirms","confirmed","says","claims","announces","اعلن","أكد","يؤكد","صرح")
+    neg=[r["id"] for r in reports if any(w in normalize(r["title"]) for w in denial)]
+    pos=[r["id"] for r in reports if any(w in normalize(r["title"]) for w in affirmation)]
+    if neg and pos:
+        return {"potentially_divergent_wording":True,"review_required":True,
+                "note":"Automated opposing wording cues detected. Check original claims, context and timestamps; disagreement is NOT verified.",
+                "denial_cue_source_ids":neg[:10],"affirmation_cue_source_ids":pos[:10]}
+    return {"potentially_divergent_wording":False,"review_required":False,
+            "note":"No obvious opposing wording cues detected; absence is not corroboration."}
+
+
 def output_event(group):
     reports=group["items"]
     anchor=min(reports,key=lambda x:(x["published_at"],x["id"]))
@@ -179,6 +193,7 @@ def output_event(group):
         "topic":group["head"]["topic"],"countries":countries,"location_quality":"country-mention",
         "confidence":None,"claim_status":"not-independently-verified",
         "corroboration":corroboration,"cross_language_candidate":group["cross_language"],
+        "wording_review":wording_flags(reports),
         "languages":languages,"publisher_count":len(publishers),"report_count":len(reports),
         "first_published":first,"last_published":latest,
         "event_occurred_at":None, "verification_notes":"Related published headlines; editorial independence and underlying events not confirmed.",
