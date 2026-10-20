@@ -10,6 +10,7 @@ from datetime import datetime, timezone, timedelta
 from difflib import SequenceMatcher
 from hashlib import sha256
 from pathlib import Path
+from lifecycle import stage_event
 import json
 import os
 import re
@@ -118,6 +119,8 @@ def prepare(report):
         "title": title,
         "url": report.get("url", ""),
         "published_at": report.get("published_at"),
+        "date_quality": report.get("date_quality", "legacy-unverified"),
+        "first_seen_at": report.get("first_seen_at"),
         "collected_at": report.get("collected_at"),
         "source": report.get("source", "Unknown"),
         "publisher_key": publisher(report),
@@ -209,7 +212,7 @@ def output_event(group):
         "languages":languages,"publisher_count":len(publishers),"report_count":len(reports),
         "first_published":first,"last_published":latest,
         "event_occurred_at":None, "verification_notes":"Related published headlines; editorial independence and underlying events not confirmed.",
-        "sources":[{k:r.get(k) for k in ("id","title","url","source","provider","published_at","collected_at","language","country")} for r in reports]
+        "sources":[{k:r.get(k) for k in ("id","title","url","source","publisher_key","provider","published_at","date_quality","first_seen_at","collected_at","language","country")} for r in reports]
     }
 
 
@@ -227,6 +230,7 @@ def build(reports, previous=None):
     now=datetime.now(timezone.utc).isoformat().replace("+00:00","Z")
     for g in groups:
         event=output_event(g)
+        event.update(stage_event(event))
         old=prior.get(event["id"])
         d=digest_event(event)
         old_hash=old.get("digest") if old else None
@@ -249,7 +253,7 @@ def build(reports, previous=None):
         }
     daily=Counter(x["first_published"][:10] for x in events)
     return {
-        "schema":5,"generated_at":now,"model":"deterministic-source-correlation-v1",
+        "schema":5,"generated_at":now,"model":"deterministic-source-correlation-v2-coverage-lifecycle",
         "disclaimer":"Clusters are related PUBLIC REPORTS, not confirmed incidents. Source counts are not proof. Country names are mentions, not incident locations.",
         "events":events[:2400],"country_stats":country_stats,
         "daily_coverage":dict(sorted(daily.items())),"revisions":revisions
