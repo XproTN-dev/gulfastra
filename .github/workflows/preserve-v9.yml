@@ -1,0 +1,30 @@
+name: Preserve GULFASTRA v9 from immutable revision
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/preserve-v9.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Recover original v9 HTML from immutable Git history
+        run: |
+          git show d090b322913dab3cfed53f0dbb58a2746075bda3:index.html > legacy-v9.html
+          grep -q 'assets/v9.css' legacy-v9.html
+      - name: Save self-contained legacy entry document
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add legacy-v9.html
+          if ! git diff --cached --quiet; then
+            git commit -m "archive: preserve exact v9 HTML for rollback"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
