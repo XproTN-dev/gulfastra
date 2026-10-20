@@ -41,3 +41,24 @@ jobs:
           path: _site
       - id: deployment
         uses: actions/deploy-pages@v4
+      - name: Verify the actual public v11 route and legacy rollback return HTTP 200
+        run: |
+          set -euo pipefail
+          base="https://xprotn-dev.github.io/gulfastra"
+          ready=0
+          for attempt in $(seq 1 15); do
+            echo "Deployment HTTP check attempt $attempt"
+            if curl --fail --silent --show-error --location --max-time 12 "$base/command/" | grep -q "GULFASTRA X"; then
+              ready=1
+              break
+            fi
+            sleep 8
+          done
+          if [ "$ready" -ne 1 ]; then
+            echo "::error::Deployed command route is missing or not serving the v11 application."
+            exit 1
+          fi
+          curl --fail --silent --show-error --location --max-time 15 "$base/legacy-v9.html" | grep -q 'assets/v9.css'
+          curl --fail --silent --show-error --location --max-time 15 "$base/assets/command11.js" | grep -q 'GXApp'
+          echo "Live GitHub Pages v11 route, JS and v9 rollback verified"
+
