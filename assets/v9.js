@@ -25,12 +25,12 @@ function maritimeRelevant(record){
  const region=/hormuz|الخليج|هرمز|gulf|iran|إيران|ايران|qatar|قطر|bahrain|البحرين|oman|عمان|emirates|الإمارات|saudi|السعودية|red sea|البحر\s*الأحمر|yemen|اليمن|kuwait|الكويت/i;
  return specific.test(t)||(water.test(t)&&region.test(t));
 }
-const state={reports:[],events:[],sources:{},manifest:null,windows:new Map(),sequence:100,newsLimit:28,country:"",currentMode:"map",palette:"phosphor",lastError:null,renderSignature:null};
+const state={reports:[],events:[],sources:{},manifest:null,windows:new Map(),sequence:100,newsLimit:28,country:"",currentMode:"map",palette:"phosphor",lastError:null,renderSignature:null,alerts:[],newAlertIds:[],alertFeedVersion:null};
 const names={
  wire:{title:"PUBLIC INTELLIGENCE WIRE",icon:"▤",foot:"ORIGINAL PUBLISHED HEADLINES · UNVERIFIED"},
  verify:{title:"EVIDENCE & VERIFICATION",icon:"◈",foot:"SOURCE CORRELATION IS NOT INCIDENT CONFIRMATION"},
  hormuz:{title:"HORMUZ / MARITIME WATCH",icon:"≋",foot:"PUBLIC MARITIME HEADLINES · NOT VESSEL TELEMETRY"},
- alerts:{title:"SECURITY REPORTING",icon:"◇",foot:"HEADLINE ALERTS ONLY · NOT EMERGENCY GUIDANCE"},
+ alerts:{title:"CRITICAL REPORTING WATCH",icon:"◇",foot:"UNVERIFIED PUBLIC CLAIMS · NOT OFFICIAL SAFETY WARNINGS"},
  sources:{title:"SOURCE HEALTH",icon:"⌁",foot:"PER-PROVIDER COLLECTION STATUS"},
  timeline:{title:"PUBLICATION TIMELINE",icon:"▥",foot:"PUBLICATION DATES · NOT EVENT OCCURRENCE"},
  lab:{title:"ANALYST LAB",icon:"⌘",foot:"SOURCE REVIEW · QUERY · REPLAY"}
@@ -59,6 +59,58 @@ function ticker(){
  }
  const html=items.map(r=>'<a dir="auto" target="_blank" rel="noopener noreferrer" href="'+esc(validURL(r.url))+'">'+esc(headline(r))+' <small>['+esc(r.source||"SOURCE")+']</small></a>').join("");
  $("v9TickerItems").innerHTML=html?html+html:'AWAITING PUBLIC SOURCE REPORTING';
+}
+function alertBadge(){
+ const critical=state.alerts.filter(a=>a.level==="critical-reporting"&&
+   (!state.country||(a.countries||[]).includes(state.country)));
+ const banner=$("v9CriticalBanner");
+ if(!banner)return;
+ banner.hidden=critical.length===0;
+ banner.textContent=critical.length?"◇ "+critical.length+" CRITICAL REPORTING":"";
+ banner.title="Unverified recently published reports; not live incident detection or emergency guidance";
+}
+function notifyNewAlerts(){
+ const channel=window.GulfastraData?.info()?.dataVersions?.["alerts.json"];
+ if(!channel||channel==="bundled-fallback"||document.hidden)return;
+ const ids=state.alerts.filter(a=>a.level==="critical-reporting").map(a=>a.id);
+ const key="gulfastra-alerts-seen-v1";
+ let previous=null;
+ try{previous=JSON.parse(localStorage.getItem(key)||"null")}catch(_){}
+ // First visit is a baseline, not a reason to issue a backlog notification.
+ if(!Array.isArray(previous)){
+  try{localStorage.setItem(key,JSON.stringify(ids.slice(0,300)))}catch(_){}
+  return;
+ }
+ const seen=new Set(previous),upcoming=state.alerts.filter(a=>
+  a.level==="critical-reporting"&&state.newAlertIds.includes(a.id)&&!seen.has(a.id));
+ try{localStorage.setItem(key,JSON.stringify([...new Set([...ids,...previous])].slice(0,300)))}catch(_){}
+ if(!upcoming.length)return;
+ if("Notification" in window&&Notification.permission==="granted"){
+  const top=upcoming[0];
+  new Notification("GULFASTRA · CRITICAL PUBLIC REPORTING",{
+    body:top.title.slice(0,180)+" · Unverified, check official guidance.",
+    tag:"gulfastra-report-"+top.id
+  });
+ }
+}
+function criticalContent(){
+ const filtered=state.alerts.filter(a=>!state.country||(a.countries||[]).includes(state.country));
+ const serious=filtered.filter(a=>a.level==="critical-reporting");
+ const watch=filtered.filter(a=>a.level!=="critical-reporting");
+ const entry=a=>{
+  const links=(a.source_urls||[]).filter(v=>/^https:\/\//i.test(v.url||""))
+   .map(v=>'<a href="'+esc(validURL(v.url))+'" target="_blank" rel="noopener noreferrer">'+esc(v.name||"SOURCE")+' ↗</a>').join(" ");
+  return '<article class="v9-news v9-critical-report"><div class="v9-news-top"><span class="v9-tag '+(a.level==="critical-reporting"?"v9-critical-level":"")+'">'+
+   esc(a.level==="critical-reporting"?"CRITICAL REPORTING":"REVIEW / SINGLE OUTLET")+'</span><span>'+esc(age(a.published_at))+'</span></div>'+
+   '<h3 dir="auto">'+esc(headline(a))+'</h3><p>'+esc(a.outlet_count||0)+' named outlets · '+esc((a.countries||[]).join(", ")||"REGIONAL")+
+   ' · PUBLIC CLAIM NOT VERIFIED</p><div class="v9-verify-links">'+links+'</div></article>';
+ };
+ const optIn=("Notification" in window&&Notification.permission!=="granted"&&Notification.permission!=="denied")?
+  '<button class="v9-lab-button" data-v9-action="notify-opt-in">ENABLE IN-TAB CRITICAL REPORT NOTIFICATIONS</button>':"";
+ return '<p>WARNING: These are newly published, keyword-screened public reports, NOT confirmed incidents, continuous detection, or emergency instructions. Old/historical/speculative headlines cannot trigger this alert feed. Collection is best-effort.</p>'+
+ optIn+'<h4>'+serious.length+' RECENT MULTI-OUTLET CANDIDATE'+(serious.length===1?"":"S")+'</h4>'+
+ (serious.length?serious.map(entry).join(""):'<div class="v9-empty">No qualifying critical public reporting in the latest two-hour window.</div>')+
+ (watch.length?'<h4>'+watch.length+' SINGLE-OUTLET ITEMS REQUIRING REVIEW</h4>'+watch.slice(0,12).map(entry).join(""):"");
 }
 function filteredNews({maritime=false,alerts=false}={}){
  return state.reports.filter(r=>(!state.country||(r.countries||[r.country]).includes(state.country))&&
@@ -122,11 +174,7 @@ function panelContent(type){
    (a.length?a.slice(0,35).map(newsItem).join(""):'<div class="v9-empty">No maritime headlines match current filters.</div>')+
    '<a class="v9-lab-button" href="https://www.ukmto.org/" target="_blank" rel="noopener noreferrer">UKMTO ORIGINAL BULLETINS ↗</a>';
  }
- if(type==="alerts"){
-  const a=filteredNews({alerts:true});
-  return '<p>Security-classified reporting published within 24 hours, not verified warnings. Use official local emergency services for safety guidance.</p>'+
-   (a.length?a.slice(0,28).map(newsItem).join(""):'<div class="v9-empty">No security-classified published headlines in this window.</div>');
- }
+ if(type==="alerts")return criticalContent();
  if(type==="sources"){
   const providers=Object.entries(state.sources||{});
   return '<p>'+providers.filter(([,p])=>p.ok===true).length+' OF '+providers.length+' SOURCES SUCCEEDED AT LAST COLLECTION. Browser data channel: '+
@@ -206,6 +254,9 @@ function ensurePanel(type){
   if(dispatch[action]){document.querySelector('[data-gf-open="'+dispatch[action]+'"]')?.click();return}
   if(action==="more"){state.newsLimit+=35;panel.querySelector(".v9-panel-body").innerHTML=panelContent("wire")}
   if(action==="refresh")reload();
+  if(action==="notify-opt-in"&&"Notification" in window&&Notification.permission==="default"){
+   Notification.requestPermission().then(()=>{panel.querySelector(".v9-panel-body").innerHTML=panelContent("alerts")});
+  }
  });
  return panel;
 }
@@ -249,15 +300,22 @@ function filterToggle(){
 async function reload(){
  if(!window.GulfastraData)return;
  try{
-  const [reports,events]=await Promise.allSettled([window.GulfastraData.get("reports.json"),window.GulfastraData.get("events.json")]);
+  const [reports,events,alerts]=await Promise.allSettled([
+    window.GulfastraData.get("reports.json"),
+    window.GulfastraData.get("events.json"),
+    window.GulfastraData.get("alerts.json")]);
   if(reports.status==="fulfilled"){state.reports=reports.value.reports||[];state.sources=reports.value.providers||{}}
   if(events.status==="fulfilled")state.events=events.value.events||[];
+  if(alerts.status==="fulfilled"){
+    state.alerts=alerts.value.alerts||[];
+    state.newAlertIds=alerts.value.new_alert_ids||[];
+  }
   const info=window.GulfastraData.info();
   state.manifest=info?.manifest||null;
   const stamp=[info?.dataVersions?.["reports.json"]||"snapshot",info?.dataVersions?.["events.json"]||"snapshot",
-    state.reports.length,state.events.length,
+    info?.dataVersions?.["alerts.json"]||"snapshot",state.reports.length,state.events.length,
     state.reports[0]?.published_at||""].join("|");
-  health();
+  health();alertBadge();notifyNewAlerts();
   if(stamp!==state.renderSignature){
     state.renderSignature=stamp;
     ticker();syncPanels();
@@ -318,6 +376,7 @@ function registerMapPreview(){
 function bind(){
  document.querySelectorAll("[data-v9-panel]").forEach(b=>b.addEventListener("click",()=>togglePanel(b.dataset.v9Panel)));
  document.querySelectorAll("[data-v9-mode]").forEach(b=>b.addEventListener("click",()=>mapMode(b.dataset.v9Mode)));
+ $("v9CriticalBanner")?.addEventListener("click",()=>ensurePanel("alerts"));
  $("v9Tile")?.addEventListener("click",tilePanels);
  $("v9MobileTile")?.addEventListener("click",()=>{tilePanels();$("v9MobileMenu").hidden=true;$("v9MobileToolsButton").setAttribute("aria-expanded","false")});
  $("v9MobileToolsButton")?.addEventListener("click",()=>{
@@ -361,7 +420,7 @@ function bind(){
   if(map&&pos)map.easeTo({center:pos,zoom:Math.max(map.getZoom(),4.3),duration:450});
  },true);
  window.addEventListener("gulfastra:data-changed",e=>{
-  if(["reports.json","events.json"].includes(e.detail?.name))reload();
+  if(["reports.json","events.json","alerts.json"].includes(e.detail?.name))reload();
  });
  window.addEventListener("gulfastra:source",()=>{state.manifest=window.GulfastraData.info()?.manifest;health()});
  document.addEventListener("visibilitychange",()=>{if(!document.hidden)reload()});
