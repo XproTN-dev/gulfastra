@@ -62,9 +62,11 @@ with sync_playwright() as pw:
                   const map=window.__gulfastraMap,coords=window.__gulfastraGeography[country].center;
                   const expected=map.project(coords),a=el.getBoundingClientRect(),b=map.getContainer().getBoundingClientRect();
                   return {error:Math.hypot(a.left+a.width/2-b.left-expected.x,a.top+a.height/2-b.top-expected.y),
-                    hovered:getComputedStyle(el,'::before').transform!=='none',tooltip:!!document.querySelector('.v9-tooltip')};
+                    hovered:getComputedStyle(el,'::before').transform!=='none',
+                    tooltip:!!document.querySelector('.v9-tooltip'),
+                    countMatches:document.querySelector('.v9-tooltip')?.textContent.includes(el.querySelector('.pin-number').textContent.trim()+' MAP-FILTERED HEADLINES')===true};
                 }""",hover["country"])
-                assert moved["hovered"] and moved["error"]<6 and moved["tooltip"],f"Country circle jumps/flickers on hover: {moved}"
+                assert moved["hovered"] and moved["error"]<6 and moved["tooltip"] and moved["countMatches"],f"Country circle jumps or shows mismatched map count: {moved}"
             page.screenshot(path=str(OUT/"desktop-marker-hover.png"),full_page=True)
         assert page.evaluate("!!window.GulfastraData"),"Independent GitHub public-data branch client missing"
         page.locator('[data-v9-panel="wire"]:visible').first.click()
