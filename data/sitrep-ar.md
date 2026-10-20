@@ -1,10 +1,10 @@
 # موجز جلفاسترا للمصادر العلنية
 الفترة: آخر 24 ساعة (حسب وقت نشر التقارير)
 
-مجموعات التغطية: 290 | عناوين مرتبطة: 313
+مجموعات التغطية: 291 | عناوين مرتبطة: 314
 هذه تقارير صحفية وليست أحداثا مؤكدة، ولا تعتبر توجيهات سلامة رسمية.
 
-## Security (203 coverage groups)
+## Security (204 coverage groups)
 - Britain sends fighter jets to defend Saudi Arabia amid Houthi attacks - The Washington Post (1 headlines; single-source)
   - The Washington Post: https://news.google.com/rss/articles/CBMitgFBVV95cUxOdVRQWlNkZkR6eGRXb0ttcXVxY2hBNkZqWm93a0pveDAtdnBTODhVSHBWZS1seHFrRzAzdVo4V21WbEQtckVvS2hEX09VNWVuNGJqZXVXNnpyODJ6QkZmT3RhcU41VHFMYnFrUk5YV0k1aVVkX3duOVI1Mk1LQ1A0UkFtb2l0UW1sdUVQZUh3Wkw0X21YUWxINGZfeDFfdVhlbUplM0dIVGpMdXlDY0txb09GU2FuQQ?oc=5
 - Houthis attack besieged city in Yemen that UN says is at 'grave risk' - The Washington Post (1 headlines; single-source)
