@@ -1,8 +1,19 @@
 {
   "version": 3,
-  "last_run": "2026-10-20T06:28:10.408267Z",
-  "last_successful_run": "2026-10-20T06:28:10.408267Z",
+  "last_run": "2026-10-20T06:32:47.519310Z",
+  "last_successful_run": "2026-10-20T06:32:47.519310Z",
   "reports": [
+    {
+      "id": "2a265c0bb8e8f5635a9abfea",
+      "title": "Riyadh Airport reopens: Saudi flights status, refunds update here - Pakistan Connect",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE10QTNXTFdKRXBFeE5CNFFaY3VCa1ItbE1HVllWcDVlUkl6TXVnMHZVWVRTZjlBSkpETXBrSVNfY0RTRmV0NjIzWl95MjNINk9OUWpzUnFkMUZNSFh1UDJnR0JxZWE?oc=5",
+      "source": "Pakistan Connect",
+      "published_at": "2026-10-20T06:31:23Z",
+      "country": "Saudi",
+      "category": "transport",
+      "tag": "AVIATION REPORT",
+      "provider": "Google News · aviation"
+    },
     {
       "id": "961db4ebeff33241784e2927",
       "title": "US-Israel-Iran War Latest Live News: Iran Claims It Shot Down US MQ-9 Reaper Drone Over Strait of Hormuz, Says Tally of Downed American Drones Has Reached 54 - The Sunday Guardian",
@@ -948,6 +959,17 @@
       "category": "transport",
       "tag": "MARITIME REPORT",
       "provider": "Google News · shipping"
+    },
+    {
+      "id": "02d8ab97c62f46ce30588362",
+      "title": "Dubai and Middle East flight disruption: Riyadh's airport reopens but route cancellations continue - Condé Nast Traveller Middle East",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOZmFNSld0YVJBTmh5WVRZTXhtWXc2T0xMemdYRkM0RjNlVFBJR2hnN0RLNHJ0aFk1c3pLTWRFcjRxdkhSNzRUR3NpdzVDSHpoU2otWUl0d3lhY1RITDZNX082NkhFb1FOSGt2YmFWa0FFdlVvbEdha2lCcFRrZERlS29lMkpkM0VoeE9FM3o1RlVGZzk3UmtkY2t4Sm1hWVI3ZW5mRlhnSU91MXplOUdSV0t0NXo4TkFMZUlqaHZtUnFQVzZJUEluUm1sSkM?oc=5",
+      "source": "Condé Nast Traveller Middle East",
+      "published_at": "2026-10-19T07:43:13Z",
+      "country": "Saudi",
+      "category": "transport",
+      "tag": "AVIATION REPORT",
+      "provider": "Google News · aviation"
     },
     {
       "id": "df5e315fb48bfa15b4908827",
@@ -5431,7 +5453,7 @@
     "Google News · missiles/drones": {
       "ok": true,
       "items": 100,
-      "relevant": 57
+      "relevant": 59
     },
     "Google News · security": {
       "ok": true,
@@ -5440,22 +5462,22 @@
     },
     "Google News · aviation": {
       "ok": true,
-      "items": 93,
-      "relevant": 50
+      "items": 96,
+      "relevant": 53
     },
     "Google News · shipping": {
       "ok": true,
       "items": 100,
-      "relevant": 96
+      "relevant": 95
     },
     "Google News · diplomacy": {
       "ok": true,
       "items": 100,
-      "relevant": 43
+      "relevant": 40
     },
     "Google News · regional": {
       "ok": true,
-      "items": 57,
+      "items": 56,
       "relevant": 23
     },
     "BBC Middle East RSS": {
