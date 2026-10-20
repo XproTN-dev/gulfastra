@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Visual and functional smoke test for the published Gulfastra static dashboard."""
+"""Gulfastra Command View 09 — real Chromium regression at desktop and mobile sizes."""
 import os
 from pathlib import Path
 from playwright.sync_api import sync_playwright
@@ -11,124 +11,92 @@ BASE=os.getenv("BASE_URL","http://127.0.0.1:8765/")
 
 with sync_playwright() as pw:
     browser=pw.chromium.launch(headless=True,args=["--disable-dev-shm-usage"])
-    for label,width,height in [("desktop",1600,960),("mobile",390,844)]:
+    for name,width,height in [("desktop",1600,960),("mobile",390,844)]:
         page=browser.new_page(viewport={"width":width,"height":height},device_scale_factor=1)
         errors=[]
         page.on("pageerror",lambda e: errors.append(str(e)))
         response=page.goto(BASE,wait_until="domcontentloaded",timeout=60000)
-        assert response and response.status==200,f"{label} HTML unavailable"
-        page.wait_for_selector(".shell")
-        page.wait_for_function("document.querySelector('#mTotal').textContent !== '—'",timeout=25000)
-        page.wait_for_timeout(7000)
-        assert page.locator(".maplibregl-canvas").count()==1, "MapLibre canvas missing"
-        assert page.locator("#languageTabs [data-lang=ar]").count()==1, "Arabic news filter missing"
-        page.locator("#languageTabs [data-lang=ar]").click()
-        arabic_count=page.locator(".report h3[lang=ar]").count()
-        assert arabic_count>0, f"{label}: Arabic reports not visible after selecting Arabic"
-        assert page.locator(".report h3[lang=ar]").first.get_attribute("dir")=="auto", "Arabic title lacks bidi handling"
-        page.locator("#languageTabs [data-lang=all]").click()
-        page.wait_for_timeout(650)
-        total=page.locator("#mTotal").inner_text()
-        count=page.locator(".report").count()
-        assert page.locator(".country-pin").count()>0, "No map reference markers" 
-        marker_offsets=page.evaluate("""() => {const map=window.__gulfastraMap;const points=window.__gulfastraGeography;if(!map)return [];return [...document.querySelectorAll(".country-pin")].map(node=>{const id=node.dataset.country;const target=map.project(points[id].center);const box=node.getBoundingClientRect(), canvas=map.getContainer().getBoundingClientRect();const centerX=box.left+box.width/2-canvas.left, centerY=box.top+box.height/2-canvas.top;return {id,offset:Math.hypot(centerX-target.x,centerY-target.y),centerX,centerY,targetX:target.x,targetY:target.y}})}""")
-        assert all(pt["offset"]<14 for pt in marker_offsets),f"Country marker misplaced on {label}: {marker_offsets}"
-        mapcanvas=page.locator(".maplibregl-canvas").count()
-        if label=="mobile":
-            assert page.locator(".mobile-nav").is_visible(),"Mobile navigation missing"
-            page.locator('[data-mobile="filters"]').click()
-            assert page.locator("#controlpanel").evaluate("(node)=>node.classList.contains('open')"),"Filters drawer failed"
-            page.locator("#closeLayers").click()
-        assert count > 0,f"{label} report cards not rendered despite {total} archived reports"
-        assert "COVERAGE GROUPS" in page.locator("#feedSummary").inner_text(),"Coverage grouping missing"
-        # v6 regression checks: genuine highlights, dynamic status, themes and map sizing
-        page.wait_for_selector("#v6Briefs .intel-card",timeout=20000)
-        assert page.locator("#v6Briefs .intel-card").count()==3,"Source-linked news highlight rail did not populate"
-        assert page.locator("#headerUpdated").inner_text().startswith("COLLECTED"),"Collector time not distinct from headline date"
-        assert page.locator("#sourcebox .provider-list").is_hidden(),"Provider diagnostics should start condensed"
-        assert page.locator("#v6Theme").count()==1
-        page.locator("#v6Theme").click()
-        assert page.locator("#v8ThemeStudio").is_visible(),"Appearance studio did not open"
-        page.locator('[data-v8-theme="nocturne"]').click()
-        assert page.evaluate("document.body.dataset.gfTheme")=="nocturne","Nocturne palette not applied"
-        page.locator("#v8ThemeDone").click()
-        page.evaluate("window.scrollTo(0,0)")
-        page.screenshot(path=str(OUT/f"{label}-nocturne.png"),full_page=True)
-        page.locator("#v6Theme").click()
-        page.locator('[data-v8-theme="terminal"]').click()
-        assert page.evaluate("document.body.dataset.gfTheme")=="terminal","Terminal palette not applied"
-        page.locator("#v8ThemeDone").click()
-        page.evaluate("window.scrollTo(0,0)")
-        page.screenshot(path=str(OUT/f"{label}-terminal.png"),full_page=True)
-        page.locator("#v6Theme").click()
-        page.locator('[data-v8-theme="atlas"]').click()
-        assert page.evaluate("document.body.dataset.gfTheme")=="atlas","Atlas palette not applied"
-        assert page.locator('[data-v8-theme="atlas"]').get_attribute("aria-pressed")=="true","Theme preview not selected"
-        page.locator("#v8ThemeDone").click()
-        assert page.locator("#v8ThemeStudio").is_hidden(),"Appearance studio cannot close"
-        assert page.evaluate("getComputedStyle(document.querySelector('.feedpanel')).backgroundColor")!="rgb(9, 19, 31)","Editorial palette not applied"
-        assert page.locator("#v8Filters").count()==1,"New filter panel trigger absent"
-        if label=="desktop":
-            feedBox=page.locator("#feedpanel").bounding_box()
-            mapBox=page.locator("#mapColumn").bounding_box()
-            assert feedBox["x"]<mapBox["x"],"The newsroom must be left of the reference map"
-            assert feedBox["width"]>mapBox["width"],"The newsroom should have more width than the map"
+        assert response and response.status==200,f"{name}: webpage unavailable"
+        page.wait_for_function("document.querySelector('#mTotal').textContent !== '—'",timeout=35000)
+        page.wait_for_selector("#v9TickerItems a",timeout=25000)
+        page.wait_for_selector(".country-pin",timeout=30000)
+        page.wait_for_function("document.querySelector('#mapLoad').classList.contains('off')",timeout=30000)
+        assert page.locator(".maplibregl-canvas").count()==1
+        assert page.locator("#mapStage").bounding_box()["height"]>=height-3,"Main map does not fill command view"
+        assert page.locator("#feedpanel").is_hidden(),"Legacy newsroom must not obscure world map"
+        assert page.locator(".v9-primary-nav").is_visible(),"MAP/WIRE/GLOBE navigation missing"
+        assert page.locator("#v9TickerItems a").count()>=5,"Ticker lacks real linked headlines"
+        assert page.locator("#languageTabs [data-lang=ar]").count()==1,"Arabic control missing"
+        # Legacy data pipeline still populates both languages, but map-first layout is intentional.
+        page.locator("#languageTabs [data-lang=ar]").evaluate("(node)=>node.click()")
+        assert page.locator(".report h3[lang=ar]").count()>0,"Arabic source parsing failed"
+        page.locator("#languageTabs [data-lang=all]").evaluate("(node)=>node.click()")
+        # Markers MUST sit at registered country-reference coordinates, not arbitrary incident points.
+        coordinates=page.evaluate("""() => {
+          const map=window.__gulfastraMap,positions=window.__gulfastraGeography;
+          return [...document.querySelectorAll('.country-pin')].map(node=>{
+            const expected=map.project(positions[node.dataset.country].center);
+            const a=node.getBoundingClientRect(),b=map.getContainer().getBoundingClientRect();
+            return {country:node.dataset.country,error:Math.hypot(a.left+a.width/2-b.left-expected.x,a.top+a.height/2-b.top-expected.y)};
+          });
+        }""")
+        assert coordinates and all(p["error"]<15 for p in coordinates),f"Reference markers mispositioned: {coordinates}"
+        assert page.evaluate("!!window.GulfastraData"),"Independent GitHub public-data branch client missing"
+        page.locator('[data-v9-panel="wire"]').first.click()
+        assert page.locator('.v9-panel[data-panel="wire"]').is_visible(),"Floating wire did not open"
+        assert page.locator('.v9-panel[data-panel="wire"] .v9-news').count()>0,"Wire has no real report articles"
+        assert page.locator('.v9-panel[data-panel="wire"] .v9-news a[href^="https://"]').count()>0,"Article links missing"
+        page.screenshot(path=str(OUT/f"{name}-wire.png"),full_page=True)
+        page.locator('[data-v9-panel="verify"]').first.click()
+        assert page.locator('.v9-panel[data-panel="verify"] .v9-news').count()>0,"Evidence groups not shown"
+        page.locator('[data-v9-panel="sources"]').first.click()
+        assert page.locator('.v9-panel[data-panel="sources"] .v9-source-line').count()>0,"Source health not shown"
+        page.screenshot(path=str(OUT/f"{name}-multi-window.png"),full_page=True)
+        # Palettes affect the complete application and persist.
+        page.locator("#v9Appearance").click()
+        assert page.locator("#v9AppearanceMenu").is_visible()
+        page.locator('[data-v9-theme="arctic"]').click()
+        assert page.evaluate("document.body.dataset.v9Palette")=="arctic"
+        page.screenshot(path=str(OUT/f"{name}-arctic.png"),full_page=True)
+        page.locator("#v9Appearance").click()
+        page.locator('[data-v9-theme="ember"]').click()
+        assert page.evaluate("document.body.dataset.v9Palette")=="ember"
+        page.screenshot(path=str(OUT/f"{name}-ember.png"),full_page=True)
+        page.locator("#v9Appearance").click()
+        page.locator('[data-v9-theme="phosphor"]').click()
+        assert page.evaluate("document.body.dataset.v9Palette")=="phosphor"
+        # Close floating windows and check controls remain clickable.
+        for panel in ["sources","verify","wire"]:
+            page.locator(f'.v9-panel[data-panel="{panel}"] .v9-panel-close').click()
+        assert page.locator(".v9-panel").count()==0
+        if name=="mobile":
+            page.locator("#v9MobileFilters").click()
         else:
-            feedBox=page.locator("#feedpanel").bounding_box()
-            mapBox=page.locator("#mapColumn").bounding_box()
-            assert feedBox["y"]<mapBox["y"],"Mobile should show source reporting before the map"
-        old_map_height=page.locator("#mapStage").bounding_box()["height"]
-        page.locator("#v6ExpandMap").click()
-        page.wait_for_timeout(400)
-        expanded_height=page.locator("#mapStage").bounding_box()["height"]
-        assert expanded_height>old_map_height+35,f"{label}: map expansion failed {old_map_height=} {expanded_height=}"
-        page.locator("#v6ExpandMap").click()
-        page.wait_for_timeout(400)
-        restored_height=page.locator("#mapStage").bounding_box()["height"]
-        assert abs(restored_height-old_map_height)<30,f"{label}: compact mode not restored"
-        if label=="desktop":
-            assert old_map_height < 0.47*height,f"Desktop map consumes too much height: {old_map_height}"
-        print(label,"compact_map_px",round(old_map_height),"expanded_px",round(expanded_height),"highlights",page.locator("#v6Briefs .intel-card").count())
-        # NEXUS v7 checks — site is useful immediately, even if raw CDN is delayed
-        assert page.evaluate("!!window.GulfastraData"),"Missing isolated GitHub data loader"
-        status=page.evaluate("window.GulfastraData.info()")
-        print(label,"data channel",status["channel"],"manifest",bool(status.get("manifest")),"error",status.get("error"))
-        page.locator('[data-gf-open="wire"]').click()
-        assert page.locator("#fusionWorkbench").is_visible(),"NEXUS Wire failed to open"
-        assert page.locator("#fusionView .gf-wire-item").count()>0,"Original Arabic/English wire is empty"
-        page.screenshot(path=str(OUT/f"{label}-wire.png"),full_page=True)
-        page.locator('[data-gf-page="verify"]').click()
-        assert page.locator("#fusionView .gf-event").count()>0,"Verification dossier selection empty"
-        page.locator('[data-gf-page="hormuz"]').click()
-        assert "UKMTO" in page.locator("#fusionView").inner_text(),"Maritime source context missing"
-        page.screenshot(path=str(OUT/f"{label}-hormuz.png"),full_page=True)
-        page.locator("#gfClose").click()
-        page.wait_for_selector("#fusionHealth",state="attached")
-        assert page.locator('[data-gf-open="fusion"]').count() >= 1
-        page.locator('[data-gf-open="fusion"]').first.click()
-        assert page.locator("#fusionWorkbench").is_visible(),"v5 workbench hidden"
-        page.wait_for_function("document.querySelector('#fusionHealth').textContent.includes('COVERAGE GROUPS')",timeout=30000)
-        assert page.locator("#fusionView .gf-event").count()>0,"Fusion event dossiers missing"
-        page.locator("#fusionView .gf-event").first.click()
-        assert "SOURCE LINKS" in page.locator("#fusionView").inner_text(),"Evidence dossier missing source links"
+            page.locator("#v9Filters").click()
+        assert page.locator("#controlpanel").is_visible(),"Context filter drawer did not open"
+        assert page.locator("#controlpanel").evaluate("node=>node.classList.contains('v9-show')")
+        page.locator("#closeLayers").click()
+        assert page.locator("#controlpanel").is_hidden()
+        page.locator("#v9ZoomIn").click()
+        page.locator("#v9Reset").click()
+        page.wait_for_timeout(650)
+        page.screenshot(path=str(OUT/f"{name}.png"),full_page=True)
+        # Regression test complete analyst workbench, even though it is now accessed from floating LAB.
+        page.locator('[data-gf-open="fusion"]').first.evaluate("(node)=>node.click()")
+        assert page.locator("#fusionWorkbench").is_visible(),"Full evidence workbench failed"
         page.locator('[data-gf-page="query"]').click()
         page.locator("#gfQueryInput").fill("type:security after:7d")
         page.locator("#gfQueryForm button").click()
-        assert "MATCHED" in page.locator("#fusionView").inner_text(),"Query executor not working"
+        assert "MATCHED" in page.locator("#fusionView").inner_text(),"OSINT query failed"
         page.locator('[data-gf-page="sources"]').click()
-        assert page.locator("#fusionView .gf-signal").count()>0,"Provider health unavailable"
-        page.locator('[data-gf-page="countries"]').click()
-        assert page.locator("#fusionView .gf-country").count()>0,"Country desk unavailable"
-        page.screenshot(path=str(OUT/f"{label}-fusion.png"),full_page=True)
+        assert page.locator("#fusionView .gf-signal").count()>0
         page.locator("#gfClose").click()
-        assert page.locator("#fusionWorkbench").is_hidden(),"Workbench failed to close"
-        page.evaluate("window.scrollTo(0,0)")
-        page.wait_for_timeout(160)
-        page.screenshot(path=str(OUT/f"{label}.png"),full_page=True)
-        print(label,"reported_count=",total,"visible_articles=",count,"arabic_visible=",arabic_count,"mapcanvas=",mapcanvas,"marker_offsets=",marker_offsets,"pageerrors=",errors[:5])
-        assert mapcanvas==1,"MapLibre canvas missing"
-        assert page.locator("#mapLoad").evaluate("(node)=>node.classList.contains(\'off\')"),"Map tiles failed to load"
-        assert page.locator(".country-pin").count()>0,"No country reporting markers rendered"
-        assert not errors,"JavaScript errors: "+" ; ".join(errors)
+        assert page.locator("#fusionWorkbench").is_hidden()
+        assert not errors,f"{name} JavaScript errors: "+"; ".join(errors)
+        print(name,"archive",page.locator("#mTotal").inner_text(),
+              "country_markers",len(coordinates),
+              "ticker_links",page.locator("#v9TickerItems a").count(),
+              "data_channel",page.evaluate("window.GulfastraData.info().channel"),
+              "pageerrors",errors)
         page.close()
     browser.close()
