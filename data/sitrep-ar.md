@@ -1,10 +1,10 @@
 # موجز جلفاسترا للمصادر العلنية
 الفترة: آخر 24 ساعة (حسب وقت نشر التقارير)
 
-مجموعات التغطية: 153 | عناوين مرتبطة: 179
+مجموعات التغطية: 151 | عناوين مرتبطة: 177
 هذه تقارير صحفية وليست أحداثا مؤكدة، ولا تعتبر توجيهات سلامة رسمية.
 
-## Security (87 coverage groups)
+## Security (86 coverage groups)
 - Riyadh Airport Attack: Telangana Man Returns To India - INDToday (1 headlines; single-source)
   - INDToday: https://news.google.com/rss/articles/CBMif0FVX3lxTE1GSVl0UE8zbXZYalRPaVIwTV9IcnA0X09LdXVlV3R5WUNkaEZMVi1SXzJXNmVTVkUwelZTcGtWZm9waDU0Yi1XMVpYUWFweFoyWUVJaFhPbFA1RFpVZzZXMW51Sk90LXJMa3NoQnJCSjREX0djZ09CU09NYWdCSG8?oc=5
 - Iran says it shot down US MQ-9 Reaper drone over Strait of Hormuz - Yahoo (1 headlines; single-source)
@@ -38,15 +38,13 @@
 - Iran war live: Houthi attack on Yemen military camp kills 58 - Arabian Business (1 headlines; single-source)
   - Arabian Business: https://news.google.com/rss/articles/CBMigwFBVV95cUxNeGVzSjhrbUhOTTctX0ViTkJTRnFEZnkwNTJQR3gySTJRQlk3aXNwenJ2Qk1DejVYcF84dmF4WDFPd2xKRzEwazEtOEdOb05OOFhJaXZQVTd3R2lDRHdGbTgtM1JSSEMxeFN5OTlLc0tLNE55MHlHRDZNU3lOVFBDaTJwQQ?oc=5
 
-## Transport (47 coverage groups)
+## Transport (46 coverage groups)
 - UAE flight status today: Saudi disruptions and full list of delays, cancellations - Gulf News (1 headlines; single-source)
   - Gulf News: https://news.google.com/rss/articles/CBMiygFBVV95cUxQcXJoME9Ic29uaThXRzZXZHdaUDNmazJ4OWVOcXhxVDN5dW1iaTFwd0g4RVJpNG1ORWhNdVFPSjU4Q1prT2stRjRBVzJEN2xrS3ZwYlhkVG1NVEE0MGJnMjB3S2R6Wi1feGl0MlBFM3hnTERKZ05SdHJKY3VyazI3cktxek9yTlRWNlI4UFMtZDhIbUZnbjV4Z1A3VjgzNFk5Zk95NF9NWTFzVUxtVWtoYXRNeTRTNVpqNEh4WEdLWUl1WHdJRV9IbmhB?oc=5
 - Riyadh Airport reopens: Saudi flights status, refunds update here - Pakistan Connect (1 headlines; single-source)
   - Pakistan Connect: https://news.google.com/rss/articles/CBMiZEFVX3lxTE10QTNXTFdKRXBFeE5CNFFaY3VCa1ItbE1HVllWcDVlUkl6TXVnMHZVWVRTZjlBSkpETXBrSVNfY0RTRmV0NjIzWl95MjNINk9OUWpzUnFkMUZNSFh1UDJnR0JxZWE?oc=5
 - سبتمبر نت - الحملة الدولية لكسر الحصار عن مطار صنعاء الدولي تدين استمرار معاناة الشعب اليمني (1 headlines; single-source)
   - 26sep.net: https://26sep.net/index.php/more/reports/137710-2y9a
-- أمين «مجلس التعاون الخليجي»: ندين الممارسات الإيرانية المهددة للملاحة في هرمز - الشرق الأوسط (1 headlines; single-source)
-  - الشرق الأوسط: https://news.google.com/rss/articles/CBMi1gRBVV95cUxQRGxvTDRBTC12OFpxbkwtdDJGYnZ6cE5RVUNvM0U1dHFjUE5TZmlDVFZCNmRwejRNamFRZjE3ZENCVXNfWHhWRzR2TUlFMFJPdGZvWW9JZ1hFdFAyRzMzWW1vZVlLYng4NGVCRlh4TVhGMzBvSXVDQVJPWUlSdEdPZTlFdW5ldEZnOFFYWm95cUU5QXFaQ3ljTm5tZGZURjF2SFhIZ3dUb2x4VmpUd2stX2RNMk45OGRnaWFQMWxOS1Utd3A0Yy1MaFpzcHJCdTIyXzl5MldSUEFqMmlHQm1yN2pobW9yZ2pZdk42TDNTNDFxVWlKY2xVR3JSX0ZiRnhiYmlJaE90WER3cnFmTFB3NW9BMW9MYjR2ajYyd054YzRocFB5UHU2NEV5Mi1UOGpwQnd4RHNLQXRKWVc2SW40NnAtMmFhQTFWYTFubmNJRDRjSks2RU9JSHowOFNJdkd4Tkd2UzRmb3MtaF95Y0FiaUdUdzU3ZFc1NWhXVTJDbGpQVWNkTVZTZ2RfWENVUFdubFVRWDJjeV9Bb0d6ZXBMS042WkdDdkVxZWdqa19sTk9UdFhNaDVqUjRlYld2d01GTmIzbDdoNzBLLU9EZmctV21hdFJENS1TU2RFalRab29HVHRxYi1va1pGMjEyNVJYT2ppQVhSVzcycTNRQXFpY2psZW5yYVhnYWs0akhjSlFmcmJORWVCVU8yRlZwSjNjRVZYSm9vQUNRYlZTTlBIR2IyVm9XU2VSUmktVVY4Z2lHTC0yMWRmVmdUSmZQb002NXRyd0x3?oc=5
 - Brent Tops $110 as Tanker Attacks Threaten Persian Gulf Supply - Yahoo Finance (1 headlines; single-source)
   - Yahoo Finance: https://news.google.com/rss/articles/CBMijwFBVV95cUxNblpOR2VvRW9LLUJDM2FfWjZQYU4xUmREaTVHNW9IUVlrZGpfbkpiOFI0dHhRdDh6ano4OGFuc2ptdFN0Tjk2d3VDNHpaUS1IbkktemRtQTFHTDYteUxPbS1EWVppYTlEMTI2Z2pHQmMwQmZyMGlkY0tUY1lpLXowRi1qLWVJcjR2TVdSLXBjVQ?oc=5
 - Brent Tops $110 as Tanker Attacks Threaten Persian Gulf Supply - Crude Oil Prices Today | OilPrice.com (1 headlines; single-source)
@@ -67,6 +65,8 @@
   - Asianet Newsable: https://news.google.com/rss/articles/CBMiugFBVV95cUxPUFlzNk8zSHN1NVd2eHdBZnkzMW5HcThUaWVrcHVEQzI5cWR1bWZOa0xpdEZHblZYU2wyNHluTEFlSzhNOURJUVMxc2ZybTQ2TkR0emFsaWtCNUtKOXh3V2QtWXJoS2tTOVZrc2dnQkZxMmdLRVJOY25uRTE0QnBJWUd4NnlIN0hQV2V0YnFyeTVuYUhQLXpBc01JbzdXdncwNlI5a3F0UVZDdTVIaTdzdDc4TVZNS0hqSVHSAb8BQVVfeXFMTXkwVzhOLTBiZmZJOXlOcTRfWFBVV0N4WGpkd05oNTIzQnlBVXhsSVE1OU1qZzlfMU81emROdlZmQlJrNk9NSmV2Mmp4Z201YnF5emtmQ3JEREl2bVJEblBnd0hSUUpTNzI5Ui12MkRtOEh4ellLY21pS0k4cUhVTTU3V1RQanJGRFpmYUIxUE9MQms4R1pnMnhlX0ZjS0RFZmc1aGQ3UER2UGszZmh4UWU1OU1lbXJRUG1lQWpkaUE?oc=5
 - Tug Attacked Near Strait of Hormuz - The Maritime Executive (1 headlines; single-source)
   - The Maritime Executive: https://news.google.com/rss/articles/CBMifkFVX3lxTE1wVElaWVNMWUZUUFhRdFVXcjRleEVfWkZlMjgxTmFtOTRSTzRlQ3NiMHAzRXB4ZTRFMHVxUWJKZkxFRV9hOEdQVjcxM1h2NU04QXRwTGtCVmdjeUhoNFBNMm9rQjhlbXpWT29xNEpVZEJYVTRkalpKc0w4SDFDdw?oc=5
+- هل الفيديو لإصابة ناقلة نفط في مضيق هرمز حديثًا؟ - موقع مسبار (1 headlines; single-source)
+  - موقع مسبار: https://news.google.com/rss/articles/CBMipwNBVV95cUxOd3FkMzNucVpaWHZsdHRCOWp4QnBWYmhfTkVxUU9Cd2ZvUUs5QUtrREluS1l6Ync1SUZHc2xBSHJQaFloNmFMNFdGandJdkQ0ejlRYTdlbER6bU4zdGJmYUFBV1JhdzFMUmxVOWdiRGQtd1FJeFJpUG1ZUl9IM1lETW0ta2dIcjdBUl9FVkVUZkJIYzhyakkweHFCcUQ5UmdNS1AydkdGQmdHYlplanZxdGtHVjFsYVhNbEZHUVEtMWQxQUdHRmU0LVJDVzFIdEFTLUREVklJclVvZHdSaENWTmRSZlJPSWhkWVllS2VQSlVmeGNneGprSWJoUjM5MEF3V1lvV1pONjgtZkxyQUhVcHlPWTFFVDVSUXBjbHVzbkg5YlVRX0c4YTFtX01HOVhEdmxxUVVwSGZSSS1lNXRCTWhkMmtNNE9JVnZlVE5PdVRBLWJ2UUhiU2ZXS19zUkYxZkJYaklVbHVQa2Y2emlMUmFLVEgwRXItSmlSck04bXg1Z3N1NjRHaG03WGhzVzVPajNsQ1paRl93TUlULU9DUlVZelB6dmc?oc=5
 
 ## Diplomacy (19 coverage groups)
 - ماكرون وأمير الكويت يبحثان تطورات المنطقة ويشهدان توقيع اتفاقات (1 headlines; single-source)
