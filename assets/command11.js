@@ -199,7 +199,18 @@ function setup(){
  });
  $("countryFilter").onchange=e=>{S.country=e.target.value;store();render()};
  $("resetFilters").onclick=()=>{S.country="";S.query="";S.topic="all";period(72)};
- $("collapseLayers").onclick=()=>{document.body.classList.toggle("collapsed");M.resize()};
+ $("collapseLayers").onclick=()=>{
+  if(window.innerWidth<=900){
+   $("app").classList.remove("mobile-layers");
+   $("tabletLayersButton").setAttribute("aria-expanded","false");
+  }else document.body.classList.toggle("collapsed");
+  requestAnimationFrame(M.resize);
+ };
+ $("tabletLayersButton").onclick=()=>{
+  const open=$("app").classList.toggle("mobile-layers");
+  $("tabletLayersButton").setAttribute("aria-expanded",String(open));
+  requestAnimationFrame(M.resize);
+ };
  $("refresh").onclick=refresh;
  $("mapStyle").onclick=()=>{S.mapStyle=M.changeStyle();store()};
  $("mapGlobe").onclick=()=>{S.globe=!S.globe;if(!M.projection(S.globe)){S.globe=false;E.notify("Globe projection unsupported")}store()};
