@@ -10,7 +10,8 @@ from urllib.request import Request, urlopen
 from urllib.parse import urlencode
 
 ROOT=Path(__file__).resolve().parents[1]
-STATE=ROOT/"data"/"telegram_state.json"
+DATA=Path(os.environ.get("GULFASTRA_DATA_DIR", str(ROOT / "data")))
+STATE=DATA/"telegram_state.json"
 URL="https://api.telegram.org/bot"
 
 def when(s):
@@ -23,7 +24,7 @@ def run():
     if not token or not chat:
         print("Telegram alerts disabled; TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID not configured")
         return
-    data=json.loads((ROOT/"data"/"events.json").read_text(encoding="utf-8"))
+    data=json.loads((DATA/"events.json").read_text(encoding="utf-8"))
     try:last=json.loads(STATE.read_text(encoding="utf-8"))
     except (OSError,ValueError):last={"notified_at":"1970-01-01T00:00:00Z"}
     now=dt.datetime.now(dt.timezone.utc)
