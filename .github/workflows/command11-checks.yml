@@ -1,0 +1,52 @@
+name: GULFASTRA X v11 quality gates
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'assets/command11*'
+      - 'command/**'
+      - 'scripts/test_command11.mjs'
+      - 'scripts/visual_check_v11.py'
+      - '.github/workflows/command11-checks.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  offline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify static runtime, geospatial provenance and filtering
+        run: node scripts/test_command11.mjs
+      - name: Verify all browser modules parse
+        run: |
+          for file in assets/command11*.js; do node --check "$file"; done
+  browser:
+    needs: offline
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install browser tests
+        run: |
+          python -m pip install playwright
+          python -m playwright install --with-deps chromium
+      - name: Run real desktop and mobile regression
+        run: |
+          python -m http.server 8765 --bind 127.0.0.1 >/tmp/gulfastra-v11-http.log 2>&1 &
+          sleep 2
+          BASE_URL=http://127.0.0.1:8765/command/ python scripts/visual_check_v11.py
+      - name: Upload screenshots and quality evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: gulfastra-v11-browser-evidence
+          path: visual-check/v11-*.png
+          if-no-files-found: ignore
+          retention-days: 7
