@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "generated_at": "2026-10-20T22:31:50.502148Z",
+  "generated_at": "2026-10-20T22:32:26.889638Z",
   "model": "deterministic-source-correlation-v2-coverage-lifecycle",
   "disclaimer": "Clusters are related PUBLIC REPORTS, not confirmed incidents. Source counts are not proof. Country names are mentions, not incident locations.",
   "events": [
@@ -282,63 +282,6 @@
       "digest": "bf16945ff0a537251745",
       "revision": 1,
       "updated_at": "2026-10-20T21:35:03.678524Z"
-    },
-    {
-      "id": "GF-59E96DD54D901C",
-      "title": "UK to send jets to defend Saudi Arabia from Houthi attacks, and other Mideast news - AP News",
-      "category": "security",
-      "topic": "regional",
-      "countries": [
-        "Saudi",
-        "Yemen"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "en"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-20T21:07:00Z",
-      "last_published": "2026-10-20T21:07:00Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "b1f14583bc3a74daf8f9fe22",
-          "title": "UK to send jets to defend Saudi Arabia from Houthi attacks, and other Mideast news - AP News",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNd1EtQlVBeUdvX1BnaEx2cXI4ZVVleTdNSlJ2dUR2eXdWeEpwVl9SandQVEpadDVrdzVEM1k0a2NfRXhpSURuOFZtRzdnOWtsNGZncFhtcV9OZ3kxQ1Y1RDRYN1FLNG11V2Y4dFQwbnRqOXJQZDBySEhMWUxrVGZwQ0tPS0N4TXpZVGxkeFRwU3BTWkoxMnNTa1JsNTlPYjZDSFJhNDZFazJsSXc?oc=5",
-          "source": "AP News",
-          "publisher_key": "ap news",
-          "provider": "AP · indexed Gulf reporting",
-          "published_at": "2026-10-20T21:07:00Z",
-          "date_quality": "publisher-time",
-          "first_seen_at": "2026-10-20T19:00:37.368110Z",
-          "collected_at": null,
-          "language": "en",
-          "country": ""
-        }
-      ],
-      "coverage_stage": "new-coverage",
-      "coverage_first_published_at": "2026-10-20T21:07:00Z",
-      "coverage_last_published_at": "2026-10-20T21:07:00Z",
-      "current_reporting": true,
-      "recent_publisher_count": 1,
-      "recent_article_count": 1,
-      "incident_status": "unknown",
-      "event_occurrence_verified": false,
-      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "d69f7229507e78a570b7",
-      "revision": 3,
-      "updated_at": "2026-10-20T22:31:50.502148Z"
     },
     {
       "id": "GF-40217C260597CD",
@@ -3079,6 +3022,63 @@
       "digest": "582d3371591940ffd501",
       "revision": 2,
       "updated_at": "2026-10-20T21:35:03.678524Z"
+    },
+    {
+      "id": "GF-59E96DD54D901C",
+      "title": "UK to send jets to defend Saudi Arabia from Houthi attacks, and other Mideast news - AP News",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T18:02:00Z",
+      "last_published": "2026-10-20T18:02:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "b1f14583bc3a74daf8f9fe22",
+          "title": "UK to send jets to defend Saudi Arabia from Houthi attacks, and other Mideast news - AP News",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNd1EtQlVBeUdvX1BnaEx2cXI4ZVVleTdNSlJ2dUR2eXdWeEpwVl9SandQVEpadDVrdzVEM1k0a2NfRXhpSURuOFZtRzdnOWtsNGZncFhtcV9OZ3kxQ1Y1RDRYN1FLNG11V2Y4dFQwbnRqOXJQZDBySEhMWUxrVGZwQ0tPS0N4TXpZVGxkeFRwU3BTWkoxMnNTa1JsNTlPYjZDSFJhNDZFazJsSXc?oc=5",
+          "source": "AP News",
+          "publisher_key": "ap news",
+          "provider": "AP · indexed Gulf reporting",
+          "published_at": "2026-10-20T18:02:00Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T19:00:37.368110Z",
+          "collected_at": null,
+          "language": "en",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "recent-coverage",
+      "coverage_first_published_at": "2026-10-20T18:02:00Z",
+      "coverage_last_published_at": "2026-10-20T18:02:00Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "7f4bf90452e2aa568271",
+      "revision": 4,
+      "updated_at": "2026-10-20T22:32:26.889638Z"
     },
     {
       "id": "GF-B99689D555B5E8",
@@ -18525,6 +18525,62 @@
       "updated_at": "2026-10-20T22:30:38.766014Z"
     },
     {
+      "id": "GF-F8DCCEC368BC39",
+      "title": "How Donald Trump Can Still Intensify the Pressure on Iran - The National Interest",
+      "category": "diplomacy",
+      "topic": "regional",
+      "countries": [
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-19T21:43:24Z",
+      "last_published": "2026-10-19T21:43:24Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "84708bd16df3fe6471884b18",
+          "title": "How Donald Trump Can Still Intensify the Pressure on Iran - The National Interest",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPS2RiYzJNZ005Z3lqTVlJTmV5QnlIbm1vQTZhaFZIOXdmV2M0SHBHRjFTOVhjUm9IWllrZ3VBbzhZMFpNTFFkSm15elhkMlhRdllfdlY0eGhYcW9nN1pHRGtUYVhBUjllbEhqbVEzQ0MyLW01aklMNXU4Z1hXTk1uanV5MHlIVXlsVUtEUE5NTXNHUU8tZTk1TDA3UXUyaWRWNktDekJiMU0wUkdyNGc?oc=5",
+          "source": "The National Interest",
+          "publisher_key": "the national interest",
+          "provider": "Google News · diplomacy",
+          "published_at": "2026-10-19T21:43:24Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T22:32:08.637740Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Iran"
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-19T21:43:24Z",
+      "coverage_last_published_at": "2026-10-19T21:43:24Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "49183e5d301da638b836",
+      "revision": 1,
+      "updated_at": "2026-10-20T22:32:26.889638Z"
+    },
+    {
       "id": "GF-16094BD5B10138",
       "title": "السعودية والإمارات تدينان الهجمات الإيرانية على البحرين والكويت والأردن وتؤكدان دعمهما لأمن الدول الشقيقة - الساحل الغربي",
       "category": "security",
@@ -23912,6 +23968,63 @@
       "digest": "e10cb46c83265934c0ee",
       "revision": 3,
       "updated_at": "2026-10-20T16:52:31.264495Z"
+    },
+    {
+      "id": "GF-F99E79086CCD1D",
+      "title": "تصعيد إيراني يطول الكويت والبحرين والأردن.. وواشنطن ترد باستهداف ناقلات النفط - الساحل الغربي",
+      "category": "security",
+      "topic": "maritime",
+      "countries": [
+        "Iran",
+        "Kuwait"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-19T13:10:02Z",
+      "last_published": "2026-10-19T13:10:02Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "91d4581a1376bf96e2612e5b",
+          "title": "تصعيد إيراني يطول الكويت والبحرين والأردن.. وواشنطن ترد باستهداف ناقلات النفط - الساحل الغربي",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBEbVdfVUxjVGlrN0lvNi1ZcGh4ZER3ZWt2OHViaGZ4WGgwUEZjdDZNTTlvNTFoWk94YVE5RVZLaUxUWmd1LWdNbFR6dDdWZk0?oc=5",
+          "source": "الساحل الغربي",
+          "publisher_key": "الساحل الغربي",
+          "provider": "عربي · الإمارات والبحرين",
+          "published_at": "2026-10-19T13:10:02Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T16:50:50.754226Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-19T13:10:02Z",
+      "coverage_last_published_at": "2026-10-19T13:10:02Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "8187b9d03815cecbadf8",
+      "revision": 20,
+      "updated_at": "2026-10-20T22:32:26.889638Z"
     },
     {
       "id": "GF-A29F3D9D9BB9BF",
@@ -66809,63 +66922,6 @@
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
-      "id": "GF-F99E79086CCD1D",
-      "title": "تصعيد إيراني يطول الكويت والبحرين والأردن.. وواشنطن ترد باستهداف ناقلات النفط - الساحل الغربي",
-      "category": "security",
-      "topic": "maritime",
-      "countries": [
-        "Iran",
-        "Kuwait"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "ar"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-14T16:38:06Z",
-      "last_published": "2026-10-14T16:38:06Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "91d4581a1376bf96e2612e5b",
-          "title": "تصعيد إيراني يطول الكويت والبحرين والأردن.. وواشنطن ترد باستهداف ناقلات النفط - الساحل الغربي",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBEbVdfVUxjVGlrN0lvNi1ZcGh4ZER3ZWt2OHViaGZ4WGgwUEZjdDZNTTlvNTFoWk94YVE5RVZLaUxUWmd1LWdNbFR6dDdWZk0?oc=5",
-          "source": "الساحل الغربي",
-          "publisher_key": "الساحل الغربي",
-          "provider": "عربي · الإمارات والبحرين",
-          "published_at": "2026-10-14T16:38:06Z",
-          "date_quality": "publisher-time",
-          "first_seen_at": "2026-10-20T16:50:50.754226Z",
-          "collected_at": null,
-          "language": "ar",
-          "country": ""
-        }
-      ],
-      "coverage_stage": "quiet-coverage",
-      "coverage_first_published_at": "2026-10-14T16:38:06Z",
-      "coverage_last_published_at": "2026-10-14T16:38:06Z",
-      "current_reporting": false,
-      "recent_publisher_count": 0,
-      "recent_article_count": 0,
-      "incident_status": "unknown",
-      "event_occurrence_verified": false,
-      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "307696e765120486fd84",
-      "revision": 19,
-      "updated_at": "2026-10-20T22:31:50.502148Z"
-    },
-    {
       "id": "GF-430F14A5B5AD92",
       "title": "Houthi ballistic missile manufacturing - ArcGIS StoryMaps",
       "category": "security",
@@ -81216,11 +81272,11 @@
   ],
   "country_stats": {
     "Iran": {
-      "events": 481,
-      "reports": 530,
+      "events": 482,
+      "reports": 531,
       "security_coverage": 305,
       "transport_coverage": 99,
-      "sources": 219
+      "sources": 220
     },
     "Saudi": {
       "events": 556,
@@ -81296,43 +81352,27 @@
     "2026-10-10": 1,
     "2026-10-12": 7,
     "2026-10-13": 115,
-    "2026-10-14": 153,
+    "2026-10-14": 152,
     "2026-10-15": 147,
     "2026-10-16": 138,
     "2026-10-17": 187,
     "2026-10-18": 151,
-    "2026-10-19": 214,
+    "2026-10-19": 216,
     "2026-10-20": 308
   },
   "revisions": [
     {
       "id": "GF-59E96DD54D901C",
-      "revision": 3,
-      "at": "2026-10-20T22:31:50.502148Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-28814363C5B1CC",
-      "revision": 3,
-      "at": "2026-10-20T22:31:50.502148Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-7B0E21F2D20604",
-      "revision": 9,
-      "at": "2026-10-20T22:31:50.502148Z",
+      "revision": 4,
+      "at": "2026-10-20T22:32:26.889638Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
       "id": "GF-F99E79086CCD1D",
-      "revision": 19,
-      "at": "2026-10-20T22:31:50.502148Z",
+      "revision": 20,
+      "at": "2026-10-20T22:32:26.889638Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
