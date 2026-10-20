@@ -1,3 +1,21 @@
+## Command View 09 — Immersive map-first interface
+
+Built in response to the user's supplied visual reference (World Monitor-style global map with movable intelligence windows). This is an **independently implemented** interface using the existing MapLibre basemap and Gulfastra's existing source dataset; no proprietary source code or data is copied.
+
+- **Full-screen dark command map** with a neon phosphor, arctic cyan, or amber palette.
+- **MAP / WIRE / GLOBE** top navigation, with an actual MapLibre globe projection where supported and a fallback on errors.
+- **Floating, draggable, resizable desktop windows** for the original published news Wire, evidence group verification, Gulf maritime coverage, security headlines, source health, publication timeline, and analyst-tool launch pad.
+- **Quick country locator** that flies to known geographic reference coordinates and opens the corresponding source-linked headline coverage.
+- Hover cards and map markers use **country-level mention counts**, never fabricated launch, impact, or asset coordinates.
+- **Left and right command tool docks** on desktop and a bottom action bar on mobile.
+- Bottom scrolling headline ticker contains real original source links. It stops animating for reduced-motion preference or on hover.
+- Public data remains in the independent `intelligence-data` GitHub branch; fallback/cached origin and collector delays are shown honestly. GitHub Pages is not redeployed on article collection.
+- Arabic source headlines remain in original script with proper RTL.
+- Full legacy NEXUS/Fusion workspace accessible from ANALYST LAB; no loss of source links, verification notes, source health, or archive filters.
+- Browser regression checks run in desktop/mobile Chromium and validate map marker precision, actual source headlines, floating window controls, palette switches, country search and advanced Fusion query.
+
+**Limitations:** This does not fabricate worldwide incident data to fill the map. Geographic marks are limited by the sources actually collected and their reliably identified countries. The GLOBE visualization is geographic only, not a military-asset tracking feed. No paid external backend, live X firehose, streaming vessel telemetry, or background WebSocket server has been introduced.
+
 ## Edition 08 — interface rebuild and appearance studio
 
 The default application is now **news-first** rather than map-first. A dedicated desktop navigation rail sits beside an evidence-centric newsroom and a smaller secondary map. On phones, the original source headlines appear ahead of the map, while filters remain available through an overlay. The desktop map remains expandable. The same original Arabic/English reports, Fusion dossiers, NEXUS Wire, Verify, Hormuz, Replay, query console and GitHub-only public data branch continue to work.
