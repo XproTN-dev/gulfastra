@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "generated_at": "2026-10-20T09:14:46.282065Z",
+  "generated_at": "2026-10-20T09:15:10.255142Z",
   "model": "deterministic-source-correlation-v1",
   "disclaimer": "Clusters are related PUBLIC REPORTS, not confirmed incidents. Source counts are not proof. Country names are mentions, not incident locations.",
   "events": [
@@ -46,7 +46,7 @@
       ],
       "digest": "e9b8bebcc1de0eda3b68",
       "revision": 1,
-      "updated_at": "2026-10-20T09:14:46.282065Z"
+      "updated_at": "2026-10-20T09:15:10.255142Z"
     },
     {
       "id": "GF-3E14C7ACDD866A",
@@ -90,7 +90,7 @@
       ],
       "digest": "d76bae246befa3defc05",
       "revision": 1,
-      "updated_at": "2026-10-20T09:14:46.282065Z"
+      "updated_at": "2026-10-20T09:15:10.255142Z"
     },
     {
       "id": "GF-C30150D17CCE95",
@@ -167,51 +167,7 @@
       ],
       "digest": "8adb415ba6ccc1e1bb2e",
       "revision": 2,
-      "updated_at": "2026-10-20T09:14:46.282065Z"
-    },
-    {
-      "id": "GF-06F4B9E5426BD8",
-      "title": "Pakistan Army Chief Munir to Visit Tehran as Efforts to Revive U.S.-Iran Talks Stall - thekabultribune.com",
-      "category": "diplomacy",
-      "topic": "diplomacy",
-      "countries": [
-        "Iran"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "en"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-20T08:08:43Z",
-      "last_published": "2026-10-20T08:08:43Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "28e6ef0a469d6a5afe075964",
-          "title": "Pakistan Army Chief Munir to Visit Tehran as Efforts to Revive U.S.-Iran Talks Stall - thekabultribune.com",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9Sb2wtRVU1aTNYZW5EWUN2X0l4TTVSS3I2UWhhaU9zNXFvSVNwZnQ2YTJkNzJBd1pfdzhlTE80Z0Z2WWVKczQ4ajczNk9hTWM?oc=5",
-          "source": "thekabultribune.com",
-          "provider": "Google News · diplomacy",
-          "published_at": "2026-10-20T08:08:43Z",
-          "collected_at": null,
-          "language": "en",
-          "country": "Iran"
-        }
-      ],
-      "digest": "429b5f65843a3262254b",
-      "revision": 1,
-      "updated_at": "2026-10-20T09:14:46.282065Z"
+      "updated_at": "2026-10-20T09:15:10.255142Z"
     },
     {
       "id": "GF-942CF8570A79FC",
@@ -477,7 +433,7 @@
       ],
       "digest": "9c50b74232a113c16b0f",
       "revision": 1,
-      "updated_at": "2026-10-20T09:14:46.282065Z"
+      "updated_at": "2026-10-20T09:15:10.255142Z"
     },
     {
       "id": "GF-DE698A884EA269",
@@ -589,7 +545,7 @@
         "en"
       ],
       "publisher_count": 4,
-      "report_count": 4,
+      "report_count": 5,
       "first_published": "2026-10-20T06:28:44Z",
       "last_published": "2026-10-20T06:43:46Z",
       "event_occurred_at": null,
@@ -599,6 +555,17 @@
           "id": "f0fd37b5e715b7027632bd7f",
           "title": "Iran says it downed US drone over Strait of Hormuz - Anadolu Ajansı",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZ3UzWWlVQWZmQ0NxbkZ4SU5uRkRIXzg0c2ZrRU1iSVRLdjVobTF0SlBmeEVGSGdvc0p2MXhscFJqTmw3OUc2RWZaZHJ6dURHVW51cVZGbGFUREpHUFFfR3czbE5OdzZmb2ktWWNMM19xVmNSZWMxWGlLZmtmdFNRR25EbnVpWE4zQ1o4aU1rUE41MTlRTFZEUktDZw?oc=5",
+          "source": "Anadolu Ajansı",
+          "provider": "Google News · missiles/drones",
+          "published_at": "2026-10-20T06:43:46Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Iran"
+        },
+        {
+          "id": "9392ffccde4bcfc321a1d13f",
+          "title": "Iran says it downed US drone over Strait of Hormuz - Anadolu Ajansı",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxObTZyTlRWZlQ3SlI3cVNxMERNOEV5MVlMTERtZU1fSE9tYnhic2ZPQ2FSN05SUnlTaWlsN25aaFBQVnlaemZvWkdYRk1xV3JmMVdNdVpiRV9rM05ocDZtazMyMTNKdFV1bHlsR19vWTBYUGdaM3A4SzBIRmFKdGw2MmhiR3JLendZYXpiN0hLYkRDV0pyWEE?oc=5",
           "source": "Anadolu Ajansı",
           "provider": "Google News · missiles/drones",
           "published_at": "2026-10-20T06:43:46Z",
@@ -640,9 +607,9 @@
           "country": "Iran"
         }
       ],
-      "digest": "0948bfe37e3b7778e9e6",
-      "revision": 4,
-      "updated_at": "2026-10-20T08:06:40.825197Z"
+      "digest": "0e3523346b09990544e7",
+      "revision": 5,
+      "updated_at": "2026-10-20T09:15:10.255142Z"
     },
     {
       "id": "GF-97AB8679977B14",
@@ -908,7 +875,7 @@
       ],
       "digest": "22f9649fafeb3c9151b5",
       "revision": 1,
-      "updated_at": "2026-10-20T09:14:46.282065Z"
+      "updated_at": "2026-10-20T09:15:10.255142Z"
     },
     {
       "id": "GF-A4E62CE1E21969",
@@ -952,7 +919,7 @@
       ],
       "digest": "c2cc6e433a0660e17b0d",
       "revision": 1,
-      "updated_at": "2026-10-20T09:14:46.282065Z"
+      "updated_at": "2026-10-20T09:15:10.255142Z"
     },
     {
       "id": "GF-B40334818BB3EF",
@@ -1152,7 +1119,7 @@
       ],
       "digest": "a5183c07609930fce799",
       "revision": 1,
-      "updated_at": "2026-10-20T09:14:46.282065Z"
+      "updated_at": "2026-10-20T09:15:10.255142Z"
     },
     {
       "id": "GF-6BF3943D1D41C2",
@@ -2391,7 +2358,7 @@
       ],
       "digest": "2fcff4a19ee32e94d0cd",
       "revision": 3,
-      "updated_at": "2026-10-20T09:14:46.282065Z"
+      "updated_at": "2026-10-20T09:15:10.255142Z"
     },
     {
       "id": "GF-9BE7503EE1F20D",
@@ -3222,7 +3189,7 @@
       ],
       "digest": "5feccafce9df6f7528d7",
       "revision": 3,
-      "updated_at": "2026-10-20T09:14:46.282065Z"
+      "updated_at": "2026-10-20T09:15:10.255142Z"
     },
     {
       "id": "GF-4F2A6202C7D9A0",
@@ -4247,7 +4214,7 @@
       ],
       "digest": "64c7018c4568f54faf27",
       "revision": 3,
-      "updated_at": "2026-10-20T09:14:46.282065Z"
+      "updated_at": "2026-10-20T09:15:10.255142Z"
     },
     {
       "id": "GF-03476150E89A5F",
@@ -12895,6 +12862,51 @@
       "updated_at": "2026-10-20T07:40:58.957167Z"
     },
     {
+      "id": "GF-6A7F58587B88F4",
+      "title": "السعودية تتصدى لاعتداءات الحوثيين.. التحالف: تدمير 7 مسيرات وصاروخين باليستيين في أجواء المملكة.. التعاون الخليجي: ندين الاعتداءات وأمن السعودية جزء لا يتجزأ من أمننا.. وفجر اليمن تواصل تقدمها وسط معارك عنيفة - اليوم السابع",
+      "category": "security",
+      "topic": "missile",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-18T13:00:00Z",
+      "last_published": "2026-10-18T13:00:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "ca2e8c52a5c7068713566abe",
+          "title": "السعودية تتصدى لاعتداءات الحوثيين.. التحالف: تدمير 7 مسيرات وصاروخين باليستيين في أجواء المملكة.. التعاون الخليجي: ندين الاعتداءات وأمن السعودية جزء لا يتجزأ من أمننا.. وفجر اليمن تواصل تقدمها وسط معارك عنيفة - اليوم السابع",
+          "url": "https://news.google.com/rss/articles/CBMi8ARBVV95cUxOb3E1QlNxZ2dPMlN2QmljbDdxeUhpaE9FWXNVemhCSHF2M05lZW9IbXZ3aDJ1QnBsaG85ZE8tdGh0N295a3JIVUdEbVRqQzd2QmJ2c1NMUW4xNFhZRG0xS2wxVUVneXZJT1VZdWNVZnB6TDl6Z0plREw4OHBBUXhzQWNHeGJ3YkJNQk5Yd2lqTGFnZVlCaGNXVDdOWXo2WWVjTVdkVnFMeFdFV3Izb3JEdEpUcm9ONzVpME9MQzU4OEVTX3pQUER2YVNZSVRwSDQwOF80eFVFY1JiVjVvbmF2LXR5SUo5RVJ2YlFrMXNHZG5RWkRrTnNvTGg3c2x2SE9UakQ5Y0ZBYTA1akN0N2NyaXN4czMzMlI2NnRKVlp4aVZISmRiSVc4XzdjZVBZdHQySU0wSXptZFNmXy01YnlxWk9yTEZrT0V0SjJJaUkwMmk3N0NMOGxTVGFiOTJUaElsUXlocmxoa0hWX1k2aGdVb3I1Q2JFdlh0XzgwdTNweDBhUm5TdHhodThYdmJWMmdXcDZZX0hibUczYzgwSnhxQ25haWdsaFlwdnRjZXNhd1l3OEF5WW5qdmwxVFBpQzFweG1ndVMyejE2dE9QWTk2ZzNPMVFXMWdTVVQ4aTktbGNvVEsyellUNlFVZEhKLWJtX0JBZ201ZW9oQ2psWUtMaUpBMEZ2dTJlYnlsQmZMaEJmeEpCNW1JNTI5YTB2VTdCa3l2Qmd5UkdzNFBaaDIxdFpBX1lEMlZvYzZpLUJrY2xuX1dvUmJXR2x1QW1NZnFxM19wcC1sdWJwSG1EUlZ2TDdLZjc3YzVjcXhDXzg5MjTSAesEQVVfeXFMT0lFRS1paVBDMUFWekFRLTI0dGRna3hDejBUbW9LczlXaHVmRm16MkVnaUtFSS0yVUVZMWdVRWhsTjJBNjNiYURGYW1lT0pNVFU3Q3NsX2RLSmFnSGI2MjRkamgyQ3pYb2MzMkJDaFduX0lLRUpSMHdVT1FVeU9LYWFteGZZSTNBcVZxSDhQZ3Ywa2NaZEh1NUx4UkVQb2x1OWhCU1NqZk1rSDFFUDdIMXVFMXhoQmp2Q1Z0UWRYYWRFVzVEYkpndGdrbk9oRlhqNUtzRFN0LVdwdUJrS1pjUWtxeEtGTG4wY0RDeXJQWXdMSXVyU1NpYTNOMXM2a2JLbkF2QkNmR2hZdDBFSzNGaWg5Q2JtbHQtOVh4MUppRW0zeGIxcDFMdFpRTFVkel9wOXE1YWFuN0tvTHd4WllpNEl4d0NZUEpvUnZJb1dFWHJHemF2NWhVNWxBN0NtVmtIX0kxOHZRU1dsSHdXYWU3OHhHdE5hQnlDaTFKWmxsb3RnY2dackJUbkRsX0VBYkhtbzZVOXNLbHRCam9PaU5PVEcxVXBmNmwwRGFYSjdWcWNFX1gza0VSX0Vab1d3ZG9VeURyTURwVWxpd3JZSjBxYjNKdk16RVNVcHZHQzVCcUN3eG5UbFltWTVScUMtdU1vSzRiZ2NBWjZTTmcwZWV6RXZLb2tjUFlnSDUxVjBwZXE0WHpoeUZNMEpwbTB3WXczZ0dTMDg0dV9GRUdvWml3S3JMM0lFdk5lT0RqZ3pOM3NIWHlnTU1JSllMY1JWWU5Uamh0UUE0ZUNDSTNkZDFNaXFaWHpoeHk1YkZFcw?oc=5",
+          "source": "اليوم السابع",
+          "provider": "عربي · الإمارات والبحرين",
+          "published_at": "2026-10-18T13:00:00Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "digest": "c167543464c0ca7cb99e",
+      "revision": 1,
+      "updated_at": "2026-10-20T09:15:10.255142Z"
+    },
+    {
       "id": "GF-9F4216BC670973",
       "title": "Hormuz Tanker Fires Test Trump's Midterm Iran Pause - https://houseofsaud.com/",
       "category": "transport",
@@ -15934,6 +15946,51 @@
       "updated_at": "2026-10-20T07:40:58.957167Z"
     },
     {
+      "id": "GF-52B532EB708E58",
+      "title": "التحالف: اعتراض وتدمير صاروخين باليستيين أطلقتهما جماعة الحوثي باتجاه السعودية - CNN Arabic",
+      "category": "security",
+      "topic": "interception",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-17T22:01:11Z",
+      "last_published": "2026-10-17T22:01:11Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "8f43d575f22c88568b4ab454",
+          "title": "التحالف: اعتراض وتدمير صاروخين باليستيين أطلقتهما جماعة الحوثي باتجاه السعودية - CNN Arabic",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNT2RPS0c1ZFhpY3BISktHSjN1TktwdXk4WUVyT1lVT3NjbHFEN2J4Smhzdnl4aUlhZy1oNXduNFRPdHZ0YWpmekdmXzM2ZklGQ2NrdGszN3NMbzQ1VUptVXNGaE40em5sVTkwMG9UdWZQWWlWZFlSUnRra3lvLXNjdXdhLVdodzBzOExMZDdCZ1h6WTEzdUVrRTVfOXZqdXpOLXMyUmJoWEdENmtNT0lIRGdaRG1kRVNJbm5sNWVscXpyWkU?oc=5",
+          "source": "CNN Arabic",
+          "provider": "عربي · إيران والخليج",
+          "published_at": "2026-10-17T22:01:11Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "digest": "1341e70d60f90cc99ac6",
+      "revision": 1,
+      "updated_at": "2026-10-20T09:15:10.255142Z"
+    },
+    {
       "id": "GF-5F2F69A5F8CAEC",
       "title": "تصاعد حدة التوتر فى « هرمز » من جديد انفجار لغم فى ناقلة نفط.. وطهران تتهم واشنطن بتعريض الملاحة للخطر - بوابة الأهرام",
       "category": "security",
@@ -16591,7 +16648,7 @@
       ],
       "digest": "f46bec0036c3710d5cfa",
       "revision": 1,
-      "updated_at": "2026-10-20T09:14:46.282065Z"
+      "updated_at": "2026-10-20T09:15:10.255142Z"
     },
     {
       "id": "GF-F65F5AC3D0362A",
@@ -24070,7 +24127,7 @@
       ],
       "digest": "bb710bc25e763120c507",
       "revision": 6,
-      "updated_at": "2026-10-20T09:14:46.282065Z"
+      "updated_at": "2026-10-20T09:15:10.255142Z"
     },
     {
       "id": "GF-33DEA297B05CE8",
@@ -30081,6 +30138,50 @@
       "updated_at": "2026-10-20T07:40:58.957167Z"
     },
     {
+      "id": "GF-37B2D8BCE97024",
+      "title": "التحالف: 17 وفاة في 20 هجوما للحوثيين على مطار الرياض - قناة الغد",
+      "category": "security",
+      "topic": "aviation",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-15T13:48:23Z",
+      "last_published": "2026-10-15T13:48:23Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "6afcb72ef27b64c5f2c62990",
+          "title": "التحالف: 17 وفاة في 20 هجوما للحوثيين على مطار الرياض - قناة الغد",
+          "url": "https://news.google.com/rss/articles/CBMi1ANBVV95cUxNWjc5RXdZbUY3YzVFN2lWOGNnZW1nVW9TUzh6MUE2SlVJUnNPZDFQcU56MkRSN3VFNXZtUnlVX25oTVhRUlRpdDFaWDZ4bkFjZV93ZkhocDJWX1p0ZWJhNTBDdnd0VS1PMkJVNlJKTVNUeVhsVGpiWURwYnBNZlBCZmN3ekFPS1N2bnZMaGFGVzNmNVFTZExRQkFNWnFXQ2NEUXJERmxTVjZFODlEb0dRYmRhRm1HWHdVSkxQRTdoT1l4N255WFZrZ2UtUTNtYndLdXZFRGtxZVpqd0ItckE0MUlBdzhmbExBLWwtNHQyQ3R4VGFsSEpmUVZfNlQ4akJvbGtuY3BpTWtOZmxjY2tLeDF4OW1KNS1rYm9mRFhXZnBOZS01OHN2OGtSN1Q1ZnZYOU5FLUxsWnpoSkRKWWYxM1ZtbDRwUW5lS0hIRXBLYXhXS0J2OXVnY1pSQ0lPaGZtMWNZSXhxN28ySGc0SVVHM0xnX2NxNk5LanE2U0h2ZFgwaHFYdFJvVlpjXzVIR1JHa1MwaTRsX3dTdWZFUjhlQno2NFpMZlB5VjFzQWl0d3lLaEg4cV9uclhpV1hHRk55NlE2VlFlam96Q1JqeDA4TWlNR2k?oc=5",
+          "source": "قناة الغد",
+          "provider": "عربي · السعودية",
+          "published_at": "2026-10-15T13:48:23Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Saudi"
+        }
+      ],
+      "digest": "55898354974cba297b5c",
+      "revision": 1,
+      "updated_at": "2026-10-20T09:15:10.255142Z"
+    },
+    {
       "id": "GF-83C328D330B5D5",
       "title": "Iran's reported missile test puts Israel on alert - www.israelhayom.com",
       "category": "security",
@@ -32874,7 +32975,7 @@
       ],
       "digest": "be37706f77b4ac5a8223",
       "revision": 1,
-      "updated_at": "2026-10-20T09:14:46.282065Z"
+      "updated_at": "2026-10-20T09:15:10.255142Z"
     },
     {
       "id": "GF-FFD4E562D8D093",
@@ -33315,6 +33416,48 @@
       "updated_at": "2026-10-20T07:40:58.957167Z"
     },
     {
+      "id": "GF-52DF3E405DDC16",
+      "title": "Two Cargo Ships Sink Near Strait of Hormuz, as Iranian Attacks Increase - WSJ",
+      "category": "transport",
+      "topic": "maritime",
+      "countries": [],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-14T16:48:44Z",
+      "last_published": "2026-10-14T16:48:44Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "b90ad168cacff438f9de19ee",
+          "title": "Two Cargo Ships Sink Near Strait of Hormuz, as Iranian Attacks Increase - WSJ",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeVJzcVMzeW15SzZXQ09EZHdZNzdXY0lmbWVJNjRDLVlodjE0SVBTeFBES1VudmJROGNiQ3RlYU1NM2FlLWs0eVhadlR1Q3luYnoxTDBkRjBwcFdoN052cUxSOVBkQTFBSkdVYTd0elBuX3F0X19feXBuRGgtTVZfZmVvY21yU0F0RkdKX01DMHZDZE5ITUtMTzFZTnBJX1VnSWpwRW4xQQ?oc=5",
+          "source": "WSJ",
+          "provider": "Google News · shipping",
+          "published_at": "2026-10-14T16:48:44Z",
+          "collected_at": null,
+          "language": "en",
+          "country": ""
+        }
+      ],
+      "digest": "fd13062a62213d75ac0f",
+      "revision": 3,
+      "updated_at": "2026-10-20T09:15:10.255142Z"
+    },
+    {
       "id": "GF-5DAFC35D5E24EB",
       "title": "تصعيد إيراني يطول الكويت والبحرين والأردن.. وواشنطن ترد باستهداف ناقلات النفط - الساحل الغربي",
       "category": "security",
@@ -33574,48 +33717,6 @@
         }
       ],
       "digest": "dc80d02d7f7365394ace",
-      "revision": 2,
-      "updated_at": "2026-10-20T07:40:58.957167Z"
-    },
-    {
-      "id": "GF-52DF3E405DDC16",
-      "title": "Two Cargo Ships Sink Near Strait of Hormuz, as Iranian Attacks Increase - WSJ",
-      "category": "transport",
-      "topic": "maritime",
-      "countries": [],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "en"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-14T15:49:00Z",
-      "last_published": "2026-10-14T15:49:00Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "b90ad168cacff438f9de19ee",
-          "title": "Two Cargo Ships Sink Near Strait of Hormuz, as Iranian Attacks Increase - WSJ",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeVJzcVMzeW15SzZXQ09EZHdZNzdXY0lmbWVJNjRDLVlodjE0SVBTeFBES1VudmJROGNiQ3RlYU1NM2FlLWs0eVhadlR1Q3luYnoxTDBkRjBwcFdoN052cUxSOVBkQTFBSkdVYTd0elBuX3F0X19feXBuRGgtTVZfZmVvY21yU0F0RkdKX01DMHZDZE5ITUtMTzFZTnBJX1VnSWpwRW4xQQ?oc=5",
-          "source": "WSJ",
-          "provider": "Google News · shipping",
-          "published_at": "2026-10-14T15:49:00Z",
-          "collected_at": null,
-          "language": "en",
-          "country": ""
-        }
-      ],
-      "digest": "4fe5ea5d2ef94c6377b2",
       "revision": 2,
       "updated_at": "2026-10-20T07:40:58.957167Z"
     },
@@ -41834,16 +41935,16 @@
   ],
   "country_stats": {
     "Iran": {
-      "events": 354,
+      "events": 353,
       "reports": 441,
       "security_coverage": 188,
       "transport_coverage": 102,
-      "sources": 180
+      "sources": 179
     },
     "Saudi": {
-      "events": 285,
-      "reports": 305,
-      "security_coverage": 201,
+      "events": 288,
+      "reports": 308,
+      "security_coverage": 204,
       "transport_coverage": 71,
       "sources": 152
     },
@@ -41890,11 +41991,11 @@
       "sources": 4
     },
     "Yemen": {
-      "events": 125,
-      "reports": 128,
-      "security_coverage": 112,
+      "events": 127,
+      "reports": 130,
+      "security_coverage": 114,
       "transport_coverage": 11,
-      "sources": 68
+      "sources": 69
     },
     "Israel": {
       "events": 37,
@@ -41910,27 +42011,35 @@
     "2026-10-02": 1,
     "2026-10-12": 1,
     "2026-10-13": 88,
-    "2026-10-14": 123,
-    "2026-10-15": 105,
+    "2026-10-14": 122,
+    "2026-10-15": 106,
     "2026-10-16": 102,
-    "2026-10-17": 168,
-    "2026-10-18": 125,
+    "2026-10-17": 169,
+    "2026-10-18": 126,
     "2026-10-19": 165,
-    "2026-10-20": 46
+    "2026-10-20": 45
   },
   "revisions": [
     {
       "id": "GF-C30150D17CCE95",
       "revision": 2,
-      "at": "2026-10-20T09:14:46.282065Z",
+      "at": "2026-10-20T09:15:10.255142Z",
       "change": "published-source-set-updated",
       "previous_source_count": 2,
       "new_source_count": 4
     },
     {
+      "id": "GF-B5B71784951E17",
+      "revision": 5,
+      "at": "2026-10-20T09:15:10.255142Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 4,
+      "new_source_count": 5
+    },
+    {
       "id": "GF-05F74586CA0396",
       "revision": 3,
-      "at": "2026-10-20T09:14:46.282065Z",
+      "at": "2026-10-20T09:15:10.255142Z",
       "change": "published-source-set-updated",
       "previous_source_count": 2,
       "new_source_count": 1
@@ -41938,7 +42047,7 @@
     {
       "id": "GF-6744666E8D404D",
       "revision": 3,
-      "at": "2026-10-20T09:14:46.282065Z",
+      "at": "2026-10-20T09:15:10.255142Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
@@ -41946,7 +42055,7 @@
     {
       "id": "GF-4ACF500EC169DB",
       "revision": 3,
-      "at": "2026-10-20T09:14:46.282065Z",
+      "at": "2026-10-20T09:15:10.255142Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
@@ -41954,7 +42063,15 @@
     {
       "id": "GF-825ED56C1A3A18",
       "revision": 6,
-      "at": "2026-10-20T09:14:46.282065Z",
+      "at": "2026-10-20T09:15:10.255142Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-52DF3E405DDC16",
+      "revision": 3,
+      "at": "2026-10-20T09:15:10.255142Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
