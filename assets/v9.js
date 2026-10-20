@@ -196,12 +196,63 @@ async function reload(){
   health();ticker();syncPanels();
  }catch(e){state.lastError=String(e)}
 }
+
+function populateCountries(){
+ const list=$("v9CountryList");if(!list)return;
+ const countries=window.__gulfastraGeography||{};
+ list.innerHTML=Object.entries(countries).map(([key,value])=>
+  '<option value="'+esc(value.label||key)+'"></option>').join("");
+}
+function locate(){
+ const input=$("v9Locate");if(!input)return;
+ const q=input.value.trim().toLowerCase();if(!q)return;
+ const countries=window.__gulfastraGeography||{};
+ const match=Object.entries(countries).find(([key,value])=>key.toLowerCase()===q||(value.label||"").toLowerCase()===q)
+  ||Object.entries(countries).find(([key,value])=>(value.label||key).toLowerCase().includes(q));
+ if(!match){input.setCustomValidity("Country not found in Gulfastra reference regions");input.reportValidity();return}
+ input.setCustomValidity("");
+ const [key,value]=match,map=window.__gulfastraMap;
+ state.country=key;
+ if(map){map.flyTo({center:value.center,zoom:5.1,duration:600})}
+ input.value=value.label||key;
+ ensurePanel("wire");
+}
+function registerMapPreview(){
+ let tooltip=null;
+ function destroy(){tooltip?.remove();tooltip=null}
+ document.addEventListener("pointerover",event=>{
+  if(event.pointerType==="touch")return;
+  const marker=event.target.closest(".country-pin");
+  if(!marker||marker.contains(event.relatedTarget))return;
+  destroy();
+  const country=marker.dataset.country,geo=window.__gulfastraGeography?.[country];
+  const list=state.reports.filter(r=>(r.countries||[r.country]).includes(country))
+   .sort((a,b)=>new Date(b.published_at)-new Date(a.published_at));
+  const box=marker.getBoundingClientRect();
+  tooltip=document.createElement("div");tooltip.className="v9-tooltip";
+  tooltip.innerHTML='<strong>'+esc(geo?.label||country)+' · '+list.length+' HEADLINES</strong>'+
+   '<small>COUNTRY-AGGREGATED REPORTING, NOT EXACT EVENT POSITION</small>'+
+   (list.length?'<span dir="auto">'+esc(list[0].title)+'</span>':'');
+  document.body.appendChild(tooltip);
+  const left=Math.min(window.innerWidth-250,Math.max(8,box.right+12));
+  const top=Math.min(window.innerHeight-110,Math.max(43,box.top-24));
+  tooltip.style.left=left+"px";tooltip.style.top=top+"px";
+ });
+ document.addEventListener("pointerout",event=>{
+  const marker=event.target.closest(".country-pin");
+  if(marker&&!marker.contains(event.relatedTarget))destroy();
+ });
+ window.addEventListener("scroll",destroy,{passive:true});
+}
 function bind(){
  document.querySelectorAll("[data-v9-panel]").forEach(b=>b.addEventListener("click",()=>togglePanel(b.dataset.v9Panel)));
  document.querySelectorAll("[data-v9-mode]").forEach(b=>b.addEventListener("click",()=>mapMode(b.dataset.v9Mode)));
  $("v9ZoomIn").onclick=()=>window.__gulfastraMap?.zoomIn({duration:250});
  $("v9ZoomOut").onclick=()=>window.__gulfastraMap?.zoomOut({duration:250});
  $("v9Reset").onclick=()=>mapMode("map");
+ $("v9LocateGo").onclick=locate;
+ $("v9Locate").addEventListener("keydown",event=>{if(event.key==="Enter"){event.preventDefault();locate()}});
+ populateCountries();registerMapPreview();
  $("v9Filters").onclick=filterToggle;
  $("v9MobileFilters").onclick=filterToggle;
  $("closeLayers").addEventListener("click",()=>{$("controlpanel").classList.remove("v9-show")});
