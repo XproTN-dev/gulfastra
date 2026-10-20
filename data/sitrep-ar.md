@@ -1,10 +1,12 @@
 # موجز جلفاسترا للمصادر العلنية
 الفترة: آخر 24 ساعة (حسب وقت نشر التقارير)
 
-مجموعات التغطية: 291 | عناوين مرتبطة: 314
+مجموعات التغطية: 298 | عناوين مرتبطة: 321
 هذه تقارير صحفية وليست أحداثا مؤكدة، ولا تعتبر توجيهات سلامة رسمية.
 
-## Security (203 coverage groups)
+## Security (208 coverage groups)
+- الحرس الثوري: انفجار في ناقلة نفط إثر اصطدامها بلغم جنوب هرمز - بوابة الشروق (1 headlines; single-source)
+  - بوابة الشروق: https://news.google.com/rss/articles/CBMipwFBVV95cUxQeGxTQnlnQy1IS291bmJrWTAtU05zeG9ldkxsQnZMQ3gzeTNxUVdZc3dBb0xQNklUWHJWb3hXR0tVWXhxTjZWMkg3bWM3eGxpRjZtLVZjZ3BkdTV1S0wtQjYwMm05TlpXMC14NkxNUWJFMXhGOXlIdzQyaHh2cDM0VDlUbG1lTDU5Q0tLSC0wSFBTNXBKS0hoZ2l2T2tLbGdiM0IyODdTaw?oc=5
 - Britain sends fighter jets to defend Saudi Arabia amid Houthi attacks - The Washington Post (1 headlines; single-source)
   - The Washington Post: https://news.google.com/rss/articles/CBMitgFBVV95cUxOdVRQWlNkZkR6eGRXb0ttcXVxY2hBNkZqWm93a0pveDAtdnBTODhVSHBWZS1seHFrRzAzdVo4V21WbEQtckVvS2hEX09VNWVuNGJqZXVXNnpyODJ6QkZmT3RhcU41VHFMYnFrUk5YV0k1aVVkX3duOVI1Mk1LQ1A0UkFtb2l0UW1sdUVQZUh3Wkw0X21YUWxINGZfeDFfdVhlbUplM0dIVGpMdXlDY0txb09GU2FuQQ?oc=5
 - Houthis attack besieged city in Yemen that UN says is at 'grave risk' - The Washington Post (1 headlines; single-source)
@@ -32,10 +34,10 @@
   - المصري اليوم: https://news.google.com/rss/articles/CBMiX0FVX3lxTE9oNmVlMW1pa0FOVlI3dURzZVgtYm1jYTIwQVItaC1wYnhUOHBXejUycVUtNl9jdmpFSjI1b0FKUHlpVER3MVhZOXdndnIzTVJqTUpZSWxTd0gyb3B3MFRn?oc=5
 - عام / التحالف: تدمير منصة إطلاق الصاروخ الباليستي الذي أطلق على الرياض اليوم من قبل الميليشيا الحوثية الإرهابية - وكالة الأنباء السعودية (1 headlines; single-source)
   - وكالة الأنباء السعودية: https://news.google.com/rss/articles/CBMiRkFVX3lxTE53M0kzd1d6MF80ZkpfSXpyTmhJYkNPTnZzU1FjZWlVcFdGNW5MYUxOdUE5VUZVUklkLW5uN1BFMExDMW1iU1E?oc=5
-- التهديد الإيراني باستهداف كابلات الإنترنت في هرمز يُثير تفاعلاً واسعاً على مواقع التواصل الاجتماعي - BBC (1 headlines; single-source)
-  - BBC: https://news.google.com/rss/articles/CBMiY0FVX3lxTFAwNWU4MEd0NC16eVZ0anlLUkk3V2lGd0hobkRYalN1X2hnQ2syc3B1d1JCcmEwU3JFdk83dlJfVTZ4YXlPeVRzYnc4LVBlaWVPdGNmeUVvQW1OMlJSa0xWbTFRNNIBY0FVX3lxTFAwNWU4MEd0NC16eVZ0anlLUkk3V2lGd0hobkRYalN1X2hnQ2syc3B1d1JCcmEwU3JFdk83dlJfVTZ4YXlPeVRzYnc4LVBlaWVPdGNmeUVvQW1OMlJSa0xWbTFRNA?oc=5
 
-## Transport (50 coverage groups)
+## Transport (51 coverage groups)
+- Oil slips from five-month high as traders weigh Iran diplomacy - Baird Maritime (1 headlines; single-source)
+  - Baird Maritime: https://news.google.com/rss/articles/CBMirgFBVV95cUxPdU9WVThKY0M2NGZWZ0FQTlBxUXZHbmc0MUpjRW5LSkk5ZzJiT3FRUW5rVGJCb1d4MmFrSGpoaGlYRmRVX1JPS0VaWFZjbm9Mc054dzRid0tValJSSHd3b3BtOEt0Tld3Y21vREFneVhhNTB5U25GbzRnVklfSkNNMVpwVW9nLUlndDFhaDJHVlB5dGFZYmlKalBBbmQyWWcxbmhCUVBPeHp3d1gxbkHSAbsBQVVfeXFMTkZaUnNQZVFMdnVFcllHeDhvUnQ5UHRjeUhxNnJtajVnbHMzRjVuM2ctZHJhTDNKUDVubEJPbzE3NGVybW81b2duWExvbUo3b1Rad01qTmE2bUlHS0tRdWRUQ3hrLXFqRm10bWFsZTIyWUp0Y2RpVVNWSkVrRFE4aGwxSEx0bW5TOW1IbG9NaVFnbl9yN25lRjA2TWN6c05zUENaWTJGWEJqQnQxLTBaVkJTQ09PdEdiNTczYw?oc=5
 - Prolonged Iran negotiations keep oil supply risks and energy costs in focus - Oil & Gas 360 (1 headlines; single-source)
   - Oil & Gas 360: https://news.google.com/rss/articles/CBMiqAFBVV95cUxNckJha2JSbGFLaGZnLVBWUWdQTi1mb0lLNjdubDNwQmpkTFN5YWNlblFmUkMxSmFHVUhBWHBvN1kyM0tJY0pVNUhtM0ZRU0pjNlE0M2tNcm1sY0VPRXNGUmRuSHR1WHl1Sl9YRHRHX19mcm1VQjZJaERpNjZGaC1hQWw0SkFieS00YTkxLTZyVzJ5ekNudlZBbmZ6NHhrdmtILWkyTzFGNTI?oc=5
 - Iran says supertanker carrying over 2 million barrels of oil hit mine near Hormuz - Anadolu Ajansı (1 headlines; single-source)
@@ -62,14 +64,14 @@
   - NOW الشرق: https://news.google.com/rss/articles/CBMi8ARBVV95cUxQSC1WWWxTWW1SZEllQzlsbG5pMGpjYnBYbXB5eXpSTWVNTzczTWx2aGtGOTVQOFdCLWg3UTVReXlhUmNMY1BmdHI2Q2RhTGNrNjZjQlU0Y3BOa2xRV1M2WnBsOEpXNDExbjM4T2xycVJWWnhYNV85cXh1ZEl6aHRTLUY4SUxEQTZUdExLakYxTkxRMkozOUlLaTBvZy1iRHhYMWpDX1QwX0pVVi0wLUpyY2NiRTA1c250Z2tYRlRjVC1ocUlRVklGVkxnMTNpRVViQWdLMDJ3VS0wdnpXSHVReWRNSmF5bTlqWDQ0UW8tdkJqdC1LSTg0WHFVaXltaEwxMl9xRUItUFdoMU51N05mLU9sVGRFbG5QSGUwclhuNEswbnc4TjQ5UWtXTldCN1hyTTZPRHdad3FXOV91ZnphdG1TZUNlQmM0Qlo2aC1NWlhZMEI2bzlZMWxRY1hiLS1ma0pPMXlOR29reWVpelpqZEhVMWhTT1lUb1hsZldyOERlOEtIOHlER1pCSEVrRlR1TXpVNXhkd01Wd19aUXNOSmlzS0s2alpLdnNIVU5KVF9wRkdiSXBHWEhyMGJiSjM3c1dsRjNGQkJmTEZubzB0Rm0xTncxR0FYSmlpaG5JRzJ2NW1CaGdZdE9VSUpKN2NkLXJkVHNQVFBDdWhoZjgwRjNuVEJVUEh0M3ZmNHNKWmpVVVVzYlBsc3hCdHNTeXNHZExRdXRIM3FvUTZIaXN1MXRpYVN6WFBkVEFFT0pJaDlfN2FGd253RXh4VWpUYmZvNzdzRlJWZ09tYlNVWVlVdzhTRTdjNXZIVGNWa3lvS3Q?oc=5
 - Sultan of Oman begins state visit to Britain as Gulf state plays pivotal role in Strait of Hormuz - AP News (1 headlines; single-source)
   - AP News: https://news.google.com/rss/articles/CBMipgFBVV95cUxOaGNHWWFGUlhFYTdmWU5yR1BPRV90ZHVyWWNaWGh2N2FtbXZ4TFFiNFgxNm9VVTVBblA2ajZjMTF4LU02Um5SN3hDTzRnUDFrNzFwSFZVTHRHcWY2aUFJd3d2Z1daR2xWU1NCbHdaTGlNUXFydEV1TjJ6T01RS1ZHZkJmSVhtalFlUFFocTJkS2czbXdWVUt6OHV6TXMyNkZyNVE1blV3?oc=5
-- Iran Says Burning Tanker Found In Hormuz Restricted Zone, CENTCOM Rejected - Kurdistan24 (1 headlines; single-source)
-  - Kurdistan24: https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZG9wSXZuTENZLUlWeGFrUGpfOEV1aHZyMHEzT1otNkJhZUh5Wkg5WDgtZmx3bDBFdlBjZHdqVUw3OWRGSGVSdXFvR0pyUHltRjZ0Y2JWeEFwQ2NfSThTZkZSeV8yU3lFR3ZfeGFKTU5senBPU2FQTEV0TC1zX0JKSjc1VVNhcUlpS3RvTE9NeU4zZ0ZzbnNHVXFGSUtJUTFSMGNCZGxTTVBVX0U4R2hFb1Rtc2tfREtr?oc=5
 
-## Diplomacy (38 coverage groups)
+## Diplomacy (39 coverage groups)
 - Iran’s president says US must lift sanctions before any negotiations - Türkiye Today (1 headlines; single-source)
   - Türkiye Today: https://news.google.com/rss/articles/CBMisAFBVV95cUxNcjE2WTdjdzVmRzhLVFR5RHM0cjdWREpLaGNwWXE1djI3Q1JIX2JvcEgxWTRoUjRrSUVfdmw4bmFTRjlKQXIzNldUYlgtRnhiWXkxX3pad3Z5WldYcFkyQ2hCM0hHYTlVcXlyOXREWUtYblJydDQyTlQwRDdSa0N4cEd6LWgtdFFENEp0cXFzQXRiaHQ5ZWJ2blM4dFdScFZtX2ZWWHZITXl6VUtuN1F1aw?oc=5
 - Iran tells Pakistan army chief no talks with Washington until demands are met - Reuters (1 headlines; single-source)
   - Reuters: https://news.google.com/rss/articles/CBMizgFBVV95cUxOVDRWMklOYkRvUmtPYU1tcnN0MVJCbzRxWlJzS3lSUFhsZzQ3SnQ2N0FKXzRsZFpmdmMwS1lVYWhKenNoNEF6UmhhcThrbVM1V0ZHQUk0aXFwWHlvbXFNWVhzQkV2aHVzM1I2am9fOHFHa19CQlN0Z3FqUG5nc2VwQUJxazBhbGZlSUhDMHExSWJLbDJNNXRjc3BOYkZrTThIUW1IUkE4QUI2azl6MzZHT0Nrb2M4aDZBQzZKYVp4OTg0VV9xWWllLUJGYkFkdw?oc=5
+- French President Emmanuel Macron arrives in Qatar - AP News (1 headlines; single-source)
+  - AP News: https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUXROWlVPR0RZaGFtdWpwWnpFM2pRNEJBTkw4ZVQ0YUhia2VJSmFUM1RnemhwbHlUdUdndUsxTnlzOHhpNVJRdEJ1b2hueFMyTTFuUnMwZ05SLTBKSHkzQVNPcHR5QU4yd0xPNWk2c3lrLTBDMWl6dDduS1BfbDZvME54VXFwY2d5c1ZnWDFLbkJFN1NrSFpRZXVCODNYQWRrbGIxYzgtX1U4alU?oc=5
 - French President Arrives in Doha for State Visit (1 headlines; single-source)
   - Qatar News Agency · Qatar RSS: https://qna.org.qa/en/News-Area/News/2026-10/20/french-president-arrives-in-doha-for-state-visit
 - Qatar and NATO Envoy Discuss Security and Defense Cooperation in Doha (1 headlines; single-source)
@@ -93,5 +95,3 @@
   - i24news.tv: https://www.i24news.tv/en/news/analysis-opinion/artc-iraq-s-bid-to-mediate-iran-gulf-tensions-faces-major-obstacles-former-un-envoy-warns
 - Trump unexpectedly said the US could immediately withdraw from a war with Iran, revealing obstacles to negotiations. - Vietnam.vn (1 headlines; single-source)
   - Vietnam.vn: https://news.google.com/rss/articles/CBMiugFBVV95cUxPckNnaGVMMG8xcG5PLXV5VTRONmVmNU93NE9mdUhnOE1WTWJJZ3JEM0JsR01ZSGlKTVl0dHJ5RzlKZXJWUmx6TFo1MlZMU01UYWU4aVpyM2ttM0toWnh0UWJqYVpHM0J3VlZ1QzhrSXMtVW04amNtTHRHZ0RESjNhdUZ1aDRYdmpycEF1ZU9rd0ZNbmRCSWxJY041U0MtYUlMNEZsVUNzY3liRmdHV05mQ3lGUldSb2xCQVE?oc=5
-- Iran war latest: Hegseth makes surprise visit to Israel as Netanyahu tells Trump 'we have job to finish' - The National (1 headlines; single-source)
-  - The National: https://news.google.com/rss/articles/CBMijgFBVV95cUxPTVZ5ekNnd0lWdHo2RW5CVnUtOVZqZG5VUWd6V1pUQ2d0a2NxWFEwRzI5OTBQckZtTnVKUWRMZzNuT3N0X1V5YXlEU0lfdWtRY0hlRXRJSlNpNFhXZ3hYN240RTNCamhPSDBSaGdVZ0J2TUl4RDR3QUFFa1laMDRQTm5kOWF4QXZjTWdyZjR3?oc=5

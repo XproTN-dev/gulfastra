@@ -1,7 +1,26 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-20T19:09:27.463466Z",
+  "generated_at": "2026-10-20T19:14:43.761433Z",
   "alerts": [
+    {
+      "id": "GF-1BD50478BDBD85",
+      "level": "review",
+      "title": "الحرس الثوري: انفجار في ناقلة نفط إثر اصطدامها بلغم جنوب هرمز - بوابة الشروق",
+      "published_at": "2026-10-20T19:12:43Z",
+      "countries": [],
+      "category": "security",
+      "topic": "maritime",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "بوابة الشروق",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQeGxTQnlnQy1IS291bmJrWTAtU05zeG9ldkxsQnZMQ3gzeTNxUVdZc3dBb0xQNklUWHJWb3hXR0tVWXhxTjZWMkg3bWM3eGxpRjZtLVZjZ3BkdTV1S0wtQjYwMm05TlpXMC14NkxNUWJFMXhGOXlIdzQyaHh2cDM0VDlUbG1lTDU5Q0tLSC0wSFBTNXBKS0hoZ2l2T2tLbGdiM0IyODdTaw?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
     {
       "id": "GF-C3AAC6B01D4DBA",
       "level": "review",

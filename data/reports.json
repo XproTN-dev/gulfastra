@@ -1,9 +1,53 @@
 {
   "version": 6,
-  "last_run": "2026-10-20T19:09:18.137210Z",
-  "last_successful_run": "2026-10-20T19:09:18.137210Z",
+  "last_run": "2026-10-20T19:14:35.445752Z",
+  "last_successful_run": "2026-10-20T19:14:35.445752Z",
   "successful_sources": 29,
   "reports": [
+    {
+      "id": "58757e3bae6eba60dda42cdf",
+      "title": "الحرس الثوري: انفجار في ناقلة نفط إثر اصطدامها بلغم جنوب هرمز - بوابة الشروق",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQeGxTQnlnQy1IS291bmJrWTAtU05zeG9ldkxsQnZMQ3gzeTNxUVdZc3dBb0xQNklUWHJWb3hXR0tVWXhxTjZWMkg3bWM3eGxpRjZtLVZjZ3BkdTV1S0wtQjYwMm05TlpXMC14NkxNUWJFMXhGOXlIdzQyaHh2cDM0VDlUbG1lTDU5Q0tLSC0wSFBTNXBKS0hoZ2l2T2tLbGdiM0IyODdTaw?oc=5",
+      "source": "بوابة الشروق",
+      "published_at": "2026-10-20T19:12:43Z",
+      "country": "",
+      "countries": [],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير امني",
+      "provider": "عربي · مضيق هرمز",
+      "first_seen_at": "2026-10-20T19:14:35.445752Z",
+      "date_quality": "publisher-time",
+      "freshness": "new-reporting",
+      "context": "reporting",
+      "severity": "critical-candidate",
+      "critical_candidate": true,
+      "alert_eligible": true,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "8ca5a85947dc86525659235f",
+      "title": "Oil slips from five-month high as traders weigh Iran diplomacy - Baird Maritime",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdU9WVThKY0M2NGZWZ0FQTlBxUXZHbmc0MUpjRW5LSkk5ZzJiT3FRUW5rVGJCb1d4MmFrSGpoaGlYRmRVX1JPS0VaWFZjbm9Mc054dzRid0tValJSSHd3b3BtOEt0Tld3Y21vREFneVhhNTB5U25GbzRnVklfSkNNMVpwVW9nLUlndDFhaDJHVlB5dGFZYmlKalBBbmQyWWcxbmhCUVBPeHp3d1gxbkHSAbsBQVVfeXFMTkZaUnNQZVFMdnVFcllHeDhvUnQ5UHRjeUhxNnJtajVnbHMzRjVuM2ctZHJhTDNKUDVubEJPbzE3NGVybW81b2duWExvbUo3b1Rad01qTmE2bUlHS0tRdWRUQ3hrLXFqRm10bWFsZTIyWUp0Y2RpVVNWSkVrRFE4aGwxSEx0bW5TOW1IbG9NaVFnbl9yN25lRjA2TWN6c05zUENaWTJGWEJqQnQxLTBaVkJTQ09PdEdiNTczYw?oc=5",
+      "source": "Baird Maritime",
+      "published_at": "2026-10-20T19:01:16Z",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "language": "en",
+      "category": "transport",
+      "tag": "MARITIME REPORT",
+      "provider": "Google News · diplomacy",
+      "first_seen_at": "2026-10-20T19:14:35.445752Z",
+      "date_quality": "publisher-time",
+      "freshness": "new-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
     {
       "id": "6523b8af7889128e99aa5508",
       "title": "Iran’s president says US must lift sanctions before any negotiations - Türkiye Today",
@@ -395,6 +439,29 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "4e655a59ddbeec8950e8380c",
+      "title": "French President Emmanuel Macron arrives in Qatar - AP News",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUXROWlVPR0RZaGFtdWpwWnpFM2pRNEJBTkw4ZVQ0YUhia2VJSmFUM1RnemhwbHlUdUdndUsxTnlzOHhpNVJRdEJ1b2hueFMyTTFuUnMwZ05SLTBKSHkzQVNPcHR5QU4yd0xPNWk2c3lrLTBDMWl6dDduS1BfbDZvME54VXFwY2d5c1ZnWDFLbkJFN1NrSFpRZXVCODNYQWRrbGIxYzgtX1U4alU?oc=5",
+      "source": "AP News",
+      "published_at": "2026-10-20T17:31:00Z",
+      "country": "Qatar",
+      "countries": [
+        "Qatar"
+      ],
+      "language": "en",
+      "category": "diplomacy",
+      "tag": "DIPLOMACY REPORT",
+      "provider": "AP · indexed Gulf reporting",
+      "first_seen_at": "2026-10-20T19:14:35.445752Z",
+      "date_quality": "publisher-time",
+      "freshness": "new-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "acc1a29e04e2175f96fee993",
       "title": "French President Arrives in Doha for State Visit",
       "url": "https://qna.org.qa/en/News-Area/News/2026-10/20/french-president-arrives-in-doha-for-state-visit",
@@ -502,7 +569,7 @@
       "provider": "عربي · مضيق هرمز",
       "first_seen_at": "2026-10-20T18:37:52.852680Z",
       "date_quality": "publisher-time",
-      "freshness": "new-reporting",
+      "freshness": "recent-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
       "critical_candidate": false,
@@ -985,6 +1052,29 @@
       "freshness": "recent-reporting",
       "context": "reporting",
       "severity": "elevated-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "b75bb2b7af18a30b6c56175c",
+      "title": "UK expands military support for Saudi Arabia against Houthis with ‘defensive’ air patrols - AP News",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdFpJQjVaX2pPYVMybXM3OEQ4ZzRzNEdpc2FVMldTRTVWaVFNQXZQVkZrRmdLNVpKc1RVeS1sbGIzSDJlNE12QkRMR2UxcC1PZWIwcnJXY0Z4T0hEQkxmWnBrNHpkSFZxaWgzZU5pRGM1cGJVUWRISHFraGJaUFFzRnlHYko4UlJpMmFvMVZLc1lFdw?oc=5",
+      "source": "AP News",
+      "published_at": "2026-10-20T15:56:00Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "AP · indexed Gulf reporting",
+      "first_seen_at": "2026-10-20T12:03:42.847208Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
       "critical_candidate": false,
       "alert_eligible": false,
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
@@ -3074,29 +3164,6 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
-      "id": "b75bb2b7af18a30b6c56175c",
-      "title": "UK expands military support for Saudi Arabia against Houthis with ‘defensive’ air patrols - AP News",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdFpJQjVaX2pPYVMybXM3OEQ4ZzRzNEdpc2FVMldTRTVWaVFNQXZQVkZrRmdLNVpKc1RVeS1sbGIzSDJlNE12QkRMR2UxcC1PZWIwcnJXY0Z4T0hEQkxmWnBrNHpkSFZxaWgzZU5pRGM1cGJVUWRISHFraGJaUFFzRnlHYko4UlJpMmFvMVZLc1lFdw?oc=5",
-      "source": "AP News",
-      "published_at": "2026-10-20T11:31:03Z",
-      "country": "Saudi",
-      "countries": [
-        "Saudi"
-      ],
-      "language": "en",
-      "category": "security",
-      "tag": "SECURITY REPORT",
-      "provider": "AP · indexed Gulf reporting",
-      "first_seen_at": "2026-10-20T12:03:42.847208Z",
-      "date_quality": "publisher-time",
-      "freshness": "recent-reporting",
-      "context": "reporting",
-      "severity": "routine-reporting",
-      "critical_candidate": false,
-      "alert_eligible": false,
-      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
-    },
-    {
       "id": "92e9f0215ed02f07b62f6a06",
       "title": "Explained : Why is Egypt discussing military involvement in Saudi - Houthi conflict ?",
       "url": "https://article.wn.com/view/2026/10/20/Explained_Why_is_Egypt_discussing_military_involvement_in_Sa/",
@@ -3517,6 +3584,29 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "1d6d368afeb1f32c8f67f8f7",
+      "title": "The UK expands military support for Saudi Arabia against Houthis to include 'defensive' air patrols - Audacy",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZVVyN2YxWlBHQ3BYLXFTRFFLY2o4TXduQkRJemQ0eUhOUUNsNXhua1Y4U2ZrMkt0TkxmbWZvRjFVRWpDdmpJX01ubHFBM3l4ektJM1JCTGJ2T3N5YlAxclZiRzFHSE1tWHZzdGdSTGYzTllPM081RGExTGwwRTdPazJSZW52a2V2aGt1TXBMN0x0Q2M0aFVNRjR0VU9vQ203OWZuTDZpcktCQ2tU?oc=5",
+      "source": "Audacy",
+      "published_at": "2026-10-20T11:02:00Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · security",
+      "first_seen_at": "2026-10-20T19:14:35.445752Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "c35df31ecfc3565aa6df7a84",
       "title": "تحالف دعم الشرعية يعلن تدمير صاروخ حوثي استهدف الرياض - https://emirates24.net/",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1vRnhOMlhmOGlVN2pwdWhNZHlGUE9kUGRaU3lucy1hMG83cW5vYUxQcEwxeGNCWHVJd3FxTF9BOTBMQnVUc09SZEdlamR1VU5hTEJn?oc=5",
@@ -3644,6 +3734,53 @@
       "tag": "SECURITY REPORT",
       "provider": "Google News · security",
       "first_seen_at": "2026-10-20T12:03:42.847208Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "5c9cd2ad07b8597dadaa47ec",
+      "title": "هجمات الحوثيين تتواصل.. التحالف بقيادة السعودية يعلن اعتراض صاروخ أُطلق باتجاه الرياض - Euronews.com",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQd0hVOEpjeWhOUjhZd2FwdF9HOWVERkRIX1o5blllZjlCM2pqamJROUg1ZWhzaEhfUURSekxlUWs1UV9HY2UwM09KVjhJWnVobGlUbE4zbzE1NVV5SjBRNmhXQlpCSi0wRjNKZGtoamhsS2xab25hSUdwOUt6X2dNbFRSYktUN3E5MzYxcVF4QzNMeVN0V0xUWmlNY04ya0dDdU5CdWdTRW1DVGpreTJQR2dVd0JFTWVmMWk2N0stREN4d1g3SWgxdw?oc=5",
+      "source": "Euronews.com",
+      "published_at": "2026-10-20T10:57:53Z",
+      "country": "",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "خبر اعتراض / دفاع جوي",
+      "provider": "عربي · السعودية",
+      "first_seen_at": "2026-10-20T19:14:35.445752Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "elevated-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "375548727e896d3ca154a92e",
+      "title": "FBI warns Iran aspired to attack California with drones in retaliation for war: Alert - ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQ2hlRlY5RFh4YWgtOFBHaFNnc1dKRXh6Q243VXU0bUFUWk5TeThyVFM2Yk1jWUpnYWRUQkV6eGhZM3YzNzBzY296NXNwRlRXbWl1eFFVb0dvckZ4aUhsVHctOERRMkJJRTNZbVo1ZjVqejViYWxuaDRIY2Q0STZ2al9EVHlXVlgtbE9lSVhQbjZCSzZwTmtpM01uUWdxS2tPLWRj0gGoAUFVX3lxTE1wUUM0QkFNelExVzUzcVBxdnM2c1l4bklTdndFT3pzcEZVQXZkOVA0VHFRYXREZjAtcVhXcktBVi12VEZ6dVFRcEpVSEJZb0thLUs3NGY1d2pBV3BJOXdBS2NkWnJ1T0RrTWpzNm8yS2R5Q3ZnaDYyYmRMejdKYm5kd2RNZmhZOE9BdHRrU1NfdmlicXJUR3hZMDVTQldmN3lCWUFFYWIxdw?oc=5",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "published_at": "2026-10-20T10:57:18Z",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · missiles/drones",
+      "first_seen_at": "2026-10-20T13:30:10.274301Z",
       "date_quality": "publisher-time",
       "freshness": "recent-reporting",
       "context": "reporting",
@@ -6681,6 +6818,31 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "6df264a43f4803d464219aca",
+      "title": "السعودية والإمارات تدينان الهجمات الإيرانية على البحرين والكويت والأردن وتؤكدان دعمهما لأمن الدول الشقيقة - الساحل الغربي",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBITGlFa05BRWUwWDUwVzhPWlZFaC1yQ0RmMUxpMXZLUF9neHYtZ0lmdFRmQk4ta0VWT1hRZ25YVFlRdENrajdBcTQ2OVdFYmM?oc=5",
+      "source": "الساحل الغربي",
+      "published_at": "2026-10-19T21:42:52Z",
+      "country": "",
+      "countries": [
+        "Iran",
+        "Saudi",
+        "Bahrain"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير امني",
+      "provider": "عربي · الإمارات والبحرين",
+      "first_seen_at": "2026-10-20T16:54:36.300300Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "01e4cf6f2093e7cae835",
       "title": "Russia vows continued Iran ties as Trump welcomes limits on support - Iran International",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5JZUVBaEVHVHI4Zy04NUJUUnRhbW5ZdzIxS3Zpd2ZoRWtHMWxEU2laLURVclZwdkVidzJpTDJEaXcyNC1zTktmZUF1WGZybmh1N0E?oc=5",
@@ -7384,29 +7546,6 @@
       "provider": "عربي · مضيق هرمز",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
-      "freshness": "older-reporting",
-      "context": "reporting",
-      "severity": "routine-reporting",
-      "critical_candidate": false,
-      "alert_eligible": false,
-      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
-    },
-    {
-      "id": "375548727e896d3ca154a92e",
-      "title": "FBI warns Iran aspired to attack California with drones in retaliation for war: Alert - ABC News - Breaking News, Latest News and Videos",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQ2hlRlY5RFh4YWgtOFBHaFNnc1dKRXh6Q243VXU0bUFUWk5TeThyVFM2Yk1jWUpnYWRUQkV6eGhZM3YzNzBzY296NXNwRlRXbWl1eFFVb0dvckZ4aUhsVHctOERRMkJJRTNZbVo1ZjVqejViYWxuaDRIY2Q0STZ2al9EVHlXVlgtbE9lSVhQbjZCSzZwTmtpM01uUWdxS2tPLWRj0gGoAUFVX3lxTE1wUUM0QkFNelExVzUzcVBxdnM2c1l4bklTdndFT3pzcEZVQXZkOVA0VHFRYXREZjAtcVhXcktBVi12VEZ6dVFRcEpVSEJZb0thLUs3NGY1d2pBV3BJOXdBS2NkWnJ1T0RrTWpzNm8yS2R5Q3ZnaDYyYmRMejdKYm5kd2RNZmhZOE9BdHRrU1NfdmlicXJUR3hZMDVTQldmN3lCWUFFYWIxdw?oc=5",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "published_at": "2026-10-19T18:05:37Z",
-      "country": "Iran",
-      "countries": [
-        "Iran"
-      ],
-      "language": "en",
-      "category": "security",
-      "tag": "SECURITY REPORT",
-      "provider": "Google News · missiles/drones",
-      "first_seen_at": "2026-10-20T13:30:10.274301Z",
-      "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -12397,29 +12536,6 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
-      "id": "37a7862e22843fad0855763d",
-      "title": "سلطات مأرب تؤكد إطلاق الحوثيين ثمانية صواريخ باليستية على المدينة - emirates24.net",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBkMzRYTThjSVVoWHY4aUhCZ25EYjh1cnM3ejByUVh2RFdRdXZSSFA4eVFiZGRtek9pNlI5M1IxRGVHak9yMUF2ZjhuYUpfeXdlOWE4dlUxNWVHZHdROUE?oc=5",
-      "source": "emirates24.net",
-      "published_at": "2026-10-18T19:01:33Z",
-      "country": "Yemen",
-      "countries": [
-        "Yemen"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "تقرير عن صواريخ",
-      "provider": "عربي · الإمارات والبحرين",
-      "first_seen_at": "2026-10-20T19:09:18.137210Z",
-      "date_quality": "publisher-time",
-      "freshness": "older-reporting",
-      "context": "reporting",
-      "severity": "routine-reporting",
-      "critical_candidate": false,
-      "alert_eligible": false,
-      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
-    },
-    {
       "id": "cf40f32cdb967191abd15135",
       "title": "Egypt’s top security body agrees to help Saudi Arabia defend itself against Houthi attacks - AP News",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOS1hsZ1ZMdXFsZmM1WHRVeFRpV0dzUEpwcFlNVjAyUnBfUjVGb0JjVFFmY1dZeVd1ekw0MGhsSWNtNE9pQ1hCangwSFpaOG9Ec1JJWWtwS0pXbTJBT0tkVm5qS2FPTVdleUlZVWNmNjZiVi14NzAwc2JHOFh6TXU0WGsxNVBpajdHaEhYSmhoWWV0dnNXdlpn?oc=5",
@@ -15282,7 +15398,7 @@
       "language": "en",
       "category": "security",
       "tag": "INTERCEPTION REPORT",
-      "provider": "Google News · security",
+      "provider": "Google News · missiles/drones",
       "first_seen_at": "2026-10-20T12:09:48.504938Z",
       "date_quality": "publisher-time",
       "freshness": "older-reporting",
@@ -22643,31 +22759,6 @@
       "provider": "عربي · الإمارات والبحرين",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
-      "freshness": "older-reporting",
-      "context": "reporting",
-      "severity": "routine-reporting",
-      "critical_candidate": false,
-      "alert_eligible": false,
-      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
-    },
-    {
-      "id": "6df264a43f4803d464219aca",
-      "title": "السعودية والإمارات تدينان الهجمات الإيرانية على البحرين والكويت والأردن وتؤكدان دعمهما لأمن الدول الشقيقة - الساحل الغربي",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBITGlFa05BRWUwWDUwVzhPWlZFaC1yQ0RmMUxpMXZLUF9neHYtZ0lmdFRmQk4ta0VWT1hRZ25YVFlRdENrajdBcTQ2OVdFYmM?oc=5",
-      "source": "الساحل الغربي",
-      "published_at": "2026-10-16T03:25:46Z",
-      "country": "",
-      "countries": [
-        "Iran",
-        "Saudi",
-        "Bahrain"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "تقرير امني",
-      "provider": "عربي · الإمارات والبحرين",
-      "first_seen_at": "2026-10-20T16:54:36.300300Z",
-      "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -33334,17 +33425,17 @@
     "Google News · missiles/drones": {
       "ok": true,
       "items": 100,
-      "relevant": 78
+      "relevant": 79
     },
     "Google News · security": {
       "ok": true,
       "items": 100,
-      "relevant": 73
+      "relevant": 74
     },
     "Google News · aviation": {
       "ok": true,
-      "items": 89,
-      "relevant": 83
+      "items": 88,
+      "relevant": 82
     },
     "Google News · shipping": {
       "ok": true,
@@ -33354,12 +33445,12 @@
     "Google News · diplomacy": {
       "ok": true,
       "items": 100,
-      "relevant": 53
+      "relevant": 54
     },
     "Google News · regional": {
       "ok": true,
-      "items": 56,
-      "relevant": 29
+      "items": 54,
+      "relevant": 28
     },
     "Reuters · indexed Gulf reporting": {
       "ok": true,
@@ -33388,7 +33479,7 @@
     },
     "عربي · قطر": {
       "ok": true,
-      "items": 56,
+      "items": 57,
       "relevant": 24
     },
     "عربي · السعودية": {
@@ -33419,7 +33510,7 @@
     "عربي · العربية": {
       "ok": true,
       "items": 100,
-      "relevant": 36
+      "relevant": 37
     },
     "عربي · الشرق": {
       "ok": true,
@@ -33429,7 +33520,7 @@
     "عربي · وكالات الخليج": {
       "ok": true,
       "items": 100,
-      "relevant": 31
+      "relevant": 30
     },
     "الجزيرة نت · RSS عربي": {
       "ok": true,
