@@ -41,7 +41,10 @@ with sync_playwright() as pw:
         page.locator('[data-hours="168"]').first.click()
         assert page.locator('[data-hours="168"]').first.get_attribute("class")=="active"
         assert not page.evaluate("window.GXApp.getState().replay"),"Default should not be historical replay"
-        page.locator("#timelineScrub").fill("37")
+        page.locator("#timelineScrub").evaluate("""el=>{
+            el.value="37";
+            el.dispatchEvent(new Event("input",{bubbles:true}));
+        }""")
         assert page.evaluate("window.GXApp.getState().replay"),"Timeline scrubber not affecting time filter"
         page.locator("#timelineNow").click()
         assert not page.evaluate("window.GXApp.getState().replay")
