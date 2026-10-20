@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
-<link rel="stylesheet" href="assets/v3.css?v=20261020-4">
+<link rel="stylesheet" href="assets/v3.css?v=20261020-6">
 </head>
 <body>
 <div class="shell" id="shell">
@@ -51,6 +51,7 @@
 <aside class="feedpanel" id="feedpanel">
  <div class="feed-head"><div><span class="panel-eyebrow">02 / SIGNAL DESK</span><h2>Intelligence Feed</h2></div><span class="report-count" id="feedCount">—</span></div>
  <div class="feed-tools"><div class="feed-tabs" id="feedTabs"><button data-mode="all" class="active">ALL</button><button data-mode="security">SECURITY</button><button data-mode="transport">DISRUPTION</button></div><button class="alerts-button" id="alertToggle" title="Open alert center">♧ <span id="alertUnread">0</span></button></div>
+ <div class="language-tools"><div id="languageTabs" class="language-tabs" role="group" aria-label="News language"><button data-lang="all" class="active">ALL</button><button data-lang="ar">عربي</button><button data-lang="en">ENGLISH</button></div><div class="discovery-tools"><button id="openNabd" title="Nabd Arabic news sources">نبض NABD ↗</button><button id="openXWatch" title="X regional news watch">X WATCH ↗</button></div></div>
  <div class="feed-meta"><span><i class="live-dot"></i> PUBLICATION STREAM</span><span id="feedUpdated">WAITING FOR DATA</span></div>
  <div id="feed" class="feed-list" aria-live="polite"><div class="empty"><div class="empty-symbol">⌁</div><strong>Loading public intelligence feed</strong><p>Checking the latest collected articles and sources.</p></div></div>
  <div class="feed-bottom"><span id="feedSummary">REPORTS ARE NOT VERIFIED INCIDENTS</span><button id="showAll" class="text-link">VIEW ALL →</button></div>
@@ -61,5 +62,5 @@
 <section class="drawer" id="drawer" aria-hidden="true"><div class="drawer-top"><span class="panel-eyebrow" id="drawerTag">SOURCE DETAIL</span><button id="drawerClose" aria-label="Close detail">✕</button></div><div id="drawerContent"></div></section>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
-<script src="assets/v3.js?v=20261020-5" defer></script>
+<script src="assets/v3.js?v=20261020-6" defer></script>
 </body></html>
