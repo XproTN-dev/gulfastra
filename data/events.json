@@ -1,9 +1,274 @@
 {
   "schema": 5,
-  "generated_at": "2026-10-20T09:29:36.544778Z",
+  "generated_at": "2026-10-20T09:48:10.536726Z",
   "model": "deterministic-source-correlation-v1",
   "disclaimer": "Clusters are related PUBLIC REPORTS, not confirmed incidents. Source counts are not proof. Country names are mentions, not incident locations.",
   "events": [
+    {
+      "id": "GF-079FE18C91E1F8",
+      "title": "Factbox-Airlines cancel flights to Saudi Arabia after Riyadh airport attacks - Global Banking & Finance Review",
+      "category": "transport",
+      "topic": "aviation",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T09:46:49Z",
+      "last_published": "2026-10-20T09:46:49Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "b2ec330348241752a3a87655",
+          "title": "Factbox-Airlines cancel flights to Saudi Arabia after Riyadh airport attacks - Global Banking & Finance Review",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNal9kOWNxQ1p4NTBvZHdrWERuTzhSOVM4SmhubTh0SDVNY1I3czZCY2h2R2EtbXZrWW5FV1N6Z3VudE1RcmFPeXgtdk9wMHk4UlctSDZEVHJYR0ZMdjlwMDctRVJjV2p4T1UzUzdZV29jam5nMTQ4d29PZlZ6YzgyV05pYUxWYm5NZ2x6MEJ4WEFCeERoTS13R290WjFmbk1EblE?oc=5",
+          "source": "Global Banking & Finance Review",
+          "provider": "Google News · aviation",
+          "published_at": "2026-10-20T09:46:49Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Saudi"
+        }
+      ],
+      "digest": "02f88a0cdab032c6874a",
+      "revision": 1,
+      "updated_at": "2026-10-20T09:48:10.536726Z"
+    },
+    {
+      "id": "GF-8DDFD20BC795F3",
+      "title": "الحرس الثوري الإيراني: اشتعال النار في ناقلتي نفط إثر اصطدامهما بألغام جنوب مضيق هرمز - بوابة الشروق",
+      "category": "security",
+      "topic": "maritime",
+      "countries": [
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T09:46:28Z",
+      "last_published": "2026-10-20T09:46:28Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "ebb8fb21f6872398c941ab51",
+          "title": "الحرس الثوري الإيراني: اشتعال النار في ناقلتي نفط إثر اصطدامهما بألغام جنوب مضيق هرمز - بوابة الشروق",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZTVzUERUbm1TRmhzYXdnMDNOY0ZpWmFzSFRoMUdrc29Eb2NrajJqcFA5eWtBcjJBcWNwckJRa0locVBKNVVvMm00SU8wU21KdG16cGxpT0UtUzIyaEl0ODd3cEtuNWhlVGNRaUdmUlp1VHVMZ21MRktWcndzb1BoYmlGb2hjcm1IWUJXd0FQTmVIeTl0WThQUkJncTFxdjZjUG1YOXlzQQ?oc=5",
+          "source": "بوابة الشروق",
+          "provider": "عربي · مضيق هرمز",
+          "published_at": "2026-10-20T09:46:28Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Iran"
+        }
+      ],
+      "digest": "55136f4b68e480f38e21",
+      "revision": 1,
+      "updated_at": "2026-10-20T09:48:10.536726Z"
+    },
+    {
+      "id": "GF-2CB4FE1D7349B4",
+      "title": "السعودية تواصل التصدى لاعتداءات الحوثيين.. تدمير صاروخ باتجاه الرياض و\"فجر اليمن\" مستمرة.. ألوية العمالقة الجنوبية تحبط هجوماً على جبهة كهبوب.. والتحالف يحذر الحوثيين من استخدام وسائط بحرية في تهريب الأسلحة - اليوم السابع",
+      "category": "security",
+      "topic": "missile",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T09:45:33Z",
+      "last_published": "2026-10-20T09:45:33Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "5354c8382702f9e5f7a3d709",
+          "title": "السعودية تواصل التصدى لاعتداءات الحوثيين.. تدمير صاروخ باتجاه الرياض و\"فجر اليمن\" مستمرة.. ألوية العمالقة الجنوبية تحبط هجوماً على جبهة كهبوب.. والتحالف يحذر الحوثيين من استخدام وسائط بحرية في تهريب الأسلحة - اليوم السابع",
+          "url": "https://news.google.com/rss/articles/CBMivwRBVV95cUxPelBCRXdKWG02U0JsTTR1U3pfVUNJanpmRS1kM0pWOXdXV1VFN0pyUWc0SFZyRGRkZkhTYlJVSFNLMTZKNUlhcTJsR2I2Tlp5XzBsZ0M3QkZna2JhNEhtWWhFdXRKUlYtamdrZjBoMlFhMWp2VlJOY1lscld0eEtsWGUzZUhWOU9jMTZ0eVNVb2c0TTdjd284al9qRlZmZWxQNUQ3WE83QW5FaUVZakVPQVlzeHNXM0NfLTRFRWx0YVFTWDlMb19YSHJra3d0SXlJUUh3UVRFTFVGY1d6WTRoRWJnX3pQQloyeGpnRkkyVTFWODUxN3h5OENXcUhaNDFPTWxIWjVOU001UW13cUkzY01nZTl5d3locXdUTFFDMHFuNnRBNjlyelJEU0xfb2pXMkY4M3A2NkZXTHh3bUVJaHcwX0I0UVAwdWt4bGg5ZEdCTTFJTXhsN0VWaGxsS2VwbFJVZ1pic0pBQ1VMTjY3MkVQbnlObGVpWUhpczZjZTNJckFZNDJxNERIWmQxV1lpVEJDREhsMXlWWmRtbEZiNlZaZkx0alJqUWg2QUdCY1lJb1BzVGJYSVh5SXdRZ09lRE4xQTRocDFXbVJ2U3pYUURIdzRPS2JqWVlDTC1uNF90N0xuc1FUY1kyc0RnamdfR0dxTUV2WC1hSF9rT1doRjRtbFlZcXctaXpSZkt3aU1jWk41c0t2WHg4dzNDbk9iWTJ1TEd6MTI5dzJlRGg2dGtKZ0FQRnh6YmpkQ1FKa9IBugRBVV95cUxQb3JPTlJfMndXeWYtS0VLVGQtMkZ3dmdrVWs2MzRqRUw2WEVVY3NrM2RnalAtbUpENXN2SXZNMXhfUk1UZFkzbUNKeUdhZXJCRGNtSG9lOUZhV3A5SmRPbTVjajhfc1E2eklMdmEyMXFfODNyS3JPa1hmeVV0YzlGd3hnMDJ6RW1Ick4tamptY28wUGt6azBzckZhVEZjdy1UT3RxUUFFaVd1Y1hETTQ3alRoc2RwbmQwNUw0N091SDVDVzFrdjB5RzR4RVBhX2ZvSnNlNkx1VF9sNVZrVU9sdmk4RkVOVG5fT0xBaEhUUjRPZmhNTWt6cXI0QkY2bEdrc0kzVzdnakx2RGdxcHdXQzRodG9kUW1XeDRCUzV4bi10Mmdhd2ZTeG1IWUNsd01oYkg0NFV6LXBSWE5aV09KakZOVW5XOUxJWm9PU2tzVXFjcFFuX0tiQXVSZ2d6RG5WWThDV3B3dVZjcGp3QmZURGhLR0Y3QkE1THRYcVFoLTBCcU5WWDk4b1ZsbHJZSDdhOFBCejI0a2N3MG5ZWk55dEQ3WlZ4dllxbXlvRE5xdUd5d3lWVHpRN3BXTzJERXRfRlgtZ0FZVEpWWFU3MDVBcndubWlEbDl3ZGliVktsaU5tUFduWGFJSkpueTVPTWxjbklMNVVhZzBnTXhRRUJBNzUzUHFLeUlwRmV4TzVXUkx6Uy1iNlRlWm9nYzZhMHkwQm9ZYUR1NTE1ejRsWUpBTWU3MXptSnlvYlE?oc=5",
+          "source": "اليوم السابع",
+          "provider": "عربي · السعودية",
+          "published_at": "2026-10-20T09:45:33Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "digest": "67c785c36fe5536ff8d7",
+      "revision": 1,
+      "updated_at": "2026-10-20T09:48:10.536726Z"
+    },
+    {
+      "id": "GF-19EDFBB290CD9A",
+      "title": "خارج مضيق هرمز.. كيف تستفيد عُمان من أزمة الملاحة لزيادة صادرات النفط؟ - i24NEWS",
+      "category": "transport",
+      "topic": "maritime",
+      "countries": [
+        "Oman"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T09:35:38Z",
+      "last_published": "2026-10-20T09:35:38Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "31830002c153d8222010fe72",
+          "title": "خارج مضيق هرمز.. كيف تستفيد عُمان من أزمة الملاحة لزيادة صادرات النفط؟ - i24NEWS",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNOGx5UVN1NTBPbGNVSWZtLW1QMVRmbmVTS1FRWHdaUFBfQWt2M05yN3laM0d4Y3NFcU9iaDZSbTdoZTZXMlhfZWJEWVd3b1BwaWpLZXM1aGpsM2Zxa09IU29tWllYMVdHek5UT0hEOGQ1OHFpUlJmWEpEeVVXcVd3Vm5nUnFVRmlCYklzblo5TjNkX3NxRjhtOVNaQTNiQnZQR19FcHlwdllHQ1k?oc=5",
+          "source": "i24NEWS",
+          "provider": "عربي · مضيق هرمز",
+          "published_at": "2026-10-20T09:35:38Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Oman"
+        }
+      ],
+      "digest": "26fe47b1641a9affc949",
+      "revision": 1,
+      "updated_at": "2026-10-20T09:48:10.536726Z"
+    },
+    {
+      "id": "GF-6947EE83A0062C",
+      "title": "إيران تسقط طائرة مسيرة أمريكية أخرى من طراز MQ-9، وتحذر من هجمات على كابلات الإنترنت تحت الماء في مضيق هرمز. - Vietnam.vn",
+      "category": "security",
+      "topic": "drone",
+      "countries": [
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T09:16:21Z",
+      "last_published": "2026-10-20T09:16:21Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "eedbdb63752c207f3b50a1a5",
+          "title": "إيران تسقط طائرة مسيرة أمريكية أخرى من طراز MQ-9، وتحذر من هجمات على كابلات الإنترنت تحت الماء في مضيق هرمز. - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbWRIcDl0NV9TWmxDVUQ1NzhNS2ZqZjRFZkNrTFlWWnlUeWFfaXUycFJLNWRWcl9hcHY5UWh1NHJnWGgtWmpoLXRNcXd0RjNjOWpzVXhDOU9hXzB0UEVvMnZydDluUV95dGpfSU81SkJHMUNtU293bk9QMmxrRHBNSnhIRHQ4SFNHVVRBZ0pLeEZjaG85bUY0YVljcXlrMTcyMGtRNDlR?oc=5",
+          "source": "Vietnam.vn",
+          "provider": "عربي · إيران والخليج",
+          "published_at": "2026-10-20T09:16:21Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Iran"
+        }
+      ],
+      "digest": "2f142d7e2b48443f85ef",
+      "revision": 1,
+      "updated_at": "2026-10-20T09:48:10.536726Z"
+    },
+    {
+      "id": "GF-69DA066BF6DE16",
+      "title": "Iran warns any US attack will be met with retaliation, dismisses claims of no-response deal - Anadolu Ajansı",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T09:02:10Z",
+      "last_published": "2026-10-20T09:02:10Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "60e54d75a1e2c2f8b15876e9",
+          "title": "Iran warns any US attack will be met with retaliation, dismisses claims of no-response deal - Anadolu Ajansı",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTHdpbXlQbjF2b181SUhuTlY1V2JJZ2ctU0dOdFZKOHMtNXRwYWdTSEFOZHVzc3l5Uzd6NG94RGlwZUsxMmNnX1gyWmh6LS05Wm1CSWhJU1JVWlVjM0dMeDRVbmI0d1RlWTRVMHI3M1BKWG9MamNEcDVuT3Eza01ONVdNcnFLdUl5cUhFZ2dBX2ZmZFM2c2FSNElxMVBwTi04WXNYa2s4MjBSN1VFakdDXzA3NTJkcE5RVUFUVUEwNFBfLWNTWi10R3BTanZkdWEw?oc=5",
+          "source": "Anadolu Ajansı",
+          "provider": "Google News · diplomacy",
+          "published_at": "2026-10-20T09:02:10Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Iran"
+        }
+      ],
+      "digest": "658d2b06aafb86531b0f",
+      "revision": 1,
+      "updated_at": "2026-10-20T09:48:10.536726Z"
+    },
     {
       "id": "GF-66E7D4A10D8F24",
       "title": "فرانس برس: دوي انفجارين في الرياض بعد إنذار بتهديد جوي - Masrawy",
@@ -91,6 +356,50 @@
       "digest": "d76bae246befa3defc05",
       "revision": 1,
       "updated_at": "2026-10-20T09:16:22.504036Z"
+    },
+    {
+      "id": "GF-2BE1BE5A070350",
+      "title": "«تحالف دعم الشرعية»: اعتراض وتدمير صاروخ باليستي أطلقته الميليشيا الحوثية باتجاه الرياض - صحيفة سبق الإلكترونية",
+      "category": "security",
+      "topic": "interception",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T08:41:12Z",
+      "last_published": "2026-10-20T08:41:12Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "e6fbe6b941573feb61de7eee",
+          "title": "«تحالف دعم الشرعية»: اعتراض وتدمير صاروخ باليستي أطلقته الميليشيا الحوثية باتجاه الرياض - صحيفة سبق الإلكترونية",
+          "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5KTHkzQXF2SUpvR2t1NnIxVG85VklhYlMzUVFMbXp2eWNuVkxJS05KeEpjX0trZXFoMWdMY1FYU0VndUZrSTVF?oc=5",
+          "source": "صحيفة سبق الإلكترونية",
+          "provider": "عربي · السعودية",
+          "published_at": "2026-10-20T08:41:12Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Saudi"
+        }
+      ],
+      "digest": "ec12cc2c690303346819",
+      "revision": 1,
+      "updated_at": "2026-10-20T09:48:10.536726Z"
     },
     {
       "id": "GF-C30150D17CCE95",
@@ -1447,6 +1756,61 @@
       "updated_at": "2026-10-20T07:40:58.957167Z"
     },
     {
+      "id": "GF-C70DD01A7A8813",
+      "title": "الحرس الثوري الإيراني: الدفاعات الجوية أسقطت مسيرة أمريكية فوق مضيق هرمز - بوابة أخبار اليوم الإلكترونية",
+      "category": "security",
+      "topic": "interception",
+      "countries": [
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "repeated-publication",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 2,
+      "first_published": "2026-10-20T04:09:06Z",
+      "last_published": "2026-10-20T04:42:27Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "0c5ad350e1b601fe069d4e40",
+          "title": "الحرس الثوري الإيراني: الدفاعات الجوية أسقطت مسيرة أمريكية فوق مضيق هرمز - بوابة أخبار اليوم الإلكترونية",
+          "url": "https://news.google.com/rss/articles/CBMigANBVV95cUxNWVl0MHdqUjdDd2dHX1lnS3habmFTUzM1NGlrekxFQWxacmFNYWwzY3U4Sm90RlJ6cXZ6blpwQVFxTGlJQ1BKd3gwNEtwMS1wXzRyVTBWS0hhUDFDQ3prcFBFeGFjRlI3NGtuWkNRODBid0pkU2Mxck44MEJtMWllUTdJb3Z4dnlETjByQ01uRXRQdHV0eXc1a3BpQnRUU0kxYWpzNWQ2dmY0WEVRUER0aHh1VXRXVXl3aE5CWXBDcWNfQU5tVEplSFpta3JDQkJhUGgyd3d1aVFLSnNOanB3Tkdqb1V2dElXOTZoUXQzbjA1c19hWEdseG1iY2tQQVN1cWhqU0Q1YnRwRnBxblZ6SlZ1YVlHQll0dzZmeFoxVGhXQXc0a2FkOXJDOTNQendhTGY0R3JXaXR1M25EUkxaSnRmQjRYRVVhbS1saVlBSndNZnpCbmUwNWc3WmZ5TU5EUVdjOFMxRGczVGhKNjA1VUR5T3lsYnpZQ3JETEExVFM?oc=5",
+          "source": "بوابة أخبار اليوم الإلكترونية",
+          "provider": "عربي · مضيق هرمز",
+          "published_at": "2026-10-20T04:42:27Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Iran"
+        },
+        {
+          "id": "3a38ab165db84a9bf37a10fe",
+          "title": "الحرس الثوري الإيراني: الدفاعات الجوية أسقطت مسيرة أمريكية فوق مضيق هرمز - بوابة أخبار اليوم الإلكترونية",
+          "url": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxNOXhBMGZFME9fdVp6ZExhWm1FTmFOaXBVeGY4TWo1eHRrcm5Bc0otaGFod01yUDM4MWt2MWd0M2hRTGUxWUthRGJUZWpGTnNNSnZFazZSUDFQX0YzOGNqbVhlbXpvWnEyTnR5TDU3NG85c3VENTJqRHNkcGpHMkNSQWxsd3pMZkN2bXJ0RnBDa29rMHM1WC1BQlQ5NlhCNGN0VDZ5eVVXcjdZUW9xQWZzRGt3T2lCUkZqRmUxR3hGcDMzQ2o5TGE0UEFYLTN0aEl4NXFYdjlNenppWjRKNFRld1A3VGdJWlg0X3I5TndjZWRKemJDMk1ZNHhLckNFaFUxWnU2ejctTUFGbEpJQVRGTjJqM2VKNGZNYVZJanpvRmlxcjVVa1E5cFJHX3pJbWt5MmdRTlpRVGxjNGg4MlplMldwTFN5ZmtYeGZrNzRydTRYRFJkMkdPalI0c3FUZzRGT0paUGlnbXVUS3ViVEZBY1VYdEJuR184N0J6cUJn?oc=5",
+          "source": "بوابة أخبار اليوم الإلكترونية",
+          "provider": "عربي · مضيق هرمز",
+          "published_at": "2026-10-20T04:09:06Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Iran"
+        }
+      ],
+      "digest": "f68d14ea5eb33c992086",
+      "revision": 3,
+      "updated_at": "2026-10-20T09:48:10.536726Z"
+    },
+    {
       "id": "GF-4B6408AEA6703E",
       "title": "Iran foreign minister says Russia, Iran have ‘never’ worked so closely - Luxembourg Times",
       "category": "diplomacy",
@@ -1529,50 +1893,6 @@
         }
       ],
       "digest": "2d4f09164bbb34b6d06c",
-      "revision": 2,
-      "updated_at": "2026-10-20T07:40:58.957167Z"
-    },
-    {
-      "id": "GF-C70DD01A7A8813",
-      "title": "الحرس الثوري الإيراني: الدفاعات الجوية أسقطت مسيرة أمريكية فوق مضيق هرمز - بوابة أخبار اليوم الإلكترونية",
-      "category": "security",
-      "topic": "interception",
-      "countries": [
-        "Iran"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "ar"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-20T04:09:06Z",
-      "last_published": "2026-10-20T04:09:06Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "3a38ab165db84a9bf37a10fe",
-          "title": "الحرس الثوري الإيراني: الدفاعات الجوية أسقطت مسيرة أمريكية فوق مضيق هرمز - بوابة أخبار اليوم الإلكترونية",
-          "url": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxNOXhBMGZFME9fdVp6ZExhWm1FTmFOaXBVeGY4TWo1eHRrcm5Bc0otaGFod01yUDM4MWt2MWd0M2hRTGUxWUthRGJUZWpGTnNNSnZFazZSUDFQX0YzOGNqbVhlbXpvWnEyTnR5TDU3NG85c3VENTJqRHNkcGpHMkNSQWxsd3pMZkN2bXJ0RnBDa29rMHM1WC1BQlQ5NlhCNGN0VDZ5eVVXcjdZUW9xQWZzRGt3T2lCUkZqRmUxR3hGcDMzQ2o5TGE0UEFYLTN0aEl4NXFYdjlNenppWjRKNFRld1A3VGdJWlg0X3I5TndjZWRKemJDMk1ZNHhLckNFaFUxWnU2ejctTUFGbEpJQVRGTjJqM2VKNGZNYVZJanpvRmlxcjVVa1E5cFJHX3pJbWt5MmdRTlpRVGxjNGg4MlplMldwTFN5ZmtYeGZrNzRydTRYRFJkMkdPalI0c3FUZzRGT0paUGlnbXVUS3ViVEZBY1VYdEJuR184N0J6cUJn?oc=5",
-          "source": "بوابة أخبار اليوم الإلكترونية",
-          "provider": "عربي · مضيق هرمز",
-          "published_at": "2026-10-20T04:09:06Z",
-          "collected_at": null,
-          "language": "ar",
-          "country": "Iran"
-        }
-      ],
-      "digest": "afbc94bfb3ff3755ee36",
       "revision": 2,
       "updated_at": "2026-10-20T07:40:58.957167Z"
     },
@@ -2102,6 +2422,51 @@
       "digest": "534d8b073a1dcb21b96a",
       "revision": 3,
       "updated_at": "2026-10-20T08:06:40.825197Z"
+    },
+    {
+      "id": "GF-971B98B811154A",
+      "title": "كيف يؤثر دعم الحوثيين في أمن السعودية والملاحة الدولية؟ - NOW الشرق",
+      "category": "transport",
+      "topic": "regional",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T00:12:03Z",
+      "last_published": "2026-10-20T00:12:03Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "775fa4a9218928fe008a0587",
+          "title": "كيف يؤثر دعم الحوثيين في أمن السعودية والملاحة الدولية؟ - NOW الشرق",
+          "url": "https://news.google.com/rss/articles/CBMiygNBVV95cUxPZjZSU01qSE5pUlhYNFUtWk1yZ1pfWEtORHRhMzFjMnZMcmpvZ0FxRjhycUJWUmExc2RtLWVvcXRnQnZZYlhRMW9rb2RBdjFrcGhzbFlHTWctWjFiQkkySF91MFNOZDI2RlBjZTVVY3h1MEp0OVlKUXNqUng0RUZLYmRoWnZCU3dWVkhmQzBZOXZGNmRJSXZxclFOTjg2QTRKclhmZUNSczRaR3VKYUszeU9HUmphX25nOFpsc3lBWnJIcndoOXdSSnZuT1FiZWNGdWV4bnF4bDJER0NxWXFmOUYxZkpNNnlSeUh1RFlNVHhEekp0VGs0bDdYUmljZ3RmRDV1cmRYcUF3emNGRDMyR0FVX1FXc2dkbW9pWDF4WjRkcV82ZC1EUW43X1ktNVVQdklCSTBqVEgyTjZKazFIX0c2aEx5QWdDYWU4VDBDOURvYjdhSTNKdk9OUzExcmhOSHM1ZWZtMnp3MFBuYkVXQmg3OHY5b0tsWkV5NTFOUW5xcXJVU19ha1lySGJkTnUtaTZqRFhPRVpqbEZUdy13WE9GdmZMejBhbGE1NmpyeXRjaEVBMWM3QjZScWhxMHU1ekJqQkJYLTFkZw?oc=5",
+          "source": "NOW الشرق",
+          "provider": "عربي · الشرق",
+          "published_at": "2026-10-20T00:12:03Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "digest": "cd025c176f23ea98c29f",
+      "revision": 1,
+      "updated_at": "2026-10-20T09:48:10.536726Z"
     },
     {
       "id": "GF-F34E9A35FE1FF0",
@@ -4306,6 +4671,50 @@
       "updated_at": "2026-10-20T07:40:58.957167Z"
     },
     {
+      "id": "GF-4ACF500EC169DB",
+      "title": "Iran says 7-day plan to reopen Strait of Hormuz still on the table - NewsNation",
+      "category": "transport",
+      "topic": "maritime",
+      "countries": [
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-19T16:20:49Z",
+      "last_published": "2026-10-19T16:20:49Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "1a7c521a9fc1e1419d5aff2e",
+          "title": "Iran says 7-day plan to reopen Strait of Hormuz still on the table - NewsNation",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1jUkh0M2pJdlUyZUIyLVRyQndYNmE4TkRiQm0zWDVnU2R4RC1YMG9DVTZkcVFBandTbGhfTW5FTzlON3BmRG9tMlBsY2NCc0pWZmNYM1ZGTjhLR0RKMTlMSU90Yi1pall6ZW1LOVl1a2ROamM0ZWc3djhoVUfSAYIBQVVfeXFMTlQwT2JVbmhpUDJ1QXRLX2JKSzhVZU13U2ZDbUZvRnBsYmhyNmVCajU5S2dhdVZ0RngyN3BDdEpTRG5lZm9UTkx2TDd0V2hlbFc0N2lYd29WUTBPbTBVOV9XREZQTXBEV2ItaGZmV0ZnLWxIelhFY3RiZ0E5NllaTGUtQQ?oc=5",
+          "source": "NewsNation",
+          "provider": "Google News · diplomacy",
+          "published_at": "2026-10-19T16:20:49Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Iran"
+        }
+      ],
+      "digest": "64c7018c4568f54faf27",
+      "revision": 5,
+      "updated_at": "2026-10-20T09:48:10.536726Z"
+    },
+    {
       "id": "GF-B09D0E6ED840BC",
       "title": "صواريخ ومسيرات إيرانية تستهدف البحرين والكويت والأردن.. والدفاعات الجوية تتصدى - الساحل الغربي",
       "category": "security",
@@ -4493,50 +4902,6 @@
       "digest": "646c82eacf8f17d9a550",
       "revision": 2,
       "updated_at": "2026-10-20T07:40:58.957167Z"
-    },
-    {
-      "id": "GF-4ACF500EC169DB",
-      "title": "Iran says 7-day plan to reopen Strait of Hormuz still on the table - NewsNation",
-      "category": "transport",
-      "topic": "maritime",
-      "countries": [
-        "Iran"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "en"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-19T16:08:24Z",
-      "last_published": "2026-10-19T16:08:24Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "1a7c521a9fc1e1419d5aff2e",
-          "title": "Iran says 7-day plan to reopen Strait of Hormuz still on the table - NewsNation",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1jUkh0M2pJdlUyZUIyLVRyQndYNmE4TkRiQm0zWDVnU2R4RC1YMG9DVTZkcVFBandTbGhfTW5FTzlON3BmRG9tMlBsY2NCc0pWZmNYM1ZGTjhLR0RKMTlMSU90Yi1pall6ZW1LOVl1a2ROamM0ZWc3djhoVUfSAYIBQVVfeXFMTlQwT2JVbmhpUDJ1QXRLX2JKSzhVZU13U2ZDbUZvRnBsYmhyNmVCajU5S2dhdVZ0RngyN3BDdEpTRG5lZm9UTkx2TDd0V2hlbFc0N2lYd29WUTBPbTBVOV9XREZQTXBEV2ItaGZmV0ZnLWxIelhFY3RiZ0E5NllaTGUtQQ?oc=5",
-          "source": "NewsNation",
-          "provider": "Google News · diplomacy",
-          "published_at": "2026-10-19T16:08:24Z",
-          "collected_at": null,
-          "language": "en",
-          "country": "Iran"
-        }
-      ],
-      "digest": "250dbc6923c8cf4828ae",
-      "revision": 4,
-      "updated_at": "2026-10-20T09:25:08.588396Z"
     },
     {
       "id": "GF-20D79090F74752",
@@ -17325,6 +17690,50 @@
       "updated_at": "2026-10-20T07:40:58.957167Z"
     },
     {
+      "id": "GF-892148B0765F9A",
+      "title": "جمال الوصيف: الدفاعات السعودية تواصل اعتراض المسيرات والصواريخ - مبتدا",
+      "category": "security",
+      "topic": "interception",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-17T19:02:56Z",
+      "last_published": "2026-10-17T19:02:56Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "f327d92172e2f6eede4da7da",
+          "title": "جمال الوصيف: الدفاعات السعودية تواصل اعتراض المسيرات والصواريخ - مبتدا",
+          "url": "https://news.google.com/rss/articles/CBMiiARBVV95cUxOcnJZN3R6aUdiRVlUMHZjSloyRHFOb1NrWm1USW1HVTA5bHdybFJWT19YRjdMYXBISTJBdWpqZ0VESmxyTG9yZEJHMnlfNGdvSzIta2RHQXVmWklSNkZ3WlR3X3Y0dkhIdXBsMmtqZUJ0WWJQUE0zaUlOYWpPUzVjMU5MN3lzaXBON2hCTXEtRjNoQVN6TzRucmpWSWpQS1phY0E3MUo2OHlnSjgyYS1FWFBsU2wycUs2YjVkZ0hJNzlydXkwZDhyaXFQaXdwdG45MEMyM2hwN3JLM2Z2eF9LOHRQNWJtUk9OMTVIRHF5MDV0eEtNVU8tb1c4V1pmMU8zZnJRVU9OYlFmbHhhdVZUR1pRYzlIem9vY2xjMWJxTzBwQnJLUlpEWHlXVEI4dVpxU0FYODFhYkpJYThGN1c0dExzNzBvZENQWm5xZ2pScmR2dTRKdU1oY19SZUJnaHc0ZVR0OGFBVlUwSWVXemk5MnY1VVg3UXQ0b0I3ZjcxR3V5bXYzX1VQa2h4ZjgxQ3dObGxvNXNBYXhfMnJKSE5DbUlleFhneGtTb0hnQVNtU1czTklfVWJubS1waGJrVWZoMTl3MVFnc0lvSV9mREYybFpVUWh3dUxyeUk2b1NvNE9NTWdjSnhqZ2pXN1REN1U5NS1wbXcwOU56Yy1XUTdWQ0JxNHliSGdX?oc=5",
+          "source": "مبتدا",
+          "provider": "عربي · السعودية",
+          "published_at": "2026-10-17T19:02:56Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Saudi"
+        }
+      ],
+      "digest": "85f54b571d17202abd74",
+      "revision": 1,
+      "updated_at": "2026-10-20T09:48:10.536726Z"
+    },
+    {
       "id": "GF-E727124E69CB19",
       "title": "القيادة المركزية الأمريكية: 97% من السفن نجحت في عبور مضيق هرمز - المصري اليوم",
       "category": "transport",
@@ -24537,6 +24946,50 @@
       "digest": "a128a4b8fcdc68d81e6c",
       "revision": 2,
       "updated_at": "2026-10-20T07:40:58.957167Z"
+    },
+    {
+      "id": "GF-32AFE2A4487AA4",
+      "title": "التحالف :اعتراض وتدمير صاروخ باليستي باتجاه (ينبع) وصاروخين مجنحين فوق البحر الأحمر و3 مسيرات - وكالة الأنباء الكويتية",
+      "category": "security",
+      "topic": "interception",
+      "countries": [
+        "Kuwait"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-16T16:57:13Z",
+      "last_published": "2026-10-16T16:57:13Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "9a4644a09a7ee8b69abd3afe",
+          "title": "التحالف :اعتراض وتدمير صاروخ باليستي باتجاه (ينبع) وصاروخين مجنحين فوق البحر الأحمر و3 مسيرات - وكالة الأنباء الكويتية",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5rQXAyTkp5eF9nQ0dNb0tMY05XbFU5WlUwdlJ3ejViVDRBOUtmVm45RW9RbjVCU2h4RVVwODd1dTg4aFFIanNCWjEzWDFuelVOdjU0V1JKSVBKandxWTVPaHNxaFM?oc=5",
+          "source": "وكالة الأنباء الكويتية",
+          "provider": "عربي · وكالات الخليج",
+          "published_at": "2026-10-16T16:57:13Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Kuwait"
+        }
+      ],
+      "digest": "f6ae9cfc8cff1d717d8d",
+      "revision": 1,
+      "updated_at": "2026-10-20T09:48:10.536726Z"
     },
     {
       "id": "GF-825ED56C1A3A18",
@@ -37873,6 +38326,48 @@
       "updated_at": "2026-10-20T07:40:58.957167Z"
     },
     {
+      "id": "GF-1BAECC50FAE575",
+      "title": "Two More Ship Strikes Reported in the Strait of Hormuz - The Maritime Executive",
+      "category": "transport",
+      "topic": "maritime",
+      "countries": [],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-14T03:45:24Z",
+      "last_published": "2026-10-14T03:45:24Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "c7b2963c067ffbc9d9b469d9",
+          "title": "Two More Ship Strikes Reported in the Strait of Hormuz - The Maritime Executive",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOS3Q1elZLLXlMWmRiUXpFb3FvV1I0dWlOeVgwQlI0UnpnT2pfenh6VmVHTmxfWWV1LTU4NkZQZTdxVGZVeDd5S0dVM25JVUt1aFhGSTU3WTlGaDU4U2V5cG1jdUxmRG9IckJFZFEzY3F4ZVpjb1hZajRpVFNiU3JVNG5fMFZIT0s3V2ZJQ0ozaEd4S2RVampjQg?oc=5",
+          "source": "The Maritime Executive",
+          "provider": "Google News · shipping",
+          "published_at": "2026-10-14T03:45:24Z",
+          "collected_at": null,
+          "language": "en",
+          "country": ""
+        }
+      ],
+      "digest": "c4e7ecf3078f42211eb2",
+      "revision": 1,
+      "updated_at": "2026-10-20T09:48:10.536726Z"
+    },
+    {
       "id": "GF-DC0CA3293DE0C8",
       "title": "Houthis Attack Saudi's Aramco Oil Facility Compound, Triggering Fire - NDTV",
       "category": "security",
@@ -41605,6 +42100,50 @@
       "updated_at": "2026-10-20T07:40:58.957167Z"
     },
     {
+      "id": "GF-1719C21E9E46C8",
+      "title": "السعودية تتصدى لصواريخ ومسيرات وتمدد تعليق العمل بمطار الرياض - صحيفة الخليج",
+      "category": "security",
+      "topic": "missile",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-13T11:07:43Z",
+      "last_published": "2026-10-13T11:07:43Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "ac2186056e3b8551aae26edd",
+          "title": "السعودية تتصدى لصواريخ ومسيرات وتمدد تعليق العمل بمطار الرياض - صحيفة الخليج",
+          "url": "https://news.google.com/rss/articles/CBMi8wRBVV95cUxNcmVyakx0UnpPNVpPSk50YlJ6d2dPQTJrQUhUcWlpNWdZamgwbUo4SEl3OGRKbEZFSjFBOERwT3FEZzl3a001bk9jcjd1TVJaRm9hSHU1ZWNGVlVmaXBJXzk3Q0t5S2QxQ0Jjdy1EYkRUMk9ScDJDQl90SzZDcENUNGhJR01QN3VGNW9sd0NEbmp6YndneGZTUDRWU2NYS0UxSjZCWEpudnI0SUpJTWUwZFNPNnNwZjJhMnd2TUtfRGpzSzE4ekNpZ0Y0UmVYcVpLQ0ludFVNX2xtQ01IWkMyX1hsM1NoR0R6QmNKa24wTkhuQkFpTllsbnpPQ2x1TlFSZmZxTFNnQlpmdmVFaFo3QTJ2MWdnRzdkODFzSnA4ZEFxQVl1eG82LWRNX25qUmRaNGwzRjFfa1lTRHk2U1ZiRnhFRDNTSFMtdEYzV2R4QllTeUFjWF9VLUFldFQ3OTBjUWNCc2JVOUpjZ25WQVlSMm5SWWNzdkE0SG92MmlGV2hCMmktWGZMUDNVWnJWeVhjdXdVQlZ6MEhWeDY5RnF6bTRhZkkzU3N3ZmxoLUJGcFpDWEo4M2VaRHZSVTZxZ09Da01CMDlBcE0yZ1YzdEUyZTV5V29BeFJWOHh0VU1PWncwTDRMRkRTdlg5cXBsRDRET0YwMXdlaWRweEl1a0lDTG1ZNFdpN21NUGo4MjZ0NmEtVFp3d21sdEoxRXFURXktRVVpNVQ1VWFTazJaLUxHQklSV2pUbjF3SlVQOHRIMS1nOGFnbWFoUWV0eVBwNjFKWF9KT29QMk5haUx2emRpbW5LMnFUZVlmeDgtWXZSdUlNSEk?oc=5",
+          "source": "صحيفة الخليج",
+          "provider": "عربي · الإمارات والبحرين",
+          "published_at": "2026-10-13T11:07:43Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Saudi"
+        }
+      ],
+      "digest": "16892db16bf1ed5ba53d",
+      "revision": 1,
+      "updated_at": "2026-10-20T09:48:10.536726Z"
+    },
+    {
       "id": "GF-7E60C24AE79B86",
       "title": "المستشار الألماني ميرتس يجري اتصالاً بولي العهد السعودي مديناً هجمات الحوثيين - العربية",
       "category": "security",
@@ -42447,18 +42986,18 @@
   ],
   "country_stats": {
     "Iran": {
-      "events": 355,
-      "reports": 444,
-      "security_coverage": 189,
+      "events": 358,
+      "reports": 448,
+      "security_coverage": 192,
       "transport_coverage": 102,
       "sources": 180
     },
     "Saudi": {
-      "events": 297,
-      "reports": 318,
-      "security_coverage": 207,
-      "transport_coverage": 77,
-      "sources": 158
+      "events": 303,
+      "reports": 324,
+      "security_coverage": 211,
+      "transport_coverage": 79,
+      "sources": 160
     },
     "Qatar": {
       "events": 32,
@@ -42482,9 +43021,9 @@
       "sources": 3
     },
     "Kuwait": {
-      "events": 20,
-      "reports": 20,
-      "security_coverage": 15,
+      "events": 21,
+      "reports": 21,
+      "security_coverage": 16,
       "transport_coverage": 2,
       "sources": 9
     },
@@ -42496,17 +43035,17 @@
       "sources": 41
     },
     "Oman": {
-      "events": 5,
-      "reports": 5,
+      "events": 6,
+      "reports": 6,
       "security_coverage": 4,
-      "transport_coverage": 1,
-      "sources": 4
+      "transport_coverage": 2,
+      "sources": 5
     },
     "Yemen": {
-      "events": 128,
-      "reports": 131,
-      "security_coverage": 114,
-      "transport_coverage": 12,
+      "events": 130,
+      "reports": 133,
+      "security_coverage": 115,
+      "transport_coverage": 13,
       "sources": 70
     },
     "Israel": {
@@ -42522,20 +43061,28 @@
     "2026-09-04": 1,
     "2026-10-02": 1,
     "2026-10-12": 1,
-    "2026-10-13": 89,
-    "2026-10-14": 122,
+    "2026-10-13": 90,
+    "2026-10-14": 123,
     "2026-10-15": 107,
-    "2026-10-16": 102,
-    "2026-10-17": 169,
+    "2026-10-16": 103,
+    "2026-10-17": 170,
     "2026-10-18": 127,
     "2026-10-19": 171,
-    "2026-10-20": 48
+    "2026-10-20": 56
   },
   "revisions": [
     {
-      "id": "GF-52DF3E405DDC16",
-      "revision": 4,
-      "at": "2026-10-20T09:29:36.544778Z",
+      "id": "GF-C70DD01A7A8813",
+      "revision": 3,
+      "at": "2026-10-20T09:48:10.536726Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 2
+    },
+    {
+      "id": "GF-4ACF500EC169DB",
+      "revision": 5,
+      "at": "2026-10-20T09:48:10.536726Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
