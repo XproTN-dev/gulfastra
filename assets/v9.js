@@ -72,7 +72,7 @@ function newsItem(r){
  '<span>'+esc(age(r.published_at))+'</span><span>◉ '+esc(r.country||"REGIONAL")+'</span></div>'+
  '<h3 dir="'+(rtl?"rtl":"ltr")+'">'+esc(headline(r))+'</h3>'+
  '<span class="v9-news-source" dir="auto">'+esc(r.source||"Published outlet")+'</span> '+
- '<a href="'+esc(validURL(r.url))+'" target="_blank" rel="noopener noreferrer">READ ORIGINAL ↗</a></article>';
+ '<a href="'+esc(validURL(r.url))+'" target="_blank" rel="noopener noreferrer">OPEN ARTICLE LINK ↗</a></article>';
 }
 function sourceRow(name,p){
  const status=p.ok===true?"OK":p.ok===false?"ERROR":"BACKOFF";
