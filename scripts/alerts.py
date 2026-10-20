@@ -57,8 +57,10 @@ def build(reports, events, previous=None, now=None):
     new=[x["id"] for x in high if initialized and x["id"] not in known]
     # Keep a rolling suppression set; avoid re-alerting older groups if their
     # candidate activity drops out and another headline appears later.
+    # Save only HIGH-priority identities: a single-source review item may
+    # legitimately escalate later when a second distinct publisher appears.
     seen=list(dict.fromkeys(list(previous.get("known_ids") or [])+
-                            [x["id"] for x in entries]))
+                            [x["id"] for x in high]))
     seen=seen[-4000:]
     ts=now.isoformat().replace("+00:00","Z")
     result={"schema":1,"generated_at":ts,
