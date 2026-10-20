@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#07111e">
+<meta name="description" content="GULFASTRA X: evidence-first global and Gulf public intelligence command center.">
+<title>GULFASTRA X · Intelligence Command Center</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@6.15.0/dist/maplibre-gl.css">
+<link rel="stylesheet" href="../assets/command11.css?v=11-1">
+</head><body data-theme="midnight">
+<div id="app" class="app">
+<header class="topbar">
+ <div class="brand"><span class="brand-symbol">◎</span><span><strong>GULF<span>ASTRA</span></strong><small>GLOBAL INTELLIGENCE / X</small></span></div>
+ <div class="nav-separator"></div>
+ <nav class="topnav" aria-label="Workspace navigation">
+  <button data-workspace="global" class="active">GLOBAL OVERVIEW</button>
+  <button data-workspace="gulf">GULF WATCH</button>
+  <button data-workspace="maritime">MARITIME</button>
+  <button data-workspace="aviation">AVIATION</button>
+  <button data-workspace="hazards">HAZARDS</button>
+  <button data-workspace="analyst">ANALYST LAB</button>
+ </nav>
+ <div class="top-actions"><span id="utc" class="mono utc">--:-- UTC</span><button id="commandButton" class="circle" aria-label="Search or command">⌕</button><button id="languageButton" class="tiny" aria-label="Toggle Arabic and English">ع / EN</button><button id="settingsButton" class="circle" aria-label="Appearance settings">⚙</button><a class="legacy" href="../" title="Return to previous GULFASTRA version">V9 ↗</a></div>
+</header>
+<section class="metrics" aria-label="Source reporting summary">
+ <div><span>DATA CHANNEL</span><strong id="metricChannel">CONNECTING</strong><small id="metricChannelSub">Checking GitHub data branch</small></div>
+ <div><span>RECENT REPORTS</span><strong id="metricReports">—</strong><small>Within selected publication window</small></div>
+ <div><span>COVERAGE GROUPS</span><strong id="metricEvents">—</strong><small>Related claims, not confirmed incidents</small></div>
+ <div><span>OBSERVED GEO EVENTS</span><strong id="metricObs">—</strong><small>Coordinate-backed provider records</small></div>
+ <div><span>CRITICAL REPORTING</span><strong id="metricAlerts">—</strong><small>Unverified candidates only</small></div>
+ <div><span>COLLECTION HEALTH</span><strong id="metricHealth">—</strong><small id="metricHealthSub">Last completed collection</small></div>
+</section>
+<div class="workarea">
+ <aside class="rail layers-rail" aria-label="Intelligence layers and filters">
+  <div class="rail-head"><div><span class="eyebrow">OPERATIONS</span><h2 id="workspaceTitle">GLOBAL OVERVIEW</h2></div><button class="iconbtn" id="collapseLayers" title="Collapse sidebar">«</button></div>
+  <div class="region-card"><div class="region-top"><span class="eyebrow">AREA OF INTEREST</span><button id="resetFilters" class="linkbutton">RESET</button></div>
+   <div class="segmented" role="group" aria-label="Map region"><button data-region="global" class="active">WORLD</button><button data-region="gulf">GULF</button></div>
+   <select id="countryFilter" aria-label="Country filter"><option value="">All monitored countries</option></select>
+  </div>
+  <div class="section-head"><span>INTELLIGENCE LAYERS</span><small id="layerCount">0 ENABLED</small></div>
+  <div class="layers" id="layerControls">
+   <label><input type="checkbox" data-layer="observed" checked><span class="layer-dot" style="--dot:#54dbcb"></span><span>Observed hazards <small>USGS · NASA EONET</small></span></label>
+   <label><input type="checkbox" data-layer="fires"><span class="layer-dot" style="--dot:#ffb86c"></span><span>Satellite thermal detections <small>NASA FIRMS · optional key</small></span></label>
+   <label><input type="checkbox" data-layer="outages"><span class="layer-dot" style="--dot:#b5a0fa"></span><span>Connectivity advisories <small>Provider country level</small></span></label>
+   <label><input type="checkbox" data-layer="coverage"><span class="layer-dot" style="--dot:#6594da"></span><span>News country coverage <small>Mentions, not incidents</small></span></label>
+   <label><input type="checkbox" data-layer="reference" checked><span class="layer-dot" style="--dot:#8fa9cb"></span><span>Reference infrastructure <small>Static airports & ports</small></span></label>
+  </div>
+  <div class="section-head"><span>PUBLICATION WINDOW</span></div>
+  <div class="periods" id="periodButtons"><button data-hours="24">24H</button><button data-hours="72" class="active">72H</button><button data-hours="168">7D</button><button data-hours="720">30D</button><button data-hours="0">ALL</button></div>
+  <div class="section-head"><span>TOPICS</span></div>
+  <div class="topic-pills" id="topics"><button data-topic="all" class="active">ALL</button><button data-topic="security">SECURITY</button><button data-topic="transport">TRANSPORT</button><button data-topic="diplomacy">DIPLOMACY</button></div>
+  <div class="section-head"><span>PERSONAL WATCHLIST</span><button id="manageWatch" class="linkbutton">EDIT</button></div>
+  <div class="watchlist" id="watchlist"><span class="dim">No watchlist yet.</span></div>
+  <div class="rail-bottom"><p>PUBLIC SOURCE ANALYSIS ONLY</p><p>News reports ≠ verified events. Country markers ≠ incident coordinates.</p></div>
+ </aside>
+ <main class="map-wrap" aria-label="Geospatial intelligence map">
+  <div id="map" aria-label="Map of verified observations and geographic reference information"></div>
+  <div id="mapFallback" hidden><strong>MAP TILES UNAVAILABLE</strong><span>Intelligence panels remain usable. Check your connection or switch map styles.</span></div>
+  <div class="map-topline"><div class="map-tag"><span class="signal-dot"></span><b id="mapSceneName">WORLD / PUBLIC INTELLIGENCE</b><small id="mapStatus">CONNECTING SOURCES</small></div>
+   <div class="map-action-set"><button id="mapStyle" title="Switch between geographic map styles">◫ MAP STYLE</button><button id="mapGlobe" title="Toggle globe projection">◎ GLOBE</button><button id="mapReset" title="Reset map position">⌖ RESET</button></div></div>
+  <div id="mapLegend" class="map-legend"><span><i style="background:#54dbcb"></i> OBSERVED</span><span><i style="background:#6594da"></i> COUNTRY COVERAGE</span><span><i style="background:#8fa9cb"></i> REFERENCE ONLY</span></div>
+  <div class="map-disclaimer">◎ NEWS MARKERS SHOW COUNTRIES MENTIONED · NEVER EXACT INCIDENT POSITIONS</div>
+  <div class="map-bottom-right"><button id="zoomIn" aria-label="Zoom map in">+</button><button id="zoomOut" aria-label="Zoom map out">−</button><button id="mapFullscreen" aria-label="Presentation map mode">⛶</button></div>
+ </main>
+ <aside class="rail intel-rail" aria-label="Intelligence stream and analysis">
+  <div class="right-head"><div><span class="eyebrow">ANALYST BRIEFING</span><h2 id="streamHeading">INTELLIGENCE STREAM</h2></div><button id="refresh" title="Refresh published datasets" class="iconbtn">↻</button></div>
+  <div class="rail-tabs"><button data-tab="priority" class="active">PRIORITY</button><button data-tab="events">EVENTS</button><button data-tab="news">WIRE</button><button data-tab="sources">SOURCES</button><button data-tab="brief">SITREP</button></div>
+  <div class="stream-summary" id="streamSummary">Connecting to public reporting…</div>
+  <div class="stream" id="stream" aria-live="polite"><div class="empty-state">Loading intelligence records…</div></div>
+  <footer class="stream-foot"><span id="dataTimestamp">Waiting for dataset</span><button id="exportButton">⇩ EXPORT</button></footer>
+ </aside>
+</div>
+<section class="timeline" aria-label="Publication and observation timeline">
+ <div class="timeline-heading"><b>TIME EXPLORER</b><small id="timelineLabel">PUBLICATION TIMES, NOT INCIDENT TIMES</small><button id="timelineNow">↪ NOW</button></div>
+ <div class="timeline-main"><div id="timelineBars" class="timeline-bars" aria-label="Activity histogram"></div>
+ <input id="timelineScrub" type="range" min="0" max="100" value="100" aria-label="Select historical publication cutoff"></div>
+ <div class="timeline-stats"><span id="timelineStart">EARLIER</span><span id="timelineChosen">CURRENT VIEW</span><span id="timelineEnd">NOW</span></div>
+</section>
+<nav class="mobile-nav" aria-label="Mobile sections"><button data-mobile="layers">☷<span>LAYERS</span></button><button data-mobile="map" class="active">◎<span>MAP</span></button><button data-mobile="intel">▤<span>INTEL</span></button><button id="mobileSearch">⌕<span>SEARCH</span></button></nav>
+<div id="dossierBackdrop" class="backdrop" hidden></div>
+<aside id="dossier" class="dossier" role="dialog" aria-modal="true" aria-label="Evidence dossier" hidden><header><div><span class="eyebrow">EVIDENCE / PUBLIC RECORD</span><h2 id="dossierTitle">SOURCE RECORD</h2></div><button id="dossierClose" aria-label="Close evidence dossier">✕</button></header><div id="dossierContent" class="dossier-body"></div></aside>
+<div id="commandOverlay" class="overlay" hidden role="dialog" aria-label="Search and commands" aria-modal="true"><div class="command-modal"><div class="command-input"><span>⌕</span><input id="globalSearch" placeholder="Search headlines, countries, sources, commands…" autocomplete="off"><button id="commandClose">ESC</button></div><div id="commandResults" class="command-results"></div><div class="command-help">ENTER OPEN · ↑ ↓ NAVIGATE · ESC CLOSE · CTRL+K</div></div></div>
+<div id="settingsOverlay" class="overlay" hidden role="dialog" aria-label="Settings" aria-modal="true"><div class="settings-modal"><header><h2>COMMAND CENTER SETTINGS</h2><button id="settingsClose">✕</button></header><p>APPEARANCE</p><div class="theme-choices"><button data-theme-choice="midnight">MIDNIGHT / NAVY</button><button data-theme-choice="obsidian">OBSIDIAN / CARBON</button><button data-theme-choice="sand">ATLAS / SAND</button></div><p>MAP</p><button id="densityButton" class="linebutton">COMPACT / SPACIOUS LAYOUT</button><button id="notificationButton" class="linebutton">ENABLE OPT-IN CRITICAL REPORT NOTIFICATIONS</button><p>DATA INTEGRITY</p><small>GitHub-hosted public reporting is best effort. Alerts are not official emergency guidance. Optional integrations only render real records when enabled.</small><a href="../" class="linebutton">OPEN LEGACY V9 ↗</a></div></div>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+</div>
+<script defer src="../assets/command11.js?v=11-1"></script>
+</body></html>
