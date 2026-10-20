@@ -113,6 +113,7 @@ function closePanel(type){
  const node=state.windows.get(type);if(!node)return;
  node.remove();state.windows.delete(type);
  document.querySelectorAll('[data-v9-panel="'+type+'"]').forEach(b=>b.classList.remove("active"));
+ if(type==="wire"&&state.currentMode==="wire"){state.currentMode="map";document.querySelectorAll("[data-v9-mode]").forEach(b=>b.classList.toggle("active",b.dataset.v9Mode==="map"))}
 }
 function ensurePanel(type){
  if(type==="lab"){ /* Lab also has floating launch pad */ }
@@ -161,7 +162,7 @@ function syncPanels(){
 }
 function mapMode(mode){
  const map=window.__gulfastraMap;
- if(mode==="wire"){ensurePanel("wire");return}
+ if(mode==="wire"){ensurePanel("wire");state.currentMode="wire";document.querySelectorAll("[data-v9-mode]").forEach(b=>b.classList.toggle("active",b.dataset.v9Mode==="wire"));return}
  if(!map){return}
  if(mode==="globe"){
   if(typeof map.setProjection==="function"){
@@ -249,7 +250,7 @@ function bind(){
  document.querySelectorAll("[data-v9-mode]").forEach(b=>b.addEventListener("click",()=>mapMode(b.dataset.v9Mode)));
  $("v9ZoomIn").onclick=()=>window.__gulfastraMap?.zoomIn({duration:250});
  $("v9ZoomOut").onclick=()=>window.__gulfastraMap?.zoomOut({duration:250});
- $("v9Reset").onclick=()=>mapMode("map");
+ $("v9Reset").onclick=()=>{state.country="";$("v9Locate").value="";syncPanels();mapMode("map")};
  $("v9LocateGo").onclick=locate;
  $("v9Locate").addEventListener("keydown",event=>{if(event.key==="Enter"){event.preventDefault();locate()}});
  populateCountries();registerMapPreview();
