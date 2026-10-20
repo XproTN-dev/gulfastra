@@ -1,8 +1,8 @@
 {
   "version": 6,
-  "last_run": "2026-10-20T22:43:13.751872Z",
-  "last_successful_run": "2026-10-20T22:43:13.751872Z",
-  "successful_sources": 30,
+  "last_run": "2026-10-20T22:44:22.530460Z",
+  "last_successful_run": "2026-10-20T22:44:22.530460Z",
+  "successful_sources": 29,
   "reports": [
     {
       "id": "74de5227cce46932f3852c46",
@@ -361,7 +361,7 @@
       "provider": "AP · indexed Gulf reporting",
       "first_seen_at": "2026-10-20T19:00:37.368110Z",
       "date_quality": "publisher-time",
-      "freshness": "new-reporting",
+      "freshness": "recent-reporting",
       "context": "speculative",
       "severity": "routine-reporting",
       "critical_candidate": false,
@@ -6687,6 +6687,27 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "4bf641bf4ab3a6e8da19a626",
+      "title": "النفط يتراجع بشكل طفيف مع استمرار مخاوف تعطل الإمدادات عبر هرمز - صدى البلد",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBScGxSelFRSVBlam55VzdnOVRlY2t2SzVyeGZHdlJRVV9KcFl3MThuc2F3UjNycmVibFluZ19nT1poNHBrcnBv?oc=5",
+      "source": "صدى البلد",
+      "published_at": "2026-10-20T06:37:00Z",
+      "country": "",
+      "countries": [],
+      "language": "ar",
+      "category": "transport",
+      "tag": "اضطراب نقل",
+      "provider": "عربي · مضيق هرمز",
+      "first_seen_at": "2026-10-20T22:44:22.530460Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "elevated-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "2a265c0bb8e8f5635a9abfea",
       "title": "Riyadh Airport reopens: Saudi flights status, refunds update here - Pakistan Connect",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE10QTNXTFdKRXBFeE5CNFFaY3VCa1ItbE1HVllWcDVlUkl6TXVnMHZVWVRTZjlBSkpETXBrSVNfY0RTRmV0NjIzWl95MjNINk9OUWpzUnFkMUZNSFh1UDJnR0JxZWE?oc=5",
@@ -8007,6 +8028,27 @@
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "elevated-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "3843e6e8b1e3467e46bd2839",
+      "title": "إدارة مضيق هرمز: تسجيل مخالفات لـ 122 سفينة حتى الآن - تسنیم",
+      "url": "https://news.google.com/rss/articles/CBMiqwNBVV95cUxOeHJkWE92RHJXdW0tWGhfeC1ldGVZUkk3bEtUQjBTcnFpQjM2VHI2bC16bTZnaEFkVlFyeEFpZUhKS190SmVra0c0b29aYm9weFNZNXZzMmFZTDB3cElmdlVHZWJqN1NaYlZISVE1OElUTjVnclc3c1ZHcm1jRVo0b0FQR0lPZnNnX0FsYWliTnBGUEk4N2FrYkhhOXlqV1RHcGQxc3c3Qm9FQWNpX2Z1R0lYZl80amxQN2pqd1BSWnZWTTJxTUtLOFYwSm5oVGpHMHNtS1YwQTZNZGE2clBNT3JEZDd6Q245aVVIWkRoYUd1YXBwZjNaelkyZFBmQUM3RGczdjJNbm1FVjZwX3hQakR0LWI3MkNLa1FDYkUzdWlfNmtKMVRPWURXUjdIaDFKeFdmSThGWE5xcUs1NWl5Mllvalk5VzFfakVLanQxREhCR2g2UWRBVDVWNGgyaXRxOVhzTVlIR0dyZFF0bmItNEx3dTFXckMyNDdsd0ZPb0UtejNNRkp4N2p1dDkwVVBVeEllU09xcFJSWFgzXzBhdVdkLUFPS294NXdr0gGwA0FVX3lxTFBaaXItWXlNVlMxNHFpaWM3XzNoNWNnS1hQS2JhOWNkVnI4LWdlek1taUFvTmpUWUZaNkFSRVplQ2dXV0dFR1JmNk5WMUcxSFkyWlVUeFFVVHpPSWhtTEF2aU5IYjJOX1M3dUU2TmJoMG1qRng3NFRQSkdJcjRXU2RURDEzdGF6RHJfRXNtb2JtNDBNR29yVUxERWxuRGFUQTJXc2llNHg3YmlwanNyTE12a3ZaRE9RWFQzQVd1V1F1ZzZzWjI0MENNc2xadTZlakpoNE5GQXVHbXBTSGpVazlMMm9YUnh6eFBnaThfbnNCTVl2UWxXUUFrU0tXOTBMMVUzVUdmX1dGSkdIdjVOY2ZQT1M5V1RnbkhXeFJuSjBhQ2JwNzlfYUt3YVpaZVpuZGxHVERaYWpDZGlPTFJJcFd5NDI3N3BpejNxOFZyU1h2UzV1VVloQ2FCcWdwX1NhUF9HQmxwMnJhUmxRZE9ELVVrV3U1dXJIZDFoQy1iRGJfV0pyOUYxWUNJYld2OUlyWnV2aU1kRFNOcElVUVc1ODlkRXNPWEJDUXhKdFd1eHRYUg?oc=5",
+      "source": "تسنیم",
+      "published_at": "2026-10-19T21:49:10Z",
+      "country": "",
+      "countries": [],
+      "language": "ar",
+      "category": "transport",
+      "tag": "ملاحه بحريه",
+      "provider": "عربي · مضيق هرمز",
+      "first_seen_at": "2026-10-20T22:44:22.530460Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
       "critical_candidate": false,
       "alert_eligible": false,
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
@@ -12212,6 +12254,27 @@
       "provider": "Google News · diplomacy",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "492d4b07745c643decf7860e",
+      "title": "إصطدام ناقلة نفط مخالفة بلغم في جنوب مضيق هرمز- الأخبار الأقتصاد - وکالة تسنیم الدولیة للأنباء - تسنیم",
+      "url": "https://news.google.com/rss/articles/CBMingNBVV95cUxOblREQWQtTTBsejNxdmZzaVJhUlVTQkVpSExBckg4QlRHMmlCc19uM1NKWjNLZWZlN0l6Rmg3RTZGcDAzQV9EMnlqaThxSEpraWxQZ3BCOVA0eHh0WnFNNUZwT2ttekRXNm10d0hYTmZOSVJmVV96VHhKSGRVQkpQeE9sbVc3RTdwRHhZeElnQkExcU8tcW9hb1otX29HaGh6OGFPQ0UtTFVsYk5KbzJmZ0lWdXd1Nm1vQXJsSDlCc3VaaUJaV1RYRlpudzhKRUt6X2hBZXloYXBTcGNyN2l5OF9IX2ZpOVp6c01aTDhlUGJhbFdaYTNjRERRemM3OFZ3dWhIbmxpNVFnVlI0aFNMR0ZXX0lMUm5LcVQ0YUhmVVlvdTBkWHY2MjhQeTBlVHdFbXc2R3RMZlByWHVUSzJicUh2bWpvYWNKR055TWFLLU1OTnJYbU8wU0FSYVNFemJhQW4xLXlSTV9nQjJlbktMcTFTWDFZOG5fSWdvSkQ2QnBNSGZZZnlVX2d4QkFsdjUxc0dZRUdJMW5jTGFTVUE?oc=5",
+      "source": "تسنیم",
+      "published_at": "2026-10-19T05:26:22Z",
+      "country": "",
+      "countries": [],
+      "language": "ar",
+      "category": "transport",
+      "tag": "ملاحه بحريه",
+      "provider": "عربي · مضيق هرمز",
+      "first_seen_at": "2026-10-20T22:44:22.530460Z",
+      "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -26212,6 +26275,27 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "e6b2d9f78283947fc797386a",
+      "title": "تفاصيل غرق سفينة شحن في مضيق هرمز.. آيفونات وعطور فاخرة تطفو فوق أمواج البحر (فيديو) - Masrawy",
+      "url": "https://news.google.com/rss/articles/CBMipAVBVV95cUxPSk54UW9sRUJRbE1wWnI4VDNRS3Fxdnptd2VtWmpDY2d2WVdDRUdBODJxWlRPUE8tbTR4R3pJa0tGcHU3dTE2Z0VVZXRraVNCaEllVkVnczhCdXZKSlFvMWdxQ2FtaVM5X2ZwZXJxRjB1SkhITHRsWUhILXBXMXViLUdtUVdVSDlmR3dsVDR1UDBaTDR1Z1dLSGxvemdPaFFfRUNISTgxc1FSUFBUQXFqbmo3YVFaT0J4LWlCelptYVNIUGVCVFl0eVpUei02RzdzUXJOZ21uTDRaTzNyLW95N0NRU0RwV1Q1bk1rbkhNblBYMlZVS2VGTUFHVHExbTZhZmNJVWJKdEY2eGcxOUI2Ujc3Y04zdkFMUGFfbFFkeDlWczlLZDl5SjJWVFJ2N2JKVEJ2cjAwbnYzQndPMEgzN0NsZlplb3o1QmhSNkxFSFhNeWhpNGJyRlozZnRBLXA1VGd6bTNKams4QVlzOF9UVFJQTmRHM29yQXphc3pIaFlnRG5GcFVMal93dXhsTndFTzJoYVlZazZzTllkWWxvbXhzd2tEbEtsOXFNX3B1NWNXeXdtdUc0VzROaDJNR1dCTnJjS2dobXg5M1ZHMWpHcnExV21DTXZlRTg5amxxeDNiaXdHMVAyZlJPb1hESkwyTWxSVzJfM1pxNEJtd0Mwa3lLa3RqdEt1NGNPbTFzaDZDWWFoNjhpUVl3UnhnNUIwbW80RnRZaWdRWWduTDlhNXpGTG5aUWdkWGlfamNac3RabWlMdGRKTzd0eVRZNkxCbGdLT2hqdHZuN2tBVGlGU0F0QjliUVhKZEVZSElVZXhmZG5aN3U3T0pkVHJiR2twTjFWb3NrMGxsTTdzQWM2T21GSU5feDJxbHlvSjAwNnlhQ2ZR0gGqBUFVX3lxTFBXRnQ2dVpSWnB5RkcwQXRpWlM0MV9XZHl6SEpHeWc3XzhtcUFBQkNwQVpTR0NIWXJ3ZW52d05RVWdKWHJUUTc3RmtHOVUxTE5IZGl3dGhWaEV1UXJnNDUwZXl1VGdQNG5KYWdYdlU1N0k2V0xvbHV0aU1GRnJ2ODB5ODBSMFM5Q1NsVTJmcWRnMDMxWWx3WkpaVlhqVm9MMjlEd01tcDJzQmpfVC1aR1JIYy1VUkxMN3hHaTBJZkc3aTlZdzFzMmpYa3BYQUQxVGlyWmJkN0hBQ2QtZTgzTjdQR1JQbjNQZHpvRDVVMFJGTEVfRnZ6SThPMEF3VjVINTd6UjAzWXAwUV9BbG9RRmNzeWpSVl8wRHdLWHRqU2VlR2dWYkdrTUtjc3NuNkUzcllhNkp4NFZXNV9XcXp3bVFFWWVXaDRkeExXTENXeVRVX1hEWDZBc2pab2V6NzVNMFFkY1VhczVrOGk3M0t2RnZjVFZkVk5HQXJQbzByelA5Q2t3Zlk2MjBOLUs1aUtZT0xLVVhTenJBZ2NIc0cxUkVGVldxbTZiUVg5VlQ2WEhPRDltSk9jMUdXWExDcHBVMnFuSDZOOU42NnlCXzFseEtqRUxLcHFfTDFiVHBpanBvUTRyRzRfdFBMYU1MS2pUdWZidnR5LUNYOHZaTjZtcU5OYmhDRkt3ajN3NmhKTjI0ZXJBOGRlM2hucGlqeHlsT2EtWVZITWlYejdhaVhNZjdQNFBuSFJuamxIQ2hheDNBQWE5RWlBbnRtaHBsdTdTOGdRYk5hdkxqOFhuUTJPdTB1RFllbTM0NjBrWEZKajRjVHp3Tnd1N01UZEk1eUZsQWFGc0V4Ti1fcUZ1NExWd01VeTBFQUlNVHZFTXhKVnR4bTlfOVliYi11UWc?oc=5",
+      "source": "Masrawy",
+      "published_at": "2026-10-15T14:55:21Z",
+      "country": "",
+      "countries": [],
+      "language": "ar",
+      "category": "transport",
+      "tag": "ملاحه بحريه",
+      "provider": "عربي · مضيق هرمز",
+      "first_seen_at": "2026-10-20T22:44:22.530460Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "elevated-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "408326848023cc60aad453cb",
       "title": "ترمب يؤجل قرار الهجمات.. وخطط أميركية ضد إيران تشمل أم القنابل - العربية",
       "url": "https://news.google.com/rss/articles/CBMigARBVV95cUxOQnMzZmU3MXJ6ZGVtanBocllla29ZMmtkMmNJcnBUVVAtOUFHSWstcTA2NWs5Mko1cXhUTnAxYmRqam5VN2JGWnNVa21fOC1EVkdQUTJOTzVVOUhrVEZ1RWxyRXM5cVllakdXNjVsNklCY0hYeHZfOGVjMlgzc0kwNFlpSmpWNHhLV00xYk9iN1lPY2dpTnZraHRSY1h4V09Lb0FhOTBseERNSEZUUm1VNXJuVTc2eEdJY1JqdGZKbVR6a1F0U3Z1QWhtSVE5X3phemdzWlBWSGs0Q1RZTFhPUE5vaHBlUE4zQ1lhVjFkWUJYOUZwWVBDZmNJQVhSc0N0Q25uMTM5YXlrOW9kZ0RhYXpCZGVmUkliTWIxUVdsZERwZGJEUHpxYWtDSkJULV8ydHhROHh2SzZtQmZONmdkWFJOOTZtNk1UelNZWVpnaWkxU2I4dVdrTEpxRVlyRnZOUHpuYWdPVTZuR1pZWXJHM0hONjJKRUMxSFFBeTJxNC15UDl6LXJ5UC04SndPS2p0MGlEdGNQaGw5OWEwX0lYcDlMYjhZLW1xd3A3ajRnRHdEYVhJTkxjc3Q3QjV4ZHQwem9SWXBlbVgtQzdDcXBheFVlV3BjWFFESHBua25YZWFNcDRTcVdFMVFOcnk1d3NIOWdKZFBtZHRVTTgwTTUxatIBhgRBVV95cUxQaUpSRGNSUlRMYmxpUmtpRGtYbmhUeUtsSE1teUZIUlJWSk0wT1BydmM2OG1oQ0JKMFdva24wWjRkR0FVWEpJUmsyaE9sVDMtdldmRmVXNDEtOWU2Q2Q4LWtkczVoN3FQVTZMR0lqVHN3MzlBRUtpMTZselB1RTNYUkQzUDJYQXAtdnVEN0lFbk9OUVdDYVhGbGUtT3VoenA5R2JHSmlPdU1QUUxfSzg1S2VnUTNHQjNoanB6MXBBb01oaGxiamV0WGRPel93eDIzMFB1RjFQSjcwNWhtaEg1ZGRvSXRBRGpoQlhVR05EaTdVOENuSTdYM1F0MDZDX1gtTm5fcWdoWjVyV0N1T1pHMXBoRGZEMFhzRzE1YTBWaGljREppcWYtblZEZE1JX00tMDRYYTU0djlQQkNzZkJYTzlJVEtFQjJGeVBtLXJiOHZ6UGJpT3k1LV9JRGJweFVaUGtKcER2NzZFVkljUVJQOXIzWVEtaVVjTGtSUW1JTlEwMHh6RnVQT2h3MDU3Wmh5YWhCZlNhdWtuODBRUEdmOHdPX2F4clI4Z2ItLUhSRjV6V19YMlJTM0VRR0FtLWpRVGlyai1QdWNzenZMREQ4QUtzYVhLeDhpMDlYWTFPSl8tTjVESU9DMDZRVjRqUVdFVDk3R2hZTDFtNmVQMm5mQXBQZ3FJZw?oc=5",
@@ -35051,17 +35135,17 @@
     "Google News · diplomacy": {
       "ok": true,
       "items": 100,
-      "relevant": 52
+      "relevant": 54
     },
     "Google News · regional": {
       "ok": true,
       "items": 55,
-      "relevant": 28
+      "relevant": 29
     },
     "Reuters · indexed Gulf reporting": {
       "ok": true,
       "items": 100,
-      "relevant": 32
+      "relevant": 31
     },
     "AP · indexed Gulf reporting": {
       "ok": true,
@@ -35159,9 +35243,8 @@
       "relevant": 7
     },
     "UN News · Middle East (EN)": {
-      "ok": true,
-      "items": 30,
-      "relevant": 1
+      "ok": false,
+      "error": "not well-formed (invalid token): line 1, column 0"
     },
     "UN News · الشرق الأوسط (AR)": {
       "ok": true,

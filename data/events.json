@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "generated_at": "2026-10-20T22:43:21.450100Z",
+  "generated_at": "2026-10-20T22:44:30.503005Z",
   "model": "deterministic-source-correlation-v2-coverage-lifecycle",
   "disclaimer": "Clusters are related PUBLIC REPORTS, not confirmed incidents. Source counts are not proof. Country names are mentions, not incident locations.",
   "events": [
@@ -883,18 +883,18 @@
           "country": "Yemen"
         }
       ],
-      "coverage_stage": "new-coverage",
+      "coverage_stage": "recent-coverage",
       "coverage_first_published_at": "2026-10-20T20:44:00Z",
       "coverage_last_published_at": "2026-10-20T20:44:00Z",
-      "current_reporting": true,
-      "recent_publisher_count": 1,
-      "recent_article_count": 1,
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "4f2d7e90c6a6cc6d7cfd",
-      "revision": 2,
-      "updated_at": "2026-10-20T21:35:03.678524Z"
+      "digest": "c4aa84c0c87661b2b3c0",
+      "revision": 3,
+      "updated_at": "2026-10-20T22:44:30.503005Z"
     },
     {
       "id": "GF-9A2C27B5FFA1DA",
@@ -15370,6 +15370,60 @@
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
+      "id": "GF-FEA7C8ACF8B52A",
+      "title": "النفط يتراجع بشكل طفيف مع استمرار مخاوف تعطل الإمدادات عبر هرمز - صدى البلد",
+      "category": "transport",
+      "topic": "maritime",
+      "countries": [],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T06:37:00Z",
+      "last_published": "2026-10-20T06:37:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "4bf641bf4ab3a6e8da19a626",
+          "title": "النفط يتراجع بشكل طفيف مع استمرار مخاوف تعطل الإمدادات عبر هرمز - صدى البلد",
+          "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBScGxSelFRSVBlam55VzdnOVRlY2t2SzVyeGZHdlJRVV9KcFl3MThuc2F3UjNycmVibFluZ19nT1poNHBrcnBv?oc=5",
+          "source": "صدى البلد",
+          "publisher_key": "صدى البلد",
+          "provider": "عربي · مضيق هرمز",
+          "published_at": "2026-10-20T06:37:00Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T22:44:22.530460Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "recent-coverage",
+      "coverage_first_published_at": "2026-10-20T06:37:00Z",
+      "coverage_last_published_at": "2026-10-20T06:37:00Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "a53888e239c8710a66c2",
+      "revision": 1,
+      "updated_at": "2026-10-20T22:44:30.503005Z"
+    },
+    {
       "id": "GF-6BAB67D052BF67",
       "title": "Riyadh Airport reopens: Saudi flights status, refunds update here - Pakistan Connect",
       "category": "transport",
@@ -18412,6 +18466,60 @@
       "digest": "727cfe9e456bfcc1dc0b",
       "revision": 3,
       "updated_at": "2026-10-20T16:52:31.264495Z"
+    },
+    {
+      "id": "GF-7341227D5E4A77",
+      "title": "إدارة مضيق هرمز: تسجيل مخالفات لـ 122 سفينة حتى الآن - تسنیم",
+      "category": "transport",
+      "topic": "maritime",
+      "countries": [],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-19T21:49:10Z",
+      "last_published": "2026-10-19T21:49:10Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "3843e6e8b1e3467e46bd2839",
+          "title": "إدارة مضيق هرمز: تسجيل مخالفات لـ 122 سفينة حتى الآن - تسنیم",
+          "url": "https://news.google.com/rss/articles/CBMiqwNBVV95cUxOeHJkWE92RHJXdW0tWGhfeC1ldGVZUkk3bEtUQjBTcnFpQjM2VHI2bC16bTZnaEFkVlFyeEFpZUhKS190SmVra0c0b29aYm9weFNZNXZzMmFZTDB3cElmdlVHZWJqN1NaYlZISVE1OElUTjVnclc3c1ZHcm1jRVo0b0FQR0lPZnNnX0FsYWliTnBGUEk4N2FrYkhhOXlqV1RHcGQxc3c3Qm9FQWNpX2Z1R0lYZl80amxQN2pqd1BSWnZWTTJxTUtLOFYwSm5oVGpHMHNtS1YwQTZNZGE2clBNT3JEZDd6Q245aVVIWkRoYUd1YXBwZjNaelkyZFBmQUM3RGczdjJNbm1FVjZwX3hQakR0LWI3MkNLa1FDYkUzdWlfNmtKMVRPWURXUjdIaDFKeFdmSThGWE5xcUs1NWl5Mllvalk5VzFfakVLanQxREhCR2g2UWRBVDVWNGgyaXRxOVhzTVlIR0dyZFF0bmItNEx3dTFXckMyNDdsd0ZPb0UtejNNRkp4N2p1dDkwVVBVeEllU09xcFJSWFgzXzBhdVdkLUFPS294NXdr0gGwA0FVX3lxTFBaaXItWXlNVlMxNHFpaWM3XzNoNWNnS1hQS2JhOWNkVnI4LWdlek1taUFvTmpUWUZaNkFSRVplQ2dXV0dFR1JmNk5WMUcxSFkyWlVUeFFVVHpPSWhtTEF2aU5IYjJOX1M3dUU2TmJoMG1qRng3NFRQSkdJcjRXU2RURDEzdGF6RHJfRXNtb2JtNDBNR29yVUxERWxuRGFUQTJXc2llNHg3YmlwanNyTE12a3ZaRE9RWFQzQVd1V1F1ZzZzWjI0MENNc2xadTZlakpoNE5GQXVHbXBTSGpVazlMMm9YUnh6eFBnaThfbnNCTVl2UWxXUUFrU0tXOTBMMVUzVUdmX1dGSkdIdjVOY2ZQT1M5V1RnbkhXeFJuSjBhQ2JwNzlfYUt3YVpaZVpuZGxHVERaYWpDZGlPTFJJcFd5NDI3N3BpejNxOFZyU1h2UzV1VVloQ2FCcWdwX1NhUF9HQmxwMnJhUmxRZE9ELVVrV3U1dXJIZDFoQy1iRGJfV0pyOUYxWUNJYld2OUlyWnV2aU1kRFNOcElVUVc1ODlkRXNPWEJDUXhKdFd1eHRYUg?oc=5",
+          "source": "تسنیم",
+          "publisher_key": "تسنیم",
+          "provider": "عربي · مضيق هرمز",
+          "published_at": "2026-10-19T21:49:10Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T22:44:22.530460Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-19T21:49:10Z",
+      "coverage_last_published_at": "2026-10-19T21:49:10Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "6093e278107c50c878fc",
+      "revision": 1,
+      "updated_at": "2026-10-20T22:44:30.503005Z"
     },
     {
       "id": "GF-DA838CDD17FE13",
@@ -28198,6 +28306,60 @@
       "digest": "972c4d32e264bc940e09",
       "revision": 3,
       "updated_at": "2026-10-20T16:52:31.264495Z"
+    },
+    {
+      "id": "GF-9639EBE88B81C7",
+      "title": "إصطدام ناقلة نفط مخالفة بلغم في جنوب مضيق هرمز- الأخبار الأقتصاد - وکالة تسنیم الدولیة للأنباء - تسنیم",
+      "category": "transport",
+      "topic": "maritime",
+      "countries": [],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-19T05:26:22Z",
+      "last_published": "2026-10-19T05:26:22Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "492d4b07745c643decf7860e",
+          "title": "إصطدام ناقلة نفط مخالفة بلغم في جنوب مضيق هرمز- الأخبار الأقتصاد - وکالة تسنیم الدولیة للأنباء - تسنیم",
+          "url": "https://news.google.com/rss/articles/CBMingNBVV95cUxOblREQWQtTTBsejNxdmZzaVJhUlVTQkVpSExBckg4QlRHMmlCc19uM1NKWjNLZWZlN0l6Rmg3RTZGcDAzQV9EMnlqaThxSEpraWxQZ3BCOVA0eHh0WnFNNUZwT2ttekRXNm10d0hYTmZOSVJmVV96VHhKSGRVQkpQeE9sbVc3RTdwRHhZeElnQkExcU8tcW9hb1otX29HaGh6OGFPQ0UtTFVsYk5KbzJmZ0lWdXd1Nm1vQXJsSDlCc3VaaUJaV1RYRlpudzhKRUt6X2hBZXloYXBTcGNyN2l5OF9IX2ZpOVp6c01aTDhlUGJhbFdaYTNjRERRemM3OFZ3dWhIbmxpNVFnVlI0aFNMR0ZXX0lMUm5LcVQ0YUhmVVlvdTBkWHY2MjhQeTBlVHdFbXc2R3RMZlByWHVUSzJicUh2bWpvYWNKR055TWFLLU1OTnJYbU8wU0FSYVNFemJhQW4xLXlSTV9nQjJlbktMcTFTWDFZOG5fSWdvSkQ2QnBNSGZZZnlVX2d4QkFsdjUxc0dZRUdJMW5jTGFTVUE?oc=5",
+          "source": "تسنیم",
+          "publisher_key": "تسنیم",
+          "provider": "عربي · مضيق هرمز",
+          "published_at": "2026-10-19T05:26:22Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T22:44:22.530460Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-19T05:26:22Z",
+      "coverage_last_published_at": "2026-10-19T05:26:22Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "03a722c18ab24d46a44e",
+      "revision": 1,
+      "updated_at": "2026-10-20T22:44:30.503005Z"
     },
     {
       "id": "GF-DF4F2F3EEA096D",
@@ -60794,6 +60956,60 @@
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
+      "id": "GF-3262809E18A274",
+      "title": "تفاصيل غرق سفينة شحن في مضيق هرمز.. آيفونات وعطور فاخرة تطفو فوق أمواج البحر (فيديو) - Masrawy",
+      "category": "transport",
+      "topic": "maritime",
+      "countries": [],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-15T14:55:21Z",
+      "last_published": "2026-10-15T14:55:21Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "e6b2d9f78283947fc797386a",
+          "title": "تفاصيل غرق سفينة شحن في مضيق هرمز.. آيفونات وعطور فاخرة تطفو فوق أمواج البحر (فيديو) - Masrawy",
+          "url": "https://news.google.com/rss/articles/CBMipAVBVV95cUxPSk54UW9sRUJRbE1wWnI4VDNRS3Fxdnptd2VtWmpDY2d2WVdDRUdBODJxWlRPUE8tbTR4R3pJa0tGcHU3dTE2Z0VVZXRraVNCaEllVkVnczhCdXZKSlFvMWdxQ2FtaVM5X2ZwZXJxRjB1SkhITHRsWUhILXBXMXViLUdtUVdVSDlmR3dsVDR1UDBaTDR1Z1dLSGxvemdPaFFfRUNISTgxc1FSUFBUQXFqbmo3YVFaT0J4LWlCelptYVNIUGVCVFl0eVpUei02RzdzUXJOZ21uTDRaTzNyLW95N0NRU0RwV1Q1bk1rbkhNblBYMlZVS2VGTUFHVHExbTZhZmNJVWJKdEY2eGcxOUI2Ujc3Y04zdkFMUGFfbFFkeDlWczlLZDl5SjJWVFJ2N2JKVEJ2cjAwbnYzQndPMEgzN0NsZlplb3o1QmhSNkxFSFhNeWhpNGJyRlozZnRBLXA1VGd6bTNKams4QVlzOF9UVFJQTmRHM29yQXphc3pIaFlnRG5GcFVMal93dXhsTndFTzJoYVlZazZzTllkWWxvbXhzd2tEbEtsOXFNX3B1NWNXeXdtdUc0VzROaDJNR1dCTnJjS2dobXg5M1ZHMWpHcnExV21DTXZlRTg5amxxeDNiaXdHMVAyZlJPb1hESkwyTWxSVzJfM1pxNEJtd0Mwa3lLa3RqdEt1NGNPbTFzaDZDWWFoNjhpUVl3UnhnNUIwbW80RnRZaWdRWWduTDlhNXpGTG5aUWdkWGlfamNac3RabWlMdGRKTzd0eVRZNkxCbGdLT2hqdHZuN2tBVGlGU0F0QjliUVhKZEVZSElVZXhmZG5aN3U3T0pkVHJiR2twTjFWb3NrMGxsTTdzQWM2T21GSU5feDJxbHlvSjAwNnlhQ2ZR0gGqBUFVX3lxTFBXRnQ2dVpSWnB5RkcwQXRpWlM0MV9XZHl6SEpHeWc3XzhtcUFBQkNwQVpTR0NIWXJ3ZW52d05RVWdKWHJUUTc3RmtHOVUxTE5IZGl3dGhWaEV1UXJnNDUwZXl1VGdQNG5KYWdYdlU1N0k2V0xvbHV0aU1GRnJ2ODB5ODBSMFM5Q1NsVTJmcWRnMDMxWWx3WkpaVlhqVm9MMjlEd01tcDJzQmpfVC1aR1JIYy1VUkxMN3hHaTBJZkc3aTlZdzFzMmpYa3BYQUQxVGlyWmJkN0hBQ2QtZTgzTjdQR1JQbjNQZHpvRDVVMFJGTEVfRnZ6SThPMEF3VjVINTd6UjAzWXAwUV9BbG9RRmNzeWpSVl8wRHdLWHRqU2VlR2dWYkdrTUtjc3NuNkUzcllhNkp4NFZXNV9XcXp3bVFFWWVXaDRkeExXTENXeVRVX1hEWDZBc2pab2V6NzVNMFFkY1VhczVrOGk3M0t2RnZjVFZkVk5HQXJQbzByelA5Q2t3Zlk2MjBOLUs1aUtZT0xLVVhTenJBZ2NIc0cxUkVGVldxbTZiUVg5VlQ2WEhPRDltSk9jMUdXWExDcHBVMnFuSDZOOU42NnlCXzFseEtqRUxLcHFfTDFiVHBpanBvUTRyRzRfdFBMYU1MS2pUdWZidnR5LUNYOHZaTjZtcU5OYmhDRkt3ajN3NmhKTjI0ZXJBOGRlM2hucGlqeHlsT2EtWVZITWlYejdhaVhNZjdQNFBuSFJuamxIQ2hheDNBQWE5RWlBbnRtaHBsdTdTOGdRYk5hdkxqOFhuUTJPdTB1RFllbTM0NjBrWEZKajRjVHp3Tnd1N01UZEk1eUZsQWFGc0V4Ti1fcUZ1NExWd01VeTBFQUlNVHZFTXhKVnR4bTlfOVliYi11UWc?oc=5",
+          "source": "Masrawy",
+          "publisher_key": "masrawy",
+          "provider": "عربي · مضيق هرمز",
+          "published_at": "2026-10-15T14:55:21Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T22:44:22.530460Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-15T14:55:21Z",
+      "coverage_last_published_at": "2026-10-15T14:55:21Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "77d2b238bb4eae15d2e9",
+      "revision": 1,
+      "updated_at": "2026-10-20T22:44:30.503005Z"
+    },
+    {
       "id": "GF-D700B025147E6B",
       "title": "ترمب يؤجل قرار الهجمات.. وخطط أميركية ضد إيران تشمل أم القنابل - العربية",
       "category": "security",
@@ -81466,98 +81682,18 @@
     "2026-10-12": 7,
     "2026-10-13": 115,
     "2026-10-14": 152,
-    "2026-10-15": 147,
+    "2026-10-15": 148,
     "2026-10-16": 139,
     "2026-10-17": 187,
     "2026-10-18": 151,
-    "2026-10-19": 215,
-    "2026-10-20": 310
+    "2026-10-19": 217,
+    "2026-10-20": 311
   },
   "revisions": [
     {
-      "id": "GF-9A2C27B5FFA1DA",
-      "revision": 2,
-      "at": "2026-10-20T22:43:21.450100Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-B5C02D16F2B997",
-      "revision": 2,
-      "at": "2026-10-20T22:43:21.450100Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-E9E26C1310C287",
-      "revision": 2,
-      "at": "2026-10-20T22:43:21.450100Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-D7F58CFF30A1A5",
-      "revision": 4,
-      "at": "2026-10-20T22:43:21.450100Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 4,
-      "new_source_count": 4
-    },
-    {
-      "id": "GF-5AC762AD9B1164",
-      "revision": 2,
-      "at": "2026-10-20T22:43:21.450100Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-666DF01033CEB7",
-      "revision": 2,
-      "at": "2026-10-20T22:43:21.450100Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-BDFC302F209896",
-      "revision": 4,
-      "at": "2026-10-20T22:43:21.450100Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-CC6EF295CE754D",
+      "id": "GF-72F18E457A563E",
       "revision": 3,
-      "at": "2026-10-20T22:43:21.450100Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 2
-    },
-    {
-      "id": "GF-4F7FD9CA6D8170",
-      "revision": 3,
-      "at": "2026-10-20T22:43:21.450100Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 2
-    },
-    {
-      "id": "GF-16094BD5B10138",
-      "revision": 13,
-      "at": "2026-10-20T22:43:21.450100Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-8D0CB96D6EDDE3",
-      "revision": 2,
-      "at": "2026-10-20T22:43:21.450100Z",
+      "at": "2026-10-20T22:44:30.503005Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1

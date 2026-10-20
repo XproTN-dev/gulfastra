@@ -1,7 +1,7 @@
 # موجز جلفاسترا للمصادر العلنية
 الفترة: آخر 24 ساعة (حسب وقت نشر التقارير)
 
-مجموعات التغطية: 315 | عناوين مرتبطة: 342
+مجموعات التغطية: 316 | عناوين مرتبطة: 343
 هذه تقارير صحفية وليست أحداثا مؤكدة، ولا تعتبر توجيهات سلامة رسمية.
 
 ## Security (219 coverage groups)
@@ -34,7 +34,7 @@
 - Middle East latest: Iran says supertanker 'exploded' near Strait of Hormuz - The National (1 headlines; single-source)
   - The National: https://news.google.com/rss/articles/CBMiggFBVV95cUxNMkVpbk9qT29fT1A3MHN5dnlHc1RjaXJLRVhTVTBhOGNON3d1UGQ2amJNQVdWZ0U0RzYwTC1pVHRqZjFYZUZGSWU0cGJYTVVncnRoYjEzdG1fUmhyMWJHUE0zS3dPcmJMaDE0Z0c5ZzdSRVZLYVB3SzdfQ28ydWg4Yld3?oc=5
 
-## Transport (56 coverage groups)
+## Transport (57 coverage groups)
 - حريق بناقلة نفط بعد اصطدامها بلغم في مضيق هرمز - www.alghad.tv (1 headlines; single-source)
   - www.alghad.tv: https://news.google.com/rss/articles/CBMi0wNBVV95cUxNRXk2b0FYRDVTRXJzNFB0OFBPMkt3ekJrU182M205TTFTYTIzUGtFbkQ4NzdfQ0ZqSUZYOEl4STJQcEtWbUNRNjM0WnZjY3d6anJOVHJORi1oTVFJTWF0MTUzVTlfOFhTV2FzM3k5UFZCci1MODR1TkVrYmQ5SndhM2MyTXdyV3R5TE40TEVLblAzYVgzWmRhQWVQVzY1N1JSaWdqUFIxTUYtTktuc2xnMldqdnQ1NUt1a2hSN3NYWmxZTnVKdzhFS3d6b0phb3FybHVaUVNqVWREeEE3WU81UjRkd2VfVlo1b253WWwxVEw2UlctSV9TRWJfRElVWmdwakE1a2pIcm40SHFEVERZeTVTOHJtMHY5a2t3S0JrR0dnUXljeElfc1lNUk01YWd6dWROSno1RTdJX0ZrN1AtaEZoNk1ha2g2Y1Zlb2YwMzJrNHBkR0FDYTlQcncwdGN2ekRJcksyZXVjMGNja1hFRUY5ZHFmbXVBcjktTlEyQUg0UnF1bnBMbnFUeGRFeUFBLU1Pa2dqWm1SS1p6eXl2NXRUZHlpY3BoSm9YMXlUd0w0NFNBbGYzTlQ3RUg1WEN5aDUwdElpNGlHcklneHBYcFZuTQ?oc=5
 - هل تقود عودة الحرب إلى إغلاق مضيق هرمز واتساع المواجهة؟ - NOW الشرق (1 headlines; single-source)
