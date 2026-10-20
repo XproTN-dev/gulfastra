@@ -42,14 +42,14 @@ with sync_playwright() as pw:
         }""")
         assert coordinates and all(p["error"]<15 for p in coordinates),f"Reference markers mispositioned: {coordinates}"
         assert page.evaluate("!!window.GulfastraData"),"Independent GitHub public-data branch client missing"
-        page.locator('[data-v9-panel="wire"]').first.click()
+        page.locator('[data-v9-panel="wire"]:visible').first.click()
         assert page.locator('.v9-panel[data-panel="wire"]').is_visible(),"Floating wire did not open"
         assert page.locator('.v9-panel[data-panel="wire"] .v9-news').count()>0,"Wire has no real report articles"
         assert page.locator('.v9-panel[data-panel="wire"] .v9-news a[href^="https://"]').count()>0,"Article links missing"
         page.screenshot(path=str(OUT/f"{name}-wire.png"),full_page=True)
-        page.locator('[data-v9-panel="verify"]').first.click()
+        page.locator('[data-v9-panel="verify"]:visible').first.click()
         assert page.locator('.v9-panel[data-panel="verify"] .v9-news').count()>0,"Evidence groups not shown"
-        page.locator('[data-v9-panel="sources"]').first.click()
+        page.locator('[data-v9-panel="sources"]:visible').first.click()
         assert page.locator('.v9-panel[data-panel="sources"] .v9-source-line').count()>0,"Source health not shown"
         page.screenshot(path=str(OUT/f"{name}-multi-window.png"),full_page=True)
         # Palettes affect the complete application and persist.
