@@ -48,7 +48,27 @@ with sync_playwright() as pw:
         assert page.locator("#sourcebox .provider-list").is_hidden(),"Provider diagnostics should start condensed"
         assert page.locator("#v6Theme").count()==1
         page.locator("#v6Theme").click()
-        assert page.evaluate("document.body.dataset.gfTheme")=="obsidian","Theme selector failed to switch"
+        assert page.locator("#v8ThemeStudio").is_visible(),"Appearance studio did not open"
+        page.locator('[data-v8-theme="nocturne"]').click()
+        assert page.evaluate("document.body.dataset.gfTheme")=="nocturne","Nocturne palette not applied"
+        page.locator('[data-v8-theme="terminal"]').click()
+        assert page.evaluate("document.body.dataset.gfTheme")=="terminal","Terminal palette not applied"
+        page.locator('[data-v8-theme="atlas"]').click()
+        assert page.evaluate("document.body.dataset.gfTheme")=="atlas","Atlas palette not applied"
+        assert page.locator('[data-v8-theme="atlas"]').get_attribute("aria-pressed")=="true","Theme preview not selected"
+        page.locator("#v8ThemeDone").click()
+        assert page.locator("#v8ThemeStudio").is_hidden(),"Appearance studio cannot close"
+        assert page.evaluate("getComputedStyle(document.querySelector('.feedpanel')).backgroundColor")!="rgb(9, 19, 31)","Editorial palette not applied"
+        assert page.locator("#v8Filters").count()==1,"New filter panel trigger absent"
+        if label=="desktop":
+            feedBox=page.locator("#feedpanel").bounding_box()
+            mapBox=page.locator("#mapColumn").bounding_box()
+            assert feedBox["x"]<mapBox["x"],"The newsroom must be left of the reference map"
+            assert feedBox["width"]>mapBox["width"],"The newsroom should have more width than the map"
+        else:
+            feedBox=page.locator("#feedpanel").bounding_box()
+            mapBox=page.locator("#mapColumn").bounding_box()
+            assert feedBox["y"]<mapBox["y"],"Mobile should show source reporting before the map"
         old_map_height=page.locator("#mapStage").bounding_box()["height"]
         page.locator("#v6ExpandMap").click()
         page.wait_for_timeout(400)
