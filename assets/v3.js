@@ -130,6 +130,6 @@ document.querySelectorAll("[data-mobile]").forEach(b=>b.onclick=()=>{document.qu
 document.addEventListener("keydown",e=>{if(e.key==="Escape"){closeDrawer();toggleFilters(false)}});
 $("utc").textContent=new Date().toISOString().slice(11,19)+" UTC";setInterval(()=>{$("utc").textContent=new Date().toISOString().slice(11,19)+" UTC"},1000);
 }
-function init(){setupEvents();initMap();load();setInterval(load,60000)}
+function init(){setupEvents();initMap();window.addEventListener("gulfastra:data-changed",e=>{if(e.detail?.name==="reports.json")load()});load();setInterval(load,60000)}
 if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",init);else init();
 })();
