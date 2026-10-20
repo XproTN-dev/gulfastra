@@ -1,13 +1,15 @@
 # Gulfastra | Open-source situation report
 Window: last 24 hours (publication-based)
-Coverage groups: 197 | linked headlines: 216
+Coverage groups: 198 | linked headlines: 217
 IMPORTANT: Unverified published reporting; not confirmed attacks or official safety advice.
 
-## Security (128 coverage groups)
+## Security (129 coverage groups)
 - مقاتلات تايفون البريطانية تستعد لحماية أجواء السعودية من الصواريخ والمسيّرات - موقع الدفاع العربي (1 headlines; single-source)
   - موقع الدفاع العربي: https://news.google.com/rss/articles/CBMi2wJBVV95cUxONUpwWUxwbnNFQjFjcUVPS25yMExLdnYwUmNnT2tBSDBfZDJGQW83c0R5Y2dRZW52ZWduZHdGSUFOaVZybk9lVVN5MmlHNF9xX3RGeUF4NnZhUlpUVnRwRVBSejNaVVFpWGJmQTJzZVAwd3VBU21WUmdkSVFZR21vYUxuVUlEekVYZTNiYVFzd3U3ZXVqbENObnZkSW53bkhSR19PenZfeC1SRjZWZjFVVDFZT1BNWEFOTXdTam1Od01HR241ajVSYjlfX25vU05SR3I0cVYxUENYR0pmTmx6d0hKcXB2LUhzOENCbmU2ZERheGlUTGFXZ0FOTDd1X2hmOVZBX1RPa1MwV1RmRUZ1MXl0dUxlQWU4cVRFRWZMZ3IxcmkzTHdvNTF3UUxYQnRrbC1kTzFSSUNZLTFWYklCeTJ3SHRFX1FzVDdtd3VSZ3VucjFSbjUwUnhuTQ?oc=5
 - بريطانيا تدخل المواجهة الجوية لحماية السعودية.. مقاتلات "تايفون" لاعتراض صواريخ الحوثيين ومسيّراتهم - arab-london.com (1 headlines; single-source)
   - arab-london.com: https://news.google.com/rss/articles/CBMiS0FVX3lxTFBDckdzckE1ejRCN1picEJ6WTVSeHZ5VmJOYmpzVlhhS1VvekY3Skd4VnNDMjlPWEtFZzdZRU1TM01falBPTzRoRG9sbw?oc=5
+- Saudi Arabia announces interception of Houthi missile targeting Riyadh - Yemen Online (1 headlines; single-source)
+  - Yemen Online: https://news.google.com/rss/articles/CBMiUkFVX3lxTFBfTGlPMVh5NFVHZm84cmpJY29XY2FOREZhdnl0UjIxRGYydHh0RVZHM0FYNXZlc0tHWjg2bnA1Nmw0MHh2d2hHRmNHWU1fMjEtVHc?oc=5
 - بريطانيا تدرس تعزيز الدفاعات السعودية بمقاتلات جوية وسط تصاعد هجمات الحوثيين - https://www.youlyou.com/ (1 headlines; single-source)
   - https://www.youlyou.com/: https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBSVTBXb3FEemdtS1UwLTdxdzNKQ0QyWURDcjNZQkFVNHVfWjhsSVNqcldrUVNycUZHZHVjNjB6VzU4X28?oc=5
 - بريطانيا تنشر مقاتلات "تايفون" في السعودية لمهام دفاعية ضد صواريخ ومسيرات الحوثيين - رؤيا الإخباري (1 headlines; single-source)
@@ -30,8 +32,6 @@ IMPORTANT: Unverified published reporting; not confirmed attacks or official saf
   - Ottumwa Courier: https://news.google.com/rss/articles/CBMiowJBVV95cUxPQm5tOXpPb1pnelVULTVmaVB6NWJCSjhmS0dtbUVyRWFMNGxKeG5xa3FrbjZzWXM1UlNXdm12R3drZS1SNGhiTjFiUVl0eTRRcEFhaDVaWU14alZ0SGstdUtaREh5V0I0WWlJb29hRWVYUEQ0eThpMTBPZms5eFpjSWQteHRieUxpZFJYLWR5eG53UHpZU1lZbmNWYkhWZ1QyaHRLQWFidV93d3VreEdYZ3h6T3haNzRaemNTZDhxSDFvcXd2UmtETWNKX21Ca0JsRTFwUTBDYkczQWEzWGVJQ01RSzA0OGxHdmI0SmJHdi1DMkF2ZW5DRllYZkhEbGFRMXJ0QWVKRHdaREtLdGJfV0ZGWGhaUE1RbUJYdkMxMk5OZ3M?oc=5
 - The UK expands military support for Saudi Arabia against Houthis to include 'defensive' air patrols - AP News (1 headlines; single-source)
   - AP News: https://news.google.com/rss/articles/CBMikgFBVV95cUxOdFpJQjVaX2pPYVMybXM3OEQ4ZzRzNEdpc2FVMldTRTVWaVFNQXZQVkZrRmdLNVpKc1RVeS1sbGIzSDJlNE12QkRMR2UxcC1PZWIwcnJXY0Z4T0hEQkxmWnBrNHpkSFZxaWgzZU5pRGM1cGJVUWRISHFraGJaUFFzRnlHYko4UlJpMmFvMVZLc1lFdw?oc=5
-- The UK expands military support for Saudi Arabia against Houthis to include 'defensive' air patrols - ClickOnDetroit | WDIV Local 4 (1 headlines; single-source)
-  - ClickOnDetroit | WDIV Local 4: https://news.google.com/rss/articles/CBMi5gFBVV95cUxPRHRXaVJONFRPNEFfdWdld2FOYUFMd1FlWFFYM2Q2U0JEdE9ZME80ZndTMGZIUUYtdmpSQVdXZHJxejlYTkRxRDZzdlE2VzMzelVVdEo0ejJNX0FrZ2NwUWoyYVA2c0ZfbEQ5OVJDWEY0QlJuY1VWRm5FajB0OXM1MTd3ZzNXQnFTaGtxU1ZEdlJNTTlxNVRWRzlHdzY0ZkY5VVdmc05GWUJsZjdwTVJDLUxCbDhHVXFoOEtpcmhEWC1EdnlhMTUxbXcxV2dTdzB5SDlIUFB1bG1WSjVhQmk4Q0dMN2RWZw?oc=5
 
 ## Transport (46 coverage groups)
 - Oil prices rise as Strait of Hormuz tanker attacks escalate - Quartz (1 headlines; single-source)
