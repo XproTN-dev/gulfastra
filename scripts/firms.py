@@ -35,7 +35,10 @@ def observed_at(item):
 def read_csv(payload, now=None):
     now=now or datetime.now(timezone.utc)
     results=[]
-    for row in csv.DictReader(io.StringIO(payload)):
+    parser=csv.DictReader(io.StringIO(payload))
+    if not {"latitude","longitude","acq_date","acq_time"}.issubset(set(parser.fieldnames or [])):
+        raise ValueError("FIRMS API returned an unexpected CSV format")
+    for row in parser:
         try:
             lat=float(row["latitude"]);lon=float(row["longitude"])
             if not 10<=lat<=40 or not 32<=lon<=66:continue
