@@ -1,6 +1,6 @@
 {
-  "schema": 1,
-  "updated_at": "2026-10-20T17:30:54.264877Z",
+  "schema": 2,
+  "updated_at": "2026-10-20T17:31:46.579122Z",
   "observations": [
     {
       "id": "usgs:us6000u2w9",
@@ -50,21 +50,28 @@
       "source": "USGS",
       "ok": true,
       "count": 3,
-      "last_run": "2026-10-20T17:30:54.264877Z"
+      "last_run": "2026-10-20T17:31:44.285155Z"
     },
     {
       "source": "NASA EONET",
       "ok": true,
       "count": 0,
-      "last_run": "2026-10-20T17:30:54.264877Z"
+      "last_run": "2026-10-20T17:31:44.285155Z"
     },
     {
       "source": "Cloudflare Radar",
       "ok": null,
       "state": "not-configured",
       "requires_secret": "CF_RADAR_TOKEN",
-      "last_run": "2026-10-20T17:30:54.264877Z"
+      "last_run": "2026-10-20T17:31:44.285155Z"
+    },
+    {
+      "source": "NASA FIRMS",
+      "last_run": "2026-10-20T17:31:46.579122Z",
+      "ok": null,
+      "state": "not-configured",
+      "requires_secret": "NASA_FIRMS_MAP_KEY"
     }
   ],
-  "disclaimer": "Natural hazards and connectivity disruptions are separate public observations. They are NOT classified as attacks or evidence of conflict."
+  "disclaimer": "USGS/NASA observations are distinct from unverified conflict claims. FIRMS thermal detections do not establish causes."
 }

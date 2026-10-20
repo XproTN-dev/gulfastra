@@ -1,9 +1,9 @@
 # Gulfastra | Open-source situation report
 Window: last 24 hours (publication-based)
-Coverage groups: 252 | linked headlines: 273
+Coverage groups: 255 | linked headlines: 277
 IMPORTANT: Unverified published reporting; not confirmed attacks or official safety advice.
 
-## Security (184 coverage groups)
+## Security (187 coverage groups)
 - الحرس الثوري الإيراني: انفجار ناقلة نفط بعد اصطدامها بلغم بحري - المصري اليوم (1 headlines; single-source)
   - المصري اليوم: https://news.google.com/rss/articles/CBMiX0FVX3lxTE9oNmVlMW1pa0FOVlI3dURzZVgtYm1jYTIwQVItaC1wYnhUOHBXejUycVUtNl9jdmpFSjI1b0FKUHlpVER3MVhZOXdndnIzTVJqTUpZSWxTd0gyb3B3MFRn?oc=5
 - Houthis attack besieged city in Yemen that UN says is at 'grave risk' - The Washington Post (1 headlines; single-source)

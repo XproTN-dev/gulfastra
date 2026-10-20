@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "generated_at": "2026-10-20T17:30:53.488659Z",
+  "generated_at": "2026-10-20T17:31:43.513353Z",
   "model": "deterministic-source-correlation-v2-coverage-lifecycle",
   "disclaimer": "Clusters are related PUBLIC REPORTS, not confirmed incidents. Source counts are not proof. Country names are mentions, not incident locations.",
   "events": [
@@ -4170,6 +4170,77 @@
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
+      "id": "GF-03303938FAA376",
+      "title": "السعودية تواصل التصدى لاعتداءات الحوثيين.. تدمير صاروخ باتجاه الرياض و\"فجر اليمن\" مستمرة.. ألوية العمالقة الجنوبية تحبط هجوماً على جبهة كهبوب.. والتحالف يحذر الحوثيين من استخدام وسائط بحرية في تهريب الأسلحة - برلمانى",
+      "category": "security",
+      "topic": "missile",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "multi-publisher-unverified",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 2,
+      "report_count": 2,
+      "first_published": "2026-10-20T09:45:33Z",
+      "last_published": "2026-10-20T12:00:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "c437c248d881bfb07a88ab4d",
+          "title": "السعودية تواصل التصدى لاعتداءات الحوثيين.. تدمير صاروخ باتجاه الرياض و\"فجر اليمن\" مستمرة.. ألوية العمالقة الجنوبية تحبط هجوماً على جبهة كهبوب.. والتحالف يحذر الحوثيين من استخدام وسائط بحرية في تهريب الأسلحة - برلمانى",
+          "url": "https://news.google.com/rss/articles/CBMitARBVV95cUxNVjFuOTY4bnlUZDBCRm5iUkx1TDg3Y2xLdjRIN0ZLa2xOaHZQX3ZpWktnUkJrQm5yV2Ytb3g2dUxEUXI0U3VXZ3lLOTV4U1hvZzFoSXBWWFp0ajlxUUMxcmlxZlpOMWY0bXFKNVhZaFRsZ0h0ZlNmbEEzOTVNZExOZU55dWZ0czJTZHpmS0YxR0NrQjhwWTFObndlNlJLa3RwVWl6UDg1Wm9mUjdIRnN4NGdPQ1BnaC1RcHB1YUJvZlFtUExKQV9vVURFSWdJZXh6Nmw1VWtTRGZHZUx4bDhIamRvX0hVRVRZVFRaV09xMk91OGszMU5fSFFFRjR4clByVzJSNXJPcWQxTEljY2k2d3lLVHpUWmltVEhRNGtQWjZ0VS1CZDJad2N1VnVaR2cyUjZmbEtpOVJzYnEtRGpmUHpaQWR4MkVVVmdrU09fdGlFNl9CUDRWMTBTWnN4VVJLazA1YmtMNFVXcFFIYm1SNzV4VjIyMHo4aGZtV2lMUEV2a1B4dDBuYlBtRkFIWV9jSmFZRXhEdFA2QWlyYUExVER0YUFaZmxQclplY1dZNlFiX05HRXdGQkZYNnI2RzJXOEZSWHFpZWFzSFlTVmhlOW1zS1JmSEk4UWZTa2FYV29DeG4zYWRLdUJzX2REX25QbHhFS1RRSW50NmhEanlwTGU4YnNIZWdMTVl3RXRHTlowMjNIcnd4X0F1QWtWY2x3U1I2cWhvcC1XQmNWYUhLaGpLemg?oc=5",
+          "source": "برلمانى",
+          "publisher_key": "برلمانى",
+          "provider": "عربي · السعودية",
+          "published_at": "2026-10-20T12:00:00Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T17:31:26.814583Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        },
+        {
+          "id": "63be38d0d4409459b78580b2",
+          "title": "السعودية تواصل التصدى لاعتداءات الحوثيين.. تدمير صاروخ باتجاه الرياض و\"فجر اليمن\" مستمرة.. ألوية العمالقة الجنوبية تحبط هجوماً على جبهة كهبوب.. والتحالف يحذر الحوثيين من استخدام وسائط بحرية في تهريب الأسلحة - اليوم السابع",
+          "url": "https://news.google.com/rss/articles/CBMivwRBVV95cUxPelBCRXdKWG02U0JsTTR1U3pfVUNJanpmRS1kM0pWOXdXV1VFN0pyUWc0SFZyRGRkZkhTYlJVSFNLMTZKNUlhcTJsR2I2Tlp5XzBsZ0M3QkZna2JhNEhtWWhFdXRKUlYtamdrZjBoMlFhMWp2VlJOY1lscld0eEtsWGUzZUhWOU9jMTZ0eVNVb2c0TTdjd284al9qRlZmZWxQNUQ3WE83QW5FaUVZakVPQVlzeHNXM0NfLTRFRWx0YVFTWDlMb19YSHJra3d0SXlJUUh3UVRFTFVGY1d6WTRoRWJnX3pQQloyeGpnRkkyVTFWODUxN3h5OENXcUhaNDFPTWxIWjVOU001UW13cUkzY01nZTl5d3locXdUTFFDMHFuNnRBNjlyelJEU0xfb2pXMkY4M3A2NkZXTHh3bUVJaHcwX0I0UVAwdWt4bGg5ZEdCTTFJTXhsN0VWaGxsS2VwbFJVZ1pic0pBQ1VMTjY3MkVQbnlObGVpWUhpczZjZTNJckFZNDJxNERIWmQxV1lpVEJDREhsMXlWWmRtbEZiNlZaZkx0alJqUWg2QUdCY1lJb1BzVGJYSVh5SXdRZ09lRE4xQTRocDFXbVJ2U3pYUURIdzRPS2JqWVlDTC1uNF90N0xuc1FUY1kyc0RnamdfR0dxTUV2WC1hSF9rT1doRjRtbFlZcXctaXpSZkt3aU1jWk41c0t2WHg4dzNDbk9iWTJ1TEd6MTI5dzJlRGg2dGtKZ0FQRnh6YmpkQ1FKa9IBugRBVV95cUxQb3JPTlJfMndXeWYtS0VLVGQtMkZ3dmdrVWs2MzRqRUw2WEVVY3NrM2RnalAtbUpENXN2SXZNMXhfUk1UZFkzbUNKeUdhZXJCRGNtSG9lOUZhV3A5SmRPbTVjajhfc1E2eklMdmEyMXFfODNyS3JPa1hmeVV0YzlGd3hnMDJ6RW1Ick4tamptY28wUGt6azBzckZhVEZjdy1UT3RxUUFFaVd1Y1hETTQ3alRoc2RwbmQwNUw0N091SDVDVzFrdjB5RzR4RVBhX2ZvSnNlNkx1VF9sNVZrVU9sdmk4RkVOVG5fT0xBaEhUUjRPZmhNTWt6cXI0QkY2bEdrc0kzVzdnakx2RGdxcHdXQzRodG9kUW1XeDRCUzV4bi10Mmdhd2ZTeG1IWUNsd01oYkg0NFV6LXBSWE5aV09KakZOVW5XOUxJWm9PU2tzVXFjcFFuX0tiQXVSZ2d6RG5WWThDV3B3dVZjcGp3QmZURGhLR0Y3QkE1THRYcVFoLTBCcU5WWDk4b1ZsbHJZSDdhOFBCejI0a2N3MG5ZWk55dEQ3WlZ4dllxbXlvRE5xdUd5d3lWVHpRN3BXTzJERXRfRlgtZ0FZVEpWWFU3MDVBcndubWlEbDl3ZGliVktsaU5tUFduWGFJSkpueTVPTWxjbklMNVVhZzBnTXhRRUJBNzUzUHFLeUlwRmV4TzVXUkx6Uy1iNlRlWm9nYzZhMHkwQm9ZYUR1NTE1ejRsWUpBTWU3MXptSnlvYlE?oc=5",
+          "source": "اليوم السابع",
+          "publisher_key": "اليوم السابع",
+          "provider": "عربي · السعودية",
+          "published_at": "2026-10-20T09:45:33Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T12:04:24.966103Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "recent-coverage",
+      "coverage_first_published_at": "2026-10-20T09:45:33Z",
+      "coverage_last_published_at": "2026-10-20T12:00:00Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "284b23d201b4a3a9b41f",
+      "revision": 9,
+      "updated_at": "2026-10-20T17:31:43.513353Z"
+    },
+    {
       "id": "GF-17BA5AD9FF48AF",
       "title": "مقاتلات تايفون البريطانية تستعد لحماية أجواء السعودية من الصواريخ والمسيّرات - موقع الدفاع العربي",
       "category": "security",
@@ -4572,6 +4643,62 @@
       "digest": "127820bdd33c601af9ee",
       "revision": 2,
       "updated_at": "2026-10-20T16:52:31.264495Z"
+    },
+    {
+      "id": "GF-E016155AB2EA57",
+      "title": "الدفاع الجوي يتصدى لهجوم حوثي.. التحالف يعلن اعتراض صاروخ باليستي باتجاه الرياض - البعد الرابع",
+      "category": "security",
+      "topic": "interception",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T11:40:46Z",
+      "last_published": "2026-10-20T11:40:46Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "bf110ba65d2ff41dc43765f3",
+          "title": "الدفاع الجوي يتصدى لهجوم حوثي.. التحالف يعلن اعتراض صاروخ باليستي باتجاه الرياض - البعد الرابع",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5PTzRZMVY5U3JkZzR2QUpZWU1HcnVnWC12RnNiYkoyVm1uU2pyZHZUS3NhMjl2cHVtcnhtYk0zVV96YVpnMzJQYnB3?oc=5",
+          "source": "البعد الرابع",
+          "publisher_key": "البعد الرابع",
+          "provider": "عربي · السعودية",
+          "published_at": "2026-10-20T11:40:46Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T17:31:26.814583Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Saudi"
+        }
+      ],
+      "coverage_stage": "recent-coverage",
+      "coverage_first_published_at": "2026-10-20T11:40:46Z",
+      "coverage_last_published_at": "2026-10-20T11:40:46Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "c812dc9f0e12f2abe7b6",
+      "revision": 1,
+      "updated_at": "2026-10-20T17:31:43.513353Z"
     },
     {
       "id": "GF-CED3D6EDFE3E20",
@@ -7736,63 +7863,6 @@
       "lifecycle_note": "Original publication time unavailable. No event status inferred.",
       "digest": "35dc62140a4ddfa6f294",
       "revision": 2,
-      "updated_at": "2026-10-20T16:52:31.264495Z"
-    },
-    {
-      "id": "GF-03303938FAA376",
-      "title": "السعودية تواصل التصدى لاعتداءات الحوثيين.. تدمير صاروخ باتجاه الرياض و\"فجر اليمن\" مستمرة.. ألوية العمالقة الجنوبية تحبط هجوماً على جبهة كهبوب.. والتحالف يحذر الحوثيين من استخدام وسائط بحرية في تهريب الأسلحة - اليوم السابع",
-      "category": "security",
-      "topic": "missile",
-      "countries": [
-        "Saudi",
-        "Yemen"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "ar"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-20T09:45:33Z",
-      "last_published": "2026-10-20T09:45:33Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "63be38d0d4409459b78580b2",
-          "title": "السعودية تواصل التصدى لاعتداءات الحوثيين.. تدمير صاروخ باتجاه الرياض و\"فجر اليمن\" مستمرة.. ألوية العمالقة الجنوبية تحبط هجوماً على جبهة كهبوب.. والتحالف يحذر الحوثيين من استخدام وسائط بحرية في تهريب الأسلحة - اليوم السابع",
-          "url": "https://news.google.com/rss/articles/CBMivwRBVV95cUxPelBCRXdKWG02U0JsTTR1U3pfVUNJanpmRS1kM0pWOXdXV1VFN0pyUWc0SFZyRGRkZkhTYlJVSFNLMTZKNUlhcTJsR2I2Tlp5XzBsZ0M3QkZna2JhNEhtWWhFdXRKUlYtamdrZjBoMlFhMWp2VlJOY1lscld0eEtsWGUzZUhWOU9jMTZ0eVNVb2c0TTdjd284al9qRlZmZWxQNUQ3WE83QW5FaUVZakVPQVlzeHNXM0NfLTRFRWx0YVFTWDlMb19YSHJra3d0SXlJUUh3UVRFTFVGY1d6WTRoRWJnX3pQQloyeGpnRkkyVTFWODUxN3h5OENXcUhaNDFPTWxIWjVOU001UW13cUkzY01nZTl5d3locXdUTFFDMHFuNnRBNjlyelJEU0xfb2pXMkY4M3A2NkZXTHh3bUVJaHcwX0I0UVAwdWt4bGg5ZEdCTTFJTXhsN0VWaGxsS2VwbFJVZ1pic0pBQ1VMTjY3MkVQbnlObGVpWUhpczZjZTNJckFZNDJxNERIWmQxV1lpVEJDREhsMXlWWmRtbEZiNlZaZkx0alJqUWg2QUdCY1lJb1BzVGJYSVh5SXdRZ09lRE4xQTRocDFXbVJ2U3pYUURIdzRPS2JqWVlDTC1uNF90N0xuc1FUY1kyc0RnamdfR0dxTUV2WC1hSF9rT1doRjRtbFlZcXctaXpSZkt3aU1jWk41c0t2WHg4dzNDbk9iWTJ1TEd6MTI5dzJlRGg2dGtKZ0FQRnh6YmpkQ1FKa9IBugRBVV95cUxQb3JPTlJfMndXeWYtS0VLVGQtMkZ3dmdrVWs2MzRqRUw2WEVVY3NrM2RnalAtbUpENXN2SXZNMXhfUk1UZFkzbUNKeUdhZXJCRGNtSG9lOUZhV3A5SmRPbTVjajhfc1E2eklMdmEyMXFfODNyS3JPa1hmeVV0YzlGd3hnMDJ6RW1Ick4tamptY28wUGt6azBzckZhVEZjdy1UT3RxUUFFaVd1Y1hETTQ3alRoc2RwbmQwNUw0N091SDVDVzFrdjB5RzR4RVBhX2ZvSnNlNkx1VF9sNVZrVU9sdmk4RkVOVG5fT0xBaEhUUjRPZmhNTWt6cXI0QkY2bEdrc0kzVzdnakx2RGdxcHdXQzRodG9kUW1XeDRCUzV4bi10Mmdhd2ZTeG1IWUNsd01oYkg0NFV6LXBSWE5aV09KakZOVW5XOUxJWm9PU2tzVXFjcFFuX0tiQXVSZ2d6RG5WWThDV3B3dVZjcGp3QmZURGhLR0Y3QkE1THRYcVFoLTBCcU5WWDk4b1ZsbHJZSDdhOFBCejI0a2N3MG5ZWk55dEQ3WlZ4dllxbXlvRE5xdUd5d3lWVHpRN3BXTzJERXRfRlgtZ0FZVEpWWFU3MDVBcndubWlEbDl3ZGliVktsaU5tUFduWGFJSkpueTVPTWxjbklMNVVhZzBnTXhRRUJBNzUzUHFLeUlwRmV4TzVXUkx6Uy1iNlRlWm9nYzZhMHkwQm9ZYUR1NTE1ejRsWUpBTWU3MXptSnlvYlE?oc=5",
-          "source": "اليوم السابع",
-          "publisher_key": "اليوم السابع",
-          "provider": "عربي · السعودية",
-          "published_at": "2026-10-20T09:45:33Z",
-          "date_quality": "publisher-time",
-          "first_seen_at": "2026-10-20T12:04:24.966103Z",
-          "collected_at": null,
-          "language": "ar",
-          "country": ""
-        }
-      ],
-      "coverage_stage": "recent-coverage",
-      "coverage_first_published_at": "2026-10-20T09:45:33Z",
-      "coverage_last_published_at": "2026-10-20T09:45:33Z",
-      "current_reporting": false,
-      "recent_publisher_count": 0,
-      "recent_article_count": 0,
-      "incident_status": "unknown",
-      "event_occurrence_verified": false,
-      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "a33007e687f4e815886e",
-      "revision": 8,
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
@@ -12498,6 +12568,63 @@
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
+      "id": "GF-EB4ADBA3FF937F",
+      "title": "البحرين تعلن اعتراض هجمات إيرانية جديدة.. والكويت تتصدى لصاروخين باليستيين وسط تصعيد أميركي-إيراني - الساحل الغربي",
+      "category": "security",
+      "topic": "interception",
+      "countries": [
+        "Bahrain",
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-19T21:58:54Z",
+      "last_published": "2026-10-19T21:58:54Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "c1138a2262b02b848c7569fe",
+          "title": "البحرين تعلن اعتراض هجمات إيرانية جديدة.. والكويت تتصدى لصاروخين باليستيين وسط تصعيد أميركي-إيراني - الساحل الغربي",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1hcEthLUFQRmFqekJvQkpzMDZNR3Q2MkJKdVVTbkVxRHZiVEdraW5Hb01TMWpDUm5wNDNFdFhqR0JxNlgzNEZ1eGMwc0dXeFE?oc=5",
+          "source": "الساحل الغربي",
+          "publisher_key": "الساحل الغربي",
+          "provider": "عربي · الإمارات والبحرين",
+          "published_at": "2026-10-19T21:58:54Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T12:03:42.847208Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "recent-coverage",
+      "coverage_first_published_at": "2026-10-19T21:58:54Z",
+      "coverage_last_published_at": "2026-10-19T21:58:54Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "eea39b3c23b0b4b36fc1",
+      "revision": 11,
+      "updated_at": "2026-10-20T17:31:43.513353Z"
+    },
+    {
       "id": "GF-A5770A06CD6844",
       "title": "Day 226 | At least two killed in attack on Riyadh airport - Roya News",
       "category": "security",
@@ -12664,6 +12791,64 @@
       "digest": "fe37e8bd3ae1f31507b1",
       "revision": 3,
       "updated_at": "2026-10-20T16:52:31.264495Z"
+    },
+    {
+      "id": "GF-16094BD5B10138",
+      "title": "السعودية والإمارات تدينان الهجمات الإيرانية على البحرين والكويت والأردن وتؤكدان دعمهما لأمن الدول الشقيقة - الساحل الغربي",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Bahrain",
+        "Iran",
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-19T21:42:52Z",
+      "last_published": "2026-10-19T21:42:52Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "6df264a43f4803d464219aca",
+          "title": "السعودية والإمارات تدينان الهجمات الإيرانية على البحرين والكويت والأردن وتؤكدان دعمهما لأمن الدول الشقيقة - الساحل الغربي",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBITGlFa05BRWUwWDUwVzhPWlZFaC1yQ0RmMUxpMXZLUF9neHYtZ0lmdFRmQk4ta0VWT1hRZ25YVFlRdENrajdBcTQ2OVdFYmM?oc=5",
+          "source": "الساحل الغربي",
+          "publisher_key": "الساحل الغربي",
+          "provider": "عربي · الإمارات والبحرين",
+          "published_at": "2026-10-19T21:42:52Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T16:54:36.300300Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "recent-coverage",
+      "coverage_first_published_at": "2026-10-19T21:42:52Z",
+      "coverage_last_published_at": "2026-10-19T21:42:52Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "efda49ef4733246c655b",
+      "revision": 3,
+      "updated_at": "2026-10-20T17:31:43.513353Z"
     },
     {
       "id": "GF-59345064D5A1D3",
@@ -47513,64 +47698,6 @@
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
-      "id": "GF-16094BD5B10138",
-      "title": "السعودية والإمارات تدينان الهجمات الإيرانية على البحرين والكويت والأردن وتؤكدان دعمهما لأمن الدول الشقيقة - الساحل الغربي",
-      "category": "security",
-      "topic": "regional",
-      "countries": [
-        "Bahrain",
-        "Iran",
-        "Saudi"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "ar"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-16T03:25:46Z",
-      "last_published": "2026-10-16T03:25:46Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "6df264a43f4803d464219aca",
-          "title": "السعودية والإمارات تدينان الهجمات الإيرانية على البحرين والكويت والأردن وتؤكدان دعمهما لأمن الدول الشقيقة - الساحل الغربي",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBITGlFa05BRWUwWDUwVzhPWlZFaC1yQ0RmMUxpMXZLUF9neHYtZ0lmdFRmQk4ta0VWT1hRZ25YVFlRdENrajdBcTQ2OVdFYmM?oc=5",
-          "source": "الساحل الغربي",
-          "publisher_key": "الساحل الغربي",
-          "provider": "عربي · الإمارات والبحرين",
-          "published_at": "2026-10-16T03:25:46Z",
-          "date_quality": "publisher-time",
-          "first_seen_at": "2026-10-20T16:54:36.300300Z",
-          "collected_at": null,
-          "language": "ar",
-          "country": ""
-        }
-      ],
-      "coverage_stage": "quiet-coverage",
-      "coverage_first_published_at": "2026-10-16T03:25:46Z",
-      "coverage_last_published_at": "2026-10-16T03:25:46Z",
-      "current_reporting": false,
-      "recent_publisher_count": 0,
-      "recent_article_count": 0,
-      "incident_status": "unknown",
-      "event_occurrence_verified": false,
-      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "958e3f0a4184cbfda211",
-      "revision": 2,
-      "updated_at": "2026-10-20T17:30:53.488659Z"
-    },
-    {
       "id": "GF-2754D409258FEA",
       "title": "التحالف: اعتراض وتدمير مسيرة بالمنطقة الشرقية في السعودية - العربية",
       "category": "security",
@@ -65107,63 +65234,6 @@
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
-      "id": "GF-EB4ADBA3FF937F",
-      "title": "البحرين تعلن اعتراض هجمات إيرانية جديدة.. والكويت تتصدى لصاروخين باليستيين وسط تصعيد أميركي-إيراني - الساحل الغربي",
-      "category": "security",
-      "topic": "interception",
-      "countries": [
-        "Bahrain",
-        "Iran"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "ar"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-13T19:23:44Z",
-      "last_published": "2026-10-13T19:23:44Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "c1138a2262b02b848c7569fe",
-          "title": "البحرين تعلن اعتراض هجمات إيرانية جديدة.. والكويت تتصدى لصاروخين باليستيين وسط تصعيد أميركي-إيراني - الساحل الغربي",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1hcEthLUFQRmFqekJvQkpzMDZNR3Q2MkJKdVVTbkVxRHZiVEdraW5Hb01TMWpDUm5wNDNFdFhqR0JxNlgzNEZ1eGMwc0dXeFE?oc=5",
-          "source": "الساحل الغربي",
-          "publisher_key": "الساحل الغربي",
-          "provider": "عربي · الإمارات والبحرين",
-          "published_at": "2026-10-13T19:23:44Z",
-          "date_quality": "publisher-time",
-          "first_seen_at": "2026-10-20T12:03:42.847208Z",
-          "collected_at": null,
-          "language": "ar",
-          "country": ""
-        }
-      ],
-      "coverage_stage": "quiet-coverage",
-      "coverage_first_published_at": "2026-10-13T19:23:44Z",
-      "coverage_last_published_at": "2026-10-13T19:23:44Z",
-      "current_reporting": false,
-      "recent_publisher_count": 0,
-      "recent_article_count": 0,
-      "incident_status": "unknown",
-      "event_occurrence_verified": false,
-      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "207b3fccb9b952e69c64",
-      "revision": 10,
-      "updated_at": "2026-10-20T17:30:53.488659Z"
-    },
-    {
       "id": "GF-535D35AC374D48",
       "title": "Iran’s IRGC Navy threatens to sink US warships approaching Strait of Hormuz - Middle East Monitor",
       "category": "security",
@@ -70602,11 +70672,11 @@
       "sources": 206
     },
     "Saudi": {
-      "events": 477,
-      "reports": 503,
-      "security_coverage": 369,
+      "events": 478,
+      "reports": 505,
+      "security_coverage": 370,
       "transport_coverage": 96,
-      "sources": 248
+      "sources": 250
     },
     "Qatar": {
       "events": 43,
@@ -70652,10 +70722,10 @@
     },
     "Yemen": {
       "events": 225,
-      "reports": 233,
+      "reports": 234,
       "security_coverage": 213,
       "transport_coverage": 11,
-      "sources": 120
+      "sources": 121
     },
     "Israel": {
       "events": 54,
@@ -70674,124 +70744,36 @@
     "2026-10-09": 1,
     "2026-10-10": 1,
     "2026-10-12": 7,
-    "2026-10-13": 112,
+    "2026-10-13": 111,
     "2026-10-14": 139,
     "2026-10-15": 130,
-    "2026-10-16": 126,
+    "2026-10-16": 125,
     "2026-10-17": 181,
     "2026-10-18": 143,
-    "2026-10-19": 189,
-    "2026-10-20": 208
+    "2026-10-19": 191,
+    "2026-10-20": 209
   },
   "revisions": [
     {
-      "id": "GF-D3E8CA268EF6C6",
-      "revision": 4,
-      "at": "2026-10-20T17:30:53.488659Z",
+      "id": "GF-03303938FAA376",
+      "revision": 9,
+      "at": "2026-10-20T17:31:43.513353Z",
       "change": "published-source-set-updated",
-      "previous_source_count": 2,
+      "previous_source_count": 1,
       "new_source_count": 2
-    },
-    {
-      "id": "GF-E96B752204F855",
-      "revision": 3,
-      "at": "2026-10-20T17:30:53.488659Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-FCB4701521C63D",
-      "revision": 3,
-      "at": "2026-10-20T17:30:53.488659Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-B476C6ACE2154B",
-      "revision": 3,
-      "at": "2026-10-20T17:30:53.488659Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-66B39624186ABF",
-      "revision": 3,
-      "at": "2026-10-20T17:30:53.488659Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-D82E3ADF1CD582",
-      "revision": 3,
-      "at": "2026-10-20T17:30:53.488659Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-B01B664D4390A4",
-      "revision": 4,
-      "at": "2026-10-20T17:30:53.488659Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-4FBA1BDBA2302C",
-      "revision": 4,
-      "at": "2026-10-20T17:30:53.488659Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-4A33AA4EEFD1F6",
-      "revision": 3,
-      "at": "2026-10-20T17:30:53.488659Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-93868AD1B7E08C",
-      "revision": 3,
-      "at": "2026-10-20T17:30:53.488659Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 7,
-      "new_source_count": 8
-    },
-    {
-      "id": "GF-16094BD5B10138",
-      "revision": 2,
-      "at": "2026-10-20T17:30:53.488659Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
     },
     {
       "id": "GF-EB4ADBA3FF937F",
-      "revision": 10,
-      "at": "2026-10-20T17:30:53.488659Z",
+      "revision": 11,
+      "at": "2026-10-20T17:31:43.513353Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-9470037E784F69",
-      "revision": 2,
-      "at": "2026-10-20T17:30:53.488659Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 2
-    },
-    {
-      "id": "GF-CB49508349041A",
+      "id": "GF-16094BD5B10138",
       "revision": 3,
-      "at": "2026-10-20T17:30:53.488659Z",
+      "at": "2026-10-20T17:31:43.513353Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1

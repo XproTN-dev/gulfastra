@@ -1,7 +1,7 @@
 {
   "version": 6,
-  "last_run": "2026-10-20T17:30:36.865670Z",
-  "last_successful_run": "2026-10-20T17:30:36.865670Z",
+  "last_run": "2026-10-20T17:31:26.814583Z",
+  "last_successful_run": "2026-10-20T17:31:26.814583Z",
   "successful_sources": 23,
   "reports": [
     {
@@ -452,7 +452,7 @@
       "provider": "Google News · missiles/drones",
       "first_seen_at": "2026-10-20T16:50:50.754226Z",
       "date_quality": "publisher-time",
-      "freshness": "new-reporting",
+      "freshness": "recent-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
       "critical_candidate": false,
@@ -1738,6 +1738,30 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "c437c248d881bfb07a88ab4d",
+      "title": "السعودية تواصل التصدى لاعتداءات الحوثيين.. تدمير صاروخ باتجاه الرياض و\"فجر اليمن\" مستمرة.. ألوية العمالقة الجنوبية تحبط هجوماً على جبهة كهبوب.. والتحالف يحذر الحوثيين من استخدام وسائط بحرية في تهريب الأسلحة - برلمانى",
+      "url": "https://news.google.com/rss/articles/CBMitARBVV95cUxNVjFuOTY4bnlUZDBCRm5iUkx1TDg3Y2xLdjRIN0ZLa2xOaHZQX3ZpWktnUkJrQm5yV2Ytb3g2dUxEUXI0U3VXZ3lLOTV4U1hvZzFoSXBWWFp0ajlxUUMxcmlxZlpOMWY0bXFKNVhZaFRsZ0h0ZlNmbEEzOTVNZExOZU55dWZ0czJTZHpmS0YxR0NrQjhwWTFObndlNlJLa3RwVWl6UDg1Wm9mUjdIRnN4NGdPQ1BnaC1RcHB1YUJvZlFtUExKQV9vVURFSWdJZXh6Nmw1VWtTRGZHZUx4bDhIamRvX0hVRVRZVFRaV09xMk91OGszMU5fSFFFRjR4clByVzJSNXJPcWQxTEljY2k2d3lLVHpUWmltVEhRNGtQWjZ0VS1CZDJad2N1VnVaR2cyUjZmbEtpOVJzYnEtRGpmUHpaQWR4MkVVVmdrU09fdGlFNl9CUDRWMTBTWnN4VVJLazA1YmtMNFVXcFFIYm1SNzV4VjIyMHo4aGZtV2lMUEV2a1B4dDBuYlBtRkFIWV9jSmFZRXhEdFA2QWlyYUExVER0YUFaZmxQclplY1dZNlFiX05HRXdGQkZYNnI2RzJXOEZSWHFpZWFzSFlTVmhlOW1zS1JmSEk4UWZTa2FYV29DeG4zYWRLdUJzX2REX25QbHhFS1RRSW50NmhEanlwTGU4YnNIZWdMTVl3RXRHTlowMjNIcnd4X0F1QWtWY2x3U1I2cWhvcC1XQmNWYUhLaGpLemg?oc=5",
+      "source": "برلمانى",
+      "published_at": "2026-10-20T12:00:00Z",
+      "country": "",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير عن صواريخ",
+      "provider": "عربي · السعودية",
+      "first_seen_at": "2026-10-20T17:31:26.814583Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "f1371e48b5d899af93ad8379",
       "title": "مقاتلات تايفون البريطانية تستعد لحماية أجواء السعودية من الصواريخ والمسيّرات - موقع الدفاع العربي",
       "url": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxONUpwWUxwbnNFQjFjcUVPS25yMExLdnYwUmNnT2tBSDBfZDJGQW83c0R5Y2dRZW52ZWduZHdGSUFOaVZybk9lVVN5MmlHNF9xX3RGeUF4NnZhUlpUVnRwRVBSejNaVVFpWGJmQTJzZVAwd3VBU21WUmdkSVFZR21vYUxuVUlEekVYZTNiYVFzd3U3ZXVqbENObnZkSW53bkhSR19PenZfeC1SRjZWZjFVVDFZT1BNWEFOTXdTam1Od01HR241ajVSYjlfX25vU05SR3I0cVYxUENYR0pmTmx6d0hKcXB2LUhzOENCbmU2ZERheGlUTGFXZ0FOTDd1X2hmOVZBX1RPa1MwV1RmRUZ1MXl0dUxlQWU4cVRFRWZMZ3IxcmkzTHdvNTF3UUxYQnRrbC1kTzFSSUNZLTFWYklCeTJ3SHRFX1FzVDdtd3VSZ3VucjFSbjUwUnhuTQ?oc=5",
@@ -1940,6 +1964,29 @@
       "freshness": "recent-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "bf110ba65d2ff41dc43765f3",
+      "title": "الدفاع الجوي يتصدى لهجوم حوثي.. التحالف يعلن اعتراض صاروخ باليستي باتجاه الرياض - البعد الرابع",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5PTzRZMVY5U3JkZzR2QUpZWU1HcnVnWC12RnNiYkoyVm1uU2pyZHZUS3NhMjl2cHVtcnhtYk0zVV96YVpnMzJQYnB3?oc=5",
+      "source": "البعد الرابع",
+      "published_at": "2026-10-20T11:40:46Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "خبر اعتراض / دفاع جوي",
+      "provider": "عربي · السعودية",
+      "first_seen_at": "2026-10-20T17:31:26.814583Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "elevated-reporting",
       "critical_candidate": false,
       "alert_eligible": false,
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
@@ -5463,6 +5510,30 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "c1138a2262b02b848c7569fe",
+      "title": "البحرين تعلن اعتراض هجمات إيرانية جديدة.. والكويت تتصدى لصاروخين باليستيين وسط تصعيد أميركي-إيراني - الساحل الغربي",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1hcEthLUFQRmFqekJvQkpzMDZNR3Q2MkJKdVVTbkVxRHZiVEdraW5Hb01TMWpDUm5wNDNFdFhqR0JxNlgzNEZ1eGMwc0dXeFE?oc=5",
+      "source": "الساحل الغربي",
+      "published_at": "2026-10-19T21:58:54Z",
+      "country": "",
+      "countries": [
+        "Iran",
+        "Bahrain"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "خبر اعتراض / دفاع جوي",
+      "provider": "عربي · الإمارات والبحرين",
+      "first_seen_at": "2026-10-20T12:03:42.847208Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "elevated-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "9b4f1b7d7398c8971bac8443",
       "title": "Day 226 | At least two killed in attack on Riyadh airport - Roya News",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPXzJJYjVmdENoMDh0WEtyczF2T1BhRVZRLUFXTXFmb0VRWUEyeUxic2F4QXVYRHZxOVpuZHU0U01KeFZ6T0ZRV3ZJUU00czN6cFFKS0hMWFFxWTZxaUlOX2RqNzdsUDIxQV9KU04ydU4waHV1VUx1cHR3TWZsYmZHSTVvT0xIQUVmSERNSW9SazVXem1ZVW1uZQ?oc=5",
@@ -5524,6 +5595,31 @@
       "language": "en",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "6df264a43f4803d464219aca",
+      "title": "السعودية والإمارات تدينان الهجمات الإيرانية على البحرين والكويت والأردن وتؤكدان دعمهما لأمن الدول الشقيقة - الساحل الغربي",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBITGlFa05BRWUwWDUwVzhPWlZFaC1yQ0RmMUxpMXZLUF9neHYtZ0lmdFRmQk4ta0VWT1hRZ25YVFlRdENrajdBcTQ2OVdFYmM?oc=5",
+      "source": "الساحل الغربي",
+      "published_at": "2026-10-19T21:42:52Z",
+      "country": "",
+      "countries": [
+        "Iran",
+        "Saudi",
+        "Bahrain"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير امني",
+      "provider": "عربي · الإمارات والبحرين",
+      "first_seen_at": "2026-10-20T16:54:36.300300Z",
+      "date_quality": "publisher-time",
       "freshness": "recent-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -20465,31 +20561,6 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
-      "id": "6df264a43f4803d464219aca",
-      "title": "السعودية والإمارات تدينان الهجمات الإيرانية على البحرين والكويت والأردن وتؤكدان دعمهما لأمن الدول الشقيقة - الساحل الغربي",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBITGlFa05BRWUwWDUwVzhPWlZFaC1yQ0RmMUxpMXZLUF9neHYtZ0lmdFRmQk4ta0VWT1hRZ25YVFlRdENrajdBcTQ2OVdFYmM?oc=5",
-      "source": "الساحل الغربي",
-      "published_at": "2026-10-16T03:25:46Z",
-      "country": "",
-      "countries": [
-        "Iran",
-        "Saudi",
-        "Bahrain"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "تقرير امني",
-      "provider": "عربي · الإمارات والبحرين",
-      "first_seen_at": "2026-10-20T16:54:36.300300Z",
-      "date_quality": "publisher-time",
-      "freshness": "older-reporting",
-      "context": "reporting",
-      "severity": "routine-reporting",
-      "critical_candidate": false,
-      "alert_eligible": false,
-      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
-    },
-    {
       "id": "ef6193de38b5bb1d79dfb24f",
       "title": "التحالف: اعتراض وتدمير مسيرة بالمنطقة الشرقية في السعودية - العربية",
       "url": "https://news.google.com/rss/articles/CBMi7wNBVV95cUxOaHpYMXZ3U0pCOGpfT0Jickk3WFA2eFFRbnpYNnMxamJuYmdSb2J1cExfTGdZWnhHZjFBa3hQTlhRay1obzZFRWh0YV8yNE5ELVRZUVd3Y0tRQTloeUxTTHpja0FlVVprOUlUUUdiQmlzQ2NQVHY1UmJhSkxGa2hZTDd2WXNwZm1QY3prc25uMmFZSWVaSDVrblpRMDJKQXNPaVRUaTc0N1BYRWZ0S2o0OUpHWWhJX1A1bm1pVUNqOERXQjJGRUpmZnJ5a3Z5RzlfeWthM0hhWTI1ZUc4UkU4TEpYU3NiQmlRQTFHVnpJc3BIYm0xX1dPWkhGS19XVFpWZGVySUt2N3B3ZGZRb2JNTGFPMFZ6UVZYamV3dXNTZ2ZlZVF4ZmRPalVoMXB1Q3FpbHRaTFl5dlMxZTFxOTNIWFAySVpDZ2VFN2dPb1NZejI2WWQxekhZZUEtY012STBGUXdHZk1KazYtbWVJakRXV3VHQzl4WXYtU19tNWk2X2Z4VlBabHhRYUJ4WTNWZ1NXbEl1SkRsNU03MWpZZkxjeFNkdnhOd0FxR09wdlc3SzlfVEMxVW5uc3I1YzJqd3BneVFYNkRUOHNPMm9LbGlpTFFWdFUxT1lfZms3ZHV2Uk92bHRDVEp0dlhxdnNrTGvSAfQDQVVfeXFMUFhZRnU0V0ZBQ2hrN0lsMExJRW5reFdoOVFJVHRXR05IaFNGMloxVkduOHJFTkNIR2Nzbk01OEQxeFRfeEQ5czJ4bDEzLUNlRUlBVVA5QjRfeEMtZUlicUFNeWRTZjdDeWNfSHlQTlBkR2ZjWGxTOTl5TkR5Y3hzdkUyN3d2ckdza3BwbDhYdW1pZUo5TkdxYnlCMm94UjQxMWxEWjhMNklFVVI3ZkJNRGl2Q3V3TnBLLUxpNXd1YThLNEJrVHhIdGJTYmJxb1JUeW9pd1IwUHlkS0xRel9wVC12WEZiakNaSEpTZDliT0lzd0V4Q0V0bFgyNUJVNU1vMV9IeE4wZzVBLURoSUJUMUM2QzJCc3VXbjlNNTRUNVotNEo2UE91a190MUFoaHJaanpBNWl1Z1daS3NLbzVOWWsxaVBkMzJjZ01xUlZoaDBINVZZamp6ZEhYb1I4RWUzTUxWT3BKblpBZmE3UUZ5bWw1M3BaRGl5SktCMUN2OW5nX01LaVZ1N1VaREdvREpqX29SeE50dTR4eTg3NkUtaVpBOE1HSE5fMW9ObzlZV3N4WEpVb1BQcU9GVnlsNU1aWlVfaWE4T21pcGJBcy1FcmRacEw1cF9Kc0Y2blpCMVdvd2t4R1R0QkNsMFpJUkN2bzFyaEk?oc=5",
@@ -27927,30 +27998,6 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
-      "id": "c1138a2262b02b848c7569fe",
-      "title": "البحرين تعلن اعتراض هجمات إيرانية جديدة.. والكويت تتصدى لصاروخين باليستيين وسط تصعيد أميركي-إيراني - الساحل الغربي",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1hcEthLUFQRmFqekJvQkpzMDZNR3Q2MkJKdVVTbkVxRHZiVEdraW5Hb01TMWpDUm5wNDNFdFhqR0JxNlgzNEZ1eGMwc0dXeFE?oc=5",
-      "source": "الساحل الغربي",
-      "published_at": "2026-10-13T19:23:44Z",
-      "country": "",
-      "countries": [
-        "Iran",
-        "Bahrain"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "خبر اعتراض / دفاع جوي",
-      "provider": "عربي · الإمارات والبحرين",
-      "first_seen_at": "2026-10-20T12:03:42.847208Z",
-      "date_quality": "publisher-time",
-      "freshness": "older-reporting",
-      "context": "reporting",
-      "severity": "elevated-reporting",
-      "critical_candidate": false,
-      "alert_eligible": false,
-      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
-    },
-    {
       "id": "491044bcd4c50856eab06b18",
       "title": "Iran’s IRGC Navy threatens to sink US warships approaching Strait of Hormuz - Middle East Monitor",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNDQwR1BhWmxpcjNpX0c5SUQ3c19RX1RWeEZuMWtHUm14Rm5hSjY4dmlQRzZxdG9UX3dpeHFHVjE3WTBuSEw5bnVIQzFLd2xRQ3FqdGNLdVlOWk4wY2ZZX3pXaWgxVktYOUFpd3M3TmYyblFjR2hOZjNmNElfUFdEYWlaX3YyN1RZS3ExUU9rdUtfb2hWLXctV1JlTFk1ckZDX0tMYmx1NXh3Umc3M1ZGZ2NpalVFOWZ1OUHSAb8BQVVfeXFMT28wZ1Z3SXJSVURpWDEwUmRBSFAyQ3g2eDYtZ0VFZlhzVTNNNXZNVkp3TUx1Q3VqZF9MejVQYl9Od2pZUG1YalQyTlFLdnI4eElCbmR4aVRtVjZNSTNkajl1ZU1sYURvOE9wYlh0am96VE9UZjg5all1WGZQTVhNbldLTHQyTDJtX0gtM3htclE2YVFBbHd0TWRuNERnZDlXZzRsZGx0czNwTUkwSFp3ZTh1WTVYNEVWZ3JpUDUyMnM?oc=5",
@@ -30301,7 +30348,7 @@
     "Google News · diplomacy": {
       "ok": true,
       "items": 100,
-      "relevant": 51
+      "relevant": 52
     },
     "Google News · regional": {
       "ok": true,
@@ -30315,13 +30362,13 @@
     },
     "عربي · قطر": {
       "ok": true,
-      "items": 55,
-      "relevant": 25
+      "items": 57,
+      "relevant": 26
     },
     "عربي · السعودية": {
       "ok": true,
       "items": 100,
-      "relevant": 52
+      "relevant": 56
     },
     "عربي · الإمارات والبحرين": {
       "ok": true,
@@ -30346,7 +30393,7 @@
     "عربي · العربية": {
       "ok": true,
       "items": 100,
-      "relevant": 35
+      "relevant": 36
     },
     "عربي · الشرق": {
       "ok": true,
