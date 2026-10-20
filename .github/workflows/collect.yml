@@ -33,6 +33,11 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Validate news classification and alert guardrails
+        run: |
+          python source/scripts/test_arabic.py
+          python source/scripts/test_fusion.py
+          python source/scripts/test_news_quality.py
       - name: Collect published Gulf news
         env:
           GULFASTRA_DATA_DIR: ${{ github.workspace }}/archive/data
