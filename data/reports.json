@@ -1,8 +1,8 @@
 {
   "version": 6,
-  "last_run": "2026-10-20T17:36:32.179146Z",
-  "last_successful_run": "2026-10-20T17:36:32.179146Z",
-  "successful_sources": 24,
+  "last_run": "2026-10-20T17:40:00.336164Z",
+  "last_successful_run": "2026-10-20T17:40:00.336164Z",
+  "successful_sources": 23,
   "reports": [
     {
       "id": "94b26c1e73a985137f74e02f",
@@ -1135,6 +1135,29 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "cf3504ebf09f98081727ebbf",
+      "title": "Iran foreign minister says Russia, Iran have ‘never’ worked so closely - Luxembourg Times",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNendpLUszN0JHR3c5Mlh1ZWczc0FMb0hFLVBDT1UybTlMVm8wUTJaZTcxZmo2UFlpUDNsWGVSN1pMRVlwal9XR0phR1JzczJKekxFeGE1b0xTZ3ZkVjhrQmJPSHJNQmJ1ZDBhS0pqYWh5OU5tLXk0MnVIUlJyR1FiMnJ2YVpIVm15QWZIajlGRDgzZWt3QUNhMm9JbWE3V0VjcTRtTjY0M1hJbVZqMkU3NUlFSkNQUkJG?oc=5",
+      "source": "Luxembourg Times",
+      "published_at": "2026-10-20T13:38:32Z",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "language": "en",
+      "category": "diplomacy",
+      "tag": "DIPLOMACY REPORT",
+      "provider": "Google News · diplomacy",
+      "first_seen_at": "2026-10-20T17:40:00.336164Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "790464b87f0042335361d486",
       "title": "UK to deploy fighter jets to defend Saudi Arabia against Houthi missile and drone attacks - WION",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOdHN4aGVpOFZIazlhOGpuMEtienduWGJ0Skd2VzF0akFXU1pMYWlmOU9aV3hFVkxiTURPbTNTTWsyYmVBLTJHNGcyMk9xY2pTdlp6QUxuLUZNMkJXVk54SWZNS19KZVluMWs5N0llZm9qQjk3d0xGV05zN2Jja0k3NW9KRFlPby1TNnpGYVNia3FJYVNrNWlPR0xSWDZyLXBmcEJKRm9qemw5SDBwVmI5aE9BOTRhNmh3NUxWTmliQ1U5VE9yRHdpYzZhRURPZ9IB0wFBVV95cUxQZUFVZUYweVNvOU95Uk5rSll2TmV4V2JzMEVBM3VHMXFzdFdGX2pDaDRMbS1rQ21BcWtKa0V1dW1LTjQtVmh3SGlvVS13QTZoMWVBTU0yNXZ6XzgxdjhfdEJmOGE2SEVUYS1aVktqUmkzNmQ1QUp0RUVxbEdVeDN0SUxkSkwzdDJjN05sLUNjaFV3MU5jWXNVdFJHQnJHeDNSY1FVZS1LaWw3clY0bFdLNFJTSEQ3Z284dFc4WUpwVi1zT3YzN0dnXzdVVnFXTHBmU2ZR?oc=5",
@@ -1425,6 +1448,29 @@
       "tag": "SECURITY REPORT",
       "provider": "Google News · security",
       "first_seen_at": "2026-10-20T17:30:36.865670Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "5c065bdaa0412c910c4a2070",
+      "title": "Iran Says it Will Reply to US Response on Hormuz Proposal Once Review Over - EnergyNow.com",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYTRNR1ZidWNMa04zeUdTbDlSeThhUzdTZzVjdlNkRE5NekpTeVd5MzltZUtnQldZd3RfN3lDN0FkbDEzbnA0RFJRTm1DMXlYVHRFZXprQlduV1dPN19zVWZlNVd2cmRyY1QxdG5PUEttN1JqVV9Ma2xMbDR3OGVjT21VWGRaZlVzWE1BMy11SmdrS1dVcmRZNW5LUjhkYXA4bmVnXzR0anE?oc=5",
+      "source": "EnergyNow.com",
+      "published_at": "2026-10-20T12:47:32Z",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "language": "en",
+      "category": "transport",
+      "tag": "MARITIME REPORT",
+      "provider": "Google News · diplomacy",
+      "first_seen_at": "2026-10-20T17:40:00.336164Z",
       "date_quality": "publisher-time",
       "freshness": "recent-reporting",
       "context": "reporting",
@@ -1796,7 +1842,7 @@
       "language": "en",
       "category": "security",
       "tag": "SECURITY REPORT",
-      "provider": "Google News · regional",
+      "provider": "Google News · diplomacy",
       "first_seen_at": "2026-10-20T16:50:50.754226Z",
       "date_quality": "publisher-time",
       "freshness": "recent-reporting",
@@ -2482,6 +2528,29 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "78a964b98aef5ed478136b55",
+      "title": "Trump unexpectedly said the US could immediately withdraw from a war with Iran, revealing obstacles to negotiations. - Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPckNnaGVMMG8xcG5PLXV5VTRONmVmNU93NE9mdUhnOE1WTWJJZ3JEM0JsR01ZSGlKTVl0dHJ5RzlKZXJWUmx6TFo1MlZMU01UYWU4aVpyM2ttM0toWnh0UWJqYVpHM0J3VlZ1QzhrSXMtVW04amNtTHRHZ0RESjNhdUZ1aDRYdmpycEF1ZU9rd0ZNbmRCSWxJY041U0MtYUlMNEZsVUNzY3liRmdHV05mQ3lGUldSb2xCQVE?oc=5",
+      "source": "Vietnam.vn",
+      "published_at": "2026-10-20T11:21:20Z",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "language": "en",
+      "category": "diplomacy",
+      "tag": "DIPLOMACY REPORT",
+      "provider": "Google News · diplomacy",
+      "first_seen_at": "2026-10-20T17:40:00.336164Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "speculative",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "7552b4fc846dd3ee4ed8864a",
       "title": "UK to send jets to defend Saudi Arabia from Houthi attacks, and other Mideast news - New York Daily News",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQS01EZFQ2VjBfcndKbEFEVC1ZMkFkZl9PZWlOU3B5b3c0RHpRM2FQaE5ZbklnOXgzNE83OEhnWWVUajJkS0dHYjVlMWdVOW02SUd3b01uenhCSEhXa1FaYUFCNjFyVjNpTUIydjh6bmJfMUxEbW45T2RmWDR0bFlzdEtnVGxoOVVHT2c?oc=5",
@@ -2749,6 +2818,29 @@
       "provider": "GDELT · article index",
       "first_seen_at": "2026-10-20T12:04:24.966103Z",
       "date_quality": "index-first-seen",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "60f0a705e746ef2e26ef3e6e",
+      "title": "Operational update 20 October – UK military support to the Kingdom of Saudi Arabia - GOV.UK",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdWIxR3VJQmM3eTZEVXNIV1EyTGtnSmVfTGZfRW82czNPWkVwaEFOa1AxSVk1RFU2YzhXQmpVcWJmLUpUcHM5bGxLVE00eVEzY2tYM0J6VlpXc044LVpTSlZoVzVxZVZDLW1lZEtQNW9GdlMzVnNtUVNVNEY2UUpXVEdzT20zZjdIcFM4X2syaGVFYlo5YUNpNWEyRUI1eDBpSEtyY3VIUHpZLWhfYU1UUDNobXBhZw?oc=5",
+      "source": "GOV.UK",
+      "published_at": "2026-10-20T10:59:33Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · security",
+      "first_seen_at": "2026-10-20T17:40:00.336164Z",
+      "date_quality": "publisher-time",
       "freshness": "recent-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -4916,29 +5008,6 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
-      "id": "71f2c144f41cb5d84b3e7aab",
-      "title": "Iran foreign minister says Russia, Iran have ‘never’ worked so closely - Luxembourg Times",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNendpLUszN0JHR3c5Mlh1ZWczc0FMb0hFLVBDT1UybTlMVm8wUTJaZTcxZmo2UFlpUDNsWGVSN1pMRVlwal9XR0phR1JzczJKekxFeGE1b0xTZ3ZkVjhrQmJPSHJNQmJ1ZDBhS0pqYWh5OU5tLXk0MnVIUlJyR1FiMnJ2YVpIVm15QWZIajlGRDgzZWt3QUNhMm9JbWE3V0VjcTRtTjY0M1hJbVZqMkU3NUlFSkNQUkJG?oc=5",
-      "source": "Luxembourg Times",
-      "published_at": "2026-10-20T04:41:21Z",
-      "country": "Iran",
-      "countries": [
-        "Iran"
-      ],
-      "language": "en",
-      "category": "diplomacy",
-      "tag": "DIPLOMACY REPORT",
-      "provider": "Google News · diplomacy",
-      "first_seen_at": "2026-10-20T12:00:32.516927Z",
-      "date_quality": "legacy-unverified",
-      "freshness": "recent-reporting",
-      "context": "reporting",
-      "severity": "routine-reporting",
-      "critical_candidate": false,
-      "alert_eligible": false,
-      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
-    },
-    {
       "id": "61f27029e17c99033cf95982",
       "title": "قائد حاملة طائرات أميركية يكشف محاولات استهداف سفن قرب مضيق هرمز - أريبيان بزنس",
       "url": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxOQnBYU25zSThYQlNnVTZZNUdqRjBJNWl1aUhaQzBLU1hmNnRBeFNmcTg3NWxZNkM4MjhSS21fTU5Ma1BuWmdVUllfNDUtWUtTek9HTFBBVkNWb1ZESllMd1haTjJVQ1Z4dkQyS01EV2d3WmFrM2hYbU51bUpqcVBPNnAxajhzNkxWcmJDN3dBNVZRMWE2ZENWa2VmaUd2V0t2VndnZ0k0WDY3Vnp3dEdVWUg2UXkycU9XWWNPQWlEeldLdUNJMmdYM2daU1FJemRBTUNOSjdZME5XMzQwNHJpSjdXd0VRNTZDVFRmVl9wQWFxUXNlV2JLOHFnVWhVdm1CeGJneTBFNGl4MTlpMm5mN0NGbTJtbW1KS1B0bGtqYUNaRnRfamJKY1JfQlVQTVdGZFk0WlpFZGZDcHpPQ09RMnBrd3J4OXdtZ05ldnhHdWZEVi0zcE9Eb19MX2I?oc=5",
@@ -4975,6 +5044,52 @@
       "provider": "عربي · إيران والخليج",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "7dfb6bc79a3ced50c91d8602",
+      "title": "Iran Says Draft US Deal Includes Oil Sanctions Waiver, Nuclear Limits and Asset Release - EnergyNow",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQeGNwVGxXUF9hOWNrR0thUUU2MGFmSFZxcDM5U0ZseURaMDctM3VXd1I3Z3dkcF9qVGxjQUxTNHRSQ1BfQm84U2JSRDQ2SU9tNjBXNUZ1REdWWmdpbWJ6LTZOZWc5eFhLTUxvV0VJV25SSnBZM1R0YzdDWDVjME5QNGVjaExZNHB0MXZCSWEzM0FxcDVVZ1ZlcWdfY0Jncm1JTXRFRTdiVDRaYTJJcWVScFBubDRyWk0?oc=5",
+      "source": "EnergyNow",
+      "published_at": "2026-10-20T04:14:10Z",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "language": "en",
+      "category": "diplomacy",
+      "tag": "DIPLOMACY REPORT",
+      "provider": "Google News · diplomacy",
+      "first_seen_at": "2026-10-20T17:40:00.336164Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "f0c33c6d8858baf6eb6ffa7e",
+      "title": "Oil Ends Lower Ahead of U.S.-Iran Ceasefire Talks, Posts Steepest Weekly Loss Since 2022 - EnergyNow.com",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVUdtaFBtRFYxdFUwWlJmekJPbGRBcEVuU1JBMXpQSXRfTWxpbFFpckRPcldLU2g1YXdobkFYWklEUzRubWgxNlBxd0RxZl9jMlJ3MkdoblhDeFFmYTgzRjNZc2VYb3B6Q1JJSFNMVS1JU2dzV0k3MjZna0tsZkxWRjhhR1BoUldKR0RzbmdvWVJRZFk3N1E?oc=5",
+      "source": "EnergyNow.com",
+      "published_at": "2026-10-20T04:11:14Z",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · diplomacy",
+      "first_seen_at": "2026-10-20T17:40:00.336164Z",
+      "date_quality": "publisher-time",
       "freshness": "recent-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -5597,30 +5712,6 @@
       "freshness": "recent-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
-      "critical_candidate": false,
-      "alert_eligible": false,
-      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
-    },
-    {
-      "id": "c1138a2262b02b848c7569fe",
-      "title": "البحرين تعلن اعتراض هجمات إيرانية جديدة.. والكويت تتصدى لصاروخين باليستيين وسط تصعيد أميركي-إيراني - الساحل الغربي",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1hcEthLUFQRmFqekJvQkpzMDZNR3Q2MkJKdVVTbkVxRHZiVEdraW5Hb01TMWpDUm5wNDNFdFhqR0JxNlgzNEZ1eGMwc0dXeFE?oc=5",
-      "source": "الساحل الغربي",
-      "published_at": "2026-10-19T21:58:54Z",
-      "country": "",
-      "countries": [
-        "Iran",
-        "Bahrain"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "خبر اعتراض / دفاع جوي",
-      "provider": "عربي · الإمارات والبحرين",
-      "first_seen_at": "2026-10-20T12:03:42.847208Z",
-      "date_quality": "publisher-time",
-      "freshness": "recent-reporting",
-      "context": "reporting",
-      "severity": "elevated-reporting",
       "critical_candidate": false,
       "alert_eligible": false,
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
@@ -7809,6 +7900,29 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "3c518c27dec801c557b6ec49",
+      "title": "Trump says 'I don't think about Americans' financial situation' in Iran negotiations - ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOekNlMWY5WUN0NWxrcW9iRXM1Yk5VWGxCeGh3MGRaeTFCR2VkM0djcVl0bFZGZFNLd0l3dTVTSjJ0UGM5WS1mRzN1bXZtQWJybDdzelF3ODlzQzVmOWxyWHl0RndpM2x1ZXoyeFZWbnlqR1B0dVFJOFphNGJLMVZyN0RUYUJIMnZaeWdzTXVuamJfblptU3VSdGV4NWhfOFVBQ0xN0gGoAUFVX3lxTE9zbFlKVVB3bjJLd09qVzdyMVZyMVpXZk1ROFk1Mkg3bElhTkpFQWMzQmh0Znp2eng4b3VWb2NoUC1Vc1FYLUlfUldaUTVuMExBN0Jrck02TmE3T0c5ZW5TaFZ3QVNtNHJtSjNpNXhlb1ppNC1GS2pWR29SNWNaVlFUUHdGWU1NWjdfTEdhQ3JBdjlFNnp6VTVBb09mOEtlRGlKbjAtLWQ4SQ?oc=5",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "published_at": "2026-10-19T13:08:32Z",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "language": "en",
+      "category": "diplomacy",
+      "tag": "DIPLOMACY REPORT",
+      "provider": "Google News · diplomacy",
+      "first_seen_at": "2026-10-20T17:40:00.336164Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "5e5cbaf12e9a9b5efd63773c",
       "title": "أمريكا تُصدر «إنذاراً أحمر» لرعاياها في 12 دولة بالشرق الأوسط تحسباً لهجمات إيرانية وحوثية - المصري اليوم",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE02cFdxeG5zT0psN3J6WmVpUF9XNE5vOEdNeDRfMnBjOWhSQjdPRktGY3NkUXRudU9HNEhlaDJSR19wN04xMFMwUXlLTmVIOFRmbHFSenFyOUk0dFV0aTBv?oc=5",
@@ -9080,6 +9194,29 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "ef989a1ca147855bf25b5a35",
+      "title": "'It's his decision': Netanyahu says choice on how to proceed with Iran is Trump's - ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQd3N3QWRxSWRObVZaQ1JBQWxYOUxwQU9DNl9IdWJ5Yk5jelc4aEpPMnZkblhGRXRLckpxWmNISmg4WUVBZ2o1RWxsQmdsSE1LMmF6V0ZOQW1wNjQtejVHYlJRZVNwalVOSndIZkZFLWNCNi00Tm1qM3BMMGlxdzlFUTRqOG1XWl9OZE5nSmZkN1PSAZYBQVVfeXFMTUt0b2FHckFRN2sxb2VLZUU4UnhCSjNiVnpyczRmdW42RkVPRzZxMzluTFM2clNQb0c4WWppNEFtb0xNQ2Z3TkN4Nm93ZWFOWnJKQ0xBbHd0QWlHYXpDSkczekhhUWR0dTA4SGRQXzh6ajlrbmtnMHNEdlkyX2NPUFdJc3RZR0ZtdEQ3VERlMHdsRGVHRHpB?oc=5",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "published_at": "2026-10-19T06:53:07Z",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "language": "en",
+      "category": "diplomacy",
+      "tag": "DIPLOMACY REPORT",
+      "provider": "Google News · diplomacy",
+      "first_seen_at": "2026-10-20T17:40:00.336164Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "b3709fd336a57d0547136041",
       "title": "Oil tanker on fire after hitting mine in Hormuz: Iran’s IRGC - Al Arabiya English",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPYXN5VnVtckRudzdoSFp3c0kyUVU1ZjlTN21MV0JfRUpsUWdTODA4ZWtweTN2U2hza2h2RDRNM092RWVDdF9PTlJ2LWltVWNBOEhqcnhmYmZsTElGN05oZHNyTHVkMERBUXVhaGc3TGdLMWZfbWJVbE12cmg5NjFsRG0wc0Q2OGpjUlAzaV9OaDI2UnhXYlBkazlqZzhyWmpxRUIybS11cXZ0SUJqNUlHODVpMDNXckhRVFHSAb8BQVVfeXFMT0RRRllfdWFmS0tVa1ZqdVVNT1hIT0U3UmQ0cDBXZnk2RE5EN0xaMXZpZ1NaZlI1ZzNVR196YU96LTZiUkF1Y1RsVjZxMGZPRTkxSXBLY1Rvd0NXSEpWdl8zVjhXUkJ0RkVsM2RCVUtlNlcyQTZPZXpWMkN4LXE2b29OSjYxSElNNE1LVFY1eGpJLTBQbS16dlhMV2h4VXM5VDZZRS1yQmoyWDJqTDh5VThobU1rU3h6Y1dReGZaOFU?oc=5",
@@ -9355,29 +9492,6 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
-      "id": "daf92f4b66fd673e3ff5",
-      "title": "Trump says 'I don't think about Americans' financial situation' in Iran negotiations - ABC News - Breaking News, Latest News and Videos",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOekNlMWY5WUN0NWxrcW9iRXM1Yk5VWGxCeGh3MGRaeTFCR2VkM0djcVl0bFZGZFNLd0l3dTVTSjJ0UGM5WS1mRzN1bXZtQWJybDdzelF3ODlzQzVmOWxyWHl0RndpM2x1ZXoyeFZWbnlqR1B0dVFJOFphNGJLMVZyN0RUYUJIMnZaeWdzTXVuamJfblptU3VSdGV4NWhfOFVBQ0xN0gGoAUFVX3lxTE9zbFlKVVB3bjJLd09qVzdyMVZyMVpXZk1ROFk1Mkg3bElhTkpFQWMzQmh0Znp2eng4b3VWb2NoUC1Vc1FYLUlfUldaUTVuMExBN0Jrck02TmE3T0c5ZW5TaFZ3QVNtNHJtSjNpNXhlb1ppNC1GS2pWR29SNWNaVlFUUHdGWU1NWjdfTEdhQ3JBdjlFNnp6VTVBb09mOEtlRGlKbjAtLWQ4SQ?oc=5",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "published_at": "2026-10-19T04:52:40Z",
-      "country": "Iran",
-      "category": "diplomacy",
-      "provider": "Google News RSS",
-      "tag": "DIPLOMACY REPORT",
-      "countries": [
-        "Iran"
-      ],
-      "language": "en",
-      "first_seen_at": "2026-10-20T12:00:32.516927Z",
-      "date_quality": "legacy-unverified",
-      "freshness": "older-reporting",
-      "context": "reporting",
-      "severity": "routine-reporting",
-      "critical_candidate": false,
-      "alert_eligible": false,
-      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
-    },
-    {
       "id": "eb01b642e562dd165256567f",
       "title": "Meet Iran’s New Defense Chief: A Missile Veteran Threatening War With Israel - i24NEWS",
       "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQaXhHREw2b2F0ZmdTTmM5YVVta01IX2NCTjRTajZxemNtN2FGSURLcHdCNEp0eFRud0drelJGN1ZUbk5MT21tdUtrY2lzVVEweEFlNVlYSVRGOXFTbzczdnV0bUVuZkNRZ3dDc2RGb3ZyWXhuSnd5R2h5WWVZMGdSdjc5RzhSSGdseHNObGtOVEVfMXNKQnNvdmJONWlaakFQOTkxaGRPdE5Qd2hGZmhsZjI0TmdEQ2MwWFJtOWk2WE1lRHMwbktqZUdhRHNDRkphVkhfWEt6NWdnTkE?oc=5",
@@ -9491,6 +9605,29 @@
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "elevated-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "201cd2112a970f2e6090b35d",
+      "title": "Trump says 'we're blowing up the whole country' if no Iran deal is reached in 48 hours - ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOODVSNEEtLVQzUnBYcWNoTDJDdF9ZZUpudmRCLVJleVlyV1dLM1A2aGthbnk2YUZMNHE0SGFWMWI4VkhsMFVNTE1Fd3N6d2hIS1JRVXNhSG9wd3FrSTFSMENZb3FkbV81dHJtWGZhR1lHTmUyY19BNEc5d2N2aVZROW9SWFNmc1ByWWE5V291TEZxcFlBUFhsd0ZwT29sSy00bXd30gGoAUFVX3lxTE10YTRndzZ5OWwwZGxTQnNNM1U4Wnc4QVFYTHdxZWVWNnYxMi12d1BIRzBxS042OXJhZGRCN09leEhwUEpMV1hNeHg2OTVpYTJWbDJQeHY5OUxtZEZNX3U0ajkwdkVtTVU0ODFlV1M1SG9pN3J2S1RCbzU3cmdxaUhlRXoxYkE5MzNhNGZnaHdacThWQWxONGFYRy1Obm1jYjkyNHZWM0c1LQ?oc=5",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "published_at": "2026-10-19T04:06:46Z",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "language": "en",
+      "category": "diplomacy",
+      "tag": "DIPLOMACY REPORT",
+      "provider": "Google News · diplomacy",
+      "first_seen_at": "2026-10-20T17:40:00.336164Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "speculative",
+      "severity": "routine-reporting",
       "critical_candidate": false,
       "alert_eligible": false,
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
@@ -12205,7 +12342,7 @@
       "language": "en",
       "category": "security",
       "tag": "SECURITY REPORT",
-      "provider": "Google News · regional",
+      "provider": "Google News · missiles/drones",
       "first_seen_at": "2026-10-20T13:30:10.274301Z",
       "date_quality": "publisher-time",
       "freshness": "older-reporting",
@@ -13249,6 +13386,30 @@
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "elevated-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "3b0e7676fc77a5df022f9437",
+      "title": "Saudi Arabia Announces Interception of 4 Drones in Riyadh, Eastern, Southern Regions - Yemen Online",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE50UkxkRWp2OGtDQXp0cnJzZDVIOUJnRUczOEc1RzJucFN4TFZ1d05WRWEyallNcVYzWkRVTWZNaGc4eXdqTHltSWxzM2U0dG9odHc?oc=5",
+      "source": "Yemen Online",
+      "published_at": "2026-10-18T05:29:24Z",
+      "country": "",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "INTERCEPTION REPORT",
+      "provider": "Google News · missiles/drones",
+      "first_seen_at": "2026-10-20T17:40:00.336164Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
       "critical_candidate": false,
       "alert_eligible": false,
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
@@ -17033,6 +17194,30 @@
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "b133d879655df5e94743b3a2",
+      "title": "Saudi-led coalition targets Houthi arms-smuggling, destroys missile launch platforms - Al Arabiya English",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQR0h4N3R1Wjl2NmtNb0dOaFZjQ3cwaFVsbVJjVVdXRmJKbnNVUm45d05NSFhubFNmSXBxeU1hWm5qX1F0MUx3emlNUEF4OFVHaV85WEV6MDZXZkpuVXVjUERNQlNmd1A5dVpOczcyWExyYnA2WEJRTG5CTnNEWXR2bjhlWklSaEZJalQ2dUxpY1Jpa19QeXFhMkNEbzdEdTdISXEwZmtDaGtDVFRLUTB3eVdQRldtRHpfV0lsWnBFNVpKZWpvblNJUmYyNVpEMEFHUWRRbDFsQdIB3AFBVV95cUxQdEVrQzlSRjZ6Ylhxand1cDFwR3hmZTBVNmFuYnUtZVkwRklmYzFnS3JCeEVXYzFpeVJiUWJ0TlNROXJMMzFYX3BicjN2a2pGNU1VXzg4TjlpaWtyVUpxc2ViMlJLS2pZNDU2WkF4Y3RaYWhaOGEwUzREX3VpcUlzczlCVGNkMGs0QnpRZUk3d0xEdjRDRVlLNUl6dmVLNmVRWTNiWTc0ZGR2Rnh6SmRFV2d5TVBIRWs4bnpyNm52Sk5WMG1QX3dQNDRWRFFGY2J3QXZtbEk4OWs2VFdq?oc=5",
+      "source": "Al Arabiya English",
+      "published_at": "2026-10-17T07:59:00Z",
+      "country": "",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "MISSILE REPORT",
+      "provider": "Google News · missiles/drones",
+      "first_seen_at": "2026-10-20T17:40:00.336164Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "elevated-reporting",
       "critical_candidate": false,
       "alert_eligible": false,
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
@@ -27260,6 +27445,30 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "e11ac7d68aef32ce4ee7c857",
+      "title": "Saudi Arabia Announces Interception of Missiles , Drones; Debris Falls in Dhahran - Yemen Online",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5idS1naXAwZG9WamxOdDFUcDJkN0pzbW1ScTRWNmM5enB6d042dzFlMUc4S3dmNWpXdmRyY2hib1dINjZPeUliSkRILUNQdG40VXc?oc=5",
+      "source": "Yemen Online",
+      "published_at": "2026-10-14T03:28:47Z",
+      "country": "",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "INTERCEPTION REPORT",
+      "provider": "Google News · missiles/drones",
+      "first_seen_at": "2026-10-20T17:40:00.336164Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "3fdb0379d61ff8a40a17",
       "title": "Houthis Attack Saudi's Aramco Oil Facility Compound, Triggering Fire - NDTV",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNcUxVbXBwNG54aGdURkdyWGtiVGxzTjJXdnY2M21kZ0dmZ3NqczFJcFJBQVFpck9tcURjUGlyd0lwT3M5WmdCcmlCbjB1NHAydVMwNG5VU3NoUm9HcUJIRDlmaXoxOTBPT1l0WmFuTDJiU19mX0pTMFloYk5Pa2c5VGFITktTUlAxdnMxSzgwMzd0V0NUTGZxX3BUMks1enk4RHlDR1dXWncwcjdLem5HYVRHdFLSAbwBQVVfeXFMT0FPeHg5R3k2cDR4dW5nRjY3Z1hyMUxJbXE0VFJfMlpOMmhXVVFhVGxTTUcyRnhrblJJdE5PQmNwLVFtUktxeHA4T3VORU1WNWlIc3VDVVZzUFRqa294Z0YtNS1TOU5Zb1BpTVoweGtNYVVzUGJ2MzBubEN4TUJBQmk4TTlTUmlqRmVGSmRKS0NqTi1OaWYyd1RBdUdfVmpzal95N2ZmNEtzdFZ6cTZsWE9zVDM0WS1WLXkzQTQ?oc=5",
@@ -27434,7 +27643,7 @@
       "language": "en",
       "category": "security",
       "tag": "SECURITY REPORT",
-      "provider": "Google News · diplomacy",
+      "provider": "Google News · security",
       "first_seen_at": "2026-10-20T12:09:48.504938Z",
       "date_quality": "publisher-time",
       "freshness": "older-reporting",
@@ -28391,6 +28600,30 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "c1138a2262b02b848c7569fe",
+      "title": "البحرين تعلن اعتراض هجمات إيرانية جديدة.. والكويت تتصدى لصاروخين باليستيين وسط تصعيد أميركي-إيراني - الساحل الغربي",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1hcEthLUFQRmFqekJvQkpzMDZNR3Q2MkJKdVVTbkVxRHZiVEdraW5Hb01TMWpDUm5wNDNFdFhqR0JxNlgzNEZ1eGMwc0dXeFE?oc=5",
+      "source": "الساحل الغربي",
+      "published_at": "2026-10-13T19:23:44Z",
+      "country": "",
+      "countries": [
+        "Iran",
+        "Bahrain"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "خبر اعتراض / دفاع جوي",
+      "provider": "عربي · الإمارات والبحرين",
+      "first_seen_at": "2026-10-20T12:03:42.847208Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "elevated-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "491044bcd4c50856eab06b18",
       "title": "Iran’s IRGC Navy threatens to sink US warships approaching Strait of Hormuz - Middle East Monitor",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNDQwR1BhWmxpcjNpX0c5SUQ3c19RX1RWeEZuMWtHUm14Rm5hSjY4dmlQRzZxdG9UX3dpeHFHVjE3WTBuSEw5bnVIQzFLd2xRQ3FqdGNLdVlOWk4wY2ZZX3pXaWgxVktYOUFpd3M3TmYyblFjR2hOZjNmNElfUFdEYWlaX3YyN1RZS3ExUU9rdUtfb2hWLXctV1JlTFk1ckZDX0tMYmx1NXh3Umc3M1ZGZ2NpalVFOWZ1OUHSAb8BQVVfeXFMT28wZ1Z3SXJSVURpWDEwUmRBSFAyQ3g2eDYtZ0VFZlhzVTNNNXZNVkp3TUx1Q3VqZF9MejVQYl9Od2pZUG1YalQyTlFLdnI4eElCbmR4aVRtVjZNSTNkajl1ZU1sYURvOE9wYlh0am96VE9UZjg5all1WGZQTVhNbldLTHQyTDJtX0gtM3htclE2YVFBbHd0TWRuNERnZDlXZzRsZGx0czNwTUkwSFp3ZTh1WTVYNEVWZ3JpUDUyMnM?oc=5",
@@ -28684,7 +28917,7 @@
       "provider": "Google News · aviation",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
-      "freshness": "older-reporting",
+      "freshness": "archive",
       "context": "reporting",
       "severity": "routine-reporting",
       "critical_candidate": false,
@@ -28707,7 +28940,7 @@
       "provider": "Google News · aviation",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
-      "freshness": "older-reporting",
+      "freshness": "archive",
       "context": "reporting",
       "severity": "elevated-reporting",
       "critical_candidate": false,
@@ -30726,32 +30959,32 @@
     "Google News · security": {
       "ok": true,
       "items": 100,
-      "relevant": 73
+      "relevant": 72
     },
     "Google News · aviation": {
       "ok": true,
-      "items": 91,
-      "relevant": 84
+      "items": 88,
+      "relevant": 81
     },
     "Google News · shipping": {
       "ok": true,
       "items": 100,
-      "relevant": 91
+      "relevant": 89
     },
     "Google News · diplomacy": {
       "ok": true,
-      "items": 100,
-      "relevant": 51
+      "items": 75,
+      "relevant": 41
     },
     "Google News · regional": {
       "ok": true,
       "items": 55,
-      "relevant": 30
+      "relevant": 29
     },
     "عربي · إيران والخليج": {
       "ok": true,
       "items": 51,
-      "relevant": 39
+      "relevant": 40
     },
     "عربي · قطر": {
       "ok": true,
@@ -30761,7 +30994,7 @@
     "عربي · السعودية": {
       "ok": true,
       "items": 100,
-      "relevant": 52
+      "relevant": 53
     },
     "عربي · الإمارات والبحرين": {
       "ok": true,
@@ -30770,18 +31003,18 @@
     },
     "عربي · الكويت والعراق": {
       "ok": true,
-      "items": 50,
-      "relevant": 47
+      "items": 52,
+      "relevant": 49
     },
     "عربي · مضيق هرمز": {
       "ok": true,
       "items": 100,
-      "relevant": 78
+      "relevant": 79
     },
     "عربي · الجزيرة": {
       "ok": true,
       "items": 100,
-      "relevant": 10
+      "relevant": 9
     },
     "عربي · العربية": {
       "ok": true,
@@ -30796,12 +31029,12 @@
     "عربي · وكالات الخليج": {
       "ok": true,
       "items": 100,
-      "relevant": 37
+      "relevant": 29
     },
     "الجزيرة نت · RSS عربي": {
       "ok": true,
       "items": 25,
-      "relevant": 2
+      "relevant": 1
     },
     "BBC Middle East RSS": {
       "ok": true,
@@ -30834,9 +31067,8 @@
       "relevant": 1
     },
     "UN News · الشرق الأوسط (AR)": {
-      "ok": true,
-      "items": 30,
-      "relevant": 7
+      "ok": false,
+      "error": "not well-formed (invalid token): line 1, column 0"
     },
     "GDELT · article index": {
       "ok": null,

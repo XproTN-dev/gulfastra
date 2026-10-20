@@ -1,10 +1,10 @@
 # موجز جلفاسترا للمصادر العلنية
 الفترة: آخر 24 ساعة (حسب وقت نشر التقارير)
 
-مجموعات التغطية: 258 | عناوين مرتبطة: 280
+مجموعات التغطية: 262 | عناوين مرتبطة: 284
 هذه تقارير صحفية وليست أحداثا مؤكدة، ولا تعتبر توجيهات سلامة رسمية.
 
-## Security (190 coverage groups)
+## Security (191 coverage groups)
 - الحرس الثوري الإيراني: انفجار ناقلة نفط بعد اصطدامها بلغم بحري - المصري اليوم (1 headlines; single-source)
   - المصري اليوم: https://news.google.com/rss/articles/CBMiX0FVX3lxTE9oNmVlMW1pa0FOVlI3dURzZVgtYm1jYTIwQVItaC1wYnhUOHBXejUycVUtNl9jdmpFSjI1b0FKUHlpVER3MVhZOXdndnIzTVJqTUpZSWxTd0gyb3B3MFRn?oc=5
 - عام / التحالف: تدمير منصة إطلاق الصاروخ الباليستي الذي أطلق على الرياض اليوم من قبل الميليشيا الحوثية الإرهابية - وكالة الأنباء السعودية (1 headlines; single-source)
@@ -34,7 +34,7 @@
 - UK expands military support for Saudi Arabia against Houthis with ‘defensive’ air patrols - Eagle-Tribune (1 headlines; single-source)
   - Eagle-Tribune: https://news.google.com/rss/articles/CBMigwJBVV95cUxNRW12dllEczNDMU8xbm81RlpkQTQ3SGVhbGl6Z2JzWkh3Q0swU0dMSlJ6OS1XcHc2Si11dVR4ZUJmelZXc2hIeFFrUlN3d184UmRSUkVHNzlzeHYwNzAxZDZOY0xZZldzeEV6UkNGTk5qaDdqVm9lUmhtRHQxVmZNRHlCVGJqaDktNVRKczZXdk1SLW9yOHY2U1ROYVFUT3VpMHo1LTAxbldJYXltcEZYRlVPdkFUb2FrcWJlVlp5S3pwVWhSakM1Wl9Scm1kcHVoOG5Gc3N6VnVPb2lXQ0VYMDE1eXY3b0VMM2ltSUV4YkphOVgycDRZRms0TmE3YzU0bTBB?oc=5
 
-## Transport (44 coverage groups)
+## Transport (45 coverage groups)
 - إيران: إصابة ناقلتي نفط أثناء عبورهما مسارا غير مصرح به في مضيق هرمز - Masrawy (1 headlines; single-source)
   - Masrawy: https://news.google.com/rss/articles/CBMiyARBVV95cUxNbmtQMDJZdVJ4RlJGWk14VnhZVDVwNUY2eU5jTWlTc0xqUTl4V0oyMTVuaC1MNUZERmpQQWJqeV9ndHI0SXNkSV9WcmJKSmo1aS0wTDllUFRrSUUxMXktVXAxdk0xN2JEQXRPVGF1Um9MSGcwcU5YQkt6X2lLVE9GN0dwdUMxWjROWUszUmdBdzRtNG9oZ0djLVQ3b2I2V1A3dVNQeTRqaWdVNGs4Wlp6MTY5dzBrdk9wRWxidXk3M3VvQUVydEotZEhlNU51N01iRG1VNnJYVkpkYlByU25pY1hkQVd1eU5fMEZReng3b1UyTzhfUnZYRVJQUGRnTkMtVlh1TE5RRmt3UFNuLVJabzZuWmhpLXgzUHVLaElVWF85MHJkQ0hkSHNYX3hjdEhSVUJCNlFseWljSC11SlFULWpxMVUwWjNtUlNaWUxYMHZNNG9fbW1adTgydWdLZlkzQmpQdUZOZHpjRjhoNzRwdTVSSkpqbHNtYUNHbkk0RnVzeFhGUGMxYjN2cXZlYW04NnB1NndZTEluZ2hzZjhaRFY2V29IcmxMeTJvSjRTREcxRk9fQ1g5TVZVdlZFNHFIS0lwWWhSVEZ3cWczcE95ekRhWHBTMEZ5UV9aNUZ3T1B2cVFCc05aV21rNTd3RFVPZmE5MkdaVVZkcnBmV3FJMEZrUHZjdUNMdndVQ2E2OTg2OE5QQjlJT3BYUXNvQmR2Q0JkQjliTnN3RjVLOS10VXp3bW1NZm5IeFZUQ2J3WkRPeTFyaVdGSdIBzgRBVV95cUxNemtKb2N1V2ZGbTR3aHM2RGR2ZF9nZzBzYU1zSWZMM3V0UlB1T1pDWVltVHFlSGYzMV9udGdSb3JxMGQ2ZUpESnJiamdCZGFPX0s4ZFRadms5N3lsb1g5bzN1b2VXNUtzRlFObHhRYWMtbENPc2wzekQ2bThMOF84ZERHbEJOdjdGa2hBeW9rX0lobkQxSG9oV3pZQXhCM0RYU2E2Nm0xTmpBdmw4SXFiby1ZV21LOFBNMnZ3cmNZc2o4NkFKUktIb1BhTUxiNVZWVWZsUFFPTHdiSDFvTUVBZ0FpblJXQzZWM2VLMm5rLVV2eGhsWXlFa1dFM1h4SjVQVEZYUVlkSWRmd2xXT0gweWUzX3NuWC1aVnptZjVOVDN6VTd5RDRRZ0JBVDU2S2QwY28yQXBxNUY1cnhvNDB4aEhJMC1kQ3FxVmtNVm81LW9Ga1J0OE12STNGRS1YM1hlQUktTmZWSE9mSVFtOW1WQ05IakdTRmV6NDZmdXRZS2FPNVZJa09SUnNRR3R0SUtDWnkwZDJNLTdYbndCVXEzd0lERUZkeWdjbmIzdWpQVGdvZWhsV1YySzczQ2l1Z0w0V2JZbU5mVk5HUTZVOEVsY1FMYmtuZTRCcU5GYkxyY2ZKUllweTBxbG1uQ0ZPWWdkeTl1M3BGYnExX1UtVXhEVjZGb2RLUVl2SjllVjZZcmxMX2pPbDdVeEFPV0EtcjhDczFJLUpEYmNDZGhLa1JWYkMxZHRMV1VkN1NwRndsNzJtRWVFRnpvTE1KTUhSZw?oc=5
 - واشنطن تنفي اصطدام سفن تجارية بألغام في مضيق هرمز - المصري اليوم (1 headlines; single-source)
@@ -57,16 +57,18 @@
   - Travels Dubai: https://news.google.com/rss/articles/CBMiogFBVV95cUxPaDlNY2k4MGZzT0hTOXpNQmMtQ1c0WlozR0Z5dVJ2b0h3a3BndHR3VVpOZm1vTFFUMFBDV0VvZkJZVE85S0pzNGFCb0V1RlUzQ2N1c01zZHIwa0xUdFJKNWpKeEhva1E3UW5TYzJxVnphLWR4bFc5LVpZZGc2dFh6eGU5SEZ1UlJjT1ZQZkVZZHJSYVpIQkNSdlMzZnAtWWYtOGc?oc=5
 - توقعات بأن تغني الطرق البديلة عن مضيق هرمز خلال 5 سنوات (1 headlines; single-source)
   - الجزيرة نت · RSS عربي: https://www.aljazeera.net/ebusiness/2026/10/20/%d8%aa%d9%88%d9%82%d8%b9%d8%a7%d8%aa-%d8%a8%d8%a3%d9%86-%d8%aa%d8%ba%d9%86%d9%8a-%d8%a7%d9%84%d8%b7%d8%b1%d9%82-%d8%a7%d9%84%d8%a8%d8%af%d9%8a%d9%84%d8%a9-%d8%b9%d9%86-%d9%85%d8%b6%d9%8a%d9%82?traffic_source=rss
+- Iran Says it Will Reply to US Response on Hormuz Proposal Once Review Over - EnergyNow.com (1 headlines; single-source)
+  - EnergyNow.com: https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYTRNR1ZidWNMa04zeUdTbDlSeThhUzdTZzVjdlNkRE5NekpTeVd5MzltZUtnQldZd3RfN3lDN0FkbDEzbnA0RFJRTm1DMXlYVHRFZXprQlduV1dPN19zVWZlNVd2cmRyY1QxdG5PUEttN1JqVV9Ma2xMbDR3OGVjT21VWGRaZlVzWE1BMy11SmdrS1dVcmRZNW5LUjhkYXA4bmVnXzR0anE?oc=5
 - مخاطر الحرب تبقي علاوة النفط مرتفعة وسط تراجع تدفقات "هرمز" - NOW الشرق (1 headlines; single-source)
   - NOW الشرق: https://news.google.com/rss/articles/CBMi2wNBVV95cUxPSWp6MmNnaVhBQ0IzSmoyZ2FKTnllM28zLTgtU0hzVkNXTHhaY0dLdTEwbmlQSVJHUVRQbGRWazdPSGgtQmR2d0sydGpRTmFyaWpuME1pSlJneWxnc1Q3SEJYNVNmNjJlZ2RUVHFPa1EtZ1NaWVE0bHBmQjJSUnpLTkdyaUptZFY3Sm5TQjFuc283ZzBPZDVtN1JNSVFyUUtpbFNfNTBpb04wWWZ1dml6VzZmWVoyWFFzcWJ2bmtqSjQwbzdyYkhFcFFiUXdXYS01bzBDV1JOM2dlNVZ2Yk5UZ2FuUnAxZjc5WHQ5V0FqM2JCOEpXZ2V4dXFhUld5MlpRQzRPT3Y4eFVGdE0xTngza042STA0QzliLXVJS0Vsc1J6RTZ2d0JtY0ZjYi1rMXJPQ0xCLXNacklqV0hVakk3eVRpWHJtXzM5QTkzSnRULURRaGotOTNCOHpic0ZaSFo4S3pseGR0S3ZMbDM0cm5KcEpFcElad183ckZBWlNPMGwyYkp2TUE5eDNxVUZucllGN1FJVXJZWDZBXzhJcERrMGNRQ2xxVnNNU1J0eUpMam9MSHdpM2g3UVp5czI3aDdOaHJmNy1HUlBRY2VFWVlRcFFoODJTTUZETEFR?oc=5
 - حرب إيران ترفع أرباح كبرى شركات النفط المرتقبة وتختبر خطط الإنفاق (1 headlines; single-source)
   - الجزيرة نت · RSS عربي: https://www.aljazeera.net/ebusiness/2026/10/20/%d8%ad%d8%b1%d8%a8-%d8%a5%d9%8a%d8%b1%d8%a7%d9%86-%d8%aa%d8%b1%d9%81%d8%b9-%d8%a3%d8%b1%d8%a8%d8%a7%d8%ad-%d9%83%d8%a8%d8%b1%d9%89-%d8%b4%d8%b1%d9%83%d8%a7%d8%aa-%d8%a7%d9%84%d9%86%d9%81%d8%b7?traffic_source=rss
-- 7 airlines extend flight cancellations at Riyadh Airport until Oct 24 - Time Out Riyadh (1 headlines; single-source)
-  - Time Out Riyadh: https://news.google.com/rss/articles/CBMigwFBVV95cUxOeEtFM2JWeUtubEMwcVd1bVFtWGJwbzdwMTFVN21vTXJmRDFaWVJmN2h4alBobExaT29SU1hOS3Z1cVhudVV4UldHOHFsQndhZUNING5vYnBHV1pITTJxakR4Yk1JWUlaX2ZjdWQ0UEN5VVJ2RERUWE1tZVJPMzVkTmZ3cw?oc=5
 
-## Diplomacy (24 coverage groups)
+## Diplomacy (26 coverage groups)
 - Exclusive: Mediators submit new peace proposal to Iran, US - The New Arab (1 headlines; single-source)
   - The New Arab: https://news.google.com/rss/articles/CBMiigFBVV95cUxNeU1FMnlJNjB6eUl6S3M3dG5WMG0zVXZHY19ZU1NNSDBCNy0zSlJOWjBFQmpUdFZENWF2T1FvVHppdlpMcUhUMHluZ0hWbldTWUR0a3lJMTJ5M1d3TldmWXY5Yy1vX096YjZlUE5iYklzWFlOaVFacndNSXZ5WVYwc2o4RkN1bGlQc0E?oc=5
+- Iran foreign minister says Russia, Iran have ‘never’ worked so closely - Luxembourg Times (1 headlines; single-source)
+  - Luxembourg Times: https://news.google.com/rss/articles/CBMiuAFBVV95cUxNendpLUszN0JHR3c5Mlh1ZWczc0FMb0hFLVBDT1UybTlMVm8wUTJaZTcxZmo2UFlpUDNsWGVSN1pMRVlwal9XR0phR1JzczJKekxFeGE1b0xTZ3ZkVjhrQmJPSHJNQmJ1ZDBhS0pqYWh5OU5tLXk0MnVIUlJyR1FiMnJ2YVpIVm15QWZIajlGRDgzZWt3QUNhMm9JbWE3V0VjcTRtTjY0M1hJbVZqMkU3NUlFSkNQUkJG?oc=5
 - US envoy Barrack defends decision to join Israel in war on Iran (1 headlines; single-source)
   - Al Jazeera RSS: https://www.aljazeera.com/video/newsfeed/2026/10/20/20-10-iran-us-envoy-barrack-trump-war?traffic_source=rss
 - Iran prolongs talks in stalemate to influence US midterms, officials say - Reuters (2 headlines; multi-publisher-unverified)
@@ -78,6 +80,8 @@
   - Euronews.com: https://news.google.com/rss/articles/CBMimAFBVV95cUxQWGJFRTRXNHlId0U5dEdfVzNCU1E0cVFhXzlFQlNKUFR5S2JNc0w0aFlhbzVQSEdWWEp0Q0RYSFVHZ1pjSGZkTGdndnZEaVgzSVc0b09vb1FIQUVIRWVOR1ljMVFvSFBnZ1RJUTREdDVycmpvcXU0bXhaNzlCSktCbDA5ZVg0a2FsT3JDVUtJSUxMQmcwTVBoVA?oc=5
 - Iraq Bid To Mediate Iran - Gulf Tensions Faces Major Obstacles , Former UN Envoy Warns (1 headlines; single-source)
   - i24news.tv: https://www.i24news.tv/en/news/analysis-opinion/artc-iraq-s-bid-to-mediate-iran-gulf-tensions-faces-major-obstacles-former-un-envoy-warns
+- Trump unexpectedly said the US could immediately withdraw from a war with Iran, revealing obstacles to negotiations. - Vietnam.vn (1 headlines; single-source)
+  - Vietnam.vn: https://news.google.com/rss/articles/CBMiugFBVV95cUxPckNnaGVMMG8xcG5PLXV5VTRONmVmNU93NE9mdUhnOE1WTWJJZ3JEM0JsR01ZSGlKTVl0dHJ5RzlKZXJWUmx6TFo1MlZMU01UYWU4aVpyM2ttM0toWnh0UWJqYVpHM0J3VlZ1QzhrSXMtVW04amNtTHRHZ0RESjNhdUZ1aDRYdmpycEF1ZU9rd0ZNbmRCSWxJY041U0MtYUlMNEZsVUNzY3liRmdHV05mQ3lGUldSb2xCQVE?oc=5
 - Iran war latest: Hegseth makes surprise visit to Israel as Netanyahu tells Trump 'we have job to finish' - The National (1 headlines; single-source)
   - The National: https://news.google.com/rss/articles/CBMijgFBVV95cUxPTVZ5ekNnd0lWdHo2RW5CVnUtOVZqZG5VUWd6V1pUQ2d0a2NxWFEwRzI5OTBQckZtTnVKUWRMZzNuT3N0X1V5YXlEU0lfdWtRY0hlRXRJSlNpNFhXZ3hYN240RTNCamhPSDBSaGdVZ0J2TUl4RDR3QUFFa1laMDRQTm5kOWF4QXZjTWdyZjR3?oc=5
 - Qatar says Iran-US talks ongoing, warns of wider regional war - Mehr News Agency (1 headlines; single-source)
@@ -90,7 +94,3 @@
   - الجزيرة نت: https://news.google.com/rss/articles/CBMi1AJBVV95cUxPTnE4d2tmSy1IMS1JdmtYT2JfLWd1NmQ1LS1vMkRwdjBuMy0yaWQtVEFqeWxVZTRjZi1BR241cW5VMDUtdG1QMzNhVzFrZ2ttT1pnS3NXVGxzVmRkZGdJUldLWEk1UlRDSmloUGduQVo5eE5YeHlEaWpGR2dRV2FyUEw4a0U3Ulg3X1BGZVdxSE16RlVUQkVwN3FxMVFDZ0Z2Zk81U01YNnBOWnUwem5Zb3V2UlhRLVJ5cnNKcjZxZXFiU3pla240YlVxRDd5RW5MdzhISHQ2T2RzT21iSTk4N3UtUDRPY1FVWEFoUFE0dzkwbUktakJmMkVUaWlVTHhRUUJUUG5PSkxtT1pvLVpRVWpldWdHb3VNbjRMdkVqS3NFQ1prMGNmY2t5ZVoySXFSem80TlNtQjI1WXNBNExSTkZZR2pMbTdDZkFQaElSTVBEcENB0gHaAkFVX3lxTFBSM0VEbzQ1bjZQNzk0SWdnRkY1RmtKYTZtN0U3SnFVVnR1ZnhZcmdGczlrRGw4blNpdmFabW9IQm40V1RTYXFIWDRxQ0k1V3J4QVpRVTJMdFBZRDYta2lyRk1GOWRwQlBmREdadVg4WVd5cDFNTml6QTdQYXJDZ2hlTENzSV9LTURuOGhXbU9nSUFHRkNtUFhnZFFhdE5XeFEybHR6djVjNGF2SGhiQXpIWXJ1VUwweG1jWXJYZVRaelUzV2Q2MFBaN19UUVM3bFQzRm5BWnpQT0F4eFJfV0NadHpycXJTTnZJTEF0d2w4TV9EcHVVSFZFT1NPZG9QS0ZJM1RPX3h0Tkhrdlg4YnVIQ2xXSXlhWkRabVNVYnl5SVE2RnVoeFhhaHNod1RjcWJ2ZnJTVkJYZFdkd01Fa1ZSVXZpMzY4RVJEM1Y2YmVyb2oxQ3NBYWNnQWc?oc=5
 - الرئيس الفرنسي يواصل جولته الخليجية بزيارة البحرين وقطر... والأمن والطاقة في صلب المحادثات (1 headlines; single-source)
   - © أسوشيتد برس: https://www.france24.com/ar/%D8%A7%D9%84%D8%B4%D8%B1%D9%82-%D8%A7%D9%84%D8%A3%D9%88%D8%B3%D8%B7/20261020-%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3-%D8%A7%D9%84%D9%81%D8%B1%D9%86%D8%B3%D9%8A-%D9%85%D8%A7%D9%83%D8%B1%D9%88%D9%86-%D8%AC%D9%88%D9%84%D8%A9-%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC-%D8%B2%D9%8A%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%A8%D8%AD%D8%B1%D9%8A%D9%86-%D9%82%D8%B7%D8%B1-%D8%A7%D9%84%D8%A3%D9%85%D9%86-%D8%A7%D9%84%D8%B7%D8%A7%D9%82%D8%A9
-- ماكرون وأمير الكويت يبحثان تطورات المنطقة ويشهدان توقيع اتفاقات (1 headlines; single-source)
-  - libyaakhbar.com: https://www.libyaakhbar.com/world-news/2900090.html
-- Live : oorlog in Midden - Oosten , Trump over Iran en laatste nieuws (1 headlines; single-source)
-  - limburger.nl: https://www.limburger.nl/buitenland/hegseth-ontmoet-netanyahu-tijdens-onaangekondigd-bezoek/163314514.html
