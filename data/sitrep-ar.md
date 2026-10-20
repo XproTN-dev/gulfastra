@@ -1,10 +1,10 @@
 # موجز جلفاسترا للمصادر العلنية
 الفترة: آخر 24 ساعة (حسب وقت نشر التقارير)
 
-مجموعات التغطية: 189 | عناوين مرتبطة: 208
+مجموعات التغطية: 197 | عناوين مرتبطة: 216
 هذه تقارير صحفية وليست أحداثا مؤكدة، ولا تعتبر توجيهات سلامة رسمية.
 
-## Security (123 coverage groups)
+## Security (128 coverage groups)
 - مقاتلات تايفون البريطانية تستعد لحماية أجواء السعودية من الصواريخ والمسيّرات - موقع الدفاع العربي (1 headlines; single-source)
   - موقع الدفاع العربي: https://news.google.com/rss/articles/CBMi2wJBVV95cUxONUpwWUxwbnNFQjFjcUVPS25yMExLdnYwUmNnT2tBSDBfZDJGQW83c0R5Y2dRZW52ZWduZHdGSUFOaVZybk9lVVN5MmlHNF9xX3RGeUF4NnZhUlpUVnRwRVBSejNaVVFpWGJmQTJzZVAwd3VBU21WUmdkSVFZR21vYUxuVUlEekVYZTNiYVFzd3U3ZXVqbENObnZkSW53bkhSR19PenZfeC1SRjZWZjFVVDFZT1BNWEFOTXdTam1Od01HR241ajVSYjlfX25vU05SR3I0cVYxUENYR0pmTmx6d0hKcXB2LUhzOENCbmU2ZERheGlUTGFXZ0FOTDd1X2hmOVZBX1RPa1MwV1RmRUZ1MXl0dUxlQWU4cVRFRWZMZ3IxcmkzTHdvNTF3UUxYQnRrbC1kTzFSSUNZLTFWYklCeTJ3SHRFX1FzVDdtd3VSZ3VucjFSbjUwUnhuTQ?oc=5
 - بريطانيا تدخل المواجهة الجوية لحماية السعودية.. مقاتلات "تايفون" لاعتراض صواريخ الحوثيين ومسيّراتهم - arab-london.com (1 headlines; single-source)
@@ -15,6 +15,12 @@
   - رؤيا الإخباري: https://news.google.com/rss/articles/CBMiRkFVX3lxTFB1b25MV1NaakRtN3FiZFROOERPMHV6dGI5US1PTnhuU3Mwa25kMjFCUGh1WUlHV3VOMWl3eTJDSUN5VXdPcVE?oc=5
 - من طراز «تايفون».. بريطانيا تدفع بمقاتلاتها لدعم السعودية ضد هجمات الحوثيين - المصري اليوم (1 headlines; single-source)
   - المصري اليوم: https://news.google.com/rss/articles/CBMiX0FVX3lxTE9DUU1lSDJDdnllRkg3QjdOOUl4cDg1UXV4WHpLM0NYaUN5enFqR3dzMTBzeFNVU2hEanJmeFZ3RTdmMk1YNlc5akI4SVhWYUxFOVdhMEF4cmNFU0NUU0tJ?oc=5
+- Explained : Why is Egypt discussing military involvement in Saudi - Houthi conflict ? (1 headlines; single-source)
+  - article.wn.com: https://article.wn.com/view/2026/10/20/Explained_Why_is_Egypt_discussing_military_involvement_in_Sa/
+- Saudi Arabia says it intercepted Houthi missile as blasts heard in Riyadh (1 headlines; single-source)
+  - freemalaysiatoday.com: https://www.freemalaysiatoday.com/category/world/2026/10/20/saudi-arabia-says-it-intercepted-houthi-missile-as-blasts-heard-in-riyadh
+- Yemen war escalates with deadly Houthi strike on military recruits (1 headlines; single-source)
+  - middle-east-online.com: https://www.middle-east-online.com/en/yemen%E2%80%99s-war-escalates-deadly-houthi-strike-military-recruits
 - بريطانيا تعلن إرسال مقاتلات "تايفون" إلى السعودية لمواجهة هجمات الحوثيين - الشرق للأخبار (1 headlines; single-source)
   - الشرق للأخبار: https://news.google.com/rss/articles/CBMi_gNBVV95cUxQa0M2V1E0S2R3MWtUVUJEbzBRR1o3YWF5VWQ3aVFlUjR2SGR4d24wQ05qOUlId2JmTkZFWFpwTUsyQnVGQm5NUU8tanU3c3dPLUphSkhCNFBSTVdLN0dfYy1TWFFLdVN5SWRWbXN4MnBFd3NXemRtdml4Q1VrWWt5NTZoSDE3eW1KaHBrQVdvdnhGS05uX0VhMVBEd2RQNHg2TUhHLTA2YlE3NmpzREJ2NjNDbjRHcGFNaEdCRG1DdDdJQXhiRHBGVlgydTBuT01BMzlPaUNXNEJ6Qy1NYTVQR1NaZWVFOWo3djB3emIxbzlNTG5Gay15M3FNUVhoUVVEM29feG1wa1ZjNTh2SGwxWXZzclQ0bk95c0dTcGl1endrMkdRRTViTXNaNDRiQld0aEpqRFAtWE9ORV9xYVpTaEFMZXhoQzB4c1d2NUxWSFRucGtQSDRMQk9zRjdQU1QwQmdrbXd0SU8xcjQzcklnVFlqNmFNNHZrSEhZeklScGNMR0Z1ODNvRmFxdVczWnlPN3lYQjNyMkF1X25hbWtCaVFKRTlVMW12RS1kYjNKMWRuQ1FiemNiZ0R0Y0NsRTItdk9XN2I5V0liRnFKeUF6NENpM3Qyc3cyMTBCdTE1dk9jb3FOM2drTlpBcy1nMC1odUQtaXFyRWg2RDA1cXc?oc=5
 - The UK expands military support for Saudi Arabia against Houthis to include 'defensive' air patrols - KTVN (1 headlines; single-source)
@@ -27,19 +33,16 @@
   - AP News: https://news.google.com/rss/articles/CBMikgFBVV95cUxOdFpJQjVaX2pPYVMybXM3OEQ4ZzRzNEdpc2FVMldTRTVWaVFNQXZQVkZrRmdLNVpKc1RVeS1sbGIzSDJlNE12QkRMR2UxcC1PZWIwcnJXY0Z4T0hEQkxmWnBrNHpkSFZxaWgzZU5pRGM1cGJVUWRISHFraGJaUFFzRnlHYko4UlJpMmFvMVZLc1lFdw?oc=5
 - The UK expands military support for Saudi Arabia against Houthis to include 'defensive' air patrols - ClickOnDetroit | WDIV Local 4 (1 headlines; single-source)
   - ClickOnDetroit | WDIV Local 4: https://news.google.com/rss/articles/CBMi5gFBVV95cUxPRHRXaVJONFRPNEFfdWdld2FOYUFMd1FlWFFYM2Q2U0JEdE9ZME80ZndTMGZIUUYtdmpSQVdXZHJxejlYTkRxRDZzdlE2VzMzelVVdEo0ejJNX0FrZ2NwUWoyYVA2c0ZfbEQ5OVJDWEY0QlJuY1VWRm5FajB0OXM1MTd3ZzNXQnFTaGtxU1ZEdlJNTTlxNVRWRzlHdzY0ZkY5VVdmc05GWUJsZjdwTVJDLUxCbDhHVXFoOEtpcmhEWC1EdnlhMTUxbXcxV2dTdzB5SDlIUFB1bG1WSjVhQmk4Q0dMN2RWZw?oc=5
-- The UK expands military support for Saudi Arabia against Houthis to include 'defensive' air patrols - News4JAX (1 headlines; single-source)
-  - News4JAX: https://news.google.com/rss/articles/CBMi3gFBVV95cUxQa0F5MUJNaHdvajFxM2d5eWVHZjhjZUlzcjR4a2RqcEpMdDYzOUczUGdObm9rVUFEcDB0MVRyT2FWRkl1STBQY0NraTZCYk9kZmlpdmhNMHNHNzVzTVA2bTl0V2tTRU1RLTdkVTY5WjhXOVRoRmRldmtmb3ppbGFIRTh3WWtKRURiVnBxYzNleWlmSzZFVTNlZkU5SXM5SlVhN1k2OWF3ODNnV1RLLUk0M08tYlZCbkxUenEyTDZNcUQ1Q2ZnQkp1eHlfUU5oVjRJeE5VaXJtb1lEYlhoSHc?oc=5
-- Iran Says It Downed 54th US MQ-9 Drone, Warns of New Targets - Palestine Chronicle (3 headlines; multi-publisher-unverified)
-  - Palestine Chronicle: https://news.google.com/rss/articles/CBMimwFBVV95cUxNWEJZU2hFRWh4bGtsTFBYa0ttWDBJaEtWUGozOXRRWmZETkZyVDluc2U2UWw0bFNuMHY4MXkyQ0pLSlJWcmhTbm1PbUtua2hPSXBiMXlEb0t4RDdLUG82d0pLMkZWYWNjN2tLeUMxNld4MzZGOEx4cUVMTldoMUREVHJ2bWNSdGdYeGN6ZTJOTjdZcXJrbWtHYk5kQQ?oc=5
-  - Vietnam.vn: https://news.google.com/rss/articles/CBMipgFBVV95cUxQbWRIcDl0NV9TWmxDVUQ1NzhNS2ZqZjRFZkNrTFlWWnlUeWFfaXUycFJLNWRWcl9hcHY5UWh1NHJnWGgtWmpoLXRNcXd0RjNjOWpzVXhDOU9hXzB0UEVvMnZydDluUV95dGpfSU81SkJHMUNtU293bk9QMmxrRHBNSnhIRHQ4SFNHVVRBZ0pLeEZjaG85bUY0YVljcXlrMTcyMGtRNDlR?oc=5
-- قطر تحت الحماية المصرية.. كواليس صفقة القرن! #خمسينة_اقتصاد #مصر #السيسي #جيش_مصر #الجيش_المصري #قطر - Facebook (1 headlines; single-source)
-  - Facebook: https://news.google.com/rss/articles/CBMiuAVBVV95cUxQWTlIRGFJWklvTGp5T0JZOWpyVkxzTlprWFI1TEIzay0xcDZpWjlwMDdKWFVFVERKQ0ZWbktvSkZZZHZEWFZmZ3NNdER6TkFoaEZja3FPLXc5R0M4NUstbE9EX2dZczNkcG16QUtoZVZvdmRObjNDdV94RU4zSExHMXdnR0ZMbkxRakpyM3p2cjRVNW9DVGxfeHB6THI0LU1oNFlQOVF4OGdLMjlEMzEtRklQbTVYRlFTN0o5SmdES1dEekZGM2l2MXduSzZveUFhVHBVRTU1VzRhaTJFbGZ6OHc1RHQ4d04yX1YxSGNjT1RLdndKb0RnRGtlbEpNQXk0OHlpejJhVmtpQmJ5SEJLSDVXQzdaRF9BdHZLcktOcHQ3dWZyM1dPVTN1MUFBclNSU0dfRWlFMWZSR2syZ0JLWGF0UDYzWS1uUk1mR2VlcXdtbkM3VkVfT3J3TS1YcHE3T2pXQlUwWmRXcHhfQ3dzbTVGRW9IcGViTDQ3OXpQNVJwMXk4bzlWQnBlXzFfUzhwdmR2d3Q3Wmt4VXpGQVNCamhUZHhwYTlmRTBJclBQSTUyZHFza1p4bEZXcEw3S2NrNDJmSWdyNEZEZ3ZvY055dVVWbTlfdUZlUkpBVWx3dkdPUDNDekZlRTBHajJ5NWhQT0tNZHM3ZTVPeF9wZkNjR1M3UldiNmFUNHlBZ2xKeG91UEVfUDlwdk5sVlBSVW9RQXB0Q1Q1QmRxZ1J2eWFheTZXbVpTTnB4MmlBY2NlcVk1VmhqOXFyRW1JMlRhZGRCbUJvaDJTTlpIVzlOa0RCZlFGWXk0MDZ4Mk1PTE9Icm1YS2NMNFRLWndDWHMxZ1FZb0dtNER6azNXVGYtUV9Qa2d0RG1jTVI3RUFXVW1BR0FKV25WTkc0VVFhaHM5VHhhU1ktLTVxR0I?oc=5
 
-## Transport (44 coverage groups)
+## Transport (46 coverage groups)
 - Oil prices rise as Strait of Hormuz tanker attacks escalate - Quartz (1 headlines; single-source)
   - Quartz: https://news.google.com/rss/articles/CBMidkFVX3lxTE9wNThNdGREZG9pVlpmMVhOMHhpdUZscFlLdEhqWHNFQXpIeEl3Q3dla2c0MnBCZDBWV1FXTTI3ZnNkWjhRZ0U1OVQzbmh3UHEwbEpyYVlDWHVOUXNod3p3dmZlNnpuZTNOTWpabnZMTVZiOWdibkE?oc=5
 - "إتش إس بي سي": الطرق البديلة ربما تغني عن مضيق هرمز خلال 5 سنوات - الجزيرة نت (1 headlines; single-source)
   - الجزيرة نت: https://news.google.com/rss/articles/CBMisgJBVV95cUxOelk5V01HZ3NobEpRQ05vR1N2ZXVuSTgyMThlZllvTy1QQVpXTTQ4OUtGRXRwRUN5alJ4U1Q5S2dXdmVPZEd5Y2JLOTVOemJEcDc4SWpqbHlmcHVpQTloTVdOQzBjNlV1dHZ6QmdOUnVuWmpYbGxUc0tBb3NoVU1iLWl0S01UY3FoVVBBMVJ2YmxqM0NaTHEyZWZWbTVtSFFXeUdud1NQU2ZYVDlRTUFwNzF5UkxtZVk5N0JJSWs3Zl9adDl2VllFcG82ajk4RW84Nk5vRFVqTzBmdmNkQUVpZm4tWURubXM0QmVRRl93Tzk3VVlRRDJHMHVIY0Z5eGFIdmJqUmpCbVlaXzRTSGJDd2VZMFJDZXdrSjctUUVHV3ZxNDA3UUpYNU95Wkw1cE9OU2fSAbcCQVVfeXFMT3V1cmRKZWt0V2NyVVVPZFVfOFE5SHg5S0dUMHFVY0FSUXBNbHY5dlF1ZXJQdUZxLWtMRmkzUEVuYmxzbXdObmNFZi05eEM4ekV5Nk5wVENxTXFiaEdKclhwaFNUeFgxSHljNVNBRVdSU1JTMVEtZ05KMWEwS29KRWtkdGxzc2VZQkZzLXhWRmVERkVySkVoM2VoN0ZvMjU4NjYzUXpnbkZxVVdEOTduRUR2TmlQa3ZKUEtCZXN2Z3hwX2hsYnc1WlU1NFl5OTNreDlCeHRGdUZOcXlWbzdvb25WQ0JHLVhIWWRSZmNSRVNnM29zSVhubGRCdl9lLU4wTVpmSng4VndzdHJaRFdqR2FnZ2t2T01sYTRGclVGbjhFSm1YWmN4QmsxVXNBUlU4SF9OREJybGs?oc=5
+- Iran Guards say mines halted 2 tankers crossing Strait of Hormuz (1 headlines; single-source)
+  - freemalaysiatoday.com: https://www.freemalaysiatoday.com/category/world/2026/10/20/iran-guards-say-their-mines-halted-two-tankers-crossing-strait-of-hormuz
+- IRGC : 2 Tankers Hit Mines , Set Ablaze South of Hormuz (1 headlines; single-source)
+  - english.aawsat.com: https://english.aawsat.com/world/5331506-irgc-2-tankers-hit-mines-set-ablaze-south-hormuz
 - Riyadh airport reopens: Airlines delay Saudi services, with some routes pushed into 2027 - Gulf Business (1 headlines; single-source)
   - Gulf Business: https://news.google.com/rss/articles/CBMizAFBVV95cUxOWkFRc1RnUmh4NE1VNkwwR1habzFXRXZMSmprMVV3Q29FanhCdGtUUEE2NGVmcTVOYUFPeUdhdlN3TFhqMlpoeGd2Z2s3VkN3OHJsQ2F6TU5hcFFxYndsLVF2dTNwa0ZHeGZrUkhCRmVHbDRsbW5uZkRYal9LRXRJS2J2ZTN4QTZfY0s3ODFiWm5lTFhXQUVLX2xzcEVWeWwwbFJHeHhXYk5ESWJPN0VQN2dCSHpXT25OUDZPY2tRbnpOd1dFVG5IbU50d1c?oc=5
 - رئيس "HSBC": مضيق هرمز قد يصبح قابلاً للاستغناء عنه خلال 5 سنوات - www.aajeg.com (1 headlines; single-source)
@@ -62,12 +65,10 @@
   - WANA News Agency: https://news.google.com/rss/articles/CBMilwFBVV95cUxQeVl3dFE3V1o4bnBtUHItT29BRTlvNl9yMzhUVm5qQ2ZxNmc4RU1pLXB0VTRvWU1MLTNJem9fLUxKeGZ2X1VMREk2QktBRWdBRVZvWGlGcnA4YTJwZjh1MzVCM2kzUHVtblpqVEpwakpFc21wVFQ5SDFaRGRsS2tkdzJNS3h5NjN2QWNVS2xpN09xcldKTFh3?oc=5
 - "إتش إس بي سي": الطرق البديلة ربما تغني عن مضيق هرمز خلال 5 سنوات (1 headlines; single-source)
   - الجزيرة نت · RSS عربي: https://www.aljazeera.net/ebusiness/2026/10/20/%d8%a7%d9%84%d8%b7%d8%b1%d9%82-%d8%a7%d9%84%d8%a8%d8%af%d9%8a%d9%84%d8%a9-%d8%b1%d8%a8%d9%85%d8%a7-%d8%aa%d8%ba%d9%86%d9%8a-%d8%b9%d9%86-%d9%87%d8%b1%d9%85%d8%b2?traffic_source=rss
-- Saudi Arabia Flight Update: Lufthansa, BA, Etihad & Qatar Dates - Travel Tourister (1 headlines; single-source)
-  - Travel Tourister: https://news.google.com/rss/articles/CBMi8wFBVV95cUxOVWRRc0pFNEs2Sm13Yk4xRlhud3VFTVJhSmYzRHJwcmxBNEVrRTNHVDByYmJobjVKclFOZmU1aWxCOHNYYVRDR2lMQjdWTW56dzVBbkhtV3FoZnk1SG9aS0o0d01VaU42ZktCUUoyV2F5cEhlallHeG5ab2l3SDFqWm1RSjFjZXJFMV9IX0VGM29aQWxjckMyOVlFX1JJMENoSUNBVk94M3hhYU9DU0tONHN4LTd4WTR1S3lRTFF5UmdtY0R3dVVOOVpEVnJPV3RqS3ZJdXJNU1NFLWp3QllId0xEb25RWU45dDJ2SlZMVy1MZDA?oc=5
-- UAE flight status today: Saudi disruptions and full list of delays, cancellations - Gulf News (1 headlines; single-source)
-  - Gulf News: https://news.google.com/rss/articles/CBMiygFBVV95cUxQcXJoME9Ic29uaThXRzZXZHdaUDNmazJ4OWVOcXhxVDN5dW1iaTFwd0g4RVJpNG1ORWhNdVFPSjU4Q1prT2stRjRBVzJEN2xrS3ZwYlhkVG1NVEE0MGJnMjB3S2R6Wi1feGl0MlBFM3hnTERKZ05SdHJKY3VyazI3cktxek9yTlRWNlI4UFMtZDhIbUZnbjV4Z1A3VjgzNFk5Zk95NF9NWTFzVUxtVWtoYXRNeTRTNVpqNEh4WEdLWUl1WHdJRV9IbmhB?oc=5
 
-## Diplomacy (22 coverage groups)
+## Diplomacy (23 coverage groups)
+- Iraq Bid To Mediate Iran - Gulf Tensions Faces Major Obstacles , Former UN Envoy Warns (1 headlines; single-source)
+  - i24news.tv: https://www.i24news.tv/en/news/analysis-opinion/artc-iraq-s-bid-to-mediate-iran-gulf-tensions-faces-major-obstacles-former-un-envoy-warns
 - Iran prolongs talks in stalemate to influence US midterms, officials say - Reuters (1 headlines; single-source)
   - Reuters: https://news.google.com/rss/articles/CBMirwFBVV95cUxPUEYwdEFGeHhKUmdIMXF2VEppVElubGVKYlNlbk5xRGlnY1pVMEFsc0pma1ZGOGdOXzFBWUVCWHVab2MxQ2t5ZlNGRG1oZkdCMENnOFktSm1OakZNUUZJX0w2ZHJmM1ZLV2JyS245RjFoUVNPTmZ3dVNfNDNWemZ2V3dZdTFZdmFwdTJhRVdjODhObHZIbXp5c181UFdKOVJTX2o0LWFDN3E3dm1TOGpj?oc=5
 - Iran war latest: Hegseth makes surprise visit to Israel as Netanyahu tells Trump 'we have job to finish' - The National (1 headlines; single-source)
@@ -94,5 +95,3 @@
   - الجزيرة نت · RSS عربي: https://www.aljazeera.net/news/2026/10/20/%d8%ae%d9%84%d8%a7%d9%84-%d9%85%d9%86%d8%aa%d8%af%d9%89-%d8%a7%d9%84%d8%a3%d9%85%d9%86-%d8%a7%d9%84%d8%b9%d8%a7%d9%84%d9%85%d9%8a-%d9%82%d8%b7%d8%b1-%d8%aa%d8%af%d8%b9%d9%88-%d8%a5%d9%84%d9%89?traffic_source=rss
 - Russian FM talks up cooperation in first visit to Tehran since Iran-US war - Amwaj.media (1 headlines; single-source)
   - Amwaj.media: https://news.google.com/rss/articles/CBMisAFBVV95cUxQOWFmaFdIUzQ4d2IyaU1oWVY5MFdhLUhyb3lIbzhMbGJLT2dtcFRzVGcycUNyY21ONXpmYmJkVTVyOUtBcUNONTkwT08zQkptR1REeFBIRjZfSnQ0Q2Jjc0NqUlhLeDFqR29INVlHR3l0WUZGRzZZZkRraGJpeDBWNDlCUWw0MHUyVGdDbUJ0eGRRR0hrZXRDRGFaaC1MZ0VxVmVzYU9xbk01SmpXc1Q3VQ?oc=5
-- Trump says US could leave Iran now, rules out nuclear weapon - Iran International (1 headlines; single-source)
-  - Iran International: https://news.google.com/rss/articles/CBMiUkFVX3lxTE9ub0xLZ2pPekM1czRrR0FUVjF5YkgydlptSkNvX3B0UjZKSjhiT3Y2cm44YVlSRi05TEdlUnhwOWRHNHk1bUVicUEyZHc3WWlkWVE?oc=5

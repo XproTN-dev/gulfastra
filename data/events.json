@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "generated_at": "2026-10-20T12:04:09.559389Z",
+  "generated_at": "2026-10-20T12:05:00.342474Z",
   "model": "deterministic-source-correlation-v1",
   "disclaimer": "Clusters are related PUBLIC REPORTS, not confirmed incidents. Source counts are not proof. Country names are mentions, not incident locations.",
   "events": [
@@ -313,6 +313,229 @@
       "updated_at": "2026-10-20T11:38:57.679526Z"
     },
     {
+      "id": "GF-3AADEDA0E4F441",
+      "title": "Explained : Why is Egypt discussing military involvement in Saudi - Houthi conflict ?",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T11:30:00Z",
+      "last_published": "2026-10-20T11:30:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "92e9f0215ed02f07b62f6a06",
+          "title": "Explained : Why is Egypt discussing military involvement in Saudi - Houthi conflict ?",
+          "url": "https://article.wn.com/view/2026/10/20/Explained_Why_is_Egypt_discussing_military_involvement_in_Sa/",
+          "source": "article.wn.com",
+          "provider": "GDELT · article index",
+          "published_at": "2026-10-20T11:30:00Z",
+          "collected_at": null,
+          "language": "en",
+          "country": ""
+        }
+      ],
+      "digest": "6f8cb35cc2d820ec9adb",
+      "revision": 1,
+      "updated_at": "2026-10-20T12:05:00.342474Z"
+    },
+    {
+      "id": "GF-B6B8522365DA61",
+      "title": "Saudi Arabia says it intercepted Houthi missile as blasts heard in Riyadh",
+      "category": "security",
+      "topic": "interception",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T11:30:00Z",
+      "last_published": "2026-10-20T11:30:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "48ceb8f3ab71f84ba97413d1",
+          "title": "Saudi Arabia says it intercepted Houthi missile as blasts heard in Riyadh",
+          "url": "https://www.freemalaysiatoday.com/category/world/2026/10/20/saudi-arabia-says-it-intercepted-houthi-missile-as-blasts-heard-in-riyadh",
+          "source": "freemalaysiatoday.com",
+          "provider": "GDELT · article index",
+          "published_at": "2026-10-20T11:30:00Z",
+          "collected_at": null,
+          "language": "en",
+          "country": ""
+        }
+      ],
+      "digest": "36a7ba9eee7777d7a9c0",
+      "revision": 1,
+      "updated_at": "2026-10-20T12:05:00.342474Z"
+    },
+    {
+      "id": "GF-86E67A2D186F7C",
+      "title": "Iraq Bid To Mediate Iran - Gulf Tensions Faces Major Obstacles , Former UN Envoy Warns",
+      "category": "diplomacy",
+      "topic": "regional",
+      "countries": [
+        "Iran",
+        "Iraq"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T11:30:00Z",
+      "last_published": "2026-10-20T11:30:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "3aedb4462f47e40bf11cb5a0",
+          "title": "Iraq Bid To Mediate Iran - Gulf Tensions Faces Major Obstacles , Former UN Envoy Warns",
+          "url": "https://www.i24news.tv/en/news/analysis-opinion/artc-iraq-s-bid-to-mediate-iran-gulf-tensions-faces-major-obstacles-former-un-envoy-warns",
+          "source": "i24news.tv",
+          "provider": "GDELT · article index",
+          "published_at": "2026-10-20T11:30:00Z",
+          "collected_at": null,
+          "language": "en",
+          "country": ""
+        }
+      ],
+      "digest": "3bd6e43a66bb90abe2dc",
+      "revision": 1,
+      "updated_at": "2026-10-20T12:05:00.342474Z"
+    },
+    {
+      "id": "GF-B1989CD0918130",
+      "title": "Yemen war escalates with deadly Houthi strike on military recruits",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T11:30:00Z",
+      "last_published": "2026-10-20T11:30:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "249024cd1cc95dabbccc890e",
+          "title": "Yemen war escalates with deadly Houthi strike on military recruits",
+          "url": "https://www.middle-east-online.com/en/yemen%E2%80%99s-war-escalates-deadly-houthi-strike-military-recruits",
+          "source": "middle-east-online.com",
+          "provider": "GDELT · article index",
+          "published_at": "2026-10-20T11:30:00Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Yemen"
+        }
+      ],
+      "digest": "314dc4c227bffc1c11d5",
+      "revision": 1,
+      "updated_at": "2026-10-20T12:05:00.342474Z"
+    },
+    {
+      "id": "GF-C80896A72C95C4",
+      "title": "Iran Guards say mines halted 2 tankers crossing Strait of Hormuz",
+      "category": "transport",
+      "topic": "maritime",
+      "countries": [
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T11:30:00Z",
+      "last_published": "2026-10-20T11:30:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "d1ad414b336ee275e8d5cac8",
+          "title": "Iran Guards say mines halted 2 tankers crossing Strait of Hormuz",
+          "url": "https://www.freemalaysiatoday.com/category/world/2026/10/20/iran-guards-say-their-mines-halted-two-tankers-crossing-strait-of-hormuz",
+          "source": "freemalaysiatoday.com",
+          "provider": "GDELT · article index",
+          "published_at": "2026-10-20T11:30:00Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Iran"
+        }
+      ],
+      "digest": "f7a6aace3439f4bdcb58",
+      "revision": 1,
+      "updated_at": "2026-10-20T12:05:00.342474Z"
+    },
+    {
       "id": "GF-E133A6763FE1E2",
       "title": "بريطانيا تعلن إرسال مقاتلات \"تايفون\" إلى السعودية لمواجهة هجمات الحوثيين - الشرق للأخبار",
       "category": "security",
@@ -532,6 +755,48 @@
       "digest": "588e7ffce02588d85a90",
       "revision": 1,
       "updated_at": "2026-10-20T12:04:09.559389Z"
+    },
+    {
+      "id": "GF-EBFF75A0C9672D",
+      "title": "IRGC : 2 Tankers Hit Mines , Set Ablaze South of Hormuz",
+      "category": "transport",
+      "topic": "maritime",
+      "countries": [],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T11:00:00Z",
+      "last_published": "2026-10-20T11:00:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "58726dacf33ed5f622adba07",
+          "title": "IRGC : 2 Tankers Hit Mines , Set Ablaze South of Hormuz",
+          "url": "https://english.aawsat.com/world/5331506-irgc-2-tankers-hit-mines-set-ablaze-south-hormuz",
+          "source": "english.aawsat.com",
+          "provider": "GDELT · article index",
+          "published_at": "2026-10-20T11:00:00Z",
+          "collected_at": null,
+          "language": "en",
+          "country": ""
+        }
+      ],
+      "digest": "d52ad9f985702e16ecc4",
+      "revision": 1,
+      "updated_at": "2026-10-20T12:05:00.342474Z"
     },
     {
       "id": "GF-A325C18810AEE0",
@@ -1504,7 +1769,7 @@
       "updated_at": "2026-10-20T12:02:20.533246Z"
     },
     {
-      "id": "GF-2CB4FE1D7349B4",
+      "id": "GF-03303938FAA376",
       "title": "السعودية تواصل التصدى لاعتداءات الحوثيين.. تدمير صاروخ باتجاه الرياض و\"فجر اليمن\" مستمرة.. ألوية العمالقة الجنوبية تحبط هجوماً على جبهة كهبوب.. والتحالف يحذر الحوثيين من استخدام وسائط بحرية في تهريب الأسلحة - اليوم السابع",
       "category": "security",
       "topic": "missile",
@@ -1527,26 +1792,26 @@
       ],
       "publisher_count": 1,
       "report_count": 1,
-      "first_published": "2026-10-20T09:39:00Z",
-      "last_published": "2026-10-20T09:39:00Z",
+      "first_published": "2026-10-20T09:45:33Z",
+      "last_published": "2026-10-20T09:45:33Z",
       "event_occurred_at": null,
       "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
       "sources": [
         {
-          "id": "5354c8382702f9e5f7a3d709",
+          "id": "63be38d0d4409459b78580b2",
           "title": "السعودية تواصل التصدى لاعتداءات الحوثيين.. تدمير صاروخ باتجاه الرياض و\"فجر اليمن\" مستمرة.. ألوية العمالقة الجنوبية تحبط هجوماً على جبهة كهبوب.. والتحالف يحذر الحوثيين من استخدام وسائط بحرية في تهريب الأسلحة - اليوم السابع",
           "url": "https://news.google.com/rss/articles/CBMivwRBVV95cUxPelBCRXdKWG02U0JsTTR1U3pfVUNJanpmRS1kM0pWOXdXV1VFN0pyUWc0SFZyRGRkZkhTYlJVSFNLMTZKNUlhcTJsR2I2Tlp5XzBsZ0M3QkZna2JhNEhtWWhFdXRKUlYtamdrZjBoMlFhMWp2VlJOY1lscld0eEtsWGUzZUhWOU9jMTZ0eVNVb2c0TTdjd284al9qRlZmZWxQNUQ3WE83QW5FaUVZakVPQVlzeHNXM0NfLTRFRWx0YVFTWDlMb19YSHJra3d0SXlJUUh3UVRFTFVGY1d6WTRoRWJnX3pQQloyeGpnRkkyVTFWODUxN3h5OENXcUhaNDFPTWxIWjVOU001UW13cUkzY01nZTl5d3locXdUTFFDMHFuNnRBNjlyelJEU0xfb2pXMkY4M3A2NkZXTHh3bUVJaHcwX0I0UVAwdWt4bGg5ZEdCTTFJTXhsN0VWaGxsS2VwbFJVZ1pic0pBQ1VMTjY3MkVQbnlObGVpWUhpczZjZTNJckFZNDJxNERIWmQxV1lpVEJDREhsMXlWWmRtbEZiNlZaZkx0alJqUWg2QUdCY1lJb1BzVGJYSVh5SXdRZ09lRE4xQTRocDFXbVJ2U3pYUURIdzRPS2JqWVlDTC1uNF90N0xuc1FUY1kyc0RnamdfR0dxTUV2WC1hSF9rT1doRjRtbFlZcXctaXpSZkt3aU1jWk41c0t2WHg4dzNDbk9iWTJ1TEd6MTI5dzJlRGg2dGtKZ0FQRnh6YmpkQ1FKa9IBugRBVV95cUxQb3JPTlJfMndXeWYtS0VLVGQtMkZ3dmdrVWs2MzRqRUw2WEVVY3NrM2RnalAtbUpENXN2SXZNMXhfUk1UZFkzbUNKeUdhZXJCRGNtSG9lOUZhV3A5SmRPbTVjajhfc1E2eklMdmEyMXFfODNyS3JPa1hmeVV0YzlGd3hnMDJ6RW1Ick4tamptY28wUGt6azBzckZhVEZjdy1UT3RxUUFFaVd1Y1hETTQ3alRoc2RwbmQwNUw0N091SDVDVzFrdjB5RzR4RVBhX2ZvSnNlNkx1VF9sNVZrVU9sdmk4RkVOVG5fT0xBaEhUUjRPZmhNTWt6cXI0QkY2bEdrc0kzVzdnakx2RGdxcHdXQzRodG9kUW1XeDRCUzV4bi10Mmdhd2ZTeG1IWUNsd01oYkg0NFV6LXBSWE5aV09KakZOVW5XOUxJWm9PU2tzVXFjcFFuX0tiQXVSZ2d6RG5WWThDV3B3dVZjcGp3QmZURGhLR0Y3QkE1THRYcVFoLTBCcU5WWDk4b1ZsbHJZSDdhOFBCejI0a2N3MG5ZWk55dEQ3WlZ4dllxbXlvRE5xdUd5d3lWVHpRN3BXTzJERXRfRlgtZ0FZVEpWWFU3MDVBcndubWlEbDl3ZGliVktsaU5tUFduWGFJSkpueTVPTWxjbklMNVVhZzBnTXhRRUJBNzUzUHFLeUlwRmV4TzVXUkx6Uy1iNlRlWm9nYzZhMHkwQm9ZYUR1NTE1ejRsWUpBTWU3MXptSnlvYlE?oc=5",
           "source": "اليوم السابع",
           "provider": "عربي · السعودية",
-          "published_at": "2026-10-20T09:39:00Z",
+          "published_at": "2026-10-20T09:45:33Z",
           "collected_at": null,
           "language": "ar",
           "country": ""
         }
       ],
-      "digest": "736f75b16a4d82a3c6b8",
-      "revision": 4,
-      "updated_at": "2026-10-20T12:01:01.151751Z"
+      "digest": "a79858b3365c15830283",
+      "revision": 1,
+      "updated_at": "2026-10-20T12:05:00.342474Z"
     },
     {
       "id": "GF-64C0644E4975E0",
@@ -2265,11 +2530,12 @@
     },
     {
       "id": "GF-7AF3BB603BD54F",
-      "title": "\"لن نشن ضربات هجومية\".. بريطانيا ترسل مقاتلات تايفون للدفاع عن السعودية",
+      "title": "الدفاع البريطانية: مقاتلات \"تايفون\" ستشارك في دعم السعودية ضد هجمات الحوثيين",
       "category": "security",
       "topic": "regional",
       "countries": [
-        "Saudi"
+        "Saudi",
+        "Yemen"
       ],
       "location_quality": "country-mention",
       "confidence": null,
@@ -2293,19 +2559,19 @@
       "sources": [
         {
           "id": "d0b5ab21ef3f76e62477406f",
-          "title": "\"لن نشن ضربات هجومية\".. بريطانيا ترسل مقاتلات تايفون للدفاع عن السعودية",
+          "title": "الدفاع البريطانية: مقاتلات \"تايفون\" ستشارك في دعم السعودية ضد هجمات الحوثيين",
           "url": "https://www.aljazeera.net/news/2026/10/20/%d8%b9%d8%a7%d8%ac%d9%84-%d9%88%d8%b2%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%af%d9%81%d8%a7%d8%b9-%d8%a7%d9%84%d8%a8%d8%b1%d9%8a%d8%b7%d8%a7%d9%86%d9%8a%d8%a9-%d9%85%d9%82%d8%a7%d8%aa%d9%84%d8%a7%d8%aa?traffic_source=rss",
           "source": "الجزيرة نت · RSS عربي",
           "provider": "الجزيرة نت · RSS عربي",
           "published_at": "2026-10-20T08:10:31Z",
           "collected_at": null,
           "language": "ar",
-          "country": "Saudi"
+          "country": ""
         }
       ],
-      "digest": "5e715342744578a17314",
-      "revision": 1,
-      "updated_at": "2026-10-20T12:04:09.559389Z"
+      "digest": "284f9f7a33983de2bc27",
+      "revision": 2,
+      "updated_at": "2026-10-20T12:05:00.342474Z"
     },
     {
       "id": "GF-06F4B9E5426BD8",
@@ -2761,6 +3027,50 @@
       "updated_at": "2026-10-20T09:16:22.504036Z"
     },
     {
+      "id": "GF-C42A7B42FCF8BC",
+      "title": "The UK expands military support for Saudi Arabia against Houthis to include ‘defensive’ air patrols - WPRI.com",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T07:02:48Z",
+      "last_published": "2026-10-20T07:02:48Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "a689793e9a592db902002093",
+          "title": "The UK expands military support for Saudi Arabia against Houthis to include ‘defensive’ air patrols - WPRI.com",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPQUxCT3ZMZkZlc1N3SzlLSzZOcUJlWkNqb2xRYUo1bnluMnFWeUdzc005cUdkaHg4dmhmZWN0UnZXZEVSNWtEaUxUaWVoOWFTUE5DNllZbjZfaWFOWHRzSG1zZVFUUXhRSkJwV3c3RXNqMENLODFDcVRHQ2tZcE1LSmhRNDJjekljNVZDeFgyMkkyN2dnZVA2MHQ1TVZtTmJRam1zNEJDZUhmY0FjWUZXTFRNS2J0OWxKd2l6VzVlRUhMb0kwWkxnYklWVmNGems0TEJOWmZ3QkxuOHhf0gHcAUFVX3lxTE9BTEJPdkxmRmVzU3dLOUtLNk5xQmVaQ2pvbFFhSjVueW4ycVZ5R3NzTTlxR2RoeDh2aGZlY3RSdldkRVI1a0RpTFRpZWg5YVNQTkM2WVluNl9pYU5YdHNIbXNlUVRReFFKQnBXdzdFc2owQ0s4MUNxVEdDa1lwTUtKaFE0MmN6SWM1VkN4WDIySTI3Z2dlUDYwdDVNVm1OYlFqbXM0QkNlSGZjQWNZRldMVE1LYnQ5bEp3aXpXNWVFSExvSTBaTGdiSVZWY0Z6azRMQk5aZndCTG44eF8?oc=5",
+          "source": "WPRI.com",
+          "provider": "Google News · security",
+          "published_at": "2026-10-20T07:02:48Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Saudi"
+        }
+      ],
+      "digest": "fee06ecf3c69bc2c44b9",
+      "revision": 1,
+      "updated_at": "2026-10-20T12:05:00.342474Z"
+    },
+    {
       "id": "GF-FB0B7865068A0E",
       "title": "Iran says it shot down US MQ-9 Reaper drone over Strait of Hormuz - Yahoo",
       "category": "security",
@@ -3146,6 +3456,50 @@
       "digest": "3a5ae7ea31d400b9b50a",
       "revision": 2,
       "updated_at": "2026-10-20T07:40:58.957167Z"
+    },
+    {
+      "id": "GF-0C1ECB0DB8659B",
+      "title": "The UK expands military support for Saudi Arabia against Houthis to include ‘defensive’ air patrols - KELOLAND.com",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T06:12:07Z",
+      "last_published": "2026-10-20T06:12:07Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "9ad0d26807d8a8897fdbc252",
+          "title": "The UK expands military support for Saudi Arabia against Houthis to include ‘defensive’ air patrols - KELOLAND.com",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQZGpVMUl4WWwwN2ZaWXRXNU9YS2FZLVo4cVZyVlczNFNKOTlLSlQyTktmNjIxcHVfem9LZTV1MmhKQklXajJ6R0lseEh1dmVnb1Q1ZkY5ZlYwd1VsVmJmeG9xYlRpa0VEZnNjZHFLVXNkR0dPR2pSempZNTAwYktudFJQbnRiUXNDV3g4aHdIbThfZnlualE1VWlNdXFQX1JyZUs0bnV4SENJakwzU0taM0tjeDdCQ085ZEZucU9aYzl6QlB1Q0NmaVEtcHd5X2Q5bjdtTXExY3hWekFMdHhjSi1oaXBFRWZsRnJn0gHrAUFVX3lxTFBkalUxSXhZbDA3ZlpZdFc1T1hLYVktWjhxVnJWVzM0U0o5OUtKVDJOS2Y2MjFwdV96b0tlNXUyaEpCSVdqMnpHSWx4SHV2ZWdvVDVmRjlmVjB3VWxWYmZ4b3FiVGlrRURmc2NkcUtVc2RHR09HalJ6alk1MDBiS250UlBudGJRc0NXeDhod0htOF9meW5qUTVVaU11cVBfUnJlSzRudXhIQ0lqTDNTS1ozS2N4N0JDTzlkRm5xT1pjOXpCUHVDQ2ZpUS1wd3lfZDluN21NcTFjeFZ6QUx0eGNKLWhpcEVFZmxGcmc?oc=5",
+          "source": "KELOLAND.com",
+          "provider": "Google News · security",
+          "published_at": "2026-10-20T06:12:07Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Saudi"
+        }
+      ],
+      "digest": "db23c106d6b353f0f25c",
+      "revision": 1,
+      "updated_at": "2026-10-20T12:05:00.342474Z"
     },
     {
       "id": "GF-66A06914784A80",
@@ -4830,51 +5184,6 @@
       "digest": "1327d1db886c3ec9584f",
       "revision": 2,
       "updated_at": "2026-10-20T07:40:58.957167Z"
-    },
-    {
-      "id": "GF-EB4ADBA3FF937F",
-      "title": "البحرين تعلن اعتراض هجمات إيرانية جديدة.. والكويت تتصدى لصاروخين باليستيين وسط تصعيد أميركي-إيراني - الساحل الغربي",
-      "category": "security",
-      "topic": "interception",
-      "countries": [
-        "Bahrain",
-        "Iran"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "ar"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-19T21:58:54Z",
-      "last_published": "2026-10-19T21:58:54Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "c1138a2262b02b848c7569fe",
-          "title": "البحرين تعلن اعتراض هجمات إيرانية جديدة.. والكويت تتصدى لصاروخين باليستيين وسط تصعيد أميركي-إيراني - الساحل الغربي",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1hcEthLUFQRmFqekJvQkpzMDZNR3Q2MkJKdVVTbkVxRHZiVEdraW5Hb01TMWpDUm5wNDNFdFhqR0JxNlgzNEZ1eGMwc0dXeFE?oc=5",
-          "source": "الساحل الغربي",
-          "provider": "عربي · الإمارات والبحرين",
-          "published_at": "2026-10-19T21:58:54Z",
-          "collected_at": null,
-          "language": "ar",
-          "country": ""
-        }
-      ],
-      "digest": "1e93f43b1dfdfb2b45ce",
-      "revision": 1,
-      "updated_at": "2026-10-20T12:04:09.559389Z"
     },
     {
       "id": "GF-A5770A06CD6844",
@@ -6637,6 +6946,51 @@
       "digest": "64c7018c4568f54faf27",
       "revision": 5,
       "updated_at": "2026-10-20T09:48:10.536726Z"
+    },
+    {
+      "id": "GF-2641AEE1D03B4C",
+      "title": "صواريخ ومسيرات إيرانية تستهدف البحرين والكويت والأردن.. والدفاعات الجوية تتصدى - الساحل الغربي",
+      "category": "security",
+      "topic": "missile",
+      "countries": [
+        "Bahrain",
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-19T16:18:43Z",
+      "last_published": "2026-10-19T16:18:43Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "a655d15acb89d9c6db5135da",
+          "title": "صواريخ ومسيرات إيرانية تستهدف البحرين والكويت والأردن.. والدفاعات الجوية تتصدى - الساحل الغربي",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE15VmNLVDgtRnRBRzRXaVowSlM1cTFRTEtwVGhhS0JoWVRpZ3FpdW1EZXZzdXN3SHcwNXVNV2s1N0tzMU9FYkZEZXFDWUlESWM?oc=5",
+          "source": "الساحل الغربي",
+          "provider": "عربي · الكويت والعراق",
+          "published_at": "2026-10-19T16:18:43Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "digest": "64eb47930abcb277ffab",
+      "revision": 3,
+      "updated_at": "2026-10-20T12:05:00.342474Z"
     },
     {
       "id": "GF-03476150E89A5F",
@@ -26549,6 +26903,52 @@
       "updated_at": "2026-10-20T12:01:01.151751Z"
     },
     {
+      "id": "GF-9F69636A94783D",
+      "title": "إيران تنفي الاتهامات السعودية بالضلوع في هجمات الحوثيين.. وتعرض الوساطة بين الرياض والجماعة - Euronews.com",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Iran",
+        "Saudi",
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-16T16:52:58Z",
+      "last_published": "2026-10-16T16:52:58Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "ed28506edd9df2faf718a26b",
+          "title": "إيران تنفي الاتهامات السعودية بالضلوع في هجمات الحوثيين.. وتعرض الوساطة بين الرياض والجماعة - Euronews.com",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSGVjV0Q1MTlicFZjWUM4ZHF1S3NoQ2NtcmZLbEgxWWxqMEh0T3EtS3FjWXFVTEZtT3BGejU3eUZ4R0lXT1hJZzJBZThuOGM2cWNUaWpRQUpsTTFzZUJnZWFCSnY0N1JsTm5VcHV6MEhoRnBYNDZ3Sm1pdjBPcEs5R0hfVkVIeW5ZVkNQbTBqYUs5a2E4SzNWa19JWlpYTGxoOHRJ?oc=5",
+          "source": "Euronews.com",
+          "provider": "عربي · إيران والخليج",
+          "published_at": "2026-10-16T16:52:58Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "digest": "2364373f6d59210ec260",
+      "revision": 1,
+      "updated_at": "2026-10-20T12:05:00.342474Z"
+    },
+    {
       "id": "GF-6C65F0D672F1C4",
       "title": "UAE residents' update: Saudi flight disruptions, security alerts and latest regional developments - Gulf News",
       "category": "transport",
@@ -41841,7 +42241,7 @@
       "updated_at": "2026-10-20T07:40:58.957167Z"
     },
     {
-      "id": "GF-B32F5A1B194214",
+      "id": "GF-EB4ADBA3FF937F",
       "title": "البحرين تعلن اعتراض هجمات إيرانية جديدة.. والكويت تتصدى لصاروخين باليستيين وسط تصعيد أميركي-إيراني - الساحل الغربي",
       "category": "security",
       "topic": "interception",
@@ -41870,7 +42270,7 @@
       "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
       "sources": [
         {
-          "id": "2504fd05d4905cba0b476519",
+          "id": "c1138a2262b02b848c7569fe",
           "title": "البحرين تعلن اعتراض هجمات إيرانية جديدة.. والكويت تتصدى لصاروخين باليستيين وسط تصعيد أميركي-إيراني - الساحل الغربي",
           "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1hcEthLUFQRmFqekJvQkpzMDZNR3Q2MkJKdVVTbkVxRHZiVEdraW5Hb01TMWpDUm5wNDNFdFhqR0JxNlgzNEZ1eGMwc0dXeFE?oc=5",
           "source": "الساحل الغربي",
@@ -41881,9 +42281,9 @@
           "country": ""
         }
       ],
-      "digest": "3edef38d64d9a8711a92",
+      "digest": "91d855f2809f3e481b57",
       "revision": 2,
-      "updated_at": "2026-10-20T07:40:58.957167Z"
+      "updated_at": "2026-10-20T12:05:00.342474Z"
     },
     {
       "id": "GF-535D35AC374D48",
@@ -43575,51 +43975,6 @@
       "digest": "00ecbc32c5fe17430dd7",
       "revision": 2,
       "updated_at": "2026-10-20T07:40:58.957167Z"
-    },
-    {
-      "id": "GF-2641AEE1D03B4C",
-      "title": "صواريخ ومسيرات إيرانية تستهدف البحرين والكويت والأردن.. والدفاعات الجوية تتصدى - الساحل الغربي",
-      "category": "security",
-      "topic": "missile",
-      "countries": [
-        "Bahrain",
-        "Iran"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "ar"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-13T13:09:10Z",
-      "last_published": "2026-10-13T13:09:10Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "a655d15acb89d9c6db5135da",
-          "title": "صواريخ ومسيرات إيرانية تستهدف البحرين والكويت والأردن.. والدفاعات الجوية تتصدى - الساحل الغربي",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE15VmNLVDgtRnRBRzRXaVowSlM1cTFRTEtwVGhhS0JoWVRpZ3FpdW1EZXZzdXN3SHcwNXVNV2s1N0tzMU9FYkZEZXFDWUlESWM?oc=5",
-          "source": "الساحل الغربي",
-          "provider": "عربي · الكويت والعراق",
-          "published_at": "2026-10-13T13:09:10Z",
-          "collected_at": null,
-          "language": "ar",
-          "country": ""
-        }
-      ],
-      "digest": "b7547e67f32d069beca6",
-      "revision": 2,
-      "updated_at": "2026-10-20T12:04:09.559389Z"
     },
     {
       "id": "GF-4BCF1CEDA6EA75",
@@ -45660,18 +46015,18 @@
   ],
   "country_stats": {
     "Iran": {
-      "events": 365,
-      "reports": 404,
+      "events": 367,
+      "reports": 406,
       "security_coverage": 203,
-      "transport_coverage": 103,
-      "sources": 188
+      "transport_coverage": 104,
+      "sources": 190
     },
     "Saudi": {
-      "events": 351,
-      "reports": 368,
-      "security_coverage": 249,
+      "events": 356,
+      "reports": 373,
+      "security_coverage": 254,
       "transport_coverage": 89,
-      "sources": 191
+      "sources": 196
     },
     "Qatar": {
       "events": 37,
@@ -45688,9 +46043,9 @@
       "sources": 36
     },
     "Bahrain": {
-      "events": 9,
-      "reports": 9,
-      "security_coverage": 7,
+      "events": 8,
+      "reports": 8,
+      "security_coverage": 6,
       "transport_coverage": 0,
       "sources": 5
     },
@@ -45702,11 +46057,11 @@
       "sources": 9
     },
     "Iraq": {
-      "events": 58,
-      "reports": 58,
+      "events": 59,
+      "reports": 59,
       "security_coverage": 53,
       "transport_coverage": 5,
-      "sources": 44
+      "sources": 45
     },
     "Oman": {
       "events": 6,
@@ -45716,11 +46071,11 @@
       "sources": 5
     },
     "Yemen": {
-      "events": 159,
-      "reports": 162,
-      "security_coverage": 140,
+      "events": 164,
+      "reports": 167,
+      "security_coverage": 145,
       "transport_coverage": 18,
-      "sources": 88
+      "sources": 92
     },
     "Israel": {
       "events": 45,
@@ -45738,44 +46093,36 @@
     "2026-10-08": 1,
     "2026-10-10": 1,
     "2026-10-12": 6,
-    "2026-10-13": 102,
+    "2026-10-13": 101,
     "2026-10-14": 124,
     "2026-10-15": 111,
-    "2026-10-16": 108,
+    "2026-10-16": 109,
     "2026-10-17": 166,
     "2026-10-18": 131,
     "2026-10-19": 171,
-    "2026-10-20": 99
+    "2026-10-20": 107
   },
   "revisions": [
     {
-      "id": "GF-EAE814B180623B",
-      "revision": 5,
-      "at": "2026-10-20T12:04:09.559389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 2
-    },
-    {
-      "id": "GF-25B21562FF03E0",
+      "id": "GF-7AF3BB603BD54F",
       "revision": 2,
-      "at": "2026-10-20T12:04:09.559389Z",
+      "at": "2026-10-20T12:05:00.342474Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
-      "new_source_count": 2
-    },
-    {
-      "id": "GF-648DBE1290C3B1",
-      "revision": 4,
-      "at": "2026-10-20T12:04:09.559389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 4
+      "new_source_count": 1
     },
     {
       "id": "GF-2641AEE1D03B4C",
+      "revision": 3,
+      "at": "2026-10-20T12:05:00.342474Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-EB4ADBA3FF937F",
       "revision": 2,
-      "at": "2026-10-20T12:04:09.559389Z",
+      "at": "2026-10-20T12:05:00.342474Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
