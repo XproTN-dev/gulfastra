@@ -26,6 +26,17 @@ A free, public-source regional news monitoring dashboard hosted on GitHub Pages.
 
 Each feed is monitored separately. GitHub Actions scheduled jobs are **best effort** and may be delayed. Refreshing the website does not force GitHub Actions to run.
 
+
+## Arabic and local Gulf coverage (v4)
+
+- Arabic Google News searches (Arabic locale QA) for missile and drone claims, air-defense and interception reporting, regional maritime and aviation disruptions, and statements concerning Qatar, Saudi Arabia, the UAE, Bahrain, Kuwait, Iraq, Iran and Hormuz.
+- Arabic publisher-targeted news search for Al Jazeera Arabic (الجزيرة), Al Arabiya (العربية), Asharq (الشرق), and regional agencies: QNA / SPA / WAM / KUNA / BNA.
+- Direct Al Jazeera Arabic RSS at `https://www.aljazeera.net/rss` (if the publisher continues to offer it).
+- Arabic headlines display with RTL direction and native MapLibre v6 Arabic shaping on the map. Language tabs support ALL / عربي / ENGLISH.
+- **Nabd** is provided through links to its public news/category pages and the original Gulf publishers it aggregates. We do **not** claim that Nabd publishes an unrestricted public data API or that Gulfastra automatically scrapes its private app feed.
+- **X / Twitter** is an opt-in external search watch panel for current public posts. X's official API charges for read/search access; Gulfastra's free edition does **not** ingest posts via X's paid API. Treat social posts as unverified until corroborated.
+- Regional reporting can mention multiple countries. Country markers refer to mentioned countries, not to alleged impact sites or live military movement. Country circles are tested against the map projection to catch misplaced markers.
+
 ## Setup / deploy
 
 1. Go to repository Settings → Pages → Source: GitHub Actions.
