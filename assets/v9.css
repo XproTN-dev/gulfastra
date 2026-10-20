@@ -154,7 +154,7 @@ body[data-v9-palette="ember"] .map-stage .maplibregl-canvas{filter:brightness(.6
 .v9-ticker-age{display:flex;align-items:center;padding:0 10px;border-left:1px solid var(--cmd-line);flex:none;
  color:var(--cmd-dim);font:700 8px "IBM Plex Mono",monospace}
 @keyframes v9news{from{transform:translateX(3%)}to{transform:translateX(-50%)}}
-.v9-panels{position:absolute;inset:48px 118px 38px 120px;z-index:75;pointer-events:none}
+.v9-panels{position:absolute;inset:92px 118px 38px 120px;z-index:75;pointer-events:none}
 .v9-panel{position:absolute;top:12%;left:22%;width:370px;min-width:260px;max-width:min(94vw,590px);
  height:350px;min-height:180px;max-height:calc(100dvh - 115px);resize:both;overflow:hidden;
  display:flex;flex-direction:column;pointer-events:auto;background:var(--cmd-panel);color:var(--cmd-ink);
@@ -217,7 +217,7 @@ body[data-v9-palette="ember"] .map-stage .maplibregl-canvas{filter:brightness(.6
 @media(max-width:920px){
  .v9-primary-nav{top:46px}
  .v9-top-status{top:82px}
- .v9-panels{inset:85px 18px 56px 112px}
+ .v9-panels{inset:120px 18px 56px 112px}
  .globalbar{padding:0 9px!important}
  .v9-dock{left:5px;width:96px}
  .v9-map-tools{right:5px}
