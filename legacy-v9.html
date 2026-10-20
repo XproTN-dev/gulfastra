@@ -1,0 +1,12 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>GULFASTRA v9 Archive</title>
+<meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex">
+<style>body{margin:0;background:#07121c;color:#d6e8ee;font:14px system-ui;display:grid;place-items:center;min-height:100vh}a{color:#5ad1ef}</style></head>
+<body><main><strong>Loading the preserved GULFASTRA v9 application…</strong><p><a href="./command/">Return to GULFASTRA X</a></p></main>
+<script>
+/* GULFASTRA LEGACY LOADER — pinned immutable repository revision */
+fetch('https://raw.githubusercontent.com/XproTN-dev/gulfastra/d090b322913dab3cfed53f0dbb58a2746075bda3/index.html',{cache:'force-cache'})
+.then(r=>{if(!r.ok)throw Error('Version archive unavailable');return r.text()})
+.then(original=>{if(!original.includes('assets/v9.css'))throw Error('Unexpected archived version');
+ document.open();document.write(original.replace('<head>','<head><base href="https://xprotn-dev.github.io/gulfastra/">'));document.close()})
+.catch(e=>{document.querySelector('main').insertAdjacentHTML('beforeend','<p>Legacy archive could not be loaded. The original source remains in the <a href="https://github.com/XproTN-dev/gulfastra/tree/d090b322913dab3cfed53f0dbb58a2746075bda3">GitHub revision history</a>.</p>')});
+</script></body></html>
