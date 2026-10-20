@@ -2,7 +2,7 @@
 (function(root){
 "use strict";
 const C=root.GXCore,$=id=>document.getElementById(id),fmt=n=>Number(n||0).toLocaleString();
-let DATA=()=>({}),CTX=()=>({}),onFilter=()=>{};
+let DATA=()=>({}),CTX=()=>({}),onFilter=()=>{},xEmbedsEnabled=false;
 const tag=(s,t="")=>'<span class="tag '+C.esc(t)+'">'+C.esc(s)+'</span>';
 const val=x=>C.esc(x??"Unknown");
 function fact(label,value){return '<div><small>'+val(label)+'</small><strong>'+val(value)+'</strong></div>'}
@@ -33,6 +33,21 @@ function cardObs(o){
 function cardAlert(a){
  return '<button class="intel-card" data-open="alert" data-id="'+val(a.id)+'"><div class="tags">'+tag("CRITICAL PUBLIC REPORTING","critical")+tag("UNVERIFIED","warn")+'</div>'+
  '<h3 dir="auto">'+val(a.title)+'</h3><div class="smallmeta"><span>'+fmt(a.outlet_count)+' OUTLETS</span><span>'+C.age(a.published_at)+'</span></div></button>';
+}
+function loadXTimelines(){
+ xEmbedsEnabled=true;
+ const slot=$("xTimelineSlot");
+ if(!slot)return;
+ slot.innerHTML='<div class="notice-box">Public timelines are rendered directly by X. X may use cookies and may require login; this content is not part of GULFASTRA critical alerts.</div>'+
+ '<div class="brief-box"><a class="twitter-timeline" data-theme="dark" data-height="380" href="https://x.com/QNAEnglish">Latest public posts from QNA English</a></div>'+
+ '<div class="brief-box"><a class="twitter-timeline" data-theme="dark" data-height="380" href="https://x.com/QatarNewsAgency">Latest public posts from Qatar News Agency (Arabic)</a></div>';
+ if(window.twttr?.widgets?.load){window.twttr.widgets.load(slot);return}
+ if(document.getElementById("gxXEmbedLoader"))return;
+ const loader=document.createElement("script");
+ loader.id="gxXEmbedLoader";loader.async=true;loader.src="https://platform.twitter.com/widgets.js";
+ loader.onerror=()=>{slot.insertAdjacentHTML("beforeend",
+ '<p class="notice-box">X embed unavailable in this browser. Use the account links above to open posts on X.</p>')};
+ document.head.appendChild(loader);
 }
 function cardAdvisory(a){
  return '<button class="intel-card official-advisory" data-open="advisory" data-id="'+val(a.id)+'">'+
@@ -124,7 +139,10 @@ function render(ctx,d){
    link("https://x.com/search?q=%22Qatar%22%20%22security%22&f=live","QATAR SECURITY · X SEARCH")+
    link("https://x.com/search?q=%22Strait%20of%20Hormuz%22&f=live","HORMUZ / SHIPPING · X SEARCH")+
    link("https://x.com/search?q=%22Gulf%22%20%22airspace%22&f=live","GULF AVIATION · X SEARCH")+
-   '<p>These are external live X search pages, not posts ingested or checked by GULFASTRA.</p></div>'+
+   '<p>These are external X search pages, not posts ingested or checked by GULFASTRA.</p></div>'+
+   '<div class="brief-box"><button type="button" class="linebutton" data-action="load-x-timelines">LOAD PUBLIC X PROFILE TIMELINES (OFFICIAL X WIDGET)</button>'+
+   '<small>Loads an external X widget only after your click. If blocked, profile links remain available.</small></div>'+
+   '<div id="xTimelineSlot"></div>'+
    '<div class="brief-box">X API STATUS: '+val(status).toUpperCase()+
    '<p>One capped search per six hours at most when explicitly enabled; never a continuous stream.</p></div>'+
    d.social.slice(0,70).map(cardSocial).join("");
@@ -134,6 +152,7 @@ function render(ctx,d){
  $("streamHeading").textContent=({priority:"INTELLIGENCE STREAM",events:"EVENT EVIDENCE",news:"PUBLIC NEWS WIRE",advisories:"PUBLIC ADVISORIES",social:"X PUBLIC POSTS",sources:"SOURCE HEALTH",brief:"SITUATION REPORT"})[tab]||"INTELLIGENCE";
  $("streamSummary").textContent=description;
  root.innerHTML=markup||'<div class="empty-state">No matching public records for this period. Select ALL to examine the archive. Lack of reporting does not imply safety.</div>';
+ if(tab==="social"&&xEmbedsEnabled)loadXTimelines();
 }
 function showDossier(type,id){
  const d=DATA(),ctx=CTX();let item,body="";
@@ -196,5 +215,5 @@ function showDossier(type,id){
  $("dossierBackdrop").hidden=false;$("dossier").hidden=false;$("dossierClose").focus();
 }
 function hideDossier(){$("dossierBackdrop").hidden=true;$("dossier").hidden=true}
-root.GXStream={init(dataFn,contextFn,filterFn){DATA=dataFn;CTX=contextFn;onFilter=filterFn},render,showDossier,hideDossier,cardEvent,cardReport,cardObs};
+root.GXStream={init(dataFn,contextFn,filterFn){DATA=dataFn;CTX=contextFn;onFilter=filterFn},render,showDossier,hideDossier,loadXTimelines,cardEvent,cardReport,cardObs};
 })(window);
