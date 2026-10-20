@@ -1,7 +1,7 @@
 {
   "version": 6,
-  "last_run": "2026-10-20T22:32:08.637740Z",
-  "last_successful_run": "2026-10-20T22:32:08.637740Z",
+  "last_run": "2026-10-20T22:32:41.537804Z",
+  "last_successful_run": "2026-10-20T22:32:41.537804Z",
   "successful_sources": 30,
   "reports": [
     {
@@ -2318,29 +2318,6 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
-      "id": "c0dec9c7c4b1b647d4ee10ed",
-      "title": "بريطانيا ترسل مقاتلات تايفون لحماية السعودية من الصواريخ والمسيّرات.. تفاصيل المهمة العسكرية - nedaelwatan.com",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQal8yMGlTcUdKZDc0YVI3UHlGUUlhcE5tTWhOQ1FjbGFlLThKdEI4MUl3V1lsd1J6UlJaSl9iVkkwcFZQa3NvSTdzTW1SV1VJcHl0S2pnWHdHdWpKc05kamJmaXNmTEtLQUcxbEdnelNhVXV1REQ2VWl6RGhISl9ZUUQxc0RDeUlH?oc=5",
-      "source": "nedaelwatan.com",
-      "published_at": "2026-10-20T15:21:46Z",
-      "country": "Saudi",
-      "countries": [
-        "Saudi"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "تقرير عن صواريخ",
-      "provider": "عربي · السعودية",
-      "first_seen_at": "2026-10-20T21:34:46.172984Z",
-      "date_quality": "publisher-time",
-      "freshness": "recent-reporting",
-      "context": "reporting",
-      "severity": "routine-reporting",
-      "critical_candidate": false,
-      "alert_eligible": false,
-      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
-    },
-    {
       "id": "64ea4b937b3534a1517d68f7",
       "title": "أمريكا تكذب إيران وتنفي اصطدام سفن تجارية بألغام في مضيق هرمز - Masrawy",
       "url": "https://news.google.com/rss/articles/CBMiqwRBVV95cUxPV0JlcUdKU09GRGpWamxQczNWa2ZZNXRIVElvdmg3aEE2MkZPQXl4d1ZzTEFEbGZaRndTcjIzWFV2ZkU2NmtOX3BDMUYwdU4xV091VDIwWHVtS2tDZHhLVlpwUTBleDBWLVNsZUVydmU1dHR3aVBfYUZ1NjhtNm56dWVyVVpaZzNhRUVJOURLWjFob0VqdHhKSzdWUUs4ZHZRdk9HNV9sWDZMalFoZHlma1ZKc2poNGdtWWdIdkxWbmZnNEViWW5mUDZSR3BwT3RZbUpWMGZwLWpLTS1RM2g3TUdFcl9CdnVJZ3JtZGt2TDEzenFMbUVUYVdIeWpGYjR5LVZjazJTczNCV201YVgwZDVqN1p3R3BDRlBCMXJKWjJzWXBESHluZUtiMmpXSjdENUNJTm8wQW80SWhYaUdUVXBHeExHWmVIQXlWc1VGSDlMNV9tdk5lVzloWFlDWnFUdkdqTUFiYU42enhMZTRaRVRQU2hyS1ptUnI1dTFTV0Q0OUJRcEU3MTJlMU9MVnBXTkZhX1FCR1ktdnlLQzM1Xy1aRmtzNVdRNktvWWdwUkM4RXNoUWllUGhOUDFiakQ4dkk3bEpwOF9INDZ0OEpYN3lxVWJoa2dWRW1raGZwdzljNEhzM1VsTk9sR3g0SmlsOGxLbC01VExVQkFHMmJXczFLV1I0Y04ybE1qWTJ1R2VicHZxUFQtNk9vM19aS1R5c01YVUl0bnE1blnSAasEQVVfeXFMT1dCZXFHSlNPRkRqVmpsUHMzVmtmWTV0SFRJb3ZoN2hBNjJGT0F5eHdWc0xBRGxmWkZ3U3IyM1hVdmZFNjZrTl9wQzFGMHVOMVdPdVQyMFh1bUtrQ2R4S1ZacFEwZXgwVi1TbGVFcnZlNXR0d2lQX2FGdTY4bTZuenVlclVaWmczYUVFSTlES1oxaG9FanR4Sks3VlFLOGR2UXZPRzVfbFg2TGpRaGR5ZmtWSnNqaDRnbVlnSHZMVm5mZzRFYlluZlA2UkdwcE90WW1KVjBmcC1qS00tUTNoN01HRXJfQnZ1SWdybWRrdkwxM3pxTG1FVGFXSHlqRmI0eS1WY2syU3MzQldtNWFYMGQ1ajdad0dwQ0ZQQjFySloyc1lwREh5bmVLYjJqV0o3RDVDSU5vMEFvNEloWGlHVFVwR3hMR1plSEF5VnNVRkg5TDVfbXZOZVc5aFhZQ1pxVHZHak1BYmFONnp4TGU0WkVUUFNocktabVJyNXUxU1dENDlCUXBFNzEyZTFPTFZwV05GYV9RQkdZLXZ5S0MzNV8tWkZrczVXUTZLb1lncFJDOEVzaFFpZVBoTlAxYmpEOHZJN2xKcDhfSDQ2dDhKWDd5cVViaGtnVkVta2hmcHc5YzRIczNVbE5PbEd4NEppbDhsS2wtNVRMVUJBRzJiV3MxS1dSNGNOMmxNalkydUdlYnB2cVBULTZPbzNfWktUeXNNWFVJdG5xNW5Z?oc=5",
@@ -2378,6 +2355,29 @@
       "tag": "DIPLOMACY REPORT",
       "provider": "Google News · diplomacy",
       "first_seen_at": "2026-10-20T17:30:36.865670Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "c0dec9c7c4b1b647d4ee10ed",
+      "title": "بريطانيا ترسل مقاتلات تايفون لحماية السعودية من الصواريخ والمسيّرات.. تفاصيل المهمة العسكرية - nedaelwatan.com",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQal8yMGlTcUdKZDc0YVI3UHlGUUlhcE5tTWhOQ1FjbGFlLThKdEI4MUl3V1lsd1J6UlJaSl9iVkkwcFZQa3NvSTdzTW1SV1VJcHl0S2pnWHdHdWpKc05kamJmaXNmTEtLQUcxbEdnelNhVXV1REQ2VWl6RGhISl9ZUUQxc0RDeUlH?oc=5",
+      "source": "nedaelwatan.com",
+      "published_at": "2026-10-20T15:07:03Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير عن صواريخ",
+      "provider": "عربي · السعودية",
+      "first_seen_at": "2026-10-20T21:34:46.172984Z",
       "date_quality": "publisher-time",
       "freshness": "recent-reporting",
       "context": "reporting",
@@ -34989,12 +34989,12 @@
     "Google News · security": {
       "ok": true,
       "items": 100,
-      "relevant": 71
+      "relevant": 73
     },
     "Google News · aviation": {
       "ok": true,
-      "items": 87,
-      "relevant": 81
+      "items": 89,
+      "relevant": 83
     },
     "Google News · shipping": {
       "ok": true,
@@ -35014,7 +35014,7 @@
     "Reuters · indexed Gulf reporting": {
       "ok": true,
       "items": 100,
-      "relevant": 30
+      "relevant": 21
     },
     "AP · indexed Gulf reporting": {
       "ok": true,
@@ -35033,28 +35033,28 @@
     },
     "عربي · إيران والخليج": {
       "ok": true,
-      "items": 51,
-      "relevant": 38
+      "items": 52,
+      "relevant": 39
     },
     "عربي · قطر": {
       "ok": true,
-      "items": 57,
-      "relevant": 25
+      "items": 29,
+      "relevant": 14
     },
     "عربي · السعودية": {
       "ok": true,
-      "items": 56,
-      "relevant": 34
+      "items": 100,
+      "relevant": 52
     },
     "عربي · الإمارات والبحرين": {
       "ok": true,
-      "items": 61,
+      "items": 62,
       "relevant": 46
     },
     "عربي · الكويت والعراق": {
       "ok": true,
-      "items": 52,
-      "relevant": 49
+      "items": 50,
+      "relevant": 47
     },
     "عربي · مضيق هرمز": {
       "ok": true,
@@ -35074,12 +35074,12 @@
     "عربي · الشرق": {
       "ok": true,
       "items": 100,
-      "relevant": 32
+      "relevant": 33
     },
     "عربي · وكالات الخليج": {
       "ok": true,
       "items": 100,
-      "relevant": 28
+      "relevant": 29
     },
     "الجزيرة نت · RSS عربي": {
       "ok": true,
