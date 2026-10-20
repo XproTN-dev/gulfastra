@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "generated_at": "2026-10-20T10:12:39.488669Z",
+  "generated_at": "2026-10-20T10:18:19.020775Z",
   "model": "deterministic-source-correlation-v1",
   "disclaimer": "Clusters are related PUBLIC REPORTS, not confirmed incidents. Source counts are not proof. Country names are mentions, not incident locations.",
   "events": [
@@ -27,8 +27,8 @@
       ],
       "publisher_count": 1,
       "report_count": 1,
-      "first_published": "2026-10-20T10:11:26Z",
-      "last_published": "2026-10-20T10:11:26Z",
+      "first_published": "2026-10-20T10:10:56Z",
+      "last_published": "2026-10-20T10:10:56Z",
       "event_occurred_at": null,
       "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
       "sources": [
@@ -38,15 +38,15 @@
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOcVI5b0pqTTFocTVZQkhIZ2dZdFlkVnpxSkNVTWdzRkZoTHZ3SEFDS3o2V2JBV0txUHMyU0NxZ3l0aTlkN09YU2xnOHF6cHhNOTJPQUFyb3ZMLXFxeWxwUmVGRFJZOVdoZnRNMF9iN1JTZE5JY0N4ZFczSHlBeERoRU1vMFkweUZpMUlNbG5n?oc=5",
           "source": "nedaelwatan.com",
           "provider": "عربي · قطر",
-          "published_at": "2026-10-20T10:11:26Z",
+          "published_at": "2026-10-20T10:10:56Z",
           "collected_at": null,
           "language": "ar",
           "country": "Qatar"
         }
       ],
-      "digest": "b08b8a73a9723f2d85c4",
-      "revision": 1,
-      "updated_at": "2026-10-20T10:12:39.488669Z"
+      "digest": "fb25242b4b136680b57d",
+      "revision": 2,
+      "updated_at": "2026-10-20T10:18:19.020775Z"
     },
     {
       "id": "GF-EAE814B180623B",
@@ -907,7 +907,7 @@
       "updated_at": "2026-10-20T09:29:36.544778Z"
     },
     {
-      "id": "GF-942CF8570A79FC",
+      "id": "GF-0CAE84DCDF881B",
       "title": "Houthi Missile Strike Kills At Least 53 at Yemeni Military Camp - https://globalpost.com/",
       "category": "security",
       "topic": "missile",
@@ -917,7 +917,7 @@
       "location_quality": "country-mention",
       "confidence": null,
       "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
+      "corroboration": "multi-publisher-unverified",
       "cross_language_candidate": false,
       "wording_review": {
         "potentially_divergent_wording": false,
@@ -927,9 +927,9 @@
       "languages": [
         "en"
       ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-20T07:39:36Z",
+      "publisher_count": 2,
+      "report_count": 2,
+      "first_published": "2026-10-19T16:15:54Z",
       "last_published": "2026-10-20T07:39:36Z",
       "event_occurred_at": null,
       "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
@@ -944,11 +944,22 @@
           "collected_at": null,
           "language": "en",
           "country": "Yemen"
+        },
+        {
+          "id": "f960ac7200a3707ddc5b2232",
+          "title": "Houthi missile strike kills 53 at Yemen military camp - Yeni Şafak English",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOS0hpMkNMNVVmTEhzNHExVTU0dXNGeWMtaUQxeUdjMjhSWDVHeVROY0phVWRJVkpkel9FRG5PODhkb0tIaEg2eXhBWTN2UlhhLW9sb3c0VFNVb19rdGY0U1IzMDhId0dtQ0wtdnQxem5zcXdyR3NEN0NXYmhJcjcwc3lKcU9GX2g1enk3OWppS3pkbHpsYlJZ?oc=5",
+          "source": "Yeni Şafak English",
+          "provider": "Google News · security",
+          "published_at": "2026-10-19T16:15:54Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Yemen"
         }
       ],
-      "digest": "dbcf0975144805caba37",
+      "digest": "7f4c00f587ded1c7c047",
       "revision": 1,
-      "updated_at": "2026-10-20T07:40:58.957167Z"
+      "updated_at": "2026-10-20T10:18:19.020775Z"
     },
     {
       "id": "GF-7F41EBC6434375",
@@ -1085,6 +1096,50 @@
       "updated_at": "2026-10-20T07:40:58.957167Z"
     },
     {
+      "id": "GF-6CAD85AAB45D02",
+      "title": "9-Dey: Iran’s close-in air defense shield protecting its missile arsenal against advanced aerial threats - PressTV",
+      "category": "security",
+      "topic": "interception",
+      "countries": [
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T07:14:00Z",
+      "last_published": "2026-10-20T07:14:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "d2828278da80d5846a588445",
+          "title": "9-Dey: Iran’s close-in air defense shield protecting its missile arsenal against advanced aerial threats - PressTV",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOTWdEc2g1V0t4OTV3UHJRN2ZuV2UzcVNKM2NJTXRGT09RUHRtNGJRcV9mQkJ6aTNrRXg2V3F4dHVQMUN1Zlp0MGMyaEZfWGplLWVIZjlkcVRMX0tsNlZfNFhDRWRWS0hyN2dtcm1OMnl2RjBwY3B1MDh1M3FyZW1EczR4Z3gzWlBJZk1icmZFbURobFY1dFlXRk9pZVdyc1ZMSjg5RDVlYVhEeFRGS3h3bURCeUxjY0lXUWswa2Z5SlVDSTJvWXl0eDNhQmctdEpWd3RyWFZn?oc=5",
+          "source": "PressTV",
+          "provider": "Google News · security",
+          "published_at": "2026-10-20T07:14:00Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Iran"
+        }
+      ],
+      "digest": "20fb57ae5dd954d6e48f",
+      "revision": 1,
+      "updated_at": "2026-10-20T10:18:19.020775Z"
+    },
+    {
       "id": "GF-8EF3E427FBFF16",
       "title": "منتدى الأمن العالمي.. قطر تدعو لحماية الأمن المائي وتعزيز الدبلوماسية الإنسانية - الجزيرة نت",
       "category": "diplomacy",
@@ -1127,6 +1182,50 @@
       "digest": "05afc2a789b376c56c7a",
       "revision": 1,
       "updated_at": "2026-10-20T07:56:05.543708Z"
+    },
+    {
+      "id": "GF-B4B098E414E713",
+      "title": "Yemen’s war escalates with deadly Houthi strike on military recruits - Middle East Online",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T07:07:15Z",
+      "last_published": "2026-10-20T07:07:15Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "2e6d304e8832b9a80bbe332c",
+          "title": "Yemen’s war escalates with deadly Houthi strike on military recruits - Middle East Online",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUW4xWU9ENmdhMmNMaWZwVWJqeURMTUdhY2IxZmhZSFg5SGR6T0gxQ3RkRzVYNGVYYnNPcjVsTU04RDdjcU1VNlFZbFpPbC0yb1l4bTFVMkVuUlNnUWxpMGh4YVNodHl4eExHcnl1ZTU2OEZBN1FpcThadlQwZE91b2NlVWVjZGdaTjNEaWpzZVRyeGVtclhwajBJdXlROGx5TkFqYw?oc=5",
+          "source": "Middle East Online",
+          "provider": "Google News · security",
+          "published_at": "2026-10-20T07:07:15Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Yemen"
+        }
+      ],
+      "digest": "13c556ecda2ef76efb98",
+      "revision": 1,
+      "updated_at": "2026-10-20T10:18:19.020775Z"
     },
     {
       "id": "GF-C5B784115D8C09",
@@ -3985,6 +4084,50 @@
       "updated_at": "2026-10-20T09:16:22.504036Z"
     },
     {
+      "id": "GF-1AE9601BFE9228",
+      "title": "Juba military hospital admits 21 following Jebel Iraq attack - Eye Radio",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Iraq"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-19T19:46:05Z",
+      "last_published": "2026-10-19T19:46:05Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "46a0bbddfbe2e1ba87cd3c9a",
+          "title": "Juba military hospital admits 21 following Jebel Iraq attack - Eye Radio",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPVHlHckRzcUFacUY0aVR4RTJkTWVEbDF6TG1EaGRhbWlRZ1pGRXhZUWV5dEx2WlpvMFAwVE5MNlo3NjFMMkk4OW40YzNnVGlyN2NOU1h1ZTJjZDBqbFg1WkpqV2Q4ZzJKNnhRT2tNdGhjWDVrUjdmazN3SVhwZkdDY3RDQzJicjhxV0HSAY8BQVVfeXFMTURTcG8yUGV1c2JfZnhGaGU4b0hnVlBOVURxdGJzS1JSNkNjbmZJR0lVSjRBcThlUzhTMy1oMWN4QnZ3eGVpcHJRaEFLV05LaUxvb2sxa3ZybTBaTHBtajNFUmtWemNacEJJbXNhTkRWU0pvV1ljenRvcXM3QnFXNUFNZ0FVM09ZTjZKbE95anc?oc=5",
+          "source": "Eye Radio",
+          "provider": "Google News · security",
+          "published_at": "2026-10-19T19:46:05Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Iraq"
+        }
+      ],
+      "digest": "6c36ec650775351c8ee5",
+      "revision": 1,
+      "updated_at": "2026-10-20T10:18:19.020775Z"
+    },
+    {
       "id": "GF-4F2A6202C7D9A0",
       "title": "إعلام إسرائيلي: إطلاق صاروخ اعتراضي شمال البلاد والجيش يحقق في الملابسات - صوت الإمارات",
       "category": "security",
@@ -4922,6 +5065,50 @@
       "updated_at": "2026-10-20T07:40:58.957167Z"
     },
     {
+      "id": "GF-CD0101CBAAC63A",
+      "title": "US Says it Struck Iranian Military Sites, Tehran Responds with Air Base Attack - EnergyNow.com",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-19T16:25:52Z",
+      "last_published": "2026-10-19T16:25:52Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "edd828b07c837e4813870281",
+          "title": "US Says it Struck Iranian Military Sites, Tehran Responds with Air Base Attack - EnergyNow.com",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZXBFSTJUZDVqVmk2cllmdWlpUGZ0TGtmZlZYZW1OLWY4c2YzX2ZYSXZIS2hzX1RPZWhXYzh6VXg4UTRuUTB0QjVwdnNoMnhUYmJtZVFsUVRxdFhKYzNISXpXbTF3UjFyVG1FczBrcThVUS1BUnk3cDJvN2J6YnZXNG9kM1k2aFhGZGRxYzVjTWI1MnZWbU85NldTNkdLREVVQnA5ZWpjOG15TG9k?oc=5",
+          "source": "EnergyNow.com",
+          "provider": "Google News · security",
+          "published_at": "2026-10-19T16:25:52Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Iran"
+        }
+      ],
+      "digest": "fde98e2f2168df19d0a1",
+      "revision": 1,
+      "updated_at": "2026-10-20T10:18:19.020775Z"
+    },
+    {
       "id": "GF-9709CEC5B9BDEC",
       "title": "Houthi missile strike on Yemen camp kills 50 security recruits, local authorities say",
       "category": "security",
@@ -5008,6 +5195,51 @@
       "digest": "64c7018c4568f54faf27",
       "revision": 5,
       "updated_at": "2026-10-20T09:48:10.536726Z"
+    },
+    {
+      "id": "GF-B09D0E6ED840BC",
+      "title": "صواريخ ومسيرات إيرانية تستهدف البحرين والكويت والأردن.. والدفاعات الجوية تتصدى - الساحل الغربي",
+      "category": "security",
+      "topic": "missile",
+      "countries": [
+        "Bahrain",
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-19T16:18:43Z",
+      "last_published": "2026-10-19T16:18:43Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "02c49dcc3c7682d913adc079",
+          "title": "صواريخ ومسيرات إيرانية تستهدف البحرين والكويت والأردن.. والدفاعات الجوية تتصدى - الساحل الغربي",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE15VmNLVDgtRnRBRzRXaVowSlM1cTFRTEtwVGhhS0JoWVRpZ3FpdW1EZXZzdXN3SHcwNXVNV2s1N0tzMU9FYkZEZXFDWUlESWM?oc=5",
+          "source": "الساحل الغربي",
+          "provider": "عربي · الكويت والعراق",
+          "published_at": "2026-10-19T16:18:43Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "digest": "a3c5bf17afc190f70092",
+      "revision": 8,
+      "updated_at": "2026-10-20T10:18:19.020775Z"
     },
     {
       "id": "GF-03476150E89A5F",
@@ -5152,6 +5384,53 @@
       "digest": "646c82eacf8f17d9a550",
       "revision": 2,
       "updated_at": "2026-10-20T07:40:58.957167Z"
+    },
+    {
+      "id": "GF-E78D0DFF6B4DE3",
+      "title": "US-Israel-Iran War Latest Live News: Houthis Claim Yemen Military Camp Attack as Death Toll Rises to 53; Lavrov Meets Araghchi in Tehran, Pakistan Backs Saudi Arabia - The Sunday Guardian",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Iran",
+        "Israel",
+        "Saudi",
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-19T16:07:21Z",
+      "last_published": "2026-10-19T16:07:21Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "5f25ed1feba0d44ce0c0e463",
+          "title": "US-Israel-Iran War Latest Live News: Houthis Claim Yemen Military Camp Attack as Death Toll Rises to 53; Lavrov Meets Araghchi in Tehran, Pakistan Backs Saudi Arabia - The Sunday Guardian",
+          "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxQZkU1cW1Ec2FzVUVUWXVtMkE1NG5Jc2VkUmFrejU4Nl9EMGlEdGVYelBpdUc2OUMybU1iX3J4dzBxTE1uSDd4WjM1OWdUSWh6Ym9WSDB0RHJwZndUc191TlhtVlhwZ0p5RngxNXpucmxzY09xZzl1S1NCem8zaGJkOEItaVRSR2FBMFpCc1FBQzBNcFdYaVhkX1VoSFVDb3BRSlRSZEltbEpuaG16UWp1YzVmVmtXTjdPX0J2cW9DS1dCVHJFbDFESUdMSWpZVGJ6c3JZLUU0cEJZbTRsTjhUMUNZRUMyM0htYlNLZzIyaGQ5X0QzQkhvaVBYUEx4dE03Wk5YX19yNS0wOThfNFlnbE5hZnFBaUh5NTZrRXI2UzVkM3djV3J6TkhBX1VyUi1f0gG2AkFVX3lxTFBaVFdFZjdvNHFUeFRiOE5HUkt5eU9Ub1lFM2lnUlc2QWo1ZXZVa3hscXJiX2dVXzN2YVRhUHk1aXFvTXRJYTIzblhhcUdWUUxyQjZXcmRITXRmZndTc1dzUkdGOXprTlh6bHVlUTZNaXZxS1lhbVNfSkNFQ2w0MHZ1NWo4WVYyYjA3Zms3d3U5UXZENVFJcUNiZmw1eUdKcTRTNTQxR0xPMUtHOXE4ZGhqWWVxVjlQNW1FbmNZbU9DREMwUG9CLW9KZHBqcEZtQzhmN2lPY1I0aHczaUhvWHpTWHVfS05ObDIxa3VsQnprXzdQOE1BdW82QjJRVlIxaVZFZkdVdFczVFdhTENseE5xdDlxWk5aaXZaVXVyODk1eGprWF96WFVvbWFwbUJLU1Jpc2x6LWc?oc=5",
+          "source": "The Sunday Guardian",
+          "provider": "Google News · security",
+          "published_at": "2026-10-19T16:07:21Z",
+          "collected_at": null,
+          "language": "en",
+          "country": ""
+        }
+      ],
+      "digest": "097789340d6a6bf2b42c",
+      "revision": 1,
+      "updated_at": "2026-10-20T10:18:19.020775Z"
     },
     {
       "id": "GF-20D79090F74752",
@@ -5678,6 +5957,50 @@
       "digest": "6c79733cef257d985bec",
       "revision": 2,
       "updated_at": "2026-10-20T07:40:58.957167Z"
+    },
+    {
+      "id": "GF-E8F3B38EF08A6D",
+      "title": "Over 50 killed as Yemeni forces strike Saudi-backed military camp in Shabwa - PressTV",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-19T15:23:50Z",
+      "last_published": "2026-10-19T15:23:50Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "8b5e5a223e5fd7ae7a8798cc",
+          "title": "Over 50 killed as Yemeni forces strike Saudi-backed military camp in Shabwa - PressTV",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNSDFXdmQtTk92eFNjcVlOMkxTbjMyRko2c3F5Ymh3MVRsb2lIaEVEeWtSRjJyWTNuS2FKYlpCR25LeHp6RXhhWWVuanBBdFNZbmpCN2JHMkJZTlJrYmhWMFRWcTF4elRtdmtud0NpVWJodFpEUnNOcDhoRjdBbUU3N3JoTUFSUHpjd0kwSllRX3ZzM3otQ0x0eGdGV3VEWU95bnl1RkhfVjg2cExLUXc?oc=5",
+          "source": "PressTV",
+          "provider": "Google News · security",
+          "published_at": "2026-10-19T15:23:50Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Saudi"
+        }
+      ],
+      "digest": "fe09d27b41b1fc1693e2",
+      "revision": 1,
+      "updated_at": "2026-10-20T10:18:19.020775Z"
     },
     {
       "id": "GF-25BCA6C3178CC4",
@@ -6691,6 +7014,50 @@
       "updated_at": "2026-10-20T07:40:58.957167Z"
     },
     {
+      "id": "GF-966621EC6C4B0A",
+      "title": "Houthi attack kills 53 Yemeni soldiers: Military camp hit by three ballistic missiles; more than 200 injured - Bhaskar English",
+      "category": "security",
+      "topic": "missile",
+      "countries": [
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-19T13:02:46Z",
+      "last_published": "2026-10-19T13:02:46Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "bb696423e0f110c2336aeda6",
+          "title": "Houthi attack kills 53 Yemeni soldiers: Military camp hit by three ballistic missiles; more than 200 injured - Bhaskar English",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPdDZYMWt1bThyQUMzY0txeFhYcDJQYVZnYy1Ja0lEWDE1dTNpMk51VXNSNFNmWXZrNlZpV2lMZXd4NHBFV1p4anQyRFNEWGI5dUQyODNMY1ZmTXh0X1pSRllqQWFfc1VZelk5aVozbjBFc2tvMWpNTkhzbzR0dm5DY0tFeDJtSXF2MU4xUW5YRXFTRmkyUjNUZjZGbVVlOWxhLXhBMllfSnA5QmpmZVI1c1ZDbXo3dy1YT2xhTkVDREozQklXYzI5aW9B0gHPAUFVX3lxTE5wbllUUURZakQ4XzlCTWx0WnlKeFY3ZU10YWJCR3J1T29nM1ltRXZzbmxMd1oxaTYxMmVUZ0puQzBrYWZaZ1VmbHRzZTFqOVllVGJ6SXc4MG5nUGhIUzVQUEpLeHNoQzlXRXliMDkxNDh0OURQeWJZVkowcXFrWG8wSFBzbFAybTFHR19DcUI4VTFhazFld0NtRS1VUktQWVc3bTFQY3RvS0dqQU5ORzZlNnZSYm1pazZ0UnNROC1lV2w1dGUtUmNaMWNodFRKYw?oc=5",
+          "source": "Bhaskar English",
+          "provider": "Google News · security",
+          "published_at": "2026-10-19T13:02:46Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Yemen"
+        }
+      ],
+      "digest": "75e7416346398f894706",
+      "revision": 1,
+      "updated_at": "2026-10-20T10:18:19.020775Z"
+    },
+    {
       "id": "GF-8F8BE4A7CA96E9",
       "title": "Trump heads to Kansas to rally Republicans; Vance's stunning response about Iran attack - CBS News",
       "category": "security",
@@ -7056,6 +7423,50 @@
       "updated_at": "2026-10-20T07:40:58.957167Z"
     },
     {
+      "id": "GF-D8C4AFD0138E13",
+      "title": "Yemen: Houthi Rebels Attack Military Camp, At Least 20 Soldiers Killed - Ratopati",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-19T11:40:14Z",
+      "last_published": "2026-10-19T11:40:14Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "cfe2a2bfda15f782eb590761",
+          "title": "Yemen: Houthi Rebels Attack Military Camp, At Least 20 Soldiers Killed - Ratopati",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVEFuelg5NlNFLWNXQTh5NUFlcGlQVnFZa0k1eVJkdG1GQ2o1T2FxWVM1d1hNQkJZV3dGSVEteWc1WHhodVRoVEx2V0VmdnVlQU9aSzAzNjlMZXpNdnVXT0kzZzFnWkF5allfTUpwUU1XYXVGakRZR05vLWZQUzd4MV9PQldOU2wtTFZwc3ZOeEhiYUdyM0E?oc=5",
+          "source": "Ratopati",
+          "provider": "Google News · security",
+          "published_at": "2026-10-19T11:40:14Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Yemen"
+        }
+      ],
+      "digest": "e83b7ad0f6b573b85cd2",
+      "revision": 1,
+      "updated_at": "2026-10-20T10:18:19.020775Z"
+    },
+    {
       "id": "GF-CC35DEC694C257",
       "title": "Iran’s IRGC Aids Houthis as Saudi Arabia Faces Drone And Missile Attacks: how 5 outlets framed it - NewsCord",
       "category": "security",
@@ -7189,6 +7600,52 @@
       "updated_at": "2026-10-20T07:40:58.957167Z"
     },
     {
+      "id": "GF-FA0242EDB77F4A",
+      "title": "US-Israel-Iran War Latest Live News: Iran-Backed Houthis Attack Yemen Military Camp With Ballistic Missiles, Kill 20 Soldiers in Shabwa; At Least 24 Troops Injured, Check Latest Updates - The Sunday Guardian",
+      "category": "security",
+      "topic": "missile",
+      "countries": [
+        "Iran",
+        "Israel",
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-19T11:18:03Z",
+      "last_published": "2026-10-19T11:18:03Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "f7c6f060f2f1ce9d5b2ae38f",
+          "title": "US-Israel-Iran War Latest Live News: Iran-Backed Houthis Attack Yemen Military Camp With Ballistic Missiles, Kill 20 Soldiers in Shabwa; At Least 24 Troops Injured, Check Latest Updates - The Sunday Guardian",
+          "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxPckt5TGtIaUExNmZjSjQ3cGYtV0hJcGNISWZqZTMyZXY2ZTU5V3JVX21zMHpfUzlwRzBhM2QzclMwaXJSLTI2dEhQY2IzZUxGYm5uekcwakYyMV9JVEloOTNrR2dpSGJQX0U0cndUNmZsZk4tbXRrMzM5MXVHTWZCQ0hMbUVRd013bUJMcGtmcjUzMlRlX2J5VWl3OXRFc09KYTFOekNTcnM0TVc2RXdxM3RyZ1g0MV85YjB1MEIzQzFLemVCczlHZkw5eDBGdENuRlBhZkplalRWLVUtN2NmNlB5ckdkZ3dwQU5iZnhXbmIyTkhialF3QnZNOHJWOVZXYjVFeEl5VDRwMzlnWHk3ZGhLZ0l4LTFtLTEyMXJEUWJiWjE5cExRWFRFMk9XQTRyT0p3dXhUMDVleXk3ZTNqR0FXZnFXcU15ZUHSAc8CQVVfeXFMTXYtWFhsSWlCaUxqSlRiRVktdUN5RU5taEhyVjRpQjQyOUVwaHZTMEFiQUVjOWVtaVNlems4amVWODFJZHMtbm1HaWdpM0RESVdiWDFMb2JJcldHc25PNmY4dUhheHpaM1VCcWNHNmRMUDB2ZzRjS2VkNFpYZm1RaGM5YlhvSGtuWW1VZHRXbDk2NVhrbFhrS3ZWRUxZd3hfOFNCVlFYclN5eEc5elF3dU5sb3k5ZlFaalNCcmhWRU5PYmN4Q2pZNE5jeVVKMG8tY0FNdmNLVjJScmhCUGtXV2NsR1oxdW9sV01RRFFEbnRaMGxsMnhQNGtrSHFCQnFUc1k2N1dCUmFIWlRLeGgyUmV2Mm1UaEpEdTlhNXh6NERyREMyS0E1Y1ZTbVdzbUJMS19OalgwTGZ4aUZQc29iLVRHSU5OTkZZRmxDSWdxYlE?oc=5",
+          "source": "The Sunday Guardian",
+          "provider": "Google News · security",
+          "published_at": "2026-10-19T11:18:03Z",
+          "collected_at": null,
+          "language": "en",
+          "country": ""
+        }
+      ],
+      "digest": "e62048fcf502f21ec161",
+      "revision": 1,
+      "updated_at": "2026-10-20T10:18:19.020775Z"
+    },
+    {
       "id": "GF-1928CDA1D6E3F9",
       "title": "Supertanker With 2 Million Barrels Of Oil Explodes After Hitting Naval Mine In Hormuz - Marine Insight",
       "category": "transport",
@@ -7271,6 +7728,50 @@
       "digest": "f407516fb0442b558f69",
       "revision": 2,
       "updated_at": "2026-10-20T07:40:58.957167Z"
+    },
+    {
+      "id": "GF-2AE62C822C4B83",
+      "title": "Egypt's Military Authorization for Saudi Arabia Explained - https://houseofsaud.com/",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-19T10:47:08Z",
+      "last_published": "2026-10-19T10:47:08Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "a36d80390281f029398f5e0e",
+          "title": "Egypt's Military Authorization for Saudi Arabia Explained - https://houseofsaud.com/",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5VOGhwRkZXX29Wa3V4bUhYUWJadzNCYUpFek43OHYwRjhxNGVaZHgzWnZubWJfWUs1RmpVSHYyTlFnQ2ZuanM5bW43a2paQTVZNTh5c2JPelQwUVBGaUE5bjl2a0ZVLVk?oc=5",
+          "source": "https://houseofsaud.com/",
+          "provider": "Google News · security",
+          "published_at": "2026-10-19T10:47:08Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Saudi"
+        }
+      ],
+      "digest": "ea514c0a7fdf13132ed4",
+      "revision": 1,
+      "updated_at": "2026-10-20T10:18:19.020775Z"
     },
     {
       "id": "GF-D4099F96229DB4",
@@ -9455,16 +9956,16 @@
           "title": "Meet Iran’s New Defense Chief: A Missile Veteran Threatening War With Israel - i24NEWS",
           "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQaXhHREw2b2F0ZmdTTmM5YVVta01IX2NCTjRTajZxemNtN2FGSURLcHdCNEp0eFRud0drelJGN1ZUbk5MT21tdUtrY2lzVVEweEFlNVlYSVRGOXFTbzczdnV0bUVuZkNRZ3dDc2RGb3ZyWXhuSnd5R2h5WWVZMGdSdjc5RzhSSGdseHNObGtOVEVfMXNKQnNvdmJONWlaakFQOTkxaGRPdE5Qd2hGZmhsZjI0TmdEQ2MwWFJtOWk2WE1lRHMwbktqZUdhRHNDRkphVkhfWEt6NWdnTkE?oc=5",
           "source": "i24NEWS",
-          "provider": "Google News · security",
+          "provider": "Google News · missiles/drones",
           "published_at": "2026-10-19T04:50:00Z",
           "collected_at": null,
           "language": "en",
           "country": ""
         }
       ],
-      "digest": "1ac7daf4de65f0f946e7",
-      "revision": 2,
-      "updated_at": "2026-10-20T07:40:58.957167Z"
+      "digest": "234c557c345718c2f2a7",
+      "revision": 3,
+      "updated_at": "2026-10-20T10:18:19.020775Z"
     },
     {
       "id": "GF-B0D8BFB248EF73",
@@ -9599,16 +10100,16 @@
           "title": "Iran Names UN-Sanctioned Missile Chief As Defense Minister - Radio Free Europe/Radio Liberty",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OeTc1VE5lcEx0QzNhVlh6TnBVZUhfdi1MR0xZQnJOLWo2U3dHb09ucVhPNXctSTFXNTF6R3EwZEJXSl96SF9zS2FPUWFwcHpHeFVMaGtUckZiaGIydHc1SFMwT3U1R1h5WnMtY2RGUkdtYm1jV2VUMWFB?oc=5",
           "source": "Radio Free Europe/Radio Liberty",
-          "provider": "Google News · missiles/drones",
+          "provider": "Google News · security",
           "published_at": "2026-10-19T04:29:52Z",
           "collected_at": null,
           "language": "en",
           "country": "Iran"
         }
       ],
-      "digest": "b612f7d7f566ff01ed5c",
-      "revision": 2,
-      "updated_at": "2026-10-20T07:40:58.957167Z"
+      "digest": "b1e24a2c63634cc44fd0",
+      "revision": 3,
+      "updated_at": "2026-10-20T10:18:19.020775Z"
     },
     {
       "id": "GF-A4300A30FD5E4E",
@@ -10285,6 +10786,50 @@
       "digest": "0da0725a0b35eff7e5ac",
       "revision": 2,
       "updated_at": "2026-10-20T07:40:58.957167Z"
+    },
+    {
+      "id": "GF-1C803EFEBD13B4",
+      "title": "'Hitting a rock with a rock': A first-hand look at Israel's Arrow air defense system: Reporter's notebook - ABC News - Breaking News, Latest News and Videos",
+      "category": "security",
+      "topic": "interception",
+      "countries": [
+        "Israel"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-19T02:01:41Z",
+      "last_published": "2026-10-19T02:01:41Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "4f76dc03d7a7595d74b5c6ef",
+          "title": "'Hitting a rock with a rock': A first-hand look at Israel's Arrow air defense system: Reporter's notebook - ABC News - Breaking News, Latest News and Videos",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOM0F2QjZEUVBlWHhVamJ6WEJqcXByQjBkOEUycllNU2s1YWgtMEI1ZWhMcFVQRjRLTUxCTEFvOUFXWm1WUkFrWmFNOXlKOWMwRWJfUUVuckJZZjdibWtFTFBRcGRNMDRLOF81bzdkOElZT0Q2MUZqaGRWb0RJYWJLc0tFaFcwTzRjQkhfVGlCUXVzOF9RMllQZ3BVNHNNbXR3Vkhr0gGoAUFVX3lxTE93UWF2czUwaVpwdURaOWVVUnJGNnp4VGs4MnlHVGNQdHlQOUZkdm9NWHFBckMxRXd6Yk9tY2MzUGY3TmVCZHU3TndZV21KMnVMZ1dwczZKa0s2TjV1b1ZIaU95N2g2WnllcE1VRHQ3cl9qTGNwaGQ3cEk3djRDd0ZpOG9aNVhTVXFkV1RPdEVLOVN2TW5lajNsVUtiTTFSbzI1RDduMUVmQg?oc=5",
+          "source": "ABC News - Breaking News, Latest News and Videos",
+          "provider": "Google News · security",
+          "published_at": "2026-10-19T02:01:41Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Israel"
+        }
+      ],
+      "digest": "7c42369eee4c3fcf9ad9",
+      "revision": 1,
+      "updated_at": "2026-10-20T10:18:19.020775Z"
     },
     {
       "id": "GF-ECE31CA4987977",
@@ -14184,6 +14729,50 @@
       "updated_at": "2026-10-20T07:40:58.957167Z"
     },
     {
+      "id": "GF-3526498A6EAAB8",
+      "title": "Rezaei says Iran has prepared new military plan for any fresh attack - Report.az",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-18T12:00:07Z",
+      "last_published": "2026-10-18T12:00:07Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "f3931214461ed41f7e11de5b",
+          "title": "Rezaei says Iran has prepared new military plan for any fresh attack - Report.az",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQaUVZOXJkeFBRd1otTkFrWlNXT1kxcHE2c2o4eUtnbmp2ZUE1YnhjOGhIM3R1NVlDR01USW5aZWVsUUU1Sm5VaGpoTXl1bVVLUjYxckUzbVA2LVR4WnFEaU5fWUcwU1VvTDljZ21IRzB3eElKa2lXZ015azBYZGpGREdIVkdtTDFPN0FRUkl3Y0tjblByZFZhekRzeGk?oc=5",
+          "source": "Report.az",
+          "provider": "Google News · security",
+          "published_at": "2026-10-18T12:00:07Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Iran"
+        }
+      ],
+      "digest": "8da31138d27cb620af95",
+      "revision": 1,
+      "updated_at": "2026-10-20T10:18:19.020775Z"
+    },
+    {
       "id": "GF-28F14AA6181400",
       "title": "What is Iran’s 7-day proposal to the US to open the Strait of Hormuz? - The Indian Express",
       "category": "transport",
@@ -15436,6 +16025,50 @@
       "digest": "7742b262cab81256e35e",
       "revision": 2,
       "updated_at": "2026-10-20T07:40:58.957167Z"
+    },
+    {
+      "id": "GF-6BABCEABA704E9",
+      "title": "Iran’s president hopes defense minister nominee can ‘survive,’ cites US ‘assassination list’ - Anadolu Ajansı",
+      "category": "diplomacy",
+      "topic": "regional",
+      "countries": [
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-18T07:35:55Z",
+      "last_published": "2026-10-18T07:35:55Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "3db8f5047a0a0d20c1cbc837",
+          "title": "Iran’s president hopes defense minister nominee can ‘survive,’ cites US ‘assassination list’ - Anadolu Ajansı",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdVJRWGNESUJ4QWlXX2VWaFFLOWdmSmE4MG1mUzdxaTZHaGEzTzkzNElOZDlTSENaVkxTYnd6UEx6cEkyekJMMnl0aGFtZFNzZXBrX2dPMVA3QmR6M3VZQVRuVTV1QmZ4T2hfR0RXMk5NTUxnUUlZVGt1dUE2SzlWUklLUnZuRmE0RzNtbjN6UTdlcDJCYXdYYWNBQ25iaEUyaDlDMF9OQnFwNjFna1VleUhBVGY1TjNBQWNSV1BURjZCUVdoTU5Ibw?oc=5",
+          "source": "Anadolu Ajansı",
+          "provider": "Google News · security",
+          "published_at": "2026-10-18T07:35:55Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Iran"
+        }
+      ],
+      "digest": "44a8fcc90f647a06e686",
+      "revision": 1,
+      "updated_at": "2026-10-20T10:18:19.020775Z"
     },
     {
       "id": "GF-ECC696ED492D25",
@@ -25196,6 +25829,50 @@
       "updated_at": "2026-10-20T07:40:58.957167Z"
     },
     {
+      "id": "GF-4C0F10C877D924",
+      "title": "Iraq to receive first air defense system within months: Spox - Rudaw",
+      "category": "security",
+      "topic": "interception",
+      "countries": [
+        "Iraq"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-16T18:44:50Z",
+      "last_published": "2026-10-16T18:44:50Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "a1758ef11d157e3d48de71a8",
+          "title": "Iraq to receive first air defense system within months: Spox - Rudaw",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5uQ0NPMTFaaGpVX1NJV2dTTjV1cE1zd1RObUdzaWZuU1kwZ0VXaklIZWZCOXc4QnFRRmdUanR0MzlHV0JLanZYVEpFTHNmajhyM0ZFX0hGWXMtejJpdTU4dFBCTWJIRWctX0E?oc=5",
+          "source": "Rudaw",
+          "provider": "Google News · security",
+          "published_at": "2026-10-16T18:44:50Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Iraq"
+        }
+      ],
+      "digest": "3dc81c962776afb5a5c3",
+      "revision": 1,
+      "updated_at": "2026-10-20T10:18:19.020775Z"
+    },
+    {
       "id": "GF-8DE0160BBF7768",
       "title": "قبل حرب إيران.. تحذير عسكري أميركي من أزمة صواريخ حتى 2030 - المدن",
       "category": "security",
@@ -25238,6 +25915,50 @@
       "digest": "2c8482c9503b87b7dbe7",
       "revision": 2,
       "updated_at": "2026-10-20T07:40:58.957167Z"
+    },
+    {
+      "id": "GF-A21B8D1951F8CE",
+      "title": "Iraq Prioritizes Completing Air Defense Capabilities, Ministry Says - Kurdistan24",
+      "category": "security",
+      "topic": "interception",
+      "countries": [
+        "Iraq"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-16T17:23:00Z",
+      "last_published": "2026-10-16T17:23:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "c66eee3ed7287f1b8700f50c",
+          "title": "Iraq Prioritizes Completing Air Defense Capabilities, Ministry Says - Kurdistan24",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB1d2oxbUxtT0JibUR3cEktUnhvMTVTOHNJWk90VjlKSXJNN0tGOUpHQUFjWW1EQmhkdlhmdGh0MU4wOXMwMzlKckpfYzc2bFlzMEpUamNn?oc=5",
+          "source": "Kurdistan24",
+          "provider": "Google News · security",
+          "published_at": "2026-10-16T17:23:00Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Iraq"
+        }
+      ],
+      "digest": "7005a18c90f06dd7cbe9",
+      "revision": 1,
+      "updated_at": "2026-10-20T10:18:19.020775Z"
     },
     {
       "id": "GF-0D171C5F30DDDE",
@@ -29665,7 +30386,7 @@
       "updated_at": "2026-10-20T07:40:58.957167Z"
     },
     {
-      "id": "GF-ABC07F76BC2F60",
+      "id": "GF-3581F2B64F3B71",
       "title": "Saudi Arabia says it thwarted a missile strike on Medina, and other Middle East developments - FOX 5 San Diego & KUSI News",
       "category": "security",
       "topic": "missile",
@@ -29685,9 +30406,9 @@
       "languages": [
         "en"
       ],
-      "publisher_count": 2,
-      "report_count": 3,
-      "first_published": "2026-10-15T20:19:14Z",
+      "publisher_count": 3,
+      "report_count": 4,
+      "first_published": "2026-10-15T15:01:29Z",
       "last_published": "2026-10-15T20:19:14Z",
       "event_occurred_at": null,
       "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
@@ -29724,11 +30445,22 @@
           "collected_at": null,
           "language": "en",
           "country": "Saudi"
+        },
+        {
+          "id": "f27460a1fc9b183fa6d1b399",
+          "title": "Saudi Arabia says it thwarted a missile strike on Medina, and other Middle East developments - ABC News - Breaking News, Latest News and Videos",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOczU0R2YyOF9ya3NLZjRjSkdoMEptSnkyaWVmZzVfTjhhMTdManBhUFJCbmNUSDBFYkgwSWFrTUQ1M2lXOGlGLWZ5V1J4X1FFWmtJMEZJTTIwWHlXNFZNNHQwcVVtNEQ5ellvMWxkVFRUcGxNWkw2Z3ByX1YwNHdxQTlWUjRtU2RoZEJIR0V2S2FPaXZmNGxJYmkzeHlOdTYtNXd4aEVRTdIBrAFBVV95cUxNQlN1Y2s1VnZubXFIUVV3bG5DRk4xZmM5Q0JlR3VHXzRTTlhPbGVCOTZCckZJck15OFA0Q0h1VUFTTnJlWC1paTlLUG5MQU1ha3g0ajYzclRvNEQ4YWUtWkd2bHNxeWE4cndHWFdXU2ljMGswZUFIUFlQTlZkV0tGNUJEckduTVQ1UGJBMzN4VTJkMDdYM0RPNnlfRGxCWG9va0JORjBUaWhhcUdy?oc=5",
+          "source": "ABC News - Breaking News, Latest News and Videos",
+          "provider": "Google News · security",
+          "published_at": "2026-10-15T15:01:29Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Saudi"
         }
       ],
-      "digest": "59093a3064b6d0e3384f",
+      "digest": "6dd48b88f7dad3da8ad4",
       "revision": 1,
-      "updated_at": "2026-10-20T09:25:08.588396Z"
+      "updated_at": "2026-10-20T10:18:19.020775Z"
     },
     {
       "id": "GF-F34FBE34632DA6",
@@ -30165,6 +30897,50 @@
       "digest": "ca0d3226d173641c02bf",
       "revision": 2,
       "updated_at": "2026-10-20T07:40:58.957167Z"
+    },
+    {
+      "id": "GF-0E1ED83F4A8A8A",
+      "title": "How is Europe helping Saudi Arabia? France begins deploying military means - The National",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-15T18:24:12Z",
+      "last_published": "2026-10-15T18:24:12Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "63ba5e983fda70190829d086",
+          "title": "How is Europe helping Saudi Arabia? France begins deploying military means - The National",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSmFCdEJUMmlUbzJ3dUhSNlBGNllvV1FUTXVGYnNnMC00WnhudmNtNmNvTHNhOEk2eWJmSUNvc1ktOWV3UUNDQ20yS21IT1huZUtDRnc1VFFYT2VvcUd5ckRiWHdURGpJc3NxczhxLVFXQlctZjNRV3Rmam5faUV2TjhNb294S0V3NGZ6VDJxT0ZZWjAwejdSemZ1Y1dLZWJnSktSTnJqX05xN2QzOUZtcTVJWE5jRk41dGJSNnAwYm1RRFBCN1E?oc=5",
+          "source": "The National",
+          "provider": "Google News · security",
+          "published_at": "2026-10-15T18:24:12Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Saudi"
+        }
+      ],
+      "digest": "ff666db987ccffc32091",
+      "revision": 1,
+      "updated_at": "2026-10-20T10:18:19.020775Z"
     },
     {
       "id": "GF-8CD158C4FD94BB",
@@ -31122,6 +31898,50 @@
       "updated_at": "2026-10-20T07:40:58.957167Z"
     },
     {
+      "id": "GF-52A0A71F4D4BCF",
+      "title": "Saudi Air Defenses Thwart Cruise Missile Threats - ASHARQ AL-AWSAT English",
+      "category": "security",
+      "topic": "interception",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-15T14:48:42Z",
+      "last_published": "2026-10-15T14:48:42Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "5c0c8dcd2cea1ac7778a429b",
+          "title": "Saudi Air Defenses Thwart Cruise Missile Threats - ASHARQ AL-AWSAT English",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMWMzb1NscFBXZjRfbzhqR3RCR0pNU1llcXRQeUhCU1EtOU1oTHprY3FFbnFSM0cxcWh0UFhtb0E1WHhDRS1hZi1uV082c1NlS0t6ZXg4X3F4OWRJNWtLUS04UEhjRW1nc1NkcV9ySC04ZU1LQ2hoMUdqM3BEdTFUREZWTl9YMFFBTGdVOHQ2NmNYdw?oc=5",
+          "source": "ASHARQ AL-AWSAT English",
+          "provider": "Google News · security",
+          "published_at": "2026-10-15T14:48:42Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Saudi"
+        }
+      ],
+      "digest": "b4d983468706272b8a6e",
+      "revision": 1,
+      "updated_at": "2026-10-20T10:18:19.020775Z"
+    },
+    {
       "id": "GF-199D9B9EA36AAC",
       "title": "KT McFarland analyzes Starlink restrictions in Ukraine, Strait of Hormuz shipping disruptions - Fox Business",
       "category": "transport",
@@ -31437,6 +32257,51 @@
       "updated_at": "2026-10-20T07:40:58.957167Z"
     },
     {
+      "id": "GF-9F4D260CDEF832",
+      "title": "Report: US military has plan to deploy largest bomb against Iran if fighting resumes - The Times of Israel",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Iran",
+        "Israel"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-15T13:55:00Z",
+      "last_published": "2026-10-15T13:55:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "bae93aaee062f0fe69eb8835",
+          "title": "Report: US military has plan to deploy largest bomb against Iran if fighting resumes - The Times of Israel",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZVVEdUdYcEhIaFo4al82NmdaajZfdW94RVJ5VXNoc2d0N1FkdFdhbmtBb2Qtd1BUaXBsN2ttOGJicWExN3F0enFjWDNVVE5JbHFweXZPZ3RrWDhWMC1TS2oyUWNHWW5uWXV4UEZtRzRsQUs0QUNBT1Y4YU5XVGFPQm1xc0hmcDBSNzZvbjVGVmp6OWY5eTJodVdUby1jUzRIUUprbUV5QmFCdV9KZXBfNFlGd2_SAboBQVVfeXFMTnh2T0NXbllhMUU2bGNraHdBYW9BaXdfOHB5RTNLT21QZnpTOG5MMWoxeVVickRNSk5GbWQ5VVh3NGJqUE9WWS1sbUxTUks3WnA2V2xrYVd0VGh3b2VGbFdsbkpyMkRNeTdxWjZZTllENnpyNURoelA2ZzY3VHJjd1dBdmlFRWhjcW5FMzdFRUtmVi01YjNNUDRLUktMOEViVWhUUDlSQ29RUVUxRkVfSWlUMlZaZ3k1R1pR?oc=5",
+          "source": "The Times of Israel",
+          "provider": "Google News · security",
+          "published_at": "2026-10-15T13:55:00Z",
+          "collected_at": null,
+          "language": "en",
+          "country": ""
+        }
+      ],
+      "digest": "90881de6e6d31e3d98ac",
+      "revision": 1,
+      "updated_at": "2026-10-20T10:18:19.020775Z"
+    },
+    {
       "id": "GF-37B2D8BCE97024",
       "title": "التحالف: 17 وفاة في 20 هجوما للحوثيين على مطار الرياض - قناة الغد",
       "category": "security",
@@ -31514,16 +32379,16 @@
           "title": "Iran's reported missile test puts Israel on alert - www.israelhayom.com",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcEQ5Ujhwd25iQmFZTDYzclRfTm52RXNqcTlVeWZBRk5EUHVOZzk0clFPNDZPSXQ0R0ZtdTlYcTZkLXYyMnZwTjl5MlJaTnZLYUVtbzVmd0thRmlkcURJWksya3ZGUnBUcEdzOXExWTdWTmlHREZISU03VFZHcjhDVGhwcmZVb1E3d0Z0d3NETTc1dw?oc=5",
           "source": "www.israelhayom.com",
-          "provider": "Google News · security",
+          "provider": "Google News · missiles/drones",
           "published_at": "2026-10-15T13:10:38Z",
           "collected_at": null,
           "language": "en",
           "country": ""
         }
       ],
-      "digest": "e80f1b1f8e4a49662dd9",
-      "revision": 2,
-      "updated_at": "2026-10-20T07:40:58.957167Z"
+      "digest": "2bd374af77d9246957bd",
+      "revision": 3,
+      "updated_at": "2026-10-20T10:18:19.020775Z"
     },
     {
       "id": "GF-3F093EDDB59BD8",
@@ -32141,6 +33006,95 @@
       "digest": "cc094478cceb75946008",
       "revision": 2,
       "updated_at": "2026-10-20T07:40:58.957167Z"
+    },
+    {
+      "id": "GF-291D074FBDCE3C",
+      "title": "Saudi Arabia's air defense vulnerabilities and the potential for cooperation with Israel. - Vietnam.vn",
+      "category": "security",
+      "topic": "interception",
+      "countries": [
+        "Israel",
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-15T09:41:13Z",
+      "last_published": "2026-10-15T09:41:13Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "4fe31904110f62c2dc6e86cd",
+          "title": "Saudi Arabia's air defense vulnerabilities and the potential for cooperation with Israel. - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNalRGNVotdFJtcjhUSkFkNl92emVWY0k0ZEtvTU5GTlQxZW1EcjJUUDNtM2xCLWJWdWVNTkFETTVBSzJCUWhqbThlZTR4UHJtbzY5cGhSc3poMXR3UmZoUVl2U3NyN2FhLVAzbkxrU1JEYUVURkJwV1BaRVFWVkJkVkhKQ01ENWdmX2xWZHhLdXBiakk?oc=5",
+          "source": "Vietnam.vn",
+          "provider": "Google News · security",
+          "published_at": "2026-10-15T09:41:13Z",
+          "collected_at": null,
+          "language": "en",
+          "country": ""
+        }
+      ],
+      "digest": "05014c538360b2bd8937",
+      "revision": 1,
+      "updated_at": "2026-10-20T10:18:19.020775Z"
+    },
+    {
+      "id": "GF-C85A8FD70AFD40",
+      "title": "Analysis | Air defense gaps: Why is Saudi Arabia failing to intercept Yemeni missiles? - Pars Today",
+      "category": "security",
+      "topic": "interception",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-15T09:36:00Z",
+      "last_published": "2026-10-15T09:36:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "b14f52c8d610a85fd41ff1d3",
+          "title": "Analysis | Air defense gaps: Why is Saudi Arabia failing to intercept Yemeni missiles? - Pars Today",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQNHJ4Yk1lRDJQZW9iVVFnR2xiV0FsNy1xSDI4YkRxWURCVUd3RUh4eHF2UWJaaTlmOUdqSDhXS0wxNTRFZnlfRXY3T1RtOHNwUE8ySjFiRy1UMi1uRUdVOUxlM3JtYVYzSmxjYlFlVU9oU3ZYZjI4RVlWZnQ2MXMzSDF1am5qZ1pWMk9pcXJud2hrNDFrUjhhUUxLWHBYZThPcjNEWUdqZHg2aHdycnpsWDg3YlJ1VndZeWtjRnRSbks3OGU1ZHFTcA?oc=5",
+          "source": "Pars Today",
+          "provider": "Google News · security",
+          "published_at": "2026-10-15T09:36:00Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Saudi"
+        }
+      ],
+      "digest": "d9ab988885528f8c300f",
+      "revision": 1,
+      "updated_at": "2026-10-20T10:18:19.020775Z"
     },
     {
       "id": "GF-13EB644C4A251C",
@@ -34178,16 +35132,16 @@
           "title": "Iran-backed Houthis strike Saudi oil company Aramco's headquarters, officials say - PBS",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQzY0TGNicFB5Y2ZTa21iaGExMGt4djdWaHZOZVZOMnA4UzAtQnplMVYwR3kxTk1OekxLbnhlbjFKTXMyOVNRb1YtNXRKa0V0cVUxTDdEMHV4UGd6QzVHM1d4Sy04SWNnOXdIcW5uTWtzbWZrTVk1WHFhbTZUM0U0YnV3ZklqcTdMX2EydTU0cFVMSHZFZVNUUGxiYm1LTFJzclRyeDg5RlpnZk1kOGtKY3lsRmnSAboBQVVfeXFMTXZEek5DX0hPTnFmUm10T1JXTERZVVhFa1BNclBJZTV5Y3l4MXVQWkptRkc0UVBQOEcyN1Y2UUEzZFlrOWZHZFhRVl9nR3AtSmYwSEdtbVdhM19YZWZELTRvdzl4VDNfbkFEMkNRZWlRdnFJcDRoU1BGb3NGNDF1OHJOMlFScFVSWFNBR2xnZnZ6YzA4NU43NGU2am1EWmdiOEdVQ0FjaFNiYWQ2NjdwRWd5aTNvYklkNDB3?oc=5",
           "source": "PBS",
-          "provider": "Google News · security",
+          "provider": "Google News · missiles/drones",
           "published_at": "2026-10-14T21:33:30Z",
           "collected_at": null,
           "language": "en",
           "country": ""
         }
       ],
-      "digest": "36bcaf3038c2abc9ec1d",
-      "revision": 2,
-      "updated_at": "2026-10-20T07:40:58.957167Z"
+      "digest": "9596f03cff6fb4d5e146",
+      "revision": 3,
+      "updated_at": "2026-10-20T10:18:19.020775Z"
     },
     {
       "id": "GF-D94BD74416BD50",
@@ -34625,6 +35579,50 @@
       "digest": "14a5cf36a90ad5cebc8a",
       "revision": 2,
       "updated_at": "2026-10-20T07:40:58.957167Z"
+    },
+    {
+      "id": "GF-10C71075EEC91A",
+      "title": "How the Army’s air defense lessons from Iran will inspire homeland defense changes - Washington Examiner",
+      "category": "security",
+      "topic": "interception",
+      "countries": [
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-14T18:06:49Z",
+      "last_published": "2026-10-14T18:06:49Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "9540dc01e8a329ea83e4d4dd",
+          "title": "How the Army’s air defense lessons from Iran will inspire homeland defense changes - Washington Examiner",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOREVKX0lleGotTTR6QlZsVzJucTRQS0xSTjlfSUwyMWJmSlk4WGN5a05iS1dzaktVd3NXTlNwQmpISGt4clpGOGN1Y0lieDItZ2VBeFlLOUtGZTg5NW9aMVJ6b2lrVEg5RGxYTm04elRmWEpma0x6VzlaUXlZZ09wOXpqTUlHQWU5ZjlwLVZjdmpFeHFuQXdOSmlWcHJsOWE2a2Q1anlzc3VlZFplZFVOVzZZMHBmZzVIUFlPT2JR?oc=5",
+          "source": "Washington Examiner",
+          "provider": "Google News · security",
+          "published_at": "2026-10-14T18:06:49Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Iran"
+        }
+      ],
+      "digest": "a12aa7e505f369589287",
+      "revision": 1,
+      "updated_at": "2026-10-20T10:18:19.020775Z"
     },
     {
       "id": "GF-9D0676989C1FEE",
@@ -36218,6 +37216,50 @@
       "digest": "3a2d2a31f296807c35e4",
       "revision": 2,
       "updated_at": "2026-10-20T07:40:58.957167Z"
+    },
+    {
+      "id": "GF-402770E743C86B",
+      "title": "Something Strange Is Happening to the US Military: Iran's Missile and Drones Did Billions of Dollars of Damage to A Superpower - National Security Journal",
+      "category": "security",
+      "topic": "missile",
+      "countries": [
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-14T12:19:20Z",
+      "last_published": "2026-10-14T12:19:20Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "dd364686fe8ca21f2aebf795",
+          "title": "Something Strange Is Happening to the US Military: Iran's Missile and Drones Did Billions of Dollars of Damage to A Superpower - National Security Journal",
+          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPQVhBN0c2c0dNalVLOGh0NVV3NmctU09xUnpaR1F3Z3BoU1J1a0ZZeTFRLUtfalVhR0VmaDZibXFCM0FEWTJrTWhPRk4xa291VWlYY0RidG11bTNXSkxhUnp3YkFMQ19DUnJaQ3ZDeTdXdDh0Tm9RNkpjR3EzWkJLUlE3Zk5jQmYtZnFJcmpoMDJiQ3J1RF9jaDNtQVAyXzJxYU9oT1lmcTVqaVhPcmF5SkRPUzNrSG1ZYU5pVnNFRlFDZTByV0dJNVdEMFVYYjdiN251cFBmSEdBRmlwbXcyWVRPaldhVWczRW5VdlZrWE1tVkU?oc=5",
+          "source": "National Security Journal",
+          "provider": "Google News · security",
+          "published_at": "2026-10-14T12:19:20Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Iran"
+        }
+      ],
+      "digest": "491b5fa4070efb6eabaf",
+      "revision": 1,
+      "updated_at": "2026-10-20T10:18:19.020775Z"
     },
     {
       "id": "GF-A18EFCA8A2589A",
@@ -40280,6 +41322,50 @@
       "updated_at": "2026-10-20T07:40:58.957167Z"
     },
     {
+      "id": "GF-8A966BEEF20572",
+      "title": "Iraq Raises Military Readiness to Highest Level, Prioritizes Air Defense - Kurdistan24",
+      "category": "security",
+      "topic": "interception",
+      "countries": [
+        "Iraq"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-13T19:45:00Z",
+      "last_published": "2026-10-13T19:45:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "60402e1a75598f3ae3013fde",
+          "title": "Iraq Raises Military Readiness to Highest Level, Prioritizes Air Defense - Kurdistan24",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWllQYWFwY29pUHdUU3JsSkVFU2F6MFhKV2dNQnl4Z2trSUctWWdzVzZqSGw2ZzRhZmpMaUQ3b3d4MTJHNm9nUzdDeWxNUFhKRWlwRHFQSEwxN1pUb3JNQ3ozbHFEUllSRTRvb2VEcl80NXA2bXlibGF0VmpJUDlhQWdNbkF4aV9VbFRpMzhEU2sza1ZhemxDYy1DdTREaV94ZGh4aS10SDN1UlNzYTVxbnJGb2pDdw?oc=5",
+          "source": "Kurdistan24",
+          "provider": "Google News · security",
+          "published_at": "2026-10-13T19:45:00Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Iraq"
+        }
+      ],
+      "digest": "30cdc8cabe7939586726",
+      "revision": 1,
+      "updated_at": "2026-10-20T10:18:19.020775Z"
+    },
+    {
       "id": "GF-E082F2343B7CCC",
       "title": "السعودية: تدمير ثلاثة صواريخ كروز ومسيّرتين فوق الرياض والمنطقة الجنوبية - صحيفة الخليج",
       "category": "security",
@@ -40543,6 +41629,51 @@
       "digest": "0cba38c8445e3da17ac6",
       "revision": 1,
       "updated_at": "2026-10-20T07:40:58.957167Z"
+    },
+    {
+      "id": "GF-A35FF2399F53FD",
+      "title": "Why Saudi Arabia's military has struggled to defend the country against Houthi attacks - PBS",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-13T18:28:26Z",
+      "last_published": "2026-10-13T18:28:26Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "cf53383c475bc680fcb18b2f",
+          "title": "Why Saudi Arabia's military has struggled to defend the country against Houthi attacks - PBS",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTUctdmp3M2tHelJ2UklJUG5WS2dnX3lEYmxoRW1kUE01Zmk2ejZMZ1oxYzZUdTNkUDZ2UFRJeng4M3pybUpXNFppSm5pODVGeGhIaFM5Y3NXcEFEdW5US1lPRXNBalhWTjk2LUdjZ0hFWEVGQTlENVBKeTVDM0R2UHJrS3dVa2ttamJZRjJvTXY5eUs2RlpVRXpXclYyaF9uZTdNalhWNVNtZS1LMEFGcENza0p5Q1pzU29UddIBwgFBVV95cUxPNlNEY3EtaXMyaml2eVNreER5eGdRUDFvWVZkN09oM2RiNUlXcWZab3I4UlhhbEtBYnJIQlhkWWhITU5HUWNCV3VOS1hkOGMwR0V3TjN0SUJURzNGZC12RmdCUHRjNHpzMjMteXRoNEw1bW9LZ18tY3FESFFxak5YZ0RncGxMLUZsTF9FNGdvUC1VZzlNR3VCYUFJVlJlYy1vOEFHU1Z0Mmx1V0d0R25GYlRGMEwwTkRaZHBOTlR2SWdjQQ?oc=5",
+          "source": "PBS",
+          "provider": "Google News · security",
+          "published_at": "2026-10-13T18:28:26Z",
+          "collected_at": null,
+          "language": "en",
+          "country": ""
+        }
+      ],
+      "digest": "f6f7182fede959c5a800",
+      "revision": 1,
+      "updated_at": "2026-10-20T10:18:19.020775Z"
     },
     {
       "id": "GF-A3996E85E93109",
@@ -40997,6 +42128,50 @@
       "updated_at": "2026-10-20T07:40:58.957167Z"
     },
     {
+      "id": "GF-F2ADB2AB7561DD",
+      "title": "Saudi Arabia Just Got Handed an Air Defense Mystery: Officials Are Probing How Drones Cleared a Path for Missiles to Hit Riyadh’s Airport - National Security Journal",
+      "category": "security",
+      "topic": "interception",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-13T17:06:08Z",
+      "last_published": "2026-10-13T17:06:08Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "0c91e8670be4ec649e353d92",
+          "title": "Saudi Arabia Just Got Handed an Air Defense Mystery: Officials Are Probing How Drones Cleared a Path for Missiles to Hit Riyadh’s Airport - National Security Journal",
+          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPcXdUU0lQWnBUWlFKbHdMU0FjR2FDQ3l3bzU1bW5ocnhVUHBWcUJTZDFEdVNHalB1NUlHU3JmT3FTel90MmN6TVQ3bzNua0Ridlc5UGZLbG8zX0lCQUJZR1RDMWN4bTFBYWZ5SmVuUWxpeWFIRDdxaDItczhDNDRST3Zta3FJZHZqZ3I0dE5KVGMzZXlvMFEwdWdwbkVxWWZmRVZ6SklyRWNNX2N6RXBuNTB6dG9ZNTVKeEE5aTYtTlIyRVhzT21HODNZbFRtRUE5YkV3MFVhUzVBWjVRdGNNZ01qOUhfV3VxZXBFX3RuUUY1bG5fMlIwVlA4QjFLRWlIN3c?oc=5",
+          "source": "National Security Journal",
+          "provider": "Google News · security",
+          "published_at": "2026-10-13T17:06:08Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Saudi"
+        }
+      ],
+      "digest": "1d6f51c37dcf017e43d9",
+      "revision": 1,
+      "updated_at": "2026-10-20T10:18:19.020775Z"
+    },
+    {
       "id": "GF-100242CAFF16F6",
       "title": "استهداف مقر أرامكو السعودية وأنباء عن حريق محدود - Reuters",
       "category": "security",
@@ -41286,6 +42461,50 @@
       "digest": "529e6c39a3632406c2b4",
       "revision": 2,
       "updated_at": "2026-10-20T07:40:58.957167Z"
+    },
+    {
+      "id": "GF-DC1E5EC05206D5",
+      "title": "MI5 chief says Iran is targeting military sites and suspected plot at RAF Fairford is ‘not unique’ - WCAX",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-13T16:21:00Z",
+      "last_published": "2026-10-13T16:21:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "e35d7a0936681046cae0e210",
+          "title": "MI5 chief says Iran is targeting military sites and suspected plot at RAF Fairford is ‘not unique’ - WCAX",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNaDYtYm5PVWd3LTZoMFhzQlo5U3JKQlNuWWl1NGt2Sm80dk92bzQ2ZWJuYVNRUGhQOEk2R1FUbkhWZVhibURZamtiWDZkWXFrRmsyM1M4VHJyWVg1akNmbU4tN1J3em5QZVZlS05mOFBULW0yTjUxZHVRZlFiaDhrZmhFMHNua0VZblRkWjh1STUxUThTTFc2Q3g1ekd1R2RQTllYNGt2VHFrb1RicWt6T1dFalhrZlRfWW1xN0R6WQ?oc=5",
+          "source": "WCAX",
+          "provider": "Google News · security",
+          "published_at": "2026-10-13T16:21:00Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Iran"
+        }
+      ],
+      "digest": "6b9fcf0b5282925b60c2",
+      "revision": 1,
+      "updated_at": "2026-10-20T10:18:19.020775Z"
     },
     {
       "id": "GF-FCEFCAD6ABCC4C",
@@ -42039,51 +43258,6 @@
       "updated_at": "2026-10-20T07:40:58.957167Z"
     },
     {
-      "id": "GF-B09D0E6ED840BC",
-      "title": "صواريخ ومسيرات إيرانية تستهدف البحرين والكويت والأردن.. والدفاعات الجوية تتصدى - الساحل الغربي",
-      "category": "security",
-      "topic": "missile",
-      "countries": [
-        "Bahrain",
-        "Iran"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "ar"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-13T13:09:10Z",
-      "last_published": "2026-10-13T13:09:10Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "02c49dcc3c7682d913adc079",
-          "title": "صواريخ ومسيرات إيرانية تستهدف البحرين والكويت والأردن.. والدفاعات الجوية تتصدى - الساحل الغربي",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE15VmNLVDgtRnRBRzRXaVowSlM1cTFRTEtwVGhhS0JoWVRpZ3FpdW1EZXZzdXN3SHcwNXVNV2s1N0tzMU9FYkZEZXFDWUlESWM?oc=5",
-          "source": "الساحل الغربي",
-          "provider": "عربي · الكويت والعراق",
-          "published_at": "2026-10-13T13:09:10Z",
-          "collected_at": null,
-          "language": "ar",
-          "country": ""
-        }
-      ],
-      "digest": "ff05e38278ac4b0f174e",
-      "revision": 7,
-      "updated_at": "2026-10-20T10:12:39.488669Z"
-    },
-    {
       "id": "GF-4BCF1CEDA6EA75",
       "title": "تحالف دعم الشرعية في اليمن يعلن اعتراض وتدمير ثلاث مسيرات شمالي الرياض - https://emirates24.net/",
       "category": "security",
@@ -42735,16 +43909,60 @@
           "title": "Iran prepares for renewed conflict and issues regional invasion threats - www.israelhayom.com",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPYkppZmppcUx1MXJNODJFcXZ3eXNJQWxJX0xMSl9LcGVpVzFrd1EzZHVKYlpRQzE2N1F1Wk9XbGhaREJGbUhYT1VtbEFZeTdCR3dzaXFvYWRWQm1rTkVXYkVfeGdOVkZQZWRaRkY4MVI2SUF6LUlSTmpRd1lqc3ctaHRGbzR3TWVwc3lKV2hON0JldFdsN290djNGUk9rSGRaWFdhV01Bdk1ITGNCSGQyZA?oc=5",
           "source": "www.israelhayom.com",
-          "provider": "Google News · security",
+          "provider": "Google News · missiles/drones",
           "published_at": "2026-10-13T10:26:45Z",
           "collected_at": null,
           "language": "en",
           "country": "Iran"
         }
       ],
-      "digest": "c3c178ce8640f3434f1f",
-      "revision": 2,
-      "updated_at": "2026-10-20T07:40:58.957167Z"
+      "digest": "710bdc67103ee391f8e9",
+      "revision": 3,
+      "updated_at": "2026-10-20T10:18:19.020775Z"
+    },
+    {
+      "id": "GF-CC0652AE68F849",
+      "title": "Nepali article: ‘Why Did the Air Defense System Fail?’ Saudi Arabia Is Investigating - Ekantipur",
+      "category": "security",
+      "topic": "interception",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-13T10:24:48Z",
+      "last_published": "2026-10-13T10:24:48Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "a4012b3c26eaa13e0e40d736",
+          "title": "Nepali article: ‘Why Did the Air Defense System Fail?’ Saudi Arabia Is Investigating - Ekantipur",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVDJNM2dXQUJzNzhVQ0VzSGdyYkZGVHJoZkJMM042VXBkdFZDd0FvYk9TYlZKN3pna0cxY2J3MC1mX2VSSzRaaEdSRlNUYzJiTnhQNDdwdWJMVVdXSHZKY2JGQWw0QTJQNTVjQmVPY3VmUjdlSWVfRVhpWnNOT253bnFZYmFKMndYNExLZjdaWVRwUDhpaE9EN3pPQWRPRGNvVTRXY05XZmJaMmFnNExjb2NISUk4eUpiT1E?oc=5",
+          "source": "Ekantipur",
+          "provider": "Google News · security",
+          "published_at": "2026-10-13T10:24:48Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Saudi"
+        }
+      ],
+      "digest": "1bf43a08c973819b41e9",
+      "revision": 1,
+      "updated_at": "2026-10-20T10:18:19.020775Z"
     },
     {
       "id": "GF-9BB4BD93478A88",
@@ -43456,18 +44674,18 @@
   ],
   "country_stats": {
     "Iran": {
-      "events": 361,
-      "reports": 453,
-      "security_coverage": 194,
+      "events": 371,
+      "reports": 463,
+      "security_coverage": 203,
       "transport_coverage": 102,
-      "sources": 181
+      "sources": 185
     },
     "Saudi": {
-      "events": 306,
-      "reports": 328,
-      "security_coverage": 212,
+      "events": 316,
+      "reports": 339,
+      "security_coverage": 222,
       "transport_coverage": 80,
-      "sources": 160
+      "sources": 167
     },
     "Qatar": {
       "events": 34,
@@ -43498,11 +44716,11 @@
       "sources": 9
     },
     "Iraq": {
-      "events": 52,
-      "reports": 52,
-      "security_coverage": 47,
+      "events": 56,
+      "reports": 56,
+      "security_coverage": 51,
       "transport_coverage": 5,
-      "sources": 41
+      "sources": 43
     },
     "Oman": {
       "events": 6,
@@ -43512,18 +44730,18 @@
       "sources": 5
     },
     "Yemen": {
-      "events": 131,
-      "reports": 134,
-      "security_coverage": 115,
+      "events": 137,
+      "reports": 141,
+      "security_coverage": 121,
       "transport_coverage": 14,
-      "sources": 70
+      "sources": 74
     },
     "Israel": {
-      "events": 37,
-      "reports": 46,
-      "security_coverage": 23,
+      "events": 42,
+      "reports": 51,
+      "security_coverage": 28,
       "transport_coverage": 7,
-      "sources": 26
+      "sources": 28
     }
   },
   "daily_coverage": {
@@ -43531,60 +44749,68 @@
     "2026-09-04": 1,
     "2026-10-02": 1,
     "2026-10-12": 1,
-    "2026-10-13": 92,
-    "2026-10-14": 123,
-    "2026-10-15": 107,
-    "2026-10-16": 103,
+    "2026-10-13": 96,
+    "2026-10-14": 125,
+    "2026-10-15": 112,
+    "2026-10-16": 105,
     "2026-10-17": 170,
-    "2026-10-18": 129,
-    "2026-10-19": 170,
-    "2026-10-20": 63
+    "2026-10-18": 131,
+    "2026-10-19": 181,
+    "2026-10-20": 64
   },
   "revisions": [
     {
-      "id": "GF-EAE814B180623B",
+      "id": "GF-52C09CF89375FF",
       "revision": 2,
-      "at": "2026-10-20T10:12:39.488669Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 2
-    },
-    {
-      "id": "GF-079FE18C91E1F8",
-      "revision": 2,
-      "at": "2026-10-20T10:12:39.488669Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 2
-    },
-    {
-      "id": "GF-DE698A884EA269",
-      "revision": 2,
-      "at": "2026-10-20T10:12:39.488669Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-CEEC4805D673B8",
-      "revision": 3,
-      "at": "2026-10-20T10:12:39.488669Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-AB5E4D7867A6C2",
-      "revision": 3,
-      "at": "2026-10-20T10:12:39.488669Z",
+      "at": "2026-10-20T10:18:19.020775Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
       "id": "GF-B09D0E6ED840BC",
-      "revision": 7,
-      "at": "2026-10-20T10:12:39.488669Z",
+      "revision": 8,
+      "at": "2026-10-20T10:18:19.020775Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-AAA43431AC99AE",
+      "revision": 3,
+      "at": "2026-10-20T10:18:19.020775Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-2F96F0C8277288",
+      "revision": 3,
+      "at": "2026-10-20T10:18:19.020775Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 2,
+      "new_source_count": 2
+    },
+    {
+      "id": "GF-83C328D330B5D5",
+      "revision": 3,
+      "at": "2026-10-20T10:18:19.020775Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-6F1ACAC5C96A27",
+      "revision": 3,
+      "at": "2026-10-20T10:18:19.020775Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-0A13FE2F49FAE2",
+      "revision": 3,
+      "at": "2026-10-20T10:18:19.020775Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
