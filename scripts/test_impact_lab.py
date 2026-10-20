@@ -57,5 +57,5 @@ brief=daily_brief(events,[{"id":"g","title":"Official advisory","source":"GDACS"
 assert brief["groups"]==5,brief
 assert len(brief["recent_official_advisories"])==1
 assert len(brief["economic_context"])==6
-assert "not" in brief["disclaimer"].lower()
+assert "No autonomous forecasts" in brief["disclaimer"],brief["disclaimer"]
 print("Impact lab PASS: evidence-only relations, stable revisions, temporal bounds, actual-value macro data, provider fallback, 2008 comparison and cited brief")
