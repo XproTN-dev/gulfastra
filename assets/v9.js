@@ -25,7 +25,7 @@ function maritimeRelevant(record){
  const region=/hormuz|الخليج|هرمز|gulf|iran|إيران|ايران|qatar|قطر|bahrain|البحرين|oman|عمان|emirates|الإمارات|saudi|السعودية|red sea|البحر\s*الأحمر|yemen|اليمن|kuwait|الكويت/i;
  return specific.test(t)||(water.test(t)&&region.test(t));
 }
-const state={reports:[],events:[],sources:{},manifest:null,windows:new Map(),sequence:100,newsLimit:28,country:"",currentMode:"map",palette:"phosphor",lastError:null,renderSignature:null,alerts:[],newAlertIds:[],alertFeedVersion:null};
+const state={reports:[],events:[],sources:{},manifest:null,windows:new Map(),sequence:100,newsLimit:28,newsWindowHours:72,country:"",currentMode:"map",palette:"phosphor",lastError:null,renderSignature:null,alerts:[],newAlertIds:[],alertFeedVersion:null};
 const names={
  wire:{title:"PUBLIC INTELLIGENCE WIRE",icon:"▤",foot:"ORIGINAL PUBLISHED HEADLINES · UNVERIFIED"},
  verify:{title:"EVIDENCE & VERIFICATION",icon:"◈",foot:"SOURCE CORRELATION IS NOT INCIDENT CONFIRMATION"},
@@ -115,13 +115,20 @@ function criticalContent(){
 function filteredNews({maritime=false,alerts=false}={}){
  return state.reports.filter(r=>(!state.country||(r.countries||[r.country]).includes(state.country))&&
  (!maritime||maritimeRelevant(r))&&(!alerts||r.category==="security")&&
- (!alerts||Date.now()-new Date(r.published_at).getTime()<86400000))
+ (!alerts||Date.now()-new Date(r.published_at).getTime()<86400000)&&
+ ((maritime||alerts||state.newsWindowHours===0)||
+  (Number.isFinite(new Date(r.published_at).getTime())&&
+   Date.now()-new Date(r.published_at).getTime()>=-600000&&
+   Date.now()-new Date(r.published_at).getTime()<=state.newsWindowHours*3600000)))
  .sort((a,b)=>new Date(b.published_at)-new Date(a.published_at));
 }
 function newsItem(r){
  const rtl=r.language==="ar"||/[\u0600-\u06ff]/.test(r.title||"");
+ const hours=(Date.now()-new Date(r.published_at).getTime())/3600000;
+ const stateName=hours<0?"DATE REVIEW":hours<2?"NEW REPORT":hours<24?"RECENT":hours<168?"OLDER":"ARCHIVE";
+ const context=r.context==="retrospective"?" · HISTORICAL CONTEXT":r.context==="speculative"?" · SPECULATIVE":r.context==="denial"?" · DENIAL":"";
  return '<article class="v9-news"><div class="v9-news-top"><span class="v9-tag">'+esc((r.category||"REGIONAL").toUpperCase())+'</span>'+
- '<span>'+esc(age(r.published_at))+'</span><span>◉ '+esc(r.country||"REGIONAL")+'</span></div>'+
+ '<span>'+esc(stateName+context)+'</span><span>'+esc(age(r.published_at))+'</span><span>◉ '+esc(r.country||"REGIONAL")+'</span></div>'+
  '<h3 dir="'+(rtl?"rtl":"ltr")+'">'+esc(headline(r))+'</h3>'+
  '<span class="v9-news-source" dir="auto">'+esc(r.source||"Published outlet")+'</span> '+
  '<a href="'+esc(validURL(r.url))+'" target="_blank" rel="noopener noreferrer">OPEN ARTICLE LINK ↗</a></article>';
@@ -142,8 +149,13 @@ function timelineHtml(){
 function panelContent(type){
  if(type==="wire"){
   const a=filteredNews();
-  return '<p>ORIGINAL PUBLIC ARTICLES / '+a.length+' IN ARCHIVE '+(state.country?" / "+esc(state.country.toUpperCase()):"")+'</p>'+
-  (a.length?a.slice(0,state.newsLimit).map(newsItem).join(""):'<div class="v9-empty">No headlines in this country filter. Try clearing the map selection.</div>')+
+  const periods=[[24,"24H"],[72,"72H"],[168,"7 DAYS"],[0,"ARCHIVE"]];
+  const controls='<div class="v9-verify-links">'+periods.map(([hours,label])=>
+    '<button class="v9-lab-button" style="padding:6px;'+(hours===state.newsWindowHours?'color:var(--cmd-accent);':'')+
+    '" data-v9-action="wire-window" data-hours="'+hours+'">'+label+'</button>').join("")+'</div>';
+  return '<p>PUBLIC REPORTING BY PUBLICATION TIME / '+a.length+' ARTICLES '+(state.country?" / "+esc(state.country.toUpperCase()):"")+
+   '. NEW REPORTING DOES NOT MEAN AN INCIDENT IS CURRENTLY ACTIVE.</p>'+controls+
+  (a.length?a.slice(0,state.newsLimit).map(newsItem).join(""):'<div class="v9-empty">No reporting in this time window. Select ARCHIVE for older sources.</div>')+
   '<button class="v9-lab-button" data-v9-action="more">LOAD MORE</button>';
  }
  if(type==="verify"){
@@ -253,6 +265,8 @@ function ensurePanel(type){
   const dispatch={ "verify-full":"verify","timeline-full":"timeline","query-full":"query","fusion-full":"fusion","sitrep-full":"sitrep","sources-full":"sources" };
   if(dispatch[action]){document.querySelector('[data-gf-open="'+dispatch[action]+'"]')?.click();return}
   if(action==="more"){state.newsLimit+=35;panel.querySelector(".v9-panel-body").innerHTML=panelContent("wire")}
+  if(action==="wire-window"){state.newsWindowHours=Number(b.dataset.hours)||0;state.newsLimit=28;
+   panel.querySelector(".v9-panel-body").innerHTML=panelContent("wire");panel.querySelector(".v9-panel-body").scrollTop=0}
   if(action==="refresh")reload();
   if(action==="notify-opt-in"&&"Notification" in window&&Notification.permission==="default"){
    Notification.requestPermission().then(()=>{panel.querySelector(".v9-panel-body").innerHTML=panelContent("alerts")});
