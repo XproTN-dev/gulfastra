@@ -51,8 +51,16 @@ with sync_playwright() as pw:
         assert page.locator("#v8ThemeStudio").is_visible(),"Appearance studio did not open"
         page.locator('[data-v8-theme="nocturne"]').click()
         assert page.evaluate("document.body.dataset.gfTheme")=="nocturne","Nocturne palette not applied"
+        page.locator("#v8ThemeDone").click()
+        page.evaluate("window.scrollTo(0,0)")
+        page.screenshot(path=str(OUT/f"{label}-nocturne.png"),full_page=True)
+        page.locator("#v6Theme").click()
         page.locator('[data-v8-theme="terminal"]').click()
         assert page.evaluate("document.body.dataset.gfTheme")=="terminal","Terminal palette not applied"
+        page.locator("#v8ThemeDone").click()
+        page.evaluate("window.scrollTo(0,0)")
+        page.screenshot(path=str(OUT/f"{label}-terminal.png"),full_page=True)
+        page.locator("#v6Theme").click()
         page.locator('[data-v8-theme="atlas"]').click()
         assert page.evaluate("document.body.dataset.gfTheme")=="atlas","Atlas palette not applied"
         assert page.locator('[data-v8-theme="atlas"]').get_attribute("aria-pressed")=="true","Theme preview not selected"
@@ -114,6 +122,8 @@ with sync_playwright() as pw:
         page.screenshot(path=str(OUT/f"{label}-fusion.png"),full_page=True)
         page.locator("#gfClose").click()
         assert page.locator("#fusionWorkbench").is_hidden(),"Workbench failed to close"
+        page.evaluate("window.scrollTo(0,0)")
+        page.wait_for_timeout(160)
         page.screenshot(path=str(OUT/f"{label}.png"),full_page=True)
         print(label,"reported_count=",total,"visible_articles=",count,"arabic_visible=",arabic_count,"mapcanvas=",mapcanvas,"marker_offsets=",marker_offsets,"pageerrors=",errors[:5])
         assert mapcanvas==1,"MapLibre canvas missing"
