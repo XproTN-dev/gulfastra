@@ -64,7 +64,8 @@ function graphSvg(data,opts={}){
   const pos=positionsById[n.id],r=5+Math.min(7,Math.sqrt(Math.max(1,n.report_count||1))*1.6),
   title=String(n.title||"").slice(0,44),selected=opts.selected===n.id;
   return '<g class="graph-node" data-node="'+safe(n.id)+'" tabindex="0" role="button" aria-label="'+safe(n.title)+
-   '" transform="translate('+pos.x+' '+pos.y+')"><circle r="'+(selected?r+3:r)+
+   '" transform="translate('+pos.x+' '+pos.y+')"><circle class="hit-zone" r="'+(r+15)+
+   '" fill="transparent" stroke="none" pointer-events="all"/><circle r="'+(selected?r+3:r)+
    '" fill="'+col(n)+'" opacity="'+(selected?1:.9)+'"/>'+
    (selected?'<circle r="'+(r+9)+'" fill="none" stroke="'+col(n)+'" stroke-width="1.2" opacity=".7"/>':"")+
    (top.has(n.id)?'<text x="'+(r+7)+'" y="4">'+safe(title)+(n.title?.length>44?"…":"")+'</text>':"")+
@@ -73,7 +74,7 @@ function graphSvg(data,opts={}){
  return '<svg class="network-svg'+(mode==="spatial"?" spatial":"")+'" xmlns="http://www.w3.org/2000/svg" viewBox="'+x+' '+y+' '+vw+' '+vh+
   '" preserveAspectRatio="xMidYMid meet" aria-label="Published evidence relationship network">'+
   '<defs><pattern id="grid" width="45" height="45" patternUnits="userSpaceOnUse"><path d="M45 0H0V45" fill="none" stroke="#1d3650" stroke-width=".55"/></pattern></defs>'+
-  '<rect x="0" y="0" width="1080" height="610" fill="url(#grid)" opacity=".55"/>'+
+  '<rect x="0" y="0" width="1080" height="610" fill="url(#grid)" opacity=".55" pointer-events="none"/>'+
   lines+circles+'</svg>';
 }
 function chronology(data){
