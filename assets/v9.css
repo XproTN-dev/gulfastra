@@ -85,7 +85,7 @@ body[data-v9-palette="ember"] .map-stage .maplibregl-canvas{filter:brightness(.4
 .maplibregl-ctrl.maplibregl-ctrl-group{display:none!important}
 .maplibregl-ctrl-attrib{opacity:.65;background:#03100abe!important;color:#9db0a3!important}
 .maplibregl-marker{z-index:7}
-.country-pin{width:31px!important;height:31px!important;border:0!important;cursor:pointer!important;position:relative!important;
+.country-pin{width:31px!important;height:31px!important;border:0!important;cursor:pointer!important;position:absolute!important;
  background:transparent!important;filter:drop-shadow(0 0 5px color-mix(in srgb,var(--pin-color) 65%,transparent))!important;
  transition:transform .16s ease!important}
 .country-pin:before{inset:0!important;background:var(--pin-color)!important;
