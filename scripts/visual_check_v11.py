@@ -18,6 +18,15 @@ with sync_playwright() as pw:
         response=page.goto(BASE,wait_until="domcontentloaded",timeout=60000)
         assert response and response.status==200,("site unavailable",name)
         page.wait_for_function("Boolean(window.GXApp?.getState().loaded)",timeout=60000)
+        # A populated news panel is insufficient: the REAL map library and canvas must load.
+        page.wait_for_function(
+            "Boolean(window.maplibregl?.Map && document.querySelector('#map canvas'))",
+            timeout=30000,
+        )
+        assert page.evaluate("window.GXMapLibrarySource==='same-origin'"), (
+            "MapLibre must load from same-origin GitHub Pages instead of CDN"
+        )
+        assert "MAP LIBRARY UNAVAILABLE" not in page.locator("#mapFallback").inner_text()
         assert page.locator(".topbar").is_visible()
         assert page.locator(".map-wrap").is_visible()
         assert page.locator("#metricReports").inner_text()!="—","Data metrics not populated"
