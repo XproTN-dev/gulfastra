@@ -47,7 +47,7 @@ function updateMetrics(){
  $("mOutlets").textContent=new Set(s.reports.map(r=>r.source).filter(Boolean)).size;
  // Freshness and collection status belong to the single v6 status controller.\n $("mapFooter").textContent=s.last_run?"Collector timestamp: "+fmtFull(s.last_run):"No verified collection";
  let status=Object.entries(s.providers||{});
- $("providerStatus").innerHTML=status.length?status.map(([key,v])=>'<div class="provider"><span>'+txt(key)+'</span><b class="'+(v.ok===false?"error":"")+'">'+(v.ok===true?"✓ "+(v.items??"")+" FETCHED":"! ERROR")+'</b></div>').join(""):"No diagnostics yet — collection has not run.";
+ $("providerStatus").innerHTML=status.length?status.map(([key,v])=>'<div class="provider"><span>'+txt(key)+'</span><b class="'+(v.ok===false?"error":"")+'">'+(v.ok===true?"✓ "+(v.items??"")+" FETCHED":v.ok===null?"◷ RATE-LIMIT BACKOFF":"! ERROR")+'</b></div>').join(""):"No diagnostics yet — collection has not run.";
 }
 function updateActivity(){
  let bins=Array(24).fill(0);for(let r of filtered()){let d=(Date.now()-new Date(r.published_at).getTime())/3600000;if(Number.isFinite(d)&&d>=0&&d<24)bins[23-Math.floor(d)]++}
