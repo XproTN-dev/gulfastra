@@ -201,6 +201,9 @@ function renderGraph(){
  '<span class="graph-badge">'+g.nodes.length+' PUBLICATION GROUPS</span>'+
  '<span class="graph-badge">'+g.edges.length+' RELATED COVERAGE LINKS</span>'+
  '<span class="graph-badge">NOT CAUSATION</span></div>'+
+ '<div class="graph-zoom"><button data-zoom="in" aria-label="Zoom graph in">+</button>'+
+ '<button data-zoom="out" aria-label="Zoom graph out">−</button>'+
+ '<button data-zoom="reset" aria-label="Reset graph zoom">⌖</button></div>'+
  R.graphSvg(g,{mode,zoom:S.zoom,selected:S.selected})+
  '<div class="graph-bottomline"><span>CLICK A NODE FOR ORIGINAL SOURCES</span>'+
  '<span>WHEEL / + − TO ZOOM · SOURCE-TIME REPLAY</span></div></div>'+
@@ -294,6 +297,12 @@ function init(){
   '<p>Pathways: Hypothetical mechanisms require separately sourced real events and empirical testing before any causal conclusion.</p>'+
   '<p>Daily briefing: deterministic public metadata and source links; not generative autonomous analysis.</p>');
  $("stageContent").onclick=e=>{
+  const zoom=e.target.closest("[data-zoom]");
+  if(zoom){
+   S.zoom=zoom.dataset.zoom==="in"?Math.min(3,S.zoom+.22):
+    zoom.dataset.zoom==="out"?Math.max(.65,S.zoom-.22):1;
+   save();renderGraph();return;
+  }
   const node=e.target.closest("[data-node]");if(node){contextEvent(node.dataset.node);return}
   const edge=e.target.closest("[data-edge]");if(edge){contextEdge(edge.dataset.edge);return}
   const market=e.target.closest("[data-market]");if(market){contextMarket(market.dataset.market);return}
