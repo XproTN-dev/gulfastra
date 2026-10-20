@@ -43,3 +43,19 @@ jobs:
             done
             exit 1
           fi
+
+      - name: Optional Telegram reporting digest
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python scripts/telegram_digest.py
+      - name: Persist digest state if notifications enabled
+        run: |
+          if [ -f data/telegram_state.json ]; then
+            git add data/telegram_state.json
+            if ! git diff --cached --quiet; then
+              git commit -m "data: record optional Telegram digest watermark"
+              git pull --rebase -X theirs origin main
+              git push
+            fi
+          fi
