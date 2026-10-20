@@ -61,6 +61,9 @@ async function remoteGet(name,{force=false}={}){
     if(name==="events.json"&&!Array.isArray(data.events))throw Error("Invalid remote Fusion archive");
     memory.set(name,{version:hash,data});state.dataVersions[name]=hash;
     if(state.channel!=="data-branch")publishStatus("data-branch");
+    if(cached?.version!==hash){
+      window.dispatchEvent(new CustomEvent("gulfastra:data-changed",{detail:{name,version:hash}}));
+    }
     return data;
    }catch(error){
     if(cached){publishStatus("cached-branch",error);return cached.data}
@@ -93,14 +96,7 @@ function wakeRemote(name){
   backgroundTimer=null;
   const doc=await manifest();
   if(!doc)return;
-  await Promise.allSettled([...interested].map(async dataset=>{
-   const before=memory.get(dataset)?.version;
-   const result=await remoteGet(dataset);
-   const after=memory.get(dataset)?.version;
-   if(after&&before!==after&&after!=="bundled-fallback"){
-    window.dispatchEvent(new CustomEvent("gulfastra:data-changed",{detail:{name:dataset,version:after}}));
-   }
-  }));
+  await Promise.allSettled([...interested].map(dataset=>remoteGet(dataset)));
  },0);
 }
 async function get(name,options={}){
