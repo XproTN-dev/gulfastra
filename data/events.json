@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "generated_at": "2026-10-20T22:44:30.503005Z",
+  "generated_at": "2026-10-20T22:45:22.710386Z",
   "model": "deterministic-source-correlation-v2-coverage-lifecycle",
   "disclaimer": "Clusters are related PUBLIC REPORTS, not confirmed incidents. Source counts are not proof. Country names are mentions, not incident locations.",
   "events": [
@@ -338,6 +338,63 @@
       "digest": "bf16945ff0a537251745",
       "revision": 1,
       "updated_at": "2026-10-20T21:35:03.678524Z"
+    },
+    {
+      "id": "GF-59E96DD54D901C",
+      "title": "UK to send jets to defend Saudi Arabia from Houthi attacks, and other Mideast news - AP News",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T21:07:00Z",
+      "last_published": "2026-10-20T21:07:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "b1f14583bc3a74daf8f9fe22",
+          "title": "UK to send jets to defend Saudi Arabia from Houthi attacks, and other Mideast news - AP News",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNd1EtQlVBeUdvX1BnaEx2cXI4ZVVleTdNSlJ2dUR2eXdWeEpwVl9SandQVEpadDVrdzVEM1k0a2NfRXhpSURuOFZtRzdnOWtsNGZncFhtcV9OZ3kxQ1Y1RDRYN1FLNG11V2Y4dFQwbnRqOXJQZDBySEhMWUxrVGZwQ0tPS0N4TXpZVGxkeFRwU3BTWkoxMnNTa1JsNTlPYjZDSFJhNDZFazJsSXc?oc=5",
+          "source": "AP News",
+          "publisher_key": "ap news",
+          "provider": "AP · indexed Gulf reporting",
+          "published_at": "2026-10-20T21:07:00Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T19:00:37.368110Z",
+          "collected_at": null,
+          "language": "en",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "new-coverage",
+      "coverage_first_published_at": "2026-10-20T21:07:00Z",
+      "coverage_last_published_at": "2026-10-20T21:07:00Z",
+      "current_reporting": true,
+      "recent_publisher_count": 1,
+      "recent_article_count": 1,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "d69f7229507e78a570b7",
+      "revision": 5,
+      "updated_at": "2026-10-20T22:45:22.710386Z"
     },
     {
       "id": "GF-40217C260597CD",
@@ -3080,63 +3137,6 @@
       "updated_at": "2026-10-20T21:35:03.678524Z"
     },
     {
-      "id": "GF-59E96DD54D901C",
-      "title": "UK to send jets to defend Saudi Arabia from Houthi attacks, and other Mideast news - AP News",
-      "category": "security",
-      "topic": "regional",
-      "countries": [
-        "Saudi",
-        "Yemen"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "en"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-20T18:02:00Z",
-      "last_published": "2026-10-20T18:02:00Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "b1f14583bc3a74daf8f9fe22",
-          "title": "UK to send jets to defend Saudi Arabia from Houthi attacks, and other Mideast news - AP News",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNd1EtQlVBeUdvX1BnaEx2cXI4ZVVleTdNSlJ2dUR2eXdWeEpwVl9SandQVEpadDVrdzVEM1k0a2NfRXhpSURuOFZtRzdnOWtsNGZncFhtcV9OZ3kxQ1Y1RDRYN1FLNG11V2Y4dFQwbnRqOXJQZDBySEhMWUxrVGZwQ0tPS0N4TXpZVGxkeFRwU3BTWkoxMnNTa1JsNTlPYjZDSFJhNDZFazJsSXc?oc=5",
-          "source": "AP News",
-          "publisher_key": "ap news",
-          "provider": "AP · indexed Gulf reporting",
-          "published_at": "2026-10-20T18:02:00Z",
-          "date_quality": "publisher-time",
-          "first_seen_at": "2026-10-20T19:00:37.368110Z",
-          "collected_at": null,
-          "language": "en",
-          "country": ""
-        }
-      ],
-      "coverage_stage": "recent-coverage",
-      "coverage_first_published_at": "2026-10-20T18:02:00Z",
-      "coverage_last_published_at": "2026-10-20T18:02:00Z",
-      "current_reporting": false,
-      "recent_publisher_count": 0,
-      "recent_article_count": 0,
-      "incident_status": "unknown",
-      "event_occurrence_verified": false,
-      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "7f4bf90452e2aa568271",
-      "revision": 4,
-      "updated_at": "2026-10-20T22:32:26.889638Z"
-    },
-    {
       "id": "GF-B99689D555B5E8",
       "title": "إيران مباشر.. طهران تعلن شروطها لاستئناف التفاوض وتهدد باستهداف الكابلات في هرمز",
       "category": "security",
@@ -3416,6 +3416,60 @@
       "digest": "252b2e2ab18ef30a2fa2",
       "revision": 2,
       "updated_at": "2026-10-20T21:35:03.678524Z"
+    },
+    {
+      "id": "GF-7F19C852CE8B15",
+      "title": "Super Tanker Catches Fire After Striking Naval Mine South of Strait of Hormuz - WANA News Agency",
+      "category": "transport",
+      "topic": "maritime",
+      "countries": [],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T17:31:33Z",
+      "last_published": "2026-10-20T17:31:33Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "b99ef684d5399aed079dc072",
+          "title": "Super Tanker Catches Fire After Striking Naval Mine South of Strait of Hormuz - WANA News Agency",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQa2taaVY2VFRxQUYwcWpZVkJHQUxDYXc1UmJUcEJOXzcyZkRmeFRudk5CX09IRW5aM09iREpHenBBSHFPMGlHRjZ6OHR6UWJ1UEVtVDFzWmtmVUswMjVsSzdvcGxXS0tiVGhxZVJRdnMydjZGb0pTUWEyQW5XamN1Ui02LUN6RnN0ZFMzV2JuX09CX3djcUFYMDBLdHN6Zw?oc=5",
+          "source": "WANA News Agency",
+          "publisher_key": "wana news agency",
+          "provider": "Google News · shipping",
+          "published_at": "2026-10-20T17:31:33Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T22:45:14.127126Z",
+          "collected_at": null,
+          "language": "en",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "recent-coverage",
+      "coverage_first_published_at": "2026-10-20T17:31:33Z",
+      "coverage_last_published_at": "2026-10-20T17:31:33Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "c7a909b9485e247679dd",
+      "revision": 1,
+      "updated_at": "2026-10-20T22:45:22.710386Z"
     },
     {
       "id": "GF-AD530981117F51",
@@ -18802,6 +18856,64 @@
       "updated_at": "2026-10-20T22:32:26.889638Z"
     },
     {
+      "id": "GF-16094BD5B10138",
+      "title": "السعودية والإمارات تدينان الهجمات الإيرانية على البحرين والكويت والأردن وتؤكدان دعمهما لأمن الدول الشقيقة - الساحل الغربي",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Bahrain",
+        "Iran",
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-19T21:42:52Z",
+      "last_published": "2026-10-19T21:42:52Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "6df264a43f4803d464219aca",
+          "title": "السعودية والإمارات تدينان الهجمات الإيرانية على البحرين والكويت والأردن وتؤكدان دعمهما لأمن الدول الشقيقة - الساحل الغربي",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBITGlFa05BRWUwWDUwVzhPWlZFaC1yQ0RmMUxpMXZLUF9neHYtZ0lmdFRmQk4ta0VWT1hRZ25YVFlRdENrajdBcTQ2OVdFYmM?oc=5",
+          "source": "الساحل الغربي",
+          "publisher_key": "الساحل الغربي",
+          "provider": "عربي · الإمارات والبحرين",
+          "published_at": "2026-10-19T21:42:52Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T16:54:36.300300Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-19T21:42:52Z",
+      "coverage_last_published_at": "2026-10-19T21:42:52Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "796e1c7799bf0cc64266",
+      "revision": 14,
+      "updated_at": "2026-10-20T22:45:22.710386Z"
+    },
+    {
       "id": "GF-59345064D5A1D3",
       "title": "Russia vows continued Iran ties as Trump welcomes limits on support - Iran International",
       "category": "diplomacy",
@@ -20146,6 +20258,63 @@
       "digest": "64074e126a1b44de96ef",
       "revision": 3,
       "updated_at": "2026-10-20T16:52:31.264495Z"
+    },
+    {
+      "id": "GF-23CE44EF9DCA45",
+      "title": "Brent crude edges lower, even after Houthi attacks on Saudi infrastructure - Reuters",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-19T19:18:06Z",
+      "last_published": "2026-10-19T19:18:06Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "cf58f98dc491ccbb8a0d1538",
+          "title": "Brent crude edges lower, even after Houthi attacks on Saudi infrastructure - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMmVLc19hd0VSYXIydVNTWENKZ2J5WVNvVDRQUjRfTUJXWGhjOGxGZkFHVm9SNnZzeU9TWUhrYnJTRU1sVFRnX1BwZVd3NHB5a0NLdThkbDRldlg2eHdhTll2b3RnQTJ4U3dHVGczM25FdjJHRGQ5WGJDV2Qxd1hzLV9EcjNWaUQ4cXEzbWVHRzNuS1dGVVNBSmdXWGR6THN1dXhvSUdFS0dMMTJZTnBBZEFfZ2JoYVVFSWNMZw?oc=5",
+          "source": "Reuters",
+          "publisher_key": "reuters",
+          "provider": "Reuters · indexed Gulf reporting",
+          "published_at": "2026-10-19T19:18:06Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T12:09:48.504938Z",
+          "collected_at": null,
+          "language": "en",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-19T19:18:06Z",
+      "coverage_last_published_at": "2026-10-19T19:18:06Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "a045355e6276b42b5921",
+      "revision": 6,
+      "updated_at": "2026-10-20T22:45:22.710386Z"
     },
     {
       "id": "GF-56E27E2D2EBDC3",
@@ -30846,63 +31015,6 @@
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
-      "id": "GF-23CE44EF9DCA45",
-      "title": "Brent crude edges lower, even after Houthi attacks on Saudi infrastructure - Reuters",
-      "category": "security",
-      "topic": "regional",
-      "countries": [
-        "Saudi",
-        "Yemen"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "en"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-18T22:23:00Z",
-      "last_published": "2026-10-18T22:23:00Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "cf58f98dc491ccbb8a0d1538",
-          "title": "Brent crude edges lower, even after Houthi attacks on Saudi infrastructure - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMmVLc19hd0VSYXIydVNTWENKZ2J5WVNvVDRQUjRfTUJXWGhjOGxGZkFHVm9SNnZzeU9TWUhrYnJTRU1sVFRnX1BwZVd3NHB5a0NLdThkbDRldlg2eHdhTll2b3RnQTJ4U3dHVGczM25FdjJHRGQ5WGJDV2Qxd1hzLV9EcjNWaUQ4cXEzbWVHRzNuS1dGVVNBSmdXWGR6THN1dXhvSUdFS0dMMTJZTnBBZEFfZ2JoYVVFSWNMZw?oc=5",
-          "source": "Reuters",
-          "publisher_key": "reuters",
-          "provider": "Reuters · indexed Gulf reporting",
-          "published_at": "2026-10-18T22:23:00Z",
-          "date_quality": "publisher-time",
-          "first_seen_at": "2026-10-20T12:09:48.504938Z",
-          "collected_at": null,
-          "language": "en",
-          "country": ""
-        }
-      ],
-      "coverage_stage": "quiet-coverage",
-      "coverage_first_published_at": "2026-10-18T22:23:00Z",
-      "coverage_last_published_at": "2026-10-18T22:23:00Z",
-      "current_reporting": false,
-      "recent_publisher_count": 0,
-      "recent_article_count": 0,
-      "incident_status": "unknown",
-      "event_occurrence_verified": false,
-      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "c87142dfa0d55d895a59",
-      "revision": 5,
-      "updated_at": "2026-10-20T22:30:38.766014Z"
-    },
-    {
       "id": "GF-626D07761F94D2",
       "title": "دعم عربي وإقليمي متنام للسعودية.. وتهديدات الحوثي للملاحة تثير قلق أوروبا - NOW الشرق",
       "category": "transport",
@@ -33207,6 +33319,62 @@
       "digest": "c27f7baf51728806777a",
       "revision": 1,
       "updated_at": "2026-10-20T19:00:55.196262Z"
+    },
+    {
+      "id": "GF-B4EED7189B9A22",
+      "title": "Search for survivors as airstrike kills at least 9 in rebel-held Yemen - AP News",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-18T16:15:00Z",
+      "last_published": "2026-10-18T16:15:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "e5d92f70ee892bfa8fce2537",
+          "title": "Search for survivors as airstrike kills at least 9 in rebel-held Yemen - AP News",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPYW5sTVJoVHVtSzJCVGI2d3BXTzZVMURCNEdDMW5kM3hJQ1RYeEp1eTdzQ3c3bEp2dVJMZWZTZl9Bd21OU0E4cWViejlzYmN3aEFRa0ZGcTlralVKZGtTcXlLRzFQUjhNSEJsZnh1V2hRend6VzlibThoMFZ0dk5ZbmQ1S0lPektkc3lSbWhqUWIyZnpwdjNEbHpUWWZJalFDMFA4cWRXQU16RzhJX19NekpyR0hBd0pSR2JMSEMtaUVKR0tEYV9F?oc=5",
+          "source": "AP News",
+          "publisher_key": "ap news",
+          "provider": "AP · indexed Gulf reporting",
+          "published_at": "2026-10-18T16:15:00Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T22:45:14.127126Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Yemen"
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-18T16:15:00Z",
+      "coverage_last_published_at": "2026-10-18T16:15:00Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "eff0ece9c1b72d971301",
+      "revision": 1,
+      "updated_at": "2026-10-20T22:45:22.710386Z"
     },
     {
       "id": "GF-E25D4C5C61574F",
@@ -44802,6 +44970,118 @@
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
+      "id": "GF-EFF1EC7C4B2E1C",
+      "title": "Iran’s IRGC says 2nd supertanker hits naval mine in Strait of Hormuz - Middle East Monitor",
+      "category": "transport",
+      "topic": "maritime",
+      "countries": [
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "multi-publisher-unverified",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 4,
+      "report_count": 5,
+      "first_published": "2026-10-17T03:19:25Z",
+      "last_published": "2026-10-17T13:38:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "9f8af8c7509eadea6c673784",
+          "title": "Iran’s IRGC says 2nd supertanker hits naval mine in Strait of Hormuz - Middle East Monitor",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbHNmdE9fbl9BbW9oQVdZUWVzQ0NzMWVGMXFYNWNoQm05akFUTjR1NjY4dm1YU2Z3WjJvV3E0VlNybGhiOHNEUl9VazJqYjZqbTZwVEJablJCMmNLOFFWZ2lDMl9rSWx6dFk2MHRmN0xJSkVtZDVNSjBPcWJ1WUdPY3hJMEpnb2RIbUIwTmR5RnBGcEpDdXE4dmxORWctLVZJcUhQU3pLU1BxR0lMUWRzONIBtgFBVV95cUxNRHEtRXFwX1l5OFNRQ0VZNFVYRUxNNWxsUERyZTBLVndiSURsa2tjU1RJTWdDMHh2Tm8zQ2FhZzg2cUJYQ2NISGFyUHFfTlQ1cnpKRDJzaVhleWFteUxOOXF2cXRMay1RMkR4MXVPMDRmeUY1T2ZPbmFzZk9zUkFjUmF0U05hU3F5VkllZTJwRmtNWmVpYjZ0TnpmQ2Q2N1FPMTh3RlgzWXhheGZlOE9lTzAxU29VQQ?oc=5",
+          "source": "Middle East Monitor",
+          "publisher_key": "middle east monitor",
+          "provider": "Google News · shipping",
+          "published_at": "2026-10-17T13:38:00Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T22:45:14.127126Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Iran"
+        },
+        {
+          "id": "98022c465620e86531356bd7",
+          "title": "Iran’s IRGC says 2nd supertanker hits naval mine in Strait of Hormuz - Anadolu Ajansı",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWDN2N3cwX3M5Y2N0Y05JXy1QNEc2cU5xVmhJb3NrUTdjbHliZnlmS1ZLUUNsT0pGTUtrVDhhWUc4RTJ4Nk04d1pDRlE4WjBrRHVreFhzY2tvYUxCSHVHOGxEanUtbXZxSXZJQ1pOdDhNNFpEa0pid2dSci1lNE9LdHNFd05tc0ZFRkZ4SE1VZFEyMTFpZkZHNHFDSXVOU3VfdEZKZkdoQ09mbXNJdFE0MHFLYw?oc=5",
+          "source": "Anadolu Ajansı",
+          "publisher_key": "anadolu ajansı",
+          "provider": "Google News · shipping",
+          "published_at": "2026-10-17T12:41:09Z",
+          "date_quality": "legacy-unverified",
+          "first_seen_at": "2026-10-20T12:00:32.516927Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Iran"
+        },
+        {
+          "id": "92f59d6cc6b341205ef57ccf",
+          "title": "IRGC Navy claims second supertanker hit naval mine in Strait of Hormuz - Iran International",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE56Vy1TbnphQzJfX0RwR01PQll0QVZQbEc3c2JkU1VMX3k4T2lmVDlDZ3k3b0dfMV9yZTRKQmo2LWpXUGE4T3Q4VGJ4SW9BaHJIM3c?oc=5",
+          "source": "Iran International",
+          "publisher_key": "iran international",
+          "provider": "Google News · shipping",
+          "published_at": "2026-10-17T12:17:17Z",
+          "date_quality": "legacy-unverified",
+          "first_seen_at": "2026-10-20T12:00:32.516927Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Iran"
+        },
+        {
+          "id": "c3e58922ab9cc51ff97fa6a0",
+          "title": "Iran says supertanker hit mine in Strait of Hormuz - Yahoo",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQ1c1d25lODE2YjlHdmNhVUZBS2E5cXpqSFhQRFRRMENBRm5pcVJkU3VobWdpbFVaVUdzZ0VWTFVhU2ZMLU91cHR3T1U5ZzNPQ0lOVWVkZlZyc3dabHduY09iWkZXS2RwYVpFS1BRdmlfN0o0Vm41U0R2NDhOOFJHVm92eHJTRm5waTRPX0diU2w?oc=5",
+          "source": "Yahoo",
+          "publisher_key": "yahoo",
+          "provider": "Google News · shipping",
+          "published_at": "2026-10-17T04:18:00Z",
+          "date_quality": "legacy-unverified",
+          "first_seen_at": "2026-10-20T12:00:32.516927Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Iran"
+        },
+        {
+          "id": "ce1c584a38e74818f69f",
+          "title": "Iran says oil tanker hit naval mine in Strait of Hormuz - Anadolu Ajansı",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPS2ZFbXUzUDV6clk4V0FSZjJWamlPYkF4cWxGYmk1eUZMZktHVmliOGZQa25OTVIwbnBTd2x3TnJVUVQ3MXlQQUk2c1BOSXcyYjBhRVpZTXQ3bE5nbE1oUW5aYlc3NUwwR2dHUmdNZzl5Q3hhbU9qZnVsUENoRElOWUlTckZQa2ZGbmExTmhSS2FkdGZmaHpyd3FjQUVERE5l?oc=5",
+          "source": "Anadolu Ajansı",
+          "publisher_key": "anadolu ajansı",
+          "provider": "Google News RSS",
+          "published_at": "2026-10-17T03:19:25Z",
+          "date_quality": "legacy-unverified",
+          "first_seen_at": "2026-10-20T12:00:32.516927Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Iran"
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-17T13:38:00Z",
+      "coverage_last_published_at": "2026-10-17T13:38:00Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "a5b4198b8537dbefeb7d",
+      "revision": 3,
+      "updated_at": "2026-10-20T22:45:22.710386Z"
+    },
+    {
       "id": "GF-C8C24CD356E386",
       "title": "إيران: مضيق هرمز مغلق وسنستهدف السفن المخالفة - بوابة الشروق",
       "category": "transport",
@@ -45147,104 +45427,6 @@
       "lifecycle_note": "Original publication time unavailable. No event status inferred.",
       "digest": "7ff274f23aef554d949a",
       "revision": 3,
-      "updated_at": "2026-10-20T16:52:31.264495Z"
-    },
-    {
-      "id": "GF-EFF1EC7C4B2E1C",
-      "title": "Iran’s IRGC says 2nd supertanker hits naval mine in Strait of Hormuz - Anadolu Ajansı",
-      "category": "transport",
-      "topic": "maritime",
-      "countries": [
-        "Iran"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "multi-publisher-unverified",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "en"
-      ],
-      "publisher_count": 3,
-      "report_count": 4,
-      "first_published": "2026-10-17T03:19:25Z",
-      "last_published": "2026-10-17T12:41:09Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "98022c465620e86531356bd7",
-          "title": "Iran’s IRGC says 2nd supertanker hits naval mine in Strait of Hormuz - Anadolu Ajansı",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWDN2N3cwX3M5Y2N0Y05JXy1QNEc2cU5xVmhJb3NrUTdjbHliZnlmS1ZLUUNsT0pGTUtrVDhhWUc4RTJ4Nk04d1pDRlE4WjBrRHVreFhzY2tvYUxCSHVHOGxEanUtbXZxSXZJQ1pOdDhNNFpEa0pid2dSci1lNE9LdHNFd05tc0ZFRkZ4SE1VZFEyMTFpZkZHNHFDSXVOU3VfdEZKZkdoQ09mbXNJdFE0MHFLYw?oc=5",
-          "source": "Anadolu Ajansı",
-          "publisher_key": "anadolu ajansı",
-          "provider": "Google News · shipping",
-          "published_at": "2026-10-17T12:41:09Z",
-          "date_quality": "legacy-unverified",
-          "first_seen_at": "2026-10-20T12:00:32.516927Z",
-          "collected_at": null,
-          "language": "en",
-          "country": "Iran"
-        },
-        {
-          "id": "92f59d6cc6b341205ef57ccf",
-          "title": "IRGC Navy claims second supertanker hit naval mine in Strait of Hormuz - Iran International",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE56Vy1TbnphQzJfX0RwR01PQll0QVZQbEc3c2JkU1VMX3k4T2lmVDlDZ3k3b0dfMV9yZTRKQmo2LWpXUGE4T3Q4VGJ4SW9BaHJIM3c?oc=5",
-          "source": "Iran International",
-          "publisher_key": "iran international",
-          "provider": "Google News · shipping",
-          "published_at": "2026-10-17T12:17:17Z",
-          "date_quality": "legacy-unverified",
-          "first_seen_at": "2026-10-20T12:00:32.516927Z",
-          "collected_at": null,
-          "language": "en",
-          "country": "Iran"
-        },
-        {
-          "id": "c3e58922ab9cc51ff97fa6a0",
-          "title": "Iran says supertanker hit mine in Strait of Hormuz - Yahoo",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQ1c1d25lODE2YjlHdmNhVUZBS2E5cXpqSFhQRFRRMENBRm5pcVJkU3VobWdpbFVaVUdzZ0VWTFVhU2ZMLU91cHR3T1U5ZzNPQ0lOVWVkZlZyc3dabHduY09iWkZXS2RwYVpFS1BRdmlfN0o0Vm41U0R2NDhOOFJHVm92eHJTRm5waTRPX0diU2w?oc=5",
-          "source": "Yahoo",
-          "publisher_key": "yahoo",
-          "provider": "Google News · shipping",
-          "published_at": "2026-10-17T04:18:00Z",
-          "date_quality": "legacy-unverified",
-          "first_seen_at": "2026-10-20T12:00:32.516927Z",
-          "collected_at": null,
-          "language": "en",
-          "country": "Iran"
-        },
-        {
-          "id": "ce1c584a38e74818f69f",
-          "title": "Iran says oil tanker hit naval mine in Strait of Hormuz - Anadolu Ajansı",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPS2ZFbXUzUDV6clk4V0FSZjJWamlPYkF4cWxGYmk1eUZMZktHVmliOGZQa25OTVIwbnBTd2x3TnJVUVQ3MXlQQUk2c1BOSXcyYjBhRVpZTXQ3bE5nbE1oUW5aYlc3NUwwR2dHUmdNZzl5Q3hhbU9qZnVsUENoRElOWUlTckZQa2ZGbmExTmhSS2FkdGZmaHpyd3FjQUVERE5l?oc=5",
-          "source": "Anadolu Ajansı",
-          "publisher_key": "anadolu ajansı",
-          "provider": "Google News RSS",
-          "published_at": "2026-10-17T03:19:25Z",
-          "date_quality": "legacy-unverified",
-          "first_seen_at": "2026-10-20T12:00:32.516927Z",
-          "collected_at": null,
-          "language": "en",
-          "country": "Iran"
-        }
-      ],
-      "coverage_stage": "publication-time-unknown",
-      "coverage_last_published_at": null,
-      "coverage_first_published_at": null,
-      "current_reporting": false,
-      "recent_publisher_count": 0,
-      "recent_article_count": 0,
-      "incident_status": "unknown",
-      "event_occurrence_verified": false,
-      "lifecycle_note": "Original publication time unavailable. No event status inferred.",
-      "digest": "35b4069377891e4b708c",
-      "revision": 2,
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
@@ -56530,64 +56712,6 @@
       "digest": "b77ed8392bf6d7f0959c",
       "revision": 3,
       "updated_at": "2026-10-20T16:52:31.264495Z"
-    },
-    {
-      "id": "GF-16094BD5B10138",
-      "title": "السعودية والإمارات تدينان الهجمات الإيرانية على البحرين والكويت والأردن وتؤكدان دعمهما لأمن الدول الشقيقة - الساحل الغربي",
-      "category": "security",
-      "topic": "regional",
-      "countries": [
-        "Bahrain",
-        "Iran",
-        "Saudi"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "ar"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-16T03:25:46Z",
-      "last_published": "2026-10-16T03:25:46Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "6df264a43f4803d464219aca",
-          "title": "السعودية والإمارات تدينان الهجمات الإيرانية على البحرين والكويت والأردن وتؤكدان دعمهما لأمن الدول الشقيقة - الساحل الغربي",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBITGlFa05BRWUwWDUwVzhPWlZFaC1yQ0RmMUxpMXZLUF9neHYtZ0lmdFRmQk4ta0VWT1hRZ25YVFlRdENrajdBcTQ2OVdFYmM?oc=5",
-          "source": "الساحل الغربي",
-          "publisher_key": "الساحل الغربي",
-          "provider": "عربي · الإمارات والبحرين",
-          "published_at": "2026-10-16T03:25:46Z",
-          "date_quality": "publisher-time",
-          "first_seen_at": "2026-10-20T16:54:36.300300Z",
-          "collected_at": null,
-          "language": "ar",
-          "country": ""
-        }
-      ],
-      "coverage_stage": "quiet-coverage",
-      "coverage_first_published_at": "2026-10-16T03:25:46Z",
-      "coverage_last_published_at": "2026-10-16T03:25:46Z",
-      "current_reporting": false,
-      "recent_publisher_count": 0,
-      "recent_article_count": 0,
-      "incident_status": "unknown",
-      "event_occurrence_verified": false,
-      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "958e3f0a4184cbfda211",
-      "revision": 13,
-      "updated_at": "2026-10-20T22:43:21.450100Z"
     },
     {
       "id": "GF-2754D409258FEA",
@@ -81602,7 +81726,7 @@
   "country_stats": {
     "Iran": {
       "events": 483,
-      "reports": 532,
+      "reports": 533,
       "security_coverage": 305,
       "transport_coverage": 99,
       "sources": 220
@@ -81657,9 +81781,9 @@
       "sources": 6
     },
     "Yemen": {
-      "events": 267,
-      "reports": 279,
-      "security_coverage": 253,
+      "events": 268,
+      "reports": 280,
+      "security_coverage": 254,
       "transport_coverage": 12,
       "sources": 132
     },
@@ -81683,20 +81807,44 @@
     "2026-10-13": 115,
     "2026-10-14": 152,
     "2026-10-15": 148,
-    "2026-10-16": 139,
+    "2026-10-16": 138,
     "2026-10-17": 187,
     "2026-10-18": 151,
-    "2026-10-19": 217,
-    "2026-10-20": 311
+    "2026-10-19": 219,
+    "2026-10-20": 312
   },
   "revisions": [
     {
-      "id": "GF-72F18E457A563E",
-      "revision": 3,
-      "at": "2026-10-20T22:44:30.503005Z",
+      "id": "GF-59E96DD54D901C",
+      "revision": 5,
+      "at": "2026-10-20T22:45:22.710386Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
+    },
+    {
+      "id": "GF-16094BD5B10138",
+      "revision": 14,
+      "at": "2026-10-20T22:45:22.710386Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-23CE44EF9DCA45",
+      "revision": 6,
+      "at": "2026-10-20T22:45:22.710386Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-EFF1EC7C4B2E1C",
+      "revision": 3,
+      "at": "2026-10-20T22:45:22.710386Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 4,
+      "new_source_count": 5
     }
   ]
 }
