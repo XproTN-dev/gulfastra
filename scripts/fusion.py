@@ -11,10 +11,11 @@ from difflib import SequenceMatcher
 from hashlib import sha256
 from pathlib import Path
 import json
+import os
 import re
 
 ROOT = Path(__file__).resolve().parents[1]
-DATA = ROOT / "data"
+DATA = Path(os.environ.get("GULFASTRA_DATA_DIR", str(ROOT / "data")))
 CATEGORIES = ("security", "transport", "diplomacy", "other")
 COUNTRIES = ("Iran", "Saudi", "Qatar", "UAE", "Bahrain", "Kuwait", "Iraq", "Oman", "Yemen", "Israel")
 TOPICS = {
