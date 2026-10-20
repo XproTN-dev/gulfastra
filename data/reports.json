@@ -1,8 +1,8 @@
 {
   "version": 6,
-  "last_run": "2026-10-20T18:37:03.186914Z",
-  "last_successful_run": "2026-10-20T18:37:03.186914Z",
-  "successful_sources": 23,
+  "last_run": "2026-10-20T18:37:52.852680Z",
+  "last_successful_run": "2026-10-20T18:37:52.852680Z",
+  "successful_sources": 22,
   "reports": [
     {
       "id": "91dbf7d8d0976e21a760b0b9",
@@ -142,6 +142,29 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "b22f0311971e92f252c8b535",
+      "title": "UN says besieged Yemen city at 'grave risk' as Houthis attack - PBS",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZk5yS2hIUkYxS05GQmZSM29Ra0NTaHgxUlU0TWhKak5fR3huak1GRkRYTVFEbUE5TF9Wd0l3SzFYeU4yT0dHbWZtQVRrdjBfU1hSTkczZDAwQ1hQRE1IUDkyWEE0aWdXbTJlOExkeGZZUkpJdGRlTFBidWR1aWl2eHAza0Y3anBlYXVLOF9CdzJObjBrVEJXM1o5dFdQMEXSAZ8BQVVfeXFMT2ZOcktoSFJGMUtORkJmUjNvUWtDU2h4MVJVNE1oSmpOX0d4bmpNRkZEWE1RRG1BOUxfVndJd0sxWHlOMk9HR21mbUFUa3YwX1NYUk5HM2QwMENYUERNSFA5MlhBNGlnV20yZThMZHhmWVJKSXRkZUxQYnVkdWlpdnhwM2tGN2pwZWF1SzhfQncyTm4wa1RCVzNaOXRXUDBF?oc=5",
+      "source": "PBS",
+      "published_at": "2026-10-20T17:40:36Z",
+      "country": "Yemen",
+      "countries": [
+        "Yemen"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · security",
+      "first_seen_at": "2026-10-20T18:37:52.852680Z",
+      "date_quality": "publisher-time",
+      "freshness": "new-reporting",
+      "context": "speculative",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "94b26c1e73a985137f74e02f",
       "title": "الحرس الثوري الإيراني: انفجار ناقلة نفط بعد اصطدامها بلغم بحري - المصري اليوم",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9oNmVlMW1pa0FOVlI3dURzZVgtYm1jYTIwQVItaC1wYnhUOHBXejUycVUtNl9jdmpFSjI1b0FKUHlpVER3MVhZOXdndnIzTVJqTUpZSWxTd0gyb3B3MFRn?oc=5",
@@ -211,11 +234,11 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
-      "id": "a0cb22cec43d38c477fd40b3",
+      "id": "e95a1fcd04f3ae3890061034",
       "title": "التهديد الإيراني باستهداف كابلات الإنترنت في هرمز يُثير تفاعلاً واسعاً على مواقع التواصل الاجتماعي - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBwZDNramRpUmRUZFFac2Zaem1vY3JjcnZjMmpJM3U1elR1dkxRb0lNbVpPOTh0aHBReG1GWk1jd3pPVUowdzh2bTVxQzZMLTd6b0J1TDhIZmNBUG0tS0HSAWNBVV95cUxQMDVlODBHdDQtenlWdGp5S1JJN1dpRndIaG5EWGpTdV9oZ0NrMnNwdXdSQnJhMFNyRXZPN3ZSX1U2eGF5T3lUc2J3OC1QZWllT3RjZnlFb0FtTjJSUmtMVm0xUTQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAwNWU4MEd0NC16eVZ0anlLUkk3V2lGd0hobkRYalN1X2hnQ2syc3B1d1JCcmEwU3JFdk83dlJfVTZ4YXlPeVRzYnc4LVBlaWVPdGNmeUVvQW1OMlJSa0xWbTFRNNIBY0FVX3lxTFAwNWU4MEd0NC16eVZ0anlLUkk3V2lGd0hobkRYalN1X2hnQ2syc3B1d1JCcmEwU3JFdk83dlJfVTZ4YXlPeVRzYnc4LVBlaWVPdGNmeUVvQW1OMlJSa0xWbTFRNA?oc=5",
       "source": "BBC",
-      "published_at": "2026-10-20T17:12:33Z",
+      "published_at": "2026-10-20T17:13:33Z",
       "country": "Iran",
       "countries": [
         "Iran"
@@ -224,7 +247,7 @@
       "category": "security",
       "tag": "تقرير امني",
       "provider": "عربي · مضيق هرمز",
-      "first_seen_at": "2026-10-20T17:30:36.865670Z",
+      "first_seen_at": "2026-10-20T18:37:52.852680Z",
       "date_quality": "publisher-time",
       "freshness": "new-reporting",
       "context": "reporting",
@@ -1352,7 +1375,7 @@
       "language": "en",
       "category": "security",
       "tag": "SECURITY REPORT",
-      "provider": "Google News · security",
+      "provider": "Google News · missiles/drones",
       "first_seen_at": "2026-10-20T13:30:10.274301Z",
       "date_quality": "publisher-time",
       "freshness": "recent-reporting",
@@ -4362,6 +4385,29 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "5ebadb034f9a3b4285258e0e",
+      "title": "Israeli F-35s Launch Multiple Simulated Strikes on Iran Across Iraqi and Syrian Skies - Military Watch Magazine",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTnNTQV9TY2o3VEs0OWE4TWd6MGZZeGQtTjUzdjNHY3kwTkxxVm5lc0l5d2xTWTlmTW5tcmw0TnJMQmJqb3NFR2dFNHpLUndCalpRYmpXb3BIbktlU2w0Qy1GbW1KOXB4cTVDQmFoT0E2aXkwVGxhRkhTVmlub2hVWV95b3NEakdVZDdJYXVFVnpxaWkxMXBN?oc=5",
+      "source": "Military Watch Magazine",
+      "published_at": "2026-10-20T08:09:00Z",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · security",
+      "first_seen_at": "2026-10-20T18:37:52.852680Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "elevated-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "88c9026b391d58133ae4bd40",
       "title": "اندماج لإطلاق شركة نفط كبرى في كردستان العراق",
       "url": "https://www.aljazeera.net/ebusiness/2026/10/20/%d8%a7%d9%86%d8%af%d9%85%d8%a7%d8%ac-%d9%84%d8%a5%d8%b7%d9%84%d8%a7%d9%82-%d8%b4%d8%b1%d9%83%d8%a9-%d9%86%d9%81%d8%b7-%d9%83%d8%a8%d8%b1%d9%89-%d9%81%d9%8a-%d9%83%d8%b1%d8%af%d8%b3%d8%aa%d8%a7%d9%86?traffic_source=rss",
@@ -7217,7 +7263,7 @@
       "language": "ar",
       "category": "security",
       "tag": "خبر اعتراض / دفاع جوي",
-      "provider": "عربي · الإمارات والبحرين",
+      "provider": "عربي · الكويت والعراق",
       "first_seen_at": "2026-10-20T12:01:49.547007Z",
       "date_quality": "publisher-time",
       "freshness": "older-reporting",
@@ -8213,6 +8259,30 @@
       "provider": "Google News · security",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "91d4581a1376bf96e2612e5b",
+      "title": "تصعيد إيراني يطول الكويت والبحرين والأردن.. وواشنطن ترد باستهداف ناقلات النفط - الساحل الغربي",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBEbVdfVUxjVGlrN0lvNi1ZcGh4ZER3ZWt2OHViaGZ4WGgwUEZjdDZNTTlvNTFoWk94YVE5RVZLaUxUWmd1LWdNbFR6dDdWZk0?oc=5",
+      "source": "الساحل الغربي",
+      "published_at": "2026-10-19T13:10:02Z",
+      "country": "",
+      "countries": [
+        "Iran",
+        "Kuwait"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "ملاحه بحريه",
+      "provider": "عربي · الإمارات والبحرين",
+      "first_seen_at": "2026-10-20T16:50:50.754226Z",
+      "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -25480,30 +25550,6 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
-      "id": "91d4581a1376bf96e2612e5b",
-      "title": "تصعيد إيراني يطول الكويت والبحرين والأردن.. وواشنطن ترد باستهداف ناقلات النفط - الساحل الغربي",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBEbVdfVUxjVGlrN0lvNi1ZcGh4ZER3ZWt2OHViaGZ4WGgwUEZjdDZNTTlvNTFoWk94YVE5RVZLaUxUWmd1LWdNbFR6dDdWZk0?oc=5",
-      "source": "الساحل الغربي",
-      "published_at": "2026-10-14T16:38:06Z",
-      "country": "",
-      "countries": [
-        "Iran",
-        "Kuwait"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "ملاحه بحريه",
-      "provider": "عربي · الإمارات والبحرين",
-      "first_seen_at": "2026-10-20T16:50:50.754226Z",
-      "date_quality": "publisher-time",
-      "freshness": "older-reporting",
-      "context": "reporting",
-      "severity": "routine-reporting",
-      "critical_candidate": false,
-      "alert_eligible": false,
-      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
-    },
-    {
       "id": "b500ecb8dedaa46603b82bbd",
       "title": "Houthi ballistic missile manufacturing - ArcGIS StoryMaps",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBReG5hQlNDTzNKSGdKaW1PNVdmMGRNWTFoTzJJWTZIbFR4cFZRVERkNDZONHBiYmtlYmQ2TnBQb0pweG5WcHdvREdnSEN6TFo4eTNnRWc5RzdVVTlwdGdfR3hJR3doQks5VU9pSjVUbGdpSHdaZmRrUA?oc=5",
@@ -31455,12 +31501,12 @@
     "Google News · missiles/drones": {
       "ok": true,
       "items": 100,
-      "relevant": 77
+      "relevant": 79
     },
     "Google News · security": {
       "ok": true,
       "items": 100,
-      "relevant": 72
+      "relevant": 73
     },
     "Google News · aviation": {
       "ok": true,
@@ -31475,12 +31521,12 @@
     "Google News · diplomacy": {
       "ok": true,
       "items": 100,
-      "relevant": 52
+      "relevant": 51
     },
     "Google News · regional": {
       "ok": true,
-      "items": 55,
-      "relevant": 30
+      "items": 56,
+      "relevant": 29
     },
     "عربي · إيران والخليج": {
       "ok": true,
@@ -31495,7 +31541,7 @@
     "عربي · السعودية": {
       "ok": true,
       "items": 100,
-      "relevant": 52
+      "relevant": 51
     },
     "عربي · الإمارات والبحرين": {
       "ok": true,
@@ -31504,13 +31550,13 @@
     },
     "عربي · الكويت والعراق": {
       "ok": true,
-      "items": 24,
-      "relevant": 24
+      "items": 51,
+      "relevant": 48
     },
     "عربي · مضيق هرمز": {
       "ok": true,
       "items": 100,
-      "relevant": 78
+      "relevant": 77
     },
     "عربي · الجزيرة": {
       "ok": true,
@@ -31567,9 +31613,8 @@
       "error": "not well-formed (invalid token): line 1, column 0"
     },
     "UN News · الشرق الأوسط (AR)": {
-      "ok": true,
-      "items": 30,
-      "relevant": 7
+      "ok": false,
+      "error": "not well-formed (invalid token): line 1, column 0"
     },
     "GDELT · article index": {
       "ok": null,

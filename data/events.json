@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "generated_at": "2026-10-20T18:37:10.035045Z",
+  "generated_at": "2026-10-20T18:37:57.466221Z",
   "model": "deterministic-source-correlation-v2-coverage-lifecycle",
   "disclaimer": "Clusters are related PUBLIC REPORTS, not confirmed incidents. Source counts are not proof. Country names are mentions, not incident locations.",
   "events": [
@@ -340,6 +340,62 @@
       "updated_at": "2026-10-20T18:37:10.035045Z"
     },
     {
+      "id": "GF-C83437B53232BA",
+      "title": "UN says besieged Yemen city at 'grave risk' as Houthis attack - PBS",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T17:40:36Z",
+      "last_published": "2026-10-20T17:40:36Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "b22f0311971e92f252c8b535",
+          "title": "UN says besieged Yemen city at 'grave risk' as Houthis attack - PBS",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZk5yS2hIUkYxS05GQmZSM29Ra0NTaHgxUlU0TWhKak5fR3huak1GRkRYTVFEbUE5TF9Wd0l3SzFYeU4yT0dHbWZtQVRrdjBfU1hSTkczZDAwQ1hQRE1IUDkyWEE0aWdXbTJlOExkeGZZUkpJdGRlTFBidWR1aWl2eHAza0Y3anBlYXVLOF9CdzJObjBrVEJXM1o5dFdQMEXSAZ8BQVVfeXFMT2ZOcktoSFJGMUtORkJmUjNvUWtDU2h4MVJVNE1oSmpOX0d4bmpNRkZEWE1RRG1BOUxfVndJd0sxWHlOMk9HR21mbUFUa3YwX1NYUk5HM2QwMENYUERNSFA5MlhBNGlnV20yZThMZHhmWVJKSXRkZUxQYnVkdWlpdnhwM2tGN2pwZWF1SzhfQncyTm4wa1RCVzNaOXRXUDBF?oc=5",
+          "source": "PBS",
+          "publisher_key": "pbs",
+          "provider": "Google News · security",
+          "published_at": "2026-10-20T17:40:36Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T18:37:52.852680Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Yemen"
+        }
+      ],
+      "coverage_stage": "new-coverage",
+      "coverage_first_published_at": "2026-10-20T17:40:36Z",
+      "coverage_last_published_at": "2026-10-20T17:40:36Z",
+      "current_reporting": true,
+      "recent_publisher_count": 1,
+      "recent_article_count": 1,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "863754d651540f40bd4d",
+      "revision": 1,
+      "updated_at": "2026-10-20T18:37:57.466221Z"
+    },
+    {
       "id": "GF-C3AAC6B01D4DBA",
       "title": "الحرس الثوري الإيراني: انفجار ناقلة نفط بعد اصطدامها بلغم بحري - المصري اليوم",
       "category": "security",
@@ -508,7 +564,7 @@
       "updated_at": "2026-10-20T17:30:53.488659Z"
     },
     {
-      "id": "GF-F2D996CBBDC124",
+      "id": "GF-808C65C907A0DD",
       "title": "التهديد الإيراني باستهداف كابلات الإنترنت في هرمز يُثير تفاعلاً واسعاً على مواقع التواصل الاجتماعي - BBC",
       "category": "security",
       "topic": "maritime",
@@ -530,38 +586,38 @@
       ],
       "publisher_count": 1,
       "report_count": 1,
-      "first_published": "2026-10-20T17:12:33Z",
-      "last_published": "2026-10-20T17:12:33Z",
+      "first_published": "2026-10-20T17:13:33Z",
+      "last_published": "2026-10-20T17:13:33Z",
       "event_occurred_at": null,
       "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
       "sources": [
         {
-          "id": "a0cb22cec43d38c477fd40b3",
+          "id": "e95a1fcd04f3ae3890061034",
           "title": "التهديد الإيراني باستهداف كابلات الإنترنت في هرمز يُثير تفاعلاً واسعاً على مواقع التواصل الاجتماعي - BBC",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBwZDNramRpUmRUZFFac2Zaem1vY3JjcnZjMmpJM3U1elR1dkxRb0lNbVpPOTh0aHBReG1GWk1jd3pPVUowdzh2bTVxQzZMLTd6b0J1TDhIZmNBUG0tS0HSAWNBVV95cUxQMDVlODBHdDQtenlWdGp5S1JJN1dpRndIaG5EWGpTdV9oZ0NrMnNwdXdSQnJhMFNyRXZPN3ZSX1U2eGF5T3lUc2J3OC1QZWllT3RjZnlFb0FtTjJSUmtMVm0xUTQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAwNWU4MEd0NC16eVZ0anlLUkk3V2lGd0hobkRYalN1X2hnQ2syc3B1d1JCcmEwU3JFdk83dlJfVTZ4YXlPeVRzYnc4LVBlaWVPdGNmeUVvQW1OMlJSa0xWbTFRNNIBY0FVX3lxTFAwNWU4MEd0NC16eVZ0anlLUkk3V2lGd0hobkRYalN1X2hnQ2syc3B1d1JCcmEwU3JFdk83dlJfVTZ4YXlPeVRzYnc4LVBlaWVPdGNmeUVvQW1OMlJSa0xWbTFRNA?oc=5",
           "source": "BBC",
           "publisher_key": "bbc",
           "provider": "عربي · مضيق هرمز",
-          "published_at": "2026-10-20T17:12:33Z",
+          "published_at": "2026-10-20T17:13:33Z",
           "date_quality": "publisher-time",
-          "first_seen_at": "2026-10-20T17:30:36.865670Z",
+          "first_seen_at": "2026-10-20T18:37:52.852680Z",
           "collected_at": null,
           "language": "ar",
           "country": "Iran"
         }
       ],
       "coverage_stage": "new-coverage",
-      "coverage_first_published_at": "2026-10-20T17:12:33Z",
-      "coverage_last_published_at": "2026-10-20T17:12:33Z",
+      "coverage_first_published_at": "2026-10-20T17:13:33Z",
+      "coverage_last_published_at": "2026-10-20T17:13:33Z",
       "current_reporting": true,
       "recent_publisher_count": 1,
       "recent_article_count": 1,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "7e5d361428a91e0229e0",
+      "digest": "894eb56cf3180c337d64",
       "revision": 1,
-      "updated_at": "2026-10-20T17:30:53.488659Z"
+      "updated_at": "2026-10-20T18:37:57.466221Z"
     },
     {
       "id": "GF-9C2C1B17F64E42",
@@ -3159,7 +3215,7 @@
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0waUgtSlRWX3FOZEFhVWlvemhWVmhaSmJJb3E2bHJUQ3dIWmZKY1BSNXc5QzAtY1BiMGlhWHpsRFlCbHowVmFheTBlVkllczBpcXhjSUlubG4xTmc?oc=5",
           "source": "BBC",
           "publisher_key": "bbc",
-          "provider": "Google News · security",
+          "provider": "Google News · missiles/drones",
           "published_at": "2026-10-20T13:54:35Z",
           "date_quality": "publisher-time",
           "first_seen_at": "2026-10-20T13:30:10.274301Z",
@@ -3177,9 +3233,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "b8e63bda725802d7db17",
-      "revision": 8,
-      "updated_at": "2026-10-20T18:07:17.994275Z"
+      "digest": "e32c5cc63dad0df3d9df",
+      "revision": 9,
+      "updated_at": "2026-10-20T18:37:57.466221Z"
     },
     {
       "id": "GF-34F9A53F6612C2",
@@ -10176,6 +10232,62 @@
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
+      "id": "GF-6E96B841BADFE4",
+      "title": "Israeli F-35s Launch Multiple Simulated Strikes on Iran Across Iraqi and Syrian Skies - Military Watch Magazine",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T08:09:00Z",
+      "last_published": "2026-10-20T08:09:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "5ebadb034f9a3b4285258e0e",
+          "title": "Israeli F-35s Launch Multiple Simulated Strikes on Iran Across Iraqi and Syrian Skies - Military Watch Magazine",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTnNTQV9TY2o3VEs0OWE4TWd6MGZZeGQtTjUzdjNHY3kwTkxxVm5lc0l5d2xTWTlmTW5tcmw0TnJMQmJqb3NFR2dFNHpLUndCalpRYmpXb3BIbktlU2w0Qy1GbW1KOXB4cTVDQmFoT0E2aXkwVGxhRkhTVmlub2hVWV95b3NEakdVZDdJYXVFVnpxaWkxMXBN?oc=5",
+          "source": "Military Watch Magazine",
+          "publisher_key": "military watch magazine",
+          "provider": "Google News · security",
+          "published_at": "2026-10-20T08:09:00Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T18:37:52.852680Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Iran"
+        }
+      ],
+      "coverage_stage": "recent-coverage",
+      "coverage_first_published_at": "2026-10-20T08:09:00Z",
+      "coverage_last_published_at": "2026-10-20T08:09:00Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "c94da77bfb84e66c6271",
+      "revision": 1,
+      "updated_at": "2026-10-20T18:37:57.466221Z"
+    },
+    {
       "id": "GF-69F3570A55A98D",
       "title": "اندماج لإطلاق شركة نفط كبرى في كردستان العراق",
       "category": "security",
@@ -16794,7 +16906,7 @@
           "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE15VmNLVDgtRnRBRzRXaVowSlM1cTFRTEtwVGhhS0JoWVRpZ3FpdW1EZXZzdXN3SHcwNXVNV2s1N0tzMU9FYkZEZXFDWUlESWM?oc=5",
           "source": "الساحل الغربي",
           "publisher_key": "الساحل الغربي",
-          "provider": "عربي · الإمارات والبحرين",
+          "provider": "عربي · الكويت والعراق",
           "published_at": "2026-10-19T16:18:43Z",
           "date_quality": "publisher-time",
           "first_seen_at": "2026-10-20T12:01:49.547007Z",
@@ -16812,9 +16924,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "85dca9dd9411084795ef",
-      "revision": 15,
-      "updated_at": "2026-10-20T18:37:10.035045Z"
+      "digest": "04ec33b0f8ff139ef8da",
+      "revision": 16,
+      "updated_at": "2026-10-20T18:37:57.466221Z"
     },
     {
       "id": "GF-03476150E89A5F",
@@ -18821,6 +18933,63 @@
       "digest": "e10cb46c83265934c0ee",
       "revision": 3,
       "updated_at": "2026-10-20T16:52:31.264495Z"
+    },
+    {
+      "id": "GF-F99E79086CCD1D",
+      "title": "تصعيد إيراني يطول الكويت والبحرين والأردن.. وواشنطن ترد باستهداف ناقلات النفط - الساحل الغربي",
+      "category": "security",
+      "topic": "maritime",
+      "countries": [
+        "Iran",
+        "Kuwait"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-19T13:10:02Z",
+      "last_published": "2026-10-19T13:10:02Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "91d4581a1376bf96e2612e5b",
+          "title": "تصعيد إيراني يطول الكويت والبحرين والأردن.. وواشنطن ترد باستهداف ناقلات النفط - الساحل الغربي",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBEbVdfVUxjVGlrN0lvNi1ZcGh4ZER3ZWt2OHViaGZ4WGgwUEZjdDZNTTlvNTFoWk94YVE5RVZLaUxUWmd1LWdNbFR6dDdWZk0?oc=5",
+          "source": "الساحل الغربي",
+          "publisher_key": "الساحل الغربي",
+          "provider": "عربي · الإمارات والبحرين",
+          "published_at": "2026-10-19T13:10:02Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T16:50:50.754226Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-19T13:10:02Z",
+      "coverage_last_published_at": "2026-10-19T13:10:02Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "8187b9d03815cecbadf8",
+      "revision": 14,
+      "updated_at": "2026-10-20T18:37:57.466221Z"
     },
     {
       "id": "GF-A29F3D9D9BB9BF",
@@ -59511,63 +59680,6 @@
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
-      "id": "GF-F99E79086CCD1D",
-      "title": "تصعيد إيراني يطول الكويت والبحرين والأردن.. وواشنطن ترد باستهداف ناقلات النفط - الساحل الغربي",
-      "category": "security",
-      "topic": "maritime",
-      "countries": [
-        "Iran",
-        "Kuwait"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "ar"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-14T16:38:06Z",
-      "last_published": "2026-10-14T16:38:06Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "91d4581a1376bf96e2612e5b",
-          "title": "تصعيد إيراني يطول الكويت والبحرين والأردن.. وواشنطن ترد باستهداف ناقلات النفط - الساحل الغربي",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBEbVdfVUxjVGlrN0lvNi1ZcGh4ZER3ZWt2OHViaGZ4WGgwUEZjdDZNTTlvNTFoWk94YVE5RVZLaUxUWmd1LWdNbFR6dDdWZk0?oc=5",
-          "source": "الساحل الغربي",
-          "publisher_key": "الساحل الغربي",
-          "provider": "عربي · الإمارات والبحرين",
-          "published_at": "2026-10-14T16:38:06Z",
-          "date_quality": "publisher-time",
-          "first_seen_at": "2026-10-20T16:50:50.754226Z",
-          "collected_at": null,
-          "language": "ar",
-          "country": ""
-        }
-      ],
-      "coverage_stage": "quiet-coverage",
-      "coverage_first_published_at": "2026-10-14T16:38:06Z",
-      "coverage_last_published_at": "2026-10-14T16:38:06Z",
-      "current_reporting": false,
-      "recent_publisher_count": 0,
-      "recent_article_count": 0,
-      "incident_status": "unknown",
-      "event_occurrence_verified": false,
-      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "307696e765120486fd84",
-      "revision": 13,
-      "updated_at": "2026-10-20T18:37:10.035045Z"
-    },
-    {
       "id": "GF-430F14A5B5AD92",
       "title": "Houthi ballistic missile manufacturing - ArcGIS StoryMaps",
       "category": "security",
@@ -73241,11 +73353,11 @@
   ],
   "country_stats": {
     "Iran": {
-      "events": 441,
-      "reports": 484,
-      "security_coverage": 282,
+      "events": 442,
+      "reports": 485,
+      "security_coverage": 283,
       "transport_coverage": 94,
-      "sources": 207
+      "sources": 208
     },
     "Saudi": {
       "events": 502,
@@ -73297,9 +73409,9 @@
       "sources": 5
     },
     "Yemen": {
-      "events": 233,
-      "reports": 242,
-      "security_coverage": 221,
+      "events": 234,
+      "reports": 243,
+      "security_coverage": 222,
       "transport_coverage": 11,
       "sources": 123
     },
@@ -73321,107 +73433,35 @@
     "2026-10-10": 1,
     "2026-10-12": 7,
     "2026-10-13": 113,
-    "2026-10-14": 141,
+    "2026-10-14": 140,
     "2026-10-15": 134,
     "2026-10-16": 130,
     "2026-10-17": 184,
     "2026-10-18": 144,
-    "2026-10-19": 196,
-    "2026-10-20": 232
+    "2026-10-19": 197,
+    "2026-10-20": 234
   },
   "revisions": [
     {
-      "id": "GF-D24E7FBC4BA6F9",
-      "revision": 3,
-      "at": "2026-10-20T18:37:10.035045Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-6BCE5144358C6F",
-      "revision": 3,
-      "at": "2026-10-20T18:37:10.035045Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-6399A39DE4B614",
-      "revision": 2,
-      "at": "2026-10-20T18:37:10.035045Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-61BDC94F472DA5",
-      "revision": 3,
-      "at": "2026-10-20T18:37:10.035045Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-50422A2FC2FAFC",
-      "revision": 3,
-      "at": "2026-10-20T18:37:10.035045Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-0C317DFED28F8E",
-      "revision": 3,
-      "at": "2026-10-20T18:37:10.035045Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-A4E62CE1E21969",
-      "revision": 5,
-      "at": "2026-10-20T18:37:10.035045Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-EB4ADBA3FF937F",
-      "revision": 21,
-      "at": "2026-10-20T18:37:10.035045Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-2357308B634C38",
-      "revision": 3,
-      "at": "2026-10-20T18:37:10.035045Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-7826ADF6AF968A",
-      "revision": 2,
-      "at": "2026-10-20T18:37:10.035045Z",
+      "id": "GF-4FBA1BDBA2302C",
+      "revision": 9,
+      "at": "2026-10-20T18:37:57.466221Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
       "id": "GF-2641AEE1D03B4C",
-      "revision": 15,
-      "at": "2026-10-20T18:37:10.035045Z",
+      "revision": 16,
+      "at": "2026-10-20T18:37:57.466221Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
       "id": "GF-F99E79086CCD1D",
-      "revision": 13,
-      "at": "2026-10-20T18:37:10.035045Z",
+      "revision": 14,
+      "at": "2026-10-20T18:37:57.466221Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
