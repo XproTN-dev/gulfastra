@@ -104,3 +104,15 @@ body[data-theme="sand"]{--bg:#12110f;--panel:#1e1a17;--panel2:#28221d;--raised:#
  .intel-rail{width:100%;max-width:100%;left:0;right:0}
  .mobile-nav button{transition:none!important}
 }
+
+/* Source-specific public intelligence views: all chips reachable on phones. */
+.rail-tabs{display:flex;overflow-x:auto;overflow-y:hidden;scrollbar-width:thin;
+ overscroll-behavior-x:contain;flex:0 0 auto}
+.rail-tabs button{flex:0 0 auto;min-width:53px;padding:12px 9px}
+.rail-tabs button[data-tab="advisories"],.rail-tabs button[data-tab="social"]{color:var(--accent)}
+.intel-card.social-post{border-left:2px solid #8fa8e8}
+.intel-card.official-advisory{border-left:2px solid var(--good)}
+@media(max-width:650px){
+ .rail-tabs{width:100%;touch-action:pan-x}
+ .rail-tabs button{min-width:67px;min-height:44px;font-size:9px}
+}
