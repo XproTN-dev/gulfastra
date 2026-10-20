@@ -91,6 +91,10 @@ with sync_playwright() as pw:
         else:
             assert page.locator(".network-svg").is_visible()
             assert page.locator(".graph-node").count()==2
+            page.locator('[data-zoom="in"]').click()
+            assert page.evaluate("window.GXImpactApp.getState().zoom>1"),"Graph zoom button inert"
+            page.locator('[data-zoom="reset"]').click()
+            assert page.evaluate("window.GXImpactApp.getState().zoom===1"),"Graph zoom reset inert"
             page.locator('[data-mode="spatial"]').click()
             assert page.locator(".network-svg.spatial").count()==1
             page.locator('[data-mode="network"]').click()
@@ -117,6 +121,13 @@ with sync_playwright() as pw:
         assert page.locator("#mNodes").inner_text()=="0","Historical replay must filter future publications"
         page.locator("#labNow").click()
         assert page.locator("#mNodes").inner_text()=="2"
+        if width>=390:
+            page.locator("#labLang").click()
+            assert page.evaluate("document.documentElement.dir==='rtl'"),(
+               "Arabic workspace must switch document direction")
+            assert "الموجز" in page.locator('[data-view="brief"]').inner_text()
+            page.locator("#labLang").click()
+            assert page.evaluate("document.documentElement.dir==='ltr'")
         assert not errors,(width,height,errors)
         page.screenshot(path=str(OUT/f"impact-lab-{width}.png"),full_page=True)
         page.close()
