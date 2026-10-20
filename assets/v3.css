@@ -20,5 +20,5 @@
 .discovery-link strong{display:block;font-size:13px;color:#d3f2ff}
 .discovery-link small{display:block;color:#7babc2;font-size:11px;margin-top:7px;line-height:1.6}
 .discovery-link:hover{border-color:#70d8f5;background:#153952}
-.country-pin{transform:none!important;will-change:transform}
+.country-pin{will-change:transform}
 @media(max-width:430px){.language-tools{padding:9px 10px;gap:6px}.language-tabs button,.discovery-tools button{padding:8px 7px;font-size:9px}.language-tools{justify-content:space-between}.feed-list h3[lang="ar"]{font-size:16px;line-height:1.85}}
