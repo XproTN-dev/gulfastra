@@ -120,6 +120,11 @@ function render(ctx,d){
  }else if(tab==="social"){
   const status=ctx.socialSource?.state||"not-configured";
   markup='<div class="notice-box">X PUBLIC POSTS · UNVERIFIED SOCIAL CLAIMS. The official API may cost money and is disabled unless separately authorized. Social posts do not trigger critical alerts.</div>'+
+   '<div class="brief-box"><strong>VIEW PUBLIC POSTS ON X (OPENS X WEBSITE)</strong>'+
+   link("https://x.com/search?q=%22Qatar%22%20%22security%22&f=live","QATAR SECURITY · X SEARCH")+
+   link("https://x.com/search?q=%22Strait%20of%20Hormuz%22&f=live","HORMUZ / SHIPPING · X SEARCH")+
+   link("https://x.com/search?q=%22Gulf%22%20%22airspace%22&f=live","GULF AVIATION · X SEARCH")+
+   '<p>These are external live X search pages, not posts ingested or checked by GULFASTRA.</p></div>'+
    '<div class="brief-box">X API STATUS: '+val(status).toUpperCase()+
    '<p>One capped search per six hours at most when explicitly enabled; never a continuous stream.</p></div>'+
    d.social.slice(0,70).map(cardSocial).join("");
