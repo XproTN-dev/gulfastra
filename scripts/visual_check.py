@@ -51,6 +51,25 @@ with sync_playwright() as pw:
         assert page.locator('.v9-panel[data-panel="verify"] .v9-news').count()>0,"Evidence groups not shown"
         page.locator('[data-v9-panel="sources"]:visible').first.click()
         assert page.locator('.v9-panel[data-panel="sources"] .v9-source-line').count()>0,"Source health not shown"
+        # The reference-video bug: windows used to cascade directly on top of each other.
+        if name=="desktop":
+            assert page.locator(".v9-panel").count()==3
+            rects=page.locator(".v9-panel").evaluate_all("""nodes=>nodes.map(el=>{const r=el.getBoundingClientRect();return {x:r.x,y:r.y,w:r.width,h:r.height}})""")
+            for i,ra in enumerate(rects):
+                for rb in rects[i+1:]:
+                    overlap=max(0,min(ra["x"]+ra["w"],rb["x"]+rb["w"])-max(ra["x"],rb["x"])) * max(0,min(ra["y"]+ra["h"],rb["y"]+rb["h"])-max(ra["y"],rb["y"]))
+                    assert overlap<5,f"Windows overlap instead of tiling: {rects}"
+            page.locator("#v9Tile").click()
+            assert page.locator(".v9-panel").count()==3,"Window tile control closed panels"
+        else:
+            assert page.locator(".v9-panel").count()==1,"Mobile should display only one floating workspace at a time"
+        assert page.locator("#v9DataStatus").inner_text().find("SOURCES")!=-1,"Source channel status missing"
+        # Evidence links and date-specific signals are not just visual decorations.
+        page.locator('[data-v9-panel="verify"]:visible').first.click()
+        assert page.locator('.v9-panel[data-panel="verify"] .v9-verify-links a[href^="https://"]').count()>0,"Evidence source links missing"
+        assert "0 NAMED OUTLETS" not in page.locator('.v9-panel[data-panel="verify"]').inner_text(),"False zero-source attribution"
+        page.locator('[data-v9-panel="timeline"]:visible').first.click()
+        assert page.locator('.v9-panel[data-panel="timeline"] .v9-timeline-row').count()>0,"Historical timeline missing"
         page.screenshot(path=str(OUT/f"{name}-multi-window.png"),full_page=True)
         # Palettes affect the complete application and persist.
         page.locator("#v9Appearance").click()
@@ -66,7 +85,7 @@ with sync_playwright() as pw:
         page.locator('[data-v9-theme="phosphor"]').click()
         assert page.evaluate("document.body.dataset.v9Palette")=="phosphor"
         # Close floating windows and check controls remain clickable.
-        for panel in ["sources","verify","wire"]:
+        for panel in [el.get_attribute("data-panel") for el in page.locator(".v9-panel").all()]:
             page.locator(f'.v9-panel[data-panel="{panel}"] .v9-panel-close').click()
         assert page.locator(".v9-panel").count()==0
         if name=="mobile":
@@ -87,6 +106,7 @@ with sync_playwright() as pw:
         page.locator('[data-v9-mode="globe"]').click()
         if page.evaluate("typeof window.__gulfastraMap.setProjection==='function'"):
             assert page.locator('[data-v9-mode="globe"]').get_attribute("class")=="active","Globe mode did not activate"
+            assert page.evaluate("window.__gulfastraMap.getProjection().type")=="globe","Globe button only changed its label; projection remains flat"
             page.wait_for_timeout(500)
         page.locator('[data-v9-mode="map"]').click()
         page.locator("#v9ZoomIn").click()
