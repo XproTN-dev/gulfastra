@@ -87,7 +87,8 @@ body[data-v9-palette="ember"] .map-stage .maplibregl-canvas{filter:brightness(.6
 .maplibregl-marker{z-index:7}
 .country-pin{width:31px!important;height:31px!important;border:0!important;cursor:pointer!important;position:absolute!important;
  background:transparent!important;filter:drop-shadow(0 0 5px color-mix(in srgb,var(--pin-color) 65%,transparent))!important;
- transition:transform .16s ease!important}
+ /* MapLibre owns the marker transform; never transition or replace it on hover. */
+ transition:none!important}
 .country-pin:before{inset:0!important;background:var(--pin-color)!important;
  border:1px solid #e5ffde88!important;box-shadow:0 0 16px color-mix(in srgb,var(--pin-color) 64%,transparent)!important;
  border-radius:50%!important;opacity:.97!important}
@@ -95,7 +96,15 @@ body[data-v9-palette="ember"] .map-stage .maplibregl-canvas{filter:brightness(.6
 .country-pin .pin-number{position:relative;z-index:3;color:#04150c!important;font:800 10px "IBM Plex Mono",monospace!important;
  text-shadow:none!important}
 .country-pin .pin-label{display:none!important}
-.country-pin:hover{transform:scale(1.15)!important;z-index:99}
+/* Keep the marker anchored: only pseudo-elements should grow on hover. */
+.country-pin:before,.country-pin:after{
+ pointer-events:none;transform-origin:center;
+ transition:transform .16s ease,box-shadow .16s ease!important
+}
+.country-pin .pin-number{pointer-events:none}
+.country-pin:hover{z-index:99}
+.country-pin:hover:before{transform:scale(1.12)}
+.country-pin:hover:after{transform:scale(1.12)}
 .feedpanel{display:none!important}
 .controlpanel{display:none!important}
 .controlpanel.v9-show{display:block!important;position:fixed!important;top:48px!important;bottom:45px!important;
