@@ -77,6 +77,18 @@ with sync_playwright() as pw:
         assert page.locator("#controlpanel").evaluate("node=>node.classList.contains('v9-show')")
         page.locator("#closeLayers").click()
         assert page.locator("#controlpanel").is_hidden()
+        # Search and globe behavior are genuinely interactive, not decorative.
+        assert page.locator("#v9CountryList option").count()>0,"Country locator choices missing"
+        page.locator("#v9Locate").fill("Qatar")
+        page.locator("#v9LocateGo").click()
+        assert page.locator('.v9-panel[data-panel="wire"]').count()==1,"Country search did not open source evidence"
+        page.locator('.v9-panel[data-panel="wire"] .v9-panel-close').click()
+        page.locator("#v9Reset").click()
+        page.locator('[data-v9-mode="globe"]').click()
+        if page.evaluate("typeof window.__gulfastraMap.setProjection==='function'"):
+            assert page.locator('[data-v9-mode="globe"]').get_attribute("class")=="active","Globe mode did not activate"
+            page.wait_for_timeout(500)
+        page.locator('[data-v9-mode="map"]').click()
         page.locator("#v9ZoomIn").click()
         page.locator("#v9Reset").click()
         page.wait_for_timeout(650)
