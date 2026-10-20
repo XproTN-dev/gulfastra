@@ -23,7 +23,7 @@ with sync_playwright() as pw:
         assert page.locator("#metricReports").inner_text()!="—","Data metrics not populated"
         assert page.locator("#stream .intel-card").count()>0 or "No matching" in page.locator("#stream").inner_text()
         assert page.locator("#timelineBars button").count()==48,"Real-data publication timeline missing"
-        assert page.evaluate("!document.querySelector('link[href*=v9.css]')"),"Old CSS should not be loaded"
+        assert page.evaluate('!document.querySelector(\'link[href*="v9.css"]\')'),"Old CSS should not be loaded"
         assert page.evaluate("getComputedStyle(document.querySelector('.map-wrap')).height!=='0px'")
         page.screenshot(path=str(OUT/f"v11-{name}-overview.png"),full_page=True)
         page.locator("#commandButton").click()
