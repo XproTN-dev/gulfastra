@@ -11,13 +11,14 @@
 <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@6.15.0/dist/maplibre-gl.css">
 <link rel="stylesheet" href="assets/v3.css?v=20261020-8">
 <link rel="stylesheet" href="assets/v5.css?v=5-1">
+<link rel="stylesheet" href="assets/v6.css?v=6-1">
 </head>
 <body>
 <div class="shell" id="shell">
 <header class="globalbar">
  <div class="brandblock"><span class="brand-emblem"><i></i></span><div><span class="brandname">GULF<span>ASTRA</span></span><span class="brandsub">REGIONAL INTELLIGENCE OBSERVATORY</span></div></div>
  <div class="head-separator"></div><div class="operation-name"><span class="head-dot"></span><span>GULF SITUATION ROOM</span><small>PUBLIC-SOURCE ANALYSIS</small></div>
- <div class="header-actions"><span class="lastupdated" id="headerUpdated">AWAITING SOURCE STATUS</span><span class="utc-clock" id="utc">--:--:-- UTC</span><button class="headbtn" id="sync" title="Reload data" aria-label="Reload published dataset">↻</button><button class="headbtn" id="openHelp" title="Methodology" aria-label="About this dashboard">ⓘ</button></div>
+ <div class="header-actions"><span class="lastupdated" id="headerUpdated">AWAITING SOURCE STATUS</span><span class="v6-pulse" id="v6Pulse" title="Last completed Github collection">FEED CHECKING</span><span class="utc-clock" id="utc">--:--:-- UTC</span><button class="headbtn" id="sync" title="Reload data" aria-label="Reload published dataset">↻</button><button class="headbtn" id="v6Theme" title="Change dashboard theme" aria-label="Change dashboard theme">◐</button><button class="headbtn" id="openHelp" title="Methodology" aria-label="About this dashboard">ⓘ</button></div>
 </header>
 <section class="commandband" aria-label="Reported intelligence indicators">
  <div class="command-metric"><span class="metric-icon blue">◉</span><div class="metric-data"><span class="metric-label">REPORTS ARCHIVED</span><div class="metric-line"><strong id="mTotal">—</strong><small>PUBLIC HEADLINES</small></div></div></div>
@@ -46,10 +47,10 @@
  <div class="panel-block"><div class="form-label">TIME PERIOD</div><div class="chipset" id="windows"><button data-hours="24" class="active">24H</button><button data-hours="72">72H</button><button data-hours="168">7D</button><button data-hours="0">ALL</button></div></div>
  <div class="panel-block"><div class="form-label">SEARCH INTELLIGENCE</div><div class="searchwrap"><span>⌕</span><input id="search" type="search" placeholder="Keywords, sources, places..." autocomplete="off"></div></div>
  <div class="panel-block sourcebox" id="sourcebox"><div class="block-title">FEED INTEGRITY <span class="blink"></span></div><div class="provider-list" id="providerStatus">Reading source health…</div><div class="source-time" id="sourceTime">—</div><button class="text-link" id="refreshFromPanel">CHECK LATEST DATA ↗</button></div>
- <div class="scope-note"><span class="scope-title">◈ METHODOLOGY NOTE</span><p>Markers show the country mentioned in reporting, not exact incident coordinates. Headlines are allegations or accounts until independently verified.</p></div>
+ <div class="scope-note"><span class="scope-title">◈ DATA INTERPRETATION</span><p>Markers show the country mentioned in reporting, not exact incident coordinates. Headlines are allegations or accounts until independently verified.</p></div>
 </aside>
 <main class="map-column" id="mapColumn">
- <div class="map-head"><div class="map-title"><span class="map-label">THEATER OVERVIEW <em>/</em> GULF REGION</span><h1>Regional Situation Map</h1></div><div class="map-menu"><button class="map-tool" id="mapRecenter">◎ FOCUS GULF</button><button class="map-tool" id="mapStyle">◈ LIGHT MAP</button></div></div>
+ <div class="map-head"><div class="map-title"><span class="map-label">THEATER OVERVIEW <em>/</em> GULF REGION</span><h1>Regional Situation Map</h1></div><div class="map-menu"><button class="map-tool" id="v6ExpandMap" title="Expand or reduce the geographic workspace" aria-pressed="false">⛶ EXPAND</button><button class="map-tool" id="mapRecenter">◎ FOCUS GULF</button><button class="map-tool" id="mapStyle">◈ LIGHT MAP</button></div></div>
  <div class="map-stage" id="mapStage">
   <div id="map" role="application" aria-label="Interactive Gulf geographic reporting map"></div>
   <div class="map-grid" aria-hidden="true"></div>
@@ -59,6 +60,7 @@
   <div class="map-load" id="mapLoad"><span class="spinner"></span> INITIALIZING MAP ENGINE...</div>
  </div>
  <section class="activity-panel"><div class="activity-top"><div><span class="panel-eyebrow">24-HOUR REPORTING VOLUME</span><strong>Publication Activity</strong></div><span class="activity-meta" id="activityMeta">NO RESULTS YET</span></div><div class="activity-chart" id="bars" aria-label="Hourly published report activity"></div><div class="activity-hours"><span>24H AGO</span><span>12H AGO</span><span>NOW (UTC)</span></div></section>
+ <section class="intel-briefing" aria-label="Recent published regional reporting"><div class="intel-briefing-top"><span>◈ SIGNAL HIGHLIGHTS</span><span id="v6BriefInfo">AWAITING PUBLISHED ARTICLES</span></div><div id="v6Briefs" class="intel-briefs"><div class="intel-skeleton">Connecting to the public-source archive…</div></div></section>
  <div class="bottom-map-status"><span>◈ <strong>GULFASTRA</strong> OPEN SOURCE MONITOR</span><span id="mapFooter">Published source data only · not emergency guidance</span></div>
 </main>
 <aside class="feedpanel" id="feedpanel">
@@ -97,5 +99,6 @@ import * as maplibregl from "https://unpkg.com/maplibre-gl@6.15.0/dist/maplibre-
 window.maplibregl=maplibregl;
 await import("./assets/v3.js?v=20261020-9");
 await import("./assets/v5.js?v=5-1");
+await import("./assets/v6.js?v=6-1");
 </script>
 </body></html>
