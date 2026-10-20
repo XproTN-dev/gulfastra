@@ -41,6 +41,31 @@ with sync_playwright() as pw:
           });
         }""")
         assert coordinates and all(p["error"]<15 for p in coordinates),f"Reference markers mispositioned: {coordinates}"
+        # Regression: MapLibre owns the marker element's CSS transform.
+        # The former :hover transform sent circles to the wrong coordinates,
+        # repeatedly triggering pointer enter/leave and a flickering tooltip.
+        if name=="desktop":
+            hover=page.evaluate("""() => {
+              const p=[...document.querySelectorAll('.country-pin')].map(el=>{
+                const r=el.getBoundingClientRect();
+                return {el,country:el.dataset.country,x:r.left+r.width/2,y:r.top+r.height/2};
+              }).find(p=>p.x>125&&p.x<innerWidth-140&&p.y>120&&p.y<innerHeight-105&&p.el.contains(document.elementFromPoint(p.x,p.y)));
+              return p?{country:p.country,x:p.x,y:p.y}:null;
+            }""")
+            assert hover,"No unobstructed marker for pointer-hover regression"
+            for _ in range(3):
+                page.mouse.move(120,120)
+                page.mouse.move(hover["x"],hover["y"])
+                page.wait_for_timeout(180)
+                moved=page.evaluate("""country => {
+                  const el=document.querySelector('.country-pin[data-country="'+country+'"]');
+                  const map=window.__gulfastraMap,coords=window.__gulfastraGeography[country].center;
+                  const expected=map.project(coords),a=el.getBoundingClientRect(),b=map.getContainer().getBoundingClientRect();
+                  return {error:Math.hypot(a.left+a.width/2-b.left-expected.x,a.top+a.height/2-b.top-expected.y),
+                    hovered:el.matches(':hover'),tooltip:!!document.querySelector('.v9-tooltip')};
+                }""",hover["country"])
+                assert moved["hovered"] and moved["error"]<6 and moved["tooltip"],f"Country circle jumps/flickers on hover: {moved}"
+            page.screenshot(path=str(OUT/"desktop-marker-hover.png"),full_page=True)
         assert page.evaluate("!!window.GulfastraData"),"Independent GitHub public-data branch client missing"
         page.locator('[data-v9-panel="wire"]:visible').first.click()
         assert page.locator('.v9-panel[data-panel="wire"]').is_visible(),"Floating wire did not open"
