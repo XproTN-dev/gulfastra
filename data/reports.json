@@ -1,8 +1,32 @@
 {
   "version": 5,
-  "last_run": "2026-10-20T12:09:18.843663Z",
-  "last_successful_run": "2026-10-20T12:09:18.843663Z",
+  "last_run": "2026-10-20T12:09:48.504938Z",
+  "last_successful_run": "2026-10-20T12:09:48.504938Z",
   "reports": [
+    {
+      "id": "1cbd40d4a285b22349c62b11",
+      "title": "UK to deploy jets to defend Saudi Arabia from Houthi attacks",
+      "url": "https://www.bbc.co.uk/news/articles/ckr5yqe1r1llo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Middle East RSS",
+      "published_at": "2026-10-20T11:59:45Z",
+      "country": "",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "BBC Middle East RSS",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "new-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
     {
       "id": "f1371e48b5d899af93ad8379",
       "title": "مقاتلات تايفون البريطانية تستعد لحماية أجواء السعودية من الصواريخ والمسيّرات - موقع الدفاع العربي",
@@ -19,6 +43,53 @@
       "provider": "عربي · السعودية",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
+      "freshness": "new-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "11c18024aa04c2fc7e0cd91e",
+      "title": "UK to deploy fighter jets to protect Saudi Arabia from Houthi attacks",
+      "url": "https://www.theguardian.com/uk-news/2026/oct/20/uk-raf-typhoon-fighters-saudi-arabia-houthi-attacks",
+      "source": "The Guardian · Middle East",
+      "published_at": "2026-10-20T11:54:52Z",
+      "country": "",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "The Guardian · Middle East",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "new-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "909a755ff6a94f81d6699229",
+      "title": "Yemen’s critically ill are trapped as war closes the country’s airports",
+      "url": "https://www.aljazeera.com/features/2026/10/20/yemens-critically-ill-are-trapped-as-war-closes-the-countrys-airports?traffic_source=rss",
+      "source": "Al Jazeera RSS",
+      "published_at": "2026-10-20T11:52:11Z",
+      "country": "Yemen",
+      "countries": [
+        "Yemen"
+      ],
+      "language": "en",
+      "category": "transport",
+      "tag": "DISRUPTION REPORT",
+      "provider": "Al Jazeera RSS",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
       "freshness": "new-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -59,7 +130,7 @@
       "country": "",
       "countries": [],
       "language": "en",
-      "category": "transport",
+      "category": "security",
       "tag": "MARITIME REPORT",
       "provider": "Google News · shipping",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
@@ -96,6 +167,27 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "3cc1da0f90325e1b8801e8b0",
+      "title": "هل استنفدت الولايات المتحدة أكثر من نصف ترسانة صواريخ باتريوت في صراع مع إيران؟ - Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQS1o0U0s5bE10eU1zQm9vS0YwaEhTcEg1cHo4Yl9qZTU0MTRfc1F6QlpKU3Vzc1ZNb3NjckowTDZRVlBnQ0dUN0ExNXVleVR1N29sMjYzaVE0OWF1WGZhd05HVUlzd0FTclhaMjhNTjBZVjJHQ2c3M3V1TTh5RV9RMDhJSDNaejltazB3NEhqV1Y5Rlk?oc=5",
+      "source": "Vietnam.vn",
+      "published_at": "2026-10-20T11:44:32Z",
+      "country": "",
+      "countries": [],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير عن صواريخ",
+      "provider": "عربي · إيران والخليج",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "new-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "ee144d08b7bde8769a0d279d",
       "title": "بريطانيا تدرس تعزيز الدفاعات السعودية بمقاتلات جوية وسط تصاعد هجمات الحوثيين - https://www.youlyou.com/",
       "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBSVTBXb3FEemdtS1UwLTdxdzNKQ0QyWURDcjNZQkFVNHVfWjhsSVNqcldrUVNycUZHZHVjNjB6VzU4X28?oc=5",
@@ -112,6 +204,30 @@
       "provider": "عربي · قطر",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
+      "freshness": "new-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "39e3e66324d6557f2f1dd388",
+      "title": "UK to deploy Typhoon jets to help defend Saudi Arabia from Houthi attacks",
+      "url": "https://www.aljazeera.com/news/2026/10/20/uk-to-deploy-raf-fighter-jets-to-defend-saudi-arabia-from-houthi-attacks?traffic_source=rss",
+      "source": "Al Jazeera RSS",
+      "published_at": "2026-10-20T11:37:43Z",
+      "country": "",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Al Jazeera RSS",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
       "freshness": "new-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -299,6 +415,30 @@
       "provider": "GDELT · article index",
       "first_seen_at": "2026-10-20T12:04:24.966103Z",
       "date_quality": "index-first-seen",
+      "freshness": "new-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "a133acdd769aefc6b9b25dc5",
+      "title": "بريطانيا تقرر إرسال مقاتلات لتعزيز الدفاعات السعودية ضد هجمات الحوثي - العين الإخبارية",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNUkxNeFYxS3pjb1drYndzMkZfQUZPdUFYbEozampadzJiNWJ5akNSQjJtb3lLcmloSjRnbDh1OU1wNHNENE1LeGhMT2NwTGdfZk9KUUJkN2xNU1lEQ0hWOXdZcGsxRjN4M1BSNG5jVlhFQlJPdFU2MzRNNk1ScF9OOWpxQQ?oc=5",
+      "source": "العين الإخبارية",
+      "published_at": "2026-10-20T11:26:18Z",
+      "country": "",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير امني",
+      "provider": "عربي · السعودية",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
       "freshness": "new-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -552,6 +692,30 @@
       "provider": "Google News · missiles/drones",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
+      "freshness": "new-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "75abf0e5efdc8d4ad78a8b74",
+      "title": "UK to fly RAF missions defending Saudi Arabia against Houthi attacks, Bloomberg reports - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTGh1LWkyRVZqaTRQMEdnRXhvWFhvWnJ6TW5WdlEyM0dxTFQwLWczNjAwLU95SDFDZVVSdUNQUE1uYkREcG05THRjbmhiQk5FWlBjb2p2V01DVmhGRFppUmFHQUFwMm4yZHFLRndUbU9PcEVjY0JBY1JpZjROd0JnOTdoZXFodTRDSzJEQURHQkVzd21pMmtUZmdnLUE3SGI1UGt5Wno0WWVKR1ZWV0FaQ0FmZUY5aVlQZVAtRGV4WEhoTmVnbHRsZ0taZ2d2NFBxOFIzdQ?oc=5",
+      "source": "Reuters",
+      "published_at": "2026-10-20T10:39:30Z",
+      "country": "",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · security",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
       "freshness": "new-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -860,7 +1024,7 @@
         "Saudi"
       ],
       "language": "en",
-      "category": "transport",
+      "category": "security",
       "tag": "AVIATION REPORT",
       "provider": "Google News · aviation",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
@@ -904,7 +1068,7 @@
         "Saudi"
       ],
       "language": "en",
-      "category": "transport",
+      "category": "security",
       "tag": "AVIATION REPORT",
       "provider": "Google News · aviation",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
@@ -1026,6 +1190,30 @@
       "provider": "عربي · مضيق هرمز",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "87010519c4488bded19f0b39",
+      "title": "Crude oil surges further amid Houthis attacks on Saudi energy targets and stalled US-Iran negotiations - investingLive",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPNlU3RUVPNmlWMnFvdWVjejZZU0pWTkVUQmRWMGIyV3JtaXVWN004SDlqdXA4dDZDLWNLaWV6MHRkZWNNeG5sWllGVjRHUDBLWkljOE53U2lwZktWVGttcUlCemVGUHVoWWZCbkl4NmVyRzdSQ3Y1aVpIZXNEV25hS1A2QlVuMk12aTdmdEZlUlQ3bkhZdzRsbmVKOHF1VWdyYXVIeHM3X2tSZnRqaWdQLTduRjJRbjd2dG1zVmV2eFlaQVFybzN2bmxvYkxiYWQ2WUtCeTZNQVM?oc=5",
+      "source": "investingLive",
+      "published_at": "2026-10-20T09:18:14Z",
+      "country": "",
+      "countries": [
+        "Iran",
+        "Saudi"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · diplomacy",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
       "freshness": "recent-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -1393,6 +1581,29 @@
       "provider": "الجزيرة نت · RSS عربي",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "d0b5ab21ef3f76e62477406f",
+      "title": "\"لن نشن ضربات هجومية\".. بريطانيا ترسل مقاتلات تايفون للدفاع عن السعودية",
+      "url": "https://www.aljazeera.net/news/2026/10/20/%d8%b9%d8%a7%d8%ac%d9%84-%d9%88%d8%b2%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%af%d9%81%d8%a7%d8%b9-%d8%a7%d9%84%d8%a8%d8%b1%d9%8a%d8%b7%d8%a7%d9%86%d9%8a%d8%a9-%d9%85%d9%82%d8%a7%d8%aa%d9%84%d8%a7%d8%aa?traffic_source=rss",
+      "source": "الجزيرة نت · RSS عربي",
+      "published_at": "2026-10-20T08:10:31Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير امني",
+      "provider": "الجزيرة نت · RSS عربي",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
       "freshness": "recent-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -2218,7 +2429,7 @@
       "country": "Iran",
       "countries": [],
       "language": "en",
-      "category": "transport",
+      "category": "security",
       "tag": "MARITIME REPORT",
       "provider": "Google News · shipping",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
@@ -2239,7 +2450,7 @@
       "country": "Iran",
       "countries": [],
       "language": "en",
-      "category": "transport",
+      "category": "security",
       "tag": "MARITIME REPORT",
       "provider": "Google News · shipping",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
@@ -2693,7 +2904,7 @@
       "source": "investingLive",
       "published_at": "2026-10-20T00:07:52Z",
       "country": "",
-      "category": "transport",
+      "category": "security",
       "provider": "Google News RSS",
       "tag": "MARITIME REPORT",
       "countries": [],
@@ -2702,6 +2913,29 @@
       "date_quality": "legacy-unverified",
       "freshness": "recent-reporting",
       "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "c217fe11ffcd3218503d504a",
+      "title": "Iran deal remains elusive amid risk of renewed strikes - Iran International",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1GUk5Rak1sdEZRMHE3Z2NtX3VxaDdNd2wwVHI5Unk3eXNkWVl4NnFPUERoSW9nc1VTRFloNk5TV1RCUUdpRmNIS0UwMHBMTENma1E?oc=5",
+      "source": "Iran International",
+      "published_at": "2026-10-20T00:00:53Z",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · diplomacy",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "speculative",
       "severity": "routine-reporting",
       "critical_candidate": false,
       "alert_eligible": false,
@@ -2746,6 +2980,31 @@
       "date_quality": "legacy-unverified",
       "freshness": "recent-reporting",
       "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "c8eff7b0ebe4e232ceca2c77",
+      "title": "US-Israel-Iran War Latest Live Updates: Houthis Claim Attacks on Aramco Facility in Yanbu, Shaybah Oilfield & Saudi Airports as Israel Prepares to Resumes Gaza Deliveries Amid Rising Regional Tensions - The Sunday Guardian",
+      "url": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxPTXJNdHNGTkdtZmF0bmlCTk1pUTdLQXJyS284WlJYOFBUc2p4YmlwaV8yUUdmZHVUcXM1U1VLdlV1SWI2eXV3aFFsQWV3NHprQXVyN2NaaUM4Sm4yMnlTc0hXNjkwZDlIU0lMMzJhVFBvd2l1cmdPcGl3aHZnaVNGSmc4SFB1VzVRZHB3Qm45ckxMSTY4UjA1b01EcVExLU4zMmhvWWphT0pXMDBOZzZhVUNHSTN3aDRlcjAyVVRUaXNETGhjUkNfeDBRTU16ajJjVGxocEljRzB0ZXljQVBBTm5Nbml5bS1ZbVFNMlhLdU9TMzJMY3Z2S0hGYVAzckd0MzAtSUdZc1VtaEVKWlFBUUJLOHZxNUtjQnM5eXp3NDlNcU1yZkZwSy1FUC1ObHFrdEIxRlRmQnJiQ2d4dUpuOGNwREVOM2JkNk1jU25sVWRzVWFZUmVTUXFGaXdEZ9IB4wJBVV95cUxNUHdOdW9nSDUzVjBzZVNfRk82MGFpSVNDcFNicnA1dkVoU0IxNkxsUzJyMWp0RFdhdUxqY3djWVdleGxoX01XU0EtYVk0ME1jNDkyeVV2OGhiS2ZVR1VnUDF2WkE1NmhqZHpTSDJ4SFhoTDdLRm85NHJJd3dQZUNYNEk2ckpJR2Y2eTF5aVlCczhsVVk2VlRTVmpabTRKVzdndE1LVXFyekFXWWxwUHo2TE9BUjRnYWVSMzJLLVNSZ01rRmw1cjNSVVJ3VUpvck4wOGhydG5YMndPWG1DcC14dmRNTGpScTlfcnEzOTRvRC1DVUk1SEcwcTZ6TmhMUS1nbGZfVU9QRjNKWFhjSmhmaUZ6VnN4TzBSZ3UzdVBIWVlRSEdwWDhsYTU2RjVpc1dXVWlsSkxzdnc0ZkJydlgxenRaYXhRbHUwWVZiaHM3VTNzNUZPRWxFMHVKYm96QUVHS0k4?oc=5",
+      "source": "The Sunday Guardian",
+      "published_at": "2026-10-19T23:37:06Z",
+      "country": "",
+      "countries": [
+        "Iran",
+        "Saudi",
+        "Israel"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · regional",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "speculative",
       "severity": "routine-reporting",
       "critical_candidate": false,
       "alert_eligible": false,
@@ -3121,6 +3380,29 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "f2e4e4db95c91cd8f6cb217e",
+      "title": "US Air Sanctions Hit a Dead End as Foreign Airlines Resume Flights to Iran - WANA News Agency",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQnVwbHFTN1U1a09kaUxyMzlhcDVXMm9CQ3hkVjhQak85WVhnMWo5WlpLNlUxNndPMnEyTklkZ1h1dWNEa1JlT0lIbWhDR0dWY3hMTUhqMFVZUEFZa0VnTmk3Unl4dXBxaGtHaWJpRUx2aGRaMExJN2pFWVQ5bHRpWUZxeEowX1pKdWM2LWxOVTAtVkNLNUcyOTdR?oc=5",
+      "source": "WANA News Agency",
+      "published_at": "2026-10-19T20:26:05Z",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "language": "en",
+      "category": "transport",
+      "tag": "DISRUPTION REPORT",
+      "provider": "Google News · diplomacy",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "elevated-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "d4ea9c0a3d826b53e788b8dd",
       "title": "Tug Attacked Near Strait of Hormuz - The Maritime Executive",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1wVElaWVNMWUZUUFhRdFVXcjRleEVfWkZlMjgxTmFtOTRSTzRlQ3NiMHAzRXB4ZTRFMHVxUWJKZkxFRV9hOEdQVjcxM1h2NU04QXRwTGtCVmdjeUhoNFBNMm9rQjhlbXpWT29xNEpVZEJYVTRkalpKc0w4SDFDdw?oc=5",
@@ -3129,7 +3411,7 @@
       "country": "",
       "countries": [],
       "language": "en",
-      "category": "transport",
+      "category": "security",
       "tag": "MARITIME REPORT",
       "provider": "Google News · shipping",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
@@ -3257,6 +3539,32 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "4ace226b47b4e8389bd49482",
+      "title": "US-Israel-Iran War Latest Live News: Iran Warns 9 Nations ‘If US Strikes Resume’ as Oil Prices Surge Above $110 Amid Renewed Houthi Attacks on Saudi Arabia - The Sunday Guardian",
+      "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxPQlc3YXB1R3hHd05mamdCOGtRTC1sX1piUDNmUXFmbHlqLUp0UVhLYnVhNzBSdEpnX05WT1JGWF9wWDlMNjJTUTVyc2dSTXpLQVd5N2RSVmhLNS1aUjRYS2ZKd3ZaR0htaWtvN3paMDcxYUNCVFd5OEJNczY3ZVVEdVhiR1dualFOcGgxWVVqT0p3Ml9ma1Z4QU1SWjRJbVVXSkdSQXVxVDhCOERlWW1PR3pqSjNoUV9kVmNLdjZRcnF3VXcwd3BZVGhVLUdYYnFWTnNhYUJPVTU4dG1hWEo1c093MFZVN1BMd1NOTkNXaGgzenhTMDZxS0JMejlmWWhpVmZOTEFVU1V0azI4S1NpTGZUM1dMMkh3My1kZ3ZtVEFJaEFoS3U00gGnAkFVX3lxTE9CVzdhcHVHeEd3TmZqZ0I4a1FMLWxfWmJQM2ZRcWZseWotSnRRWEtidWE3MFJ0SmdfTlZPUkZYX3BYOUw2MlNRNXJzZ1JNektBV3k3ZFJWaEs1LVpSNFhLZkp3dlpHSG1pa283elowNzFhQ0JUV3k4Qk1zNjdlVUR1WGJHV25qUU5waDFZVWpPSncyX2ZrVnhBTVJaNEltVVdKR1JBdXFUOEI4RGVZbU9HempKM2hRX2RWY0t2NlFycXdVdzB3cFlUaFUtR1hicVZOc2FhQk9VNTh0bWFYSjVzT3cwVlU3UEx3U05OQ1doaDN6eFMwNnFLQkx6OWZZaGlWZk5MQVVTVXRrMjhLU2lMZlQzV0wySHczLWRndm1UQUloQWhLdTQ?oc=5",
+      "source": "The Sunday Guardian",
+      "published_at": "2026-10-19T19:49:28Z",
+      "country": "",
+      "countries": [
+        "Iran",
+        "Saudi",
+        "Yemen",
+        "Israel"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · regional",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "speculative",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "46a0bbddfbe2e1ba87cd3c9a",
       "title": "Juba military hospital admits 21 following Jebel Iraq attack - Eye Radio",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPVHlHckRzcUFacUY0aVR4RTJkTWVEbDF6TG1EaGRhbWlRZ1pGRXhZUWV5dEx2WlpvMFAwVE5MNlo3NjFMMkk4OW40YzNnVGlyN2NOU1h1ZTJjZDBqbFg1WkpqV2Q4ZzJKNnhRT2tNdGhjWDVrUjdmazN3SVhwZkdDY3RDQzJicjhxV0HSAY8BQVVfeXFMTURTcG8yUGV1c2JfZnhGaGU4b0hnVlBOVURxdGJzS1JSNkNjbmZJR0lVSjRBcThlUzhTMy1oMWN4QnZ3eGVpcHJRaEFLV05LaUxvb2sxa3ZybTBaTHBtajNFUmtWemNacEJJbXNhTkRWU0pvV1ljenRvcXM3QnFXNUFNZ0FVM09ZTjZKbE95anc?oc=5",
@@ -3318,6 +3626,30 @@
       "provider": "عربي · الإمارات والبحرين",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "8b44160cf01c199981e0cf0e",
+      "title": "Saudi Arabia flights: Etihad and Qatar Airways extend Riyadh and Dammam cancellations until October 24 as Jeddah services cut - Arabian Business",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeG5rUW1YdWJMWTdrTW1oakFsSzAyaWZHYmZkbm1UMGIwTjBlblhMN3ZMcnNmdVZSUEg1dTVRYWxma0tjRGE3VXJaU2Z5N2RmRjlVTHIzT1hqampTb1FTbjVqQnpVbWZXVGJXYWZKQ2FvYnlDYlY3TWE1R3EtQkZ0R3dmRGNDYXRpdklZVFE4empWVkEtdU1JemZGVVlVNm1iMi1DZUcwcFFETEJtMHJwZHM5SQ?oc=5",
+      "source": "Arabian Business",
+      "published_at": "2026-10-19T19:00:50Z",
+      "country": "",
+      "countries": [
+        "Saudi",
+        "Qatar"
+      ],
+      "language": "en",
+      "category": "transport",
+      "tag": "DISRUPTION REPORT",
+      "provider": "Google News · aviation",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
       "freshness": "recent-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -3518,7 +3850,7 @@
         "Iran"
       ],
       "language": "en",
-      "category": "transport",
+      "category": "security",
       "tag": "MARITIME REPORT",
       "provider": "Google News · shipping",
       "first_seen_at": "2026-10-20T12:03:42.847208Z",
@@ -3526,6 +3858,29 @@
       "freshness": "recent-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "98a59a4c414b43b401119244",
+      "title": "Over 45% of Saudi flights cancelled since October 8, residents scramble for alternatives - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOMXZ4Wm9kSjlWLWtpOHpDYVRLX0NlXzRVa0lTSVE0YTAyc2lmRDRwTHJzeDhja19CeTlpMXRsY2MtemN6RmZEX2pEX1NnWVEzVFFCR2ExazJrWmE2OVRsVE90WWNNQjEtTFRHRm9oNk5ETTNENFFfdm1KZm1RYXBHSDdMNDBITE9IRDloQlk1MjItR3dId1pOcjMzMnJ6MVZEVm1EaFJ4ZVNDUENMSTB4MDFlcnN6U2duUEg2SDg2QjZFOUdaZGZQUnYtMVhLdDRDZGxXUkJJOE5BeWRzS0FuQnVMSFJOSjFRelB3MHVVbFB5bk1zcmM4R1J30gH_AUFVX3lxTFAwelB2RlFubkZqeVFscmtYdkdqOElReGNadndrZlNyTjFGZ254Nnh0bnRUR1YwM0NZcVhGV1lRMklaQjVtbE1aS2lTNWhyeUdMbUZ4aUNENFBSWkZ0TlpqeFdXd3pJa0pHYWc2cy1vb1BPMlpqcEp5cE5WWjRuTk1jVFc0T2RYbE9DaElrR2xSdzNLQmF3Wm5qVEpMeWVXbkdfMzRteGFlVjZHamRBZmxDdlpBck85Vm84cnZHM1JEQTRpSk9fbGpxMF9CQjdERDNiU3pSR281U1prTlhETXpPOEpRa0ItRmdwNWd4Y3poa2prNWZ3X3ZHSDdhTmIxRQ?oc=5",
+      "source": "The Times of India",
+      "published_at": "2026-10-19T17:44:00Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "en",
+      "category": "transport",
+      "tag": "DISRUPTION REPORT",
+      "provider": "Google News · aviation",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "elevated-reporting",
       "critical_candidate": false,
       "alert_eligible": false,
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
@@ -3733,6 +4088,29 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "72d9738b417a5f35b0a673b5",
+      "title": "Latest Pentagon casualty report for Middle East operations against Iran shows 21 deaths, 865 injured - LiveNOW from FOX",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxONjdTODN0aDF6R3pTWmZaV1Y4UkpoS21mN3FodUhRVS1qTnJTZ3Jsa041S3BGVGdPUE12YXZXUVhhWVJReHpsVG9fbUFOTDU4eGM2b2JqWG1RNzJvSThMcU01TjNSVFpTTlFON2J1M2FsMHljWTFmWW5QVHVwdmNaMDl3Sndhc3FhSTRJNGxiUUZQb2tsUk0zRFRqRDhpaVE5b0k1Vg?oc=5",
+      "source": "LiveNOW from FOX",
+      "published_at": "2026-10-19T16:36:18Z",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · security",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "elevated-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "62d8bb66b1e1bc79f81d6c4c",
       "title": "Iran war latest: Rubio claims Tehran now exporting no oil through Hormuz - The National",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMkZGb21NbHY4RlNVT21fdGZTQkpwZG9oOTRfREFfbTVxZHRpSk9SV3o5ay0zeEJBQm40ajg0T3JyOU9TT2VtNktCUFlMUHhXci1wZUJxb05NblVZelZUTUEzd01iZlFlb0d4azl4ZlluMDZGQktILTI3bTJlOVdUU2lyTzd5RGlHUlYzOEd3?oc=5",
@@ -3838,7 +4216,7 @@
       "language": "ar",
       "category": "security",
       "tag": "خبر اعتراض / دفاع جوي",
-      "provider": "عربي · الكويت والعراق",
+      "provider": "عربي · الإمارات والبحرين",
       "first_seen_at": "2026-10-20T12:01:49.547007Z",
       "date_quality": "publisher-time",
       "freshness": "recent-reporting",
@@ -4084,6 +4462,30 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "edff0ce20b4a0ceb9ec58529",
+      "title": "Qatar Airways cuts Jeddah flights by nearly half: What travellers should know - Gulf News",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNlRraENIQ0tlTXN0THVzTDRJa1hHaHhzU0VmSXB2SXgxN3RkQ0ZFRUJLekNiMkhTQndHVWg3aTU4LVlqUFdwSnQtQ2tpMUFMVlB0U2o2OVNPQUVwQjlDSER5OGZCbnM0cXRZZFZUbXhvUnpFSE1MY2UyWExfbDhra0VKeERTOGE4RVF2czRCM0s1WUFXaS1yVDVGSGRQdTI3OEpkcXZwY04zcUdXR2lvQzNEeGVpaXFsbVBvT3BxUmhBdw?oc=5",
+      "source": "Gulf News",
+      "published_at": "2026-10-19T15:52:44Z",
+      "country": "",
+      "countries": [
+        "Saudi",
+        "Qatar"
+      ],
+      "language": "en",
+      "category": "transport",
+      "tag": "DISRUPTION REPORT",
+      "provider": "Google News · aviation",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "f7c2370b999826d22c718866",
       "title": "QatarEnergy Buys 33 US LNG Cargoes to Offset Hormuz Disruption - EnergyNow.com",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZHMwRFdQa0ZINzNVUjF5YmpaV1gyTllsZmlRYWZXSEF6NXgySWVaUVF0cnE5YkZvRzJjbVRLRmEtdnd4aUJmWGc1aHZ0b3IwdDk5U2tIdzBwTEpNQlRzei0tR2lIeFdvWG5RNVBuWlZmWGs5VlZCVlEwaXVfVnpnelhuY2xObzN1ZkVWeUxHdUJxVy15NnpXMQ?oc=5",
@@ -4100,6 +4502,29 @@
       "freshness": "recent-reporting",
       "context": "reporting",
       "severity": "elevated-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "b1c131c6e8207e4f25fdc518",
+      "title": "Iran and Russia FMs condemn US-Israeli attacks, call for regional diplomacy - Modern Ghana",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBaajNZbUhRaF81ZlhsUjVGNUN3Y29EemN1ZVFVOWxUMEI5bXBkY0tsQnBnblY5V2E3NmowOE51Q0VLMEMyV2ZuZFdrU0JNdnRpN2pDWmdGU1N2ZEZpTHAxWm1vYUxySUnSAVxBVV95cUxPaHhSYjFBOVFVeXZrNFZCdVE1b0pLaV9uWXdINlBsWnNkOHc5N282NVp0bmd4Q3I0dUFlRkdQTWFfYWt0Rmw1TVY2UnNscTh0ZXZCUVNxc2Nhby16Vg?oc=5",
+      "source": "Modern Ghana",
+      "published_at": "2026-10-19T15:46:37Z",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · diplomacy",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
       "critical_candidate": false,
       "alert_eligible": false,
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
@@ -4251,7 +4676,7 @@
       "country": "",
       "countries": [],
       "language": "en",
-      "category": "transport",
+      "category": "security",
       "tag": "MARITIME REPORT",
       "provider": "Google News · shipping",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
@@ -4259,6 +4684,30 @@
       "freshness": "recent-reporting",
       "context": "reporting",
       "severity": "elevated-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "2cd7e1b4698afe3aa99d1ee6",
+      "title": "Saudi Arabia postpones big investor conference to 2027 as Iran-backed Houthis escalate attacks on kingdom - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSmloanhGMkdyYXFXR2FtNlhRUGw3SW5mSzFWUXRCRWFzSjBsSHlqbGlWeFV2bWs3dlJjT25QRmRYN3REblJPb2VVMHpLRjVPazhqQ2RTbGdEWG5LUEtoTE5wT2cydGoyWVQtOW5LcTh2X2Z4VmpaXzczdEw4blVsbHdiWjRnYThsQjQ3VllvbGNsUzllR3fSAZsBQVVfeXFMTVlUQW9jVVRlaXI4cUJOUDE3NWJNcjVYcElWM2ZoLWJfMTdJeEgta2FHcnRSODNnZFg3b1pzamJXNDNwcFhKX29vZ1VPaFpIMVhHYkFvQUlJc2FmQnowOXRXdGF2bmpBSDNNbVQwb1ZocEd0V1p4TG9mM1ZhU3hhTHotZjFzUmhKZk90b1lKRTBSamJDbS02TlVBb0U?oc=5",
+      "source": "CNBC",
+      "published_at": "2026-10-19T15:14:20Z",
+      "country": "",
+      "countries": [
+        "Iran",
+        "Saudi"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · missiles/drones",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
       "critical_candidate": false,
       "alert_eligible": false,
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
@@ -4320,7 +4769,7 @@
         "Iran"
       ],
       "language": "en",
-      "category": "transport",
+      "category": "security",
       "tag": "MARITIME REPORT",
       "provider": "The Guardian · Middle East",
       "first_seen_at": "2026-10-20T12:01:49.547007Z",
@@ -4897,7 +5346,7 @@
         "Yemen"
       ],
       "language": "en",
-      "category": "transport",
+      "category": "security",
       "tag": "AVIATION REPORT",
       "provider": "Google News · aviation",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
@@ -5162,6 +5611,29 @@
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "elevated-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "f6ac646cebb51b69041a4fd0",
+      "title": "Morocco to Arm Combat Drones With UAE-Made Desert Sting, Thunder Weapons - The Defense Post",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE95S3BRWnM4a3ZOUmxDWlBjV0Q1M0pUVFk2UG9TX3FuSVlYWmhzN1BxOWxidXlNaFhxUzVsMnE1VVlMeDdHTFFtblMtVFh4MEN0dmRtdGtsZWU1cFVSTGdRMWNTVXltbE81LXliT2hqZXRIczRQQ2d2YVdFY9IBe0FVX3lxTE95S3BRWnM4a3ZOUmxDWlBjV0Q1M0pUVFk2UG9TX3FuSVlYWmhzN1BxOWxidXlNaFhxUzVsMnE1VVlMeDdHTFFtblMtVFh4MEN0dmRtdGtsZWU1cFVSTGdRMWNTVXltbE81LXliT2hqZXRIczRQQ2d2YVdFYw?oc=5",
+      "source": "The Defense Post",
+      "published_at": "2026-10-19T11:11:40Z",
+      "country": "UAE",
+      "countries": [
+        "UAE"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · missiles/drones",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
       "critical_candidate": false,
       "alert_eligible": false,
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
@@ -5449,7 +5921,7 @@
       "country": "",
       "countries": [],
       "language": "en",
-      "category": "transport",
+      "category": "security",
       "tag": "MARITIME REPORT",
       "provider": "Google News · shipping",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
@@ -5887,7 +6359,7 @@
       "source": "Splash247",
       "published_at": "2026-10-19T07:34:40Z",
       "country": "",
-      "category": "transport",
+      "category": "security",
       "tag": "MARITIME REPORT",
       "provider": "Google News · shipping",
       "countries": [],
@@ -6051,7 +6523,7 @@
         "Israel"
       ],
       "language": "en",
-      "category": "security",
+      "category": "transport",
       "tag": "AVIATION REPORT",
       "provider": "BBC Middle East RSS",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
@@ -6410,6 +6882,30 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "ed40ef0a9907d8e34a6ae55b",
+      "title": "Iran names new defense minister after predecessor killed during war with Israel - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE95dzZPcDdJaGd2N3ZRWHNUYjNQbU84a29NRGZ4VEs4dEl5OWlQVTdNZlFNX3dHZVh0d2FNU0lWRW51RXVMZFFQckRMOVM1NGZYdVFrTF9Kd0N6T1JnSUhxMTlFdWh4ODR6aHc?oc=5",
+      "source": "The Jerusalem Post",
+      "published_at": "2026-10-19T04:27:15Z",
+      "country": "",
+      "countries": [
+        "Iran",
+        "Israel"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · security",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "elevated-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "e3d2d9b5f1571bc2d0d6c23e",
       "title": "US-Israel-Iran war: Hormuz deal unresolved as US issues new warning to Americans - Gulf News",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSXRfYVZUeHBDd0FSSHZncm8zcW9rLTNnSWkxcjliVHVGNldad2tFc0w2Z3h3NHpEa0xsaU9XN1gtTkJISDFpUElGeXpVZWlnQm05b0d4RC12d2dXNGFFYlNkTXdmeFhNRTQtYTF4SGxQY3hTUnE1aFlqRHp3azdmVk9NYmpsZnFMUmt4M2tQOVVMTDhsTFRCSy15c1pLMWltM09MZXVyQ1FKXzd6ZHI0Tzd5OEljX0E?oc=5",
@@ -6578,7 +7074,7 @@
       "source": "Fox News",
       "published_at": "2026-10-19T02:23:20Z",
       "country": "",
-      "category": "transport",
+      "category": "security",
       "provider": "Google News RSS",
       "tag": "MARITIME REPORT",
       "countries": [],
@@ -6646,7 +7142,7 @@
       "source": "Forbes Africa",
       "published_at": "2026-10-19T02:10:00Z",
       "country": "",
-      "category": "transport",
+      "category": "security",
       "provider": "Google News RSS",
       "tag": "MARITIME REPORT",
       "countries": [],
@@ -6800,6 +7296,30 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "1746c7ea48f37be3812c21c6",
+      "title": "US and Israel threaten renewed Iran strikes, Tehran warns of response - Iran International",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1zNl9zdG1hb2kzUnMxdnIwNDN6MjZtTHdYcEpnOGhyU2JaVnVzTm9jVWwzUVJSYWI5VmZla0FqMVlJaWZOdGxnWjdFMVQxZDRGTFE?oc=5",
+      "source": "Iran International",
+      "published_at": "2026-10-19T01:31:23Z",
+      "country": "",
+      "countries": [
+        "Iran",
+        "Israel"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · diplomacy",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "speculative",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "9e3340408710e34acd0bdeec",
       "title": "ارتفاع أسعار ناقلات النفط المستعملة بنسب وصلت لـ36٪ بسبب قيود حركة العبور بمضيق هرمز - المصري اليوم",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0zcVJRbzNOMGpPTDMxTnlkeG01YnRsSHQ4cEx1LXkwRUo1ODhfUkEzT1VHbFdjaHFKUzZiRVJweTVFNHpwSWgxajRJUkFLYjlqcDlMbDh4aUpEZGhKU0lz?oc=5",
@@ -6829,7 +7349,7 @@
       "country": "",
       "countries": [],
       "language": "en",
-      "category": "transport",
+      "category": "security",
       "tag": "MARITIME REPORT",
       "provider": "Google News · shipping",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
@@ -6857,6 +7377,30 @@
       "provider": "عربي · الإمارات والبحرين",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "601a510ebf6d30fa635cf33a",
+      "title": "Saudi Arabia on edge: Iconic Kingdom Centre sends workers home amid Houthi attacks - Fox News",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQ2FBdlVvdkdPcnFjODk1dGVid0RPQl9SM2VYMHpMQ194QURrVUp3aXFsWWxJZ1hqbmppNXoxcWZRYzVRWFdKWTNtWm1Lcng4NTF1V0xnbGlkWXc5QU9NcXhIbENSVWJRYVVuRWdCaVJ4aER6ME5WUmlyenQ0RkhsMTFnTF93RnotaFZ6dEJTaEx0VU5pNlJ6dmhSUFVrRTd0YUoyenVtbmp4Q01P0gGyAUFVX3lxTE9RMERTQzE0b3J6WGl5MlJ3ZEtTVkdDY1o4eWJja2U2NWhVaFE4RUlPSWl1ckhwYnJtYnVyZmxuRjFFUXVzQTZyWU1EWEFEUDdHeVlaN3RjdzNxWjhEdXRhTVc0YWlYMDJTckVuNWMxN09WTkRMb3hFa3RkbWJPeHdQbEo5c1R0eXNYQ0huS3NHeEc4enFBa3JtMjNmMm5uZ0FWT1RaZ2tTT0NhbU95b3FLUFE?oc=5",
+      "source": "Fox News",
+      "published_at": "2026-10-19T00:45:15Z",
+      "country": "",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · missiles/drones",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -6894,7 +7438,7 @@
       "source": "Fox News",
       "published_at": "2026-10-19T00:35:31Z",
       "country": "Iran",
-      "category": "transport",
+      "category": "security",
       "provider": "Google News RSS",
       "tag": "MARITIME REPORT",
       "countries": [
@@ -7143,7 +7687,7 @@
         "Saudi"
       ],
       "language": "en",
-      "category": "transport",
+      "category": "security",
       "tag": "AVIATION REPORT",
       "provider": "Google News · aviation",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
@@ -7169,6 +7713,30 @@
       "provider": "Google News · shipping",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "cf58f98dc491ccbb8a0d1538",
+      "title": "Brent crude edges lower, even after Houthi attacks on Saudi infrastructure - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMmVLc19hd0VSYXIydVNTWENKZ2J5WVNvVDRQUjRfTUJXWGhjOGxGZkFHVm9SNnZzeU9TWUhrYnJTRU1sVFRnX1BwZVd3NHB5a0NLdThkbDRldlg2eHdhTll2b3RnQTJ4U3dHVGczM25FdjJHRGQ5WGJDV2Qxd1hzLV9EcjNWaUQ4cXEzbWVHRzNuS1dGVVNBSmdXWGR6THN1dXhvSUdFS0dMMTJZTnBBZEFfZ2JoYVVFSWNMZw?oc=5",
+      "source": "Reuters",
+      "published_at": "2026-10-18T22:23:00Z",
+      "country": "",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · shipping",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -7587,6 +8155,30 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "d2c71d3aa4260945e27503c6",
+      "title": "Egypt's top security body agrees to help Saudi Arabia defend itself against Houthi attacks - PBS",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSExWUWxPbDZ3eVc3aWhxcTkzM2pMMGh3WmtudnlJaGtCMTVFZ09hVUJ4NnU1TVYyVUMzQ25uRG1VcURqb1o1akJRdG5fd0I5Mnd0Yl9YeGZwV1RXejgzUGtDQnJXaTlOUnRYcXZlMTh3NkRRWjBROFU3OWRFREE3WWRtNmpLbTdLZ2ZlSEFOMkp4ZHhnRGRWTnV1c3p3UzNuQnd3cTNvVFcwaWNvdlNBSUM0SUdiTHhldG5xaXlWVEx5QdIBxwFBVV95cUxNdkx4dC1JQTBBTlVIaHVsUGZkeWQzdE1uRWpMWEcycFQ5R0JjRkx5Z25GQ1duTzF2VVYwT2dPMDR5RzhVNThvZ1FBbmh3SURFNDlaR0pjVHk2SmRtanBNUlZnbXViSDJqZmEzSmlxVE1QX3ZEQjNRaUdGSzZ4Z1AzSUMyY3ZIbmYtYk50XzFIUmR0UHFoUVE2ZXRMOU9xMDlWSE1aOVJyak52RzZXZDQ1V3NkQUhpbndRRkVET29VZVZmNExkdXlv?oc=5",
+      "source": "PBS",
+      "published_at": "2026-10-18T19:22:43Z",
+      "country": "",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · security",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "ae541c4973d135e540dcfe6b",
       "title": "تحركات عربية لدعم السعودية بالتوازي مع مساعي التهدئة - NOW الشرق",
       "url": "https://news.google.com/rss/articles/CBMiwANBVV95cUxQamhEVEF2cG5NRTZmNDF3QlRDRUFUVzhDNGxsajFGOGV4Y0U4Q0ZmVk5jSDI3YWdSaVdyeG8xT3NfWWtHWmpfMFVwMTVJb2Q2M1k5MlNFRTdFOTdDSkpCR242Wmd0UXVPbjYwY1hUMm5kUUhzY09Ub3dZOUoxRW5VV1lBTkEyWEIya1hwX0phRjVDeFByQUh4dDBHeC1OeE1nLUVxT3ZWcTR4dGlQYVlUQnJOaFc3Zjc4NTBseXU1NUFWclQ3dFFtbnlwLTZKSW1iZ0pqekxDbDJueHBOT09UbjE3cUU1TS1YeGk1OERPNnZldXdzb19SZHIxWFFGXzhFQXhWZWpmM21zdTZWZkZmQU9RUldvUVZqZnlTZnNZamtFeGp1LTFjLXJnZ2xTVVByTzZHMWRuU1A3bTduRmFTZW9GNG1PMWhNOXBKQ2plSmhwVVN3Wk1RMHZ6SGxRV2w2djROOU9Cakk5N2k2dklKcmhnOFphVjE1bjJhVGo1MXJwRXVSbFRwSWloMG1ld3FyWkkxb2hVMkdOWEdQZkJIY1JlUHVRRFBMbmtsQjB4ZUx2d0lqbDRfVWh2X01CMkxC?oc=5",
@@ -7741,29 +8333,6 @@
       "date_quality": "legacy-unverified",
       "freshness": "older-reporting",
       "context": "speculative",
-      "severity": "routine-reporting",
-      "critical_candidate": false,
-      "alert_eligible": false,
-      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
-    },
-    {
-      "id": "39eba60bb729f9334e66b208",
-      "title": "Iran Says It Secured US 14-Ton Bomb Technology, Unveils Heavy Fighter Jet Plans - Palestine Chronicle",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbE1TMUZacTN5cmFxRWg3U2VGMVZvc2czbnhqaTVGaHZYbS1xY2lMNnRCcE9ES0c1QTgzRnVDTXZQVHphaDJPVF9zMUlLVm1zTm9KQUg5M25wTEYzRXJRVmVtd3ZVbFFyeGs5cUJTZUhoSXFwOGZpZlFicVB3ZjFvUElscTlHcDNEc0pya2xtUHJxR2tBMTFoOFNVbUo2ekVTalVLT2NYaGk4UU8tYzdCOWplZXE?oc=5",
-      "source": "Palestine Chronicle",
-      "published_at": "2026-10-18T18:23:33Z",
-      "country": "Iran",
-      "countries": [
-        "Iran"
-      ],
-      "language": "en",
-      "category": "security",
-      "tag": "SECURITY REPORT",
-      "provider": "Google News · security",
-      "first_seen_at": "2026-10-20T12:00:32.516927Z",
-      "date_quality": "legacy-unverified",
-      "freshness": "older-reporting",
-      "context": "reporting",
       "severity": "routine-reporting",
       "critical_candidate": false,
       "alert_eligible": false,
@@ -8207,6 +8776,30 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "1e3c17401db1633192928128",
+      "title": "Iran attacks Komala Kurdish opposition group in Iraq amid increased regional tensions - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9hWTVCcXUtTVZhOF95X0xQT3JvV2Zqb2RvLWZwZGhheng1d0hQUW9ZUnI0REJVbnlQa0hGdjJCNWNZUzNISUM2X0Jlb2V6LTJDUXFmR0JDbEliVzNydy1Fd0JyVVN2OTVKa0E?oc=5",
+      "source": "The Jerusalem Post",
+      "published_at": "2026-10-18T15:28:43Z",
+      "country": "",
+      "countries": [
+        "Iran",
+        "Iraq"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · missiles/drones",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "7223c061454e644a664d",
       "title": "Egypt's president vows to use 'any measure' to defend Saudi Arabia and looks to deploy troops abroad - Fortune",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbkNqZjdjR015R25EQWkwOElJRnFPS2ZrNkw3eWFaejEzUHNyZDFINktSUFBicVVRNmh5ZE1vYjFSSm9lNzdkLW1YamQ1MF93a3ZvOGlIUF9mWDVZLThBS19HdU5lODRzX2hFWS1tZERaX09sZ3JzWDYtN0dwWFcyVFRuM0xia0s0dEFwdEozQUxlXy1FOGpnb042STVoRW8?oc=5",
@@ -8245,6 +8838,29 @@
       "provider": "عربي · قطر",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "05a467f40ffaf7210883c777",
+      "title": "'Take shelter, don't film attacks': India's fresh advisory for citizens in Saudi Arabia amid rising tensions - Business Today",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNRE45b0E2Z05IMXYzcWV4ZWtOcW1qOFh3c1pjYzMxOExRdGR5cVloaUlWVHJBT0Y4bzNraDlkLTB1YmN1U043cUt6c2VVSF9jMl9QeWVKSV9DTUh1MFhic0xtZHc3UlFFWHpMMng2WlppcEtLZmJYY0dya0lxMGowLWwwMUV5bnZqODRQX1RVY04wQThMQzh1VU1wc3NlQWR1aXBrM29pRTdqM3dGNEhhRF85X1Y4WU04eF9NaFI2MVdRcTVtWE9qWkVkM1owMVl0MTdQYnp5ZXdGRWYyaEZya3NiZU83MlNrbnE5OXIxbkNCNVnSAfgBQVVfeXFMTWwxdnFGdVdyb1lnWUNIU2o5MklCZFowT0g4Y19UbDJINmtZRjl3V0FWcnU0ejktR19OVjI3UEl3VVJmV3VUdlFFS0VWTWpSWjVSQU1BbWJaUnBXNTNZNjR6R1ZfWF9pVUdqdk5TMkFaOGlYU1VnMWRUazMyUm5LQTVnWjhrM0xubm1xMGJIVlRwNC1fa2tYd0ZnaUZsOG1LdUJiVHN1R0lxMlQ2MW1UVnRFWDI4aU5VT0tjWUZPWVhicGtoQ012d3c0TmU0TnlDWFNCV0g2WDJIX3lNam5iZnRCN3VuRDcycEwzN09uRjc0RDIzN2gxTlA?oc=5",
+      "source": "Business Today",
+      "published_at": "2026-10-18T15:10:24Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · aviation",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -8511,7 +9127,7 @@
       "source": "CNBC",
       "published_at": "2026-10-18T13:52:24Z",
       "country": "Iran",
-      "category": "transport",
+      "category": "security",
       "provider": "Google News RSS",
       "tag": "MARITIME REPORT",
       "countries": [
@@ -8683,6 +9299,29 @@
       "provider": "Google News · shipping",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "a6a7fc6745b0d2afa08613ab",
+      "title": "Coalition destroy incoming Houthi missiles, drones amid renewed attacks - アラブニュース",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSHZYeWJxdEtmMS1GcjJ1dW5DTUtDdmZFTE1KZm5UTlNkMzFlYngwdEVvLVFWTndzSko0ck5VSnpJNl9OTTEybWpGT1lYc2Y1RFAyT29LN2FPamRMek9qNnk5MWF5S09iUVp0d1Z0bUNPb1M2SFFrMXlHcVo4WW9oUi15X05HQ3dhMlduWG01anBncUxjX05fZkJwVEcwdUdtS1lHSFJyVnhORm8zS2h6aXVGaEVGOElUZHc?oc=5",
+      "source": "アラブニュース",
+      "published_at": "2026-10-18T12:34:31Z",
+      "country": "Yemen",
+      "countries": [
+        "Yemen"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · security",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -9101,6 +9740,29 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "6b6992069fba449c5124b090",
+      "title": "Architect of Guards' missiles becomes Iran's defense minister - Iran International",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBVZTA0MXBFbC1wR2w2S0k1czlqZjBRWGNiWmU1STdLdEtQN01xdFBGbUZOTFBuQlVLVnBwZGEwaVY5aEs3RHQxamhXdzRLUGwwZUE?oc=5",
+      "source": "Iran International",
+      "published_at": "2026-10-18T09:54:31Z",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · missiles/drones",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "dcc939d51c3797f69d3c6689",
       "title": "US-Israel-Iran War Latest Live News: Araghchi Says Hormuz Reopening Plan Remains on Table as GCC Chief Urges Global Action on Houthi Attacks Amid Rising Gulf Security Concerns - The Sunday Guardian",
       "url": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxNdE8wV2dhMjV4aEVCek1KMkN2MGRLOVZveGo3X3BmYlNHUmdsTmRISXd4YW1pOXlYVDJpaEpZcDNhSjJmV3hCYlh4RGw5V0diVldURkhCUnFBTmc5V2ViU1ZTU3Bjd3Nac29KbFhZU0hZUFZmcXpSdTVCc09YVHZHdWUzbFhoMEpuNHd1R0U5UzBXb3dkYUFnbkFIRHJWWDV1NTlVRURwZks1eXBOTnhZQ1FIV2dPU1F4LXhpbmZtYk9WWWZjN19EMDIzRTRvLWJIc2N4VklVRFd2YUZjOFFpN1FQVmNzT3VvX2JWTUpRMlpMYjRzN0JFaUxobkgya3Ezc0dicUNxbmV3bW9Nc21nOWZoS0pOMnRZWkVYVUc1di1VZFVsaW5WOWlGRVE1bnNYcjl0WEJIOG54V2xJSURhSNIBxgJBVV95cUxOWHVaNWpNQ2xfV2g4ZFI2OUFYRk5pSUR6aTJCb1k5TDFQU2JyX2VwMWVWb0ZfLXo5NTdicUxjZEEtNG5yeGlzTEl6QWd3U1l0dUZYUkVZcTNQVFlyMEgxbTVHZVduVGtJMUhuWTYtOThEUnpleVRKR2NXX2xXTVB0cmhZYk1ydjRKc0IySVVqeFRIZEZhc043M3FPR0JxSm1NTnJmX0F6ODEwcnBjdXdXbldOYnBkbXpIbHkySnNnaG03d0dpLTZWSmlTX1VqWVhEbU03U2t5Wl9HLUdtcjRRMTZUZThRVE1KRjl3NXdQRWdZckQtSTdYaVJzVGNsVk03RkozUlhTNjQ5X3dWSC1JVlpIZV9BenNFMDBNNVItYjRiU2lDNi1nb25mT054MWttRmVsdGY4VkpKeHN0RjROcU90bmJqZw?oc=5",
@@ -9113,7 +9775,7 @@
         "Israel"
       ],
       "language": "en",
-      "category": "transport",
+      "category": "security",
       "tag": "MARITIME REPORT",
       "provider": "Google News · regional",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
@@ -9542,6 +10204,30 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "44ff16c28ce6d81718f48a84",
+      "title": "UK tightens Saudi Arabia travel warning amid Houthi attacks - https://www.thetraveler.org/",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdzNoUWhxM0dVLXREcEgxQVVKVVF6M0FQUzc1NWlMWFFfTENIRjFTN3plS2FtMXVEdlhyVnVLQ1NmQ2NoSWdNYW45anpmZWl6M3VtRnQwazJmLXQtTzA5bl9qQ1Y5c0JUTFFWbXV4a0FZenI0SHRWbk5RSDVHekFYejczRVEwc3pRdFJZanl3UFd3UQ?oc=5",
+      "source": "https://www.thetraveler.org/",
+      "published_at": "2026-10-18T07:25:04Z",
+      "country": "",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · regional",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "97bca84118d7371e20c5394d",
       "title": "التحالف يجهض هجومين حوثيين على خميس مشيط والرياض - قناة الغد",
       "url": "https://news.google.com/rss/articles/CBMi6gNBVV95cUxOV3h4Vmp4dnFab2dhZ0pESzdoNVVCclVhS1djTGtqTm9ORXllSS02ZEFqUEtPODdhcWx4ejlJbnhseDludlI3dkVBem1lT2pMckN5TUlJQnVidDVrSXFpcmlPSkNROHByNkI1enE0VWlBc3hhVVdNMjl4dzNWYVJWdU1GeE5xbERnc0VwTVhobTVxTVp0ZU1NYXptM1A3RUJQVTl0LTdfd1R2OVBnQmx3YTlfY3FpbTNtWEprdzFBMmY5dVY4RVZFUkI1WEd1S180WGliWERXUS0talMxWUxWdDNJaXZFOEJ5Y1NzMmJtUTNMVVp6ZmJaRVd1clBnVFVmcHE2c2p5UEV3X2dwSmFENXVhRzBVTnEyTk90SGpuVVAyZzVLWmVTRnBibnBCbE03clZGNk1HemJnSnh6TEZISDZjVlJJREgxQm1RYU0wcUV5dlhaY0piUnpNWkJBbTNpbUhzNUhmSVFweW5ta3B0UXJKTTNkQy1pR3lrOW4yZDgySWMzcnJseDhLQnJaNFpBYWhtZDBXTDFmVVJnUDFOTkIwa3lETG5KN2ZzaGd4SlFjbUpSekRMZENscHE1cWFHWDRRWVFYSjNXSktWeWNmczMwSW4wV0xVbFVtOUN5LUVWRUliVFBDOGVB?oc=5",
@@ -9576,7 +10262,7 @@
         "Israel"
       ],
       "language": "en",
-      "category": "transport",
+      "category": "security",
       "tag": "MARITIME REPORT",
       "provider": "Google News · regional",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
@@ -9622,8 +10308,8 @@
         "Iran"
       ],
       "language": "en",
-      "category": "security",
-      "tag": "SECURITY REPORT",
+      "category": "transport",
+      "tag": "DISRUPTION REPORT",
       "provider": "Google News · shipping",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
@@ -9692,7 +10378,7 @@
         "Saudi"
       ],
       "language": "en",
-      "category": "transport",
+      "category": "security",
       "tag": "MARITIME REPORT",
       "provider": "Google News · shipping",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
@@ -10228,6 +10914,29 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "0d2b2b3d4468cf046ae62058",
+      "title": "Saudi-led coalition intercepts drones as Egypt weighs sending help - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObzE5OEQ1YmtRaTQzMEN4ZC16UVlZOXRXTm9kZm93dldxWmxwUkMwYVJPMkx4YktUcm15d2ZzbHJVbFNaZUZ5RDl3V1lxVzY2eDA0OHFhT2RINHhNMU9GRFNiQ1RRUmo0akRHOEhieFZiZkYxOEEtSkFWUkMwQ3UxdWF0VVFSanNMY3M1RDVBSzk0ZE5lRVd0R2U1TE9HOTEtRmxEOEduRlowLUpv0gGyAUFVX3lxTFBsajZwTGFfQ0YyU0hzT2drU2xPM1haeGl5V1JOamM5TXFDeGQ0VmlCQnBNWDNkanNELVBBZWJTREhPSVRUd0tJM1d3T1pKRzlvZTk0VVdQTHlJdVJUdWhndUFrbnFvcXJoaWwwVVNDM3kwWEtBdWN5Smt0b1dtZ3lFYkFIbTE2Z0Yzb0FXRVNSVUlhWHRJRENRT21EMnVjN3N0c3IxTjBHT2dqemFJZ1VIeVE?oc=5",
+      "source": "Al Jazeera",
+      "published_at": "2026-10-17T23:26:53Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "INTERCEPTION REPORT",
+      "provider": "Google News · security",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "9dbb79e8f6b0d1d1258a4ffb",
       "title": "Coalition says two missiles, drone launched towards Saudi Arabia destroyed - Middle East Eye",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNaGF0R2IxT08wVXotR0hLMElwUVNUck9YeG54SExwaENDYTdEX0Q2SDJxVTZYdktQZi1YMHRDdm95T1ZqM0hlSGh1UGMxaExhNHViLWVSRkVTZ3VRS1hmMHE5VzNjWjM5X3pIa3g0RjRWelZDWXdTcHVBbmZ6cmZZa0pNbVliYVNWcHl0aUJXNEVOOERXUXg4SkdaZE1lMVBqODBncF9GaTgwRXNCOGQ3TXJ2TmVqUTZ2ZG1MOEdoMmpBSVot?oc=5",
@@ -10282,7 +10991,7 @@
         "Iran"
       ],
       "language": "en",
-      "category": "transport",
+      "category": "security",
       "tag": "MARITIME REPORT",
       "provider": "Google News · shipping",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
@@ -10514,6 +11223,30 @@
       "provider": "عربي · السعودية",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "elevated-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "0d05f595668dae56fb87dc2e",
+      "title": "Houthi strikes on Saudi Arabia show the Yemeni rebels' growing strength - PBS",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxON3ctZzVVZmROUF9ucW82clpVMWMzUXVUQ0xFendFWlh1U1lEbXRmTlh4TUJKR1lHT0FpLUNiUWZ1aDRkTjM0ak52X0QzR2thSGNKSUptNXdXOTQxM1gtYk9zZkJTN1Jjek9LY2Y5M2RWcERwZ2RheV9DSXBCZEItaFNWYlR2ZXp0c3dMVS1YQnJkY3F1TjVDaEJpZFVCcFYyTTJwNXZmTEvSAa4BQVVfeXFMUFNuYkZZWEZjUnIwMTZCNWVaTXEtMmh4OXZPWjRWVmkwS3liMHVMcEJmeHBocEJFQ2Z5d013RkVZOXQxWjc2emNMNTdTY0N2WDVmVDMzTUNhVkVXU1NQSk9kSUlwdDNibGs5eF91dGNSMVhZV2k3enN0cUE5X0piZ2E3dHlhZTkwOWp0S2FJTkdLd1Zub1lNRmR3WlNPMHBoUElxUm0yV1RYaFhkV253?oc=5",
+      "source": "PBS",
+      "published_at": "2026-10-17T21:04:33Z",
+      "country": "",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · security",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "elevated-reporting",
@@ -10949,13 +11682,36 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "2be1ee60cfb07588ad496a3f",
+      "title": "US warns of possible new attacks on Saudi airports: What travellers need to know - Gulf News",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZjFyRVlkQnBSUmg4QXZwWDBUZnZzRVBxWUdZSlZ6alhOZmdvSjR3cE5wdW5XeXpmbGVqUzlCb3FVcnJTLVhqMXZ1TmxkQ01xSG1MZERUcWFYNlRXSWJrd2hDV1ZHU1Z5QVROVm9HVnc1MHFzb054NzR5SXBQbko4dmJoWmQ4Zk1zTkpreVllclNhOUtTUjRieGxpcGlXVUdBeDVDVWR4QkNUQ0hDTWZhd3hXWk5oSFdJOUFQRHlR?oc=5",
+      "source": "Gulf News",
+      "published_at": "2026-10-17T18:59:38Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · aviation",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "2e0cf8dbfa92f43f2d3b",
       "title": "Ship attacks in Strait of Hormuz hit record high since Iran war began - New York Post",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNlN5TWxmQURRb0JMV1ZUa3JHemxkNEhNQUNDdXFxdUhGSzRvWDBVQll0dHNCZ3lvWTZPQllIaXNxTWFFX0NlT0tSblVONHlRbkhPX2IyZWRxQWx4cDZDT2MyQldENnB2TFNweXdRUVY0WHdzTzdnRzFjRExoT05KRFF0OHBnd3BDZjRQZzI0bVFFanctcWdzS0N0NDEtMnpZZjBLVGN5WFItc2dFREluYQ?oc=5",
       "source": "New York Post",
       "published_at": "2026-10-17T18:42:00Z",
       "country": "Iran",
-      "category": "transport",
+      "category": "security",
       "provider": "Google News RSS",
       "tag": "MARITIME REPORT",
       "countries": [
@@ -10978,7 +11734,7 @@
       "source": "Middle East Eye",
       "published_at": "2026-10-17T18:38:00Z",
       "country": "Iran",
-      "category": "transport",
+      "category": "security",
       "provider": "Google News RSS",
       "tag": "MARITIME REPORT",
       "countries": [
@@ -11087,6 +11843,29 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "4bcc3ef5acc843639be04461",
+      "title": "Why Saudi Arabia Cannot Defend Against Yemeni Missiles and What It Means - Orinoco Tribune",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQVFhWk1YTnViTUVJclNfMzlSQU5uNEQ4UGU3b0dTaGtRdTNXVkZkLWNVazhBUENvRkpFeXI4b01ycVRRdTB6M3BoTFVaOWptamtmOVBadHpRRkxjV0JWa01xYUF5UlJuS1E5UjA5VTgxMjZlUXZnNF81b0ZCaXctalFBaHZERTk2QjJ4RkwtQUZZQ1NCTWc5RU4wZGNkdGlVcnc?oc=5",
+      "source": "Orinoco Tribune",
+      "published_at": "2026-10-17T18:07:50Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · security",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "e6326d5ba31324ce705cc8c3",
       "title": "Iran says oil tanker catches fire after hitting mine in Strait of Hormuz - TRT Afrika",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1CS1VUcGdTazBweGFrNEhhX1pLdV8tU1lBZ0IzcU5JYUdGQl8zeWM4STRIWUltenFxaEdnUUlnaTV1RFcxUTZWNF90YkxCUGVDakhxOVYyNHMtb3VZVlNhYWJCOVA?oc=5",
@@ -11102,6 +11881,29 @@
       "provider": "Google News · shipping",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "f47adb80ee053319135be0f1",
+      "title": "Biman suspends Riyadh flights indefinitely - The Financial Express",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQN3Bsa0NkcVBMc1gwSC03dTJrajlCS0FIU2ZDY0dla3VSbFZseVlzN3RqOGh4NUh2TjdhQ0NCMUlyZ2RMOHJubFJGaUo0Z1BkWWRHLWlCVG9fbG9lOWNyUjgwWHI1RzFZRF9FZXVXenVzREJmSHRIMzd4YURMSlNCZjRUOUJDRTJneTl0WHRocV9VcG1rMkhWbnV2U09mZXh0ZVJSWlJzbU1TYzRrVUQzTzJSQdIBswFBVV95cUxQN3Bsa0NkcVBMc1gwSC03dTJrajlCS0FIU2ZDY0dla3VSbFZseVlzN3RqOGh4NUh2TjdhQ0NCMUlyZ2RMOHJubFJGaUo0Z1BkWWRHLWlCVG9fbG9lOWNyUjgwWHI1RzFZRF9FZXVXenVzREJmSHRIMzd4YURMSlNCZjRUOUJDRTJneTl0WHRocV9VcG1rMkhWbnV2U09mZXh0ZVJSWlJzbU1TYzRrVUQzTzJSQQ?oc=5",
+      "source": "The Financial Express",
+      "published_at": "2026-10-17T18:00:00Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "en",
+      "category": "transport",
+      "tag": "DISRUPTION REPORT",
+      "provider": "Google News · aviation",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -12148,8 +12950,8 @@
         "Iran"
       ],
       "language": "en",
-      "category": "diplomacy",
-      "tag": "DIPLOMACY REPORT",
+      "category": "security",
+      "tag": "SECURITY REPORT",
       "provider": "Google News · diplomacy",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
@@ -12307,7 +13109,7 @@
       "source": "The American Conservative",
       "published_at": "2026-10-17T14:30:00Z",
       "country": "Iran",
-      "category": "transport",
+      "category": "security",
       "provider": "Google News RSS",
       "tag": "MARITIME REPORT",
       "countries": [
@@ -12492,8 +13294,8 @@
         "Iran"
       ],
       "language": "en",
-      "category": "diplomacy",
-      "tag": "DIPLOMACY REPORT",
+      "category": "security",
+      "tag": "SECURITY REPORT",
       "provider": "Google News · diplomacy",
       "first_seen_at": "2026-10-20T12:03:42.847208Z",
       "date_quality": "publisher-time",
@@ -12630,7 +13432,7 @@
         "Yemen"
       ],
       "language": "en",
-      "category": "transport",
+      "category": "security",
       "tag": "AVIATION REPORT",
       "provider": "Google News · aviation",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
@@ -12738,7 +13540,7 @@
       "source": "Al Jazeera",
       "published_at": "2026-10-17T12:23:53Z",
       "country": "Iran",
-      "category": "transport",
+      "category": "security",
       "provider": "Google News RSS",
       "tag": "MARITIME REPORT",
       "countries": [
@@ -12873,6 +13675,29 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "8d7967056a4edfadc319aada",
+      "title": "India-Saudi Arabia Flights Cancelled Till Oct 24; Here's Why - Oneindia",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNekxLbEoyQ09VNlNob1MxTGtfZ1NtOGg3VzNpNzZHbGs5aUpDUUVJeFZ2cWhhS2FqNEpfRmR1ZGpoc25EY2pnOGpxc1FhMTZLX0JHbTJ6ZU1IQ1ZENTRVV29raFM2YnVlOGpvYTR0SHVudmkweFp3LURpNnVmeWotWFhueXV2YW01Q0o1RjJOaWRvTmhmQUNobVRGQlhDNGJqVS1NR19NODFrQ2JqVlVZ?oc=5",
+      "source": "Oneindia",
+      "published_at": "2026-10-17T11:21:28Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "en",
+      "category": "transport",
+      "tag": "DISRUPTION REPORT",
+      "provider": "Google News · aviation",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "elevated-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "8cb41c3d56ff936d8c5df16e",
       "title": "Oil tanker on fire after hitting mine in Hormuz: Iran's Guards - The Hindu",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNd2QxMlN3b0QxQS1NSzlvMWoweGlqVUtSblFzZEt0eUFMdEpXUi1RcWQzcTN2blZmSUNEWUFVS2tnUnFURjJYMFFvX1AxZDRWXzNwQnpCRjd4eHNLNDRLb3NzSDFlZmZ0cC1hSGNzOE9mRXB3R3VtRTlvUE9qeXZ0Q0VsZFI2cVJ5Zy05c1hRb0VYekRETEpDSHRCOXpLb0RlZlRERjI2cUQ0UEUxYjNyYUlyLU1QQVRMTEp3b3hVVVp6d9IByAFBVV95cUxQT0g1M1FUR2V0Mkw0M3lXd0E5SnVkSVJETS1TZ3RpTTkzSUkzVkFzLTZkZGdCblVpT29ObVpzUm56RW93ZnAwTE1sUGxpMVhUaEU4SldBZnI1eFFBRG4wYnhKdjVqaXMtWnVFQjB5ZWlYSUNNMVdzVS12d2JWMkdTYzF3WFYxcnVCclp6cWNRaDMzZ2NVZzFqOTBCTWkzR1c3UGQtY1RQQXVkZ1Zua2pKQkpEZFJ5dUloQi0zU1pyVXF3STNkd3R0Sg?oc=5",
@@ -12919,6 +13744,29 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "d5514fef316442c7d29596c6",
+      "title": "Air India and AI Express cancel Saudi Arabia flights till Oct. 24 - The Hindu",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNEhYbldJX1JpazJsOTllYThLNVVLSDNleThXNkdmX2wwV092dWhvSVp5NVc5LUlOanlHMWQ3MURlckNWMUJMZjlrdkIwMVhwT1V2Y3NyTGtlTFVUWUZyQ1dabUpEN2dmN05PVlloT3NxNVVhWFVNLU0yM3YwdHRpTjhLUTl4RFRrdFFGQThnYW5yN3E3a3hfQjVaeHJ1amVsV3ZSU0RBc2lGMDlySVBUYkxZTE50YzRyeXVHMWVtWDDSAccBQVVfeXFMT1dxek9nOFo5RFh6SUJRUl91YTBXLWZjVkdZbDh6SUU1VXR1WTFYUVgyMGNqTW9uVGZ4M2NQaDlpbGhNcGVscElHTGtYVm1iWExDeWptbUl3b2lacVN2VFVXbE5yaDBRNXRHSHM1OE11NjVPM0lCcVhldTBqX1hfa3RtcEtZMWFmLThYR2dJeGE5YzYwM05VbVFuSXVOeHp2S0FhbHVWYm95VDVWWkQ0MUtIbXZDeklQZzlGcllMc3pBdG1nTHZuTQ?oc=5",
+      "source": "The Hindu",
+      "published_at": "2026-10-17T10:17:19Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "en",
+      "category": "transport",
+      "tag": "DISRUPTION REPORT",
+      "provider": "Google News · aviation",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "a9fa63b816629560951549e0",
       "title": "Saudi airport restrictions: 17,701 passengers affected as 114 flights disrupted so far - The Business Standard",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUE1IWkItREhUbmNRQ1dHMTQxX2VGcm0wbDJPWGEtbWVKc2VzMEp4VHNacWF2cFRubXA5LW5Pa2wzalFQYTNBbFBGZVJzWExPWDdNVnN3cG1kUWp5U1hLUkdhbXRPRXIyVXZmWUUyQ0JGTzBVTEdOcnc4WGpDWEYtd2VrekY0ajZ3aUo5VXg4cFVjRHNBMDlicThmU3BIU3dFZWlUYkdSQkdpSTRNNXNwOWQxS2o3dkw4YWJLMjdxVQ?oc=5",
@@ -12942,13 +13790,36 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "ef8d68ee06699eb1ca381b3f",
+      "title": "Air India, Air India Express Cancel Saudi Arabia Flights Till October 24 - ETV Bharat",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNMThUZXdGejFrSnl2ZmFCZnhFQ25GYTV2ZnlSV1R4Z25NNF9LcXRvdXFSbHFJMjVZWkFINVBIQmF4QXFYTVdwd3N3d1Jwa3NYU2ZfWUx2NFBaUEZ1SUwzSm4zQmFaRFl6UFNxMDlqaWdOTVg4Z243dnRNcjAxZ1hxUDRxYVRQNUw1SmVCR1E5dFVEODl5MjlRM0Q3Z3hDN0lMNkxZSEFSblYyS0JzV2Fxd2tFNmd0UjV3WGRLNkpEcUVsTWRE0gHKAUFVX3lxTE4xanN1N2lUek1tSVloa29Jdjhac0JJWnMyeE5DQlVuY3pwZldmTUp4LXFnX2dEYkVSUFFvNnctZlJJaE1TNmt4N0dLYmRQMXN0QVY1Y1pGaGRxVEdndGo2SkdmQkZ0TWtkRnlSVFJOWm1aUDlmaTZVTE5jdjk0azJlalcwclZFdGJHTlVMbEttbWJic1J3Sng2dkpSWjJJbU9Dbm9DSi1qRm1GSThHWXI4UERwYUxtOFRKNDJaRFlkdVBWRUplOXNyUEE?oc=5",
+      "source": "ETV Bharat",
+      "published_at": "2026-10-17T10:01:51Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "en",
+      "category": "transport",
+      "tag": "DISRUPTION REPORT",
+      "provider": "Google News · aviation",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "065c4abb90d811cf51c2",
       "title": "The Saudi Arabia airport attacks have made Middle East travel more unpredictable. Here's what to know. - Business Insider",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQeUV4cE5KdE5YUjg2cllRTmhDanhobEJUOXJyNUx6Nl9SRjVCM2FMRHlORWJlLU10ZnRPbDlsVktyX3FoeEFsYVNjWFBlZDFvSHo0TUROd2xjMWZQR2xBbGVieVhtaVN4ci1GeHRBZHNjTW80V3VkdW9sN2lVNTNWY2FWLVU4VnVFQkRBQm15cGFJZXBRb19raVBfRQ?oc=5",
       "source": "Business Insider",
       "published_at": "2026-10-17T09:59:00Z",
       "country": "Saudi",
-      "category": "transport",
+      "category": "security",
       "provider": "Google News RSS",
       "tag": "AVIATION REPORT",
       "countries": [
@@ -12996,7 +13867,7 @@
       "country": "Iran",
       "countries": [],
       "language": "en",
-      "category": "transport",
+      "category": "security",
       "tag": "MARITIME REPORT",
       "provider": "Google News · shipping",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
@@ -13174,7 +14045,7 @@
       "source": "NBC News",
       "published_at": "2026-10-17T09:00:39Z",
       "country": "Iran",
-      "category": "transport",
+      "category": "security",
       "provider": "Google News RSS",
       "tag": "MARITIME REPORT",
       "countries": [
@@ -13183,6 +14054,30 @@
       "language": "en",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "5224cc04aa547f0b9ae42134",
+      "title": "Iran giving Houthis targeting intelligence for Saudi attacks - WSJ - Iran International",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9JVi1mYUoxZ0daQzVaeUF2bTZMR19mOXVvSFVMRTZkaVg0dC15dG94YW5KSGlPQS1SVm01X29XR1N1MmZYLU5ZcGVqQW0tN0dHUGc?oc=5",
+      "source": "Iran International",
+      "published_at": "2026-10-17T08:52:24Z",
+      "country": "",
+      "countries": [
+        "Iran",
+        "Saudi"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · missiles/drones",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -13206,6 +14101,29 @@
       "language": "en",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "9447af17b6703e2d2018bb5b",
+      "title": "America’s “Mother of All Bombs” vs. Iran’s “Father of Missiles”: War Closer Than Ever - WANA News Agency",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNX2pXQk5IVERLd3hOQkQ4Q1NhX0NfSDJyYWgzTXlXVnhoLXdvUnkxaG5MbFplYUUwME5jVGdyckJ0cXprYnFGTGE4ejh1OFFLbUN4ellOaWpMNFAzNVEtanJpVmRxOEhkODNudzFaLWNiYmJ3c292TEtMRkZiOUFtX3hncnBVd01HTlpVaVhUbFpSalJqUGs0SjlpMHQwdw?oc=5",
+      "source": "WANA News Agency",
+      "published_at": "2026-10-17T08:46:46Z",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · missiles/drones",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -13250,6 +14168,31 @@
       "provider": "Google News · shipping",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "c8ba899ae866329713656dfb",
+      "title": "Houthi attacks on Saudi Arabia reportedly based on intelligence provided by Iran - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBkOXRSMkpFckJZaFBzb3I1djN5Q3pQaV9pTVFvYTF5UmR4S2tWVUdnOWpPb0s4SXppV3pzNzNhRkxUOHpoSnEwODNITDVkMzRtUFVua3B5U3U3emRk?oc=5",
+      "source": "The Jerusalem Post",
+      "published_at": "2026-10-17T08:33:03Z",
+      "country": "",
+      "countries": [
+        "Iran",
+        "Saudi",
+        "Yemen"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · security",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -13352,7 +14295,7 @@
       "source": "Iran International",
       "published_at": "2026-10-17T07:37:00Z",
       "country": "",
-      "category": "transport",
+      "category": "security",
       "provider": "Google News RSS",
       "tag": "MARITIME REPORT",
       "countries": [
@@ -13673,7 +14616,7 @@
       "source": "ASHARQ AL-AWSAT English",
       "published_at": "2026-10-17T05:37:27Z",
       "country": "Iran",
-      "category": "transport",
+      "category": "security",
       "provider": "Google News RSS",
       "tag": "MARITIME REPORT",
       "countries": [
@@ -14053,7 +14996,7 @@
       "source": "The Times of Israel",
       "published_at": "2026-10-17T02:04:41Z",
       "country": "",
-      "category": "transport",
+      "category": "security",
       "provider": "Google News RSS",
       "tag": "MARITIME REPORT",
       "countries": [
@@ -14086,6 +15029,30 @@
       "provider": "عربي · مضيق هرمز",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "b5c9ccf7df93e016168cb846",
+      "title": "Iran Is Giving Houthis Targeting and Intelligence for Attacks on Saudi Arabia - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPOS1nT1V3ajJHakhMdm5jRDRqQW5PMlU5N1FidUlPemxtZFBFYV9UY0dJdGp2US1qU2NsbGRLazVUd2RsXzc3bWIxa00xcmpEbEY4aG9xcmkzX3g2ZDd2RVdlRGRGV0JUZjZLN0JTU2xybHFKQTlaV19oYUp3a2o5Wjg2Sk9kQQ?oc=5",
+      "source": "WSJ",
+      "published_at": "2026-10-17T02:00:00Z",
+      "country": "",
+      "countries": [
+        "Iran",
+        "Saudi"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · missiles/drones",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -14151,7 +15118,7 @@
         "Iran"
       ],
       "language": "en",
-      "category": "transport",
+      "category": "security",
       "tag": "MARITIME REPORT",
       "provider": "Google News · shipping",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
@@ -14256,6 +15223,29 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "36891676ccac3d3f2aa9d3f5",
+      "title": "61 Dhaka–Saudi Flights Suspended, 8,381 Travelers Stranded - https://www.thetraveler.org/",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNkh6R1RvTzk0eGJkWC00VHJHcTdqQ2twRWE5TFYyaW5mSm5JOEdSbGt3eWVqVmN5UWo3NGNrMFluWldsZTN6aUlGeFRpRWJpa1RkTXlhc1B3WnJqZHkzcHhRYXV6U05XWTU5dVhjMGVOYXlpNmw1QXZ6NV9zd0c3YnRkYlpSZFNINkVyWjg3ZElQZw?oc=5",
+      "source": "https://www.thetraveler.org/",
+      "published_at": "2026-10-16T23:34:28Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "en",
+      "category": "transport",
+      "tag": "DISRUPTION REPORT",
+      "provider": "Google News · aviation",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "elevated-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "1463385d158fde48230cbc9a",
       "title": "نتنياهو زار الإمارات ليطلب من بن زايد نفي التقارير حول تحذيره من هجوم ستنفذه حماس - زمن برس",
       "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE44Y1B1azloUnBlYmNpZllmN1dyUVpEcU4yN2xtVGdpUVp2MG1BODlsTGI5OWN0ZGZFY3dXQk50cHhxMjBNdVdF?oc=5",
@@ -14271,6 +15261,30 @@
       "provider": "عربي · الإمارات والبحرين",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "f79d29d4f41cc47d8c17199d",
+      "title": "Houthi attacks on Saudi Arabia disrupt 89 Bangladesh flights - https://www.thetraveler.org/",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSWZhMmhrdUlMM3BSZmtpempHSmJVN3k3Y0FYUjhiNjJIZ1RQaU5maVctZVlFMU12NzFnSzM4enJnNlItcjJQOExkZHBXT3hlTEZjSXZ1c21oenBDWEhWT3E4RjBXUUxMYzAtbmRzUVNIUzdtUWR0cDNXUE5oWVotaWN6Q3FnZ0VmVlo2dnItS3pUUHc?oc=5",
+      "source": "https://www.thetraveler.org/",
+      "published_at": "2026-10-16T23:29:28Z",
+      "country": "",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · aviation",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -14298,6 +15312,30 @@
       "freshness": "older-reporting",
       "context": "speculative",
       "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "58a0e76c0d91686b3274a297",
+      "title": "Missiles, drones intercepted over Saudi Arabia as Houthi attacks continue - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE92M0dTMURCdnVfVE9xSGg0Wjc3UnN5RTZzbUtZNHFtS21nY2otdVljZzRoOGV4QzZiZWF5WHQ4WmF1RThWVTVGTXpaQlljVlEwT0lxdERnM1VQS0FY?oc=5",
+      "source": "The Jerusalem Post",
+      "published_at": "2026-10-16T22:31:23Z",
+      "country": "",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "INTERCEPTION REPORT",
+      "provider": "Google News · regional",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "elevated-reporting",
       "critical_candidate": false,
       "alert_eligible": false,
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
@@ -14579,6 +15617,29 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "e02af68f9e313212ff6b5419",
+      "title": "India-Saudi Arabia flights cancelled till October 24 amid Gulf tensions - The New Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMHRjOGNOZlhzeGptZl9JOFJXYjFhQXVGY1BoaDFmOWxCSVB1bDBLQjBWRFZncU5xSlNFY2JaSDM1YnNNSnAwelZOVy1PMk1XRVJEU2tld3k0VWFUemtQYml6RE01amh6dkZkd05TRmVnVWtaSzlWNkpPZEdmUlR6cDFqVWM0WE9YX1RpWlMwQ3V3dWx5R3FCV2RUNmRYbVdnLUtmYU5XVTJKd2ZISlBvMXZpV1VsWkRjd3c2VmJCM3kwUdIBzwFBVV95cUxOSFFPTlFyTkRCbjRtWHU3VEp1TjJxSDc4QjJaR1hybFE2TjJhRGNfVVhxMGtZS1VNU1JVMmd2aW1GR09MTDExR05IMU5tWW5LVVZBMjhmNnlZdi1FVUJNbHFwaTByeTZvUDB3ZHgyNHcwUnpfVVVsdHE5a054UG9hNkNsS3J1cFhKYXlwT1pyMzJNVmJJRVNwSXZzVnllTExkUnpBeVJNcW9KczBFUkFrU0cyNzYzUlVkX2NxZWR4ZUg2c19jUUsweldPdUtFNjA?oc=5",
+      "source": "The New Indian Express",
+      "published_at": "2026-10-16T19:07:16Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "en",
+      "category": "transport",
+      "tag": "DISRUPTION REPORT",
+      "provider": "Google News · aviation",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "elevated-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "275458b73e6f66211635d820",
       "title": "طهران تنفي التورط في هجمات أنصار الله على السعودية وتعرض الوساطة، والتحالف يعلن اعتراض مسيرات وصواريخ - BBC",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0zdkk2dXBnMHpqUjFhNkhMcDBWNXdUalROYVJJVEd3aWROUEczZXd4cFl3OElldFlUdDQwMXRJUzdYTl81RjJnTmUtZWhhc2tyci1OLTRlQWZtSGFJMWfSAWNBVV95cUxPM3JHa0Q4LTRvbEo3Y21UR3c0Y3RVNWxRUkZrSVJrMXA5aEEtUU9nVS0zenFFT2lWWjI3WXRFZG5iNGJfTXJzdW5oMkh3c3haRUJaWHJQbVJ3TzBuQU1XdGZLYVk?oc=5",
@@ -14632,7 +15693,7 @@
       "source": "gCaptain",
       "published_at": "2026-10-16T18:53:29Z",
       "country": "",
-      "category": "transport",
+      "category": "security",
       "tag": "MARITIME REPORT",
       "provider": "Google News · shipping",
       "countries": [],
@@ -14694,6 +15755,29 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "bdc16314afa7642fb21ff6a7",
+      "title": "Flights Severely Disrupted After Attacks On Saudi Arabia; Emirates, Etihad And Other Airlines Cancel Multiple Services - UrduPoint",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYzBSVGI3NW05ajg0MmRndFhzNHZER1dFR3VsVkhnTHJGWjhERE0yeFVRVHAtYXVEM1VpUDA0VzAxSFVyWmdwQy1GUHJTVjNPNTA0SWZoVWtuMHJTd2dCMFpPYWlYMW5Hb1dPTTlCdHV5cWZTWHF0by1xSTJubmVTWERjTnd0WWJVRXFDcldDN1FqU09HM0hCZFlMWVBCTC13RENDS1NrQkM?oc=5",
+      "source": "UrduPoint",
+      "published_at": "2026-10-16T18:21:35Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · aviation",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "99aeefb1050922e410955705",
       "title": "قبل حرب إيران.. تحذير عسكري أميركي من أزمة صواريخ حتى 2030 - المدن",
       "url": "https://news.google.com/rss/articles/CBMiwANBVV95cUxOaE9WTC1uSXEweTVyMUVyRDJkdXZnTGJFZFdmc2tLMVZldk9oaHJ6ZmFsdHVfbF9ELWphUlNKUUVsdzM1SHNxeTJVOWppRDVpSGpZSzdLeDZZajdUbWI1amYydDVwN2hqNEc3QzVsdXFIYWtYbnhBOGN5YjRiaXplNkd1THlEOS0wM0NKMmlhWWNYQTRycFlLWWdUMHR3YU9pRTdDbXRQUFN3SVdPZjVEMk9tN21FdVpaNU80eW90WHVnRUZWVTBuUUM5RjBINTVZdmNNVk5jVU40c2ZDZk0tQVZWT2NsSVhUc1JTN0JpRFM2d3pUQjliMU1kSWY3SXVOdURGMTZhMVVxdS1wM0w5QktiZjl1LTNua3hMdld6V0dPZ0hoZmZ2dlZ2dFdCbUtXT1NDWWxTeXlHV1lQUHhET21SWnN2ZjNBRWR6RjNxc2tNYXZBckNpRnZFY1RoMHdzTDRTWWV1dWtNaFRCc1lKcHUwbU5uOHY1aWs1MGtwem5acUZTWWdlQ2RZODZLeVJwTjR3dkNrVDRpQjJDbWlqVi1RamI4cEFuRDRyM2dVSnk4aFdsS3R1dmk3VFN1eUJW0gHAA0FVX3lxTE5oT1ZMLW5JcTB5NXIxRXJEMmR1dmdMYkVkV2Zza0sxVmV2T2hocnpmYWx0dV9sX0QtamFSU0pRRWx3MzVIc3F5MlU5amlENWlIallLN0t4NllqN1RtYjVqZjJ0NXA3aGo0RzdDNWx1cUhha1hueEE4Y3liNGJpemU2R3VMeUQ5LTAzQ0oyaWFZY1hBNHJwWUtZZ1QwdHdhT2lFN0NtdFBQU3dJV09mNUQyT203bUV1Wlo1TzR5b3RYdWdFRlZVMG5RQzlGMEg1NVl2Y01WTmNVTjRzZkNmTS1BVlZPY2xJWFRzUlM3QmlEUzZ3elRCOWIxTWRJZjdJdU51REYxNmExVXF1LXAzTDlCS2JmOXUtM25reEx2V3pXR09nSGhmZnZ2VnZ0V0JtS1dPU0NZbFN5eUdXWVBQeERPbVJac3ZmM0FFZHpGM3Fza01hdkFyQ2lGdkVjVGgwd3NMNFNZZXV1a01oVEJzWUpwdTBtTm44djVpazUwa3B6blpxRlNZZ2VDZFk4Nkt5UnBONHd2Q2tUNGlCMkNtaWpWLVFqYjhwQW5ENHIzZ1VKeThoV2xLdHV2aTdUU3V5QlY?oc=5",
@@ -14746,7 +15830,7 @@
       "source": "CNBC",
       "published_at": "2026-10-16T17:15:44Z",
       "country": "Iran",
-      "category": "transport",
+      "category": "security",
       "provider": "Google News RSS",
       "tag": "MARITIME REPORT",
       "countries": [
@@ -15065,6 +16149,29 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "a547ff42b45bb6b8897f2db6",
+      "title": "Saudi Arabia Flights Cancelled Till 24 October? Riyadh Sees 81% Disruptions As Air India, IndiGo Extend Ban - Oneindia",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQU3N5eTVJS0tIUmVjbkVRbjdkMDZJR2JrX0VUZ19yMl9iVjBkYTBoUGl0RGExRG0wVG9nY2NjbE15aTc5UVA3cDlsN1lKcXhVanRIOXVHUXhKaThFM29SQmtkVXJIWWItY2JBbUxFYloxSVFGRkgzTWl1eE1uQmZOSEp4Y181Nkd6di1HeFhHakoxQkVvZkN5MDNfc3lHNm5OeGcyb3J5NHhBdDB5QUhpdFZNVUxKdjZNTU5lMDdfN1Q3Q0ItUVpmd2hiWVdFdw?oc=5",
+      "source": "Oneindia",
+      "published_at": "2026-10-16T15:06:09Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "en",
+      "category": "transport",
+      "tag": "DISRUPTION REPORT",
+      "provider": "Google News · aviation",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "elevated-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "52c13eb5f6135c657f27",
       "title": "Iran Foreign Minister Warns Against US Presence in Armenia Transit Project - IranWire",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQkxQcHFoV1N5My04d3BIRUk4dGdkOGJGS3Z3R0hBVUVSM2I2ZDcwUVpDb1lLWkRKcUkxcTNoUldyamRlclpxVDBJS3JXbG85LXBvbmFURzV3aUIzSllfeUItQXRUanRzSjBzaGdPNDBsYnJOZmk1WU1YOTBIeVR6WTFOZDc4Rmc1NzJaZGR6dk1fOGZ2NmNDd0E2UHc2cE81NzQ0cjh2Ums3ZVJUZFVtNQ?oc=5",
@@ -15281,11 +16388,34 @@
       "country": "",
       "countries": [],
       "language": "en",
-      "category": "transport",
+      "category": "security",
       "tag": "MARITIME REPORT",
       "provider": "Google News · shipping",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "9ec4ff65c516f29a275e52b8",
+      "title": "Iran Ships Some LPG, Jet Fuel Despite US Blockade, Data Shows - gCaptain",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObmRkVVBBWEtvUkJicjJRVktBeFg1cWQtNlp2MVhaWERYVDFZWmNoaU13SU9vbGQ4NENMNWludl9nel9wMXJXZzJmMDk0OXk0aTZGY0QxUG5KOEZKdjg0dlpTcjZRdGMtb3MxdzIyMTFIZWhwNTNHTi04Z0JfZnB5WC1Od1Awdm4t?oc=5",
+      "source": "gCaptain",
+      "published_at": "2026-10-16T12:10:04Z",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "language": "en",
+      "category": "transport",
+      "tag": "DISRUPTION REPORT",
+      "provider": "Google News · missiles/drones",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -15363,13 +16493,36 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "7d84ece7039782b1504dd4e2",
+      "title": "EXCLUSIVE: Iran ships some LPG, jet fuel despite US blockade, data shows - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUW43alBLT1ZtZE5UZF9VNEY2ZDhBNjNOdk93dG1BZTNBZWZkQ050OVZGQmxUWURPdG16Q1pwTmRtNkFfQTNNWDJEazN2aHBRY1UwLW1MbGRSWXpLdVZRenB6SGY2cFhVcmFlRzRQZkhzV24xeTVtWnJfRTdfUHlIbktueERWSGNCLUw2bzIwdUw1a3FpQ3pMdEk4NE9HaVppTnlvaWNLV19xMy1pOEc0bw?oc=5",
+      "source": "Reuters",
+      "published_at": "2026-10-16T12:03:27Z",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "language": "en",
+      "category": "transport",
+      "tag": "DISRUPTION REPORT",
+      "provider": "Google News · diplomacy",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "338b5c604fd7e617e742",
       "title": "Saudi-hosted 2028 Olympics qualifier in BMX cycling canceled after Riyadh airport bombing - Bozeman Daily Chronicle",
       "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNZ2ZkbXVLcGhZMnhaWEJzS051Y1V5WjRjWmw5ZTY4R1N0RVF5Z1V5anZPbGg2RUd4WmJuQV9vLTFNandvZ1REQ2pEMjl2NUxvOWx2cU9LNG5wR1lqQTgzR0o0c190WXhHSmJDbFd1LXc0RGd3SWsyWEt3dGxndUlfUlZxM1dRc083aXdvUkt5bWppLXM2WWJsMmZNbzI1R0J0X2d3VDFYUjFCaDU0MHdOZDRvWTJhY3c3bVlJNnlJdTJGYzdIMS01UlQwN0RrUzV5Nm5wcmUwNmtPc1NCZU5WWEFXaWFhSnpwYVVNZWtxWTdEN0Itdm05YnE4RmtNYXlGRm1rOU5kSG02cHowc0cxQjJHRkdBYmwy?oc=5",
       "source": "Bozeman Daily Chronicle",
       "published_at": "2026-10-16T12:01:47Z",
       "country": "Saudi",
-      "category": "transport",
+      "category": "security",
       "provider": "Google News RSS",
       "tag": "AVIATION REPORT",
       "countries": [
@@ -15602,7 +16755,7 @@
       "country": "",
       "countries": [],
       "language": "en",
-      "category": "transport",
+      "category": "security",
       "tag": "MARITIME REPORT",
       "provider": "Google News · shipping",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
@@ -15667,7 +16820,7 @@
       "source": "CBS News",
       "published_at": "2026-10-16T10:31:00Z",
       "country": "",
-      "category": "transport",
+      "category": "security",
       "provider": "Google News RSS",
       "tag": "MARITIME REPORT",
       "countries": [],
@@ -15692,8 +16845,8 @@
         "Iran"
       ],
       "language": "en",
-      "category": "security",
-      "tag": "SECURITY REPORT",
+      "category": "diplomacy",
+      "tag": "DIPLOMACY REPORT",
       "provider": "Google News · security",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
@@ -15764,8 +16917,8 @@
         "Iran"
       ],
       "language": "en",
-      "category": "diplomacy",
-      "tag": "DIPLOMACY REPORT",
+      "category": "security",
+      "tag": "SECURITY REPORT",
       "provider": "Google News · diplomacy",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
@@ -16222,6 +17375,29 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "5607dcf95eeb36e96163e461",
+      "title": "Flights still operating, but Umrah enquiries dip: How Riyadh attacks are affecting pilgrim travel - Gulf Business",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPYVlxYWs5WThZSFJCcXB6d2o2S0pqYVhMMEU2UUlZeUpoM2FwbHI1b3djUHBQM0J0alJCVDU3LUd6aWtwdWU3THNjaXRnLVZXYlAwUVJESTItOEdRU2EzWElDWUxaZmlJUGQ0aXJNNnRLNVFLOHdHQ090QlJId0dnM2I4MlZIQlJ6eVk4MEliNEFHUDJQWjRQVGpMN2JBaFBtbXBwbkU2TmRIRDM3eDBmeG53ODNKdnptSUZzVUlISjc1WlJxemx4UmhWZUJBeGFfMGljTWw2UGZNdw?oc=5",
+      "source": "Gulf Business",
+      "published_at": "2026-10-16T06:52:25Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · aviation",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "1da64e579657872f1d6812da",
       "title": "Ousted US Army chief warned of missile shortages until 2030 before Iran war: Report - Türkiye Today",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSlZlbk9TazhmVXAwd1pMQ0hpelBYSGF2dDlFQ0dvY1hDQTZ6RnluaTZ5aENYd2VsN2ViQzhaWTQ2bWg1THBWVFpmMGZvcjBGQnFKTU53R201T0QxdzkxNUlncFM0dnp0SENsMGNPNTJiNWtVYllYN21xNUkxaUxpY0xEbjdlMVBFY05SMFUyRHZIM3lDOFhNM2pYZGVkOUpUakZkOGFlb0tZWG1jOVdwb0xvVEpaSnY3ZU14cWpyWllEaUE?oc=5",
@@ -16240,6 +17416,53 @@
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "6f1f2280c69a96b00ccc71fe",
+      "title": "Air India cancels all flights to and from three Saudi cities till October 20 - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMixgJBVV95cUxPdHQwV3lUZDkzMk5BVE5VczVBaFJMeEViOXRkT2dISDRHeXViWmVELUJWWE8zbGZseGhBQVN1UldvWGRfVWdvTFN2clhCVHplLU5FaUlGTFJoRVJUWFNkeHpzai10WWo1N0hFV0dLaG9NT2hwcWZaZ3JZeTE1VUFJMHpROURBaHFNOUl0QnVFQzJRYXktTEN2WjFwMXVBV0Nuc0pmZ0NfREpBaXlyQ1VKSlpoQm84ZlFpN2NWZnh5bXJfMzdBRjZpMnhyQ0Z3dmxfQlNGbnNjUFRDdlRyc3VTUzhTenRqamtPaGpUM2RBRTJwWUtUVlg4Z2hYZjZ6N0ZzcjItcjY2ZmtiX2pIV2R1SnR3UXJ2T1N1dEk0Y0lIMUUzNWpjLVJVNE43TEdSVFg0TmpMb1hXX0tjVEFDUXZhaDNNRVRFd9IBywJBVV95cUxNaG9lTWQyWXZ1N0VMZ0tjRXlTa2RPb3hYd0xvazVieElNbkM4MHBXOEl6bG13NE1IQnRIV3RRblRkTGlDWDBydVY0ZGxLT2l1cndVbi1SU2tjd0lqTUxfWnhFV2ZCMkZ6REpINl9fT2dDTlk1UC1Jc2ZVTTRTdmx6NmZmWW1MZnpURERBdHlSa1k0Wk80ZjFCaW8xd1lmZmdJTUFJdF9Sc2NfTmExbUt0aDk1TF9hTGIxek5hWnYtV0l4dm1WMDYyMTBqUXphVEdqVTA1VmlYb1hXa2JqUmdTdU52QWJPZXJwMXZfTDNoWlAxZXFaYXhNLUNTX2FzdGhHanZ3cjFpeHFwNmhISlN6cUNDNGJ3T09paC12Q0t3VTVuSm5SZFdta1JQVVdYd1hWZng5SFZZM3IxRGtyMlYtTUR1dXUzMWcyNllJ?oc=5",
+      "source": "The Times of India",
+      "published_at": "2026-10-16T06:24:00Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "en",
+      "category": "transport",
+      "tag": "DISRUPTION REPORT",
+      "provider": "Google News · aviation",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "253f309553d768cf84f52b50",
+      "title": "Flying from the UAE this weekend? Saudi flights face major disruption as cancellations mount - Gulf News",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOXzJTY0FJWEZwVWlUN2ROdU5BSldKX3RhTXQwR1NFb1ZQc2kydkZHLTZwXzdvajZUcEJsTUdHU0t3ZkpURWlVVkJvNHVsZGQxdEFfRnAyWUFmRzV0OVJlVFF2YlQxdTVld284SXRUa2NWa0tjQzdtV1Fwdm5MaDEydTJ5SEthOUlBSjhja29wWmVMQ3F2V3N0clVpWXZXYXp1RklFUzdhMzB3eVAtMGg2N2dGSlpEUGFrNVUtWGNCTzVoUUQtVFVKNzR6T1hLV1BaUl8xSGowakp0QWF6WTVxUHRSYkdDTkw2TlI2eEVDblg4WmZGUHc?oc=5",
+      "source": "Gulf News",
+      "published_at": "2026-10-16T06:11:10Z",
+      "country": "",
+      "countries": [
+        "Saudi",
+        "UAE"
+      ],
+      "language": "en",
+      "category": "transport",
+      "tag": "DISRUPTION REPORT",
+      "provider": "Google News · aviation",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "elevated-reporting",
       "critical_candidate": false,
       "alert_eligible": false,
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
@@ -16275,9 +17498,9 @@
       "source": "The Jerusalem Post",
       "published_at": "2026-10-16T05:59:33Z",
       "country": "Iran",
-      "category": "diplomacy",
+      "category": "security",
       "provider": "Google News RSS",
-      "tag": "DIPLOMACY REPORT",
+      "tag": "SECURITY REPORT",
       "countries": [
         "Iran"
       ],
@@ -16307,6 +17530,29 @@
       "provider": "عربي · الجزيرة",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "a53cffa685d05c10f8129faa",
+      "title": "These 7 airlines won’t return to Dubai until 2027 - Time Out Dubai",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5FZFBHR0h0VHByVlRtY01Eck9KVnA5S1lsaDd2LWdnUXItVjN0Uk0tbnBuck5zNFVtVi10dl9MSllEbkx3SXkyY01PTVgySnVpd3pQVGxsRTVKRFBJQ1Z1ZnNCak94V0tSS1I5ZkI0Z1FKcWFlZmc?oc=5",
+      "source": "Time Out Dubai",
+      "published_at": "2026-10-16T05:27:47Z",
+      "country": "UAE",
+      "countries": [
+        "UAE"
+      ],
+      "language": "en",
+      "category": "transport",
+      "tag": "DISRUPTION REPORT",
+      "provider": "Google News · aviation",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -16462,6 +17708,30 @@
       "provider": "Google News · shipping",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "caa98ad3b61ddaaa3c7f33bd",
+      "title": "Houthi attacks: Passengers travel to Saudi Arabia via 2 alternative routes - Prothom Alo English",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB2aFBGSnJRY2xXYXNrTFNiOGk1Nmc3VFNkeTM4VGVNVVhTdURUN290aWJycUdPZlh1SXEzSEJxX2dJSzJOdDN2cWZ0T2hDUkdkY016UDYwVWlXR2_SAWhBVV95cUxNb3BBVE14Z3NzWWpzd1RzRC1QSEZxaEhfTHNRMVVQMGN4LU1iSlROeF9ieFROeGNzYkRZNk5fMk1tZFdrYnphdVZibGtUd3ZCV2lhbjNhNTItMW9rOXNMRnliaURSeTJneQ?oc=5",
+      "source": "Prothom Alo English",
+      "published_at": "2026-10-16T03:54:31Z",
+      "country": "",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · aviation",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -16845,6 +18115,31 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "7cd091bd5110696e98db4e13",
+      "title": "Saudi diplomat says Iran is encouraging Houthi escalation of attacks on the kingdom - PBS",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNSHdCYjB6dzdtU1BtZlhtakJSSGlELWlVWURncXN0ZnQzRHRuX1N5YmlnRnBoN3lzQWhoWFRFYU9sN0RqTlZVdlJEUFBEQlYtS2Fpam82a0tyVm0wa3ZZZ04teUE0MVU2eEpvNXBCdXBfLThVT3lVZ190TGFicFJ3M3hzejE5UXdoUy0zM21lMVFVWEIydTBNRklpNlZwRlJ4X2FEcHdCcTJYTFdzdDdhUF9CajlKa2NVSnfSAb8BQVVfeXFMT0tBQ1NRMVBfdlh0UzNpd3VHcGZCVXJENWJaRW11dnphV0ZQVVotNmFkMktYUl80azdSemFWNXdneUxJRUFyYjVzVGYxTGFZTDJDdjZrVUFwNzI4QVhHalo2RGhFUUFGLVE0QXJ0dVBhXzR1NHExQXFqVmpPRVpjNUdUUDdYclA2dVlnLXB0UUlpMjJ0V1lXd2drUGVLbU9SeXZqM3RUNHNkWEtaYzBGUWt4SWtVMWItcE5PVEpLNGs?oc=5",
+      "source": "PBS",
+      "published_at": "2026-10-15T23:16:23Z",
+      "country": "",
+      "countries": [
+        "Iran",
+        "Saudi",
+        "Yemen"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · security",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "42df18e6be1cce90c7e20ec1",
       "title": "'Mother of All Bombs': Iran Energy Sites Could Be Targeted by Major United States' Blast - Military.com",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOM29pRE1yWVpvUVJVZFVaRTlMeE5jQm9VR25xZk04Vkt6NUxtRzl1T0k5dWUzQjVWRHQ3Zm1oUm14dGZaSmg0REZzVjJGZ3doZjNSbUVmU2NQc200aWNwZHhqaTFfc0hNMncyVDROQWduMF8xMV82M0VXVmFsWDNmSXNQSTBwMVg1T3ZaTFNLd3J1eWlIN0F3OFQtZVgwdw?oc=5",
@@ -17169,6 +18464,30 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "7777c5200d137ac94a57dd3e",
+      "title": "Saudi Arabia postpones major sporting events amid Houthi attacks",
+      "url": "https://www.france24.com/en/saudi-arabia-postpones-major-sporting-events-amid-houthi-attacks",
+      "source": "France 24 · Middle East",
+      "published_at": "2026-10-15T20:31:42Z",
+      "country": "",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "France 24 · Middle East",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "fa94da10b143099074d4",
       "title": "EDITORIAL: President Trump’s threats to let Iran attack two major Californian cities is reckless - Coast Report",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSmNiUUF2Mmd1QVNRemx0RHRlbTNxN0Q4SnIxemloRUxYMWlDM0hPNTJyX2Ftc2VSRXNra3JkMVRjcFhtQlRfX2ZoeER6aVRzZGJLWmxwYko5OEpLXzYwci1QV0V2enNoM0dEWXVtRFFBWUhUU2o3STFwMjc3bDd5TXlieUR1cmVlRlA0X1QxRGlxY1U?oc=5",
@@ -17305,6 +18624,50 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "b61610159b2a6a419565da16",
+      "title": "Gulf states have downplayed damage caused by Iranian strikes: Report - Middle East Eye",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbmNocnlSVmYxR2Vfb0RXcThKVGtnekFlbHJJeG1qQ1VGYmhUcGlIOE9IVDdzbXIwVGEyOXU2Z2lpdUZabDN1anN4RGZucllvb0ZST29EVnU4YVZXZ3lQcHRqdTV4TDNCMnljbnp1eE05ZzhTZG9DNUNRTG9qZmVJN1NKWDNKZ3ZuU2JPeUEyVEluTXVLRXphVDE4Q3Rrc3J3?oc=5",
+      "source": "Middle East Eye",
+      "published_at": "2026-10-15T19:33:02Z",
+      "country": "",
+      "countries": [],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · missiles/drones",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "6f80f17bc47f22f3fa61183b",
+      "title": "Explosions reported in Jeddah, Saudi Arabia; regional security concerns rise - Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWllqMjBzb3NpNHVWWTZaS2lNUjM4WmltZFFicWR6MHR2T2REeThsR2h6Zk1XQWticlJlelV0amE3RzJSOFNwSmt1aS1RN0tST2xkZ3NjMGR1M2VnRXlXX0FoUnhEaWFhVjk0d0gySkFyNHNCODZxc1Jkbm1WSU5DQ2V2YU45c1BrOUkzODk1azRoTF83NHUtb1B4M0E5SmlXOFVpeA?oc=5",
+      "source": "Crypto Briefing",
+      "published_at": "2026-10-15T19:26:43Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · aviation",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "97ee3a0af1eeb0614c2ff4c8",
       "title": "Viral footage shows iPhones floating in Strait of Hormuz after Iran sinks Singaporean cargo ship - Ynetnews",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBaRWtja3pid0YxQ05JMHB0NnVVRFYyRHNKc0YyNkd3akRJTTBvWkVEdFhSMzAyemJHSXNPZzkybEZ3NS1Hck1PV0JER3hidTBoZDkxVEd3?oc=5",
@@ -17357,7 +18720,7 @@
       "source": "Fox Business",
       "published_at": "2026-10-15T19:18:02Z",
       "country": "Iran",
-      "category": "transport",
+      "category": "security",
       "provider": "Google News RSS",
       "tag": "MARITIME REPORT",
       "countries": [
@@ -17474,7 +18837,7 @@
       "country": "",
       "countries": [],
       "language": "en",
-      "category": "transport",
+      "category": "security",
       "tag": "MARITIME REPORT",
       "provider": "Google News · shipping",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
@@ -17587,7 +18950,7 @@
         "Iran"
       ],
       "language": "en",
-      "category": "transport",
+      "category": "security",
       "tag": "MARITIME REPORT",
       "provider": "Google News · shipping",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
@@ -17711,6 +19074,53 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "9d3ad8a9052e24778ac806fc",
+      "title": "Airlines suspending Riyadh flights: Full list of carriers affected - Aerospace Global News",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPaF9WRFR3R1M5ZG5Jbm5uc19fVFN6N3hkWnVNVEMzcWFfUUZQTERoMXIzSzNSZEpXNHAwN2lpZGFNYWw0Wm5GRlEzWjNmaFFhNDdBTHdfbnpjb29wdzhNYkl1RmcweU0yY1cxekp4QVhvR1JETk1NZklqMlFKMlFYMkZ5bTFhNHcwalE?oc=5",
+      "source": "Aerospace Global News",
+      "published_at": "2026-10-15T17:02:00Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "en",
+      "category": "transport",
+      "tag": "DISRUPTION REPORT",
+      "provider": "Google News · aviation",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "dc663b510adfa367a191669b",
+      "title": "Saudi Arabia accuses Iran of encouraging Houthis as attacks intensify - The Express Tribune",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUi1GWnlKQ2FYdHZhYUQtQlk1MnVhZTJaWHR1R2lFRkNwR0M3c09TYXM4MVdzODFkM2NlVUZ0dk5Mb0FXRWY2YU9iM3haaHJXREpIQTVEMDBqZ2lmNHRBMWppLVVnTjNOak9zbU5YYmJ6SUhnakMySERIOV94cnpOalhhNWd4UXM4RG1lNWlSbXZVdjNQSFlYbERQZng2SUlhVldXZEhEOFNrQdIBsgFBVV95cUxOczlxc1N2YXlsMkZ4aGNDWUd1NWFtbW5WWUFENDZBcWcwNjFSbzd5VmNGeVdiS0JqR0ctb0RlSWY3T2VMeVlXaFFnR2R4dmxHbG4tdFdBSUQyMHBEU0YzWEx0UTBBQmwwTmN0V3dMZEJ2bzJET3VMbTc4c2tOTVJSYk9YZ2ExTWhrUGdOeTI1OTRxUWF1cVdUVWgxdHliSG5SYWtIQnVHMU9pcU9aTWczcEN3?oc=5",
+      "source": "The Express Tribune",
+      "published_at": "2026-10-15T16:59:13Z",
+      "country": "",
+      "countries": [
+        "Iran",
+        "Saudi"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · regional",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "29e7864547a4007c6f0f2d28",
       "title": "بملابس الإحرام وتحت نيران الصواريخ.. مشاهد المعتمرين في مطار الرياض (فيديو) - المصري اليوم",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5mSm1tSmtaMzdfSVRxZ2FyZ2tyUWtXYkhDM3NwU09FY0E2OTV0WGlySjgzRzRTLWIwUkF3RFc3RzNYUXpQTWxvaThvdHRWeHpnbnFiZkZiWjlJTk1VQjlF?oc=5",
@@ -17824,6 +19234,29 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "524ed1196b5b2a868808c7bd",
+      "title": "Indian Embassy Cancels Flights To And From Riyadh, Jeddah, Dammam, Madinah Till Oct 24 - NDTV Profit",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZmMwdm11MlZOdHItX2NCcW5tNWxFQlJVQVgtYUVBQ1U5M05ITGZBcmpETzhwdVBxVDF0TVBoZHJpQlprNWxNR2NPTmU0b05zY19kMTB2ZWxoaHItQ0xEWXM0MGh2RTZVME5FRTljdmpPNkpobk9SS2l0UENCSTg5VE9fTW9YY0pNcDI0aWlEVENsTkFuRW9JTkxjMVN4eVBIVFV2LVNNeVhGYjZzTE1NUjVmUkxKYng0Z2dwV3FEMFhxM2lZ0gHMAUFVX3lxTE1ZR0JybzZBajVYbUU0QVVGb2lKaTBTaDZRUFY0YlRyRV9SZFZ3cGxjcXI3Z2NxbEJNNlU4NlBvWnlSYlJtSFMxdmd1REdueWpwRy1SaEhVNUplYXE4UURqeEpkeVpKakJSb2FxUUt0ZU93cGFzcTZFZHA5NGpsUzVQVlI3WUlUS0VrNVlWay0ybk51emhjelhpUU1rQU1YQ1B1SWVDUzJnY25ZTkszc19JYThUdzRPODRWM25aS0dKc2o0TkRUTnRhVXZiTQ?oc=5",
+      "source": "NDTV Profit",
+      "published_at": "2026-10-15T16:11:03Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "en",
+      "category": "transport",
+      "tag": "DISRUPTION REPORT",
+      "provider": "Google News · aviation",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "872c9bf91f6bc22eed841c10",
       "title": "Another tanker catches fire near Hormuz after two cargo ships sunk in attacks - Euronews.com",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUWdqWXNXODBHZzhMbnlGWDd0dlB4LXBKQWtKQ1U5Z25NNHVSdHBUMXNJcXhaZDBLVjRqWVF6UU5rc2tXcG95bHJfcENWeXVVcjQzZ0hWX2N6UEpIZ2dNRkd1MEZxRnJFa1lSMm1xN2R2R3ZuWU16VFNGOHFHYzhlNEhXTzBuZnpFdTg0aG4tamlfbW1VZ05fY0lVbjBGZU1YbFRWQkVRdmhPLXZIbXowOXJoVQ?oc=5",
@@ -17832,7 +19265,7 @@
       "country": "",
       "countries": [],
       "language": "en",
-      "category": "transport",
+      "category": "security",
       "tag": "MARITIME REPORT",
       "provider": "Google News · shipping",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
@@ -17892,13 +19325,59 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "5802c915a9f0798e47f91dc3",
+      "title": "IndiGo cancels Saudi Arabia flights until October 24; Akasa Air extend suspensions - The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQdzBvYUloODVpVjYwZ2lubjFGLUhndjVUbFBxcGJGZVI3LXl6Yl9YamlyQ1h6c0I2U2ZFVjNNYnNYaFhlTG5ncnlqTWkzd0dVTk9tN3ZlNHFIQVRRM0VYLWlJek5wd0haRnBWenpoSjJYYlFGS3lDb3Vpc2Nyd2tDN3RsdDBGNkFOSWxpdUstYldwRm5EeW16VEc2V2kyODlPYWJXLVh6aVh5ZnB1X3QyYTNBbkVfTGNVb0sxTG9MWGprdEZWc1F1LWdLYUhBeVhpSm13WlZjWnZxSE1RNzVPc3F2VUhlZnBuQnfSAe8BQVVfeXFMT0tmbGFFTEJJaFhQUGJfbTlDa1VveW83V21oal95QlE4SWlrbzdBbkRUY28xTmZlV1QxWGdYLTAwbFFrT1dSVmk1N0xOVk9iQlpqNzNHQXN4cUtmLUlsT0U3eFRWNTFqS3J4YjJOUWE3bE1JcFJDVkV4N2p0MlU5aFFINzlrOEV5NmM1YlRKWWlrYmJRRS1PS3pNZnp6WEtDTERuX2hUMU5FQmtnMWdWOUNHZG0xRjVxQ0dZd1dWTWtkbzZhcXk1bnpsMnRjNjBfUENfVUFSSnEtdHJDd1JsOFBXTDEyUFpsem5JQTYzWmM?oc=5",
+      "source": "The Economic Times",
+      "published_at": "2026-10-15T15:47:59Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "en",
+      "category": "transport",
+      "tag": "DISRUPTION REPORT",
+      "provider": "Google News · aviation",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "f35afa56fe8da348e77f4dcd",
+      "title": "IndiGo cancels Saudi flights, Akasa extends suspension - The Siasat Daily",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZ1hkNTY0M1p0cmRHSmd2S082c1c2YkdIOUF5VWV5RmNWd2lFcERhRU0wbXJLNDU1M3N6bTZ1UFRTdzRsQmlab1RHeVcybzBsUnRWNGtHRWFLbjhtVTBEY0VPOF9zVnBRWUNkUGxDeWh6LTl0eWZSeFJuMmJFQVNJQy1HWFFNdG9NTTlxZnBlTWw2Y0pJeGV30gGcAUFVX3lxTE9GTEw3Z3pKUkdqWEd4NUZRSWhDZDdKT2FyTEdoVFpwZnhvUjJSVlRpN0JBb1lpdWRRNXRiN25xQUhTb3I4ZzBJcXNZSjNZdEF1XzQwSjllbHRQMGtVS1p2WVVCdVRSbXhFQjQ4VWNBVjViMGhkeGJyVklnRmM3WE5ic29pUWN0RUlaN2s3cG50YVZKOWk5dUJjam1GYg?oc=5",
+      "source": "The Siasat Daily",
+      "published_at": "2026-10-15T15:47:00Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "en",
+      "category": "transport",
+      "tag": "DISRUPTION REPORT",
+      "provider": "Google News · aviation",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "5783d4a1d18e676f1dd3",
       "title": "Video: Cargo Floats in Strait of Hormuz as Iranian Shipping Attacks Rise - The New York Times",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPLVFrZjlLdTluanZGNHBrQ09EMGM2Tk5TSlRENGZ6OVU1WkRENDZ0ejBDX3Vxdm02bk5aX2kwYmh5NmJvWk5KUEVTWXRTVTllX0RMNDFxa0NnbmN0WTQ5TWhJYzh5OEl4NVZNTk45b2U2dV80aHljMzNhX3ZhREt5NUpFWUJOYmptNDZTeXJDSkFTTC1KR1NFeENLZUw5R2llclBF?oc=5",
       "source": "The New York Times",
       "published_at": "2026-10-15T15:38:38Z",
       "country": "",
-      "category": "transport",
+      "category": "security",
       "provider": "Google News RSS",
       "tag": "MARITIME REPORT",
       "countries": [],
@@ -18082,7 +19561,7 @@
         "Iran"
       ],
       "language": "en",
-      "category": "transport",
+      "category": "security",
       "tag": "MARITIME REPORT",
       "provider": "Google News · shipping",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
@@ -18305,6 +19784,29 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "d46a497100ef5e28865fa8fc",
+      "title": "US weighs using 'mother of all bombs' in potential Iran strikes: report - WPDE",
+      "url": "https://news.google.com/rss/articles/CBMinANBVV95cUxNaXBMNDdQUkNlbmZ6NnB4V2o4TGhYUDhEMkViR29RbDIxWVVzWElQWmdjcVh6akJzNFpxSUFSdjZXSjhjNHlIaUhzblFSbVZacmNOOE40VW9tU2NyRmFkOTNVcXphMUJjX0QxQVhoLWtUYUlKWmZrUzYybVNCZ2VwVVFzMXhCQlh1aTBGWjNXVnY1R010bi10REFkck1idFJjYXdPUVd2TERob21RdGJLT0hudmxZMVlMVTliY0JJWjZMUzFmc1BOSUNMaW9NajgtVWdLb2J2VmV2Umh2MXNTMTBwd3JBbWhnV2N2VjgtRGhWeW1Tb2Q0TFVmSEY5Z3ZaUU9jaV9rWjBGTWtILUw5ckZjWENoWG1ySnpfWDJzYjRiYnRUWnFKb1VzT2xNcDB0MzNMOUNaS19ZQkdnUE55UmNXZFpNRkVOT2xZSDZkYW9MTEoxNFlfVVphWVRBT21yNGN3akhaWno3dWdxcTc1TUg5RW1PZjczbjhfcDNNUVM5QlBsaFdORzRCNzRObEdkaE5KOHNZamZMOF9I?oc=5",
+      "source": "WPDE",
+      "published_at": "2026-10-15T12:25:45Z",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · security",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "25102225655144048d1223b4",
       "title": "هجوم للحوثيين على مقر الحكومة في عدن والسعودية تتهم إيران بالتصعيد - France 24",
       "url": "https://news.google.com/rss/articles/CBMi7AVBVV95cUxNVTVndXdLdVloLUhiMzAyQjl4MGY2ZlFnb09NSlNlUzg0OEZVNkNfU284bWQ0Wjc1TWpsdUxkaWVVcXBVSW9UNjhzVmNyb05fS1RKX0d1eFhzQ3ZGZG1jSlhSbFlPb1BYVHlmUnZtWjNfN05sb0FTSmNVYTdIb3dETHZlRXZoZE1od1BoQlQ4RGVkWW5BcHR1S3RoNDNaOGhySl82WUNRdFMzZ1U0OGZmZm9VMXdpSHhfd1RKVHZIZVJ5WnFYYVJBRjY3YzFLOEtNcmtrTktYdzBqYXlqUUxlQlV3bWJzdm1fMzBKWDFaWGR5NjdOM1JVbmh3VV83aGItSi1nRkNKR2loVDFsX1VWVjFoSEZTUnY3djN6SllaMXpWOG81N1E2Q053WVEzQWxoTlJsa015Sl9PR3BfYlYtZHE0TS15WkM3alZnZThVbHZWX0lVNlJuUnZrNUZMYmpsNlA1Z2todHI3Zjd6OTkwb1RZdVhzMUQ2RkhqczZ2SzYtc21VYlpxaUxqZ2Yyby1IYzVJTkdxOEdxQW9RZ3pWTDliVnFXa1E5YnVpeEdFTTVSVFBaS2gxUUNZMUVKd0dWb3BmVnNXX19ZVDNUZExKeTY5U0tBcHNmQW9nbl9kd003emplWXM3bjY0MlNDUnpBa1ZCV3otblpQWjBpZkhnY2FtY054RVNvRUlUMkk1RWZRTVBDbjIwSnlPSVExeGtKbkc0TVhXLXZmdUtMUWdvTGpWRWk4VkZDWkNXTHpIRnJhVnhYdTFvX3ItS3JibmZjREl1WHZGSzZrR0FqdTNMT3d1QWVLSWhGYkRZYW1zYmlzdVFJVXBaUDVnbThKcjg5RXZsMHN2YXZxWGJ4NzZpbnJhak4yUXgzY0JlUko3andyN18wM1FpUDNKdTRFY05hLVMzLW15ODFhaXlaNEhtcHBzWW5ELURicGl6dWRaOWRxQW5XRURnNUZ0MUxfcHViVGhNWVg4ZDFOcWtj?oc=5",
@@ -18443,6 +19945,29 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "46b41b1f2948c36e6806a8c1",
+      "title": "Iran’s strikes on Persian Gulf water and power were deliberate - Reuters - Iran International",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB6VWdjRTNGdG1pc3RtcXNqSjFiLTdsMnJZYXRaVXVxOEl3VXFIeUhUVjVMSGtJRVlfNjEydHBLU0NKbnBhQXNpQ0F6b0VxWUpFR2c?oc=5",
+      "source": "Iran International",
+      "published_at": "2026-10-15T11:39:50Z",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · shipping",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "elevated-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "c62cc9a7ef0672cdc160ebea",
       "title": "تصعيد إيراني واسع.. اعتراض صواريخ ومُسيرات وأضرار بمنشآت حيوية في الخليج والأردن والعراق وقتلى في إقليم كردستان - الساحل الغربي",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9TV1RNZlZvdHM1ak5kUFR0bzV4Wnd5clJSRW5FY2Y1VF83UjM1a0pYTHM3STFGZldVTVJ3SW4tRGhMN3JjRktyZ1dhb0hSZTg?oc=5",
@@ -18575,6 +20100,29 @@
       "provider": "Google News · aviation",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "aa17a6eca97a950b82cf3e2c",
+      "title": "Iran’s precision strikes picked apart Gulf infrastructure, blunting US war plans - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONmZVZ0RfSms3U0s1SVE3N3ZMeWxLaVhtTjczazRmNU40UkpCUldVbWZJVUtJVkt3cHdLOEpoTl9qY0lFXzdKWUtydmYzVi1MeDExbXB6eHc3NjAyTi1CT2lveE5WVUNPeHV5SndkU3BmRUNiS1JCQUI2bDYyZjd6RjltYUhzeFVmUDFPSU93NWo?oc=5",
+      "source": "Reuters",
+      "published_at": "2026-10-15T10:00:00Z",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · security",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -18852,6 +20400,30 @@
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "elevated-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "60534e1a544308fded7221ed",
+      "title": "Israel could help Saudis against Houthi attacks, but political barriers remain - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9vaFlxSkxCTzlJYzZqazY0Z0YyNmd2NG1uOENQWHZPdjFmbUN1OUljVEFQdkFaa25XSW15dUJmTHh4LTYwdE0wWURXenhoQjE5Q3BYYl9sZUV0QTcy?oc=5",
+      "source": "The Jerusalem Post",
+      "published_at": "2026-10-15T08:27:50Z",
+      "country": "",
+      "countries": [
+        "Yemen",
+        "Israel"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · security",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "speculative",
+      "severity": "routine-reporting",
       "critical_candidate": false,
       "alert_eligible": false,
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
@@ -19185,6 +20757,30 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "477f65d3d7233d86fd9678b3",
+      "title": "US-Israel-Iran war: Ships sunk, flights cancelled, trade rerouted — your Oct. 15 briefing - Gulf News",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNOGZFa08xSWp2M1JGa01kMXFMRmZKUTc2WlUtVi16cXpBdEs3STQzUXJDUFRlMHoxOWloMVhSZXRIa0UxTUxOVEZRVVE2WEdtaDF1YWhXY1NlUk9LeDlKcXBPNFdLOVFPTzNYV2VLSzRrSDcwZGZ0c05vNHpNU05TNW4zQnpvTWowMjBvSm01YkF4V0lEWGFlUTZEV0NySENIdWpxbWpzS1A4TVZ2NG9DUzVLUQ?oc=5",
+      "source": "Gulf News",
+      "published_at": "2026-10-15T05:07:31Z",
+      "country": "",
+      "countries": [
+        "Iran",
+        "Israel"
+      ],
+      "language": "en",
+      "category": "transport",
+      "tag": "DISRUPTION REPORT",
+      "provider": "Google News · aviation",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "elevated-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "163d2ff0974d59181fae",
       "title": "2026 Iran war | Oil, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict - Britannica",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5",
@@ -19261,7 +20857,7 @@
       "source": "CNN",
       "published_at": "2026-10-15T04:06:01Z",
       "country": "Iran",
-      "category": "transport",
+      "category": "security",
       "provider": "Google News RSS",
       "tag": "MARITIME REPORT",
       "countries": [
@@ -19278,13 +20874,37 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "15169afae397081e73a149e4",
+      "title": "Why Does Saudi Arabia Struggle to Stop Houthi Attacks? - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQVlGa1lUdkZRb3JRU3NWRS1jeExIdWIzZDVWLU1sZW0tdlp6a25TMHpmUUluOUFUS3A2UGN4NFdRM1A4WlQ2ejctSmhUQm9jR051Wml3cG1qaFZoX0N0SDRFNHN6YWlNUTZIUlpVS0g1UnhVc1BQVkdWUHRXSWJZVlphX2dVV3RtdUZFRWhiSzhsaXFPbjhoZnNiS0VFbEE?oc=5",
+      "source": "The New York Times",
+      "published_at": "2026-10-15T04:01:10Z",
+      "country": "",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · security",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "fc5a00589918fafc34ec",
       "title": "Iranian attacks sink two ships in Strait of Hormuz - The Washington Post",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNVg0eWh4OTZ1NG5IR1M1ZWJJejUxUncyYVVWeHB3QTdHaHYzUnRDOHBpaFpEZldsb0RNZG5SNVZDMWJIVUV6U0JZRVhLSmdtWEZfSnpGSDlXWVU1UlRRSF9wT0JSbktPRTRWT2dkazNCSmJoWDBaUl9wZEI3bjVpLUNZS2ZDWW9IQk9oUndRNU1qYUpHclhnUzhVYVU1RE0?oc=5",
       "source": "The Washington Post",
       "published_at": "2026-10-15T03:36:29Z",
       "country": "",
-      "category": "transport",
+      "category": "security",
       "provider": "Google News RSS",
       "tag": "MARITIME REPORT",
       "countries": [],
@@ -19395,7 +21015,7 @@
       "source": "Awful Announcing",
       "published_at": "2026-10-15T00:06:23Z",
       "country": "Saudi",
-      "category": "transport",
+      "category": "security",
       "provider": "Google News RSS",
       "tag": "AVIATION REPORT",
       "countries": [
@@ -19514,7 +21134,7 @@
         "Oman"
       ],
       "language": "en",
-      "category": "transport",
+      "category": "security",
       "tag": "MARITIME REPORT",
       "provider": "Google News · shipping",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
@@ -19698,7 +21318,7 @@
       "country": "",
       "countries": [],
       "language": "en",
-      "category": "transport",
+      "category": "security",
       "tag": "MARITIME REPORT",
       "provider": "Google News · shipping",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
@@ -19773,6 +21393,30 @@
       "language": "en",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "bbdd8e2a73b71949675d53a4",
+      "title": "Houthi strikes mark the end of Saudi Arabia's Yemen 'containment strategy' - Middle East Eye",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRnVDR05TZFFsaUdocWw2cFlKQk9zNVVLbFRlTDFzUTI2aTBLY2pacFVoa3hjYXdnZkZya29NM2tLaVg3YjBjY0ozQjlrY2l4ZXRxdlNieGZCMHZqVVh0eGczdFU0WENqZXZJbk05c1JFSHZ6Y2JmMDNhVkREMmlSdmFWTTdvNmhpTVpDVkpSNFowZUVlVWZUSEVQdjNHQ05G?oc=5",
+      "source": "Middle East Eye",
+      "published_at": "2026-10-14T19:28:47Z",
+      "country": "",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · diplomacy",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -19973,7 +21617,7 @@
         "Iran"
       ],
       "language": "en",
-      "category": "transport",
+      "category": "security",
       "tag": "MARITIME REPORT",
       "provider": "Google News · shipping",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
@@ -20017,7 +21661,7 @@
       "country": "",
       "countries": [],
       "language": "en",
-      "category": "transport",
+      "category": "security",
       "tag": "MARITIME REPORT",
       "provider": "Google News · shipping",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
@@ -20152,7 +21796,7 @@
       "source": "CNBC",
       "published_at": "2026-10-14T15:47:29Z",
       "country": "Iran",
-      "category": "transport",
+      "category": "security",
       "provider": "Google News RSS",
       "tag": "MARITIME REPORT",
       "countries": [
@@ -20177,7 +21821,7 @@
       "country": "",
       "countries": [],
       "language": "en",
-      "category": "transport",
+      "category": "security",
       "tag": "MARITIME REPORT",
       "provider": "Google News · shipping",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
@@ -20309,11 +21953,35 @@
       "country": "",
       "countries": [],
       "language": "en",
-      "category": "transport",
+      "category": "security",
       "tag": "MARITIME REPORT",
       "provider": "Google News · shipping",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "0b58e99bdbb11a0c56a0e792",
+      "title": "India issues fresh advisory for nationals in Saudi Arabia amid Houthi attacks - The New Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQOEtJZ19ZVWo2UkhUbDVlVUhwZk1DNmRsc01TanZEX3QwWktLak5qdlRUU2RSU0ZoZ19SX1BOeEdvSDkwZHpDQUtTRy1sRjVpR25fcXliQ1paSy1WV2FWaE5XWXh3ZzJOS3AtU1Z1N1N0cU5NaXl0V1h1TnhuQUliODQ5Z0VKNWtKX2NNaE00bEhFcmhScmI5QWU4emhoRzAyVjVXVVdUS1A3MFdzd2N1N2dWMjFPUHI2eXBENWNNc2U3NS03OFhr0gHUAUFVX3lxTE9WZ3hvTUQzcm5mT0hCRkVabjlGYjZ6YnVsMW4tRV9zWEN3VnljemZqczVManlBb1hrZ3NoeWVRVVZ6SlhZYWVHNmJseUhyTHZqUHAzUy1Gb3NzYkd6ZkYtNGpTa2dUMlJWY1ZvMEE0cTdYbEdLR2J6Y3JyUEhPblRrdGtidkxkWHBuLWstLWp5cnA1MFNDT2VrMmtLV3dEaWFlUmlfZXJsNHRWNmF3SE5xNHlHbDNCTEVxcGY0b2lTXzNnak1XZl9EaUwzZ0kzSW9jZklR?oc=5",
+      "source": "The New Indian Express",
+      "published_at": "2026-10-14T14:35:33Z",
+      "country": "",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · aviation",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -20811,7 +22479,7 @@
       "source": "The New York Times",
       "published_at": "2026-10-14T12:08:58Z",
       "country": "",
-      "category": "transport",
+      "category": "security",
       "provider": "Google News RSS",
       "tag": "MARITIME REPORT",
       "countries": [],
@@ -20949,7 +22617,7 @@
       "source": "Al Jazeera",
       "published_at": "2026-10-14T11:26:57Z",
       "country": "Iran",
-      "category": "transport",
+      "category": "security",
       "provider": "Google News RSS",
       "tag": "MARITIME REPORT",
       "countries": [
@@ -21223,6 +22891,30 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "ad73661647e06a699ec5d1c7",
+      "title": "Crude oil extends gains as Houthi attacks on Saudi Arabia escalate, raising supply disruption risks - investingLive",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQQUJGQnlNa0R6UjRMOG9XUXBSWGJGbUFWd2ZjVmZKV0U1Y0E5dzJkakowUENZWHBsTTRzLVJuOGhEOTdHdkd6VmJVVDlmNHNFT1B0MGpEVE1KbTdlMGh5NVVNSmtIVHpvREhuMHVITG9KQm44d3pPeXFhYzNwWVd5WkFTMVVzNnd6RDAtY25fVzVFLXBMdWdNb2NBOW1pMXctNkNhN010dENvUUJKdUJaVmM1N3dZMkozcnlOODhmRmFsY3daZ0lMMWlsTThtMzFrMm1z?oc=5",
+      "source": "investingLive",
+      "published_at": "2026-10-14T10:02:21Z",
+      "country": "",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · diplomacy",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "speculative",
+      "severity": "elevated-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "1bb25eb762fd16a648c113e5",
       "title": "Saudi Flight Cancellations: Air India, IndiGo and Akasa Air Suspend Services Until October 17 - Udaipur Kiran",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONHFSel9lLVhYY2FsOWxHb1FUbEJxa1c5QTQyMXNOMUtGdXRmNEVnOU13anRIUlFLTEl5Z1RoY2pxVm1fNW5rUmxKakNQRFFuNUNBUTI2Rklra0ZQOVg1c09ZU0R1c3p4eUtaZ0dDSmxOWnRDNGZRWDZMc3BEMGhxSlQ0UXZxcUo0UDBLcUM1aEVSLVBiWlFXUUR1c2duVTVlMTJqUjJ0RUcwV2R3ZTltaXZPLVpSbFd3?oc=5",
@@ -21285,6 +22977,29 @@
       "language": "en",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "7e58dfaf0edfd86f534fb6a6",
+      "title": "Indian Airlines Suspend Flights To Saudi Arabia Until October 17 - Outlook Traveller",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPV0dpM19YTVhKeGFGdjYxakJlTEZFVUNYRzlLcDdpUk96RGNEWFk2UnFKSjVQWlJHN3AzYVJGOFctVWV5R2pmb2tkbHhKVFItb1JxN282S0dHUnA0OFlTa0VQbFZkdncxMTFhSkdlTWVKZVFQcVA1NkxiNDJLUW9QRGNadWtzek5qdTFlRlBIRGV4SVMxOFdDcm1naTdiSi1QVTlYaw?oc=5",
+      "source": "Outlook Traveller",
+      "published_at": "2026-10-14T09:29:43Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "en",
+      "category": "transport",
+      "tag": "DISRUPTION REPORT",
+      "provider": "Google News · aviation",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -21370,7 +23085,7 @@
         "Iran"
       ],
       "language": "en",
-      "category": "security",
+      "category": "transport",
       "tag": "MARITIME REPORT",
       "provider": "Google News · shipping",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
@@ -21706,6 +23421,53 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "80f88739d3e2bb2ea60051df",
+      "title": "IndiGo, Air India and Akasa Air cancel flights to and from cities in Saudi Arabia till Saturday amid escalat.. - ET TravelWorld",
+      "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxPNVNwaUkzN01rWlVjVWN5ZUd4ODdPeGhURU5xSDcxVWJRQjF5LTJHSnJZQUZLcUVBazJ2RGJ5MHhsQUdJbmtTSEZ3Zm44VzVwdTkyVUl5OUhQMXVIZk1hem5MSGJzWklCMGlNWXRsZG1UWVpJaXhlcTZkT1VuRWdyQm5aT1R5TUdnbVp3SnFvY2dZcWREUVpqdVotczk0SU5DclVtam1EOVJZQnlsTXFERW4xS2VVdzlNbzNHQjNENjllQlB0UWIxNGx1ZDR5N2lPREpPQU1MYWR6N1d6MW9haFM3Sl9EZWUzemcxNl9vZk94VjJzX0xmS1B5ZlJhY2RETE4wR3FmdUszQllDdWVPeWlNYUlGTXEzRUlRbXBwdXLSAaYCQVVfeXFMT0YwbTZMa3JGOVp0WXEwT0hKY3RyMTNpYkp0VmJ6aHg3RGZEcGgxSEdwYzZfVm1EZlBZb2Y0TURfRmhoaXhpUEtjT1UzQ0pkS2RucGJoUjk4V3E1TklSaWxBaWRkMDJYR1pNTWF5T1lCM3pMWWQ4dU41NXk3YmQ1MGIwMVFlbGlEY0ExWXJaZmtTWW5nZTA2SnB5c2lQYTVlQ1BUdjZnV0VfVFhUeE53RVRtYjhlX2NhOG9TZ3FJaGU0U0VTc0xKY1pnU0t2VmFoOEJlMFJVYmo5U0dqSUFadHhhTWoyV0lZVTAxV293Mnl5MmdhalRlMy1FaFhfdFhHb3lKdDZQaGV2dGlkM1QzWFNYNzBWdW5oMFg5SUlqbGhJZjVVRnRR?oc=5",
+      "source": "ET TravelWorld",
+      "published_at": "2026-10-14T07:47:57Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "en",
+      "category": "transport",
+      "tag": "DISRUPTION REPORT",
+      "provider": "Google News · aviation",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "585830237656d29ccc8cf3b1",
+      "title": "Israel’s hypersonic interceptor goes public as the U.S. and Iran race to develop advanced missiles - CTech",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE13STN1LUJVUzBoUUh1R1ZlTHIwTW1rQ1pya2F2M2Zmd1pHYW81RF81UTY0QUZJSDRBOWJIbm9HcFJZbndST3VWc1Y5b3pUdGxON1l6amg0ZFNEaXB0OWcwNkdrMkVOajA?oc=5",
+      "source": "CTech",
+      "published_at": "2026-10-14T07:28:00Z",
+      "country": "",
+      "countries": [
+        "Iran",
+        "Israel"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "INTERCEPTION REPORT",
+      "provider": "Google News · missiles/drones",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "b3844da491ca2ba2d877eb5f",
       "title": "صحيفة روسية: الولايات المتحدة خسرت 82 مقاتلة ومسيّرة خلال حرب إيران - ٢٦ سبتمبر نت",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9mMjd2aFM3cmYtbHhmVU5fdUVtcWRjS2J0REZHWlZNN3M3Rjk3MmhmSGtpQzdCaTBOUmVfRXlIQUwxbmVpNGlGMEZ4SnJzVmJtX29JcmFFTjN5dw?oc=5",
@@ -21893,6 +23655,30 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "01ff897298f792985aba8061",
+      "title": "Riyadh airport closure extended as Houthi attacks disrupt travel - India's News.Net",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZW5EYV8wR2ljbXNiblM5UGJwbXF2c0M5d3RqQUJ2SUNwd25kVWt2aVpDUjFuN2dWaUlYTnYwbTRmOGtSaVFXNDFGUXA1dGlkX0dXek5yY0VjdkMwd1hfcUJGS1N0SHp2RzBSb1NZLV9kRFF3YkFkNnplUjdfVm1DN3B6eWNad1VCaXRVQzRQdFNpV3pVSGZydFZwaVNfTWFCV21qR05fa1ViQQ?oc=5",
+      "source": "India's News.Net",
+      "published_at": "2026-10-14T06:54:00Z",
+      "country": "",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "AVIATION REPORT",
+      "provider": "Google News · aviation",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "96bef73fee326ca186556a93",
       "title": "حصاد الخسائر الجوية الأمريكية أمام إيران: تدمير 82 مقاتلة وطائرة مسيرة - صوت الإمارات",
       "url": "https://news.google.com/rss/articles/CBMi6gJBVV95cUxQQXBhS19sak85VGdNSGYwR0lTYTZqcHJDNGg1MDJwZjZRWVVzblhZczIzandVN1A1UTNiZHZBb0dNLURUVWFGQ0ozX1Y1RHQ4RkIxYldhY1p0b3R2UmVSSEs5aFFJSjk5bFlVTW5tNGVtOENfcHp3blAxanJuOGtCUHRjb1VyZXc2QWVtaXRXang0VDJwbWlQdlVLUmFXb3IzUVdJOGM0T3lIc3FpZjg4b2hsTzhfb1ZvMjloM3ZBQ21oRzZwSHB5eXFzdTUxTm1zTjhqNHF4NVZmS05CUkd2VXEwR3gwcmp1WklseWFmeHFIVEpId3dYLUY3ZDlVemdVYlZVZkFjM2RrWi1PTkhQRWdONUhVeDgxX1Ryd0pBczdfV3JCLUplQW5SQmhtbXhlSl9ER2x0RnlHWVRDUkdpS3JLTXY3WG1DU2laNHdfOEdfemhfYXFJaWVHbTRZUnBaNXN0cllIc181QQ?oc=5",
@@ -21909,6 +23695,30 @@
       "provider": "عربي · إيران والخليج",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "ad3523ebe1c06d63153df1b3",
+      "title": "Istanbul to Riyadh flights halted as Saudi airports disrupted by Houthi attacks - Türkiye Today",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOcVgxVFBXQ1ZpZEtDR2t1S1I4UjVwMnJleVdyamNreExudWExMjRuVk1WcTByVXZON202Vk03NUd5RlB4TkxlendIN2ZLbkRxWVlMaHBQcGRUWnl5bkV3eDJNd0EtekxhNDVwbmpZMUl6M0VvOE5ZRUlQcDlQbnVmLTk5OVBkUUsydExrWG9sMzluVHRaY3I3YTRiMktaTWU4bGVtNmZYSHQ0dU5FQkQzYzVCcHRqOE9oMkwyLUJXRkptT0k?oc=5",
+      "source": "Türkiye Today",
+      "published_at": "2026-10-14T06:14:37Z",
+      "country": "",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · aviation",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -21969,7 +23779,7 @@
       "source": "Crude Oil Prices Today | OilPrice.com",
       "published_at": "2026-10-14T05:31:31Z",
       "country": "Iran",
-      "category": "transport",
+      "category": "security",
       "provider": "Google News RSS",
       "tag": "MARITIME REPORT",
       "countries": [
@@ -22089,7 +23899,7 @@
         "Iran"
       ],
       "language": "en",
-      "category": "transport",
+      "category": "security",
       "tag": "MARITIME REPORT",
       "provider": "Google News · shipping",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
@@ -22097,6 +23907,29 @@
       "freshness": "older-reporting",
       "context": "speculative",
       "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "7a53407ce4ab2165dae42545",
+      "title": "100 Saudi-bound flights cancelled, disrupting 15,393 migrant workers, Umrah pilgrims - The Business Standard",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdzAwNmlWTXU0TTBQOWh5ejJpVUxRZkQyTWpuVVlBbVlHZmpOME9XTlZTendfRFpvS3NXQ3BqRlBtWjJiYWZnU3VsWWVpT0kxc2pKSnFfZG13andBWExkc0VyWEpaSGpCZC16Q0RISFN4X2E3NDkyeDNZWWNxblNzaTB1emktY2M1cXd3RkI0UmZkSkVObk5vS0dLTl9OeHVDVE9HcGh6SW9mbmRWVktpQkN5R0t4dw?oc=5",
+      "source": "The Business Standard",
+      "published_at": "2026-10-14T04:04:04Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "en",
+      "category": "transport",
+      "tag": "DISRUPTION REPORT",
+      "provider": "Google News · aviation",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "elevated-reporting",
       "critical_candidate": false,
       "alert_eligible": false,
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
@@ -22136,8 +23969,8 @@
         "Israel"
       ],
       "language": "en",
-      "category": "diplomacy",
-      "tag": "DIPLOMACY REPORT",
+      "category": "security",
+      "tag": "SECURITY REPORT",
       "provider": "Google News · regional",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
@@ -22157,11 +23990,57 @@
       "country": "",
       "countries": [],
       "language": "en",
-      "category": "transport",
+      "category": "security",
       "tag": "MARITIME REPORT",
       "provider": "Google News · shipping",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "3752909f941fc851c4d400d7",
+      "title": "Explainer: How are Houthi attacks disrupting civil aviation? - Malaysia Sun",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPd3Q3MXhrSG9xdEllVGtYLWxFUU9oa0tTUkZaLWRXWkxYc2FKd28wNVlFRDV1RUVhQzBycWdqNXV5LTduMlFQN1BjeU5ZbU1McUE3NlZkSWl2Z0dPdUdvWDhBX1JqeWplMVhwZ29Gbks5OWNobkpGU1MtU2wyVlh3TnJMeEROTTU3ajg0NUthTzNuTHJmWG04VDlFRzZkbTBUaFE?oc=5",
+      "source": "Malaysia Sun",
+      "published_at": "2026-10-14T03:45:00Z",
+      "country": "Yemen",
+      "countries": [
+        "Yemen"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · aviation",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "retrospective",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "665bc10c826971718e13734c",
+      "title": "Blasts rock Riyadh as Houthis vow to continue striking Saudi airports, oil facilities",
+      "url": "https://www.france24.com/en/middle-east/20261014-live-saudi-arabia-reports-aramco-building-hit-and-four-wounded-in-houthi-missile-attacks",
+      "source": "© AP file photo",
+      "published_at": "2026-10-14T03:39:11Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "en",
+      "category": "transport",
+      "tag": "DISRUPTION REPORT",
+      "provider": "France 24 · Middle East",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -22222,7 +24101,7 @@
       "source": "Iran International",
       "published_at": "2026-10-14T02:32:56Z",
       "country": "Iran",
-      "category": "transport",
+      "category": "security",
       "provider": "Google News RSS",
       "tag": "MARITIME REPORT",
       "countries": [
@@ -22332,6 +24211,29 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "ba8f27b8f777633b347ecad7",
+      "title": "Saudis launch new strikes on Houthis; Iran-backed group threatens U.S. if it joins in - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUjJxRmNFWVFOVlEtUl9td2J5VXowU3BKQTJJd28ybW9EZ1VaRmlLZTgtbFNLTEVldC1RQTE0NDIwMU4teThZUmF1WkpsSDNwcjh1WG5vYWQxNGtMQmdydUpPSFdYeHpUb1pXVEFBRTQweFdxbkpEZlBQb2Vza2EwXw?oc=5",
+      "source": "CBS News",
+      "published_at": "2026-10-14T01:14:00Z",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · diplomacy",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "speculative",
+      "severity": "elevated-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "be48c7e03e8b9bf68bc9dc5f",
       "title": "إيران تغير أساليبها في استهداف السفن قبل الانتخابات الأميركية - الشرق الأوسط",
       "url": "https://news.google.com/rss/articles/CBMizgRBVV95cUxQeXg0MktZWHg0Z2l0ejZKTVNQRnQtNlg2c2VVdm00R0pYaXJnWEN6OV9lbzZ3aWlRVmZ5MnRFdG5Vc2F4eW1LVERvZ0t3S1pRV0RtenNHaC1aQU1FbS1JdVA3NmVBdk9nV19SMmVrUVVPTGszR2d3eE1UbXBaTkRwUDV6Unc2Qng2cnFDUjhiQjlmLUFlTXphWXlHUmlEN05CNFR0cmoxV0pzTXRLc3V6eWhHNGV6VTd6MG1SQjZFMjhvM2ZJZFBXVDdDUV84ZzduZ1JfVmhiZ2xQeDkxQTNoSTBlUHh2YkxReElyd1drbVYwSlY3ellTanQyZHdQaXN3X1N1MHNuNE1kMVh0WTZkRTB1V3gxYUhPRFh1TFk2bGQ2SUc1TXlqcDNveUtvblI0STBTV1lpMERrNHR0dERPYVF5RWtNX25TN1NTdURETUhxX0VCWXNOUC1FeU16ODNGOUJPNnJXZXI2QWRvSTR0VXZRMlRldGlianNleG5FNlBENVVGakZvRVo4dlhSb05EZm9hWVcwRS1fX0IwaXFnZkRXR2NEekx2N295anBralB5eDNLakFDejUtcVFjVVNZUGo2U3FGR2JTSU5QYkt0dnRWbnR0aENLbkY2RDY5c1FiaVVNd2JoTklpTXhidHBYRGt4ZnBWdF9HLWNwNGt5bzBDemZROEx3RGVEQkpYX0xOSEsxZUlyY3FDZ1ZyRndJLUdLenRTaVB6OXRLMkdIeFliS0xkVFhfaEYxVFBKSXlaQUFkcEU2V0lsY0JUQQ?oc=5",
@@ -22408,7 +24310,7 @@
       "source": "Reuters",
       "published_at": "2026-10-14T00:06:00Z",
       "country": "Iran",
-      "category": "transport",
+      "category": "security",
       "provider": "Google News RSS",
       "tag": "MARITIME REPORT",
       "countries": [
@@ -22482,7 +24384,7 @@
         "Iran"
       ],
       "language": "en",
-      "category": "security",
+      "category": "transport",
       "tag": "MARITIME REPORT",
       "provider": "Google News · shipping",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
@@ -22757,7 +24659,7 @@
         "Iran"
       ],
       "language": "en",
-      "category": "transport",
+      "category": "security",
       "tag": "MARITIME REPORT",
       "provider": "Google News · shipping",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
@@ -23001,6 +24903,29 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "b361ba73b6cadffad33e3459",
+      "title": "Airlines suspend flights to Saudi Arabia until October 17 - The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZFozNFN4X3pLMEZ5LUxvOWI4TndFRElDckVWM1Y2LTJSeVN2amQwTTBFTHZBUnN1YjNkTldMQ3dyV2hROEp0aWxGRUM0VVBQc0gyMWpNNmdKNXdIaXlldjhpUVR2TDNIS0hxNWVDTzhJS0VPVV9VYW1RNGFJejF0V2JCeXB0Mkt2MVlfM2lHcGhOMlNkbEJhSHJ6SFJPU1REWHJ5T2cxVUNrWDJqRklZM2g0dXFnWEhwTURTR0JLa1FHbXlpRzJ0OVFR0gHPAUFVX3lxTE1XRzZDMmQ0T2M2c21vVEEwM3o5dFkyTkNOOU1GTUFCZmVtaXJfWkNfVUMtbTY1OVlqUmhHdnNuZjd1S3BnR1Y2azlqVWhYMFg1ZjRBbFJPY1NCNHFqM0RQS05HR01Ca09ONjZHVDNWd1FEczVvdE5WaDg5YzFyTDctM0N6Wk90X0RVNXFRSU9PN19wQVQzUWVwVUlTTS1MY0NhMXIyN1F4SDQwUVg3eFQ4eTRKbjVlWXBuU3VhdW1rM1hOMHliYWZKaTJYUEdGQQ?oc=5",
+      "source": "The Economic Times",
+      "published_at": "2026-10-13T20:10:54Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "en",
+      "category": "transport",
+      "tag": "DISRUPTION REPORT",
+      "provider": "Google News · aviation",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "766191d45603498bc51c87b9",
       "title": "السعودية: اعتراض 3 صواريخ ومسيرتين فوق الرياض والمنطقة الجنوبية - Masrawy",
       "url": "https://news.google.com/rss/articles/CBMitARBVV95cUxOMVNWNXBOb0VIYWRNZW4yOEFwNy1HNjVvRWdsNi1PbHd6VHBxQk1zODl4c2dsblFJcFRCOE9jdjRXT1c4VkxJZ05KMG52Zm9iaC1xa0NMSkRNYklzelJaR0stTk5HU1Z0cWY1a1c4cHUyMUY2TXZMNlY5N0Z3SmRmMUhrRjczTWNjQlFHbGdSVm0wNWNyZDJXc3lBNmNHN2FlWVdnekprdk5yVWpOSW1CWDZsVlRjd1d0NmFGeXkxSE52aEEyS19NTUctRUgtYm1iUkpzMV9pcFJBZ28wOFQzOE10OVRGNXVVcWpIWG5fWDNPWlhkNTlBQUFlV2FaNUdlUlpSRzFyRDhRbzcwZTJMVFc3clpzU0VUaEhRNElETG5xVGxZMkF3amppVFpGdGpFZ0hzQ29PcWMzcHZqWVlsSXpyLUpuNmVlUFZRTTFUNncxOU5oM0tnTGRnR08tNTBaTkdpSjZFRUJ4QjdHMi1rejRQZUZzTTJZMEh1eXdsUkp5bHBldUR2Z0Z2UE5rekQ2UU4yWkNnaDNjdWtxNU9JT0xBUkVOSGZNakpJU25wMFRucnhsSnhwTTQ2dnRPY1dCOHpPSjRQNUZVbFpaVGhYd0pHQ1ZpT1ZLUHVlN3dnU2ZPWnN2YXd2ajVCS1IyRTdtVmllOGJVMi16US1HVko2ZE05dExBNTVfLVFTdGxGR3MtUEd3ZG1aNU51VWpyMzVjUjR1dUZnVXRwbENxaXZqZnZIQ1nSAboEQVVfeXFMUDNlUnRndHluNDhSZnJoUUlFS1FqM2N4Ti1IOVhVbjM1Q2JSbDNaM2pzSVItdGhfYzJQQmRfMjJEenlNMzJhWjh1LWFBYldaNU5aRVlOSk80al9PN0VVM1lXMVpEd0l5cEE3YWNPN3dNYVc5V0o4b084YXZzcHh3eW1QS3ZNVUc4SlVnckNOSkxaV0hjZFUwMlFid1lKenR1OVVscUk4UklWQ19mQU1PUndJNnZ3Y0pfekE1UW52ZFlIZ2NjWWdtUTJlNnF5c1lvUDkyWFpTU0pWOXJ0d2FqRWdpWTJhV2h3RkJiU0U4WU1TMXFabWxiWkVzQjVyOV92RGY1LUVCSG8tLTFqYlp2NG5DaVNIUVVJV3R0dFJMODFVcjNaRmo5X191SEdzZXp0Y3EyWDBGVzZqNjdla0pidzhJdnZ1ZmN1UkQwdjFaS2E3Q1JyYTRXY3Y5YWdDOW9NYlNXeVh0RWtjQ0RJMHA5M1hPTE1UNEJ2NHprcnh1QXl1a0RXd0F5em10OXFNcnAxSEJUQURyYkVPTTcwRmZRd25yb0xUUWsxZnUwTVo0VFpxY25GNVVWUFRMVC1nc19teVFRLUxLTTlIRUxzQk1wWHMwWmk0Rk9CdHlUeExaQUFEa3daU3M5MkhtbExVUXN2bGZWQ3NSb3lnUDNmSHAta0ZVejZSRE1FNzFNQy04emF4QVM5MWpMT1RKaGE1UmVacE1TeEgxbWJRTGMwWTJGX3FRQWlSN0ZlVUhn?oc=5",
@@ -23126,7 +25051,7 @@
         "Iran"
       ],
       "language": "en",
-      "category": "transport",
+      "category": "security",
       "tag": "MARITIME REPORT",
       "provider": "Google News · diplomacy",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
@@ -23311,7 +25236,7 @@
         "Iran"
       ],
       "language": "en",
-      "category": "security",
+      "category": "transport",
       "tag": "MARITIME REPORT",
       "provider": "Google News · shipping",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
@@ -23380,7 +25305,7 @@
         "Saudi"
       ],
       "language": "en",
-      "category": "transport",
+      "category": "security",
       "tag": "AVIATION REPORT",
       "provider": "Google News · aviation",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
@@ -23403,7 +25328,7 @@
         "Saudi"
       ],
       "language": "en",
-      "category": "transport",
+      "category": "security",
       "tag": "AVIATION REPORT",
       "provider": "Google News · aviation",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
@@ -23431,6 +25356,29 @@
       "provider": "Google News · missiles/drones",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "542b254b08d9154a579a24c8",
+      "title": "Saudi Arabia spends $83 billion on defence. Why are missiles and drones still getting through? - The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNaEJ1dnMwYjNlSTBCNGhla1Q1Q3dsYWlBb0xTQm5mVVBVLS02b2Q0UDJPZXBOaXo1b3ZtQXFHZVZlaXp2SnpSNEp3WU5MSG1XZE96dWdsWEMzbnNWRzk5aDBidUNiRHBwMEdvdXJpdFUwZWlTdzQweVhLd3A1QnNpeWR6RmxSUXpiUjdORjRYYTBfaWRCZ29pTzZpUXItdGV1SXd4SDg5Y3A3OGdkWmtjMGVZSHNHTEQtaG9WUmtxRFBhMlZQbGJIOXBJMmgzWlJrbWlpa0xyNk1LR3hFVVpuZ3g4U3JCTVVqWEhVRl9qaGtMU2RXYzBDaUc4OGpfSlg0X1FQd2N30gGLAkFVX3lxTE1DRVRBRVF4dGZ0c0pfTDByaFRRcnV3SVZOX1pzbmVpSTB5d0tFYVN1M0IxZlg0NDhjUVBsTFY3TVUxR1U1MkhBU1NoS1FyVVRXejRZTXpHQzdqcGhZM3lfblFSejd1cWhCYVI0LXJNYXF1NXRHRlVORl9NcE5CT2Z1Vm9VWnB0MXZJM1Q2ZUZmX1VhenJsakUxX19DcnNILWdoOWdoY2RhX2QwUTVOcURpbzd0VEFXZzZISF91SlNzWTBDUlNuT21JNWxhLVlpaDV5b1BjOE9QU0RhRVlzSGk0OWhoWW93NUdiZ0NWNmZYdDZjaXR5YXdUNWs2dVdwMnM0ZG9UNHdEOU1vbw?oc=5",
+      "source": "The Economic Times",
+      "published_at": "2026-10-13T17:17:15Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · regional",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -23473,7 +25421,7 @@
         "Yemen"
       ],
       "language": "en",
-      "category": "transport",
+      "category": "security",
       "tag": "AVIATION REPORT",
       "provider": "Google News · aviation",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
@@ -23532,15 +25480,38 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "caa07fe8714fa40cf85fa8e2",
+      "title": "Why Saudi Arabia has struggled to defend itself against the Houthis’ recent attacks - AP News",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQS0tLX1FqSV84dmlSbmFFRlFIa2hLVXowbkNhWkg5alRncU1qNFdJVC1QbW5JRGEycFQ0SGh2d3NKUDF0RlMtU1NISTE1WnFnQU1OTjE1N1BZdHJnQ29oOHdkNUhhZV9SVGlSTVRHYS1jV2MyMGNTUlhrUW5iNFVfUHRmSVVKNUdvT3A4?oc=5",
+      "source": "AP News",
+      "published_at": "2026-10-13T16:43:00Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · security",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "2f681e6008caef159e83",
       "title": "Iran's Houthi allies' deadly attacks on Saudi Arabia create \"a difficult dilemma for President Trump\" - CBS News",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTnVuZXMwT1Q4bkV1a2dHX1lVWE1Sd0NWdzlWMDdHMzZrWnd2YmVTdi12dkUtcTk1SDBpSWFhbngxN254Z3ZNSFl2ak91Q0NpWHh5aWRWeDRaTFh2WGhhSDBVRmtCSEVna3ZVY1VaeFVISFpDUEpaTWlWQ2Z5M1hPQ1Q1M1QtX1RhbzM5T3AzbWhOZUE?oc=5",
       "source": "CBS News",
       "published_at": "2026-10-13T16:34:00Z",
       "country": "",
-      "category": "diplomacy",
+      "category": "security",
       "provider": "Google News RSS",
-      "tag": "DIPLOMACY REPORT",
+      "tag": "SECURITY REPORT",
       "countries": [
         "Iran",
         "Saudi",
@@ -23673,6 +25644,31 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "078c62227b34dc1616d1766b",
+      "title": "Saudi Arabia is struggling to deal with the attacks by the Iran-aligned Houthi militia in Yemen - DW.com",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQdnd3dDhGbWdkbVBsX1QtNGJfa3E0SFp0d3VGdFp1TXQ5UkVXQnFSWlNwVGdxbzZCdHVTSHN0TWszbno2dzgxa2dTUnZFN1pKVWdWdmJkS3A2bzFjbEFyZ0NWbkFsY1ZtNmtFSnA0cll6UTRwNE1CbGt0TlowNS12bXFuTHJjaUk4cnNDeDBENnnSAZABQVVfeXFMT3BMUWljVFpmem1GRmZQMnpsMmh5SC1ZXzZfWXphbWFwazdiSDl0cEtBU0dDaHB4Tkc4N1ZEb0kwczgxR2QxT1J3MkRmLWl2Q2pQVjN2SkFUU3BIMkxmTnpFaFdpakVwMXpQRFJpOXZsRDZEWlc2OVlrbXVWU1FKTTJwN0xkRlZ6NXFRNkVDU09I?oc=5",
+      "source": "DW.com",
+      "published_at": "2026-10-13T16:12:52Z",
+      "country": "",
+      "countries": [
+        "Iran",
+        "Saudi",
+        "Yemen"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · security",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "2e041015302d81750f604f51",
       "title": "روسيا وأوكرانيا تتبادلان الإعلان عن إسقاط مسيرات - مرسال قطر",
       "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxOeld3ODNCb09OVm9WQ3NUMVJVOXdLZGlkSnJtODNiaVRVYVhDVXNLTG1ocGhNaFhvSzVBODFYbmFyenV1dW5MVWhFQTI4cTBYSTd6c3VzX2VNb2x1UFBaT3psWWFocm5xZ1RoS3c2RUJIMVJINmR3YUhpc05Nb0hzNUlWX05JZ3NUVHF1VWNFQ0QwcWxEcFFxSHA4RlhMNTJPVVI1aTZMQkpTMFNSQkh0Rk5pQ1BoQWRDbTVDaGxzcVk3X3g0dWNoZHJzZmp4RzJaZFQ1WEdsWTRyb1dmOHl4MWZIZmtYTDQxWGNNeGNMTU9EcTMtcnl5TU9ISDNfeVB1dE1TaTg1RE9UMnBQb3NBOGg4VEJnQXE3aGF3cjdaSktTRnVyN2c?oc=5",
@@ -23688,6 +25684,54 @@
       "provider": "عربي · قطر",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "5ca4a715bb15d22f33e19c82",
+      "title": "Airlines Suspend Saudi Arabia Flights Following Houthi Attacks - GTP Headlines",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNcDFIV2swbE5MU3dnUkhhNW1KVzhXaFdYMk1SM2tLcTJHRmVaMzRmN29MVlJpLWlVWDVmZTFpUl9nMGVoRUJTNTR0NGQxMDZJTkN6QUxjb2JVbElFN3phSUNfakdUM3lERUFuVHZSdF9IWnFYRXU1TEktZ2lYR1NPS1BKVlQ3WGdyaXN6OUFJZnFuYk1hempMaXFB?oc=5",
+      "source": "GTP Headlines",
+      "published_at": "2026-10-13T15:56:32Z",
+      "country": "",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · aviation",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "2333879f4541bcb5ab56df13",
+      "title": "Why billions spent on defense haven’t shielded Saudi Arabia from Houthi attacks - CNN",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdzBMSWF2VWFGNi13OE1saENLN09jZWR5Z1QxNkN2ZWxaUExzR3NHLUtnVDhEclhfNDZEMzF6RlNsZU13WDJWMFpKXzV6elFwTDVDZGJWMkVldTdkcWNGbmtDTFdmWnY0UGJfVXJwdmNNUVhSYnJqeUNvYWdwVUJBdlJWdnl5bzh1YUtsLWlFMA?oc=5",
+      "source": "CNN",
+      "published_at": "2026-10-13T15:26:09Z",
+      "country": "",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · security",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -23928,6 +25972,29 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "307763981ea8a71286ff7e48",
+      "title": "Yemeni government launches air strikes on Houthi positions - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQMjNvX3RYTjRpancyejg3V3RQdVlYeFhuZ2ZJMVlaa3M1MThTQWxGQnVLc0FKN1pLSmxzZktOaGtEdlN4dE9yd3BaNHdUWGR4SFNnMU5VVGdqZ1A0dGtpa3UzWGQ1RmJxdE9YbjFvLTNHWFhiejR5LU90bTE3M2xBckRjZnU3SmIzdDVkaHF3dl9KbFJ6TkdETUg0ZnFJaEw0SHfSAacBQVVfeXFMT2tGTDlhUVV5NEpydEtReEFrNDlpTHFfWHc2WWJNeHdFQzVrbzRac2c3Z2xfVHI3eG9iSGhENS1zcWpEeTdpamZNeTFiQVZFZWpTZDAwc2lGTFA5SzM5d1ZvNHZoaG01bk9PYmZoS1hFU0MxY3ZrNkxmSXYxRmNTQkRfdFJIUzJGODNJeTRmb1F0RUFSd1VSZS1vOVhqeXg2a1J2Q0NMTUE?oc=5",
+      "source": "Al Jazeera",
+      "published_at": "2026-10-13T14:02:04Z",
+      "country": "Yemen",
+      "countries": [
+        "Yemen"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · security",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "elevated-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "736ab3f8c3907b5086cb82a4",
       "title": "India advises nationals in Saudi Arabia to avoid sharing attack videos; flights suspended until October 17 - Mathrubhumi English",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcFlUclhGekNXaTRzaXowbTBBSl9fRjctX1EybG1Tdm9PaVNaSWpzVUNtYW5Lcm9ZRzZURFF4X245LTFTZEFXMHJrdEM4a3RYaDdvU3lwOWVxOXVxbkJhSXFlTEVlQnp2ZWNSb0lpM2daeU1yU2M5NnZCLWZjZ19STW9pSVUtcWpQUGJoV18tVEhaUXhmS2dKTXJjSW9iSWN5UnZJRDNJc184NWhKTkd4cNIBtgFBVV95cUxNdUg1TG5tRl9FdE1BSnFPbGEta0diZl9MSGVUb1dZaF9nTDVzQnFnUlBCcVZwaDNHUWhLeHh3bGFCcXdfY05fandtcTFGN0xJTEhHMXo5amFhN0dMZ0cyeTYyenZ0S0JydG9zV1Fya3BWOUd5SEQ3MXFrX09lOU9xZ0FnTFMtck9SM1o5OWY1RTZPY3RKU2ZyR0E1VF9oMlR4V2NFS3d0eHpybTIyYTFMME5ENmRSQQ?oc=5",
@@ -23951,6 +26018,29 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "ad7d4dcb2227634dc7c804f5",
+      "title": "French embassy in Riyadh tells citizens to avoid Saudi airports targeted by Houthis",
+      "url": "https://www.france24.com/en/middle-east/20261013-french-embassy-in-riyadh-tells-citizens-to-avoid-saudi-airports-targeted-by-houthis",
+      "source": "© AFP",
+      "published_at": "2026-10-13T13:51:23Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "en",
+      "category": "transport",
+      "tag": "DISRUPTION REPORT",
+      "provider": "France 24 · Middle East",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "3a2878d9b7cbaed653a75b2d",
       "title": "Biman suspends Riyadh, Dammam flights until 17 Oct amid Saudi airport attacks - The Business Standard",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWXBYb1luVTJ0anZrUUdFWGpBXzJ2VTlhNEF2eUVReTNTV0RuUXRoaVRENF93S3dFNmVlY3g0X3c4UUV6V0p1YXhteExDWGNmQkdPdVhWRnFmaERjX2hyRlZGVDh5VHVjVlRsZlAtMGFneFp2VnpWR2NSZmF4bmJpZWxEUFYzeWVjRHlMcFdqbzg5TkRGR2FZVzQ2SU1sMU10b3J5ZnZrVUxLYi15MEtQQkNLemtkMEdB?oc=5",
@@ -23961,7 +26051,7 @@
         "Saudi"
       ],
       "language": "en",
-      "category": "transport",
+      "category": "security",
       "tag": "AVIATION REPORT",
       "provider": "Google News · aviation",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
@@ -24008,7 +26098,7 @@
         "Saudi"
       ],
       "language": "en",
-      "category": "transport",
+      "category": "security",
       "tag": "AVIATION REPORT",
       "provider": "Google News · aviation",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
@@ -24040,6 +26130,30 @@
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "elevated-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "f505fba327ea10d4dc9cd4d3",
+      "title": "Could Pakistan’s Chinese-made weapons help protect Saudi Arabia from Houthi attacks? - South China Morning Post",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNRHpxVkc5cHlMdVk4ZGdFQklNSHNYZGUwRXFZdUhNalhwdS0walBkN3hZVjBRSEg2T0xqRXJJZ1EtRElleUpLSVJFRzByRUt3dm1iTmVGcVhPa1dWRC0yS0ZYa3N1ZTJfWTBWd29BZVNWc1FvQ3kxa09lczhTdFFxRVFUSm5UZDdDVTBrZi1pLTZzX3dfRXpCMzVZUWNMWWlJd1lhdVZYdk9PRWVSOUdBVTNrWlFlVkZHUWNWOW5kWDc5dEVVbkxvN3V3UjhLLUXSAc8BQVVfeXFMTmNoc0ZGUzRGeS1VWlZPWEtwMnZFbmxhbXF2T3JRamJDaVJmVVhfUThmem5pcGNTWGxKVWpsTDZMLW5KSzF1RW5DbVpKTEFkb3FvQ0gxYVhYZ3FIMURCMGhvMFhvOFpEWlFrU3VXcnhNa2FuOVZUOFlfd0p5V2xwVXN3ZDFZbmlxZjQ3R2s5cngtNDd2SHJ3OHVGWnBVZURiaTZsSE9HcjhkTHBHa1ZBbDV4N1NpU0ppYUw0bmxXeVFOcURZWW1BNDI0a1JTMzZZ?oc=5",
+      "source": "South China Morning Post",
+      "published_at": "2026-10-13T13:00:05Z",
+      "country": "",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · security",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "speculative",
+      "severity": "routine-reporting",
       "critical_candidate": false,
       "alert_eligible": false,
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
@@ -24122,7 +26236,7 @@
       "source": "Reuters",
       "published_at": "2026-10-13T12:22:36Z",
       "country": "Saudi",
-      "category": "transport",
+      "category": "security",
       "provider": "Google News RSS",
       "tag": "AVIATION REPORT",
       "countries": [
@@ -24194,7 +26308,7 @@
       "country": "",
       "countries": [],
       "language": "en",
-      "category": "transport",
+      "category": "security",
       "tag": "MARITIME REPORT",
       "provider": "Google News · shipping",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
@@ -24309,7 +26423,7 @@
         "Saudi"
       ],
       "language": "en",
-      "category": "transport",
+      "category": "security",
       "tag": "AVIATION REPORT",
       "provider": "Google News · aviation",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
@@ -24356,7 +26470,7 @@
         "Yemen"
       ],
       "language": "en",
-      "category": "transport",
+      "category": "security",
       "tag": "AVIATION REPORT",
       "provider": "Google News · aviation",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
@@ -24589,7 +26703,7 @@
         "Yemen"
       ],
       "language": "en",
-      "category": "transport",
+      "category": "security",
       "tag": "AVIATION REPORT",
       "provider": "Google News · aviation",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
@@ -24666,6 +26780,29 @@
       "date_quality": "legacy-unverified",
       "freshness": "archive",
       "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "9ecbe134a8258081c4d086ff",
+      "title": "Airlines suspend flights to Riyadh amid security fears",
+      "url": "https://www.france24.com/en/airlines-suspend-flights-to-riyadh-amid-security-fears",
+      "source": "France 24 · Middle East",
+      "published_at": "2026-10-13T09:19:23Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "en",
+      "category": "transport",
+      "tag": "DISRUPTION REPORT",
+      "provider": "France 24 · Middle East",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "archive",
+      "context": "speculative",
       "severity": "routine-reporting",
       "critical_candidate": false,
       "alert_eligible": false,
@@ -24867,7 +27004,7 @@
         "Yemen"
       ],
       "language": "en",
-      "category": "transport",
+      "category": "security",
       "tag": "AVIATION REPORT",
       "provider": "France 24 · Middle East",
       "first_seen_at": "2026-10-20T12:01:49.547007Z",
@@ -24895,6 +27032,29 @@
       "tag": "MISSILE REPORT",
       "provider": "France 24 · Middle East",
       "first_seen_at": "2026-10-20T12:01:49.547007Z",
+      "date_quality": "publisher-time",
+      "freshness": "archive",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "cbe6613d217a1a1b404d70ba",
+      "title": "Saudi Arabia extends Riyadh aiport suspension, vows deadly response to Houthis strikes",
+      "url": "https://www.france24.com/en/saudi-arabia-extends-riyadh-aiport-suspension-vows-deadly-response-to-houthis-strikes",
+      "source": "France 24 · Middle East",
+      "published_at": "2026-10-12T16:21:57Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "France 24 · Middle East",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
       "date_quality": "publisher-time",
       "freshness": "archive",
       "context": "reporting",
@@ -24985,7 +27145,7 @@
         "Yemen"
       ],
       "language": "en",
-      "category": "transport",
+      "category": "security",
       "tag": "AVIATION REPORT",
       "provider": "France 24 · Middle East",
       "first_seen_at": "2026-10-20T12:01:49.547007Z",
@@ -25141,36 +27301,36 @@
     "Google News · missiles/drones": {
       "ok": true,
       "items": 100,
-      "relevant": 59
+      "relevant": 76
     },
     "Google News · security": {
       "ok": true,
       "items": 100,
-      "relevant": 50
+      "relevant": 69
     },
     "Google News · aviation": {
       "ok": true,
-      "items": 97,
-      "relevant": 57
+      "items": 98,
+      "relevant": 90
     },
     "Google News · shipping": {
       "ok": true,
       "items": 100,
-      "relevant": 90
+      "relevant": 92
     },
     "Google News · diplomacy": {
       "ok": true,
       "items": 100,
-      "relevant": 41
+      "relevant": 49
     },
     "Google News · regional": {
       "ok": true,
-      "items": 25,
-      "relevant": 11
+      "items": 54,
+      "relevant": 29
     },
     "عربي · إيران والخليج": {
       "ok": true,
-      "items": 53,
+      "items": 54,
       "relevant": 41
     },
     "عربي · قطر": {
@@ -25181,7 +27341,7 @@
     "عربي · السعودية": {
       "ok": true,
       "items": 100,
-      "relevant": 56
+      "relevant": 55
     },
     "عربي · الإمارات والبحرين": {
       "ok": true,
@@ -25190,8 +27350,8 @@
     },
     "عربي · الكويت والعراق": {
       "ok": true,
-      "items": 49,
-      "relevant": 46
+      "items": 25,
+      "relevant": 24
     },
     "عربي · مضيق هرمز": {
       "ok": true,
@@ -25206,7 +27366,7 @@
     "عربي · العربية": {
       "ok": true,
       "items": 100,
-      "relevant": 36
+      "relevant": 35
     },
     "عربي · الشرق": {
       "ok": true,
@@ -25216,7 +27376,7 @@
     "عربي · وكالات الخليج": {
       "ok": true,
       "items": 100,
-      "relevant": 30
+      "relevant": 29
     },
     "الجزيرة نت · RSS عربي": {
       "ok": true,
@@ -25226,17 +27386,17 @@
     "BBC Middle East RSS": {
       "ok": true,
       "items": 36,
-      "relevant": 7
+      "relevant": 8
     },
     "Al Jazeera RSS": {
       "ok": true,
       "items": 25,
-      "relevant": 0
+      "relevant": 2
     },
     "France 24 · Middle East": {
       "ok": true,
       "items": 30,
-      "relevant": 8
+      "relevant": 13
     },
     "France 24 · الشرق الأوسط": {
       "ok": true,
@@ -25246,7 +27406,7 @@
     "The Guardian · Middle East": {
       "ok": true,
       "items": 20,
-      "relevant": 6
+      "relevant": 7
     },
     "UN News · Middle East (EN)": {
       "ok": false,

@@ -1,17 +1,27 @@
 # Gulfastra | Open-source situation report
 Window: last 24 hours (publication-based)
-Coverage groups: 198 | linked headlines: 217
+Coverage groups: 217 | linked headlines: 236
 IMPORTANT: Unverified published reporting; not confirmed attacks or official safety advice.
 
-## Security (129 coverage groups)
+## Security (152 coverage groups)
+- UK to deploy jets to defend Saudi Arabia from Houthi attacks (1 headlines; single-source)
+  - BBC Middle East RSS: https://www.bbc.co.uk/news/articles/ckr5yqe1r1llo?at_medium=RSS&at_campaign=rss
 - مقاتلات تايفون البريطانية تستعد لحماية أجواء السعودية من الصواريخ والمسيّرات - موقع الدفاع العربي (1 headlines; single-source)
   - موقع الدفاع العربي: https://news.google.com/rss/articles/CBMi2wJBVV95cUxONUpwWUxwbnNFQjFjcUVPS25yMExLdnYwUmNnT2tBSDBfZDJGQW83c0R5Y2dRZW52ZWduZHdGSUFOaVZybk9lVVN5MmlHNF9xX3RGeUF4NnZhUlpUVnRwRVBSejNaVVFpWGJmQTJzZVAwd3VBU21WUmdkSVFZR21vYUxuVUlEekVYZTNiYVFzd3U3ZXVqbENObnZkSW53bkhSR19PenZfeC1SRjZWZjFVVDFZT1BNWEFOTXdTam1Od01HR241ajVSYjlfX25vU05SR3I0cVYxUENYR0pmTmx6d0hKcXB2LUhzOENCbmU2ZERheGlUTGFXZ0FOTDd1X2hmOVZBX1RPa1MwV1RmRUZ1MXl0dUxlQWU4cVRFRWZMZ3IxcmkzTHdvNTF3UUxYQnRrbC1kTzFSSUNZLTFWYklCeTJ3SHRFX1FzVDdtd3VSZ3VucjFSbjUwUnhuTQ?oc=5
+- UK to deploy fighter jets to protect Saudi Arabia from Houthi attacks (1 headlines; single-source)
+  - The Guardian · Middle East: https://www.theguardian.com/uk-news/2026/oct/20/uk-raf-typhoon-fighters-saudi-arabia-houthi-attacks
 - بريطانيا تدخل المواجهة الجوية لحماية السعودية.. مقاتلات "تايفون" لاعتراض صواريخ الحوثيين ومسيّراتهم - arab-london.com (1 headlines; single-source)
   - arab-london.com: https://news.google.com/rss/articles/CBMiS0FVX3lxTFBDckdzckE1ejRCN1picEJ6WTVSeHZ5VmJOYmpzVlhhS1VvekY3Skd4VnNDMjlPWEtFZzdZRU1TM01falBPTzRoRG9sbw?oc=5
+- Oil prices rise as Strait of Hormuz tanker attacks escalate - Quartz (1 headlines; single-source)
+  - Quartz: https://news.google.com/rss/articles/CBMidkFVX3lxTE9wNThNdGREZG9pVlpmMVhOMHhpdUZscFlLdEhqWHNFQXpIeEl3Q3dla2c0MnBCZDBWV1FXTTI3ZnNkWjhRZ0U1OVQzbmh3UHEwbEpyYVlDWHVOUXNod3p3dmZlNnpuZTNOTWpabnZMTVZiOWdibkE?oc=5
 - Saudi Arabia announces interception of Houthi missile targeting Riyadh - Yemen Online (1 headlines; single-source)
   - Yemen Online: https://news.google.com/rss/articles/CBMiUkFVX3lxTFBfTGlPMVh5NFVHZm84cmpJY29XY2FOREZhdnl0UjIxRGYydHh0RVZHM0FYNXZlc0tHWjg2bnA1Nmw0MHh2d2hHRmNHWU1fMjEtVHc?oc=5
+- هل استنفدت الولايات المتحدة أكثر من نصف ترسانة صواريخ باتريوت في صراع مع إيران؟ - Vietnam.vn (1 headlines; single-source)
+  - Vietnam.vn: https://news.google.com/rss/articles/CBMikwFBVV95cUxQS1o0U0s5bE10eU1zQm9vS0YwaEhTcEg1cHo4Yl9qZTU0MTRfc1F6QlpKU3Vzc1ZNb3NjckowTDZRVlBnQ0dUN0ExNXVleVR1N29sMjYzaVE0OWF1WGZhd05HVUlzd0FTclhaMjhNTjBZVjJHQ2c3M3V1TTh5RV9RMDhJSDNaejltazB3NEhqV1Y5Rlk?oc=5
 - بريطانيا تدرس تعزيز الدفاعات السعودية بمقاتلات جوية وسط تصاعد هجمات الحوثيين - https://www.youlyou.com/ (1 headlines; single-source)
   - https://www.youlyou.com/: https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBSVTBXb3FEemdtS1UwLTdxdzNKQ0QyWURDcjNZQkFVNHVfWjhsSVNqcldrUVNycUZHZHVjNjB6VzU4X28?oc=5
+- UK to deploy Typhoon jets to help defend Saudi Arabia from Houthi attacks (1 headlines; single-source)
+  - Al Jazeera RSS: https://www.aljazeera.com/news/2026/10/20/uk-to-deploy-raf-fighter-jets-to-defend-saudi-arabia-from-houthi-attacks?traffic_source=rss
 - بريطانيا تنشر مقاتلات "تايفون" في السعودية لمهام دفاعية ضد صواريخ ومسيرات الحوثيين - رؤيا الإخباري (1 headlines; single-source)
   - رؤيا الإخباري: https://news.google.com/rss/articles/CBMiRkFVX3lxTFB1b25MV1NaakRtN3FiZFROOERPMHV6dGI5US1PTnhuU3Mwa25kMjFCUGh1WUlHV3VOMWl3eTJDSUN5VXdPcVE?oc=5
 - من طراز «تايفون».. بريطانيا تدفع بمقاتلاتها لدعم السعودية ضد هجمات الحوثيين - المصري اليوم (1 headlines; single-source)
@@ -22,20 +32,10 @@ IMPORTANT: Unverified published reporting; not confirmed attacks or official saf
   - freemalaysiatoday.com: https://www.freemalaysiatoday.com/category/world/2026/10/20/saudi-arabia-says-it-intercepted-houthi-missile-as-blasts-heard-in-riyadh
 - Yemen war escalates with deadly Houthi strike on military recruits (1 headlines; single-source)
   - middle-east-online.com: https://www.middle-east-online.com/en/yemen%E2%80%99s-war-escalates-deadly-houthi-strike-military-recruits
-- بريطانيا تعلن إرسال مقاتلات "تايفون" إلى السعودية لمواجهة هجمات الحوثيين - الشرق للأخبار (1 headlines; single-source)
-  - الشرق للأخبار: https://news.google.com/rss/articles/CBMi_gNBVV95cUxQa0M2V1E0S2R3MWtUVUJEbzBRR1o3YWF5VWQ3aVFlUjR2SGR4d24wQ05qOUlId2JmTkZFWFpwTUsyQnVGQm5NUU8tanU3c3dPLUphSkhCNFBSTVdLN0dfYy1TWFFLdVN5SWRWbXN4MnBFd3NXemRtdml4Q1VrWWt5NTZoSDE3eW1KaHBrQVdvdnhGS05uX0VhMVBEd2RQNHg2TUhHLTA2YlE3NmpzREJ2NjNDbjRHcGFNaEdCRG1DdDdJQXhiRHBGVlgydTBuT01BMzlPaUNXNEJ6Qy1NYTVQR1NaZWVFOWo3djB3emIxbzlNTG5Gay15M3FNUVhoUVVEM29feG1wa1ZjNTh2SGwxWXZzclQ0bk95c0dTcGl1endrMkdRRTViTXNaNDRiQld0aEpqRFAtWE9ORV9xYVpTaEFMZXhoQzB4c1d2NUxWSFRucGtQSDRMQk9zRjdQU1QwQmdrbXd0SU8xcjQzcklnVFlqNmFNNHZrSEhZeklScGNMR0Z1ODNvRmFxdVczWnlPN3lYQjNyMkF1X25hbWtCaVFKRTlVMW12RS1kYjNKMWRuQ1FiemNiZ0R0Y0NsRTItdk9XN2I5V0liRnFKeUF6NENpM3Qyc3cyMTBCdTE1dk9jb3FOM2drTlpBcy1nMC1odUQtaXFyRWg2RDA1cXc?oc=5
-- The UK expands military support for Saudi Arabia against Houthis to include 'defensive' air patrols - KTVN (1 headlines; single-source)
-  - KTVN: https://news.google.com/rss/articles/CBMijgJBVV95cUxQNHlkWnZLUzNacTNNQk5rV3VoZkJSSUg3ak8ydzB4Uk9zWkJzZDBwU1U1SjBoNWw5c0owMEtKUE04NGVnYzZ1SGstQl9JeXdUYmsxbHo2VFFnM2UxRW1zenBBc2xiTFAyNmdXQVNKcUZJU09KVWFOZ0Zxa0lxdnpvb1A0OEYyaEd3YUZqM3VEN3dKN0xXSlNPMUVuVEc1ZlFNM0dudXJWWHUxMmZrd3YwR2JNYlNXa3M1djQ2dkp1SVFRMjJtZHdSTF9JdjJGVFkzQkdwTUNrVDVMWms5TGVza0lFTUhLNjNSdEJsNC14RHJvell6NF82M3hLaS04dHBzaVpwREZNS2RXTHI4MWc?oc=5
-- The UK expands military support for Saudi Arabia against Houthis to include 'defensive' air patrols - Eagle-Tribune (1 headlines; single-source)
-  - Eagle-Tribune: https://news.google.com/rss/articles/CBMikAJBVV95cUxOYTl4RnRVTzBGRUJuU2xDbjN4ckVPQWVsUWkwUXh5Q0paSUxDUHJraF9qdzM0cDhvRlVoRUVhTDYwWDFhVU96M3JhWk1Ra1RzOGhpa0lsa0o0MEtWVFhBQjR4ZkdpcW5vdFpoX1hjV1loaXlOMGJJcE5saDZQQ2QtX0JFcDZ0eFp6eTg1MHF5MzZTb1F0X1hQcGU4UFFMS1BncWNsRDlnQmhLU09iVTRicUYyVnhlQlRGY3V6U2c0MkFxczJaN21ObU9oWXBMOE1ZOHZGWWNXMXNfNDlHLXVVTHM5R0diM1dvS3hNQ0ZqbldCWG9kRjNVYUpUSWRGR19hbVljc2hWaFpSRzZMT2F2Ng?oc=5
-- The UK expands military support for Saudi Arabia against Houthis to include 'defensive' air patrols - Ottumwa Courier (1 headlines; single-source)
-  - Ottumwa Courier: https://news.google.com/rss/articles/CBMiowJBVV95cUxPQm5tOXpPb1pnelVULTVmaVB6NWJCSjhmS0dtbUVyRWFMNGxKeG5xa3FrbjZzWXM1UlNXdm12R3drZS1SNGhiTjFiUVl0eTRRcEFhaDVaWU14alZ0SGstdUtaREh5V0I0WWlJb29hRWVYUEQ0eThpMTBPZms5eFpjSWQteHRieUxpZFJYLWR5eG53UHpZU1lZbmNWYkhWZ1QyaHRLQWFidV93d3VreEdYZ3h6T3haNzRaemNTZDhxSDFvcXd2UmtETWNKX21Ca0JsRTFwUTBDYkczQWEzWGVJQ01RSzA0OGxHdmI0SmJHdi1DMkF2ZW5DRllYZkhEbGFRMXJ0QWVKRHdaREtLdGJfV0ZGWGhaUE1RbUJYdkMxMk5OZ3M?oc=5
-- The UK expands military support for Saudi Arabia against Houthis to include 'defensive' air patrols - AP News (1 headlines; single-source)
-  - AP News: https://news.google.com/rss/articles/CBMikgFBVV95cUxOdFpJQjVaX2pPYVMybXM3OEQ4ZzRzNEdpc2FVMldTRTVWaVFNQXZQVkZrRmdLNVpKc1RVeS1sbGIzSDJlNE12QkRMR2UxcC1PZWIwcnJXY0Z4T0hEQkxmWnBrNHpkSFZxaWgzZU5pRGM1cGJVUWRISHFraGJaUFFzRnlHYko4UlJpMmFvMVZLc1lFdw?oc=5
 
-## Transport (46 coverage groups)
-- Oil prices rise as Strait of Hormuz tanker attacks escalate - Quartz (1 headlines; single-source)
-  - Quartz: https://news.google.com/rss/articles/CBMidkFVX3lxTE9wNThNdGREZG9pVlpmMVhOMHhpdUZscFlLdEhqWHNFQXpIeEl3Q3dla2c0MnBCZDBWV1FXTTI3ZnNkWjhRZ0U1OVQzbmh3UHEwbEpyYVlDWHVOUXNod3p3dmZlNnpuZTNOTWpabnZMTVZiOWdibkE?oc=5
+## Transport (42 coverage groups)
+- Yemen’s critically ill are trapped as war closes the country’s airports (1 headlines; single-source)
+  - Al Jazeera RSS: https://www.aljazeera.com/features/2026/10/20/yemens-critically-ill-are-trapped-as-war-closes-the-countrys-airports?traffic_source=rss
 - "إتش إس بي سي": الطرق البديلة ربما تغني عن مضيق هرمز خلال 5 سنوات - الجزيرة نت (1 headlines; single-source)
   - الجزيرة نت: https://news.google.com/rss/articles/CBMisgJBVV95cUxOelk5V01HZ3NobEpRQ05vR1N2ZXVuSTgyMThlZllvTy1QQVpXTTQ4OUtGRXRwRUN5alJ4U1Q5S2dXdmVPZEd5Y2JLOTVOemJEcDc4SWpqbHlmcHVpQTloTVdOQzBjNlV1dHZ6QmdOUnVuWmpYbGxUc0tBb3NoVU1iLWl0S01UY3FoVVBBMVJ2YmxqM0NaTHEyZWZWbTVtSFFXeUdud1NQU2ZYVDlRTUFwNzF5UkxtZVk5N0JJSWs3Zl9adDl2VllFcG82ajk4RW84Nk5vRFVqTzBmdmNkQUVpZm4tWURubXM0QmVRRl93Tzk3VVlRRDJHMHVIY0Z5eGFIdmJqUmpCbVlaXzRTSGJDd2VZMFJDZXdrSjctUUVHV3ZxNDA3UUpYNU95Wkw1cE9OU2fSAbcCQVVfeXFMT3V1cmRKZWt0V2NyVVVPZFVfOFE5SHg5S0dUMHFVY0FSUXBNbHY5dlF1ZXJQdUZxLWtMRmkzUEVuYmxzbXdObmNFZi05eEM4ekV5Nk5wVENxTXFiaEdKclhwaFNUeFgxSHljNVNBRVdSU1JTMVEtZ05KMWEwS29KRWtkdGxzc2VZQkZzLXhWRmVERkVySkVoM2VoN0ZvMjU4NjYzUXpnbkZxVVdEOTduRUR2TmlQa3ZKUEtCZXN2Z3hwX2hsYnc1WlU1NFl5OTNreDlCeHRGdUZOcXlWbzdvb25WQ0JHLVhIWWRSZmNSRVNnM29zSVhubGRCdl9lLU4wTVpmSng4VndzdHJaRFdqR2FnZ2t2T01sYTRGclVGbjhFSm1YWmN4QmsxVXNBUlU4SF9OREJybGs?oc=5
 - Iran Guards say mines halted 2 tankers crossing Strait of Hormuz (1 headlines; single-source)
@@ -51,9 +51,6 @@ IMPORTANT: Unverified published reporting; not confirmed attacks or official saf
 - عاجل | الخارجية القطرية: على الجانب الإيراني تنفيذ القوانين الدولية الخاصة بحرية الملاحة وينبغي فتح مضيق هرمز - الجزيرة نت (2 headlines; multi-publisher-unverified)
   - الجزيرة نت: https://news.google.com/rss/articles/CBMiugJBVV95cUxPYTJFMkcyUEJzTnVDQy0wUnF6Zjk3UGdvTnNUcWtsTmprMEVXNlpLMzI4MjQ0ZzRQcUNGUlNyb2hBMjhESlpvOEFaNGpGRWVkYjhMWk81MEFBZWM5WlFYbjdUbmwtVVhnRC1tRkoxTUtnLWpVa01BYmFndjlSbWpMOHF0U1ZLWHpYNGJSOEpZMnFfRFFXMllPUUxXTzZ1Zl9HWlQ0b01YSUhmWjBYbWgtbjdFNmI5LU9hUEpyZ1pjOWpaSUdrbEh6eENnZDlrSWlGMTM4RDYzX1VmVUlRelh5cV9DVmZYQU95Y0ItbnhxNUlRdVNndVo2eXlTNENxNzlpbFhKWkV5RXJnejBwclZ0aWpvQ2xRM0pfQzlKNk5MamxMS19ZNDRhMEpXMnhUUWYyT1ZaRGtMSVg3d9IBvwJBVV95cUxOd291SENuRVlTNXg2UkFWcDZfRGxoZ2lGeVZYLXVJM2loOUJTU3BRYkFGODdxd0RLZjVJZmdQTGJNLTFSajB3Vnc2elpnOVZ6S1FEakhmTGJxLXZONVhKckZGekk4N2tmYndVSEloNHIxSHBoci1iUGNqUUQ2MEo5LWFvZVlmZEtiUU1BWXZZak5Fc29DRjBoOW85a3lOWTl0NGxla09ydVNaLTZKM1dNODE0bzVMWlNhZWNJU1pjSHVtRllNTUw3R1BVZlpYeGdBcFNRdVI2YVVMemRuOTlwZC1QVmZhY0NUOTh0YVNuQTk4U0ZBSU5kMkF6UkJTTEk5RkxVR2dJa24yMjZIcnlua2c1LU5VRUctWm1VZWpsUUdlNzNtZDc5WEdrQTVPRHloNVpxMll4SEpZX01FNFlN?oc=5
   - الجزيرة نت · RSS عربي: https://www.aljazeera.net/news/2026/10/20/%d8%b9%d8%a7%d8%ac%d9%84-%d8%a7%d9%84%d8%ae%d8%a7%d8%b1%d8%ac%d9%8a%d8%a9-%d8%a7%d9%84%d9%82%d8%b7%d8%b1%d9%8a%d8%a9-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d8%ac%d8%a7%d9%86%d8%a8?traffic_source=rss
-- Factbox-Airlines cancel flights to Saudi Arabia after Riyadh airport attacks By Reuters - Investing.com (2 headlines; multi-publisher-unverified)
-  - Investing.com: https://news.google.com/rss/articles/CBMizAFBVV95cUxOZFBQNFNDZ2c0dU5ENEtUNTA5a3pIN1I3bzhfZ1l0dnFVakJ4YzM1R0NBdTRDLUNqdlhRNFUyajJwclE1dE5ZNUE0eHl5Zkl0Ym55ZTVQQ05PcGN2Y0FtUHVVX0hVU1BOWTRBYUtvNEh4cDM4YTRqNVVPY18wUHhqMGctYXBleTI1Wmo2X1F6YUd5cTFuMXJFRDRkWFlNSTVEZEd3M1hoXzBKNHV5OFlUbldHVDMtSXZrQWxDaTc0UWxUeTRVa2ExRTBBU0E?oc=5
-  - Global Banking & Finance Review: https://news.google.com/rss/articles/CBMiogFBVV95cUxNal9kOWNxQ1p4NTBvZHdrWERuTzhSOVM4SmhubTh0SDVNY1I3czZCY2h2R2EtbXZrWW5FV1N6Z3VudE1RcmFPeXgtdk9wMHk4UlctSDZEVHJYR0ZMdjlwMDctRVJjV2p4T1UzUzdZV29jam5nMTQ4d29PZlZ6YzgyV05pYUxWYm5NZ2x6MEJ4WEFCeERoTS13R290WjFmbk1EblE?oc=5
 - اشتعال النيران في ناقلتي وقود بسبب ألغام بحرية وتوقفهما جنوب مضيق هرمز - صدى البلد (1 headlines; single-source)
   - صدى البلد: https://news.google.com/rss/articles/CBMiR0FVX3lxTFAtT0JjRXZNQXFBeVRYdk1zZ2E4M0xTeXh4c2lOaWZkNWZkaHNmT2cxZzhuUmw5TkdleHRWc2ZtSU0yUEQ5dFJv?oc=5
 - خارج مضيق هرمز.. كيف تستفيد عُمان من أزمة الملاحة لزيادة صادرات النفط؟ - i24NEWS (1 headlines; single-source)
@@ -64,6 +61,8 @@ IMPORTANT: Unverified published reporting; not confirmed attacks or official saf
   - WANA News Agency: https://news.google.com/rss/articles/CBMilwFBVV95cUxQeVl3dFE3V1o4bnBtUHItT29BRTlvNl9yMzhUVm5qQ2ZxNmc4RU1pLXB0VTRvWU1MLTNJem9fLUxKeGZ2X1VMREk2QktBRWdBRVZvWGlGcnA4YTJwZjh1MzVCM2kzUHVtblpqVEpwakpFc21wVFQ5SDFaRGRsS2tkdzJNS3h5NjN2QWNVS2xpN09xcldKTFh3?oc=5
 - "إتش إس بي سي": الطرق البديلة ربما تغني عن مضيق هرمز خلال 5 سنوات (1 headlines; single-source)
   - الجزيرة نت · RSS عربي: https://www.aljazeera.net/ebusiness/2026/10/20/%d8%a7%d9%84%d8%b7%d8%b1%d9%82-%d8%a7%d9%84%d8%a8%d8%af%d9%8a%d9%84%d8%a9-%d8%b1%d8%a8%d9%85%d8%a7-%d8%aa%d8%ba%d9%86%d9%8a-%d8%b9%d9%86-%d9%87%d8%b1%d9%85%d8%b2?traffic_source=rss
+- Saudi Arabia Flight Update: Lufthansa, BA, Etihad & Qatar Dates - Travel Tourister (1 headlines; single-source)
+  - Travel Tourister: https://news.google.com/rss/articles/CBMi8wFBVV95cUxOVWRRc0pFNEs2Sm13Yk4xRlhud3VFTVJhSmYzRHJwcmxBNEVrRTNHVDByYmJobjVKclFOZmU1aWxCOHNYYVRDR2lMQjdWTW56dzVBbkhtV3FoZnk1SG9aS0o0d01VaU42ZktCUUoyV2F5cEhlallHeG5ab2l3SDFqWm1RSjFjZXJFMV9IX0VGM29aQWxjckMyOVlFX1JJMENoSUNBVk94M3hhYU9DU0tONHN4LTd4WTR1S3lRTFF5UmdtY0R3dVVOOVpEVnJPV3RqS3ZJdXJNU1NFLWp3QllId0xEb25RWU45dDJ2SlZMVy1MZDA?oc=5
 
 ## Diplomacy (23 coverage groups)
 - Iraq Bid To Mediate Iran - Gulf Tensions Faces Major Obstacles , Former UN Envoy Warns (1 headlines; single-source)
