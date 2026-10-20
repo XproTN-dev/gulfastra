@@ -32,6 +32,8 @@ with sync_playwright() as pw:
         page.screenshot(path=str(OUT/f"{label}.png"),full_page=True)
         print(label,"reported_count=",total,"visible_articles=",count,"mapcanvas=",mapcanvas,"pageerrors=",errors[:5])
         assert mapcanvas==1,"MapLibre canvas missing"
+        assert page.locator("#mapLoad").evaluate("(node)=>node.classList.contains(\'off\')"),"Map tiles failed to load"
+        assert page.locator(".country-pin").count()>0,"No country reporting markers rendered"
         assert not errors,"JavaScript errors: "+" ; ".join(errors)
         page.close()
     browser.close()
