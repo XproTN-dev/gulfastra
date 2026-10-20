@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "generated_at": "2026-10-20T09:48:10.536726Z",
+  "generated_at": "2026-10-20T09:52:51.129886Z",
   "model": "deterministic-source-correlation-v1",
   "disclaimer": "Clusters are related PUBLIC REPORTS, not confirmed incidents. Source counts are not proof. Country names are mentions, not incident locations.",
   "events": [
@@ -1939,6 +1939,50 @@
       "digest": "18099a7673c14e0e729d",
       "revision": 2,
       "updated_at": "2026-10-20T07:40:58.957167Z"
+    },
+    {
+      "id": "GF-DCEA8E22548B40",
+      "title": "إيران أعلنت تدمير مسيرة أمريكية في أجواء مضيق هرمز - جريدة الديار",
+      "category": "security",
+      "topic": "drone",
+      "countries": [
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T03:47:10Z",
+      "last_published": "2026-10-20T03:47:10Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "50306995c87e4ce06e49c385",
+          "title": "إيران أعلنت تدمير مسيرة أمريكية في أجواء مضيق هرمز - جريدة الديار",
+          "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE85em00Ym5jdG1OcjQwenhsb1BWZ2Z5MDVONDBDMlBuMVN3blMtRm1VQXEtLWxqazBWQnVhQVdaek5GU0k?oc=5",
+          "source": "جريدة الديار",
+          "provider": "عربي · إيران والخليج",
+          "published_at": "2026-10-20T03:47:10Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Iran"
+        }
+      ],
+      "digest": "d4b6b56e64368bdea110",
+      "revision": 1,
+      "updated_at": "2026-10-20T09:52:51.129886Z"
     },
     {
       "id": "GF-BAB35EE7F4EFC4",
@@ -42986,11 +43030,11 @@
   ],
   "country_stats": {
     "Iran": {
-      "events": 358,
-      "reports": 448,
-      "security_coverage": 192,
+      "events": 359,
+      "reports": 449,
+      "security_coverage": 193,
       "transport_coverage": 102,
-      "sources": 180
+      "sources": 181
     },
     "Saudi": {
       "events": 303,
@@ -43068,24 +43112,7 @@
     "2026-10-17": 170,
     "2026-10-18": 127,
     "2026-10-19": 171,
-    "2026-10-20": 56
+    "2026-10-20": 57
   },
-  "revisions": [
-    {
-      "id": "GF-C70DD01A7A8813",
-      "revision": 3,
-      "at": "2026-10-20T09:48:10.536726Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 2
-    },
-    {
-      "id": "GF-4ACF500EC169DB",
-      "revision": 5,
-      "at": "2026-10-20T09:48:10.536726Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    }
-  ]
+  "revisions": []
 }
