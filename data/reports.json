@@ -1,7 +1,7 @@
 {
   "version": 6,
-  "last_run": "2026-10-20T22:54:54.871083Z",
-  "last_successful_run": "2026-10-20T22:54:54.871083Z",
+  "last_run": "2026-10-20T22:58:32.872560Z",
+  "last_successful_run": "2026-10-20T22:58:32.872560Z",
   "successful_sources": 30,
   "reports": [
     {
@@ -2182,29 +2182,6 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
-      "id": "b75bb2b7af18a30b6c56175c",
-      "title": "UK expands military support for Saudi Arabia against Houthis with ‘defensive’ air patrols - AP News",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdFpJQjVaX2pPYVMybXM3OEQ4ZzRzNEdpc2FVMldTRTVWaVFNQXZQVkZrRmdLNVpKc1RVeS1sbGIzSDJlNE12QkRMR2UxcC1PZWIwcnJXY0Z4T0hEQkxmWnBrNHpkSFZxaWgzZU5pRGM1cGJVUWRISHFraGJaUFFzRnlHYko4UlJpMmFvMVZLc1lFdw?oc=5",
-      "source": "AP News",
-      "published_at": "2026-10-20T15:56:00Z",
-      "country": "Saudi",
-      "countries": [
-        "Saudi"
-      ],
-      "language": "en",
-      "category": "security",
-      "tag": "SECURITY REPORT",
-      "provider": "AP · indexed Gulf reporting",
-      "first_seen_at": "2026-10-20T12:03:42.847208Z",
-      "date_quality": "publisher-time",
-      "freshness": "recent-reporting",
-      "context": "reporting",
-      "severity": "routine-reporting",
-      "critical_candidate": false,
-      "alert_eligible": false,
-      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
-    },
-    {
       "id": "a9fe28b9ec5d16a6470eea54",
       "title": "مرصد هرمز | الملاحة الأسبوعية تهوي 41%.. والمضيق قد يفقد أهميته خلال 5 سنوات - الشرق بلومبرغ",
       "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxPSjZ5RHlXcUsxem5TZjNCQm42VHdXVFA4UDdzUm9mdkF2Q29pRm11STI5eEFuUjNuMjFfU1R4OFFESUN0bG9QaDZsM094eF82Rks5OUVFUTZXeUlqQzZNS1dOUXJtTmpFSHFoSGRIVDNoVEdpeE8yZ0U2WFh2dnNYdDhvRDg5bmZOSjhGSC1TTXRJS2lLY0ItSFBoazVLd1JoWlpwSVBZLTZqdjkyQzBWX1MtYkxZSzQ4Q21CZm11NkVtZ2V6ZzBKd2daeUtUQTNNNkNzZFhsSVU0dzRhOTVVVTc4NnZ3dlRYTEN2U2dlMUpSa0x3MlYwUHR3S09Qa0otQzBJa3YyajNSNjlONlNTcXQtU1JKWmpkdmt3YXl4SjNCS1RpM2hWSHc3cWZsTjJu?oc=5",
@@ -2409,6 +2386,29 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "c0dec9c7c4b1b647d4ee10ed",
+      "title": "بريطانيا ترسل مقاتلات تايفون لحماية السعودية من الصواريخ والمسيّرات.. تفاصيل المهمة العسكرية - nedaelwatan.com",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQal8yMGlTcUdKZDc0YVI3UHlGUUlhcE5tTWhOQ1FjbGFlLThKdEI4MUl3V1lsd1J6UlJaSl9iVkkwcFZQa3NvSTdzTW1SV1VJcHl0S2pnWHdHdWpKc05kamJmaXNmTEtLQUcxbEdnelNhVXV1REQ2VWl6RGhISl9ZUUQxc0RDeUlH?oc=5",
+      "source": "nedaelwatan.com",
+      "published_at": "2026-10-20T15:21:46Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير عن صواريخ",
+      "provider": "عربي · السعودية",
+      "first_seen_at": "2026-10-20T21:34:46.172984Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "bca0349e78fcfd62a6e9ac27",
       "title": "US came 'very close' to authorizing new Iran strike - Israeli media - Iran International",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8xREV0T2pCRWhseWRiUmRBc1Y2b3BQWEllR2dvZnU2TktMQUpPcXUxbHkta1ZVOHJYdzN3WF90T2NmcmNtVTBjaEZpaGFnTlhjNEE?oc=5",
@@ -2469,29 +2469,6 @@
       "tag": "DIPLOMACY REPORT",
       "provider": "Google News · diplomacy",
       "first_seen_at": "2026-10-20T17:30:36.865670Z",
-      "date_quality": "publisher-time",
-      "freshness": "recent-reporting",
-      "context": "reporting",
-      "severity": "routine-reporting",
-      "critical_candidate": false,
-      "alert_eligible": false,
-      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
-    },
-    {
-      "id": "c0dec9c7c4b1b647d4ee10ed",
-      "title": "بريطانيا ترسل مقاتلات تايفون لحماية السعودية من الصواريخ والمسيّرات.. تفاصيل المهمة العسكرية - nedaelwatan.com",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQal8yMGlTcUdKZDc0YVI3UHlGUUlhcE5tTWhOQ1FjbGFlLThKdEI4MUl3V1lsd1J6UlJaSl9iVkkwcFZQa3NvSTdzTW1SV1VJcHl0S2pnWHdHdWpKc05kamJmaXNmTEtLQUcxbEdnelNhVXV1REQ2VWl6RGhISl9ZUUQxc0RDeUlH?oc=5",
-      "source": "nedaelwatan.com",
-      "published_at": "2026-10-20T15:07:03Z",
-      "country": "Saudi",
-      "countries": [
-        "Saudi"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "تقرير عن صواريخ",
-      "provider": "عربي · السعودية",
-      "first_seen_at": "2026-10-20T21:34:46.172984Z",
       "date_quality": "publisher-time",
       "freshness": "recent-reporting",
       "context": "reporting",
@@ -4418,6 +4395,29 @@
       "provider": "عربي · قطر",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "b75bb2b7af18a30b6c56175c",
+      "title": "UK expands military support for Saudi Arabia against Houthis with ‘defensive’ air patrols - AP News",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdFpJQjVaX2pPYVMybXM3OEQ4ZzRzNEdpc2FVMldTRTVWaVFNQXZQVkZrRmdLNVpKc1RVeS1sbGIzSDJlNE12QkRMR2UxcC1PZWIwcnJXY0Z4T0hEQkxmWnBrNHpkSFZxaWgzZU5pRGM1cGJVUWRISHFraGJaUFFzRnlHYko4UlJpMmFvMVZLc1lFdw?oc=5",
+      "source": "AP News",
+      "published_at": "2026-10-20T11:31:03Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "AP · indexed Gulf reporting",
+      "first_seen_at": "2026-10-20T12:03:42.847208Z",
+      "date_quality": "publisher-time",
       "freshness": "recent-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -8489,6 +8489,30 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "d13fd7af906ebda440f2237a",
+      "title": "العراق يفتح تحقيقاً في هجوم المُسيرات على السعودية ويؤكد رفض استخدام أراضيه للاعتداء على دول الجوار - الساحل الغربي",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1RNFptVV9wUmowV25PeGdHaktyOTRIVGZfM1Q4WUlVTVRGU0t5dkVBRU5haDEyb3IwMXFQeDA2VnE1N09FVUF6NXVRanJVbVk?oc=5",
+      "source": "الساحل الغربي",
+      "published_at": "2026-10-19T20:49:44Z",
+      "country": "",
+      "countries": [
+        "Saudi",
+        "Iraq"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير عن مسيرات",
+      "provider": "عربي · الكويت والعراق",
+      "first_seen_at": "2026-10-20T22:58:32.872560Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "8dc3ec87bbed857e424c37fe",
       "title": "Houthi rebels strike Yemen's government forces, killing at least 53 - WFTV",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPWVdqWjJ1OUFaVXlYQ1BkY2cxRVNjSVlOY0pQV191N2pYbEs0bkdWQzhvT05sWEJVUTVIREZwY3BsUzBPQks4dFVEZ1c3OUk3azZheXdsYVRvRW42bE9ManFNUDQ4a1VHVGRLc3Z2U3FXWkw5NWhqYlNObTFMQUs5M0xLMzh4TjTSAZsBQVVfeXFMTi1ubXlLWUdLTUl6ZG8xeHNTS2dZcnl4endoRldwZk5BZ2VJUVFLR0NRMmJVUHJta0RMWmRTbmFZc0tRYjFoNG1iQ1FjQnd5dHBwWjAyUllXUllTWFdQVTlRVVUtX1lkb1dBTEM1alQ3N1Bmb3p0Z2YxLVcyRVEzZEJsT0tEVEUyRnZMM28xeFplNlZDTVMya1ZvbWM?oc=5",
@@ -10689,6 +10713,30 @@
       "provider": "Google News · security",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "91d4581a1376bf96e2612e5b",
+      "title": "تصعيد إيراني يطول الكويت والبحرين والأردن.. وواشنطن ترد باستهداف ناقلات النفط - الساحل الغربي",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBEbVdfVUxjVGlrN0lvNi1ZcGh4ZER3ZWt2OHViaGZ4WGgwUEZjdDZNTTlvNTFoWk94YVE5RVZLaUxUWmd1LWdNbFR6dDdWZk0?oc=5",
+      "source": "الساحل الغربي",
+      "published_at": "2026-10-19T13:10:02Z",
+      "country": "",
+      "countries": [
+        "Iran",
+        "Kuwait"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "ملاحه بحريه",
+      "provider": "عربي · الإمارات والبحرين",
+      "first_seen_at": "2026-10-20T16:50:50.754226Z",
+      "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -29088,30 +29136,6 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
-      "id": "91d4581a1376bf96e2612e5b",
-      "title": "تصعيد إيراني يطول الكويت والبحرين والأردن.. وواشنطن ترد باستهداف ناقلات النفط - الساحل الغربي",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBEbVdfVUxjVGlrN0lvNi1ZcGh4ZER3ZWt2OHViaGZ4WGgwUEZjdDZNTTlvNTFoWk94YVE5RVZLaUxUWmd1LWdNbFR6dDdWZk0?oc=5",
-      "source": "الساحل الغربي",
-      "published_at": "2026-10-14T16:38:06Z",
-      "country": "",
-      "countries": [
-        "Iran",
-        "Kuwait"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "ملاحه بحريه",
-      "provider": "عربي · الإمارات والبحرين",
-      "first_seen_at": "2026-10-20T16:50:50.754226Z",
-      "date_quality": "publisher-time",
-      "freshness": "older-reporting",
-      "context": "reporting",
-      "severity": "routine-reporting",
-      "critical_candidate": false,
-      "alert_eligible": false,
-      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
-    },
-    {
       "id": "b500ecb8dedaa46603b82bbd",
       "title": "Houthi ballistic missile manufacturing - ArcGIS StoryMaps",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBReG5hQlNDTzNKSGdKaW1PNVdmMGRNWTFoTzJJWTZIbFR4cFZRVERkNDZONHBiYmtlYmQ2TnBQb0pweG5WcHdvREdnSEN6TFo4eTNnRWc5RzdVVTlwdGdfR3hJR3doQks5VU9pSjVUbGdpSHdaZmRrUA?oc=5",
@@ -35349,7 +35373,7 @@
     "Google News · security": {
       "ok": true,
       "items": 100,
-      "relevant": 73
+      "relevant": 72
     },
     "Google News · aviation": {
       "ok": true,
@@ -35364,17 +35388,17 @@
     "Google News · diplomacy": {
       "ok": true,
       "items": 100,
-      "relevant": 52
+      "relevant": 51
     },
     "Google News · regional": {
       "ok": true,
       "items": 55,
-      "relevant": 29
+      "relevant": 28
     },
     "Reuters · indexed Gulf reporting": {
       "ok": true,
       "items": 100,
-      "relevant": 32
+      "relevant": 31
     },
     "AP · indexed Gulf reporting": {
       "ok": true,
@@ -35398,23 +35422,23 @@
     },
     "عربي · قطر": {
       "ok": true,
-      "items": 57,
+      "items": 56,
       "relevant": 25
     },
     "عربي · السعودية": {
       "ok": true,
       "items": 100,
-      "relevant": 52
+      "relevant": 53
     },
     "عربي · الإمارات والبحرين": {
       "ok": true,
-      "items": 63,
-      "relevant": 47
+      "items": 61,
+      "relevant": 46
     },
     "عربي · الكويت والعراق": {
       "ok": true,
-      "items": 50,
-      "relevant": 47
+      "items": 51,
+      "relevant": 48
     },
     "عربي · مضيق هرمز": {
       "ok": true,
@@ -35434,7 +35458,7 @@
     "عربي · الشرق": {
       "ok": true,
       "items": 100,
-      "relevant": 33
+      "relevant": 34
     },
     "عربي · وكالات الخليج": {
       "ok": true,
