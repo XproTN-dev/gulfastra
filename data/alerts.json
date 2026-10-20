@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-20T22:31:17.080153Z",
+  "generated_at": "2026-10-20T22:31:51.060635Z",
   "alerts": [
     {
       "id": "GF-59BE3EBBD1CFD7",
@@ -18,6 +18,27 @@
         {
           "name": "البيان",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5xV2g5c244b0M4dnZTUTNRTnVsZWlnbTlaTDZnWG51ajJmUUFUV0twN1lVSUlCZ3NGaUczZTR5VUM1RWtNZ2VMLUxpMzYtYldtTlZteUl30gFWQVVfeXFMTnFXaDlzbjhvQzh2dlNRM1FOdWxlaWdtOVpMNmdYbnVqMmZRQVRXS3A3WVVJSUJnc0ZpRzNlNHlVQzVFa01nZUwtTGkzNi1iV21OVm15SXc?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-9A2C27B5FFA1DA",
+      "level": "review",
+      "title": "مجلس الأمن السيبراني يعلن التصدي لنحو 750 ألف محاولة هجوم استهدفت قطاعات حيوية بالدولة - الإمارات اليوم",
+      "published_at": "2026-10-20T20:42:54Z",
+      "countries": [
+        "UAE"
+      ],
+      "category": "security",
+      "topic": "regional",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "الإمارات اليوم",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQb3hISXZEYkNIRUs2U0lzTURUbW9xUmx3SDdLS2xOMzZ3cTZ4MHRVNm5VX05hVXBibXpta2Z4azJGV194VmEzSEUwXy1LWlhSZTZhaU5pcldYUmVTMDhvMVIwcEdDUl9zVHlMVHpCOXdvVzJqOWo2cGtaWG5iZ2FkbkpwcVNVWjA0WURiRmlDMF8wYkHSAZMBQVVfeXFMUG94SEl2RGJDSEVLNlNJc01EVG1vcVJsd0g3S0tsTjM2d3E2eDB0VTZuVV9OYVVwYm16bWtmeGsyRldfeFZhM0hFMF8tS1pYUmU2YWlOaXJXWFJlUzA4bzFSMHBHQ1Jfc1R5TFR6Qjl3b1cyajlqNnBrWlhuYmdhZG5KcHFTVVowNFlEYkZpQzBfMGJB?oc=5"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
