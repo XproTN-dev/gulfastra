@@ -13,7 +13,7 @@ function theme(value){
 function mobile(view){
  document.body.classList.toggle("mobile-intel",view==="intel");
  $("app").classList.toggle("mobile-layers",view==="layers");
- $("[data-mobile]").forEach(b=>b.classList.toggle("active",b.dataset.mobile===view));
+ document.querySelectorAll("[data-mobile]").forEach(b=>b.classList.toggle("active",b.dataset.mobile===view));
  // The sliding drawers transform for 200ms. Resize the canvas after the
  // browser has laid out the map, and again after the drawer animation ends.
  requestAnimationFrame(()=>root.GXMap.resize());
