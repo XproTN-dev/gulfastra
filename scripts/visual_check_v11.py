@@ -46,6 +46,11 @@ with sync_playwright() as pw:
         assert "COLLECTED" in page.locator("#freshnessBar").inner_text()
         assert "LATEST ARTICLE" in page.locator("#freshnessBar").inner_text()
         assert "NOT REAL-TIME" in page.locator("#freshnessBar").inner_text()
+        assert page.locator('[data-layer="advisories"]').count()==1,(
+            "Official GDACS layer toggle not rendered")
+        assert page.evaluate("window.GXApp.getState().layers.advisories"),(
+            "Official hazard layer must default to available and enabled")
+
         # A manifest-only refresh must not re-create the intel DOM or reset scroll.
         steady=page.evaluate("""async()=>{
           const stream=document.querySelector('#stream');
