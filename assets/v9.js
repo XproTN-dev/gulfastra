@@ -63,8 +63,15 @@ function ticker(){
  const html=items.map(r=>'<a dir="auto" target="_blank" rel="noopener noreferrer" href="'+esc(validURL(r.url))+'">'+esc(headline(r))+' <small>['+esc(r.source||"SOURCE")+']</small></a>').join("");
  $("v9TickerItems").innerHTML=html?html+html:'NO RECENT PUBLIC REPORTING · ARCHIVE AVAILABLE IN INTEL WIRE';
 }
+function alertCurrent(a){
+ const t=new Date(a.published_at).getTime();
+ const collected=new Date(state.manifest?.collected_at).getTime();
+ // No stale alarms: if collection stops, previously generated alerts expire.
+ return Number.isFinite(t)&&t<=Date.now()+600000&&Date.now()-t<=2*3600000&&
+   (!Number.isFinite(collected)||(collected<=Date.now()+600000&&Date.now()-collected<=30*60000));
+}
 function alertBadge(){
- const critical=state.alerts.filter(a=>a.level==="critical-reporting"&&
+ const critical=state.alerts.filter(a=>alertCurrent(a)&&a.level==="critical-reporting"&&
    (!state.country||(a.countries||[]).includes(state.country)));
  const banner=$("v9CriticalBanner");
  if(!banner)return;
@@ -75,7 +82,7 @@ function alertBadge(){
 function notifyNewAlerts(){
  const channel=window.GulfastraData?.info()?.dataVersions?.["alerts.json"];
  if(!channel||channel==="bundled-fallback"||document.hidden)return;
- const ids=state.alerts.filter(a=>a.level==="critical-reporting").map(a=>a.id);
+ const ids=state.alerts.filter(a=>alertCurrent(a)&&a.level==="critical-reporting").map(a=>a.id);
  const key="gulfastra-alerts-seen-v1";
  let previous=null;
  try{previous=JSON.parse(localStorage.getItem(key)||"null")}catch(_){}
@@ -85,7 +92,7 @@ function notifyNewAlerts(){
   return;
  }
  const seen=new Set(previous),upcoming=state.alerts.filter(a=>
-  a.level==="critical-reporting"&&state.newAlertIds.includes(a.id)&&!seen.has(a.id));
+  alertCurrent(a)&&a.level==="critical-reporting"&&state.newAlertIds.includes(a.id)&&!seen.has(a.id));
  try{localStorage.setItem(key,JSON.stringify([...new Set([...ids,...previous])].slice(0,300)))}catch(_){}
  if(!upcoming.length)return;
  if("Notification" in window&&Notification.permission==="granted"){
@@ -97,7 +104,8 @@ function notifyNewAlerts(){
  }
 }
 function criticalContent(){
- const filtered=state.alerts.filter(a=>!state.country||(a.countries||[]).includes(state.country));
+ const filtered=state.alerts.filter(a=>alertCurrent(a)&&
+  (!state.country||(a.countries||[]).includes(state.country)));
  const serious=filtered.filter(a=>a.level==="critical-reporting");
  const watch=filtered.filter(a=>a.level!=="critical-reporting");
  const entry=a=>{
@@ -110,7 +118,10 @@ function criticalContent(){
  };
  const optIn=("Notification" in window&&Notification.permission!=="granted"&&Notification.permission!=="denied")?
   '<button class="v9-lab-button" data-v9-action="notify-opt-in">ENABLE IN-TAB CRITICAL REPORT NOTIFICATIONS</button>':"";
- return '<p>WARNING: These are newly published, keyword-screened public reports, NOT confirmed incidents, continuous detection, or emergency instructions. Old/historical/speculative headlines cannot trigger this alert feed. Collection is best-effort.</p>'+
+ const collected=state.manifest?.collected_at;
+ const stale=collected&&Date.now()-new Date(collected).getTime()>30*60000;
+ return '<p>'+(stale?'DATA COLLECTION DELAYED — ABSENCE OF ALERTS IS NOT AN ALL-CLEAR. ':'')+
+  'WARNING: These are newly published, keyword-screened public reports, NOT confirmed incidents, continuous detection, or emergency instructions. Old/historical/speculative headlines cannot trigger this alert feed. Collection is best-effort.</p>'+
  optIn+'<h4>'+serious.length+' RECENT MULTI-OUTLET CANDIDATE'+(serious.length===1?"":"S")+'</h4>'+
  (serious.length?serious.map(entry).join(""):'<div class="v9-empty">No qualifying critical public reporting in the latest two-hour window.</div>')+
  (watch.length?'<h4>'+watch.length+' SINGLE-OUTLET ITEMS REQUIRING REVIEW</h4>'+watch.slice(0,12).map(entry).join(""):"");
