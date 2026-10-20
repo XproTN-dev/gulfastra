@@ -9,7 +9,7 @@ from urllib.request import Request, urlopen
 import json
 import os
 ROOT=Path(__file__).resolve().parents[1]
-DEST=ROOT/"data"/"observations.json"
+DEST=Path(os.environ.get("GULFASTRA_DATA_DIR", str(ROOT / "data")))/"observations.json"
 UA="Gulfastra observatory; public environmental context"
 BBOX=(32,10,66,40)  # longitudes 32..66, latitudes 10..40
 
