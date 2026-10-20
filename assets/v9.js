@@ -25,7 +25,7 @@ function maritimeRelevant(record){
  const region=/hormuz|الخليج|هرمز|gulf|iran|إيران|ايران|qatar|قطر|bahrain|البحرين|oman|عمان|emirates|الإمارات|saudi|السعودية|red sea|البحر\s*الأحمر|yemen|اليمن|kuwait|الكويت/i;
  return specific.test(t)||(water.test(t)&&region.test(t));
 }
-const state={reports:[],events:[],sources:{},manifest:null,windows:new Map(),sequence:100,newsLimit:28,newsWindowHours:72,country:"",currentMode:"map",palette:"phosphor",lastError:null,renderSignature:null,alerts:[],newAlertIds:[],alertFeedVersion:null};
+const state={reports:[],events:[],sources:{},manifest:null,windows:new Map(),sequence:100,newsLimit:28,newsWindowHours:72,coverageWindow:"recent",country:"",currentMode:"map",palette:"phosphor",lastError:null,renderSignature:null,alerts:[],newAlertIds:[],alertFeedVersion:null};
 const names={
  wire:{title:"PUBLIC INTELLIGENCE WIRE",icon:"▤",foot:"ORIGINAL PUBLISHED HEADLINES · UNVERIFIED"},
  verify:{title:"EVIDENCE & VERIFICATION",icon:"◈",foot:"SOURCE CORRELATION IS NOT INCIDENT CONFIRMATION"},
@@ -174,7 +174,15 @@ function panelContent(type){
   '<button class="v9-lab-button" data-v9-action="more">LOAD MORE</button>';
  }
  if(type==="verify"){
-  const events=state.events.filter(e=>!state.country||(e.countries||[]).includes(state.country)).slice(0,40);
+  const periods=[["current","ACTIVE COVERAGE / 2H"],["recent","LAST 24H"],["all","ARCHIVE"]];
+  const controls='<div class="v9-verify-links">'+periods.map(([key,label])=>
+   '<button class="v9-lab-button" data-v9-action="coverage-filter" data-window="'+key+'" style="padding:6px;'+
+   (state.coverageWindow===key?'color:var(--cmd-accent);':'')+'">'+label+'</button>').join("")+'</div>';
+  const events=state.events.filter(e=>(!state.country||(e.countries||[]).includes(state.country))&&
+    (state.coverageWindow==="all"||
+     (state.coverageWindow==="current"?Boolean(e.current_reporting):
+      ["new-coverage","developing-coverage","renewed-coverage","recent-coverage"].includes(e.coverage_stage))))
+   .slice(0,40);
   const entries=events.map(e=>{
     const sourceList=Array.isArray(e.sources)?e.sources:[];
     const publisherNames=new Set(sourceList.map(x=>String(x.source||"").trim().toLowerCase()).filter(Boolean));
@@ -185,14 +193,18 @@ function panelContent(type){
     const links=sourceList.filter(x=>/^https:\/\//i.test(x.url||"")).slice(0,5).map(x=>
       '<a href="'+esc(validURL(x.url))+'" target="_blank" rel="noopener noreferrer">'+esc(x.source||"ORIGINAL ARTICLE")+' ↗</a>').join("");
     return '<article class="v9-news v9-verify"><div class="v9-news-top"><span class="v9-tag">'+
-      esc((e.category||"SOURCE").toUpperCase())+'</span><span>'+headlineCount+
+      esc((e.category||"SOURCE").toUpperCase())+'</span><span class="v9-tag">'+
+      esc(String(e.coverage_stage||"publication-time-unknown").replace(/-/g," ").toUpperCase())+
+      '</span><span>'+headlineCount+
       ' REPORT'+(headlineCount===1?"":"S")+' · '+esc(attribution)+'</span>'+review+'</div><h3 dir="auto">'+
       esc(headline(e))+'</h3><small class="v9-news-source">'+esc((e.countries||[]).join(", ")||"REGIONAL")+
-      ' · '+esc(e.corroboration||"UNVERIFIED")+'</small><div class="v9-verify-links">'+
+      ' · '+esc(e.corroboration||"UNVERIFIED")+
+      ' · INCIDENT STATUS '+esc((e.incident_status||"UNKNOWN").toUpperCase())+
+      '</small><div class="v9-verify-links">'+
       (links||'<span>Source URLs not present in this record</span>')+'</div></article>';
   });
-  return '<p>Source-linked candidate coverage groups. Article volume does not prove independent confirmation.</p>'+
-   (entries.length?entries.join(""):'<div class="v9-empty">No candidate coverage records available for this filter.</div>')+
+  return '<p>Publication activity can be new, developing, quiet or archived. It is NOT evidence an incident is currently active or resolved.</p>'+
+   controls+(entries.length?entries.join(""):'<div class="v9-empty">No matching publication coverage. Try LAST 24H or ARCHIVE.</div>')+
    '<button class="v9-lab-button" data-v9-action="verify-full">OPEN COMPLETE EVIDENCE WORKBENCH ↗</button>';
  }
  if(type==="hormuz"){
@@ -205,7 +217,10 @@ function panelContent(type){
  if(type==="alerts")return criticalContent();
  if(type==="sources"){
   const providers=Object.entries(state.sources||{});
-  return '<p>'+providers.filter(([,p])=>p.ok===true).length+' OF '+providers.length+' SOURCES SUCCEEDED AT LAST COLLECTION. Browser data channel: '+
+  const quality=state.manifest?.quality_gate||"unknown";
+  const danger=quality!=="passed"?'<p class="v9-warning">ALERT SYSTEM QUALITY GATE: '+esc(quality.toUpperCase())+
+   '. Critical alert delivery may be disabled; zero alerts is not an all-clear.</p>':"";
+  return danger+'<p>'+providers.filter(([,p])=>p.ok===true).length+' OF '+providers.length+' SOURCES SUCCEEDED AT LAST COLLECTION. Browser data channel: '+
   esc(window.GulfastraData?.info()?.channel||"unknown")+'.</p>'+
   providers.map(([n,p])=>sourceRow(n,p)).join("")+
   '<button class="v9-lab-button" data-v9-action="refresh">RECHECK PUBLIC ARCHIVE ↻</button>';
@@ -283,6 +298,8 @@ function ensurePanel(type){
   if(action==="more"){state.newsLimit+=35;panel.querySelector(".v9-panel-body").innerHTML=panelContent("wire")}
   if(action==="wire-window"){state.newsWindowHours=Number(b.dataset.hours)||0;state.newsLimit=28;
    panel.querySelector(".v9-panel-body").innerHTML=panelContent("wire");panel.querySelector(".v9-panel-body").scrollTop=0}
+  if(action==="coverage-filter"){state.coverageWindow=b.dataset.window||"recent";
+   panel.querySelector(".v9-panel-body").innerHTML=panelContent("verify");panel.querySelector(".v9-panel-body").scrollTop=0}
   if(action==="refresh")reload();
   if(action==="notify-opt-in"&&"Notification" in window&&Notification.permission==="default"){
    Notification.requestPermission().then(()=>{panel.querySelector(".v9-panel-body").innerHTML=panelContent("alerts")});
