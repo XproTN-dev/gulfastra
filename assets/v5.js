@@ -179,7 +179,7 @@ $("fusionView").addEventListener("keydown",e=>{if((e.key==="Enter"||e.key===" ")
 document.querySelector('[data-mobile="fusion"]')?.addEventListener("click",e=>{e.stopImmediatePropagation();open("fusion")},true);
 document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!$("fusionWorkbench").hidden)close();if(e.key==="/"&&!e.ctrlKey&&!e.metaKey&&!["INPUT","TEXTAREA"].includes(e.target.tagName)){e.preventDefault();open("query");$("gfQueryInput")?.focus()}});
 }
-async function init(){loadWatch();bind();await refresh();setInterval(refresh,180000)}
+async function init(){loadWatch();bind();window.addEventListener("gulfastra:data-changed",e=>{if(["events.json","reports.json","revisions.json","observations.json"].includes(e.detail?.name))refresh()});await refresh();setInterval(refresh,180000)}
 if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",init);else init();
 
 })();
