@@ -51,7 +51,7 @@ def country_mentions(value):
     value = normalize_title(value)
     result = []
     for country, arabic in COUNTRY_TOKENS.items():
-        if hits(value, tuple(normalize_title(t) for t in arabic)) or any(re.search(r"(?<![a-z])"+re.escape(t)+r"(?![a-z])",value) for t in EN_COUNTRIES[country]):
+        if any(re.search(r"(?<![\u0600-\u06ff])"+re.escape(normalize_title(t))+r"(?![\u0600-\u06ff])", value) for t in arabic) or any(re.search(r"(?<![a-z])"+re.escape(t)+r"(?![a-z])",value) for t in EN_COUNTRIES[country]):
             result.append(country)
     return result
 
