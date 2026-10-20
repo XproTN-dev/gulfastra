@@ -4,7 +4,7 @@
 const C=root.GXCore;
 let map=null,ready=false,onOpen=null,last=null,globe=false,style="fiord";
 const empty=()=>C.geojson([]);
-const layers=[["observed","#5bdac9",7],["fires","#edab63",6],["outages","#b7a0ef",10],["reference","#8eacc7",5],["coverage","#678fd6",14]];
+const layers=[["observed","#5bdac9",7],["fires","#edab63",6],["advisories","#efd07f",8],["outages","#b7a0ef",10],["reference","#8eacc7",5],["coverage","#678fd6",14]];
 function ensure(){
  if(!map)return;
  for(const [kind,color,radius] of layers){
@@ -22,7 +22,7 @@ function ensure(){
 function update(opts){
  last=opts;
  if(!ready||!map)return;
- const {reports,observations,layers:enabled,country}=opts;
+ const {reports,observations,advisories=[],layers:enabled,country}=opts;
  const observedAll=C.observedPoints(observations,enabled);
  const observed=observedAll.filter(o=>o.kind!=="thermal-detection");
  const fires=observedAll.filter(o=>o.kind==="thermal-detection");
@@ -37,20 +37,24 @@ function update(opts){
    });
   }
  }
+ const regionAdvisories=enabled.advisories?advisories.map(e=>{
+    const loc=C.coords(e);return loc?{id:e.id,coords:loc,name:e.title,kind:"advisory",country:""}:null
+  }).filter(Boolean):[];
  const coverage=enabled.coverage?C.countryCoverage(reports):[];
  const reference=C.staticFacilities(enabled,country);
- const payload={observed,fires,outages,coverage,reference};
+ const payload={observed,fires,advisories:regionAdvisories,outages,coverage,reference};
  for(const [kind,rows] of Object.entries(payload)){
   const src=map.getSource("gx-"+kind);if(src)src.setData(C.geojson(rows));
  }
 }
 function pick(e){
  if(!map||!onOpen)return;
- const names=["gx-observed-dot","gx-fires-dot","gx-outages-dot","gx-reference-dot","gx-coverage-dot"].filter(id=>map.getLayer(id));
+ const names=["gx-observed-dot","gx-fires-dot","gx-advisories-dot","gx-outages-dot","gx-reference-dot","gx-coverage-dot"].filter(id=>map.getLayer(id));
  const matches=map.queryRenderedFeatures(e.point,{layers:names});
  if(!matches.length)return;
  const item=matches[0],p=item.properties||{};
  if(item.layer.id.includes("observed")||item.layer.id.includes("fires")||item.layer.id.includes("outages"))onOpen("observation",p.id);
+ if(item.layer.id.includes("advisories"))onOpen("advisory",p.id);
  if(item.layer.id.includes("reference"))onOpen("facility",p.id);
  if(item.layer.id.includes("coverage"))onOpen("country",p.country);
 }
@@ -66,7 +70,7 @@ function init(callback,settings){
   map.on("style.load",ensure);
   map.on("click",pick);
   map.on("mousemove",e=>{
-   const active=["gx-observed-dot","gx-fires-dot","gx-outages-dot","gx-reference-dot","gx-coverage-dot"].filter(id=>map.getLayer(id));
+   const active=["gx-observed-dot","gx-fires-dot","gx-advisories-dot","gx-outages-dot","gx-reference-dot","gx-coverage-dot"].filter(id=>map.getLayer(id));
    map.getCanvas().style.cursor=map.queryRenderedFeatures(e.point,{layers:active}).length?"pointer":"";
   });
   let failures=0;
