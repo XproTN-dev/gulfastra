@@ -1,3 +1,25 @@
+## Command View v9 — bugfix and stability pass (20 October 2026)
+
+Audited the user-provided desktop recording and exercised the application with real Playwright desktop (1600×960) and mobile (390×844) browser tests.
+
+**Issues fixed:**
+- The source-health status now uses explicit **MIN AGO / HR AGO** wording and labels stale collection separately from the time of a published article. The video showed 12 minutes, not 12 hours.
+- The **evidence review** pane now uses the archive's actual `sources[]` and publisher metadata, displays named-outlet counts conservatively, exposes original source links and flags wording that requires human review.
+- Arabic and English display titles no longer repeat a trailing publisher suffix when it matches the independently stored source byline. The archived title remains unchanged.
+- The **Hormuz** filter rejects unrelated article titles that happen to mention the word Hormuz without maritime context; results are labeled as keyword matches, not verified sea incidents.
+- Up to four desktop floating windows auto-tile to avoid overlap. A **TILE WINDOWS** control restores the arrangement. On mobile, opening a new workspace replaces the prior one.
+- Floating windows start below the top status bar, allowing their close, drag, front and resize controls to remain reachable. Bring-to-front is now wired.
+- Open windows preserve scroll position and headline ticker playback on routine 30-second polling. Only actual archive version changes trigger redraw.
+- The GitHub branch loader sends **data-changed** events for newly available archive hashes, including subsequent scheduled fetches; it does not invent a WebSocket feed.
+- Mobile now has a **TOOLS** menu containing source diagnostics, security reporting, publication timeline and analyst lab.
+- The default timeline plots only the past 14 calendar days, excluding misleading historic outliers from the default chart while retaining the archive.
+- Timeline bars, evidence source buttons, and warnings now have explicit responsive styles.
+
+**Test gates:** authentic article links, map marker-coordinate agreement with geographic reference centers, Arabic directionality, non-overlapping desktop windows, one mobile window, evidence URLs and publisher counts, source diagnostics, timeline bars, actual MapLibre globe projection, country search, navigation, palette selection, news ticker, full Fusion query workspace and absence of browser JavaScript errors.
+
+**Known limitations:** Github Actions scheduling remains best effort, external publishers and APIs can be delayed or rate-limited, and no site can guarantee verification merely from multiple headlines. GitHub Pages still hosts frontend code; news data is on `intelligence-data` with CDN propagation delays. No operational military or real-time asset tracking has been introduced.
+
+
 ## Command View 09 — Immersive map-first interface
 
 Built in response to the user's supplied visual reference (World Monitor-style global map with movable intelligence windows). This is an **independently implemented** interface using the existing MapLibre basemap and Gulfastra's existing source dataset; no proprietary source code or data is copied.
