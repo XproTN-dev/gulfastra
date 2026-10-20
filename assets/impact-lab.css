@@ -37,3 +37,12 @@ body{font:12px/1.5 "DM Sans",sans-serif}button,input,select{font:inherit}button{
  .lab-app.context-open .lab-context{transform:translateY(0)!important}
  .lab-app.filters-open .lab-controls{transform:translateX(0)!important}
 }
+
+.graph-zoom{position:absolute;top:10px;right:10px;display:flex;gap:5px;z-index:4}
+.graph-zoom button{background:#0e253ccf;border:1px solid #405d79;border-radius:6px;
+ min-width:31px;min-height:31px;color:var(--blue);font:17px "DM Sans",sans-serif}
+.graph-zoom button:hover{border-color:var(--blue)}
+@media(max-width:650px){
+ .graph-zoom{top:auto;bottom:30px;right:10px}
+ .graph-zoom button{min-width:39px;min-height:39px}
+}
