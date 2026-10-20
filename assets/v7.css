@@ -1,0 +1,35 @@
+/* Gulfastra NEXUS v7.0 — evidence-first newsroom and GitHub data channel. */
+.fusion-ribbon-label b{color:#86ead4;font-weight:800}
+.fusion-ribbon-actions button[data-gf-open="wire"],
+.fusion-ribbon-actions button[data-gf-open="verify"],
+.fusion-ribbon-actions button[data-gf-open="hormuz"]{background:#164056;color:#c0f3ed;border:1px solid #37697b;letter-spacing:.3px}
+.fusion-ribbon-actions button[data-gf-open="wire"]:hover,
+.fusion-ribbon-actions button[data-gf-open="verify"]:hover,
+.fusion-ribbon-actions button[data-gf-open="hormuz"]:hover{background:#205268;color:#ecfffb}
+.fusion-ribbon-actions{max-width:100%}
+.fusion-workbench-nav button[data-gf-page="wire"] span,
+.fusion-workbench-nav button[data-gf-page="verify"] span,
+.fusion-workbench-nav button[data-gf-page="hormuz"] span{color:#6fdec7}
+.gf-wire-kinds{display:flex;gap:7px;flex-wrap:wrap;margin:0 0 13px}
+.gf-wire-kinds span{display:flex;align-items:center;gap:8px;font:600 9px "IBM Plex Mono",monospace;color:#8bb8cd;background:#102e41;border:1px solid #315a73;padding:8px 11px;border-radius:4px}
+.gf-wire-kinds b{color:#e5f7ff;font-size:13px}
+.gf-wire-item{background:linear-gradient(110deg,#0d2638,#0b2032);border:1px solid #24485f;border-left:3px solid #4bb7d4;border-radius:5px;padding:13px 15px;margin-bottom:8px}
+.gf-wire-item:hover{border-color:#407e93;background:#13374b}
+.gf-wire-item h4{font-size:13px;color:#e8f4fa;font-weight:600;line-height:1.6;margin:10px 0 8px;unicode-bidi:plaintext}
+.gf-wire-item h4:dir(rtl){font-family:Tahoma,Arial,sans-serif;direction:rtl;text-align:right;font-size:16px;line-height:1.95}
+.gf-wire-item .gf-source-link{display:inline-block;padding:8px 0 2px;font:600 9px "IBM Plex Mono",monospace;letter-spacing:.4px}
+.gf-wire-item .gf-event-foot{gap:8px 15px}
+.gf-hormuz-item{padding:12px 6px;align-items:center;flex-wrap:wrap;gap:6px}
+.gf-hormuz-item>span:first-child{line-height:1.65;min-width:150px;flex:1 1 55%;font-size:12px;color:#d8edf8}
+.gf-hormuz-item>span:first-child:dir(rtl){text-align:right;font-size:14px;line-height:1.85}
+.gf-hormuz-item .gf-source-link{font:600 9px "IBM Plex Mono",monospace}
+@media(max-width:850px){
+ .fusion-ribbon-actions{gap:3px}
+ .fusion-ribbon-actions button{font-size:8px;letter-spacing:0;padding:8px 7px}
+ .gf-wire-item{padding:12px}
+ .gf-wire-item h4{font-size:12px}
+}
+@media(max-width:450px){
+ .fusion-ribbon-actions{justify-content:flex-start}
+ .fusion-ribbon-actions button{padding:8px 6px;font-size:8px}
+}
