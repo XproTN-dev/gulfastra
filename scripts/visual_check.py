@@ -61,6 +61,18 @@ with sync_playwright() as pw:
         if label=="desktop":
             assert old_map_height < 0.47*height,f"Desktop map consumes too much height: {old_map_height}"
         print(label,"compact_map_px",round(old_map_height),"expanded_px",round(expanded_height),"highlights",page.locator("#v6Briefs .intel-card").count())
+        # NEXUS v7 checks — site is useful immediately, even if raw CDN is delayed
+        assert page.evaluate("!!window.GulfastraData"),"Missing isolated GitHub data loader"
+        status=page.evaluate("window.GulfastraData.info()")
+        print(label,"data channel",status["channel"],"manifest",bool(status.get("manifest")),"error",status.get("error"))
+        page.locator('[data-gf-open="wire"]').click()
+        assert page.locator("#fusionWorkbench").is_visible(),"NEXUS Wire failed to open"
+        assert page.locator("#fusionView .gf-wire-item").count()>0,"Original Arabic/English wire is empty"
+        page.locator('[data-gf-page="verify"]').click()
+        assert page.locator("#fusionView .gf-event").count()>0,"Verification dossier selection empty"
+        page.locator('[data-gf-page="hormuz"]').click()
+        assert "UKMTO" in page.locator("#fusionView").inner_text(),"Maritime source context missing"
+        page.locator("#gfClose").click()
         page.wait_for_selector("#fusionHealth",state="attached")
         assert page.locator('[data-gf-open="fusion"]').count() >= 1
         page.locator('[data-gf-open="fusion"]').first.click()
