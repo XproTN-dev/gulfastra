@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@6.15.0/dist/maplibre-gl.css">
-<link rel="stylesheet" href="../assets/command11.css?v=11-1">
+<link rel="stylesheet" href="../assets/command11.css?v=11-2">
 </head><body data-theme="midnight">
 <div id="app" class="app">
 <header class="topbar">
@@ -21,7 +21,7 @@
   <button data-workspace="hazards">HAZARDS</button>
   <button data-workspace="analyst">ANALYST LAB</button>
  </nav>
- <div class="top-actions"><span id="utc" class="mono utc">--:-- UTC</span><button id="commandButton" class="circle" aria-label="Search or command">⌕</button><button id="languageButton" class="tiny" aria-label="Toggle Arabic and English">ع / EN</button><button id="settingsButton" class="circle" aria-label="Appearance settings">⚙</button><a class="legacy" href="../" title="Return to previous GULFASTRA version">V9 ↗</a></div>
+ <div class="top-actions"><span id="utc" class="mono utc">--:-- UTC</span><button id="commandButton" class="circle" aria-label="Search or command">⌕</button><button id="languageButton" class="tiny" aria-label="Toggle Arabic and English">ع / EN</button><button id="settingsButton" class="circle" aria-label="Appearance settings">⚙</button><a class="legacy" href="../legacy-v9.html" title="Return to previous GULFASTRA version">V9 ↗</a></div>
 </header>
 <section class="metrics" aria-label="Source reporting summary">
  <div><span>DATA CHANNEL</span><strong id="metricChannel">CONNECTING</strong><small id="metricChannelSub">Checking GitHub data branch</small></div>
@@ -81,13 +81,13 @@
 <div id="dossierBackdrop" class="backdrop" hidden></div>
 <aside id="dossier" class="dossier" role="dialog" aria-modal="true" aria-label="Evidence dossier" hidden><header><div><span class="eyebrow">EVIDENCE / PUBLIC RECORD</span><h2 id="dossierTitle">SOURCE RECORD</h2></div><button id="dossierClose" aria-label="Close evidence dossier">✕</button></header><div id="dossierContent" class="dossier-body"></div></aside>
 <div id="commandOverlay" class="overlay" hidden role="dialog" aria-label="Search and commands" aria-modal="true"><div class="command-modal"><div class="command-input"><span>⌕</span><input id="globalSearch" placeholder="Search headlines, countries, sources, commands…" autocomplete="off"><button id="commandClose">ESC</button></div><div id="commandResults" class="command-results"></div><div class="command-help">ENTER OPEN · ↑ ↓ NAVIGATE · ESC CLOSE · CTRL+K</div></div></div>
-<div id="settingsOverlay" class="overlay" hidden role="dialog" aria-label="Settings" aria-modal="true"><div class="settings-modal"><header><h2>COMMAND CENTER SETTINGS</h2><button id="settingsClose">✕</button></header><p>APPEARANCE</p><div class="theme-choices"><button data-theme-choice="midnight">MIDNIGHT / NAVY</button><button data-theme-choice="obsidian">OBSIDIAN / CARBON</button><button data-theme-choice="sand">ATLAS / SAND</button></div><p>MAP</p><button id="densityButton" class="linebutton">COMPACT / SPACIOUS LAYOUT</button><button id="notificationButton" class="linebutton">ENABLE OPT-IN CRITICAL REPORT NOTIFICATIONS</button><p>DATA INTEGRITY</p><small>GitHub-hosted public reporting is best effort. Alerts are not official emergency guidance. Optional integrations only render real records when enabled.</small><a href="../" class="linebutton">OPEN LEGACY V9 ↗</a></div></div>
+<div id="settingsOverlay" class="overlay" hidden role="dialog" aria-label="Settings" aria-modal="true"><div class="settings-modal"><header><h2>COMMAND CENTER SETTINGS</h2><button id="settingsClose">✕</button></header><p>APPEARANCE</p><div class="theme-choices"><button data-theme-choice="midnight">MIDNIGHT / NAVY</button><button data-theme-choice="obsidian">OBSIDIAN / CARBON</button><button data-theme-choice="sand">ATLAS / SAND</button></div><p>MAP</p><button id="densityButton" class="linebutton">COMPACT / SPACIOUS LAYOUT</button><button id="notificationButton" class="linebutton">ENABLE OPT-IN CRITICAL REPORT NOTIFICATIONS</button><p>DATA INTEGRITY</p><small>GitHub-hosted public reporting is best effort. Alerts are not official emergency guidance. Optional integrations only render real records when enabled.</small><a href="../legacy-v9.html" class="linebutton">OPEN LEGACY V9 ↗</a></div></div>
 <div id="toast" class="toast" role="status" aria-live="polite"></div>
 </div>
 <script defer src="https://unpkg.com/maplibre-gl@6.15.0/dist/maplibre-gl.js"></script>
-<script defer src="../assets/command11-core.js?v=11-1"></script>
-<script defer src="../assets/command11-map.js?v=11-1"></script>
-<script defer src="../assets/command11-stream.js?v=11-1"></script>
-<script defer src="../assets/command11-extra.js?v=11-1"></script>
-<script defer src="../assets/command11.js?v=11-1"></script>
+<script defer src="../assets/command11-core.js?v=11-2"></script>
+<script defer src="../assets/command11-map.js?v=11-2"></script>
+<script defer src="../assets/command11-stream.js?v=11-2"></script>
+<script defer src="../assets/command11-extra.js?v=11-2"></script>
+<script defer src="../assets/command11.js?v=11-2"></script>
 </body></html>
