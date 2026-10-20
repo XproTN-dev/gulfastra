@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#060c15">
+<meta name="theme-color" content="#ecf2f3">
 <meta name="description" content="Gulfastra: Gulf public-source intelligence reporting and geographic monitoring dashboard.">
 <title>Gulfastra | Gulf Intelligence Observatory</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,13 +13,14 @@
 <link rel="stylesheet" href="assets/v5.css?v=5-1">
 <link rel="stylesheet" href="assets/v6.css?v=6-2">
 <link rel="stylesheet" href="assets/v7.css?v=7-2">
+<link rel="stylesheet" href="assets/v8.css?v=8-1">
 </head>
 <body>
 <div class="shell" id="shell">
 <header class="globalbar">
- <div class="brandblock"><span class="brand-emblem"><i></i></span><div><span class="brandname">GULF<span>ASTRA</span></span><span class="brandsub">REGIONAL INTELLIGENCE OBSERVATORY</span></div></div>
+ <div class="brandblock"><span class="brand-emblem"><i></i></span><div><span class="brandname">GULF<span>ASTRA</span></span><span class="brandsub">REGIONAL INTELLIGENCE DESK</span></div></div>
  <div class="head-separator"></div><div class="operation-name"><span class="head-dot"></span><span>GULF SITUATION ROOM</span><small>PUBLIC-SOURCE ANALYSIS</small></div>
- <div class="header-actions"><span class="lastupdated" id="headerUpdated">AWAITING SOURCE STATUS</span><span class="v6-pulse" id="v6Pulse" title="Last completed Github collection">FEED CHECKING</span><span class="utc-clock" id="utc">--:--:-- UTC</span><button class="headbtn" id="sync" title="Reload data" aria-label="Reload published dataset">↻</button><button class="headbtn" id="v6Theme" title="Change dashboard theme" aria-label="Change dashboard theme">◐</button><button class="headbtn" id="openHelp" title="Methodology" aria-label="About this dashboard">ⓘ</button></div>
+ <div class="header-actions"><span class="lastupdated" id="headerUpdated">AWAITING SOURCE STATUS</span><span class="v6-pulse" id="v6Pulse" title="Last completed Github collection">FEED CHECKING</span><span class="utc-clock" id="utc">--:--:-- UTC</span><button class="headbtn" id="sync" title="Reload data" aria-label="Reload published dataset">↻</button><button class="headbtn theme-launch" id="v6Theme" title="Open appearance studio" aria-label="Open appearance studio"><span class="theme-launch-icon">◉</span><span class="theme-launch-text">APPEARANCE</span></button><button class="headbtn" id="openHelp" title="Methodology" aria-label="About this dashboard">ⓘ</button></div>
 </header>
 <section class="commandband" aria-label="Reported intelligence indicators">
  <div class="command-metric"><span class="metric-icon blue">◉</span><div class="metric-data"><span class="metric-label">REPORTS ARCHIVED</span><div class="metric-line"><strong id="mTotal">—</strong><small>PUBLIC HEADLINES</small></div></div></div>
@@ -45,7 +46,7 @@
 </nav>
 <div class="workspace">
 <aside class="controlpanel" id="controlpanel">
- <div class="panel-head"><span class="panel-eyebrow">01 / COMMAND CONTROLS</span><button class="closemobile" id="closeLayers" aria-label="Close filters">✕</button></div>
+ <div class="panel-head"><span class="panel-eyebrow">FILTERS / REPORT EXPLORER</span><button class="closemobile" id="closeLayers" aria-label="Close filters">✕</button></div>
  <div class="panel-block"><div class="form-label">AREA OF INTEREST</div><div class="selectwrap"><select id="country"><option value="">All countries</option></select></div></div>
  <div class="panel-block"><div class="form-label">REPORT CATEGORIES <span id="layerCount">ALL ON</span></div><div class="layer-list" id="layers"></div></div>
  <div class="panel-block"><div class="form-label">TIME PERIOD</div><div class="chipset" id="windows"><button data-hours="24" class="active">24H</button><button data-hours="72">72H</button><button data-hours="168">7D</button><button data-hours="0">ALL</button></div></div>
@@ -54,7 +55,7 @@
  <div class="scope-note"><span class="scope-title">◈ DATA INTERPRETATION</span><p>Markers show the country mentioned in reporting, not exact incident coordinates. Headlines are allegations or accounts until independently verified.</p></div>
 </aside>
 <main class="map-column" id="mapColumn">
- <div class="map-head"><div class="map-title"><span class="map-label">THEATER OVERVIEW <em>/</em> GULF REGION</span><h1>Regional Situation Map</h1></div><div class="map-menu"><button class="map-tool" id="v6ExpandMap" title="Expand or reduce the geographic workspace" aria-pressed="false">⛶ EXPAND</button><button class="map-tool" id="mapRecenter">◎ FOCUS GULF</button><button class="map-tool" id="mapStyle">◈ LIGHT MAP</button></div></div>
+ <div class="map-head"><div class="map-title"><span class="map-label">REGIONAL REFERENCE / COUNTRIES MENTIONED</span><h1>Gulf situation map</h1></div><div class="map-menu"><button class="map-tool" id="v6ExpandMap" title="Expand or reduce the geographic workspace" aria-pressed="false">⛶ EXPAND</button><button class="map-tool" id="mapRecenter">◎ FOCUS GULF</button><button class="map-tool" id="mapStyle">◈ LIGHT MAP</button></div></div>
  <div class="map-stage" id="mapStage">
   <div id="map" role="application" aria-label="Interactive Gulf geographic reporting map"></div>
   <div class="map-grid" aria-hidden="true"></div>
@@ -68,7 +69,7 @@
  <div class="bottom-map-status"><span>◈ <strong>GULFASTRA</strong> OPEN SOURCE MONITOR</span><span id="mapFooter">Published source data only · not emergency guidance</span></div>
 </main>
 <aside class="feedpanel" id="feedpanel">
- <div class="feed-head"><div><span class="panel-eyebrow">02 / SIGNAL DESK</span><h2>Intelligence Feed</h2></div><span class="report-count" id="feedCount">—</span></div>
+ <div class="feed-head"><div><span class="panel-eyebrow">THE WIRE / SOURCE-LED COVERAGE</span><h2>Regional intelligence <em>wire</em></h2><p class="feed-deck">Developments across the Gulf, tracked through published sources—not simulated events.</p></div><div class="feed-head-actions"><button id="v8Filters" class="v8-filter-trigger" aria-label="Open report filters">☷ <span>FILTERS</span></button><span class="report-count" id="feedCount">—</span></div></div>
  <div class="feed-tools"><div class="feed-tabs" id="feedTabs"><button data-mode="all" class="active">ALL</button><button data-mode="security">SECURITY</button><button data-mode="transport">DISRUPTION</button></div><button class="alerts-button" id="alertToggle" title="Open alert center">♧ <span id="alertUnread">0</span></button></div>
  <div class="language-tools"><div id="languageTabs" class="language-tabs" role="group" aria-label="News language"><button data-lang="all" class="active">ALL</button><button data-lang="ar">عربي</button><button data-lang="en">ENGLISH</button></div><div class="discovery-tools"><button id="openNabd" title="Nabd Arabic news sources">نبض NABD ↗</button><button id="openXWatch" title="X regional news watch">X WATCH ↗</button></div></div>
  <div class="feed-meta"><span><i class="live-dot"></i> PUBLICATION STREAM</span><span id="feedUpdated">WAITING FOR DATA</span></div>
@@ -77,6 +78,18 @@
 </aside>
 </div>
 <nav class="mobile-nav" aria-label="Mobile navigation"><button class="active" data-mobile="map">◎<span>MAP</span></button><button data-mobile="reports">▤<span>REPORTS</span></button><button data-mobile="filters">☷<span>FILTERS</span></button><button data-mobile="alerts">♧<span>ALERTS</span></button><button data-mobile="fusion">◈<span>FUSION</span></button></nav>
+<section class="v8-theme-studio" id="v8ThemeStudio" hidden role="dialog" aria-modal="true" aria-labelledby="v8ThemeTitle">
+  <div class="v8-studio-backdrop" data-close-theme></div>
+  <div class="v8-studio-panel">
+    <div class="v8-studio-head"><div><span class="v8-eyebrow">PERSONALIZE YOUR WORKSPACE</span><h2 id="v8ThemeTitle">Appearance studio</h2><p>Choose a complete interface identity. Your preference is saved on this device.</p></div><button id="v8ThemeClose" aria-label="Close appearance studio">✕</button></div>
+    <div class="v8-theme-grid">
+      <button class="v8-theme-card" data-v8-theme="atlas" aria-pressed="false"><span class="v8-theme-preview preview-atlas"><i class="p-rail"></i><i class="p-head"></i><i class="p-one"></i><i class="p-two"></i><i class="p-map"></i></span><span class="v8-theme-card-copy"><strong>01 / ATLAS</strong><small>Warm editorial · paper and ocean blue</small></span><span class="v8-theme-tick">✓</span></button>
+      <button class="v8-theme-card" data-v8-theme="nocturne" aria-pressed="false"><span class="v8-theme-preview preview-nocturne"><i class="p-rail"></i><i class="p-head"></i><i class="p-one"></i><i class="p-two"></i><i class="p-map"></i></span><span class="v8-theme-card-copy"><strong>02 / NOCTURNE</strong><small>Midnight intelligence · deep navy and teal</small></span><span class="v8-theme-tick">✓</span></button>
+      <button class="v8-theme-card" data-v8-theme="terminal" aria-pressed="false"><span class="v8-theme-preview preview-terminal"><i class="p-rail"></i><i class="p-head"></i><i class="p-one"></i><i class="p-two"></i><i class="p-map"></i></span><span class="v8-theme-card-copy"><strong>03 / TERMINAL</strong><small>Minimal ops console · carbon and phosphor</small></span><span class="v8-theme-tick">✓</span></button>
+    </div>
+    <div class="v8-studio-foot"><span>NO PAGE RELOAD REQUIRED</span><button id="v8ThemeDone">CLOSE STUDIO ↗</button></div>
+  </div>
+</section>
 <div class="modal-backdrop" id="backdrop" hidden></div>
 <section class="drawer" id="drawer" aria-hidden="true"><div class="drawer-top"><span class="panel-eyebrow" id="drawerTag">SOURCE DETAIL</span><button id="drawerClose" aria-label="Close detail">✕</button></div><div id="drawerContent"></div></section>
 <div class="fusion-workbench" id="fusionWorkbench" hidden>
@@ -108,5 +121,6 @@ await import("./assets/v7-data.js?v=7-3");
 await import("./assets/v3.js?v=7-2");
 await import("./assets/v5.js?v=7-4");
 await import("./assets/v6.js?v=7-3");
+await import("./assets/v8.js?v=8-1");
 </script>
 </body></html>
