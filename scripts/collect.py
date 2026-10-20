@@ -3,7 +3,7 @@
 Headlines are not independent confirmation of any reported event.
 """
 from __future__ import annotations
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from email.utils import parsedate_to_datetime
 from hashlib import sha256
 from pathlib import Path
@@ -144,7 +144,7 @@ def record(title, link, published, outlet, provider, *, date_quality="publisher-
         return None
     dt = when(published)
     # Reject clock errors and wildly future-dated articles before indexing them.
-    if not dt or dt > TODAY + __import__("datetime").timedelta(minutes=10):
+    if not dt or dt > TODAY + timedelta(minutes=10):
         return None
     key = sha256(clean.encode("utf-8")).hexdigest()[:24]
     quality = assess(title, published, TODAY)
@@ -173,7 +173,10 @@ def add_rss(name, url, seen, statuses):
                 for elem in item.findall(atom+"link"):
                     if elem.get("rel","alternate")=="alternate" and elem.get("href","").startswith("https://"):
                         link=elem.get("href","");break
-            date = published_date(item.findtext("pubDate") or item.findtext(atom+"published") or item.findtext(atom+"updated"))
+            raw_date=item.findtext("pubDate") or item.findtext(atom+"published") or item.findtext(atom+"updated")
+            date=published_date(raw_date)
+            if not date and when(raw_date):
+                date=when(raw_date).isoformat().replace("+00:00","Z")
             if not date:
                 # Some RDF feeds expose ISO 8601 dc:date, not RFC2822.
                 raw=item.findtext("{http://purl.org/dc/elements/1.1/}date")
@@ -262,7 +265,7 @@ def main():
     # erasing independent named outlets or merging distinct stories across days.
     unique={}
     for item in sorted(seen.values(),key=lambda x:x.get("published_at",""),reverse=True):
-        pub=re.sub(r"[^\\w]+","",str(item.get("source","")).casefold())
+        pub=re.sub(r"[^\w]+","",str(item.get("source","")).casefold())
         time_bucket=(item.get("published_at") or "")[:10]
         headline=normalized_title(item.get("title"))
         key=(pub,headline,time_bucket) if len(headline)>15 else (item["id"],)
