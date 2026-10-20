@@ -1,3 +1,21 @@
+## Edition 08 — interface rebuild and appearance studio
+
+The default application is now **news-first** rather than map-first. A dedicated desktop navigation rail sits beside an evidence-centric newsroom and a smaller secondary map. On phones, the original source headlines appear ahead of the map, while filters remain available through an overlay. The desktop map remains expandable. The same original Arabic/English reports, Fusion dossiers, NEXUS Wire, Verify, Hormuz, Replay, query console and GitHub-only public data branch continue to work.
+
+**Three complete visual styles** are available via the header **APPEARANCE** control:
+
+- **Atlas** — light editorial interface, white reporting panels, marine/navy navigation, bright regional map.
+- **Nocturne** — high-contrast dark navy intelligence operations layout with restrained teal.
+- **Terminal** — minimal dark-carbon technical workspace with phosphor accents and monospaced treatments.
+
+Appearance Studio shows visual previews, indicates the selected theme, applies changes without a page reload, supports Escape and keyboard focus, and remembers the choice in the browser.
+
+The site uses `assets/v8.css` and `assets/v8.js` for the new visual system. Earlier data loaders and map controls are preserved rather than replaced, and the old one-click theme cycling is disabled.
+
+**Accessibility and accuracy:** original Arabic titles preserve right-to-left rendering, source links remain intact, map pins are explicitly country-reference counts rather than exact incident coordinates, and the page distinguishes fresh GitHub-branch content from a bundled snapshot fallback.
+
+Automated Playwright checks cover both desktop and mobile: news placement before/alongside the map, three theme selections, the appearance dialog, map expand/restore, country-marker coordinates, original source news, Arabic rendering, Fusion/NEXUS workbenches and JavaScript errors. Actual screenshots of each theme are saved as workflow artifacts.
+
 # Gulfastra — Gulf Public Intelligence Observatory
 
 A free, public-source regional news monitoring dashboard hosted on GitHub Pages.
