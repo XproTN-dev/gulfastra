@@ -116,3 +116,19 @@ body[data-gf-theme="slate"] .report,body[data-gf-theme="slate"] .intel-card{back
 @media(max-width:1150px) and (min-width:851px){.workspace{grid-template-columns:196px minmax(320px,1fr) 335px}.metric-line strong{font-size:26px}.metric-icon{display:none}.fusion-ribbon-label{display:none}.v6-pulse{display:none}.map-head{padding:8px}.map-tool{padding:7px;font-size:8px}.intel-briefs{grid-template-columns:repeat(2,minmax(0,1fr))}.intel-card:nth-child(3){display:none}}
 @media(max-width:850px){.shell{height:auto;min-height:100dvh;overflow:visible}.globalbar{height:61px;min-height:61px}.commandband{height:80px}.fusion-ribbon{height:48px}.workspace{height:auto;overflow:visible;display:flex;flex-direction:column}.map-column{overflow:visible}.map-head{height:65px;padding:10px 12px}.map-stage{height:clamp(315px,42svh,480px);min-height:315px;flex:none}.activity-panel{height:100px}.intel-briefing{flex:none;min-height:108px;padding:12px 10px}.intel-briefs{display:flex;overflow-x:auto;height:75px;gap:8px}.intel-card{min-width:min(270px,75vw);max-width:270px;padding:10px}.map-column.v6-expanded .map-stage{height:72svh;max-height:none;flex:none;min-height:390px}.controlpanel{overflow-y:auto;height:100dvh}.feedpanel{height:auto;max-height:none;min-height:440px}.feed-list{max-height:540px!important;min-height:260px}.v6-pulse{display:none}.bottom-map-status{display:flex}.fusion-ribbon-actions button{padding:8px 6px}}
 @media(max-width:420px){.map-menu{gap:3px}.map-menu .map-tool{font-size:8px;padding:7px 5px}.map-menu #mapStyle{display:none}.map-title h1{font-size:18px}.map-label{font-size:7px}.metric-line strong{font-size:28px}}
+
+/* Final density pass after actual desktop/mobile Chromium captures. */
+.intel-card{text-decoration:none;justify-content:flex-start}
+.intel-card:after{content:"READ ORIGINAL SOURCE ↗";margin-top:auto;padding-top:6px;color:#65b9d0;font:600 8px "IBM Plex Mono",monospace;letter-spacing:.45px}
+.intel-card strong{font-size:11px;line-height:1.55;-webkit-line-clamp:3}
+.intel-briefing{background:linear-gradient(180deg,#0b2131,#091c29)}
+.report h3{letter-spacing:.02px}
+@media(max-width:850px){
+.map-stage{height:clamp(255px,33svh,370px);min-height:255px}
+.activity-panel{display:none}
+.intel-briefing{height:109px;min-height:109px;overflow:hidden}
+.intel-briefs{height:72px}
+.intel-card{height:71px;min-height:71px}
+.map-column.v6-expanded .map-stage{height:72svh;min-height:390px}
+.map-column.v6-expanded .intel-briefing{display:none}
+}
