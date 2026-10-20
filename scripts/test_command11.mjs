@@ -3,6 +3,7 @@
 import fs from "node:fs";
 import vm from "node:vm";
 import assert from "node:assert/strict";
+import {execFileSync} from "node:child_process";
 import path from "node:path";
 const root=path.resolve(import.meta.dirname,"..");
 const files=["command11-core.js","command11-map.js","command11-stream.js","command11-extra.js","command11.js"];
@@ -31,9 +32,7 @@ assert(html.includes("../vendor/maplibre-gl.css"),"MapLibre CSS must be same-ori
 assert(!html.includes("unpkg.com/maplibre-gl"),"Do not depend on third-party MapLibre CDN at initial load");
 assert(!html.includes("maplibre-gl.js"),"The removed MapLibre v6 UMD script is invalid");
 const boot=fs.readFileSync(path.join(root,"assets/command11-bootstrap.mjs"),"utf8");
-// Node's vm.SourceTextModule is experimental; node --check supports ESM natively.
-import("node:child_process").then(({execFileSync})=>
- execFileSync(process.execPath,["--check",path.join(root,"assets/command11-bootstrap.mjs")],{stdio:"pipe"}));
+execFileSync(process.execPath,["--check",path.join(root,"assets/command11-bootstrap.mjs")],{stdio:"pipe"});
 assert(boot.includes("../vendor/maplibre-gl.mjs"),"MapLibre v6 bootstrap must import pinned same-origin ESM asset");
 const t=new Date(Date.now()-3600000).toISOString();
 const base={id:"r1",title:"Qatar airspace closes",source:"Outlet A",
