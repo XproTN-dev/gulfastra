@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "generated_at": "2026-10-20T08:01:24.093600Z",
+  "generated_at": "2026-10-20T08:06:40.825197Z",
   "model": "deterministic-source-correlation-v1",
   "disclaimer": "Clusters are related PUBLIC REPORTS, not confirmed incidents. Source counts are not proof. Country names are mentions, not incident locations.",
   "events": [
@@ -282,6 +282,50 @@
       "updated_at": "2026-10-20T07:56:05.543708Z"
     },
     {
+      "id": "GF-DE698A884EA269",
+      "title": "منتدى الأمن العالمي.. قطر تدعو لحماية الأمن المائي وتعزيز الدبلوماسية الإنسانية - الجزيرة نت",
+      "category": "diplomacy",
+      "topic": "regional",
+      "countries": [
+        "Qatar"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T06:59:19Z",
+      "last_published": "2026-10-20T06:59:19Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "6019f17989b1755559408c52",
+          "title": "منتدى الأمن العالمي.. قطر تدعو لحماية الأمن المائي وتعزيز الدبلوماسية الإنسانية - الجزيرة نت",
+          "url": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxPTnE4d2tmSy1IMS1JdmtYT2JfLWd1NmQ1LS1vMkRwdjBuMy0yaWQtVEFqeWxVZTRjZi1BR241cW5VMDUtdG1QMzNhVzFrZ2ttT1pnS3NXVGxzVmRkZGdJUldLWEk1UlRDSmloUGduQVo5eE5YeHlEaWpGR2dRV2FyUEw4a0U3Ulg3X1BGZVdxSE16RlVUQkVwN3FxMVFDZ0Z2Zk81U01YNnBOWnUwem5Zb3V2UlhRLVJ5cnNKcjZxZXFiU3pla240YlVxRDd5RW5MdzhISHQ2T2RzT21iSTk4N3UtUDRPY1FVWEFoUFE0dzkwbUktakJmMkVUaWlVTHhRUUJUUG5PSkxtT1pvLVpRVWpldWdHb3VNbjRMdkVqS3NFQ1prMGNmY2t5ZVoySXFSem80TlNtQjI1WXNBNExSTkZZR2pMbTdDZkFQaElSTVBEcENB0gHaAkFVX3lxTFBSM0VEbzQ1bjZQNzk0SWdnRkY1RmtKYTZtN0U3SnFVVnR1ZnhZcmdGczlrRGw4blNpdmFabW9IQm40V1RTYXFIWDRxQ0k1V3J4QVpRVTJMdFBZRDYta2lyRk1GOWRwQlBmREdadVg4WVd5cDFNTml6QTdQYXJDZ2hlTENzSV9LTURuOGhXbU9nSUFHRkNtUFhnZFFhdE5XeFEybHR6djVjNGF2SGhiQXpIWXJ1VUwweG1jWXJYZVRaelUzV2Q2MFBaN19UUVM3bFQzRm5BWnpQT0F4eFJfV0NadHpycXJTTnZJTEF0d2w4TV9EcHVVSFZFT1NPZG9QS0ZJM1RPX3h0Tkhrdlg4YnVIQ2xXSXlhWkRabVNVYnl5SVE2RnVoeFhhaHNod1RjcWJ2ZnJTVkJYZFdkd01Fa1ZSVXZpMzY4RVJEM1Y2YmVyb2oxQ3NBYWNnQWc?oc=5",
+          "source": "الجزيرة نت",
+          "provider": "عربي · الجزيرة",
+          "published_at": "2026-10-20T06:59:19Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Qatar"
+        }
+      ],
+      "digest": "b92f005b0f2538a7f092",
+      "revision": 1,
+      "updated_at": "2026-10-20T08:06:40.825197Z"
+    },
+    {
       "id": "GF-FB0B7865068A0E",
       "title": "Iran says it shot down US MQ-9 Reaper drone over Strait of Hormuz - Yahoo",
       "category": "security",
@@ -346,8 +390,8 @@
       "languages": [
         "en"
       ],
-      "publisher_count": 3,
-      "report_count": 3,
+      "publisher_count": 4,
+      "report_count": 4,
       "first_published": "2026-10-20T06:28:44Z",
       "last_published": "2026-10-20T06:43:46Z",
       "event_occurred_at": null,
@@ -360,6 +404,17 @@
           "source": "Anadolu Ajansı",
           "provider": "Google News · missiles/drones",
           "published_at": "2026-10-20T06:43:46Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Iran"
+        },
+        {
+          "id": "9a2d25935b5cec706732e9de",
+          "title": "Iran says it downed US drone over Strait of Hormuz - Muslim Network TV",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSlVxTFU1VF9XREZMRFBFaUhCbEloUkZTRUtTRWxDZ01xMzZfcmZWRDQySkJJT21DdUltZ0RyWjZNTUlwSW82WFZ6RzlyNDZDSXBrMVVrUkpmcVVFa3ZXd05DZXBzZ0pWYWFUQkFJYy1nQ3JtanZ1MmFRN0FQeWYxMDRCMExFT1k?oc=5",
+          "source": "Muslim Network TV",
+          "provider": "Google News · missiles/drones",
+          "published_at": "2026-10-20T06:43:17Z",
           "collected_at": null,
           "language": "en",
           "country": "Iran"
@@ -387,9 +442,9 @@
           "country": "Iran"
         }
       ],
-      "digest": "17b3a3146d4b2a32dd9c",
-      "revision": 3,
-      "updated_at": "2026-10-20T07:56:05.543708Z"
+      "digest": "0948bfe37e3b7778e9e6",
+      "revision": 4,
+      "updated_at": "2026-10-20T08:06:40.825197Z"
     },
     {
       "id": "GF-97AB8679977B14",
@@ -1576,7 +1631,7 @@
     },
     {
       "id": "GF-A6E538ED48BBB2",
-      "title": "اليمن: القوات الحكومية وجماعة أنصار الله تتبادلان الهجمات بالصواريخ والمسيرات، وأنباء عن سقوط عشرات الضحايا - BBC",
+      "title": "اليمن: القوات الحكومية وجماعة أنصار الله تتبادلان الهجمات بالصواريخ والمسيّرات، وأنباء عن سقوط عشرات الضحايا - BBC",
       "category": "security",
       "topic": "missile",
       "countries": [
@@ -1604,7 +1659,7 @@
       "sources": [
         {
           "id": "2a513a76b01b281765004ec4",
-          "title": "اليمن: القوات الحكومية وجماعة أنصار الله تتبادلان الهجمات بالصواريخ والمسيرات، وأنباء عن سقوط عشرات الضحايا - BBC",
+          "title": "اليمن: القوات الحكومية وجماعة أنصار الله تتبادلان الهجمات بالصواريخ والمسيّرات، وأنباء عن سقوط عشرات الضحايا - BBC",
           "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE14ZGowT0VxZ21GWjdpUm1pZjdadG1iRll4d2hyLXZGVDNPcUtEazduNGNuTFIwSU53cExLdXZJOGRCekJSSTNCWnREWmhtNlk3aHluMzEtc0VyS3Q5b1HSAWNBVV95cUxOa3hCRVNMbGY3N185LXpHSHFsRUVDb3k4d19HcUZTSlR5dlVvWDJZejgydG9rSmRRTlJmanQ5Q2ExakpMSG16NlJ2VDBrTVR4SXhPbFhRTDJEYkJsWm5TX1hQM3c?oc=5",
           "source": "BBC",
           "provider": "عربي · السعودية",
@@ -1614,9 +1669,9 @@
           "country": "Yemen"
         }
       ],
-      "digest": "2d9f74234bbb2a17828a",
-      "revision": 2,
-      "updated_at": "2026-10-20T07:40:58.957167Z"
+      "digest": "534d8b073a1dcb21b96a",
+      "revision": 3,
+      "updated_at": "2026-10-20T08:06:40.825197Z"
     },
     {
       "id": "GF-F34E9A35FE1FF0",
@@ -3888,7 +3943,7 @@
     },
     {
       "id": "GF-0B506D55618441",
-      "title": "Iran appoints ‘Missile Man’ as defence minister - The Telegraph",
+      "title": "Iran’s ‘Missile Man’ takes charge of defence with vow to kill Americans - The Telegraph",
       "category": "security",
       "topic": "missile",
       "countries": [
@@ -3916,7 +3971,7 @@
       "sources": [
         {
           "id": "00c991f6afdc260556100d40",
-          "title": "Iran appoints ‘Missile Man’ as defence minister - The Telegraph",
+          "title": "Iran’s ‘Missile Man’ takes charge of defence with vow to kill Americans - The Telegraph",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYmQ5elpRRG1veTVJeDhXWDZoNWVwQ2tKOGZRUFpXdmt2bnBZbk5Nakx3dXI4b2pma05nS0pYNVIzV0g0NnlTenRYR2pzeWRMY2J1UzRTVjdTbFBmalE5djdScnRRc3kyT2ZneWpwbklPaDhrUkVlWmViOTV4NGtlVjRWNXlvTl9TejJnaGVMYk02TzNydWVQbmFicmY?oc=5",
           "source": "The Telegraph",
           "provider": "Google News · missiles/drones",
@@ -3926,9 +3981,9 @@
           "country": "Iran"
         }
       ],
-      "digest": "7ea922a10cd44730fec6",
-      "revision": 2,
-      "updated_at": "2026-10-20T07:40:58.957167Z"
+      "digest": "4f76b501821897cb2ce6",
+      "revision": 3,
+      "updated_at": "2026-10-20T08:06:40.825197Z"
     },
     {
       "id": "GF-7D094A4BC06065",
@@ -5030,6 +5085,50 @@
       "digest": "909907396c8fd1661466",
       "revision": 2,
       "updated_at": "2026-10-20T07:40:58.957167Z"
+    },
+    {
+      "id": "GF-F55D4C356A6545",
+      "title": "الدفاع المدني السعودي: إطلاق الإنذار المبكر من تهديد جوي في الرياض - الديار",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-19T14:06:58Z",
+      "last_published": "2026-10-19T14:06:58Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "9484ee18928359459c263b3e",
+          "title": "الدفاع المدني السعودي: إطلاق الإنذار المبكر من تهديد جوي في الرياض - الديار",
+          "url": "https://news.google.com/rss/articles/CBMikgRBVV95cUxPbG05WGsyZlVKX09BLWU3MVBwd1lmcnNQdElaU1ZiNFpfellUUzdGZkViUnhXNkVaQjBDYklXRUhPR0VMWmRpMFJELTA1TU9RUFJvX2ExcGJVU0MyVVFUTzJtYWoycHAwUnZZWVNJaXAzWEMxc1ItLXJ6QjNaS1dNRDNWSUVCZnZTVUJKamZZbkJCSW12TkQ2TDVRSDhlLW42UGZoYm5kYlhMamNRUzZDYkk1Vml6aXp3dDdINnVDeE9CWm5CWXoyOEVzMHBSaHB6ejU2aHdQSXpoZjNPdTAxaE5iLWgzTGRmd0pha2lSY3Q5a2dLM1I5Vllxa2U2dmNIdlNJNXYwVkdoTm9iOGRqV2hkY050MEc0XzAyQmgwNWdVSnlKeHo2MmZZc0ZHbGlSdVZNWXh3UUJvQjUtYUxpVnBGZUtmbUx0bWlGeGtOa1JpZWtPSkU0cjlnRFJCVG03Q1I5NDhmMlVmYWZneVpPenN5V2JxZHpNVGNobl9ZdDd0cVVlbTNtUmM1OGVQQ3pta0d4YmZLTTl3eHVfZ1ZVYjZkS19VY0o4VGM0Q2NTbW53ZUlTOEcxMXUzUnJ6cjNEX1JRaW5McnI2RkExdHpGZ2d2MVhQZ0dLT3NYOE9RNGEwUGhLZk5UY0g3UGNITjBUVlNNaHpiMzJLVjFoRlkxX1VOQXFEQUJES0pMdUNBaVNkZw?oc=5",
+          "source": "الديار",
+          "provider": "عربي · السعودية",
+          "published_at": "2026-10-19T14:06:58Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Saudi"
+        }
+      ],
+      "digest": "70fa5c5d7805686dac80",
+      "revision": 1,
+      "updated_at": "2026-10-20T08:06:40.825197Z"
     },
     {
       "id": "GF-A5C40573344A39",
@@ -25424,7 +25523,7 @@
     },
     {
       "id": "GF-980DCF9DF0BBCB",
-      "title": "Military signals building: Is the US-Iran war about to escalate? - Euronews",
+      "title": "Military signals building: Is the US-Iran war about to escalate? - Euronews.com",
       "category": "security",
       "topic": "regional",
       "countries": [
@@ -25452,9 +25551,9 @@
       "sources": [
         {
           "id": "b7e4b30dc9fb05b45052803d",
-          "title": "Military signals building: Is the US-Iran war about to escalate? - Euronews",
+          "title": "Military signals building: Is the US-Iran war about to escalate? - Euronews.com",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZnQxSlUxSHV2RjFuaFlUN2NuYkl5ZmZ1RXlMUmNyLWl5Vk5vTEx5SU1kZ0xYNkxBbEp4SzAwbWZxQnVad2lOMGU3ZGY1dDRCdWh0Y3dxeXEzaVd3b2FpdWJSR3FLZzFuSmZjQXJ5cHJ1RnhrVUtJZVJTeE9tWGdHNVdXaTA5WVBCUlI1LUM5cUV4aU1MdU5IYThuZmtTUWs?oc=5",
-          "source": "Euronews",
+          "source": "Euronews.com",
           "provider": "Google News · security",
           "published_at": "2026-10-16T09:37:01Z",
           "collected_at": null,
@@ -25462,9 +25561,9 @@
           "country": "Iran"
         }
       ],
-      "digest": "3b949d0c6d7cb2fa7c83",
-      "revision": 5,
-      "updated_at": "2026-10-20T08:01:24.093600Z"
+      "digest": "c3dd3fa6f0f733dd8424",
+      "revision": 6,
+      "updated_at": "2026-10-20T08:06:40.825197Z"
     },
     {
       "id": "GF-2F307663907B4D",
@@ -41289,21 +41388,21 @@
   "country_stats": {
     "Iran": {
       "events": 350,
-      "reports": 434,
+      "reports": 435,
       "security_coverage": 186,
       "transport_coverage": 101,
       "sources": 178
     },
     "Saudi": {
-      "events": 280,
-      "reports": 301,
-      "security_coverage": 196,
+      "events": 281,
+      "reports": 302,
+      "security_coverage": 197,
       "transport_coverage": 71,
-      "sources": 152
+      "sources": 153
     },
     "Qatar": {
-      "events": 29,
-      "reports": 30,
+      "events": 30,
+      "reports": 31,
       "security_coverage": 20,
       "transport_coverage": 5,
       "sources": 17
@@ -41369,22 +41468,38 @@
     "2026-10-16": 102,
     "2026-10-17": 167,
     "2026-10-18": 125,
-    "2026-10-19": 164,
-    "2026-10-20": 38
+    "2026-10-19": 165,
+    "2026-10-20": 39
   },
   "revisions": [
     {
-      "id": "GF-980DCF9DF0BBCB",
-      "revision": 5,
-      "at": "2026-10-20T08:01:24.093600Z",
+      "id": "GF-B5B71784951E17",
+      "revision": 4,
+      "at": "2026-10-20T08:06:40.825197Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 3,
+      "new_source_count": 4
+    },
+    {
+      "id": "GF-A6E538ED48BBB2",
+      "revision": 3,
+      "at": "2026-10-20T08:06:40.825197Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-FEFDEE84343B18",
-      "revision": 5,
-      "at": "2026-10-20T08:01:24.093600Z",
+      "id": "GF-0B506D55618441",
+      "revision": 3,
+      "at": "2026-10-20T08:06:40.825197Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-980DCF9DF0BBCB",
+      "revision": 6,
+      "at": "2026-10-20T08:06:40.825197Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1

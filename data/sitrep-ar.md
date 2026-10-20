@@ -1,10 +1,10 @@
 # موجز جلفاسترا للمصادر العلنية
 الفترة: آخر 24 ساعة (حسب وقت نشر التقارير)
 
-مجموعات التغطية: 155 | عناوين مرتبطة: 179
+مجموعات التغطية: 156 | عناوين مرتبطة: 181
 هذه تقارير صحفية وليست أحداثا مؤكدة، ولا تعتبر توجيهات سلامة رسمية.
 
-## Security (89 coverage groups)
+## Security (90 coverage groups)
 - Houthi Missile Strike Kills At Least 53 at Yemeni Military Camp - https://globalpost.com/ (1 headlines; single-source)
   - https://globalpost.com/: https://news.google.com/rss/articles/CBMimwFBVV95cUxPTTM5OUNEY1NCem4wSDRDNEtZc0J0VmxfWTU2dGYyaklIMUxRbXpWR0R2cV9lU1M4MVYwdXZYbngxTVJXQjk2QnZPUkZQTkw4anNGWnR2cDk3Unh3aEU4dmRzZFJ1Q0VBSU5BY0lYRG42cm13R29ObW92Z0dLMXRPVVRGbl9lcVlUVlRBNWdXQWRGSWNaZGo2UVY5SQ?oc=5
 - إيران: قواتنا أسقطت مسيرة أمريكية فوق مضيق هرمز - شبكة تواصل الإخبارية (2 headlines; multi-publisher-unverified)
@@ -14,9 +14,9 @@
   - INDToday: https://news.google.com/rss/articles/CBMif0FVX3lxTE1GSVl0UE8zbXZYalRPaVIwTV9IcnA0X09LdXVlV3R5WUNkaEZMVi1SXzJXNmVTVkUwelZTcGtWZm9waDU0Yi1XMVpYUWFweFoyWUVJaFhPbFA1RFpVZzZXMW51Sk90LXJMa3NoQnJCSjREX0djZ09CU09NYWdCSG8?oc=5
 - Iran says it shot down US MQ-9 Reaper drone over Strait of Hormuz - Yahoo (1 headlines; single-source)
   - Yahoo: https://news.google.com/rss/articles/CBMihgFBVV95cUxPUlZuVnI4bVZOd2dhTDRRZkd5QzhOcFlkRUk3ODdOZjZtdVhDUnRiNTZ2UGlaaWkxcjBjLWpxXy04MlFBNUFtUVZ0azZ5TTdRUGJvSkRDZTZleFhQWS1GVVVsamxwazRfUUpqbWViTkNCMi04SHFKVlhpa1JFUlZITUtZTUtHdw?oc=5
-- Iran says it downed US drone over Strait of Hormuz - Anadolu Ajansı (3 headlines; multi-publisher-unverified)
+- Iran says it downed US drone over Strait of Hormuz - Anadolu Ajansı (4 headlines; multi-publisher-unverified)
   - Anadolu Ajansı: https://news.google.com/rss/articles/CBMimwFBVV95cUxQZ3UzWWlVQWZmQ0NxbkZ4SU5uRkRIXzg0c2ZrRU1iSVRLdjVobTF0SlBmeEVGSGdvc0p2MXhscFJqTmw3OUc2RWZaZHJ6dURHVW51cVZGbGFUREpHUFFfR3czbE5OdzZmb2ktWWNMM19xVmNSZWMxWGlLZmtmdFNRR25EbnVpWE4zQ1o4aU1rUE41MTlRTFZEUktDZw?oc=5
-  - Yeni Şafak English: https://news.google.com/rss/articles/CBMihwFBVV95cUxNZENkRVFRTnAxMDVYSk1tQXlVNGF1RXZPOW1BR2dOY0J3M2JyYldfQUEyQUZhRlVrdVE3V2hfQjk0dXlUZkNGTU5Cd2RpVVpiaWl5T0Q4dVdUcVZiX29kcUhabHEtaFVqQzE5d3hSS0lIVmVUbV9xaTZSekFDUEEzdTVEdWVnbTg?oc=5
+  - Muslim Network TV: https://news.google.com/rss/articles/CBMihwFBVV95cUxNSlVxTFU1VF9XREZMRFBFaUhCbEloUkZTRUtTRWxDZ01xMzZfcmZWRDQySkJJT21DdUltZ0RyWjZNTUlwSW82WFZ6RzlyNDZDSXBrMVVrUkpmcVVFa3ZXd05DZXBzZ0pWYWFUQkFJYy1nQ3JtanZ1MmFRN0FQeWYxMDRCMExFT1k?oc=5
 - Iran-Aligned Houthis Launch Deadly Missile Attacks on Yemen, Saudi Arabia - 조선일보 (1 headlines; single-source)
   - 조선일보: https://news.google.com/rss/articles/CBMihAFBVV95cUxNM2hRdXN3WDVGN2VLankweGotZ3VsUFVaWjFfNWZ5akJ2NjFRT3BtOElwZ3lWWmFua1hrRU9QcUNrdEhDLUp3b0xqbEpxT3dLaTRJOHNmSHJocWFMU0htTjJqUHZHYXF6czNpRDVBekJ6RnVLTFV0ZTZrQnVFd1VXZUZaYmo?oc=5
 - US-Israel-Iran War Latest Live News: Iran Claims It Shot Down US MQ-9 Reaper Drone Over Strait of Hormuz, Says Tally of Downed American Drones Has Reached 54 - The Sunday Guardian (3 headlines; multi-publisher-unverified)
@@ -39,7 +39,7 @@
 - كلفة الصاروخ الواحد 15 مليون دولار:السعودية تفعّل «ثاد» وسط أزمة إمدادات أمريكية - الثورة نت (1 headlines; single-source)
   - الثورة نت: https://news.google.com/rss/articles/CBMiTkFVX3lxTE1hYkJkbFl3Q01OdVY3a0JzV2haSEp3VHZCR3IxUGpZZzlYazhocFVMUFl0REZuUlg1MjBpc0haWktneGRWQldiZGl5eFUtZw?oc=5
 
-## Transport (45 coverage groups)
+## Transport (44 coverage groups)
 - UAE flight status today: Saudi disruptions and full list of delays, cancellations - Gulf News (1 headlines; single-source)
   - Gulf News: https://news.google.com/rss/articles/CBMiygFBVV95cUxQcXJoME9Ic29uaThXRzZXZHdaUDNmazJ4OWVOcXhxVDN5dW1iaTFwd0g4RVJpNG1ORWhNdVFPSjU4Q1prT2stRjRBVzJEN2xrS3ZwYlhkVG1NVEE0MGJnMjB3S2R6Wi1feGl0MlBFM3hnTERKZ05SdHJKY3VyazI3cktxek9yTlRWNlI4UFMtZDhIbUZnbjV4Z1A3VjgzNFk5Zk95NF9NWTFzVUxtVWtoYXRNeTRTNVpqNEh4WEdLWUl1WHdJRV9IbmhB?oc=5
 - Riyadh Airport reopens: Saudi flights status, refunds update here - Pakistan Connect (1 headlines; single-source)
@@ -69,11 +69,13 @@
 - Tug Attacked Near Strait of Hormuz - The Maritime Executive (1 headlines; single-source)
   - The Maritime Executive: https://news.google.com/rss/articles/CBMifkFVX3lxTE1wVElaWVNMWUZUUFhRdFVXcjRleEVfWkZlMjgxTmFtOTRSTzRlQ3NiMHAzRXB4ZTRFMHVxUWJKZkxFRV9hOEdQVjcxM1h2NU04QXRwTGtCVmdjeUhoNFBNMm9rQjhlbXpWT29xNEpVZEJYVTRkalpKc0w4SDFDdw?oc=5
 
-## Diplomacy (21 coverage groups)
+## Diplomacy (22 coverage groups)
 - Iran war latest: Hegseth makes surprise visit to Israel as Netanyahu tells Trump 'we have job to finish' - The National (1 headlines; single-source)
   - The National: https://news.google.com/rss/articles/CBMijgFBVV95cUxPTVZ5ekNnd0lWdHo2RW5CVnUtOVZqZG5VUWd6V1pUQ2d0a2NxWFEwRzI5OTBQckZtTnVKUWRMZzNuT3N0X1V5YXlEU0lfdWtRY0hlRXRJSlNpNFhXZ3hYN240RTNCamhPSDBSaGdVZ0J2TUl4RDR3QUFFa1laMDRQTm5kOWF4QXZjTWdyZjR3?oc=5
 - منتدى الأمن العالمي.. قطر تدعو لحماية الأمن المائي وتعزيز الدبلوماسية الإنسانية - الجزيرة نت (1 headlines; single-source)
   - الجزيرة نت: https://news.google.com/rss/articles/CBMi2gJBVV95cUxQUjNFRG80NW42UDc5NElnZ0ZGNUZrSmE2bTdFN0pxVVZ0dWZ4WXJnRnM5a0RsOG5TaXZhWm1vSEJuNFdUU2FxSFg0cUNJNVdyeEFaUVUyTHRQWUQ2LWtpckZNRjlkcEJQZkRHWnVYOFlXeXAxTU5pekE3UGFyQ2doZUxDc0lfS01EbjhoV21PZ0lBR0ZDbVBYZ2RRYXROV3hRMmx0enY1YzRhdkhoYkF6SFlydVVMMHhtY1lyWGVUWnpVM1dkNjBQWjdfVFFTN2xUM0ZuQVp6UE9BeHhSX1dDWnR6cnFyU052SUxBdHdsOE1fRHB1VUhWRU9TT2RvUEtGSTNUT194dE5Ia3ZYOGJ1SENsV0l5YVpEWm1TVWJ5eUlRNkZ1aHhYYWhzaHdUY3FidmZyU1ZCWGRXZHdNRWtWUlV2aTM2OEVSRDNWNmJlcm9qMUNzQWFjZ0Fn0gHaAkFVX3lxTFBSM0VEbzQ1bjZQNzk0SWdnRkY1RmtKYTZtN0U3SnFVVnR1ZnhZcmdGczlrRGw4blNpdmFabW9IQm40V1RTYXFIWDRxQ0k1V3J4QVpRVTJMdFBZRDYta2lyRk1GOWRwQlBmREdadVg4WVd5cDFNTml6QTdQYXJDZ2hlTENzSV9LTURuOGhXbU9nSUFHRkNtUFhnZFFhdE5XeFEybHR6djVjNGF2SGhiQXpIWXJ1VUwweG1jWXJYZVRaelUzV2Q2MFBaN19UUVM3bFQzRm5BWnpQT0F4eFJfV0NadHpycXJTTnZJTEF0d2w4TV9EcHVVSFZFT1NPZG9QS0ZJM1RPX3h0Tkhrdlg4YnVIQ2xXSXlhWkRabVNVYnl5SVE2RnVoeFhhaHNod1RjcWJ2ZnJTVkJYZFdkd01Fa1ZSVXZpMzY4RVJEM1Y2YmVyb2oxQ3NBYWNnQWc?oc=5
+- منتدى الأمن العالمي.. قطر تدعو لحماية الأمن المائي وتعزيز الدبلوماسية الإنسانية - الجزيرة نت (1 headlines; single-source)
+  - الجزيرة نت: https://news.google.com/rss/articles/CBMi1AJBVV95cUxPTnE4d2tmSy1IMS1JdmtYT2JfLWd1NmQ1LS1vMkRwdjBuMy0yaWQtVEFqeWxVZTRjZi1BR241cW5VMDUtdG1QMzNhVzFrZ2ttT1pnS3NXVGxzVmRkZGdJUldLWEk1UlRDSmloUGduQVo5eE5YeHlEaWpGR2dRV2FyUEw4a0U3Ulg3X1BGZVdxSE16RlVUQkVwN3FxMVFDZ0Z2Zk81U01YNnBOWnUwem5Zb3V2UlhRLVJ5cnNKcjZxZXFiU3pla240YlVxRDd5RW5MdzhISHQ2T2RzT21iSTk4N3UtUDRPY1FVWEFoUFE0dzkwbUktakJmMkVUaWlVTHhRUUJUUG5PSkxtT1pvLVpRVWpldWdHb3VNbjRMdkVqS3NFQ1prMGNmY2t5ZVoySXFSem80TlNtQjI1WXNBNExSTkZZR2pMbTdDZkFQaElSTVBEcENB0gHaAkFVX3lxTFBSM0VEbzQ1bjZQNzk0SWdnRkY1RmtKYTZtN0U3SnFVVnR1ZnhZcmdGczlrRGw4blNpdmFabW9IQm40V1RTYXFIWDRxQ0k1V3J4QVpRVTJMdFBZRDYta2lyRk1GOWRwQlBmREdadVg4WVd5cDFNTml6QTdQYXJDZ2hlTENzSV9LTURuOGhXbU9nSUFHRkNtUFhnZFFhdE5XeFEybHR6djVjNGF2SGhiQXpIWXJ1VUwweG1jWXJYZVRaelUzV2Q2MFBaN19UUVM3bFQzRm5BWnpQT0F4eFJfV0NadHpycXJTTnZJTEF0d2w4TV9EcHVVSFZFT1NPZG9QS0ZJM1RPX3h0Tkhrdlg4YnVIQ2xXSXlhWkRabVNVYnl5SVE2RnVoeFhhaHNod1RjcWJ2ZnJTVkJYZFdkd01Fa1ZSVXZpMzY4RVJEM1Y2YmVyb2oxQ3NBYWNnQWc?oc=5
 - ماكرون وأمير الكويت يبحثان تطورات المنطقة ويشهدان توقيع اتفاقات (1 headlines; single-source)
   - libyaakhbar.com: https://www.libyaakhbar.com/world-news/2900090.html
 - Live : oorlog in Midden - Oosten , Trump over Iran en laatste nieuws (1 headlines; single-source)
@@ -96,5 +98,3 @@
   - Iran International: https://news.google.com/rss/articles/CBMiUkFVX3lxTE5JZUVBaEVHVHI4Zy04NUJUUnRhbW5ZdzIxS3Zpd2ZoRWtHMWxEU2laLURVclZwdkVidzJpTDJEaXcyNC1zTktmZUF1WGZybmh1N0E?oc=5
 - Russia vows continued Iran ties as Trump welcomes limits on support - Iran International (1 headlines; single-source)
   - Iran International: https://news.google.com/rss/articles/CBMiUkFVX3lxTE5JZUVBaEVHVHI4Zy04NUJUUnRhbW5ZdzIxS3Zpd2ZoRWtHMWxEU2laLURVclZwdkVidzJpTDJEaXcyNC1zTktmZUF1WGZybmh1N0E?oc=5
-- Donald Trump, Benjamin Netanyahu warn Iran as fears of renewed war grow - The Jerusalem Post (1 headlines; single-source)
-  - The Jerusalem Post: https://news.google.com/rss/articles/CBMiXEFVX3lxTE5CV0dNTVVnNUZlMmlncmF4amlNa19Qc0J4cHpQd2lSXy04aVJ1VFNsdWZqbkU5bnBVdzJTTGg2eE1ndVhjREp4by0tM29PbkVIM3YxTlEyY1FLM3ct?oc=5
