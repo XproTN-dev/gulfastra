@@ -30,6 +30,37 @@ const words={
   brief:["الموجز اليومي","موجز مع مصادر أصلية","تلخيص محدد القواعد لأخبار آخر 24 ساعة."]
  }
 };
+const AR_CHROME={
+ views:{graph:"◉ شبكة الأخبار",timeline:"◷ التسلسل الزمني",markets:"⌁ الأسواق والمؤشرات",
+ compare:"⇄ مقارنة ٢٠٠٨",pathways:"⤳ مسارات التأثير",brief:"▤ الموجز اليومي"},
+ modes:{network:"شبكة",chronology:"تسلسل",spatial:"عرض ثلاثي"},
+ controls:["الجغرافيا","نوع التغطية","عرض الشبكة"],
+ metrics:["مجموعات التغطية","روابط مواضيع مشتركة","سلاسل اقتصادية فعلية","موجز آخر ٢٤ ساعة"],
+ title:"أدوات التحليل",method:"ⓘ المنهجية",reset:"إعادة ضبط",
+ now:"↪ الآن",reference:"المصادر والمنهجية"
+};
+const EN_CHROME={
+ views:{graph:"◉ EVENT NETWORK",timeline:"◷ TIME EXPLORER",markets:"⌁ MARKET INDICATORS",
+ compare:"⇄ 2008 COMPARISON",pathways:"⤳ IMPACT PATHWAYS",brief:"▤ DAILY BRIEF"},
+ modes:{network:"NETWORK",chronology:"SEQUENCE",spatial:"3D STYLE"},
+ controls:["GEOGRAPHY","REPORTING CATEGORY","NETWORK PRESENTATION"],
+ metrics:["RELATED COVERAGE","METADATA CONNECTIONS","OBSERVED MACRO SERIES","LAST 24H BRIEFING"],
+ title:"RESEARCH CONTROLS",method:"ⓘ METHODOLOGY",reset:"RESET",
+ now:"↪ NOW",reference:"PROVENANCE & LIMITS"
+};
+function translateChrome(){
+ const p=S.lang==="ar"?AR_CHROME:EN_CHROME;
+ document.documentElement.lang=S.lang;
+ document.documentElement.dir=S.lang==="ar"?"rtl":"ltr";
+ $("[data-view]").forEach(b=>{b.textContent=p.views[b.dataset.view]||b.textContent});
+ $("[data-mode]").forEach(b=>{b.textContent=p.modes[b.dataset.mode]||b.textContent});
+ $("#labControls label").forEach((b,i)=>{if(i<3)b.textContent=p.controls[i]});
+ $(".lab-metrics small").forEach((b,i)=>{if(i<4)b.textContent=p.metrics[i]});
+ $(".filter-top .kicker").textContent=p.title;
+ $("labExplain").textContent=p.method;$("resetLab").textContent=p.reset;
+ $("labNow").textContent=p.now;
+ $("labLang").textContent=S.lang==="en"?"EN / عربي":"العربية / EN";
+}
 const esc=C.esc;
 const save=()=>C.store(KEY,Object.fromEntries(["view","country","category","mode","hours","zoom","lang"].map(k=>[k,S[k]])));
 const raw=(key,defaultValue)=>S.files[key]??defaultValue;
@@ -282,10 +313,8 @@ function init(){
   e.preventDefault();S.zoom=Math.max(.7,Math.min(2.7,S.zoom+(e.deltaY<0?.1:-.1)));renderGraph();
  },{passive:false});
  $("labLang").onclick=()=>{
-  S.lang=S.lang==="en"?"ar":"en";document.documentElement.lang=S.lang;
-  document.documentElement.dir=S.lang==="ar"?"rtl":"ltr";
-  // SVG graph and research controls retain horizontal coordinate orientation.
-  $("labLang").textContent=S.lang==="en"?"EN / عربي":"العربية / EN";
+  S.lang=S.lang==="en"?"ar":"en";
+  translateChrome();
   view(S.view);
  };
  root.addEventListener("keydown",e=>{if(e.key==="Escape"){closeContext();closeLayers()}});
@@ -304,9 +333,8 @@ function init(){
   if(startY!==null&&e.changedTouches[0].clientY-startY>95)closeContext();
   startY=null;
  },{passive:true});
- document.documentElement.lang=S.lang;
+ translateChrome();
  const trans=words[S.lang]||words.en;
- $("labLang").textContent=S.lang==="en"?"EN / عربي":"العربية / EN";
  const [eyebrow,title,description]=trans[S.view];
  $("stageEyebrow").textContent=eyebrow;$("stageTitle").textContent=title;$("stageDescription").textContent=description;
  $$("[data-view]").forEach(b=>b.classList.toggle("active",b.dataset.view===S.view));
