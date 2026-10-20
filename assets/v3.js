@@ -11,7 +11,7 @@ transport:{name:"Airspace / shipping reports",short:"TRANSPORT",color:"#f8ba70"}
 diplomacy:{name:"Diplomacy / sanctions",short:"DIPLOMACY",color:"#59cef4"},
 other:{name:"Other regional reporting",short:"REGIONAL",color:"#b1a3ff"}
 };
-const s={reports:[],providers:{},last_run:null,chosenCountry:"",search:"",hours:72,mode:"all",enabled:new Set(Object.keys(CATEGORIES)),map:null,mapReady:false,markers:[],bright:false,loadedOnce:false,alertPermission:false,shown:[],lastSeen:null};
+const s={reports:[],providers:{},last_run:null,chosenCountry:"",search:"",hours:24,mode:"all",enabled:new Set(Object.keys(CATEGORIES)),map:null,mapReady:false,markers:[],bright:false,loadedOnce:false,alertPermission:false,shown:[],lastSeen:null};
 const $=id=>document.getElementById(id);
 function txt(x){return String(x??"").replace(/[&<>"']/g,ch=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch]))}
 function fmtDate(v){let d=new Date(v);return isNaN(d)?"Unknown":d.toLocaleString(undefined,{month:"short",day:"numeric",hour:"2-digit",minute:"2-digit"})}
@@ -58,11 +58,13 @@ function updateActivity(){
  let bins=Array(24).fill(0);for(let r of filtered()){let d=(Date.now()-new Date(r.published_at).getTime())/3600000;if(Number.isFinite(d)&&d>=0&&d<24)bins[23-Math.floor(d)]++}
  let max=Math.max(1,...bins);$("bars").innerHTML=bins.map((n,i)=>'<div class="chartbar" title="'+n+' article(s)" data-count="'+n+'" style="height:'+Math.max(2,Math.round(100*n/max))+'%"></div>').join("");$("activityMeta").textContent=bins.reduce((a,b)=>a+b,0)+" ARTICLES / 24H";
 }
+function cleanHeadline(title){const value=String(title||"").trim();const parts=value.split(/\s[-—]\s/);return parts.length>1&&parts[0].length>=35?parts[0]:value}
+function groupReports(items){const groups=new Map();for(const r of items){const headline=cleanHeadline(r.title);const textKey=headline.toLowerCase().replace(/[^a-z0-9\u0600-\u06ff]+/g," ").trim();const key=textKey.length>=32?String(r.published_at||"").slice(0,10)+":"+textKey:r.id;if(groups.has(key)){groups.get(key).related.push(r)}else{groups.set(key,{...r,title:headline,related:[r]})}}return Array.from(groups.values())}
 function updateFeed(){
- let rows=visibleList();s.shown=rows;$("feedCount").textContent=rows.length;$("feedSummary").textContent=rows.length+" FILTERED REPORTS · SOURCE LINKS";
+ let rawRows=visibleList(),rows=groupReports(rawRows);s.shown=rows;$("feedCount").textContent=rows.length;$("feedSummary").textContent=rows.length+" COVERAGE GROUPS FROM "+rawRows.length+" REPORTS";
  $("feed").innerHTML=rows.length?rows.slice(0,250).map((r,i)=>{
  let kind=CATEGORIES[r.category]||CATEGORIES.other;
- return '<article class="report" tabindex="0" role="button" data-report="'+i+'" aria-label="Open report"><div class="report-header"><span class="event-pill '+txt(r.category)+'">'+txt(kind.short)+'</span><span class="report-age">'+txt(age(r.published_at))+'</span></div><h3>'+txt(r.title)+'</h3><div class="report-byline"><strong>'+txt(r.source||"News source")+'</strong><span>'+txt(r.country||"REGIONAL")+'</span></div></article>'}).join(""):'<div class="empty"><div class="empty-symbol">⌁</div><strong>No reports in this view</strong><p>Try ALL dates, another country, or clear your search. An empty result does not mean no incidents occurred.</p></div>';
+ return '<article class="report" tabindex="0" role="button" data-report="'+i+'" aria-label="Open report"><div class="report-header"><span class="event-pill '+txt(r.category)+'">'+txt(r.tag||kind.short)+'</span><span class="report-age">'+txt(age(r.published_at))+'</span></div><h3>'+txt(r.title)+'</h3><div class="report-byline"><strong>'+txt(r.related.length>1?r.related.length+" RELATED HEADLINES":r.source||"News source")+'</strong><span>'+txt(r.country||"REGIONAL")+'</span></div></article>'}).join(""):'<div class="empty"><div class="empty-symbol">⌁</div><strong>No reports in this view</strong><p>Try ALL dates, another country, or clear your search. An empty result does not mean no incidents occurred.</p></div>';
  $("feed").querySelectorAll("[data-report]").forEach(node=>{let open=()=>showReport(rows[+node.dataset.report]);node.addEventListener("click",open);node.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();open()}})});
  $("alertUnread").textContent=s.reports.filter(r=>r.category==="security"&&Date.now()-new Date(r.published_at)<86400000).length;
 }
