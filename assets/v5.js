@@ -195,7 +195,7 @@ default:return fusion();
 }
 }
 const pageNames={wire:"Intelligence Wire",verify:"Evidence Verification",hormuz:"Hormuz Maritime Desk",fusion:"Evidence Fusion",countries:"Country Intelligence",timeline:"Publication Replay",sitrep:"Situation Report",query:"Analyst Console",sources:"Source Health",hazards:"Environmental Data",graph:"Relationship Graph",watchlist:"Watchlist"};
-function draw(){let n=$("fusionView");if(!n)return;n.innerHTML=pageHtml();$("fusionHeading").textContent=D.focus?"Evidence Dossier":pageNames[D.view]||"Fusion";$("fusionWorkNav").querySelectorAll("[data-gf-page]").forEach(x=>x.classList.toggle("active",x.dataset.gfPage===D.view))}
+function draw(){let n=$("fusionView");if(!n)return;$("fusionWorkbench").dataset.nexusView=D.view;n.innerHTML=pageHtml();$("fusionHeading").textContent=D.focus?"Evidence Dossier":pageNames[D.view]||"Fusion";$("fusionWorkNav").querySelectorAll("[data-gf-page]").forEach(x=>x.classList.toggle("active",x.dataset.gfPage===D.view))}
 function open(page="fusion"){D.view=page;D.focus=null;$("fusionWorkbench").hidden=false;document.body.style.overflow="hidden";draw()}
 function close(){$("fusionWorkbench").hidden=true;document.body.style.overflow=""}
 function output(name,body,mime){let file=new Blob([body],{type:mime||"text/plain;charset=utf-8"}),uri=URL.createObjectURL(file),a=document.createElement("a");a.href=uri;a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(uri),1500)}
