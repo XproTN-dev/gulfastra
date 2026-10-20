@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "generated_at": "2026-10-20T22:45:22.710386Z",
+  "generated_at": "2026-10-20T22:47:21.434372Z",
   "model": "deterministic-source-correlation-v2-coverage-lifecycle",
   "disclaimer": "Clusters are related PUBLIC REPORTS, not confirmed incidents. Source counts are not proof. Country names are mentions, not incident locations.",
   "events": [
@@ -338,63 +338,6 @@
       "digest": "bf16945ff0a537251745",
       "revision": 1,
       "updated_at": "2026-10-20T21:35:03.678524Z"
-    },
-    {
-      "id": "GF-59E96DD54D901C",
-      "title": "UK to send jets to defend Saudi Arabia from Houthi attacks, and other Mideast news - AP News",
-      "category": "security",
-      "topic": "regional",
-      "countries": [
-        "Saudi",
-        "Yemen"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "en"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-20T21:07:00Z",
-      "last_published": "2026-10-20T21:07:00Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "b1f14583bc3a74daf8f9fe22",
-          "title": "UK to send jets to defend Saudi Arabia from Houthi attacks, and other Mideast news - AP News",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNd1EtQlVBeUdvX1BnaEx2cXI4ZVVleTdNSlJ2dUR2eXdWeEpwVl9SandQVEpadDVrdzVEM1k0a2NfRXhpSURuOFZtRzdnOWtsNGZncFhtcV9OZ3kxQ1Y1RDRYN1FLNG11V2Y4dFQwbnRqOXJQZDBySEhMWUxrVGZwQ0tPS0N4TXpZVGxkeFRwU3BTWkoxMnNTa1JsNTlPYjZDSFJhNDZFazJsSXc?oc=5",
-          "source": "AP News",
-          "publisher_key": "ap news",
-          "provider": "AP · indexed Gulf reporting",
-          "published_at": "2026-10-20T21:07:00Z",
-          "date_quality": "publisher-time",
-          "first_seen_at": "2026-10-20T19:00:37.368110Z",
-          "collected_at": null,
-          "language": "en",
-          "country": ""
-        }
-      ],
-      "coverage_stage": "new-coverage",
-      "coverage_first_published_at": "2026-10-20T21:07:00Z",
-      "coverage_last_published_at": "2026-10-20T21:07:00Z",
-      "current_reporting": true,
-      "recent_publisher_count": 1,
-      "recent_article_count": 1,
-      "incident_status": "unknown",
-      "event_occurrence_verified": false,
-      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "d69f7229507e78a570b7",
-      "revision": 5,
-      "updated_at": "2026-10-20T22:45:22.710386Z"
     },
     {
       "id": "GF-40217C260597CD",
@@ -3135,6 +3078,63 @@
       "digest": "582d3371591940ffd501",
       "revision": 2,
       "updated_at": "2026-10-20T21:35:03.678524Z"
+    },
+    {
+      "id": "GF-59E96DD54D901C",
+      "title": "UK to send jets to defend Saudi Arabia from Houthi attacks, and other Mideast news - AP News",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T18:02:00Z",
+      "last_published": "2026-10-20T18:02:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "b1f14583bc3a74daf8f9fe22",
+          "title": "UK to send jets to defend Saudi Arabia from Houthi attacks, and other Mideast news - AP News",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNd1EtQlVBeUdvX1BnaEx2cXI4ZVVleTdNSlJ2dUR2eXdWeEpwVl9SandQVEpadDVrdzVEM1k0a2NfRXhpSURuOFZtRzdnOWtsNGZncFhtcV9OZ3kxQ1Y1RDRYN1FLNG11V2Y4dFQwbnRqOXJQZDBySEhMWUxrVGZwQ0tPS0N4TXpZVGxkeFRwU3BTWkoxMnNTa1JsNTlPYjZDSFJhNDZFazJsSXc?oc=5",
+          "source": "AP News",
+          "publisher_key": "ap news",
+          "provider": "AP · indexed Gulf reporting",
+          "published_at": "2026-10-20T18:02:00Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T19:00:37.368110Z",
+          "collected_at": null,
+          "language": "en",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "recent-coverage",
+      "coverage_first_published_at": "2026-10-20T18:02:00Z",
+      "coverage_last_published_at": "2026-10-20T18:02:00Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "7f4bf90452e2aa568271",
+      "revision": 6,
+      "updated_at": "2026-10-20T22:47:21.434372Z"
     },
     {
       "id": "GF-B99689D555B5E8",
@@ -12947,6 +12947,90 @@
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
+      "id": "GF-079FE18C91E1F8",
+      "title": "Factbox-Airlines cancel flights to Saudi Arabia after Riyadh airport attacks - Central Oregon Daily",
+      "category": "security",
+      "topic": "aviation",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "multi-publisher-unverified",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 3,
+      "report_count": 3,
+      "first_published": "2026-10-20T09:46:49Z",
+      "last_published": "2026-10-20T10:07:55Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "bc5768a3f72e7a60d8f4562c",
+          "title": "Factbox-Airlines cancel flights to Saudi Arabia after Riyadh airport attacks - Central Oregon Daily",
+          "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQZHJTMHlFbWt4M1pnUmR4UTltVHRyV1VJVVIwOXlYRjBUN09FemFkdWloSEpYNGFfeGNyQUUxbUxObzBwOE4wYXY4b1JiNXBhM3VzUllvSEdNZDMzb3V2aG80ZGFyYzMyRWloODBVRlJNVGFveTBBSURENG1rdWR3T1FtaV80ZVRGcXN3TW1IQ3gyTWFydlpYRXJWRnFrRGRXeUlwWDN1YUtrN0Z4dk1hc2s3a0lxMjJHUTUxRlhjcUxOM1FPUzM4bVMwU2VpU1JiYU1vT3J6ZG4xSDVvcjlZeFRrUm5oZDN6cU1Sc0NNTVE2WGEya0d2QmtORjRGVDY0eW04RzRn?oc=5",
+          "source": "Central Oregon Daily",
+          "publisher_key": "central oregon daily",
+          "provider": "Google News · aviation",
+          "published_at": "2026-10-20T10:07:55Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T22:47:14.539912Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Saudi"
+        },
+        {
+          "id": "9611cbfd1bd46fa77ac18c32",
+          "title": "Factbox-Airlines cancel flights to Saudi Arabia after Riyadh airport attacks By Reuters - Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOZFBQNFNDZ2c0dU5ENEtUNTA5a3pIN1I3bzhfZ1l0dnFVakJ4YzM1R0NBdTRDLUNqdlhRNFUyajJwclE1dE5ZNUE0eHl5Zkl0Ym55ZTVQQ05PcGN2Y0FtUHVVX0hVU1BOWTRBYUtvNEh4cDM4YTRqNVVPY18wUHhqMGctYXBleTI1Wmo2X1F6YUd5cTFuMXJFRDRkWFlNSTVEZEd3M1hoXzBKNHV5OFlUbldHVDMtSXZrQWxDaTc0UWxUeTRVa2ExRTBBU0E?oc=5",
+          "source": "Investing.com",
+          "publisher_key": "investing com",
+          "provider": "Google News · aviation",
+          "published_at": "2026-10-20T09:53:57Z",
+          "date_quality": "legacy-unverified",
+          "first_seen_at": "2026-10-20T12:00:32.516927Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Saudi"
+        },
+        {
+          "id": "b2ec330348241752a3a87655",
+          "title": "Factbox-Airlines cancel flights to Saudi Arabia after Riyadh airport attacks - Global Banking & Finance Review",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNal9kOWNxQ1p4NTBvZHdrWERuTzhSOVM4SmhubTh0SDVNY1I3czZCY2h2R2EtbXZrWW5FV1N6Z3VudE1RcmFPeXgtdk9wMHk4UlctSDZEVHJYR0ZMdjlwMDctRVJjV2p4T1UzUzdZV29jam5nMTQ4d29PZlZ6YzgyV05pYUxWYm5NZ2x6MEJ4WEFCeERoTS13R290WjFmbk1EblE?oc=5",
+          "source": "Global Banking & Finance Review",
+          "publisher_key": "global banking finance review",
+          "provider": "Google News · aviation",
+          "published_at": "2026-10-20T09:46:49Z",
+          "date_quality": "legacy-unverified",
+          "first_seen_at": "2026-10-20T12:00:32.516927Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Saudi"
+        }
+      ],
+      "coverage_stage": "recent-coverage",
+      "coverage_first_published_at": "2026-10-20T10:07:55Z",
+      "coverage_last_published_at": "2026-10-20T10:07:55Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "a8a592d7911c185fd4df",
+      "revision": 5,
+      "updated_at": "2026-10-20T22:47:21.434372Z"
+    },
+    {
       "id": "GF-EAE814B180623B",
       "title": "عاجل | الخارجية القطرية: على الجانب الإيراني تنفيذ القوانين الدولية الخاصة بحرية الملاحة وينبغي فتح مضيق هرمز - الجزيرة نت",
       "category": "transport",
@@ -13181,76 +13265,6 @@
       "lifecycle_note": "Original publication time unavailable. No event status inferred.",
       "digest": "768f0c22d956ec6572d5",
       "revision": 2,
-      "updated_at": "2026-10-20T16:52:31.264495Z"
-    },
-    {
-      "id": "GF-079FE18C91E1F8",
-      "title": "Factbox-Airlines cancel flights to Saudi Arabia after Riyadh airport attacks By Reuters - Investing.com",
-      "category": "security",
-      "topic": "aviation",
-      "countries": [
-        "Saudi"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "multi-publisher-unverified",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "en"
-      ],
-      "publisher_count": 2,
-      "report_count": 2,
-      "first_published": "2026-10-20T09:46:49Z",
-      "last_published": "2026-10-20T09:53:57Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "9611cbfd1bd46fa77ac18c32",
-          "title": "Factbox-Airlines cancel flights to Saudi Arabia after Riyadh airport attacks By Reuters - Investing.com",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOZFBQNFNDZ2c0dU5ENEtUNTA5a3pIN1I3bzhfZ1l0dnFVakJ4YzM1R0NBdTRDLUNqdlhRNFUyajJwclE1dE5ZNUE0eHl5Zkl0Ym55ZTVQQ05PcGN2Y0FtUHVVX0hVU1BOWTRBYUtvNEh4cDM4YTRqNVVPY18wUHhqMGctYXBleTI1Wmo2X1F6YUd5cTFuMXJFRDRkWFlNSTVEZEd3M1hoXzBKNHV5OFlUbldHVDMtSXZrQWxDaTc0UWxUeTRVa2ExRTBBU0E?oc=5",
-          "source": "Investing.com",
-          "publisher_key": "investing com",
-          "provider": "Google News · aviation",
-          "published_at": "2026-10-20T09:53:57Z",
-          "date_quality": "legacy-unverified",
-          "first_seen_at": "2026-10-20T12:00:32.516927Z",
-          "collected_at": null,
-          "language": "en",
-          "country": "Saudi"
-        },
-        {
-          "id": "b2ec330348241752a3a87655",
-          "title": "Factbox-Airlines cancel flights to Saudi Arabia after Riyadh airport attacks - Global Banking & Finance Review",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNal9kOWNxQ1p4NTBvZHdrWERuTzhSOVM4SmhubTh0SDVNY1I3czZCY2h2R2EtbXZrWW5FV1N6Z3VudE1RcmFPeXgtdk9wMHk4UlctSDZEVHJYR0ZMdjlwMDctRVJjV2p4T1UzUzdZV29jam5nMTQ4d29PZlZ6YzgyV05pYUxWYm5NZ2x6MEJ4WEFCeERoTS13R290WjFmbk1EblE?oc=5",
-          "source": "Global Banking & Finance Review",
-          "publisher_key": "global banking finance review",
-          "provider": "Google News · aviation",
-          "published_at": "2026-10-20T09:46:49Z",
-          "date_quality": "legacy-unverified",
-          "first_seen_at": "2026-10-20T12:00:32.516927Z",
-          "collected_at": null,
-          "language": "en",
-          "country": "Saudi"
-        }
-      ],
-      "coverage_stage": "publication-time-unknown",
-      "coverage_last_published_at": null,
-      "coverage_first_published_at": null,
-      "current_reporting": false,
-      "recent_publisher_count": 0,
-      "recent_article_count": 0,
-      "incident_status": "unknown",
-      "event_occurrence_verified": false,
-      "lifecycle_note": "Original publication time unavailable. No event status inferred.",
-      "digest": "b408de51bd4066afc854",
-      "revision": 4,
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
@@ -18856,64 +18870,6 @@
       "updated_at": "2026-10-20T22:32:26.889638Z"
     },
     {
-      "id": "GF-16094BD5B10138",
-      "title": "السعودية والإمارات تدينان الهجمات الإيرانية على البحرين والكويت والأردن وتؤكدان دعمهما لأمن الدول الشقيقة - الساحل الغربي",
-      "category": "security",
-      "topic": "regional",
-      "countries": [
-        "Bahrain",
-        "Iran",
-        "Saudi"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "ar"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-19T21:42:52Z",
-      "last_published": "2026-10-19T21:42:52Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "6df264a43f4803d464219aca",
-          "title": "السعودية والإمارات تدينان الهجمات الإيرانية على البحرين والكويت والأردن وتؤكدان دعمهما لأمن الدول الشقيقة - الساحل الغربي",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBITGlFa05BRWUwWDUwVzhPWlZFaC1yQ0RmMUxpMXZLUF9neHYtZ0lmdFRmQk4ta0VWT1hRZ25YVFlRdENrajdBcTQ2OVdFYmM?oc=5",
-          "source": "الساحل الغربي",
-          "publisher_key": "الساحل الغربي",
-          "provider": "عربي · الإمارات والبحرين",
-          "published_at": "2026-10-19T21:42:52Z",
-          "date_quality": "publisher-time",
-          "first_seen_at": "2026-10-20T16:54:36.300300Z",
-          "collected_at": null,
-          "language": "ar",
-          "country": ""
-        }
-      ],
-      "coverage_stage": "quiet-coverage",
-      "coverage_first_published_at": "2026-10-19T21:42:52Z",
-      "coverage_last_published_at": "2026-10-19T21:42:52Z",
-      "current_reporting": false,
-      "recent_publisher_count": 0,
-      "recent_article_count": 0,
-      "incident_status": "unknown",
-      "event_occurrence_verified": false,
-      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "796e1c7799bf0cc64266",
-      "revision": 14,
-      "updated_at": "2026-10-20T22:45:22.710386Z"
-    },
-    {
       "id": "GF-59345064D5A1D3",
       "title": "Russia vows continued Iran ties as Trump welcomes limits on support - Iran International",
       "category": "diplomacy",
@@ -24077,6 +24033,62 @@
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
+      "id": "GF-0F6BC257DC1614",
+      "title": "When Will Foreign Airlines Return to Saudi Arabia? Airline-by-Airline Timeline (October 2026) - Wego Travel Blog",
+      "category": "transport",
+      "topic": "aviation",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-19T13:29:49Z",
+      "last_published": "2026-10-19T13:29:49Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "1917040126c3f2b93c8e3bab",
+          "title": "When Will Foreign Airlines Return to Saudi Arabia? Airline-by-Airline Timeline (October 2026) - Wego Travel Blog",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBpVXF4anNYamJOLUt5SHlYNmRaRGtxVHhENlF3Qjd5X1ZhM1ZoSHVYc1B2Vm1sUDNxbjNJTUZpem5VRk5mcFpJZUxsTmgwVERGQjkzWjFpWHpxR0paTnVMSEMtb19uaHNieTBZVUc0enB4QUhUcVVFV2p3cno?oc=5",
+          "source": "Wego Travel Blog",
+          "publisher_key": "wego travel blog",
+          "provider": "Google News · aviation",
+          "published_at": "2026-10-19T13:29:49Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T22:47:14.539912Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Saudi"
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-19T13:29:49Z",
+      "coverage_last_published_at": "2026-10-19T13:29:49Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "164f080a6ad9fb421019",
+      "revision": 1,
+      "updated_at": "2026-10-20T22:47:21.434372Z"
+    },
+    {
       "id": "GF-98F4A08DB3A7F5",
       "title": "Houthi missile attack on Saudi-backed Yemeni army base kills 53 - Haaretz",
       "category": "security",
@@ -27736,6 +27748,63 @@
       "digest": "47236be8f59345a909b9",
       "revision": 3,
       "updated_at": "2026-10-20T16:52:31.264495Z"
+    },
+    {
+      "id": "GF-A502F788B0D540",
+      "title": "Cathay Pacific Flight Status (October 2026): Dubai and Riyadh Flights Cancelled to January - Wego Travel Blog",
+      "category": "transport",
+      "topic": "aviation",
+      "countries": [
+        "Saudi",
+        "UAE"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-19T07:00:00Z",
+      "last_published": "2026-10-19T07:00:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "f94a8971229fa8114b12e852",
+          "title": "Cathay Pacific Flight Status (October 2026): Dubai and Riyadh Flights Cancelled to January - Wego Travel Blog",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB3VnNCSUJQM1ZfUjlIX3VwQVBfaDdJSW9SYjBVVWhuRHlUSHgydG1yU0V0SlJjU0FscUlkYlZ1c255bjYtZVhfWmlHYmZmMjQtZ0VXQ0hMREhleFRsTzcyOA?oc=5",
+          "source": "Wego Travel Blog",
+          "publisher_key": "wego travel blog",
+          "provider": "Google News · aviation",
+          "published_at": "2026-10-19T07:00:00Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T22:47:14.539912Z",
+          "collected_at": null,
+          "language": "en",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-19T07:00:00Z",
+      "coverage_last_published_at": "2026-10-19T07:00:00Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "43c55078c31de541540c",
+      "revision": 1,
+      "updated_at": "2026-10-20T22:47:21.434372Z"
     },
     {
       "id": "GF-B6966676CBCC7A",
@@ -37209,6 +37278,62 @@
       "digest": "84984885be1d9ebc631e",
       "revision": 2,
       "updated_at": "2026-10-20T16:52:31.264495Z"
+    },
+    {
+      "id": "GF-1697C795AEBD84",
+      "title": "Airlines extend flight cancellations to and from Riyadh Airport - Time Out Riyadh",
+      "category": "transport",
+      "topic": "aviation",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-18T08:00:15Z",
+      "last_published": "2026-10-18T08:00:15Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "7bf7802e7048232b223120c9",
+          "title": "Airlines extend flight cancellations to and from Riyadh Airport - Time Out Riyadh",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9iOFk1X3lPWG1ObEtyRWVWVHBaNGZYZE9HNUVhbzB3MXl6cWgzMjZ1YjhhWVRodGFtM2tvVmdJaXc4V1NKY1hMZWtPSFZzYXlKV2k3ek9ZZXZvdWF2WjU2NDFUeWR2UVhJQjhIOThuRWdNMWtMWGR5TXJ3?oc=5",
+          "source": "Time Out Riyadh",
+          "publisher_key": "time out riyadh",
+          "provider": "Google News · aviation",
+          "published_at": "2026-10-18T08:00:15Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T22:47:14.539912Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Saudi"
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-18T08:00:15Z",
+      "coverage_last_published_at": "2026-10-18T08:00:15Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "bdf63300c93ba3d87807",
+      "revision": 1,
+      "updated_at": "2026-10-20T22:47:21.434372Z"
     },
     {
       "id": "GF-772CEB367D8F6F",
@@ -50032,7 +50157,7 @@
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE92M0dTMURCdnVfVE9xSGg0Wjc3UnN5RTZzbUtZNHFtS21nY2otdVljZzRoOGV4QzZiZWF5WHQ4WmF1RThWVTVGTXpaQlljVlEwT0lxdERnM1VQS0FY?oc=5",
           "source": "The Jerusalem Post",
           "publisher_key": "the jerusalem post",
-          "provider": "Google News · regional",
+          "provider": "Google News · missiles/drones",
           "published_at": "2026-10-16T22:31:23Z",
           "date_quality": "publisher-time",
           "first_seen_at": "2026-10-20T12:09:48.504938Z",
@@ -50050,9 +50175,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "5acae68853c83735b540",
-      "revision": 2,
-      "updated_at": "2026-10-20T16:52:31.264495Z"
+      "digest": "cfb21b7924f6398c78d2",
+      "revision": 3,
+      "updated_at": "2026-10-20T22:47:21.434372Z"
     },
     {
       "id": "GF-76AC1A25BC530B",
@@ -56214,6 +56339,62 @@
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
+      "id": "GF-62E55822E869B2",
+      "title": "These 17 airlines have suspended flights to Dubai - Time Out Dubai",
+      "category": "transport",
+      "topic": "aviation",
+      "countries": [
+        "UAE"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-16T05:26:39Z",
+      "last_published": "2026-10-16T05:26:39Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "66dbe09164908de430489e34",
+          "title": "These 17 airlines have suspended flights to Dubai - Time Out Dubai",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1WMmI0SXlwaWJwbklHMEJIYV9aUnpXNUdrN2FYSEltQlpTcU9KLXVCUWZ3VTdHSnA1bXMxelZaWU0xQXNPWnpaLVdnb1o4SXlxVE8tXzliUXc0cmg1Y2p4elltSUdxRzNPZGhWdk5sbmQySWkwTGxsUVFn?oc=5",
+          "source": "Time Out Dubai",
+          "publisher_key": "time out dubai",
+          "provider": "Google News · aviation",
+          "published_at": "2026-10-16T05:26:39Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T22:47:14.539912Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "UAE"
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-16T05:26:39Z",
+      "coverage_last_published_at": "2026-10-16T05:26:39Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "c06c3621db444b4fcb5f",
+      "revision": 1,
+      "updated_at": "2026-10-20T22:47:21.434372Z"
+    },
+    {
       "id": "GF-CFF832D519CE1B",
       "title": "Hormuz shipping disruption is starting to hit harvests, UN agency says - アラブニュース",
       "category": "transport",
@@ -56712,6 +56893,64 @@
       "digest": "b77ed8392bf6d7f0959c",
       "revision": 3,
       "updated_at": "2026-10-20T16:52:31.264495Z"
+    },
+    {
+      "id": "GF-16094BD5B10138",
+      "title": "السعودية والإمارات تدينان الهجمات الإيرانية على البحرين والكويت والأردن وتؤكدان دعمهما لأمن الدول الشقيقة - الساحل الغربي",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Bahrain",
+        "Iran",
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-16T03:25:46Z",
+      "last_published": "2026-10-16T03:25:46Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "6df264a43f4803d464219aca",
+          "title": "السعودية والإمارات تدينان الهجمات الإيرانية على البحرين والكويت والأردن وتؤكدان دعمهما لأمن الدول الشقيقة - الساحل الغربي",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBITGlFa05BRWUwWDUwVzhPWlZFaC1yQ0RmMUxpMXZLUF9neHYtZ0lmdFRmQk4ta0VWT1hRZ25YVFlRdENrajdBcTQ2OVdFYmM?oc=5",
+          "source": "الساحل الغربي",
+          "publisher_key": "الساحل الغربي",
+          "provider": "عربي · الإمارات والبحرين",
+          "published_at": "2026-10-16T03:25:46Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T16:54:36.300300Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-16T03:25:46Z",
+      "coverage_last_published_at": "2026-10-16T03:25:46Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "958e3f0a4184cbfda211",
+      "revision": 15,
+      "updated_at": "2026-10-20T22:47:21.434372Z"
     },
     {
       "id": "GF-2754D409258FEA",
@@ -81732,11 +81971,11 @@
       "sources": 220
     },
     "Saudi": {
-      "events": 556,
-      "reports": 595,
+      "events": 559,
+      "reports": 599,
       "security_coverage": 438,
-      "transport_coverage": 101,
-      "sources": 273
+      "transport_coverage": 104,
+      "sources": 274
     },
     "Qatar": {
       "events": 58,
@@ -81746,10 +81985,10 @@
       "sources": 31
     },
     "UAE": {
-      "events": 75,
-      "reports": 80,
+      "events": 77,
+      "reports": 82,
       "security_coverage": 51,
-      "transport_coverage": 21,
+      "transport_coverage": 23,
       "sources": 50
     },
     "Bahrain": {
@@ -81807,44 +82046,44 @@
     "2026-10-13": 115,
     "2026-10-14": 152,
     "2026-10-15": 148,
-    "2026-10-16": 138,
+    "2026-10-16": 140,
     "2026-10-17": 187,
-    "2026-10-18": 151,
-    "2026-10-19": 219,
+    "2026-10-18": 152,
+    "2026-10-19": 220,
     "2026-10-20": 312
   },
   "revisions": [
     {
       "id": "GF-59E96DD54D901C",
+      "revision": 6,
+      "at": "2026-10-20T22:47:21.434372Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-079FE18C91E1F8",
       "revision": 5,
-      "at": "2026-10-20T22:45:22.710386Z",
+      "at": "2026-10-20T22:47:21.434372Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 2,
+      "new_source_count": 3
+    },
+    {
+      "id": "GF-AF8E727FB24624",
+      "revision": 3,
+      "at": "2026-10-20T22:47:21.434372Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
       "id": "GF-16094BD5B10138",
-      "revision": 14,
-      "at": "2026-10-20T22:45:22.710386Z",
+      "revision": 15,
+      "at": "2026-10-20T22:47:21.434372Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
-    },
-    {
-      "id": "GF-23CE44EF9DCA45",
-      "revision": 6,
-      "at": "2026-10-20T22:45:22.710386Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-EFF1EC7C4B2E1C",
-      "revision": 3,
-      "at": "2026-10-20T22:45:22.710386Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 4,
-      "new_source_count": 5
     }
   ]
 }

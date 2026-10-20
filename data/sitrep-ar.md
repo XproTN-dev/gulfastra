@@ -1,7 +1,7 @@
 # موجز جلفاسترا للمصادر العلنية
 الفترة: آخر 24 ساعة (حسب وقت نشر التقارير)
 
-مجموعات التغطية: 317 | عناوين مرتبطة: 344
+مجموعات التغطية: 317 | عناوين مرتبطة: 345
 هذه تقارير صحفية وليست أحداثا مؤكدة، ولا تعتبر توجيهات سلامة رسمية.
 
 ## Security (219 coverage groups)
@@ -11,8 +11,6 @@
   - الراي: https://news.google.com/rss/articles/CBMi7gNBVV95cUxNdmVzam1rbGYwMkhnSmotT2VrYnU3ZjliWDI1M1FTZ25IOEpEeEhRSmFNVHI1dXE3bXBHNEpvbU1Ya0V1Rnk0WnJaQXNXcVlOLWV0LUdXWTVHNDExcnZSTU5wMVR2SHRYdzdwUkZNcUlwcEU1S3BqS0lJdnlJbV9Cc0FEclFrRldFNzFuZU9SYVE0dHpsUTdlS2hsNjNxT2U2WnBxY3pRdjRVQ0M0ek9zak1adGQ0amtSV0dYUEVJamd1Y1dVU2pDaHFsUWwtVVhfVnVTWkFyUk14clF0QzN4MERNd3lBWjF0dy1Hb013anF6b204aTZUNkxZMy1rdXVGOWc4MVFOank2RlNDM2xObVl4Q3VqQ0lfbXhuU0xQTkNQbTJXZmNtNUFhemxlNTBUYk9xcEZfOXVRWjNuWW91Y2ZVMFRncllzbFRJNGJoUnM2LVd6ZlVGN3VveVJORVJPNWtoTHNJUGZHVDFGRXVyeWxWZUdrWDR2ekhMb3dBLTNHSDloQ19wT3hNalR2NUtCSm9ya2t0YW5xLXdBZ3NTTDhPWk9Cc2hId1pkX3F6elN3bTFETGtnV3NMbDdEaU5uSTY0RmktYTJLX29LWEdqMEM3b1RtMDk2Q1JZaW5mSEhYU000XzA1clgtWnlhUdIBWEFVX3lxTFB1dHdCZHk3VVhwQmg3cGhmSHFtaGxRVS1UQmtYc0N2MGxlTnM0V3BJVDV4dWt2Qmo5OFIyUFJEem9hOGR5eHlmUjF1RlFLUDVNcmF5VnNTRGM?oc=5
 - Coalition Forces Destroy Ballistic Missile Launch Platform Targeting Riyadh (1 headlines; single-source)
   - Qatar News Agency · General RSS: https://qna.org.qa/en/News-Area/News/2026-10/20/coalition-forces-destroy-ballistic-missile-launch-platform-targeting-riyadh
-- UK to send jets to defend Saudi Arabia from Houthi attacks, and other Mideast news - AP News (1 headlines; single-source)
-  - AP News: https://news.google.com/rss/articles/CBMiqwFBVV95cUxNd1EtQlVBeUdvX1BnaEx2cXI4ZVVleTdNSlJ2dUR2eXdWeEpwVl9SandQVEpadDVrdzVEM1k0a2NfRXhpSURuOFZtRzdnOWtsNGZncFhtcV9OZ3kxQ1Y1RDRYN1FLNG11V2Y4dFQwbnRqOXJQZDBySEhMWUxrVGZwQ0tPS0N4TXpZVGxkeFRwU3BTWkoxMnNTa1JsNTlPYjZDSFJhNDZFazJsSXc?oc=5
 - Iran’s military chief warns of stronger response to any new attack - Middle East Eye (1 headlines; single-source)
   - Middle East Eye: https://news.google.com/rss/articles/CBMi9wFBVV95cUxQYnhNQWg2NlU4Z2t5MFVIS0ZzNm1BbVE4UWd0bXFXN0Y1TWF0RjEtTDRzWWN6eVdWaVRoVnp4SEpweE9oRld4Vl9HenI5ZUo4WDBLLS02RnFPbjU0N3VNMUF6ZEplUkdYZlJtSUtmZ09zdzRlYUhwalJGTHFMZ2RwUFVKNkNIUXF1RzhfenA4dXNFUTRQY0t3dWpjTElocGZzUVZHU1ZWd0NpNW5iY3VjdnlSWER2YzRWU01ZZXFyTDctdDE5eGdXNVV5Y2YzZmJ1Sl9jSUNoUW5CTjBLbGFidjZKSUxpSnR3UTBaWEF4RFNSN00yQUF3?oc=5
 - UK to deploy fighter jets to defend Saudi Arabia against Houthi attacks (1 headlines; single-source)
@@ -33,6 +31,8 @@
   - Orinoco Tribune: https://news.google.com/rss/articles/CBMimAFBVV95cUxORnBac09uZ0hQY0xkYnMyekdNNlVETDRtUmR0SVJuZUNOQkRHM2ZKak41R3VQSnRjNFpyZGJONEhRcmw3TXVvd0dYaXhEMjRsNjNTRllwV1lkWEUzWE9Rdko5Z2w0THJvcHdnYVNiNzU2Vm9Sd3M2b3IxeDQ1ZUJiclVwMkc3RHoyQURtQWJOZmY2WHh6QThxXw?oc=5
 - الإمارات.. «الأمن السيبراني» يتصدى لـ 750 ألف محاولة هجوم استهدفت الدولة - صحيفة الخليج (1 headlines; single-source)
   - صحيفة الخليج: https://news.google.com/rss/articles/CBMiogVBVV95cUxOUko5UU5VazBoNkIzekVXZ3N3YjlwWlgtU25qNDNaRmY5MGsyWHNvSHJZcTIxX0NKemx0V2dQZnV5ZnJSbkZlUGxHUVFzeW55TEp2SlJEem5teGdwUGk1WnI3VmtwbTA0TGZ6RlNGak91ZHB4d2JZN2FwaHViZzJxTjVxQzh1SFQ5NUMyY094MWlGX21peWxxZGJEZUp6OE1pbXNLRUVvaHlKcV9BNmN3OU1QVG1OR0xTWEJTcnRPbHVOekw5Zm5yVTA1RXVBQ056cDZFRFBULUZwY3Ewa2hYbjY1Z0F1WGtKTElKN2JfMDM1aDEtWVV4d1VtWF8yYmZYRmZMQmN6NXJIdWREdHhyR3ZfU1dPUGw3aEctRDhVanRzdXhxTnJDc0RfbXV0ZU9KRVdDRUZRNmJuXzVFV1h5Ym8tTDlnNXJXRFNISG1jNm5zSng1R0k5ejZvZjFHdmVkMGtubWNrcmpzTnBKYmtVMVRGLWN4dnk4STVLbTFQdDkzTGJaRkIweU5WRHdlejZnejBfS05pNndYRURFclhPX3VweXdReUdtOFBrdE45MHcwdkZxWXFpT1ZxeE1valM2NUlCZlpuOXFWb2tQWTJfbEdTZ01HVnJBV0M5anppbXU5TFBjbnFsTzJlT3ZNalFqaHRsX2N3U0VKbVhuRWVENXU3NHVRMlRzdXVjaTBHM3ZaaFBYaTlyS0JzblhHN3RfQUYtNmJVbVZmRjNBSW5lSE1SX21vQmpaSjNRSFJONVhWa1VyWlRDWExPa1A5NnFSUDFfNm53b18yZTQtNkY0WHVic1d0N0NXbDNsTlBqX1QxeUVrTmEweUpkUTJOeFp4aHZFUDNGdzZPVTJVaWNieXNwc0g0SlljYi1MblNnZ3R0dw?oc=5
+- Middle East latest: Iran says supertanker 'exploded' near Strait of Hormuz - The National (1 headlines; single-source)
+  - The National: https://news.google.com/rss/articles/CBMiggFBVV95cUxNMkVpbk9qT29fT1A3MHN5dnlHc1RjaXJLRVhTVTBhOGNON3d1UGQ2amJNQVdWZ0U0RzYwTC1pVHRqZjFYZUZGSWU0cGJYTVVncnRoYjEzdG1fUmhyMWJHUE0zS3dPcmJMaDE0Z0c5ZzdSRVZLYVB3SzdfQ28ydWg4Yld3?oc=5
 
 ## Transport (58 coverage groups)
 - حريق بناقلة نفط بعد اصطدامها بلغم في مضيق هرمز - www.alghad.tv (1 headlines; single-source)

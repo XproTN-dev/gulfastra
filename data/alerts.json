@@ -1,51 +1,9 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-20T22:45:23.470101Z",
-  "alerts": [
-    {
-      "id": "GF-D65FAAB711828F",
-      "level": "review",
-      "title": "الإمارات تعلن التصدي لنحو 750 ألف محاولة هجوم سيبراني استهدفت قطاعات حيوية - السياسة",
-      "published_at": "2026-10-20T22:32:19Z",
-      "countries": [
-        "UAE"
-      ],
-      "category": "security",
-      "topic": "regional",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "السياسة",
-          "url": "https://news.google.com/rss/articles/CBMiwwRBVV95cUxNRGRUR2lTYVJHNmY1amxYTnl5SjZZM1ZjQVZwTWtWUW51WmNLQWh6UjNjU3FTRVRsckR2VDhyZzVKb1BEdnlwdGY4SmlLR3dLYW5DT3ppRFNQYWp5aENrRi15S1VQaTd0UjZjaFRZb0tsUVg0S2dVSkVYMVc0eDhfVktxamxnZmEyUVBTVmZ5UExST0NNSS1BZWFZelI4eUpGY3Q5R3FuZ0YzLV91VWExT0EtbHBJbGdvd1hLNDB6T05JVG9OOTVlcDZJaVNVVG8tNGhfcHFsU2h4UHo2MU83bmNXRmo4XzBYZUkzc2VPTTlfTUlPbDJRTHNQZVNHLWxkWnNJV2E5OE5YOEFxSHhnMW5vamV1clk1MTA3cUp5Rk5Kb194dGJ0UjB2eTZudEFiTEx2ZzZsaWRCa3N0ZEJOV2xkQlVzaWwza1hkWnBsSjZQOVFzX1dSd3hoZ1dIWUY5aFNCN2VPOGhGM0loWlh0X19ENjFELXd6dUtnNnJBMTRTb09nZ2pPR3RZVmp6dDRqMTRiYTJMaXFwTXZrbVZsUmhnb0FoU0ZKWmdrc2k1Ri1KaGlJVnlGdFEtbHJoZEJIcEc2TEJWUXhFSi1keTNZUmNGelRwQXg3LWNuMWNmMHlGd1d4UXRqS1lIWTZ5LW9EQTJIT3pyN1ZtYy12WmpDLWJzcjg0SmY1ZmdaMlp2SnRWV1RzQnIzQlZ5YlBpRzlhNWJtdzVLWjNIS25CTnZncXk2TGU0alQ3MXM4cXhlTkZHUGc?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-59BE3EBBD1CFD7",
-      "level": "review",
-      "title": "الإمارات.. مجلس الأمن السيبراني يعلن التصدي لنحو 750 ألف محاولة هجوم استهدفت قطاعات حيوية - البيان",
-      "published_at": "2026-10-20T20:54:19Z",
-      "countries": [
-        "UAE"
-      ],
-      "category": "security",
-      "topic": "regional",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "البيان",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5xV2g5c244b0M4dnZTUTNRTnVsZWlnbTlaTDZnWG51ajJmUUFUV0twN1lVSUlCZ3NGaUczZTR5VUM1RWtNZ2VMLUxpMzYtYldtTlZteUl30gFWQVVfeXFMTnFXaDlzbjhvQzh2dlNRM1FOdWxlaWdtOVpMNmdYbnVqMmZRQVRXS3A3WVVJSUJnc0ZpRzNlNHlVQzVFa01nZUwtTGkzNi1iV21OVm15SXc?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    }
-  ],
+  "generated_at": "2026-10-20T22:47:21.987247Z",
+  "alerts": [],
   "new_alert_ids": [],
   "critical_count": 0,
-  "notice": "CRITICAL REPORTING means multiple named outlets published related headlines. This is NOT confirmation, real-time detection or official emergency advice."
+  "delivery_status": "quality-check-failed",
+  "notice": "Alert generation disabled: quality tests failed. Do not interpret an empty alert list as an all-clear."
 }

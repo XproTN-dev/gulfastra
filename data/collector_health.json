@@ -1,15 +1,15 @@
 {
   "schema": 1,
-  "checked_at": "2026-10-20T22:45:25.989278Z",
-  "last_attempt_at": "2026-10-20T22:45:14.127126Z",
-  "last_success_at": "2026-10-20T22:45:14.127126Z",
+  "checked_at": "2026-10-20T22:47:25.446634Z",
+  "last_attempt_at": "2026-10-20T22:47:14.539912Z",
+  "last_success_at": "2026-10-20T22:47:14.539912Z",
   "last_success_age_minutes": 0.2,
   "source_total": 31,
   "source_success": 30,
   "source_failed": 0,
   "source_backoff": 1,
-  "quality_gate": "passed",
-  "alerts_available": true,
+  "quality_gate": "failed",
+  "alerts_available": false,
   "collection_state": "healthy",
   "operational_warning": "No live incident detection; best-effort scheduled public collection."
 }
