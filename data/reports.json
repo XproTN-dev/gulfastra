@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "last_run": "2026-10-20T12:09:48.504938Z",
-  "last_successful_run": "2026-10-20T12:09:48.504938Z",
+  "last_run": "2026-10-20T12:11:06.247631Z",
+  "last_successful_run": "2026-10-20T12:11:06.247631Z",
   "reports": [
     {
       "id": "1cbd40d4a285b22349c62b11",
@@ -938,7 +938,7 @@
       "provider": "عربي · قطر",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
-      "freshness": "new-reporting",
+      "freshness": "recent-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
       "critical_candidate": false,
@@ -1590,13 +1590,14 @@
     },
     {
       "id": "d0b5ab21ef3f76e62477406f",
-      "title": "\"لن نشن ضربات هجومية\".. بريطانيا ترسل مقاتلات تايفون للدفاع عن السعودية",
+      "title": "الدفاع البريطانية: مقاتلات \"تايفون\" ستشارك في دعم السعودية ضد هجمات الحوثيين",
       "url": "https://www.aljazeera.net/news/2026/10/20/%d8%b9%d8%a7%d8%ac%d9%84-%d9%88%d8%b2%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%af%d9%81%d8%a7%d8%b9-%d8%a7%d9%84%d8%a8%d8%b1%d9%8a%d8%b7%d8%a7%d9%86%d9%8a%d8%a9-%d9%85%d9%82%d8%a7%d8%aa%d9%84%d8%a7%d8%aa?traffic_source=rss",
       "source": "الجزيرة نت · RSS عربي",
       "published_at": "2026-10-20T08:10:31Z",
-      "country": "Saudi",
+      "country": "",
       "countries": [
-        "Saudi"
+        "Saudi",
+        "Yemen"
       ],
       "language": "ar",
       "category": "security",
@@ -3725,6 +3726,29 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "1ef3977847d387b2ca7e8b62",
+      "title": "Pezeshkian calls for stronger Iran-Russia cooperation to advance peace and multilateralism - Tehran Times",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNN1p1TXdUVGFJbERvaGtpdFpwN1JvZW13UERWVG5nd0xlaFo0YThVc3NZT0ctYkRLdDdQUl9ZZHlMd2FnTmI2dmp4V2NvRGVtNnR5NHY3NVIzbDdBN2N0Y2FwVG5WY0w1R0ZFX1Z4ei10aW1ad1JMUWdxcmNWN2c3bkppdnpIaDYtdG1lUzk1TXRaSDIxa25JOWN5WnByWkxXU3JUNnNvdw?oc=5",
+      "source": "Tehran Times",
+      "published_at": "2026-10-19T18:29:26Z",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "language": "en",
+      "category": "diplomacy",
+      "tag": "DIPLOMACY REPORT",
+      "provider": "Google News · regional",
+      "first_seen_at": "2026-10-20T12:11:06.247631Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "a3704f430f5cb1d7641f0978",
       "title": "الرئيس التركي: هجمات الحوثي ضد شقيقتنا السعودية تسببت بتوتر كبير في المنطقة - العربية",
       "url": "https://news.google.com/rss/articles/CBMi5gRBVV95cUxPY2MzTFA1SzNISVBkampJZzhtTUxtaGFwMjQ0alZTLTNJdHNBTmRwaVM0MDlLdDZZamxBcVozV2pZaXN3bzdUVVU1VC1wWEhXVmVZM3R1UFQtVDhYWllGUklDbnZsbkR5cGNxTlZ0SWZYbU1DVmR0U1NtRXBmaUJvaGxRU0doaXFMYnY2Vno3Q0l0SEJJM2laTUkxcUNDZnhWRmJLSUtXak1wWjlTeWl5R3k5RzhfWC15OXRBbEhjOW5mUjJXSUxnWS1CN0NnN2RFOHUzbVRyODNrR3ExTnZ3bFV1NjliSU1qd3RYVjY5alFZcExLRWFZVlpzaHBPUXRXby1LUER2SWlURXZfOGJXUDNsX0RGSlBRbloyLVNUYnIwVU9qVE5velBGSFluRXp0RlNPemt5WmtnaE10STV1S29Yem15ZUJGcEx2d1hNdkFGcTBKRHFidXNqSWkxMnh6QkpmYUcwWndua2lEbnptdFVCd2I2bTBvSjJIQm9QdUwwckVOS1kxUFlsSFZQQlRTd1BocENzZ3E3N0VFRDV6OGs5TElLSGJzNHAwcEM1eFZzV1V4WkZpMkVMU1ZKY1pZLWoyRy0zdF9BSzR6WmhybF94N0czV1F2anY1a0JFTXV6N216TmVjd1ZrN2V6YV9ucVUycXZvUy02NWExWHBKRkpTYi05Tmo5T094OS1WTF9JeGtLSERfQzhmVkNYMmItczNjaE8tNzdJMEQ4RFFiTE9IWVMtTFNVNTRsQncwSFY1Zk1qdnk1VFV6aXJtMUFXVjB0ajJtWjE0VXFXUW16cmNfMktEZ9IB6wRBVV95cUxQaUs5T3FGLWV4M01QSkctdW5raDBwcFFXcTRtXzB5Qk5ZN2xfRnNoU3ozaWdZUVhoVWhiRXJoZXo4YnVPN3J1UkhveC1yRDFCWWhmVlI2WGdKRko5SU1NT05FN3ZyVFNfcjd2QWMwTTR0b0lScVZPdjRTRUh6dWhsN1JobmFLZHRpbGtiUm5Tb253b3NCY3FSa0twY0ZYdEw3ZUNqc0drNTI0dlVlaFQ2bTRQSm9LWlVDQTBzT0gyX0FuenFvMFJNZGNucU9PLTUwMXhIUDBBWkxKekZha0QtN2U2Y2pOY1dPVFpnWlFiYUZKSHlVODM4ZXMtbDhZcTBWNGhmUlBjYXVUTXR1Z3VBQVBoOThBcjhDNERkRGhiRWh4SzlRX1F6bXZuT0xsUVZiMHk5bGNyaC1sRWlPVjhVVm5aTERwbFFLZElLdXhEajBqUTAxbG5GMHprTEhlbjB3ckhjakxkYnZhZElhRURrTTRwT2l0d3NSZUp5SFh2by1NSTFHQUFnVWM3UGI3U3BSSVJQZDVEMlVablFJUDh3cGdnbWlzaHp1Q2Y3dE5IU3I5MkFFQWlfd0hiemZKY2JWYkU5SG9lLTh6QmhZd1g3a3dLckk2Q1pOeGlCUDh5WmF5QWYyeUlPdzF3SnBXSExXUzdOSHJCcngzY2w5TXdNX0F4cmpZQWI5bzlJYjJGQUE0cjg0Z3NrYzktZ1d0UUJlNXlEWEllWXhTWG1CQ2RTOW1vMXJibE5ZSDQ2eFI3RV9PRVVXejM4T3R4Z2pnU1d3Tlh3eGR1Y1RRYmQxTk5sSnJpZVlnOURSbDRr?oc=5",
@@ -4216,7 +4240,7 @@
       "language": "ar",
       "category": "security",
       "tag": "خبر اعتراض / دفاع جوي",
-      "provider": "عربي · الإمارات والبحرين",
+      "provider": "عربي · الكويت والعراق",
       "first_seen_at": "2026-10-20T12:01:49.547007Z",
       "date_quality": "publisher-time",
       "freshness": "recent-reporting",
@@ -20109,7 +20133,7 @@
     },
     {
       "id": "aa17a6eca97a950b82cf3e2c",
-      "title": "Iran’s precision strikes picked apart Gulf infrastructure, blunting US war plans - Reuters",
+      "title": "How Iran's precision strikes picked apart Gulf infrastructure - Reuters",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONmZVZ0RfSms3U0s1SVE3N3ZMeWxLaVhtTjczazRmNU40UkpCUldVbWZJVUtJVkt3cHdLOEpoTl9qY0lFXzdKWUtydmYzVi1MeDExbXB6eHc3NjAyTi1CT2lveE5WVUNPeHV5SndkU3BmRUNiS1JCQUI2bDYyZjd6RjltYUhzeFVmUDFPSU93NWo?oc=5",
       "source": "Reuters",
       "published_at": "2026-10-15T10:00:00Z",
@@ -24026,6 +24050,29 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "8ee498533c4c81fc42392c9f",
+      "title": "Explainer: How are Houthi attacks disrupting civil aviation? - https://www.indiagazette.com/",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVU05b1d0RjFOWVI4WXJ3TlFMQXc1amdPNUxxLTJwQzZTOVFIeGxfUFJ3QWlsWS1sZk5Sd21CZzhIejBFNjdlSVpSWjYtRXNPRF9rNGdlcEktOGVpMW1qNldlWEpRa3dQSmotMEtjampZLV8xT21Yc3g4YWZJWXlyUUdkVzlYamlSOTk2SVRabjYtTWJHb2xmdHdoRmk1ZlYzR1dtZw?oc=5",
+      "source": "https://www.indiagazette.com/",
+      "published_at": "2026-10-14T03:45:00Z",
+      "country": "Yemen",
+      "countries": [
+        "Yemen"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · aviation",
+      "first_seen_at": "2026-10-20T12:11:06.247631Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "retrospective",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "665bc10c826971718e13734c",
       "title": "Blasts rock Riyadh as Houthis vow to continue striking Saudi airports, oil facilities",
       "url": "https://www.france24.com/en/middle-east/20261014-live-saudi-arabia-reports-aramco-building-hit-and-four-wounded-in-houthi-missile-attacks",
@@ -27310,8 +27357,8 @@
     },
     "Google News · aviation": {
       "ok": true,
-      "items": 98,
-      "relevant": 90
+      "items": 99,
+      "relevant": 91
     },
     "Google News · shipping": {
       "ok": true,
@@ -27321,27 +27368,27 @@
     "Google News · diplomacy": {
       "ok": true,
       "items": 100,
-      "relevant": 49
+      "relevant": 50
     },
     "Google News · regional": {
       "ok": true,
-      "items": 54,
+      "items": 55,
       "relevant": 29
     },
     "عربي · إيران والخليج": {
       "ok": true,
-      "items": 54,
+      "items": 53,
       "relevant": 41
     },
     "عربي · قطر": {
       "ok": true,
-      "items": 57,
-      "relevant": 28
+      "items": 29,
+      "relevant": 13
     },
     "عربي · السعودية": {
       "ok": true,
       "items": 100,
-      "relevant": 55
+      "relevant": 56
     },
     "عربي · الإمارات والبحرين": {
       "ok": true,
@@ -27350,8 +27397,8 @@
     },
     "عربي · الكويت والعراق": {
       "ok": true,
-      "items": 25,
-      "relevant": 24
+      "items": 49,
+      "relevant": 46
     },
     "عربي · مضيق هرمز": {
       "ok": true,

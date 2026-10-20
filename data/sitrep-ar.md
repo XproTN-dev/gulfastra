@@ -1,7 +1,7 @@
 # موجز جلفاسترا للمصادر العلنية
 الفترة: آخر 24 ساعة (حسب وقت نشر التقارير)
 
-مجموعات التغطية: 217 | عناوين مرتبطة: 236
+مجموعات التغطية: 218 | عناوين مرتبطة: 237
 هذه تقارير صحفية وليست أحداثا مؤكدة، ولا تعتبر توجيهات سلامة رسمية.
 
 ## Security (152 coverage groups)
@@ -65,7 +65,7 @@
 - Saudi Arabia Flight Update: Lufthansa, BA, Etihad & Qatar Dates - Travel Tourister (1 headlines; single-source)
   - Travel Tourister: https://news.google.com/rss/articles/CBMi8wFBVV95cUxOVWRRc0pFNEs2Sm13Yk4xRlhud3VFTVJhSmYzRHJwcmxBNEVrRTNHVDByYmJobjVKclFOZmU1aWxCOHNYYVRDR2lMQjdWTW56dzVBbkhtV3FoZnk1SG9aS0o0d01VaU42ZktCUUoyV2F5cEhlallHeG5ab2l3SDFqWm1RSjFjZXJFMV9IX0VGM29aQWxjckMyOVlFX1JJMENoSUNBVk94M3hhYU9DU0tONHN4LTd4WTR1S3lRTFF5UmdtY0R3dVVOOVpEVnJPV3RqS3ZJdXJNU1NFLWp3QllId0xEb25RWU45dDJ2SlZMVy1MZDA?oc=5
 
-## Diplomacy (23 coverage groups)
+## Diplomacy (24 coverage groups)
 - Iraq Bid To Mediate Iran - Gulf Tensions Faces Major Obstacles , Former UN Envoy Warns (1 headlines; single-source)
   - i24news.tv: https://www.i24news.tv/en/news/analysis-opinion/artc-iraq-s-bid-to-mediate-iran-gulf-tensions-faces-major-obstacles-former-un-envoy-warns
 - Iran prolongs talks in stalemate to influence US midterms, officials say - Reuters (1 headlines; single-source)
