@@ -1,9 +1,9 @@
 # Gulfastra | Open-source situation report
 Window: last 24 hours (publication-based)
-Coverage groups: 247 | linked headlines: 268
+Coverage groups: 248 | linked headlines: 269
 IMPORTANT: Unverified published reporting; not confirmed attacks or official safety advice.
 
-## Security (176 coverage groups)
+## Security (177 coverage groups)
 - Air India, IndiGo & Akasa Air Suspend Saudi Arabia Flights Amid Middle East Conflict, Check Routes & Dates - Free Press Journal (1 headlines; single-source)
   - Free Press Journal: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNakhWbXY1ZVA5MG5BZFF2bE1IZ2pFbFVFeXVoSkVtSlFEZVA1UUtQNk5TeHBXLWNpM0taOHYzdldkLWZWSVc4UEhIY0ZBQ1RUSnFuUF9yUGpyWS1iS1JoUGYzZWVpa2FWZXhhdDBaXzRLWmJ2SkNOcUZ6SGdVbzFaRE43Smw5c0o5LVhHVnFxQm9JWDE3cllLaTlubE9tWEZaTVQzYVJOTmhkOHo5emo5WFNsM2c1aW1kTE9tMHB0TksyNlN1a0RrQlhLSlJfNHBEaGYxd9IB2gFBVV95cUxPdjBaUVVKWnRxZ3laRVJOQXZ0LWUzenI3UEIyQ1NEMkFMSERZeU90Nk8wZU5yY29RcUUyanVmZGRFazBvenNzZkE1T24wR2FwZDBYblpjNUh2bjBqZFRYVGEzdVJmaUJvV3h6dFQxZXVFbXFZdkg4aV9jYWV4Y1JpYWVfU0dhMUNVOXd6R1lCdmtQb2pSdTNHc1BWSVZhdWhHclYzYjJMSWlyVkhrQlE0ZFVNM3BTMGdPci00UzBpRW5EYVZDbGZOZW1OWnA2YWx4MXZrektmLUNHQQ?oc=5
 - الجيش الإيراني: اندلاع حريق بناقلة نفط داخل «منطقة محظورة» في مضيق هرمز - المصري اليوم (1 headlines; single-source)
