@@ -402,3 +402,24 @@ button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid 
  .v8-studio-foot{font-size:8px}
 }
 /* End Gulfastra 08 style sheet */
+
+/* Map density refinement: geographic positions remain actual country reference centers.
+   A small country card will always be a published-report count, not an attack pinpoint. */
+.country-pin{width:25px!important;height:25px!important;border:0;border-radius:50%;background:transparent!important}
+.country-pin:before{inset:0!important;border:2px solid #ffffffb8!important;
+ background:var(--pin-color)!important;box-shadow:0 2px 9px #0004!important;opacity:.9}
+.country-pin:after{display:none!important}
+.country-pin .pin-number{font:800 9px "DM Sans",sans-serif!important;color:#fff;text-shadow:0 1px 2px #0006!important;line-height:1;letter-spacing:-.35px}
+.country-pin .pin-label{display:none!important}
+.country-pin:hover{z-index:500!important;transform:scale(1.15)}
+.map-corner.top-left{max-width:175px!important;gap:4px!important;padding:7px 9px!important;top:8px!important;left:8px!important}
+.map-corner.top-left .coordinates-label{font:700 9px "DM Sans",sans-serif!important;letter-spacing:.5px!important}
+.map-corner.top-left small{font:8px "DM Sans",sans-serif!important;line-height:1.3!important}
+.map-corner.top-right{display:none!important}
+.map-corner.bottom-left{gap:4px!important;bottom:4px!important;left:5px!important;right:5px}
+.map-corner.bottom-left .map-legend{width:max-content;max-width:100%;padding:5px 7px!important;gap:7px!important;border-radius:4px}
+.map-corner.bottom-left .map-legend span{font:700 7px "DM Sans",sans-serif!important;letter-spacing:.25px}
+.map-corner.bottom-left .map-qualification{width:max-content;max-width:100%;padding:4px 7px!important;font:700 6px "DM Sans",sans-serif!important;letter-spacing:.35px}
+body[data-gf-theme="atlas"] .maplibregl-ctrl-attrib{background:#ffffffc9!important;color:#24495d!important}
+.maplibregl-ctrl-attrib{max-width:145px!important;font-size:8px!important}
+@media(max-width:480px){.map-corner.top-left{max-width:151px!important}.map-corner.bottom-left .map-legend{gap:5px!important}}
