@@ -52,7 +52,7 @@ function updated(){
  const header=$("headerUpdated");
  if(header){header.textContent="COLLECTED "+ago(time).toUpperCase();header.title="Last completed collector at "+clock(time)}
  const pulse=$("v6Pulse");
- if(pulse){pulse.textContent=ok+"/"+feeds.length+" SOURCES · "+ago(time).toUpperCase();pulse.classList.toggle("degraded",bad>0||diff>=16)}
+ if(pulse){const source=window.GulfastraData?.info()?.channel||"unknown";const provenance=source==="data-branch"?"GITHUB DATA":source==="static-fallback"?"SNAPSHOT":source==="cached-branch"?"CACHED":"CONNECTING";pulse.textContent=provenance+" · "+ok+"/"+feeds.length+" FEEDS · "+ago(time).toUpperCase();pulse.title="News files: "+provenance+". Collector time: "+clock(time)+". Source data does not deploy the website.";pulse.classList.toggle("degraded",bad>0||diff>=16||source!=="data-branch")}
  const fresh=$("freshness");
  if(fresh){fresh.textContent=freshness;fresh.style.color=diff<16?"var(--v6-accent)":"#ffbf79"}
  const sub=$("freshnessSub");
