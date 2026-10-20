@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "generated_at": "2026-10-20T10:44:57.988389Z",
+  "generated_at": "2026-10-20T10:48:18.703284Z",
   "model": "deterministic-source-correlation-v1",
   "disclaimer": "Clusters are related PUBLIC REPORTS, not confirmed incidents. Source counts are not proof. Country names are mentions, not incident locations.",
   "events": [
@@ -117,6 +117,92 @@
       "updated_at": "2026-10-20T10:44:57.988389Z"
     },
     {
+      "id": "GF-874D8A40B4CF10",
+      "title": "قطر تحت الحماية المصرية.. كواليس صفقة القرن! #خمسينة_اقتصاد #مصر #السيسي #جيش_مصر #الجيش_المصري #قطر - Facebook",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Qatar"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T10:33:33Z",
+      "last_published": "2026-10-20T10:33:33Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "43c9224606a4461af2fc81d6",
+          "title": "قطر تحت الحماية المصرية.. كواليس صفقة القرن! #خمسينة_اقتصاد #مصر #السيسي #جيش_مصر #الجيش_المصري #قطر - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMiuAVBVV95cUxQWTlIRGFJWklvTGp5T0JZOWpyVkxzTlprWFI1TEIzay0xcDZpWjlwMDdKWFVFVERKQ0ZWbktvSkZZZHZEWFZmZ3NNdER6TkFoaEZja3FPLXc5R0M4NUstbE9EX2dZczNkcG16QUtoZVZvdmRObjNDdV94RU4zSExHMXdnR0ZMbkxRakpyM3p2cjRVNW9DVGxfeHB6THI0LU1oNFlQOVF4OGdLMjlEMzEtRklQbTVYRlFTN0o5SmdES1dEekZGM2l2MXduSzZveUFhVHBVRTU1VzRhaTJFbGZ6OHc1RHQ4d04yX1YxSGNjT1RLdndKb0RnRGtlbEpNQXk0OHlpejJhVmtpQmJ5SEJLSDVXQzdaRF9BdHZLcktOcHQ3dWZyM1dPVTN1MUFBclNSU0dfRWlFMWZSR2syZ0JLWGF0UDYzWS1uUk1mR2VlcXdtbkM3VkVfT3J3TS1YcHE3T2pXQlUwWmRXcHhfQ3dzbTVGRW9IcGViTDQ3OXpQNVJwMXk4bzlWQnBlXzFfUzhwdmR2d3Q3Wmt4VXpGQVNCamhUZHhwYTlmRTBJclBQSTUyZHFza1p4bEZXcEw3S2NrNDJmSWdyNEZEZ3ZvY055dVVWbTlfdUZlUkpBVWx3dkdPUDNDekZlRTBHajJ5NWhQT0tNZHM3ZTVPeF9wZkNjR1M3UldiNmFUNHlBZ2xKeG91UEVfUDlwdk5sVlBSVW9RQXB0Q1Q1QmRxZ1J2eWFheTZXbVpTTnB4MmlBY2NlcVk1VmhqOXFyRW1JMlRhZGRCbUJvaDJTTlpIVzlOa0RCZlFGWXk0MDZ4Mk1PTE9Icm1YS2NMNFRLWndDWHMxZ1FZb0dtNER6azNXVGYtUV9Qa2d0RG1jTVI3RUFXVW1BR0FKV25WTkc0VVFhaHM5VHhhU1ktLTVxR0I?oc=5",
+          "source": "Facebook",
+          "provider": "عربي · قطر",
+          "published_at": "2026-10-20T10:33:33Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Qatar"
+        }
+      ],
+      "digest": "eec53a54d4b0349c11b8",
+      "revision": 1,
+      "updated_at": "2026-10-20T10:48:18.703284Z"
+    },
+    {
+      "id": "GF-EAA27FD059F676",
+      "title": "الحرس الثوري: اشتعال النار في ناقلتي نفط بعد اصطدامهما بألغام جنوب مضيق هرمز - Masrawy",
+      "category": "security",
+      "topic": "maritime",
+      "countries": [],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T10:33:31Z",
+      "last_published": "2026-10-20T10:33:31Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "f65a3f3f28f7daf3d87b330f",
+          "title": "الحرس الثوري: اشتعال النار في ناقلتي نفط بعد اصطدامهما بألغام جنوب مضيق هرمز - Masrawy",
+          "url": "https://news.google.com/rss/articles/CBMi5wRBVV95cUxQSzlqZk1sUUduQy1oczd0NDI2RDRPdFItR2ZSREVwWlNPdlFWdDNxLTVjNTVjS2J2OHdfMVZSNTZTT2RLRy1HWmMxUE15cWo3NVAzR3dpV0ZUbWdTRGlGb1dRbmw0ZHlTOHJqWlpMWU5yVzdtam8zOW9MM1pOX0VBQnc0RnlCbkFGc3BFX0pDeklJS1N3SjZWSzQ3VTUxUUxQZkxUdGVvbHVyT1QyZ05YMmwtdXczeVFRTjVtQ21vbWdDMzF0U05pckJBRENSWlNYTHc4SHhneTljNy1heUxTeXZCVnVPdEplMGtPblRhVDgzWGVBUUh5WmhjM0dLemp3NHJTeXBKSnJCN3EzRHR5UGxPUjhxQ05pVXNVZmFndm56R3NyRUJGMHFTQXpBcUpaQ0hxeTQ4bUYzb3RPQXlLMGJzQVI5TUtUaC13TlZ4bUhsbGtuQ2c5RjUwc3pmZ3R4MFZ4VjczWkZJMjljU01kY000dGlDRlNIeE1mZE9XeThPdjBseWhfVHFJR1RWOU03cTJ4UC1zRDdtRnlGNVktSnFmanFwYm5MTHplSlFwX2pLUjZaemdxYWlkdXFBYjJZdUhWSUdIN2lNOTJibEthNEd4ZHh1N3lzRjhmd1hoLUZ5aUVBWUdxb1g1My1ubElQV3JGU0hIc2dicFJGTERnX3duZUNaR2NRbWo0XzFUQk5senVfY3dCQ3V1dnlDVnVyU3NvLTNjZ2Q3NXdyb0VKaTVoLTR2bXFJQzR0U3N2THFCX0R0Ymg5NERTRGFqSUFOcFIyUVNLVjhwcUVLLWxGUGtVczdXTGPSAY4FQVVfeXFMTUtDaE1NQmdWc3dXVXNpT0hwMTF2Y1hhMzVBQldYVnVZcXo5cXdLNHdLalJCVHpwS1h0dy14amJsTEEzeFM3dUJEa1NCajRnNXd5SGJheFVWUkFlRUg1MnlrbF9TLUl6ZGtVRG1aUU9kdGI4QkJaYWFUZU5DOXJRb3UxcndOZ3M2aEdjd083emRWTi1wcVByenBIZDJKc1F1UDNRZ2dwLTZ2bGRCWkR4c21WYTVGUzR6VkVtaFVmbmtCX3ljOFBhcGFJM2N5UW5FWmc3aC1BZktSYXdpLTdReEVnUWtWejhMTXlkOEZyYWVwOUg1QlVhRVNBY2kwUzJwQmFzU2IwMHBfbElrbmx5VE03UUpMMF90TFpELU16eElzQVFiNXgtM3p1MmE2VXBKU19QQnl3TlN2azlEclVpU2ltR2lYRW0tQTdCNFRpOXlFZjVpelFkUkFZbFBHRlhUcWJ2RUFPUjFvQm1DOU1wMzAzdUR3cS1YNklUZG0tZFMxM1pybW5fY3dvNV8tLXhXaFFrbmUtdnFlNE9MMFhfRXpEeXY1M2o3LVN6R3VuTGxwS21jSzYwRThQSmY4RE1ha2hpcWJNckFBOXdMTHgyZVVTYlk4Y2k3RDA2cExEdVgyeUFMSHJ6X3hoR1ZlMFZfdFVQbUNfZ0dMOXJPNFAzUDMwVlBzVkNHZ3RtUEZ0MlY5emR1TnE2NDZpcmpPRnZULUVwSEd0UndjaUJwZDJkNjBoZ1lqb0t4SzQ0TGRKX2JWdzJLVUN5dFZBR0M0cVpudzVUdFJ4dVhDU0lOckJIZ294NEJkUlhKSi1NNnBsYWFvaWN6ajA2SDZ0Nm5scXNxZkhiS0xMTUFiMzhiNkNB?oc=5",
+          "source": "Masrawy",
+          "provider": "عربي · مضيق هرمز",
+          "published_at": "2026-10-20T10:33:31Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "digest": "a56331afffd8d576a7fd",
+      "revision": 1,
+      "updated_at": "2026-10-20T10:48:18.703284Z"
+    },
+    {
       "id": "GF-20A26FB23CDF37",
       "title": "الحرس الثورى: اشتعال النيران فى ناقلتين جنوب مضيق هرمز بسبب ألغام - قناة النيل للأخبار",
       "category": "security",
@@ -157,6 +243,48 @@
       "digest": "6f5268b97471b2a4ec42",
       "revision": 1,
       "updated_at": "2026-10-20T10:44:57.988389Z"
+    },
+    {
+      "id": "GF-2A66DD56DF66EF",
+      "title": "رئيس \"HSBC\": مضيق هرمز قد يصبح قابلاً للاستغناء عنه خلال 5 سنوات - www.aajeg.com",
+      "category": "transport",
+      "topic": "maritime",
+      "countries": [],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T10:24:52Z",
+      "last_published": "2026-10-20T10:24:52Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "81197e96276044202c002c00",
+          "title": "رئيس \"HSBC\": مضيق هرمز قد يصبح قابلاً للاستغناء عنه خلال 5 سنوات - www.aajeg.com",
+          "url": "https://news.google.com/rss/articles/CBMiyANBVV95cUxOVFpHU1pvSmU5dFlXVE1RbDFORlk2YnlXUndCd3BscUJ6Vk9nNnJ2eEktN3EwX2tXcC1fRWhaT2RhdmtaU1pqa2UtTzlQMk8yTi1sUXpzZ1BYcWVLZlQxM291VFpPSW56emNYbEk2WDMzN01tWThSR01VX2hGcll5TF8tX05kcG84Q3hxWnN6V3NJZTJHV2ZDUkFrQkc1YUNlSGFQYXdXYnR0WkhiREpPbWZlSnhlQTRvMW9iaWk0MllaYUxTOVY5Q3l2ZFVUeTRPa01pR3RGNXVCVVJGRnVPdlBFOXN5aVFvZzNqNC1PMDBSTGtVWHZwV0VUSmFVc3ZUaEFXamNFNGRrUXY1LUlmQ2l3NWUwek1xU1QzTDZsb2ZBQXZ0OGtBdUNrYmdJWVoxWXdadlA5T1c1NDZnTVBSWUlPUVFMOHRpbmEwQ1VRM1RiUkRscFhQX3pFMXJGcWp1ZV9iNlNhNkxIek1EVTlkSDFrSG9LTEpydDBSZGtGMlhxSWhMdFc3RkFNV3RVY0xmaWN0bDFOYlM3WFpvbGpJbEFCN0pZbE0xNXhDNWpoVGRtbXhPUlFmYlpzUThVWXRGb2VEWXYxMlg?oc=5",
+          "source": "www.aajeg.com",
+          "provider": "عربي · مضيق هرمز",
+          "published_at": "2026-10-20T10:24:52Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "digest": "a7e24abc99d96d29b8b6",
+      "revision": 1,
+      "updated_at": "2026-10-20T10:48:18.703284Z"
     },
     {
       "id": "GF-5B698C3D6738DE",
@@ -201,6 +329,50 @@
       "digest": "b5155aef425dd8f8ca5b",
       "revision": 1,
       "updated_at": "2026-10-20T10:44:57.988389Z"
+    },
+    {
+      "id": "GF-C32BA3A5E3B98D",
+      "title": "Houthi missile strike on Yemeni government forces kills at least 53 as war escalates - Washington Times",
+      "category": "security",
+      "topic": "missile",
+      "countries": [
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T10:11:43Z",
+      "last_published": "2026-10-20T10:11:43Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "f64b820e205db81f127418a5",
+          "title": "Houthi missile strike on Yemeni government forces kills at least 53 as war escalates - Washington Times",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQLWdnUjEtMkFZeExVWnAzdTBRT0VJSnlka0JHZnM5SmQwUTNRUEtjNjJ1SGlncXdiTmg4aXFxZUlicnZZYUdVcWx1ckEtZUxkb1NGRzNEUmw1Nlc4bFlzQ3dRelYxaWpHc0w1Vy00MlpWdklrVzB1d2dDTDg4WnNSYXg5ei05QnkxZUdmMkFVLXNldy1ucEZwVlVUb1BtNUx5XzZJTkxuMThkckFndEtzOE80WWJGQQ?oc=5",
+          "source": "Washington Times",
+          "provider": "Google News · missiles/drones",
+          "published_at": "2026-10-20T10:11:43Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Yemen"
+        }
+      ],
+      "digest": "b9af67ee6bf316b6ea7f",
+      "revision": 3,
+      "updated_at": "2026-10-20T10:48:18.703284Z"
     },
     {
       "id": "GF-52C09CF89375FF",
@@ -520,8 +692,8 @@
       ],
       "publisher_count": 1,
       "report_count": 1,
-      "first_published": "2026-10-20T09:45:33Z",
-      "last_published": "2026-10-20T09:45:33Z",
+      "first_published": "2026-10-20T09:39:00Z",
+      "last_published": "2026-10-20T09:39:00Z",
       "event_occurred_at": null,
       "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
       "sources": [
@@ -531,15 +703,60 @@
           "url": "https://news.google.com/rss/articles/CBMivwRBVV95cUxPelBCRXdKWG02U0JsTTR1U3pfVUNJanpmRS1kM0pWOXdXV1VFN0pyUWc0SFZyRGRkZkhTYlJVSFNLMTZKNUlhcTJsR2I2Tlp5XzBsZ0M3QkZna2JhNEhtWWhFdXRKUlYtamdrZjBoMlFhMWp2VlJOY1lscld0eEtsWGUzZUhWOU9jMTZ0eVNVb2c0TTdjd284al9qRlZmZWxQNUQ3WE83QW5FaUVZakVPQVlzeHNXM0NfLTRFRWx0YVFTWDlMb19YSHJra3d0SXlJUUh3UVRFTFVGY1d6WTRoRWJnX3pQQloyeGpnRkkyVTFWODUxN3h5OENXcUhaNDFPTWxIWjVOU001UW13cUkzY01nZTl5d3locXdUTFFDMHFuNnRBNjlyelJEU0xfb2pXMkY4M3A2NkZXTHh3bUVJaHcwX0I0UVAwdWt4bGg5ZEdCTTFJTXhsN0VWaGxsS2VwbFJVZ1pic0pBQ1VMTjY3MkVQbnlObGVpWUhpczZjZTNJckFZNDJxNERIWmQxV1lpVEJDREhsMXlWWmRtbEZiNlZaZkx0alJqUWg2QUdCY1lJb1BzVGJYSVh5SXdRZ09lRE4xQTRocDFXbVJ2U3pYUURIdzRPS2JqWVlDTC1uNF90N0xuc1FUY1kyc0RnamdfR0dxTUV2WC1hSF9rT1doRjRtbFlZcXctaXpSZkt3aU1jWk41c0t2WHg4dzNDbk9iWTJ1TEd6MTI5dzJlRGg2dGtKZ0FQRnh6YmpkQ1FKa9IBugRBVV95cUxQb3JPTlJfMndXeWYtS0VLVGQtMkZ3dmdrVWs2MzRqRUw2WEVVY3NrM2RnalAtbUpENXN2SXZNMXhfUk1UZFkzbUNKeUdhZXJCRGNtSG9lOUZhV3A5SmRPbTVjajhfc1E2eklMdmEyMXFfODNyS3JPa1hmeVV0YzlGd3hnMDJ6RW1Ick4tamptY28wUGt6azBzckZhVEZjdy1UT3RxUUFFaVd1Y1hETTQ3alRoc2RwbmQwNUw0N091SDVDVzFrdjB5RzR4RVBhX2ZvSnNlNkx1VF9sNVZrVU9sdmk4RkVOVG5fT0xBaEhUUjRPZmhNTWt6cXI0QkY2bEdrc0kzVzdnakx2RGdxcHdXQzRodG9kUW1XeDRCUzV4bi10Mmdhd2ZTeG1IWUNsd01oYkg0NFV6LXBSWE5aV09KakZOVW5XOUxJWm9PU2tzVXFjcFFuX0tiQXVSZ2d6RG5WWThDV3B3dVZjcGp3QmZURGhLR0Y3QkE1THRYcVFoLTBCcU5WWDk4b1ZsbHJZSDdhOFBCejI0a2N3MG5ZWk55dEQ3WlZ4dllxbXlvRE5xdUd5d3lWVHpRN3BXTzJERXRfRlgtZ0FZVEpWWFU3MDVBcndubWlEbDl3ZGliVktsaU5tUFduWGFJSkpueTVPTWxjbklMNVVhZzBnTXhRRUJBNzUzUHFLeUlwRmV4TzVXUkx6Uy1iNlRlWm9nYzZhMHkwQm9ZYUR1NTE1ejRsWUpBTWU3MXptSnlvYlE?oc=5",
           "source": "اليوم السابع",
           "provider": "عربي · السعودية",
-          "published_at": "2026-10-20T09:45:33Z",
+          "published_at": "2026-10-20T09:39:00Z",
           "collected_at": null,
           "language": "ar",
           "country": ""
         }
       ],
-      "digest": "67c785c36fe5536ff8d7",
+      "digest": "736f75b16a4d82a3c6b8",
+      "revision": 2,
+      "updated_at": "2026-10-20T10:48:18.703284Z"
+    },
+    {
+      "id": "GF-64C0644E4975E0",
+      "title": "Qatar says Iran-US talks ongoing, warns of wider regional war - Mehr News Agency",
+      "category": "diplomacy",
+      "topic": "diplomacy",
+      "countries": [
+        "Iran",
+        "Qatar"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T09:38:00Z",
+      "last_published": "2026-10-20T09:38:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "abcdae93b486dd7ccb60a0f2",
+          "title": "Qatar says Iran-US talks ongoing, warns of wider regional war - Mehr News Agency",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMGRhRWNoeTlhSkJqVElOTUp3aDJwQ040RERaeXppa3h6OV9EbzYzREhudWVEVE1xbDF2c3VVUU9NWkJMN0FkdVVISzVrVUxoZHdoTTNlZUJxeWU1SmlBMkxwa2ZPNDdIM3FIR2lBVlphVkpzYkJFR2J3eDhSaWt2dEVXT2FxejNBdmExYms3RC1NMnIxVDgtSkRPNEg?oc=5",
+          "source": "Mehr News Agency",
+          "provider": "Google News · diplomacy",
+          "published_at": "2026-10-20T09:38:00Z",
+          "collected_at": null,
+          "language": "en",
+          "country": ""
+        }
+      ],
+      "digest": "f26426dcd1cd04a5809f",
       "revision": 1,
-      "updated_at": "2026-10-20T09:48:10.536726Z"
+      "updated_at": "2026-10-20T10:48:18.703284Z"
     },
     {
       "id": "GF-19EDFBB290CD9A",
@@ -849,6 +1066,92 @@
       "digest": "ec12cc2c690303346819",
       "revision": 1,
       "updated_at": "2026-10-20T09:48:10.536726Z"
+    },
+    {
+      "id": "GF-3D1C865B063157",
+      "title": "US Failed to Reopen Strait of Hormuz as Regional Balance of Power Shifts - WANA News Agency",
+      "category": "transport",
+      "topic": "maritime",
+      "countries": [],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T08:36:20Z",
+      "last_published": "2026-10-20T08:36:20Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "f2f9ddf057730053acea386e",
+          "title": "US Failed to Reopen Strait of Hormuz as Regional Balance of Power Shifts - WANA News Agency",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeVl3dFE3V1o4bnBtUHItT29BRTlvNl9yMzhUVm5qQ2ZxNmc4RU1pLXB0VTRvWU1MLTNJem9fLUxKeGZ2X1VMREk2QktBRWdBRVZvWGlGcnA4YTJwZjh1MzVCM2kzUHVtblpqVEpwakpFc21wVFQ5SDFaRGRsS2tkdzJNS3h5NjN2QWNVS2xpN09xcldKTFh3?oc=5",
+          "source": "WANA News Agency",
+          "provider": "Google News · missiles/drones",
+          "published_at": "2026-10-20T08:36:20Z",
+          "collected_at": null,
+          "language": "en",
+          "country": ""
+        }
+      ],
+      "digest": "38f93b77de0fdb9a2b0c",
+      "revision": 1,
+      "updated_at": "2026-10-20T10:48:18.703284Z"
+    },
+    {
+      "id": "GF-F2C7202C045A97",
+      "title": "أهون الشرّين أم تأجيل الانفجار؟ العراق بين خفض قيمة الدينار وفخّ الديون وأزمة الثقة بالحكومات - مانكيش نت",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Iraq"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T08:31:10Z",
+      "last_published": "2026-10-20T08:31:10Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "9777b967c2df966fbcfcbe69",
+          "title": "أهون الشرّين أم تأجيل الانفجار؟ العراق بين خفض قيمة الدينار وفخّ الديون وأزمة الثقة بالحكومات - مانكيش نت",
+          "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxQdTNiN25rTmJGMFFHVFRKVkMxOUpNNVpPWEZ1cUt6YzFSLVlzc3loUnIwRl9jQm56UENBSnJhd1NXTTZFcmh1cWdrdklpeUs1ZGFEc0FuMlNRZjg0SmJWcmE3X09FWVM0UEl3Ul9TTU5xaFcwaFk4SzY2Y1pqYm5yUWtpOExwNllVZF93SnZ1cVFNTTQxd2dtSFdGSW1rME5pRVFIUXZYSWx0TWJzeWVtRkVIMHhvU0dodjhlQ2w2RVhaWGplWXBfQkwzTGlLNFpETGtXWk1STGNOU2RWMlhxc0FtT3FJQ19jc0ZEOE52Ri1vbE9nZi1ZTmFKMHh1WmVYb2ExOWxmR1FiSHlJbVhMbTFNenlPSVJNbFgwaTJKcXM2WW1tWEhYWWRjbk9Qak1HVURjd0dqWTY2MGFMWmRv?oc=5",
+          "source": "مانكيش نت",
+          "provider": "عربي · الكويت والعراق",
+          "published_at": "2026-10-20T08:31:10Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Iraq"
+        }
+      ],
+      "digest": "9da43843920c59ca2332",
+      "revision": 1,
+      "updated_at": "2026-10-20T10:48:18.703284Z"
     },
     {
       "id": "GF-C30150D17CCE95",
@@ -3270,50 +3573,6 @@
         }
       ],
       "digest": "c5c579a60f71c9fe824c",
-      "revision": 2,
-      "updated_at": "2026-10-20T07:40:58.957167Z"
-    },
-    {
-      "id": "GF-C32BA3A5E3B98D",
-      "title": "Houthi missile strike on Yemeni government forces kills at least 53 as war escalates - Washington Times",
-      "category": "security",
-      "topic": "missile",
-      "countries": [
-        "Yemen"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "en"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-19T22:40:50Z",
-      "last_published": "2026-10-19T22:40:50Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "f64b820e205db81f127418a5",
-          "title": "Houthi missile strike on Yemeni government forces kills at least 53 as war escalates - Washington Times",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQLWdnUjEtMkFZeExVWnAzdTBRT0VJSnlka0JHZnM5SmQwUTNRUEtjNjJ1SGlncXdiTmg4aXFxZUlicnZZYUdVcWx1ckEtZUxkb1NGRzNEUmw1Nlc4bFlzQ3dRelYxaWpHc0w1Vy00MlpWdklrVzB1d2dDTDg4WnNSYXg5ei05QnkxZUdmMkFVLXNldy1ucEZwVlVUb1BtNUx5XzZJTkxuMThkckFndEtzOE80WWJGQQ?oc=5",
-          "source": "Washington Times",
-          "provider": "Google News · missiles/drones",
-          "published_at": "2026-10-19T22:40:50Z",
-          "collected_at": null,
-          "language": "en",
-          "country": "Yemen"
-        }
-      ],
-      "digest": "3272e2f08e35c802d4a6",
       "revision": 2,
       "updated_at": "2026-10-20T07:40:58.957167Z"
     },
@@ -16147,6 +16406,50 @@
       "updated_at": "2026-10-20T07:40:58.957167Z"
     },
     {
+      "id": "GF-611BDB050EAB45",
+      "title": "Riyadh airport reopens: Which airlines are still cancelling flights to Saudi Arabia? - The National",
+      "category": "transport",
+      "topic": "aviation",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-18T08:04:49Z",
+      "last_published": "2026-10-18T08:04:49Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "a9cafde8fd8ad8eb0aad59a5",
+          "title": "Riyadh airport reopens: Which airlines are still cancelling flights to Saudi Arabia? - The National",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQb1lSQ1V0djNOSHZNVTA0ZWZaeFZaWWNqQUxfOEdTV3dQMFRDc0EzUV9QWUJlMkcxd25GekFhVGZPdG0yZjBFSDJqeUhpRGs3LS10eFh6RWR6WThoczZrOGd4SG9RYmxhTjZvWDQwSk95ZTU4YmYwUHpyZDQ0M3JKZXN5ZWZmX2c5WFpiaU9uLUppaTVmSkpyeWdWaDUtNEJFeEpuWElad2FGbV91NjZVTV9MMldjUmVzNnV3T2o0TUFLZFZmWFFZZXJfeFVoUQ?oc=5",
+          "source": "The National",
+          "provider": "Google News · aviation",
+          "published_at": "2026-10-18T08:04:49Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Saudi"
+        }
+      ],
+      "digest": "52a3973f3353dd02ecc9",
+      "revision": 1,
+      "updated_at": "2026-10-20T10:48:18.703284Z"
+    },
+    {
       "id": "GF-80D5D85AEFE583",
       "title": "Iran’s president hopes defense minister nominee can ‘survive,’ cites US ‘assassination list’ - Anadolu Ajansı",
       "category": "diplomacy",
@@ -21421,6 +21724,50 @@
       "digest": "585051b0b285230779d4",
       "revision": 2,
       "updated_at": "2026-10-20T07:40:58.957167Z"
+    },
+    {
+      "id": "GF-DDECD508C1C17F",
+      "title": "مصادر يمنية: قتلى وجرحى من القوات الحكومية بهجوم حوثي بطائرة مسيرة في لحج - صوت الإمارات",
+      "category": "security",
+      "topic": "drone",
+      "countries": [
+        "UAE"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-17T14:40:49Z",
+      "last_published": "2026-10-17T14:40:49Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "c2b005bf0b209eb7a15e527c",
+          "title": "مصادر يمنية: قتلى وجرحى من القوات الحكومية بهجوم حوثي بطائرة مسيرة في لحج - صوت الإمارات",
+          "url": "https://news.google.com/rss/articles/CBMi5gJBVV95cUxPNXhRNGtCcTBDUjhtWi1jQ3htS0xJNEc0M0RlNkUzMUFCMHQ5dFd4ZWFZZkUtQk5MSmRZUmZBQUtCUUJTRExFSEhScEF0Vlc1SzNWRUVzRi1fcVhFbVZxR2s0UzZUYlhRR3hzaVZ1TUg1anhBZ0lxZ1ZHT3hqYUc4TzQ2eG0xR2hIckp4eXg1Ykg0dE5KdDVtQ1NtbC1EaWo1U0tJTm1GTFVEY1NxNzZwdHJEZ3FVcDF0TnE0R0k0dFNoaXRtWUZwcVgtbVJwRkk2dkNpS3g2S0ZjSWtXWnZiRjVnVTAxSl9iS2xVblM5RFBINkJYZVkwVE9halhaNWFpME9Uci1Wd29XSEpVUFZIWmx6bFFZUlJVUnBLcGN1QVJiYXN1c0p2ZGF1ci1BMnNsVlJEQmFXQldIZ0daZnZiSy1CM19pUVhkUWtFS29LbHNMMVdmcWRkaHFyUENnaVdBNDFUdmNR?oc=5",
+          "source": "صوت الإمارات",
+          "provider": "عربي · الإمارات والبحرين",
+          "published_at": "2026-10-17T14:40:49Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "UAE"
+        }
+      ],
+      "digest": "dacd05d9926bf4cbbb27",
+      "revision": 1,
+      "updated_at": "2026-10-20T10:48:18.703284Z"
     },
     {
       "id": "GF-A95E5640F93DEF",
@@ -43555,6 +43902,50 @@
       "updated_at": "2026-10-20T07:40:58.957167Z"
     },
     {
+      "id": "GF-A3C7AED1BD04F5",
+      "title": "Riyadh airport attack: Indian Embassy issues advisory; Jeddah Consulate sets up helpline for Indians - The Economic Times",
+      "category": "security",
+      "topic": "aviation",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-13T12:36:57Z",
+      "last_published": "2026-10-13T12:36:57Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "e3e97f2e41a445fc38d9ca52",
+          "title": "Riyadh airport attack: Indian Embassy issues advisory; Jeddah Consulate sets up helpline for Indians - The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxObXVtOW1vZFk0aW96YXlVajhCTzM1a0hVaHdIYS1wdFIwSHF4bnVJZWdUa21oOTJYRzZqTzB4enVLTE1VbUpEUC0zMDZaR3VIdk1KTG9NU3lYdFM2MFp6WWtoTEszZVd0VDFENmFJeDdUbVF0ZDF2SHFsY3V5LWhfTlJzYkFhRUxZRWJGV2hGM3dDd2dFRnk3eGdaNm1PTjVad0o4MkZkYjhZWTB4SWs1RloyYS1ITzAzZ2U2ZE54c2JDeG12NWg2N2ZDTFFyX1U0NHZTbE9CWS1IRFprMFlLQ1JHNzFZU2RVNnMtUkVCbjRjS1d4R0R6WXN5N25KdDB40gGGAkFVX3lxTFBndXltWktTS2IwdnRJVW54NmRpMnphVkw0SUF0alpJM1lsUVhIeU4tU014Q1hZQUFsMk1NV2RNa1NTendEYU5pWkY3dnM5REpHYXcyZEEzY1YwUUE4QV9aZ1YtXzM4TkJSMy1PMTdsVW9hZzI2UmpUQ2pTZTF4Z2cybEFHcGgzY2l6dWRzeExicDJaamxRajB5aWNlZ3EtTGlGcXplWXVibTltYnp2MWhvWnd3OUtNTHBfRUJrWnRQY0t1aVVNOWs4SnJ0YTdBQVY1MFBXakY1M1BfeGlCcTFKVlkwLWU4aTI1dUxWYTBvSV8xV0ZOVDN4Y0o1dEM4cG5VYU5GZ3c?oc=5",
+          "source": "The Economic Times",
+          "provider": "Google News · aviation",
+          "published_at": "2026-10-13T12:36:57Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Saudi"
+        }
+      ],
+      "digest": "3b9c2af71c19da027ec9",
+      "revision": 1,
+      "updated_at": "2026-10-20T10:48:18.703284Z"
+    },
+    {
       "id": "GF-6709C4003A8A31",
       "title": "RTX's Raytheon awarded $729 million in counter-drone contracts for U.S., Qatar, and Jordan - RTX",
       "category": "security",
@@ -43774,6 +44165,94 @@
       "updated_at": "2026-10-20T07:40:58.957167Z"
     },
     {
+      "id": "GF-FCE8C90442CC76",
+      "title": "Is Qassim Airport Open? Today’s Flights, Riyadh Airport Status and Your Options - Wego Travel Blog",
+      "category": "transport",
+      "topic": "aviation",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-13T11:56:45Z",
+      "last_published": "2026-10-13T11:56:45Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "47a67c2bd00c63efd9d69fc5",
+          "title": "Is Qassim Airport Open? Today’s Flights, Riyadh Airport Status and Your Options - Wego Travel Blog",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAxVnBQZEdzdkZscWVnUi1PQ2RITUU2dENZR2JMNUZ3NkduSW9ySHZxQkYtaU5kZ05zNjlDLU9MWGRRTjhCSm1KSERzV1A2UFVzdkpSalBhMXo?oc=5",
+          "source": "Wego Travel Blog",
+          "provider": "Google News · aviation",
+          "published_at": "2026-10-13T11:56:45Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Saudi"
+        }
+      ],
+      "digest": "45c4c3918ff6f2a5a3d2",
+      "revision": 1,
+      "updated_at": "2026-10-20T10:48:18.703284Z"
+    },
+    {
+      "id": "GF-8998ABD43847AD",
+      "title": "Indian embassy issues fresh advisory as Saudi flights remain cancelled till October 17 after Riyadh attack - Firstpost",
+      "category": "security",
+      "topic": "aviation",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-13T11:52:02Z",
+      "last_published": "2026-10-13T11:52:02Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "a5ad13eebc4fc8b819cbdee3",
+          "title": "Indian embassy issues fresh advisory as Saudi flights remain cancelled till October 17 after Riyadh attack - Firstpost",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNcHN0SndPTUJ0YTJtRENONlRJbThIOHlhdENGSDdjZ092V2hZbHZ3MXY0b1FRbXJxRk1vR25FYUU3dEF1cFhrc294c25KSDVxYzU3ZHM1ZlFKTVNDV3ZOVm1uSFRlN0ZXSUpXZk9LYy1VeGt2TTBDMldLZzJHUHhWNEN3Q2RuQnVJUS01VGZIT1cwY1BSa3JtRDcxc0o4aTdiUUZTYnRMT0JLT013TmFyQjdpNzRNSmo3SDY4cFM3OWxldy1sRDFHdEw1bFZoeGl4Um1qelBOUEJnbGUtcXNPN1lUUEczck3SAewBQVVfeXFMTTFTcDNOWXlDbkNIZmFnc1FzYUFQeno0RHZmeXVDV3lNa2tTV1RSNVF1RXdQNnh0eU9CdVFreDB5d0ZqSGZRTWZpelBNaUxIMmc2MVo1ZjQyLVJEMUhhWEpFdE5vTDZGV0hyMHpWcjhIMUdDMmp3X2t5WEk3alFkQnFoOUNMa0paYm5WT3VoTEh1b0VveFlZeWNrMmsxT0hZY1NwWnZRbjFCcmJsVnZXSVlYOXoxbE5UVUxhZHNIdDZuTHB4Q2psb2hDVzRDMWxtaDRkazEyQ3FueGZIR2pVaHROcldLUkE4eWk5ZW0?oc=5",
+          "source": "Firstpost",
+          "provider": "Google News · aviation",
+          "published_at": "2026-10-13T11:52:02Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Saudi"
+        }
+      ],
+      "digest": "d77a94eaa42391d75243",
+      "revision": 1,
+      "updated_at": "2026-10-20T10:48:18.703284Z"
+    },
+    {
       "id": "GF-697BA993D0AE94",
       "title": "اعتراض وتدمير 3 مسيرات شمال الرياض - العربية",
       "category": "security",
@@ -43816,6 +44295,50 @@
       "digest": "ac3d12931c40f4223a97",
       "revision": 2,
       "updated_at": "2026-10-20T07:40:58.957167Z"
+    },
+    {
+      "id": "GF-9F90E831F4AE63",
+      "title": "Saudi Arabia Faces Scrutiny Over Warning System After Deadly Riyadh Airport Attacks - Arise News",
+      "category": "transport",
+      "topic": "aviation",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-13T11:37:32Z",
+      "last_published": "2026-10-13T11:37:32Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "f9948538909b5145bd60faa9",
+          "title": "Saudi Arabia Faces Scrutiny Over Warning System After Deadly Riyadh Airport Attacks - Arise News",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNeG1pUVdQblQ2VHduRVp5NGhnRmRheXF4cTFiejZldFdJNkJHaFlMTXdWTzJGbERDV2c0VTBaclpuMlVIeHdJUk9EMy02ZFVMV2pBNnRjWnVtNmtPdnpaSE5HaHhUaEx3YThXTG5vM2VMUTNWdF9HZnc5eUVxaXVuZFhRSFFDaVJvd2NPVHZmTldDcFBoOG41Z05OV2lpb1FEX0d4dEhaUEM?oc=5",
+          "source": "Arise News",
+          "provider": "Google News · aviation",
+          "published_at": "2026-10-13T11:37:32Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Saudi"
+        }
+      ],
+      "digest": "1ebdf03049346849f74f",
+      "revision": 1,
+      "updated_at": "2026-10-20T10:48:18.703284Z"
     },
     {
       "id": "GF-870FA5C15B1F6C",
@@ -44083,6 +44606,50 @@
       "digest": "aaa2243b87e2c5f8329b",
       "revision": 2,
       "updated_at": "2026-10-20T07:40:58.957167Z"
+    },
+    {
+      "id": "GF-FB990DB84BFBFB",
+      "title": "Saudi flight disruptions: CAAB issues 7 directives to assist affected passengers - Prothom Alo English",
+      "category": "transport",
+      "topic": "aviation",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-13T11:00:19Z",
+      "last_published": "2026-10-13T11:00:19Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "6c9a03d3370518718bb51eb8",
+          "title": "Saudi flight disruptions: CAAB issues 7 directives to assist affected passengers - Prothom Alo English",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5MXzktMzQ3em4zQVJJRmNUaktKcFc4Tk4wRGhUMUt0SmlfTDVfTGluaFJ1SjVpVkxLQXlJUU5FSm5VOUVZbzBoWm9VWGsyTzl6aGZhRzNnSV9CbXPSAWhBVV95cUxOLXJxQ0l4R01xQzczQUtiaF9wb19Dc3F2MW41MjEweThLdXVWZnFMZ2p1eWpYMzZ2Q1RPNTV5TWxmVFlEVkVSWWpWWFgxNFl3WUdfejF3VUU2c2NlcmFYdjRUN1JBX1JVdA?oc=5",
+          "source": "Prothom Alo English",
+          "provider": "Google News · aviation",
+          "published_at": "2026-10-13T11:00:19Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Saudi"
+        }
+      ],
+      "digest": "a229ebd9eea88436091a",
+      "revision": 1,
+      "updated_at": "2026-10-20T10:48:18.703284Z"
     },
     {
       "id": "GF-CB6148EAD417BF",
@@ -44926,30 +45493,30 @@
   ],
   "country_stats": {
     "Iran": {
-      "events": 371,
-      "reports": 466,
+      "events": 372,
+      "reports": 467,
       "security_coverage": 203,
       "transport_coverage": 102,
       "sources": 185
     },
     "Saudi": {
-      "events": 317,
-      "reports": 340,
-      "security_coverage": 223,
-      "transport_coverage": 80,
-      "sources": 167
+      "events": 323,
+      "reports": 346,
+      "security_coverage": 225,
+      "transport_coverage": 84,
+      "sources": 168
     },
     "Qatar": {
-      "events": 34,
-      "reports": 36,
-      "security_coverage": 20,
+      "events": 36,
+      "reports": 38,
+      "security_coverage": 21,
       "transport_coverage": 9,
-      "sources": 20
+      "sources": 22
     },
     "UAE": {
-      "events": 51,
-      "reports": 52,
-      "security_coverage": 36,
+      "events": 52,
+      "reports": 53,
+      "security_coverage": 37,
       "transport_coverage": 15,
       "sources": 34
     },
@@ -44968,9 +45535,9 @@
       "sources": 9
     },
     "Iraq": {
-      "events": 57,
-      "reports": 57,
-      "security_coverage": 52,
+      "events": 58,
+      "reports": 58,
+      "security_coverage": 53,
       "transport_coverage": 5,
       "sources": 43
     },
@@ -45001,84 +45568,28 @@
     "2026-09-04": 1,
     "2026-10-02": 1,
     "2026-10-12": 1,
-    "2026-10-13": 97,
+    "2026-10-13": 102,
     "2026-10-14": 125,
     "2026-10-15": 112,
     "2026-10-16": 105,
-    "2026-10-17": 171,
-    "2026-10-18": 131,
-    "2026-10-19": 181,
-    "2026-10-20": 67
+    "2026-10-17": 172,
+    "2026-10-18": 132,
+    "2026-10-19": 180,
+    "2026-10-20": 74
   },
   "revisions": [
     {
-      "id": "GF-7F41EBC6434375",
+      "id": "GF-C32BA3A5E3B98D",
+      "revision": 3,
+      "at": "2026-10-20T10:48:18.703284Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-2CB4FE1D7349B4",
       "revision": 2,
-      "at": "2026-10-20T10:44:57.988389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-EAE814B180623B",
-      "revision": 3,
-      "at": "2026-10-20T10:44:57.988389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 2
-    },
-    {
-      "id": "GF-1C2F49692C00B8",
-      "revision": 3,
-      "at": "2026-10-20T10:44:57.988389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 4,
-      "new_source_count": 5
-    },
-    {
-      "id": "GF-AAA43431AC99AE",
-      "revision": 4,
-      "at": "2026-10-20T10:44:57.988389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-2F96F0C8277288",
-      "revision": 4,
-      "at": "2026-10-20T10:44:57.988389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 2
-    },
-    {
-      "id": "GF-C4978B9612F97E",
-      "revision": 3,
-      "at": "2026-10-20T10:44:57.988389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-83C328D330B5D5",
-      "revision": 4,
-      "at": "2026-10-20T10:44:57.988389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-6F1ACAC5C96A27",
-      "revision": 4,
-      "at": "2026-10-20T10:44:57.988389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-52DF3E405DDC16",
-      "revision": 5,
-      "at": "2026-10-20T10:44:57.988389Z",
+      "at": "2026-10-20T10:48:18.703284Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
