@@ -1,9 +1,96 @@
 {
   "schema": 5,
-  "generated_at": "2026-10-20T11:38:57.679526Z",
+  "generated_at": "2026-10-20T11:43:46.743220Z",
   "model": "deterministic-source-correlation-v1",
   "disclaimer": "Clusters are related PUBLIC REPORTS, not confirmed incidents. Source counts are not proof. Country names are mentions, not incident locations.",
   "events": [
+    {
+      "id": "GF-A4589C70DA96A2",
+      "title": "بريطانيا تدرس تعزيز الدفاعات السعودية بمقاتلات جوية وسط تصاعد هجمات الحوثيين - https://www.youlyou.com/",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T11:38:02Z",
+      "last_published": "2026-10-20T11:38:02Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "ee144d08b7bde8769a0d279d",
+          "title": "بريطانيا تدرس تعزيز الدفاعات السعودية بمقاتلات جوية وسط تصاعد هجمات الحوثيين - https://www.youlyou.com/",
+          "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBSVTBXb3FEemdtS1UwLTdxdzNKQ0QyWURDcjNZQkFVNHVfWjhsSVNqcldrUVNycUZHZHVjNjB6VzU4X28?oc=5",
+          "source": "https://www.youlyou.com/",
+          "provider": "عربي · قطر",
+          "published_at": "2026-10-20T11:38:02Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "digest": "452f55b895957fbc7274",
+      "revision": 1,
+      "updated_at": "2026-10-20T11:43:46.743220Z"
+    },
+    {
+      "id": "GF-0B68DB79D20729",
+      "title": "\"إتش إس بي سي\": الطرق البديلة ربما تغني عن مضيق هرمز خلال 5 سنوات - الجزيرة نت",
+      "category": "transport",
+      "topic": "maritime",
+      "countries": [],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T11:37:30Z",
+      "last_published": "2026-10-20T11:37:30Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "9ac41ef97a8273cf6c69f484",
+          "title": "\"إتش إس بي سي\": الطرق البديلة ربما تغني عن مضيق هرمز خلال 5 سنوات - الجزيرة نت",
+          "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxOelk5V01HZ3NobEpRQ05vR1N2ZXVuSTgyMThlZllvTy1QQVpXTTQ4OUtGRXRwRUN5alJ4U1Q5S2dXdmVPZEd5Y2JLOTVOemJEcDc4SWpqbHlmcHVpQTloTVdOQzBjNlV1dHZ6QmdOUnVuWmpYbGxUc0tBb3NoVU1iLWl0S01UY3FoVVBBMVJ2YmxqM0NaTHEyZWZWbTVtSFFXeUdud1NQU2ZYVDlRTUFwNzF5UkxtZVk5N0JJSWs3Zl9adDl2VllFcG82ajk4RW84Nk5vRFVqTzBmdmNkQUVpZm4tWURubXM0QmVRRl93Tzk3VVlRRDJHMHVIY0Z5eGFIdmJqUmpCbVlaXzRTSGJDd2VZMFJDZXdrSjctUUVHV3ZxNDA3UUpYNU95Wkw1cE9OU2fSAbcCQVVfeXFMT3V1cmRKZWt0V2NyVVVPZFVfOFE5SHg5S0dUMHFVY0FSUXBNbHY5dlF1ZXJQdUZxLWtMRmkzUEVuYmxzbXdObmNFZi05eEM4ekV5Nk5wVENxTXFiaEdKclhwaFNUeFgxSHljNVNBRVdSU1JTMVEtZ05KMWEwS29KRWtkdGxzc2VZQkZzLXhWRmVERkVySkVoM2VoN0ZvMjU4NjYzUXpnbkZxVVdEOTduRUR2TmlQa3ZKUEtCZXN2Z3hwX2hsYnc1WlU1NFl5OTNreDlCeHRGdUZOcXlWbzdvb25WQ0JHLVhIWWRSZmNSRVNnM29zSVhubGRCdl9lLU4wTVpmSng4VndzdHJaRFdqR2FnZ2t2T01sYTRGclVGbjhFSm1YWmN4QmsxVXNBUlU4SF9OREJybGs?oc=5",
+          "source": "الجزيرة نت",
+          "provider": "عربي · مضيق هرمز",
+          "published_at": "2026-10-20T11:37:30Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "digest": "10b1fd8ddf6d8fdb7327",
+      "revision": 1,
+      "updated_at": "2026-10-20T11:43:46.743220Z"
+    },
     {
       "id": "GF-F18173C433BC34",
       "title": "من طراز «تايفون».. بريطانيا تدفع بمقاتلاتها لدعم السعودية ضد هجمات الحوثيين - المصري اليوم",
@@ -357,6 +444,50 @@
       "digest": "9cac4332e561f64b0fe1",
       "revision": 1,
       "updated_at": "2026-10-20T11:35:35.646171Z"
+    },
+    {
+      "id": "GF-A325C18810AEE0",
+      "title": "The UK expands military support for Saudi Arabia against Houthis to include 'defensive' air patrols - ClickOnDetroit | WDIV Local 4",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T10:59:11Z",
+      "last_published": "2026-10-20T10:59:11Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "ef82205075e95f5d73671498",
+          "title": "The UK expands military support for Saudi Arabia against Houthis to include 'defensive' air patrols - ClickOnDetroit | WDIV Local 4",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPRHRXaVJONFRPNEFfdWdld2FOYUFMd1FlWFFYM2Q2U0JEdE9ZME80ZndTMGZIUUYtdmpSQVdXZHJxejlYTkRxRDZzdlE2VzMzelVVdEo0ejJNX0FrZ2NwUWoyYVA2c0ZfbEQ5OVJDWEY0QlJuY1VWRm5FajB0OXM1MTd3ZzNXQnFTaGtxU1ZEdlJNTTlxNVRWRzlHdzY0ZkY5VVdmc05GWUJsZjdwTVJDLUxCbDhHVXFoOEtpcmhEWC1EdnlhMTUxbXcxV2dTdzB5SDlIUFB1bG1WSjVhQmk4Q0dMN2RWZw?oc=5",
+          "source": "ClickOnDetroit | WDIV Local 4",
+          "provider": "Google News · security",
+          "published_at": "2026-10-20T10:59:11Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Saudi"
+        }
+      ],
+      "digest": "a085ccafab9bb3817a1b",
+      "revision": 1,
+      "updated_at": "2026-10-20T11:43:46.743220Z"
     },
     {
       "id": "GF-460DCDF7D5BBD3",
@@ -13745,16 +13876,16 @@
           "title": "Iran says Strait of Hormuz reopening, seven-day ceasefire conditions still on the table - CBS News",
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOM3NTZE9fMEQ3MjZJZW1kbXZ0OE9RUlZTRkpUaTVQYmgtRE9GU3pKdVJmVFhZSUZBM3FrNjF0Q1VPdlU0MGFfZVBsQzhtTWszTWpvOThSNkpnaUJpaDZtUFNmYURteUJGZHdtNlpyVzNmRmJ6WHliZ19vWW1kYTNENE1BX3lUWTFrSHlZZW1uSGVvNWRETURlYXdBcXVyVUdj?oc=5",
           "source": "CBS News",
-          "provider": "Google News · diplomacy",
+          "provider": "Google News · regional",
           "published_at": "2026-10-18T19:02:00Z",
           "collected_at": null,
           "language": "en",
           "country": "Iran"
         }
       ],
-      "digest": "be65e9fbf2d459448fb9",
-      "revision": 3,
-      "updated_at": "2026-10-20T11:38:57.679526Z"
+      "digest": "d9858c420fff5644defc",
+      "revision": 4,
+      "updated_at": "2026-10-20T11:43:46.743220Z"
     },
     {
       "id": "GF-B11130B4826F61",
@@ -46579,11 +46710,11 @@
       "sources": 184
     },
     "Saudi": {
-      "events": 336,
-      "reports": 360,
-      "security_coverage": 236,
+      "events": 338,
+      "reports": 362,
+      "security_coverage": 238,
       "transport_coverage": 86,
-      "sources": 177
+      "sources": 179
     },
     "Qatar": {
       "events": 36,
@@ -46628,11 +46759,11 @@
       "sources": 5
     },
     "Yemen": {
-      "events": 144,
-      "reports": 150,
-      "security_coverage": 128,
+      "events": 145,
+      "reports": 151,
+      "security_coverage": 129,
       "transport_coverage": 14,
-      "sources": 78
+      "sources": 79
     },
     "Israel": {
       "events": 42,
@@ -46654,29 +46785,13 @@
     "2026-10-17": 173,
     "2026-10-18": 132,
     "2026-10-19": 182,
-    "2026-10-20": 91
+    "2026-10-20": 94
   },
   "revisions": [
     {
-      "id": "GF-2CB4FE1D7349B4",
-      "revision": 3,
-      "at": "2026-10-20T11:38:57.679526Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-B09D0E6ED840BC",
-      "revision": 10,
-      "at": "2026-10-20T11:38:57.679526Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
       "id": "GF-61927185BA800B",
-      "revision": 3,
-      "at": "2026-10-20T11:38:57.679526Z",
+      "revision": 4,
+      "at": "2026-10-20T11:43:46.743220Z",
       "change": "published-source-set-updated",
       "previous_source_count": 2,
       "new_source_count": 2
