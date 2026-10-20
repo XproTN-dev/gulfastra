@@ -1,7 +1,7 @@
 {
   "version": 6,
-  "last_run": "2026-10-20T22:52:52.968101Z",
-  "last_successful_run": "2026-10-20T22:52:52.968101Z",
+  "last_run": "2026-10-20T22:54:54.871083Z",
+  "last_successful_run": "2026-10-20T22:54:54.871083Z",
   "successful_sources": 30,
   "reports": [
     {
@@ -271,11 +271,11 @@
       "provider": "عربي · الإمارات والبحرين",
       "first_seen_at": "2026-10-20T22:30:18.248543Z",
       "date_quality": "publisher-time",
-      "freshness": "new-reporting",
+      "freshness": "recent-reporting",
       "context": "reporting",
-      "severity": "critical-candidate",
-      "critical_candidate": true,
-      "alert_eligible": true,
+      "severity": "elevated-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
@@ -7938,6 +7938,27 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "ca503d8ecbd94076319c16d7",
+      "title": "The Daily View: Shadow fleet rehabilitation shows how quickly the Hormuz calculus is changing - Lloyd's List",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTE1NOUJWNks3bDBzdmhxNktYNTFTODYzUVRadXJ1RHJ6QWdUd1IwcW9IMDAzSEV6aFZmT0huekNUdUxWS1VGX21qaGNTeG9qTTlKWDRmaFZiVzVMUEk2cDI3UU4yNnpTX3FkZURnOGx3UWVFa3dqaDFUQ0RYMDdrNHFDSmxMQXdaZFBrbEkySDlmclBRTVZyRUo0SGFObVdLMHY5Z1VLd1RxRHBzdzZjenIxZk1jX3dGSWlFdG5GUm9OSW1oWnphag?oc=5",
+      "source": "Lloyd's List",
+      "published_at": "2026-10-19T22:54:22Z",
+      "country": "",
+      "countries": [],
+      "language": "en",
+      "category": "transport",
+      "tag": "MARITIME REPORT",
+      "provider": "Google News · shipping",
+      "first_seen_at": "2026-10-20T21:34:46.172984Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "f57fe6bbbb2e845523eaa331",
       "title": "Houthi missile strike on Yemeni government forces kills at least 53 as war escalates - Washington Times",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQLWdnUjEtMkFZeExVWnAzdTBRT0VJSnlka0JHZnM5SmQwUTNRUEtjNjJ1SGlncXdiTmg4aXFxZUlicnZZYUdVcWx1ckEtZUxkb1NGRzNEUmw1Nlc4bFlzQ3dRelYxaWpHc0w1Vy00MlpWdklrVzB1d2dDTDg4WnNSYXg5ei05QnkxZUdmMkFVLXNldy1ucEZwVlVUb1BtNUx5XzZJTkxuMThkckFndEtzOE80WWJGQQ?oc=5",
@@ -9377,27 +9398,6 @@
       "language": "en",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
-      "freshness": "older-reporting",
-      "context": "reporting",
-      "severity": "routine-reporting",
-      "critical_candidate": false,
-      "alert_eligible": false,
-      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
-    },
-    {
-      "id": "ca503d8ecbd94076319c16d7",
-      "title": "The Daily View: Shadow fleet rehabilitation shows how quickly the Hormuz calculus is changing - Lloyd's List",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTE1NOUJWNks3bDBzdmhxNktYNTFTODYzUVRadXJ1RHJ6QWdUd1IwcW9IMDAzSEV6aFZmT0huekNUdUxWS1VGX21qaGNTeG9qTTlKWDRmaFZiVzVMUEk2cDI3UU4yNnpTX3FkZURnOGx3UWVFa3dqaDFUQ0RYMDdrNHFDSmxMQXdaZFBrbEkySDlmclBRTVZyRUo0SGFObVdLMHY5Z1VLd1RxRHBzdzZjenIxZk1jX3dGSWlFdG5GUm9OSW1oWnphag?oc=5",
-      "source": "Lloyd's List",
-      "published_at": "2026-10-19T16:54:21Z",
-      "country": "",
-      "countries": [],
-      "language": "en",
-      "category": "transport",
-      "tag": "MARITIME REPORT",
-      "provider": "Google News · shipping",
-      "first_seen_at": "2026-10-20T21:34:46.172984Z",
-      "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -19350,29 +19350,6 @@
       "provider": "عربي · الإمارات والبحرين",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
-      "freshness": "older-reporting",
-      "context": "reporting",
-      "severity": "routine-reporting",
-      "critical_candidate": false,
-      "alert_eligible": false,
-      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
-    },
-    {
-      "id": "4e100c4ce86bf6fcec01904e",
-      "title": "جامعة الدول العربية تدعو لمحاسبة المسؤولين عن هجمات الحوثيين في اليمن - emirates24.net",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ENEdwMjMzYWVTZmwzU0ZXbVBlQ0RWWjZtY011UXBVNmJwV0s4aFJnVl9HVUhXZk5jN0FzbUtlSlhPc0V1anZRUU54RWJFZ3JNZlNPOW1pOGMyVzdtVUE?oc=5",
-      "source": "emirates24.net",
-      "published_at": "2026-10-17T14:23:56Z",
-      "country": "Yemen",
-      "countries": [
-        "Yemen"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "تقرير امني",
-      "provider": "عربي · الإمارات والبحرين",
-      "first_seen_at": "2026-10-20T22:49:18.324028Z",
-      "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -35367,17 +35344,17 @@
     "Google News · missiles/drones": {
       "ok": true,
       "items": 100,
-      "relevant": 77
+      "relevant": 76
     },
     "Google News · security": {
       "ok": true,
       "items": 100,
-      "relevant": 72
+      "relevant": 73
     },
     "Google News · aviation": {
       "ok": true,
-      "items": 88,
-      "relevant": 82
+      "items": 89,
+      "relevant": 83
     },
     "Google News · shipping": {
       "ok": true,
@@ -35387,7 +35364,7 @@
     "Google News · diplomacy": {
       "ok": true,
       "items": 100,
-      "relevant": 53
+      "relevant": 52
     },
     "Google News · regional": {
       "ok": true,
@@ -35397,7 +35374,7 @@
     "Reuters · indexed Gulf reporting": {
       "ok": true,
       "items": 100,
-      "relevant": 31
+      "relevant": 32
     },
     "AP · indexed Gulf reporting": {
       "ok": true,
@@ -35406,7 +35383,7 @@
     },
     "UKMTO · indexed official advisories": {
       "ok": true,
-      "items": 10,
+      "items": 11,
       "relevant": 0
     },
     "US State Dept · indexed advisories": {
@@ -35416,7 +35393,7 @@
     },
     "عربي · إيران والخليج": {
       "ok": true,
-      "items": 52,
+      "items": 51,
       "relevant": 39
     },
     "عربي · قطر": {
@@ -35431,18 +35408,18 @@
     },
     "عربي · الإمارات والبحرين": {
       "ok": true,
-      "items": 62,
-      "relevant": 45
+      "items": 63,
+      "relevant": 47
     },
     "عربي · الكويت والعراق": {
       "ok": true,
-      "items": 52,
-      "relevant": 49
+      "items": 50,
+      "relevant": 47
     },
     "عربي · مضيق هرمز": {
       "ok": true,
       "items": 100,
-      "relevant": 74
+      "relevant": 75
     },
     "عربي · الجزيرة": {
       "ok": true,
@@ -35452,7 +35429,7 @@
     "عربي · العربية": {
       "ok": true,
       "items": 100,
-      "relevant": 37
+      "relevant": 36
     },
     "عربي · الشرق": {
       "ok": true,

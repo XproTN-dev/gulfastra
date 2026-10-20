@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "generated_at": "2026-10-20T22:53:01.839125Z",
+  "generated_at": "2026-10-20T22:55:03.643627Z",
   "model": "deterministic-source-correlation-v2-coverage-lifecycle",
   "disclaimer": "Clusters are related PUBLIC REPORTS, not confirmed incidents. Source counts are not proof. Country names are mentions, not incident locations.",
   "events": [
@@ -661,18 +661,18 @@
           "country": "UAE"
         }
       ],
-      "coverage_stage": "new-coverage",
+      "coverage_stage": "recent-coverage",
       "coverage_first_published_at": "2026-10-20T20:54:19Z",
       "coverage_last_published_at": "2026-10-20T20:54:19Z",
-      "current_reporting": true,
-      "recent_publisher_count": 1,
-      "recent_article_count": 1,
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "e0b2dc645c56970b22eb",
-      "revision": 1,
-      "updated_at": "2026-10-20T22:30:38.766014Z"
+      "digest": "88f85a20719d9b1907c0",
+      "revision": 2,
+      "updated_at": "2026-10-20T22:55:03.643627Z"
     },
     {
       "id": "GF-62EDD7386FF47A",
@@ -18255,6 +18255,60 @@
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
+      "id": "GF-EC9D9F61DCB988",
+      "title": "The Daily View: Shadow fleet rehabilitation shows how quickly the Hormuz calculus is changing - Lloyd's List",
+      "category": "transport",
+      "topic": "maritime",
+      "countries": [],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-19T22:54:22Z",
+      "last_published": "2026-10-19T22:54:22Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "ca503d8ecbd94076319c16d7",
+          "title": "The Daily View: Shadow fleet rehabilitation shows how quickly the Hormuz calculus is changing - Lloyd's List",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTE1NOUJWNks3bDBzdmhxNktYNTFTODYzUVRadXJ1RHJ6QWdUd1IwcW9IMDAzSEV6aFZmT0huekNUdUxWS1VGX21qaGNTeG9qTTlKWDRmaFZiVzVMUEk2cDI3UU4yNnpTX3FkZURnOGx3UWVFa3dqaDFUQ0RYMDdrNHFDSmxMQXdaZFBrbEkySDlmclBRTVZyRUo0SGFObVdLMHY5Z1VLd1RxRHBzdzZjenIxZk1jX3dGSWlFdG5GUm9OSW1oWnphag?oc=5",
+          "source": "Lloyd's List",
+          "publisher_key": "lloyd s list",
+          "provider": "Google News · shipping",
+          "published_at": "2026-10-19T22:54:22Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T21:34:46.172984Z",
+          "collected_at": null,
+          "language": "en",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-19T22:54:22Z",
+      "coverage_last_published_at": "2026-10-19T22:54:22Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "46d6cabcb309a2ad5af0",
+      "revision": 2,
+      "updated_at": "2026-10-20T22:55:03.643627Z"
+    },
+    {
       "id": "GF-28814363C5B1CC",
       "title": "إنذار جوي في الرياض ومقتل العشرات بهجوم حوثي على معسكر في اليمن",
       "category": "security",
@@ -21737,60 +21791,6 @@
       "digest": "218c213a418fddc01f68",
       "revision": 3,
       "updated_at": "2026-10-20T16:52:31.264495Z"
-    },
-    {
-      "id": "GF-EC9D9F61DCB988",
-      "title": "The Daily View: Shadow fleet rehabilitation shows how quickly the Hormuz calculus is changing - Lloyd's List",
-      "category": "transport",
-      "topic": "maritime",
-      "countries": [],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "en"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-19T16:54:21Z",
-      "last_published": "2026-10-19T16:54:21Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "ca503d8ecbd94076319c16d7",
-          "title": "The Daily View: Shadow fleet rehabilitation shows how quickly the Hormuz calculus is changing - Lloyd's List",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTE1NOUJWNks3bDBzdmhxNktYNTFTODYzUVRadXJ1RHJ6QWdUd1IwcW9IMDAzSEV6aFZmT0huekNUdUxWS1VGX21qaGNTeG9qTTlKWDRmaFZiVzVMUEk2cDI3UU4yNnpTX3FkZURnOGx3UWVFa3dqaDFUQ0RYMDdrNHFDSmxMQXdaZFBrbEkySDlmclBRTVZyRUo0SGFObVdLMHY5Z1VLd1RxRHBzdzZjenIxZk1jX3dGSWlFdG5GUm9OSW1oWnphag?oc=5",
-          "source": "Lloyd's List",
-          "publisher_key": "lloyd s list",
-          "provider": "Google News · shipping",
-          "published_at": "2026-10-19T16:54:21Z",
-          "date_quality": "publisher-time",
-          "first_seen_at": "2026-10-20T21:34:46.172984Z",
-          "collected_at": null,
-          "language": "en",
-          "country": ""
-        }
-      ],
-      "coverage_stage": "quiet-coverage",
-      "coverage_first_published_at": "2026-10-19T16:54:21Z",
-      "coverage_last_published_at": "2026-10-19T16:54:21Z",
-      "current_reporting": false,
-      "recent_publisher_count": 0,
-      "recent_article_count": 0,
-      "incident_status": "unknown",
-      "event_occurrence_verified": false,
-      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "2d9be5b06cd7b192ca08",
-      "revision": 1,
-      "updated_at": "2026-10-20T21:35:03.678524Z"
     },
     {
       "id": "GF-1FAE356DA474A6",
@@ -44916,62 +44916,6 @@
       "digest": "93e3a9fdf269d838eab1",
       "revision": 3,
       "updated_at": "2026-10-20T16:52:31.264495Z"
-    },
-    {
-      "id": "GF-AB5DC2B176E068",
-      "title": "جامعة الدول العربية تدعو لمحاسبة المسؤولين عن هجمات الحوثيين في اليمن - emirates24.net",
-      "category": "security",
-      "topic": "regional",
-      "countries": [
-        "Yemen"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "ar"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-17T14:23:56Z",
-      "last_published": "2026-10-17T14:23:56Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "4e100c4ce86bf6fcec01904e",
-          "title": "جامعة الدول العربية تدعو لمحاسبة المسؤولين عن هجمات الحوثيين في اليمن - emirates24.net",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ENEdwMjMzYWVTZmwzU0ZXbVBlQ0RWWjZtY011UXBVNmJwV0s4aFJnVl9HVUhXZk5jN0FzbUtlSlhPc0V1anZRUU54RWJFZ3JNZlNPOW1pOGMyVzdtVUE?oc=5",
-          "source": "emirates24.net",
-          "publisher_key": "emirates24 net",
-          "provider": "عربي · الإمارات والبحرين",
-          "published_at": "2026-10-17T14:23:56Z",
-          "date_quality": "publisher-time",
-          "first_seen_at": "2026-10-20T22:49:18.324028Z",
-          "collected_at": null,
-          "language": "ar",
-          "country": "Yemen"
-        }
-      ],
-      "coverage_stage": "quiet-coverage",
-      "coverage_first_published_at": "2026-10-17T14:23:56Z",
-      "coverage_last_published_at": "2026-10-17T14:23:56Z",
-      "current_reporting": false,
-      "recent_publisher_count": 0,
-      "recent_article_count": 0,
-      "incident_status": "unknown",
-      "event_occurrence_verified": false,
-      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "6b9ed07af645b59ec5a3",
-      "revision": 1,
-      "updated_at": "2026-10-20T22:49:27.081397Z"
     },
     {
       "id": "GF-EACDE57B60B9F8",
@@ -82188,9 +82132,9 @@
       "sources": 6
     },
     "Yemen": {
-      "events": 269,
-      "reports": 281,
-      "security_coverage": 255,
+      "events": 268,
+      "reports": 280,
+      "security_coverage": 254,
       "transport_coverage": 12,
       "sources": 132
     },
@@ -82215,56 +82159,24 @@
     "2026-10-14": 153,
     "2026-10-15": 148,
     "2026-10-16": 139,
-    "2026-10-17": 188,
+    "2026-10-17": 187,
     "2026-10-18": 152,
     "2026-10-19": 220,
     "2026-10-20": 314
   },
   "revisions": [
     {
-      "id": "GF-D65FAAB711828F",
+      "id": "GF-59BE3EBBD1CFD7",
       "revision": 2,
-      "at": "2026-10-20T22:53:01.839125Z",
+      "at": "2026-10-20T22:55:03.643627Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-62EDD7386FF47A",
+      "id": "GF-EC9D9F61DCB988",
       "revision": 2,
-      "at": "2026-10-20T22:53:01.839125Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-BDFC302F209896",
-      "revision": 5,
-      "at": "2026-10-20T22:53:01.839125Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-16094BD5B10138",
-      "revision": 18,
-      "at": "2026-10-20T22:53:01.839125Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-AF8E727FB24624",
-      "revision": 6,
-      "at": "2026-10-20T22:53:01.839125Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-F99E79086CCD1D",
-      "revision": 21,
-      "at": "2026-10-20T22:53:01.839125Z",
+      "at": "2026-10-20T22:55:03.643627Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
