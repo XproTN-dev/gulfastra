@@ -314,6 +314,14 @@ function bind(){
  document.querySelectorAll("[data-v9-panel]").forEach(b=>b.addEventListener("click",()=>togglePanel(b.dataset.v9Panel)));
  document.querySelectorAll("[data-v9-mode]").forEach(b=>b.addEventListener("click",()=>mapMode(b.dataset.v9Mode)));
  $("v9Tile")?.addEventListener("click",tilePanels);
+ $("v9MobileTile")?.addEventListener("click",()=>{tilePanels();$("v9MobileMenu").hidden=true;$("v9MobileToolsButton").setAttribute("aria-expanded","false")});
+ $("v9MobileToolsButton")?.addEventListener("click",()=>{
+  const menu=$("v9MobileMenu"),open=menu.hidden;
+  menu.hidden=!open;$("v9MobileToolsButton").setAttribute("aria-expanded",String(open));
+ });
+ document.querySelectorAll("#v9MobileMenu [data-v9-panel]").forEach(b=>b.addEventListener("click",()=>{
+  $("v9MobileMenu").hidden=true;$("v9MobileToolsButton").setAttribute("aria-expanded","false");
+ }));
  $("v9ZoomIn").onclick=()=>window.__gulfastraMap?.zoomIn({duration:250});
  $("v9ZoomOut").onclick=()=>window.__gulfastraMap?.zoomOut({duration:250});
  $("v9Reset").onclick=()=>{state.country="";$("v9Locate").value="";syncPanels();mapMode("map")};
@@ -330,6 +338,8 @@ function bind(){
  document.addEventListener("keydown",e=>{
   if(e.key==="Escape"){
    $("v9AppearanceMenu").hidden=true;$("controlpanel").classList.remove("v9-show");
+   if($("v9MobileMenu"))$("v9MobileMenu").hidden=true;
+   $("v9MobileToolsButton")?.setAttribute("aria-expanded","false");
    const top=[...state.windows].sort((a,b)=>Number(b[1].style.zIndex)-Number(a[1].style.zIndex))[0];
    if(top)closePanel(top[0]);
   }
