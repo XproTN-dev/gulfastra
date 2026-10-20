@@ -84,14 +84,19 @@ def graph(events,previous=None,now=NOW):
         for other in nodes[i+1:i+60]:
             b=when(other["published_at"])
             if not b or abs((a-b).total_seconds())>36*3600:continue
-            if node["topic"]=="unspecified" or node["topic"]!=other["topic"]:continue
+            if node["topic"] in ("unspecified","regional") or node["topic"]!=other["topic"]:continue
             countries=sorted(set(node["countries"]) & set(other["countries"]))
             if not countries:continue
-            if node["report_count"]<2 or other["report_count"]<2:continue
-            if degree.get(node["id"],0)>=4 or degree.get(other["id"],0)>=4:continue
+            strong=(node["report_count"]>=2 and other["report_count"]>=2)
+            # Single-article nodes may share a monitoring topic without
+            # referring to the same real-world incident. The edge explicitly
+            # identifies this as topical proximity only and is never causality.
+            if not strong and abs((a-b).total_seconds())>12*3600:continue
+            if degree.get(node["id"],0)>=3 or degree.get(other["id"],0)>=3:continue
             edges.append({"source":node["id"],"target":other["id"],
-                "kind":"shared-topic-and-country","relation_verified":False,
-                "label":"Related published coverage · NOT causation",
+                "kind":"multi-report-topical-overlap" if strong else "topical-proximity-only",
+                "relation_verified":False,
+                "label":"Shared reported topic + country · NOT same event or causation",
                 "shared_topic":node["topic"],"shared_countries":countries[:3],
                 "first_visible_at":iso(max(a,b))})
             degree[node["id"]]=degree.get(node["id"],0)+1
