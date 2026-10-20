@@ -82,7 +82,9 @@ function sourceRow(name,p){
 function timelineHtml(){
  const days=new Map();
  for(const r of state.reports){const day=(r.published_at||"").slice(0,10);if(day)days.set(day,(days.get(day)||0)+1)}
- const items=[...days].sort((a,b)=>a[0].localeCompare(b[0])).slice(-14),max=Math.max(1,...items.map(x=>x[1]));
+ const cutoff=Date.now()-14*86400000;
+ const items=[...days].filter(([day])=>{const t=new Date(day+"T00:00:00Z").getTime();return Number.isFinite(t)&&t>=cutoff&&t<=Date.now()+86400000}).sort((a,b)=>a[0].localeCompare(b[0]));
+ const max=Math.max(1,...items.map(x=>x[1]));
  return '<div class="v9-timeline-grid">'+items.map(([day,count])=>'<div class="v9-timeline-row"><span>'+esc(day)+'</span><i style="width:'+Math.max(3,Math.round(count/max*100))+'%"></i><b>'+count+'</b></div>').join("")+'</div>';
 }
 function panelContent(type){
