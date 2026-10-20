@@ -203,7 +203,15 @@ def main():
         add_rss(name,url,seen,statuses)
     for name,url in DIRECT_RSS.items():
         add_rss(name,url,seen,statuses)
-    add_gdelt(seen,statuses)
+    # GDELT has been returning HTTP 429. Probe at most twice per hour,
+    # rather than rate-limiting the entire five-minute news collector.
+    if TODAY.minute % 30 < 5:
+        add_gdelt(seen,statuses)
+    else:
+        statuses["GDELT · article index"] = {
+            "ok": None, "state": "rate-limit-backoff",
+            "note": "Probed twice hourly; previous HTTP 429 responses"
+        }
     records=sorted(seen.values(),key=lambda x:x.get("published_at",""),reverse=True)[:2600]
     good=any(info.get("ok") for info in statuses.values())
     timestamp=TODAY.isoformat().replace("+00:00","Z")
