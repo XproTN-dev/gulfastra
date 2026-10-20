@@ -224,6 +224,11 @@ def main():
     previous_ids={x.get("id"):x for x in archive.get("reports",[]) if x.get("id")}
     for old in archive.get("reports",[]):
         title=old.get("title","")
+        old_date=when(old.get("published_at"))
+        # Never keep legacy records with unknown or implausibly future timestamps;
+        # one bad date could otherwise become the manifest's "latest publication".
+        if not old_date or old_date > TODAY + timedelta(minutes=10):
+            continue
         if classify(title) and old.get("url") and old.get("id"):
             old["category"]=classify(title)
             old["tag"]=tag(title,old["category"])
