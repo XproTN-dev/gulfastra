@@ -49,7 +49,10 @@ function health(){
  $("v9DataStatus").title="Source: "+channel+". Data timestamp: "+(manifest?.collected_at?shortTime(manifest.collected_at):"pending")+". Not live weapon tracking.";
 }
 function ticker(){
- const usable=state.reports.filter(r=>r.title&&/^https:\/\//i.test(r.url||"")).slice().sort((a,b)=>new Date(b.published_at)-new Date(a.published_at));
+ const usable=state.reports.filter(r=>r.title&&/^https:\/\//i.test(r.url||"")&&
+  Date.now()-new Date(r.published_at).getTime()>=-600000&&
+  Date.now()-new Date(r.published_at).getTime()<=72*3600000)
+  .slice().sort((a,b)=>new Date(b.published_at)-new Date(a.published_at));
  const seen=new Set(),items=[];
  for(const r of usable){
   const key=r.title.toLowerCase().trim().replace(/[^\p{L}\p{N}]/gu," ").replace(/\s+/g," ");
@@ -58,7 +61,7 @@ function ticker(){
   if(items.length>=12)break;
  }
  const html=items.map(r=>'<a dir="auto" target="_blank" rel="noopener noreferrer" href="'+esc(validURL(r.url))+'">'+esc(headline(r))+' <small>['+esc(r.source||"SOURCE")+']</small></a>').join("");
- $("v9TickerItems").innerHTML=html?html+html:'AWAITING PUBLIC SOURCE REPORTING';
+ $("v9TickerItems").innerHTML=html?html+html:'NO RECENT PUBLIC REPORTING · ARCHIVE AVAILABLE IN INTEL WIRE';
 }
 function alertBadge(){
  const critical=state.alerts.filter(a=>a.level==="critical-reporting"&&
@@ -116,7 +119,7 @@ function filteredNews({maritime=false,alerts=false}={}){
  return state.reports.filter(r=>(!state.country||(r.countries||[r.country]).includes(state.country))&&
  (!maritime||maritimeRelevant(r))&&(!alerts||r.category==="security")&&
  (!alerts||Date.now()-new Date(r.published_at).getTime()<86400000)&&
- ((maritime||alerts||state.newsWindowHours===0)||
+ ((alerts||state.newsWindowHours===0)||
   (Number.isFinite(new Date(r.published_at).getTime())&&
    Date.now()-new Date(r.published_at).getTime()>=-600000&&
    Date.now()-new Date(r.published_at).getTime()<=state.newsWindowHours*3600000)))
@@ -127,8 +130,9 @@ function newsItem(r){
  const hours=(Date.now()-new Date(r.published_at).getTime())/3600000;
  const stateName=hours<0?"DATE REVIEW":hours<2?"NEW REPORT":hours<24?"RECENT":hours<168?"OLDER":"ARCHIVE";
  const context=r.context==="retrospective"?" · HISTORICAL CONTEXT":r.context==="speculative"?" · SPECULATIVE":r.context==="denial"?" · DENIAL":"";
+ const dateLabel=r.date_quality==="index-first-seen"?"FIRST INDEXED":"PUBLISHED";
  return '<article class="v9-news"><div class="v9-news-top"><span class="v9-tag">'+esc((r.category||"REGIONAL").toUpperCase())+'</span>'+
- '<span>'+esc(stateName+context)+'</span><span>'+esc(age(r.published_at))+'</span><span>◉ '+esc(r.country||"REGIONAL")+'</span></div>'+
+ '<span>'+esc(stateName+context)+'</span><span>'+esc(dateLabel+" "+age(r.published_at))+'</span><span>◉ '+esc(r.country||"REGIONAL")+'</span></div>'+
  '<h3 dir="'+(rtl?"rtl":"ltr")+'">'+esc(headline(r))+'</h3>'+
  '<span class="v9-news-source" dir="auto">'+esc(r.source||"Published outlet")+'</span> '+
  '<a href="'+esc(validURL(r.url))+'" target="_blank" rel="noopener noreferrer">OPEN ARTICLE LINK ↗</a></article>';
@@ -182,7 +186,8 @@ function panelContent(type){
  }
  if(type==="hormuz"){
   const a=filteredNews({maritime:true});
-  return '<p>GULF MARITIME KEYWORD MATCHES / '+a.length+' ARTICLES<br>These are candidate maritime reports, not verified incidents or live AIS/UKMTO data.</p>'+
+  return '<p>GULF MARITIME KEYWORD MATCHES / '+a.length+' ARTICLES IN '+(state.newsWindowHours?state.newsWindowHours+" HOURS":"ARCHIVE")+
+   '<br>These are candidate maritime reports, not verified incidents or live AIS/UKMTO data.</p>'+
    (a.length?a.slice(0,35).map(newsItem).join(""):'<div class="v9-empty">No maritime headlines match current filters.</div>')+
    '<a class="v9-lab-button" href="https://www.ukmto.org/" target="_blank" rel="noopener noreferrer">UKMTO ORIGINAL BULLETINS ↗</a>';
  }
