@@ -1,10 +1,10 @@
 # موجز جلفاسترا للمصادر العلنية
 الفترة: آخر 24 ساعة (حسب وقت نشر التقارير)
 
-مجموعات التغطية: 264 | عناوين مرتبطة: 286
+مجموعات التغطية: 263 | عناوين مرتبطة: 285
 هذه تقارير صحفية وليست أحداثا مؤكدة، ولا تعتبر توجيهات سلامة رسمية.
 
-## Security (192 coverage groups)
+## Security (191 coverage groups)
 - الحرس الثوري الإيراني: انفجار ناقلة نفط بعد اصطدامها بلغم بحري - المصري اليوم (1 headlines; single-source)
   - المصري اليوم: https://news.google.com/rss/articles/CBMiX0FVX3lxTE9oNmVlMW1pa0FOVlI3dURzZVgtYm1jYTIwQVItaC1wYnhUOHBXejUycVUtNl9jdmpFSjI1b0FKUHlpVER3MVhZOXdndnIzTVJqTUpZSWxTd0gyb3B3MFRn?oc=5
 - عام / التحالف: تدمير منصة إطلاق الصاروخ الباليستي الذي أطلق على الرياض اليوم من قبل الميليشيا الحوثية الإرهابية - وكالة الأنباء السعودية (1 headlines; single-source)
