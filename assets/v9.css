@@ -283,3 +283,12 @@ body[data-v9-palette="ember"] .map-stage .maplibregl-canvas{filter:brightness(.4
  .v9-panels{top:150px}
  .v9-map-tools button{font-size:7px!important}
 }
+
+.v9-tooltip{position:fixed;z-index:3000;width:238px;pointer-events:none;background:#06130bef;
+ border:1px solid var(--cmd-line);box-shadow:0 8px 35px #000c,0 0 16px var(--cmd-glow);
+ padding:10px;display:flex;flex-direction:column;gap:7px;color:var(--cmd-ink)}
+.v9-tooltip strong{font:800 9px "IBM Plex Mono",monospace;color:var(--cmd-accent)}
+.v9-tooltip small{font:700 7px/1.5 "IBM Plex Mono",monospace;color:var(--cmd-dim)}
+.v9-tooltip span{font:600 10px/1.5 "DM Sans",sans-serif;color:var(--cmd-strong);overflow-wrap:anywhere}
+.v9-tooltip span:dir(rtl){text-align:right;font-family:Tahoma,Arial,sans-serif;font-size:12px}
+@media(max-width:640px){.v9-tooltip{display:none!important}}
