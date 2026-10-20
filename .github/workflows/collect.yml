@@ -1,5 +1,10 @@
 name: Refresh OSINT reports
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/collect.yml'
   schedule:
     - cron: '7,27,47 * * * *'
   workflow_dispatch:
