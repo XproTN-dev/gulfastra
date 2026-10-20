@@ -41,7 +41,7 @@ with sync_playwright() as pw:
             page.locator("#closeLayers").click()
         assert count > 0,f"{label} report cards not rendered despite {total} archived reports"
         assert "COVERAGE GROUPS" in page.locator("#feedSummary").inner_text(),"Coverage grouping missing"
-        page.wait_for_selector("#fusionHealth")
+        page.wait_for_selector("#fusionHealth",state="attached")
         assert page.locator('[data-gf-open="fusion"]').count() >= 1
         page.locator('[data-gf-open="fusion"]').first.click()
         assert page.locator("#fusionWorkbench").is_visible(),"v5 workbench hidden"
