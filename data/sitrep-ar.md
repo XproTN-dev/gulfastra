@@ -1,10 +1,10 @@
 # موجز جلفاسترا للمصادر العلنية
 الفترة: آخر 24 ساعة (حسب وقت نشر التقارير)
 
-مجموعات التغطية: 223 | عناوين مرتبطة: 245
+مجموعات التغطية: 224 | عناوين مرتبطة: 246
 هذه تقارير صحفية وليست أحداثا مؤكدة، ولا تعتبر توجيهات سلامة رسمية.
 
-## Security (155 coverage groups)
+## Security (156 coverage groups)
 - طهران تعتبر الرد الأمريكي على مقترح هرمز "غير كافٍ".. وقائد الجيش الباكستاني يزور إيران - Euronews.com (2 headlines; multi-publisher-unverified)
   - Euronews.com: https://news.google.com/rss/articles/CBMiwAFBVV95cUxQX2dmZm9NTTMwbXpIZHhFanM5VlNjcG00MWJnSFItdEJsUDUwODJHN2o5QXVzOVRHSmhNdlhOeWxvM3owNFE4eGxiODYwUTV0aGpMXzZEMVR4MlhlR2hrYkwwZ0xYbFVSOHkyaXNYWDdFMERfUXNuZE9tSmNhZjZyamE2R3pQeDVacDM4RzZuT29Ubkp3MEw2RGE4dGNkaGVFWGRPNEUtdGgtWTZzN25rb0I5b0lwWmN0cVBIUUFnNWY?oc=5
   - الجزيرة نت · RSS عربي: https://www.aljazeera.net/news/2026/10/20/%d8%b9%d8%a7%d8%ac%d9%84-%d8%a7%d9%84%d8%ae%d8%a7%d8%b1%d8%ac%d9%8a%d8%a9-%d8%a7%d9%84%d8%a5%d9%8a%d8%b1%d8%a7%d9%86%d9%8a%d8%a9-%d8%a7%d9%84%d8%b1%d8%af?traffic_source=rss
@@ -25,6 +25,8 @@
   - Yemen Online: https://news.google.com/rss/articles/CBMiUkFVX3lxTFBfTGlPMVh5NFVHZm84cmpJY29XY2FOREZhdnl0UjIxRGYydHh0RVZHM0FYNXZlc0tHWjg2bnA1Nmw0MHh2d2hHRmNHWU1fMjEtVHc?oc=5
 - هل استنفدت الولايات المتحدة أكثر من نصف ترسانة صواريخ باتريوت في صراع مع إيران؟ - Vietnam.vn (1 headlines; single-source)
   - Vietnam.vn: https://news.google.com/rss/articles/CBMikwFBVV95cUxQS1o0U0s5bE10eU1zQm9vS0YwaEhTcEg1cHo4Yl9qZTU0MTRfc1F6QlpKU3Vzc1ZNb3NjckowTDZRVlBnQ0dUN0ExNXVleVR1N29sMjYzaVE0OWF1WGZhd05HVUlzd0FTclhaMjhNTjBZVjJHQ2c3M3V1TTh5RV9RMDhJSDNaejltazB3NEhqV1Y5Rlk?oc=5
+- The UK expands military support for Saudi Arabia against Houthis to include 'defensive' air patrols - WPXI (1 headlines; single-source)
+  - WPXI: https://news.google.com/rss/articles/CBMihgFBVV95cUxOWFVpcWlDYU5FN0VLOEJqWDVORUhKTGE0TE1GN0x0YV9Pb2Z0Yk1TRmxMNGZrZXIxVnFXTWZZM2ZxNE1pVGw0bVBjSnRaZW9CSEFJMEQxOUFiVDdBSGtrOVhqSmx3VjB5V2M2eTRpTnEtUm4yS2QyZlZ1dDgtTUZBaElvMTBkd9IBmgFBVV95cUxPbHJpVzVGSWhLV2kyWFhQbEFKX3NLenpFZ3NmUGN2aUNQSmwzeTVDekRLbXNxQ285MmlEQ2I4N2oxT0JrVUh4N3Z0Wk01UVhScm1Wa0lHcHZTOU9BYWNadHdPNE01Q0pJSi12QnZJNzhyVHFWVTlJbmV6cG9hRmVDTTN3MmtvSGdHc3FXT2NQY1JNSU9vazBEb25R?oc=5
 - بريطانيا تدرس تعزيز الدفاعات السعودية بمقاتلات جوية وسط تصاعد هجمات الحوثيين - https://www.youlyou.com/ (1 headlines; single-source)
   - https://www.youlyou.com/: https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBSVTBXb3FEemdtS1UwLTdxdzNKQ0QyWURDcjNZQkFVNHVfWjhsSVNqcldrUVNycUZHZHVjNjB6VzU4X28?oc=5
 - UK to deploy Typhoon jets to help defend Saudi Arabia from Houthi attacks (1 headlines; single-source)
@@ -33,8 +35,6 @@
   - رؤيا الإخباري: https://news.google.com/rss/articles/CBMiRkFVX3lxTFB1b25MV1NaakRtN3FiZFROOERPMHV6dGI5US1PTnhuU3Mwa25kMjFCUGh1WUlHV3VOMWl3eTJDSUN5VXdPcVE?oc=5
 - من طراز «تايفون».. بريطانيا تدفع بمقاتلاتها لدعم السعودية ضد هجمات الحوثيين - المصري اليوم (1 headlines; single-source)
   - المصري اليوم: https://news.google.com/rss/articles/CBMiX0FVX3lxTE9DUU1lSDJDdnllRkg3QjdOOUl4cDg1UXV4WHpLM0NYaUN5enFqR3dzMTBzeFNVU2hEanJmeFZ3RTdmMk1YNlc5akI4SVhWYUxFOVdhMEF4cmNFU0NUU0tJ?oc=5
-- Explained : Why is Egypt discussing military involvement in Saudi - Houthi conflict ? (1 headlines; single-source)
-  - article.wn.com: https://article.wn.com/view/2026/10/20/Explained_Why_is_Egypt_discussing_military_involvement_in_Sa/
 
 ## Transport (43 coverage groups)
 - Yemen’s critically ill are trapped as war closes the country’s airports (1 headlines; single-source)

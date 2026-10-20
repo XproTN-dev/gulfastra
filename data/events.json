@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "generated_at": "2026-10-20T12:19:22.633133Z",
+  "generated_at": "2026-10-20T12:21:37.240541Z",
   "model": "deterministic-source-correlation-v1",
   "disclaimer": "Clusters are related PUBLIC REPORTS, not confirmed incidents. Source counts are not proof. Country names are mentions, not incident locations.",
   "events": [
@@ -465,6 +465,50 @@
       "digest": "f2927acc9e0513b6d7f9",
       "revision": 1,
       "updated_at": "2026-10-20T12:10:02.002002Z"
+    },
+    {
+      "id": "GF-CED3D6EDFE3E20",
+      "title": "The UK expands military support for Saudi Arabia against Houthis to include 'defensive' air patrols - WPXI",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T11:40:19Z",
+      "last_published": "2026-10-20T11:40:19Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "86e755a916ce4253acefea80",
+          "title": "The UK expands military support for Saudi Arabia against Houthis to include 'defensive' air patrols - WPXI",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOWFVpcWlDYU5FN0VLOEJqWDVORUhKTGE0TE1GN0x0YV9Pb2Z0Yk1TRmxMNGZrZXIxVnFXTWZZM2ZxNE1pVGw0bVBjSnRaZW9CSEFJMEQxOUFiVDdBSGtrOVhqSmx3VjB5V2M2eTRpTnEtUm4yS2QyZlZ1dDgtTUZBaElvMTBkd9IBmgFBVV95cUxPbHJpVzVGSWhLV2kyWFhQbEFKX3NLenpFZ3NmUGN2aUNQSmwzeTVDekRLbXNxQ285MmlEQ2I4N2oxT0JrVUh4N3Z0Wk01UVhScm1Wa0lHcHZTOU9BYWNadHdPNE01Q0pJSi12QnZJNzhyVHFWVTlJbmV6cG9hRmVDTTN3MmtvSGdHc3FXT2NQY1JNSU9vazBEb25R?oc=5",
+          "source": "WPXI",
+          "provider": "Google News · security",
+          "published_at": "2026-10-20T11:40:19Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Saudi"
+        }
+      ],
+      "digest": "9d74716db6e4400da632",
+      "revision": 1,
+      "updated_at": "2026-10-20T12:21:37.240541Z"
     },
     {
       "id": "GF-A4589C70DA96A2",
@@ -2391,8 +2435,8 @@
       ],
       "publisher_count": 1,
       "report_count": 1,
-      "first_published": "2026-10-20T09:45:33Z",
-      "last_published": "2026-10-20T09:45:33Z",
+      "first_published": "2026-10-20T09:39:00Z",
+      "last_published": "2026-10-20T09:39:00Z",
       "event_occurred_at": null,
       "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
       "sources": [
@@ -2402,15 +2446,15 @@
           "url": "https://news.google.com/rss/articles/CBMivwRBVV95cUxPelBCRXdKWG02U0JsTTR1U3pfVUNJanpmRS1kM0pWOXdXV1VFN0pyUWc0SFZyRGRkZkhTYlJVSFNLMTZKNUlhcTJsR2I2Tlp5XzBsZ0M3QkZna2JhNEhtWWhFdXRKUlYtamdrZjBoMlFhMWp2VlJOY1lscld0eEtsWGUzZUhWOU9jMTZ0eVNVb2c0TTdjd284al9qRlZmZWxQNUQ3WE83QW5FaUVZakVPQVlzeHNXM0NfLTRFRWx0YVFTWDlMb19YSHJra3d0SXlJUUh3UVRFTFVGY1d6WTRoRWJnX3pQQloyeGpnRkkyVTFWODUxN3h5OENXcUhaNDFPTWxIWjVOU001UW13cUkzY01nZTl5d3locXdUTFFDMHFuNnRBNjlyelJEU0xfb2pXMkY4M3A2NkZXTHh3bUVJaHcwX0I0UVAwdWt4bGg5ZEdCTTFJTXhsN0VWaGxsS2VwbFJVZ1pic0pBQ1VMTjY3MkVQbnlObGVpWUhpczZjZTNJckFZNDJxNERIWmQxV1lpVEJDREhsMXlWWmRtbEZiNlZaZkx0alJqUWg2QUdCY1lJb1BzVGJYSVh5SXdRZ09lRE4xQTRocDFXbVJ2U3pYUURIdzRPS2JqWVlDTC1uNF90N0xuc1FUY1kyc0RnamdfR0dxTUV2WC1hSF9rT1doRjRtbFlZcXctaXpSZkt3aU1jWk41c0t2WHg4dzNDbk9iWTJ1TEd6MTI5dzJlRGg2dGtKZ0FQRnh6YmpkQ1FKa9IBugRBVV95cUxQb3JPTlJfMndXeWYtS0VLVGQtMkZ3dmdrVWs2MzRqRUw2WEVVY3NrM2RnalAtbUpENXN2SXZNMXhfUk1UZFkzbUNKeUdhZXJCRGNtSG9lOUZhV3A5SmRPbTVjajhfc1E2eklMdmEyMXFfODNyS3JPa1hmeVV0YzlGd3hnMDJ6RW1Ick4tamptY28wUGt6azBzckZhVEZjdy1UT3RxUUFFaVd1Y1hETTQ3alRoc2RwbmQwNUw0N091SDVDVzFrdjB5RzR4RVBhX2ZvSnNlNkx1VF9sNVZrVU9sdmk4RkVOVG5fT0xBaEhUUjRPZmhNTWt6cXI0QkY2bEdrc0kzVzdnakx2RGdxcHdXQzRodG9kUW1XeDRCUzV4bi10Mmdhd2ZTeG1IWUNsd01oYkg0NFV6LXBSWE5aV09KakZOVW5XOUxJWm9PU2tzVXFjcFFuX0tiQXVSZ2d6RG5WWThDV3B3dVZjcGp3QmZURGhLR0Y3QkE1THRYcVFoLTBCcU5WWDk4b1ZsbHJZSDdhOFBCejI0a2N3MG5ZWk55dEQ3WlZ4dllxbXlvRE5xdUd5d3lWVHpRN3BXTzJERXRfRlgtZ0FZVEpWWFU3MDVBcndubWlEbDl3ZGliVktsaU5tUFduWGFJSkpueTVPTWxjbklMNVVhZzBnTXhRRUJBNzUzUHFLeUlwRmV4TzVXUkx6Uy1iNlRlWm9nYzZhMHkwQm9ZYUR1NTE1ejRsWUpBTWU3MXptSnlvYlE?oc=5",
           "source": "اليوم السابع",
           "provider": "عربي · السعودية",
-          "published_at": "2026-10-20T09:45:33Z",
+          "published_at": "2026-10-20T09:39:00Z",
           "collected_at": null,
           "language": "ar",
           "country": ""
         }
       ],
-      "digest": "a79858b3365c15830283",
-      "revision": 5,
-      "updated_at": "2026-10-20T12:19:22.633133Z"
+      "digest": "751451a869c52bf7e47a",
+      "revision": 6,
+      "updated_at": "2026-10-20T12:21:37.240541Z"
     },
     {
       "id": "GF-64C0644E4975E0",
@@ -5975,6 +6019,51 @@
       "updated_at": "2026-10-20T07:40:58.957167Z"
     },
     {
+      "id": "GF-EB4ADBA3FF937F",
+      "title": "البحرين تعلن اعتراض هجمات إيرانية جديدة.. والكويت تتصدى لصاروخين باليستيين وسط تصعيد أميركي-إيراني - الساحل الغربي",
+      "category": "security",
+      "topic": "interception",
+      "countries": [
+        "Bahrain",
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-19T21:58:54Z",
+      "last_published": "2026-10-19T21:58:54Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "c1138a2262b02b848c7569fe",
+          "title": "البحرين تعلن اعتراض هجمات إيرانية جديدة.. والكويت تتصدى لصاروخين باليستيين وسط تصعيد أميركي-إيراني - الساحل الغربي",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1hcEthLUFQRmFqekJvQkpzMDZNR3Q2MkJKdVVTbkVxRHZiVEdraW5Hb01TMWpDUm5wNDNFdFhqR0JxNlgzNEZ1eGMwc0dXeFE?oc=5",
+          "source": "الساحل الغربي",
+          "provider": "عربي · الإمارات والبحرين",
+          "published_at": "2026-10-19T21:58:54Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "digest": "1e93f43b1dfdfb2b45ce",
+      "revision": 5,
+      "updated_at": "2026-10-20T12:21:37.240541Z"
+    },
+    {
       "id": "GF-A5770A06CD6844",
       "title": "Day 226 | At least two killed in attack on Riyadh airport - Roya News",
       "category": "security",
@@ -7961,6 +8050,50 @@
       "updated_at": "2026-10-20T10:18:19.020775Z"
     },
     {
+      "id": "GF-1F62131BFB8BB6",
+      "title": "Iran and Russia FMs condemn US-Israeli attacks, call for regional diplomacy - Modern Ghana",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-19T16:24:43Z",
+      "last_published": "2026-10-19T16:24:43Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "11dde8cbdefbf19395cbffdd",
+          "title": "Iran and Russia FMs condemn US-Israeli attacks, call for regional diplomacy - Modern Ghana",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5zSVhseWF1dWY5QlVTanhaM1g5aVJBQzZZQkFTZFgtdzJza016MWJtR0pENmM5cVJTcUhoTmlHcDdMWnduVTNMbjdOeTFEUl9jeUlWVkhzWEZUWjJUV25ndy1mb3RXSjDSAVxBVV95cUxPaHhSYjFBOVFVeXZrNFZCdVE1b0pLaV9uWXdINlBsWnNkOHc5N282NVp0bmd4Q3I0dUFlRkdQTWFfYWt0Rmw1TVY2UnNscTh0ZXZCUVNxc2Nhby16Vg?oc=5",
+          "source": "Modern Ghana",
+          "provider": "Google News · diplomacy",
+          "published_at": "2026-10-19T16:24:43Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Iran"
+        }
+      ],
+      "digest": "ac2ac2cd1819771b5574",
+      "revision": 1,
+      "updated_at": "2026-10-20T12:21:37.240541Z"
+    },
+    {
       "id": "GF-9709CEC5B9BDEC",
       "title": "Houthi missile strike on Yemen camp kills 50 security recruits, local authorities say",
       "category": "security",
@@ -8047,51 +8180,6 @@
       "digest": "64c7018c4568f54faf27",
       "revision": 5,
       "updated_at": "2026-10-20T09:48:10.536726Z"
-    },
-    {
-      "id": "GF-2641AEE1D03B4C",
-      "title": "صواريخ ومسيرات إيرانية تستهدف البحرين والكويت والأردن.. والدفاعات الجوية تتصدى - الساحل الغربي",
-      "category": "security",
-      "topic": "missile",
-      "countries": [
-        "Bahrain",
-        "Iran"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "ar"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-19T16:18:43Z",
-      "last_published": "2026-10-19T16:18:43Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "a655d15acb89d9c6db5135da",
-          "title": "صواريخ ومسيرات إيرانية تستهدف البحرين والكويت والأردن.. والدفاعات الجوية تتصدى - الساحل الغربي",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE15VmNLVDgtRnRBRzRXaVowSlM1cTFRTEtwVGhhS0JoWVRpZ3FpdW1EZXZzdXN3SHcwNXVNV2s1N0tzMU9FYkZEZXFDWUlESWM?oc=5",
-          "source": "الساحل الغربي",
-          "provider": "عربي · الكويت والعراق",
-          "published_at": "2026-10-19T16:18:43Z",
-          "collected_at": null,
-          "language": "ar",
-          "country": ""
-        }
-      ],
-      "digest": "64eb47930abcb277ffab",
-      "revision": 9,
-      "updated_at": "2026-10-20T12:19:22.633133Z"
     },
     {
       "id": "GF-03476150E89A5F",
@@ -8580,50 +8668,6 @@
       "digest": "3250adebc3398acb90bf",
       "revision": 2,
       "updated_at": "2026-10-20T07:40:58.957167Z"
-    },
-    {
-      "id": "GF-2787CF423B3D0F",
-      "title": "Iran and Russia FMs condemn US-Israeli attacks, call for regional diplomacy - Modern Ghana",
-      "category": "security",
-      "topic": "regional",
-      "countries": [
-        "Iran"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "en"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-19T15:46:37Z",
-      "last_published": "2026-10-19T15:46:37Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "b1c131c6e8207e4f25fdc518",
-          "title": "Iran and Russia FMs condemn US-Israeli attacks, call for regional diplomacy - Modern Ghana",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBaajNZbUhRaF81ZlhsUjVGNUN3Y29EemN1ZVFVOWxUMEI5bXBkY0tsQnBnblY5V2E3NmowOE51Q0VLMEMyV2ZuZFdrU0JNdnRpN2pDWmdGU1N2ZEZpTHAxWm1vYUxySUnSAVxBVV95cUxPaHhSYjFBOVFVeXZrNFZCdVE1b0pLaV9uWXdINlBsWnNkOHc5N282NVp0bmd4Q3I0dUFlRkdQTWFfYWt0Rmw1TVY2UnNscTh0ZXZCUVNxc2Nhby16Vg?oc=5",
-          "source": "Modern Ghana",
-          "provider": "Google News · diplomacy",
-          "published_at": "2026-10-19T15:46:37Z",
-          "collected_at": null,
-          "language": "en",
-          "country": "Iran"
-        }
-      ],
-      "digest": "f3cd2664042e3d1bd123",
-      "revision": 1,
-      "updated_at": "2026-10-20T12:10:02.002002Z"
     },
     {
       "id": "GF-C7CF2EF1311197",
@@ -18183,6 +18227,50 @@
       "digest": "805ef52a6cd7ed190cdf",
       "revision": 3,
       "updated_at": "2026-10-20T12:10:02.002002Z"
+    },
+    {
+      "id": "GF-A82F41E94261BA",
+      "title": "\"تذكر شكلها فلا تنسى\" .. التحالف يدحض ادعاءات الحوثي بإسقاط الأباتشي - العربية",
+      "category": "security",
+      "topic": "interception",
+      "countries": [
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-18T09:35:00Z",
+      "last_published": "2026-10-18T09:35:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "91ae319971defdd4174fda36",
+          "title": "\"تذكر شكلها فلا تنسى\" .. التحالف يدحض ادعاءات الحوثي بإسقاط الأباتشي - العربية",
+          "url": "https://news.google.com/rss/articles/CBMiiwRBVV95cUxNZWtRQV9qUU84WHdJeExub2lHNlI2bWhEbFNmbWNBemZyc2ozQURQZmVHRHN4SldsSW51aHd2R29iQ0VwWEZtZnYwRWRTWHBDb2pRd3Z0aDRDdjk2RF9qZjNMc3VXcmdrZlF6eHFRSW51VC15OWZLUFNNR0EtOGZTQ1lKdzlha243WWVlSnN1anMzVk5yZDloZ0hfYlpvUmZtM2ZjOHBIUkN4bzRZN1hIcldraG1tN3JRa01FU3JrUmxvaktFcURQTEJYcGxSd3lSRWNjM0dCWGV1UHhKS200VWpUS2pUOEZRYU9zRV94Rlo5aGtNZ2NfS1UtQm1CRjFOM05COXlDRk5PbWtaZFMwSDlmN2hTU19OTU1NOGJsRFN4a1VTa0kzdkJtUU1VdUNoTlFVVW9mQ0E3SUxMRzRQX1JNNHNsTUFOWVJIT1ptZEVnbDI5QWxkNDcwNTBsWmxrREhuMTN3cElIWS1fNnJJSmpZUC1lem9QaWtXVlREV1hKcDlIM194RkNxbVluN1IzaDl2Ukg1TWRwTy0tYlVQbUs4Z0JVSUZ5eXkwSllHZnBwcTdOeWR4S1RWQlhiLU5YblZxNmJGODZFZGFNNWdmVjBuUE5XdUJwZVVEdHFxSVFKTVJBSEVqSE51eVBXeGx3d2JRZWYyQ1RhM3BjeTZ2TDhKUFJmN0FoNjhN0gGQBEFVX3lxTE9xWFpEV2ZqVUQxWGVoUmx0YmkwTnBGTk9aRUY1M19ZQlQ5Q2F6Uzd4TmhhLWIxQkpVQkNKNmNjY0tqRUNqMGNBNHEtVHFQdUlxZG5uX29tQlR1Q3JGUFpMSmxMdzdUdmJJRzZEZ0x0X253Qm1JY2lSZ0h2bmlqRi04bHNYVlRDWlR4VXRDVTk2QmM1Wm5zWnV6dmczN0xzd09tOGNsN1hZdXZfaF9IU01LaERITFVPY3QzOGhrcGdOcjU5LVU5NWJxNFVsZEJBOXV0MDYwRlZjWl9OaVZhek1VTzhqTHBDTmxNMWtsZHBqa3BpcHg5Z0NoSUxmMnFFS1dsdkZIQ2Z4cHNjYVZLMDVPWVA0OWl5WG9ZMEJCWTFHdmFhYUh3Ym55WXV3SlVvS1VUUW5Ob2E1WWV5MXNFcGVJUGdPVENFWnpISHFyN2g1Q3B2SkJhMFJCdDJ6cnh1SWd0T1ZXVnJXQWNQWjM2MXFtZldUcUdEbms0RFRsSlBxTHY3Rjd2TWV0TDluQ01JbGVlXzJKWlAwUEZHMUFZalhLVFNfVjJDVDR6RTZKbmRkRlliVm1Jb2VXckRPRVRyS0ZFc1A0eDg5TTQ4WWw3RVpRX1Q5TnhJeXA1Wlo3eUpRTWNsZWJOMmxBSllvdkxuTl9IOXhxVUpYblJrSEVncGNDdzE4MklBTGhxUW05NEFibw?oc=5",
+          "source": "العربية",
+          "provider": "عربي · العربية",
+          "published_at": "2026-10-18T09:35:00Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Yemen"
+        }
+      ],
+      "digest": "c176d657382b205982b5",
+      "revision": 1,
+      "updated_at": "2026-10-20T12:21:37.240541Z"
     },
     {
       "id": "GF-316A775F99FFF6",
@@ -37404,7 +37492,7 @@
     },
     {
       "id": "GF-58682ABDDE355B",
-      "title": "How Iran's precision strikes picked apart Gulf infrastructure - Reuters",
+      "title": "Iran’s precision strikes picked apart Gulf infrastructure, blunting US war plans - Reuters",
       "category": "security",
       "topic": "regional",
       "countries": [
@@ -37432,7 +37520,7 @@
       "sources": [
         {
           "id": "aa17a6eca97a950b82cf3e2c",
-          "title": "How Iran's precision strikes picked apart Gulf infrastructure - Reuters",
+          "title": "Iran’s precision strikes picked apart Gulf infrastructure, blunting US war plans - Reuters",
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONmZVZ0RfSms3U0s1SVE3N3ZMeWxLaVhtTjczazRmNU40UkpCUldVbWZJVUtJVkt3cHdLOEpoTl9qY0lFXzdKWUtydmYzVi1MeDExbXB6eHc3NjAyTi1CT2lveE5WVUNPeHV5SndkU3BmRUNiS1JCQUI2bDYyZjd6RjltYUhzeFVmUDFPSU93NWo?oc=5",
           "source": "Reuters",
           "provider": "Google News · security",
@@ -37442,9 +37530,9 @@
           "country": "Iran"
         }
       ],
-      "digest": "1df11ea349ac8dd761b3",
-      "revision": 6,
-      "updated_at": "2026-10-20T12:19:22.633133Z"
+      "digest": "d2dc04b668cf89be9a38",
+      "revision": 7,
+      "updated_at": "2026-10-20T12:21:37.240541Z"
     },
     {
       "id": "GF-F569005F5A89B0",
@@ -38060,6 +38148,50 @@
       "digest": "57b8d8e5a3440bb2dd5f",
       "revision": 2,
       "updated_at": "2026-10-20T07:40:58.957167Z"
+    },
+    {
+      "id": "GF-D8B13EE0B4A625",
+      "title": "US Weighs Easing Sanctions On Iran, Russia & Venezuela Shadow Fleet Ships Amid Soaring Freight Rates - The Times of India",
+      "category": "transport",
+      "topic": "sanctions",
+      "countries": [
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-15T08:01:01Z",
+      "last_published": "2026-10-15T08:01:01Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "578ac2e44de50f7383bcd996",
+          "title": "US Weighs Easing Sanctions On Iran, Russia & Venezuela Shadow Fleet Ships Amid Soaring Freight Rates - The Times of India",
+          "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOc1l1LV84cVpJM1YzWnJkNHhHbzk1Y05jbFNmMFA1dXJnemw3SEMtSTk1UThlZ1hMZmRCeVNfMjFydkc2T2U1RjZaNmhQLUJSRW40V3ZVeDNlTDNiVXZ0Q3JkcVp2N2w2Y2NwUFZSR3ltQjBEUXZ5dmRUTmZhTXQzdG5TQUk3RFpRM1dnc3pwcHlFTG0yX3dxWXlPYzhKVWQyb0NsTXBVT1l1YTd6dGhoaHQzaXBNcmVKWHJxT19IaHFDWW1NUjVYQXBpNkFlS081b0w1a1BsYkdtMl91Q3hFX2lwMG83Yjc4aXU3akE3cnQ5N3owZ0tBTTNONkpvOElpODQtd253WmJQdw?oc=5",
+          "source": "The Times of India",
+          "provider": "Google News · diplomacy",
+          "published_at": "2026-10-15T08:01:01Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Iran"
+        }
+      ],
+      "digest": "a51a18a6424887693f0a",
+      "revision": 1,
+      "updated_at": "2026-10-20T12:21:37.240541Z"
     },
     {
       "id": "GF-3ABB6E3D6E556B",
@@ -46599,51 +46731,6 @@
       "updated_at": "2026-10-20T07:40:58.957167Z"
     },
     {
-      "id": "GF-EB4ADBA3FF937F",
-      "title": "البحرين تعلن اعتراض هجمات إيرانية جديدة.. والكويت تتصدى لصاروخين باليستيين وسط تصعيد أميركي-إيراني - الساحل الغربي",
-      "category": "security",
-      "topic": "interception",
-      "countries": [
-        "Bahrain",
-        "Iran"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "ar"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-13T19:23:44Z",
-      "last_published": "2026-10-13T19:23:44Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "c1138a2262b02b848c7569fe",
-          "title": "البحرين تعلن اعتراض هجمات إيرانية جديدة.. والكويت تتصدى لصاروخين باليستيين وسط تصعيد أميركي-إيراني - الساحل الغربي",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1hcEthLUFQRmFqekJvQkpzMDZNR3Q2MkJKdVVTbkVxRHZiVEdraW5Hb01TMWpDUm5wNDNFdFhqR0JxNlgzNEZ1eGMwc0dXeFE?oc=5",
-          "source": "الساحل الغربي",
-          "provider": "عربي · الإمارات والبحرين",
-          "published_at": "2026-10-13T19:23:44Z",
-          "collected_at": null,
-          "language": "ar",
-          "country": ""
-        }
-      ],
-      "digest": "91d855f2809f3e481b57",
-      "revision": 4,
-      "updated_at": "2026-10-20T12:11:56.632328Z"
-    },
-    {
       "id": "GF-535D35AC374D48",
       "title": "Iran’s IRGC Navy threatens to sink US warships approaching Strait of Hormuz - Middle East Monitor",
       "category": "security",
@@ -48645,6 +48732,51 @@
       "digest": "ea080223ff673507946b",
       "revision": 3,
       "updated_at": "2026-10-20T12:10:02.002002Z"
+    },
+    {
+      "id": "GF-2641AEE1D03B4C",
+      "title": "صواريخ ومسيرات إيرانية تستهدف البحرين والكويت والأردن.. والدفاعات الجوية تتصدى - الساحل الغربي",
+      "category": "security",
+      "topic": "missile",
+      "countries": [
+        "Bahrain",
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-13T13:09:10Z",
+      "last_published": "2026-10-13T13:09:10Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "a655d15acb89d9c6db5135da",
+          "title": "صواريخ ومسيرات إيرانية تستهدف البحرين والكويت والأردن.. والدفاعات الجوية تتصدى - الساحل الغربي",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE15VmNLVDgtRnRBRzRXaVowSlM1cTFRTEtwVGhhS0JoWVRpZ3FpdW1EZXZzdXN3SHcwNXVNV2s1N0tzMU9FYkZEZXFDWUlESWM?oc=5",
+          "source": "الساحل الغربي",
+          "provider": "عربي · الكويت والعراق",
+          "published_at": "2026-10-13T13:09:10Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "digest": "b7547e67f32d069beca6",
+      "revision": 10,
+      "updated_at": "2026-10-20T12:21:37.240541Z"
     },
     {
       "id": "GF-4BCF1CEDA6EA75",
@@ -50817,18 +50949,18 @@
   ],
   "country_stats": {
     "Iran": {
-      "events": 398,
-      "reports": 438,
+      "events": 399,
+      "reports": 439,
       "security_coverage": 258,
-      "transport_coverage": 83,
+      "transport_coverage": 84,
       "sources": 197
     },
     "Saudi": {
-      "events": 425,
-      "reports": 446,
-      "security_coverage": 322,
+      "events": 426,
+      "reports": 447,
+      "security_coverage": 323,
       "transport_coverage": 91,
-      "sources": 220
+      "sources": 221
     },
     "Qatar": {
       "events": 41,
@@ -50873,9 +51005,9 @@
       "sources": 5
     },
     "Yemen": {
-      "events": 198,
-      "reports": 203,
-      "security_coverage": 187,
+      "events": 199,
+      "reports": 204,
+      "security_coverage": 188,
       "transport_coverage": 11,
       "sources": 110
     },
@@ -50897,50 +51029,42 @@
     "2026-10-12": 7,
     "2026-10-13": 111,
     "2026-10-14": 137,
-    "2026-10-15": 127,
+    "2026-10-15": 128,
     "2026-10-16": 124,
     "2026-10-17": 179,
-    "2026-10-18": 139,
+    "2026-10-18": 140,
     "2026-10-19": 186,
-    "2026-10-20": 123
+    "2026-10-20": 124
   },
   "revisions": [
     {
-      "id": "GF-A4E62CE1E21969",
-      "revision": 3,
-      "at": "2026-10-20T12:19:22.633133Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 2
-    },
-    {
       "id": "GF-03303938FAA376",
+      "revision": 6,
+      "at": "2026-10-20T12:21:37.240541Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-EB4ADBA3FF937F",
       "revision": 5,
-      "at": "2026-10-20T12:19:22.633133Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-7AF3BB603BD54F",
-      "revision": 2,
-      "at": "2026-10-20T12:19:22.633133Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-2641AEE1D03B4C",
-      "revision": 9,
-      "at": "2026-10-20T12:19:22.633133Z",
+      "at": "2026-10-20T12:21:37.240541Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
       "id": "GF-58682ABDDE355B",
-      "revision": 6,
-      "at": "2026-10-20T12:19:22.633133Z",
+      "revision": 7,
+      "at": "2026-10-20T12:21:37.240541Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-2641AEE1D03B4C",
+      "revision": 10,
+      "at": "2026-10-20T12:21:37.240541Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
