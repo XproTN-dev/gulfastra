@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "generated_at": "2026-10-20T17:57:11.803316Z",
+  "generated_at": "2026-10-20T18:04:32.891197Z",
   "model": "deterministic-source-correlation-v2-coverage-lifecycle",
   "disclaimer": "Clusters are related PUBLIC REPORTS, not confirmed incidents. Source counts are not proof. Country names are mentions, not incident locations.",
   "events": [
@@ -508,6 +508,77 @@
       "updated_at": "2026-10-20T17:30:53.488659Z"
     },
     {
+      "id": "GF-08DB5D6F403545",
+      "title": "Saudi Arabia announces interception of Houthi missile targeting Riyadh - Yemen Online",
+      "category": "security",
+      "topic": "interception",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "repeated-publication",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 2,
+      "first_published": "2026-10-20T15:30:40Z",
+      "last_published": "2026-10-20T16:41:44Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "7b57f0f3bb01b6556e9c194a",
+          "title": "Saudi Arabia announces interception of Houthi missile targeting Riyadh - Yemen Online",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBfTGlPMVh5NFVHZm84cmpJY29XY2FOREZhdnl0UjIxRGYydHh0RVZHM0FYNXZlc0tHWjg2bnA1Nmw0MHh2d2hHRmNHWU1fMjEtVHc?oc=5",
+          "source": "Yemen Online",
+          "publisher_key": "yemen online",
+          "provider": "Google News · missiles/drones",
+          "published_at": "2026-10-20T16:41:44Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T12:09:18.843663Z",
+          "collected_at": null,
+          "language": "en",
+          "country": ""
+        },
+        {
+          "id": "e79d8359ca33001605427e37",
+          "title": "Saudi Arabia Announces Interception of Missile , Drone Over Riyadh - Yemen Online",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4tbVB5a0NOVXNSZkRyeVR5QUI1S1FzZWNTd2VOT0VDZ2tRbWVQdFRobUNSNE1xSWxSczN4SDFSd3J2TWxEVFlyQkNnbkNfdzE2MHc?oc=5",
+          "source": "Yemen Online",
+          "publisher_key": "yemen online",
+          "provider": "Google News · missiles/drones",
+          "published_at": "2026-10-20T15:30:40Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T16:50:50.754226Z",
+          "collected_at": null,
+          "language": "en",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "renewed-coverage",
+      "coverage_first_published_at": "2026-10-20T15:30:40Z",
+      "coverage_last_published_at": "2026-10-20T16:41:44Z",
+      "current_reporting": true,
+      "recent_publisher_count": 1,
+      "recent_article_count": 1,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "45d0b1a9fa8e5e369736",
+      "revision": 1,
+      "updated_at": "2026-10-20T18:04:32.891197Z"
+    },
+    {
       "id": "GF-6BCE5144358C6F",
       "title": "إيران: إصابة ناقلتي نفط أثناء عبورهما مسارا غير مصرح به في مضيق هرمز - Masrawy",
       "category": "transport",
@@ -826,18 +897,18 @@
           "country": ""
         }
       ],
-      "coverage_stage": "new-coverage",
+      "coverage_stage": "recent-coverage",
       "coverage_first_published_at": "2026-10-20T16:00:07Z",
       "coverage_last_published_at": "2026-10-20T16:00:07Z",
-      "current_reporting": true,
-      "recent_publisher_count": 1,
-      "recent_article_count": 1,
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "61c28409cdc5cd90f969",
-      "revision": 2,
-      "updated_at": "2026-10-20T16:52:31.264495Z"
+      "digest": "1c8a3bd22be7653f245a",
+      "revision": 3,
+      "updated_at": "2026-10-20T18:04:32.891197Z"
     },
     {
       "id": "GF-E43AAFA87B59D6",
@@ -882,18 +953,18 @@
           "country": "Iran"
         }
       ],
-      "coverage_stage": "new-coverage",
+      "coverage_stage": "recent-coverage",
       "coverage_first_published_at": "2026-10-20T16:00:00Z",
       "coverage_last_published_at": "2026-10-20T16:00:00Z",
-      "current_reporting": true,
-      "recent_publisher_count": 1,
-      "recent_article_count": 1,
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "0a619664cbb84783beea",
-      "revision": 2,
-      "updated_at": "2026-10-20T16:52:31.264495Z"
+      "digest": "de03ad487b295c65d10f",
+      "revision": 3,
+      "updated_at": "2026-10-20T18:04:32.891197Z"
     },
     {
       "id": "GF-624751CB46169D",
@@ -1479,77 +1550,6 @@
       "digest": "85eb419d90f0df18ce08",
       "revision": 1,
       "updated_at": "2026-10-20T17:40:33.084584Z"
-    },
-    {
-      "id": "GF-D3E8CA268EF6C6",
-      "title": "Saudi Arabia Announces Interception of Missile , Drone Over Riyadh - Yemen Online",
-      "category": "security",
-      "topic": "interception",
-      "countries": [
-        "Saudi",
-        "Yemen"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "repeated-publication",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "en"
-      ],
-      "publisher_count": 1,
-      "report_count": 2,
-      "first_published": "2026-10-20T11:45:31Z",
-      "last_published": "2026-10-20T15:30:40Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "e79d8359ca33001605427e37",
-          "title": "Saudi Arabia Announces Interception of Missile , Drone Over Riyadh - Yemen Online",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4tbVB5a0NOVXNSZkRyeVR5QUI1S1FzZWNTd2VOT0VDZ2tRbWVQdFRobUNSNE1xSWxSczN4SDFSd3J2TWxEVFlyQkNnbkNfdzE2MHc?oc=5",
-          "source": "Yemen Online",
-          "publisher_key": "yemen online",
-          "provider": "Google News · missiles/drones",
-          "published_at": "2026-10-20T15:30:40Z",
-          "date_quality": "publisher-time",
-          "first_seen_at": "2026-10-20T16:50:50.754226Z",
-          "collected_at": null,
-          "language": "en",
-          "country": ""
-        },
-        {
-          "id": "7b57f0f3bb01b6556e9c194a",
-          "title": "Saudi Arabia announces interception of Houthi missile targeting Riyadh - Yemen Online",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBfTGlPMVh5NFVHZm84cmpJY29XY2FOREZhdnl0UjIxRGYydHh0RVZHM0FYNXZlc0tHWjg2bnA1Nmw0MHh2d2hHRmNHWU1fMjEtVHc?oc=5",
-          "source": "Yemen Online",
-          "publisher_key": "yemen online",
-          "provider": "Google News · missiles/drones",
-          "published_at": "2026-10-20T11:45:31Z",
-          "date_quality": "publisher-time",
-          "first_seen_at": "2026-10-20T12:09:18.843663Z",
-          "collected_at": null,
-          "language": "en",
-          "country": ""
-        }
-      ],
-      "coverage_stage": "recent-coverage",
-      "coverage_first_published_at": "2026-10-20T11:45:31Z",
-      "coverage_last_published_at": "2026-10-20T15:30:40Z",
-      "current_reporting": false,
-      "recent_publisher_count": 0,
-      "recent_article_count": 0,
-      "incident_status": "unknown",
-      "event_occurrence_verified": false,
-      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "ea3c008c3136060bef0a",
-      "revision": 4,
-      "updated_at": "2026-10-20T17:30:53.488659Z"
     },
     {
       "id": "GF-E96B752204F855",
@@ -4925,6 +4925,62 @@
       "digest": "284b23d201b4a3a9b41f",
       "revision": 9,
       "updated_at": "2026-10-20T17:31:43.513353Z"
+    },
+    {
+      "id": "GF-A8743376792FFD",
+      "title": "تحركات بريطانية لحماية الأجواء السعودية عقب اعتراض صاروخ باليستي فوق الرياض - جريدة القدس",
+      "category": "security",
+      "topic": "interception",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T11:58:15Z",
+      "last_published": "2026-10-20T11:58:15Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "274464dc9dc5cd94e59e4c2e",
+          "title": "تحركات بريطانية لحماية الأجواء السعودية عقب اعتراض صاروخ باليستي فوق الرياض - جريدة القدس",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNS1VjM0xZRXJNUWlCLVBBNklzRERGVktfY1FKNE01RDdkeXpCaGg2eHpmVWRhTlp6R3Z1TDVuclNGTXIzYllIU19OTXE3NjAwUEJsU2V2Zlh4eTUydGd5TDN6eDhNendWSC1ESU5KRlRHLVZQUTE3QkxUSHVNSUNMNXVidTdMcHg3amxrNjEzTQ?oc=5",
+          "source": "جريدة القدس",
+          "publisher_key": "جريدة القدس",
+          "provider": "عربي · قطر",
+          "published_at": "2026-10-20T11:58:15Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T18:04:16.445766Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Saudi"
+        }
+      ],
+      "coverage_stage": "recent-coverage",
+      "coverage_first_published_at": "2026-10-20T11:58:15Z",
+      "coverage_last_published_at": "2026-10-20T11:58:15Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "78e4a203e8f64f08489c",
+      "revision": 1,
+      "updated_at": "2026-10-20T18:04:32.891197Z"
     },
     {
       "id": "GF-17BA5AD9FF48AF",
@@ -13349,63 +13405,6 @@
       "digest": "a409a1fdcae59ea9424a",
       "revision": 3,
       "updated_at": "2026-10-20T16:52:31.264495Z"
-    },
-    {
-      "id": "GF-EB4ADBA3FF937F",
-      "title": "البحرين تعلن اعتراض هجمات إيرانية جديدة.. والكويت تتصدى لصاروخين باليستيين وسط تصعيد أميركي-إيراني - الساحل الغربي",
-      "category": "security",
-      "topic": "interception",
-      "countries": [
-        "Bahrain",
-        "Iran"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "ar"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-19T21:58:54Z",
-      "last_published": "2026-10-19T21:58:54Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "c1138a2262b02b848c7569fe",
-          "title": "البحرين تعلن اعتراض هجمات إيرانية جديدة.. والكويت تتصدى لصاروخين باليستيين وسط تصعيد أميركي-إيراني - الساحل الغربي",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1hcEthLUFQRmFqekJvQkpzMDZNR3Q2MkJKdVVTbkVxRHZiVEdraW5Hb01TMWpDUm5wNDNFdFhqR0JxNlgzNEZ1eGMwc0dXeFE?oc=5",
-          "source": "الساحل الغربي",
-          "publisher_key": "الساحل الغربي",
-          "provider": "عربي · الإمارات والبحرين",
-          "published_at": "2026-10-19T21:58:54Z",
-          "date_quality": "publisher-time",
-          "first_seen_at": "2026-10-20T12:03:42.847208Z",
-          "collected_at": null,
-          "language": "ar",
-          "country": ""
-        }
-      ],
-      "coverage_stage": "recent-coverage",
-      "coverage_first_published_at": "2026-10-19T21:58:54Z",
-      "coverage_last_published_at": "2026-10-19T21:58:54Z",
-      "current_reporting": false,
-      "recent_publisher_count": 0,
-      "recent_article_count": 0,
-      "incident_status": "unknown",
-      "event_occurrence_verified": false,
-      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "eea39b3c23b0b4b36fc1",
-      "revision": 17,
-      "updated_at": "2026-10-20T17:41:43.214985Z"
     },
     {
       "id": "GF-A5770A06CD6844",
@@ -67152,6 +67151,63 @@
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
+      "id": "GF-EB4ADBA3FF937F",
+      "title": "البحرين تعلن اعتراض هجمات إيرانية جديدة.. والكويت تتصدى لصاروخين باليستيين وسط تصعيد أميركي-إيراني - الساحل الغربي",
+      "category": "security",
+      "topic": "interception",
+      "countries": [
+        "Bahrain",
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-13T19:23:44Z",
+      "last_published": "2026-10-13T19:23:44Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "c1138a2262b02b848c7569fe",
+          "title": "البحرين تعلن اعتراض هجمات إيرانية جديدة.. والكويت تتصدى لصاروخين باليستيين وسط تصعيد أميركي-إيراني - الساحل الغربي",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1hcEthLUFQRmFqekJvQkpzMDZNR3Q2MkJKdVVTbkVxRHZiVEdraW5Hb01TMWpDUm5wNDNFdFhqR0JxNlgzNEZ1eGMwc0dXeFE?oc=5",
+          "source": "الساحل الغربي",
+          "publisher_key": "الساحل الغربي",
+          "provider": "عربي · الإمارات والبحرين",
+          "published_at": "2026-10-13T19:23:44Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T12:03:42.847208Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-13T19:23:44Z",
+      "coverage_last_published_at": "2026-10-13T19:23:44Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "207b3fccb9b952e69c64",
+      "revision": 18,
+      "updated_at": "2026-10-20T18:04:32.891197Z"
+    },
+    {
       "id": "GF-535D35AC374D48",
       "title": "Iran’s IRGC Navy threatens to sink US warships approaching Strait of Hormuz - Middle East Monitor",
       "category": "security",
@@ -72590,9 +72646,9 @@
       "sources": 206
     },
     "Saudi": {
-      "events": 497,
-      "reports": 529,
-      "security_coverage": 388,
+      "events": 498,
+      "reports": 530,
+      "security_coverage": 389,
       "transport_coverage": 96,
       "sources": 257
     },
@@ -72662,100 +72718,36 @@
     "2026-10-09": 1,
     "2026-10-10": 1,
     "2026-10-12": 7,
-    "2026-10-13": 113,
+    "2026-10-13": 114,
     "2026-10-14": 140,
     "2026-10-15": 134,
     "2026-10-16": 129,
     "2026-10-17": 183,
     "2026-10-18": 144,
-    "2026-10-19": 196,
-    "2026-10-20": 223
+    "2026-10-19": 195,
+    "2026-10-20": 224
   },
   "revisions": [
     {
-      "id": "GF-624751CB46169D",
+      "id": "GF-A96A7AA5E0B448",
       "revision": 3,
-      "at": "2026-10-20T17:57:11.803316Z",
+      "at": "2026-10-20T18:04:32.891197Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-CC472C4A6EF0E2",
+      "id": "GF-E43AAFA87B59D6",
       "revision": 3,
-      "at": "2026-10-20T17:57:11.803316Z",
+      "at": "2026-10-20T18:04:32.891197Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-82298FF9D72C29",
-      "revision": 3,
-      "at": "2026-10-20T17:57:11.803316Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-BA2E107C7EB811",
-      "revision": 3,
-      "at": "2026-10-20T17:57:11.803316Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-8E416E4A3CAFF2",
-      "revision": 2,
-      "at": "2026-10-20T17:57:11.803316Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-1485B5A12EC679",
-      "revision": 2,
-      "at": "2026-10-20T17:57:11.803316Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-2E5705D5DCEC34",
-      "revision": 4,
-      "at": "2026-10-20T17:57:11.803316Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 3,
-      "new_source_count": 3
-    },
-    {
-      "id": "GF-4FBA1BDBA2302C",
-      "revision": 6,
-      "at": "2026-10-20T17:57:11.803316Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-F99E79086CCD1D",
-      "revision": 10,
-      "at": "2026-10-20T17:57:11.803316Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-16094BD5B10138",
-      "revision": 6,
-      "at": "2026-10-20T17:57:11.803316Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-BA36A8F51A7E9E",
-      "revision": 3,
-      "at": "2026-10-20T17:57:11.803316Z",
+      "id": "GF-EB4ADBA3FF937F",
+      "revision": 18,
+      "at": "2026-10-20T18:04:32.891197Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1

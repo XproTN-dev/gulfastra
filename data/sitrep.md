@@ -1,9 +1,9 @@
 # Gulfastra | Open-source situation report
 Window: last 24 hours (publication-based)
-Coverage groups: 264 | linked headlines: 285
+Coverage groups: 263 | linked headlines: 284
 IMPORTANT: Unverified published reporting; not confirmed attacks or official safety advice.
 
-## Security (193 coverage groups)
+## Security (192 coverage groups)
 - 2 Men Rearrested in UK on Suspicion of Assisting Iran Over Suspected Plot at a US-Run Air Base - Military.com (1 headlines; single-source)
   - Military.com: https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUUp0MVJFbTFVYUgySHgtUEJQNjQwZGh3RjBadjZDQkFXeXl0RXEzd0dXT0h4LUJHbk5WbVVrTGtiUXZuUk1Od0dva3REMjR4NDFRaExYU2JybXcxbVlVakoyMHVpZURtNlJyX1pla0tubmFXRHVxb1RURXNiNXBVSENrTFpqa2R1ejFaZHQ3eUd4Y1BWT2pValU2VTJHQ1Q5MWNEdE9mTG5lY3NJMmFjU2JBa2NMTTZCcUNJ?oc=5
 - الحرس الثوري الإيراني: انفجار ناقلة نفط بعد اصطدامها بلغم بحري - المصري اليوم (1 headlines; single-source)
@@ -22,6 +22,9 @@ IMPORTANT: Unverified published reporting; not confirmed attacks or official saf
   - Al-Monitor: https://news.google.com/rss/articles/CBMiyAFBVV95cUxOOFR0c1ZHSTlNMzNYb1FTX051MUM0WmtXdE14NElrMzkyeFI0Q0JkR3dBVm56c2F4UXpxYnJ1UFVFcFlabHZrYWFpYnBwNTdsNkpOWmhQM1NVUGVXVk9sUHlTWXctak1DSHFpUEhJT3NtX0J2ZVVFc1NZVkRRQ2p3VmE0ZjdIYU9nbEN5NS1XUTlaeWFZVjJ1RWpUNGN3WmhDZXRPdnVfTkliSS1FUFk5SlltOWVfbnNqMWtZVWVYaE1PNVlDN1Z4bw?oc=5
 - "سنتكوم": مضيق هرمز مفتوح بالكامل وهجمات إيران على السفن "بدافع اليأس" - Iran International (1 headlines; single-source)
   - Iran International: https://news.google.com/rss/articles/CBMiUkFVX3lxTE9MZ0lyT1RUT1RXaS0tbS1VWHZhczN4YU52eUFwYUZmdDB3YTBRWGdzOWVQRjVmMGRaV3JNdWZEbFYzR0pxR3hpLUN2WjFMb1lYMlE?oc=5
+- Saudi Arabia announces interception of Houthi missile targeting Riyadh - Yemen Online (2 headlines; repeated-publication)
+  - Yemen Online: https://news.google.com/rss/articles/CBMiUkFVX3lxTFBfTGlPMVh5NFVHZm84cmpJY29XY2FOREZhdnl0UjIxRGYydHh0RVZHM0FYNXZlc0tHWjg2bnA1Nmw0MHh2d2hHRmNHWU1fMjEtVHc?oc=5
+  - Yemen Online: https://news.google.com/rss/articles/CBMiUkFVX3lxTE4tbVB5a0NOVXNSZkRyeVR5QUI1S1FzZWNTd2VOT0VDZ2tRbWVQdFRobUNSNE1xSWxSczN4SDFSd3J2TWxEVFlyQkNnbkNfdzE2MHc?oc=5
 - Iran Strikes More Ship Engine Rooms in Ramp-Up of Hormuz Attacks - gCaptain (1 headlines; single-source)
   - gCaptain: https://news.google.com/rss/articles/CBMijwFBVV95cUxORTBJQWVBLVk0YkdmVDBwTVVfXzItb19DSGZ5TVdaeWRFckZpRUhDUG5oRWdDRXBLZm8wX0w0WDN6Q0hsYzhvMEdfdldiaWxmbWJ4ZkduYk1fVXdJSnUtejdWOGFJWS1oM2VwZUVMSWZpejduRVFkTlozOXM0eE53dTZwcXFHaWVUejZIek42TQ?oc=5
 - Air India, IndiGo & Akasa Air Suspend Saudi Arabia Flights Amid Middle East Conflict, Check Routes & Dates - Free Press Journal (1 headlines; single-source)
@@ -30,8 +33,6 @@ IMPORTANT: Unverified published reporting; not confirmed attacks or official saf
   - المصري اليوم: https://news.google.com/rss/articles/CBMiX0FVX3lxTFBaQ3I5YlNxVXNZZWFndVRrQ3c3NE04VWRydHF0ZDE4VExqbVlRdnJfeUpzcDhTYjRaaEJWbHlGY2VaTUVCMFZtX2kzR1F5cXBld1ZXTlZMZHNBcy00R25n?oc=5
 - A trader just placed a $13K bet on US-Iran ceasefire continuing through October 31 - Quiver Quantitative (1 headlines; single-source)
   - Quiver Quantitative: https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZUcxUVM5VDd5RVZqOFpUMGEzcGctY0xkMXF3aXNUSFhDLWpfcUg5WG03UVZlZDFsZnhJZ05vbmJUUlA1REwyVmlzLXpydkFvVzZrcDFweEdWTzRHQmtfS0lzcnNuU2w5Mnh3QjZoVmRJU2hzdzBtVjdCMkxHSnlGcVBEXy05Z3Y0TkxXejFaMUdXMjJ6T0ROMDdNb3NKNEhaYU5MWHVxaWxmUGZXVmZRYUZLR3o5b1VT?oc=5
-- UK expands military support for Saudi Arabia against Houthis with ‘defensive’ air patrols - Oskaloosa Herald (1 headlines; single-source)
-  - Oskaloosa Herald: https://news.google.com/rss/articles/CBMijwJBVV95cUxOZVEyMzgtQ04zNXhTRzh6MUFjajBwNnc0clF4ZDB2UW5oeTcxVU96c2NQY3VhUFp3UGtsM2tKbzc5SERmeVhtbGVBLUpGWHNYZjVYQlFwaXRGUllPbDgxUnRCVnlkZnRIY0gweU5nM0x2RDNlMWNIbFFKT3hDT2h3TGlpS19vM3pxaWZpNWg4YTlXMXUtR0J6a0tRTHdDSGotbzBwSi1MZHV2ZTNaZ2dUUFA3Q0tfYngwUEF5TkJUZmJjeHZxeEpwRDRFSzM2NmJBZlcxakpzTUVWWFpJOHltRW5DTXhGUmo1emUwTzFDbUpUR3E5RnRNeldQQmpFSVFlOE0tZ25PUExxaFAzR0tJ?oc=5
 
 ## Transport (45 coverage groups)
 - إيران: إصابة ناقلتي نفط أثناء عبورهما مسارا غير مصرح به في مضيق هرمز - Masrawy (1 headlines; single-source)
