@@ -24,7 +24,7 @@ root.addEventListener("click",e=>{let b=e.target.closest("[data-layer]");if(!b)r
 function initMap(){
  if(typeof maplibregl==="undefined"){$("mapLoad").textContent="Map library unavailable. Reports remain accessible below.";return}
  try{
-  s.map=new maplibregl.Map({container:"map",style:"https://tiles.openfreemap.org/styles/dark",center:[49.4,26.7],zoom:4.6,minZoom:3,maxZoom:13,renderWorldCopies:false,attributionControl:true});
+  s.map=new maplibregl.Map({container:"map",style:"https://tiles.openfreemap.org/styles/fiord",center:[49.4,26.7],zoom:4.6,minZoom:3,maxZoom:13,renderWorldCopies:false,attributionControl:true});
   s.map.addControl(new maplibregl.NavigationControl({showCompass:false}),"bottom-right");
   s.map.on("load",()=>{s.mapReady=true;$("mapLoad").classList.add("off");plot()});
   let fallback=false;
@@ -88,7 +88,7 @@ categoryControls();countryOptions();$("country").onchange=e=>{s.chosenCountry=e.
 $("search").oninput=e=>{s.search=e.target.value.toLowerCase().trim();render()};
 $("windows").addEventListener("click",e=>{let b=e.target.closest("[data-hours]");if(!b)return;s.hours=+b.dataset.hours;$("windows").querySelectorAll("button").forEach(x=>x.classList.toggle("active",x===b));render()});
 $("feedTabs").addEventListener("click",e=>{let b=e.target.closest("[data-mode]");if(!b)return;s.mode=b.dataset.mode;$("feedTabs").querySelectorAll("button").forEach(x=>x.classList.toggle("active",x===b));updateFeed()});
-$("mapRecenter").onclick=centerMap;$("mapStyle").onclick=()=>{if(!s.map)return;s.bright=!s.bright;s.mapReady=false;$("mapLoad").classList.remove("off");s.map.setStyle("https://tiles.openfreemap.org/styles/"+(s.bright?"liberty":"dark"));s.map.once("style.load",()=>{s.mapReady=true;$("mapLoad").classList.add("off");plot()});$("mapStyle").textContent=s.bright?"◈ DARK MAP":"◈ MAP STYLE"};
+$("mapRecenter").onclick=centerMap;$("mapStyle").onclick=()=>{if(!s.map)return;s.bright=!s.bright;s.mapReady=false;$("mapLoad").classList.remove("off");s.map.setStyle("https://tiles.openfreemap.org/styles/"+(s.bright?"liberty":"fiord"));s.map.once("style.load",()=>{s.mapReady=true;$("mapLoad").classList.add("off");plot()});$("mapStyle").textContent=s.bright?"◈ FIORD MAP":"◈ LIGHT MAP"};
 $("sync").onclick=()=>{load();notify("Checking published data…")};$("refreshFromPanel").onclick=load;$("showAll").onclick=()=>{s.chosenCountry="";$("country").value="";s.search="";$("search").value="";s.hours=0;$("windows").querySelectorAll("button").forEach(b=>b.classList.toggle("active",b.dataset.hours==="0"));s.mode="all";$("feedTabs").querySelectorAll("button").forEach(b=>b.classList.toggle("active",b.dataset.mode==="all"));render();notify("All archived reports shown")};
 $("alertToggle").onclick=showAlerts;$("openHelp").onclick=showHelp;$("drawerClose").onclick=closeDrawer;$("closeLayers").onclick=()=>toggleFilters(false);$("backdrop").onclick=()=>{closeDrawer();toggleFilters(false)};
 document.querySelectorAll("[data-mobile]").forEach(b=>b.onclick=()=>{document.querySelectorAll("[data-mobile]").forEach(x=>x.classList.toggle("active",x===b));let to=b.dataset.mobile;if(to==="filters")toggleFilters(true);if(to==="reports")$("feedpanel").scrollIntoView({behavior:"smooth"});if(to==="map")$("mapColumn").scrollIntoView({behavior:"smooth"});if(to==="alerts")showAlerts()});
