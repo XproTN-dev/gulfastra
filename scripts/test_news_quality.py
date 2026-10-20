@@ -40,8 +40,13 @@ a=example("A",source="Outlet A")
 b=example("B",source="Outlet B")
 c=example("C",source="Outlet C")
 old_claim=example("LEGACY",quality="legacy-unverified")
-single,_=build([a],[cluster("GF-1",["A"])],now=now)
+single,single_state=build([a],[cluster("GF-1",["A"])],now=now)
 assert single["critical_count"]==0 and single["alerts"][0]["level"]=="review"
+upgraded,_=build([a,b],[cluster("GF-1",["A","B"])],single_state,now)
+assert upgraded["new_alert_ids"]==["GF-1"],"Escalation from review must notify"
+from fusion import publisher
+assert publisher({"source":"France 24 · Middle East"})==publisher({"source":"France 24 · الشرق الأوسط"})
+assert publisher({"source":"Al Jazeera RSS"})==publisher({"source":"الجزيرة نت · RSS عربي"})
 initial,state=build([a,b],[cluster("GF-1",["A","B"])],now=now)
 assert initial["critical_count"]==1
 assert initial["new_alert_ids"]==[],"Initial historical backfill must not notify"
