@@ -30,6 +30,22 @@ with sync_playwright() as pw:
         assert page.locator(".topbar").is_visible()
         assert page.locator(".map-wrap").is_visible()
         assert page.locator("#metricReports").inner_text()!="—","Data metrics not populated"
+        assert page.locator("#freshnessBar").is_visible(),"Collection freshness must be visible"
+        assert "COLLECTED" in page.locator("#freshnessBar").inner_text()
+        assert "LATEST ARTICLE" in page.locator("#freshnessBar").inner_text()
+        assert "NOT REAL-TIME" in page.locator("#freshnessBar").inner_text()
+        # A manifest-only refresh must not re-create the intel DOM or reset scroll.
+        steady=page.evaluate("""async()=>{
+          const stream=document.querySelector('#stream');
+          stream.scrollTop=100;
+          const first=stream.firstElementChild;
+          const top=stream.scrollTop;
+          await window.GXApp.refresh();
+          return {same:first===stream.firstElementChild,before:top,after:stream.scrollTop};
+        }""")
+        assert steady["same"] and abs(steady["before"]-steady["after"])<=1, (
+            "Unchanged periodic data must not redraw or scroll the stream",steady)
+
         assert page.locator("#stream .intel-card").count()>0 or "No matching" in page.locator("#stream").inner_text()
         assert page.locator("#timelineBars button").count()==48,"Real-data publication timeline missing"
         assert page.evaluate('!document.querySelector(\'link[href*="v9.css"]\')'),"Old CSS should not be loaded"
@@ -74,5 +90,46 @@ with sync_playwright() as pw:
         page.screenshot(path=str(OUT/f"v11-{name}-interactions.png"),full_page=True)
         assert not errors,f"{name} JS errors: {errors}"
         page.close()
+    # Separate viewport regression: drawer should occupy the WORKAREA, not
+    # include the top bar offset a second time (former mobile clipping bug).
+    for width,height in [(360,740),(390,844),(430,932),(768,1024)]:
+        page=browser.new_page(viewport={"width":width,"height":height},
+            is_mobile=width<=430,has_touch=width<=430)
+        errors=[]
+        page.on("pageerror",lambda err:errors.append(str(err)))
+        page.goto(BASE,wait_until="domcontentloaded",timeout=60000)
+        page.wait_for_function("Boolean(window.GXApp?.getState().loaded)",timeout=60000)
+        page.locator('[data-mobile="layers"]').click() if width<=430 else page.locator("#collapseLayers").click()
+        if width<=430:
+            page.wait_for_timeout(300)
+            geometry=page.evaluate("""()=>{
+              const area=document.querySelector('.workarea').getBoundingClientRect();
+              const drawer=document.querySelector('.layers-rail').getBoundingClientRect();
+              return {areaTop:area.top,areaBottom:area.bottom,
+                drawerTop:drawer.top,drawerBottom:drawer.bottom,
+                drawerHeight:drawer.height,width:innerWidth,htmlWidth:document.documentElement.scrollWidth};
+            }""")
+            assert abs(geometry["areaTop"]-geometry["drawerTop"])<=2,(
+              "Mobile drawer starts outside the workarea",geometry)
+            assert geometry["drawerBottom"]<=geometry["areaBottom"]+2,(
+              "Mobile drawer extends below workarea",geometry)
+            assert geometry["htmlWidth"]<=geometry["width"]+2,(
+              "Mobile layout causes horizontal page overflow",geometry)
+            page.locator('.layers-rail').evaluate("el=>el.scrollTop=el.scrollHeight")
+            assert page.locator("#manageWatch").is_visible()
+            page.locator('[data-mobile="intel"]').click()
+            page.wait_for_timeout(300)
+            intel=page.evaluate("""()=>{
+              const r=document.querySelector('.intel-rail').getBoundingClientRect();
+              return {left:r.left,right:r.right,width:innerWidth}
+            }""")
+            assert intel["left"]>=-2 and intel["right"]<=intel["width"]+2,(
+              "Intel panel is offscreen",intel)
+            page.locator('[data-mobile="map"]').click()
+            page.wait_for_timeout(300)
+            assert page.evaluate("!document.body.classList.contains('mobile-intel')")
+        assert not errors,(width,height,errors)
+        page.screenshot(path=str(OUT/f"v11-viewport-{width}.png"),full_page=True)
+        page.close()
     browser.close()
-print("GULFASTRA X browser quality gate: desktop/mobile, data, map layout, tabs, search, theme, timeline and errors PASS")
+print("GULFASTRA X browser quality gate: desktop/mobile, freshness, no-redraw, 360-768px drawers, map, timeline and errors PASS")
