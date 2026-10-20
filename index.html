@@ -1,9 +1,65 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#070c15"><title>GULFASTRA — Regional Intelligence Center</title><link rel="preconnect" href="https://unpkg.com"><link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"><link rel="stylesheet" href="assets/style.css"></head><body>
-<div class="app"><header class="topbar"><div class="brand"><span class="brandlogo">◉</span><div><strong>GULF<span>ASTRA</span></strong><small>REGIONAL INTELLIGENCE NETWORK <i> / </i> MENA ATLAS</small></div></div><nav><button class="nav selected" data-tab="overview">◈ &nbsp; Operations</button><button class="nav" data-tab="reports">▤ &nbsp; Intelligence feed</button><button class="nav" data-tab="sources">◎ &nbsp; Source health</button></nav><div class="headright"><span class="live-indicator"><b></b> PUBLIC OSINT</span><span class="utctime" id="utc">UTC --:--:--</span><button id="refresh" title="Reload published feed">↻</button></div></header>
-<div class="metric-strip"><div class="stat"><span>COLLECTED REPORTS</span><strong id="total">—</strong><small>Published public-source items</small></div><div class="stat"><span>MILITARY / SECURITY REPORTING</span><strong id="security">—</strong><small>Claims, not verified launches</small></div><div class="stat"><span>MARITIME & AIRSPACE</span><strong id="transport">—</strong><small>Disruptions mentioned in reporting</small></div><div class="stat"><span>DATA FRESHNESS</span><strong class="stale" id="freshness">AWAITING DATA</strong><small id="lastRun">No successful update confirmed</small></div><div class="stat last"><span>REGIONAL COVERAGE</span><strong>GCC + IRAN</strong><small>9 core countries + US-related reports</small></div></div>
-<div class="main"><aside class="sidebar left"><div class="section-title">MISSION CONTROL <span>01</span></div><div class="label">AREA OF INTEREST</div><select id="country"><option value="">All Gulf countries</option></select><div class="label spaced">INTELLIGENCE LAYERS</div><div id="layers" class="layers"></div><div class="label spaced">PUBLICATION WINDOW</div><div class="chips" id="windows"><button data-hours="24" class="on">24H</button><button data-hours="72">72H</button><button data-hours="168">7D</button><button data-hours="0">ALL</button></div><div class="label spaced">KEYWORD SEARCH</div><input id="search" placeholder="Search reports, sources..." aria-label="Search reports"><div class="divider"></div><div class="section-title">COLLECTOR STATUS <span>02</span></div><div id="providerStatus" class="provider-status">Loading provider diagnostics…</div><div class="leftfoot">DATA ETHICS <span>●</span><p>Map locations are approximate country reference points, never weapon telemetry. No incident is confirmed by keyword matching alone.</p></div></aside>
-<main class="map-shell"><div class="map-overlay-top"><div class="map-tag"><span class="dot cyan"></span> GULF THEATER <span class="slash">/</span> OPEN-SOURCE MONITOR</div><div class="map-controls"><button id="centerMap">⌖ CENTER</button><button id="toggleLabels">◉ SATELLITE?</button></div></div><div id="map"></div><div class="map-bottom"><div class="legend"><span><i class="red"></i> Security reports</span><span><i class="orange"></i> Maritime / aviation</span><span><i class="blue"></i> Diplomatic / other</span></div><div class="mapnote">COUNTRY-CENTERED INDICATORS • NOT LIVE ATTACK TRACKING</div></div><div class="timeline"><div><span class="eyebrow">PUBLICATION ACTIVITY</span><strong id="timelineTitle">Past 24 hours</strong></div><div id="bars" class="bars"></div><span class="timeline-side" id="timelineCount">0 REPORTS</span></div></main>
-<aside class="sidebar right"><div class="right-head"><div><small>INCOMING REPORTS</small><h2>Intelligence Stream</h2></div><span class="count" id="filteredCount">0</span></div><div class="feed-tabs"><button data-mode="all" class="active">All reports</button><button data-mode="security">Security</button><button data-mode="transport">Disruptions</button></div><div id="feed" class="feed"><div class="empty">Waiting for the published collector dataset.</div></div><div class="feed-footer"><span>PUBLICATION TIME ≠ OBSERVATION TIME</span><span id="feedCount">—</span></div></aside></div>
-<footer><span>◉ GULFASTRA v2.0</span><span>UNCLASSIFIED PUBLIC INFORMATION · ATTRIBUTION REQUIRED · NOT AN EMERGENCY WARNING SYSTEM</span><a href="https://github.com" target="_blank" rel="noreferrer">OPEN SOURCE ↗</a></footer></div>
-<div id="drawer" class="drawer hidden"><button id="drawerClose" aria-label="Close report">✕</button><small id="detailTag">SOURCE REPORT</small><h2 id="detailTitle"></h2><div id="detailBody"></div></div>
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script><script src="assets/app.js" defer></script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#060c15">
+<meta name="description" content="Gulfastra: Gulf public-source intelligence reporting and geographic monitoring dashboard.">
+<title>Gulfastra | Gulf Intelligence Observatory</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<link rel="stylesheet" href="assets/v3.css?v=20261020-3">
+</head>
+<body>
+<div class="shell" id="shell">
+<header class="globalbar">
+ <div class="brandblock"><span class="brand-emblem"><i></i></span><div><span class="brandname">GULF<span>ASTRA</span></span><span class="brandsub">REGIONAL INTELLIGENCE OBSERVATORY</span></div></div>
+ <div class="head-separator"></div><div class="operation-name"><span class="head-dot"></span><span>GULF SITUATION ROOM</span><small>PUBLIC-SOURCE ANALYSIS</small></div>
+ <div class="header-actions"><span class="lastupdated" id="headerUpdated">AWAITING SOURCE STATUS</span><span class="utc-clock" id="utc">--:--:-- UTC</span><button class="headbtn" id="sync" title="Reload data" aria-label="Reload published dataset">↻</button><button class="headbtn" id="openHelp" title="Methodology" aria-label="About this dashboard">ⓘ</button></div>
+</header>
+<section class="commandband" aria-label="Reported intelligence indicators">
+ <div class="command-metric"><span class="metric-icon blue">◉</span><div class="metric-data"><span class="metric-label">REPORTS ARCHIVED</span><div class="metric-line"><strong id="mTotal">—</strong><small>PUBLIC HEADLINES</small></div></div></div>
+ <div class="command-metric"><span class="metric-icon red">⌁</span><div class="metric-data"><span class="metric-label">SECURITY REPORTING</span><div class="metric-line"><strong id="mSecurity">—</strong><small>UNVERIFIED CLAIMS</small></div></div></div>
+ <div class="command-metric"><span class="metric-icon amber">≋</span><div class="metric-data"><span class="metric-label">AIRSPACE & SHIPPING</span><div class="metric-line"><strong id="mTransport">—</strong><small>REPORTED DISRUPTIONS</small></div></div></div>
+ <div class="command-metric"><span class="metric-icon violet">▥</span><div class="metric-data"><span class="metric-label">REGIONAL SOURCES</span><div class="metric-line"><strong id="mOutlets">—</strong><small>NEWS PUBLISHERS</small></div></div></div>
+ <div class="command-metric freshness-metric"><span class="metric-icon cyan">◷</span><div class="metric-data"><span class="metric-label">COLLECTION STATUS</span><div class="metric-line"><strong class="status-copy" id="freshness">CHECKING</strong></div><small id="freshnessSub">Checking published archive</small></div></div>
+</section>
+<div class="workspace">
+<aside class="controlpanel" id="controlpanel">
+ <div class="panel-head"><span class="panel-eyebrow">01 / COMMAND CONTROLS</span><button class="closemobile" id="closeLayers" aria-label="Close filters">✕</button></div>
+ <div class="panel-block"><div class="form-label">AREA OF INTEREST</div><div class="selectwrap"><select id="country"><option value="">All countries</option></select></div></div>
+ <div class="panel-block"><div class="form-label">REPORT CATEGORIES <span id="layerCount">ALL ON</span></div><div class="layer-list" id="layers"></div></div>
+ <div class="panel-block"><div class="form-label">TIME PERIOD</div><div class="chipset" id="windows"><button data-hours="24" class="active">24H</button><button data-hours="72">72H</button><button data-hours="168">7D</button><button data-hours="0">ALL</button></div></div>
+ <div class="panel-block"><div class="form-label">SEARCH INTELLIGENCE</div><div class="searchwrap"><span>⌕</span><input id="search" type="search" placeholder="Keywords, sources, places..." autocomplete="off"></div></div>
+ <div class="panel-block sourcebox" id="sourcebox"><div class="block-title">FEED INTEGRITY <span class="blink"></span></div><div class="provider-list" id="providerStatus">Reading source health…</div><div class="source-time" id="sourceTime">—</div><button class="text-link" id="refreshFromPanel">CHECK LATEST DATA ↗</button></div>
+ <div class="scope-note"><span class="scope-title">◈ METHODOLOGY NOTE</span><p>Markers show the country mentioned in reporting, not exact incident coordinates. Headlines are allegations or accounts until independently verified.</p></div>
+</aside>
+<main class="map-column" id="mapColumn">
+ <div class="map-head"><div class="map-title"><span class="map-label">THEATER OVERVIEW <em>/</em> GULF REGION</span><h1>Regional Situation Map</h1></div><div class="map-menu"><button class="map-tool" id="mapRecenter">◎ FOCUS GULF</button><button class="map-tool" id="mapStyle">◈ MAP STYLE</button></div></div>
+ <div class="map-stage" id="mapStage">
+  <div id="map" role="application" aria-label="Interactive Gulf geographic reporting map"></div>
+  <div class="map-grid" aria-hidden="true"></div>
+  <div class="map-corner top-left"><span class="coordinates-label">REGIONAL OVERVIEW</span><small>COUNTRY-AGGREGATED REPORTING · <span id="mapCount">0</span> MATCHES</small></div>
+  <div class="map-corner top-right"><span class="map-tally">DATA LAYER / <strong id="mapLayerName">ALL</strong></span></div>
+  <div class="map-corner bottom-left"><div class="map-legend"><span><i class="legend-red"></i>SECURITY</span><span><i class="legend-amber"></i>TRANSPORT</span><span><i class="legend-cyan"></i>DIPLOMACY</span></div><small class="map-qualification">COUNTRY REFERENCE MARKERS — NOT WEAPON TRACKING</small></div>
+  <div class="map-load" id="mapLoad"><span class="spinner"></span> INITIALIZING MAP ENGINE...</div>
+ </div>
+ <section class="activity-panel"><div class="activity-top"><div><span class="panel-eyebrow">24-HOUR REPORTING VOLUME</span><strong>Publication Activity</strong></div><span class="activity-meta" id="activityMeta">NO RESULTS YET</span></div><div class="activity-chart" id="bars" aria-label="Hourly published report activity"></div><div class="activity-hours"><span>24H AGO</span><span>12H AGO</span><span>NOW (UTC)</span></div></section>
+ <div class="bottom-map-status"><span>◈ <strong>GULFASTRA</strong> OPEN SOURCE MONITOR</span><span id="mapFooter">Published source data only · not emergency guidance</span></div>
+</main>
+<aside class="feedpanel" id="feedpanel">
+ <div class="feed-head"><div><span class="panel-eyebrow">02 / SIGNAL DESK</span><h2>Intelligence Feed</h2></div><span class="report-count" id="feedCount">—</span></div>
+ <div class="feed-tools"><div class="feed-tabs" id="feedTabs"><button data-mode="all" class="active">ALL</button><button data-mode="security">SECURITY</button><button data-mode="transport">DISRUPTION</button></div><button class="alerts-button" id="alertToggle" title="Open alert center">♧ <span id="alertUnread">0</span></button></div>
+ <div class="feed-meta"><span><i class="live-dot"></i> PUBLICATION STREAM</span><span id="feedUpdated">WAITING FOR DATA</span></div>
+ <div id="feed" class="feed-list" aria-live="polite"><div class="empty"><div class="empty-symbol">⌁</div><strong>Loading public intelligence feed</strong><p>Checking the latest collected articles and sources.</p></div></div>
+ <div class="feed-bottom"><span id="feedSummary">REPORTS ARE NOT VERIFIED INCIDENTS</span><button id="showAll" class="text-link">VIEW ALL →</button></div>
+</aside>
+</div>
+<nav class="mobile-nav" aria-label="Mobile navigation"><button class="active" data-mobile="map">◎<span>MAP</span></button><button data-mobile="reports">▤<span>REPORTS</span></button><button data-mobile="filters">☷<span>FILTERS</span></button><button data-mobile="alerts">♧<span>ALERTS</span></button></nav>
+<div class="modal-backdrop" id="backdrop" hidden></div>
+<section class="drawer" id="drawer" aria-hidden="true"><div class="drawer-top"><span class="panel-eyebrow" id="drawerTag">SOURCE DETAIL</span><button id="drawerClose" aria-label="Close detail">✕</button></div><div id="drawerContent"></div></section>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="assets/v3.js?v=20261020-3" defer></script>
+</body></html>
