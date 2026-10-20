@@ -96,3 +96,11 @@ body[data-theme="sand"]{--bg:#12110f;--panel:#1e1a17;--panel2:#28221d;--raised:#
  .app.mobile-layers .layers-rail{transform:translateX(0)}
 }
 @media(max-width:650px){.tablet-layers-toggle{display:none}}
+
+/* Phone screens: switch sections immediately; transforming 100vw drawers
+   under WebGL load caused partial offscreen panels and missed touch targets. */
+@media(max-width:650px){
+ .intel-rail,.layers-rail{transition:none!important}
+ .intel-rail{width:100%;max-width:100%;left:0;right:0}
+ .mobile-nav button{transition:none!important}
+}
