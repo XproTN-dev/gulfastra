@@ -48,7 +48,7 @@ jobs:
           ready=0
           for attempt in $(seq 1 15); do
             echo "Deployment HTTP check attempt $attempt"
-            if curl --fail --silent --show-error --location --max-time 12 "$base/command/" | grep -q "GULFASTRA X"; then
+            if curl --fail --silent --show-error --location --max-time 12 --output /tmp/gulfastra-command.html "$base/command/" && grep -q "GULFASTRA X" /tmp/gulfastra-command.html; then
               ready=1
               break
             fi
@@ -58,7 +58,9 @@ jobs:
             echo "::error::Deployed command route is missing or not serving the v11 application."
             exit 1
           fi
-          curl --fail --silent --show-error --location --max-time 15 "$base/legacy-v9.html" | grep -q 'assets/v9.css'
-          curl --fail --silent --show-error --location --max-time 15 "$base/assets/command11.js" | grep -q 'GXApp'
+          curl --fail --silent --show-error --location --max-time 15 --output /tmp/gulfastra-legacy.html "$base/legacy-v9.html"
+          grep -q 'assets/v9.css' /tmp/gulfastra-legacy.html
+          curl --fail --silent --show-error --location --max-time 15 --output /tmp/gulfastra-v11.js "$base/assets/command11.js"
+          grep -q 'GXApp' /tmp/gulfastra-v11.js
           echo "Live GitHub Pages v11 route, JS and v9 rollback verified"
 
