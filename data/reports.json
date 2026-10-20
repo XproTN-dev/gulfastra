@@ -1,7 +1,7 @@
 {
   "version": 6,
-  "last_run": "2026-10-20T19:04:01.437847Z",
-  "last_successful_run": "2026-10-20T19:04:01.437847Z",
+  "last_run": "2026-10-20T19:04:37.397044Z",
+  "last_successful_run": "2026-10-20T19:04:37.397044Z",
   "successful_sources": 29,
   "reports": [
     {
@@ -3630,29 +3630,6 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
-      "id": "375548727e896d3ca154a92e",
-      "title": "FBI warns Iran aspired to attack California with drones in retaliation for war: Alert - ABC News - Breaking News, Latest News and Videos",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQ2hlRlY5RFh4YWgtOFBHaFNnc1dKRXh6Q243VXU0bUFUWk5TeThyVFM2Yk1jWUpnYWRUQkV6eGhZM3YzNzBzY296NXNwRlRXbWl1eFFVb0dvckZ4aUhsVHctOERRMkJJRTNZbVo1ZjVqejViYWxuaDRIY2Q0STZ2al9EVHlXVlgtbE9lSVhQbjZCSzZwTmtpM01uUWdxS2tPLWRj0gGoAUFVX3lxTE1wUUM0QkFNelExVzUzcVBxdnM2c1l4bklTdndFT3pzcEZVQXZkOVA0VHFRYXREZjAtcVhXcktBVi12VEZ6dVFRcEpVSEJZb0thLUs3NGY1d2pBV3BJOXdBS2NkWnJ1T0RrTWpzNm8yS2R5Q3ZnaDYyYmRMejdKYm5kd2RNZmhZOE9BdHRrU1NfdmlicXJUR3hZMDVTQldmN3lCWUFFYWIxdw?oc=5",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "published_at": "2026-10-20T10:57:18Z",
-      "country": "Iran",
-      "countries": [
-        "Iran"
-      ],
-      "language": "en",
-      "category": "security",
-      "tag": "SECURITY REPORT",
-      "provider": "Google News · missiles/drones",
-      "first_seen_at": "2026-10-20T13:30:10.274301Z",
-      "date_quality": "publisher-time",
-      "freshness": "recent-reporting",
-      "context": "reporting",
-      "severity": "routine-reporting",
-      "critical_candidate": false,
-      "alert_eligible": false,
-      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
-    },
-    {
       "id": "8cbe0ca54e6298c070cb51e9",
       "title": "UK expands military support for Saudi Arabia against Houthis with ‘defensive’ air patrols - KWKT - FOX 44",
       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNdWhDcnp6YXJQbFpuUndENGlSLUFrNjVXU0VaSEJTRmM4VVBQQzVuUzV2cmF4d0hBSXo5TG1hQ1hFVUY5M3JtcGF4dlNoOVVPZnBBNEdLS3hGR0hDX010MTZvZkFZa3BXdDBYWmQzY1ZURm51R1ltWXBuT0JuQlVqV3lYVEVZbWRqQ240WUxWcjQ0eWdBSDdlQnEwdkc5aDNaYnhDRF9RdkQzM2RweG5OQkpPV2JzOURvX09rTFlJMk5oNWJ0S1dtenI3UHZvOUNURmh4ZUloTE1LTUtvcndmSdIB4AFBVV95cUxNdWhDcnp6YXJQbFpuUndENGlSLUFrNjVXU0VaSEJTRmM4VVBQQzVuUzV2cmF4d0hBSXo5TG1hQ1hFVUY5M3JtcGF4dlNoOVVPZnBBNEdLS3hGR0hDX010MTZvZkFZa3BXdDBYWmQzY1ZURm51R1ltWXBuT0JuQlVqV3lYVEVZbWRqQ240WUxWcjQ0eWdBSDdlQnEwdkc5aDNaYnhDRF9RdkQzM2RweG5OQkpPV2JzOURvX09rTFlJMk5oNWJ0S1dtenI3UHZvOUNURmh4ZUloTE1LTUtvcndmSQ?oc=5",
@@ -6542,6 +6519,30 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "c1138a2262b02b848c7569fe",
+      "title": "البحرين تعلن اعتراض هجمات إيرانية جديدة.. والكويت تتصدى لصاروخين باليستيين وسط تصعيد أميركي-إيراني - الساحل الغربي",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1hcEthLUFQRmFqekJvQkpzMDZNR3Q2MkJKdVVTbkVxRHZiVEdraW5Hb01TMWpDUm5wNDNFdFhqR0JxNlgzNEZ1eGMwc0dXeFE?oc=5",
+      "source": "الساحل الغربي",
+      "published_at": "2026-10-19T21:58:54Z",
+      "country": "",
+      "countries": [
+        "Iran",
+        "Bahrain"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "خبر اعتراض / دفاع جوي",
+      "provider": "عربي · الإمارات والبحرين",
+      "first_seen_at": "2026-10-20T12:03:42.847208Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "elevated-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "9b4f1b7d7398c8971bac8443",
       "title": "Day 226 | At least two killed in attack on Riyadh airport - Roya News",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPXzJJYjVmdENoMDh0WEtyczF2T1BhRVZRLUFXTXFmb0VRWUEyeUxic2F4QXVYRHZxOVpuZHU0U01KeFZ6T0ZRV3ZJUU00czN6cFFKS0hMWFFxWTZxaUlOX2RqNzdsUDIxQV9KU04ydU4waHV1VUx1cHR3TWZsYmZHSTVvT0xIQUVmSERNSW9SazVXem1ZVW1uZQ?oc=5",
@@ -7368,6 +7369,29 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "375548727e896d3ca154a92e",
+      "title": "FBI warns Iran aspired to attack California with drones in retaliation for war: Alert - ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQ2hlRlY5RFh4YWgtOFBHaFNnc1dKRXh6Q243VXU0bUFUWk5TeThyVFM2Yk1jWUpnYWRUQkV6eGhZM3YzNzBzY296NXNwRlRXbWl1eFFVb0dvckZ4aUhsVHctOERRMkJJRTNZbVo1ZjVqejViYWxuaDRIY2Q0STZ2al9EVHlXVlgtbE9lSVhQbjZCSzZwTmtpM01uUWdxS2tPLWRj0gGoAUFVX3lxTE1wUUM0QkFNelExVzUzcVBxdnM2c1l4bklTdndFT3pzcEZVQXZkOVA0VHFRYXREZjAtcVhXcktBVi12VEZ6dVFRcEpVSEJZb0thLUs3NGY1d2pBV3BJOXdBS2NkWnJ1T0RrTWpzNm8yS2R5Q3ZnaDYyYmRMejdKYm5kd2RNZmhZOE9BdHRrU1NfdmlicXJUR3hZMDVTQldmN3lCWUFFYWIxdw?oc=5",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "published_at": "2026-10-19T18:05:37Z",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · missiles/drones",
+      "first_seen_at": "2026-10-20T13:30:10.274301Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "5f356885d746b2a1b4d0a302",
       "title": "اليمن مباشر.. قوات الحكومة تقصف الحوثيين في تعز والتحالف يدمر شحنة أسلحة مهربة",
       "url": "https://www.aljazeera.net/news/liveblog/2026/10/20/%d8%a7%d9%84%d9%8a%d9%85%d9%86-%d9%85%d8%a8%d8%a7%d8%b4%d8%b1-%d8%aa%d8%b5%d8%b9%d9%8a%d8%af-%d8%b9%d9%84%d9%89-%d8%ac%d8%a8%d9%87%d8%a7%d8%aa-%d8%a7%d9%84%d9%8a%d9%85%d9%86-%d9%85%d8%b9?traffic_source=rss",
@@ -7906,7 +7930,7 @@
       "language": "ar",
       "category": "security",
       "tag": "خبر اعتراض / دفاع جوي",
-      "provider": "عربي · الإمارات والبحرين",
+      "provider": "عربي · الكويت والعراق",
       "first_seen_at": "2026-10-20T12:01:49.547007Z",
       "date_quality": "publisher-time",
       "freshness": "older-reporting",
@@ -9824,6 +9848,29 @@
       "provider": "Google News · aviation",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "03a24eac324ae0518a136c46",
+      "title": "Damage in Najran following attack amid tensions with Yemen’s Houthi rebels - AP News",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPRVRaYjBhQUlYODBtd0V2dWFMMnZjSmNMaHZxNUY3eEU0T0JiNDItNU9jZ2NWd09FbjM2QVlqV3k1R3NDVjZzMFV6Sk9Db3JjZnJzQm5TeS02TnNJVkZFWFNiY3dJak4xcnY0Q0dhRU52ZTc0eUhsTWZ0YWFWS1FMQktvLUtHTHFnbTJsSndqMExlWVhUTGNjZEY0dWxNTU5XVC1xOEFEUzlYREtzMWdrWk9zUUV3amNxSldKMW1IUk44bngtdFdjN21WMA?oc=5",
+      "source": "AP News",
+      "published_at": "2026-10-19T09:22:00Z",
+      "country": "Yemen",
+      "countries": [
+        "Yemen"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "AP · indexed Gulf reporting",
+      "first_seen_at": "2026-10-20T19:04:37.397044Z",
+      "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -15189,7 +15236,7 @@
       "language": "en",
       "category": "security",
       "tag": "INTERCEPTION REPORT",
-      "provider": "Google News · security",
+      "provider": "Google News · missiles/drones",
       "first_seen_at": "2026-10-20T12:09:48.504938Z",
       "date_quality": "publisher-time",
       "freshness": "older-reporting",
@@ -30888,30 +30935,6 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
-      "id": "c1138a2262b02b848c7569fe",
-      "title": "البحرين تعلن اعتراض هجمات إيرانية جديدة.. والكويت تتصدى لصاروخين باليستيين وسط تصعيد أميركي-إيراني - الساحل الغربي",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1hcEthLUFQRmFqekJvQkpzMDZNR3Q2MkJKdVVTbkVxRHZiVEdraW5Hb01TMWpDUm5wNDNFdFhqR0JxNlgzNEZ1eGMwc0dXeFE?oc=5",
-      "source": "الساحل الغربي",
-      "published_at": "2026-10-13T19:23:44Z",
-      "country": "",
-      "countries": [
-        "Iran",
-        "Bahrain"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "خبر اعتراض / دفاع جوي",
-      "provider": "عربي · الإمارات والبحرين",
-      "first_seen_at": "2026-10-20T12:03:42.847208Z",
-      "date_quality": "publisher-time",
-      "freshness": "older-reporting",
-      "context": "reporting",
-      "severity": "elevated-reporting",
-      "critical_candidate": false,
-      "alert_eligible": false,
-      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
-    },
-    {
       "id": "491044bcd4c50856eab06b18",
       "title": "Iran’s IRGC Navy threatens to sink US warships approaching Strait of Hormuz - Middle East Monitor",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNDQwR1BhWmxpcjNpX0c5SUQ3c19RX1RWeEZuMWtHUm14Rm5hSjY4dmlQRzZxdG9UX3dpeHFHVjE3WTBuSEw5bnVIQzFLd2xRQ3FqdGNLdVlOWk4wY2ZZX3pXaWgxVktYOUFpd3M3TmYyblFjR2hOZjNmNElfUFdEYWlaX3YyN1RZS3ExUU9rdUtfb2hWLXctV1JlTFk1ckZDX0tMYmx1NXh3Umc3M1ZGZ2NpalVFOWZ1OUHSAb8BQVVfeXFMT28wZ1Z3SXJSVURpWDEwUmRBSFAyQ3g2eDYtZ0VFZlhzVTNNNXZNVkp3TUx1Q3VqZF9MejVQYl9Od2pZUG1YalQyTlFLdnI4eElCbmR4aVRtVjZNSTNkajl1ZU1sYURvOE9wYlh0am96VE9UZjg5all1WGZQTVhNbldLTHQyTDJtX0gtM3htclE2YVFBbHd0TWRuNERnZDlXZzRsZGx0czNwTUkwSFp3ZTh1WTVYNEVWZ3JpUDUyMnM?oc=5",
@@ -33265,7 +33288,7 @@
     "Google News · missiles/drones": {
       "ok": true,
       "items": 100,
-      "relevant": 80
+      "relevant": 79
     },
     "Google News · security": {
       "ok": true,
@@ -33274,8 +33297,8 @@
     },
     "Google News · aviation": {
       "ok": true,
-      "items": 88,
-      "relevant": 82
+      "items": 89,
+      "relevant": 83
     },
     "Google News · shipping": {
       "ok": true,
@@ -33289,8 +33312,8 @@
     },
     "Google News · regional": {
       "ok": true,
-      "items": 55,
-      "relevant": 28
+      "items": 54,
+      "relevant": 29
     },
     "Reuters · indexed Gulf reporting": {
       "ok": true,
@@ -33314,18 +33337,18 @@
     },
     "عربي · إيران والخليج": {
       "ok": true,
-      "items": 53,
-      "relevant": 40
+      "items": 51,
+      "relevant": 39
     },
     "عربي · قطر": {
       "ok": true,
-      "items": 57,
+      "items": 56,
       "relevant": 24
     },
     "عربي · السعودية": {
       "ok": true,
       "items": 100,
-      "relevant": 51
+      "relevant": 52
     },
     "عربي · الإمارات والبحرين": {
       "ok": true,
@@ -33334,8 +33357,8 @@
     },
     "عربي · الكويت والعراق": {
       "ok": true,
-      "items": 24,
-      "relevant": 24
+      "items": 51,
+      "relevant": 48
     },
     "عربي · مضيق هرمز": {
       "ok": true,
@@ -33350,7 +33373,7 @@
     "عربي · العربية": {
       "ok": true,
       "items": 100,
-      "relevant": 36
+      "relevant": 37
     },
     "عربي · الشرق": {
       "ok": true,
@@ -33360,7 +33383,7 @@
     "عربي · وكالات الخليج": {
       "ok": true,
       "items": 100,
-      "relevant": 30
+      "relevant": 31
     },
     "الجزيرة نت · RSS عربي": {
       "ok": true,
@@ -33413,7 +33436,7 @@
     },
     "GDELT · article index": {
       "ok": false,
-      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+      "error": "The read operation timed out"
     }
   },
   "notice": "Public news headlines only, not verified attacks. Approximate country reference markers. Provider errors are reported."

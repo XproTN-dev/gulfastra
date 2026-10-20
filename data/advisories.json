@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "generated_at": "2026-10-20T19:05:06.038530Z",
+  "items": [],
+  "sources": {
+    "GDACS": {
+      "last_attempt_at": "2026-10-20T19:05:06.038530Z",
+      "ok": true,
+      "state": "healthy",
+      "new_records": 0
+    },
+    "ReliefWeb": {
+      "ok": null,
+      "state": "requires-preapproved-appname"
+    },
+    "OpenSky": {
+      "ok": null,
+      "state": "requires-oauth-credentials"
+    }
+  },
+  "aviation_snapshot": null,
+  "notice": "Independent public advisories. GDACS geolocation may describe a region. OpenSky is only a sampled civil-transponder count. No incidents are declared ongoing or independently verified."
+}
