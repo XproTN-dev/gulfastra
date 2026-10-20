@@ -23,7 +23,7 @@ function categoryControls(){let root=$("layers");root.innerHTML=Object.entries(C
 root.addEventListener("click",e=>{let b=e.target.closest("[data-layer]");if(!b)return;let key=b.dataset.layer;if(s.enabled.has(key))s.enabled.delete(key);else s.enabled.add(key);b.classList.toggle("off",!s.enabled.has(key));b.setAttribute("aria-pressed",String(s.enabled.has(key)));b.querySelector("em").textContent=s.enabled.has(key)?"✓":"–";$("layerCount").textContent=s.enabled.size+" OF 4 ON";render()})}
 function initMap(){
  if(typeof maplibregl==="undefined"){$("mapLoad").textContent="Map library unavailable. Reports remain accessible below.";return}
- try{maplibregl.setRTLTextPlugin("https://unpkg.com/@mapbox/mapbox-gl-rtl-text@0.3.0/dist/mapbox-gl-rtl-text.js",true).catch(err=>console.warn("Map RTL text plugin unavailable",err))}catch(err){console.warn("Map RTL setup skipped",err)}
+
  try{
   s.map=new maplibregl.Map({container:"map",style:"https://tiles.openfreemap.org/styles/fiord",center:[49.4,26.7],zoom:4.6,minZoom:3,maxZoom:13,renderWorldCopies:false,attributionControl:true});
   s.map.addControl(new maplibregl.NavigationControl({showCompass:false}),"bottom-right");
