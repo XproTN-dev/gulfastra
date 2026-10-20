@@ -25,7 +25,7 @@ function maritimeRelevant(record){
  const region=/hormuz|الخليج|هرمز|gulf|iran|إيران|ايران|qatar|قطر|bahrain|البحرين|oman|عمان|emirates|الإمارات|saudi|السعودية|red sea|البحر\s*الأحمر|yemen|اليمن|kuwait|الكويت/i;
  return specific.test(t)||(water.test(t)&&region.test(t));
 }
-const state={reports:[],events:[],sources:{},manifest:null,windows:new Map(),sequence:100,newsLimit:28,country:"",currentMode:"map",palette:"phosphor",lastError:null};
+const state={reports:[],events:[],sources:{},manifest:null,windows:new Map(),sequence:100,newsLimit:28,country:"",currentMode:"map",palette:"phosphor",lastError:null,renderSignature:null};
 const names={
  wire:{title:"PUBLIC INTELLIGENCE WIRE",icon:"▤",foot:"ORIGINAL PUBLISHED HEADLINES · UNVERIFIED"},
  verify:{title:"EVIDENCE & VERIFICATION",icon:"◈",foot:"SOURCE CORRELATION IS NOT INCIDENT CONFIRMATION"},
@@ -209,7 +209,13 @@ function ensurePanel(type){
 }
 function togglePanel(type){if(state.windows.has(type))closePanel(type);else ensurePanel(type)}
 function syncPanels(){
- for(const [type,panel] of state.windows){const content=panel.querySelector(".v9-panel-body");if(content)content.innerHTML=panelContent(type)}
+ for(const [type,panel] of state.windows){
+  const content=panel.querySelector(".v9-panel-body");
+  if(!content)continue;
+  const scrollY=content.scrollTop;
+  content.innerHTML=panelContent(type);
+  content.scrollTop=scrollY;
+ }
 }
 function mapMode(mode){
  const map=window.__gulfastraMap;
@@ -244,8 +250,16 @@ async function reload(){
   const [reports,events]=await Promise.allSettled([window.GulfastraData.get("reports.json"),window.GulfastraData.get("events.json")]);
   if(reports.status==="fulfilled"){state.reports=reports.value.reports||[];state.sources=reports.value.providers||{}}
   if(events.status==="fulfilled")state.events=events.value.events||[];
-  state.manifest=window.GulfastraData.info()?.manifest||null;
-  health();ticker();syncPanels();
+  const info=window.GulfastraData.info();
+  state.manifest=info?.manifest||null;
+  const stamp=[info?.dataVersions?.["reports.json"]||"snapshot",info?.dataVersions?.["events.json"]||"snapshot",
+    state.reports.length,state.events.length,
+    state.reports[0]?.published_at||""].join("|");
+  health();
+  if(stamp!==state.renderSignature){
+    state.renderSignature=stamp;
+    ticker();syncPanels();
+  }
  }catch(e){state.lastError=String(e)}
 }
 
