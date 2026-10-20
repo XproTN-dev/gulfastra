@@ -1,3 +1,19 @@
+# GULFASTRA X — Global Intelligence Command Center (v11)
+
+**Main website:** https://xprotn-dev.github.io/gulfastra/ (opens v11)  
+**Direct v11:** https://xprotn-dev.github.io/gulfastra/command/  
+**Preserved v9:** https://xprotn-dev.github.io/gulfastra/legacy-v9.html
+
+GULFASTRA X replaces the old stacked v3–v9 interface with a clean, responsive, evidence-first map and intelligence desk. It includes modular geospatial layers; global/Gulf/maritime/aviation/hazards/analyst workspaces; source-linked evidence dossiers; temporal replay; local watchlists; structured command search; a deterministic SITREP; theme presets; JSON export; collector-health and critical-public-reporting status.
+
+**All geographic and operational claims are source qualified.** Real provider observations are separate from country news mentions and static infrastructure references. Publication activity is not confirmed ongoing incident activity. Unconfigured external streams never display fabricated data.
+
+**[Full deployment, source and integration notes →](docs/COMMAND11.md)** · **[Operational collection runbook →](docs/OPERATIONS.md)**
+
+**QA:** Node offline integrity checks and Playwright browser screenshot tests are installed in `.github/workflows/command11-checks.yml`. The browser test's completion and deployment propagation should be verified separately. GitHub Actions and public feeds are best effort.
+
+---
+
 ## Operations v10.1 — recovered collection, lifecycle tracking and watchdog (20 October 2026)
 
 - **Collector reliability:** 25 public RSS feeds fetched concurrently using six bounded workers and 10-second network timeouts, with source-by-source failure isolation and deterministic parsing. Previously requests were serial with a 24-second timeout each, risking the 12-minute workflow budget.
