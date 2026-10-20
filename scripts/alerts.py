@@ -30,11 +30,12 @@ def build(reports, events, previous=None, now=None):
             continue
         # Candidate event clusters cannot be treated as independently verified.
         # A named-publisher count is only a basic noise-reduction gate.
-        outlets={publisher(r) for r in refs if str(r.get("source") or "").strip()}
         recent=[r for r in refs if when(r.get("published_at"))
                 and now-timedelta(hours=2)<=when(r["published_at"])<=now+timedelta(minutes=10)]
         if not recent:
             continue
+        # Old outlet names must never satisfy the new multi-outlet gate.
+        outlets={publisher(r) for r in recent if str(r.get("source") or "").strip()}
         latest=max(recent,key=lambda r:r.get("published_at",""))
         high=len(outlets)>=2 and len(recent)>=2
         entry={
