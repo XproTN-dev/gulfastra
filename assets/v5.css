@@ -1,0 +1,89 @@
+
+/* Gulfastra FUSION v5 — functional analytical workspace */
+.fusion-ribbon{display:flex;align-items:center;justify-content:space-between;gap:12px;height:51px;flex-shrink:0;background:linear-gradient(100deg,#08283a,#091b29 42%,#0b2030);padding:0 15px;border-bottom:1px solid #30617a;position:relative;z-index:38}
+.fusion-ribbon-label{font:600 11px "IBM Plex Mono",monospace;letter-spacing:1px;white-space:nowrap;color:#dbf2fa}
+.fusion-ribbon-label b{color:#62e7cb}.fusion-ribbon-label small{display:block;color:#6c9bb8;font-size:8px;margin:5px 0 0 19px;letter-spacing:1.1px}
+.fusion-pulse{display:inline-block;background:#2ff1be;width:7px;height:7px;border-radius:50%;box-shadow:0 0 9px #24e7b5;margin-right:7px}
+.fusion-ribbon-actions{display:flex;gap:4px;min-width:0;overflow-x:auto;scrollbar-width:none}
+.fusion-ribbon-actions button{border:1px solid transparent;background:#13304798;font:600 10px "IBM Plex Mono",monospace;letter-spacing:.25px;color:#9dd3e9;padding:10px;border-radius:3px;white-space:nowrap}
+.fusion-ribbon-actions button:hover{border-color:#397c9d;background:#1c4056}
+.fusion-live-status{font:9px "IBM Plex Mono",monospace;letter-spacing:.6px;color:#78dcaf;white-space:nowrap}
+.fusion-live-status.warning{color:#f3c07c}
+.fusion-workbench[hidden]{display:none!important}
+.fusion-workbench{position:fixed;inset:0;background:#060e19;z-index:1500;display:flex;flex-direction:column;color:#e2f2fb}
+.fusion-workbench-header{height:76px;flex-shrink:0;border-bottom:1px solid #30516c;background:linear-gradient(100deg,#0e2c41,#091522 60%);padding:14px 22px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.gf-micro{font:9px "IBM Plex Mono",monospace;letter-spacing:1.15px;color:#80b2cb}
+.fusion-workbench-header h2{font:700 25px "Barlow Condensed",sans-serif;letter-spacing:1px;margin:5px 0 0}
+.gf-toolbar{display:flex;align-items:center;gap:9px}
+.gf-toolbar button,.gf-control{background:#15354b;color:#bfe9f9;border:1px solid #3e6882;padding:10px 12px;border-radius:4px;font:600 10px "IBM Plex Mono",monospace;letter-spacing:.25px;cursor:pointer}
+.gf-toolbar button:hover,.gf-control:hover{background:#1b4b67}
+#gfClose{font-size:19px;line-height:1;padding:8px 12px}
+.fusion-workbench-shell{flex:1;display:flex;min-height:0}
+.fusion-workbench-nav{width:177px;flex-shrink:0;background:#0b1a2a;padding:15px 10px;display:flex;flex-direction:column;gap:6px;border-right:1px solid #294157;overflow-y:auto}
+.fusion-workbench-nav button{border:1px solid transparent;background:transparent;color:#88aabf;border-radius:4px;padding:13px 10px;text-align:left;font:600 11px "IBM Plex Mono",monospace;white-space:nowrap;cursor:pointer}
+.fusion-workbench-nav button span{font-size:17px;display:inline-block;width:26px;color:#78cbe8}
+.fusion-workbench-nav button.active{background:#16394e;color:#d8f2fd;border-color:#2e769b}
+.fusion-workbench-content{flex:1;min-width:0;overflow-y:auto;padding:25px;background:radial-gradient(ellipse 70% 33% at 10% 0%,#14273a,#081421 80%)}
+.fusion-workbench-footer{flex-shrink:0;border-top:1px solid #273e52;background:#08131f;padding:11px 24px;display:flex;justify-content:space-between;gap:10px;font:9px "IBM Plex Mono",monospace;letter-spacing:.4px;color:#6c98b2}
+.gf-section-head{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;margin-bottom:19px}
+.gf-section-head h3{font:600 28px "Barlow Condensed",sans-serif;margin:4px 0 0;letter-spacing:.7px;color:#effaff}
+.gf-section-head p{font-size:12px;line-height:1.6;color:#86a5b9;margin:8px 0 0;max-width:700px}
+.gf-section-actions{display:flex;gap:8px;flex-wrap:wrap}
+.gf-kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:17px 0 24px}
+.gf-kpi{background:linear-gradient(#102b3d,#0c1e2c);border:1px solid #2b4e68;padding:15px;min-width:0;position:relative}
+.gf-kpi:before{content:"";position:absolute;height:2px;width:32px;background:#57bee3;top:0;left:15px}
+.gf-kpi strong{font:600 30px "Barlow Condensed",sans-serif;color:#d9f7ff;display:block;margin:7px 0}
+.gf-kpi small{font-size:10px;color:#83a8bc;line-height:1.5}
+.gf-row{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(250px,.8fr);gap:16px}
+.gf-card{background:#0c2032;border:1px solid #294963;border-radius:4px;padding:18px;margin-bottom:15px}
+.gf-card h4{font:600 15px "IBM Plex Mono",monospace;letter-spacing:.6px;color:#b7e7fc;margin:0 0 13px}
+.gf-card p{color:#a1bed0;line-height:1.7;font-size:12px;margin:7px 0}
+.gf-field{width:100%;min-width:0;padding:12px;border:1px solid #3b617b;border-radius:3px;background:#0a1927;color:#ebf6fc;font:12px "IBM Plex Mono",monospace}
+.gf-select{padding:10px;color:#d4e9f5;background:#14334a;border:1px solid #356582;border-radius:3px}
+.gf-filterbar{display:flex;gap:8px;margin:0 0 17px;align-items:center;flex-wrap:wrap}
+.gf-filterbar .gf-field{max-width:400px;flex:1 1 250px}
+.gf-source-link{color:#74dffc;text-decoration:none;overflow-wrap:anywhere}
+.gf-source-link:hover{text-decoration:underline}
+.gf-event{padding:15px 17px;border:1px solid #2a4b63;background:#0e2335;border-left:3px solid #54c5eb;margin-bottom:9px;cursor:pointer;transition:.15s}
+.gf-event:hover{background:#16344b;border-left-color:#82ecff}
+.gf-event-top{display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.gf-event h4{font-size:14px;line-height:1.5;margin:9px 0;color:#e1f2fb;font-weight:600;unicode-bidi:plaintext}
+.gf-event h4:dir(rtl){text-align:right;font-size:17px;line-height:1.8}
+.gf-event-foot{font:10px "IBM Plex Mono",monospace;color:#8facc2;display:flex;gap:12px;flex-wrap:wrap}
+.gf-pill{font:600 9px "IBM Plex Mono",monospace;letter-spacing:.35px;padding:5px 8px;background:#18374d;border:1px solid #315e7a;color:#8cddfa;display:inline-block}
+.gf-pill.warn{background:#392a27;border-color:#805c40;color:#ffbf81}
+.gf-pill.good{background:#133c35;border-color:#276c58;color:#72e6bc}
+.gf-pill.mute{background:#162736;border-color:#335068;color:#99adc4}
+.gf-sources{display:grid;gap:9px;margin:15px 0}
+.gf-evidence{background:#112e42;border:1px solid #32546b;padding:13px}
+.gf-evidence p{margin:8px 0;unicode-bidi:plaintext}
+.gf-evidence .gf-micro{display:block;margin-bottom:6px}
+.gf-data-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(235px,1fr));gap:10px;margin-top:12px}
+.gf-country{padding:14px;background:#0f2a3c;border:1px solid #30536d;cursor:pointer}
+.gf-country:hover{border-color:#71c7e2}
+.gf-country strong{font:600 19px "Barlow Condensed",sans-serif;letter-spacing:1px;display:block;margin-bottom:8px}
+.gf-country-stats{font:10px "IBM Plex Mono",monospace;color:#8caec2;display:flex;gap:10px;flex-wrap:wrap}
+.gf-mini-bar{height:6px;background:#1b3c55;margin-top:13px;border-radius:6px;overflow:hidden}
+.gf-mini-bar i{height:100%;display:block;background:linear-gradient(90deg,#238cad,#65e4f8);border-radius:6px}
+.gf-console{font:12px "IBM Plex Mono",monospace;background:#060f1b;border:1px solid #2f5068;padding:19px;white-space:pre-wrap;line-height:1.8;color:#b7d9e6;overflow-wrap:anywhere}
+.gf-querybox{display:flex;gap:10px}
+.gf-querybox .gf-field{flex:1}
+.gf-sitrep{font-size:13px;line-height:1.8;max-width:910px}
+.gf-sitrep h3{font:600 22px "Barlow Condensed",sans-serif;border-bottom:1px solid #2c4f64;padding:12px 0}
+.gf-sitrep li{margin-bottom:10px;unicode-bidi:plaintext}
+.gf-sitrep[dir="rtl"]{font-family:Tahoma,Arial,sans-serif;text-align:right}
+.gf-timeline-bars{display:flex;align-items:end;gap:5px;height:180px;padding:10px;border:1px solid #234961;background:linear-gradient(180deg,#14293a,#0b1a29)}
+.gf-timeline-bars button{display:block;flex:1;background:linear-gradient(#56cde9,#236a9a);height:4px;min-width:5px;border:0;border-radius:2px 2px 0 0}
+.gf-timeline-bars button.active{background:#f3c480}
+.gf-signal{display:flex;gap:9px;align-items:center;padding:10px;border-bottom:1px solid #284054;font-size:12px}
+.gf-signal span:first-child{flex:1;unicode-bidi:plaintext}
+.gf-empty{padding:45px 15px;text-align:center;color:#94b7c9;font-size:13px}
+.gf-small{font:10px "IBM Plex Mono",monospace;color:#809fb4}
+.gf-notice{border-left:3px solid #efbc6a;padding:13px 16px;background:#2a2624;margin:12px 0;font-size:11px;line-height:1.7;color:#e5cba6}
+.gf-relationship{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin:8px 0;padding:9px;border-bottom:1px solid #29445d}
+.gf-relationship strong{min-width:100px;font-size:12px}.gf-relationship span{color:#87a8bf}
+.gf-hazard-dot{width:12px;height:12px;border-radius:50%;border:2px solid #ffcf87;background:#f39b4d;box-shadow:0 0 16px #ffa53f80;cursor:pointer}
+.gf-badge-counter{color:#77e5cd;font:600 10px "IBM Plex Mono",monospace}
+@media(max-width:1000px){.fusion-ribbon-label small{display:none}.fusion-live-status{display:none}.fusion-ribbon{gap:8px}.fusion-workbench-content{padding:18px}.gf-kpis{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:850px){.fusion-ribbon{height:48px;padding:0 9px}.fusion-ribbon-label{font-size:9px}.fusion-ribbon-actions{gap:2px}.fusion-ribbon-actions button{padding:8px;font-size:9px}.fusion-workbench-header{height:67px;padding:10px 13px}.fusion-workbench-header h2{font-size:21px}.gf-toolbar .gf-micro{display:none}.gf-toolbar button{padding:8px}.fusion-workbench-shell{flex-direction:column}.fusion-workbench-nav{width:100%;height:53px;flex-direction:row;flex-shrink:0;overflow-x:auto;overflow-y:hidden;padding:5px 8px}.fusion-workbench-nav button{padding:7px 10px;font-size:10px}.fusion-workbench-nav button span{font-size:13px;width:18px}.fusion-workbench-content{padding:13px}.gf-row{grid-template-columns:1fr}.gf-section-head{flex-direction:column;gap:10px}.gf-section-head h3{font-size:24px}.fusion-workbench-footer{font-size:8px;flex-wrap:wrap}.gf-data-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:450px){.fusion-ribbon-label{display:none}.fusion-ribbon-actions{width:100%;justify-content:space-between}.fusion-ribbon-actions button{font-size:8px;padding:8px 5px}.gf-kpis{gap:7px}.gf-kpi{padding:10px}.gf-kpi strong{font-size:26px}.gf-data-grid{grid-template-columns:1fr}.gf-querybox{flex-direction:column}.gf-event-foot{font-size:9px}.gf-toolbar #gfExport{font-size:8px;padding:6px}.gf-toolbar #gfClose{padding:7px}}
