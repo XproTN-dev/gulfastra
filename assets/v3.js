@@ -25,7 +25,7 @@ function initMap(){
  if(typeof maplibregl==="undefined"){$("mapLoad").textContent="Map library unavailable. Reports remain accessible below.";return}
 
  try{
-  s.map=new maplibregl.Map({container:"map",style:"https://tiles.openfreemap.org/styles/fiord",center:[49.4,26.7],zoom:4.6,minZoom:3,maxZoom:13,renderWorldCopies:false,attributionControl:true});
+  s.map=new maplibregl.Map({container:"map",style:"https://tiles.openfreemap.org/styles/fiord",center:[49.0,26.8],zoom:4.05,minZoom:3,maxZoom:13,renderWorldCopies:false,attributionControl:true});
   s.map.addControl(new maplibregl.NavigationControl({showCompass:false}),"bottom-right");
   window.__gulfastraMap=s.map; window.__gulfastraGeography=GEOGRAPHY;
   s.map.on("load",()=>{s.mapReady=true;$("mapLoad").classList.add("off");plot()});
@@ -33,7 +33,7 @@ function initMap(){
   s.map.on("error",e=>{if(!s.mapReady&&!fallback){fallback=true;s.map.setStyle("https://tiles.openfreemap.org/styles/liberty")}else if(!s.mapReady){$("mapLoad").innerHTML="Map tiles unavailable. News and filters remain usable."}});
  }catch(e){$("mapLoad").textContent="Map error: "+e.message}
 }
-function centerMap(){if(s.map)s.map.flyTo({center:[49.4,26.7],zoom:4.6,duration:900})}
+function centerMap(){if(s.map)s.map.flyTo({center:[49.0,26.8],zoom:4.05,duration:900})}
 function clearPins(){s.markers.forEach(m=>m.remove());s.markers=[]}
 function plot(){if(!s.mapReady||!s.map)return;clearPins();let groups={};for(let r of filtered()){const mentions=Array.isArray(r.countries)&&r.countries.length?r.countries:(r.country?[r.country]:[]);for(const country of mentions){if(GEOGRAPHY[country])(groups[country]??=[]).push(r)}}for(let [country,list]of Object.entries(groups)){let color=list.some(x=>x.category==="security")?"#ff687a":list.some(x=>x.category==="transport")?"#f8ba70":"#59cef4";
 let node=document.createElement("button");node.className="country-pin";node.dataset.country=country;node.style.setProperty("--pin-color",color);node.type="button";node.title=list.length+" news reports mention "+country+"; click to filter";node.setAttribute("aria-label",node.title);node.innerHTML='<span class="pin-number">'+list.length+'</span><span class="pin-label">'+txt(GEOGRAPHY[country].label)+'</span>';
