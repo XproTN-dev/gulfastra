@@ -1,7 +1,7 @@
 {
   "version": 4,
-  "last_run": "2026-10-20T07:35:26.041732Z",
-  "last_successful_run": "2026-10-20T07:35:26.041732Z",
+  "last_run": "2026-10-20T07:36:08.097131Z",
+  "last_successful_run": "2026-10-20T07:36:08.097131Z",
   "reports": [
     {
       "id": "c68511ac64c4ecf307d3bcc3",
@@ -1283,6 +1283,22 @@
       "category": "security",
       "tag": "MISSILE REPORT",
       "provider": "BBC Middle East RSS"
+    },
+    {
+      "id": "02c49dcc3c7682d913adc079",
+      "title": "صواريخ ومسيرات إيرانية تستهدف البحرين والكويت والأردن.. والدفاعات الجوية تتصدى - الساحل الغربي",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE15VmNLVDgtRnRBRzRXaVowSlM1cTFRTEtwVGhhS0JoWVRpZ3FpdW1EZXZzdXN3SHcwNXVNV2s1N0tzMU9FYkZEZXFDWUlESWM?oc=5",
+      "source": "الساحل الغربي",
+      "published_at": "2026-10-19T16:18:43Z",
+      "country": "",
+      "countries": [
+        "Iran",
+        "Bahrain"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "خبر اعتراض / دفاع جوي",
+      "provider": "عربي · الكويت والعراق"
     },
     {
       "id": "e0d558673edba69f96cf",
@@ -4719,13 +4735,13 @@
       "source": "The Business Times",
       "published_at": "2026-10-18T11:00:00Z",
       "country": "Iran",
-      "category": "transport",
-      "tag": "MARITIME REPORT",
-      "provider": "Google News · diplomacy",
       "countries": [
         "Iran"
       ],
-      "language": "en"
+      "language": "en",
+      "category": "transport",
+      "tag": "MARITIME REPORT",
+      "provider": "Google News · diplomacy"
     },
     {
       "id": "1b03415e8810bacbb01863cf",
@@ -8761,9 +8777,9 @@
     },
     {
       "id": "3ff7fb3b6117def30a6d76ab",
-      "title": "إيران تنفي الاتهامات السعودية بالضلوع في هجمات الحوثيين.. وتعرض الوساطة بين الرياض والجماعة - Euronews",
+      "title": "إيران تنفي الاتهامات السعودية بالضلوع في هجمات الحوثيين.. وتعرض الوساطة بين الرياض والجماعة - Euronews.com",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSGVjV0Q1MTlicFZjWUM4ZHF1S3NoQ2NtcmZLbEgxWWxqMEh0T3EtS3FjWXFVTEZtT3BGejU3eUZ4R0lXT1hJZzJBZThuOGM2cWNUaWpRQUpsTTFzZUJnZWFCSnY0N1JsTm5VcHV6MEhoRnBYNDZ3Sm1pdjBPcEs5R0hfVkVIeW5ZVkNQbTBqYUs5a2E4SzNWa19JWlpYTGxoOHRJ?oc=5",
-      "source": "Euronews",
+      "source": "Euronews.com",
       "published_at": "2026-10-16T16:52:58Z",
       "country": "",
       "countries": [
@@ -10581,9 +10597,9 @@
     },
     {
       "id": "872c9bf91f6bc22eed841c10",
-      "title": "Another tanker catches fire near Hormuz after two cargo ships sunk in attacks - Euronews.com",
+      "title": "Another tanker catches fire near Hormuz after two cargo ships sunk in attacks - Euronews",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUWdqWXNXODBHZzhMbnlGWDd0dlB4LXBKQWtKQ1U5Z25NNHVSdHBUMXNJcXhaZDBLVjRqWVF6UU5rc2tXcG95bHJfcENWeXVVcjQzZ0hWX2N6UEpIZ2dNRkd1MEZxRnJFa1lSMm1xN2R2R3ZuWU16VFNGOHFHYzhlNEhXTzBuZnpFdTg0aG4tamlfbW1VZ05fY0lVbjBGZU1YbFRWQkVRdmhPLXZIbXowOXJoVQ?oc=5",
-      "source": "Euronews.com",
+      "source": "Euronews",
       "published_at": "2026-10-15T16:00:57Z",
       "country": "",
       "countries": [],
@@ -14347,22 +14363,6 @@
       "provider": "Google News · aviation"
     },
     {
-      "id": "02c49dcc3c7682d913adc079",
-      "title": "صواريخ ومسيرات إيرانية تستهدف البحرين والكويت والأردن.. والدفاعات الجوية تتصدى - الساحل الغربي",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE15VmNLVDgtRnRBRzRXaVowSlM1cTFRTEtwVGhhS0JoWVRpZ3FpdW1EZXZzdXN3SHcwNXVNV2s1N0tzMU9FYkZEZXFDWUlESWM?oc=5",
-      "source": "الساحل الغربي",
-      "published_at": "2026-10-13T13:09:10Z",
-      "country": "",
-      "countries": [
-        "Iran",
-        "Bahrain"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "خبر اعتراض / دفاع جوي",
-      "provider": "عربي · الكويت والعراق"
-    },
-    {
       "id": "2d6e21dbddb7c4e6ebd7e0a1",
       "title": "تحالف دعم الشرعية في اليمن يعلن اعتراض وتدمير ثلاث مسيرات شمالي الرياض - https://emirates24.net/",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9JbGFib05VZlQtNGFUejNsWTlyWGxJcEFULXR4d1RsMFVJWG1YOEF0Vm9IX3NyUFpwN282RXo3aUZlcDV6R2E1MDQtbTZCTEVTTUFr?oc=5",
@@ -14776,7 +14776,7 @@
     "Google News · missiles/drones": {
       "ok": true,
       "items": 100,
-      "relevant": 55
+      "relevant": 54
     },
     "Google News · security": {
       "ok": true,
@@ -14785,8 +14785,8 @@
     },
     "Google News · aviation": {
       "ok": true,
-      "items": 98,
-      "relevant": 55
+      "items": 99,
+      "relevant": 56
     },
     "Google News · shipping": {
       "ok": true,
@@ -14800,13 +14800,13 @@
     },
     "Google News · regional": {
       "ok": true,
-      "items": 57,
+      "items": 56,
       "relevant": 24
     },
     "عربي · إيران والخليج": {
       "ok": true,
-      "items": 55,
-      "relevant": 42
+      "items": 56,
+      "relevant": 43
     },
     "عربي · قطر": {
       "ok": true,
@@ -14816,22 +14816,22 @@
     "عربي · السعودية": {
       "ok": true,
       "items": 100,
-      "relevant": 56
+      "relevant": 55
     },
     "عربي · الإمارات والبحرين": {
       "ok": true,
-      "items": 63,
+      "items": 64,
       "relevant": 46
     },
     "عربي · الكويت والعراق": {
       "ok": true,
-      "items": 49,
-      "relevant": 46
+      "items": 50,
+      "relevant": 47
     },
     "عربي · مضيق هرمز": {
       "ok": true,
       "items": 100,
-      "relevant": 77
+      "relevant": 78
     },
     "عربي · الجزيرة": {
       "ok": true,
@@ -14851,7 +14851,7 @@
     "عربي · وكالات الخليج": {
       "ok": true,
       "items": 100,
-      "relevant": 29
+      "relevant": 28
     },
     "الجزيرة نت · RSS عربي": {
       "ok": true,

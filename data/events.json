@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "generated_at": "2026-10-20T07:35:48.589714Z",
+  "generated_at": "2026-10-20T07:36:31.170544Z",
   "model": "deterministic-source-correlation-v1",
   "disclaimer": "Clusters are related PUBLIC REPORTS, not confirmed incidents. Source counts are not proof. Country names are mentions, not incident locations.",
   "events": [
@@ -3187,6 +3187,46 @@
       "digest": "5c9286ca1bcbdaeedc47",
       "revision": 1,
       "updated_at": "2026-10-20T07:28:07.135706Z"
+    },
+    {
+      "id": "GF-B09D0E6ED840BC",
+      "title": "صواريخ ومسيرات إيرانية تستهدف البحرين والكويت والأردن.. والدفاعات الجوية تتصدى - الساحل الغربي",
+      "category": "security",
+      "topic": "missile",
+      "countries": [
+        "Bahrain",
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-19T16:18:43Z",
+      "last_published": "2026-10-19T16:18:43Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "02c49dcc3c7682d913adc079",
+          "title": "صواريخ ومسيرات إيرانية تستهدف البحرين والكويت والأردن.. والدفاعات الجوية تتصدى - الساحل الغربي",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE15VmNLVDgtRnRBRzRXaVowSlM1cTFRTEtwVGhhS0JoWVRpZ3FpdW1EZXZzdXN3SHcwNXVNV2s1N0tzMU9FYkZEZXFDWUlESWM?oc=5",
+          "source": "الساحل الغربي",
+          "provider": "عربي · الكويت والعراق",
+          "published_at": "2026-10-19T16:18:43Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "digest": "de34bbec0404770fd34c",
+      "revision": 3,
+      "updated_at": "2026-10-20T07:36:31.170544Z"
     },
     {
       "id": "GF-03476150E89A5F",
@@ -20650,7 +20690,7 @@
     },
     {
       "id": "GF-825ED56C1A3A18",
-      "title": "إيران تنفي الاتهامات السعودية بالضلوع في هجمات الحوثيين.. وتعرض الوساطة بين الرياض والجماعة - Euronews",
+      "title": "إيران تنفي الاتهامات السعودية بالضلوع في هجمات الحوثيين.. وتعرض الوساطة بين الرياض والجماعة - Euronews.com",
       "category": "security",
       "topic": "regional",
       "countries": [
@@ -20675,9 +20715,9 @@
       "sources": [
         {
           "id": "3ff7fb3b6117def30a6d76ab",
-          "title": "إيران تنفي الاتهامات السعودية بالضلوع في هجمات الحوثيين.. وتعرض الوساطة بين الرياض والجماعة - Euronews",
+          "title": "إيران تنفي الاتهامات السعودية بالضلوع في هجمات الحوثيين.. وتعرض الوساطة بين الرياض والجماعة - Euronews.com",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSGVjV0Q1MTlicFZjWUM4ZHF1S3NoQ2NtcmZLbEgxWWxqMEh0T3EtS3FjWXFVTEZtT3BGejU3eUZ4R0lXT1hJZzJBZThuOGM2cWNUaWpRQUpsTTFzZUJnZWFCSnY0N1JsTm5VcHV6MEhoRnBYNDZ3Sm1pdjBPcEs5R0hfVkVIeW5ZVkNQbTBqYUs5a2E4SzNWa19JWlpYTGxoOHRJ?oc=5",
-          "source": "Euronews",
+          "source": "Euronews.com",
           "provider": "عربي · إيران والخليج",
           "published_at": "2026-10-16T16:52:58Z",
           "collected_at": null,
@@ -20685,9 +20725,9 @@
           "country": ""
         }
       ],
-      "digest": "17525dead4cb623fcab5",
-      "revision": 2,
-      "updated_at": "2026-10-20T07:35:48.589714Z"
+      "digest": "59d8915c8c3c24c27c3a",
+      "revision": 3,
+      "updated_at": "2026-10-20T07:36:31.170544Z"
     },
     {
       "id": "GF-33DEA297B05CE8",
@@ -25314,7 +25354,7 @@
     },
     {
       "id": "GF-FEFDEE84343B18",
-      "title": "Another tanker catches fire near Hormuz after two cargo ships sunk in attacks - Euronews.com",
+      "title": "Another tanker catches fire near Hormuz after two cargo ships sunk in attacks - Euronews",
       "category": "transport",
       "topic": "maritime",
       "countries": [],
@@ -25335,9 +25375,9 @@
       "sources": [
         {
           "id": "872c9bf91f6bc22eed841c10",
-          "title": "Another tanker catches fire near Hormuz after two cargo ships sunk in attacks - Euronews.com",
+          "title": "Another tanker catches fire near Hormuz after two cargo ships sunk in attacks - Euronews",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUWdqWXNXODBHZzhMbnlGWDd0dlB4LXBKQWtKQ1U5Z25NNHVSdHBUMXNJcXhaZDBLVjRqWVF6UU5rc2tXcG95bHJfcENWeXVVcjQzZ0hWX2N6UEpIZ2dNRkd1MEZxRnJFa1lSMm1xN2R2R3ZuWU16VFNGOHFHYzhlNEhXTzBuZnpFdTg0aG4tamlfbW1VZ05fY0lVbjBGZU1YbFRWQkVRdmhPLXZIbXowOXJoVQ?oc=5",
-          "source": "Euronews.com",
+          "source": "Euronews",
           "provider": "Google News · shipping",
           "published_at": "2026-10-15T16:00:57Z",
           "collected_at": null,
@@ -25345,9 +25385,9 @@
           "country": ""
         }
       ],
-      "digest": "9eb1f8b32dd24b0aaa75",
-      "revision": 2,
-      "updated_at": "2026-10-20T07:34:17.146880Z"
+      "digest": "7827aa7cbce7260b48b7",
+      "revision": 3,
+      "updated_at": "2026-10-20T07:36:31.170544Z"
     },
     {
       "id": "GF-E7A8033A4892FC",
@@ -34677,46 +34717,6 @@
       "updated_at": "2026-10-20T07:28:07.135706Z"
     },
     {
-      "id": "GF-B09D0E6ED840BC",
-      "title": "صواريخ ومسيرات إيرانية تستهدف البحرين والكويت والأردن.. والدفاعات الجوية تتصدى - الساحل الغربي",
-      "category": "security",
-      "topic": "missile",
-      "countries": [
-        "Bahrain",
-        "Iran"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "languages": [
-        "ar"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-13T13:09:10Z",
-      "last_published": "2026-10-13T13:09:10Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "02c49dcc3c7682d913adc079",
-          "title": "صواريخ ومسيرات إيرانية تستهدف البحرين والكويت والأردن.. والدفاعات الجوية تتصدى - الساحل الغربي",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE15VmNLVDgtRnRBRzRXaVowSlM1cTFRTEtwVGhhS0JoWVRpZ3FpdW1EZXZzdXN3SHcwNXVNV2s1N0tzMU9FYkZEZXFDWUlESWM?oc=5",
-          "source": "الساحل الغربي",
-          "provider": "عربي · الكويت والعراق",
-          "published_at": "2026-10-13T13:09:10Z",
-          "collected_at": null,
-          "language": "ar",
-          "country": ""
-        }
-      ],
-      "digest": "6019c47a51ef7350eeca",
-      "revision": 2,
-      "updated_at": "2026-10-20T07:34:17.146880Z"
-    },
-    {
       "id": "GF-4BCF1CEDA6EA75",
       "title": "تحالف دعم الشرعية في اليمن يعلن اعتراض وتدمير ثلاث مسيرات شمالي الرياض - https://emirates24.net/",
       "category": "security",
@@ -35702,14 +35702,14 @@
       "reports": 426,
       "security_coverage": 185,
       "transport_coverage": 98,
-      "sources": 174
+      "sources": 175
     },
     "Saudi": {
       "events": 265,
       "reports": 284,
       "security_coverage": 182,
       "transport_coverage": 70,
-      "sources": 145
+      "sources": 146
     },
     "Qatar": {
       "events": 27,
@@ -35773,20 +35773,36 @@
     "2026-09-04": 1,
     "2026-10-02": 1,
     "2026-10-12": 1,
-    "2026-10-13": 81,
+    "2026-10-13": 80,
     "2026-10-14": 113,
     "2026-10-15": 104,
     "2026-10-16": 101,
     "2026-10-17": 165,
     "2026-10-18": 125,
-    "2026-10-19": 162,
+    "2026-10-19": 163,
     "2026-10-20": 34
   },
   "revisions": [
     {
+      "id": "GF-B09D0E6ED840BC",
+      "revision": 3,
+      "at": "2026-10-20T07:36:31.170544Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
       "id": "GF-825ED56C1A3A18",
-      "revision": 2,
-      "at": "2026-10-20T07:35:48.589714Z",
+      "revision": 3,
+      "at": "2026-10-20T07:36:31.170544Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-FEFDEE84343B18",
+      "revision": 3,
+      "at": "2026-10-20T07:36:31.170544Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1

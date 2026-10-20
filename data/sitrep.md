@@ -1,9 +1,9 @@
 # Gulfastra | Open-source situation report
 Window: last 24 hours (publication-based)
-Coverage groups: 152 | linked headlines: 178
+Coverage groups: 153 | linked headlines: 179
 IMPORTANT: Unverified published reporting; not confirmed attacks or official safety advice.
 
-## Security (86 coverage groups)
+## Security (87 coverage groups)
 - Riyadh Airport Attack: Telangana Man Returns To India - INDToday (1 headlines; single-source)
   - INDToday: https://news.google.com/rss/articles/CBMif0FVX3lxTE1GSVl0UE8zbXZYalRPaVIwTV9IcnA0X09LdXVlV3R5WUNkaEZMVi1SXzJXNmVTVkUwelZTcGtWZm9waDU0Yi1XMVpYUWFweFoyWUVJaFhPbFA1RFpVZzZXMW51Sk90LXJMa3NoQnJCSjREX0djZ09CU09NYWdCSG8?oc=5
 - Iran says it shot down US MQ-9 Reaper drone over Strait of Hormuz - Yahoo (1 headlines; single-source)

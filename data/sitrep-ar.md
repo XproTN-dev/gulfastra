@@ -1,10 +1,10 @@
 # موجز جلفاسترا للمصادر العلنية
 الفترة: آخر 24 ساعة (حسب وقت نشر التقارير)
 
-مجموعات التغطية: 152 | عناوين مرتبطة: 178
+مجموعات التغطية: 153 | عناوين مرتبطة: 179
 هذه تقارير صحفية وليست أحداثا مؤكدة، ولا تعتبر توجيهات سلامة رسمية.
 
-## Security (86 coverage groups)
+## Security (87 coverage groups)
 - Riyadh Airport Attack: Telangana Man Returns To India - INDToday (1 headlines; single-source)
   - INDToday: https://news.google.com/rss/articles/CBMif0FVX3lxTE1GSVl0UE8zbXZYalRPaVIwTV9IcnA0X09LdXVlV3R5WUNkaEZMVi1SXzJXNmVTVkUwelZTcGtWZm9waDU0Yi1XMVpYUWFweFoyWUVJaFhPbFA1RFpVZzZXMW51Sk90LXJMa3NoQnJCSjREX0djZ09CU09NYWdCSG8?oc=5
 - Iran says it shot down US MQ-9 Reaper drone over Strait of Hormuz - Yahoo (1 headlines; single-source)
