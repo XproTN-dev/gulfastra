@@ -166,13 +166,16 @@ function renderGraph(){
  '<span class="graph-badge">'+g.nodes.length+' PUBLICATION GROUPS</span>'+
  '<span class="graph-badge">'+g.edges.length+' RELATED COVERAGE LINKS</span>'+
  '<span class="graph-badge">NOT CAUSATION</span></div>'+
- R.graphSvg(g,{mode:mode==="chronology"?"chronology":mode,zoom:S.zoom,selected:S.selected})+
+ R.graphSvg(g,{mode,zoom:S.zoom,selected:S.selected})+
  '<div class="graph-bottomline"><span>CLICK A NODE FOR ORIGINAL SOURCES</span>'+
  '<span>WHEEL / + − TO ZOOM · SOURCE-TIME REPLAY</span></div></div>'+
  '<div class="graph-legend"><span>● SECURITY</span><span>● TRANSPORT</span>'+
  '<span>● DIPLOMACY</span><span>● OTHER</span></div>';
- $("stageContent").innerHTML=g.nodes.length?'<div class="graph-layout">'+body+'</div>':
- '<div class="state-empty">No publication groups match this region and time cutoff. Widen the window or choose ALL countries. Zero items is not an all-clear.</div>';
+ $("stageContent").innerHTML=!g.nodes.length?
+ '<div class="state-empty">No publication groups match this region and time cutoff. Widen the window or choose ALL countries. Zero items is not an all-clear.</div>':
+ mode==="chronology"?
+ '<div class="context-warning">SEQUENCE VIEW · chronological publication lists, not causal order or incident timelines.</div>'+R.chronology(g):
+ '<div class="graph-layout">'+body+'</div>';
 }
 function renderTimeline(){
  const g=graphData(),sorted=[...g.nodes].sort((a,b)=>C.dt(b.published_at)-C.dt(a.published_at));
