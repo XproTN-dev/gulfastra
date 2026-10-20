@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "generated_at": "2026-10-20T12:02:20.533246Z",
+  "generated_at": "2026-10-20T12:03:26.600956Z",
   "model": "deterministic-source-correlation-v1",
   "disclaimer": "Clusters are related PUBLIC REPORTS, not confirmed incidents. Source counts are not proof. Country names are mentions, not incident locations.",
   "events": [
@@ -8076,6 +8076,51 @@
       "digest": "a29a0ae3ab740b7d6670",
       "revision": 2,
       "updated_at": "2026-10-20T07:40:58.957167Z"
+    },
+    {
+      "id": "GF-EDF6E815470499",
+      "title": "قلق أممي إزاء التصعيد العسكري وهجمات الحوثيين على السعودية وتفاقم الأزمة الإنسانية في تعز",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-19T12:00:00Z",
+      "last_published": "2026-10-19T12:00:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "92a8ca04afa45425d606a11a",
+          "title": "قلق أممي إزاء التصعيد العسكري وهجمات الحوثيين على السعودية وتفاقم الأزمة الإنسانية في تعز",
+          "url": "https://news.un.org/feed/view/ar/story/2026/10/1145568",
+          "source": "أخبار الأمم المتحدة - منظور عالمي قصص إنسانية",
+          "provider": "UN News · الشرق الأوسط (AR)",
+          "published_at": "2026-10-19T12:00:00Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "digest": "c9fd2377f5420d9f8234",
+      "revision": 1,
+      "updated_at": "2026-10-20T12:03:26.600956Z"
     },
     {
       "id": "GF-3619E6F7490D34",
@@ -32293,6 +32338,50 @@
       "updated_at": "2026-10-20T07:40:58.957167Z"
     },
     {
+      "id": "GF-B214A3500AB9F0",
+      "title": "أعضاء مجلس الأمن يدينون هجمات الحوثيين ضد السعودية، وتهديدهم للملاحة في البحر الأحمر",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-15T12:00:00Z",
+      "last_published": "2026-10-15T12:00:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "b90baafbfd89c54ff897731c",
+          "title": "أعضاء مجلس الأمن يدينون هجمات الحوثيين ضد السعودية، وتهديدهم للملاحة في البحر الأحمر",
+          "url": "https://news.un.org/feed/view/ar/story/2026/10/1145554",
+          "source": "أخبار الأمم المتحدة - منظور عالمي قصص إنسانية",
+          "provider": "UN News · الشرق الأوسط (AR)",
+          "published_at": "2026-10-15T12:00:00Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Yemen"
+        }
+      ],
+      "digest": "974c1b76b1e251a7b28e",
+      "revision": 1,
+      "updated_at": "2026-10-20T12:03:26.600956Z"
+    },
+    {
       "id": "GF-A21DCEE40EC624",
       "title": "US-Iran stalemate: What are Trump’s next military options? - Al Jazeera",
       "category": "security",
@@ -36771,6 +36860,50 @@
       "digest": "36444f10162bbf36a41d",
       "revision": 2,
       "updated_at": "2026-10-20T07:40:58.957167Z"
+    },
+    {
+      "id": "GF-4BD111762986CA",
+      "title": "ترحيب أممي بالإفراج عن أحد الموظفين المحتجزين لدى الحوثيين ودعوة لإطلاق سراح الآخرين",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-14T12:00:00Z",
+      "last_published": "2026-10-14T12:00:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "1dce7cfc3321bd877aed25f1",
+          "title": "ترحيب أممي بالإفراج عن أحد الموظفين المحتجزين لدى الحوثيين ودعوة لإطلاق سراح الآخرين",
+          "url": "https://news.un.org/feed/view/ar/story/2026/10/1145545",
+          "source": "أخبار الأمم المتحدة - منظور عالمي قصص إنسانية",
+          "provider": "UN News · الشرق الأوسط (AR)",
+          "published_at": "2026-10-14T12:00:00Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Yemen"
+        }
+      ],
+      "digest": "376d59b5554f623bbe13",
+      "revision": 1,
+      "updated_at": "2026-10-20T12:03:26.600956Z"
     },
     {
       "id": "GF-A43165E02F73CA",
@@ -44188,6 +44321,50 @@
       "updated_at": "2026-10-20T12:02:20.533246Z"
     },
     {
+      "id": "GF-99F5C539E3AF25",
+      "title": "الأمم المتحدة تدين الهجمات على السعودية، وتبدي القلق إزاء التصعيد في اليمن",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-12T12:00:00Z",
+      "last_published": "2026-10-12T12:00:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "4f1287e20fb37f6fb8dbd06c",
+          "title": "الأمم المتحدة تدين الهجمات على السعودية، وتبدي القلق إزاء التصعيد في اليمن",
+          "url": "https://news.un.org/feed/view/ar/story/2026/10/1145525",
+          "source": "أخبار الأمم المتحدة - منظور عالمي قصص إنسانية",
+          "provider": "UN News · الشرق الأوسط (AR)",
+          "published_at": "2026-10-12T12:00:00Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Yemen"
+        }
+      ],
+      "digest": "92196e84c7d2b0ce7220",
+      "revision": 1,
+      "updated_at": "2026-10-20T12:03:26.600956Z"
+    },
+    {
       "id": "GF-A7331D0ADB3E14",
       "title": "Watch: CCTV shows people take cover as missile hits Riyadh airport",
       "category": "security",
@@ -44320,6 +44497,138 @@
       "digest": "136642d6a797472a10ae",
       "revision": 1,
       "updated_at": "2026-10-20T12:02:20.533246Z"
+    },
+    {
+      "id": "GF-2E74C3BFBFDEEB",
+      "title": "الأمم المتحدة تدين هجوم الحوثيين على مطار الملك خالد في السعودية",
+      "category": "security",
+      "topic": "aviation",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-10T12:00:00Z",
+      "last_published": "2026-10-10T12:00:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "c476c27a08385b56439a39c0",
+          "title": "الأمم المتحدة تدين هجوم الحوثيين على مطار الملك خالد في السعودية",
+          "url": "https://news.un.org/feed/view/ar/story/2026/10/1145518",
+          "source": "أخبار الأمم المتحدة - منظور عالمي قصص إنسانية",
+          "provider": "UN News · الشرق الأوسط (AR)",
+          "published_at": "2026-10-10T12:00:00Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "digest": "4d50df3b66abf630e5df",
+      "revision": 1,
+      "updated_at": "2026-10-20T12:03:26.600956Z"
+    },
+    {
+      "id": "GF-D2553160B1A927",
+      "title": "الأمم المتحدة تجدد إدانتها لهجمات الحوثيين على السعودية وتحذر من تصعيد القتال في اليمن",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-08T12:00:00Z",
+      "last_published": "2026-10-08T12:00:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "1eceeaa05e212932da859087",
+          "title": "الأمم المتحدة تجدد إدانتها لهجمات الحوثيين على السعودية وتحذر من تصعيد القتال في اليمن",
+          "url": "https://news.un.org/feed/view/ar/story/2026/10/1145505",
+          "source": "أخبار الأمم المتحدة - منظور عالمي قصص إنسانية",
+          "provider": "UN News · الشرق الأوسط (AR)",
+          "published_at": "2026-10-08T12:00:00Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "digest": "364c3c573c5364987223",
+      "revision": 1,
+      "updated_at": "2026-10-20T12:03:26.600956Z"
+    },
+    {
+      "id": "GF-520D512CEA6F90",
+      "title": "غوتيريش من باكستان يدعو إلى إنهاء الصراع في الشرق الأوسط والعودة إلى الدبلوماسية",
+      "category": "diplomacy",
+      "topic": "regional",
+      "countries": [],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-06T12:00:00Z",
+      "last_published": "2026-10-06T12:00:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "db492867f1da770ae9bbf461",
+          "title": "غوتيريش من باكستان يدعو إلى إنهاء الصراع في الشرق الأوسط والعودة إلى الدبلوماسية",
+          "url": "https://news.un.org/feed/view/ar/story/2026/10/1145487",
+          "source": "أخبار الأمم المتحدة - منظور عالمي قصص إنسانية",
+          "provider": "UN News · الشرق الأوسط (AR)",
+          "published_at": "2026-10-06T12:00:00Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "digest": "4b69679d2d23ad28c8a7",
+      "revision": 1,
+      "updated_at": "2026-10-20T12:03:26.600956Z"
     },
     {
       "id": "GF-272B4F4C583D29",
@@ -44464,11 +44773,11 @@
       "sources": 186
     },
     "Saudi": {
-      "events": 340,
-      "reports": 357,
-      "security_coverage": 239,
+      "events": 343,
+      "reports": 360,
+      "security_coverage": 242,
       "transport_coverage": 88,
-      "sources": 187
+      "sources": 188
     },
     "Qatar": {
       "events": 35,
@@ -44513,11 +44822,11 @@
       "sources": 5
     },
     "Yemen": {
-      "events": 152,
-      "reports": 154,
-      "security_coverage": 133,
+      "events": 158,
+      "reports": 160,
+      "security_coverage": 139,
       "transport_coverage": 18,
-      "sources": 86
+      "sources": 87
     },
     "Israel": {
       "events": 44,
@@ -44531,352 +44840,18 @@
     "2018-11-18": 1,
     "2026-09-04": 1,
     "2026-10-02": 1,
-    "2026-10-12": 5,
+    "2026-10-06": 1,
+    "2026-10-08": 1,
+    "2026-10-10": 1,
+    "2026-10-12": 6,
     "2026-10-13": 102,
-    "2026-10-14": 121,
-    "2026-10-15": 110,
+    "2026-10-14": 122,
+    "2026-10-15": 111,
     "2026-10-16": 107,
     "2026-10-17": 162,
     "2026-10-18": 129,
-    "2026-10-19": 168,
+    "2026-10-19": 169,
     "2026-10-20": 92
   },
-  "revisions": [
-    {
-      "id": "GF-EAE814B180623B",
-      "revision": 4,
-      "at": "2026-10-20T12:02:20.533246Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-B40334818BB3EF",
-      "revision": 3,
-      "at": "2026-10-20T12:02:20.533246Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 3,
-      "new_source_count": 2
-    },
-    {
-      "id": "GF-03476150E89A5F",
-      "revision": 3,
-      "at": "2026-10-20T12:02:20.533246Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-FD73FA11DFF465",
-      "revision": 5,
-      "at": "2026-10-20T12:02:20.533246Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-DF4F2F3EEA096D",
-      "revision": 3,
-      "at": "2026-10-20T12:02:20.533246Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-77DEEB35F95CFA",
-      "revision": 3,
-      "at": "2026-10-20T12:02:20.533246Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-2F96F0C8277288",
-      "revision": 5,
-      "at": "2026-10-20T12:02:20.533246Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-F69FDA2F9495A0",
-      "revision": 3,
-      "at": "2026-10-20T12:02:20.533246Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-61927185BA800B",
-      "revision": 5,
-      "at": "2026-10-20T12:02:20.533246Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-17CFAB4CB5B6CB",
-      "revision": 3,
-      "at": "2026-10-20T12:02:20.533246Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 3,
-      "new_source_count": 2
-    },
-    {
-      "id": "GF-52CC8D78FDCB3D",
-      "revision": 3,
-      "at": "2026-10-20T12:02:20.533246Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-648DBE1290C3B1",
-      "revision": 3,
-      "at": "2026-10-20T12:02:20.533246Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 6,
-      "new_source_count": 2
-    },
-    {
-      "id": "GF-28F14AA6181400",
-      "revision": 3,
-      "at": "2026-10-20T12:02:20.533246Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-36E3C79A8D27C1",
-      "revision": 3,
-      "at": "2026-10-20T12:02:20.533246Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 3,
-      "new_source_count": 2
-    },
-    {
-      "id": "GF-3B31E8D28E1755",
-      "revision": 3,
-      "at": "2026-10-20T12:02:20.533246Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 5,
-      "new_source_count": 3
-    },
-    {
-      "id": "GF-9C91E790D69399",
-      "revision": 3,
-      "at": "2026-10-20T12:02:20.533246Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-4C1A45D929DEF4",
-      "revision": 3,
-      "at": "2026-10-20T12:02:20.533246Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-79965709E23038",
-      "revision": 3,
-      "at": "2026-10-20T12:02:20.533246Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-A426CCAF1A0BAE",
-      "revision": 3,
-      "at": "2026-10-20T12:02:20.533246Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-2A878E93F8123F",
-      "revision": 3,
-      "at": "2026-10-20T12:02:20.533246Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-5D362BDFCE4BCD",
-      "revision": 3,
-      "at": "2026-10-20T12:02:20.533246Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-F4F2D7B0FE3CDA",
-      "revision": 3,
-      "at": "2026-10-20T12:02:20.533246Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-1805AA1395D5D6",
-      "revision": 3,
-      "at": "2026-10-20T12:02:20.533246Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-CA835FB17AA191",
-      "revision": 3,
-      "at": "2026-10-20T12:02:20.533246Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-A1B8CAB0D36180",
-      "revision": 3,
-      "at": "2026-10-20T12:02:20.533246Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-3C751D907286FD",
-      "revision": 3,
-      "at": "2026-10-20T12:02:20.533246Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-3C455FBE94506C",
-      "revision": 3,
-      "at": "2026-10-20T12:02:20.533246Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-3D2C72840C05AA",
-      "revision": 3,
-      "at": "2026-10-20T12:02:20.533246Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-A5BE9C928461B1",
-      "revision": 3,
-      "at": "2026-10-20T12:02:20.533246Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-BEEA8CF1B339E5",
-      "revision": 3,
-      "at": "2026-10-20T12:02:20.533246Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-19480BB3BB8CA4",
-      "revision": 3,
-      "at": "2026-10-20T12:02:20.533246Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-9C77F474BF080C",
-      "revision": 3,
-      "at": "2026-10-20T12:02:20.533246Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-3581F2B64F3B71",
-      "revision": 2,
-      "at": "2026-10-20T12:02:20.533246Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 4,
-      "new_source_count": 3
-    },
-    {
-      "id": "GF-E7FC86193EB37C",
-      "revision": 3,
-      "at": "2026-10-20T12:02:20.533246Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-D67A7F2046A50A",
-      "revision": 3,
-      "at": "2026-10-20T12:02:20.533246Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-B46B54BACA6E89",
-      "revision": 3,
-      "at": "2026-10-20T12:02:20.533246Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-B839DBF80B1AB0",
-      "revision": 3,
-      "at": "2026-10-20T12:02:20.533246Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-3E302980F4F8AC",
-      "revision": 3,
-      "at": "2026-10-20T12:02:20.533246Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-66191415CC300E",
-      "revision": 3,
-      "at": "2026-10-20T12:02:20.533246Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 3,
-      "new_source_count": 2
-    },
-    {
-      "id": "GF-78C3AAC3013B0B",
-      "revision": 3,
-      "at": "2026-10-20T12:02:20.533246Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-879E42C79BBBAB",
-      "revision": 3,
-      "at": "2026-10-20T12:02:20.533246Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-C6870DD0F86C53",
-      "revision": 3,
-      "at": "2026-10-20T12:02:20.533246Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 3,
-      "new_source_count": 2
-    }
-  ]
+  "revisions": []
 }

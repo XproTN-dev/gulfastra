@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "last_run": "2026-10-20T12:01:49.547007Z",
-  "last_successful_run": "2026-10-20T12:01:49.547007Z",
+  "last_run": "2026-10-20T12:03:06.238942Z",
+  "last_successful_run": "2026-10-20T12:03:06.238942Z",
   "reports": [
     {
       "id": "f1371e48b5d899af93ad8379",
@@ -4468,6 +4468,30 @@
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
       "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "92a8ca04afa45425d606a11a",
+      "title": "قلق أممي إزاء التصعيد العسكري وهجمات الحوثيين على السعودية وتفاقم الأزمة الإنسانية في تعز",
+      "url": "https://news.un.org/feed/view/ar/story/2026/10/1145568",
+      "source": "أخبار الأمم المتحدة - منظور عالمي قصص إنسانية",
+      "published_at": "2026-10-19T12:00:00Z",
+      "country": "",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير امني",
+      "provider": "UN News · الشرق الأوسط (AR)",
+      "first_seen_at": "2026-10-20T12:03:06.238942Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
       "critical_candidate": false,
@@ -17500,6 +17524,29 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "b90baafbfd89c54ff897731c",
+      "title": "أعضاء مجلس الأمن يدينون هجمات الحوثيين ضد السعودية، وتهديدهم للملاحة في البحر الأحمر",
+      "url": "https://news.un.org/feed/view/ar/story/2026/10/1145554",
+      "source": "أخبار الأمم المتحدة - منظور عالمي قصص إنسانية",
+      "published_at": "2026-10-15T12:00:00Z",
+      "country": "Yemen",
+      "countries": [
+        "Yemen"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير امني",
+      "provider": "UN News · الشرق الأوسط (AR)",
+      "first_seen_at": "2026-10-20T12:03:06.238942Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "e820ddbd9851fca6199668ad",
       "title": "US-Iran stalemate: What are Trump’s next military options? - Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOemE4b3pxbDZ6dkJpVk1GSWpQMnNSUkZVdzByRTVORTgtbDlaMTRaS2M0QUhOYUVsQWMwV1JON21rVE9NVUZYcl91cWRWYTg0ZElQM3BlVm4wMzhKbVpBTEtHdW9mSmw4eGNNeTBGZzRhR0lNSll1aXpMbEs0V2lZaDJQX3pDa1czNFdPTTdnQ0VHZ3pLbW1nYlhxZy1pQdIBowFBVV95cUxNSkVVT3EwYkdPa1FxbHlnUmh1dmt2WExwbVNaTEtaWmFvUXZwWTVibDB0bzhZTnE3SXRzT2ZIVGlhSWtRalBWQkRHWDRmVkRjWkozTGJyV1JIdFpNZ0d3V19NSWNGTklyNUtzNGFrQWFGWUJhOG5Ib293NVpFSWRZVFd6Z2FWdENySE5Lb2NiaUR4N3NIOTVKVG1UbVpJZGllcWtn?oc=5",
@@ -19830,6 +19877,29 @@
       "language": "en",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "1dce7cfc3321bd877aed25f1",
+      "title": "ترحيب أممي بالإفراج عن أحد الموظفين المحتجزين لدى الحوثيين ودعوة لإطلاق سراح الآخرين",
+      "url": "https://news.un.org/feed/view/ar/story/2026/10/1145545",
+      "source": "أخبار الأمم المتحدة - منظور عالمي قصص إنسانية",
+      "published_at": "2026-10-14T12:00:00Z",
+      "country": "Yemen",
+      "countries": [
+        "Yemen"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير امني",
+      "provider": "UN News · الشرق الأوسط (AR)",
+      "first_seen_at": "2026-10-20T12:03:06.238942Z",
+      "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -23920,6 +23990,29 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "4f1287e20fb37f6fb8dbd06c",
+      "title": "الأمم المتحدة تدين الهجمات على السعودية، وتبدي القلق إزاء التصعيد في اليمن",
+      "url": "https://news.un.org/feed/view/ar/story/2026/10/1145525",
+      "source": "أخبار الأمم المتحدة - منظور عالمي قصص إنسانية",
+      "published_at": "2026-10-12T12:00:00Z",
+      "country": "Yemen",
+      "countries": [
+        "Yemen"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير امني",
+      "provider": "UN News · الشرق الأوسط (AR)",
+      "first_seen_at": "2026-10-20T12:03:06.238942Z",
+      "date_quality": "publisher-time",
+      "freshness": "archive",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "2bf0b713d1d22bf2d4e16725",
       "title": "Watch: CCTV shows people take cover as missile hits Riyadh airport",
       "url": "https://www.bbc.co.uk/news/videos/cj4g17wz7gv0o?at_medium=RSS&at_campaign=rss",
@@ -23982,6 +24075,75 @@
       "tag": "AVIATION REPORT",
       "provider": "France 24 · Middle East",
       "first_seen_at": "2026-10-20T12:01:49.547007Z",
+      "date_quality": "publisher-time",
+      "freshness": "archive",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "c476c27a08385b56439a39c0",
+      "title": "الأمم المتحدة تدين هجوم الحوثيين على مطار الملك خالد في السعودية",
+      "url": "https://news.un.org/feed/view/ar/story/2026/10/1145518",
+      "source": "أخبار الأمم المتحدة - منظور عالمي قصص إنسانية",
+      "published_at": "2026-10-10T12:00:00Z",
+      "country": "",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير امني",
+      "provider": "UN News · الشرق الأوسط (AR)",
+      "first_seen_at": "2026-10-20T12:03:06.238942Z",
+      "date_quality": "publisher-time",
+      "freshness": "archive",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "1eceeaa05e212932da859087",
+      "title": "الأمم المتحدة تجدد إدانتها لهجمات الحوثيين على السعودية وتحذر من تصعيد القتال في اليمن",
+      "url": "https://news.un.org/feed/view/ar/story/2026/10/1145505",
+      "source": "أخبار الأمم المتحدة - منظور عالمي قصص إنسانية",
+      "published_at": "2026-10-08T12:00:00Z",
+      "country": "",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير امني",
+      "provider": "UN News · الشرق الأوسط (AR)",
+      "first_seen_at": "2026-10-20T12:03:06.238942Z",
+      "date_quality": "publisher-time",
+      "freshness": "archive",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "db492867f1da770ae9bbf461",
+      "title": "غوتيريش من باكستان يدعو إلى إنهاء الصراع في الشرق الأوسط والعودة إلى الدبلوماسية",
+      "url": "https://news.un.org/feed/view/ar/story/2026/10/1145487",
+      "source": "أخبار الأمم المتحدة - منظور عالمي قصص إنسانية",
+      "published_at": "2026-10-06T12:00:00Z",
+      "country": "",
+      "countries": [],
+      "language": "ar",
+      "category": "diplomacy",
+      "tag": "تطور دبلوماسي",
+      "provider": "UN News · الشرق الأوسط (AR)",
+      "first_seen_at": "2026-10-20T12:03:06.238942Z",
       "date_quality": "publisher-time",
       "freshness": "archive",
       "context": "reporting",
@@ -24177,8 +24339,9 @@
       "error": "not well-formed (invalid token): line 1, column 0"
     },
     "UN News · الشرق الأوسط (AR)": {
-      "ok": false,
-      "error": "not well-formed (invalid token): line 1, column 0"
+      "ok": true,
+      "items": 30,
+      "relevant": 7
     },
     "GDELT · article index": {
       "ok": false,
