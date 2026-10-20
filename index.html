@@ -10,6 +10,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@6.15.0/dist/maplibre-gl.css">
 <link rel="stylesheet" href="assets/v3.css?v=20261020-8">
+<link rel="stylesheet" href="assets/v5.css?v=5-1">
 </head>
 <body>
 <div class="shell" id="shell">
@@ -25,6 +26,18 @@
  <div class="command-metric"><span class="metric-icon violet">▥</span><div class="metric-data"><span class="metric-label">REGIONAL SOURCES</span><div class="metric-line"><strong id="mOutlets">—</strong><small>NEWS PUBLISHERS</small></div></div></div>
  <div class="command-metric freshness-metric"><span class="metric-icon cyan">◷</span><div class="metric-data"><span class="metric-label">COLLECTION STATUS</span><div class="metric-line"><strong class="status-copy" id="freshness">CHECKING</strong></div><small id="freshnessSub">Checking published archive</small></div></div>
 </section>
+<nav class="fusion-ribbon" aria-label="Gulfastra analytical workspace">
+ <span class="fusion-ribbon-label"><span class="fusion-pulse"></span> GULFASTRA <b>FUSION</b> <small>INTELLIGENCE WORKBENCH</small></span>
+ <div class="fusion-ribbon-actions">
+  <button data-gf-open="fusion">◈ FUSION</button>
+  <button data-gf-open="countries">◎ COUNTRY DESK</button>
+  <button data-gf-open="timeline">▥ REPLAY</button>
+  <button data-gf-open="sitrep">▤ SITREP</button>
+  <button data-gf-open="query">⌘ QUERY</button>
+  <button data-gf-open="sources">◉ SOURCE HEALTH</button>
+ </div>
+ <span id="fusionHealth" class="fusion-live-status">INITIALIZING</span>
+</nav>
 <div class="workspace">
 <aside class="controlpanel" id="controlpanel">
  <div class="panel-head"><span class="panel-eyebrow">01 / COMMAND CONTROLS</span><button class="closemobile" id="closeLayers" aria-label="Close filters">✕</button></div>
@@ -57,13 +70,32 @@
  <div class="feed-bottom"><span id="feedSummary">REPORTS ARE NOT VERIFIED INCIDENTS</span><button id="showAll" class="text-link">VIEW ALL →</button></div>
 </aside>
 </div>
-<nav class="mobile-nav" aria-label="Mobile navigation"><button class="active" data-mobile="map">◎<span>MAP</span></button><button data-mobile="reports">▤<span>REPORTS</span></button><button data-mobile="filters">☷<span>FILTERS</span></button><button data-mobile="alerts">♧<span>ALERTS</span></button></nav>
+<nav class="mobile-nav" aria-label="Mobile navigation"><button class="active" data-mobile="map">◎<span>MAP</span></button><button data-mobile="reports">▤<span>REPORTS</span></button><button data-mobile="filters">☷<span>FILTERS</span></button><button data-mobile="alerts">♧<span>ALERTS</span></button><button data-mobile="fusion">◈<span>FUSION</span></button></nav>
 <div class="modal-backdrop" id="backdrop" hidden></div>
 <section class="drawer" id="drawer" aria-hidden="true"><div class="drawer-top"><span class="panel-eyebrow" id="drawerTag">SOURCE DETAIL</span><button id="drawerClose" aria-label="Close detail">✕</button></div><div id="drawerContent"></div></section>
+<div class="fusion-workbench" id="fusionWorkbench" hidden>
+ <header class="fusion-workbench-header"><div><span class="gf-micro">GULFASTRA / FUSION WORKBENCH</span><h2 id="fusionHeading">Intelligence Fusion</h2></div><div class="gf-toolbar"><span id="fusionGenerated" class="gf-micro">ARCHIVE LOADING</span><button id="gfExport" title="Export current view">⇩ EXPORT</button><button id="gfClose" aria-label="Close workbench">✕</button></div></header>
+ <div class="fusion-workbench-shell">
+  <aside class="fusion-workbench-nav" id="fusionWorkNav">
+   <button data-gf-page="fusion" class="active"><span>◈</span> Fusion</button>
+   <button data-gf-page="countries"><span>◎</span> Countries</button>
+   <button data-gf-page="timeline"><span>▥</span> Timeline</button>
+   <button data-gf-page="sitrep"><span>▤</span> SITREP</button>
+   <button data-gf-page="query"><span>⌘</span> Query</button>
+   <button data-gf-page="sources"><span>◉</span> Sources</button>
+   <button data-gf-page="hazards"><span>◇</span> Hazards</button>
+   <button data-gf-page="graph"><span>⬡</span> Relationships</button>
+   <button data-gf-page="watchlist"><span>♧</span> Watchlist</button>
+  </aside>
+  <main class="fusion-workbench-content" id="fusionView"><div class="gf-empty">Preparing public-source analytical data…</div></main>
+ </div>
+ <footer class="fusion-workbench-footer"><span>UNCLASSIFIED PUBLIC INFORMATION · CORRELATION ≠ CONFIRMATION</span><span>GULFASTRA v5 / NO PAID APIS REQUIRED</span></footer>
+</div>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <script type="module">
 import * as maplibregl from "https://unpkg.com/maplibre-gl@6.15.0/dist/maplibre-gl.mjs";
 window.maplibregl=maplibregl;
 await import("./assets/v3.js?v=20261020-9");
+await import("./assets/v5.js?v=5-1");
 </script>
 </body></html>
