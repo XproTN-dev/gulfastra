@@ -1,10 +1,10 @@
 # موجز جلفاسترا للمصادر العلنية
 الفترة: آخر 24 ساعة (حسب وقت نشر التقارير)
 
-مجموعات التغطية: 262 | عناوين مرتبطة: 283
+مجموعات التغطية: 264 | عناوين مرتبطة: 285
 هذه تقارير صحفية وليست أحداثا مؤكدة، ولا تعتبر توجيهات سلامة رسمية.
 
-## Security (191 coverage groups)
+## Security (193 coverage groups)
 - 2 Men Rearrested in UK on Suspicion of Assisting Iran Over Suspected Plot at a US-Run Air Base - Military.com (1 headlines; single-source)
   - Military.com: https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUUp0MVJFbTFVYUgySHgtUEJQNjQwZGh3RjBadjZDQkFXeXl0RXEzd0dXT0h4LUJHbk5WbVVrTGtiUXZuUk1Od0dva3REMjR4NDFRaExYU2JybXcxbVlVakoyMHVpZURtNlJyX1pla0tubmFXRHVxb1RURXNiNXBVSENrTFpqa2R1ejFaZHQ3eUd4Y1BWT2pValU2VTJHQ1Q5MWNEdE9mTG5lY3NJMmFjU2JBa2NMTTZCcUNJ?oc=5
 - الحرس الثوري الإيراني: انفجار ناقلة نفط بعد اصطدامها بلغم بحري - المصري اليوم (1 headlines; single-source)
@@ -23,6 +23,8 @@
   - Al-Monitor: https://news.google.com/rss/articles/CBMiyAFBVV95cUxOOFR0c1ZHSTlNMzNYb1FTX051MUM0WmtXdE14NElrMzkyeFI0Q0JkR3dBVm56c2F4UXpxYnJ1UFVFcFlabHZrYWFpYnBwNTdsNkpOWmhQM1NVUGVXVk9sUHlTWXctak1DSHFpUEhJT3NtX0J2ZVVFc1NZVkRRQ2p3VmE0ZjdIYU9nbEN5NS1XUTlaeWFZVjJ1RWpUNGN3WmhDZXRPdnVfTkliSS1FUFk5SlltOWVfbnNqMWtZVWVYaE1PNVlDN1Z4bw?oc=5
 - "سنتكوم": مضيق هرمز مفتوح بالكامل وهجمات إيران على السفن "بدافع اليأس" - Iran International (1 headlines; single-source)
   - Iran International: https://news.google.com/rss/articles/CBMiUkFVX3lxTE9MZ0lyT1RUT1RXaS0tbS1VWHZhczN4YU52eUFwYUZmdDB3YTBRWGdzOWVQRjVmMGRaV3JNdWZEbFYzR0pxR3hpLUN2WjFMb1lYMlE?oc=5
+- Iran Strikes More Ship Engine Rooms in Ramp-Up of Hormuz Attacks - gCaptain (1 headlines; single-source)
+  - gCaptain: https://news.google.com/rss/articles/CBMijwFBVV95cUxORTBJQWVBLVk0YkdmVDBwTVVfXzItb19DSGZ5TVdaeWRFckZpRUhDUG5oRWdDRXBLZm8wX0w0WDN6Q0hsYzhvMEdfdldiaWxmbWJ4ZkduYk1fVXdJSnUtejdWOGFJWS1oM2VwZUVMSWZpejduRVFkTlozOXM0eE53dTZwcXFHaWVUejZIek42TQ?oc=5
 - Air India, IndiGo & Akasa Air Suspend Saudi Arabia Flights Amid Middle East Conflict, Check Routes & Dates - Free Press Journal (1 headlines; single-source)
   - Free Press Journal: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNakhWbXY1ZVA5MG5BZFF2bE1IZ2pFbFVFeXVoSkVtSlFEZVA1UUtQNk5TeHBXLWNpM0taOHYzdldkLWZWSVc4UEhIY0ZBQ1RUSnFuUF9yUGpyWS1iS1JoUGYzZWVpa2FWZXhhdDBaXzRLWmJ2SkNOcUZ6SGdVbzFaRE43Smw5c0o5LVhHVnFxQm9JWDE3cllLaTlubE9tWEZaTVQzYVJOTmhkOHo5emo5WFNsM2c1aW1kTE9tMHB0TksyNlN1a0RrQlhLSlJfNHBEaGYxd9IB2gFBVV95cUxPdjBaUVVKWnRxZ3laRVJOQXZ0LWUzenI3UEIyQ1NEMkFMSERZeU90Nk8wZU5yY29RcUUyanVmZGRFazBvenNzZkE1T24wR2FwZDBYblpjNUh2bjBqZFRYVGEzdVJmaUJvV3h6dFQxZXVFbXFZdkg4aV9jYWV4Y1JpYWVfU0dhMUNVOXd6R1lCdmtQb2pSdTNHc1BWSVZhdWhHclYzYjJMSWlyVkhrQlE0ZFVNM3BTMGdPci00UzBpRW5EYVZDbGZOZW1OWnA2YWx4MXZrektmLUNHQQ?oc=5
 - الجيش الإيراني: اندلاع حريق بناقلة نفط داخل «منطقة محظورة» في مضيق هرمز - المصري اليوم (1 headlines; single-source)
@@ -31,8 +33,6 @@
   - Quiver Quantitative: https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZUcxUVM5VDd5RVZqOFpUMGEzcGctY0xkMXF3aXNUSFhDLWpfcUg5WG03UVZlZDFsZnhJZ05vbmJUUlA1REwyVmlzLXpydkFvVzZrcDFweEdWTzRHQmtfS0lzcnNuU2w5Mnh3QjZoVmRJU2hzdzBtVjdCMkxHSnlGcVBEXy05Z3Y0TkxXejFaMUdXMjJ6T0ROMDdNb3NKNEhaYU5MWHVxaWxmUGZXVmZRYUZLR3o5b1VT?oc=5
 - UK expands military support for Saudi Arabia against Houthis with ‘defensive’ air patrols - Oskaloosa Herald (1 headlines; single-source)
   - Oskaloosa Herald: https://news.google.com/rss/articles/CBMijwJBVV95cUxOZVEyMzgtQ04zNXhTRzh6MUFjajBwNnc0clF4ZDB2UW5oeTcxVU96c2NQY3VhUFp3UGtsM2tKbzc5SERmeVhtbGVBLUpGWHNYZjVYQlFwaXRGUllPbDgxUnRCVnlkZnRIY0gweU5nM0x2RDNlMWNIbFFKT3hDT2h3TGlpS19vM3pxaWZpNWg4YTlXMXUtR0J6a0tRTHdDSGotbzBwSi1MZHV2ZTNaZ2dUUFA3Q0tfYngwUEF5TkJUZmJjeHZxeEpwRDRFSzM2NmJBZlcxakpzTUVWWFpJOHltRW5DTXhGUmo1emUwTzFDbUpUR3E5RnRNeldQQmpFSVFlOE0tZ25PUExxaFAzR0tJ?oc=5
-- UK expands military support for Saudi Arabia against Houthis with ‘defensive’ air patrols - Ottumwa Courier (1 headlines; single-source)
-  - Ottumwa Courier: https://news.google.com/rss/articles/CBMilgJBVV95cUxQY21KM3VEeXVYd1lrd0hsc0l5azVGRFE5QkJmbkNaQ2dFTnUtVUc4Qi1EdURGeHRhWDluY0loYTRJazRETFpqV0oxdDc1XzUzcGRHb1F1aU1NLTAtT2s5TVNZMDkyTnhncWNEcEhDeTRwaXJwZFo5N3pRQlFBdmlKMnZZaWU4M3Qwak1aNHlBYS1RR3RnR1lVZlQzTDhDY0NxWWJ0ZzJ5aHktc0NGSXliOE4yVjBnQVAyQ0o1VDhFNkE4QW9OTW81UFBwR3hZb1BrYXpzN0l2WFNBa0VBbVJfc3FLTGFvWDdQTTJLWGxtTjRLNnhBMUdzcWg4RWo3M2hHek5Od3BXczVTLVNMVm5zWlNQWEVPZw?oc=5
 
 ## Transport (45 coverage groups)
 - إيران: إصابة ناقلتي نفط أثناء عبورهما مسارا غير مصرح به في مضيق هرمز - Masrawy (1 headlines; single-source)
