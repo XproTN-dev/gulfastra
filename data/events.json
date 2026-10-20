@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "generated_at": "2026-10-20T07:28:07.135706Z",
+  "generated_at": "2026-10-20T07:34:17.146880Z",
   "model": "deterministic-source-correlation-v1",
   "disclaimer": "Clusters are related PUBLIC REPORTS, not confirmed incidents. Source counts are not proof. Country names are mentions, not incident locations.",
   "events": [
@@ -42,6 +42,46 @@
       "digest": "ee9385069a3b17b0e491",
       "revision": 1,
       "updated_at": "2026-10-20T07:28:07.135706Z"
+    },
+    {
+      "id": "GF-9E1A014E9F7B5A",
+      "title": "UAE flight status today: Saudi disruptions and full list of delays, cancellations - Gulf News",
+      "category": "transport",
+      "topic": "aviation",
+      "countries": [
+        "Saudi",
+        "UAE"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T07:17:55Z",
+      "last_published": "2026-10-20T07:17:55Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "56d3bc0ce2403367ed12ac5f",
+          "title": "UAE flight status today: Saudi disruptions and full list of delays, cancellations - Gulf News",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcXJoME9Ic29uaThXRzZXZHdaUDNmazJ4OWVOcXhxVDN5dW1iaTFwd0g4RVJpNG1ORWhNdVFPSjU4Q1prT2stRjRBVzJEN2xrS3ZwYlhkVG1NVEE0MGJnMjB3S2R6Wi1feGl0MlBFM3hnTERKZ05SdHJKY3VyazI3cktxek9yTlRWNlI4UFMtZDhIbUZnbjV4Z1A3VjgzNFk5Zk95NF9NWTFzVUxtVWtoYXRNeTRTNVpqNEh4WEdLWUl1WHdJRV9IbmhB?oc=5",
+          "source": "Gulf News",
+          "provider": "Google News · aviation",
+          "published_at": "2026-10-20T07:17:55Z",
+          "collected_at": null,
+          "language": "en",
+          "country": ""
+        }
+      ],
+      "digest": "8472afe139a368c644c6",
+      "revision": 1,
+      "updated_at": "2026-10-20T07:34:17.146880Z"
     },
     {
       "id": "GF-FB0B7865068A0E",
@@ -3145,46 +3185,6 @@
         }
       ],
       "digest": "5c9286ca1bcbdaeedc47",
-      "revision": 1,
-      "updated_at": "2026-10-20T07:28:07.135706Z"
-    },
-    {
-      "id": "GF-B09D0E6ED840BC",
-      "title": "صواريخ ومسيرات إيرانية تستهدف البحرين والكويت والأردن.. والدفاعات الجوية تتصدى - الساحل الغربي",
-      "category": "security",
-      "topic": "missile",
-      "countries": [
-        "Bahrain",
-        "Iran"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "languages": [
-        "ar"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-19T16:18:43Z",
-      "last_published": "2026-10-19T16:18:43Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "02c49dcc3c7682d913adc079",
-          "title": "صواريخ ومسيرات إيرانية تستهدف البحرين والكويت والأردن.. والدفاعات الجوية تتصدى - الساحل الغربي",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE15VmNLVDgtRnRBRzRXaVowSlM1cTFRTEtwVGhhS0JoWVRpZ3FpdW1EZXZzdXN3SHcwNXVNV2s1N0tzMU9FYkZEZXFDWUlESWM?oc=5",
-          "source": "الساحل الغربي",
-          "provider": "عربي · الكويت والعراق",
-          "published_at": "2026-10-19T16:18:43Z",
-          "collected_at": null,
-          "language": "ar",
-          "country": ""
-        }
-      ],
-      "digest": "de34bbec0404770fd34c",
       "revision": 1,
       "updated_at": "2026-10-20T07:28:07.135706Z"
     },
@@ -25275,7 +25275,7 @@
     },
     {
       "id": "GF-FEFDEE84343B18",
-      "title": "Another tanker catches fire near Hormuz after two cargo ships sunk in attacks - Euronews",
+      "title": "Another tanker catches fire near Hormuz after two cargo ships sunk in attacks - Euronews.com",
       "category": "transport",
       "topic": "maritime",
       "countries": [],
@@ -25296,9 +25296,9 @@
       "sources": [
         {
           "id": "872c9bf91f6bc22eed841c10",
-          "title": "Another tanker catches fire near Hormuz after two cargo ships sunk in attacks - Euronews",
+          "title": "Another tanker catches fire near Hormuz after two cargo ships sunk in attacks - Euronews.com",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUWdqWXNXODBHZzhMbnlGWDd0dlB4LXBKQWtKQ1U5Z25NNHVSdHBUMXNJcXhaZDBLVjRqWVF6UU5rc2tXcG95bHJfcENWeXVVcjQzZ0hWX2N6UEpIZ2dNRkd1MEZxRnJFa1lSMm1xN2R2R3ZuWU16VFNGOHFHYzhlNEhXTzBuZnpFdTg0aG4tamlfbW1VZ05fY0lVbjBGZU1YbFRWQkVRdmhPLXZIbXowOXJoVQ?oc=5",
-          "source": "Euronews",
+          "source": "Euronews.com",
           "provider": "Google News · shipping",
           "published_at": "2026-10-15T16:00:57Z",
           "collected_at": null,
@@ -25306,9 +25306,9 @@
           "country": ""
         }
       ],
-      "digest": "7827aa7cbce7260b48b7",
-      "revision": 1,
-      "updated_at": "2026-10-20T07:28:07.135706Z"
+      "digest": "9eb1f8b32dd24b0aaa75",
+      "revision": 2,
+      "updated_at": "2026-10-20T07:34:17.146880Z"
     },
     {
       "id": "GF-E7A8033A4892FC",
@@ -34638,6 +34638,46 @@
       "updated_at": "2026-10-20T07:28:07.135706Z"
     },
     {
+      "id": "GF-B09D0E6ED840BC",
+      "title": "صواريخ ومسيرات إيرانية تستهدف البحرين والكويت والأردن.. والدفاعات الجوية تتصدى - الساحل الغربي",
+      "category": "security",
+      "topic": "missile",
+      "countries": [
+        "Bahrain",
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-13T13:09:10Z",
+      "last_published": "2026-10-13T13:09:10Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "02c49dcc3c7682d913adc079",
+          "title": "صواريخ ومسيرات إيرانية تستهدف البحرين والكويت والأردن.. والدفاعات الجوية تتصدى - الساحل الغربي",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE15VmNLVDgtRnRBRzRXaVowSlM1cTFRTEtwVGhhS0JoWVRpZ3FpdW1EZXZzdXN3SHcwNXVNV2s1N0tzMU9FYkZEZXFDWUlESWM?oc=5",
+          "source": "الساحل الغربي",
+          "provider": "عربي · الكويت والعراق",
+          "published_at": "2026-10-13T13:09:10Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "digest": "6019c47a51ef7350eeca",
+      "revision": 2,
+      "updated_at": "2026-10-20T07:34:17.146880Z"
+    },
+    {
       "id": "GF-4BCF1CEDA6EA75",
       "title": "تحالف دعم الشرعية في اليمن يعلن اعتراض وتدمير ثلاث مسيرات شمالي الرياض - https://emirates24.net/",
       "category": "security",
@@ -35626,10 +35666,10 @@
       "sources": 175
     },
     "Saudi": {
-      "events": 263,
-      "reports": 282,
+      "events": 264,
+      "reports": 283,
       "security_coverage": 181,
-      "transport_coverage": 69,
+      "transport_coverage": 70,
       "sources": 145
     },
     "Qatar": {
@@ -35640,10 +35680,10 @@
       "sources": 15
     },
     "UAE": {
-      "events": 48,
-      "reports": 49,
+      "events": 49,
+      "reports": 50,
       "security_coverage": 36,
-      "transport_coverage": 12,
+      "transport_coverage": 13,
       "sources": 32
     },
     "Bahrain": {
@@ -35694,14 +35734,31 @@
     "2026-09-04": 1,
     "2026-10-02": 1,
     "2026-10-12": 1,
-    "2026-10-13": 80,
+    "2026-10-13": 81,
     "2026-10-14": 113,
     "2026-10-15": 103,
     "2026-10-16": 101,
     "2026-10-17": 165,
     "2026-10-18": 125,
-    "2026-10-19": 163,
-    "2026-10-20": 33
+    "2026-10-19": 162,
+    "2026-10-20": 34
   },
-  "revisions": []
+  "revisions": [
+    {
+      "id": "GF-FEFDEE84343B18",
+      "revision": 2,
+      "at": "2026-10-20T07:34:17.146880Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-B09D0E6ED840BC",
+      "revision": 2,
+      "at": "2026-10-20T07:34:17.146880Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "version": 4,
-  "last_run": "2026-10-20T07:27:44.249186Z",
-  "last_successful_run": "2026-10-20T07:27:44.249186Z",
+  "last_run": "2026-10-20T07:33:49.949246Z",
+  "last_successful_run": "2026-10-20T07:33:49.949246Z",
   "reports": [
     {
       "id": "c68511ac64c4ecf307d3bcc3",
@@ -15,6 +15,22 @@
       ],
       "language": "en",
       "category": "security",
+      "tag": "AVIATION REPORT",
+      "provider": "Google News · aviation"
+    },
+    {
+      "id": "56d3bc0ce2403367ed12ac5f",
+      "title": "UAE flight status today: Saudi disruptions and full list of delays, cancellations - Gulf News",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcXJoME9Ic29uaThXRzZXZHdaUDNmazJ4OWVOcXhxVDN5dW1iaTFwd0g4RVJpNG1ORWhNdVFPSjU4Q1prT2stRjRBVzJEN2xrS3ZwYlhkVG1NVEE0MGJnMjB3S2R6Wi1feGl0MlBFM3hnTERKZ05SdHJKY3VyazI3cktxek9yTlRWNlI4UFMtZDhIbUZnbjV4Z1A3VjgzNFk5Zk95NF9NWTFzVUxtVWtoYXRNeTRTNVpqNEh4WEdLWUl1WHdJRV9IbmhB?oc=5",
+      "source": "Gulf News",
+      "published_at": "2026-10-20T07:17:55Z",
+      "country": "",
+      "countries": [
+        "Saudi",
+        "UAE"
+      ],
+      "language": "en",
+      "category": "transport",
       "tag": "AVIATION REPORT",
       "provider": "Google News · aviation"
     },
@@ -1267,22 +1283,6 @@
       "category": "security",
       "tag": "MISSILE REPORT",
       "provider": "BBC Middle East RSS"
-    },
-    {
-      "id": "02c49dcc3c7682d913adc079",
-      "title": "صواريخ ومسيرات إيرانية تستهدف البحرين والكويت والأردن.. والدفاعات الجوية تتصدى - الساحل الغربي",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE15VmNLVDgtRnRBRzRXaVowSlM1cTFRTEtwVGhhS0JoWVRpZ3FpdW1EZXZzdXN3SHcwNXVNV2s1N0tzMU9FYkZEZXFDWUlESWM?oc=5",
-      "source": "الساحل الغربي",
-      "published_at": "2026-10-19T16:18:43Z",
-      "country": "",
-      "countries": [
-        "Iran",
-        "Bahrain"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "خبر اعتراض / دفاع جوي",
-      "provider": "عربي · الكويت والعراق"
     },
     {
       "id": "e0d558673edba69f96cf",
@@ -10566,9 +10566,9 @@
     },
     {
       "id": "872c9bf91f6bc22eed841c10",
-      "title": "Another tanker catches fire near Hormuz after two cargo ships sunk in attacks - Euronews",
+      "title": "Another tanker catches fire near Hormuz after two cargo ships sunk in attacks - Euronews.com",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUWdqWXNXODBHZzhMbnlGWDd0dlB4LXBKQWtKQ1U5Z25NNHVSdHBUMXNJcXhaZDBLVjRqWVF6UU5rc2tXcG95bHJfcENWeXVVcjQzZ0hWX2N6UEpIZ2dNRkd1MEZxRnJFa1lSMm1xN2R2R3ZuWU16VFNGOHFHYzhlNEhXTzBuZnpFdTg0aG4tamlfbW1VZ05fY0lVbjBGZU1YbFRWQkVRdmhPLXZIbXowOXJoVQ?oc=5",
-      "source": "Euronews",
+      "source": "Euronews.com",
       "published_at": "2026-10-15T16:00:57Z",
       "country": "",
       "countries": [],
@@ -14332,6 +14332,22 @@
       "provider": "Google News · aviation"
     },
     {
+      "id": "02c49dcc3c7682d913adc079",
+      "title": "صواريخ ومسيرات إيرانية تستهدف البحرين والكويت والأردن.. والدفاعات الجوية تتصدى - الساحل الغربي",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE15VmNLVDgtRnRBRzRXaVowSlM1cTFRTEtwVGhhS0JoWVRpZ3FpdW1EZXZzdXN3SHcwNXVNV2s1N0tzMU9FYkZEZXFDWUlESWM?oc=5",
+      "source": "الساحل الغربي",
+      "published_at": "2026-10-13T13:09:10Z",
+      "country": "",
+      "countries": [
+        "Iran",
+        "Bahrain"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "خبر اعتراض / دفاع جوي",
+      "provider": "عربي · الكويت والعراق"
+    },
+    {
       "id": "2d6e21dbddb7c4e6ebd7e0a1",
       "title": "تحالف دعم الشرعية في اليمن يعلن اعتراض وتدمير ثلاث مسيرات شمالي الرياض - https://emirates24.net/",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9JbGFib05VZlQtNGFUejNsWTlyWGxJcEFULXR4d1RsMFVJWG1YOEF0Vm9IX3NyUFpwN282RXo3aUZlcDV6R2E1MDQtbTZCTEVTTUFr?oc=5",
@@ -14745,7 +14761,7 @@
     "Google News · missiles/drones": {
       "ok": true,
       "items": 100,
-      "relevant": 56
+      "relevant": 55
     },
     "Google News · security": {
       "ok": true,
@@ -14754,18 +14770,18 @@
     },
     "Google News · aviation": {
       "ok": true,
-      "items": 97,
+      "items": 98,
       "relevant": 55
     },
     "Google News · shipping": {
       "ok": true,
       "items": 100,
-      "relevant": 91
+      "relevant": 90
     },
     "Google News · diplomacy": {
       "ok": true,
       "items": 100,
-      "relevant": 40
+      "relevant": 41
     },
     "Google News · regional": {
       "ok": true,
@@ -14774,7 +14790,7 @@
     },
     "عربي · إيران والخليج": {
       "ok": true,
-      "items": 55,
+      "items": 56,
       "relevant": 42
     },
     "عربي · قطر": {
@@ -14789,13 +14805,13 @@
     },
     "عربي · الإمارات والبحرين": {
       "ok": true,
-      "items": 64,
-      "relevant": 45
+      "items": 63,
+      "relevant": 46
     },
     "عربي · الكويت والعراق": {
       "ok": true,
-      "items": 50,
-      "relevant": 47
+      "items": 48,
+      "relevant": 45
     },
     "عربي · مضيق هرمز": {
       "ok": true,
