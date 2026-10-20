@@ -106,8 +106,8 @@ function sources(){
 async function init(){
  let initial="spectre";
  try{initial=localStorage.getItem("gulfastra-v6-theme")||initial}catch(error){}
- themeSet(initial);
- $("v6Theme")?.addEventListener("click",themeToggle);
+ // Appearance is managed by v8 Appearance Studio.
+ // Legacy three-shade toggle disabled; the v8 studio owns the theme button.
  $("v6ExpandMap")?.addEventListener("click",mapToggle);
  $("sync")?.addEventListener("click",pull);
  $("refreshFromPanel")?.addEventListener("click",pull);
