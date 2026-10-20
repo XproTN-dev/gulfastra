@@ -56,7 +56,7 @@ function translateChrome(){
  $("[data-mode]").forEach(b=>{b.textContent=p.modes[b.dataset.mode]||b.textContent});
  $("#labControls label").forEach((b,i)=>{if(i<3)b.textContent=p.controls[i]});
  $(".lab-metrics small").forEach((b,i)=>{if(i<4)b.textContent=p.metrics[i]});
- $(".filter-top .kicker").textContent=p.title;
+ document.querySelector(".filter-top .kicker").textContent=p.title;
  $("labExplain").textContent=p.method;$("resetLab").textContent=p.reset;
  $("labNow").textContent=p.now;
  $("labLang").textContent=S.lang==="en"?"EN / عربي":"العربية / EN";
