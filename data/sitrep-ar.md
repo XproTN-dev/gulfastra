@@ -1,10 +1,14 @@
 # موجز جلفاسترا للمصادر العلنية
 الفترة: آخر 24 ساعة (حسب وقت نشر التقارير)
 
-مجموعات التغطية: 151 | عناوين مرتبطة: 177
+مجموعات التغطية: 156 | عناوين مرتبطة: 182
 هذه تقارير صحفية وليست أحداثا مؤكدة، ولا تعتبر توجيهات سلامة رسمية.
 
-## Security (86 coverage groups)
+## Security (90 coverage groups)
+- Houthi Missile Strike Kills At Least 53 at Yemeni Military Camp - https://globalpost.com/ (1 headlines; single-source)
+  - https://globalpost.com/: https://news.google.com/rss/articles/CBMimwFBVV95cUxPTTM5OUNEY1NCem4wSDRDNEtZc0J0VmxfWTU2dGYyaklIMUxRbXpWR0R2cV9lU1M4MVYwdXZYbngxTVJXQjk2QnZPUkZQTkw4anNGWnR2cDk3Unh3aEU4dmRzZFJ1Q0VBSU5BY0lYRG42cm13R29ObW92Z0dLMXRPVVRGbl9lcVlUVlRBNWdXQWRGSWNaZGo2UVY5SQ?oc=5
+- إيران: قواتنا أسقطت مسيرة أمريكية فوق مضيق هرمز - شبكة تواصل الإخبارية (1 headlines; single-source)
+  - شبكة تواصل الإخبارية: https://news.google.com/rss/articles/CBMiU0FVX3lxTE1XenVwdGNBaUplaWxPMXppZEF0ZE9UZkpfLTNNajh3dTdZSEttSXB1aUVWMjlrMVZubEhWVGR1ZVJzNldXd0FoUlZ2Q3NHNFVWMmNj?oc=5
 - Riyadh Airport Attack: Telangana Man Returns To India - INDToday (1 headlines; single-source)
   - INDToday: https://news.google.com/rss/articles/CBMif0FVX3lxTE1GSVl0UE8zbXZYalRPaVIwTV9IcnA0X09LdXVlV3R5WUNkaEZMVi1SXzJXNmVTVkUwelZTcGtWZm9waDU0Yi1XMVpYUWFweFoyWUVJaFhPbFA1RFpVZzZXMW51Sk90LXJMa3NoQnJCSjREX0djZ09CU09NYWdCSG8?oc=5
 - Iran says it shot down US MQ-9 Reaper drone over Strait of Hormuz - Yahoo (1 headlines; single-source)
@@ -33,10 +37,6 @@
   - NBC News: https://news.google.com/rss/articles/CBMitAFBVV95cUxPR3B5QUxha3llVXNVMTV2dXF2S243NlpESnJiTnJ5Qk5xZ2VkdmQteTJxb2tYRC1wQVhKa3YycUhtYU1KakRVV1VRcFBKMDZHS2tnS1hPZl8xOFdDUUVDUU45cEJEYTdlZHlGUEh3bHFGbTNlZGhrcG5GV2dpazRlbzcwQzlLMlgzd2dyMXVtT25NaTdMOTRDODFvcFNRQ1daZ3BiUF82NG04X1F1TnphNWxISzk?oc=5
 - كلفة الصاروخ الواحد 15 مليون دولار:السعودية تفعّل «ثاد» وسط أزمة إمدادات أمريكية - الثورة نت (1 headlines; single-source)
   - الثورة نت: https://news.google.com/rss/articles/CBMiTkFVX3lxTE1hYkJkbFl3Q01OdVY3a0JzV2haSEp3VHZCR3IxUGpZZzlYazhocFVMUFl0REZuUlg1MjBpc0haWktneGRWQldiZGl5eFUtZw?oc=5
-- ترامب: قادة إيران طلبوا وقف الهجمات ويخشون مصير أسلافهم - العربية (1 headlines; single-source)
-  - العربية: https://news.google.com/rss/articles/CBMizwNBVV95cUxQMnlaXzJ6OHNKT3BmZUlZcUQxLVE2dDFqV1VBUEE2YkxUTVgyWXM1SkgxdWxxcTF4OFBOWWhzUzFMV3RhZHlXWjJNVGkyckJSZE0yeXFFUE9ZbktyaVFQbUxiNElfbzlYWlRCTmI3ai0zZnlTWG5yeEtmSmk3YmJEVVc1cHFhRGpQbWd0ckl6NjdXS1dWOVhhWnFGc25nU0hBelJCWXlDSV9Hc1dIVWQyenk3NkhyeEplcUFuVkdaQ3Q1MVdteWV0aXkxQ1p0Mi1iOHowNG1vWHRNTkFTRU5tSlVZSmY5STRGUU9OV2tDT3VBalU0QXZiYnl3eHJoRXhfNjZCdE56ZVVHbHFyYUtNUHVNVzV6eVp6OW1yal9zSnloOWN3OUxWNVBBaE1hLWFSaldzYmJRTU0tTldDSmtuTkt2dHprNWE0Z1MzclJsb0pZVXlxSU1HcmZESXZITzdrMk5QaU1HV05fRDVGZnZSaGM4Sm4xUFNNQ0k1U3VSYUM4c0pacDZxZW1IM2V1NU9GSnhFTDdCZkJpUGJIS01UUTVJUGU2TDUzb3RDWXdkcWRGWU9zS05DN3YzQXFKWndsa2VDSzFicU9jVkp6WG1N0gHUA0FVX3lxTFBTbWhXcTBlNlViYjhTdFpZM1QyUjFoQW1BWDFGVGFxUTdGUjdGdGpWLUFXeGlreXRkZWJFZ0RwUi1fdms1VFJscHU5bkRrMDIyanVuX29yN21Vd19JRENaY2V3QmJQbEw0bUxDOV9nYkYxRklrYlk0bEdrTC1LRllzWDhXdUNjOXZzZ3o0REhyRGNvZlZJNnNCRkc5TnFsQ0hGVEp0emx5bExVQjlvZGd0UjNaZHdFdGJOWDFfQW9tTkhlVWZEamN4c2dmcmNSUDZHZTZ1UkRTd0p2dFJJUjVxWlFnenQzcUEtRnRyc012dTZzM1U5bloxVENXdG5YaVpZY3pDZDVJR2xlRVJENUQtT2NxblVBY1B6V2FYVU94RmFuVEs5SWtZWFI1X0xfRkxFRVBKUHRSSlR4ZjdnbTd2YXBIUW9yMDIzQ1ZiX1ZYb1U0dTJmc1BQYjNmOGZrYWlHUWtBUjJ6bDFxNWoyUm5vemJ5eS1sT3lsZGYyYy1HV2pZcS1Zd2NhSzlla0FjdVAyYXdoNHp6V1VxZXhyVGxRMm1TSVVTZ0R1RGJTLTFaajBQcTlwelRRc0RmVWsyb1RKS0E5QlNDbVJUYVhFNElsQ0dPaQ?oc=5
-- Iran war live: Houthi attack on Yemen military camp kills 58 - Arabian Business (1 headlines; single-source)
-  - Arabian Business: https://news.google.com/rss/articles/CBMigwFBVV95cUxNeGVzSjhrbUhOTTctX0ViTkJTRnFEZnkwNTJQR3gySTJRQlk3aXNwenJ2Qk1DejVYcF84dmF4WDFPd2xKRzEwazEtOEdOb05OOFhJaXZQVTd3R2lDRHdGbTgtM1JSSEMxeFN5OTlLc0tLNE55MHlHRDZNU3lOVFBDaTJwQQ?oc=5
 
 ## Transport (46 coverage groups)
 - UAE flight status today: Saudi disruptions and full list of delays, cancellations - Gulf News (1 headlines; single-source)
@@ -68,7 +68,9 @@
 - هل الفيديو لإصابة ناقلة نفط في مضيق هرمز حديثًا؟ - موقع مسبار (1 headlines; single-source)
   - موقع مسبار: https://news.google.com/rss/articles/CBMipwNBVV95cUxOd3FkMzNucVpaWHZsdHRCOWp4QnBWYmhfTkVxUU9Cd2ZvUUs5QUtrREluS1l6Ync1SUZHc2xBSHJQaFloNmFMNFdGandJdkQ0ejlRYTdlbER6bU4zdGJmYUFBV1JhdzFMUmxVOWdiRGQtd1FJeFJpUG1ZUl9IM1lETW0ta2dIcjdBUl9FVkVUZkJIYzhyakkweHFCcUQ5UmdNS1AydkdGQmdHYlplanZxdGtHVjFsYVhNbEZHUVEtMWQxQUdHRmU0LVJDVzFIdEFTLUREVklJclVvZHdSaENWTmRSZlJPSWhkWVllS2VQSlVmeGNneGprSWJoUjM5MEF3V1lvV1pONjgtZkxyQUhVcHlPWTFFVDVSUXBjbHVzbkg5YlVRX0c4YTFtX01HOVhEdmxxUVVwSGZSSS1lNXRCTWhkMmtNNE9JVnZlVE5PdVRBLWJ2UUhiU2ZXS19zUkYxZkJYaklVbHVQa2Y2emlMUmFLVEgwRXItSmlSck04bXg1Z3N1NjRHaG03WGhzVzVPajNsQ1paRl93TUlULU9DUlVZelB6dmc?oc=5
 
-## Diplomacy (19 coverage groups)
+## Diplomacy (20 coverage groups)
+- Iran war latest: Hegseth makes surprise visit to Israel as Netanyahu tells Trump 'we have job to finish' - The National (1 headlines; single-source)
+  - The National: https://news.google.com/rss/articles/CBMijgFBVV95cUxPTVZ5ekNnd0lWdHo2RW5CVnUtOVZqZG5VUWd6V1pUQ2d0a2NxWFEwRzI5OTBQckZtTnVKUWRMZzNuT3N0X1V5YXlEU0lfdWtRY0hlRXRJSlNpNFhXZ3hYN240RTNCamhPSDBSaGdVZ0J2TUl4RDR3QUFFa1laMDRQTm5kOWF4QXZjTWdyZjR3?oc=5
 - ماكرون وأمير الكويت يبحثان تطورات المنطقة ويشهدان توقيع اتفاقات (1 headlines; single-source)
   - libyaakhbar.com: https://www.libyaakhbar.com/world-news/2900090.html
 - Live : oorlog in Midden - Oosten , Trump over Iran en laatste nieuws (1 headlines; single-source)
@@ -95,5 +97,3 @@
   - The Jerusalem Post: https://news.google.com/rss/articles/CBMiXEFVX3lxTE5CV0dNTVVnNUZlMmlncmF4amlNa19Qc0J4cHpQd2lSXy04aVJ1VFNsdWZqbkU5bnBVdzJTTGg2eE1ndVhjREp4by0tM29PbkVIM3YxTlEyY1FLM3ct?oc=5
 - Donald Trump, Benjamin Netanyahu warn Iran as fears of renewed war grow - The Jerusalem Post (1 headlines; single-source)
   - The Jerusalem Post: https://news.google.com/rss/articles/CBMiXEFVX3lxTE5CV0dNTVVnNUZlMmlncmF4amlNa19Qc0J4cHpQd2lSXy04aVJ1VFNsdWZqbkU5bnBVdzJTTGg2eE1ndVhjREp4by0tM29PbkVIM3YxTlEyY1FLM3ct?oc=5
-- Tehran seeks to punish Trump in midterms with oil price pain, Iranian officials say - The Washington Post (1 headlines; single-source)
-  - The Washington Post: https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQU9zWmplZXFuSDRfamdEOHBqZDlvY2VEYkNMTUZ6blFPN3ptd0tWZVBJU1FvSE90Z08xdjJTZEl2eXliTFJQVjExSENYMXhRMUhxVmZoSXQ5UVZIeGdPODBfa3d2eG9MZVdfeE5rQjloZ19zMkJORVFsaC1pV1RNXzRCcGhhVzdWSm1LMFFucG5GT19DcmlrcUhHbnRGWlJIYktoZHh0Q1J1SV82X2tfSkVoLVozbmVpOUUwMmVMMVI5Vk0?oc=5
