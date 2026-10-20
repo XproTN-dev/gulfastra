@@ -29,6 +29,8 @@ jobs:
           sleep 2
       - name: Validate Arabic classification
         run: python scripts/test_arabic.py
+      - name: Validate conservative source fusion
+        run: python scripts/test_fusion.py
       - name: Check desktop and mobile visual behavior
         run: python scripts/visual_check.py
       - name: Save actual browser screenshots
