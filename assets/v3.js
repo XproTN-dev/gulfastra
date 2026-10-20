@@ -45,14 +45,7 @@ function visibleList(){let rows=filtered();return s.mode==="all"?rows:rows.filte
 function updateMetrics(){
  $("mTotal").textContent=s.reports.length.toLocaleString();$("mSecurity").textContent=s.reports.filter(r=>r.category==="security").length;$("mTransport").textContent=s.reports.filter(r=>r.category==="transport").length;
  $("mOutlets").textContent=new Set(s.reports.map(r=>r.source).filter(Boolean)).size;
- let m=(Date.now()-new Date(s.last_run||0).getTime())/60000;
- let label=!s.last_run?"NO DATA":m<=45?"CURRENT":m<=180?"DELAYED":"STALE";
- $("freshness").textContent=label;$("freshness").style.color=label==="CURRENT"?"#62e6c2":label==="STALE"||label==="NO DATA"?"#ffc180":"#f0df9c";
- $("freshnessSub").textContent=s.last_run?"Collector: "+age(s.last_run):"No completed collection";
- $("headerUpdated").textContent=s.last_run?"LAST UPDATE · "+age(s.last_run):"AWAITING DATA";
- $("feedUpdated").textContent=s.last_run?age(s.last_run):"NO DATA";
- $("sourceTime").textContent=s.last_run?"Last collection: "+fmtDate(s.last_run):"Dataset not populated";
- $("mapFooter").textContent=s.last_run?"Collector timestamp: "+fmtFull(s.last_run):"No verified collection";
+ // Freshness and collection status belong to the single v6 status controller.\n $("mapFooter").textContent=s.last_run?"Collector timestamp: "+fmtFull(s.last_run):"No verified collection";
  let status=Object.entries(s.providers||{});
  $("providerStatus").innerHTML=status.length?status.map(([key,v])=>'<div class="provider"><span>'+txt(key)+'</span><b class="'+(v.ok===false?"error":"")+'">'+(v.ok===true?"✓ "+(v.items??"")+" FETCHED":"! ERROR")+'</b></div>').join(""):"No diagnostics yet — collection has not run.";
 }
