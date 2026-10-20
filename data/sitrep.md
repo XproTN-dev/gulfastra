@@ -1,41 +1,43 @@
 # Gulfastra | Open-source situation report
 Window: last 24 hours (publication-based)
-Coverage groups: 224 | linked headlines: 246
+Coverage groups: 227 | linked headlines: 249
 IMPORTANT: Unverified published reporting; not confirmed attacks or official safety advice.
 
-## Security (156 coverage groups)
+## Security (158 coverage groups)
+- تشكيل منتخب الناشئين - عبد العزيز خالد يقود الهجوم أمام الكويت في كأس الخليج - FilGoal (1 headlines; single-source)
+  - FilGoal: https://news.google.com/rss/articles/CBMi0gRBVV95cUxNTFhYbDFOZWNzX3ZSd0wtUjh0M1kxTlNVNS0xZEhjUW9ZdGFzTDVUQ2tqbGZQX202VWpHNmx4LUhTZy1Tb0ZvZlhfS1Bfd1pBVkRlSjYyQWNiUmxUWmc3b2VRcmJkVUVON0NKVDd1WG9uY3NIV1FrSk5EWlBicjJ6V2dYZTZzQ2EtQ01WSWUyRExZTzdPb2h0VGJiNExncnhTZ0JfTVVFWkNTbGVmeUlIZlBQRWIyOGo3VlhocjdwZTltaWdQQnpGdk9TVERrX3FUdi05UGFiYkgtUFdOeThIcUMyMGx5ZXFFYjdjVS1LaTN1UjdGSDUweWdPd3ZYOGU4YmNHYW1YN0lxWE5MMGktTzdGNXhaNjJZV1V3Q0NCbXhlQ3gzTVVmbnZ1el9iUVVUT2gtaGlza2RoNW1lLWFNT3k1cmFjTl95SHFzal9lWm5KMFRHdWtZdHdNS0Y3X1MwenRCQVJpamtXX01oMFJUWjh4UDYyLWgxcFcyM3d2OGh0OElBSUVOZmVnV0h4TkRQZkpFWW0zcGVnOVZCLXB5ZG1kaU5xQVphSDdIMDVGeW9wVmR5YngtRWFOd3ZOYnhxTDBrUlVHTTJ4YlRRdkJhVzZTRmx5Rm8taGVMSktZbDhJUGx2dmEzNnBpNDhkSjFrR05MLWZpTjhNTjRJTG9DRlRfek5EMzVfTENkbFdNT0plZmE4WVRRdEtHTFBhUGJvNU8wSlpLODdhN1NXT0pya2hpelpMMUt5NHAyZERXWXU1ajZ0VmhCMEtabXdvaWgzV1HSAdcEQVVfeXFMTkpLSGs2MS1QNVVveUM4dlBUcHE0SkNMMWpPbDdFbURWVEM1MVVDTmduZVAtQzlvUll4aWp5OGRqYVNPSFFPajYxdmFEN3cxb1lpM1pfakV4ZHphekk4bnJLdnk0a0FLUkxvcVRCamthVDFPUGwxWjNRQWNiTTVvQmJjVTQ4OFNKellCNWFVYXpTNWdwMDhXN3FZZnNhV2hSamczSm0xbHFKVWNrSFRwT1gxd0tIb25xX3dqS1gtczc4RW1ycGxkQXBkTDVWM1E0VlhLelR5MGU4bHh4QTUwMnZrQnc1dzZobjZ6ei00WF84d3c4WFhyR1dDNDRNNEhrWEdaR2JpZ1liYkdkVnJFV1hRZTVkUkxEcmE4THRnSHhySkZ3X01Bc0hYM2NURjBvSmZsZ2dWMkVScllCdjRUQUpIOXpiM0g0Z04tWDAwY3lWYTI1OTZFUFhyY0ZWQkxpTURPb0t3bUVWeER6MWltaUVjaU83MGVtcjNQMjdwRkF1SGxvOUJVT3pGaTNDMks2U3VDRGhSRWxMWnk5UW00MVZ4cXJwVnp3Qk96QS13cTJfdy1haEJHNm5fSHNFUmh6dEpDNmhmNVpYU21MT2JFQTRfa1M1ZF9RTzRILTZaT1IzaklKNXZPTGxSZ1paYWl0WkVIUERnMTgtUlBDb1NjbTladmYxQlhHYzdLem9qanlvU2xwMlpEcklJTXNOSHc2V2JIMUZMdmZGWjE4WDRoZ3dUOFJ4WUVjZWR2c0JkTlp0aUVKRm0yQnNXUTM0bzdiQXo5V3V2WTg?oc=5
+- As U.S.-Iran ceasefire talks teeter on the brink of collapse, the U.S. Secretary of Defense made a surprise visit to Israel, where the two sides discussed the Iranian issue. - 富途牛牛 (1 headlines; single-source)
+  - 富途牛牛: https://news.google.com/rss/articles/CBMilwFBVV95cUxQQldjQlEwb0tGSFYxcFhqMzBDUy1IM3F4YU92UEZ0TzM3REM1NDJOcjhGeG9YbVlYMTlXYmdrcVI1NGFBZ0EwZzM2YWhOc2FDY1dFeXhrZ1ZYVTJYb3VHNzBpRDJkZV9oV2Vxa0NYMmUwdnhnZk1ELXZ0UXUySGNNOGtPMVRkcE54X0I1ZzB5SmRtS09ldXNF?oc=5
+- UK to deploy jets to defend Saudi Arabia from Houthi attacks (1 headlines; single-source)
+  - BBC Middle East RSS: https://www.bbc.co.uk/news/articles/ckr5yqe1r1llo?at_medium=RSS&at_campaign=rss
+- Iran rebuilds for the next war: Missiles, bunkers and military industry - Latest news from Azerbaijan (1 headlines; single-source)
+  - Latest news from Azerbaijan: https://news.google.com/rss/articles/CBMilAFBVV95cUxObkowLU9KVnNmeXNFRW5TRGpEaWxPVE9HR0NjRTNqMThPZ1IxZ3ZEY3lYQkw1SHgtZDVYWU9vcW1mWU1VTFhGUFFBY1JQejctdDlrNWk2dnR3ZkFSTGdKcThfNDBLUWMyLUZVN2dqYVBhcXBJWDYtUUVNeUdLR2JIZmN2V0cyUFdPU3ZJbHhvWXB0V0Jo?oc=5
 - طهران تعتبر الرد الأمريكي على مقترح هرمز "غير كافٍ".. وقائد الجيش الباكستاني يزور إيران - Euronews.com (2 headlines; multi-publisher-unverified)
   - Euronews.com: https://news.google.com/rss/articles/CBMiwAFBVV95cUxQX2dmZm9NTTMwbXpIZHhFanM5VlNjcG00MWJnSFItdEJsUDUwODJHN2o5QXVzOVRHSmhNdlhOeWxvM3owNFE4eGxiODYwUTV0aGpMXzZEMVR4MlhlR2hrYkwwZ0xYbFVSOHkyaXNYWDdFMERfUXNuZE9tSmNhZjZyamE2R3pQeDVacDM4RzZuT29Ubkp3MEw2RGE4dGNkaGVFWGRPNEUtdGgtWTZzN25rb0I5b0lwWmN0cVBIUUFnNWY?oc=5
   - الجزيرة نت · RSS عربي: https://www.aljazeera.net/news/2026/10/20/%d8%b9%d8%a7%d8%ac%d9%84-%d8%a7%d9%84%d8%ae%d8%a7%d8%b1%d8%ac%d9%8a%d8%a9-%d8%a7%d9%84%d8%a5%d9%8a%d8%b1%d8%a7%d9%86%d9%8a%d8%a9-%d8%a7%d9%84%d8%b1%d8%af?traffic_source=rss
+- The UK expands military support for Saudi Arabia against Houthis to include 'defensive' air patrols - Springfield News-Sun (1 headlines; single-source)
+  - Springfield News-Sun: https://news.google.com/rss/articles/CBMioAJBVV95cUxOMFAtbVdpRTZWX182TE82UzJzeV9obUpNc2MtTDdaZ3lBLVd5aUJsU2MtN2hGTUNIZW1jaGdvcGpjVEtlaHlOc25BMVd0UDd3VWRCWnZOOHNvZXFfTGFZVkpIZ3dBV3hodmVJWEg1UnZINzhRUjBfQnJ3a2lyVUlmeVk3c0Z2ZUttZ1g3UUoxeDItZ1JPcjB2MWlvWC1VUHhCREpVRDVCRS1XWGJpdUlQbk9YcGNJb0ZmQklabnF6LUNIZV84YmQ5RUIyUkpwV2xXejhoTkM2cFZYeGtMME1iT2dOTlA4dS00LUFsTTFXOHBZczhHNVNCNXd3ZVJNclpJbWlvT3hIRDlBTXpIWXAyVXMtRGxBWDczc1NXSnlWU0s?oc=5
+- بريطانيا تدخل المواجهة الجوية لحماية السعودية.. مقاتلات "تايفون" لاعتراض صواريخ الحوثيين ومسيّراتهم - عرب لندن (2 headlines; multi-publisher-unverified)
+  - عرب لندن: https://news.google.com/rss/articles/CBMiS0FVX3lxTFBDckdzckE1ejRCN1picEJ6WTVSeHZ5VmJOYmpzVlhhS1VvekY3Skd4VnNDMjlPWEtFZzdZRU1TM01falBPTzRoRG9sbw?oc=5
+  - arab-london.com: https://news.google.com/rss/articles/CBMiS0FVX3lxTFBDckdzckE1ejRCN1picEJ6WTVSeHZ5VmJOYmpzVlhhS1VvekY3Skd4VnNDMjlPWEtFZzdZRU1TM01falBPTzRoRG9sbw?oc=5
+- UK Deploys RAF Typhoon Jets To Defend Saudi Arabia From Houthi Missile And Drone Attacks: 11 outlets compared - NewsCord (1 headlines; single-source)
+  - NewsCord: https://news.google.com/rss/articles/CBMi6gFBVV95cUxOZXRoellXN3I4YTBWN2I2XzJOU2lZVE9kelFQbXVuenV4WFNtWkpwZVFGMXJ5ZzFIa3luZ1hUcGVWUExOQ3hLNmNTeTNDbDVOOU1GUTFJX1ZRX3hudmpUb2tUaWZVM3Jxcll0TmpQamhlM2E1d3hfSGEwX0pFSHVkbktXQmJjOFZoWFJTaFlMU1NoMzk5bkphZjVfM05RR3VBczV4Z0FWMEVvcVNIWlJmaHVKV1RHVXFHcFlZQW9qa2x4aVoyeFNPVjduRGkyUVUxczF1c3hMWnJTNEh0ZWtMMnMzdV90emR3UUE?oc=5
 - وزير الدفاع البريطاني: مقاتلات تايفون ستنفذ عمليات دفاع جوي فوق السعودية - صدى البلد (1 headlines; single-source)
   - صدى البلد: https://news.google.com/rss/articles/CBMiR0FVX3lxTE9wU2lzLUYwN051Z3ViNXdZazFhWUNaRUxrWkYtcFVkWDctTVJibzkwUWVSMU1vZTBkX0trQjJIczcyZG93Ti0w?oc=5
-- UK to deploy jets to defend Saudi Arabia from Houthi attacks (1 headlines; single-source)
-  - BBC Middle East RSS: https://www.bbc.co.uk/news/articles/ckr5yqe1r1llo?at_medium=RSS&at_campaign=rss
 - مقاتلات تايفون البريطانية تستعد لحماية أجواء السعودية من الصواريخ والمسيّرات - موقع الدفاع العربي (1 headlines; single-source)
   - موقع الدفاع العربي: https://news.google.com/rss/articles/CBMi2wJBVV95cUxONUpwWUxwbnNFQjFjcUVPS25yMExLdnYwUmNnT2tBSDBfZDJGQW83c0R5Y2dRZW52ZWduZHdGSUFOaVZybk9lVVN5MmlHNF9xX3RGeUF4NnZhUlpUVnRwRVBSejNaVVFpWGJmQTJzZVAwd3VBU21WUmdkSVFZR21vYUxuVUlEekVYZTNiYVFzd3U3ZXVqbENObnZkSW53bkhSR19PenZfeC1SRjZWZjFVVDFZT1BNWEFOTXdTam1Od01HR241ajVSYjlfX25vU05SR3I0cVYxUENYR0pmTmx6d0hKcXB2LUhzOENCbmU2ZERheGlUTGFXZ0FOTDd1X2hmOVZBX1RPa1MwV1RmRUZ1MXl0dUxlQWU4cVRFRWZMZ3IxcmkzTHdvNTF3UUxYQnRrbC1kTzFSSUNZLTFWYklCeTJ3SHRFX1FzVDdtd3VSZ3VucjFSbjUwUnhuTQ?oc=5
 - UK to deploy fighter jets to protect Saudi Arabia from Houthi attacks (1 headlines; single-source)
   - The Guardian · Middle East: https://www.theguardian.com/uk-news/2026/oct/20/uk-raf-typhoon-fighters-saudi-arabia-houthi-attacks
-- بريطانيا تدخل المواجهة الجوية لحماية السعودية.. مقاتلات "تايفون" لاعتراض صواريخ الحوثيين ومسيّراتهم - arab-london.com (2 headlines; multi-publisher-unverified)
-  - arab-london.com: https://news.google.com/rss/articles/CBMiS0FVX3lxTFBDckdzckE1ejRCN1picEJ6WTVSeHZ5VmJOYmpzVlhhS1VvekY3Skd4VnNDMjlPWEtFZzdZRU1TM01falBPTzRoRG9sbw?oc=5
-  - عرب لندن: https://news.google.com/rss/articles/CBMiS0FVX3lxTFBDckdzckE1ejRCN1picEJ6WTVSeHZ5VmJOYmpzVlhhS1VvekY3Skd4VnNDMjlPWEtFZzdZRU1TM01falBPTzRoRG9sbw?oc=5
 - Oil prices rise as Strait of Hormuz tanker attacks escalate - Quartz (1 headlines; single-source)
   - Quartz: https://news.google.com/rss/articles/CBMidkFVX3lxTE9wNThNdGREZG9pVlpmMVhOMHhpdUZscFlLdEhqWHNFQXpIeEl3Q3dla2c0MnBCZDBWV1FXTTI3ZnNkWjhRZ0U1OVQzbmh3UHEwbEpyYVlDWHVOUXNod3p3dmZlNnpuZTNOTWpabnZMTVZiOWdibkE?oc=5
 - Saudi Arabia announces interception of Houthi missile targeting Riyadh - Yemen Online (1 headlines; single-source)
   - Yemen Online: https://news.google.com/rss/articles/CBMiUkFVX3lxTFBfTGlPMVh5NFVHZm84cmpJY29XY2FOREZhdnl0UjIxRGYydHh0RVZHM0FYNXZlc0tHWjg2bnA1Nmw0MHh2d2hHRmNHWU1fMjEtVHc?oc=5
 - هل استنفدت الولايات المتحدة أكثر من نصف ترسانة صواريخ باتريوت في صراع مع إيران؟ - Vietnam.vn (1 headlines; single-source)
   - Vietnam.vn: https://news.google.com/rss/articles/CBMikwFBVV95cUxQS1o0U0s5bE10eU1zQm9vS0YwaEhTcEg1cHo4Yl9qZTU0MTRfc1F6QlpKU3Vzc1ZNb3NjckowTDZRVlBnQ0dUN0ExNXVleVR1N29sMjYzaVE0OWF1WGZhd05HVUlzd0FTclhaMjhNTjBZVjJHQ2c3M3V1TTh5RV9RMDhJSDNaejltazB3NEhqV1Y5Rlk?oc=5
-- The UK expands military support for Saudi Arabia against Houthis to include 'defensive' air patrols - WPXI (1 headlines; single-source)
-  - WPXI: https://news.google.com/rss/articles/CBMihgFBVV95cUxOWFVpcWlDYU5FN0VLOEJqWDVORUhKTGE0TE1GN0x0YV9Pb2Z0Yk1TRmxMNGZrZXIxVnFXTWZZM2ZxNE1pVGw0bVBjSnRaZW9CSEFJMEQxOUFiVDdBSGtrOVhqSmx3VjB5V2M2eTRpTnEtUm4yS2QyZlZ1dDgtTUZBaElvMTBkd9IBmgFBVV95cUxPbHJpVzVGSWhLV2kyWFhQbEFKX3NLenpFZ3NmUGN2aUNQSmwzeTVDekRLbXNxQ285MmlEQ2I4N2oxT0JrVUh4N3Z0Wk01UVhScm1Wa0lHcHZTOU9BYWNadHdPNE01Q0pJSi12QnZJNzhyVHFWVTlJbmV6cG9hRmVDTTN3MmtvSGdHc3FXT2NQY1JNSU9vazBEb25R?oc=5
-- بريطانيا تدرس تعزيز الدفاعات السعودية بمقاتلات جوية وسط تصاعد هجمات الحوثيين - https://www.youlyou.com/ (1 headlines; single-source)
-  - https://www.youlyou.com/: https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBSVTBXb3FEemdtS1UwLTdxdzNKQ0QyWURDcjNZQkFVNHVfWjhsSVNqcldrUVNycUZHZHVjNjB6VzU4X28?oc=5
-- UK to deploy Typhoon jets to help defend Saudi Arabia from Houthi attacks (1 headlines; single-source)
-  - Al Jazeera RSS: https://www.aljazeera.com/news/2026/10/20/uk-to-deploy-raf-fighter-jets-to-defend-saudi-arabia-from-houthi-attacks?traffic_source=rss
-- بريطانيا تنشر مقاتلات "تايفون" في السعودية لمهام دفاعية ضد صواريخ ومسيرات الحوثيين - رؤيا الإخباري (1 headlines; single-source)
-  - رؤيا الإخباري: https://news.google.com/rss/articles/CBMiRkFVX3lxTFB1b25MV1NaakRtN3FiZFROOERPMHV6dGI5US1PTnhuU3Mwa25kMjFCUGh1WUlHV3VOMWl3eTJDSUN5VXdPcVE?oc=5
-- من طراز «تايفون».. بريطانيا تدفع بمقاتلاتها لدعم السعودية ضد هجمات الحوثيين - المصري اليوم (1 headlines; single-source)
-  - المصري اليوم: https://news.google.com/rss/articles/CBMiX0FVX3lxTE9DUU1lSDJDdnllRkg3QjdOOUl4cDg1UXV4WHpLM0NYaUN5enFqR3dzMTBzeFNVU2hEanJmeFZ3RTdmMk1YNlc5akI4SVhWYUxFOVdhMEF4cmNFU0NUU0tJ?oc=5
 
-## Transport (43 coverage groups)
+## Transport (44 coverage groups)
+- مخاطر الحرب تبقي علاوة النفط مرتفعة وسط تراجع تدفقات "هرمز" - NOW الشرق (1 headlines; single-source)
+  - NOW الشرق: https://news.google.com/rss/articles/CBMi2wNBVV95cUxPSWp6MmNnaVhBQ0IzSmoyZ2FKTnllM28zLTgtU0hzVkNXTHhaY0dLdTEwbmlQSVJHUVRQbGRWazdPSGgtQmR2d0sydGpRTmFyaWpuME1pSlJneWxnc1Q3SEJYNVNmNjJlZ2RUVHFPa1EtZ1NaWVE0bHBmQjJSUnpLTkdyaUptZFY3Sm5TQjFuc283ZzBPZDVtN1JNSVFyUUtpbFNfNTBpb04wWWZ1dml6VzZmWVoyWFFzcWJ2bmtqSjQwbzdyYkhFcFFiUXdXYS01bzBDV1JOM2dlNVZ2Yk5UZ2FuUnAxZjc5WHQ5V0FqM2JCOEpXZ2V4dXFhUld5MlpRQzRPT3Y4eFVGdE0xTngza042STA0QzliLXVJS0Vsc1J6RTZ2d0JtY0ZjYi1rMXJPQ0xCLXNacklqV0hVakk3eVRpWHJtXzM5QTkzSnRULURRaGotOTNCOHpic0ZaSFo4S3pseGR0S3ZMbDM0cm5KcEpFcElad183ckZBWlNPMGwyYkp2TUE5eDNxVUZucllGN1FJVXJZWDZBXzhJcERrMGNRQ2xxVnNNU1J0eUpMam9MSHdpM2g3UVp5czI3aDdOaHJmNy1HUlBRY2VFWVlRcFFoODJTTUZETEFR?oc=5
 - Yemen’s critically ill are trapped as war closes the country’s airports (1 headlines; single-source)
   - Al Jazeera RSS: https://www.aljazeera.com/features/2026/10/20/yemens-critically-ill-are-trapped-as-war-closes-the-countrys-airports?traffic_source=rss
 - "إتش إس بي سي": الطرق البديلة ربما تغني عن مضيق هرمز خلال 5 سنوات - الجزيرة نت (1 headlines; single-source)
@@ -52,6 +54,8 @@ IMPORTANT: Unverified published reporting; not confirmed attacks or official saf
   - www.aajeg.com: https://news.google.com/rss/articles/CBMiyANBVV95cUxOVFpHU1pvSmU5dFlXVE1RbDFORlk2YnlXUndCd3BscUJ6Vk9nNnJ2eEktN3EwX2tXcC1fRWhaT2RhdmtaU1pqa2UtTzlQMk8yTi1sUXpzZ1BYcWVLZlQxM291VFpPSW56emNYbEk2WDMzN01tWThSR01VX2hGcll5TF8tX05kcG84Q3hxWnN6V3NJZTJHV2ZDUkFrQkc1YUNlSGFQYXdXYnR0WkhiREpPbWZlSnhlQTRvMW9iaWk0MllaYUxTOVY5Q3l2ZFVUeTRPa01pR3RGNXVCVVJGRnVPdlBFOXN5aVFvZzNqNC1PMDBSTGtVWHZwV0VUSmFVc3ZUaEFXamNFNGRrUXY1LUlmQ2l3NWUwek1xU1QzTDZsb2ZBQXZ0OGtBdUNrYmdJWVoxWXdadlA5T1c1NDZnTVBSWUlPUVFMOHRpbmEwQ1VRM1RiUkRscFhQX3pFMXJGcWp1ZV9iNlNhNkxIek1EVTlkSDFrSG9LTEpydDBSZGtGMlhxSWhMdFc3RkFNV3RVY0xmaWN0bDFOYlM3WFpvbGpJbEFCN0pZbE0xNXhDNWpoVGRtbXhPUlFmYlpzUThVWXRGb2VEWXYxMlg?oc=5
 - قطر تعزز دفاعاتها الجوية وتعتزم إنشاء مركز للصناعات الدفاعية.. موقف حاسم من مضيق هرمز - nedaelwatan.com (1 headlines; single-source)
   - nedaelwatan.com: https://news.google.com/rss/articles/CBMijgFBVV95cUxOcVI5b0pqTTFocTVZQkhIZ2dZdFlkVnpxSkNVTWdzRkZoTHZ3SEFDS3o2V2JBV0txUHMyU0NxZ3l0aTlkN09YU2xnOHF6cHhNOTJPQUFyb3ZMLXFxeWxwUmVGRFJZOVdoZnRNMF9iN1JTZE5JY0N4ZFczSHlBeERoRU1vMFkweUZpMUlNbG5n?oc=5
+- حرب إيران تعزز أرباح عمالقة النفط وتختبر خطط الإنفاق (1 headlines; single-source)
+  - الجزيرة نت · RSS عربي: https://www.aljazeera.net/ebusiness/2026/10/20/%d8%ad%d8%b1%d8%a8-%d8%a5%d9%8a%d8%b1%d8%a7%d9%86-%d8%aa%d8%b9%d8%b2%d8%b2-%d8%a3%d8%b1%d8%a8%d8%a7%d8%ad-%d8%b9%d9%85%d8%a7%d9%84%d9%82%d8%a9-%d8%a7%d9%84%d9%86%d9%81%d8%b7?traffic_source=rss
 - عاجل | الخارجية القطرية: على الجانب الإيراني تنفيذ القوانين الدولية الخاصة بحرية الملاحة وينبغي فتح مضيق هرمز - الجزيرة نت (2 headlines; repeated-publication)
   - الجزيرة نت: https://news.google.com/rss/articles/CBMiugJBVV95cUxPYTJFMkcyUEJzTnVDQy0wUnF6Zjk3UGdvTnNUcWtsTmprMEVXNlpLMzI4MjQ0ZzRQcUNGUlNyb2hBMjhESlpvOEFaNGpGRWVkYjhMWk81MEFBZWM5WlFYbjdUbmwtVVhnRC1tRkoxTUtnLWpVa01BYmFndjlSbWpMOHF0U1ZLWHpYNGJSOEpZMnFfRFFXMllPUUxXTzZ1Zl9HWlQ0b01YSUhmWjBYbWgtbjdFNmI5LU9hUEpyZ1pjOWpaSUdrbEh6eENnZDlrSWlGMTM4RDYzX1VmVUlRelh5cV9DVmZYQU95Y0ItbnhxNUlRdVNndVo2eXlTNENxNzlpbFhKWkV5RXJnejBwclZ0aWpvQ2xRM0pfQzlKNk5MamxMS19ZNDRhMEpXMnhUUWYyT1ZaRGtMSVg3d9IBvwJBVV95cUxOd291SENuRVlTNXg2UkFWcDZfRGxoZ2lGeVZYLXVJM2loOUJTU3BRYkFGODdxd0RLZjVJZmdQTGJNLTFSajB3Vnc2elpnOVZ6S1FEakhmTGJxLXZONVhKckZGekk4N2tmYndVSEloNHIxSHBoci1iUGNqUUQ2MEo5LWFvZVlmZEtiUU1BWXZZak5Fc29DRjBoOW85a3lOWTl0NGxla09ydVNaLTZKM1dNODE0bzVMWlNhZWNJU1pjSHVtRllNTUw3R1BVZlpYeGdBcFNRdVI2YVVMemRuOTlwZC1QVmZhY0NUOTh0YVNuQTk4U0ZBSU5kMkF6UkJTTEk5RkxVR2dJa24yMjZIcnlua2c1LU5VRUctWm1VZWpsUUdlNzNtZDc5WEdrQTVPRHloNVpxMll4SEpZX01FNFlN?oc=5
   - الجزيرة نت · RSS عربي: https://www.aljazeera.net/news/2026/10/20/%d8%b9%d8%a7%d8%ac%d9%84-%d8%a7%d9%84%d8%ae%d8%a7%d8%b1%d8%ac%d9%8a%d8%a9-%d8%a7%d9%84%d9%82%d8%b7%d8%b1%d9%8a%d8%a9-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d8%ac%d8%a7%d9%86%d8%a8?traffic_source=rss
@@ -61,12 +65,10 @@ IMPORTANT: Unverified published reporting; not confirmed attacks or official saf
   - i24NEWS: https://news.google.com/rss/articles/CBMiqwFBVV95cUxNOGx5UVN1NTBPbGNVSWZtLW1QMVRmbmVTS1FRWHdaUFBfQWt2M05yN3laM0d4Y3NFcU9iaDZSbTdoZTZXMlhfZWJEWVd3b1BwaWpLZXM1aGpsM2Zxa09IU29tWllYMVdHek5UT0hEOGQ1OHFpUlJmWEpEeVVXcVd3Vm5nUnFVRmlCYklzblo5TjNkX3NxRjhtOVNaQTNiQnZQR19FcHlwdllHQ1k?oc=5
 - عاجل | الخارجية الإيرانية: الرد الأمريكي على مقترحنا الذي يتضمن فتح مضيق هرمز خلال 7 أيام ناقص وغير كاف - الجزيرة نت (1 headlines; single-source)
   - الجزيرة نت: https://news.google.com/rss/articles/CBMioAJBVV95cUxNX1JvYWk1YTBZMGk2OU9LRnZqSFI2eHV6dnJMSmctd0VKU29uZERyeUlmNWJNbWgyVE5za0lZUktmOUI4QjdfQ2xzWXk4ZWdoeVdWbjYweTdZWVc2bU5UMXRPb0pmSWNnbnBSRkRnQWdaeUd3cExlT1Z6dWlBRUxiY3V1bFZiOW93UUNIOEVNNHRxQ0kyLUl6V3lNOTNMSlZsQjV0YnU2U3AxMWlzRENCSHpfTEN2d2VQNDNpTzFVbUJQZTVSUl83U3JzOVRCTHR2b1czVHlzUUtxbkRzU0J4c04yTC1vSjJpd09kQ2pqMy1STFhEYktGZFJRZ2dBU3d6dktta3I5cm9GS05BTVdWdkJqTmJLRHB0WWh5NnRKOUk?oc=5
-- US Failed to Reopen Strait of Hormuz as Regional Balance of Power Shifts - WANA News Agency (1 headlines; single-source)
-  - WANA News Agency: https://news.google.com/rss/articles/CBMilwFBVV95cUxQeVl3dFE3V1o4bnBtUHItT29BRTlvNl9yMzhUVm5qQ2ZxNmc4RU1pLXB0VTRvWU1MLTNJem9fLUxKeGZ2X1VMREk2QktBRWdBRVZvWGlGcnA4YTJwZjh1MzVCM2kzUHVtblpqVEpwakpFc21wVFQ5SDFaRGRsS2tkdzJNS3h5NjN2QWNVS2xpN09xcldKTFh3?oc=5
-- "إتش إس بي سي": الطرق البديلة ربما تغني عن مضيق هرمز خلال 5 سنوات (1 headlines; single-source)
-  - الجزيرة نت · RSS عربي: https://www.aljazeera.net/ebusiness/2026/10/20/%d8%a7%d9%84%d8%b7%d8%b1%d9%82-%d8%a7%d9%84%d8%a8%d8%af%d9%8a%d9%84%d8%a9-%d8%b1%d8%a8%d9%85%d8%a7-%d8%aa%d8%ba%d9%86%d9%8a-%d8%b9%d9%86-%d9%87%d8%b1%d9%85%d8%b2?traffic_source=rss
 
 ## Diplomacy (25 coverage groups)
+- US envoy Barrack defends decision to join Israel in war on Iran (1 headlines; single-source)
+  - Al Jazeera RSS: https://www.aljazeera.com/video/newsfeed/2026/10/20/20-10-iran-us-envoy-barrack-trump-war?traffic_source=rss
 - "الجميع سيتضرر من قطع الإنترنت".. قطر تؤكد استمرار جهود الوساطة بين واشنطن وطهران - Euronews.com (1 headlines; single-source)
   - Euronews.com: https://news.google.com/rss/articles/CBMimAFBVV95cUxQWGJFRTRXNHlId0U5dEdfVzNCU1E0cVFhXzlFQlNKUFR5S2JNc0w0aFlhbzVQSEdWWEp0Q0RYSFVHZ1pjSGZkTGdndnZEaVgzSVc0b09vb1FIQUVIRWVOR1ljMVFvSFBnZ1RJUTREdDVycmpvcXU0bXhaNzlCSktCbDA5ZVg0a2FsT3JDVUtJSUxMQmcwTVBoVA?oc=5
 - Iraq Bid To Mediate Iran - Gulf Tensions Faces Major Obstacles , Former UN Envoy Warns (1 headlines; single-source)
@@ -93,5 +95,3 @@ IMPORTANT: Unverified published reporting; not confirmed attacks or official saf
   - France 24 · الشرق الأوسط: https://www.france24.com/ar/%D9%81%D9%8A%D8%AF%D9%8A%D9%88/20261020-%D8%A5%D9%8A%D9%85%D8%A7%D9%86%D9%88%D9%8A%D9%84-%D9%85%D8%A7%D9%83%D8%B1%D9%88%D9%86-%D8%AC%D9%88%D9%84%D8%A9-%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC-%D8%B2%D9%8A%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%A8%D8%AD%D8%B1%D9%8A%D9%86-%D9%82%D8%B7%D8%B1-%D8%A7%D9%84%D8%A3%D9%85%D9%86-%D8%A7%D9%84%D8%B7%D8%A7%D9%82%D8%A9
 - Iran foreign minister says Russia, Iran have ‘never’ worked so closely - Luxembourg Times (1 headlines; single-source)
   - Luxembourg Times: https://news.google.com/rss/articles/CBMiuAFBVV95cUxNendpLUszN0JHR3c5Mlh1ZWczc0FMb0hFLVBDT1UybTlMVm8wUTJaZTcxZmo2UFlpUDNsWGVSN1pMRVlwal9XR0phR1JzczJKekxFeGE1b0xTZ3ZkVjhrQmJPSHJNQmJ1ZDBhS0pqYWh5OU5tLXk0MnVIUlJyR1FiMnJ2YVpIVm15QWZIajlGRDgzZWt3QUNhMm9JbWE3V0VjcTRtTjY0M1hJbVZqMkU3NUlFSkNQUkJG?oc=5
-- منتدى الأمن العالمي.. قطر تدعو لحماية الأمن المائي وتعزيز الدبلوماسية الإنسانية (1 headlines; single-source)
-  - الجزيرة نت · RSS عربي: https://www.aljazeera.net/news/2026/10/20/%d8%ae%d9%84%d8%a7%d9%84-%d9%85%d9%86%d8%aa%d8%af%d9%89-%d8%a7%d9%84%d8%a3%d9%85%d9%86-%d8%a7%d9%84%d8%b9%d8%a7%d9%84%d9%85%d9%8a-%d9%82%d8%b7%d8%b1-%d8%aa%d8%af%d8%b9%d9%88-%d8%a5%d9%84%d9%89?traffic_source=rss
