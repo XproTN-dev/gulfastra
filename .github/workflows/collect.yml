@@ -6,7 +6,7 @@ on:
       - 'scripts/**'
       - '.github/workflows/collect.yml'
   schedule:
-    - cron: '7,27,47 * * * *'
+    - cron: '3/5 * * * *'
   workflow_dispatch:
 permissions:
   contents: write
