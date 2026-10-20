@@ -7,6 +7,7 @@ on:
       - "command/**"
       - "legacy-v9.html"
       - "assets/**"
+      - "scripts/prepare_maplibre_vendor.sh"
       - ".github/workflows/pages.yml"
   workflow_dispatch:
 permissions:
@@ -24,15 +25,24 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Bundle pinned MapLibre GL JS locally
+        run: bash scripts/prepare_maplibre_vendor.sh
       - name: Prepare site
         run: |
           mkdir -p _site
-          cp -R index.html assets data command legacy-v9.html _site/
+          cp -R index.html assets data command legacy-v9.html vendor _site/
           touch _site/.nojekyll
           test -s _site/index.html
           test -s _site/command/index.html
           test -s _site/legacy-v9.html
           test -s _site/assets/command11.js
+          test -s _site/assets/command11-bootstrap.mjs
+          test -s _site/vendor/maplibre-gl.mjs
+          test -s _site/vendor/maplibre-gl-worker.mjs
+          test -s _site/vendor/maplibre-gl.css
           echo "GULFASTRA X entry point, application and rollback included in deployment"
           find _site -maxdepth 2 -type f -name 'index.html' -print
       - uses: actions/configure-pages@v5
@@ -62,5 +72,11 @@ jobs:
           grep -q 'assets/v9.css' /tmp/gulfastra-legacy.html
           curl --fail --silent --show-error --location --max-time 15 --output /tmp/gulfastra-v11.js "$base/assets/command11.js"
           grep -q 'GXApp' /tmp/gulfastra-v11.js
-          echo "Live GitHub Pages v11 route, JS and v9 rollback verified"
+          curl --fail --silent --show-error --location --max-time 20 --output /tmp/gulfastra-maplibre.mjs "$base/vendor/maplibre-gl.mjs"
+          curl --fail --silent --show-error --location --max-time 20 --output /tmp/gulfastra-maplibre-worker.mjs "$base/vendor/maplibre-gl-worker.mjs"
+          curl --fail --silent --show-error --location --max-time 15 --output /tmp/gulfastra-maplibre.css "$base/vendor/maplibre-gl.css"
+          test "$(wc -c </tmp/gulfastra-maplibre.mjs)" -gt 100000
+          test -s /tmp/gulfastra-maplibre-worker.mjs
+          test -s /tmp/gulfastra-maplibre.css
+          echo "Live GitHub Pages v11 route, self-hosted MapLibre module, worker, CSS and v9 rollback verified"
 
