@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../vendor/maplibre-gl.css?v=6-15-0">
-<link rel="stylesheet" href="../assets/command11.css?v=11-3">
+<link rel="stylesheet" href="../assets/command11.css?v=11-6">
 </head><body data-theme="midnight">
 <div id="app" class="app">
 <header class="topbar">
@@ -32,6 +32,12 @@
  <div><span>COLLECTION HEALTH</span><strong id="metricHealth">—</strong><small id="metricHealthSub">Last completed collection</small></div>
  <div id="mobileFeedStatus" class="mobile-feed-status" aria-label="Public reporting and collection freshness"><span>PUBLICATION FRESHNESS</span><strong id="mobileNewsAge">CHECKING…</strong><small id="mobileBatchAge">Source age unavailable</small></div>
 </section>
+<div id="freshnessBar" class="freshness-bar" data-state="pending" aria-label="Data freshness and collection status">
+ <span id="freshnessCollection">COLLECTION WAITING</span>
+ <span id="freshnessArticle">LATEST ARTICLE UNKNOWN</span>
+ <span id="freshnessChecked">BROWSER CHECK WAITING</span>
+ <span id="freshnessUpdates">TARGET 5 MIN · GITHUB ACTIONS · NOT REAL-TIME</span>
+</div>
 <div class="workarea">
  <aside class="rail layers-rail" aria-label="Intelligence layers and filters">
   <div class="rail-head"><div><span class="eyebrow">OPERATIONS</span><h2 id="workspaceTitle">GLOBAL OVERVIEW</h2></div><button class="iconbtn" id="collapseLayers" title="Collapse sidebar">«</button></div>
@@ -86,9 +92,9 @@
 <div id="toast" class="toast" role="status" aria-live="polite"></div>
 </div>
 
-<script defer src="../assets/command11-core.js?v=11-3"></script>
+<script defer src="../assets/command11-core.js?v=11-6"></script>
 <script defer src="../assets/command11-map.js?v=11-5"></script>
 <script defer src="../assets/command11-stream.js?v=11-3"></script>
 <script defer src="../assets/command11-extra.js?v=11-3"></script>
-<script type="module" src="../assets/command11-bootstrap.mjs?v=11-5"></script>
+<script type="module" src="../assets/command11-bootstrap.mjs?v=11-6"></script>
 </body></html>
