@@ -13,8 +13,12 @@ function theme(value){
 function mobile(view){
  document.body.classList.toggle("mobile-intel",view==="intel");
  $("app").classList.toggle("mobile-layers",view==="layers");
- $$("[data-mobile]").forEach(b=>b.classList.toggle("active",b.dataset.mobile===view));
- root.GXMap.resize();
+ $("[data-mobile]").forEach(b=>b.classList.toggle("active",b.dataset.mobile===view));
+ // The sliding drawers transform for 200ms. Resize the canvas after the
+ // browser has laid out the map, and again after the drawer animation ends.
+ requestAnimationFrame(()=>root.GXMap.resize());
+ clearTimeout(mobile.resizeTimer);
+ mobile.resizeTimer=setTimeout(()=>root.GXMap.resize(),260);
 }
 function presentation(){
  document.body.classList.toggle("presentation");requestAnimationFrame(()=>root.GXMap.resize());
