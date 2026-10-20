@@ -1,7 +1,7 @@
 {
   "version": 6,
-  "last_run": "2026-10-20T17:40:00.336164Z",
-  "last_successful_run": "2026-10-20T17:40:00.336164Z",
+  "last_run": "2026-10-20T17:40:26.730820Z",
+  "last_successful_run": "2026-10-20T17:40:26.730820Z",
   "successful_sources": 23,
   "reports": [
     {
@@ -496,6 +496,27 @@
       "tag": "اضطراب نقل",
       "provider": "عربي · مضيق هرمز",
       "first_seen_at": "2026-10-20T16:50:50.754226Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "705062a4839354da5bd164e1",
+      "title": "Tanker Catches Fire in Southern Corridor of Strait of Hormuz - WANA News Agency",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbkE1WUVPRGNqWG5Wc3FpdkQyVVlqSjdHZ3BDZEFYd0pjaGtNQ0tQWXBYZm04ZGw5MVlEeWc0VDdMTTBXWnNUMzgxQllnX01fZXhZUWVFMGY2TGZQbW05NXJLYWNhQjRtRDhKc2pSWG9sWDk0SThZWWI2aEFDLWJ4Vk02RThOQTg?oc=5",
+      "source": "WANA News Agency",
+      "published_at": "2026-10-20T15:31:28Z",
+      "country": "",
+      "countries": [],
+      "language": "en",
+      "category": "transport",
+      "tag": "MARITIME REPORT",
+      "provider": "Google News · shipping",
+      "first_seen_at": "2026-10-20T17:40:26.730820Z",
       "date_quality": "publisher-time",
       "freshness": "recent-reporting",
       "context": "reporting",
@@ -1842,7 +1863,7 @@
       "language": "en",
       "category": "security",
       "tag": "SECURITY REPORT",
-      "provider": "Google News · diplomacy",
+      "provider": "Google News · regional",
       "first_seen_at": "2026-10-20T16:50:50.754226Z",
       "date_quality": "publisher-time",
       "freshness": "recent-reporting",
@@ -5717,6 +5738,30 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "c1138a2262b02b848c7569fe",
+      "title": "البحرين تعلن اعتراض هجمات إيرانية جديدة.. والكويت تتصدى لصاروخين باليستيين وسط تصعيد أميركي-إيراني - الساحل الغربي",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1hcEthLUFQRmFqekJvQkpzMDZNR3Q2MkJKdVVTbkVxRHZiVEdraW5Hb01TMWpDUm5wNDNFdFhqR0JxNlgzNEZ1eGMwc0dXeFE?oc=5",
+      "source": "الساحل الغربي",
+      "published_at": "2026-10-19T21:58:54Z",
+      "country": "",
+      "countries": [
+        "Iran",
+        "Bahrain"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "خبر اعتراض / دفاع جوي",
+      "provider": "عربي · الإمارات والبحرين",
+      "first_seen_at": "2026-10-20T12:03:42.847208Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "elevated-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "9b4f1b7d7398c8971bac8443",
       "title": "Day 226 | At least two killed in attack on Riyadh airport - Roya News",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPXzJJYjVmdENoMDh0WEtyczF2T1BhRVZRLUFXTXFmb0VRWUEyeUxic2F4QXVYRHZxOVpuZHU0U01KeFZ6T0ZRV3ZJUU00czN6cFFKS0hMWFFxWTZxaUlOX2RqNzdsUDIxQV9KU04ydU4waHV1VUx1cHR3TWZsYmZHSTVvT0xIQUVmSERNSW9SazVXem1ZVW1uZQ?oc=5",
@@ -9208,6 +9253,27 @@
       "tag": "DIPLOMACY REPORT",
       "provider": "Google News · diplomacy",
       "first_seen_at": "2026-10-20T17:40:00.336164Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "485d2c215dada1540d661ef6",
+      "title": "Mines in Hormuz Mandatory Traffic Lanes Drove 86% Oil Throughput Collapse - Tech Times",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPM1IydTlqNUNfRm9BeF9kXzdKSW9YQ0ljUzcxS2JENjAwRTRtRXg5LVpmVzRxdk1jZjlOeFN2aHBJSXNCa1RtUE00SnhYbVRib0JhelJ2b0FWNnZlMXpVREItOHJ6dkk2RWgtOWd6WGhyai1fNUIyZ2MtZ05TMURONkE3TVo1RFBBZmwwbERCcm1iR1V2MHdTVTR0d3gtUUJKQXB0eVZxSDhwazNLbVltbUxBbEJONWJVRklIZ1llWFZWdw?oc=5",
+      "source": "Tech Times",
+      "published_at": "2026-10-19T06:35:41Z",
+      "country": "",
+      "countries": [],
+      "language": "en",
+      "category": "transport",
+      "tag": "MARITIME REPORT",
+      "provider": "Google News · shipping",
+      "first_seen_at": "2026-10-20T17:40:26.730820Z",
       "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
@@ -23169,7 +23235,7 @@
       "language": "en",
       "category": "security",
       "tag": "SECURITY REPORT",
-      "provider": "Google News · shipping",
+      "provider": "Google News · missiles/drones",
       "first_seen_at": "2026-10-20T12:09:48.504938Z",
       "date_quality": "publisher-time",
       "freshness": "older-reporting",
@@ -27643,7 +27709,7 @@
       "language": "en",
       "category": "security",
       "tag": "SECURITY REPORT",
-      "provider": "Google News · security",
+      "provider": "Google News · diplomacy",
       "first_seen_at": "2026-10-20T12:09:48.504938Z",
       "date_quality": "publisher-time",
       "freshness": "older-reporting",
@@ -28592,30 +28658,6 @@
       "provider": "عربي · العربية",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
-      "freshness": "older-reporting",
-      "context": "reporting",
-      "severity": "elevated-reporting",
-      "critical_candidate": false,
-      "alert_eligible": false,
-      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
-    },
-    {
-      "id": "c1138a2262b02b848c7569fe",
-      "title": "البحرين تعلن اعتراض هجمات إيرانية جديدة.. والكويت تتصدى لصاروخين باليستيين وسط تصعيد أميركي-إيراني - الساحل الغربي",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1hcEthLUFQRmFqekJvQkpzMDZNR3Q2MkJKdVVTbkVxRHZiVEdraW5Hb01TMWpDUm5wNDNFdFhqR0JxNlgzNEZ1eGMwc0dXeFE?oc=5",
-      "source": "الساحل الغربي",
-      "published_at": "2026-10-13T19:23:44Z",
-      "country": "",
-      "countries": [
-        "Iran",
-        "Bahrain"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "خبر اعتراض / دفاع جوي",
-      "provider": "عربي · الإمارات والبحرين",
-      "first_seen_at": "2026-10-20T12:03:42.847208Z",
-      "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "elevated-reporting",
@@ -30954,47 +30996,47 @@
     "Google News · missiles/drones": {
       "ok": true,
       "items": 100,
-      "relevant": 79
+      "relevant": 77
     },
     "Google News · security": {
       "ok": true,
       "items": 100,
-      "relevant": 72
+      "relevant": 70
     },
     "Google News · aviation": {
       "ok": true,
-      "items": 88,
-      "relevant": 81
+      "items": 89,
+      "relevant": 82
     },
     "Google News · shipping": {
       "ok": true,
       "items": 100,
-      "relevant": 89
+      "relevant": 90
     },
     "Google News · diplomacy": {
       "ok": true,
-      "items": 75,
-      "relevant": 41
+      "items": 100,
+      "relevant": 52
     },
     "Google News · regional": {
       "ok": true,
       "items": 55,
-      "relevant": 29
+      "relevant": 30
     },
     "عربي · إيران والخليج": {
       "ok": true,
       "items": 51,
-      "relevant": 40
+      "relevant": 39
     },
     "عربي · قطر": {
       "ok": true,
-      "items": 55,
-      "relevant": 25
+      "items": 57,
+      "relevant": 26
     },
     "عربي · السعودية": {
       "ok": true,
       "items": 100,
-      "relevant": 53
+      "relevant": 52
     },
     "عربي · الإمارات والبحرين": {
       "ok": true,
@@ -31003,18 +31045,18 @@
     },
     "عربي · الكويت والعراق": {
       "ok": true,
-      "items": 52,
-      "relevant": 49
+      "items": 51,
+      "relevant": 48
     },
     "عربي · مضيق هرمز": {
       "ok": true,
       "items": 100,
-      "relevant": 79
+      "relevant": 78
     },
     "عربي · الجزيرة": {
       "ok": true,
       "items": 100,
-      "relevant": 9
+      "relevant": 10
     },
     "عربي · العربية": {
       "ok": true,
@@ -31029,12 +31071,12 @@
     "عربي · وكالات الخليج": {
       "ok": true,
       "items": 100,
-      "relevant": 29
+      "relevant": 28
     },
     "الجزيرة نت · RSS عربي": {
       "ok": true,
       "items": 25,
-      "relevant": 1
+      "relevant": 2
     },
     "BBC Middle East RSS": {
       "ok": true,
@@ -31062,13 +31104,13 @@
       "relevant": 7
     },
     "UN News · Middle East (EN)": {
-      "ok": true,
-      "items": 30,
-      "relevant": 1
-    },
-    "UN News · الشرق الأوسط (AR)": {
       "ok": false,
       "error": "not well-formed (invalid token): line 1, column 0"
+    },
+    "UN News · الشرق الأوسط (AR)": {
+      "ok": true,
+      "items": 30,
+      "relevant": 7
     },
     "GDELT · article index": {
       "ok": null,
