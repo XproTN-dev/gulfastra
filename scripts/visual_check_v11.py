@@ -30,6 +30,16 @@ with sync_playwright() as pw:
         assert page.locator(".topbar").is_visible()
         assert page.locator(".map-wrap").is_visible()
         assert page.locator("#metricReports").inner_text()!="—","Data metrics not populated"
+        assert "COLLECTED" in page.locator("#freshnessCollection").inner_text()
+        assert "LATEST ARTICLE" in page.locator("#freshnessArticle").inner_text()
+        assert page.evaluate("document.documentElement.scrollWidth <= window.innerWidth + 2"), (
+            "Phone/desktop root must not horizontally overflow the viewport"
+        )
+        if name.startswith("mobile"):
+            assert page.locator("#mobileFeedStatus").is_visible()
+            assert "COLLECTED" in page.locator("#mobileBatchAge").inner_text()
+            assert page.locator("#mobileNewsAge").inner_text() not in ["", "CHECKING…"]
+
         assert page.locator("#freshnessBar").is_visible(),"Collection freshness must be visible"
         assert "COLLECTED" in page.locator("#freshnessBar").inner_text()
         assert "LATEST ARTICLE" in page.locator("#freshnessBar").inner_text()
@@ -64,9 +74,20 @@ with sync_playwright() as pw:
         page.locator("#settingsClose").click()
         assert page.locator("#settingsOverlay").is_hidden()
         # Mobile layer controls live in the collapsed drawer, not on the map viewport.
-        if name=="mobile":
+        if name.startswith("mobile"):
             page.locator('[data-mobile="layers"]').click()
             page.wait_for_function("document.querySelector('#app').classList.contains('mobile-layers')")
+            drawer = page.evaluate("""() => {
+                const r=document.querySelector('.layers-rail').getBoundingClientRect();
+                const w=document.querySelector('.workarea').getBoundingClientRect();
+                return {top:r.top-w.top,bottom:w.bottom-r.bottom,height:r.height,workHeight:w.height};
+            }""")
+            assert abs(drawer["top"])<3 and abs(drawer["bottom"])<3, (
+                "Mobile drawer misaligned with workspace: "+str(drawer)
+            )
+            assert drawer["height"]>=drawer["workHeight"]-4, (
+                "Mobile layers drawer unnecessarily clipped: "+str(drawer)
+            )
         page.locator('[data-hours="168"]').first.click()
         assert page.locator('[data-hours="168"]').first.get_attribute("class")=="active"
         assert not page.evaluate("window.GXApp.getState().replay"),"Default should not be historical replay"
@@ -77,9 +98,21 @@ with sync_playwright() as pw:
         assert page.evaluate("window.GXApp.getState().replay"),"Timeline scrubber not affecting time filter"
         page.locator("#timelineNow").click()
         assert not page.evaluate("window.GXApp.getState().replay")
-        if name=="mobile":
+        if name.startswith("mobile"):
             page.locator('[data-mobile="intel"]').click()
             assert page.locator(".intel-rail").is_visible()
+            page.locator('[data-tab="news"]').click()
+            page.wait_for_timeout(250)
+            scroll = page.locator("#stream").evaluate("""el => {
+                el.scrollTop=180;
+                return {before:el.scrollTop,canScroll:el.scrollHeight>el.clientHeight};
+            }""")
+            if scroll["canScroll"] and scroll["before"]>0:
+                page.evaluate("async()=>await window.GXApp.refresh()")
+                after=page.locator("#stream").evaluate("el=>el.scrollTop")
+                assert abs(after-scroll["before"])<12, (
+                    "Refresh caused analyst feed to jump: "+str((scroll,after))
+                )
             page.locator('[data-mobile="layers"]').click()
             assert page.locator(".layers-rail").is_visible()
         else:
