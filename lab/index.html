@@ -1,0 +1,65 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#070f1c"><meta name="description" content="GULFASTRA X Impact Lab: source-backed relationships, original FRED indicators, historical comparisons and daily OSINT briefing.">
+<title>GULFASTRA X · Impact Lab</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/impact-lab.css?v=12-1">
+</head><body data-theme="midnight"><div id="impactApp" class="lab-app">
+<header class="lab-header">
+ <a class="lab-brand" href="../command/" aria-label="Return to GULFASTRA Command Center"><span class="brand-glyph">◎</span><span><b>GULF<span>ASTRA</span></b><small>IMPACT INTELLIGENCE / X</small></span></a>
+ <div class="lab-head-title"><span class="kicker">INTELLIGENCE RESEARCH</span><strong>EVENTS → RELATIONSHIPS → INDICATORS</strong></div>
+ <div class="lab-header-buttons"><span id="labUTC" class="mono">--:-- UTC</span><button id="labLang" title="Toggle English/Arabic">EN / عربي</button><button id="labRefresh" title="Check for updated public data">↻ REFRESH</button><a href="../command/" class="lab-back">↩ COMMAND</a></div>
+</header>
+<div class="lab-status" id="labStatus" data-level="checking"><span id="labFreshness">CONNECTING PUBLIC DATA</span><span id="labMacroAge">FRED: NOT LOADED</span><span id="labNew">NO LOCAL COMPARISON YET</span><span>PUBLIC DATA · NOT LIVE TICK PRICES OR VERIFIED CAUSATION</span></div>
+<div class="lab-metrics">
+ <div><small>RELATED COVERAGE</small><b id="mNodes">—</b><span>published groups, not events confirmed</span></div>
+ <div><small>METADATA CONNECTIONS</small><b id="mEdges">—</b><span>related topics & places, not causal links</span></div>
+ <div><small>OBSERVED MACRO SERIES</small><b id="mSeries">—</b><span>FRED, published at different frequencies</span></div>
+ <div><small>LAST 24H BRIEFING</small><b id="mBrief">—</b><span>new publication groups</span></div>
+</div>
+<div class="lab-tabs" role="tablist" aria-label="Impact Lab workspaces">
+ <button data-view="graph" class="active" role="tab">◉ EVENT NETWORK</button>
+ <button data-view="timeline" role="tab">◷ TIME EXPLORER</button>
+ <button data-view="markets" role="tab">⌁ MARKET INDICATORS</button>
+ <button data-view="compare" role="tab">⇄ 2008 COMPARISON</button>
+ <button data-view="pathways" role="tab">⤳ IMPACT PATHWAYS</button>
+ <button data-view="brief" role="tab">▤ DAILY BRIEF</button>
+</div>
+<div class="lab-work">
+ <aside class="lab-controls" id="labControls">
+ <div class="filter-top"><span class="kicker">RESEARCH CONTROLS</span><button id="resetLab">RESET</button></div>
+ <label for="countryLab">GEOGRAPHY</label><select id="countryLab"><option value="">ALL MONITORED COUNTRIES</option></select>
+ <label for="topicLab">REPORTING CATEGORY</label><select id="topicLab"><option value="all">ALL PUBLIC COVERAGE</option><option value="security">SECURITY</option><option value="transport">TRANSPORT</option><option value="diplomacy">DIPLOMACY</option><option value="other">OTHER</option></select>
+ <label for="graphMode">NETWORK PRESENTATION</label><div class="graph-modes" id="graphModes">
+ <button data-mode="network" class="active">NETWORK</button><button data-mode="chronology">SEQUENCE</button><button data-mode="spatial">3D STYLE</button>
+ </div>
+ <div class="side-rule"></div><div class="subheading">READING A CONNECTION</div>
+ <p>Every line represents <strong>shared reported topic + country</strong> within 36 hours. It does not prove one incident caused another.</p>
+ <div class="lab-key"><i style="--k:#e78f73"></i>Security reports</div>
+ <div class="lab-key"><i style="--k:#74b4ed"></i>Transport reports</div>
+ <div class="lab-key"><i style="--k:#a799ea"></i>Diplomacy reports</div>
+ <div class="lab-key"><i style="--k:#69cfaa"></i>Other reports</div>
+ <div class="side-rule"></div><div class="subheading">KNOWLEDGE LIMITS</div>
+ <p id="limitNote">Country mentions are not incident coordinates. The time slider uses publisher publication time, not event occurrence time.</p>
+ <div class="sources-note">NEWS · INSTITUTIONAL NOTICES · FRED MACRO CONTEXT<br>PROVENANCE BEFORE PREDICTION.</div>
+ </aside>
+ <main class="lab-stage">
+  <div class="stage-header"><div><span class="kicker" id="stageEyebrow">EVIDENCE RELATIONSHIPS</span><h1 id="stageTitle">PUBLICATION NETWORK</h1><p id="stageDescription">Explore related source-backed coverage clusters. Connections never imply proven causation.</p></div><button id="labExplain">ⓘ METHODOLOGY</button></div>
+  <div class="stage-content" id="stageContent" aria-live="polite"><div class="state-empty">Collecting public-source analysis…</div></div>
+  <div class="graph-footer" id="graphFooter"><div class="timeline-read"><b id="scrubTime">NOW</b><small id="scrubCount">SOURCE PUBLICATIONS ONLY</small></div><input type="range" min="0" max="100" value="100" step="1" id="labReplay" aria-label="Replay reported publications over 48 hours"><button id="labNow">↪ NOW</button><div class="window-buttons"><button data-window="48" class="active">48H</button><button data-window="168">7D</button></div></div>
+ </main>
+ <aside class="lab-context" id="labContext"><div class="context-top"><span class="kicker">INVESTIGATION DESK</span><h2 id="contextTitle">SELECT A REPORT</h2><button id="contextClose" aria-label="Close mobile detail">✕</button></div>
+  <div id="contextContent" class="context-body"><div class="state-empty">Choose a node, connection, market series or briefing item to inspect original evidence and provenance.</div></div>
+ </aside>
+</div>
+<nav class="lab-mobile-nav" aria-label="Mobile workspaces">
+ <button data-mobile-view="graph" class="active">◉<small>GRAPH</small></button>
+ <button data-mobile-view="markets">⌁<small>MARKETS</small></button>
+ <button data-mobile-view="brief">▤<small>BRIEF</small></button>
+ <button id="labFiltersOpen">☷<small>FILTERS</small></button>
+ <button id="labReturn">↩<small>MAP</small></button>
+</nav>
+<div id="labBackdrop" class="lab-backdrop" hidden></div>
+<div id="labToast" role="status" aria-live="polite"></div>
+<script defer src="../assets/command11-core.js?v=12-1"></script>
+<script defer src="../assets/impact-lab.js?v=12-1"></script>
+</div></body></html>
