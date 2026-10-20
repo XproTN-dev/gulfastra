@@ -27,6 +27,18 @@ A free, public-source regional news monitoring dashboard hosted on GitHub Pages.
 Each feed is monitored separately. GitHub Actions scheduled jobs are **best effort** and may be delayed. Refreshing the website does not force GitHub Actions to run.
 
 
+## v6 — Compact operations layout and faster collection
+
+- **Default map is compact** rather than occupying the full desktop viewport. The **EXPAND / COMPACT** button uses MapLibre's resize method and restores map centering/markers.
+- **News-first mobile layout:** the initial map is shorter and the activity histogram is hidden on narrow displays to surface the live-source reporting panel sooner.
+- **Three data-linked headline highlights** underneath the map, each linking to the original public report. No fabricated content or simulated data.
+- **Three persisted visual themes** (Spectre, Obsidian, Slate) cycled with the upper-right ◐ control. Persisted locally per browser, no login or payments.
+- **Collapsible source diagnostics**, with all 20 source checks accessible through the left panel or Fusion Source Health.
+- **Distinct timestamps:** a completed collection time versus the newest source publication. The browser reloads published JSON every 45 seconds when visible, but this does not itself run the collector.
+- **GitHub Actions schedule: five-minute best-effort collection** using `3/5 * * * *`. GitHub may queue or drop scheduled runs during high load. Publishing to Pages also takes additional time. **This is not real-time incident detection.**
+- **GDELT backoff:** because GDELT repeatedly returned HTTP 429, it is probed approximately twice per hour rather than on every five-minute run; the UI labels scheduled skips separately from errors.
+- **Automated browser regression tests:** both desktop/mobile map sizing, expand/compact control, theme switch, real linked highlights, Arabic article display, correct country-map coordinates, existing Fusion dossiers/query/country/source-health pages, and no browser errors.
+
 ## v5 — Fusion analytical workspace
 
 The site now includes a full-screen, responsive analyst workstation accessed from the **FUSION** ribbon or mobile FUSION navigation. All source data is hosted on free GitHub Pages; GitHub Actions runs collection and open-data transformation on a best-effort schedule.
