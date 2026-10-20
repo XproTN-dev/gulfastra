@@ -68,10 +68,12 @@ with sync_playwright() as pw:
         page.locator('[data-gf-open="wire"]').click()
         assert page.locator("#fusionWorkbench").is_visible(),"NEXUS Wire failed to open"
         assert page.locator("#fusionView .gf-wire-item").count()>0,"Original Arabic/English wire is empty"
+        page.screenshot(path=str(OUT/f"{label}-wire.png"),full_page=True)
         page.locator('[data-gf-page="verify"]').click()
         assert page.locator("#fusionView .gf-event").count()>0,"Verification dossier selection empty"
         page.locator('[data-gf-page="hormuz"]').click()
         assert "UKMTO" in page.locator("#fusionView").inner_text(),"Maritime source context missing"
+        page.screenshot(path=str(OUT/f"{label}-hormuz.png"),full_page=True)
         page.locator("#gfClose").click()
         page.wait_for_selector("#fusionHealth",state="attached")
         assert page.locator('[data-gf-open="fusion"]').count() >= 1
