@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "last_run": "2026-10-20T12:13:55.026807Z",
-  "last_successful_run": "2026-10-20T12:13:55.026807Z",
+  "last_run": "2026-10-20T12:14:22.630841Z",
+  "last_successful_run": "2026-10-20T12:14:22.630841Z",
   "reports": [
     {
       "id": "0be7b99810bc418aa916f991",
@@ -1659,6 +1659,30 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "d0b5ab21ef3f76e62477406f",
+      "title": "الدفاع البريطانية: مقاتلات \"تايفون\" ستشارك في دعم السعودية ضد هجمات الحوثيين",
+      "url": "https://www.aljazeera.net/news/2026/10/20/%d8%b9%d8%a7%d8%ac%d9%84-%d9%88%d8%b2%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%af%d9%81%d8%a7%d8%b9-%d8%a7%d9%84%d8%a8%d8%b1%d9%8a%d8%b7%d8%a7%d9%86%d9%8a%d8%a9-%d9%85%d9%82%d8%a7%d8%aa%d9%84%d8%a7%d8%aa?traffic_source=rss",
+      "source": "الجزيرة نت · RSS عربي",
+      "published_at": "2026-10-20T08:10:31Z",
+      "country": "",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير امني",
+      "provider": "الجزيرة نت · RSS عربي",
+      "first_seen_at": "2026-10-20T12:14:22.630841Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "28e6ef0a469d6a5afe075964",
       "title": "Pakistan Army Chief Munir to Visit Tehran as Efforts to Revive U.S.-Iran Talks Stall - thekabultribune.com",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9Sb2wtRVU1aTNYZW5EWUN2X0l4TTVSS3I2UWhhaU9zNXFvSVNwZnQ2YTJkNzJBd1pfdzhlTE80Z0Z2WWVKczQ4ajczNk9hTWM?oc=5",
@@ -2253,6 +2277,29 @@
       "tag": "SECURITY REPORT",
       "provider": "Google News · security",
       "first_seen_at": "2026-10-20T12:04:24.966103Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "cf6f6df0569e07805626919f",
+      "title": "The UK expands military support for Saudi Arabia against Houthis to include ‘defensive’ air patrols - WREG.com",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQaWhCQjZ0cThTZzdJeVNPNExFSU50N1FERnROVjRqSHdSUURBOUN1dXBoMHFPQXVGQTRZLVJBbVZVQUxDbUE3azZqX19La0I5YVhObWpfMW5aa2xnODZ0Z2xfMEdMZ2hZOUFVdzEtcW00OUMzSm1TeE4zbW9UblIzYTNFTkQxVUNDTE9IVU9QS1ZqSWVKNzZzbTBUb25RWWYydUxNelpuLWd0cGJZRlRpV3ZkTDhiczc2VTZIYlBIeV9qa2ZoZlJPbE9oSmFXakdEYjZpV2RxbWRxUWkzRDQ1T1JYX2FzeHJtYTV2TzEtY9IB7wFBVV95cUxQaWhCQjZ0cThTZzdJeVNPNExFSU50N1FERnROVjRqSHdSUURBOUN1dXBoMHFPQXVGQTRZLVJBbVZVQUxDbUE3azZqX19La0I5YVhObWpfMW5aa2xnODZ0Z2xfMEdMZ2hZOUFVdzEtcW00OUMzSm1TeE4zbW9UblIzYTNFTkQxVUNDTE9IVU9QS1ZqSWVKNzZzbTBUb25RWWYydUxNelpuLWd0cGJZRlRpV3ZkTDhiczc2VTZIYlBIeV9qa2ZoZlJPbE9oSmFXakdEYjZpV2RxbWRxUWkzRDQ1T1JYX2FzeHJtYTV2TzEtYw?oc=5",
+      "source": "WREG.com",
+      "published_at": "2026-10-20T06:12:07Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · security",
+      "first_seen_at": "2026-10-20T12:14:22.630841Z",
       "date_quality": "publisher-time",
       "freshness": "recent-reporting",
       "context": "reporting",
@@ -4295,30 +4342,6 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
-      "id": "a655d15acb89d9c6db5135da",
-      "title": "صواريخ ومسيرات إيرانية تستهدف البحرين والكويت والأردن.. والدفاعات الجوية تتصدى - الساحل الغربي",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE15VmNLVDgtRnRBRzRXaVowSlM1cTFRTEtwVGhhS0JoWVRpZ3FpdW1EZXZzdXN3SHcwNXVNV2s1N0tzMU9FYkZEZXFDWUlESWM?oc=5",
-      "source": "الساحل الغربي",
-      "published_at": "2026-10-19T16:18:43Z",
-      "country": "",
-      "countries": [
-        "Iran",
-        "Bahrain"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "خبر اعتراض / دفاع جوي",
-      "provider": "عربي · الكويت والعراق",
-      "first_seen_at": "2026-10-20T12:01:49.547007Z",
-      "date_quality": "publisher-time",
-      "freshness": "recent-reporting",
-      "context": "reporting",
-      "severity": "routine-reporting",
-      "critical_candidate": false,
-      "alert_eligible": false,
-      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
-    },
-    {
       "id": "e0d558673edba69f96cf",
       "title": "Riyadh Airport Reopens With Restrictions as Airline Suspensions Continue - Airways Magazine",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZXBZSTdpajd3ZXA0cjN3V18yOWFWVDZsT1lvQ1dKMV9VYTB1dVVLQlpYLXgyWTRTSmZ5emRnWmJxZU85T3g2WFliS3FuOEdYZGhxd25hRVZpU005WGtJbjNHMTRTXzZLckFxb1U0QXhFOG5tc044b2JNU1dOZy1WWnhXR1FpWGRwTkNVMkdHSUc1d2FtWkE?oc=5",
@@ -5512,7 +5535,7 @@
       "provider": "عربي · الجزيرة",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
-      "freshness": "recent-reporting",
+      "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
       "critical_candidate": false,
@@ -15753,6 +15776,29 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "0038a17710ae3abd98aa4572",
+      "title": "ما الذي يعنيه انتقال قوات التحالف إلى ضرب مصادر الحوثيين الحيوية؟ وكيف تتغير معادلات الردع أمام استهداف الحوثيين للمنشآت المدنية والمطارات في السعودية؟ \"الحرب في اليمن وخيارات قوات التحالف\".. موضوع حلقة هذا الأسبوع من برنامج \"على الحدود\" مع سحر الميزاري ت - الشرق للأخبار",
+      "url": "https://news.google.com/rss/articles/CBMivw5BVV95cUxQcHk3aldVMEE5aHNQWkRiTHlkMmo4OUVkYk00TDFaT0xOS3dscTBlaTJ5YU1QYkp5MzRDVTR3RnRCTnI3emhBTGM1ME9RWWFlSkdpRGstS1ZqbnIzTEpReEpFSnVwZFRRTm9KV2dxLWFSQ3dJZ3ZabnQ0MnZJc2FaZG1ENWdJQmhDaVQ4SmlsNFpDdWdMSE82VUhCY3ZOZnRqOERYUG0xWFBZNmhGNjhmN0ttR2x6TmtaTDluM3dma0h4U1IyVXFBWW1vTjAwOGU1UkFmS1dBOFRVTEZza2dKNlN0WnhoTHJvb24zZUFMRUl5UWdrNlZjOTl2TDB3SXZ1UmMwbWo0bGJxd3BCNjhpRDFodjRCLXF4RTMwQUNTcVU3NWpua2RDY3NLX2NvOWZwQ0JoNGlUS1ZyX1hpaXhFTjQ3TFptMmdFRk5GQi1MUkVrb3dYWGNqRXRCYXo4M0tyUXRfQ1hUZXhSLXI3SDZWcC1KZFpEbU9hRUNnUmFIVFR0alg1emRsb2ZmQWZYWE4xWmNkYkMwRVR1akwzUDd5VVhDMXE1YTlZa2Y3a0ZXRlJFdUJJQWRjU19VckZILW9waW9IVlp1MkZiM2dyMGlqdVFWYkJuWUtYcW1TVlBmNVZBdm9EeVlQZDdwUnVWc042TUs5Ym1YODhRc3BLeEtpTkFocDNhbDBIYjhteTczUkJTQjhlS1VsVDFrTzduRDdXRTVGei1wZ2RIellmem1NZVVQdDlrdkhlTzhGU1dScExZVnhiTDFSZkRHVTlCOEpvSmxZN0duVmhHVkNhMVY3dWZVeFYyakgzYjh5VFZoVUYzTXZyUmFOY0FyWjlQOWlkZ2xLb1UwM0ZnYnFoVmxuWjZjcHZkTDhhcmo1OVRBRUh6YmYzQnhpMXVMMG9CUXJrNGMxVDNXZVllX0FIMVNpX3h1NzE5WktDMlIxcVpvUXg0aUJwTS03ZWJ5SXU1VGJhQ3lpZXdqT1JjRGFIejlxSnFJcE9EU1JGXzJscVZyUWpnQ0JHVE5MNzVtSG5UYzBGM1JYR0FYcTJyNmtDOGxDMDkyZFpxLUVvcXVPYWR0ZWF3UTE5ZzBLZlBrX0hnank1RktCMVYybEVZMEZZTFBMM3ViSEJPOFQzQXpBdmRBM2lpSlJjS01XUGVVTm1ZUUZpWU9YNEN3dXBnMW5PclF3c2JpSUJ6UG9uTHJTTl9WcF9LbXBSOG9HQlQxSHRKV2tGMTJFUzR5QjA2dUNxMll6bzJ5SDNnYmlKOW1ueGVMbElBdmJKc1o2MFY0LTU0Wjk2VTFOSkZvbEVfd2w0QTV0NWNIVjVfLThXMThjOXl5TzNjS21qUjVLakQ1NHlQelFuNXJyRlNtOWNRcjJ3NF9EME5hdS1pZlRaZF9JU2UwV1F4N25RR0g2RmtJTlNoR1pBeEgtc2xjQU9pMzF3SG51VC1OendJdWdHM3pBajNSV3ZWdjJOUlFVMVNENWRsazAxenR2al83UXBaX3Rvd0dlTjRYZ2laUXlmNmJ6a0xkWUNpaFc2Y1Q2Zjd6bGxuU25RQjhnaTljb1Fwb1IyX1BtaUZvanFNWDgyVXR4NnRaMlQtMUFKXzBlS21zalNPcEgxeFZQRWZjSGdoRVpwZVRyZ1g2NUtCM0htZ0NVTDhfVzE2dzVwaXVSeWFiMW43aG9jUkQtR1VYcEgxMUJHTnJnVGxRVHBGWnQyMG05ZXU2N1ZIbmRiY0t6UXc0T1hyZDRDNG80TWQtQkE0VE5adlpMdXlwMTNFbENOQ2tqNjdESmRwaUFVdWVOSGJzbjI3Zzdqcm42VzFhNkpRaVd5cjR6MWdvTXgzWjQtdm9takdCamlaODdJUlM4S0Z0WGZ6bDJwWElydHNTbFZpX2NZR2RvbWlIdzhoVXoxdWgyYXF6ZlFzZGFydk9FZ18tcjlCbnozempPUzFWRGJzNjdSelhzUHdQYXB2NElzcGhBNWVoWC02Qld5WG9CdV9kSWhfa1pBZGpyWkhBbW04RjBlUGdyaUU2SUZYTzRpTTdFei1fbnNlYURWR1JhWVJXN3FlRjloNUVlTVBJemJ5UThYYTB0R1d6NUZUMU02OGV5R3N1aURNWkhPRm1JVVpEeDlRVmx4eWYwZ21pQ2lQbmNWRU1ZMEV1SzRlbkdjVmh0eUtSRmdtQ1ZyNjYyZ3dTcVpVMWYzUUU4ZTJ0NWRUS1lIc3Zoell5X3FwZml0dUtjeEZTRTktMV8tVE9ubTBZVkVkNndBOHRHQ1pYcGIxd21zMUlDOE14U2VZTDRpWVRWY1Y1VDNJb0pCYjBJS0FfbFBrSE5RX1E0UVR3WnV0ZDItWUxGT3l0OFNEbnFHbVgtVWdxYzE4MXp6emxkVEw3OUluZFhGNEloZFdfVjRJdFAyOXVtbUtoQWo5OUNpdnBESUpCMk5PWjV1T19Ob2luX0dSOUVhYXFZU1FDNkFnQTV2V2U4?oc=5",
+      "source": "الشرق للأخبار",
+      "published_at": "2026-10-16T19:23:11Z",
+      "country": "Yemen",
+      "countries": [
+        "Yemen"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير امني",
+      "provider": "عربي · الشرق",
+      "first_seen_at": "2026-10-20T12:14:22.630841Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "e02af68f9e313212ff6b5419",
       "title": "India-Saudi Arabia flights cancelled till October 24 amid Gulf tensions - The New Indian Express",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMHRjOGNOZlhzeGptZl9JOFJXYjFhQXVGY1BoaDFmOWxCSVB1bDBLQjBWRFZncU5xSlNFY2JaSDM1YnNNSnAwelZOVy1PMk1XRVJEU2tld3k0VWFUemtQYml6RE01amh6dkZkd05TRmVnVWtaSzlWNkpPZEdmUlR6cDFqVWM0WE9YX1RpWlMwQ3V3dWx5R3FCV2RUNmRYbVdnLUtmYU5XVTJKd2ZISlBvMXZpV1VsWkRjd3c2VmJCM3kwUdIBzwFBVV95cUxOSFFPTlFyTkRCbjRtWHU3VEp1TjJxSDc4QjJaR1hybFE2TjJhRGNfVVhxMGtZS1VNU1JVMmd2aW1GR09MTDExR05IMU5tWW5LVVZBMjhmNnlZdi1FVUJNbHFwaTByeTZvUDB3ZHgyNHcwUnpfVVVsdHE5a054UG9hNkNsS3J1cFhKYXlwT1pyMzJNVmJJRVNwSXZzVnllTExkUnpBeVJNcW9KczBFUkFrU0cyNzYzUlVkX2NxZWR4ZUg2c19jUUsweldPdUtFNjA?oc=5",
@@ -20245,7 +20291,7 @@
     },
     {
       "id": "aa17a6eca97a950b82cf3e2c",
-      "title": "How Iran's precision strikes picked apart Gulf infrastructure - Reuters",
+      "title": "Iran’s precision strikes picked apart Gulf infrastructure, blunting US war plans - Reuters",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONmZVZ0RfSms3U0s1SVE3N3ZMeWxLaVhtTjczazRmNU40UkpCUldVbWZJVUtJVkt3cHdLOEpoTl9qY0lFXzdKWUtydmYzVi1MeDExbXB6eHc3NjAyTi1CT2lveE5WVUNPeHV5SndkU3BmRUNiS1JCQUI2bDYyZjd6RjltYUhzeFVmUDFPSU93NWo?oc=5",
       "source": "Reuters",
       "published_at": "2026-10-15T10:00:00Z",
@@ -26294,6 +26340,30 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "a655d15acb89d9c6db5135da",
+      "title": "صواريخ ومسيرات إيرانية تستهدف البحرين والكويت والأردن.. والدفاعات الجوية تتصدى - الساحل الغربي",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE15VmNLVDgtRnRBRzRXaVowSlM1cTFRTEtwVGhhS0JoWVRpZ3FpdW1EZXZzdXN3SHcwNXVNV2s1N0tzMU9FYkZEZXFDWUlESWM?oc=5",
+      "source": "الساحل الغربي",
+      "published_at": "2026-10-13T13:09:10Z",
+      "country": "",
+      "countries": [
+        "Iran",
+        "Bahrain"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "خبر اعتراض / دفاع جوي",
+      "provider": "عربي · الكويت والعراق",
+      "first_seen_at": "2026-10-20T12:01:49.547007Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "2d6e21dbddb7c4e6ebd7e0a1",
       "title": "تحالف دعم الشرعية في اليمن يعلن اعتراض وتدمير ثلاث مسيرات شمالي الرياض - https://emirates24.net/",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9JbGFib05VZlQtNGFUejNsWTlyWGxJcEFULXR4d1RsMFVJWG1YOEF0Vm9IX3NyUFpwN282RXo3aUZlcDV6R2E1MDQtbTZCTEVTTUFr?oc=5",
@@ -27489,12 +27559,12 @@
     "Google News · security": {
       "ok": true,
       "items": 100,
-      "relevant": 67
+      "relevant": 69
     },
     "Google News · aviation": {
       "ok": true,
-      "items": 99,
-      "relevant": 91
+      "items": 97,
+      "relevant": 89
     },
     "Google News · shipping": {
       "ok": true,
@@ -27504,32 +27574,32 @@
     "Google News · diplomacy": {
       "ok": true,
       "items": 100,
-      "relevant": 51
+      "relevant": 50
     },
     "Google News · regional": {
       "ok": true,
-      "items": 55,
+      "items": 54,
       "relevant": 29
     },
     "عربي · إيران والخليج": {
       "ok": true,
-      "items": 53,
+      "items": 54,
       "relevant": 41
     },
     "عربي · قطر": {
       "ok": true,
       "items": 57,
-      "relevant": 27
+      "relevant": 28
     },
     "عربي · السعودية": {
       "ok": true,
       "items": 100,
-      "relevant": 58
+      "relevant": 56
     },
     "عربي · الإمارات والبحرين": {
       "ok": true,
       "items": 63,
-      "relevant": 44
+      "relevant": 45
     },
     "عربي · الكويت والعراق": {
       "ok": true,
@@ -27554,12 +27624,12 @@
     "عربي · الشرق": {
       "ok": true,
       "items": 100,
-      "relevant": 40
+      "relevant": 41
     },
     "عربي · وكالات الخليج": {
       "ok": true,
       "items": 100,
-      "relevant": 30
+      "relevant": 29
     },
     "الجزيرة نت · RSS عربي": {
       "ok": true,
@@ -27596,9 +27666,8 @@
       "error": "not well-formed (invalid token): line 1, column 0"
     },
     "UN News · الشرق الأوسط (AR)": {
-      "ok": true,
-      "items": 30,
-      "relevant": 7
+      "ok": false,
+      "error": "not well-formed (invalid token): line 1, column 0"
     },
     "GDELT · article index": {
       "ok": null,

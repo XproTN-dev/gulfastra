@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "generated_at": "2026-10-20T12:14:08.656812Z",
+  "generated_at": "2026-10-20T12:14:35.582439Z",
   "model": "deterministic-source-correlation-v1",
   "disclaimer": "Clusters are related PUBLIC REPORTS, not confirmed incidents. Source counts are not proof. Country names are mentions, not incident locations.",
   "events": [
@@ -3030,6 +3030,51 @@
       "updated_at": "2026-10-20T11:35:35.646171Z"
     },
     {
+      "id": "GF-7AF3BB603BD54F",
+      "title": "الدفاع البريطانية: مقاتلات \"تايفون\" ستشارك في دعم السعودية ضد هجمات الحوثيين",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T08:10:31Z",
+      "last_published": "2026-10-20T08:10:31Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "d0b5ab21ef3f76e62477406f",
+          "title": "الدفاع البريطانية: مقاتلات \"تايفون\" ستشارك في دعم السعودية ضد هجمات الحوثيين",
+          "url": "https://www.aljazeera.net/news/2026/10/20/%d8%b9%d8%a7%d8%ac%d9%84-%d9%88%d8%b2%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%af%d9%81%d8%a7%d8%b9-%d8%a7%d9%84%d8%a8%d8%b1%d9%8a%d8%b7%d8%a7%d9%86%d9%8a%d8%a9-%d9%85%d9%82%d8%a7%d8%aa%d9%84%d8%a7%d8%aa?traffic_source=rss",
+          "source": "الجزيرة نت · RSS عربي",
+          "provider": "الجزيرة نت · RSS عربي",
+          "published_at": "2026-10-20T08:10:31Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "digest": "284f9f7a33983de2bc27",
+      "revision": 1,
+      "updated_at": "2026-10-20T12:14:35.582439Z"
+    },
+    {
       "id": "GF-06F4B9E5426BD8",
       "title": "Pakistan Army Chief Munir to Visit Tehran as Efforts to Revive U.S.-Iran Talks Stall - thekabultribune.com",
       "category": "diplomacy",
@@ -4000,6 +4045,50 @@
       "digest": "db23c106d6b353f0f25c",
       "revision": 1,
       "updated_at": "2026-10-20T12:05:00.342474Z"
+    },
+    {
+      "id": "GF-3900B91B8AA123",
+      "title": "The UK expands military support for Saudi Arabia against Houthis to include ‘defensive’ air patrols - WREG.com",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T06:12:07Z",
+      "last_published": "2026-10-20T06:12:07Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "cf6f6df0569e07805626919f",
+          "title": "The UK expands military support for Saudi Arabia against Houthis to include ‘defensive’ air patrols - WREG.com",
+          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQaWhCQjZ0cThTZzdJeVNPNExFSU50N1FERnROVjRqSHdSUURBOUN1dXBoMHFPQXVGQTRZLVJBbVZVQUxDbUE3azZqX19La0I5YVhObWpfMW5aa2xnODZ0Z2xfMEdMZ2hZOUFVdzEtcW00OUMzSm1TeE4zbW9UblIzYTNFTkQxVUNDTE9IVU9QS1ZqSWVKNzZzbTBUb25RWWYydUxNelpuLWd0cGJZRlRpV3ZkTDhiczc2VTZIYlBIeV9qa2ZoZlJPbE9oSmFXakdEYjZpV2RxbWRxUWkzRDQ1T1JYX2FzeHJtYTV2TzEtY9IB7wFBVV95cUxQaWhCQjZ0cThTZzdJeVNPNExFSU50N1FERnROVjRqSHdSUURBOUN1dXBoMHFPQXVGQTRZLVJBbVZVQUxDbUE3azZqX19La0I5YVhObWpfMW5aa2xnODZ0Z2xfMEdMZ2hZOUFVdzEtcW00OUMzSm1TeE4zbW9UblIzYTNFTkQxVUNDTE9IVU9QS1ZqSWVKNzZzbTBUb25RWWYydUxNelpuLWd0cGJZRlRpV3ZkTDhiczc2VTZIYlBIeV9qa2ZoZlJPbE9oSmFXakdEYjZpV2RxbWRxUWkzRDQ1T1JYX2FzeHJtYTV2TzEtYw?oc=5",
+          "source": "WREG.com",
+          "provider": "Google News · security",
+          "published_at": "2026-10-20T06:12:07Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Saudi"
+        }
+      ],
+      "digest": "66f2791968058076d72e",
+      "revision": 1,
+      "updated_at": "2026-10-20T12:14:35.582439Z"
     },
     {
       "id": "GF-66A06914784A80",
@@ -7848,51 +7937,6 @@
       "digest": "64c7018c4568f54faf27",
       "revision": 5,
       "updated_at": "2026-10-20T09:48:10.536726Z"
-    },
-    {
-      "id": "GF-2641AEE1D03B4C",
-      "title": "صواريخ ومسيرات إيرانية تستهدف البحرين والكويت والأردن.. والدفاعات الجوية تتصدى - الساحل الغربي",
-      "category": "security",
-      "topic": "missile",
-      "countries": [
-        "Bahrain",
-        "Iran"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "ar"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-19T16:18:43Z",
-      "last_published": "2026-10-19T16:18:43Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "a655d15acb89d9c6db5135da",
-          "title": "صواريخ ومسيرات إيرانية تستهدف البحرين والكويت والأردن.. والدفاعات الجوية تتصدى - الساحل الغربي",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE15VmNLVDgtRnRBRzRXaVowSlM1cTFRTEtwVGhhS0JoWVRpZ3FpdW1EZXZzdXN3SHcwNXVNV2s1N0tzMU9FYkZEZXFDWUlESWM?oc=5",
-          "source": "الساحل الغربي",
-          "provider": "عربي · الكويت والعراق",
-          "published_at": "2026-10-19T16:18:43Z",
-          "collected_at": null,
-          "language": "ar",
-          "country": ""
-        }
-      ],
-      "digest": "64eb47930abcb277ffab",
-      "revision": 7,
-      "updated_at": "2026-10-20T12:12:48.310142Z"
     },
     {
       "id": "GF-03476150E89A5F",
@@ -28664,6 +28708,50 @@
       "updated_at": "2026-10-20T07:40:58.957167Z"
     },
     {
+      "id": "GF-335A976FAAEE0B",
+      "title": "ما الذي يعنيه انتقال قوات التحالف إلى ضرب مصادر الحوثيين الحيوية؟ وكيف تتغير معادلات الردع أمام استهداف الحوثيين للمنشآت المدنية والمطارات في السعودية؟ \"الحرب في اليمن وخيارات قوات التحالف\".. موضوع حلقة هذا الأسبوع من برنامج \"على الحدود\" مع سحر الميزاري ت - الشرق للأخبار",
+      "category": "security",
+      "topic": "aviation",
+      "countries": [
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-16T19:23:11Z",
+      "last_published": "2026-10-16T19:23:11Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "0038a17710ae3abd98aa4572",
+          "title": "ما الذي يعنيه انتقال قوات التحالف إلى ضرب مصادر الحوثيين الحيوية؟ وكيف تتغير معادلات الردع أمام استهداف الحوثيين للمنشآت المدنية والمطارات في السعودية؟ \"الحرب في اليمن وخيارات قوات التحالف\".. موضوع حلقة هذا الأسبوع من برنامج \"على الحدود\" مع سحر الميزاري ت - الشرق للأخبار",
+          "url": "https://news.google.com/rss/articles/CBMivw5BVV95cUxQcHk3aldVMEE5aHNQWkRiTHlkMmo4OUVkYk00TDFaT0xOS3dscTBlaTJ5YU1QYkp5MzRDVTR3RnRCTnI3emhBTGM1ME9RWWFlSkdpRGstS1ZqbnIzTEpReEpFSnVwZFRRTm9KV2dxLWFSQ3dJZ3ZabnQ0MnZJc2FaZG1ENWdJQmhDaVQ4SmlsNFpDdWdMSE82VUhCY3ZOZnRqOERYUG0xWFBZNmhGNjhmN0ttR2x6TmtaTDluM3dma0h4U1IyVXFBWW1vTjAwOGU1UkFmS1dBOFRVTEZza2dKNlN0WnhoTHJvb24zZUFMRUl5UWdrNlZjOTl2TDB3SXZ1UmMwbWo0bGJxd3BCNjhpRDFodjRCLXF4RTMwQUNTcVU3NWpua2RDY3NLX2NvOWZwQ0JoNGlUS1ZyX1hpaXhFTjQ3TFptMmdFRk5GQi1MUkVrb3dYWGNqRXRCYXo4M0tyUXRfQ1hUZXhSLXI3SDZWcC1KZFpEbU9hRUNnUmFIVFR0alg1emRsb2ZmQWZYWE4xWmNkYkMwRVR1akwzUDd5VVhDMXE1YTlZa2Y3a0ZXRlJFdUJJQWRjU19VckZILW9waW9IVlp1MkZiM2dyMGlqdVFWYkJuWUtYcW1TVlBmNVZBdm9EeVlQZDdwUnVWc042TUs5Ym1YODhRc3BLeEtpTkFocDNhbDBIYjhteTczUkJTQjhlS1VsVDFrTzduRDdXRTVGei1wZ2RIellmem1NZVVQdDlrdkhlTzhGU1dScExZVnhiTDFSZkRHVTlCOEpvSmxZN0duVmhHVkNhMVY3dWZVeFYyakgzYjh5VFZoVUYzTXZyUmFOY0FyWjlQOWlkZ2xLb1UwM0ZnYnFoVmxuWjZjcHZkTDhhcmo1OVRBRUh6YmYzQnhpMXVMMG9CUXJrNGMxVDNXZVllX0FIMVNpX3h1NzE5WktDMlIxcVpvUXg0aUJwTS03ZWJ5SXU1VGJhQ3lpZXdqT1JjRGFIejlxSnFJcE9EU1JGXzJscVZyUWpnQ0JHVE5MNzVtSG5UYzBGM1JYR0FYcTJyNmtDOGxDMDkyZFpxLUVvcXVPYWR0ZWF3UTE5ZzBLZlBrX0hnank1RktCMVYybEVZMEZZTFBMM3ViSEJPOFQzQXpBdmRBM2lpSlJjS01XUGVVTm1ZUUZpWU9YNEN3dXBnMW5PclF3c2JpSUJ6UG9uTHJTTl9WcF9LbXBSOG9HQlQxSHRKV2tGMTJFUzR5QjA2dUNxMll6bzJ5SDNnYmlKOW1ueGVMbElBdmJKc1o2MFY0LTU0Wjk2VTFOSkZvbEVfd2w0QTV0NWNIVjVfLThXMThjOXl5TzNjS21qUjVLakQ1NHlQelFuNXJyRlNtOWNRcjJ3NF9EME5hdS1pZlRaZF9JU2UwV1F4N25RR0g2RmtJTlNoR1pBeEgtc2xjQU9pMzF3SG51VC1OendJdWdHM3pBajNSV3ZWdjJOUlFVMVNENWRsazAxenR2al83UXBaX3Rvd0dlTjRYZ2laUXlmNmJ6a0xkWUNpaFc2Y1Q2Zjd6bGxuU25RQjhnaTljb1Fwb1IyX1BtaUZvanFNWDgyVXR4NnRaMlQtMUFKXzBlS21zalNPcEgxeFZQRWZjSGdoRVpwZVRyZ1g2NUtCM0htZ0NVTDhfVzE2dzVwaXVSeWFiMW43aG9jUkQtR1VYcEgxMUJHTnJnVGxRVHBGWnQyMG05ZXU2N1ZIbmRiY0t6UXc0T1hyZDRDNG80TWQtQkE0VE5adlpMdXlwMTNFbENOQ2tqNjdESmRwaUFVdWVOSGJzbjI3Zzdqcm42VzFhNkpRaVd5cjR6MWdvTXgzWjQtdm9takdCamlaODdJUlM4S0Z0WGZ6bDJwWElydHNTbFZpX2NZR2RvbWlIdzhoVXoxdWgyYXF6ZlFzZGFydk9FZ18tcjlCbnozempPUzFWRGJzNjdSelhzUHdQYXB2NElzcGhBNWVoWC02Qld5WG9CdV9kSWhfa1pBZGpyWkhBbW04RjBlUGdyaUU2SUZYTzRpTTdFei1fbnNlYURWR1JhWVJXN3FlRjloNUVlTVBJemJ5UThYYTB0R1d6NUZUMU02OGV5R3N1aURNWkhPRm1JVVpEeDlRVmx4eWYwZ21pQ2lQbmNWRU1ZMEV1SzRlbkdjVmh0eUtSRmdtQ1ZyNjYyZ3dTcVpVMWYzUUU4ZTJ0NWRUS1lIc3Zoell5X3FwZml0dUtjeEZTRTktMV8tVE9ubTBZVkVkNndBOHRHQ1pYcGIxd21zMUlDOE14U2VZTDRpWVRWY1Y1VDNJb0pCYjBJS0FfbFBrSE5RX1E0UVR3WnV0ZDItWUxGT3l0OFNEbnFHbVgtVWdxYzE4MXp6emxkVEw3OUluZFhGNEloZFdfVjRJdFAyOXVtbUtoQWo5OUNpdnBESUpCMk5PWjV1T19Ob2luX0dSOUVhYXFZU1FDNkFnQTV2V2U4?oc=5",
+          "source": "الشرق للأخبار",
+          "provider": "عربي · الشرق",
+          "published_at": "2026-10-16T19:23:11Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Yemen"
+        }
+      ],
+      "digest": "717ec4e881c908eb56ed",
+      "revision": 1,
+      "updated_at": "2026-10-20T12:14:35.582439Z"
+    },
+    {
       "id": "GF-7A9F0811D92F40",
       "title": "India-Saudi Arabia flights cancelled till October 24 amid Gulf tensions - The New Indian Express",
       "category": "transport",
@@ -37119,7 +37207,7 @@
     },
     {
       "id": "GF-58682ABDDE355B",
-      "title": "How Iran's precision strikes picked apart Gulf infrastructure - Reuters",
+      "title": "Iran’s precision strikes picked apart Gulf infrastructure, blunting US war plans - Reuters",
       "category": "security",
       "topic": "regional",
       "countries": [
@@ -37147,7 +37235,7 @@
       "sources": [
         {
           "id": "aa17a6eca97a950b82cf3e2c",
-          "title": "How Iran's precision strikes picked apart Gulf infrastructure - Reuters",
+          "title": "Iran’s precision strikes picked apart Gulf infrastructure, blunting US war plans - Reuters",
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONmZVZ0RfSms3U0s1SVE3N3ZMeWxLaVhtTjczazRmNU40UkpCUldVbWZJVUtJVkt3cHdLOEpoTl9qY0lFXzdKWUtydmYzVi1MeDExbXB6eHc3NjAyTi1CT2lveE5WVUNPeHV5SndkU3BmRUNiS1JCQUI2bDYyZjd6RjltYUhzeFVmUDFPSU93NWo?oc=5",
           "source": "Reuters",
           "provider": "Google News · security",
@@ -37157,9 +37245,9 @@
           "country": "Iran"
         }
       ],
-      "digest": "1df11ea349ac8dd761b3",
-      "revision": 4,
-      "updated_at": "2026-10-20T12:12:48.310142Z"
+      "digest": "d2dc04b668cf89be9a38",
+      "revision": 5,
+      "updated_at": "2026-10-20T12:14:35.582439Z"
     },
     {
       "id": "GF-F569005F5A89B0",
@@ -48362,6 +48450,51 @@
       "updated_at": "2026-10-20T12:10:02.002002Z"
     },
     {
+      "id": "GF-2641AEE1D03B4C",
+      "title": "صواريخ ومسيرات إيرانية تستهدف البحرين والكويت والأردن.. والدفاعات الجوية تتصدى - الساحل الغربي",
+      "category": "security",
+      "topic": "missile",
+      "countries": [
+        "Bahrain",
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-13T13:09:10Z",
+      "last_published": "2026-10-13T13:09:10Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "a655d15acb89d9c6db5135da",
+          "title": "صواريخ ومسيرات إيرانية تستهدف البحرين والكويت والأردن.. والدفاعات الجوية تتصدى - الساحل الغربي",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE15VmNLVDgtRnRBRzRXaVowSlM1cTFRTEtwVGhhS0JoWVRpZ3FpdW1EZXZzdXN3SHcwNXVNV2s1N0tzMU9FYkZEZXFDWUlESWM?oc=5",
+          "source": "الساحل الغربي",
+          "provider": "عربي · الكويت والعراق",
+          "published_at": "2026-10-13T13:09:10Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "digest": "b7547e67f32d069beca6",
+      "revision": 8,
+      "updated_at": "2026-10-20T12:14:35.582439Z"
+    },
+    {
       "id": "GF-4BCF1CEDA6EA75",
       "title": "تحالف دعم الشرعية في اليمن يعلن اعتراض وتدمير ثلاث مسيرات شمالي الرياض - https://emirates24.net/",
       "category": "security",
@@ -50539,11 +50672,11 @@
       "sources": 197
     },
     "Saudi": {
-      "events": 422,
-      "reports": 442,
-      "security_coverage": 319,
+      "events": 424,
+      "reports": 444,
+      "security_coverage": 321,
       "transport_coverage": 91,
-      "sources": 217
+      "sources": 218
     },
     "Qatar": {
       "events": 40,
@@ -50588,9 +50721,9 @@
       "sources": 5
     },
     "Yemen": {
-      "events": 196,
-      "reports": 200,
-      "security_coverage": 185,
+      "events": 198,
+      "reports": 202,
+      "security_coverage": 187,
       "transport_coverage": 11,
       "sources": 109
     },
@@ -50610,28 +50743,28 @@
     "2026-10-08": 1,
     "2026-10-10": 1,
     "2026-10-12": 7,
-    "2026-10-13": 111,
+    "2026-10-13": 112,
     "2026-10-14": 137,
     "2026-10-15": 127,
-    "2026-10-16": 123,
+    "2026-10-16": 124,
     "2026-10-17": 178,
     "2026-10-18": 139,
-    "2026-10-19": 186,
-    "2026-10-20": 119
+    "2026-10-19": 185,
+    "2026-10-20": 121
   },
   "revisions": [
     {
-      "id": "GF-03303938FAA376",
-      "revision": 4,
-      "at": "2026-10-20T12:14:08.656812Z",
+      "id": "GF-58682ABDDE355B",
+      "revision": 5,
+      "at": "2026-10-20T12:14:35.582439Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-4B13232C28C9F4",
-      "revision": 3,
-      "at": "2026-10-20T12:14:08.656812Z",
+      "id": "GF-2641AEE1D03B4C",
+      "revision": 8,
+      "at": "2026-10-20T12:14:35.582439Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
