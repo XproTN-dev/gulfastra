@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "last_run": "2026-10-20T12:03:06.238942Z",
-  "last_successful_run": "2026-10-20T12:03:06.238942Z",
+  "last_run": "2026-10-20T12:03:42.847208Z",
+  "last_successful_run": "2026-10-20T12:03:42.847208Z",
   "reports": [
     {
       "id": "f1371e48b5d899af93ad8379",
@@ -90,6 +90,27 @@
       "date_quality": "legacy-unverified",
       "freshness": "new-reporting",
       "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "bada4b0a64b8533e99b42aff",
+      "title": "\"إتش إس بي سي\": الطرق البديلة ربما تغني عن مضيق هرمز خلال 5 سنوات - الجزيرة نت",
+      "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxOelk5V01HZ3NobEpRQ05vR1N2ZXVuSTgyMThlZllvTy1QQVpXTTQ4OUtGRXRwRUN5alJ4U1Q5S2dXdmVPZEd5Y2JLOTVOemJEcDc4SWpqbHlmcHVpQTloTVdOQzBjNlV1dHZ6QmdOUnVuWmpYbGxUc0tBb3NoVU1iLWl0S01UY3FoVVBBMVJ2YmxqM0NaTHEyZWZWbTVtSFFXeUdud1NQU2ZYVDlRTUFwNzF5UkxtZVk5N0JJSWs3Zl9adDl2VllFcG82ajk4RW84Nk5vRFVqTzBmdmNkQUVpZm4tWURubXM0QmVRRl93Tzk3VVlRRDJHMHVIY0Z5eGFIdmJqUmpCbVlaXzRTSGJDd2VZMFJDZXdrSjctUUVHV3ZxNDA3UUpYNU95Wkw1cE9OU2fSAbcCQVVfeXFMT3V1cmRKZWt0V2NyVVVPZFVfOFE5SHg5S0dUMHFVY0FSUXBNbHY5dlF1ZXJQdUZxLWtMRmkzUEVuYmxzbXdObmNFZi05eEM4ekV5Nk5wVENxTXFiaEdKclhwaFNUeFgxSHljNVNBRVdSU1JTMVEtZ05KMWEwS29KRWtkdGxzc2VZQkZzLXhWRmVERkVySkVoM2VoN0ZvMjU4NjYzUXpnbkZxVVdEOTduRUR2TmlQa3ZKUEtCZXN2Z3hwX2hsYnc1WlU1NFl5OTNreDlCeHRGdUZOcXlWbzdvb25WQ0JHLVhIWWRSZmNSRVNnM29zSVhubGRCdl9lLU4wTVpmSng4VndzdHJaRFdqR2FnZ2t2T01sYTRGclVGbjhFSm1YWmN4QmsxVXNBUlU4SF9OREJybGs?oc=5",
+      "source": "الجزيرة نت",
+      "published_at": "2026-10-20T11:37:30Z",
+      "country": "",
+      "countries": [],
+      "language": "ar",
+      "category": "transport",
+      "tag": "ملاحه بحريه",
+      "provider": "عربي · مضيق هرمز",
+      "first_seen_at": "2026-10-20T12:03:42.847208Z",
+      "date_quality": "publisher-time",
+      "freshness": "new-reporting",
+      "context": "speculative",
       "severity": "routine-reporting",
       "critical_candidate": false,
       "alert_eligible": false,
@@ -237,6 +258,29 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "b75bb2b7af18a30b6c56175c",
+      "title": "The UK expands military support for Saudi Arabia against Houthis to include 'defensive' air patrols - AP News",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdFpJQjVaX2pPYVMybXM3OEQ4ZzRzNEdpc2FVMldTRTVWaVFNQXZQVkZrRmdLNVpKc1RVeS1sbGIzSDJlNE12QkRMR2UxcC1PZWIwcnJXY0Z4T0hEQkxmWnBrNHpkSFZxaWgzZU5pRGM1cGJVUWRISHFraGJaUFFzRnlHYko4UlJpMmFvMVZLc1lFdw?oc=5",
+      "source": "AP News",
+      "published_at": "2026-10-20T11:02:00Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · security",
+      "first_seen_at": "2026-10-20T12:03:42.847208Z",
+      "date_quality": "publisher-time",
+      "freshness": "new-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "ef82205075e95f5d73671498",
       "title": "The UK expands military support for Saudi Arabia against Houthis to include 'defensive' air patrols - ClickOnDetroit | WDIV Local 4",
       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPRHRXaVJONFRPNEFfdWdld2FOYUFMd1FlWFFYM2Q2U0JEdE9ZME80ZndTMGZIUUYtdmpSQVdXZHJxejlYTkRxRDZzdlE2VzMzelVVdEo0ejJNX0FrZ2NwUWoyYVA2c0ZfbEQ5OVJDWEY0QlJuY1VWRm5FajB0OXM1MTd3ZzNXQnFTaGtxU1ZEdlJNTTlxNVRWRzlHdzY0ZkY5VVdmc05GWUJsZjdwTVJDLUxCbDhHVXFoOEtpcmhEWC1EdnlhMTUxbXcxV2dTdzB5SDlIUFB1bG1WSjVhQmk4Q0dMN2RWZw?oc=5",
@@ -252,6 +296,29 @@
       "provider": "Google News · security",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
+      "freshness": "new-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "9851d52ab3c067ff4cae83c2",
+      "title": "The UK expands military support for Saudi Arabia against Houthis to include 'defensive' air patrols - News4JAX",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQa0F5MUJNaHdvajFxM2d5eWVHZjhjZUlzcjR4a2RqcEpMdDYzOUczUGdObm9rVUFEcDB0MVRyT2FWRkl1STBQY0NraTZCYk9kZmlpdmhNMHNHNzVzTVA2bTl0V2tTRU1RLTdkVTY5WjhXOVRoRmRldmtmb3ppbGFIRTh3WWtKRURiVnBxYzNleWlmSzZFVTNlZkU5SXM5SlVhN1k2OWF3ODNnV1RLLUk0M08tYlZCbkxUenEyTDZNcUQ1Q2ZnQkp1eHlfUU5oVjRJeE5VaXJtb1lEYlhoSHc?oc=5",
+      "source": "News4JAX",
+      "published_at": "2026-10-20T10:59:11Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · security",
+      "first_seen_at": "2026-10-20T12:03:42.847208Z",
+      "date_quality": "publisher-time",
       "freshness": "new-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -544,6 +611,30 @@
       "provider": "عربي · قطر",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
+      "freshness": "new-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "abdd8422c0a070857015721f",
+      "title": "عاجل | الخارجية القطرية: على الجانب الإيراني تنفيذ القوانين الدولية الخاصة بحرية الملاحة وينبغي فتح مضيق هرمز - الجزيرة نت",
+      "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxPYTJFMkcyUEJzTnVDQy0wUnF6Zjk3UGdvTnNUcWtsTmprMEVXNlpLMzI4MjQ0ZzRQcUNGUlNyb2hBMjhESlpvOEFaNGpGRWVkYjhMWk81MEFBZWM5WlFYbjdUbmwtVVhnRC1tRkoxTUtnLWpVa01BYmFndjlSbWpMOHF0U1ZLWHpYNGJSOEpZMnFfRFFXMllPUUxXTzZ1Zl9HWlQ0b01YSUhmWjBYbWgtbjdFNmI5LU9hUEpyZ1pjOWpaSUdrbEh6eENnZDlrSWlGMTM4RDYzX1VmVUlRelh5cV9DVmZYQU95Y0ItbnhxNUlRdVNndVo2eXlTNENxNzlpbFhKWkV5RXJnejBwclZ0aWpvQ2xRM0pfQzlKNk5MamxMS19ZNDRhMEpXMnhUUWYyT1ZaRGtMSVg3d9IBvwJBVV95cUxOd291SENuRVlTNXg2UkFWcDZfRGxoZ2lGeVZYLXVJM2loOUJTU3BRYkFGODdxd0RLZjVJZmdQTGJNLTFSajB3Vnc2elpnOVZ6S1FEakhmTGJxLXZONVhKckZGekk4N2tmYndVSEloNHIxSHBoci1iUGNqUUQ2MEo5LWFvZVlmZEtiUU1BWXZZak5Fc29DRjBoOW85a3lOWTl0NGxla09ydVNaLTZKM1dNODE0bzVMWlNhZWNJU1pjSHVtRllNTUw3R1BVZlpYeGdBcFNRdVI2YVVMemRuOTlwZC1QVmZhY0NUOTh0YVNuQTk4U0ZBSU5kMkF6UkJTTEk5RkxVR2dJa24yMjZIcnlua2c1LU5VRUctWm1VZWpsUUdlNzNtZDc5WEdrQTVPRHloNVpxMll4SEpZX01FNFlN?oc=5",
+      "source": "الجزيرة نت",
+      "published_at": "2026-10-20T10:04:54Z",
+      "country": "",
+      "countries": [
+        "Iran",
+        "Qatar"
+      ],
+      "language": "ar",
+      "category": "transport",
+      "tag": "ملاحه بحريه",
+      "provider": "عربي · مضيق هرمز",
+      "first_seen_at": "2026-10-20T12:03:42.847208Z",
+      "date_quality": "publisher-time",
       "freshness": "new-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -1147,6 +1238,29 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "d0b5ab21ef3f76e62477406f",
+      "title": "\"لن نشن ضربات هجومية\".. بريطانيا ترسل مقاتلات تايفون للدفاع عن السعودية",
+      "url": "https://www.aljazeera.net/news/2026/10/20/%d8%b9%d8%a7%d8%ac%d9%84-%d9%88%d8%b2%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%af%d9%81%d8%a7%d8%b9-%d8%a7%d9%84%d8%a8%d8%b1%d9%8a%d8%b7%d8%a7%d9%86%d9%8a%d8%a9-%d9%85%d9%82%d8%a7%d8%aa%d9%84%d8%a7%d8%aa?traffic_source=rss",
+      "source": "الجزيرة نت · RSS عربي",
+      "published_at": "2026-10-20T08:10:31Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير امني",
+      "provider": "الجزيرة نت · RSS عربي",
+      "first_seen_at": "2026-10-20T12:03:42.847208Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "28e6ef0a469d6a5afe075964",
       "title": "Pakistan Army Chief Munir to Visit Tehran as Efforts to Revive U.S.-Iran Talks Stall - thekabultribune.com",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9Sb2wtRVU1aTNYZW5EWUN2X0l4TTVSS3I2UWhhaU9zNXFvSVNwZnQ2YTJkNzJBd1pfdzhlTE80Z0Z2WWVKczQ4ajczNk9hTWM?oc=5",
@@ -1185,6 +1299,29 @@
       "provider": "الجزيرة نت · RSS عربي",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "4b3b2ea2dbeeef05a82d8aa0",
+      "title": "منتدى الأمن العالمي.. قطر تدعو لحماية الأمن المائي وتعزيز الدبلوماسية الإنسانية - الجزيرة نت",
+      "url": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxPTnE4d2tmSy1IMS1JdmtYT2JfLWd1NmQ1LS1vMkRwdjBuMy0yaWQtVEFqeWxVZTRjZi1BR241cW5VMDUtdG1QMzNhVzFrZ2ttT1pnS3NXVGxzVmRkZGdJUldLWEk1UlRDSmloUGduQVo5eE5YeHlEaWpGR2dRV2FyUEw4a0U3Ulg3X1BGZVdxSE16RlVUQkVwN3FxMVFDZ0Z2Zk81U01YNnBOWnUwem5Zb3V2UlhRLVJ5cnNKcjZxZXFiU3pla240YlVxRDd5RW5MdzhISHQ2T2RzT21iSTk4N3UtUDRPY1FVWEFoUFE0dzkwbUktakJmMkVUaWlVTHhRUUJUUG5PSkxtT1pvLVpRVWpldWdHb3VNbjRMdkVqS3NFQ1prMGNmY2t5ZVoySXFSem80TlNtQjI1WXNBNExSTkZZR2pMbTdDZkFQaElSTVBEcENB0gHaAkFVX3lxTFBSM0VEbzQ1bjZQNzk0SWdnRkY1RmtKYTZtN0U3SnFVVnR1ZnhZcmdGczlrRGw4blNpdmFabW9IQm40V1RTYXFIWDRxQ0k1V3J4QVpRVTJMdFBZRDYta2lyRk1GOWRwQlBmREdadVg4WVd5cDFNTml6QTdQYXJDZ2hlTENzSV9LTURuOGhXbU9nSUFHRkNtUFhnZFFhdE5XeFEybHR6djVjNGF2SGhiQXpIWXJ1VUwweG1jWXJYZVRaelUzV2Q2MFBaN19UUVM3bFQzRm5BWnpQT0F4eFJfV0NadHpycXJTTnZJTEF0d2w4TV9EcHVVSFZFT1NPZG9QS0ZJM1RPX3h0Tkhrdlg4YnVIQ2xXSXlhWkRabVNVYnl5SVE2RnVoeFhhaHNod1RjcWJ2ZnJTVkJYZFdkd01Fa1ZSVXZpMzY4RVJEM1Y2YmVyb2oxQ3NBYWNnQWc?oc=5",
+      "source": "الجزيرة نت",
+      "published_at": "2026-10-20T07:54:22Z",
+      "country": "Qatar",
+      "countries": [
+        "Qatar"
+      ],
+      "language": "ar",
+      "category": "diplomacy",
+      "tag": "تطور دبلوماسي",
+      "provider": "عربي · الجزيرة",
+      "first_seen_at": "2026-10-20T12:03:42.847208Z",
+      "date_quality": "publisher-time",
       "freshness": "recent-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -1543,6 +1680,29 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "b51edeab1e8a1a2f2468fd3f",
+      "title": "Iran says it downed US drone over Strait of Hormuz - A News",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeFdIc1kyMTUwcUhYNDBoUElzQU1wemNtUEtXQ3pOaEdqMlQzdkxnQ2JwaVE4ZTZSSk82VEtfQVlOWmR6WHpGWktKT244MThUQTdEclpDNlRTaTlVMDQ4cUF1T0lxZXVkVkJjZnlTazBWazlsY2JMSGV0ZUJRb1VDOVZMakVJR2lsVDUtRjRkWktQVWFBTTJ30gGcAUFVX3lxTFAtYXZHaHlXeUxmWGtOZFFCdm5ZNnFzaTRtbVBoeTF4Z1M4bmF0RXVleXdwUFFVSk81RzlxMF9aRllXU1RhcktUNnVsNkdFbC1pUjF0OWlmYm9nZGdKT0ZfLXRCbGlna05sVmVFZ0pFOUJCX3l4amkzMU56QTV1QnVQcGxHb0VMN0JpMm5ONFRPaVJCR3QwYVdybXplUQ?oc=5",
+      "source": "A News",
+      "published_at": "2026-10-20T06:28:44Z",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "DRONE REPORT",
+      "provider": "Google News · missiles/drones",
+      "first_seen_at": "2026-10-20T12:03:42.847208Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "e2b645c16962e35fab5c0846",
       "title": "فجر اليمن.. القوات المسلحة اليمنية تفشل هجمات حوثية على جبل هان بتعز - العربية",
       "url": "https://news.google.com/rss/articles/CBMi7gNBVV95cUxNanhtRHM1Ym9fb0xxOF9rVWRVN2dId2VSTldYTU5mN0M1LTBPTlZPUWdjUFBUcUg4X0M5enFEdzF0STYydy1QU3M5Z2dnMnk4ZWpFdDFzd0xLUGVEbk41cldmb0FSMWQtdFY4ZmRMeS0zWTdLR3dXRy12VE9PVmtsYmNOTUZQYm96N3FpTTFlN19MVWFKd2V2TVhtOS1PRk01eG9mZ2U0cm84OTEtOEp0ck01UVNPYVU3SVk5ZVhzYU1lTmhmM2JoYzVUdzU3aFdSV09vMEZMbmVuQzdiNW5lclJERnZDNHhEOVhhTG9RYV9CbUp3VkNJQUhBSkRuYWFTUmgwYl9UdGloUy1ucW9xSzBiNER0SmZ0TlM2YXpQUmdseFNGbjhmNTRrdkhiT1IzN0d0NV9vellCQWpkMDhfYnpNXzZvd2ktcUJpaWtjS2E3OFNpMFRlLXJMY09rV19raEY4WDV5ZEVJMW9WVjBBX3RNMnpQRHlESzlkdVlkRDlPV0daUXFadFBrWVAtVDd3a0VSdGJvZTZKcGo4UXZTUllLbURYRVVsNmFUck45QVRpeFR2QmFIcDV5WFJmRTAtMWVtQzlnWXVUa1Q1b2djbkxLTV9EVzIwT0Q1WU9Vel9nemhuZXFLRnZLZmxtUdIB8wNBVV95cUxPcUNUTVZqMFg3UkU1Z3lXbnJ5dENuTjBEMl96NmYyS2xqWHg1dWRDMDQwWTB6QmMtUnlEX0JLb0s4Q245WlgxYmI4NEJ5a0Z6dU56UVAyaEl5VHJBcElRTndDZHFvbnVWY08wYmRxT1NVX2l2MjhMb2JsOUNiZV9uT3VuaXJQMHdCZ0VMaVZlOTZkalhDUVB5MjZwZ0lEM2IwRkJCZDFub3YzVl9FYndyck8tV2twaHN2TkFJcC1sNnA1cHp2U1NfbUxGUm5PdFRwWl9FVV8zWU9hT1p6Y1N4WGh2YnZRSjJRNVZBaXIxMjNtU1k5VXlTcUJWaHFNa3pQV1UwWWJkVkdab2lLSHlsNUZ6ZS1DVTNibVJfN2VUSS1TT3hQS0J3aUVvODdCLTAyYUhobUZhbUd1a2s1UmxsalFWZHM2ZTZCejc2TUFoa096QU5XTU9zaTFTS05JbURwZlhHRUxGTWZGOGY1Q05RMWtkanowSFc5OGF6UGl2Ql9iZmREMF9DYXphdzg1cFRNb2NzRFJ4bnpUMWhibUJobkZENU1EUDFQaDNkYlNVQXF5UEdrNzBHaTJTWktISVY2Z2xwWFUzNlhfX1lVVHNHNDVGeXQyY2NJd19pQ0hlRGZnakFqMTU1OU56dm1oeWFfR3A0?oc=5",
@@ -1635,6 +1795,27 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "2dc4f76cedec3ffe04d1024c",
+      "title": "IRGC Shoots Down US MQ-9 Reaper Drone Over Strait of Hormuz, Claims 54th: who 9 outlets blamed - NewsCord",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSlpDR09YanlHVVJQMG5DMXVaSG55eF9aUmZUQzlNaWlkNTJuUk1mRTJtSzFpS2J5T3FyOGxHeTUzeWN0bHNqXy1PNUNiMDktaTd2MlM1eG1xTVlyQUJmbHllYXo1eHJicDdVR1hsTmQzU29IQncwaENGSkhUdUxhV3BnRFl3ZFVHcFBsZVpKV1hpOGZPZDJiMzN6Vmt6MGFNOWJuQlhCaVo5MDVGQ0p6WHhfRVR4NGxJWjRlMGx0NnlFNWc?oc=5",
+      "source": "NewsCord",
+      "published_at": "2026-10-20T06:02:06Z",
+      "country": "",
+      "countries": [],
+      "language": "en",
+      "category": "security",
+      "tag": "DRONE REPORT",
+      "provider": "Google News · missiles/drones",
+      "first_seen_at": "2026-10-20T12:03:42.847208Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "d906229af13f45287e833ac8",
       "title": "Live : oorlog in Midden - Oosten , Trump over Iran en laatste nieuws",
       "url": "https://www.limburger.nl/buitenland/hegseth-ontmoet-netanyahu-tijdens-onaangekondigd-bezoek/163314514.html",
@@ -1650,6 +1831,29 @@
       "provider": "GDELT · article index",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "c2871a8619e4befe0e11254f",
+      "title": "الرئيس الفرنسي يواصل جولته الخليجية بزيارة البحرين وقطر.. والأمن والطاقة في صلب المحادثات",
+      "url": "https://www.france24.com/ar/%D9%81%D9%8A%D8%AF%D9%8A%D9%88/20261020-%D8%A5%D9%8A%D9%85%D8%A7%D9%86%D9%88%D9%8A%D9%84-%D9%85%D8%A7%D9%83%D8%B1%D9%88%D9%86-%D8%AC%D9%88%D9%84%D8%A9-%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC-%D8%B2%D9%8A%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%A8%D8%AD%D8%B1%D9%8A%D9%86-%D9%82%D8%B7%D8%B1-%D8%A7%D9%84%D8%A3%D9%85%D9%86-%D8%A7%D9%84%D8%B7%D8%A7%D9%82%D8%A9",
+      "source": "France 24 · الشرق الأوسط",
+      "published_at": "2026-10-20T05:58:50Z",
+      "country": "Bahrain",
+      "countries": [
+        "Bahrain"
+      ],
+      "language": "ar",
+      "category": "diplomacy",
+      "tag": "تطور دبلوماسي",
+      "provider": "France 24 · الشرق الأوسط",
+      "first_seen_at": "2026-10-20T12:03:42.847208Z",
+      "date_quality": "publisher-time",
       "freshness": "recent-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -2455,6 +2659,27 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "d71ee9c1d575a1eef29a4613",
+      "title": "إطلاق نار قرب مسجد في أوهايو بأمريكا وسقوط قتيل - الجزيرة نت",
+      "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxPQWR5clAzbmNERFlsUG5Xcm9rTmpZUzdGV3VlX3I1WXcwSUxLZjV5aDh3dWFDQVdVd29BN2N0cXM2Mm14cjQ5dUNHMHJyOHBUUW1PbEZRaWNiRzBQcmR0WlF5QURqVDdteHBOYjlidlp0Wjl1ZENjdmlHYndLLW1fUUtQSEdSckMwVFJLaVQ3aUVvdGh6allGckd4T25KdmkwNnM0a09DaUN0SExycEF2ZDZTT2dWdXBhVjF6ZVRiQ0phZDh3dkZRY211TmdvcE5EZFhoU3lpR2swU0M2a2VQT1ZqU1l2WXV6ZjhpOTFBNTE0WjRYQ0FSd1BLM2dvb3BHMmtxM3hrbWZFRllNT0Q1TGtULVZsRl8zR3k1U2Q3dlJpOHRmUkVyOTlOTzVYaHhQNFZ1WmRRS1lRWTVGR2hpbjRJVnlfZFIyR0k2MNIB0gJBVV95cUxPYXRHRVpCVHdFMTNjdGFwSHVETVZhdW9XT1huRkdyWWxJOEpRUTlscmo4R3BpSHNqQlN2X3lvS2xVQkxSYmRIR2JrbF9lN2tHQnVYYlFIWG93SnpUQ0lnbkJ2LUJPTHZ1X1BSbHNmUTFUUWw1NTZiNWQ1QjdpUncwRWtFLVRBRG02bUR3b19hRUVyRmEzcWViSG9lWm14THFhSGgxeW93RnI5anBFMmFTd0VMeGpXVFFDQ2xxZ3pWcl9taG9kRm9wRmFXVHplTmdqdEdHYTZHZ0ZwWF91V1ZFMW5NT2NaaEQtbjBnd3FSYWpzdWZqODFMTEtvX1hRVTdBanppU1czTzZxeU1oRkFUQlZIeERVTnU3WlRubDBtZTNDX0FZLW9QRndKWDkxNHp2VkdXdlFMbWJKd3F3T2pnZ2xrS01tT2psUFluajlWY3FnZw?oc=5",
+      "source": "الجزيرة نت",
+      "published_at": "2026-10-19T22:05:10Z",
+      "country": "",
+      "countries": [],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير امني",
+      "provider": "عربي · الجزيرة",
+      "first_seen_at": "2026-10-20T12:03:42.847208Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "elevated-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "0f6e7e2b2a56cf3e9f5a0cc4",
       "title": "Iran blames US, Israel for Hormuz insecurity, urges diplomacy - Asianet Newsable",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUFlzNk8zSHN1NVd2eHdBZnkzMW5HcThUaWVrcHVEQzI5cWR1bWZOa0xpdEZHblZYU2wyNHluTEFlSzhNOURJUVMxc2ZybTQ2TkR0emFsaWtCNUtKOXh3V2QtWXJoS2tTOVZrc2dnQkZxMmdLRVJOY25uRTE0QnBJWUd4NnlIN0hQV2V0YnFyeTVuYUhQLXpBc01JbzdXdncwNlI5a3F0UVZDdTVIaTdzdDc4TVZNS0hqSVHSAb8BQVVfeXFMTXkwVzhOLTBiZmZJOXlOcTRfWFBVV0N4WGpkd05oNTIzQnlBVXhsSVE1OU1qZzlfMU81emROdlZmQlJrNk9NSmV2Mmp4Z201YnF5emtmQ3JEREl2bVJEblBnd0hSUUpTNzI5Ui12MkRtOEh4ellLY21pS0k4cUhVTTU3V1RQanJGRFpmYUIxUE9MQms4R1pnMnhlX0ZjS0RFZmc1aGQ3UER2UGszZmh4UWU1OU1lbXJRUG1lQWpkaUE?oc=5",
@@ -2479,6 +2704,30 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "c1138a2262b02b848c7569fe",
+      "title": "البحرين تعلن اعتراض هجمات إيرانية جديدة.. والكويت تتصدى لصاروخين باليستيين وسط تصعيد أميركي-إيراني - الساحل الغربي",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1hcEthLUFQRmFqekJvQkpzMDZNR3Q2MkJKdVVTbkVxRHZiVEdraW5Hb01TMWpDUm5wNDNFdFhqR0JxNlgzNEZ1eGMwc0dXeFE?oc=5",
+      "source": "الساحل الغربي",
+      "published_at": "2026-10-19T21:58:54Z",
+      "country": "",
+      "countries": [
+        "Iran",
+        "Bahrain"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "خبر اعتراض / دفاع جوي",
+      "provider": "عربي · الإمارات والبحرين",
+      "first_seen_at": "2026-10-20T12:03:42.847208Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "elevated-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "9b4f1b7d7398c8971bac8443",
       "title": "Day 226 | At least two killed in attack on Riyadh airport - Roya News",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPXzJJYjVmdENoMDh0WEtyczF2T1BhRVZRLUFXTXFmb0VRWUEyeUxic2F4QXVYRHZxOVpuZHU0U01KeFZ6T0ZRV3ZJUU00czN6cFFKS0hMWFFxWTZxaUlOX2RqNzdsUDIxQV9KU04ydU4waHV1VUx1cHR3TWZsYmZHSTVvT0xIQUVmSERNSW9SazVXem1ZVW1uZQ?oc=5",
@@ -2497,6 +2746,29 @@
       "freshness": "recent-reporting",
       "context": "reporting",
       "severity": "elevated-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "051e8f27890b57c5e87a101f",
+      "title": "Egyptian parliament delays vote on military support for Saudi Arabia - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRTJaMWtfcktqVHJTb3hZaThjZDZYYmZXN3RmaEJHZzZPcl9KUXZ0amQyaWEyMDBzSFFxQkp6VjBrUmF3clRkYUw0Y1V3cGkxQVNiLXptS2tIcFhYeGJTTzZzaUMtRkhtbWwxMXU1YktIamJ6TFRNWlN4aWJHT0Y4SmVCaTRMYUJjWFp5YnhiQ0N5d0xnRURVem1BblNqM2FmQi1CNnJlS2VBc1NVc19v0gG0AUFVX3lxTE9mdVU5YmNHdUFFNnkxaVdEM3JuY1loWGFHdmd3V3V2b3A1NnlkdERBRFFEbVNreTAtSjMyR1M5NWpiUV9qZTFQVVFXdklsQUx5TnNwOFJWQ3owS0FZVjdQQkNhYzFrMXRRMHV0ZHp2cTF0WnlfQjdJQVNzbGJCRnZVaHNyYWUzRl9YYXdtTWd5TUJlTF9Bd0lDeUoxbS0xblc2UHpDVE1hMldFMHpLWnpNNXRPSQ?oc=5",
+      "source": "Al Jazeera",
+      "published_at": "2026-10-19T21:48:12Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · security",
+      "first_seen_at": "2026-10-20T12:03:42.847208Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
       "critical_candidate": false,
       "alert_eligible": false,
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
@@ -3050,6 +3322,29 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "e575cc2f44b0eb0f0361d7f4",
+      "title": "People scour strait of Hormuz for spilt cargo after Iran attacks container ships - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMVd5NTdZejdJLW9KZFpNUFVhVFpHaUxWU09tMU9lTXMxNGl3aG8ydFhmekpmcEZEdHNWRWs1MEVrUU1JamVKN1NVVWxyTXUyVmpQOC1lcUJTWUtFSkNEU2hweGJ3cFVaa2hfQ0xEZ1hTbEFKcTlPMGY0RTRXS3dpWXpIdWVXUWdvcV9MRnBqaEJlS2pySWNhbXBiWTRYVXktMFpmWjVn?oc=5",
+      "source": "The Guardian",
+      "published_at": "2026-10-19T17:44:00Z",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "language": "en",
+      "category": "transport",
+      "tag": "MARITIME REPORT",
+      "provider": "Google News · shipping",
+      "first_seen_at": "2026-10-20T12:03:42.847208Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "6f1306f5f922c52f2f98a78b",
       "title": "Pakistan's Growth Slows as Hormuz Crisis Hits Industry - Crude Oil Prices Today | OilPrice.com",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPOVJnQjUzRHBTU2FBSjg3cENhcnRGbXZfSXlIOFNrblFRUGxhRXY0LXNvTmtFZ0YxX2l5TnpYM2NDaS1JdE84alE2RG1KZXhTVlJEVmpfUmRkMmFqeHEtUjdST3JPc0xEc0JxZzdwcXBXZjBDSlFFWVJlSVYwTmgyMExMN1FvVENobEtxeXpycWkxVUdsRDZHbDY0aXhUMWRUQk1VUXFWbm5IWHBiSVHSAbMBQVVfeXFMTWM4VjRwSXZFSmJ3enRDY1RlSEV5UkRwSjFmalFrWnFpcWxVNVk4NlR2ZXkyQi1ZLTl3V20zQ0E2RVhJdWk1LXFFOVhPTkpzd2FWa1JaUGpfdElIOXJlcUgtZGo1NUhzLUtIOGR6aVRfMFM3UklhNDRHdGx6TW9qZU9lb2VCbDg3cFB5WWs3Y1A2N1oxeGg0UENBcjRPYXN6dXR3ckx6WGRUZVI1UjB5YzI3S2M?oc=5",
@@ -3338,30 +3633,6 @@
       "date_quality": "legacy-unverified",
       "freshness": "recent-reporting",
       "context": "speculative",
-      "severity": "routine-reporting",
-      "critical_candidate": false,
-      "alert_eligible": false,
-      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
-    },
-    {
-      "id": "a655d15acb89d9c6db5135da",
-      "title": "صواريخ ومسيرات إيرانية تستهدف البحرين والكويت والأردن.. والدفاعات الجوية تتصدى - الساحل الغربي",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE15VmNLVDgtRnRBRzRXaVowSlM1cTFRTEtwVGhhS0JoWVRpZ3FpdW1EZXZzdXN3SHcwNXVNV2s1N0tzMU9FYkZEZXFDWUlESWM?oc=5",
-      "source": "الساحل الغربي",
-      "published_at": "2026-10-19T16:18:43Z",
-      "country": "",
-      "countries": [
-        "Iran",
-        "Bahrain"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "خبر اعتراض / دفاع جوي",
-      "provider": "عربي · الكويت والعراق",
-      "first_seen_at": "2026-10-20T12:01:49.547007Z",
-      "date_quality": "publisher-time",
-      "freshness": "recent-reporting",
-      "context": "reporting",
       "severity": "routine-reporting",
       "critical_candidate": false,
       "alert_eligible": false,
@@ -4123,6 +4394,29 @@
       "date_quality": "legacy-unverified",
       "freshness": "recent-reporting",
       "context": "speculative",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "d8f4635be227987b9007b44b",
+      "title": "Iran's Araqchi blames US for Strait of Hormuz tensions, calls for diplomacy - Devdiscourse",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOQnkzRWxFcm9GR0VibmdIbDFxU04ySWF6RDlxTTVMS1c3dWdNQlYyYkZWMnRvcXFSWFRSQmNvX29kd2xYMmNja1JMMjR4V2l0aWRjMVVob2FQT1pXbWhHWUY2cTJVLThraFNRZzU3WDlIclZhbWxnbmlxQURrS1JDX3pIdUUzZWc2MlUyeExSTkxkdHNKMExUS3MySjhHMTBydG1Xb0VDNklqRmRwMWp0enpqRFpCdG8wN3hhazJMM3hkSFJTbEtZbl93NlnSAdIBQVVfeXFMT1lhd0tLdXRfY25td0t3Q1lfWERjcVlpZWhDZ09SSTE4MTZQeFZzMzJUMEw4amJPOHRZVW1WRm9lbEt5ajRhZ0pVckpUOHIybWN5U0NIbUFRdG5abUdVX1AyVjRmQUdFbU12TzZ4ZUVuWHZqbUhMczU3clV2VmF0eHpsRVlGZEcyVVljUFNURXBGMGhKR0VzRzcyanRkb2RhLVF6ZFBBTXJFVUFHa2xnUldzWVBENkQxc190N3VVeUZQdkFMbDlkLTc4cXNNV1UzaGVB?oc=5",
+      "source": "Devdiscourse",
+      "published_at": "2026-10-19T13:45:55Z",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "language": "en",
+      "category": "transport",
+      "tag": "MARITIME REPORT",
+      "provider": "Google News · diplomacy",
+      "first_seen_at": "2026-10-20T12:03:42.847208Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
       "severity": "routine-reporting",
       "critical_candidate": false,
       "alert_eligible": false,
@@ -6499,6 +6793,29 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "e491b12689c22a4d0a6a1234",
+      "title": "هجمات حوثية على السعودية ومصر ترجئ التصويت على دعمها الرياض - France 24",
+      "url": "https://news.google.com/rss/articles/CBMirwNBVV95cUxQRkYzc3NjT3hhTFRvUWstY1ZmaTdVUXktTzd4QlcyQ1JWTUVac3ZYajVtby1GaVJRSk56RzlMX1F1N2N1VmJjQmp3MmhQYzVpb1J0TmdCYUk3NUpVS1gxYllrSlYtZVprT0Z5TktVSGpXQUljRHRXMGVya0Z6eUNlTnFjVmhTUnJEeFhxRmVFTl9pV1FXZ1FtNUtiT0hoRGZ4SXh6S3habmM3emFRemtuTS1La0V0UHRkWEtmZi1nbUJtNWsxbTNXUkhNajBoM2U3SGZuc1lscEVpMFlqVG12aEJLT0lGMWIxUUVWLVJ2Y3d3LVkzU1RaVWs1cjFZdWNRUjlrYUhFbTNxYjR3RjFnUU9zeFpxdGZNYU9kUXdDdFl0NXhueVBkWklSN01CZEVsV0lOT1FKSG5QaFJxMTdlMW0xOVBkbi1vakNMRmNDNTlsQndiSVBhU19ReFBzRUlPZzNBYXIxTUUtQ002YVpnZUIyVnV4a2VhajdiZXlTb1E5a0FObEVvWTF5eGFTaThWZ25zUkZYME9IalFaRF8xMEpQM1ZGOWlfeGk0WGdCOA?oc=5",
+      "source": "France 24",
+      "published_at": "2026-10-18T23:29:00Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير امني",
+      "provider": "عربي · السعودية",
+      "first_seen_at": "2026-10-20T12:03:42.847208Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "c9682f275fcdcf8283b97e9b",
       "title": "Strait Of Hormuz Disruption Is Moving Port And Fuel Storage Stock Prices - Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQWGhxR2UwVUZzNThUcV9OQ3JlMlZkY1FUN3FzY3FXM1pvYkQtV2JUTkpXY1FuUk8tNFd1cDMyQ252Tl9YUWQwX1NjdmpZalM2WjN1RHUyZE1ITW9oR29pSFdXN3BMT0FodjVycGJIU1F1NnZxU3dmdWN3NXBjQnNLM0lzUWN6d0JmcWJvM3hsd1AxSFdMNk9VeA?oc=5",
@@ -6827,6 +7144,30 @@
       "provider": "عربي · الشرق",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "853cfd1cf207d17d7668714d",
+      "title": "Iran’s IRGC navy says oil tanker hits mine, catches fire in Strait of Hormuz - The Times of Israel",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQY19UakVETkJ2VXp5Tmp4VlBfQ3QzX2RsakdWX0RMRFFtMkY5MlhlZGlTRHBwZDFZcWZJdDNKLXppWU1uZV9WeVZRZVI4Mmd5dHVGV29BalZaQW9TZ0hYVGVsc1BsTWs3eGtSS21Xd1QxdThYRl9rb0NxbURYRFBGOVhKZDFHVFhYNDF1QkEtVzcyY1hWOEFVZTEwYlMydk5Xa1lIQXJ3ZGNVcnpOVTJkT01pUC1WdjRhZF9lMQ?oc=5",
+      "source": "The Times of Israel",
+      "published_at": "2026-10-18T21:07:54Z",
+      "country": "",
+      "countries": [
+        "Iran",
+        "Israel"
+      ],
+      "language": "en",
+      "category": "transport",
+      "tag": "MARITIME REPORT",
+      "provider": "Google News · shipping",
+      "first_seen_at": "2026-10-20T12:03:42.847208Z",
+      "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -7488,6 +7829,29 @@
       "provider": "عربي · مضيق هرمز",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "60a1e00ab93b4459a813f0c1",
+      "title": "طائرتان لسلاح الجو المصري في أجواء السعودية بعد قرار الدعم الدفاعي - الجزيرة نت",
+      "url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxQNHFRWjIyTEZMWjF0UHlJS3QzQnVyaURPblE4Vm5odGFYbjRSeXNyTWVxTTRWTHVmYUZscUQzRlZrRlZ1ZWR0RUV4Z3d6QkVXRjNMR2xZbDN3TDIzMjVRd19SUEhGLWtCSFhXYmRZY090RWVRaGN2Mi1teDluV1haVUVsNmx4Z09zVjBTYkIzMndxdy16UWZzZ0JJWTdieHRuWi1GYWpjUXFXOWh6VWdrRnktVUdNMHJVeDNoTkVZR2NLSkdRTTlRNUwtZzhyTTU5VUVObVlpZmNfY0hnWS1VUlRubXQ4MDRhWl8zM2VwaFgyM3h4RFF3QXEyWm5IS21nRWZZQ3gzeW1Bb1poRTdIV3lZODBjTU9CTXJjWFY0QXdVWUdsNDQtNnRsa01QMEdTM25lOG4zMXNaelZEekUxb2FEVdIByAJBVV95cUxOMV9kZWlGaWdrai13d0QyOGljeks2Z3ZpRUhfY292UVpIb2lLQ1Z2bkxQZEJjVzJ2SHVIMzJBcTBPWWZvU3d3VmphZzh1YUotUkYtQ3FpTkdqRkp5cnZrbGJlRVhvMy05U3BWZ0VFendvMkRYa1lzMVNzQUI1U09lY2dwX09PcEZoaWU5eEFRRmpiaWtmZm5BLTR1MWVLSnBhZlU5X2txY0UzYnppc1htenViX1lIcnVXbjF5bmdtR3I2R3otR3NXQ0ZUeUppMWRBWm51LTVwYXl3VllvQW41eVhmNEZybHhzU2lhRmc0VDRqRm1wVjIzUzVtY2NpMGZVbXgyaG5FYnFGamRhSHdOTWlLTmhFdEhoYUktdkhIbUYtTGlSbEdqMVFPb05WRkNtUThnVkt6ekpHUHpUZy1YX2ljOWRIQXNY?oc=5",
+      "source": "الجزيرة نت",
+      "published_at": "2026-10-18T16:50:20Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "ar",
+      "category": "transport",
+      "tag": "اضطراب نقل",
+      "provider": "عربي · قطر",
+      "first_seen_at": "2026-10-20T12:03:42.847208Z",
+      "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -8163,6 +8527,29 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "9e1ecf1dd143373e58a5648b",
+      "title": "Iran urges US to accept proposal to reopen Strait of Hormuz - Al Arabiya English",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdF9kQlBFdlZGRlNvajZ0YlhLRnZtTEVPMnhsX0xqZThrNFp0di0zZ0lmRjRyYnRlYy10ek1MYmtOZnNlbnFKbXF2eDkwajBGeExFeHBURDZlTFlDNncxeFlHNGp3cDU5d2MzOGxoNzdkZGRPd0xFQlBkQWdoZnozX0t2SV9vM1Q2NDFEUVZPWDRmcHBFWTItZEhyRkJGOG5KMG5oQmJkcjhuQ25YQWV5UFlZRWJ5NFhiN3hkdkJ30gG-AUFVX3lxTE90X2RCUEV2VkZGU29qNnRiWEtGdm1MRU8yeGxfTGplOGs0WnR2LTNnSWZGNHJidGVjLXR6TUxia05mc2VucUptcXZ4OTBqMEZ4TEV4cFRENmVMWUM2dzF4WUc0andwNTl3YzM4bGg3N2RkZE93TEVCUGRBZ2hmejNfS3ZJX28zVDY0MURRVk9YNGZwcEVZMi1kSHJGQkY4bkowbmhCYmRyOG5DblhBZXlQWVlFYnk0WGI3eGR2Qnc?oc=5",
+      "source": "Al Arabiya English",
+      "published_at": "2026-10-18T12:13:00Z",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "language": "en",
+      "category": "transport",
+      "tag": "MARITIME REPORT",
+      "provider": "Google News · diplomacy",
+      "first_seen_at": "2026-10-20T12:03:42.847208Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "f3931214461ed41f7e11de5b",
       "title": "Rezaei says Iran has prepared new military plan for any fresh attack - Report.az",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQaUVZOXJkeFBRd1otTkFrWlNXT1kxcHE2c2o4eUtnbmp2ZUE1YnhjOGhIM3R1NVlDR01USW5aZWVsUUU1Sm5VaGpoTXl1bVVLUjYxckUzbVA2LVR4WnFEaU5fWUcwU1VvTDljZ21IRzB3eElKa2lXZ015azBYZGpGREdIVkdtTDFPN0FRUkl3Y0tjblByZFZhekRzeGk?oc=5",
@@ -8384,6 +8771,29 @@
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "elevated-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "65bc7e0380a862cdddbb4fde",
+      "title": "Iran urges US to accept proposal to reopen Strait of Hormuz - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWUh3Z1JyMmU4SkJ4ZXQ4Y0VaN3RMS1Vtcmg4S1lDMGlvUG1GeVY3Q1pkaWltSG5yOWhmcTBnNkk4U0ZiTVREVzd3RVRZNjZJTjhaTkg5bTFGX0J2Q0JzTUI4UlZIWmxHMmRDeVRRODZRYU1mbkNrVzFRX3piTnpDbllfUGc3NnJkSl9hWWRCQzlxZjFBYnE5bXJQMVBjMzNBUFlNcmRtcw?oc=5",
+      "source": "Reuters",
+      "published_at": "2026-10-18T10:29:00Z",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "language": "en",
+      "category": "transport",
+      "tag": "MARITIME REPORT",
+      "provider": "Google News · diplomacy",
+      "first_seen_at": "2026-10-20T12:03:42.847208Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
       "critical_candidate": false,
       "alert_eligible": false,
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
@@ -10922,6 +11332,27 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "057d77ed5b444d16f44f6d94",
+      "title": "القيادة المركزية الأمريكية: 97% من السفن نجحت في عبور مضيق هرمز - مبتدا",
+      "url": "https://news.google.com/rss/articles/CBMi5wNBVV95cUxPdnhXMHhjZlJydXZXNUJvaFdkWERfTWJFZEc1TzAzZEtKR0hjVUZEbTNWcmhvbVcyZy13TU5HSEJaRGxfTjhMRXhtSk9BR0RfVDRJd3FlNURid3dKUzZTZ3R1WHZHNU9ZMUY4Y1lZallvclhDR3RSWmVvWUJzLWxFckhaMk5PbDdpakE2ck1GN1Zld1pHVzNsWnotc2JGMnQ5QU04OEdoNDNTNHFGb2JkRWxOUnVyUUk3Y2szQmt1VUdrV2ZtRUd4QzR6NWRrZ1BMX1Q5S1Z3MlozOWFIUXRfLTBuekthaVloR2NMdV9ua2xHX2VRcmpTRkFaUXRCSXpZU3d4NjZIaHd4SXc1ZzdWRzBLc3QxVDNURW82WElVYVk5SWZ4VlNPbGJjUVpUMUQ2dXNQalA2UjdMYWZLQ2J5eGN5Mm84NVVNUS10R3lyTUQ3MkdNdmUyUFNUTENFcjE3a1Nxem9iV2Z3Z1poMFh0LU5SbDV4SlNpY1pzaVVkcEtFUzZoYkRzWTFnNjhHYnNlUXpSUFl0bTg5ZFBsVVpuM0NBb2h0Sl9OTFk4bWVDaU9WXzZQNmxkbm55Y0htaFBxakhIUkNaQzdkR3ptTGt0QWJEa2k2Zm1meFl0SUwtRXd0QkhDUGRj?oc=5",
+      "source": "مبتدا",
+      "published_at": "2026-10-17T16:41:59Z",
+      "country": "",
+      "countries": [],
+      "language": "ar",
+      "category": "transport",
+      "tag": "ملاحه بحريه",
+      "provider": "عربي · مضيق هرمز",
+      "first_seen_at": "2026-10-20T12:03:42.847208Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "e5b9e170e2088acd19f118a2",
       "title": "بالفيديو- إصابة 5 من الحشد الشعبيّ في العراق في انفجار مستودع عتاد شرق بغداد - المركزية",
       "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxPX21GREY3QXdZazdTa3RTLVlvTDZJeDBGdnNlMUFZRHF5b3RodEtWRmhPZV85RkgtZ1dNdzJxQjA4WmFNcFA0NjRVUHBHZVBrd3VqMjRoYkRDVjd2T052S2JCb1dRUUxPZTNIckdyWHRHYkJCdUE1bHJkc3ctUHdkMkFNbm1hd3piZFBLYjFwLWNVTEw5dVlrSEtsZ29WUlJ3eG5fSFp0RHNwU2YxemMzNmE0WmtkVFhKMmtOdkJYN0gzZjA2S1IweTJIMmZ2X0oxQWhmQUV5bG5wMlFIdkZDdzA0cEU1Mk9jcGFKWFJsazAwX1hma2hIcHQ5a0ZtNUw1TVhadzFkV1NVLVZ2S3lIcm1xUlRGWVNQOFNIVUZrYzJzYzQ?oc=5",
@@ -11151,6 +11582,29 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "f1fe85fc64f47a8da6b95b68",
+      "title": "العراق.. قتيل وإصابات بانفجار مستودع للحشد الشعبي (فيديو) - شبكة تواصل الإخبارية",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBrLTEtMEVDbUs0Zk0ydE95SUlia2IwRjJzbWFGZTNPYVJ5ZWk1Z1UtZ2w3UHdCRlhOS3J4M2plN1M1bzdoZnEtcnBqVjJKejdiQ05V?oc=5",
+      "source": "شبكة تواصل الإخبارية",
+      "published_at": "2026-10-17T15:55:13Z",
+      "country": "Iraq",
+      "countries": [
+        "Iraq"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير امني",
+      "provider": "عربي · الكويت والعراق",
+      "first_seen_at": "2026-10-20T12:03:42.847208Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "elevated-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "25f7f0b3a4aea67e0af1f5ba",
       "title": "الحشد الشعبي يكشف سبب انفجار داخل أحد مقراته في بغداد - صدى البلد",
       "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5xWnZlbUtfMzNxd0JyY0hjOGt0dWY1RnFkaHJrNUFIUkpxaVZNbHktUXA3Yi1JZXdoT0U4VC1IS1FiV1llQzBj?oc=5",
@@ -11359,6 +11813,29 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "874dce29c9a9b1994021eb09",
+      "title": "الحشد الشعبي في العراق: انفجار مستودع للعتاد التالف داخل مقر للحشد شرقي بغداد دون تسجيل أضرار بشرية - Lebanon 24",
+      "url": "https://news.google.com/rss/articles/CBMiygRBVV95cUxOa2lyeV9JT2h1eXhrM0pEWlc3VHFqMkpHZ0NaR3lJWDlIOFZqUzNaQzFFbldRN2IzY1pieTBybXQ5VFYzaU5ubUpKcnJvSEpfRnYzRmQ2NWFITzQta095S1BuSmlFOHVpaDhTV2lrQkFaX0hhbUtpdkE0aHdNMzAyU3NCSTU4dVRJSVZmLUk3OFlsRTdWWXdUOFVTRy13M0pzVnRBd0xCbTllVkU3aVVacEFaYm40bXpzRVMwZ1RPUEo2OW52eVlLNVRnWFM4ak5YUnB2SjFuQmxjLUNtUXhZSjVWQ2xiaWluYWdaLVRGSlRrWEE5UkpFYnhscktzcjRCeDFVNzNZNklVS2NHZEJxWGR0MlhOXy00NWFhNlRBcm83Zl9lUnBYN3pONDh0YnN3eEpDbm9mb3RUQmc1djhJTEc5NFRzMDB0SzAzalRNZ2ZPVWNfV24yck1GT1FaTm51ZEZWaVl6bTdyejhxU1QtWWN1WHRHUnExV0hpRkdGSTE5R2V0WllFQXJVS1Y4clNjeHZwVEZuOWJmTjhXUjlDZWZWalBCQm9yazRkdnRPRS1YRXJoeWNaZHZ5alVYa0pFMVR1VHRpSTEycnZBcWxCa3dkeFdzSXpBamNEaGdMcWRMU2ZKNTlFZDZUQVdMU2xQc0xOb0tZcV8tMEFoMDNFRVZ1cW5MaXN0YnhmT0w3RVlZa2FUQU9vMlpTRlpLVXdyQXRwR2U4U1dhbG9iSUk1S0NjUHd3ZzhobzZaeTZzZGhFd0ZSTElLTjdR?oc=5",
+      "source": "Lebanon 24",
+      "published_at": "2026-10-17T15:23:20Z",
+      "country": "Iraq",
+      "countries": [
+        "Iraq"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير امني",
+      "provider": "عربي · الكويت والعراق",
+      "first_seen_at": "2026-10-20T12:03:42.847208Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "elevated-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "7cac7ef4f9e00238786f",
       "title": "Iran Says Mines Hit Two Tankers in Strait of Hormuz, Escalating Maritime Security Fears - Modern Diplomacy",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQUFBGeTk4cGdsSTJkVVRVcEdWbExGbEctanI5bWlWOUlYaHg0eHdxWFJpbUd6TEV3UDNNcXZuUm1rSmI2Yk5INWJSZHpfQ0t2TVpLdEU1VlBXelFDSFlFcTM4RGRoOUVpV0dLS0NMV0lQLUR6UHdoZi1ISWlWM1VVeVdLZlFybE50SnVFQXFaZWd1ZkxPSnVnamxuZHc1OFNQaGtyNkZFQ2xRazJWbGVwalFFQW45UE9udDg2RC1rOURGWWM?oc=5",
@@ -11443,6 +11920,31 @@
       "provider": "Google News · diplomacy",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "41932b1c02f91385ca6a0db6",
+      "title": "UAE agrees with Saudi Arabia to re-enter Yemen conflict amid Houthi gains - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWXhkalJBQ2xwVFhIUExTLWw3UTRGbHdXVlhIQ0ZLaEVOREFzNUQ3MkJqSlMtOWQ1aDRwazFhaVA3ajdqNTREZFN1andxLV9QaE4yUWk4T0ZGeXJfZDIwb0JhMDRwOHN4Qlowbl9ET0x4cVMtZU1zdjBXY3J4bEp3VHAtdDItcUhzM3FfWmNaVFljamJ4enBhb1I3dTZUWVl5Z3c?oc=5",
+      "source": "The Guardian",
+      "published_at": "2026-10-17T14:46:00Z",
+      "country": "",
+      "countries": [
+        "Saudi",
+        "UAE",
+        "Yemen"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · security",
+      "first_seen_at": "2026-10-20T12:03:42.847208Z",
+      "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -11747,6 +12249,29 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "bc1511138dfa4bd5553f24cc",
+      "title": "Iran says renewed talks with US require ‘credible guarantees’ against new attacks - Anadolu Ajansı",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNamgxSmdLem8zb3NHTzh3cDJBVjBBa0ZPbGU0NkF0X0xqUGVsZXg3ajRQdUxyaE5zYnFMb3pOTWtwWmNVMXFxYnZwS1JKYl93S054ZlYwOXFEQW42UGRPQ0kxMjdhd1htRDRtR0d3QlZYWEVCalV6WWxCTXNqZ1hYMy1ETHlpYm5WS293VHowVktPVWNiQjByWENhWTE2WmNzRjN1TzBFVE1RQ1pGRS1YSzNnRThFOGZkTXR4ZTBOLUpEQQ?oc=5",
+      "source": "Anadolu Ajansı",
+      "published_at": "2026-10-17T13:42:37Z",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "language": "en",
+      "category": "diplomacy",
+      "tag": "DIPLOMACY REPORT",
+      "provider": "Google News · diplomacy",
+      "first_seen_at": "2026-10-20T12:03:42.847208Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "ecb6e876cf6fab55a635fd6d",
       "title": "إيران: مضيق هرمز مغلق وسنستهدف السفن المخالفة - بوابة الشروق",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQeTRzbHBJRzVTa05HYXY0MnJnMFF2Y3dkVjRVeTVLWnhFVVRXTXVrczlfbnpsa1l5dVhqVjFHSWZuS1Z5dGNBNERSTTN0ZHZjM3h2LUlveUNuWmZUYTAzV0ZLSWJRYXNJU3VBMTlFUGg0a0h4R0pRSFRETFVhd2R0WmNmTTBPd2JyT2hPMWUzR2FDUzZoY3pKLU1ENDBIMVRTcXNtQUxFVQ?oc=5",
@@ -11809,6 +12334,29 @@
       "provider": "عربي · السعودية",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "b9bbf381f2c887a0f108e851",
+      "title": "إيران: مضيق هرمز مغلق وسنستهدف السفن المخالفة - Anadolu Ajansı",
+      "url": "https://news.google.com/rss/articles/CBMiogNBVV95cUxOQkZxcjN2ZkFhOVlYZzJpNWJoRnFtNEdEb3ZsVC0xOTVrVVVZaV82QW41VUszSHRBQUp1STlMTHZ1LThuYjE2enRZQndVcDdLRTZkY19zYlRoY0U0dE1YcVFzRUdlS0hvMTdxZHhkZXc3OEVETWNoQWlhLS1Db2VIWVM5QVpyTlB3V2Vta1B3anVFS2xsbTUtUXdXVl9nUUFDMktVS1JJdWo0S3ZRdXRwWHotbWdEbEpRUUs1Ny1ab0V3WldjemlNRTBvN3AxdG9TZXY1ajFTNk9PTkFaM3VzQVRxdUU2cUZHTllub2YyTjdzbUJ4MmQweF9JUE5CTDAwb1k2MmJWR1J0bEt6M3ZoVWx2eVVvNDgyYmZtYUlTV3Z1Z2wxSWJBY0xQeHVxMURtZ0hmQUtFU2FWZGJoX3BoSXEwVEhLWk1pM0NSbjBUQW1haS03YkFQMzNmT1dTOGRrbGFPT21ST2hMaTlORTlzVG9NUDVzQzE3UDRtV29jbDFMNGRmNHR0Ny1yQlhaRUF6eDFrenFYT0pDOUFQaC1vZXJB?oc=5",
+      "source": "Anadolu Ajansı",
+      "published_at": "2026-10-17T13:12:21Z",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "language": "ar",
+      "category": "transport",
+      "tag": "ملاحه بحريه",
+      "provider": "عربي · مضيق هرمز",
+      "first_seen_at": "2026-10-20T12:03:42.847208Z",
+      "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -12831,6 +13379,29 @@
       "tag": "MISSILE REPORT",
       "provider": "France 24 · Middle East",
       "first_seen_at": "2026-10-20T12:01:49.547007Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "elevated-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "0310ee5a62a2c50b5c600346",
+      "title": "Yemen's Houthis claim responsibility for fresh missile strike on Aden airport - France 24",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRXI2eVY0anF2R092SHJ2VkRrUzNULUlsbmpSblYxaU91YmZJZDZBNlZTZTN0MWV3Z2NBVkdxbVdGWG5MYzVPcHl2bk5DTWF6RXBXeHFlN0c4T1p1ejZNa2ZxOE1OanEyMDF4TmpDTTZESlJHamppMTNJS3NjN00xZFE5NTV4enF5TGh1cVdoNXU1em9KMEVPWUJDWVZxT0NvakhrT1RZbHQweXJHcjRfQ1FBRGJLU19zZzNUUzdLX0F2Y2oz?oc=5",
+      "source": "France 24",
+      "published_at": "2026-10-17T06:00:32Z",
+      "country": "Yemen",
+      "countries": [
+        "Yemen"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "MISSILE REPORT",
+      "provider": "Google News · missiles/drones",
+      "first_seen_at": "2026-10-20T12:03:42.847208Z",
       "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
@@ -15520,6 +16091,27 @@
       "provider": "BBC Middle East RSS",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "0ecc4586e55285a5bf164a40",
+      "title": "Ship attack reports near Hormuz reach record high as oil exports slow - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5vbTJaWk05Ny1JSFlaa1RLTTV4QkdUX21kdXRkdUhRT1dvZmI1RGdMZ3hQdjlTM2JELXc1aXZ0Y3hVQlhMY3RXYXpIUVYwa08zVVFaUEdzU3AtaVU?oc=5",
+      "source": "BBC",
+      "published_at": "2026-10-16T05:00:17Z",
+      "country": "",
+      "countries": [],
+      "language": "en",
+      "category": "security",
+      "tag": "MARITIME REPORT",
+      "provider": "Google News · security",
+      "first_seen_at": "2026-10-20T12:03:42.847208Z",
+      "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -19315,6 +19907,27 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "7d1752ee71794cc4c0bf7d4a",
+      "title": "Container ship hit by projectile sinks in Strait of Hormuz, Singapore says - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBKSERzVHZRamd4QU52d25WWWtmeGZfNXd3aDF6a3JtaG5CWlp1aF94bEx5UkdQV1FfTE5MXzFZWl81b2VnTk5oR2V6a3BOZGhxRWFBa2FJTi1hT0U?oc=5",
+      "source": "BBC",
+      "published_at": "2026-10-14T15:34:19Z",
+      "country": "",
+      "countries": [],
+      "language": "en",
+      "category": "transport",
+      "tag": "MARITIME REPORT",
+      "provider": "Google News · shipping",
+      "first_seen_at": "2026-10-20T12:03:42.847208Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "elevated-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "93a84c7d4683e2748d80befb",
       "title": "رئيس جامعة البحرين الطبية: مضامين الخطاب الملكي السامي تستشرف المستقبل وتعزز مسيرة التقدم - صحيفة الوطن",
       "url": "https://news.google.com/rss/articles/CBMizAVBVV95cUxOTmhvQmpVc1ZsRTJ5Rk1RalVja1Z5Y0luRllyRkJHOGpZUUYxUjNBUjlRYTNEU3p3RXJRMVJ6RF9oMmw2bm81cVhHeFBVZmNCOV9UZHRPV3NNeHB5a21pcG5pWF9oTUtfLWtzdWVobXMtYm1zOTlqQU9LNDM5WkdJMFd1UmhEQ0ZyQzFwTHlUdnk0M25FWEVlZHk2WDdwM29aUkhZX05fTVlPVU1FNjdMeXByMFF3Smgxakp4NkwwZnUzb3poV3RPY0k5VVJPZ2VLQmpfTWdTUHNicV9xdzJNMklDMUp3LU0wR0pZRkRlblZOVjFTQ1RhM2xwazllWXZGaklHN0JxTFpEa0VROWdZZHBjTVRIeUFIV3ZfanJKOEV6dnJOS2N5ZDlSUHJFSS1uMlNabUVlcU84TWVkX2NJS0JBeUZVcml4dFZPTGhRemt4VEN1U2JuOGlTcG5WY3pzZGlOS1lONnhxbmpvc0pxY2NoMkpySWw4V1l1OTNtN1FUZnNkbGl5Vi1YLU9oR29sczd5d2VjeER2QUJIVzNTZkxqRUs4ZmZkUmtGX3RnMXRmVFN1VVZHNkpXbHd0NnRtbWVYZVk4WDRUWDRzZFJ3bHpHdE9PNHNLWEtDUXpxY3p4T2NTbHBDMGtqVkg1ajVMN2Z2dHQ2Y3FxSUl2ZjYza0w4QWlOS3JfdjRRWDdXR2FES0dibWtqdGlwdmE4MzBkRFc0N3hXVG1Ib1J0azdGTDQ3cERsbjdOQXRuSS1MZWh0ODNiZXhyVlZPNm9CTmduQUNkbm1wUTE5X2NNVWlXQ2tsTnoxMVhrYnFVaTd1akpwNTcwZGNNb0NRLWJucVh6REFJMHFacm1sUkFjc2Jxa29zOE00Z3VIQ0lOUWZraHBCZURWRFJnUVE0UEFHNEsweGZfNkRRa29IbXhxVVh5bVBzLWl0bnI3UDhJM9IBVEFVX3lxTFAtUGtvZUVnZ3p6aGFseF9PU3ljSWNiVW1XbEhpSUtzUWlUVFQwZFBRZ3BVemRicGZ6YnA2elZVNGZJYWlheFc3dmotZU9pUWJOSnVzZQ?oc=5",
@@ -19490,6 +20103,30 @@
       "provider": "عربي · الإمارات والبحرين",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "dd6cf571d564897cd90a9e77",
+      "title": "الدفاع المدني السعودي: إصابة شخص بالرياض نتيجة سقوط شظايا صاروخ باليستي - Qatar news agency",
+      "url": "https://news.google.com/rss/articles/CBMizgRBVV95cUxQY2xBTzg3aTJNQlBsT0pEdk1nZGI1NF9Yc19TSm9scXBhWTEwbEgxZTA2TFJTbk1FanlkRnJCVWtaQ0ZDaHp1ZE04bXYydWhJT1RLU0RuYVVjVExOc3BHaDg3c0lMcExmbjZ1elZIUEZOM0dJYWFXWC1CSmFuZ0dYWnhmQU5DMGlSeFpwSGF6NGtWeE42bXN2dTNTd2JSMlFjWk9ONVdaeV9tNGV3QUZkQm42clBYWGRIS3lpbEhNN2g3TW9wa3BtSXcwNS1QQlBwWlZsV1J5SGUzU012TzRjNXNNZWZ0NHczV0FjYW94TTlqNzljaXpTSEZXeHF1dktQUC1JUGlaOUctVENkUDhGUG5feFpQNnNaUl9neExIY3lhNHJOZWg1UlU0cjhiZEJScWx1ZHMxNDlhU1VrUUpJNFpWUGx0TXBlUFNaeWN5M1lBdlQzT0xLdFdoREZMZmFlNWxFRnZOUDhvaDBnNVV1MUxDdUlwRU9iaFhjVUV3ZW5sdV9USjlMRkp0THNoYmVnUFp4N1hROHl3Vmw0aGRKQWV1dlF4QzhuSkQ3eV9WejlZeEFJcTJZZGZERUdRSzU1MTVjaVJiUkVRYU5qcVU2MVh6RjRFOWk0dlFRdE9jb05nMHZicDFDUzdZQjIzNHJ6a3BYR1FPTVJ4djBaY1pIVVhqT1ZZTmZOZDVFc1Z4bDRuWUZpR1FKUkdHZFRUWUNWbDQ3Qm9qdi0zaU1NV2d6WjFiOUotdlBIR1hGNG5pelgycjdiemJETDN3cmNwQQ?oc=5",
+      "source": "Qatar news agency",
+      "published_at": "2026-10-14T13:54:40Z",
+      "country": "",
+      "countries": [
+        "Saudi",
+        "Qatar"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير عن صواريخ",
+      "provider": "عربي · وكالات الخليج",
+      "first_seen_at": "2026-10-20T12:03:42.847208Z",
+      "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -23083,7 +23720,7 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
-      "id": "02c49dcc3c7682d913adc079",
+      "id": "a655d15acb89d9c6db5135da",
       "title": "صواريخ ومسيرات إيرانية تستهدف البحرين والكويت والأردن.. والدفاعات الجوية تتصدى - الساحل الغربي",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE15VmNLVDgtRnRBRzRXaVowSlM1cTFRTEtwVGhhS0JoWVRpZ3FpdW1EZXZzdXN3SHcwNXVNV2s1N0tzMU9FYkZEZXFDWUlESWM?oc=5",
       "source": "الساحل الغربي",
@@ -23097,8 +23734,8 @@
       "category": "security",
       "tag": "خبر اعتراض / دفاع جوي",
       "provider": "عربي · الكويت والعراق",
-      "first_seen_at": "2026-10-20T12:00:32.516927Z",
-      "date_quality": "legacy-unverified",
+      "first_seen_at": "2026-10-20T12:01:49.547007Z",
+      "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -24257,21 +24894,21 @@
     "عربي · إيران والخليج": {
       "ok": true,
       "items": 54,
-      "relevant": 41
+      "relevant": 40
     },
     "عربي · قطر": {
       "ok": true,
       "items": 57,
-      "relevant": 27
+      "relevant": 28
     },
     "عربي · السعودية": {
       "ok": true,
       "items": 100,
-      "relevant": 56
+      "relevant": 55
     },
     "عربي · الإمارات والبحرين": {
       "ok": true,
-      "items": 63,
+      "items": 64,
       "relevant": 45
     },
     "عربي · الكويت والعراق": {
@@ -24282,7 +24919,7 @@
     "عربي · مضيق هرمز": {
       "ok": true,
       "items": 100,
-      "relevant": 79
+      "relevant": 80
     },
     "عربي · الجزيرة": {
       "ok": true,
@@ -24302,7 +24939,7 @@
     "عربي · وكالات الخليج": {
       "ok": true,
       "items": 100,
-      "relevant": 29
+      "relevant": 30
     },
     "الجزيرة نت · RSS عربي": {
       "ok": true,
