@@ -116,3 +116,16 @@ body[data-theme="sand"]{--bg:#12110f;--panel:#1e1a17;--panel2:#28221d;--raised:#
  .rail-tabs{width:100%;touch-action:pan-x}
  .rail-tabs button{min-width:67px;min-height:44px;font-size:9px}
 }
+
+/* v12: reach the dedicated Impact Lab without losing existing workspaces. */
+.lab-nav-link{display:inline-flex;align-items:center;color:var(--accent);border-bottom:2px solid transparent;
+ padding:0 11px;white-space:nowrap;font:600 10px "IBM Plex Mono",monospace;letter-spacing:.2px}
+.lab-nav-link:hover{background:var(--raised);border-bottom-color:var(--accent);text-decoration:none}
+.lab-mobile-link{display:none}
+@media(max-width:650px){
+ .lab-mobile-link{display:flex;align-items:center;justify-content:center;gap:2px;
+  flex-direction:column;width:20%;font-size:20px;color:var(--accent);text-decoration:none}
+ .lab-mobile-link span{font-size:8px}
+ .lab-mobile-link:hover{text-decoration:none}
+ .mobile-nav button{width:20%}
+}
