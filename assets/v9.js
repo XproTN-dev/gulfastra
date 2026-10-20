@@ -147,11 +147,28 @@ function closePanel(type){
  document.querySelectorAll('[data-v9-panel="'+type+'"]').forEach(b=>b.classList.remove("active"));
  if(type==="wire"&&state.currentMode==="wire"){state.currentMode="map";document.querySelectorAll("[data-v9-mode]").forEach(b=>b.classList.toggle("active",b.dataset.v9Mode==="map"))}
 }
+function tilePanels(){
+ if(matchMedia("(max-width:640px)").matches)return;
+ const area=$("v9Panels");if(!area)return;
+ const panels=[...state.windows.values()];
+ if(!panels.length)return;
+ const gap=12,width=area.clientWidth,height=area.clientHeight;
+ const cols=Math.min(panels.length,Math.max(1,Math.floor((width+gap)/360)));
+ const rows=Math.ceil(panels.length/cols);
+ const w=Math.min(430,Math.floor((width-gap*(cols-1))/cols));
+ const h=Math.min(440,Math.max(190,Math.floor((height-gap*(rows-1))/rows)));
+ panels.forEach((panel,i)=>{
+  const c=i%cols,r=Math.floor(i/cols);
+  panel.style.width=w+"px";panel.style.height=h+"px";
+  panel.style.left=c*(w+gap)+"px";panel.style.top=r*(h+gap)+"px";
+ });
+}
 function ensurePanel(type){
  if(type==="lab"){ /* Lab also has floating launch pad */ }
  const existing=state.windows.get(type);
  if(existing){existing.style.zIndex=++state.sequence;existing.querySelector(".v9-panel-body").innerHTML=panelContent(type);return existing}
- if(state.windows.size>=4){const oldest=state.windows.keys().next().value;closePanel(oldest)}
+ if(matchMedia("(max-width:640px)").matches){for(const open of [...state.windows.keys()])closePanel(open)}
+ else if(state.windows.size>=4){const oldest=state.windows.keys().next().value;closePanel(oldest)}
  const info=names[type];if(!info)return;
  const panel=document.createElement("section");
  panel.className="v9-panel";panel.dataset.panel=type;panel.setAttribute("aria-label",info.title);
@@ -162,8 +179,10 @@ function ensurePanel(type){
  '<div class="v9-panel-body">'+panelContent(type)+'</div>'+
  '<footer class="v9-panel-foot"><span>'+esc(info.foot)+'</span><button class="v9-panel-top" title="Bring to front">▣</button></footer>';
  $("v9Panels").appendChild(panel);state.windows.set(type,panel);
+ tilePanels();
  document.querySelectorAll('[data-v9-panel="'+type+'"]').forEach(b=>b.classList.add("active"));
  panel.querySelector(".v9-panel-close").onclick=()=>closePanel(type);
+ panel.querySelector(".v9-panel-top").onclick=()=>{panel.style.zIndex=++state.sequence;panel.querySelector(".v9-panel-titlebar").focus?.()};
  panel.addEventListener("pointerdown",()=>{panel.style.zIndex=++state.sequence});
  panel.querySelector(".v9-panel-titlebar").addEventListener("pointerdown",event=>{
   if(event.button!==0||event.target.closest("button")||matchMedia("(max-width:640px)").matches)return;
@@ -280,6 +299,7 @@ function registerMapPreview(){
 function bind(){
  document.querySelectorAll("[data-v9-panel]").forEach(b=>b.addEventListener("click",()=>togglePanel(b.dataset.v9Panel)));
  document.querySelectorAll("[data-v9-mode]").forEach(b=>b.addEventListener("click",()=>mapMode(b.dataset.v9Mode)));
+ $("v9Tile")?.addEventListener("click",tilePanels);
  $("v9ZoomIn").onclick=()=>window.__gulfastraMap?.zoomIn({duration:250});
  $("v9ZoomOut").onclick=()=>window.__gulfastraMap?.zoomOut({duration:250});
  $("v9Reset").onclick=()=>{state.country="";$("v9Locate").value="";syncPanels();mapMode("map")};
@@ -316,7 +336,7 @@ function bind(){
  });
  window.addEventListener("gulfastra:source",()=>{state.manifest=window.GulfastraData.info()?.manifest;health()});
  document.addEventListener("visibilitychange",()=>{if(!document.hidden)reload()});
- window.addEventListener("resize",()=>{window.__gulfastraMap?.resize()});
+ window.addEventListener("resize",()=>{window.__gulfastraMap?.resize();tilePanels()});
 }
 async function init(){
  bind();let palette="phosphor";
