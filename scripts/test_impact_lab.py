@@ -18,12 +18,13 @@ events=[event("1",1),event("2",2),event("3",3,topic="shipping"),
   event("6",2,count=1)]
 g=graph(events,now=now)
 assert len(g["nodes"])==5,g
-assert len(g["edges"])==1,g["edges"]
-edge=g["edges"][0]
-assert set((edge["source"],edge["target"]))=={"GF-1","GF-2"}
-assert edge["kind"]=="shared-topic-and-country"
+assert len(g["edges"])==3,g["edges"]
+edge=next(e for e in g["edges"] if {e["source"],e["target"]}=={"GF-1","GF-2"})
+assert edge["kind"]=="multi-report-topical-overlap"
 assert edge["relation_verified"] is False
-assert "NOT causation" in edge["label"]
+assert "NOT same event or causation" in edge["label"]
+assert all(e["relation_verified"] is False for e in g["edges"])
+assert sum(e["kind"]=="topical-proximity-only" for e in g["edges"])==2
 assert all(n["incident_status"]=="unknown" for n in g["nodes"])
 assert all("https://" in n["sources"][0]["url"] for n in g["nodes"])
 g2=graph(events,g,now=now)
