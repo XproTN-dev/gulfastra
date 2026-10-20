@@ -14,7 +14,9 @@ with sync_playwright() as pw:
     for name,width,height in [("desktop",1600,960),("mobile",390,844)]:
         page=browser.new_page(viewport={"width":width,"height":height})
         errors=[]
-        page.on("pageerror",lambda error:errors.append(str(error)))
+        page.on("pageerror",lambda error:errors.append(
+            str(error)+" | "+str(getattr(error,"stack",""))[:1000]
+        ))
         response=page.goto(BASE,wait_until="domcontentloaded",timeout=60000)
         assert response and response.status==200,("site unavailable",name)
         page.wait_for_function("Boolean(window.GXApp?.getState().loaded)",timeout=60000)
