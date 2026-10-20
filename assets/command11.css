@@ -45,3 +45,43 @@ body[data-theme="sand"]{--bg:#12110f;--panel:#1e1a17;--panel2:#28221d;--raised:#
  .layers-rail{top:0!important;bottom:0!important}
  .mobile-nav button{font-size:16px}
 }
+
+/* v11.1: Freshness is always visible; "checked" is not "collected". */
+.app{grid-template-rows:57px 78px 28px minmax(0,1fr) 108px}
+.freshness-bar{display:flex;min-width:0;align-items:center;gap:20px;padding:0 16px;
+ background:var(--panel2);border-bottom:1px solid var(--line);color:var(--muted);
+ overflow-x:auto;white-space:nowrap;scrollbar-width:none;min-height:0;
+ font:9px "IBM Plex Mono",monospace;letter-spacing:.2px}
+.freshness-bar::-webkit-scrollbar{display:none}
+.freshness-bar span{flex:0 0 auto}
+.freshness-bar span:first-child{color:var(--accent);font-weight:700}
+.freshness-bar[data-state="delayed"]{background:color-mix(in srgb,var(--warn) 10%,var(--panel2))}
+.freshness-bar[data-state="delayed"] span:first-child{color:var(--warn)}
+.freshness-bar[data-state="updated"] span:last-child{color:var(--good)}
+.workarea{position:relative;min-height:0;overflow:hidden}
+@media(max-width:900px){
+ .app{grid-template-rows:52px 69px 27px minmax(0,1fr) 88px}
+ .layers-rail{top:0;bottom:0;max-height:100%;overscroll-behavior:contain;
+  overflow-y:auto;overflow-x:hidden;-webkit-overflow-scrolling:touch}
+ .freshness-bar{gap:14px;padding:0 11px;font-size:8px}
+ .stream,.dossier-body{overscroll-behavior:contain;-webkit-overflow-scrolling:touch}
+}
+@media(max-width:650px){
+ .app{grid-template-rows:47px 62px 28px minmax(0,1fr) 75px calc(61px + env(safe-area-inset-bottom,0px))}
+ .layers-rail{top:0;bottom:0;max-height:100%;width:min(320px,89vw);
+  z-index:26;background:var(--panel);padding-bottom:12px}
+ .layers-rail .rail-bottom{margin-top:14px}
+ .freshness-bar{gap:17px;font-size:8px}
+ .intel-rail{min-height:0;min-width:0}
+ .stream{min-height:0;flex:1;overflow-y:auto}
+ .mobile-nav{padding-bottom:env(safe-area-inset-bottom,0px)}
+ .mobile-nav button{min-height:44px;touch-action:manipulation}
+ .rail-tabs button{min-height:44px;touch-action:manipulation}
+ .layers label{min-height:44px}
+ .periods button,.topic-pills button{min-height:38px}
+ .map-tag{max-width:58%}
+ .map-legend{max-width:calc(100vw - 48px);overflow-x:auto;white-space:nowrap;flex-wrap:nowrap}
+ .map-disclaimer{pointer-events:none}
+ .dossier{padding-bottom:env(safe-area-inset-bottom,0px)}
+ .map-wrap{touch-action:pan-x pan-y}
+}
