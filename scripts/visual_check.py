@@ -28,7 +28,8 @@ with sync_playwright() as pw:
             page.locator('[data-mobile="filters"]').click()
             assert page.locator("#controlpanel").evaluate("(node)=>node.classList.contains('open')"),"Filters drawer failed"
             page.locator("#closeLayers").click()
-        assert count > 0,f"{label} report cards not rendered despite {total} archived reports"\n        page.screenshot(path=str(OUT/f"{label}.png"),full_page=True)
+        assert count > 0,f"{label} report cards not rendered despite {total} archived reports"
+        page.screenshot(path=str(OUT/f"{label}.png"),full_page=True)
         print(label,"reported_count=",total,"visible_articles=",count,"mapcanvas=",mapcanvas,"pageerrors=",errors[:5])
         assert mapcanvas==1,"MapLibre canvas missing"
         assert not errors,"JavaScript errors: "+" ; ".join(errors)
