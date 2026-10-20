@@ -1,9 +1,9 @@
 # Gulfastra | Open-source situation report
 Window: last 24 hours (publication-based)
-Coverage groups: 263 | linked headlines: 284
+Coverage groups: 266 | linked headlines: 287
 IMPORTANT: Unverified published reporting; not confirmed attacks or official safety advice.
 
-## Security (192 coverage groups)
+## Security (195 coverage groups)
 - 2 Men Rearrested in UK on Suspicion of Assisting Iran Over Suspected Plot at a US-Run Air Base - Military.com (1 headlines; single-source)
   - Military.com: https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUUp0MVJFbTFVYUgySHgtUEJQNjQwZGh3RjBadjZDQkFXeXl0RXEzd0dXT0h4LUJHbk5WbVVrTGtiUXZuUk1Od0dva3REMjR4NDFRaExYU2JybXcxbVlVakoyMHVpZURtNlJyX1pla0tubmFXRHVxb1RURXNiNXBVSENrTFpqa2R1ejFaZHQ3eUd4Y1BWT2pValU2VTJHQ1Q5MWNEdE9mTG5lY3NJMmFjU2JBa2NMTTZCcUNJ?oc=5
 - الحرس الثوري الإيراني: انفجار ناقلة نفط بعد اصطدامها بلغم بحري - المصري اليوم (1 headlines; single-source)
