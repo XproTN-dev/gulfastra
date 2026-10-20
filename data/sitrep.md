@@ -1,9 +1,9 @@
 # Gulfastra | Open-source situation report
 Window: last 24 hours (publication-based)
-Coverage groups: 217 | linked headlines: 236
+Coverage groups: 218 | linked headlines: 237
 IMPORTANT: Unverified published reporting; not confirmed attacks or official safety advice.
 
-## Security (150 coverage groups)
+## Security (151 coverage groups)
 - UK to deploy jets to defend Saudi Arabia from Houthi attacks (1 headlines; single-source)
   - BBC Middle East RSS: https://www.bbc.co.uk/news/articles/ckr5yqe1r1llo?at_medium=RSS&at_campaign=rss
 - مقاتلات تايفون البريطانية تستعد لحماية أجواء السعودية من الصواريخ والمسيّرات - موقع الدفاع العربي (1 headlines; single-source)
@@ -50,7 +50,7 @@ IMPORTANT: Unverified published reporting; not confirmed attacks or official saf
   - www.aajeg.com: https://news.google.com/rss/articles/CBMiyANBVV95cUxOVFpHU1pvSmU5dFlXVE1RbDFORlk2YnlXUndCd3BscUJ6Vk9nNnJ2eEktN3EwX2tXcC1fRWhaT2RhdmtaU1pqa2UtTzlQMk8yTi1sUXpzZ1BYcWVLZlQxM291VFpPSW56emNYbEk2WDMzN01tWThSR01VX2hGcll5TF8tX05kcG84Q3hxWnN6V3NJZTJHV2ZDUkFrQkc1YUNlSGFQYXdXYnR0WkhiREpPbWZlSnhlQTRvMW9iaWk0MllaYUxTOVY5Q3l2ZFVUeTRPa01pR3RGNXVCVVJGRnVPdlBFOXN5aVFvZzNqNC1PMDBSTGtVWHZwV0VUSmFVc3ZUaEFXamNFNGRrUXY1LUlmQ2l3NWUwek1xU1QzTDZsb2ZBQXZ0OGtBdUNrYmdJWVoxWXdadlA5T1c1NDZnTVBSWUlPUVFMOHRpbmEwQ1VRM1RiUkRscFhQX3pFMXJGcWp1ZV9iNlNhNkxIek1EVTlkSDFrSG9LTEpydDBSZGtGMlhxSWhMdFc3RkFNV3RVY0xmaWN0bDFOYlM3WFpvbGpJbEFCN0pZbE0xNXhDNWpoVGRtbXhPUlFmYlpzUThVWXRGb2VEWXYxMlg?oc=5
 - قطر تعزز دفاعاتها الجوية وتعتزم إنشاء مركز للصناعات الدفاعية.. موقف حاسم من مضيق هرمز - nedaelwatan.com (1 headlines; single-source)
   - nedaelwatan.com: https://news.google.com/rss/articles/CBMijgFBVV95cUxOcVI5b0pqTTFocTVZQkhIZ2dZdFlkVnpxSkNVTWdzRkZoTHZ3SEFDS3o2V2JBV0txUHMyU0NxZ3l0aTlkN09YU2xnOHF6cHhNOTJPQUFyb3ZMLXFxeWxwUmVGRFJZOVdoZnRNMF9iN1JTZE5JY0N4ZFczSHlBeERoRU1vMFkweUZpMUlNbG5n?oc=5
-- عاجل | الخارجية القطرية: على الجانب الإيراني تنفيذ القوانين الدولية الخاصة بحرية الملاحة وينبغي فتح مضيق هرمز - الجزيرة نت (2 headlines; multi-publisher-unverified)
+- عاجل | الخارجية القطرية: على الجانب الإيراني تنفيذ القوانين الدولية الخاصة بحرية الملاحة وينبغي فتح مضيق هرمز - الجزيرة نت (2 headlines; repeated-publication)
   - الجزيرة نت: https://news.google.com/rss/articles/CBMiugJBVV95cUxPYTJFMkcyUEJzTnVDQy0wUnF6Zjk3UGdvTnNUcWtsTmprMEVXNlpLMzI4MjQ0ZzRQcUNGUlNyb2hBMjhESlpvOEFaNGpGRWVkYjhMWk81MEFBZWM5WlFYbjdUbmwtVVhnRC1tRkoxTUtnLWpVa01BYmFndjlSbWpMOHF0U1ZLWHpYNGJSOEpZMnFfRFFXMllPUUxXTzZ1Zl9HWlQ0b01YSUhmWjBYbWgtbjdFNmI5LU9hUEpyZ1pjOWpaSUdrbEh6eENnZDlrSWlGMTM4RDYzX1VmVUlRelh5cV9DVmZYQU95Y0ItbnhxNUlRdVNndVo2eXlTNENxNzlpbFhKWkV5RXJnejBwclZ0aWpvQ2xRM0pfQzlKNk5MamxMS19ZNDRhMEpXMnhUUWYyT1ZaRGtMSVg3d9IBvwJBVV95cUxOd291SENuRVlTNXg2UkFWcDZfRGxoZ2lGeVZYLXVJM2loOUJTU3BRYkFGODdxd0RLZjVJZmdQTGJNLTFSajB3Vnc2elpnOVZ6S1FEakhmTGJxLXZONVhKckZGekk4N2tmYndVSEloNHIxSHBoci1iUGNqUUQ2MEo5LWFvZVlmZEtiUU1BWXZZak5Fc29DRjBoOW85a3lOWTl0NGxla09ydVNaLTZKM1dNODE0bzVMWlNhZWNJU1pjSHVtRllNTUw3R1BVZlpYeGdBcFNRdVI2YVVMemRuOTlwZC1QVmZhY0NUOTh0YVNuQTk4U0ZBSU5kMkF6UkJTTEk5RkxVR2dJa24yMjZIcnlua2c1LU5VRUctWm1VZWpsUUdlNzNtZDc5WEdrQTVPRHloNVpxMll4SEpZX01FNFlN?oc=5
   - الجزيرة نت · RSS عربي: https://www.aljazeera.net/news/2026/10/20/%d8%b9%d8%a7%d8%ac%d9%84-%d8%a7%d9%84%d8%ae%d8%a7%d8%b1%d8%ac%d9%8a%d8%a9-%d8%a7%d9%84%d9%82%d8%b7%d8%b1%d9%8a%d8%a9-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d8%ac%d8%a7%d9%86%d8%a8?traffic_source=rss
 - اشتعال النيران في ناقلتي وقود بسبب ألغام بحرية وتوقفهما جنوب مضيق هرمز - صدى البلد (1 headlines; single-source)

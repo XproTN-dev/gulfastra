@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "generated_at": "2026-10-20T12:11:56.632328Z",
+  "generated_at": "2026-10-20T12:12:48.310142Z",
   "model": "deterministic-source-correlation-v1",
   "disclaimer": "Clusters are related PUBLIC REPORTS, not confirmed incidents. Source counts are not proof. Country names are mentions, not incident locations.",
   "events": [
@@ -228,7 +228,7 @@
       "updated_at": "2026-10-20T12:01:01.151751Z"
     },
     {
-      "id": "GF-6602B6F9B29DE8",
+      "id": "GF-1FFE5F97E7BD09",
       "title": "Oil prices rise as Strait of Hormuz tanker attacks escalate - Quartz",
       "category": "security",
       "topic": "maritime",
@@ -248,26 +248,26 @@
       ],
       "publisher_count": 1,
       "report_count": 1,
-      "first_published": "2026-10-20T11:48:45Z",
-      "last_published": "2026-10-20T11:48:45Z",
+      "first_published": "2026-10-20T11:50:21Z",
+      "last_published": "2026-10-20T11:50:21Z",
       "event_occurred_at": null,
       "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
       "sources": [
         {
-          "id": "e6a419a0ad59c930cb136a06",
+          "id": "062cb58226b2d43ed455d9b3",
           "title": "Oil prices rise as Strait of Hormuz tanker attacks escalate - Quartz",
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9wNThNdGREZG9pVlpmMVhOMHhpdUZscFlLdEhqWHNFQXpIeEl3Q3dla2c0MnBCZDBWV1FXTTI3ZnNkWjhRZ0U1OVQzbmh3UHEwbEpyYVlDWHVOUXNod3p3dmZlNnpuZTNOTWpabnZMTVZiOWdibkE?oc=5",
           "source": "Quartz",
           "provider": "Google News · shipping",
-          "published_at": "2026-10-20T11:48:45Z",
+          "published_at": "2026-10-20T11:50:21Z",
           "collected_at": null,
           "language": "en",
           "country": ""
         }
       ],
-      "digest": "60faf5bf83f2404ca1f5",
-      "revision": 2,
-      "updated_at": "2026-10-20T12:10:02.002002Z"
+      "digest": "539585f3535c1e2b4a4c",
+      "revision": 1,
+      "updated_at": "2026-10-20T12:12:48.310142Z"
     },
     {
       "id": "GF-D3E8CA268EF6C6",
@@ -1887,7 +1887,7 @@
       "location_quality": "country-mention",
       "confidence": null,
       "claim_status": "not-independently-verified",
-      "corroboration": "multi-publisher-unverified",
+      "corroboration": "repeated-publication",
       "cross_language_candidate": false,
       "wording_review": {
         "potentially_divergent_wording": false,
@@ -1897,7 +1897,7 @@
       "languages": [
         "ar"
       ],
-      "publisher_count": 2,
+      "publisher_count": 1,
       "report_count": 2,
       "first_published": "2026-10-20T06:55:33Z",
       "last_published": "2026-10-20T10:04:54Z",
@@ -1927,9 +1927,9 @@
           "country": ""
         }
       ],
-      "digest": "fadb2fb75868d2c01161",
-      "revision": 5,
-      "updated_at": "2026-10-20T12:04:09.559389Z"
+      "digest": "a3e29b3960e48727ad5f",
+      "revision": 6,
+      "updated_at": "2026-10-20T12:12:48.310142Z"
     },
     {
       "id": "GF-D2EB7CBD8EA6E0",
@@ -2193,8 +2193,8 @@
       ],
       "publisher_count": 1,
       "report_count": 1,
-      "first_published": "2026-10-20T09:39:00Z",
-      "last_published": "2026-10-20T09:39:00Z",
+      "first_published": "2026-10-20T09:45:33Z",
+      "last_published": "2026-10-20T09:45:33Z",
       "event_occurred_at": null,
       "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
       "sources": [
@@ -2204,15 +2204,15 @@
           "url": "https://news.google.com/rss/articles/CBMivwRBVV95cUxPelBCRXdKWG02U0JsTTR1U3pfVUNJanpmRS1kM0pWOXdXV1VFN0pyUWc0SFZyRGRkZkhTYlJVSFNLMTZKNUlhcTJsR2I2Tlp5XzBsZ0M3QkZna2JhNEhtWWhFdXRKUlYtamdrZjBoMlFhMWp2VlJOY1lscld0eEtsWGUzZUhWOU9jMTZ0eVNVb2c0TTdjd284al9qRlZmZWxQNUQ3WE83QW5FaUVZakVPQVlzeHNXM0NfLTRFRWx0YVFTWDlMb19YSHJra3d0SXlJUUh3UVRFTFVGY1d6WTRoRWJnX3pQQloyeGpnRkkyVTFWODUxN3h5OENXcUhaNDFPTWxIWjVOU001UW13cUkzY01nZTl5d3locXdUTFFDMHFuNnRBNjlyelJEU0xfb2pXMkY4M3A2NkZXTHh3bUVJaHcwX0I0UVAwdWt4bGg5ZEdCTTFJTXhsN0VWaGxsS2VwbFJVZ1pic0pBQ1VMTjY3MkVQbnlObGVpWUhpczZjZTNJckFZNDJxNERIWmQxV1lpVEJDREhsMXlWWmRtbEZiNlZaZkx0alJqUWg2QUdCY1lJb1BzVGJYSVh5SXdRZ09lRE4xQTRocDFXbVJ2U3pYUURIdzRPS2JqWVlDTC1uNF90N0xuc1FUY1kyc0RnamdfR0dxTUV2WC1hSF9rT1doRjRtbFlZcXctaXpSZkt3aU1jWk41c0t2WHg4dzNDbk9iWTJ1TEd6MTI5dzJlRGg2dGtKZ0FQRnh6YmpkQ1FKa9IBugRBVV95cUxQb3JPTlJfMndXeWYtS0VLVGQtMkZ3dmdrVWs2MzRqRUw2WEVVY3NrM2RnalAtbUpENXN2SXZNMXhfUk1UZFkzbUNKeUdhZXJCRGNtSG9lOUZhV3A5SmRPbTVjajhfc1E2eklMdmEyMXFfODNyS3JPa1hmeVV0YzlGd3hnMDJ6RW1Ick4tamptY28wUGt6azBzckZhVEZjdy1UT3RxUUFFaVd1Y1hETTQ3alRoc2RwbmQwNUw0N091SDVDVzFrdjB5RzR4RVBhX2ZvSnNlNkx1VF9sNVZrVU9sdmk4RkVOVG5fT0xBaEhUUjRPZmhNTWt6cXI0QkY2bEdrc0kzVzdnakx2RGdxcHdXQzRodG9kUW1XeDRCUzV4bi10Mmdhd2ZTeG1IWUNsd01oYkg0NFV6LXBSWE5aV09KakZOVW5XOUxJWm9PU2tzVXFjcFFuX0tiQXVSZ2d6RG5WWThDV3B3dVZjcGp3QmZURGhLR0Y3QkE1THRYcVFoLTBCcU5WWDk4b1ZsbHJZSDdhOFBCejI0a2N3MG5ZWk55dEQ3WlZ4dllxbXlvRE5xdUd5d3lWVHpRN3BXTzJERXRfRlgtZ0FZVEpWWFU3MDVBcndubWlEbDl3ZGliVktsaU5tUFduWGFJSkpueTVPTWxjbklMNVVhZzBnTXhRRUJBNzUzUHFLeUlwRmV4TzVXUkx6Uy1iNlRlWm9nYzZhMHkwQm9ZYUR1NTE1ejRsWUpBTWU3MXptSnlvYlE?oc=5",
           "source": "اليوم السابع",
           "provider": "عربي · السعودية",
-          "published_at": "2026-10-20T09:39:00Z",
+          "published_at": "2026-10-20T09:45:33Z",
           "collected_at": null,
           "language": "ar",
           "country": ""
         }
       ],
-      "digest": "751451a869c52bf7e47a",
-      "revision": 2,
-      "updated_at": "2026-10-20T12:09:33.601778Z"
+      "digest": "a79858b3365c15830283",
+      "revision": 3,
+      "updated_at": "2026-10-20T12:12:48.310142Z"
     },
     {
       "id": "GF-64C0644E4975E0",
@@ -7052,7 +7052,7 @@
       "location_quality": "country-mention",
       "confidence": null,
       "claim_status": "not-independently-verified",
-      "corroboration": "multi-publisher-unverified",
+      "corroboration": "repeated-publication",
       "cross_language_candidate": false,
       "wording_review": {
         "potentially_divergent_wording": false,
@@ -7062,7 +7062,7 @@
       "languages": [
         "en"
       ],
-      "publisher_count": 2,
+      "publisher_count": 1,
       "report_count": 2,
       "first_published": "2026-10-19T14:48:56Z",
       "last_published": "2026-10-19T17:44:00Z",
@@ -7092,9 +7092,9 @@
           "country": "Iran"
         }
       ],
-      "digest": "09fec51447c81f704798",
-      "revision": 3,
-      "updated_at": "2026-10-20T12:10:02.002002Z"
+      "digest": "f212611afcbf071093ef",
+      "revision": 4,
+      "updated_at": "2026-10-20T12:12:48.310142Z"
     },
     {
       "id": "GF-006D9EC32341E8",
@@ -7750,6 +7750,51 @@
       "digest": "64c7018c4568f54faf27",
       "revision": 5,
       "updated_at": "2026-10-20T09:48:10.536726Z"
+    },
+    {
+      "id": "GF-2641AEE1D03B4C",
+      "title": "صواريخ ومسيرات إيرانية تستهدف البحرين والكويت والأردن.. والدفاعات الجوية تتصدى - الساحل الغربي",
+      "category": "security",
+      "topic": "missile",
+      "countries": [
+        "Bahrain",
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-19T16:18:43Z",
+      "last_published": "2026-10-19T16:18:43Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "a655d15acb89d9c6db5135da",
+          "title": "صواريخ ومسيرات إيرانية تستهدف البحرين والكويت والأردن.. والدفاعات الجوية تتصدى - الساحل الغربي",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE15VmNLVDgtRnRBRzRXaVowSlM1cTFRTEtwVGhhS0JoWVRpZ3FpdW1EZXZzdXN3SHcwNXVNV2s1N0tzMU9FYkZEZXFDWUlESWM?oc=5",
+          "source": "الساحل الغربي",
+          "provider": "عربي · الكويت والعراق",
+          "published_at": "2026-10-19T16:18:43Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "digest": "64eb47930abcb277ffab",
+      "revision": 7,
+      "updated_at": "2026-10-20T12:12:48.310142Z"
     },
     {
       "id": "GF-03476150E89A5F",
@@ -15907,6 +15952,48 @@
       "digest": "044ec11297ad88472bb3",
       "revision": 2,
       "updated_at": "2026-10-20T07:40:58.957167Z"
+    },
+    {
+      "id": "GF-9562E40C2BD533",
+      "title": "صاروخ حوثي يصيب 6 سعوديين و3 منازل في نجران - صحيفة الخليج",
+      "category": "security",
+      "topic": "missile",
+      "countries": [],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-18T15:44:34Z",
+      "last_published": "2026-10-18T15:44:34Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "e7881d52a1674d008ed2d2a1",
+          "title": "صاروخ حوثي يصيب 6 سعوديين و3 منازل في نجران - صحيفة الخليج",
+          "url": "https://news.google.com/rss/articles/CBMi1gNBVV95cUxQdVNMNlJSbjZyMl9BUjZyVVYtM2NYbzZUWUtnN2IzZUZfTkpjXzVqcGxKS3lqbkVXWlp2S2x6S3QxeGE5WHZSZS15WXhwYkZPd296em9XQWw2VnJUM3RWWFVhd3pMOFMzaHFOZ1lWQVJySGdIZlM4MEtfcGxkZDl1TkhWUVdZU3p0dzBPNG5qbUtydVM0QjJuMFBVRzVhREFTVnFMWkpfaF9aR1cxTzcwcmcyVmFzNndnRFJxaXk3Q0VnZjFPWnNhUnozR2RJSkZRMHRibThPYWtoRVJNdzh0ZF9FUndJZ2U0N1lhR2c1Ul84SjR1OWNtVE5kengyd2lPY280M3A1WElXamhmVEtlR2xLUXd0bWFyVkZOeGY4bWxWdjhVTFlqOXhxNUlTeUJyNEQ3djlxcnB3eHRyUkRsYkwxVjg0VEJ1b3pHNUZIaVZzNWFyUTYtTUZQbEZXQ21YWTdCY2tRRDlkRmpQUVNMZC1SUV9pbE1yQzNhc2pUMndHVlBSeU9mQmlJc3p1ZnlHRHJZaU92eHdTUUpTeFZkZWdmY0xxbkloR0luT1I5VDkzVW54X2h2WEZ3Q3otWHptTUdlZjlNb0M4THBGamlsQWxZQjdLZw?oc=5",
+          "source": "صحيفة الخليج",
+          "provider": "عربي · إيران والخليج",
+          "published_at": "2026-10-18T15:44:34Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "digest": "e514174f865f1aebb4e1",
+      "revision": 1,
+      "updated_at": "2026-10-20T12:12:48.310142Z"
     },
     {
       "id": "GF-B45BC7B35865A1",
@@ -29009,6 +29096,52 @@
       "updated_at": "2026-10-20T12:01:01.151751Z"
     },
     {
+      "id": "GF-9F69636A94783D",
+      "title": "إيران تنفي الاتهامات السعودية بالضلوع في هجمات الحوثيين.. وتعرض الوساطة بين الرياض والجماعة - Euronews.com",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Iran",
+        "Saudi",
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-16T16:52:58Z",
+      "last_published": "2026-10-16T16:52:58Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "ed28506edd9df2faf718a26b",
+          "title": "إيران تنفي الاتهامات السعودية بالضلوع في هجمات الحوثيين.. وتعرض الوساطة بين الرياض والجماعة - Euronews.com",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSGVjV0Q1MTlicFZjWUM4ZHF1S3NoQ2NtcmZLbEgxWWxqMEh0T3EtS3FjWXFVTEZtT3BGejU3eUZ4R0lXT1hJZzJBZThuOGM2cWNUaWpRQUpsTTFzZUJnZWFCSnY0N1JsTm5VcHV6MEhoRnBYNDZ3Sm1pdjBPcEs5R0hfVkVIeW5ZVkNQbTBqYUs5a2E4SzNWa19JWlpYTGxoOHRJ?oc=5",
+          "source": "Euronews.com",
+          "provider": "عربي · إيران والخليج",
+          "published_at": "2026-10-16T16:52:58Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "digest": "2364373f6d59210ec260",
+      "revision": 1,
+      "updated_at": "2026-10-20T12:12:48.310142Z"
+    },
+    {
       "id": "GF-6C65F0D672F1C4",
       "title": "UAE residents' update: Saudi flight disruptions, security alerts and latest regional developments - Gulf News",
       "category": "transport",
@@ -36565,16 +36698,16 @@
           "title": "Iran’s strikes on Persian Gulf water and power were deliberate - Reuters - Iran International",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB6VWdjRTNGdG1pc3RtcXNqSjFiLTdsMnJZYXRaVXVxOEl3VXFIeUhUVjVMSGtJRVlfNjEydHBLU0NKbnBhQXNpQ0F6b0VxWUpFR2c?oc=5",
           "source": "Iran International",
-          "provider": "Google News · shipping",
+          "provider": "Google News · missiles/drones",
           "published_at": "2026-10-15T11:39:50Z",
           "collected_at": null,
           "language": "en",
           "country": "Iran"
         }
       ],
-      "digest": "c77f8ff648a562294f8c",
-      "revision": 1,
-      "updated_at": "2026-10-20T12:10:02.002002Z"
+      "digest": "5a9f746761b48eb48eba",
+      "revision": 2,
+      "updated_at": "2026-10-20T12:12:48.310142Z"
     },
     {
       "id": "GF-CA74A7E92D5228",
@@ -36844,7 +36977,7 @@
     },
     {
       "id": "GF-58682ABDDE355B",
-      "title": "Iran’s precision strikes picked apart Gulf infrastructure, blunting US war plans - Reuters",
+      "title": "How Iran's precision strikes picked apart Gulf infrastructure - Reuters",
       "category": "security",
       "topic": "regional",
       "countries": [
@@ -36872,7 +37005,7 @@
       "sources": [
         {
           "id": "aa17a6eca97a950b82cf3e2c",
-          "title": "Iran’s precision strikes picked apart Gulf infrastructure, blunting US war plans - Reuters",
+          "title": "How Iran's precision strikes picked apart Gulf infrastructure - Reuters",
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONmZVZ0RfSms3U0s1SVE3N3ZMeWxLaVhtTjczazRmNU40UkpCUldVbWZJVUtJVkt3cHdLOEpoTl9qY0lFXzdKWUtydmYzVi1MeDExbXB6eHc3NjAyTi1CT2lveE5WVUNPeHV5SndkU3BmRUNiS1JCQUI2bDYyZjd6RjltYUhzeFVmUDFPSU93NWo?oc=5",
           "source": "Reuters",
           "provider": "Google News · security",
@@ -36882,9 +37015,9 @@
           "country": "Iran"
         }
       ],
-      "digest": "d2dc04b668cf89be9a38",
-      "revision": 3,
-      "updated_at": "2026-10-20T12:11:56.632328Z"
+      "digest": "1df11ea349ac8dd761b3",
+      "revision": 4,
+      "updated_at": "2026-10-20T12:12:48.310142Z"
     },
     {
       "id": "GF-F569005F5A89B0",
@@ -48087,51 +48220,6 @@
       "updated_at": "2026-10-20T12:10:02.002002Z"
     },
     {
-      "id": "GF-2641AEE1D03B4C",
-      "title": "صواريخ ومسيرات إيرانية تستهدف البحرين والكويت والأردن.. والدفاعات الجوية تتصدى - الساحل الغربي",
-      "category": "security",
-      "topic": "missile",
-      "countries": [
-        "Bahrain",
-        "Iran"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "ar"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-13T13:09:10Z",
-      "last_published": "2026-10-13T13:09:10Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "a655d15acb89d9c6db5135da",
-          "title": "صواريخ ومسيرات إيرانية تستهدف البحرين والكويت والأردن.. والدفاعات الجوية تتصدى - الساحل الغربي",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE15VmNLVDgtRnRBRzRXaVowSlM1cTFRTEtwVGhhS0JoWVRpZ3FpdW1EZXZzdXN3SHcwNXVNV2s1N0tzMU9FYkZEZXFDWUlESWM?oc=5",
-          "source": "الساحل الغربي",
-          "provider": "عربي · الكويت والعراق",
-          "published_at": "2026-10-13T13:09:10Z",
-          "collected_at": null,
-          "language": "ar",
-          "country": ""
-        }
-      ],
-      "digest": "b7547e67f32d069beca6",
-      "revision": 6,
-      "updated_at": "2026-10-20T12:11:56.632328Z"
-    },
-    {
       "id": "GF-4BCF1CEDA6EA75",
       "title": "تحالف دعم الشرعية في اليمن يعلن اعتراض وتدمير ثلاث مسيرات شمالي الرياض - https://emirates24.net/",
       "category": "security",
@@ -50302,18 +50390,18 @@
   ],
   "country_stats": {
     "Iran": {
-      "events": 397,
-      "reports": 436,
-      "security_coverage": 257,
+      "events": 398,
+      "reports": 437,
+      "security_coverage": 258,
       "transport_coverage": 83,
       "sources": 197
     },
     "Saudi": {
-      "events": 420,
-      "reports": 439,
-      "security_coverage": 317,
+      "events": 421,
+      "reports": 440,
+      "security_coverage": 318,
       "transport_coverage": 91,
-      "sources": 214
+      "sources": 215
     },
     "Qatar": {
       "events": 40,
@@ -50358,11 +50446,11 @@
       "sources": 5
     },
     "Yemen": {
-      "events": 196,
-      "reports": 200,
-      "security_coverage": 185,
+      "events": 197,
+      "reports": 201,
+      "security_coverage": 186,
       "transport_coverage": 11,
-      "sources": 108
+      "sources": 109
     },
     "Israel": {
       "events": 52,
@@ -50380,36 +50468,60 @@
     "2026-10-08": 1,
     "2026-10-10": 1,
     "2026-10-12": 7,
-    "2026-10-13": 112,
+    "2026-10-13": 111,
     "2026-10-14": 137,
     "2026-10-15": 127,
-    "2026-10-16": 122,
+    "2026-10-16": 123,
     "2026-10-17": 178,
-    "2026-10-18": 137,
-    "2026-10-19": 184,
+    "2026-10-18": 138,
+    "2026-10-19": 185,
     "2026-10-20": 118
   },
   "revisions": [
     {
-      "id": "GF-58682ABDDE355B",
+      "id": "GF-EAE814B180623B",
+      "revision": 6,
+      "at": "2026-10-20T12:12:48.310142Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 2,
+      "new_source_count": 2
+    },
+    {
+      "id": "GF-03303938FAA376",
       "revision": 3,
-      "at": "2026-10-20T12:11:56.632328Z",
+      "at": "2026-10-20T12:12:48.310142Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-EB4ADBA3FF937F",
+      "id": "GF-25B21562FF03E0",
       "revision": 4,
-      "at": "2026-10-20T12:11:56.632328Z",
+      "at": "2026-10-20T12:12:48.310142Z",
       "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
+      "previous_source_count": 2,
+      "new_source_count": 2
     },
     {
       "id": "GF-2641AEE1D03B4C",
-      "revision": 6,
-      "at": "2026-10-20T12:11:56.632328Z",
+      "revision": 7,
+      "at": "2026-10-20T12:12:48.310142Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-4B13232C28C9F4",
+      "revision": 2,
+      "at": "2026-10-20T12:12:48.310142Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-58682ABDDE355B",
+      "revision": 4,
+      "at": "2026-10-20T12:12:48.310142Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
