@@ -68,6 +68,17 @@ def publisher(report):
     val = (report.get("source") or report.get("provider") or "unknown").lower()
     val = re.sub(r"www\.|https?://", "", val)
     val = re.sub(r"[\W_]+", " ", val).strip()
+    # One newsroom's language editions are not two independent publishers.
+    if "france 24" in val or "france24" in val or "فرانس 24" in val:
+        return "france24"
+    if "un news" in val or "أخبار الأمم المتحدة" in val or "اخبار الامم المتحده" in val:
+        return "un-news"
+    if "al jazeera" in val or "الجزيرة" in val:
+        return "al-jazeera"
+    if "the guardian" in val or "guardian" in val:
+        return "guardian"
+    if "bbc" in val:
+        return "bbc"
     return val[:90] or "unknown"
 
 
