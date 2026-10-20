@@ -160,10 +160,14 @@ async function refresh(){
    S.newlyIndexed=C.asArray(S.files["reports.json"]?.reports)
     .filter(r=>r.id&&!priorIds.has(r.id)).length;
   }else if(!wasLoaded){S.newlyIndexed=0}
-  // One-minute manifest polling must not wipe the reader's scroll or
-  // reconstruct the map when the archive hashes are unchanged.
-  if(!wasLoaded||result.changed)render();
-  else paintMetrics();
+  // A newly published archive must not snap the analyst panel back to the
+  // first article while the reader is scrolling. Unchanged archives never
+  // rebuild the stream, which also avoids mobile layout churn.
+  if(!wasLoaded||result.changed){
+   const stream=$("stream"),scroll=wasLoaded?stream.scrollTop:0;
+   render();
+   if(wasLoaded&&scroll>0)stream.scrollTop=scroll;
+  }else paintMetrics();
   if(!wasLoaded||result.changed)E.notifyCritical();
  }catch(error){
   S.warning="Refresh failed: "+String(error).slice(0,120);S.channel="partial";
