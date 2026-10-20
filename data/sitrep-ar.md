@@ -1,12 +1,14 @@
 # موجز جلفاسترا للمصادر العلنية
 الفترة: آخر 24 ساعة (حسب وقت نشر التقارير)
 
-مجموعات التغطية: 255 | عناوين مرتبطة: 277
+مجموعات التغطية: 258 | عناوين مرتبطة: 280
 هذه تقارير صحفية وليست أحداثا مؤكدة، ولا تعتبر توجيهات سلامة رسمية.
 
-## Security (187 coverage groups)
+## Security (190 coverage groups)
 - الحرس الثوري الإيراني: انفجار ناقلة نفط بعد اصطدامها بلغم بحري - المصري اليوم (1 headlines; single-source)
   - المصري اليوم: https://news.google.com/rss/articles/CBMiX0FVX3lxTE9oNmVlMW1pa0FOVlI3dURzZVgtYm1jYTIwQVItaC1wYnhUOHBXejUycVUtNl9jdmpFSjI1b0FKUHlpVER3MVhZOXdndnIzTVJqTUpZSWxTd0gyb3B3MFRn?oc=5
+- عام / التحالف: تدمير منصة إطلاق الصاروخ الباليستي الذي أطلق على الرياض اليوم من قبل الميليشيا الحوثية الإرهابية - وكالة الأنباء السعودية (1 headlines; single-source)
+  - وكالة الأنباء السعودية: https://news.google.com/rss/articles/CBMiRkFVX3lxTE53M0kzd1d6MF80ZkpfSXpyTmhJYkNPTnZzU1FjZWlVcFdGNW5MYUxOdUE5VUZVUklkLW5uN1BFMExDMW1iU1E?oc=5
 - Houthis attack besieged city in Yemen that UN says is at 'grave risk' - The Washington Post (1 headlines; single-source)
   - The Washington Post: https://news.google.com/rss/articles/CBMiwgFBVV95cUxNd28wNVEwS0FZdThJYmJaQ09SZENwQmVZeTFJM1M3X0p5X1NGRFg5dnRUMWJBc3FZd2cyeUhJT2JYNzFYRGVNXzFUY3NGV0c1TlpMYURmd2hRakY1MDFEclFWbEptemJZcUZJRVZHOENHZ2phTFVrNkdGRkhXeVduSzNRNkprSm1pckctNms0VFp2OFNPMU81V0Zid2ZLZzVCa0h6a2VRbjJNTEF3a1dVSEh1S2hLSVd3LTRJeFA0WF9YUQ?oc=5
 - التهديد الإيراني باستهداف كابلات الإنترنت في هرمز يُثير تفاعلاً واسعاً على مواقع التواصل الاجتماعي - BBC (1 headlines; single-source)
@@ -31,8 +33,6 @@
   - Ottumwa Courier: https://news.google.com/rss/articles/CBMilgJBVV95cUxQY21KM3VEeXVYd1lrd0hsc0l5azVGRFE5QkJmbkNaQ2dFTnUtVUc4Qi1EdURGeHRhWDluY0loYTRJazRETFpqV0oxdDc1XzUzcGRHb1F1aU1NLTAtT2s5TVNZMDkyTnhncWNEcEhDeTRwaXJwZFo5N3pRQlFBdmlKMnZZaWU4M3Qwak1aNHlBYS1RR3RnR1lVZlQzTDhDY0NxWWJ0ZzJ5aHktc0NGSXliOE4yVjBnQVAyQ0o1VDhFNkE4QW9OTW81UFBwR3hZb1BrYXpzN0l2WFNBa0VBbVJfc3FLTGFvWDdQTTJLWGxtTjRLNnhBMUdzcWg4RWo3M2hHek5Od3BXczVTLVNMVm5zWlNQWEVPZw?oc=5
 - UK expands military support for Saudi Arabia against Houthis with ‘defensive’ air patrols - Eagle-Tribune (1 headlines; single-source)
   - Eagle-Tribune: https://news.google.com/rss/articles/CBMigwJBVV95cUxNRW12dllEczNDMU8xbm81RlpkQTQ3SGVhbGl6Z2JzWkh3Q0swU0dMSlJ6OS1XcHc2Si11dVR4ZUJmelZXc2hIeFFrUlN3d184UmRSUkVHNzlzeHYwNzAxZDZOY0xZZldzeEV6UkNGTk5qaDdqVm9lUmhtRHQxVmZNRHlCVGJqaDktNVRKczZXdk1SLW9yOHY2U1ROYVFUT3VpMHo1LTAxbldJYXltcEZYRlVPdkFUb2FrcWJlVlp5S3pwVWhSakM1Wl9Scm1kcHVoOG5Gc3N6VnVPb2lXQ0VYMDE1eXY3b0VMM2ltSUV4YkphOVgycDRZRms0TmE3YzU0bTBB?oc=5
-- UK expands military support for Saudi Arabia against Houthis with ‘defensive’ air patrols - The Batesville Daily Guard (1 headlines; single-source)
-  - The Batesville Daily Guard: https://news.google.com/rss/articles/CBMihwJBVV95cUxPVWJ3RVFvMGNfcFFYYWpzb3lfZVNfSy1KNjFoRHZpcU12cmRaV21LMWVTNExPa2RwMzFVUXhKdjRIU2V2eWZBdXY2aVR3QmxIdHJNVC1sRVRPXzFUM3FGTjN4UWliS0RRT3FORzZsLV9YakhfUHJsN09xMFhpSW9ZUHhmZ3dRVjg0N1MzUUFCUmM4X3VGdE1hSXRTRnNScnd2N19JWXVLNXd5c2ZSTDAzdVBxTFVoNzg2UFgzZkdiaHkwR3dHQUZFOEY0S3dDQ1VVaGRtV3FPM2FYaU01R2tXVkdCNmpxVWw5REZDeUk3M19Ld2FmcjY3dzhubEtPSVgtR0d2Z25Nbw?oc=5
 
 ## Transport (44 coverage groups)
 - إيران: إصابة ناقلتي نفط أثناء عبورهما مسارا غير مصرح به في مضيق هرمز - Masrawy (1 headlines; single-source)

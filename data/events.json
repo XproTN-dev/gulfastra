@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "generated_at": "2026-10-20T17:35:41.211329Z",
+  "generated_at": "2026-10-20T17:36:38.611766Z",
   "model": "deterministic-source-correlation-v2-coverage-lifecycle",
   "disclaimer": "Clusters are related PUBLIC REPORTS, not confirmed incidents. Source counts are not proof. Country names are mentions, not incident locations.",
   "events": [
@@ -59,6 +59,62 @@
       "digest": "27579f74819a66af6514",
       "revision": 1,
       "updated_at": "2026-10-20T17:30:53.488659Z"
+    },
+    {
+      "id": "GF-0873FB7324B48B",
+      "title": "عام / التحالف: تدمير منصة إطلاق الصاروخ الباليستي الذي أطلق على الرياض اليوم من قبل الميليشيا الحوثية الإرهابية - وكالة الأنباء السعودية",
+      "category": "security",
+      "topic": "missile",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T17:18:26Z",
+      "last_published": "2026-10-20T17:18:26Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "76c4f66c7177a6b660a77900",
+          "title": "عام / التحالف: تدمير منصة إطلاق الصاروخ الباليستي الذي أطلق على الرياض اليوم من قبل الميليشيا الحوثية الإرهابية - وكالة الأنباء السعودية",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE53M0kzd1d6MF80ZkpfSXpyTmhJYkNPTnZzU1FjZWlVcFdGNW5MYUxOdUE5VUZVUklkLW5uN1BFMExDMW1iU1E?oc=5",
+          "source": "وكالة الأنباء السعودية",
+          "publisher_key": "وكالة الأنباء السعودية",
+          "provider": "عربي · وكالات الخليج",
+          "published_at": "2026-10-20T17:18:26Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T17:36:32.179146Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Saudi"
+        }
+      ],
+      "coverage_stage": "new-coverage",
+      "coverage_first_published_at": "2026-10-20T17:18:26Z",
+      "coverage_last_published_at": "2026-10-20T17:18:26Z",
+      "current_reporting": true,
+      "recent_publisher_count": 1,
+      "recent_article_count": 1,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "45106e48a43e7b35ae06",
+      "revision": 1,
+      "updated_at": "2026-10-20T17:36:38.611766Z"
     },
     {
       "id": "GF-C3B966DE5C7CDA",
@@ -1008,6 +1064,62 @@
       "updated_at": "2026-10-20T17:35:41.211329Z"
     },
     {
+      "id": "GF-1485B5A12EC679",
+      "title": "UK expands military support for Saudi Arabia against Houthis with ‘defensive’ air patrols - Enidnews.com",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T15:56:16Z",
+      "last_published": "2026-10-20T15:56:16Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "8c4805c26abe8f409e960dcd",
+          "title": "UK expands military support for Saudi Arabia against Houthis with ‘defensive’ air patrols - Enidnews.com",
+          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNYXV4eGpJbDBYeUxuOVVtem5acTMycngtbExVOHlJZkMxME01TXNacUpUMTI3OVpqT0Zhd09KQ0hxZm5RdTVJVVBYR3VpT2FTQ3J5bnhCM1lWSXQ3czh4WVdJTTRRYzhnVmdHNjFZN2hwM0xaLTNMN2Rqal8za2RxR21VaTQtNXVua2Z4aldaSC1DS0laWnp3VEVSRWVzbUNXMzU2YUZsVll2aXBaMnZSZmk1TmdHQ3FVVExSQ2VKWWNhQmw5V1BtcmFqa1BYOUFwTTQxWkN5VlJfOWp3VlM1UE1jTE8xWkpWX3ZfVzAtV3RzRG4ybF9UNWg4aWp6UQ?oc=5",
+          "source": "Enidnews.com",
+          "publisher_key": "enidnews com",
+          "provider": "Google News · security",
+          "published_at": "2026-10-20T15:56:16Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T17:36:32.179146Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Saudi"
+        }
+      ],
+      "coverage_stage": "new-coverage",
+      "coverage_first_published_at": "2026-10-20T15:56:16Z",
+      "coverage_last_published_at": "2026-10-20T15:56:16Z",
+      "current_reporting": true,
+      "recent_publisher_count": 1,
+      "recent_article_count": 1,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "b1c4ad7d8a25eea6241c",
+      "revision": 1,
+      "updated_at": "2026-10-20T17:36:38.611766Z"
+    },
+    {
       "id": "GF-2E5705D5DCEC34",
       "title": "السعودية تعلن اعتراض وتدمير طائرة مسيرة في منطقة الرياض - صوت الإمارات",
       "category": "security",
@@ -1133,18 +1245,18 @@
           "country": ""
         }
       ],
-      "coverage_stage": "new-coverage",
+      "coverage_stage": "recent-coverage",
       "coverage_first_published_at": "2026-10-20T15:36:12Z",
       "coverage_last_published_at": "2026-10-20T15:36:12Z",
-      "current_reporting": true,
-      "recent_publisher_count": 1,
-      "recent_article_count": 1,
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "da3f1ddef980b9233b6a",
-      "revision": 2,
-      "updated_at": "2026-10-20T16:52:31.264495Z"
+      "digest": "35e61dfa744e68148f89",
+      "revision": 3,
+      "updated_at": "2026-10-20T17:36:38.611766Z"
     },
     {
       "id": "GF-D3E8CA268EF6C6",
@@ -12680,6 +12792,63 @@
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
+      "id": "GF-EB4ADBA3FF937F",
+      "title": "البحرين تعلن اعتراض هجمات إيرانية جديدة.. والكويت تتصدى لصاروخين باليستيين وسط تصعيد أميركي-إيراني - الساحل الغربي",
+      "category": "security",
+      "topic": "interception",
+      "countries": [
+        "Bahrain",
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-19T21:58:54Z",
+      "last_published": "2026-10-19T21:58:54Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "c1138a2262b02b848c7569fe",
+          "title": "البحرين تعلن اعتراض هجمات إيرانية جديدة.. والكويت تتصدى لصاروخين باليستيين وسط تصعيد أميركي-إيراني - الساحل الغربي",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1hcEthLUFQRmFqekJvQkpzMDZNR3Q2MkJKdVVTbkVxRHZiVEdraW5Hb01TMWpDUm5wNDNFdFhqR0JxNlgzNEZ1eGMwc0dXeFE?oc=5",
+          "source": "الساحل الغربي",
+          "publisher_key": "الساحل الغربي",
+          "provider": "عربي · الإمارات والبحرين",
+          "published_at": "2026-10-19T21:58:54Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T12:03:42.847208Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "recent-coverage",
+      "coverage_first_published_at": "2026-10-19T21:58:54Z",
+      "coverage_last_published_at": "2026-10-19T21:58:54Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "eea39b3c23b0b4b36fc1",
+      "revision": 13,
+      "updated_at": "2026-10-20T17:36:38.611766Z"
+    },
+    {
       "id": "GF-A5770A06CD6844",
       "title": "Day 226 | At least two killed in attack on Riyadh airport - Roya News",
       "category": "security",
@@ -17548,63 +17717,6 @@
       "digest": "e10cb46c83265934c0ee",
       "revision": 3,
       "updated_at": "2026-10-20T16:52:31.264495Z"
-    },
-    {
-      "id": "GF-F99E79086CCD1D",
-      "title": "تصعيد إيراني يطول الكويت والبحرين والأردن.. وواشنطن ترد باستهداف ناقلات النفط - الساحل الغربي",
-      "category": "security",
-      "topic": "maritime",
-      "countries": [
-        "Iran",
-        "Kuwait"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "ar"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-19T13:10:02Z",
-      "last_published": "2026-10-19T13:10:02Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "91d4581a1376bf96e2612e5b",
-          "title": "تصعيد إيراني يطول الكويت والبحرين والأردن.. وواشنطن ترد باستهداف ناقلات النفط - الساحل الغربي",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBEbVdfVUxjVGlrN0lvNi1ZcGh4ZER3ZWt2OHViaGZ4WGgwUEZjdDZNTTlvNTFoWk94YVE5RVZLaUxUWmd1LWdNbFR6dDdWZk0?oc=5",
-          "source": "الساحل الغربي",
-          "publisher_key": "الساحل الغربي",
-          "provider": "عربي · الإمارات والبحرين",
-          "published_at": "2026-10-19T13:10:02Z",
-          "date_quality": "publisher-time",
-          "first_seen_at": "2026-10-20T16:50:50.754226Z",
-          "collected_at": null,
-          "language": "ar",
-          "country": ""
-        }
-      ],
-      "coverage_stage": "quiet-coverage",
-      "coverage_first_published_at": "2026-10-19T13:10:02Z",
-      "coverage_last_published_at": "2026-10-19T13:10:02Z",
-      "current_reporting": false,
-      "recent_publisher_count": 0,
-      "recent_article_count": 0,
-      "incident_status": "unknown",
-      "event_occurrence_verified": false,
-      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "8187b9d03815cecbadf8",
-      "revision": 6,
-      "updated_at": "2026-10-20T17:35:41.211329Z"
     },
     {
       "id": "GF-A29F3D9D9BB9BF",
@@ -40837,6 +40949,76 @@
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
+      "id": "GF-0926554368436E",
+      "title": "عام / التحالف: اعتراض وتدمير صاروخين مجنحين (كروز) فوق البحر الأحمر - وكالة الأنباء السعودية",
+      "category": "security",
+      "topic": "interception",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "repeated-publication",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 2,
+      "first_published": "2026-10-16T14:24:34Z",
+      "last_published": "2026-10-17T02:29:57Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "da63402ef42dc4db207e7d17",
+          "title": "عام / التحالف: اعتراض وتدمير صاروخين مجنحين (كروز) فوق البحر الأحمر - وكالة الأنباء السعودية",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9yaTU4VVJGc3RMR1RfWEJ1Y1pTWEx4ZTRxWkZJODljY3c2VTFPTjFvX2xmS21TOFVhTjJjRENpNkhfY2RQczVTNmJR?oc=5",
+          "source": "وكالة الأنباء السعودية",
+          "publisher_key": "وكالة الأنباء السعودية",
+          "provider": "عربي · وكالات الخليج",
+          "published_at": "2026-10-17T02:29:57Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T17:36:32.179146Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Saudi"
+        },
+        {
+          "id": "e00a4ae727311c4e6063eaa5",
+          "title": "عام / التحالف: اعتراض وتدمير صاروخين مجنحين (كروز) فوق البحر الأحمر - وكالة الأنباء السعودية",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE96NWxRNlpfSzJ6UkZpMEdINjZKbTZuWUR3YXhyeHJVM2d3S3ZocnlmaUdNOU1va1A2NUJ3UHZucm91Ui16RnNLeG93?oc=5",
+          "source": "وكالة الأنباء السعودية",
+          "publisher_key": "وكالة الأنباء السعودية",
+          "provider": "عربي · وكالات الخليج",
+          "published_at": "2026-10-16T14:24:34Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T17:36:32.179146Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Saudi"
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-16T14:24:34Z",
+      "coverage_last_published_at": "2026-10-17T02:29:57Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "3d2835645f8a3059fcc6",
+      "revision": 1,
+      "updated_at": "2026-10-20T17:36:38.611766Z"
+    },
+    {
       "id": "GF-FFB21841C3B89D",
       "title": "IRGC says tanker passing Hormuz through 'prohibited' route hits mine - Middle East Eye",
       "category": "transport",
@@ -41340,6 +41522,62 @@
       "digest": "cded8bd8ce608093d685",
       "revision": 3,
       "updated_at": "2026-10-20T16:52:31.264495Z"
+    },
+    {
+      "id": "GF-EDD960BA45ACB5",
+      "title": "عام / التحالف: تدمير منصتين لإطلاق الصواريخ الباليستية بمحافظة صعدة - وكالة الأنباء السعودية",
+      "category": "security",
+      "topic": "missile",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-17T00:24:43Z",
+      "last_published": "2026-10-17T00:24:43Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "c907e4f410561a9a81b900b4",
+          "title": "عام / التحالف: تدمير منصتين لإطلاق الصواريخ الباليستية بمحافظة صعدة - وكالة الأنباء السعودية",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBZR3BoUkN3VDlrdVNYR25jbzZ0RlFIUzM2bkNyajY1SjFRUWJnX0QtLUNYM0lBVHlyTDNqT2dLanFrSk5sYk8xVER3?oc=5",
+          "source": "وكالة الأنباء السعودية",
+          "publisher_key": "وكالة الأنباء السعودية",
+          "provider": "عربي · وكالات الخليج",
+          "published_at": "2026-10-17T00:24:43Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T17:36:32.179146Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Saudi"
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-17T00:24:43Z",
+      "coverage_last_published_at": "2026-10-17T00:24:43Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "8290f16257eff5262e93",
+      "revision": 1,
+      "updated_at": "2026-10-20T17:36:38.611766Z"
     },
     {
       "id": "GF-5EF10B6EABF5A2",
@@ -46743,6 +46981,62 @@
       "digest": "1b33c5d60fdc998baa6a",
       "revision": 3,
       "updated_at": "2026-10-20T16:52:31.264495Z"
+    },
+    {
+      "id": "GF-4F388BE5F49517",
+      "title": "عام / التحالف: اعتراض وتدمير صاروخ مجنح (كروز) بمنطقة المدينة المنورة - وكالة الأنباء السعودية",
+      "category": "security",
+      "topic": "interception",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-16T07:31:16Z",
+      "last_published": "2026-10-16T07:31:16Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "1f79a76f72843dc588ae1b5a",
+          "title": "عام / التحالف: اعتراض وتدمير صاروخ مجنح (كروز) بمنطقة المدينة المنورة - وكالة الأنباء السعودية",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9vbzMtUkRVLU9MNXhHWW5IZl9hX2l3MDJFT3VVc1ZLQjA1a25HYmN1N0Z6YjBoVThjbEpYUTJsMEczS3dfR3pBSnhB?oc=5",
+          "source": "وكالة الأنباء السعودية",
+          "publisher_key": "وكالة الأنباء السعودية",
+          "provider": "عربي · وكالات الخليج",
+          "published_at": "2026-10-16T07:31:16Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T17:36:32.179146Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Saudi"
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-16T07:31:16Z",
+      "coverage_last_published_at": "2026-10-16T07:31:16Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "bc8050e45db1faaf761f",
+      "revision": 1,
+      "updated_at": "2026-10-20T17:36:38.611766Z"
     },
     {
       "id": "GF-084FBEBD0F3A45",
@@ -53408,6 +53702,62 @@
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
+      "id": "GF-A8F0B7B596685C",
+      "title": "عام / الدفاع المدني: سقوط شظايا نتيجة اعتراض صاروخ باليستي في مدينة الرياض نتج عنه إصابة مقيم من جنسية عربية وأضرار مادية محدودة في منزل سكني ومركبة - وكالة الأنباء السعودية",
+      "category": "security",
+      "topic": "interception",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-15T10:20:09Z",
+      "last_published": "2026-10-15T10:20:09Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "153f424388937f42c5a6cb33",
+          "title": "عام / الدفاع المدني: سقوط شظايا نتيجة اعتراض صاروخ باليستي في مدينة الرياض نتج عنه إصابة مقيم من جنسية عربية وأضرار مادية محدودة في منزل سكني ومركبة - وكالة الأنباء السعودية",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5QQjFSTjNzWTh4R1liaW9nR3c4WWlBZ1pISXNYWWR1eUh4cHN3ZVdaaG95eHpBU0h2NjFXVlZGLUtwZk9OblE?oc=5",
+          "source": "وكالة الأنباء السعودية",
+          "publisher_key": "وكالة الأنباء السعودية",
+          "provider": "عربي · وكالات الخليج",
+          "published_at": "2026-10-15T10:20:09Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T17:36:32.179146Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Saudi"
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-15T10:20:09Z",
+      "coverage_last_published_at": "2026-10-15T10:20:09Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "2e866ba9e422f8ec7e2d",
+      "revision": 1,
+      "updated_at": "2026-10-20T17:36:38.611766Z"
+    },
+    {
       "id": "GF-859F72654520CE",
       "title": "Riyadh airport closure extended as airlines suspend flights - ITIJ",
       "category": "transport",
@@ -53628,6 +53978,63 @@
       "digest": "91aee149446074aea6c5",
       "revision": 3,
       "updated_at": "2026-10-20T16:52:31.264495Z"
+    },
+    {
+      "id": "GF-19CD5C48BA8FFB",
+      "title": "تحالف دعم الشرعية في اليمن يعلن اعتراض وتدمير صاروخ مجنح (كروز) بالمدينة المنورة - Qatar news agency",
+      "category": "security",
+      "topic": "interception",
+      "countries": [
+        "Qatar",
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-15T09:49:26Z",
+      "last_published": "2026-10-15T09:49:26Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "66cd19fcc877a889ccf5659b",
+          "title": "تحالف دعم الشرعية في اليمن يعلن اعتراض وتدمير صاروخ مجنح (كروز) بالمدينة المنورة - Qatar news agency",
+          "url": "https://news.google.com/rss/articles/CBMigAVBVV95cUxQUkx2YnZuTGhzUjNTVWRueG9nX3BSYm82WU9vRVF0cmFKVkFBZjZsRFB5dDN0a3RibF9NcWwwUk1MMVBrQU1BbnozVGlQNGVzaXBMVTI5NTFlYUNVTENzY0RHM0tSaHVBa2VicTlvVWhJWGp0Y3lOcTVTTmZ3ZjBjT2hmcVY0anIxcU9DcnVhb0RFUE9jVFRmejZLcGpVenR3SnVad1dGM1FIM3FPb0JEdUJmRWliSms4M0pPaGF1RHZ6MWFiU2FzQTJ4WmZnUGFncmhObVNuWE9LdWNMSW9oUGZ3ZnhwenZXZ2JCYU9wbFFqV01IclEzX1NyNE1jcnoxcWtkX3ZIc2dOeWJBdC1hQVlQd1UzT3RwdjJ0NmlLYjdnUXFtUHlqTWNiSGtXQ0U3NmJJR1dLcUFGTXpwWXJlNkpUYnNJSzRSNGxnRjN2dWxZaHRxdG00T2FVLW43WE0wT3dYdTBuT2lWY3hhRXFIT1k5RUtKVS1zME51RVZlTmZGXzZfakJXT2FUWC01UzNkbklqRlhhNU5uT1pENklmVU5BY29FdGtYUEZ6enJSbkxpNDRfU1VkM1dCRDBfSjJfa2tJMFgzVzVZb0lkUzlaM0lhQXhHcFZCYXBqQlgyYmFnR1Q0Z0k2dXlMSkE0elkyUnRCY3ljbEFhamRFQ1ZaRTR0MGszcWhSSVZKTnRTbGRYYlIza3c1RzhBOUVWZXVtOHZ4bzY2ZXY0enQyRFFJaHdyVXRYSEU3OE91YmhzS2l3T1VtNGprSGNtdzVnT2RYWlpuVExvcHNCeWw0N2NpejdLTWhpLXhJTTktbXRyajFJbEtQSVBnaWFtejlVRjVR?oc=5",
+          "source": "Qatar news agency",
+          "publisher_key": "qatar news agency",
+          "provider": "عربي · وكالات الخليج",
+          "published_at": "2026-10-15T09:49:26Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T17:36:32.179146Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-15T09:49:26Z",
+      "coverage_last_published_at": "2026-10-15T09:49:26Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "49a81f35776ca2ec2f18",
+      "revision": 1,
+      "updated_at": "2026-10-20T17:36:38.611766Z"
     },
     {
       "id": "GF-291D074FBDCE3C",
@@ -57329,6 +57736,63 @@
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
+      "id": "GF-F99E79086CCD1D",
+      "title": "تصعيد إيراني يطول الكويت والبحرين والأردن.. وواشنطن ترد باستهداف ناقلات النفط - الساحل الغربي",
+      "category": "security",
+      "topic": "maritime",
+      "countries": [
+        "Iran",
+        "Kuwait"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-14T16:38:06Z",
+      "last_published": "2026-10-14T16:38:06Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "91d4581a1376bf96e2612e5b",
+          "title": "تصعيد إيراني يطول الكويت والبحرين والأردن.. وواشنطن ترد باستهداف ناقلات النفط - الساحل الغربي",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBEbVdfVUxjVGlrN0lvNi1ZcGh4ZER3ZWt2OHViaGZ4WGgwUEZjdDZNTTlvNTFoWk94YVE5RVZLaUxUWmd1LWdNbFR6dDdWZk0?oc=5",
+          "source": "الساحل الغربي",
+          "publisher_key": "الساحل الغربي",
+          "provider": "عربي · الإمارات والبحرين",
+          "published_at": "2026-10-14T16:38:06Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T16:50:50.754226Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-14T16:38:06Z",
+      "coverage_last_published_at": "2026-10-14T16:38:06Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "307696e765120486fd84",
+      "revision": 7,
+      "updated_at": "2026-10-20T17:36:38.611766Z"
+    },
+    {
       "id": "GF-430F14A5B5AD92",
       "title": "Houthi ballistic missile manufacturing - ArcGIS StoryMaps",
       "category": "security",
@@ -59001,6 +59465,62 @@
       "digest": "75b72889443cdbde1b21",
       "revision": 3,
       "updated_at": "2026-10-20T16:52:31.264495Z"
+    },
+    {
+      "id": "GF-8523985CCD2161",
+      "title": "روسيا وأوكرانيا تتبادلان الإعلان عن إسقاط مسيرات - Qatar news agency",
+      "category": "security",
+      "topic": "interception",
+      "countries": [
+        "Qatar"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-14T12:47:15Z",
+      "last_published": "2026-10-14T12:47:15Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "fa7aead0945d7c5d65d8023e",
+          "title": "روسيا وأوكرانيا تتبادلان الإعلان عن إسقاط مسيرات - Qatar news agency",
+          "url": "https://news.google.com/rss/articles/CBMiuANBVV95cUxNLWhUeUhIejdWU0pBcWd6QW84Z2NMNDNKMjFpTDVieEZBU2ZDbUdCYmdkQU1vMktTUl9nTXpWZ05wRXBpb1M0MW1RcHNGWVgtWElfRzFTczJLSy1FUDFvUFRQQXNHeE9ZeG82bW9aM1RBbVVBQWtUZFpXazFhMnFsaWh2WFdRallWUzZpVERzZGE5TVFJS3E0emQ1RHVLS2pBYVEzZUU4aUt3NlQ3bERQX3BUY2pLNWs3YTRKdWtTUVB0c2g1SUFWX0tpOFRRUkctejluZk83OE50UnVxamx2SmYzbklLVWhJSGZzRXdON0RYZFNja2Z4OExnU2FHSEp2NG9IVlN3Z3BmMVVUWFNUeUFtblVyREg5SmotX01XQlFLcmI4WGNBOW9fZl9IYjd5R3lFcTYyVGN0YnRSRl92dFg5X2NUQU1hWm5waElhRlZoejJrZ2pwV1dTRnU5RmxTU3JQWTJCU0VTV2tVREZDOW05V2k4TXA5dWQ3d3JrV3NJRGFBWG9saFlFenRZbnNoblI2X3JOTzBNOVltdFhWS3BoREVtQ3Z6RWRuZEZWMTVJajQwTWg0TA?oc=5",
+          "source": "Qatar news agency",
+          "publisher_key": "qatar news agency",
+          "provider": "عربي · وكالات الخليج",
+          "published_at": "2026-10-14T12:47:15Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T17:36:32.179146Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Qatar"
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-14T12:47:15Z",
+      "coverage_last_published_at": "2026-10-14T12:47:15Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "ce30de849c51086f6784",
+      "revision": 1,
+      "updated_at": "2026-10-20T17:36:38.611766Z"
     },
     {
       "id": "GF-B664D6CE39978F",
@@ -61063,6 +61583,76 @@
       "digest": "ad6e17e32941516fef72",
       "revision": 3,
       "updated_at": "2026-10-20T16:52:31.264495Z"
+    },
+    {
+      "id": "GF-38D128F847C5DA",
+      "title": "عام / الدفاع المدني: سقوط شظايا نتيجة اعتراض صاروخين من نوع كروز في مدينة الرياض نتج عنهما (4) إصابات وأضرار مادية محدودة في (15) منزلًا سكنيًا - وكالة الأنباء السعودية",
+      "category": "security",
+      "topic": "interception",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "repeated-publication",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 2,
+      "first_published": "2026-10-13T21:50:15Z",
+      "last_published": "2026-10-14T08:47:42Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "9a30f1edad1dd9db770db221",
+          "title": "عام / الدفاع المدني: سقوط شظايا نتيجة اعتراض صاروخين من نوع كروز في مدينة الرياض نتج عنهما (4) إصابات وأضرار مادية محدودة في (15) منزلًا سكنيًا - وكالة الأنباء السعودية",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBNNklYSEh1cUxXd2YzZm56YnBjQ2F2Rl9fZHFiYjdza1BSNVpqaWhrUS1ucnAxeHAxVTRyZTdEWGJTTkNoZWUyazV3?oc=5",
+          "source": "وكالة الأنباء السعودية",
+          "publisher_key": "وكالة الأنباء السعودية",
+          "provider": "عربي · وكالات الخليج",
+          "published_at": "2026-10-14T08:47:42Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T17:36:32.179146Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Saudi"
+        },
+        {
+          "id": "62fdc43d66aef863dd9223b0",
+          "title": "عام / الدفاع المدني: سقوط شظايا نتيجة اعتراض صاروخين من نوع كروز في مدينة الرياض نتج عنهما (4) إصابات وأضرار مادية محدودة في (15) منزلًا سكنيًا - وكالة الأنباء السعودية",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE93LTV1b2pBbzFWQ2lhN1Q4ZmlOaVRuTHJSSmtyVXRSbVduOW5yZzhJb1FVa0ZtWlFYYTQ2WjlYRFhSU1BGUWc?oc=5",
+          "source": "وكالة الأنباء السعودية",
+          "publisher_key": "وكالة الأنباء السعودية",
+          "provider": "عربي · وكالات الخليج",
+          "published_at": "2026-10-13T21:50:15Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T17:36:32.179146Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Saudi"
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-13T21:50:15Z",
+      "coverage_last_published_at": "2026-10-14T08:47:42Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "216c03be5a41c15ff7d3",
+      "revision": 1,
+      "updated_at": "2026-10-20T17:36:38.611766Z"
     },
     {
       "id": "GF-3E302980F4F8AC",
@@ -64463,6 +65053,91 @@
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
+      "id": "GF-7CE57ACB9671C8",
+      "title": "قوات التحالف: اعتراض وتدمير مسيرة وصاروخ مجنح كروز في منطقة الرياض - Qatar news agency",
+      "category": "security",
+      "topic": "interception",
+      "countries": [
+        "Qatar",
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "multi-publisher-unverified",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 3,
+      "report_count": 3,
+      "first_published": "2026-10-13T19:30:00Z",
+      "last_published": "2026-10-13T21:20:40Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "df6f38323e5eecc1b9be1cca",
+          "title": "قوات التحالف: اعتراض وتدمير مسيرة وصاروخ مجنح كروز في منطقة الرياض - Qatar news agency",
+          "url": "https://news.google.com/rss/articles/CBMipgRBVV95cUxNd1pRR21ORUY5Tzc0UDZPNUxPM211cnJpWGREUV82WnhtYkR6ekRvSTFoSjM4VzZfdHYwVlhpVGNBZUt3S29qMm9hSFBfeUktZ2hQX2lINldhZV9VeEhMVW83RDRBSGFRT0ZrSTh5cjFDQV83ZzBlN3dvS2NkM0lwTXozMGVYWEJhU1E5ejA1SDlXT2Z0bUhJTmppc2ZQSzlXYXZHZTVGY1hubktEcFFTSWEzTGNNblF4QUZoUVBfVUpZUVRhZWR1Y2FBZGk4WFV6X3hIN2FnMjZQb2pZZmNUamppQVBTbFlwWk1hMzhxWmpzVnI1NTBMN1Z3c2JKZXh6SkhaR3NpTldiWVMyWXl3LVRzS3NscjNQUnpJb3kzYk1TLUJKYWpDSXNGNEVpY2E3a01aR3lmT2ZKY2lLTktPOTZxb0dYUHNRMzdEQ0NpYVdkYkRpTVo1RTh6ZUlaWW0tU3lBNnlqalRLck9XUnBCQkk1MFZoZmd4am1naGFONC1PVHNkVERaT3FYOFBfS2NuTnZ0WWhKREtock1qb1FCWV9sMkowXzA4cy12bUsxaG1BTkRLTnBVdUVSMWVCOGhaUm5iV2t6SEVnbllmYzQ0UU9NUWJUeGRscTVpVC0zYndEeE1ydzhzVDBLaXlfd01GSXg1R09BSmF6a0Ezam9FdkhGVndjczdleEw0dV9CTlF4NmVGMWtnMm83UnRTNU03YjBjTkFB?oc=5",
+          "source": "Qatar news agency",
+          "publisher_key": "qatar news agency",
+          "provider": "عربي · وكالات الخليج",
+          "published_at": "2026-10-13T21:20:40Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T17:36:32.179146Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        },
+        {
+          "id": "9bfd4218a0ac01dcb80b81ed",
+          "title": "عام / التحالف: اعتراض وتدمير صاروخ مجنح (كروز) بمنطقة الرياض - وكالة الأنباء السعودية",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBubmNtZXFjRzNSTXdNOFVQSjdmVVJGZENYaVRHS0N1VGktTEVVcC1va2FBUW9qMUt4NXd6OGc0cjJ2dnRlWlE?oc=5",
+          "source": "وكالة الأنباء السعودية",
+          "publisher_key": "وكالة الأنباء السعودية",
+          "provider": "عربي · وكالات الخليج",
+          "published_at": "2026-10-13T19:52:43Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T17:36:32.179146Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Saudi"
+        },
+        {
+          "id": "5cd313258336825fceb24df2",
+          "title": "التحالف: اعتراض وتدمير صاروخ مجنح \"كروز\" بمنطقة الرياض - العربية",
+          "url": "https://news.google.com/rss/articles/CBMixwNBVV95cUxOQWoxUlUyYkp0RjA2NzFfMlRJaVYzdVFkNWRxTHNFQ3FET0l1dGdPdW54OW9saDF3cXE2cHdVZV9kS1lzMDI0ZGpDaWhYVVd2ZDlIZlFWX0x3WlRfRXN1eEF2Zm1sR0ltbHZpUXRBSnVtUEdtc0QyY2VXYm9xTlZPdHN5cjRpX3ZVY1B1dkswWVhmcEhORjRzSXVtLWlwZm9iR1V4VG1NRUszQ09LRV9nMk5vRV9mNmQ1MzVKeWF4UzJVSVQ5dGNrX3BmNGhvXzBMZE01SlBKTWJ5MFlpUkhpVGV2d05qVGVucC1BcDU5cGY3MmQ0eUFsTUJIOGtzZEp6SG5JZVJERG5CTl9rM0NKanVGNkNON2wySS1DbDJiM2trdlNGbC1XVTRqLWdFaDQ0dkpjR2VXNE5zMXFINnZid0d5eUxUamI1OWVRMmdoc2ZaWVZpajJTWklIRFlDRWxmeTFTSGV5VFFVdDBfUG9ZYWdnVUpSWEQtMno5Qm9yZWtfOXl0Tk95bjV2Ukt3QjBhUWxqV1FvSTVfVjVfcTJiaUNaN2pMR3RZeXFrekJ2STVRWnVUcFQyNkFwWi1sNHNmU01PcDFoMNIBzANBVV95cUxObXRyam1kZXZscWVnbGFfc0xES2l4Unk1ZVJfN1JIOXY5NGdhb1dkZ2haLVRjR1d3WWRPQ3NHd21KdENNbWNNYWlqdklTYlowZTE1X3QzdmdIUFBhMWZpYkxYZUNFX3NXb0ZRTjJQZVUtV05UMlhqS1RCRXlKNTNkZ0F3Q0taZWpCTlp5clNvYUo4RW0wZlk3ZVUzT1B1SldlNTYyR1BiS19qSGswNkpoemRFYURTNGRtZkdTLWJWUnVTQUJxU0Y3cFdVRE5zZVBHS2xKRFhnaFhFZVdwbFkzV2h2cENjNlBKeS1lTU5ud2YwUm1UVVJ4Qm1ET3huR1ZsekRWVW9wNmZEYU5ZSWdCOEhZcXZrRFFiV0Vqa1JqZG1LZHUyNUFuTTFyTHMyLVJuOFc3MFkxNVdCZWhRR1RmSHdRZGUzbTVGTWZ4WlQxNUtwZWhaRUdXRFJwYUI5UVc1U203QUxkbk1uY0hzeld3aUk1T3hDeEcyd2NkOVhLVEZrTG95NnNpZV96VTYtNnBkVkR3VkFiQmtienB6a2VoYUViS3NTUU9nREt5anFEb0ljbXdCc0ZPNDdDbmM5QmhURDNaNEphUlBLejJN?oc=5",
+          "source": "العربية",
+          "publisher_key": "العربية",
+          "provider": "عربي · العربية",
+          "published_at": "2026-10-13T19:30:00Z",
+          "date_quality": "legacy-unverified",
+          "first_seen_at": "2026-10-20T12:00:32.516927Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Saudi"
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-13T19:52:43Z",
+      "coverage_last_published_at": "2026-10-13T21:20:40Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "078ed28612791f65575a",
+      "revision": 4,
+      "updated_at": "2026-10-20T17:36:38.611766Z"
+    },
+    {
       "id": "GF-F5585A9F0FC02E",
       "title": "التحالف يعلن إسقاط ست طائرات مسيرة وست صواريخ أطلقها الحوثيون نحو السعودية - https://emirates24.net/",
       "category": "security",
@@ -65065,6 +65740,76 @@
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
+      "id": "GF-1C16D3AD150644",
+      "title": "عام / التحالف: اعتراض وتدمير صاروخ باليستي أطلقته الميليشيا الحوثية الإرهابية باتجاه مدينة الظهران - وكالة الأنباء السعودية",
+      "category": "security",
+      "topic": "interception",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "repeated-publication",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 2,
+      "first_published": "2026-10-13T19:52:06Z",
+      "last_published": "2026-10-13T19:52:35Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "74b5f487861849d4e247d597",
+          "title": "عام / التحالف: اعتراض وتدمير صاروخ باليستي أطلقته الميليشيا الحوثية الإرهابية باتجاه مدينة الظهران - وكالة الأنباء السعودية",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5hX0cwS1VPQ2JXMlJzZzY2WnAwT2dScDl5YjJPRE5nUkIwaElSQ3BsNHhsLU1jcDJaWlFPME1SM3dsNVpscEE?oc=5",
+          "source": "وكالة الأنباء السعودية",
+          "publisher_key": "وكالة الأنباء السعودية",
+          "provider": "عربي · وكالات الخليج",
+          "published_at": "2026-10-13T19:52:35Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T17:36:32.179146Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Saudi"
+        },
+        {
+          "id": "bfefdc0223efd9bb1fa06d9c",
+          "title": "عام / التحالف: ‏اعتراض وتدمير صاروخ باليستي أطلقته الميليشيا الحوثية الإرهابية باتجاه حرض - وكالة الأنباء السعودية",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5mc0pQNTQ3NTV2QXN3SWFYcWc3b3pZRDl2M1k2T1NEYXRYQUdBSWllNUFWdW4zdFRhT3R0Wll2aVBTTUpCOVE?oc=5",
+          "source": "وكالة الأنباء السعودية",
+          "publisher_key": "وكالة الأنباء السعودية",
+          "provider": "عربي · وكالات الخليج",
+          "published_at": "2026-10-13T19:52:06Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T17:36:32.179146Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Saudi"
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-13T19:52:06Z",
+      "coverage_last_published_at": "2026-10-13T19:52:35Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "baf2d149bdd8b121d86c",
+      "revision": 1,
+      "updated_at": "2026-10-20T17:36:38.611766Z"
+    },
+    {
       "id": "GF-DFB25C61C06E02",
       "title": "السعودية: اعتراض 3 صواريخ ومسيرتين فوق الرياض والمنطقة الجنوبية - Masrawy",
       "category": "security",
@@ -65231,119 +65976,6 @@
       "digest": "85163f052dfa1a3d7bfb",
       "revision": 3,
       "updated_at": "2026-10-20T16:52:31.264495Z"
-    },
-    {
-      "id": "GF-7CE57ACB9671C8",
-      "title": "التحالف: اعتراض وتدمير صاروخ مجنح \"كروز\" بمنطقة الرياض - العربية",
-      "category": "security",
-      "topic": "interception",
-      "countries": [
-        "Saudi"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "ar"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-13T19:30:00Z",
-      "last_published": "2026-10-13T19:30:00Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "5cd313258336825fceb24df2",
-          "title": "التحالف: اعتراض وتدمير صاروخ مجنح \"كروز\" بمنطقة الرياض - العربية",
-          "url": "https://news.google.com/rss/articles/CBMixwNBVV95cUxOQWoxUlUyYkp0RjA2NzFfMlRJaVYzdVFkNWRxTHNFQ3FET0l1dGdPdW54OW9saDF3cXE2cHdVZV9kS1lzMDI0ZGpDaWhYVVd2ZDlIZlFWX0x3WlRfRXN1eEF2Zm1sR0ltbHZpUXRBSnVtUEdtc0QyY2VXYm9xTlZPdHN5cjRpX3ZVY1B1dkswWVhmcEhORjRzSXVtLWlwZm9iR1V4VG1NRUszQ09LRV9nMk5vRV9mNmQ1MzVKeWF4UzJVSVQ5dGNrX3BmNGhvXzBMZE01SlBKTWJ5MFlpUkhpVGV2d05qVGVucC1BcDU5cGY3MmQ0eUFsTUJIOGtzZEp6SG5JZVJERG5CTl9rM0NKanVGNkNON2wySS1DbDJiM2trdlNGbC1XVTRqLWdFaDQ0dkpjR2VXNE5zMXFINnZid0d5eUxUamI1OWVRMmdoc2ZaWVZpajJTWklIRFlDRWxmeTFTSGV5VFFVdDBfUG9ZYWdnVUpSWEQtMno5Qm9yZWtfOXl0Tk95bjV2Ukt3QjBhUWxqV1FvSTVfVjVfcTJiaUNaN2pMR3RZeXFrekJ2STVRWnVUcFQyNkFwWi1sNHNmU01PcDFoMNIBzANBVV95cUxObXRyam1kZXZscWVnbGFfc0xES2l4Unk1ZVJfN1JIOXY5NGdhb1dkZ2haLVRjR1d3WWRPQ3NHd21KdENNbWNNYWlqdklTYlowZTE1X3QzdmdIUFBhMWZpYkxYZUNFX3NXb0ZRTjJQZVUtV05UMlhqS1RCRXlKNTNkZ0F3Q0taZWpCTlp5clNvYUo4RW0wZlk3ZVUzT1B1SldlNTYyR1BiS19qSGswNkpoemRFYURTNGRtZkdTLWJWUnVTQUJxU0Y3cFdVRE5zZVBHS2xKRFhnaFhFZVdwbFkzV2h2cENjNlBKeS1lTU5ud2YwUm1UVVJ4Qm1ET3huR1ZsekRWVW9wNmZEYU5ZSWdCOEhZcXZrRFFiV0Vqa1JqZG1LZHUyNUFuTTFyTHMyLVJuOFc3MFkxNVdCZWhRR1RmSHdRZGUzbTVGTWZ4WlQxNUtwZWhaRUdXRFJwYUI5UVc1U203QUxkbk1uY0hzeld3aUk1T3hDeEcyd2NkOVhLVEZrTG95NnNpZV96VTYtNnBkVkR3VkFiQmtienB6a2VoYUViS3NTUU9nREt5anFEb0ljbXdCc0ZPNDdDbmM5QmhURDNaNEphUlBLejJN?oc=5",
-          "source": "العربية",
-          "publisher_key": "العربية",
-          "provider": "عربي · العربية",
-          "published_at": "2026-10-13T19:30:00Z",
-          "date_quality": "legacy-unverified",
-          "first_seen_at": "2026-10-20T12:00:32.516927Z",
-          "collected_at": null,
-          "language": "ar",
-          "country": "Saudi"
-        }
-      ],
-      "coverage_stage": "publication-time-unknown",
-      "coverage_last_published_at": null,
-      "coverage_first_published_at": null,
-      "current_reporting": false,
-      "recent_publisher_count": 0,
-      "recent_article_count": 0,
-      "incident_status": "unknown",
-      "event_occurrence_verified": false,
-      "lifecycle_note": "Original publication time unavailable. No event status inferred.",
-      "digest": "5675f40191ce775ea64e",
-      "revision": 3,
-      "updated_at": "2026-10-20T16:52:31.264495Z"
-    },
-    {
-      "id": "GF-EB4ADBA3FF937F",
-      "title": "البحرين تعلن اعتراض هجمات إيرانية جديدة.. والكويت تتصدى لصاروخين باليستيين وسط تصعيد أميركي-إيراني - الساحل الغربي",
-      "category": "security",
-      "topic": "interception",
-      "countries": [
-        "Bahrain",
-        "Iran"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "ar"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-13T19:23:44Z",
-      "last_published": "2026-10-13T19:23:44Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "c1138a2262b02b848c7569fe",
-          "title": "البحرين تعلن اعتراض هجمات إيرانية جديدة.. والكويت تتصدى لصاروخين باليستيين وسط تصعيد أميركي-إيراني - الساحل الغربي",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1hcEthLUFQRmFqekJvQkpzMDZNR3Q2MkJKdVVTbkVxRHZiVEdraW5Hb01TMWpDUm5wNDNFdFhqR0JxNlgzNEZ1eGMwc0dXeFE?oc=5",
-          "source": "الساحل الغربي",
-          "publisher_key": "الساحل الغربي",
-          "provider": "عربي · الإمارات والبحرين",
-          "published_at": "2026-10-13T19:23:44Z",
-          "date_quality": "publisher-time",
-          "first_seen_at": "2026-10-20T12:03:42.847208Z",
-          "collected_at": null,
-          "language": "ar",
-          "country": ""
-        }
-      ],
-      "coverage_stage": "quiet-coverage",
-      "coverage_first_published_at": "2026-10-13T19:23:44Z",
-      "coverage_last_published_at": "2026-10-13T19:23:44Z",
-      "current_reporting": false,
-      "recent_publisher_count": 0,
-      "recent_article_count": 0,
-      "incident_status": "unknown",
-      "event_occurrence_verified": false,
-      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "207b3fccb9b952e69c64",
-      "revision": 12,
-      "updated_at": "2026-10-20T17:35:41.211329Z"
     },
     {
       "id": "GF-535D35AC374D48",
@@ -70784,18 +71416,18 @@
       "sources": 206
     },
     "Saudi": {
-      "events": 480,
-      "reports": 507,
-      "security_coverage": 372,
+      "events": 488,
+      "reports": 520,
+      "security_coverage": 380,
       "transport_coverage": 96,
-      "sources": 252
+      "sources": 253
     },
     "Qatar": {
-      "events": 43,
-      "reports": 45,
-      "security_coverage": 25,
+      "events": 46,
+      "reports": 50,
+      "security_coverage": 28,
       "transport_coverage": 12,
-      "sources": 27
+      "sources": 28
     },
     "UAE": {
       "events": 65,
@@ -70833,9 +71465,9 @@
       "sources": 5
     },
     "Yemen": {
-      "events": 225,
-      "reports": 234,
-      "security_coverage": 213,
+      "events": 226,
+      "reports": 235,
+      "security_coverage": 214,
       "transport_coverage": 11,
       "sources": 121
     },
@@ -70856,39 +71488,47 @@
     "2026-10-09": 1,
     "2026-10-10": 1,
     "2026-10-12": 7,
-    "2026-10-13": 112,
-    "2026-10-14": 138,
-    "2026-10-15": 130,
-    "2026-10-16": 126,
-    "2026-10-17": 181,
+    "2026-10-13": 113,
+    "2026-10-14": 140,
+    "2026-10-15": 132,
+    "2026-10-16": 128,
+    "2026-10-17": 182,
     "2026-10-18": 143,
     "2026-10-19": 190,
-    "2026-10-20": 211
+    "2026-10-20": 213
   },
   "revisions": [
     {
-      "id": "GF-F99E79086CCD1D",
-      "revision": 6,
-      "at": "2026-10-20T17:35:41.211329Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-16094BD5B10138",
-      "revision": 4,
-      "at": "2026-10-20T17:35:41.211329Z",
+      "id": "GF-01CD9CE1FAFFD7",
+      "revision": 3,
+      "at": "2026-10-20T17:36:38.611766Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
       "id": "GF-EB4ADBA3FF937F",
-      "revision": 12,
-      "at": "2026-10-20T17:35:41.211329Z",
+      "revision": 13,
+      "at": "2026-10-20T17:36:38.611766Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
+    },
+    {
+      "id": "GF-F99E79086CCD1D",
+      "revision": 7,
+      "at": "2026-10-20T17:36:38.611766Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-7CE57ACB9671C8",
+      "revision": 4,
+      "at": "2026-10-20T17:36:38.611766Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 3
     }
   ]
 }
