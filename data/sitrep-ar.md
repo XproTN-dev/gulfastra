@@ -1,10 +1,10 @@
 # موجز جلفاسترا للمصادر العلنية
 الفترة: آخر 24 ساعة (حسب وقت نشر التقارير)
 
-مجموعات التغطية: 270 | عناوين مرتبطة: 290
+مجموعات التغطية: 269 | عناوين مرتبطة: 289
 هذه تقارير صحفية وليست أحداثا مؤكدة، ولا تعتبر توجيهات سلامة رسمية.
 
-## Security (198 coverage groups)
+## Security (197 coverage groups)
 - UK to deploy fighter jets to protect Saudi Arabia from Houthi attacks (1 headlines; single-source)
   - The Guardian · Middle East: https://www.theguardian.com/uk-news/2026/oct/20/uk-raf-typhoon-fighters-saudi-arabia-houthi-attacks
 - Ukraine Deployed Drone Units around Iran, Tehran Weighs Response – Tasnim - Palestine Chronicle (1 headlines; single-source)
