@@ -80,4 +80,60 @@ kpis([["NEWS SOURCES",rows.length,"RSS and open news search"],["OK",rows.filter(
 '<section class="gf-card"><h4>INDEPENDENT OBSERVATIONS</h4>'+D.obsHealth.map(v=>'<div class="gf-signal"><span>'+esc(v.source)+'</span>'+pill(v.ok===true?"OK · "+v.count:v.ok===null?"NOT CONFIGURED":"ERROR",v.ok===true?"good":"warn")+'</div>'+(v.error?'<p>'+esc(v.error)+'</p>':"")).join("")+'<div class="gf-notice">Cloudflare Radar requires an authorized token and its noncommercial license must be respected.</div></section></div>'
 }
 
+
+function observationsView(){
+let o=D.observations;
+return title("Environmental observations","Observed natural hazards and optional connectivity reports, separate from any claims of attacks.",
+'<button class="gf-control" data-act="hazard-map">'+(D.hazardsVisible?"HIDE MAP LAYER":"SHOW MAP LAYER")+'</button>')+
+kpis([["OBSERVATIONS",o.length,"Public provider data"],["EARTHQUAKES",o.filter(x=>x.kind==="earthquake").length,"USGS observed locations"],["NATURAL EVENTS",o.filter(x=>x.source==="NASA EONET").length,"NASA independent observations"],["OUTAGES",o.filter(x=>x.kind==="connectivity-outage").length,"Requires licensed API token"]])+
+'<div class="gf-notice">Earthquakes, wildfires and outages must never automatically be classified as military incidents.</div>'+
+'<section class="gf-card"><h4>OBSERVED DATA</h4>'+(o.length?o.slice(0,110).map(x=>'<div class="gf-signal"><span>'+esc(x.title)+'</span><span class="gf-small">'+esc(x.source)+'</span><a class="gf-source-link" target="_blank" rel="noopener noreferrer" href="'+esc(url(x.url))+'">SOURCE ↗</a></div>').join(""):'<div class="gf-empty">No regional observation records available; inspect provider diagnostics.</div>')+'</section>'
+}
+function relationshipView(){
+let pairs=new Map(),publishers=new Map();
+for(let e of D.events){let c=e.countries||[];for(let i=0;i<c.length;i++)for(let j=i+1;j<c.length;j++){let key=[c[i],c[j]].sort().join(" ↔ ");pairs.set(key,(pairs.get(key)||0)+1)}for(let s of e.sources)publishers.set(s.source,(publishers.get(s.source)||0)+1)}
+return title("Reporting relationship explorer","Describes co-mentions in open reporting. It does not attribute military behavior or intent.")+
+'<div class="gf-row"><section class="gf-card"><h4>COUNTRY CO-MENTIONS</h4>'+[...pairs].sort((a,b)=>b[1]-a[1]).slice(0,30).map(([k,n])=>'<div class="gf-relationship"><strong>'+esc(k)+'</strong><span>'+n+' coverage groups</span></div>').join("")+'</section>'+
+'<section class="gf-card"><h4>NEWS SOURCE DISTRIBUTION</h4>'+[...publishers].sort((a,b)=>b[1]-a[1]).slice(0,30).map(([k,n])=>'<div class="gf-relationship"><strong dir="auto">'+esc(k)+'</strong><span>'+n+' headlines</span></div>').join("")+'</section></div>'+
+'<div class="gf-notice">Co-mentions and common publishers do not prove coordination, corroboration or causality.</div>'
+}
+function watchView(){
+let records=D.events.filter(e=>D.watch.some(x=>e.countries.includes(x)||e.topic===x));
+return title("Analyst watchlist","Saved in your browser only. Alerts are for published reporting, not confirmed military detection.")+
+'<section class="gf-card"><h4>YOUR MONITORING RULES</h4><div class="gf-filterbar"><select class="gf-select" id="gfWatchSelect"><option value="">Choose country or topic</option>'+Object.keys(countries).map(x=>'<option value="'+x+'">'+esc(countries[x])+'</option>').join("")+["missile","drone","interception","aviation","maritime","diplomacy"].map(x=>'<option>'+x+'</option>').join("")+'</select><button class="gf-control" data-act="watch-add">+ ADD WATCH</button></div>'+
+(D.watch.length?D.watch.map(x=>'<button class="gf-control" data-watch-remove="'+esc(x)+'">'+esc(x)+' ✕</button>').join(" "):'<p>No watch rules configured.</p>')+'</section>'+
+'<div class="gf-card"><h4>WATCHED PUBLICATIONS</h4>'+list(records,65)+'</div>'
+}
+function pageHtml(){
+if(D.focus){let e=D.events.find(x=>x.id===D.focus);if(e)return dossier(e);D.focus=null}
+switch(D.view){
+case "countries":return countryDesk();
+case "timeline":return timeline();
+case "sitrep":return sitrep();
+case "query":return queryView();
+case "sources":return healthView();
+case "hazards":return observationsView();
+case "graph":return relationshipView();
+case "watchlist":return watchView();
+default:return fusion();
+}
+}
+const pageNames={fusion:"Evidence Fusion",countries:"Country Intelligence",timeline:"Publication Replay",sitrep:"Situation Report",query:"Analyst Console",sources:"Source Health",hazards:"Environmental Data",graph:"Relationship Graph",watchlist:"Watchlist"};
+function draw(){let n=$("fusionView");if(!n)return;n.innerHTML=pageHtml();$("fusionHeading").textContent=D.focus?"Evidence Dossier":pageNames[D.view]||"Fusion";$("fusionWorkNav").querySelectorAll("[data-gf-page]").forEach(x=>x.classList.toggle("active",x.dataset.gfPage===D.view))}
+function open(page="fusion"){D.view=page;D.focus=null;$("fusionWorkbench").hidden=false;document.body.style.overflow="hidden";draw()}
+function close(){$("fusionWorkbench").hidden=true;document.body.style.overflow=""}
+function output(name,body,mime){let file=new Blob([body],{type:mime||"text/plain;charset=utf-8"}),uri=URL.createObjectURL(file),a=document.createElement("a");a.href=uri;a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(uri),1500)}
+function csv(records){let keys=["id","category","topic","title","countries","first_published","last_published","report_count","publisher_count","corroboration"];let quote=x=>'"'+String(Array.isArray(x)?x.join("|"):x??"").replace(/"/g,'""')+'"';return [keys.join(","),...records.map(r=>keys.map(x=>quote(r[x])).join(","))].join("\r\n")}
+function hazardOverlay(active){
+D.hazardsVisible=active;for(let marker of D.hazardMarkers)marker.remove();D.hazardMarkers=[];
+if(!active)return;
+let map=window.__gulfastraMap;if(!map||typeof maplibregl==="undefined")return;
+for(let o of D.observations){if(!Number.isFinite(o.lon)||!Number.isFinite(o.lat))continue;
+let node=document.createElement("button");node.className="gf-hazard-dot";node.title=o.title+" — "+o.source;
+node.onclick=()=>{open("hazards");$("fusionView").insertAdjacentHTML("afterbegin",'<div class="gf-notice">'+esc(o.title)+' / '+esc(o.source)+'</div>')};
+D.hazardMarkers.push(new maplibregl.Marker({element:node}).setLngLat([o.lon,o.lat]).addTo(map))}
+}
+function saveWatch(){try{localStorage.setItem("gulfastra-v5-watch",JSON.stringify(D.watch))}catch(e){}}
+function loadWatch(){try{let a=JSON.parse(localStorage.getItem("gulfastra-v5-watch")||"[]");D.watch=Array.isArray(a)?a.filter(x=>typeof x==="string"):[]}catch(e){D.watch=[]}}
+
 })();
