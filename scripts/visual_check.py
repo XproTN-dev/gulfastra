@@ -20,8 +20,18 @@ with sync_playwright() as pw:
         page.wait_for_selector(".shell")
         page.wait_for_function("document.querySelector('#mTotal').textContent !== '—'",timeout=25000)
         page.wait_for_timeout(7000)
+        assert page.locator(".maplibregl-canvas").count()==1, "MapLibre canvas missing"
+        assert page.locator("#languageTabs [data-lang=ar]").count()==1, "Arabic news filter missing"
+        page.locator("#languageTabs [data-lang=ar]").click()
+        arabic_count=page.locator(".report h3[lang=ar]").count()
+        assert arabic_count>0, f"{label}: Arabic reports not visible after selecting Arabic"
+        page.locator("#languageTabs [data-lang=all]").click()
+        page.wait_for_timeout(650)
         total=page.locator("#mTotal").inner_text()
         count=page.locator(".report").count()
+        assert page.locator(".country-pin").count()>0, "No map reference markers" 
+        marker_offsets=page.evaluate("""() => {const map=window.__gulfastraMap;const points=window.__gulfastraGeography;if(!map)return [];return [...document.querySelectorAll(".country-pin")].map(node=>{const id=node.dataset.country;const target=map.project(points[id].center);const box=node.getBoundingClientRect(), canvas=map.getContainer().getBoundingClientRect();const centerX=box.left+box.width/2-canvas.left, centerY=box.top+box.height/2-canvas.top;return {id,offset:Math.hypot(centerX-target.x,centerY-target.y),centerX,centerY,targetX:target.x,targetY:target.y}})}""")
+        assert all(pt["offset"]<14 for pt in marker_offsets),f"Country marker misplaced on {label}: {marker_offsets}"
         mapcanvas=page.locator(".maplibregl-canvas").count()
         if label=="mobile":
             assert page.locator(".mobile-nav").is_visible(),"Mobile navigation missing"
@@ -31,7 +41,7 @@ with sync_playwright() as pw:
         assert count > 0,f"{label} report cards not rendered despite {total} archived reports"
         assert "COVERAGE GROUPS" in page.locator("#feedSummary").inner_text(),"Coverage grouping missing"
         page.screenshot(path=str(OUT/f"{label}.png"),full_page=True)
-        print(label,"reported_count=",total,"visible_articles=",count,"mapcanvas=",mapcanvas,"pageerrors=",errors[:5])
+        print(label,"reported_count=",total,"visible_articles=",count,"arabic_visible=",arabic_count,"mapcanvas=",mapcanvas,"marker_offsets=",marker_offsets,"pageerrors=",errors[:5])
         assert mapcanvas==1,"MapLibre canvas missing"
         assert page.locator("#mapLoad").evaluate("(node)=>node.classList.contains(\'off\')"),"Map tiles failed to load"
         assert page.locator(".country-pin").count()>0,"No country reporting markers rendered"
