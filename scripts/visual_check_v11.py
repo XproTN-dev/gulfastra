@@ -38,6 +38,10 @@ with sync_playwright() as pw:
         assert page.evaluate("document.body.dataset.theme==='obsidian'")
         page.locator("#settingsClose").click()
         assert page.locator("#settingsOverlay").is_hidden()
+        # Mobile layer controls live in the collapsed drawer, not on the map viewport.
+        if name=="mobile":
+            page.locator('[data-mobile="layers"]').click()
+            page.wait_for_function("document.querySelector('#app').classList.contains('mobile-layers')")
         page.locator('[data-hours="168"]').first.click()
         assert page.locator('[data-hours="168"]').first.get_attribute("class")=="active"
         assert not page.evaluate("window.GXApp.getState().replay"),"Default should not be historical replay"
