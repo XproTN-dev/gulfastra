@@ -1,10 +1,14 @@
 # موجز جلفاسترا للمصادر العلنية
 الفترة: آخر 24 ساعة (حسب وقت نشر التقارير)
 
-مجموعات التغطية: 263 | عناوين مرتبطة: 284
+مجموعات التغطية: 268 | عناوين مرتبطة: 288
 هذه تقارير صحفية وليست أحداثا مؤكدة، ولا تعتبر توجيهات سلامة رسمية.
 
-## Security (193 coverage groups)
+## Security (196 coverage groups)
+- UK to deploy fighter jets to protect Saudi Arabia from Houthi attacks (1 headlines; single-source)
+  - The Guardian · Middle East: https://www.theguardian.com/uk-news/2026/oct/20/uk-raf-typhoon-fighters-saudi-arabia-houthi-attacks
+- Ukraine Deployed Drone Units around Iran, Tehran Weighs Response – Tasnim - Palestine Chronicle (1 headlines; single-source)
+  - Palestine Chronicle: https://news.google.com/rss/articles/CBMiqgFBVV95cUxOa3ZRU2JrQ3JqVVpRR1dmS2hXanAyZ0lJT21GeVE0YXhRbEZzNVR4VzNLanRZeVE5V2EzWlJGbVFtejl4LXVyUC1BU1ozX2paek9ja0hPVm93NE5RWDdWSVhNTExnWWpxS2ZKZVVBWVlUVVVNc0ROaEVpbXA3RG5MMWd5ZlV3RXBYVFVkZ1ZPSzdobDJZMHpVQ0trS0hIV0lURExxSWE2UEpiZw?oc=5
 - 2 Men Rearrested in UK on Suspicion of Assisting Iran Over Suspected Plot at a US-Run Air Base - Military.com (1 headlines; single-source)
   - Military.com: https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUUp0MVJFbTFVYUgySHgtUEJQNjQwZGh3RjBadjZDQkFXeXl0RXEzd0dXT0h4LUJHbk5WbVVrTGtiUXZuUk1Od0dva3REMjR4NDFRaExYU2JybXcxbVlVakoyMHVpZURtNlJyX1pla0tubmFXRHVxb1RURXNiNXBVSENrTFpqa2R1ejFaZHQ3eUd4Y1BWT2pValU2VTJHQ1Q5MWNEdE9mTG5lY3NJMmFjU2JBa2NMTTZCcUNJ?oc=5
 - الحرس الثوري الإيراني: انفجار ناقلة نفط بعد اصطدامها بلغم بحري - المصري اليوم (1 headlines; single-source)
@@ -30,12 +34,14 @@
   - gCaptain: https://news.google.com/rss/articles/CBMijwFBVV95cUxORTBJQWVBLVk0YkdmVDBwTVVfXzItb19DSGZ5TVdaeWRFckZpRUhDUG5oRWdDRXBLZm8wX0w0WDN6Q0hsYzhvMEdfdldiaWxmbWJ4ZkduYk1fVXdJSnUtejdWOGFJWS1oM2VwZUVMSWZpejduRVFkTlozOXM0eE53dTZwcXFHaWVUejZIek42TQ?oc=5
 - Air India, IndiGo & Akasa Air Suspend Saudi Arabia Flights Amid Middle East Conflict, Check Routes & Dates - Free Press Journal (1 headlines; single-source)
   - Free Press Journal: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNakhWbXY1ZVA5MG5BZFF2bE1IZ2pFbFVFeXVoSkVtSlFEZVA1UUtQNk5TeHBXLWNpM0taOHYzdldkLWZWSVc4UEhIY0ZBQ1RUSnFuUF9yUGpyWS1iS1JoUGYzZWVpa2FWZXhhdDBaXzRLWmJ2SkNOcUZ6SGdVbzFaRE43Smw5c0o5LVhHVnFxQm9JWDE3cllLaTlubE9tWEZaTVQzYVJOTmhkOHo5emo5WFNsM2c1aW1kTE9tMHB0TksyNlN1a0RrQlhLSlJfNHBEaGYxd9IB2gFBVV95cUxPdjBaUVVKWnRxZ3laRVJOQXZ0LWUzenI3UEIyQ1NEMkFMSERZeU90Nk8wZU5yY29RcUUyanVmZGRFazBvenNzZkE1T24wR2FwZDBYblpjNUh2bjBqZFRYVGEzdVJmaUJvV3h6dFQxZXVFbXFZdkg4aV9jYWV4Y1JpYWVfU0dhMUNVOXd6R1lCdmtQb2pSdTNHc1BWSVZhdWhHclYzYjJMSWlyVkhrQlE0ZFVNM3BTMGdPci00UzBpRW5EYVZDbGZOZW1OWnA2YWx4MXZrektmLUNHQQ?oc=5
-- الجيش الإيراني: اندلاع حريق بناقلة نفط داخل «منطقة محظورة» في مضيق هرمز - المصري اليوم (1 headlines; single-source)
-  - المصري اليوم: https://news.google.com/rss/articles/CBMiX0FVX3lxTFBaQ3I5YlNxVXNZZWFndVRrQ3c3NE04VWRydHF0ZDE4VExqbVlRdnJfeUpzcDhTYjRaaEJWbHlGY2VaTUVCMFZtX2kzR1F5cXBld1ZXTlZMZHNBcy00R25n?oc=5
-- A trader just placed a $13K bet on US-Iran ceasefire continuing through October 31 - Quiver Quantitative (1 headlines; single-source)
-  - Quiver Quantitative: https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZUcxUVM5VDd5RVZqOFpUMGEzcGctY0xkMXF3aXNUSFhDLWpfcUg5WG03UVZlZDFsZnhJZ05vbmJUUlA1REwyVmlzLXpydkFvVzZrcDFweEdWTzRHQmtfS0lzcnNuU2w5Mnh3QjZoVmRJU2hzdzBtVjdCMkxHSnlGcVBEXy05Z3Y0TkxXejFaMUdXMjJ6T0ROMDdNb3NKNEhaYU5MWHVxaWxmUGZXVmZRYUZLR3o5b1VT?oc=5
 
-## Transport (44 coverage groups)
+## Transport (47 coverage groups)
+- Prolonged Iran negotiations keep oil supply risks and energy costs in focus - Oil & Gas 360 (1 headlines; single-source)
+  - Oil & Gas 360: https://news.google.com/rss/articles/CBMiqAFBVV95cUxNckJha2JSbGFLaGZnLVBWUWdQTi1mb0lLNjdubDNwQmpkTFN5YWNlblFmUkMxSmFHVUhBWHBvN1kyM0tJY0pVNUhtM0ZRU0pjNlE0M2tNcm1sY0VPRXNGUmRuSHR1WHl1Sl9YRHRHX19mcm1VQjZJaERpNjZGaC1hQWw0SkFieS00YTkxLTZyVzJ5ekNudlZBbmZ6NHhrdmtILWkyTzFGNTI?oc=5
+- South Korean Oil Tanker Takes Red Sea Detour as Hormuz Closure Persists - IndexBox (1 headlines; single-source)
+  - IndexBox: https://news.google.com/rss/articles/CBMiowFBVV95cUxQc201T1c2czhUTFVWa0d5UW5yOWVBd2xUV3QyYmw3bUdQbzVSS29kaXNCRC03WVNjRnE3MS05c0JnY09UMXVxbGlVbnNLOU1WN25NNHBrVFZPM1paSmZQelBIMXlwLVZQLXplRGRsMldCb3VpRk85T2o3UExkYkFpazVaUGtxUjZPbWw2WWhZQUN3SmxJZ2xlSGFhOG1QbnRwSjFF?oc=5
+- Iran Claims More Tankers Hit Mines in Hormuz, But Evidence Remains Elusive - gCaptain (1 headlines; single-source)
+  - gCaptain: https://news.google.com/rss/articles/CBMimwFBVV95cUxPMUhkUnFMY0Q3cVI1TWZYNFluX254RmIxLURTd0g0ejlMZ2pfSEo1RmE1dV9RY3dyYks0NFZYYWI2V3J5YkZSX3dPbnRGRzJHdDRfc2hEV3lMdkxma21RTUkzaHhZZUhoaDBKelVXbkpNeG1Ga0ZUQ1RyVWlWbExSVm94OEZwRFBzcDJaQTg4Wjk1bmlWTURUVlBRRQ?oc=5
 - إيران: إصابة ناقلتي نفط أثناء عبورهما مسارا غير مصرح به في مضيق هرمز - Masrawy (1 headlines; single-source)
   - Masrawy: https://news.google.com/rss/articles/CBMiyARBVV95cUxNbmtQMDJZdVJ4RlJGWk14VnhZVDVwNUY2eU5jTWlTc0xqUTl4V0oyMTVuaC1MNUZERmpQQWJqeV9ndHI0SXNkSV9WcmJKSmo1aS0wTDllUFRrSUUxMXktVXAxdk0xN2JEQXRPVGF1Um9MSGcwcU5YQkt6X2lLVE9GN0dwdUMxWjROWUszUmdBdzRtNG9oZ0djLVQ3b2I2V1A3dVNQeTRqaWdVNGs4Wlp6MTY5dzBrdk9wRWxidXk3M3VvQUVydEotZEhlNU51N01iRG1VNnJYVkpkYlByU25pY1hkQVd1eU5fMEZReng3b1UyTzhfUnZYRVJQUGRnTkMtVlh1TE5RRmt3UFNuLVJabzZuWmhpLXgzUHVLaElVWF85MHJkQ0hkSHNYX3hjdEhSVUJCNlFseWljSC11SlFULWpxMVUwWjNtUlNaWUxYMHZNNG9fbW1adTgydWdLZlkzQmpQdUZOZHpjRjhoNzRwdTVSSkpqbHNtYUNHbkk0RnVzeFhGUGMxYjN2cXZlYW04NnB1NndZTEluZ2hzZjhaRFY2V29IcmxMeTJvSjRTREcxRk9fQ1g5TVZVdlZFNHFIS0lwWWhSVEZ3cWczcE95ekRhWHBTMEZ5UV9aNUZ3T1B2cVFCc05aV21rNTd3RFVPZmE5MkdaVVZkcnBmV3FJMEZrUHZjdUNMdndVQ2E2OTg2OE5QQjlJT3BYUXNvQmR2Q0JkQjliTnN3RjVLOS10VXp3bW1NZm5IeFZUQ2J3WkRPeTFyaVdGSdIBzgRBVV95cUxNemtKb2N1V2ZGbTR3aHM2RGR2ZF9nZzBzYU1zSWZMM3V0UlB1T1pDWVltVHFlSGYzMV9udGdSb3JxMGQ2ZUpESnJiamdCZGFPX0s4ZFRadms5N3lsb1g5bzN1b2VXNUtzRlFObHhRYWMtbENPc2wzekQ2bThMOF84ZERHbEJOdjdGa2hBeW9rX0lobkQxSG9oV3pZQXhCM0RYU2E2Nm0xTmpBdmw4SXFiby1ZV21LOFBNMnZ3cmNZc2o4NkFKUktIb1BhTUxiNVZWVWZsUFFPTHdiSDFvTUVBZ0FpblJXQzZWM2VLMm5rLVV2eGhsWXlFa1dFM1h4SjVQVEZYUVlkSWRmd2xXT0gweWUzX3NuWC1aVnptZjVOVDN6VTd5RDRRZ0JBVDU2S2QwY28yQXBxNUY1cnhvNDB4aEhJMC1kQ3FxVmtNVm81LW9Ga1J0OE12STNGRS1YM1hlQUktTmZWSE9mSVFtOW1WQ05IakdTRmV6NDZmdXRZS2FPNVZJa09SUnNRR3R0SUtDWnkwZDJNLTdYbndCVXEzd0lERUZkeWdjbmIzdWpQVGdvZWhsV1YySzczQ2l1Z0w0V2JZbU5mVk5HUTZVOEVsY1FMYmtuZTRCcU5GYkxyY2ZKUllweTBxbG1uQ0ZPWWdkeTl1M3BGYnExX1UtVXhEVjZGb2RLUVl2SjllVjZZcmxMX2pPbDdVeEFPV0EtcjhDczFJLUpEYmNDZGhLa1JWYkMxZHRMV1VkN1NwRndsNzJtRWVFRnpvTE1KTUhSZw?oc=5
 - واشنطن تنفي اصطدام سفن تجارية بألغام في مضيق هرمز - المصري اليوم (1 headlines; single-source)
@@ -58,14 +64,8 @@
   - بوابة الشروق: https://news.google.com/rss/articles/CBMingFBVV95cUxQRVY1SDI1cjFmVkRFOG9sd01zcUE3R1BiTEpPdFhHaU44aDNEajlKclVFQ21JVVJBLWpEWnliMTB0VTU1eTRiRUhhN1NiVUh1VDRieGxzN2V3YnRra09CTFhtdmktTGdkQ213azhXOE9GVnJYbGpULU1tNC1DamRwMlNCbjJoVzYwRDczMFlocXVTQkJ5UDBaME00MW5idw?oc=5
 - UAE flights today: Cancellations hit Dubai, Abu Dhabi and Sharjah - Travels Dubai (1 headlines; single-source)
   - Travels Dubai: https://news.google.com/rss/articles/CBMiogFBVV95cUxPaDlNY2k4MGZzT0hTOXpNQmMtQ1c0WlozR0Z5dVJ2b0h3a3BndHR3VVpOZm1vTFFUMFBDV0VvZkJZVE85S0pzNGFCb0V1RlUzQ2N1c01zZHIwa0xUdFJKNWpKeEhva1E3UW5TYzJxVnphLWR4bFc5LVpZZGc2dFh6eGU5SEZ1UlJjT1ZQZkVZZHJSYVpIQkNSdlMzZnAtWWYtOGc?oc=5
-- توقعات بأن تغني الطرق البديلة عن مضيق هرمز خلال 5 سنوات (1 headlines; single-source)
-  - الجزيرة نت · RSS عربي: https://www.aljazeera.net/ebusiness/2026/10/20/%d8%aa%d9%88%d9%82%d8%b9%d8%a7%d8%aa-%d8%a8%d8%a3%d9%86-%d8%aa%d8%ba%d9%86%d9%8a-%d8%a7%d9%84%d8%b7%d8%b1%d9%82-%d8%a7%d9%84%d8%a8%d8%af%d9%8a%d9%84%d8%a9-%d8%b9%d9%86-%d9%85%d8%b6%d9%8a%d9%82?traffic_source=rss
-- Iran Says it Will Reply to US Response on Hormuz Proposal Once Review Over - EnergyNow.com (1 headlines; single-source)
-  - EnergyNow.com: https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYTRNR1ZidWNMa04zeUdTbDlSeThhUzdTZzVjdlNkRE5NekpTeVd5MzltZUtnQldZd3RfN3lDN0FkbDEzbnA0RFJRTm1DMXlYVHRFZXprQlduV1dPN19zVWZlNVd2cmRyY1QxdG5PUEttN1JqVV9Ma2xMbDR3OGVjT21VWGRaZlVzWE1BMy11SmdrS1dVcmRZNW5LUjhkYXA4bmVnXzR0anE?oc=5
-- مخاطر الحرب تبقي علاوة النفط مرتفعة وسط تراجع تدفقات "هرمز" - NOW الشرق (1 headlines; single-source)
-  - NOW الشرق: https://news.google.com/rss/articles/CBMi2wNBVV95cUxPSWp6MmNnaVhBQ0IzSmoyZ2FKTnllM28zLTgtU0hzVkNXTHhaY0dLdTEwbmlQSVJHUVRQbGRWazdPSGgtQmR2d0sydGpRTmFyaWpuME1pSlJneWxnc1Q3SEJYNVNmNjJlZ2RUVHFPa1EtZ1NaWVE0bHBmQjJSUnpLTkdyaUptZFY3Sm5TQjFuc283ZzBPZDVtN1JNSVFyUUtpbFNfNTBpb04wWWZ1dml6VzZmWVoyWFFzcWJ2bmtqSjQwbzdyYkhFcFFiUXdXYS01bzBDV1JOM2dlNVZ2Yk5UZ2FuUnAxZjc5WHQ5V0FqM2JCOEpXZ2V4dXFhUld5MlpRQzRPT3Y4eFVGdE0xTngza042STA0QzliLXVJS0Vsc1J6RTZ2d0JtY0ZjYi1rMXJPQ0xCLXNacklqV0hVakk3eVRpWHJtXzM5QTkzSnRULURRaGotOTNCOHpic0ZaSFo4S3pseGR0S3ZMbDM0cm5KcEpFcElad183ckZBWlNPMGwyYkp2TUE5eDNxVUZucllGN1FJVXJZWDZBXzhJcERrMGNRQ2xxVnNNU1J0eUpMam9MSHdpM2g3UVp5czI3aDdOaHJmNy1HUlBRY2VFWVlRcFFoODJTTUZETEFR?oc=5
 
-## Diplomacy (26 coverage groups)
+## Diplomacy (25 coverage groups)
 - Exclusive: Mediators submit new peace proposal to Iran, US - The New Arab (1 headlines; single-source)
   - The New Arab: https://news.google.com/rss/articles/CBMiigFBVV95cUxNeU1FMnlJNjB6eUl6S3M3dG5WMG0zVXZHY19ZU1NNSDBCNy0zSlJOWjBFQmpUdFZENWF2T1FvVHppdlpMcUhUMHluZ0hWbldTWUR0a3lJMTJ5M1d3TldmWXY5Yy1vX096YjZlUE5iYklzWFlOaVFacndNSXZ5WVYwc2o4RkN1bGlQc0E?oc=5
 - Iran foreign minister says Russia, Iran have ‘never’ worked so closely - Luxembourg Times (1 headlines; single-source)

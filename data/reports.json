@@ -1,9 +1,100 @@
 {
   "version": 6,
-  "last_run": "2026-10-20T18:07:12.951439Z",
-  "last_successful_run": "2026-10-20T18:07:12.951439Z",
+  "last_run": "2026-10-20T18:37:03.186914Z",
+  "last_successful_run": "2026-10-20T18:37:03.186914Z",
   "successful_sources": 23,
   "reports": [
+    {
+      "id": "91dbf7d8d0976e21a760b0b9",
+      "title": "Prolonged Iran negotiations keep oil supply risks and energy costs in focus - Oil & Gas 360",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNckJha2JSbGFLaGZnLVBWUWdQTi1mb0lLNjdubDNwQmpkTFN5YWNlblFmUkMxSmFHVUhBWHBvN1kyM0tJY0pVNUhtM0ZRU0pjNlE0M2tNcm1sY0VPRXNGUmRuSHR1WHl1Sl9YRHRHX19mcm1VQjZJaERpNjZGaC1hQWw0SkFieS00YTkxLTZyVzJ5ekNudlZBbmZ6NHhrdmtILWkyTzFGNTI?oc=5",
+      "source": "Oil & Gas 360",
+      "published_at": "2026-10-20T18:35:45Z",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "language": "en",
+      "category": "transport",
+      "tag": "DISRUPTION REPORT",
+      "provider": "Google News · diplomacy",
+      "first_seen_at": "2026-10-20T18:37:03.186914Z",
+      "date_quality": "publisher-time",
+      "freshness": "new-reporting",
+      "context": "speculative",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "11c18024aa04c2fc7e0cd91e",
+      "title": "UK to deploy fighter jets to protect Saudi Arabia from Houthi attacks",
+      "url": "https://www.theguardian.com/uk-news/2026/oct/20/uk-raf-typhoon-fighters-saudi-arabia-houthi-attacks",
+      "source": "The Guardian · Middle East",
+      "published_at": "2026-10-20T18:30:16Z",
+      "country": "",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "The Guardian · Middle East",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "new-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "60b2a6c78c86c98b6413f5e5",
+      "title": "Ukraine Deployed Drone Units around Iran, Tehran Weighs Response – Tasnim - Palestine Chronicle",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOa3ZRU2JrQ3JqVVpRR1dmS2hXanAyZ0lJT21GeVE0YXhRbEZzNVR4VzNLanRZeVE5V2EzWlJGbVFtejl4LXVyUC1BU1ozX2paek9ja0hPVm93NE5RWDdWSVhNTExnWWpxS2ZKZVVBWVlUVVVNc0ROaEVpbXA3RG5MMWd5ZlV3RXBYVFVkZ1ZPSzdobDJZMHpVQ0trS0hIV0lURExxSWE2UEpiZw?oc=5",
+      "source": "Palestine Chronicle",
+      "published_at": "2026-10-20T18:15:53Z",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "DRONE REPORT",
+      "provider": "Google News · missiles/drones",
+      "first_seen_at": "2026-10-20T18:37:03.186914Z",
+      "date_quality": "publisher-time",
+      "freshness": "new-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "a591ea697a007da66ff0c990",
+      "title": "South Korean Oil Tanker Takes Red Sea Detour as Hormuz Closure Persists - IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQc201T1c2czhUTFVWa0d5UW5yOWVBd2xUV3QyYmw3bUdQbzVSS29kaXNCRC03WVNjRnE3MS05c0JnY09UMXVxbGlVbnNLOU1WN25NNHBrVFZPM1paSmZQelBIMXlwLVZQLXplRGRsMldCb3VpRk85T2o3UExkYkFpazVaUGtxUjZPbWw2WWhZQUN3SmxJZ2xlSGFhOG1QbnRwSjFF?oc=5",
+      "source": "IndexBox",
+      "published_at": "2026-10-20T18:03:37Z",
+      "country": "",
+      "countries": [],
+      "language": "en",
+      "category": "transport",
+      "tag": "MARITIME REPORT",
+      "provider": "Google News · shipping",
+      "first_seen_at": "2026-10-20T18:37:03.186914Z",
+      "date_quality": "publisher-time",
+      "freshness": "new-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
     {
       "id": "b391afdb9f2ce71f3595faf6",
       "title": "2 Men Rearrested in UK on Suspicion of Assisting Iran Over Suspected Plot at a US-Run Air Base - Military.com",
@@ -19,6 +110,29 @@
       "tag": "SECURITY REPORT",
       "provider": "Google News · security",
       "first_seen_at": "2026-10-20T17:55:08.876431Z",
+      "date_quality": "publisher-time",
+      "freshness": "new-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "e05d3521c7779439bf2e7f21",
+      "title": "Iran Claims More Tankers Hit Mines in Hormuz, But Evidence Remains Elusive - gCaptain",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMUhkUnFMY0Q3cVI1TWZYNFluX254RmIxLURTd0g0ejlMZ2pfSEo1RmE1dV9RY3dyYks0NFZYYWI2V3J5YkZSX3dPbnRGRzJHdDRfc2hEV3lMdkxma21RTUkzaHhZZUhoaDBKelVXbkpNeG1Ga0ZUQ1RyVWlWbExSVm94OEZwRFBzcDJaQTg4Wjk1bmlWTURUVlBRRQ?oc=5",
+      "source": "gCaptain",
+      "published_at": "2026-10-20T17:46:36Z",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "language": "en",
+      "category": "transport",
+      "tag": "MARITIME REPORT",
+      "provider": "Google News · shipping",
+      "first_seen_at": "2026-10-20T18:37:03.186914Z",
       "date_quality": "publisher-time",
       "freshness": "new-reporting",
       "context": "reporting",
@@ -250,7 +364,7 @@
       "provider": "عربي · مضيق هرمز",
       "first_seen_at": "2026-10-20T16:50:50.754226Z",
       "date_quality": "publisher-time",
-      "freshness": "new-reporting",
+      "freshness": "recent-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
       "critical_candidate": false,
@@ -273,7 +387,7 @@
       "provider": "Google News · shipping",
       "first_seen_at": "2026-10-20T17:57:07.132658Z",
       "date_quality": "publisher-time",
-      "freshness": "new-reporting",
+      "freshness": "recent-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
       "critical_candidate": false,
@@ -296,7 +410,7 @@
       "provider": "Google News · aviation",
       "first_seen_at": "2026-10-20T16:50:50.754226Z",
       "date_quality": "publisher-time",
-      "freshness": "new-reporting",
+      "freshness": "recent-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
       "critical_candidate": false,
@@ -319,7 +433,7 @@
       "provider": "عربي · مضيق هرمز",
       "first_seen_at": "2026-10-20T16:50:50.754226Z",
       "date_quality": "publisher-time",
-      "freshness": "new-reporting",
+      "freshness": "recent-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
       "critical_candidate": false,
@@ -340,7 +454,7 @@
       "provider": "عربي · مضيق هرمز",
       "first_seen_at": "2026-10-20T16:50:50.754226Z",
       "date_quality": "publisher-time",
-      "freshness": "new-reporting",
+      "freshness": "recent-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
       "critical_candidate": false,
@@ -643,6 +757,30 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "fda1efb08ddbc5b16ac6277e",
+      "title": "UK to send jets to defend Saudi Arabia from Houthi attacks, and other Mideast news - WRAL",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPaGE5NWVVUzQ0MUpUM1pJTVNaZTBrWS1jSWl6SzRLQWtiakR2Zl9aNlNiVVdRUmMzaUZkTDNXYVVsMTN1S2cyU25ZVkNoRlpZVWlWNGtxVHJsdUQzdmtONHFLLVZOenJ5c2VlaV95bzU1TTQxOWFXbmdzRDEyeklUNDBkWlRTSDM5U1ByTmF1Rm9zekotNlgzU1lrcVdZbGVaS3BjemJjbmh4M1Vwc1VGUnpYbGszZ0VlOXZ0SQ?oc=5",
+      "source": "WRAL",
+      "published_at": "2026-10-20T15:30:40Z",
+      "country": "",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · security",
+      "first_seen_at": "2026-10-20T18:37:03.186914Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "962f7c3eb962f07729fdfd76",
       "title": "U.K. Expands Military Support For Saudi Arabia To Protect Against Houthis - HuffPost",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOZUxzcTdTUS0yMWUyb09NdDFNMWhmMXA1dlJPMU9ZVE5zeWVpX3dQaFFZZ0NtZGxuNlR0VlVOZ0RMbUFfNmRNQzVFUjFGRWoyWHRMYTZ2MkxtczdfNGZJZHhRa2hoT3NSRks4S0wwYkxSRWlFaFEyMmVUOHNDWDIzUU13SjFfR0toMFJEUEZVQkxDRENyNVRlWnZEVFAycnNDajBaXzlEREZsZmI3dzNyWmZiZS1GT2tYMnpjczZuamhiZ240TkwzZllORGU1d9IBtwFBVV95cUxPcThkR0pxWVFiREtLNTJKSjA1aDJhdXpTTE9qZ1l2a0RXSXVuRnNWVW5tcHI0RXZmS24tUWJQcnpQcWlEYkRNY3NyOWVidnBaMjZpV2w1ZFZBaVRkTGpLeVdQcHJRY2FZdVh5X2R1MGl5clFvVWo3emNqTUk3bWxBMkZFc2VfZE93endUdUFxVkY0Y2J2blF0T094UHVoVk5jOVNjVjFUSWtfd1hqY2pJRFd4Q2FnX0U?oc=5",
@@ -661,6 +799,29 @@
       "freshness": "recent-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "3a916ea71326defb4d176d1b",
+      "title": "بريطانيا ستنشر طائرات قتالية في \"مهام دفاعية\" دعماً للسعودية، و\"اعتراض\" صاروخ أطلق نحو الرياض - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1qWUEwaHNvV3RLYVYtMTZ1aVppZTJ3NW9GRTlHMUZETERNcHZBTXJMUlhLUGJrZ2VMRVRLOGI3aGwzXy1rYTRZRzVYSWktZ3FuRm01aDJkU2NWa1B2YkHSAWNBVV95cUxPblhIeWM1SXE3Z3ZBMFAwaHcyMUZZeFJUZXhGT2tIUzlpQm5FVHZHS2lCb1FDV1lBM0RBUzc0MG4yOEhqU3RzTFBLYkVDdERhbGZ2V00zMjJkM1ZSbllUQmNtd0k?oc=5",
+      "source": "BBC",
+      "published_at": "2026-10-20T15:30:10Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "خبر اعتراض / دفاع جوي",
+      "provider": "عربي · السعودية",
+      "first_seen_at": "2026-10-20T18:37:03.186914Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "elevated-reporting",
       "critical_candidate": false,
       "alert_eligible": false,
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
@@ -1827,7 +1988,7 @@
     },
     {
       "id": "e42d4e73d66f7be85e2fc48e",
-      "title": "طهران تعتبر الرد الأمريكي على مقترح هرمز \"غير كافٍ\".. وقائد الجيش الباكستاني يزور إيران - Euronews.com",
+      "title": "طهران تعتبر الرد الأمريكي على مقترح هرمز \"غير كافٍ\".. وقائد الجيش الباكستاني يصل إلى إيران - Euronews.com",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQX2dmZm9NTTMwbXpIZHhFanM5VlNjcG00MWJnSFItdEJsUDUwODJHN2o5QXVzOVRHSmhNdlhOeWxvM3owNFE4eGxiODYwUTV0aGpMXzZEMVR4MlhlR2hrYkwwZ0xYbFVSOHkyaXNYWDdFMERfUXNuZE9tSmNhZjZyamE2R3pQeDVacDM4RzZuT29Ubkp3MEw2RGE4dGNkaGVFWGRPNEUtdGgtWTZzN25rb0I5b0lwWmN0cVBIUUFnNWY?oc=5",
       "source": "Euronews.com",
       "published_at": "2026-10-20T12:14:10Z",
@@ -2100,30 +2261,6 @@
       "provider": "عربي · السعودية",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
-      "freshness": "recent-reporting",
-      "context": "reporting",
-      "severity": "routine-reporting",
-      "critical_candidate": false,
-      "alert_eligible": false,
-      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
-    },
-    {
-      "id": "11c18024aa04c2fc7e0cd91e",
-      "title": "UK to deploy fighter jets to protect Saudi Arabia from Houthi attacks",
-      "url": "https://www.theguardian.com/uk-news/2026/oct/20/uk-raf-typhoon-fighters-saudi-arabia-houthi-attacks",
-      "source": "The Guardian · Middle East",
-      "published_at": "2026-10-20T11:54:52Z",
-      "country": "",
-      "countries": [
-        "Saudi",
-        "Yemen"
-      ],
-      "language": "en",
-      "category": "security",
-      "tag": "SECURITY REPORT",
-      "provider": "The Guardian · Middle East",
-      "first_seen_at": "2026-10-20T12:09:48.504938Z",
-      "date_quality": "publisher-time",
       "freshness": "recent-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -5877,6 +6014,30 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "c1138a2262b02b848c7569fe",
+      "title": "البحرين تعلن اعتراض هجمات إيرانية جديدة.. والكويت تتصدى لصاروخين باليستيين وسط تصعيد أميركي-إيراني - الساحل الغربي",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1hcEthLUFQRmFqekJvQkpzMDZNR3Q2MkJKdVVTbkVxRHZiVEdraW5Hb01TMWpDUm5wNDNFdFhqR0JxNlgzNEZ1eGMwc0dXeFE?oc=5",
+      "source": "الساحل الغربي",
+      "published_at": "2026-10-19T21:58:54Z",
+      "country": "",
+      "countries": [
+        "Iran",
+        "Bahrain"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "خبر اعتراض / دفاع جوي",
+      "provider": "عربي · الإمارات والبحرين",
+      "first_seen_at": "2026-10-20T12:03:42.847208Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "elevated-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "9b4f1b7d7398c8971bac8443",
       "title": "Day 226 | At least two killed in attack on Riyadh airport - Roya News",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPXzJJYjVmdENoMDh0WEtyczF2T1BhRVZRLUFXTXFmb0VRWUEyeUxic2F4QXVYRHZxOVpuZHU0U01KeFZ6T0ZRV3ZJUU00czN6cFFKS0hMWFFxWTZxaUlOX2RqNzdsUDIxQV9KU04ydU4waHV1VUx1cHR3TWZsYmZHSTVvT0xIQUVmSERNSW9SazVXem1ZVW1uZQ?oc=5",
@@ -6467,7 +6628,7 @@
       "provider": "Google News · regional",
       "first_seen_at": "2026-10-20T12:11:06.247631Z",
       "date_quality": "publisher-time",
-      "freshness": "recent-reporting",
+      "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
       "critical_candidate": false,
@@ -6491,7 +6652,7 @@
       "provider": "عربي · العربية",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
-      "freshness": "recent-reporting",
+      "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
       "critical_candidate": false,
@@ -6512,7 +6673,7 @@
       "provider": "Google News · shipping",
       "first_seen_at": "2026-10-20T16:54:36.300300Z",
       "date_quality": "publisher-time",
-      "freshness": "recent-reporting",
+      "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
       "critical_candidate": false,
@@ -7056,7 +7217,7 @@
       "language": "ar",
       "category": "security",
       "tag": "خبر اعتراض / دفاع جوي",
-      "provider": "عربي · الكويت والعراق",
+      "provider": "عربي · الإمارات والبحرين",
       "first_seen_at": "2026-10-20T12:01:49.547007Z",
       "date_quality": "publisher-time",
       "freshness": "older-reporting",
@@ -8052,30 +8213,6 @@
       "provider": "Google News · security",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
-      "freshness": "older-reporting",
-      "context": "reporting",
-      "severity": "routine-reporting",
-      "critical_candidate": false,
-      "alert_eligible": false,
-      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
-    },
-    {
-      "id": "91d4581a1376bf96e2612e5b",
-      "title": "تصعيد إيراني يطول الكويت والبحرين والأردن.. وواشنطن ترد باستهداف ناقلات النفط - الساحل الغربي",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBEbVdfVUxjVGlrN0lvNi1ZcGh4ZER3ZWt2OHViaGZ4WGgwUEZjdDZNTTlvNTFoWk94YVE5RVZLaUxUWmd1LWdNbFR6dDdWZk0?oc=5",
-      "source": "الساحل الغربي",
-      "published_at": "2026-10-19T13:10:02Z",
-      "country": "",
-      "countries": [
-        "Iran",
-        "Kuwait"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "ملاحه بحريه",
-      "provider": "عربي · الإمارات والبحرين",
-      "first_seen_at": "2026-10-20T16:50:50.754226Z",
-      "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -9457,6 +9594,29 @@
       "tag": "MARITIME REPORT",
       "provider": "Google News · shipping",
       "first_seen_at": "2026-10-20T17:40:26.730820Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "049eeb1ad206d10263537578",
+      "title": "بيان إيراني: إصابة ناقلة نفط بلغم في جنوب مضيق هرمز - بوابة الشروق",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMzhtYzNLcGVtVDBWTlFTT2o1cTZPZG83ZGMxam1sMVRwWjhxSF83UDNtenM2ZmhkblFHUnlxaFZ5c0JzMG0zbWFBNWY0S0t1LWJYWTlqT1BSbS1SLURjd1Q5RmthcEh2VjUxRU1DSDREVDlPd2lUaV9iLW9nSXV0cDdiMHBtempVbHNlbG44UC1jVHhtTWotZTRMNENvblQ3Y0d3VTI0SQ?oc=5",
+      "source": "بوابة الشروق",
+      "published_at": "2026-10-19T06:31:19Z",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "language": "ar",
+      "category": "transport",
+      "tag": "ملاحه بحريه",
+      "provider": "عربي · مضيق هرمز",
+      "first_seen_at": "2026-10-20T18:37:03.186914Z",
       "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
@@ -17678,6 +17838,30 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "c440abc01b3c2ee85980dec1",
+      "title": "إيران تعلن انفجارا بناقلة في هرمز.. وإصابة أخرى قرب السعودية - سكاي نيوز عربية",
+      "url": "https://news.google.com/rss/articles/CBMi2gNBVV95cUxOX3EzTFNfdFRLcWdINlhqU0pGOElHNmppM0RlQ3Mzclh5VDM4LXJ6d1VpSEg4cDVYdVlUYU13NDRKRXZiUGtGcEJjOEowYm9xWmlMNUVTU0xPN0dCN0lnSGtza1NSQjlrRE5Mekp5dDVoTzVINDhkcWZuWmhTU1pqWU03S2c3blBpY1J4eTdxUm9fRF9Idk1OUGhuV2J6azRjQVB5U3RaUF9QdzZHSEhxSjhsTW9PT28xcXh1UmR0M2p3VXRPT1N6UVdOWGNJNzNxaDljejR5Uml6QlZEcjhsSmYtMkJ6Q0MzMUJtTUdrRTktcVlSd3N2ZkU1VFhqakZpay1KcVZVSnJnZkFLOE1hQUxSSThad0JGV21ZY2xZakN6NDc5NU50Y2ZVTFd1SXg4VkhldlpyOEQ2QXFsQkZpMVYzSWpZUzllUUE1a19hT3p3RTBtemJUc2VkVEhLNEpHZ0tjYjdQYlRPcmxlZGpiOXVDaURaeGRVVHFYenFMMkdsLTZLd2VMZGxmVnlHVHVLNFB5YVFScGk4UFMtVXg3LXNHb3RXQ3NKLUhyRFJvdURKZGdfaUh1ZkhvaGgxc1dxbS1sdjNjZEpWNFdGQmNaSTNmeXdKSkNEd1HSAd8DQVVfeXFMTUtuT0dJaTg3X3I0Y2tNcWEtUEFRWE15WHdPZ2Ixang3eXdOeEpHc2FrelF0dDhIX2NBbGMzbFdVeGZoNDR1UkExNllOYllZSDJ6RlJIcE1seER0ejZhd0t5Tm9SUmYxdVBzbjl3bXRNZE0xVWdTSHRWOTk5R3d4SWNOV3JTOWxGZUZKZ2VJUnludkxNQnJ6dlBKNnZZWDgzcFBoNXF5WkNiOTNUWVFSLU1aUExKRTZCbFNncFo1SElkblprbWhTcWk5bzM0Nm5wUXhlU1ltYmhyUHBibjROTG0tSmZURV9EbFRydWNrLVFGU0JwME1kcmNVT1pRcVdyVkZHS0FjNzZfZkJlOGF1SmtSNWpOWTZjZUdzSk91QVFwbDBnN2xsalZXY2FQQnVKMWMzVFVnRE5UekNLU2NWR3VRTnd5UGh1ZVRFTV9oOUE1eXNkWlczSENPb0l1ZUNKMkNGSEpVclg0TktMSUUxWEFjUTlEWG8tWkVna2pVSWNqNUVVbGZWOGxyR25OcFJMcmJvZUN2d0NMZjVCYjA0VGRuYzI3OG5Oa3ZleF83d2cyaTVtelFTWDhWYzl1Zi1PbFU1ZlY1TWhUR1ZnYkQ4S0pQeHhweGhwRDBNTldBYkU?oc=5",
+      "source": "سكاي نيوز عربية",
+      "published_at": "2026-10-17T06:55:00Z",
+      "country": "",
+      "countries": [
+        "Iran",
+        "Saudi"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير امني",
+      "provider": "عربي · مضيق هرمز",
+      "first_seen_at": "2026-10-20T18:37:03.186914Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "elevated-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "9c6ec926b683080a0b7a9610",
       "title": "قبل الحرب مع إيران.. رئيس أركان الجيش الأمريكي السابق يحذر من نقص صواريخ باتريوت وثاد - البوابة نيوز",
       "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5tOWo1aWx5Y3lxWUVXb1ZReDNpT2ZMbVZvSGdkaHFnNWdLRUN2T0lNWlJWTVNZLUpSV0pvSVMxVzVGNkJqeDQwWXM5MUY?oc=5",
@@ -20965,6 +21149,29 @@
       "tag": "DISRUPTION REPORT",
       "provider": "Google News · aviation",
       "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "1ac8887b89502f1e542d3d00",
+      "title": "فجر اليمن.. القوات المسلحة اليمنية تفشل هجمات حوثية على جبل هان بتعز - العربية",
+      "url": "https://news.google.com/rss/articles/CBMi7gNBVV95cUxNanhtRHM1Ym9fb0xxOF9rVWRVN2dId2VSTldYTU5mN0M1LTBPTlZPUWdjUFBUcUg4X0M5enFEdzF0STYydy1QU3M5Z2dnMnk4ZWpFdDFzd0xLUGVEbk41cldmb0FSMWQtdFY4ZmRMeS0zWTdLR3dXRy12VE9PVmtsYmNOTUZQYm96N3FpTTFlN19MVWFKd2V2TVhtOS1PRk01eG9mZ2U0cm84OTEtOEp0ck01UVNPYVU3SVk5ZVhzYU1lTmhmM2JoYzVUdzU3aFdSV09vMEZMbmVuQzdiNW5lclJERnZDNHhEOVhhTG9RYV9CbUp3VkNJQUhBSkRuYWFTUmgwYl9UdGloUy1ucW9xSzBiNER0SmZ0TlM2YXpQUmdseFNGbjhmNTRrdkhiT1IzN0d0NV9vellCQWpkMDhfYnpNXzZvd2ktcUJpaWtjS2E3OFNpMFRlLXJMY09rV19raEY4WDV5ZEVJMW9WVjBBX3RNMnpQRHlESzlkdVlkRDlPV0daUXFadFBrWVAtVDd3a0VSdGJvZTZKcGo4UXZTUllLbURYRVVsNmFUck45QVRpeFR2QmFIcDV5WFJmRTAtMWVtQzlnWXVUa1Q1b2djbkxLTV9EVzIwT0Q1WU9Vel9nemhuZXFLRnZLZmxtUdIB8wNBVV95cUxPcUNUTVZqMFg3UkU1Z3lXbnJ5dENuTjBEMl96NmYyS2xqWHg1dWRDMDQwWTB6QmMtUnlEX0JLb0s4Q245WlgxYmI4NEJ5a0Z6dU56UVAyaEl5VHJBcElRTndDZHFvbnVWY08wYmRxT1NVX2l2MjhMb2JsOUNiZV9uT3VuaXJQMHdCZ0VMaVZlOTZkalhDUVB5MjZwZ0lEM2IwRkJCZDFub3YzVl9FYndyck8tV2twaHN2TkFJcC1sNnA1cHp2U1NfbUxGUm5PdFRwWl9FVV8zWU9hT1p6Y1N4WGh2YnZRSjJRNVZBaXIxMjNtU1k5VXlTcUJWaHFNa3pQV1UwWWJkVkdab2lLSHlsNUZ6ZS1DVTNibVJfN2VUSS1TT3hQS0J3aUVvODdCLTAyYUhobUZhbUd1a2s1UmxsalFWZHM2ZTZCejc2TUFoa096QU5XTU9zaTFTS05JbURwZlhHRUxGTWZGOGY1Q05RMWtkanowSFc5OGF6UGl2Ql9iZmREMF9DYXphdzg1cFRNb2NzRFJ4bnpUMWhibUJobkZENU1EUDFQaDNkYlNVQXF5UEdrNzBHaTJTWktISVY2Z2xwWFUzNlhfX1lVVHNHNDVGeXQyY2NJd19pQ0hlRGZnakFqMTU1OU56dm1oeWFfR3A0?oc=5",
+      "source": "العربية",
+      "published_at": "2026-10-16T05:17:00Z",
+      "country": "Yemen",
+      "countries": [
+        "Yemen"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير امني",
+      "provider": "عربي · العربية",
+      "first_seen_at": "2026-10-20T18:37:03.186914Z",
       "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
@@ -25273,6 +25480,30 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "91d4581a1376bf96e2612e5b",
+      "title": "تصعيد إيراني يطول الكويت والبحرين والأردن.. وواشنطن ترد باستهداف ناقلات النفط - الساحل الغربي",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBEbVdfVUxjVGlrN0lvNi1ZcGh4ZER3ZWt2OHViaGZ4WGgwUEZjdDZNTTlvNTFoWk94YVE5RVZLaUxUWmd1LWdNbFR6dDdWZk0?oc=5",
+      "source": "الساحل الغربي",
+      "published_at": "2026-10-14T16:38:06Z",
+      "country": "",
+      "countries": [
+        "Iran",
+        "Kuwait"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "ملاحه بحريه",
+      "provider": "عربي · الإمارات والبحرين",
+      "first_seen_at": "2026-10-20T16:50:50.754226Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "b500ecb8dedaa46603b82bbd",
       "title": "Houthi ballistic missile manufacturing - ArcGIS StoryMaps",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBReG5hQlNDTzNKSGdKaW1PNVdmMGRNWTFoTzJJWTZIbFR4cFZRVERkNDZONHBiYmtlYmQ2TnBQb0pweG5WcHdvREdnSEN6TFo4eTNnRWc5RzdVVTlwdGdfR3hJR3doQks5VU9pSjVUbGdpSHdaZmRrUA?oc=5",
@@ -28894,30 +29125,6 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
-      "id": "c1138a2262b02b848c7569fe",
-      "title": "البحرين تعلن اعتراض هجمات إيرانية جديدة.. والكويت تتصدى لصاروخين باليستيين وسط تصعيد أميركي-إيراني - الساحل الغربي",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1hcEthLUFQRmFqekJvQkpzMDZNR3Q2MkJKdVVTbkVxRHZiVEdraW5Hb01TMWpDUm5wNDNFdFhqR0JxNlgzNEZ1eGMwc0dXeFE?oc=5",
-      "source": "الساحل الغربي",
-      "published_at": "2026-10-13T19:23:44Z",
-      "country": "",
-      "countries": [
-        "Iran",
-        "Bahrain"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "خبر اعتراض / دفاع جوي",
-      "provider": "عربي · الإمارات والبحرين",
-      "first_seen_at": "2026-10-20T12:03:42.847208Z",
-      "date_quality": "publisher-time",
-      "freshness": "older-reporting",
-      "context": "reporting",
-      "severity": "elevated-reporting",
-      "critical_candidate": false,
-      "alert_eligible": false,
-      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
-    },
-    {
       "id": "491044bcd4c50856eab06b18",
       "title": "Iran’s IRGC Navy threatens to sink US warships approaching Strait of Hormuz - Middle East Monitor",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNDQwR1BhWmxpcjNpX0c5SUQ3c19RX1RWeEZuMWtHUm14Rm5hSjY4dmlQRzZxdG9UX3dpeHFHVjE3WTBuSEw5bnVIQzFLd2xRQ3FqdGNLdVlOWk4wY2ZZX3pXaWgxVktYOUFpd3M3TmYyblFjR2hOZjNmNElfUFdEYWlaX3YyN1RZS3ExUU9rdUtfb2hWLXctV1JlTFk1ckZDX0tMYmx1NXh3Umc3M1ZGZ2NpalVFOWZ1OUHSAb8BQVVfeXFMT28wZ1Z3SXJSVURpWDEwUmRBSFAyQ3g2eDYtZ0VFZlhzVTNNNXZNVkp3TUx1Q3VqZF9MejVQYl9Od2pZUG1YalQyTlFLdnI4eElCbmR4aVRtVjZNSTNkajl1ZU1sYURvOE9wYlh0am96VE9UZjg5all1WGZQTVhNbldLTHQyTDJtX0gtM3htclE2YVFBbHd0TWRuNERnZDlXZzRsZGx0czNwTUkwSFp3ZTh1WTVYNEVWZ3JpUDUyMnM?oc=5",
@@ -29002,7 +29209,7 @@
       "provider": "عربي · السعودية",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
-      "freshness": "older-reporting",
+      "freshness": "archive",
       "context": "reporting",
       "severity": "routine-reporting",
       "critical_candidate": false,
@@ -29026,7 +29233,7 @@
       "provider": "Google News · security",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
-      "freshness": "older-reporting",
+      "freshness": "archive",
       "context": "reporting",
       "severity": "routine-reporting",
       "critical_candidate": false,
@@ -29049,7 +29256,7 @@
       "provider": "عربي · الشرق",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
-      "freshness": "older-reporting",
+      "freshness": "archive",
       "context": "reporting",
       "severity": "routine-reporting",
       "critical_candidate": false,
@@ -29072,7 +29279,7 @@
       "provider": "عربي · الشرق",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
-      "freshness": "older-reporting",
+      "freshness": "archive",
       "context": "reporting",
       "severity": "routine-reporting",
       "critical_candidate": false,
@@ -29095,7 +29302,7 @@
       "language": "en",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
-      "freshness": "older-reporting",
+      "freshness": "archive",
       "context": "reporting",
       "severity": "routine-reporting",
       "critical_candidate": false,
@@ -29118,7 +29325,7 @@
       "provider": "Google News · shipping",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
-      "freshness": "older-reporting",
+      "freshness": "archive",
       "context": "reporting",
       "severity": "routine-reporting",
       "critical_candidate": false,
@@ -31248,7 +31455,7 @@
     "Google News · missiles/drones": {
       "ok": true,
       "items": 100,
-      "relevant": 76
+      "relevant": 77
     },
     "Google News · security": {
       "ok": true,
@@ -31257,7 +31464,7 @@
     },
     "Google News · aviation": {
       "ok": true,
-      "items": 89,
+      "items": 88,
       "relevant": 82
     },
     "Google News · shipping": {
@@ -31268,7 +31475,7 @@
     "Google News · diplomacy": {
       "ok": true,
       "items": 100,
-      "relevant": 51
+      "relevant": 52
     },
     "Google News · regional": {
       "ok": true,
@@ -31282,28 +31489,28 @@
     },
     "عربي · قطر": {
       "ok": true,
-      "items": 55,
-      "relevant": 24
+      "items": 56,
+      "relevant": 23
     },
     "عربي · السعودية": {
       "ok": true,
       "items": 100,
-      "relevant": 50
+      "relevant": 52
     },
     "عربي · الإمارات والبحرين": {
       "ok": true,
       "items": 64,
-      "relevant": 47
+      "relevant": 46
     },
     "عربي · الكويت والعراق": {
       "ok": true,
-      "items": 51,
-      "relevant": 48
+      "items": 24,
+      "relevant": 24
     },
     "عربي · مضيق هرمز": {
       "ok": true,
       "items": 100,
-      "relevant": 77
+      "relevant": 78
     },
     "عربي · الجزيرة": {
       "ok": true,
@@ -31313,12 +31520,12 @@
     "عربي · العربية": {
       "ok": true,
       "items": 100,
-      "relevant": 36
+      "relevant": 37
     },
     "عربي · الشرق": {
       "ok": true,
       "items": 100,
-      "relevant": 38
+      "relevant": 37
     },
     "عربي · وكالات الخليج": {
       "ok": true,
@@ -31348,7 +31555,7 @@
     "France 24 · الشرق الأوسط": {
       "ok": true,
       "items": 30,
-      "relevant": 10
+      "relevant": 9
     },
     "The Guardian · Middle East": {
       "ok": true,
