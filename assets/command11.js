@@ -9,7 +9,8 @@ const defaults={workspace:"global",region:"global",country:"",topic:"all",hours:
  tab:"priority",theme:"midnight",language:"en",mapStyle:"fiord",globe:false,watchlist:[],query:""};
 const previous=C.loadState(KEY,{});
 const S={...defaults,...previous,layers:{...defaults.layers,...previous.layers},asof:Date.now(),replay:false,
-  files:{},manifest:null,channel:"connecting",warning:"",loaded:false,pending:false,lastRefresh:0};
+  files:{},manifest:null,channel:"connecting",warning:"",loaded:false,pending:false,lastRefresh:0,
+  newlyIndexed:0,lastRenderedTab:null};
 const WORK={global:"GLOBAL OVERVIEW",gulf:"GULF WATCH",maritime:"MARITIME WATCH",aviation:"AVIATION WATCH",hazards:"NATURAL HAZARDS",analyst:"ANALYST LAB"};
 const store=()=>C.store(KEY,Object.fromEntries(["workspace","region","country","topic","hours","layers","tab","theme","language","mapStyle","globe","watchlist"].map(k=>[k,S[k]])));
 const raw=()=>({
@@ -54,6 +55,17 @@ function paintClock(){
 }
 function paintMetrics(){
  const d=filtered(),ok=healthy(),m=S.manifest;
+ const ribbon=$("freshnessBar");
+ if(ribbon){
+  const articleTime=m?.latest_article_published_at;
+  const articleAge=Number.isFinite(C.dt(articleTime))?C.age(articleTime):"UNKNOWN";
+  ribbon.dataset.state=!ok?"delayed":S.newlyIndexed>0?"updated":"current";
+  $("freshnessCollection").textContent="COLLECTED "+elapsed();
+  $("freshnessArticle").textContent="LATEST ARTICLE "+articleAge;
+  $("freshnessChecked").textContent="BROWSER CHECK "+(S.lastRefresh?C.age(new Date(S.lastRefresh).toISOString()):"WAITING");
+  $("freshnessUpdates").textContent=S.newlyIndexed>0?
+    "+"+S.newlyIndexed+" NEWLY INDEXED ARTICLES":"BEST-EFFORT 5-MIN TARGET · NOT REAL-TIME";
+ }
  $("metricChannel").textContent=S.channel==="live"?"GITHUB DATA":S.channel==="fallback"?"BUNDLED SNAPSHOT":"DEGRADED DATA";
  $("metricChannelSub").textContent=S.warning||"GITHUB ACTIONS / PERIODIC FETCH";
  $("metricReports").textContent=d.reports.length.toLocaleString();
@@ -99,7 +111,13 @@ function timeline(){
 function render(){
  if(!S.loaded)return;
  const d=filtered();
- controls();paintMetrics();V.render(viewContext(),d);timeline();
+ controls();paintMetrics();
+ const stream=$("stream"),position=stream.scrollTop;
+ const sameTab=S.lastRenderedTab===S.tab;
+ V.render(viewContext(),d);
+ stream.scrollTop=sameTab?position:0;
+ S.lastRenderedTab=S.tab;
+ timeline();
  M.update({observations:d.observations,reports:d.reports,layers:S.layers,country:S.country});
 }
 function period(hours){
@@ -120,15 +138,25 @@ function workspace(name){
 async function refresh(){
  if(S.pending)return;
  S.pending=true;
- $("metricChannel").textContent="FETCHING DATA";
  try{
-  const result=await C.load();
+  const wasLoaded=S.loaded,priorReports=C.asArray(S.files["reports.json"]?.reports);
+  const priorIds=new Set(priorReports.map(r=>r.id).filter(Boolean));
+  const result=await C.load({manifest:S.manifest,files:S.files});
   S.files={...S.files,...result.files};S.channel=result.status;S.manifest=result.manifest;
   S.warning=result.warning;S.lastRefresh=Date.now();S.loaded=true;
-  render();E.notifyCritical();
+  if(result.changed&&wasLoaded){
+   S.newlyIndexed=C.asArray(S.files["reports.json"]?.reports)
+    .filter(r=>r.id&&!priorIds.has(r.id)).length;
+  }else if(!wasLoaded){S.newlyIndexed=0}
+  // One-minute manifest polling must not wipe the reader's scroll or
+  // reconstruct the map when the archive hashes are unchanged.
+  if(!wasLoaded||result.changed)render();
+  else paintMetrics();
+  if(!wasLoaded||result.changed)E.notifyCritical();
  }catch(error){
-  S.warning="Refresh failed: "+String(error).slice(0,120);S.channel="partial";S.loaded=true;
-  render();E.notify(S.warning);
+  S.warning="Refresh failed: "+String(error).slice(0,120);S.channel="partial";
+  if(!S.loaded){S.loaded=true;render()}else paintMetrics();
+  E.notify(S.warning);
  }finally{S.pending=false}
 }
 function setup(){
