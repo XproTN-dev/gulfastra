@@ -1,7 +1,7 @@
 {
   "version": 6,
-  "last_run": "2026-10-20T18:06:19.470860Z",
-  "last_successful_run": "2026-10-20T18:06:19.470860Z",
+  "last_run": "2026-10-20T18:06:46.131026Z",
+  "last_successful_run": "2026-10-20T18:06:46.131026Z",
   "successful_sources": 22,
   "reports": [
     {
@@ -1191,7 +1191,7 @@
       "language": "en",
       "category": "security",
       "tag": "SECURITY REPORT",
-      "provider": "Google News · security",
+      "provider": "Google News · missiles/drones",
       "first_seen_at": "2026-10-20T13:30:10.274301Z",
       "date_quality": "publisher-time",
       "freshness": "recent-reporting",
@@ -6582,7 +6582,7 @@
       "provider": "عربي · مضيق هرمز",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
-      "freshness": "recent-reporting",
+      "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
       "critical_candidate": false,
@@ -18592,27 +18592,6 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
-      "id": "5209719c6b6365ccef01ceb9",
-      "title": "هجوم الجزيرة يقلق «القيصر» كوزمين - صحيفة الخليج",
-      "url": "https://news.google.com/rss/articles/CBMivgNBVV95cUxPcVljMWZmUF8ycFMwa3hfX0Z3V2pYZ1k2R1FhMGZlVHYyTldNdmhnZXVvMmZMN1huX1hzWHBOMEVDSHlQT2ZJTU9SSENOcmk0aXlnYlFQZHhOTFJ0cUZjX0hWbndUdURNUHFpTGhuYnlwMFRnbkhLZ2RGVGwtbEp0NFlsZFN3UXFjOFQ2WFhNV1d0ZkhoTjFmSUpZYVdmb2xSemptVGZ1d0llN0VFcXRrcC1CMk9Mek0ySDdxUjAwaVBNUkY5ZnI1dThoRXBtVXZidFI2SmIxaVpsdXIxelBzMlhuTVRLTFhYbE1vcjQzQlJpV193YWZCazYyWXBMOVB2YktIQ2IxdXp1QjNOcGNZWUJJbkpFWXZILXZza0dsQlpIeVV0V2x1NXBCZEptdUJ5QnUtVjdYcDl3ckNIM2RMbWUzSG4zU2pULWc5NXFRQXhoczMzcmZFSUpRNS1DRWZ3SjB3ZFJKNHdKMG9yVHJPS1JmUnlEbmVhSXhid0RaNDVmOExSNG0zdTRyR1J0Q1BqRERnM3dHUU81SlhBQTM4bEc5TkJPYWNsUnhjaF9XMDlxU0ZranZka1FRMDkwQQ?oc=5",
-      "source": "صحيفة الخليج",
-      "published_at": "2026-10-16T22:44:24Z",
-      "country": "",
-      "countries": [],
-      "language": "ar",
-      "category": "security",
-      "tag": "تقرير امني",
-      "provider": "عربي · الإمارات والبحرين",
-      "first_seen_at": "2026-10-20T18:06:19.470860Z",
-      "date_quality": "publisher-time",
-      "freshness": "older-reporting",
-      "context": "reporting",
-      "severity": "routine-reporting",
-      "critical_candidate": false,
-      "alert_eligible": false,
-      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
-    },
-    {
       "id": "f8b86ddbb8074bccdaa6",
       "title": "Saudi crude exports surge despite Strait of Hormuz shipping risks - TankerTrackers - Iran International",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1vQXh3NmJpMDdiaWptbkdvTWpkMU41V3dLV18tNlZOcmdsY0VfOElVTXRaRGRjVXNfQWlwLUhTMl80UWdOUElDZC1CeXAwOS1XUFE?oc=5",
@@ -21877,7 +21856,7 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
-      "id": "3047f08f0c81395bc5fa008d",
+      "id": "5209719c6b6365ccef01ceb9",
       "title": "هجوم الجزيرة يقلق «القيصر» كوزمين - صحيفة الخليج",
       "url": "https://news.google.com/rss/articles/CBMivgNBVV95cUxPcVljMWZmUF8ycFMwa3hfX0Z3V2pYZ1k2R1FhMGZlVHYyTldNdmhnZXVvMmZMN1huX1hzWHBOMEVDSHlQT2ZJTU9SSENOcmk0aXlnYlFQZHhOTFJ0cUZjX0hWbndUdURNUHFpTGhuYnlwMFRnbkhLZ2RGVGwtbEp0NFlsZFN3UXFjOFQ2WFhNV1d0ZkhoTjFmSUpZYVdmb2xSemptVGZ1d0llN0VFcXRrcC1CMk9Mek0ySDdxUjAwaVBNUkY5ZnI1dThoRXBtVXZidFI2SmIxaVpsdXIxelBzMlhuTVRLTFhYbE1vcjQzQlJpV193YWZCazYyWXBMOVB2YktIQ2IxdXp1QjNOcGNZWUJJbkpFWXZILXZza0dsQlpIeVV0V2x1NXBCZEptdUJ5QnUtVjdYcDl3ckNIM2RMbWUzSG4zU2pULWc5NXFRQXhoczMzcmZFSUpRNS1DRWZ3SjB3ZFJKNHdKMG9yVHJPS1JmUnlEbmVhSXhid0RaNDVmOExSNG0zdTRyR1J0Q1BqRERnM3dHUU81SlhBQTM4bEc5TkJPYWNsUnhjaF9XMDlxU0ZranZka1FRMDkwQQ?oc=5",
       "source": "صحيفة الخليج",
@@ -21888,8 +21867,8 @@
       "category": "security",
       "tag": "تقرير امني",
       "provider": "عربي · الإمارات والبحرين",
-      "first_seen_at": "2026-10-20T12:00:32.516927Z",
-      "date_quality": "legacy-unverified",
+      "first_seen_at": "2026-10-20T18:06:19.470860Z",
+      "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -31269,17 +31248,17 @@
     "Google News · missiles/drones": {
       "ok": true,
       "items": 100,
-      "relevant": 78
+      "relevant": 77
     },
     "Google News · security": {
       "ok": true,
       "items": 100,
-      "relevant": 73
+      "relevant": 72
     },
     "Google News · aviation": {
       "ok": true,
-      "items": 90,
-      "relevant": 83
+      "items": 88,
+      "relevant": 82
     },
     "Google News · shipping": {
       "ok": true,
@@ -31289,7 +31268,7 @@
     "Google News · diplomacy": {
       "ok": true,
       "items": 100,
-      "relevant": 54
+      "relevant": 51
     },
     "Google News · regional": {
       "ok": true,
@@ -31299,7 +31278,7 @@
     "عربي · إيران والخليج": {
       "ok": true,
       "items": 53,
-      "relevant": 41
+      "relevant": 40
     },
     "عربي · قطر": {
       "ok": true,
@@ -31313,18 +31292,18 @@
     },
     "عربي · الإمارات والبحرين": {
       "ok": true,
-      "items": 64,
-      "relevant": 47
+      "items": 27,
+      "relevant": 21
     },
     "عربي · الكويت والعراق": {
       "ok": true,
-      "items": 52,
-      "relevant": 49
+      "items": 51,
+      "relevant": 48
     },
     "عربي · مضيق هرمز": {
       "ok": true,
       "items": 100,
-      "relevant": 80
+      "relevant": 78
     },
     "عربي · الجزيرة": {
       "ok": true,
@@ -31339,7 +31318,7 @@
     "عربي · الشرق": {
       "ok": true,
       "items": 100,
-      "relevant": 38
+      "relevant": 39
     },
     "عربي · وكالات الخليج": {
       "ok": true,
@@ -31367,9 +31346,8 @@
       "relevant": 11
     },
     "France 24 · الشرق الأوسط": {
-      "ok": true,
-      "items": 30,
-      "relevant": 10
+      "ok": false,
+      "error": "not well-formed (invalid token): line 1, column 433"
     },
     "The Guardian · Middle East": {
       "ok": true,
@@ -31381,8 +31359,9 @@
       "error": "not well-formed (invalid token): line 1, column 0"
     },
     "UN News · الشرق الأوسط (AR)": {
-      "ok": false,
-      "error": "not well-formed (invalid token): line 1, column 0"
+      "ok": true,
+      "items": 30,
+      "relevant": 7
     },
     "GDELT · article index": {
       "ok": null,

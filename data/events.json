@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "generated_at": "2026-10-20T18:06:26.014430Z",
+  "generated_at": "2026-10-20T18:06:54.672518Z",
   "model": "deterministic-source-correlation-v2-coverage-lifecycle",
   "disclaimer": "Clusters are related PUBLIC REPORTS, not confirmed incidents. Source counts are not proof. Country names are mentions, not incident locations.",
   "events": [
@@ -2767,7 +2767,7 @@
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0waUgtSlRWX3FOZEFhVWlvemhWVmhaSmJJb3E2bHJUQ3dIWmZKY1BSNXc5QzAtY1BiMGlhWHpsRFlCbHowVmFheTBlVkllczBpcXhjSUlubG4xTmc?oc=5",
           "source": "BBC",
           "publisher_key": "bbc",
-          "provider": "Google News · security",
+          "provider": "Google News · missiles/drones",
           "published_at": "2026-10-20T13:54:35Z",
           "date_quality": "publisher-time",
           "first_seen_at": "2026-10-20T13:30:10.274301Z",
@@ -2785,9 +2785,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "b8e63bda725802d7db17",
-      "revision": 6,
-      "updated_at": "2026-10-20T17:57:11.803316Z"
+      "digest": "e32c5cc63dad0df3d9df",
+      "revision": 7,
+      "updated_at": "2026-10-20T18:06:54.672518Z"
     },
     {
       "id": "GF-34F9A53F6612C2",
@@ -42980,60 +42980,6 @@
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
-      "id": "GF-0B5147E1439EBF",
-      "title": "هجوم الجزيرة يقلق «القيصر» كوزمين - صحيفة الخليج",
-      "category": "security",
-      "topic": "regional",
-      "countries": [],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "ar"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-16T22:44:24Z",
-      "last_published": "2026-10-16T22:44:24Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "5209719c6b6365ccef01ceb9",
-          "title": "هجوم الجزيرة يقلق «القيصر» كوزمين - صحيفة الخليج",
-          "url": "https://news.google.com/rss/articles/CBMivgNBVV95cUxPcVljMWZmUF8ycFMwa3hfX0Z3V2pYZ1k2R1FhMGZlVHYyTldNdmhnZXVvMmZMN1huX1hzWHBOMEVDSHlQT2ZJTU9SSENOcmk0aXlnYlFQZHhOTFJ0cUZjX0hWbndUdURNUHFpTGhuYnlwMFRnbkhLZ2RGVGwtbEp0NFlsZFN3UXFjOFQ2WFhNV1d0ZkhoTjFmSUpZYVdmb2xSemptVGZ1d0llN0VFcXRrcC1CMk9Mek0ySDdxUjAwaVBNUkY5ZnI1dThoRXBtVXZidFI2SmIxaVpsdXIxelBzMlhuTVRLTFhYbE1vcjQzQlJpV193YWZCazYyWXBMOVB2YktIQ2IxdXp1QjNOcGNZWUJJbkpFWXZILXZza0dsQlpIeVV0V2x1NXBCZEptdUJ5QnUtVjdYcDl3ckNIM2RMbWUzSG4zU2pULWc5NXFRQXhoczMzcmZFSUpRNS1DRWZ3SjB3ZFJKNHdKMG9yVHJPS1JmUnlEbmVhSXhid0RaNDVmOExSNG0zdTRyR1J0Q1BqRERnM3dHUU81SlhBQTM4bEc5TkJPYWNsUnhjaF9XMDlxU0ZranZka1FRMDkwQQ?oc=5",
-          "source": "صحيفة الخليج",
-          "publisher_key": "صحيفة الخليج",
-          "provider": "عربي · الإمارات والبحرين",
-          "published_at": "2026-10-16T22:44:24Z",
-          "date_quality": "publisher-time",
-          "first_seen_at": "2026-10-20T18:06:19.470860Z",
-          "collected_at": null,
-          "language": "ar",
-          "country": ""
-        }
-      ],
-      "coverage_stage": "quiet-coverage",
-      "coverage_first_published_at": "2026-10-16T22:44:24Z",
-      "coverage_last_published_at": "2026-10-16T22:44:24Z",
-      "current_reporting": false,
-      "recent_publisher_count": 0,
-      "recent_article_count": 0,
-      "incident_status": "unknown",
-      "event_occurrence_verified": false,
-      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "83a4472297584c730062",
-      "revision": 1,
-      "updated_at": "2026-10-20T18:06:26.014430Z"
-    },
-    {
       "id": "GF-3D2C72840C05AA",
       "title": "Saudi crude exports surge despite Strait of Hormuz shipping risks - TankerTrackers - Iran International",
       "category": "transport",
@@ -50867,7 +50813,7 @@
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
-      "id": "GF-154A4568681319",
+      "id": "GF-0B5147E1439EBF",
       "title": "هجوم الجزيرة يقلق «القيصر» كوزمين - صحيفة الخليج",
       "category": "security",
       "topic": "regional",
@@ -50893,32 +50839,32 @@
       "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
       "sources": [
         {
-          "id": "3047f08f0c81395bc5fa008d",
+          "id": "5209719c6b6365ccef01ceb9",
           "title": "هجوم الجزيرة يقلق «القيصر» كوزمين - صحيفة الخليج",
           "url": "https://news.google.com/rss/articles/CBMivgNBVV95cUxPcVljMWZmUF8ycFMwa3hfX0Z3V2pYZ1k2R1FhMGZlVHYyTldNdmhnZXVvMmZMN1huX1hzWHBOMEVDSHlQT2ZJTU9SSENOcmk0aXlnYlFQZHhOTFJ0cUZjX0hWbndUdURNUHFpTGhuYnlwMFRnbkhLZ2RGVGwtbEp0NFlsZFN3UXFjOFQ2WFhNV1d0ZkhoTjFmSUpZYVdmb2xSemptVGZ1d0llN0VFcXRrcC1CMk9Mek0ySDdxUjAwaVBNUkY5ZnI1dThoRXBtVXZidFI2SmIxaVpsdXIxelBzMlhuTVRLTFhYbE1vcjQzQlJpV193YWZCazYyWXBMOVB2YktIQ2IxdXp1QjNOcGNZWUJJbkpFWXZILXZza0dsQlpIeVV0V2x1NXBCZEptdUJ5QnUtVjdYcDl3ckNIM2RMbWUzSG4zU2pULWc5NXFRQXhoczMzcmZFSUpRNS1DRWZ3SjB3ZFJKNHdKMG9yVHJPS1JmUnlEbmVhSXhid0RaNDVmOExSNG0zdTRyR1J0Q1BqRERnM3dHUU81SlhBQTM4bEc5TkJPYWNsUnhjaF9XMDlxU0ZranZka1FRMDkwQQ?oc=5",
           "source": "صحيفة الخليج",
           "publisher_key": "صحيفة الخليج",
           "provider": "عربي · الإمارات والبحرين",
           "published_at": "2026-10-15T20:52:23Z",
-          "date_quality": "legacy-unverified",
-          "first_seen_at": "2026-10-20T12:00:32.516927Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T18:06:19.470860Z",
           "collected_at": null,
           "language": "ar",
           "country": ""
         }
       ],
-      "coverage_stage": "publication-time-unknown",
-      "coverage_last_published_at": null,
-      "coverage_first_published_at": null,
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-15T20:52:23Z",
+      "coverage_last_published_at": "2026-10-15T20:52:23Z",
       "current_reporting": false,
       "recent_publisher_count": 0,
       "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
-      "lifecycle_note": "Original publication time unavailable. No event status inferred.",
-      "digest": "60bb7b941884e4d73be4",
-      "revision": 3,
-      "updated_at": "2026-10-20T16:52:31.264495Z"
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "b6ec1dfa49b6c5950f74",
+      "revision": 2,
+      "updated_at": "2026-10-20T18:06:54.672518Z"
     },
     {
       "id": "GF-8C6AD0A170A07E",
@@ -72831,7 +72777,7 @@
     "2026-10-13": 113,
     "2026-10-14": 141,
     "2026-10-15": 134,
-    "2026-10-16": 129,
+    "2026-10-16": 128,
     "2026-10-17": 183,
     "2026-10-18": 144,
     "2026-10-19": 196,
@@ -72839,25 +72785,17 @@
   },
   "revisions": [
     {
-      "id": "GF-EB4ADBA3FF937F",
-      "revision": 19,
-      "at": "2026-10-20T18:06:26.014430Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-16094BD5B10138",
+      "id": "GF-4FBA1BDBA2302C",
       "revision": 7,
-      "at": "2026-10-20T18:06:26.014430Z",
+      "at": "2026-10-20T18:06:54.672518Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-F99E79086CCD1D",
-      "revision": 11,
-      "at": "2026-10-20T18:06:26.014430Z",
+      "id": "GF-0B5147E1439EBF",
+      "revision": 2,
+      "at": "2026-10-20T18:06:54.672518Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
