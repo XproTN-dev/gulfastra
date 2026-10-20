@@ -1,0 +1,70 @@
+{
+  "schema": 1,
+  "updated_at": "2026-10-20T07:28:07.265039Z",
+  "observations": [
+    {
+      "id": "usgs:us6000u2w9",
+      "kind": "earthquake",
+      "source": "USGS",
+      "title": "M 4.5 - 70 km NNE of Mīnāb, Iran",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2w9",
+      "occurred_at": "2026-10-16T21:30:26.101000Z",
+      "published_at": "2026-10-16T21:30:26.101000Z",
+      "lon": 57.3327,
+      "lat": 27.7264,
+      "magnitude": 4.5,
+      "coordinates_quality": "observed",
+      "classification": "observed-natural-hazard"
+    },
+    {
+      "id": "usgs:us6000u2qj",
+      "kind": "earthquake",
+      "source": "USGS",
+      "title": "M 4.3 - 31 km WSW of Mohr, Iran",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2qj",
+      "occurred_at": "2026-10-16T15:41:31.935000Z",
+      "published_at": "2026-10-16T15:41:31.935000Z",
+      "lon": 52.607,
+      "lat": 27.4079,
+      "magnitude": 4.3,
+      "coordinates_quality": "observed",
+      "classification": "observed-natural-hazard"
+    },
+    {
+      "id": "usgs:us6000u2nw",
+      "kind": "earthquake",
+      "source": "USGS",
+      "title": "M 4.4 - 66 km N of Mīnāb, Iran",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2nw",
+      "occurred_at": "2026-10-16T08:55:33.418000Z",
+      "published_at": "2026-10-16T08:55:33.418000Z",
+      "lon": 57.1201,
+      "lat": 27.7269,
+      "magnitude": 4.4,
+      "coordinates_quality": "observed",
+      "classification": "observed-natural-hazard"
+    }
+  ],
+  "health": [
+    {
+      "source": "USGS",
+      "ok": true,
+      "count": 3,
+      "last_run": "2026-10-20T07:28:07.265039Z"
+    },
+    {
+      "source": "NASA EONET",
+      "ok": true,
+      "count": 0,
+      "last_run": "2026-10-20T07:28:07.265039Z"
+    },
+    {
+      "source": "Cloudflare Radar",
+      "ok": null,
+      "state": "not-configured",
+      "requires_secret": "CF_RADAR_TOKEN",
+      "last_run": "2026-10-20T07:28:07.265039Z"
+    }
+  ],
+  "disclaimer": "Natural hazards and connectivity disruptions are separate public observations. They are NOT classified as attacks or evidence of conflict."
+}
