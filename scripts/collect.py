@@ -64,8 +64,8 @@ COUNTRIES = {
     "Israel": ("israel","tel aviv"),
 }
 REGION = re.compile(r'\b(iran|tehran|isfahan|saudi|riyadh|qatar|doha|uae|dubai|emirates|abu dhabi|bahrain|kuwait|iraq|baghdad|oman|yemen|houthi|hormuz|persian gulf|arabian gulf|gulf states|red sea|israel|tel aviv|centcom)\b', re.I)
-SECURITY = re.compile(r'\b(missile|rocket|drone|uav|intercept|strike|airstrike|attack|explosion|bomb|military|warship|air defense|air defence|security warning|threat|conflict|ceasefire|base attack)\b', re.I)
-TRANSPORT = re.compile(r'\b(airspace|airport|flight|airline|tanker|ship|shipping|vessel|strait|navigation|maritime|port closure|oil supply|hormuz)\b', re.I)
+SECURITY = re.compile(r'\b(missiles?|rockets?|drones?|uav|intercept(?:ion|ed|s)?|strikes?|airstrikes?|attacks?|attacked|explosions?|exploded|bombings?|military|warships?|air defen[sc]e|security incident|security warning|casualties|fatalities|killed|injured|evacuat(?:ion|ed)|conflict|ceasefire|base attack)\b', re.I)
+TRANSPORT = re.compile(r'\b(airspace|airports?|flights?|airlines?|tankers?|ships?|shipping|vessels?|strait|navigation|maritime|ports?|grounded|diverted|port closure|oil supply|hormuz)\b', re.I)
 DIPLOMACY = re.compile(r'\b(diploma|negotiat|sanction|talks|envoy|peace|treaty|ceasefire|nuclear|summit|foreign minister|trump|president|statement|agreement|security council)\b', re.I)
 IRRELEVANT = re.compile(r'\b(football|soccer|cricket|celebrity|wedding|recipe|movie|video game|transfer market)\b', re.I)
 
@@ -163,6 +163,8 @@ def add_rss(name, url, seen, statuses):
         # RSS 2.0 and Atom 1.0 both occur across official and publisher feeds.
         if not items:
             items = doc.findall(".//{http://www.w3.org/2005/Atom}entry")
+        if not items:
+            items = doc.findall(".//{http://purl.org/rss/1.0/}item")
         for item in items:
             attempted += 1
             atom="{http://www.w3.org/2005/Atom}"
