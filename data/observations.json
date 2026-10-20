@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-20T09:52:51.413472Z",
+  "updated_at": "2026-10-20T10:11:40.780838Z",
   "observations": [
     {
       "id": "usgs:us6000u2w9",
@@ -50,20 +50,20 @@
       "source": "USGS",
       "ok": true,
       "count": 3,
-      "last_run": "2026-10-20T09:52:51.413472Z"
+      "last_run": "2026-10-20T10:11:40.780838Z"
     },
     {
       "source": "NASA EONET",
       "ok": true,
       "count": 0,
-      "last_run": "2026-10-20T09:52:51.413472Z"
+      "last_run": "2026-10-20T10:11:40.780838Z"
     },
     {
       "source": "Cloudflare Radar",
       "ok": null,
       "state": "not-configured",
       "requires_secret": "CF_RADAR_TOKEN",
-      "last_run": "2026-10-20T09:52:51.413472Z"
+      "last_run": "2026-10-20T10:11:40.780838Z"
     }
   ],
   "disclaimer": "Natural hazards and connectivity disruptions are separate public observations. They are NOT classified as attacks or evidence of conflict."

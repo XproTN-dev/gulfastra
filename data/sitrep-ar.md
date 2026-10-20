@@ -1,7 +1,7 @@
 # موجز جلفاسترا للمصادر العلنية
 الفترة: آخر 24 ساعة (حسب وقت نشر التقارير)
 
-مجموعات التغطية: 166 | عناوين مرتبطة: 191
+مجموعات التغطية: 164 | عناوين مرتبطة: 189
 هذه تقارير صحفية وليست أحداثا مؤكدة، ولا تعتبر توجيهات سلامة رسمية.
 
 ## Security (97 coverage groups)
@@ -36,7 +36,7 @@
 - Iran-Aligned Houthis Launch Deadly Missile Attacks on Yemen, Saudi Arabia - 조선일보 (1 headlines; single-source)
   - 조선일보: https://news.google.com/rss/articles/CBMihAFBVV95cUxNM2hRdXN3WDVGN2VLankweGotZ3VsUFVaWjFfNWZ5akJ2NjFRT3BtOElwZ3lWWmFua1hrRU9QcUNrdEhDLUp3b0xqbEpxT3dLaTRJOHNmSHJocWFMU0htTjJqUHZHYXF6czNpRDVBekJ6RnVLTFV0ZTZrQnVFd1VXZUZaYmo?oc=5
 
-## Transport (47 coverage groups)
+## Transport (45 coverage groups)
 - Factbox-Airlines cancel flights to Saudi Arabia after Riyadh airport attacks - Global Banking & Finance Review (1 headlines; single-source)
   - Global Banking & Finance Review: https://news.google.com/rss/articles/CBMiogFBVV95cUxNal9kOWNxQ1p4NTBvZHdrWERuTzhSOVM4SmhubTh0SDVNY1I3czZCY2h2R2EtbXZrWW5FV1N6Z3VudE1RcmFPeXgtdk9wMHk4UlctSDZEVHJYR0ZMdjlwMDctRVJjV2p4T1UzUzdZV29jam5nMTQ4d29PZlZ6YzgyV05pYUxWYm5NZ2x6MEJ4WEFCeERoTS13R290WjFmbk1EblE?oc=5
 - خارج مضيق هرمز.. كيف تستفيد عُمان من أزمة الملاحة لزيادة صادرات النفط؟ - i24NEWS (1 headlines; single-source)
@@ -45,12 +45,12 @@
   - Travel Tourister: https://news.google.com/rss/articles/CBMi8wFBVV95cUxOVWRRc0pFNEs2Sm13Yk4xRlhud3VFTVJhSmYzRHJwcmxBNEVrRTNHVDByYmJobjVKclFOZmU1aWxCOHNYYVRDR2lMQjdWTW56dzVBbkhtV3FoZnk1SG9aS0o0d01VaU42ZktCUUoyV2F5cEhlallHeG5ab2l3SDFqWm1RSjFjZXJFMV9IX0VGM29aQWxjckMyOVlFX1JJMENoSUNBVk94M3hhYU9DU0tONHN4LTd4WTR1S3lRTFF5UmdtY0R3dVVOOVpEVnJPV3RqS3ZJdXJNU1NFLWp3QllId0xEb25RWU45dDJ2SlZMVy1MZDA?oc=5
 - UAE flight status today: Saudi disruptions and full list of delays, cancellations - Gulf News (1 headlines; single-source)
   - Gulf News: https://news.google.com/rss/articles/CBMiygFBVV95cUxQcXJoME9Ic29uaThXRzZXZHdaUDNmazJ4OWVOcXhxVDN5dW1iaTFwd0g4RVJpNG1ORWhNdVFPSjU4Q1prT2stRjRBVzJEN2xrS3ZwYlhkVG1NVEE0MGJnMjB3S2R6Wi1feGl0MlBFM3hnTERKZ05SdHJKY3VyazI3cktxek9yTlRWNlI4UFMtZDhIbUZnbjV4Z1A3VjgzNFk5Zk95NF9NWTFzVUxtVWtoYXRNeTRTNVpqNEh4WEdLWUl1WHdJRV9IbmhB?oc=5
+- عاجل | الخارجية القطرية: على الجانب الإيراني تنفيذ القوانين الدولية الخاصة بحرية الملاحة وينبغي فتح مضيق هرمز (1 headlines; single-source)
+  - الجزيرة نت · RSS عربي: https://www.aljazeera.net/news/2026/10/20/%d8%b9%d8%a7%d8%ac%d9%84-%d8%a7%d9%84%d8%ae%d8%a7%d8%b1%d8%ac%d9%8a%d8%a9-%d8%a7%d9%84%d9%82%d8%b7%d8%b1%d9%8a%d8%a9-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d8%ac%d8%a7%d9%86%d8%a8?traffic_source=rss
 - Riyadh Airport reopens: Saudi flights status, refunds update here - Pakistan Connect (1 headlines; single-source)
   - Pakistan Connect: https://news.google.com/rss/articles/CBMiZEFVX3lxTE10QTNXTFdKRXBFeE5CNFFaY3VCa1ItbE1HVllWcDVlUkl6TXVnMHZVWVRTZjlBSkpETXBrSVNfY0RTRmV0NjIzWl95MjNINk9OUWpzUnFkMUZNSFh1UDJnR0JxZWE?oc=5
 - سبتمبر نت - الحملة الدولية لكسر الحصار عن مطار صنعاء الدولي تدين استمرار معاناة الشعب اليمني (1 headlines; single-source)
   - 26sep.net: https://26sep.net/index.php/more/reports/137710-2y9a
-- عاجل | الخارجية الإيرانية: الرد الأمريكي على مقترحنا الذي يتضمن فتح مضيق هرمز خلال 7 أيام ناقص وغير كاف (1 headlines; single-source)
-  - الجزيرة نت · RSS عربي: https://www.aljazeera.net/news/2026/10/20/%d8%b9%d8%a7%d8%ac%d9%84-%d8%a7%d9%84%d8%ae%d8%a7%d8%b1%d8%ac%d9%8a%d8%a9-%d8%a7%d9%84%d8%a5%d9%8a%d8%b1%d8%a7%d9%86%d9%8a%d8%a9-%d8%a7%d9%84%d8%b1%d8%af?traffic_source=rss
 - أمين «مجلس التعاون الخليجي»: ندين الممارسات الإيرانية المهددة للملاحة في هرمز - الشرق الأوسط (1 headlines; single-source)
   - الشرق الأوسط: https://news.google.com/rss/articles/CBMi1gRBVV95cUxQRGxvTDRBTC12OFpxbkwtdDJGYnZ6cE5RVUNvM0U1dHFjUE5TZmlDVFZCNmRwejRNamFRZjE3ZENCVXNfWHhWRzR2TUlFMFJPdGZvWW9JZ1hFdFAyRzMzWW1vZVlLYng4NGVCRlh4TVhGMzBvSXVDQVJPWUlSdEdPZTlFdW5ldEZnOFFYWm95cUU5QXFaQ3ljTm5tZGZURjF2SFhIZ3dUb2x4VmpUd2stX2RNMk45OGRnaWFQMWxOS1Utd3A0Yy1MaFpzcHJCdTIyXzl5MldSUEFqMmlHQm1yN2pobW9yZ2pZdk42TDNTNDFxVWlKY2xVR3JSX0ZiRnhiYmlJaE90WER3cnFmTFB3NW9BMW9MYjR2ajYyd054YzRocFB5UHU2NEV5Mi1UOGpwQnd4RHNLQXRKWVc2SW40NnAtMmFhQTFWYTFubmNJRDRjSks2RU9JSHowOFNJdkd4Tkd2UzRmb3MtaF95Y0FiaUdUdzU3ZFc1NWhXVTJDbGpQVWNkTVZTZ2RfWENVUFdubFVRWDJjeV9Bb0d6ZXBMS042WkdDdkVxZWdqa19sTk9UdFhNaDVqUjRlYld2d01GTmIzbDdoNzBLLU9EZmctV21hdFJENS1TU2RFalRab29HVHRxYi1va1pGMjEyNVJYT2ppQVhSVzcycTNRQXFpY2psZW5yYVhnYWs0akhjSlFmcmJORWVCVU8yRlZwSjNjRVZYSm9vQUNRYlZTTlBIR2IyVm9XU2VSUmktVVY4Z2lHTC0yMWRmVmdUSmZQb002NXRyd0x3?oc=5
 - Brent Tops $110 as Tanker Attacks Threaten Persian Gulf Supply - Yahoo Finance (1 headlines; single-source)
