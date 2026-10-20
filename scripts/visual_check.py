@@ -41,6 +41,25 @@ with sync_playwright() as pw:
             page.locator("#closeLayers").click()
         assert count > 0,f"{label} report cards not rendered despite {total} archived reports"
         assert "COVERAGE GROUPS" in page.locator("#feedSummary").inner_text(),"Coverage grouping missing"
+        page.wait_for_selector("#fusionHealth")
+        assert page.locator('[data-gf-open="fusion"]').count() >= 1
+        page.locator('[data-gf-open="fusion"]').first.click()
+        assert page.locator("#fusionWorkbench").is_visible(),"v5 workbench hidden"
+        page.wait_for_function("document.querySelector('#fusionHealth').textContent.includes('COVERAGE GROUPS')",timeout=30000)
+        assert page.locator("#fusionView .gf-event").count()>0,"Fusion event dossiers missing"
+        page.locator("#fusionView .gf-event").first.click()
+        assert "SOURCE LINKS" in page.locator("#fusionView").inner_text(),"Evidence dossier missing source links"
+        page.locator('[data-gf-page="query"]').click()
+        page.locator("#gfQueryInput").fill("type:security after:7d")
+        page.locator("#gfQueryForm button").click()
+        assert "MATCHED" in page.locator("#fusionView").inner_text(),"Query executor not working"
+        page.locator('[data-gf-page="sources"]').click()
+        assert page.locator("#fusionView .gf-signal").count()>0,"Provider health unavailable"
+        page.locator('[data-gf-page="countries"]').click()
+        assert page.locator("#fusionView .gf-country").count()>0,"Country desk unavailable"
+        page.screenshot(path=str(OUT/f"{label}-fusion.png"),full_page=True)
+        page.locator("#gfClose").click()
+        assert page.locator("#fusionWorkbench").is_hidden(),"Workbench failed to close"
         page.screenshot(path=str(OUT/f"{label}.png"),full_page=True)
         print(label,"reported_count=",total,"visible_articles=",count,"arabic_visible=",arabic_count,"mapcanvas=",mapcanvas,"marker_offsets=",marker_offsets,"pageerrors=",errors[:5])
         assert mapcanvas==1,"MapLibre canvas missing"
