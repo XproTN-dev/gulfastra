@@ -1,7 +1,7 @@
 (()=>{
 "use strict";
 const $=id=>document.getElementById(id);
-const D={events:[],countryStats:{},daily:{},revisions:[],observations:[],obsHealth:[],reportHealth:{},generated:null,view:"fusion",focus:null,country:"",hours:72,lang:"all",day:"",query:"",queryResults:[],watch:[],hazardMarkers:[],hazardsVisible:false};
+const D={reports:[],events:[],countryStats:{},daily:{},revisions:[],observations:[],obsHealth:[],reportHealth:{},generated:null,view:"fusion",focus:null,country:"",hours:72,lang:"all",day:"",query:"",queryResults:[],watch:[],hazardMarkers:[],hazardsVisible:false};
 const countries={Iran:"Iran / إيران",Saudi:"Saudi Arabia / السعودية",Qatar:"Qatar / قطر",UAE:"UAE / الإمارات",Bahrain:"Bahrain / البحرين",Kuwait:"Kuwait / الكويت",Iraq:"Iraq / العراق",Oman:"Oman / عمان",Yemen:"Yemen / اليمن",Israel:"Israel / إسرائيل"};
 const esc=x=>String(x??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const dates=x=>{let d=new Date(x);return Number.isFinite(+d)?d.toLocaleString(undefined,{month:"short",day:"numeric",hour:"2-digit",minute:"2-digit"}):"Unknown"};
@@ -104,9 +104,85 @@ return title("Analyst watchlist","Saved in your browser only. Alerts are for pub
 (D.watch.length?D.watch.map(x=>'<button class="gf-control" data-watch-remove="'+esc(x)+'">'+esc(x)+' ✕</button>').join(" "):'<p>No watch rules configured.</p>')+'</section>'+
 '<div class="gf-card"><h4>WATCHED PUBLICATIONS</h4>'+list(records,65)+'</div>'
 }
+
+function wireView(){
+ const cutoff=D.hours?Date.now()-D.hours*3600000:0;
+ const stories=D.reports.filter(r=>
+  (!cutoff||new Date(r.published_at).getTime()>=cutoff)&&
+  (!D.country||(r.countries||[r.country]).includes(D.country))&&
+  (D.lang==="all"||r.language===D.lang)
+ ).sort((a,b)=>new Date(b.published_at)-new Date(a.published_at));
+ const types=["security","transport","diplomacy","other"];
+ const count=types.map(t=>[t,stories.filter(r=>r.category===t).length]);
+ const cards=stories.slice(0,100).map(r=>{
+  let dest=/^https:\/\//i.test(r.url||"")?r.url:"#";
+  return '<article class="gf-wire-item"><div class="gf-event-top">'+
+   pill((r.category||"other").toUpperCase())+'<span class="gf-small">'+esc(dates(r.published_at))+
+   ' · '+esc(r.language==="ar"?"عربي":"EN")+'</span></div>'+
+   '<h4 dir="auto">'+esc(r.title)+'</h4><div class="gf-event-foot"><span dir="auto">'+
+   esc(r.source||"Publisher unknown")+'</span><span>'+esc((r.countries||[r.country]).filter(Boolean).join(", ")||"Regional")+
+   '</span></div><a class="gf-source-link" href="'+esc(dest)+
+   '" target="_blank" rel="noopener noreferrer">OPEN ORIGINAL SOURCE ↗</a></article>';
+ }).join("");
+ return title("Gulf Intelligence Wire",
+ "Original publisher headlines, Arabic and English. Publication times are not incident times. Links open the source.",
+ '<button class="gf-control" data-act="go-query">⌘ ANALYST SEARCH</button>')+
+ kpis([["PUBLISHED ARTICLES",stories.length,"Within selected publication window"],
+       ["ARABIC",stories.filter(r=>r.language==="ar").length,"Original Arabic reporting"],
+       ["PUBLISHERS",new Set(stories.map(r=>r.source)).size,"Named origins; not necessarily independent"],
+       ["FEEDS",Object.values(D.reportHealth).filter(x=>x.ok===true).length,"Successful collector inputs"]])+
+ controls()+'<div class="gf-row"><section><div class="gf-wire-kinds">'+
+ count.map(([key,n])=>'<span>'+esc(key.toUpperCase())+' <b>'+n+'</b></span>').join("")+
+ '</div>'+ (cards||'<div class="gf-empty">No articles match your filters.</div>')+
+ '<div class="gf-small">Showing up to 100 recently published headlines. Use Analyst Query or download an archive for older reporting.</div></section>'+
+ '<aside><div class="gf-card"><h4>INTELLIGENCE RULES</h4><p>Source headlines are unverified until independently supported. Google News is sometimes the transport; the byline identifies the publisher.</p></div>'+
+ '<div class="gf-card"><h4>DATA DELIVERY</h4><p>Channel: <strong>'+esc(window.GulfastraData?.info().channel||"Unknown")+'</strong></p>'+
+ '<p>Collector last completed: '+esc(dates(window.GulfastraData?.info().manifest?.collected_at))+'</p>'+
+ '<p>Visible records come from a separate GitHub data branch where reachable, otherwise a labeled snapshot fallback.</p></div></aside></div>';
+}
+function verifyView(){
+ const rows=sortedEvents().sort((a,b)=>b.report_count-a.report_count);
+ return title("Evidence Verification Workbench",
+ "Inspect each coverage group's source origins, wording differences, revisions and geographic uncertainty.",
+ '<button class="gf-control" data-act="go-query">SEARCH EVIDENCE</button>')+
+ kpis([["GROUPS",rows.length,"Related headline clusters"],
+       ["SINGLE SOURCE",rows.filter(e=>e.publisher_count===1).length,"Low corroboration"],
+       ["MULTIPLE PUBLISHERS",rows.filter(e=>e.publisher_count>1).length,"NOT automatic verification"],
+       ["CONTRADICTION CUES",rows.filter(e=>e.wording_review?.review_required).length,"Manual review needed"]])+
+ '<div class="gf-notice">Source counts are not confidence scores. A story repeated through syndication is not independent corroboration. Exact event locations require separate geographic evidence.</div>'+
+ controls()+'<div class="gf-card"><h4>OPEN A GROUP TO INSPECT ORIGINAL EVIDENCE</h4>'+
+ list(rows,85)+'</div>';
+}
+function hormuzView(){
+ const keywords=/hormuz|strait|tanker|shipping|vessel|maritime|naval|port|harbor|هرمز|مضيق|ملاحه|ملاحة|ناقلات|سفن|السفن|ميناء|موانئ|الموانئ/i;
+ const reports=D.reports.filter(r=>keywords.test(r.title||"")&&
+   (!D.hours||since(r.published_at)<=D.hours)&&
+   (D.lang==="all"||r.language===D.lang)
+ ).sort((a,b)=>new Date(b.published_at)-new Date(a.published_at));
+ const links=reports.slice(0,80).map(r=>'<div class="gf-signal gf-hormuz-item"><span dir="auto">'+esc(r.title)+'</span>'+
+  '<span class="gf-small">'+esc(dates(r.published_at))+'</span>'+
+  '<a class="gf-source-link" target="_blank" rel="noopener noreferrer" href="'+esc(/^https:\/\//i.test(r.url||"")?r.url:"#")+'">'+esc(r.source||"Source")+' ↗</a></div>').join("");
+ return title("Hormuz & Gulf Maritime Desk",
+ "High-relevance published shipping and strait coverage; official maritime bulletins are a planned separate verified feed.",
+ '<a class="gf-control" target="_blank" rel="noopener noreferrer" href="https://www.ukmto.org/">UKMTO ↗</a>')+
+ kpis([["INDEXED ARTICLES",reports.length,"Maritime-term published headlines"],
+       ["ARABIC",reports.filter(x=>x.language==="ar").length,"Arab-world shipping context"],
+       ["SOURCES",new Set(reports.map(x=>x.source)).size,"Named publishers"],
+       ["OFFICIAL LIVE AIS","NOT CONNECTED","No live vessel telemetry or asset coordinates"]])+
+ '<div class="gf-notice">This view does not claim UKMTO ingestion, verified attacks at sea, live vessels, ship coordinates, shipping traffic measurements or direct satellite tracking.</div>'+
+ controls()+'<div class="gf-row"><section class="gf-card"><h4>STRAIT & SHIPPING COVERAGE</h4>'+
+ (links||'<div class="gf-empty">No maritime reports in the chosen period.</div>')+'</section>'+
+ '<aside class="gf-card"><h4>ORIGINAL OFFICIAL SOURCES</h4><p>Confirm commercial navigation warnings against their original maritime-safety authorities.</p>'+
+ '<p><a href="https://www.ukmto.org/" class="gf-source-link" target="_blank" rel="noopener noreferrer">UK Maritime Trade Operations ↗</a></p>'+
+ '<p><a href="https://www.imo.org/" class="gf-source-link" target="_blank" rel="noopener noreferrer">International Maritime Organization ↗</a></p>'+
+ '<p>Future upgrades can collect permitted structured warning feeds, but any integration must be validated first.</p></aside></div>';
+}
 function pageHtml(){
 if(D.focus){let e=D.events.find(x=>x.id===D.focus);if(e)return dossier(e);D.focus=null}
 switch(D.view){
+case "wire":return wireView();
+case "verify":return verifyView();
+case "hormuz":return hormuzView();
 case "countries":return countryDesk();
 case "timeline":return timeline();
 case "sitrep":return sitrep();
@@ -118,7 +194,7 @@ case "watchlist":return watchView();
 default:return fusion();
 }
 }
-const pageNames={fusion:"Evidence Fusion",countries:"Country Intelligence",timeline:"Publication Replay",sitrep:"Situation Report",query:"Analyst Console",sources:"Source Health",hazards:"Environmental Data",graph:"Relationship Graph",watchlist:"Watchlist"};
+const pageNames={wire:"Intelligence Wire",verify:"Evidence Verification",hormuz:"Hormuz Maritime Desk",fusion:"Evidence Fusion",countries:"Country Intelligence",timeline:"Publication Replay",sitrep:"Situation Report",query:"Analyst Console",sources:"Source Health",hazards:"Environmental Data",graph:"Relationship Graph",watchlist:"Watchlist"};
 function draw(){let n=$("fusionView");if(!n)return;n.innerHTML=pageHtml();$("fusionHeading").textContent=D.focus?"Evidence Dossier":pageNames[D.view]||"Fusion";$("fusionWorkNav").querySelectorAll("[data-gf-page]").forEach(x=>x.classList.toggle("active",x.dataset.gfPage===D.view))}
 function open(page="fusion"){D.view=page;D.focus=null;$("fusionWorkbench").hidden=false;document.body.style.overflow="hidden";draw()}
 function close(){$("fusionWorkbench").hidden=true;document.body.style.overflow=""}
@@ -156,7 +232,7 @@ if(attempts[0].status==="fulfilled"){
 let d=attempts[0].value;D.events=d.events||[];D.countryStats=d.country_stats||{};D.daily=d.daily_coverage||{};D.generated=d.generated_at}
 if(attempts[1].status==="fulfilled")D.revisions=attempts[1].value.history||[];
 if(attempts[2].status==="fulfilled"){D.observations=attempts[2].value.observations||[];D.obsHealth=attempts[2].value.health||[]}
-if(attempts[3].status==="fulfilled")D.reportHealth=attempts[3].value.providers||{};
+if(attempts[3].status==="fulfilled"){D.reportHealth=attempts[3].value.providers||{};D.reports=attempts[3].value.reports||[];}
 $("fusionHealth").textContent=D.events.length?"◈ "+D.events.length+" COVERAGE GROUPS":"FUSION ARCHIVE PENDING";
 $("fusionHealth").classList.toggle("warning",!D.events.length);
 $("fusionGenerated").textContent=D.generated?"UPDATED "+dates(D.generated):"ARCHIVE PENDING";
