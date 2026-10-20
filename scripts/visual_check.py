@@ -69,7 +69,13 @@ with sync_playwright() as pw:
             page.locator('[data-v9-panel="verify"]:visible').first.click()
         assert page.locator('.v9-panel[data-panel="verify"] .v9-verify-links a[href^="https://"]').count()>0,"Evidence source links missing"
         assert "0 NAMED OUTLETS" not in page.locator('.v9-panel[data-panel="verify"]').inner_text(),"False zero-source attribution"
-        page.locator('[data-v9-panel="timeline"]:visible').first.click()
+        if name=="mobile":
+            page.locator("#v9MobileToolsButton").click()
+            assert page.locator("#v9MobileMenu").is_visible(),"Mobile analyst tools are inaccessible"
+            page.locator('#v9MobileMenu [data-v9-panel="timeline"]').click()
+            assert page.locator("#v9MobileMenu").is_hidden(),"Tools menu did not close after selection"
+        else:
+            page.locator('[data-v9-panel="timeline"]:visible').first.click()
         assert page.locator('.v9-panel[data-panel="timeline"] .v9-timeline-row').count()>0,"Historical timeline missing"
         page.screenshot(path=str(OUT/f"{name}-multi-window.png"),full_page=True)
         # Palettes affect the complete application and persist.
