@@ -1,7 +1,7 @@
 # موجز جلفاسترا للمصادر العلنية
 الفترة: آخر 24 ساعة (حسب وقت نشر التقارير)
 
-مجموعات التغطية: 263 | عناوين مرتبطة: 285
+مجموعات التغطية: 264 | عناوين مرتبطة: 286
 هذه تقارير صحفية وليست أحداثا مؤكدة، ولا تعتبر توجيهات سلامة رسمية.
 
 ## Security (191 coverage groups)
@@ -64,7 +64,7 @@
 - مخاطر الحرب تبقي علاوة النفط مرتفعة وسط تراجع تدفقات "هرمز" - NOW الشرق (1 headlines; single-source)
   - NOW الشرق: https://news.google.com/rss/articles/CBMi2wNBVV95cUxPSWp6MmNnaVhBQ0IzSmoyZ2FKTnllM28zLTgtU0hzVkNXTHhaY0dLdTEwbmlQSVJHUVRQbGRWazdPSGgtQmR2d0sydGpRTmFyaWpuME1pSlJneWxnc1Q3SEJYNVNmNjJlZ2RUVHFPa1EtZ1NaWVE0bHBmQjJSUnpLTkdyaUptZFY3Sm5TQjFuc283ZzBPZDVtN1JNSVFyUUtpbFNfNTBpb04wWWZ1dml6VzZmWVoyWFFzcWJ2bmtqSjQwbzdyYkhFcFFiUXdXYS01bzBDV1JOM2dlNVZ2Yk5UZ2FuUnAxZjc5WHQ5V0FqM2JCOEpXZ2V4dXFhUld5MlpRQzRPT3Y4eFVGdE0xTngza042STA0QzliLXVJS0Vsc1J6RTZ2d0JtY0ZjYi1rMXJPQ0xCLXNacklqV0hVakk3eVRpWHJtXzM5QTkzSnRULURRaGotOTNCOHpic0ZaSFo4S3pseGR0S3ZMbDM0cm5KcEpFcElad183ckZBWlNPMGwyYkp2TUE5eDNxVUZucllGN1FJVXJZWDZBXzhJcERrMGNRQ2xxVnNNU1J0eUpMam9MSHdpM2g3UVp5czI3aDdOaHJmNy1HUlBRY2VFWVlRcFFoODJTTUZETEFR?oc=5
 
-## Diplomacy (26 coverage groups)
+## Diplomacy (27 coverage groups)
 - Exclusive: Mediators submit new peace proposal to Iran, US - The New Arab (1 headlines; single-source)
   - The New Arab: https://news.google.com/rss/articles/CBMiigFBVV95cUxNeU1FMnlJNjB6eUl6S3M3dG5WMG0zVXZHY19ZU1NNSDBCNy0zSlJOWjBFQmpUdFZENWF2T1FvVHppdlpMcUhUMHluZ0hWbldTWUR0a3lJMTJ5M1d3TldmWXY5Yy1vX096YjZlUE5iYklzWFlOaVFacndNSXZ5WVYwc2o4RkN1bGlQc0E?oc=5
 - Iran foreign minister says Russia, Iran have ‘never’ worked so closely - Luxembourg Times (1 headlines; single-source)
