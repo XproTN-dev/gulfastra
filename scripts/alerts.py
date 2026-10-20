@@ -7,6 +7,7 @@ import os
 from pathlib import Path
 from datetime import datetime, timezone, timedelta
 from news_quality import when, assess
+from fusion import publisher
 
 ROOT=Path(__file__).resolve().parents[1]
 DATA=Path(os.environ.get("GULFASTRA_DATA_DIR",str(ROOT/"data")))
@@ -29,8 +30,7 @@ def build(reports, events, previous=None, now=None):
             continue
         # Candidate event clusters cannot be treated as independently verified.
         # A named-publisher count is only a basic noise-reduction gate.
-        outlets={str(r.get("source") or "").strip().casefold() for r in refs
-                 if str(r.get("source") or "").strip()}
+        outlets={publisher(r) for r in refs if str(r.get("source") or "").strip()}
         recent=[r for r in refs if when(r.get("published_at"))
                 and now-timedelta(hours=2)<=when(r["published_at"])<=now+timedelta(minutes=10)]
         if not recent:
