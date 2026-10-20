@@ -14,6 +14,7 @@ import os
 import re
 import xml.etree.ElementTree as ET
 from arabic_sources import is_arabic, category_for_arabic, country_mentions, arabic_tag
+from news_quality import assess, canonical_url, normalized_title, when
 
 ROOT = Path(__file__).resolve().parents[1]
 DEST = Path(os.environ.get("GULFASTRA_DATA_DIR", str(ROOT / "data"))) / "reports.json"
@@ -44,6 +45,11 @@ DIRECT_RSS = {
     "الجزيرة نت · RSS عربي": "https://www.aljazeera.net/rss",
     "BBC Middle East RSS": "https://feeds.bbci.co.uk/news/world/middle_east/rss.xml",
     "Al Jazeera RSS": "https://www.aljazeera.com/xml/rss/all.xml",
+    "France 24 · Middle East": "https://www.france24.com/en/middle-east/rss",
+    "France 24 · الشرق الأوسط": "https://www.france24.com/ar/middle-east/rss",
+    "The Guardian · Middle East": "https://www.theguardian.com/world/middleeast/rss",
+    "UN News · Middle East (EN)": "https://news.un.org/feed/subscribe/en/news/region/middle-east/feed/rss.xml",
+    "UN News · الشرق الأوسط (AR)": "https://news.un.org/feed/subscribe/ar/news/region/middle-east/feed/rss.xml",
 }
 COUNTRIES = {
     "Iran": ("iran","tehran","isfahan","persian"),
@@ -126,17 +132,27 @@ def tag(title, category):
         return "MARITIME REPORT"
     return {"security":"SECURITY REPORT", "transport":"DISRUPTION REPORT", "diplomacy":"DIPLOMACY REPORT"}.get(category,"REGIONAL REPORT")
 
-def record(title, link, published, outlet, provider):
+def record(title, link, published, outlet, provider, *, date_quality="publisher-time"):
     if not all((title,link,published)):
         return None
     category = classify(title)
     if not category or not link.startswith("https://"):
         return None
     country = determine_country(title)
-    key = sha256(link.encode("utf-8")).hexdigest()[:24]
+    clean = canonical_url(link)
+    if not clean:
+        return None
+    dt = when(published)
+    # Reject clock errors and wildly future-dated articles before indexing them.
+    if not dt or dt > TODAY + __import__("datetime").timedelta(minutes=10):
+        return None
+    key = sha256(clean.encode("utf-8")).hexdigest()[:24]
+    quality = assess(title, published, TODAY)
     return {"id":key,"title":title[:300],"url":link,
             "source":outlet[:100] if outlet else provider,"published_at":published,
-            "country":country,"countries":country_mentions(title),"language":"ar" if is_arabic(title) else "en","category":category,"tag":tag(title,category),"provider":provider}
+            "country":country,"countries":country_mentions(title),"language":"ar" if is_arabic(title) else "en","category":category,"tag":tag(title,category),"provider":provider,
+            "first_seen_at":TODAY.isoformat().replace("+00:00","Z"),
+            "date_quality":date_quality,**quality}
 
 def add_rss(name, url, seen, statuses):
     attempted = 0
@@ -144,11 +160,25 @@ def add_rss(name, url, seen, statuses):
     try:
         doc = ET.fromstring(fetch(url))
         items = doc.findall(".//channel/item")
+        # RSS 2.0 and Atom 1.0 both occur across official and publisher feeds.
+        if not items:
+            items = doc.findall(".//{http://www.w3.org/2005/Atom}entry")
         for item in items:
             attempted += 1
-            title = (item.findtext("title") or "").strip()
-            link = (item.findtext("link") or "").strip()
-            date = published_date(item.findtext("pubDate"))
+            atom="{http://www.w3.org/2005/Atom}"
+            rdf="{http://purl.org/rss/1.0/}"
+            title = (item.findtext("title") or item.findtext(atom+"title") or "").strip()
+            link = (item.findtext("link") or item.findtext(rdf+"link") or "").strip()
+            if not link:
+                for elem in item.findall(atom+"link"):
+                    if elem.get("rel","alternate")=="alternate" and elem.get("href","").startswith("https://"):
+                        link=elem.get("href","");break
+            date = published_date(item.findtext("pubDate") or item.findtext(atom+"published") or item.findtext(atom+"updated"))
+            if not date:
+                # Some RDF feeds expose ISO 8601 dc:date, not RFC2822.
+                raw=item.findtext("{http://purl.org/dc/elements/1.1/}date")
+                d=when(raw)
+                date=d.isoformat().replace("+00:00","Z") if d else None
             outlet_tag = item.find("source")
             outlet = (outlet_tag.text or "").strip() if outlet_tag is not None else name
             report = record(title,link,date,outlet,name)
@@ -172,7 +202,7 @@ def add_gdelt(seen, statuses):
             url=item.get("url") or ""
             when=gdelt_date(item.get("seendate"))
             outlet=item.get("domain") or urlsplit(url).netloc
-            report=record(title,url,when,outlet,name)
+            report=record(title,url,when,outlet,name,date_quality="index-first-seen")
             if report:
                 seen[report["id"]]=report
                 relevant+=1
@@ -186,6 +216,7 @@ def main():
     except (OSError, ValueError):
         archive={}
     seen={}
+    previous_ids={x.get("id"):x for x in archive.get("reports",[]) if x.get("id")}
     for old in archive.get("reports",[]):
         title=old.get("title","")
         if classify(title) and old.get("url") and old.get("id"):
@@ -194,6 +225,11 @@ def main():
             old["countries"]=country_mentions(title)
             old["country"]=determine_country(title)
             old["language"]="ar" if is_arabic(title) else "en"
+            old.setdefault("first_seen_at",archive.get("last_run") or old.get("published_at"))
+            old.setdefault("date_quality","legacy-unverified")
+            old.update(assess(title,old.get("published_at"),TODAY))
+            if old["date_quality"]!="publisher-time":
+                old["alert_eligible"]=False
             seen[old["id"]]=old
     statuses={}
     for name,query in FEEDS.items():
@@ -213,10 +249,31 @@ def main():
             "ok": None, "state": "rate-limit-backoff",
             "note": "Probed twice hourly; previous HTTP 429 responses"
         }
-    records=sorted(seen.values(),key=lambda x:x.get("published_at",""),reverse=True)[:2600]
+    # Preserve the first ingestion date even when a source republishes the same link.
+    for item in seen.values():
+        prior=previous_ids.get(item["id"])
+        if prior:
+            item["first_seen_at"]=prior.get("first_seen_at") or archive.get("last_run") or prior.get("published_at")
+            item["date_quality"]=prior.get("date_quality",item.get("date_quality","legacy-unverified"))
+        if item.get("date_quality")!="publisher-time":
+            item["alert_eligible"]=False
+
+    # Collapse duplicate same-publisher headlines from multiple RSS queries without
+    # erasing independent named outlets or merging distinct stories across days.
+    unique={}
+    for item in sorted(seen.values(),key=lambda x:x.get("published_at",""),reverse=True):
+        pub=re.sub(r"[^\\w]+","",str(item.get("source","")).casefold())
+        time_bucket=(item.get("published_at") or "")[:10]
+        headline=normalized_title(item.get("title"))
+        key=(pub,headline,time_bucket) if len(headline)>15 else (item["id"],)
+        prior=unique.get(key)
+        if not prior or (prior.get("url","").startswith("https://news.google.com/") and
+                        not item.get("url","").startswith("https://news.google.com/")):
+            unique[key]=item
+    records=sorted(unique.values(),key=lambda x:x.get("published_at",""),reverse=True)[:2600]
     good=any(info.get("ok") for info in statuses.values())
     timestamp=TODAY.isoformat().replace("+00:00","Z")
-    output={"version":4,"last_run":timestamp,
+    output={"version":5,"last_run":timestamp,
             "last_successful_run":timestamp if good else archive.get("last_successful_run"),
             "reports":records,"providers":statuses,
             "notice":"Public news headlines only, not verified attacks. Approximate country reference markers. Provider errors are reported."}
