@@ -39,6 +39,23 @@ function find(){
  ];
  const matches=commands.filter(x=>(x[0]+" "+x[1]).toLowerCase().includes(q))
   .slice(0,8).map(([title,description,action])=>({title,description,action}));
+ // Deterministic query syntax; no model or inferred intelligence.
+ if(/(?:country|topic|hours):/i.test(q)){
+  const clauses=[...q.matchAll(/(country|topic|hours):([^\s]+)/g)];
+  if(clauses.length)matches.unshift({
+   title:"APPLY STRUCTURED ANALYST QUERY",description:clauses.map(v=>v[0]).join(" · "),
+   action:()=>{for(const [,key,value] of clauses){
+    if(key==="country"){
+     const name=Object.keys(C.COUNTRY).find(id=>
+      id.toLowerCase()===value.toLowerCase()||
+      C.COUNTRY[id].label.toLowerCase().replace(/\s/g,"")===value.toLowerCase());
+     if(name)state.country=name;
+    }
+    if(key==="topic"&&["all","security","transport","diplomacy"].includes(value))state.topic=value;
+    if(key==="hours"&&[0,24,72,168,720].includes(Number(value)))state.hours=Number(value);
+   }state.query="";hooks.save();hooks.render();notify("Analyst query filters applied")}
+  });
+ }
  const articles=C.asArray(hooks.getData().events).filter(e=>q&&
   (String(e.title||"")+" "+C.asArray(e.countries).join(" ")).toLowerCase().includes(q))
   .slice(0,12).map(e=>({title:e.title,description:"EVIDENCE GROUP · "+C.date(C.latestEvidence(e)),action:()=>root.GXStream.showDossier("event",e.id)}));
