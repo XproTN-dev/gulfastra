@@ -26,9 +26,17 @@ const cutoff=()=>S.replay?S.asof:Date.now();
 const filter=()=>({country:S.country,topic:S.topic,hours:S.hours,asof:cutoff(),query:S.query});
 function filtered(){
  const data=raw(),f=filter();
+ const reports=C.selectReports(data.allReports,f);
+ const events=C.selectEvents(data.allEvents,f);
+ const related=(title)=>{
+  const t=String(title||"").toLocaleLowerCase();
+  if(S.workspace==="maritime")return /\b(ship|vessel|tanker|shipping|port|maritime|naval|hormuz|strait|red sea|piracy)\b|سفن|السفن|ناقلة|ناقلات|ملاحه|ملاحة|مضيق|بحري|ميناء|موانئ/u.test(t);
+  if(S.workspace==="aviation")return /\b(airspace|airport|flights?|airlines?|aviation|air traffic|runway|grounded|aircraft)\b|المطار|مطارات|المجال الجوي|الطيران|رحلات|أجواء|اجواء/u.test(t);
+  return true;
+ };
  return {...data,
-  reports:C.selectReports(data.allReports,f),
-  events:C.selectEvents(data.allEvents,f),
+  reports:reports.filter(r=>related(r.title)),
+  events:events.filter(e=>related(e.title)||C.asArray(e.sources).some(r=>related(r.title))),
   observations:C.selectObs(data.allObs,f),
   alerts:C.selectAlerts(data.allAlerts,f)};
 }
