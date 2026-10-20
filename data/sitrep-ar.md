@@ -1,10 +1,13 @@
 # موجز جلفاسترا للمصادر العلنية
 الفترة: آخر 24 ساعة (حسب وقت نشر التقارير)
 
-مجموعات التغطية: 220 | عناوين مرتبطة: 240
+مجموعات التغطية: 223 | عناوين مرتبطة: 245
 هذه تقارير صحفية وليست أحداثا مؤكدة، ولا تعتبر توجيهات سلامة رسمية.
 
-## Security (153 coverage groups)
+## Security (155 coverage groups)
+- طهران تعتبر الرد الأمريكي على مقترح هرمز "غير كافٍ".. وقائد الجيش الباكستاني يزور إيران - Euronews.com (2 headlines; multi-publisher-unverified)
+  - Euronews.com: https://news.google.com/rss/articles/CBMiwAFBVV95cUxQX2dmZm9NTTMwbXpIZHhFanM5VlNjcG00MWJnSFItdEJsUDUwODJHN2o5QXVzOVRHSmhNdlhOeWxvM3owNFE4eGxiODYwUTV0aGpMXzZEMVR4MlhlR2hrYkwwZ0xYbFVSOHkyaXNYWDdFMERfUXNuZE9tSmNhZjZyamE2R3pQeDVacDM4RzZuT29Ubkp3MEw2RGE4dGNkaGVFWGRPNEUtdGgtWTZzN25rb0I5b0lwWmN0cVBIUUFnNWY?oc=5
+  - الجزيرة نت · RSS عربي: https://www.aljazeera.net/news/2026/10/20/%d8%b9%d8%a7%d8%ac%d9%84-%d8%a7%d9%84%d8%ae%d8%a7%d8%b1%d8%ac%d9%8a%d8%a9-%d8%a7%d9%84%d8%a5%d9%8a%d8%b1%d8%a7%d9%86%d9%8a%d8%a9-%d8%a7%d9%84%d8%b1%d8%af?traffic_source=rss
 - وزير الدفاع البريطاني: مقاتلات تايفون ستنفذ عمليات دفاع جوي فوق السعودية - صدى البلد (1 headlines; single-source)
   - صدى البلد: https://news.google.com/rss/articles/CBMiR0FVX3lxTE9wU2lzLUYwN051Z3ViNXdZazFhWUNaRUxrWkYtcFVkWDctTVJibzkwUWVSMU1vZTBkX0trQjJIczcyZG93Ti0w?oc=5
 - UK to deploy jets to defend Saudi Arabia from Houthi attacks (1 headlines; single-source)
@@ -13,8 +16,9 @@
   - موقع الدفاع العربي: https://news.google.com/rss/articles/CBMi2wJBVV95cUxONUpwWUxwbnNFQjFjcUVPS25yMExLdnYwUmNnT2tBSDBfZDJGQW83c0R5Y2dRZW52ZWduZHdGSUFOaVZybk9lVVN5MmlHNF9xX3RGeUF4NnZhUlpUVnRwRVBSejNaVVFpWGJmQTJzZVAwd3VBU21WUmdkSVFZR21vYUxuVUlEekVYZTNiYVFzd3U3ZXVqbENObnZkSW53bkhSR19PenZfeC1SRjZWZjFVVDFZT1BNWEFOTXdTam1Od01HR241ajVSYjlfX25vU05SR3I0cVYxUENYR0pmTmx6d0hKcXB2LUhzOENCbmU2ZERheGlUTGFXZ0FOTDd1X2hmOVZBX1RPa1MwV1RmRUZ1MXl0dUxlQWU4cVRFRWZMZ3IxcmkzTHdvNTF3UUxYQnRrbC1kTzFSSUNZLTFWYklCeTJ3SHRFX1FzVDdtd3VSZ3VucjFSbjUwUnhuTQ?oc=5
 - UK to deploy fighter jets to protect Saudi Arabia from Houthi attacks (1 headlines; single-source)
   - The Guardian · Middle East: https://www.theguardian.com/uk-news/2026/oct/20/uk-raf-typhoon-fighters-saudi-arabia-houthi-attacks
-- بريطانيا تدخل المواجهة الجوية لحماية السعودية.. مقاتلات "تايفون" لاعتراض صواريخ الحوثيين ومسيّراتهم - arab-london.com (1 headlines; single-source)
+- بريطانيا تدخل المواجهة الجوية لحماية السعودية.. مقاتلات "تايفون" لاعتراض صواريخ الحوثيين ومسيّراتهم - arab-london.com (2 headlines; multi-publisher-unverified)
   - arab-london.com: https://news.google.com/rss/articles/CBMiS0FVX3lxTFBDckdzckE1ejRCN1picEJ6WTVSeHZ5VmJOYmpzVlhhS1VvekY3Skd4VnNDMjlPWEtFZzdZRU1TM01falBPTzRoRG9sbw?oc=5
+  - عرب لندن: https://news.google.com/rss/articles/CBMiS0FVX3lxTFBDckdzckE1ejRCN1picEJ6WTVSeHZ5VmJOYmpzVlhhS1VvekY3Skd4VnNDMjlPWEtFZzdZRU1TM01falBPTzRoRG9sbw?oc=5
 - Oil prices rise as Strait of Hormuz tanker attacks escalate - Quartz (1 headlines; single-source)
   - Quartz: https://news.google.com/rss/articles/CBMidkFVX3lxTE9wNThNdGREZG9pVlpmMVhOMHhpdUZscFlLdEhqWHNFQXpIeEl3Q3dla2c0MnBCZDBWV1FXTTI3ZnNkWjhRZ0U1OVQzbmh3UHEwbEpyYVlDWHVOUXNod3p3dmZlNnpuZTNOTWpabnZMTVZiOWdibkE?oc=5
 - Saudi Arabia announces interception of Houthi missile targeting Riyadh - Yemen Online (1 headlines; single-source)
@@ -31,8 +35,6 @@
   - المصري اليوم: https://news.google.com/rss/articles/CBMiX0FVX3lxTE9DUU1lSDJDdnllRkg3QjdOOUl4cDg1UXV4WHpLM0NYaUN5enFqR3dzMTBzeFNVU2hEanJmeFZ3RTdmMk1YNlc5akI4SVhWYUxFOVdhMEF4cmNFU0NUU0tJ?oc=5
 - Explained : Why is Egypt discussing military involvement in Saudi - Houthi conflict ? (1 headlines; single-source)
   - article.wn.com: https://article.wn.com/view/2026/10/20/Explained_Why_is_Egypt_discussing_military_involvement_in_Sa/
-- Saudi Arabia says it intercepted Houthi missile as blasts heard in Riyadh (1 headlines; single-source)
-  - freemalaysiatoday.com: https://www.freemalaysiatoday.com/category/world/2026/10/20/saudi-arabia-says-it-intercepted-houthi-missile-as-blasts-heard-in-riyadh
 
 ## Transport (43 coverage groups)
 - Yemen’s critically ill are trapped as war closes the country’s airports (1 headlines; single-source)
@@ -65,7 +67,9 @@
 - "إتش إس بي سي": الطرق البديلة ربما تغني عن مضيق هرمز خلال 5 سنوات (1 headlines; single-source)
   - الجزيرة نت · RSS عربي: https://www.aljazeera.net/ebusiness/2026/10/20/%d8%a7%d9%84%d8%b7%d8%b1%d9%82-%d8%a7%d9%84%d8%a8%d8%af%d9%8a%d9%84%d8%a9-%d8%b1%d8%a8%d9%85%d8%a7-%d8%aa%d8%ba%d9%86%d9%8a-%d8%b9%d9%86-%d9%87%d8%b1%d9%85%d8%b2?traffic_source=rss
 
-## Diplomacy (24 coverage groups)
+## Diplomacy (25 coverage groups)
+- "الجميع سيتضرر من قطع الإنترنت".. قطر تؤكد استمرار جهود الوساطة بين واشنطن وطهران - Euronews.com (1 headlines; single-source)
+  - Euronews.com: https://news.google.com/rss/articles/CBMimAFBVV95cUxQWGJFRTRXNHlId0U5dEdfVzNCU1E0cVFhXzlFQlNKUFR5S2JNc0w0aFlhbzVQSEdWWEp0Q0RYSFVHZ1pjSGZkTGdndnZEaVgzSVc0b09vb1FIQUVIRWVOR1ljMVFvSFBnZ1RJUTREdDVycmpvcXU0bXhaNzlCSktCbDA5ZVg0a2FsT3JDVUtJSUxMQmcwTVBoVA?oc=5
 - Iraq Bid To Mediate Iran - Gulf Tensions Faces Major Obstacles , Former UN Envoy Warns (1 headlines; single-source)
   - i24news.tv: https://www.i24news.tv/en/news/analysis-opinion/artc-iraq-s-bid-to-mediate-iran-gulf-tensions-faces-major-obstacles-former-un-envoy-warns
 - Iran prolongs talks in stalemate to influence US midterms, officials say - Reuters (1 headlines; single-source)
@@ -92,5 +96,3 @@
   - Luxembourg Times: https://news.google.com/rss/articles/CBMiuAFBVV95cUxNendpLUszN0JHR3c5Mlh1ZWczc0FMb0hFLVBDT1UybTlMVm8wUTJaZTcxZmo2UFlpUDNsWGVSN1pMRVlwal9XR0phR1JzczJKekxFeGE1b0xTZ3ZkVjhrQmJPSHJNQmJ1ZDBhS0pqYWh5OU5tLXk0MnVIUlJyR1FiMnJ2YVpIVm15QWZIajlGRDgzZWt3QUNhMm9JbWE3V0VjcTRtTjY0M1hJbVZqMkU3NUlFSkNQUkJG?oc=5
 - منتدى الأمن العالمي.. قطر تدعو لحماية الأمن المائي وتعزيز الدبلوماسية الإنسانية (1 headlines; single-source)
   - الجزيرة نت · RSS عربي: https://www.aljazeera.net/news/2026/10/20/%d8%ae%d9%84%d8%a7%d9%84-%d9%85%d9%86%d8%aa%d8%af%d9%89-%d8%a7%d9%84%d8%a3%d9%85%d9%86-%d8%a7%d9%84%d8%b9%d8%a7%d9%84%d9%85%d9%8a-%d9%82%d8%b7%d8%b1-%d8%aa%d8%af%d8%b9%d9%88-%d8%a5%d9%84%d9%89?traffic_source=rss
-- Russian FM talks up cooperation in first visit to Tehran since Iran-US war - Amwaj.media (1 headlines; single-source)
-  - Amwaj.media: https://news.google.com/rss/articles/CBMisAFBVV95cUxQOWFmaFdIUzQ4d2IyaU1oWVY5MFdhLUhyb3lIbzhMbGJLT2dtcFRzVGcycUNyY21ONXpmYmJkVTVyOUtBcUNONTkwT08zQkptR1REeFBIRjZfSnQ0Q2Jjc0NqUlhLeDFqR29INVlHR3l0WUZGRzZZZkRraGJpeDBWNDlCUWw0MHUyVGdDbUJ0eGRRR0hrZXRDRGFaaC1MZ0VxVmVzYU9xbk01SmpXc1Q3VQ?oc=5
