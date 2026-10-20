@@ -1,9 +1,207 @@
 {
   "schema": 5,
-  "generated_at": "2026-10-20T10:18:19.020775Z",
+  "generated_at": "2026-10-20T10:44:57.988389Z",
   "model": "deterministic-source-correlation-v1",
   "disclaimer": "Clusters are related PUBLIC REPORTS, not confirmed incidents. Source counts are not proof. Country names are mentions, not incident locations.",
   "events": [
+    {
+      "id": "GF-7F41EBC6434375",
+      "title": "Iran war latest: Hegseth makes surprise visit to Israel as Netanyahu tells Trump 'we have job to finish' - The National",
+      "category": "diplomacy",
+      "topic": "regional",
+      "countries": [
+        "Iran",
+        "Israel"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T10:41:01Z",
+      "last_published": "2026-10-20T10:41:01Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "1b44663bb5b32244938dadd5",
+          "title": "Iran war latest: Hegseth makes surprise visit to Israel as Netanyahu tells Trump 'we have job to finish' - The National",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPTVZ5ekNnd0lWdHo2RW5CVnUtOVZqZG5VUWd6V1pUQ2d0a2NxWFEwRzI5OTBQckZtTnVKUWRMZzNuT3N0X1V5YXlEU0lfdWtRY0hlRXRJSlNpNFhXZ3hYN240RTNCamhPSDBSaGdVZ0J2TUl4RDR3QUFFa1laMDRQTm5kOWF4QXZjTWdyZjR3?oc=5",
+          "source": "The National",
+          "provider": "Google News · missiles/drones",
+          "published_at": "2026-10-20T10:41:01Z",
+          "collected_at": null,
+          "language": "en",
+          "country": ""
+        }
+      ],
+      "digest": "c6444bda472114e5eba6",
+      "revision": 2,
+      "updated_at": "2026-10-20T10:44:57.988389Z"
+    },
+    {
+      "id": "GF-64779A9DFC87C2",
+      "title": "Iran Says It Downed 54th US MQ-9 Drone, Warns of New Targets - Palestine Chronicle",
+      "category": "security",
+      "topic": "drone",
+      "countries": [
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "multi-publisher-unverified",
+      "cross_language_candidate": true,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "publisher_count": 3,
+      "report_count": 3,
+      "first_published": "2026-10-20T08:42:00Z",
+      "last_published": "2026-10-20T10:35:58Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "84a8d96ddca8985ea750e3cd",
+          "title": "Iran Says It Downed 54th US MQ-9 Drone, Warns of New Targets - Palestine Chronicle",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNWEJZU2hFRWh4bGtsTFBYa0ttWDBJaEtWUGozOXRRWmZETkZyVDluc2U2UWw0bFNuMHY4MXkyQ0pLSlJWcmhTbm1PbUtua2hPSXBiMXlEb0t4RDdLUG82d0pLMkZWYWNjN2tLeUMxNld4MzZGOEx4cUVMTldoMUREVHJ2bWNSdGdYeGN6ZTJOTjdZcXJrbWtHYk5kQQ?oc=5",
+          "source": "Palestine Chronicle",
+          "provider": "Google News · missiles/drones",
+          "published_at": "2026-10-20T10:35:58Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Iran"
+        },
+        {
+          "id": "eedbdb63752c207f3b50a1a5",
+          "title": "إيران تسقط طائرة مسيرة أمريكية أخرى من طراز MQ-9، وتحذر من هجمات على كابلات الإنترنت تحت الماء في مضيق هرمز. - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbWRIcDl0NV9TWmxDVUQ1NzhNS2ZqZjRFZkNrTFlWWnlUeWFfaXUycFJLNWRWcl9hcHY5UWh1NHJnWGgtWmpoLXRNcXd0RjNjOWpzVXhDOU9hXzB0UEVvMnZydDluUV95dGpfSU81SkJHMUNtU293bk9QMmxrRHBNSnhIRHQ4SFNHVVRBZ0pLeEZjaG85bUY0YVljcXlrMTcyMGtRNDlR?oc=5",
+          "source": "Vietnam.vn",
+          "provider": "عربي · إيران والخليج",
+          "published_at": "2026-10-20T09:16:21Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Iran"
+        },
+        {
+          "id": "f26f03cf2e79c330eeefbcc4",
+          "title": "Tehran reportedly shoots down US MQ-9 Reaper drone over Hormuz - Daily Sabah",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNUh2VFNqbG9TdXFjVlhpcFZhbEgxcUZCZXJNbmhmTzBPNk5JbEdaTDhMci1kMG1JSzJMZUZUcWN0YlFiNjk3WU8wTDB0SkRpT3FrY3RzZGpoX3UyclJMX21GNVdTb0xHSEVYZjZmci05clVUUTdmbWFJdXZBb0p6VWJCem1VY2x4RlV6YUMyUUpNaUlHQ3NLVGRTeUV4dzJUcHpXWlhBeXYwSmow?oc=5",
+          "source": "Daily Sabah",
+          "provider": "Google News · missiles/drones",
+          "published_at": "2026-10-20T08:42:00Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Iran"
+        }
+      ],
+      "digest": "cb57146146bde60c82d4",
+      "revision": 1,
+      "updated_at": "2026-10-20T10:44:57.988389Z"
+    },
+    {
+      "id": "GF-20A26FB23CDF37",
+      "title": "الحرس الثورى: اشتعال النيران فى ناقلتين جنوب مضيق هرمز بسبب ألغام - قناة النيل للأخبار",
+      "category": "security",
+      "topic": "maritime",
+      "countries": [],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T10:28:25Z",
+      "last_published": "2026-10-20T10:28:25Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "7c70bb066c30c71df8962913",
+          "title": "الحرس الثورى: اشتعال النيران فى ناقلتين جنوب مضيق هرمز بسبب ألغام - قناة النيل للأخبار",
+          "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxOQWt0VzVhLVVKSTV1elBVcHhFV2J1ZnZoZWJlZDJtMFBvTnlQUzhUUndpVE5DU0RjMkhNTDNGR2RidjZmY1k3c2FmaDZybVNCRXpNYnpIMnZ4YzdoRVFhcExFUEluSGpha2JhWlJwb0RkSHMwN2tQYm1oWFVXcXdEclhfTF9xZm9MRHJyR0ZJaTNKS1dWbUhtbURGSWVyTjd5YV9SSXJfb0RJa18xWmFWaTl0VGJMazY1R240bF8wejhKQzZIWUJOQXY5Q3B2Z1VsTjdid0JoY0oyZllyVjVWMG56MHpsLU9HWmVFanlIMkF2UGdPQ0o2NURPMVR3MWtuYUtYNFBRcTY4TlY0RWY2aTZTVDlBTHNQQ2VDVTYyRHB0MWwyV1Azc2ZNQXZtZkpnNmtLejMzeENCbGhBeWc?oc=5",
+          "source": "قناة النيل للأخبار",
+          "provider": "عربي · مضيق هرمز",
+          "published_at": "2026-10-20T10:28:25Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "digest": "6f5268b97471b2a4ec42",
+      "revision": 1,
+      "updated_at": "2026-10-20T10:44:57.988389Z"
+    },
+    {
+      "id": "GF-5B698C3D6738DE",
+      "title": "مصادر من إب: الحوثي أطلق صواريخ من شمال المحافظة باتجاه شبوة وأبين - العربية",
+      "category": "security",
+      "topic": "missile",
+      "countries": [
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T10:13:00Z",
+      "last_published": "2026-10-20T10:13:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "4137e63ae9a8029cf70d40b9",
+          "title": "مصادر من إب: الحوثي أطلق صواريخ من شمال المحافظة باتجاه شبوة وأبين - العربية",
+          "url": "https://news.google.com/rss/articles/CBMiqARBVV95cUxPLVQ0NERDZWpBYjFHdHF5bW1MbTJ4bG5KenJ5QlZnQzdNQjctTW1sT0hkeXRRUlRTcElWT1RoMUNPZTlQZ0ZkSUZwVVdBdV9kYXNQSVpmTjZHem94bXVZcmNxNVJXcWFNY25QTHRocXU2dUJWRTNMdU1RdzBxdW5GNVZuazhMMWxrWWlxM2swN3g4Tm5IY3pwNEhGeXBzSGJYbDNkOTh2RmRrN1piQl9ja3VQTFZ3d1c1TWNmWFlWenlneHgyRUdTX3R6OVcyWVplQXRGT1hUUU1PMjc4dVFoR1U1LVBId2EzNnJ5bERnUWJsQ21UWEVzRjdfSFNXT2lTNVNRaVpEdExYVC0xMHhJX2JNMTQxamJVM09sT3RpOERHZFlIZXVIcFhkc1dVeE1KRDAzOEVTcFMzeHRlMDFKYzhVZllBVGozektWdFE1SHdoT1BFOE1YX0d4Q2YzbDNqYmp3NER1S1lMbV9Mb29JeHg2VGdvRVBreVNwRWZ5TmQyb0RPY21xMW9OZkw3SGhubE1LQUJXZmxPYW5XbVg3WGNRWVFURXIxSXl5OElNSmNsc05xUE5Vby1xWC13bW5IWHQ1THQ1Wmh3bTZZTWM1MTdNR3p1TFBxOUQyREk3VXExQl9Ba1BfeGhiLTQtd3E0dHFEenBEX2RKWTEzT0h6NXNSWFRTX3lSM3ltTmktMy1CRFNuU3VXc2dxRlE3TkctdkVsWkpZbkQ?oc=5",
+          "source": "العربية",
+          "provider": "عربي · العربية",
+          "published_at": "2026-10-20T10:13:00Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Yemen"
+        }
+      ],
+      "digest": "b5155aef425dd8f8ca5b",
+      "revision": 1,
+      "updated_at": "2026-10-20T10:44:57.988389Z"
+    },
     {
       "id": "GF-52C09CF89375FF",
       "title": "قطر تعزز دفاعاتها الجوية وتعتزم إنشاء مركز للصناعات الدفاعية.. موقف حاسم من مضيق هرمز - nedaelwatan.com",
@@ -73,7 +271,7 @@
       "publisher_count": 2,
       "report_count": 2,
       "first_published": "2026-10-20T06:55:33Z",
-      "last_published": "2026-10-20T09:56:26Z",
+      "last_published": "2026-10-20T10:04:54Z",
       "event_occurred_at": null,
       "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
       "sources": [
@@ -83,7 +281,7 @@
           "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxPYTJFMkcyUEJzTnVDQy0wUnF6Zjk3UGdvTnNUcWtsTmprMEVXNlpLMzI4MjQ0ZzRQcUNGUlNyb2hBMjhESlpvOEFaNGpGRWVkYjhMWk81MEFBZWM5WlFYbjdUbmwtVVhnRC1tRkoxTUtnLWpVa01BYmFndjlSbWpMOHF0U1ZLWHpYNGJSOEpZMnFfRFFXMllPUUxXTzZ1Zl9HWlQ0b01YSUhmWjBYbWgtbjdFNmI5LU9hUEpyZ1pjOWpaSUdrbEh6eENnZDlrSWlGMTM4RDYzX1VmVUlRelh5cV9DVmZYQU95Y0ItbnhxNUlRdVNndVo2eXlTNENxNzlpbFhKWkV5RXJnejBwclZ0aWpvQ2xRM0pfQzlKNk5MamxMS19ZNDRhMEpXMnhUUWYyT1ZaRGtMSVg3d9IBvwJBVV95cUxOd291SENuRVlTNXg2UkFWcDZfRGxoZ2lGeVZYLXVJM2loOUJTU3BRYkFGODdxd0RLZjVJZmdQTGJNLTFSajB3Vnc2elpnOVZ6S1FEakhmTGJxLXZONVhKckZGekk4N2tmYndVSEloNHIxSHBoci1iUGNqUUQ2MEo5LWFvZVlmZEtiUU1BWXZZak5Fc29DRjBoOW85a3lOWTl0NGxla09ydVNaLTZKM1dNODE0bzVMWlNhZWNJU1pjSHVtRllNTUw3R1BVZlpYeGdBcFNRdVI2YVVMemRuOTlwZC1QVmZhY0NUOTh0YVNuQTk4U0ZBSU5kMkF6UkJTTEk5RkxVR2dJa24yMjZIcnlua2c1LU5VRUctWm1VZWpsUUdlNzNtZDc5WEdrQTVPRHloNVpxMll4SEpZX01FNFlN?oc=5",
           "source": "الجزيرة نت",
           "provider": "عربي · مضيق هرمز",
-          "published_at": "2026-10-20T09:56:26Z",
+          "published_at": "2026-10-20T10:04:54Z",
           "collected_at": null,
           "language": "ar",
           "country": ""
@@ -100,9 +298,9 @@
           "country": ""
         }
       ],
-      "digest": "07420808361a07e6487b",
-      "revision": 2,
-      "updated_at": "2026-10-20T10:12:39.488669Z"
+      "digest": "0bf2d9bf22fab5811c79",
+      "revision": 3,
+      "updated_at": "2026-10-20T10:44:57.988389Z"
     },
     {
       "id": "GF-E68161E3912C0B",
@@ -384,50 +582,6 @@
         }
       ],
       "digest": "26fe47b1641a9affc949",
-      "revision": 1,
-      "updated_at": "2026-10-20T09:48:10.536726Z"
-    },
-    {
-      "id": "GF-6947EE83A0062C",
-      "title": "إيران تسقط طائرة مسيرة أمريكية أخرى من طراز MQ-9، وتحذر من هجمات على كابلات الإنترنت تحت الماء في مضيق هرمز. - Vietnam.vn",
-      "category": "security",
-      "topic": "drone",
-      "countries": [
-        "Iran"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "ar"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-20T09:16:21Z",
-      "last_published": "2026-10-20T09:16:21Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "eedbdb63752c207f3b50a1a5",
-          "title": "إيران تسقط طائرة مسيرة أمريكية أخرى من طراز MQ-9، وتحذر من هجمات على كابلات الإنترنت تحت الماء في مضيق هرمز. - Vietnam.vn",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbWRIcDl0NV9TWmxDVUQ1NzhNS2ZqZjRFZkNrTFlWWnlUeWFfaXUycFJLNWRWcl9hcHY5UWh1NHJnWGgtWmpoLXRNcXd0RjNjOWpzVXhDOU9hXzB0UEVvMnZydDluUV95dGpfSU81SkJHMUNtU293bk9QMmxrRHBNSnhIRHQ4SFNHVVRBZ0pLeEZjaG85bUY0YVljcXlrMTcyMGtRNDlR?oc=5",
-          "source": "Vietnam.vn",
-          "provider": "عربي · إيران والخليج",
-          "published_at": "2026-10-20T09:16:21Z",
-          "collected_at": null,
-          "language": "ar",
-          "country": "Iran"
-        }
-      ],
-      "digest": "2f142d7e2b48443f85ef",
       "revision": 1,
       "updated_at": "2026-10-20T09:48:10.536726Z"
     },
@@ -960,51 +1114,6 @@
       "digest": "7f4c00f587ded1c7c047",
       "revision": 1,
       "updated_at": "2026-10-20T10:18:19.020775Z"
-    },
-    {
-      "id": "GF-7F41EBC6434375",
-      "title": "Iran war latest: Hegseth makes surprise visit to Israel as Netanyahu tells Trump 'we have job to finish' - The National",
-      "category": "diplomacy",
-      "topic": "regional",
-      "countries": [
-        "Iran",
-        "Israel"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "en"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-20T07:38:42Z",
-      "last_published": "2026-10-20T07:38:42Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "1b44663bb5b32244938dadd5",
-          "title": "Iran war latest: Hegseth makes surprise visit to Israel as Netanyahu tells Trump 'we have job to finish' - The National",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPTVZ5ekNnd0lWdHo2RW5CVnUtOVZqZG5VUWd6V1pUQ2d0a2NxWFEwRzI5OTBQckZtTnVKUWRMZzNuT3N0X1V5YXlEU0lfdWtRY0hlRXRJSlNpNFhXZ3hYN240RTNCamhPSDBSaGdVZ0J2TUl4RDR3QUFFa1laMDRQTm5kOWF4QXZjTWdyZjR3?oc=5",
-          "source": "The National",
-          "provider": "Google News · regional",
-          "published_at": "2026-10-20T07:38:42Z",
-          "collected_at": null,
-          "language": "en",
-          "country": ""
-        }
-      ],
-      "digest": "1a4e2115b9957b59b89a",
-      "revision": 1,
-      "updated_at": "2026-10-20T07:40:58.957167Z"
     },
     {
       "id": "GF-3D62B6FE57140C",
@@ -1824,6 +1933,50 @@
       "digest": "f85a2c4c6884ea88bde5",
       "revision": 2,
       "updated_at": "2026-10-20T07:40:58.957167Z"
+    },
+    {
+      "id": "GF-9D7B50E96D3594",
+      "title": "صحيفة أمريكية: القوات اليمنية تكشف نقاط ضعف الجيش السعودي - قناة العالم",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T05:33:23Z",
+      "last_published": "2026-10-20T05:33:23Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "9dc175207338255b3ea6e925",
+          "title": "صحيفة أمريكية: القوات اليمنية تكشف نقاط ضعف الجيش السعودي - قناة العالم",
+          "url": "https://news.google.com/rss/articles/CBMi1gNBVV95cUxORHRVSW5GQy1jSTlfQzN5ZGZEVUZHTTV5ZVlmTklNaml3RU1Ka3ptUURMQlBLckVLSXV0a2V6dVZfQWl5NzlXSi14ZUJjYVI4SjNZLUQyblhMSTBPQzRzRXlvTWNkYVQwdnZRVFJrS0hjZ3l4S2FVUFl4d0JCdVBhcUgzYVk4UzMtZFJtckV5QTZCWXJCYUNPcXN0XzhQSnozSEVmUDVEeWRNaUhQazc0cDlnRnMzTW9vd1luV1g4WXRzanBtdHI5dWJqbnVaN0o0UmlfTEcxRWctZ1NadzRkQmw2d2ZPR1M5OGhraEsyUnpMNl9NV01IQWQyWVpOZnhaTFl5R2NlMi03eXRlOTZMRUpCNU1OY0NUc1ZrdnBCOXNBTHJoNGxPaUZKa1piTjZVamtCUFdKNEVSdE1ybjJSRkxNNV9JeDY5WElZcWVNSV9LVEVWaGdxaEZleTh6Wk9lbXpOZ3ZGTFF2Sy1qV2tjT0FROElfaU5YN21hdWotQlN5UWloRnpFVXM5dkxHRXhiNGFQYXRScFVIcDcwcTBCczZwVWxFZk1lQnVqQm1PejJzdzZiR1FlbWl4QVkzZXpiOFZvVWR5RHUtZk1XZmMzWGMyMUh0QQ?oc=5",
+          "source": "قناة العالم",
+          "provider": "عربي · السعودية",
+          "published_at": "2026-10-20T05:33:23Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Saudi"
+        }
+      ],
+      "digest": "e0407b43776dbb2a8aba",
+      "revision": 1,
+      "updated_at": "2026-10-20T10:44:57.988389Z"
     },
     {
       "id": "GF-FDC4347794DDC7",
@@ -8600,7 +8753,7 @@
         "en"
       ],
       "publisher_count": 2,
-      "report_count": 4,
+      "report_count": 5,
       "first_published": "2026-10-19T01:15:04Z",
       "last_published": "2026-10-19T08:23:25Z",
       "event_occurred_at": null,
@@ -8612,6 +8765,17 @@
           "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNSm94UldNeVE1SzdqbFdQWklGeTVpbHZ4eV80MmRPOVRRdFozQjR3eDlFdEEyMkw5VldzUkdNUm01RlB1QU1aVFIxRm5VVWJOYUYya2ZQTjBKOFZlUzgtZXZnZEtLYXkyemZHUUxRZGYwbjh4LU9lUTZnbmc2SnplMXFxTXZnbU1WQ29XLXNraXBMM0dDaEVLRkpwQlZDbkROdzhWUlRIcUc1Z1dWZDVLTWZ6b2NCYWhVWFo5dGVwcmN6MG9QRkhrSDJXVUc?oc=5",
           "source": "Anadolu Ajansı",
           "provider": "Google News RSS",
+          "published_at": "2026-10-19T08:23:25Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Iran"
+        },
+        {
+          "id": "a21832670e25e1ee3d3164d8",
+          "title": "Iran’s Revolutionary Guard says oil tanker struck mine and caught fire in Strait of Hormuz - Anadolu Ajansı",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNSm94UldNeVE1SzdqbFdQWklGeTVpbHZ4eV80MmRPOVRRdFozQjR3eDlFdEEyMkw5VldzUkdNUm01RlB1QU1aVFIxRm5VVWJOYUYya2ZQTjBKOFZlUzgtZXZnZEtLYXkyemZHUUxRZGYwbjh4LU9lUTZnbmc2SnplMXFxTXZnbU1WQ29XLXNraXBMM0dDaEVLRkpwQlZDbkROdzhWUlRIcUc1Z1dWZDVLTWZ6b2NCYWhVWFo5dGVwcmN6MG9QRkhrSDJXVUfSAdQBQVVfeXFMTzgwUHdrNTYzQ2tyOWJ5ZXpEX29udTdxMDY5M3lBazNpNWFjWkpqS19kTC1VLUZOdjNLOWV1RzhkcXVXS2pYZ3B5QTh6dzVDLWJHN1NVdTBZR2JRRFpWbUhVS3dnRjJOVW16d09EN3VCUVVialp4V1JaX29jeUpUeGtsSm5fODZ5YlFwTFpyeWZjZkJIOUZGWHFlVVFmXzBKNjB6UGV5Skt6aDBfMXVJbUlpNHBQZjBrWDNVQjFSUTJnYWtfNHUxS0J4a0F3R0hQbEk3M0M?oc=5",
+          "source": "Anadolu Ajansı",
+          "provider": "Google News · shipping",
           "published_at": "2026-10-19T08:23:25Z",
           "collected_at": null,
           "language": "en",
@@ -8651,9 +8815,9 @@
           "country": "Iran"
         }
       ],
-      "digest": "d47e78a2a817560ac149",
-      "revision": 2,
-      "updated_at": "2026-10-20T07:40:58.957167Z"
+      "digest": "190f2d91c3f851c9a0e8",
+      "revision": 3,
+      "updated_at": "2026-10-20T10:44:57.988389Z"
     },
     {
       "id": "GF-92895451D33AA2",
@@ -9956,16 +10120,16 @@
           "title": "Meet Iran’s New Defense Chief: A Missile Veteran Threatening War With Israel - i24NEWS",
           "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQaXhHREw2b2F0ZmdTTmM5YVVta01IX2NCTjRTajZxemNtN2FGSURLcHdCNEp0eFRud0drelJGN1ZUbk5MT21tdUtrY2lzVVEweEFlNVlYSVRGOXFTbzczdnV0bUVuZkNRZ3dDc2RGb3ZyWXhuSnd5R2h5WWVZMGdSdjc5RzhSSGdseHNObGtOVEVfMXNKQnNvdmJONWlaakFQOTkxaGRPdE5Qd2hGZmhsZjI0TmdEQ2MwWFJtOWk2WE1lRHMwbktqZUdhRHNDRkphVkhfWEt6NWdnTkE?oc=5",
           "source": "i24NEWS",
-          "provider": "Google News · missiles/drones",
+          "provider": "Google News · security",
           "published_at": "2026-10-19T04:50:00Z",
           "collected_at": null,
           "language": "en",
           "country": ""
         }
       ],
-      "digest": "234c557c345718c2f2a7",
-      "revision": 3,
-      "updated_at": "2026-10-20T10:18:19.020775Z"
+      "digest": "1ac7daf4de65f0f946e7",
+      "revision": 4,
+      "updated_at": "2026-10-20T10:44:57.988389Z"
     },
     {
       "id": "GF-B0D8BFB248EF73",
@@ -10100,16 +10264,16 @@
           "title": "Iran Names UN-Sanctioned Missile Chief As Defense Minister - Radio Free Europe/Radio Liberty",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OeTc1VE5lcEx0QzNhVlh6TnBVZUhfdi1MR0xZQnJOLWo2U3dHb09ucVhPNXctSTFXNTF6R3EwZEJXSl96SF9zS2FPUWFwcHpHeFVMaGtUckZiaGIydHc1SFMwT3U1R1h5WnMtY2RGUkdtYm1jV2VUMWFB?oc=5",
           "source": "Radio Free Europe/Radio Liberty",
-          "provider": "Google News · security",
+          "provider": "Google News · missiles/drones",
           "published_at": "2026-10-19T04:29:52Z",
           "collected_at": null,
           "language": "en",
           "country": "Iran"
         }
       ],
-      "digest": "b1e24a2c63634cc44fd0",
-      "revision": 3,
-      "updated_at": "2026-10-20T10:18:19.020775Z"
+      "digest": "b612f7d7f566ff01ed5c",
+      "revision": 4,
+      "updated_at": "2026-10-20T10:44:57.988389Z"
     },
     {
       "id": "GF-A4300A30FD5E4E",
@@ -20660,6 +20824,50 @@
       "digest": "bb4f4e14edf4011b3254",
       "revision": 2,
       "updated_at": "2026-10-20T07:40:58.957167Z"
+    },
+    {
+      "id": "GF-5C40BAB5BAC9FC",
+      "title": "انفجار مستودع عتاد للحشد الشعبي شرقي بغداد دون خسائر بشرية - Kurdistan24",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Iraq"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-17T15:40:00Z",
+      "last_published": "2026-10-17T15:40:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "fd2374d9cae5dcc97a35c039",
+          "title": "انفجار مستودع عتاد للحشد الشعبي شرقي بغداد دون خسائر بشرية - Kurdistan24",
+          "url": "https://news.google.com/rss/articles/CBMi6wNBVV95cUxQSl9qUXdPTjZYcW1TM0Y2VXQ4Z0Q1NkVuWGI0S05UTi1CbHNvMV9mbVVzZDJZNVpMNjhYYlRjcmo4WGFFVTZBa1JTYTFtMUdGT3lmTnJGUV9KSlM3Z0ZTLUwyQzJtYlp4dXRqLUtKNS1JMnlRRlNXMzJMSHl1bk1uRXAyaWp1dEVuSHlNR1RReEJfZC1nS2c1ZzhfdHdxZXQxUERzTm11ZW1hZVZvekVmUi13NUN1VWN4TlVLdmxmSmFEU2ZLSXRaWnYyTnB6Y1ZXREo3ZXR0b0VFRTVyNGR5Rkd4MTU4V0tTQjdhTVpTckZJUTE1Q3lmSEpGcFlVZmxwZVVicVgzcjFCajc3V3ZmWFZUaUxOeUJCQUoySzRwTTZlZzEwUDM4S3ZuQ0hvcTg4NklnYzBvYzJzbDNlVE1OeE9raXhzTXJuRGliclFZWnNfUmFtQXdheGhmYTk1UzdBTzZRdzVSczZWQkExNXoxemlJdzBTM1BNeGQ3cG1iU1N1QU1CSWZNVEh4YVNsNnVCaVZQcFJ4cXNqR1lSWVRxQm50WTdiT2ZQSEZrREF3X2FoWGgwbFcyTVQyS01vVURiWnJJdGJqYWFPVDkwZ3RhbExUMnljOTJvSkRzYlVKQURCRW1RYVNYZS1GTQ?oc=5",
+          "source": "Kurdistan24",
+          "provider": "عربي · الكويت والعراق",
+          "published_at": "2026-10-17T15:40:00Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Iraq"
+        }
+      ],
+      "digest": "6d7f06d72f095faaafd2",
+      "revision": 1,
+      "updated_at": "2026-10-20T10:44:57.988389Z"
     },
     {
       "id": "GF-D18789395E4D4C",
@@ -32201,16 +32409,16 @@
           "title": "Hezbollah told by Iran to raise level of readiness for regional conflict - The Jerusalem Post",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBfdFg2M0VaY2xOVnhWN2JIUzM5dnIyWlFPbkxqbUtMSjF0cjA0NkQwdFpOSmlLYnZwelA5eXZBTnpBYy04ZkYtVFhvb1JoazlicEJjZFBTWUM1ckRVZVhHZk1YSzRCY3ptd3c?oc=5",
           "source": "The Jerusalem Post",
-          "provider": "Google News · regional",
+          "provider": "Google News · security",
           "published_at": "2026-10-15T14:19:42Z",
           "collected_at": null,
           "language": "en",
           "country": "Iran"
         }
       ],
-      "digest": "cf4670edde0148bf4d68",
-      "revision": 2,
-      "updated_at": "2026-10-20T07:40:58.957167Z"
+      "digest": "d596f8526cb6e41899a1",
+      "revision": 3,
+      "updated_at": "2026-10-20T10:44:57.988389Z"
     },
     {
       "id": "GF-00F94FA346AB64",
@@ -32379,16 +32587,16 @@
           "title": "Iran's reported missile test puts Israel on alert - www.israelhayom.com",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcEQ5Ujhwd25iQmFZTDYzclRfTm52RXNqcTlVeWZBRk5EUHVOZzk0clFPNDZPSXQ0R0ZtdTlYcTZkLXYyMnZwTjl5MlJaTnZLYUVtbzVmd0thRmlkcURJWksya3ZGUnBUcEdzOXExWTdWTmlHREZISU03VFZHcjhDVGhwcmZVb1E3d0Z0d3NETTc1dw?oc=5",
           "source": "www.israelhayom.com",
-          "provider": "Google News · missiles/drones",
+          "provider": "Google News · security",
           "published_at": "2026-10-15T13:10:38Z",
           "collected_at": null,
           "language": "en",
           "country": ""
         }
       ],
-      "digest": "2bd374af77d9246957bd",
-      "revision": 3,
-      "updated_at": "2026-10-20T10:18:19.020775Z"
+      "digest": "e80f1b1f8e4a49662dd9",
+      "revision": 4,
+      "updated_at": "2026-10-20T10:44:57.988389Z"
     },
     {
       "id": "GF-3F093EDDB59BD8",
@@ -35132,16 +35340,16 @@
           "title": "Iran-backed Houthis strike Saudi oil company Aramco's headquarters, officials say - PBS",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQzY0TGNicFB5Y2ZTa21iaGExMGt4djdWaHZOZVZOMnA4UzAtQnplMVYwR3kxTk1OekxLbnhlbjFKTXMyOVNRb1YtNXRKa0V0cVUxTDdEMHV4UGd6QzVHM1d4Sy04SWNnOXdIcW5uTWtzbWZrTVk1WHFhbTZUM0U0YnV3ZklqcTdMX2EydTU0cFVMSHZFZVNUUGxiYm1LTFJzclRyeDg5RlpnZk1kOGtKY3lsRmnSAboBQVVfeXFMTXZEek5DX0hPTnFmUm10T1JXTERZVVhFa1BNclBJZTV5Y3l4MXVQWkptRkc0UVBQOEcyN1Y2UUEzZFlrOWZHZFhRVl9nR3AtSmYwSEdtbVdhM19YZWZELTRvdzl4VDNfbkFEMkNRZWlRdnFJcDRoU1BGb3NGNDF1OHJOMlFScFVSWFNBR2xnZnZ6YzA4NU43NGU2am1EWmdiOEdVQ0FjaFNiYWQ2NjdwRWd5aTNvYklkNDB3?oc=5",
           "source": "PBS",
-          "provider": "Google News · missiles/drones",
+          "provider": "Google News · security",
           "published_at": "2026-10-14T21:33:30Z",
           "collected_at": null,
           "language": "en",
           "country": ""
         }
       ],
-      "digest": "9596f03cff6fb4d5e146",
-      "revision": 3,
-      "updated_at": "2026-10-20T10:18:19.020775Z"
+      "digest": "36bcaf3038c2abc9ec1d",
+      "revision": 4,
+      "updated_at": "2026-10-20T10:44:57.988389Z"
     },
     {
       "id": "GF-D94BD74416BD50",
@@ -35757,6 +35965,48 @@
       "updated_at": "2026-10-20T07:40:58.957167Z"
     },
     {
+      "id": "GF-52DF3E405DDC16",
+      "title": "Two Cargo Ships Sink Near Strait of Hormuz, as Iranian Attacks Increase - WSJ",
+      "category": "transport",
+      "topic": "maritime",
+      "countries": [],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-14T16:48:44Z",
+      "last_published": "2026-10-14T16:48:44Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "b90ad168cacff438f9de19ee",
+          "title": "Two Cargo Ships Sink Near Strait of Hormuz, as Iranian Attacks Increase - WSJ",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeVJzcVMzeW15SzZXQ09EZHdZNzdXY0lmbWVJNjRDLVlodjE0SVBTeFBES1VudmJROGNiQ3RlYU1NM2FlLWs0eVhadlR1Q3luYnoxTDBkRjBwcFdoN052cUxSOVBkQTFBSkdVYTd0elBuX3F0X19feXBuRGgtTVZfZmVvY21yU0F0RkdKX01DMHZDZE5ITUtMTzFZTnBJX1VnSWpwRW4xQQ?oc=5",
+          "source": "WSJ",
+          "provider": "Google News · shipping",
+          "published_at": "2026-10-14T16:48:44Z",
+          "collected_at": null,
+          "language": "en",
+          "country": ""
+        }
+      ],
+      "digest": "fd13062a62213d75ac0f",
+      "revision": 5,
+      "updated_at": "2026-10-20T10:44:57.988389Z"
+    },
+    {
       "id": "GF-5DAFC35D5E24EB",
       "title": "تصعيد إيراني يطول الكويت والبحرين والأردن.. وواشنطن ترد باستهداف ناقلات النفط - الساحل الغربي",
       "category": "security",
@@ -35976,48 +36226,6 @@
       "digest": "a5597142f6a508c35f07",
       "revision": 2,
       "updated_at": "2026-10-20T07:40:58.957167Z"
-    },
-    {
-      "id": "GF-52DF3E405DDC16",
-      "title": "Two Cargo Ships Sink Near Strait of Hormuz, as Iranian Attacks Increase - WSJ",
-      "category": "transport",
-      "topic": "maritime",
-      "countries": [],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "en"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-14T15:49:00Z",
-      "last_published": "2026-10-14T15:49:00Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "b90ad168cacff438f9de19ee",
-          "title": "Two Cargo Ships Sink Near Strait of Hormuz, as Iranian Attacks Increase - WSJ",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeVJzcVMzeW15SzZXQ09EZHdZNzdXY0lmbWVJNjRDLVlodjE0SVBTeFBES1VudmJROGNiQ3RlYU1NM2FlLWs0eVhadlR1Q3luYnoxTDBkRjBwcFdoN052cUxSOVBkQTFBSkdVYTd0elBuX3F0X19feXBuRGgtTVZfZmVvY21yU0F0RkdKX01DMHZDZE5ITUtMTzFZTnBJX1VnSWpwRW4xQQ?oc=5",
-          "source": "WSJ",
-          "provider": "Google News · shipping",
-          "published_at": "2026-10-14T15:49:00Z",
-          "collected_at": null,
-          "language": "en",
-          "country": ""
-        }
-      ],
-      "digest": "4fe5ea5d2ef94c6377b2",
-      "revision": 4,
-      "updated_at": "2026-10-20T09:29:36.544778Z"
     },
     {
       "id": "GF-E77249BF7DF2C3",
@@ -41543,6 +41751,50 @@
       "updated_at": "2026-10-20T07:40:58.957167Z"
     },
     {
+      "id": "GF-72BC1910C5AB3A",
+      "title": "Houthi attacks are ‘a terrorist threat’ to the international community: Ex-CIA official - Arab News",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-13T19:06:26Z",
+      "last_published": "2026-10-13T19:06:26Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "4f92cd742fccfcb93addbeb0",
+          "title": "Houthi attacks are ‘a terrorist threat’ to the international community: Ex-CIA official - Arab News",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQQ3ZxMWRNamduN1A5MlhyTEJ1TjJaOTBkdzltb3FJVjFnQUxiWFhYTzluTV9pVGI1bHNpTEtIV3FYZHd3U0VtVWxmMk5UT2RYTW5hRWF1TGJOVzFwRlNfX2dvX1Q1TkJvUHVVQjhPMkVFRUIyMGRycTV3ZmZaWHB5Y3JfM2xGT29qenRESG1BdW5zSEpmc1N3aVp5Z292a2kwTHFqcXBjSHhiTHlra0ZhbWZkZzEyTmo3Z3BuSUlabWtjVngyT1NkQg?oc=5",
+          "source": "Arab News",
+          "provider": "Google News · security",
+          "published_at": "2026-10-13T19:06:26Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Yemen"
+        }
+      ],
+      "digest": "3674a080c63c429d88d3",
+      "revision": 1,
+      "updated_at": "2026-10-20T10:44:57.988389Z"
+    },
+    {
       "id": "GF-D722CCE5B28D27",
       "title": "عقب سماع صوت اعتراض لتهديد جوي معادٍ في سماء الرياض.. إطلاق تنبيه زوال الخطر عن المدينة - العربية",
       "category": "security",
@@ -44675,15 +44927,15 @@
   "country_stats": {
     "Iran": {
       "events": 371,
-      "reports": 463,
+      "reports": 466,
       "security_coverage": 203,
       "transport_coverage": 102,
       "sources": 185
     },
     "Saudi": {
-      "events": 316,
-      "reports": 339,
-      "security_coverage": 222,
+      "events": 317,
+      "reports": 340,
+      "security_coverage": 223,
       "transport_coverage": 80,
       "sources": 167
     },
@@ -44716,9 +44968,9 @@
       "sources": 9
     },
     "Iraq": {
-      "events": 56,
-      "reports": 56,
-      "security_coverage": 51,
+      "events": 57,
+      "reports": 57,
+      "security_coverage": 52,
       "transport_coverage": 5,
       "sources": 43
     },
@@ -44730,11 +44982,11 @@
       "sources": 5
     },
     "Yemen": {
-      "events": 137,
-      "reports": 141,
-      "security_coverage": 121,
+      "events": 139,
+      "reports": 143,
+      "security_coverage": 123,
       "transport_coverage": 14,
-      "sources": 74
+      "sources": 75
     },
     "Israel": {
       "events": 42,
@@ -44749,68 +45001,84 @@
     "2026-09-04": 1,
     "2026-10-02": 1,
     "2026-10-12": 1,
-    "2026-10-13": 96,
+    "2026-10-13": 97,
     "2026-10-14": 125,
     "2026-10-15": 112,
     "2026-10-16": 105,
-    "2026-10-17": 170,
+    "2026-10-17": 171,
     "2026-10-18": 131,
     "2026-10-19": 181,
-    "2026-10-20": 64
+    "2026-10-20": 67
   },
   "revisions": [
     {
-      "id": "GF-52C09CF89375FF",
+      "id": "GF-7F41EBC6434375",
       "revision": 2,
-      "at": "2026-10-20T10:18:19.020775Z",
+      "at": "2026-10-20T10:44:57.988389Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-B09D0E6ED840BC",
-      "revision": 8,
-      "at": "2026-10-20T10:18:19.020775Z",
+      "id": "GF-EAE814B180623B",
+      "revision": 3,
+      "at": "2026-10-20T10:44:57.988389Z",
       "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
+      "previous_source_count": 2,
+      "new_source_count": 2
+    },
+    {
+      "id": "GF-1C2F49692C00B8",
+      "revision": 3,
+      "at": "2026-10-20T10:44:57.988389Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 4,
+      "new_source_count": 5
     },
     {
       "id": "GF-AAA43431AC99AE",
-      "revision": 3,
-      "at": "2026-10-20T10:18:19.020775Z",
+      "revision": 4,
+      "at": "2026-10-20T10:44:57.988389Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
       "id": "GF-2F96F0C8277288",
-      "revision": 3,
-      "at": "2026-10-20T10:18:19.020775Z",
+      "revision": 4,
+      "at": "2026-10-20T10:44:57.988389Z",
       "change": "published-source-set-updated",
       "previous_source_count": 2,
       "new_source_count": 2
     },
     {
-      "id": "GF-83C328D330B5D5",
+      "id": "GF-C4978B9612F97E",
       "revision": 3,
-      "at": "2026-10-20T10:18:19.020775Z",
+      "at": "2026-10-20T10:44:57.988389Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-83C328D330B5D5",
+      "revision": 4,
+      "at": "2026-10-20T10:44:57.988389Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
       "id": "GF-6F1ACAC5C96A27",
-      "revision": 3,
-      "at": "2026-10-20T10:18:19.020775Z",
+      "revision": 4,
+      "at": "2026-10-20T10:44:57.988389Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-0A13FE2F49FAE2",
-      "revision": 3,
-      "at": "2026-10-20T10:18:19.020775Z",
+      "id": "GF-52DF3E405DDC16",
+      "revision": 5,
+      "at": "2026-10-20T10:44:57.988389Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
