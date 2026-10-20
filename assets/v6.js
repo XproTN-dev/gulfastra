@@ -87,9 +87,7 @@ function highlights(){
 }
 async function pull(){
  try{
-  const response=await fetch("data/reports.json?ts="+Date.now(),{cache:"no-store"});
-  if(!response.ok)throw Error("HTTP "+response.status);
-  const data=await response.json();
+  const data=await window.GulfastraData.get("reports.json");
   if(!Array.isArray(data.reports))throw Error("Invalid archive");
   archive=data;highlights();updated();
  }catch(error){
