@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "generated_at": "2026-10-20T12:11:21.249577Z",
+  "generated_at": "2026-10-20T12:11:56.632328Z",
   "model": "deterministic-source-correlation-v1",
   "disclaimer": "Clusters are related PUBLIC REPORTS, not confirmed incidents. Source counts are not proof. Country names are mentions, not incident locations.",
   "events": [
@@ -1329,6 +1329,51 @@
       "digest": "c6444bda472114e5eba6",
       "revision": 2,
       "updated_at": "2026-10-20T10:44:57.988389Z"
+    },
+    {
+      "id": "GF-88F3679B65275D",
+      "title": "الخارجية القطرية: على إيران تأكيد حرية الملاحة وفتح مضيق هرمز - صدى البلد",
+      "category": "transport",
+      "topic": "maritime",
+      "countries": [
+        "Iran",
+        "Qatar"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T10:41:00Z",
+      "last_published": "2026-10-20T10:41:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "4a62d21ca281503996adc618",
+          "title": "الخارجية القطرية: على إيران تأكيد حرية الملاحة وفتح مضيق هرمز - صدى البلد",
+          "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFB3ejN0UVNCWXNpaG5XZWZuNl9ITURSUnlVMkhtSmFQUXBKTi1Bbi02a1BKMTNmcUs4VzNhYklUMTJUUnp0d0Rv?oc=5",
+          "source": "صدى البلد",
+          "provider": "عربي · مضيق هرمز",
+          "published_at": "2026-10-20T10:41:00Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "digest": "58b44d93cf65c213d693",
+      "revision": 1,
+      "updated_at": "2026-10-20T12:11:56.632328Z"
     },
     {
       "id": "GF-E02730A1027083",
@@ -5677,51 +5722,6 @@
       "updated_at": "2026-10-20T07:40:58.957167Z"
     },
     {
-      "id": "GF-EB4ADBA3FF937F",
-      "title": "البحرين تعلن اعتراض هجمات إيرانية جديدة.. والكويت تتصدى لصاروخين باليستيين وسط تصعيد أميركي-إيراني - الساحل الغربي",
-      "category": "security",
-      "topic": "interception",
-      "countries": [
-        "Bahrain",
-        "Iran"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "ar"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-19T21:58:54Z",
-      "last_published": "2026-10-19T21:58:54Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "c1138a2262b02b848c7569fe",
-          "title": "البحرين تعلن اعتراض هجمات إيرانية جديدة.. والكويت تتصدى لصاروخين باليستيين وسط تصعيد أميركي-إيراني - الساحل الغربي",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1hcEthLUFQRmFqekJvQkpzMDZNR3Q2MkJKdVVTbkVxRHZiVEdraW5Hb01TMWpDUm5wNDNFdFhqR0JxNlgzNEZ1eGMwc0dXeFE?oc=5",
-          "source": "الساحل الغربي",
-          "provider": "عربي · الإمارات والبحرين",
-          "published_at": "2026-10-19T21:58:54Z",
-          "collected_at": null,
-          "language": "ar",
-          "country": ""
-        }
-      ],
-      "digest": "1e93f43b1dfdfb2b45ce",
-      "revision": 3,
-      "updated_at": "2026-10-20T12:09:33.601778Z"
-    },
-    {
       "id": "GF-A5770A06CD6844",
       "title": "Day 226 | At least two killed in attack on Riyadh airport - Roya News",
       "category": "security",
@@ -7750,51 +7750,6 @@
       "digest": "64c7018c4568f54faf27",
       "revision": 5,
       "updated_at": "2026-10-20T09:48:10.536726Z"
-    },
-    {
-      "id": "GF-2641AEE1D03B4C",
-      "title": "صواريخ ومسيرات إيرانية تستهدف البحرين والكويت والأردن.. والدفاعات الجوية تتصدى - الساحل الغربي",
-      "category": "security",
-      "topic": "missile",
-      "countries": [
-        "Bahrain",
-        "Iran"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "ar"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-19T16:18:43Z",
-      "last_published": "2026-10-19T16:18:43Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "a655d15acb89d9c6db5135da",
-          "title": "صواريخ ومسيرات إيرانية تستهدف البحرين والكويت والأردن.. والدفاعات الجوية تتصدى - الساحل الغربي",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE15VmNLVDgtRnRBRzRXaVowSlM1cTFRTEtwVGhhS0JoWVRpZ3FpdW1EZXZzdXN3SHcwNXVNV2s1N0tzMU9FYkZEZXFDWUlESWM?oc=5",
-          "source": "الساحل الغربي",
-          "provider": "عربي · الكويت والعراق",
-          "published_at": "2026-10-19T16:18:43Z",
-          "collected_at": null,
-          "language": "ar",
-          "country": ""
-        }
-      ],
-      "digest": "64eb47930abcb277ffab",
-      "revision": 5,
-      "updated_at": "2026-10-20T12:11:21.249577Z"
     },
     {
       "id": "GF-03476150E89A5F",
@@ -29054,52 +29009,6 @@
       "updated_at": "2026-10-20T12:01:01.151751Z"
     },
     {
-      "id": "GF-9F69636A94783D",
-      "title": "إيران تنفي الاتهامات السعودية بالضلوع في هجمات الحوثيين.. وتعرض الوساطة بين الرياض والجماعة - Euronews.com",
-      "category": "security",
-      "topic": "regional",
-      "countries": [
-        "Iran",
-        "Saudi",
-        "Yemen"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "ar"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-16T16:52:58Z",
-      "last_published": "2026-10-16T16:52:58Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "ed28506edd9df2faf718a26b",
-          "title": "إيران تنفي الاتهامات السعودية بالضلوع في هجمات الحوثيين.. وتعرض الوساطة بين الرياض والجماعة - Euronews.com",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSGVjV0Q1MTlicFZjWUM4ZHF1S3NoQ2NtcmZLbEgxWWxqMEh0T3EtS3FjWXFVTEZtT3BGejU3eUZ4R0lXT1hJZzJBZThuOGM2cWNUaWpRQUpsTTFzZUJnZWFCSnY0N1JsTm5VcHV6MEhoRnBYNDZ3Sm1pdjBPcEs5R0hfVkVIeW5ZVkNQbTBqYUs5a2E4SzNWa19JWlpYTGxoOHRJ?oc=5",
-          "source": "Euronews.com",
-          "provider": "عربي · إيران والخليج",
-          "published_at": "2026-10-16T16:52:58Z",
-          "collected_at": null,
-          "language": "ar",
-          "country": ""
-        }
-      ],
-      "digest": "2364373f6d59210ec260",
-      "revision": 1,
-      "updated_at": "2026-10-20T12:05:00.342474Z"
-    },
-    {
       "id": "GF-6C65F0D672F1C4",
       "title": "UAE residents' update: Saudi flight disruptions, security alerts and latest regional developments - Gulf News",
       "category": "transport",
@@ -36935,7 +36844,7 @@
     },
     {
       "id": "GF-58682ABDDE355B",
-      "title": "How Iran's precision strikes picked apart Gulf infrastructure - Reuters",
+      "title": "Iran’s precision strikes picked apart Gulf infrastructure, blunting US war plans - Reuters",
       "category": "security",
       "topic": "regional",
       "countries": [
@@ -36963,7 +36872,7 @@
       "sources": [
         {
           "id": "aa17a6eca97a950b82cf3e2c",
-          "title": "How Iran's precision strikes picked apart Gulf infrastructure - Reuters",
+          "title": "Iran’s precision strikes picked apart Gulf infrastructure, blunting US war plans - Reuters",
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONmZVZ0RfSms3U0s1SVE3N3ZMeWxLaVhtTjczazRmNU40UkpCUldVbWZJVUtJVkt3cHdLOEpoTl9qY0lFXzdKWUtydmYzVi1MeDExbXB6eHc3NjAyTi1CT2lveE5WVUNPeHV5SndkU3BmRUNiS1JCQUI2bDYyZjd6RjltYUhzeFVmUDFPSU93NWo?oc=5",
           "source": "Reuters",
           "provider": "Google News · security",
@@ -36973,9 +36882,9 @@
           "country": "Iran"
         }
       ],
-      "digest": "1df11ea349ac8dd761b3",
-      "revision": 2,
-      "updated_at": "2026-10-20T12:11:21.249577Z"
+      "digest": "d2dc04b668cf89be9a38",
+      "revision": 3,
+      "updated_at": "2026-10-20T12:11:56.632328Z"
     },
     {
       "id": "GF-F569005F5A89B0",
@@ -46130,6 +46039,51 @@
       "updated_at": "2026-10-20T07:40:58.957167Z"
     },
     {
+      "id": "GF-EB4ADBA3FF937F",
+      "title": "البحرين تعلن اعتراض هجمات إيرانية جديدة.. والكويت تتصدى لصاروخين باليستيين وسط تصعيد أميركي-إيراني - الساحل الغربي",
+      "category": "security",
+      "topic": "interception",
+      "countries": [
+        "Bahrain",
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-13T19:23:44Z",
+      "last_published": "2026-10-13T19:23:44Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "c1138a2262b02b848c7569fe",
+          "title": "البحرين تعلن اعتراض هجمات إيرانية جديدة.. والكويت تتصدى لصاروخين باليستيين وسط تصعيد أميركي-إيراني - الساحل الغربي",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1hcEthLUFQRmFqekJvQkpzMDZNR3Q2MkJKdVVTbkVxRHZiVEdraW5Hb01TMWpDUm5wNDNFdFhqR0JxNlgzNEZ1eGMwc0dXeFE?oc=5",
+          "source": "الساحل الغربي",
+          "provider": "عربي · الإمارات والبحرين",
+          "published_at": "2026-10-13T19:23:44Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "digest": "91d855f2809f3e481b57",
+      "revision": 4,
+      "updated_at": "2026-10-20T12:11:56.632328Z"
+    },
+    {
       "id": "GF-535D35AC374D48",
       "title": "Iran’s IRGC Navy threatens to sink US warships approaching Strait of Hormuz - Middle East Monitor",
       "category": "security",
@@ -48131,6 +48085,51 @@
       "digest": "ea080223ff673507946b",
       "revision": 3,
       "updated_at": "2026-10-20T12:10:02.002002Z"
+    },
+    {
+      "id": "GF-2641AEE1D03B4C",
+      "title": "صواريخ ومسيرات إيرانية تستهدف البحرين والكويت والأردن.. والدفاعات الجوية تتصدى - الساحل الغربي",
+      "category": "security",
+      "topic": "missile",
+      "countries": [
+        "Bahrain",
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-13T13:09:10Z",
+      "last_published": "2026-10-13T13:09:10Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "a655d15acb89d9c6db5135da",
+          "title": "صواريخ ومسيرات إيرانية تستهدف البحرين والكويت والأردن.. والدفاعات الجوية تتصدى - الساحل الغربي",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE15VmNLVDgtRnRBRzRXaVowSlM1cTFRTEtwVGhhS0JoWVRpZ3FpdW1EZXZzdXN3SHcwNXVNV2s1N0tzMU9FYkZEZXFDWUlESWM?oc=5",
+          "source": "الساحل الغربي",
+          "provider": "عربي · الكويت والعراق",
+          "published_at": "2026-10-13T13:09:10Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "digest": "b7547e67f32d069beca6",
+      "revision": 6,
+      "updated_at": "2026-10-20T12:11:56.632328Z"
     },
     {
       "id": "GF-4BCF1CEDA6EA75",
@@ -50305,22 +50304,22 @@
     "Iran": {
       "events": 397,
       "reports": 436,
-      "security_coverage": 258,
-      "transport_coverage": 82,
+      "security_coverage": 257,
+      "transport_coverage": 83,
       "sources": 197
     },
     "Saudi": {
-      "events": 421,
-      "reports": 440,
-      "security_coverage": 318,
+      "events": 420,
+      "reports": 439,
+      "security_coverage": 317,
       "transport_coverage": 91,
-      "sources": 215
+      "sources": 214
     },
     "Qatar": {
-      "events": 39,
-      "reports": 41,
+      "events": 40,
+      "reports": 42,
       "security_coverage": 23,
-      "transport_coverage": 11,
+      "transport_coverage": 12,
       "sources": 25
     },
     "UAE": {
@@ -50359,11 +50358,11 @@
       "sources": 5
     },
     "Yemen": {
-      "events": 197,
-      "reports": 201,
-      "security_coverage": 186,
+      "events": 196,
+      "reports": 200,
+      "security_coverage": 185,
       "transport_coverage": 11,
-      "sources": 109
+      "sources": 108
     },
     "Israel": {
       "events": 52,
@@ -50381,36 +50380,36 @@
     "2026-10-08": 1,
     "2026-10-10": 1,
     "2026-10-12": 7,
-    "2026-10-13": 110,
+    "2026-10-13": 112,
     "2026-10-14": 137,
     "2026-10-15": 127,
-    "2026-10-16": 123,
+    "2026-10-16": 122,
     "2026-10-17": 178,
     "2026-10-18": 137,
-    "2026-10-19": 186,
-    "2026-10-20": 117
+    "2026-10-19": 184,
+    "2026-10-20": 118
   },
   "revisions": [
     {
-      "id": "GF-7AF3BB603BD54F",
-      "revision": 2,
-      "at": "2026-10-20T12:11:21.249577Z",
+      "id": "GF-58682ABDDE355B",
+      "revision": 3,
+      "at": "2026-10-20T12:11:56.632328Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-EB4ADBA3FF937F",
+      "revision": 4,
+      "at": "2026-10-20T12:11:56.632328Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
       "id": "GF-2641AEE1D03B4C",
-      "revision": 5,
-      "at": "2026-10-20T12:11:21.249577Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-58682ABDDE355B",
-      "revision": 2,
-      "at": "2026-10-20T12:11:21.249577Z",
+      "revision": 6,
+      "at": "2026-10-20T12:11:56.632328Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1

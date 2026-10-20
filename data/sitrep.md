@@ -1,9 +1,9 @@
 # Gulfastra | Open-source situation report
 Window: last 24 hours (publication-based)
-Coverage groups: 218 | linked headlines: 237
+Coverage groups: 217 | linked headlines: 236
 IMPORTANT: Unverified published reporting; not confirmed attacks or official safety advice.
 
-## Security (152 coverage groups)
+## Security (150 coverage groups)
 - UK to deploy jets to defend Saudi Arabia from Houthi attacks (1 headlines; single-source)
   - BBC Middle East RSS: https://www.bbc.co.uk/news/articles/ckr5yqe1r1llo?at_medium=RSS&at_campaign=rss
 - مقاتلات تايفون البريطانية تستعد لحماية أجواء السعودية من الصواريخ والمسيّرات - موقع الدفاع العربي (1 headlines; single-source)
@@ -33,7 +33,7 @@ IMPORTANT: Unverified published reporting; not confirmed attacks or official saf
 - Yemen war escalates with deadly Houthi strike on military recruits (1 headlines; single-source)
   - middle-east-online.com: https://www.middle-east-online.com/en/yemen%E2%80%99s-war-escalates-deadly-houthi-strike-military-recruits
 
-## Transport (42 coverage groups)
+## Transport (43 coverage groups)
 - Yemen’s critically ill are trapped as war closes the country’s airports (1 headlines; single-source)
   - Al Jazeera RSS: https://www.aljazeera.com/features/2026/10/20/yemens-critically-ill-are-trapped-as-war-closes-the-countrys-airports?traffic_source=rss
 - "إتش إس بي سي": الطرق البديلة ربما تغني عن مضيق هرمز خلال 5 سنوات - الجزيرة نت (1 headlines; single-source)
@@ -44,6 +44,8 @@ IMPORTANT: Unverified published reporting; not confirmed attacks or official saf
   - english.aawsat.com: https://english.aawsat.com/world/5331506-irgc-2-tankers-hit-mines-set-ablaze-south-hormuz
 - Riyadh airport reopens: Airlines delay Saudi services, with some routes pushed into 2027 - Gulf Business (1 headlines; single-source)
   - Gulf Business: https://news.google.com/rss/articles/CBMizAFBVV95cUxOWkFRc1RnUmh4NE1VNkwwR1habzFXRXZMSmprMVV3Q29FanhCdGtUUEE2NGVmcTVOYUFPeUdhdlN3TFhqMlpoeGd2Z2s3VkN3OHJsQ2F6TU5hcFFxYndsLVF2dTNwa0ZHeGZrUkhCRmVHbDRsbW5uZkRYal9LRXRJS2J2ZTN4QTZfY0s3ODFiWm5lTFhXQUVLX2xzcEVWeWwwbFJHeHhXYk5ESWJPN0VQN2dCSHpXT25OUDZPY2tRbnpOd1dFVG5IbU50d1c?oc=5
+- الخارجية القطرية: على إيران تأكيد حرية الملاحة وفتح مضيق هرمز - صدى البلد (1 headlines; single-source)
+  - صدى البلد: https://news.google.com/rss/articles/CBMiR0FVX3lxTFB3ejN0UVNCWXNpaG5XZWZuNl9ITURSUnlVMkhtSmFQUXBKTi1Bbi02a1BKMTNmcUs4VzNhYklUMTJUUnp0d0Rv?oc=5
 - رئيس "HSBC": مضيق هرمز قد يصبح قابلاً للاستغناء عنه خلال 5 سنوات - www.aajeg.com (1 headlines; single-source)
   - www.aajeg.com: https://news.google.com/rss/articles/CBMiyANBVV95cUxOVFpHU1pvSmU5dFlXVE1RbDFORlk2YnlXUndCd3BscUJ6Vk9nNnJ2eEktN3EwX2tXcC1fRWhaT2RhdmtaU1pqa2UtTzlQMk8yTi1sUXpzZ1BYcWVLZlQxM291VFpPSW56emNYbEk2WDMzN01tWThSR01VX2hGcll5TF8tX05kcG84Q3hxWnN6V3NJZTJHV2ZDUkFrQkc1YUNlSGFQYXdXYnR0WkhiREpPbWZlSnhlQTRvMW9iaWk0MllaYUxTOVY5Q3l2ZFVUeTRPa01pR3RGNXVCVVJGRnVPdlBFOXN5aVFvZzNqNC1PMDBSTGtVWHZwV0VUSmFVc3ZUaEFXamNFNGRrUXY1LUlmQ2l3NWUwek1xU1QzTDZsb2ZBQXZ0OGtBdUNrYmdJWVoxWXdadlA5T1c1NDZnTVBSWUlPUVFMOHRpbmEwQ1VRM1RiUkRscFhQX3pFMXJGcWp1ZV9iNlNhNkxIek1EVTlkSDFrSG9LTEpydDBSZGtGMlhxSWhMdFc3RkFNV3RVY0xmaWN0bDFOYlM3WFpvbGpJbEFCN0pZbE0xNXhDNWpoVGRtbXhPUlFmYlpzUThVWXRGb2VEWXYxMlg?oc=5
 - قطر تعزز دفاعاتها الجوية وتعتزم إنشاء مركز للصناعات الدفاعية.. موقف حاسم من مضيق هرمز - nedaelwatan.com (1 headlines; single-source)
@@ -61,8 +63,6 @@ IMPORTANT: Unverified published reporting; not confirmed attacks or official saf
   - WANA News Agency: https://news.google.com/rss/articles/CBMilwFBVV95cUxQeVl3dFE3V1o4bnBtUHItT29BRTlvNl9yMzhUVm5qQ2ZxNmc4RU1pLXB0VTRvWU1MLTNJem9fLUxKeGZ2X1VMREk2QktBRWdBRVZvWGlGcnA4YTJwZjh1MzVCM2kzUHVtblpqVEpwakpFc21wVFQ5SDFaRGRsS2tkdzJNS3h5NjN2QWNVS2xpN09xcldKTFh3?oc=5
 - "إتش إس بي سي": الطرق البديلة ربما تغني عن مضيق هرمز خلال 5 سنوات (1 headlines; single-source)
   - الجزيرة نت · RSS عربي: https://www.aljazeera.net/ebusiness/2026/10/20/%d8%a7%d9%84%d8%b7%d8%b1%d9%82-%d8%a7%d9%84%d8%a8%d8%af%d9%8a%d9%84%d8%a9-%d8%b1%d8%a8%d9%85%d8%a7-%d8%aa%d8%ba%d9%86%d9%8a-%d8%b9%d9%86-%d9%87%d8%b1%d9%85%d8%b2?traffic_source=rss
-- Saudi Arabia Flight Update: Lufthansa, BA, Etihad & Qatar Dates - Travel Tourister (1 headlines; single-source)
-  - Travel Tourister: https://news.google.com/rss/articles/CBMi8wFBVV95cUxOVWRRc0pFNEs2Sm13Yk4xRlhud3VFTVJhSmYzRHJwcmxBNEVrRTNHVDByYmJobjVKclFOZmU1aWxCOHNYYVRDR2lMQjdWTW56dzVBbkhtV3FoZnk1SG9aS0o0d01VaU42ZktCUUoyV2F5cEhlallHeG5ab2l3SDFqWm1RSjFjZXJFMV9IX0VGM29aQWxjckMyOVlFX1JJMENoSUNBVk94M3hhYU9DU0tONHN4LTd4WTR1S3lRTFF5UmdtY0R3dVVOOVpEVnJPV3RqS3ZJdXJNU1NFLWp3QllId0xEb25RWU45dDJ2SlZMVy1MZDA?oc=5
 
 ## Diplomacy (24 coverage groups)
 - Iraq Bid To Mediate Iran - Gulf Tensions Faces Major Obstacles , Former UN Envoy Warns (1 headlines; single-source)
