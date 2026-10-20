@@ -1,7 +1,7 @@
 {
   "version": 4,
-  "last_run": "2026-10-20T06:50:17.044909Z",
-  "last_successful_run": "2026-10-20T06:50:17.044909Z",
+  "last_run": "2026-10-20T06:51:38.188257Z",
+  "last_successful_run": "2026-10-20T06:51:38.188257Z",
   "reports": [
     {
       "id": "942c1403b856ad0f708c98ae",
@@ -36,6 +36,51 @@
       "provider": "Google News · aviation"
     },
     {
+      "id": "60e7dda37ba7a84c80b6064c",
+      "title": "سبتمبر نت - الحملة الدولية لكسر الحصار عن مطار صنعاء الدولي تدين استمرار معاناة الشعب اليمني",
+      "url": "https://26sep.net/index.php/more/reports/137710-2y9a",
+      "source": "26sep.net",
+      "published_at": "2026-10-20T06:15:00Z",
+      "country": "Yemen",
+      "countries": [
+        "Yemen"
+      ],
+      "language": "ar",
+      "category": "transport",
+      "tag": "اضطراب نقل",
+      "provider": "GDELT · article index"
+    },
+    {
+      "id": "a1f0881af675979ad2f05574",
+      "title": "ماكرون وأمير الكويت يبحثان تطورات المنطقة ويشهدان توقيع اتفاقات",
+      "url": "https://www.libyaakhbar.com/world-news/2900090.html",
+      "source": "libyaakhbar.com",
+      "published_at": "2026-10-20T06:15:00Z",
+      "country": "Kuwait",
+      "countries": [
+        "Kuwait"
+      ],
+      "language": "ar",
+      "category": "diplomacy",
+      "tag": "تطور دبلوماسي",
+      "provider": "GDELT · article index"
+    },
+    {
+      "id": "d906229af13f45287e833ac8",
+      "title": "Live : oorlog in Midden - Oosten , Trump over Iran en laatste nieuws",
+      "url": "https://www.limburger.nl/buitenland/hegseth-ontmoet-netanyahu-tijdens-onaangekondigd-bezoek/163314514.html",
+      "source": "limburger.nl",
+      "published_at": "2026-10-20T06:00:00Z",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "language": "en",
+      "category": "diplomacy",
+      "tag": "DIPLOMACY REPORT",
+      "provider": "GDELT · article index"
+    },
+    {
       "id": "961db4ebeff33241784e2927",
       "title": "US-Israel-Iran War Latest Live News: Iran Claims It Shot Down US MQ-9 Reaper Drone Over Strait of Hormuz, Says Tally of Downed American Drones Has Reached 54 - The Sunday Guardian",
       "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxObjhGRDUxUHJGaENLanMwMmdFY1IxUUpfZEtiWnhyR3psekhtVWF6VWEtajlKeDkydGY3aDgwR01nVWtxOUdibVdNV3ZKWWQtYmtBNHppSTlGRGp4ejVMX1laSUtVUlU5SEJITFpqWUFyeUZQMW1jakhUa3dKb0Y4d0JmYngtQ3cxcGxmVkY4MEZNNVI4bG8tTE5peUtrSm9ncjBqUnNSS2toYWF6MVRWV1BjclVlbzNxb3k2QlREMTBKNlV4MWtNOFJjcGdDY242eXRsVkxtbXNwd3hEUDBManA2TjdhRF84cjM2dXFPTE1URDEtVkRfS0gwRDdyN1M1NFNLQzltTEo5WWFVVGVjZVo0eC1UQ1pCdmNRVlNZclo0Vkx3bThR0gGsAkFVX3lxTE9PYzlDN3JxZFhkd1MtcHhKNkpUc0VsV2VyeTVHLTdJVUpxYzVfUEFmZXM2UWxhNXVTUkp4Z1ZUT1VlUGRwNnM1YU1VQ3lOSlRGb2hRNm9Ba3ZrTUEwOEpYMFp2Smhaajk0TDVIcUZjRzBIVnVJazdRNWI2dnBPclJMVFJucEpJU2JiX2NRcG9YdEhLM3pDdGstS292bjlNUndabDVsTkdSSTJ1QWg2SnNMcUFxSVVaWWtaMHZ0MFRUbHc2TU5YWjEzZXQ2b3ktU1ZwZWxWYkxPVkw0WTJqSmpteGduOWEwb1R1T0dwS19oMUswMG5mMGNlcHRWZHQ0Q1A5VEx3cXUxS3MyZW9QWHdKbkZwT2VuMGNBYjJDNENoOVZVd0UtWnJoSFRkWg?oc=5",
@@ -52,64 +97,17 @@
       "provider": "Google News · regional"
     },
     {
-      "id": "12ce8ac08293d362c6244693",
-      "title": "صحيفة أمريكية: القوات اليمنية تكشف نقاط ضعف الجيش السعودي - قناة العالم",
-      "url": "https://news.google.com/rss/articles/CBMi1ANBVV95cUxPRndIM1hvcFlvaUZrR2g3QkVBUnRqbzVyNGlfd1pmdV94bjlZWmxhejNLUDZBaGlSS0JmcGQzZEtheW5WM21WZnMxeXRBTm5VbXVyM3VNWkVrX195QWdHTDJzNmJmNXFnUklRUEVmMlFBMHhmTjJRT0RLMWFvSXlfbjlEbmRxR3lyX0JpVkppcVVhTjNqaHIzWUkzWGowbnRnVWE0S2xlLXJCLTVpNmxQMzZqMmRQcUUwVVgydzJhZlNjdGZYZ3hvLTYwaEFLbmE5QlZQcnhuUk1yYy00VkVUX1U5VWNHaFJQdGs5MTREVUJnTFdtX1BoWFN6R0RhQm1tTnRuUWR4UkFfYjlkOGlDUm5yNDhnWThpYTJtcTg4VGRnSlp6aVBpY2NxNGhUNlhoVmIyTzBSVWVHMmhjc1dlZUJjS25OaDJjSklZSFZINXlSeVc3Z2ZzX1VwcUtqT3Yxam1hZzBHS2hDRHIyeUdzd21zakJEWXM0bGZRdXpzN255ckpieFFtZk5Dc0dMZFdCanhjQUhsSGpQeU1YY2xRLTdGclFDMTZocGJycENod3RhLVN6eTVaUmMxZTRVRFhmN1VobkVyVUpzLWNHQXNra3k1YVA?oc=5",
-      "source": "قناة العالم",
-      "published_at": "2026-10-20T05:33:23Z",
-      "country": "Yemen",
-      "countries": [
-        "Yemen"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "تقرير امني",
-      "provider": "عربي · السعودية"
-    },
-    {
       "id": "8aabd7d966e62cfa91176661",
       "title": "أمين «مجلس التعاون الخليجي»: ندين الممارسات الإيرانية المهددة للملاحة في هرمز - الشرق الأوسط",
       "url": "https://news.google.com/rss/articles/CBMi1gRBVV95cUxQRGxvTDRBTC12OFpxbkwtdDJGYnZ6cE5RVUNvM0U1dHFjUE5TZmlDVFZCNmRwejRNamFRZjE3ZENCVXNfWHhWRzR2TUlFMFJPdGZvWW9JZ1hFdFAyRzMzWW1vZVlLYng4NGVCRlh4TVhGMzBvSXVDQVJPWUlSdEdPZTlFdW5ldEZnOFFYWm95cUU5QXFaQ3ljTm5tZGZURjF2SFhIZ3dUb2x4VmpUd2stX2RNMk45OGRnaWFQMWxOS1Utd3A0Yy1MaFpzcHJCdTIyXzl5MldSUEFqMmlHQm1yN2pobW9yZ2pZdk42TDNTNDFxVWlKY2xVR3JSX0ZiRnhiYmlJaE90WER3cnFmTFB3NW9BMW9MYjR2ajYyd054YzRocFB5UHU2NEV5Mi1UOGpwQnd4RHNLQXRKWVc2SW40NnAtMmFhQTFWYTFubmNJRDRjSks2RU9JSHowOFNJdkd4Tkd2UzRmb3MtaF95Y0FiaUdUdzU3ZFc1NWhXVTJDbGpQVWNkTVZTZ2RfWENVUFdubFVRWDJjeV9Bb0d6ZXBMS042WkdDdkVxZWdqa19sTk9UdFhNaDVqUjRlYld2d01GTmIzbDdoNzBLLU9EZmctV21hdFJENS1TU2RFalRab29HVHRxYi1va1pGMjEyNVJYT2ppQVhSVzcycTNRQXFpY2psZW5yYVhnYWs0akhjSlFmcmJORWVCVU8yRlZwSjNjRVZYSm9vQUNRYlZTTlBIR2IyVm9XU2VSUmktVVY4Z2lHTC0yMWRmVmdUSmZQb002NXRyd0x3?oc=5",
       "source": "الشرق الأوسط",
       "published_at": "2026-10-20T05:29:18Z",
-      "country": "Iran",
-      "countries": [
-        "Iran"
-      ],
+      "country": "",
+      "countries": [],
       "language": "ar",
       "category": "transport",
       "tag": "اضطراب نقل",
       "provider": "عربي · مضيق هرمز"
-    },
-    {
-      "id": "4d69f4cfca3c22f302043511",
-      "title": "زوج جندية أميركية يواجه فانس: إخفاقات قيادية تسببت في مقتلها بمسيرة إيرانية - العربية",
-      "url": "https://news.google.com/rss/articles/CBMiigVBVV95cUxNT0Z2ZmI4aG56TzB4WmViMGlpRXNPRVBlN1gwT25ITVduNGx3V1E3ZFMtTUJKOWVkSlR4TGJtRzZoV19hdkJmZUp4NEFsYUd2SVIxS3VZLW9TWjN2dkRBelBSWGFoNDkyeWM1WFZUX1hzbTlJWkNDdDZ0M1htQVM4QU1rSE9RODdJUTBxa1g4Q2lRRHNGdzhWRENOaU1MSVJUbW1ET2FSMzlXb3ZqWDVPMWNEb0Vxclk4WGoxRC1nTVBlZzRoVUV3MmVsdXVBck1femVadzFuMG9BOTJMQ3RGUkNOZ1VHUHBuaUQxa3F5NFRQUXl6LVNMQUhua1lwY0ZJZmlMbzFFR1J0UWJrQmh0bUNCWEtpaV93R2d5VUVGZTVCek9QUVN0UktvZTg3dTBXeGJLM2ZteHRZOTI0eHZjRzAwTHVuY1FoeE9MUTJJek5SUFg4dkRyb25CZnotNzZWTktMd2hXS0hadnBVUlJWZnFtbXZuWERaak9WNjNpX1dZNnF1b2dxN2VXMVFPV1VlSVo0aGl6aGZsUC1BaGVqaDZpUDhNX19JbFZKc1dwRnRzR3ZDVVVqVm5KQjlnclY1VjFieTcybFd1ME9QX25HOVpXdHp2ckNwbUlGWE52aVJZQWpHV2hqdU1JcWpFbVkwaU50X1g5aFJQY3NxZ1hpYlNoRE9Pck1lMExFQVY5X2pUNTNKRk1BaW45T3p0N0VBUkRSeVY5LTN1S1J5dkU5YmxJZENBWldtSWZWVXlRN19QV19OSnVNQXhRcHZRNWdPZVRWQ1BJUHU1TzBnMk96dWk0U1pIWWd6bDh3elRwbklyMkE2NkhYazlteWFHaGhiZFNXZHJHZTFEUdIBjwVBVV95cUxNb2hsZTBlMHdtNnowNDN5YWdYb2V1eEZCVEVPUm9Ia2NEcGVRdXNwRHVDSmJDRzZwUElOdklDRDNQNmxYTUx2eHVDaUVsa1IyempjZ1FocjJGcmtrZ21fdEgyX2VvMFRiUlFtbUdOQnFwYzB6Z3pDXzhwcVRmbGhLUlotTDNYa3VqNFJQTS1ac0FvRnIyRllva3FIV1N3WVJzVExuTnZEakVzLWpPVVJHRjRGY2FnY09Ea1ZVVW1RWW5fWkQ4WWxTdUd2UlF0NmNwM0VBUGlpc0pQTDYtNVc1MFBSWlRWNjNpSjNFVVYwcHVOYzItQjBrM3NTRHRnWkpDRnFsS2xHaTdTUmN3NWtBTlRueEI0bTVvdTRYN2dtQWtiV1N6TWxlYVFva0V0ZGZ2SHlqQlU5Yjd3d2pvUlVLMlZhcE1TUm5qZnd2Z0RWZms5eGNMZ0hUbEdxYlhkYll1TzdhcTBxcDdXc2RhWUpkaldxR0hpR1dhX01NcDM1U3BtYjRnb2pFLVdQTTZkSGNPZjhLZ085ZHZvb1FYNlFyMm1KZnc0MjRFZ08wZEo3YWswSzh5SE93UnpwZDJLSFJXa1Fack5jRjJRaUk2a3pVbHlydXA4WHNudFJqcWNXTHlaM0RIczhQVEZRM2tyYVRVeHpnaVI5emV0S0RZZDhmenZnemRnWVYwaF9NMUM5eEE2OGdPYTgzVzFVaGJvM1l2TzUxTVZCemppNndTenNiWklWcEc1eGl4enhPZjRvMUlJRXVDXzM4TnMtM1ItQmNZUXh3bk9DcGZhN2NENDZKOWR1TDUxdV94TXM4amRleEVzdlE2TjlQcXRpMGtONTdXbHpTRUNyN25BWTBZTWdn?oc=5",
-      "source": "العربية",
-      "published_at": "2026-10-20T05:01:00Z",
-      "country": "Iran",
-      "countries": [
-        "Iran"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "تقرير عن مسيرات",
-      "provider": "عربي · العربية"
-    },
-    {
-      "id": "5d15a22a083a3209385451a2",
-      "title": "زوج جندية أميركية يواجه فانس: إخفاقات قيادية تسببت في مقتلها بمسيرة إيرانية - العربية",
-      "url": "https://news.google.com/rss/articles/CBMijwVBVV95cUxNb2hsZTBlMHdtNnowNDN5YWdYb2V1eEZCVEVPUm9Ia2NEcGVRdXNwRHVDSmJDRzZwUElOdklDRDNQNmxYTUx2eHVDaUVsa1IyempjZ1FocjJGcmtrZ21fdEgyX2VvMFRiUlFtbUdOQnFwYzB6Z3pDXzhwcVRmbGhLUlotTDNYa3VqNFJQTS1ac0FvRnIyRllva3FIV1N3WVJzVExuTnZEakVzLWpPVVJHRjRGY2FnY09Ea1ZVVW1RWW5fWkQ4WWxTdUd2UlF0NmNwM0VBUGlpc0pQTDYtNVc1MFBSWlRWNjNpSjNFVVYwcHVOYzItQjBrM3NTRHRnWkpDRnFsS2xHaTdTUmN3NWtBTlRueEI0bTVvdTRYN2dtQWtiV1N6TWxlYVFva0V0ZGZ2SHlqQlU5Yjd3d2pvUlVLMlZhcE1TUm5qZnd2Z0RWZms5eGNMZ0hUbEdxYlhkYll1TzdhcTBxcDdXc2RhWUpkaldxR0hpR1dhX01NcDM1U3BtYjRnb2pFLVdQTTZkSGNPZjhLZ085ZHZvb1FYNlFyMm1KZnc0MjRFZ08wZEo3YWswSzh5SE93UnpwZDJLSFJXa1Fack5jRjJRaUk2a3pVbHlydXA4WHNudFJqcWNXTHlaM0RIczhQVEZRM2tyYVRVeHpnaVI5emV0S0RZZDhmenZnemRnWVYwaF9NMUM5eEE2OGdPYTgzVzFVaGJvM1l2TzUxTVZCemppNndTenNiWklWcEc1eGl4enhPZjRvMUlJRXVDXzM4TnMtM1ItQmNZUXh3bk9DcGZhN2NENDZKOWR1TDUxdV94TXM4amRleEVzdlE2TjlQcXRpMGtONTdXbHpTRUNyN25BWTBZTWdn0gGPBUFVX3lxTE1vaGxlMGUwd202ejA0M3lhZ1hvZXV4RkJURU9Sb0hrY0RwZVF1c3BEdUNKYkNHNnBQSU52SUNEM1A2bFhNTHZ4dUNpRWxrUjJ6amNnUWhyMkZya2tnbV90SDJfZW8wVGJSUW1tR05CcXBjMHpnekNfOHBxVGZsaEtSWi1MM1hrdWo0UlBNLVpzQW9GcjJGWW9rcUhXU3dZUnNUTG5OdkRqRXMtak9VUkdGNEZjYWdjT0RrVlVVbVFZbl9aRDhZbFN1R3ZSUXQ2Y3AzRUFQaWlzSlBMNi01VzUwUFJaVFY2M2lKM0VVVjBwdU5jMi1CMGszc1NEdGdaSkNGcWxLbEdpN1NSY3c1a0FOVG54QjRtNW91NFg3Z21Ba2JXU3pNbGVhUW9rRXRkZnZIeWpCVTliN3d3am9SVUsyVmFwTVNSbmpmd3ZnRFZmazl4Y0xnSFRsR3FiWGRiWXVPN2FxMHFwN1dzZGFZSmRqV3FHSGlHV2FfTU1wMzVTcG1iNGdvakUtV1BNNmRIY09mOEtnTzlkdm9vUVg2UXIybUpmdzQyNEVnTzBkSjdhazBLOHlIT3dSenBkMktIUldrUVpyTmNGMlFpSTZrelVseXJ1cDhYc250UmpxY1dMeVozREhzOFBURlEza3JhVFV4emdpUjl6ZXRLRFlkOGZ6dmd6ZGdZVjBoX00xQzl4QTY4Z09hODNXMVVoYm8zWXZPNTFNVkJ6amk2d1N6c2JaSVZwRzV4aXh6eE9mNG8xSUlFdUNfMzhOcy0zUi1CY1lReHduT0NwZmE3Y0Q0Nko5ZHVMNTF1X3hNczhqZGV4RXN2UTZOOVBxdGkwa041N1dselNFQ3I3bkFZMFlNZ2c?oc=5",
-      "source": "العربية",
-      "published_at": "2026-10-20T05:01:00Z",
-      "country": "Iran",
-      "countries": [
-        "Iran"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "تقرير عن مسيرات",
-      "provider": "عربي · العربية"
     },
     {
       "id": "b9d412bddc17ae495999a118",
@@ -144,11 +142,11 @@
       "source": "Crude Oil Prices Today | OilPrice.com",
       "published_at": "2026-10-20T04:56:06Z",
       "country": "Iran",
+      "countries": [],
+      "language": "en",
       "category": "transport",
       "tag": "MARITIME REPORT",
-      "provider": "Google News · shipping",
-      "countries": [],
-      "language": "en"
+      "provider": "Google News · shipping"
     },
     {
       "id": "a78581a65441219564eafb30",
@@ -186,10 +184,8 @@
       "url": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxNOXhBMGZFME9fdVp6ZExhWm1FTmFOaXBVeGY4TWo1eHRrcm5Bc0otaGFod01yUDM4MWt2MWd0M2hRTGUxWUthRGJUZWpGTnNNSnZFazZSUDFQX0YzOGNqbVhlbXpvWnEyTnR5TDU3NG85c3VENTJqRHNkcGpHMkNSQWxsd3pMZkN2bXJ0RnBDa29rMHM1WC1BQlQ5NlhCNGN0VDZ5eVVXcjdZUW9xQWZzRGt3T2lCUkZqRmUxR3hGcDMzQ2o5TGE0UEFYLTN0aEl4NXFYdjlNenppWjRKNFRld1A3VGdJWlg0X3I5TndjZWRKemJDMk1ZNHhLckNFaFUxWnU2ejctTUFGbEpJQVRGTjJqM2VKNGZNYVZJanpvRmlxcjVVa1E5cFJHX3pJbWt5MmdRTlpRVGxjNGg4MlplMldwTFN5ZmtYeGZrNzRydTRYRFJkMkdPalI0c3FUZzRGT0paUGlnbXVUS3ViVEZBY1VYdEJuR184N0J6cUJn?oc=5",
       "source": "بوابة أخبار اليوم الإلكترونية",
       "published_at": "2026-10-20T04:09:06Z",
-      "country": "Iran",
-      "countries": [
-        "Iran"
-      ],
+      "country": "",
+      "countries": [],
       "language": "ar",
       "category": "security",
       "tag": "تقرير عن مسيرات",
@@ -624,30 +620,14 @@
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE95SzM0OEhZbHNyMmpxaWVRYnJIUk5LNW1IWkI5U2pseFBUZEFxUDFmT3F4cVNMankyUHNtNVBoYV83S2lReWRZWQ?oc=5",
       "source": "المسيرة نت",
       "published_at": "2026-10-19T20:33:58Z",
-      "country": "",
-      "countries": [
-        "Saudi",
-        "Yemen"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "تقرير عن مسيرات",
-      "provider": "عربي · السعودية"
-    },
-    {
-      "id": "663943e3a4ec78bac9a53af7",
-      "title": "لماذا يتردد الأميركيون في دعم التزام واشنطن تجاه السعودية؟ - NOW الشرق",
-      "url": "https://news.google.com/rss/articles/CBMi4gNBVV95cUxPVGptQ0E0V1QxQ0hpRE5oaFJVVUxJdzQ5UllwYjN2dkJHbC1ZZnRTQ1ZMQ1pMSWZRZXJ4X0RnSllKOEJGUzc1S21fY1A3YlpOa0t5SE1aUlNJdU5oNW9jR2tYZmNZTXJuZ0pGOTA4el9jS2dBRFhBcFlmRlNDREVwTHd3XzJxRWVuOFpYcDVqeHpSY1JkUG1jQW13QUNzaFM3c2hzLVhTYVpBRHlsMmMxUG9abmp6eURaXzUzeWM4NjNmM1FTYWRvc3BHaV9IUVgwZEZLQUNhNkxlQThFSUhrZ1BGWF9wbGtYVWpRUHVxRFd0Xzk5LXU4alNKUF9PanJORVFMTlMwaVVKY0hhWTVuZF9WazVUSG9nNHVNVTJpaDlxTEtVYy1ELWZ2dTVRMV9wckI0RXBwS2hSaXd5aE1ub0tmRDF1ZUpZV05DQjZxbHNDTVB0aUZKZFNBRzlIQ2ZRTXcxU1JhNGNhV2U4QzgzajZKMFM1a1lMZ0dteXpIWnhQVUpIR1Zqekt0TUZlbkg2NzRobl9Eai1FZllPOEM4eXZzWVBRbWNSV2ZiRWNWOGpWT0VjTXNzYkxhLXhsbmdfSC1ncVJVUXY1NDRyUzlOV2d0aWpjZ0YwMHJjUjgwZHI4Zw?oc=5",
-      "source": "NOW الشرق",
-      "published_at": "2026-10-19T20:26:55Z",
       "country": "Saudi",
       "countries": [
         "Saudi"
       ],
       "language": "ar",
-      "category": "diplomacy",
-      "tag": "تطور دبلوماسي",
-      "provider": "عربي · الشرق"
+      "category": "security",
+      "tag": "تقرير عن مسيرات",
+      "provider": "عربي · السعودية"
     },
     {
       "id": "d4ea9c0a3d826b53e788b8dd",
@@ -668,10 +648,8 @@
       "url": "https://news.google.com/rss/articles/CBMirwRBVV95cUxNal9Ec3YtTmY4bFd1SnpUQ3Y5Y0pINzJ5cnhPcF8xQnhIVzR4ZUFMNHZCVjByM05sN3BtdXRLNUpnLURSVEJTTVNxNDhBODA1N2FtNmtnUnYxcFNLWWNKR3Nnb2p6ZmI1cWpYajA0SDhBWFVTX2d1d2plWEEtb3ZsM2ZLZWJRcHlkV3dQZzJsZEg2RGw2UVlHcjRMcDFIUFRBT21sSEtsREw2WnRzU0FKTGpNb3lGOW82TDVpMWpSeHhvUXFRU1ljenktSllOb1h3ZzB0S0I4a3o5alVGOGdsblJPb2NZMmx6ekZJM1ZUVG11MmdfMGtOTFh2ZE5PUXktMWc0LUJHZFFkbi1EMmRFNlhTSTNmZEZLUmpkSVRUTzhFWDcwZnk2ellrYmJRdzBoYXNidllNTUxIZFh5VGl4aUg0WF95VlVsaWFORW5ZaTd0WjUtZFI3YVAtcTRPTVRreFJqZWktaGc2UWl0djhJeGVWTHhVN092NmhwUlpaXzB3dmkwQ3pja2o5SE9jYzZ0ME94MnU2RHl6al9oMW9wZXRDMEZrUTBSMmRwWlRnZVY5SFVYNG1JRy1jaWxCMURXZ1B6UHpQRnVHWExnU3RYOUhjREZmajJzbDR3dnVoamdnb1BlOXlmNVNIVm41eFZkaGRsSGdlR1hqTlRNNUtEVGt1aHF1NU5DNDRQNVpOd3BDVTRZRGhUTGNqUnNsMGtZU18yR1g5aU0yS1VQMUpF0gG0BEFVX3lxTE1YaE90S3h5bksyb3FqaWpMNmpTVVl2VlVRZE5zaFNSQjhQOVhEd1BVU1VvM1FwYlN0SElBNmhzd2h4d0g1Z2pNdk1fMkpWUURlb2p5MjhqaFlQWUVYVzhkYkJhNGtrQ3BkVHczSkI0am1YTzMwN0wydklhSE1nTXd4dHlVb1dTZkZQRzYwREZQZWtFQU1BSFU5b0pLWHFxVHVTeVU0MXMteml0V0N0NFFwcmh3TVp6MTJ2TEZEbTBYOUdpa2FfeHZjOFFUM0VIU2pKRkpJeGR4bTZ3MlZZZUFvdHR5SmdxYS14eVJzZWlwRXdjM2Y4a2lWMEJkZk40OTdoU2N1Q3d6ZDMxOUl4TWdycXlKclBVT2UxNFQ5c1pEYUtFb3prNHhiaVItWW1aZ09KUE9sckVSMVE2WGdoRXZEY1h5UmpBSUdiNW4yVE1xLXBUUzdIdmc3bEUweWtuaHpBbFZUNDc3MFY2MUt0UzdvYjdJaVJHUEV4SDNXdGNEQWNkMm9xaHdTREZMbmZ6MEs3SmFOSjJ0enpGR1JldV9hY2NNeU00QXJ6T1pTN3NELUFJdHVNUTZTQ3VMbDkwTU1XUjkyTVZzcGs2OGRQM21zbjJRWDdQVkZTdUt4VFAzNTNZX3c0M2g4OWpvZTV1WGZaYTZZMzUyaTRXeFdNcmUxdTdNNTFsY1R4VS1fX3FMTWU1MG9aQnpqQU5GUVdCcjZPRjdaSHFZNXliTFFoYjQ0aFdZRQ?oc=5",
       "source": "Masrawy",
       "published_at": "2026-10-19T20:08:36Z",
-      "country": "Iran",
-      "countries": [
-        "Iran"
-      ],
+      "country": "",
+      "countries": [],
       "language": "ar",
       "category": "security",
       "tag": "ملاحه بحريه",
@@ -758,10 +736,9 @@
       "url": "https://news.google.com/rss/articles/CBMi5AJBVV95cUxNU0JRT2ZjS3lyR21qQzMxcUkyTkFTd0pUVEllTnJTY05fcmgxMzJUN3NsOTA0Mms0S0UyNlVXcnRRRkpmUWdGT09IY1lHTUk3ZjRIUlh6RWJJNTZTUERVRGJJZ195VHRvU084Y3U1alJGNHVIZWhyR09sdGF0SUhFak9Dc293M1B1M0pQVTJuOVFaUy16bWNya2E0VlE5U09ESlhDMmhueGNlcEVsYU4wV0FlbzJwNXJNd1lkWEVyb3RXT29nRU9wR0dMRENhRlZSY3doU3ZqT213Q1B3ZDJMZmUyTTdyRTM3SFdwZEhNM0pNdHUtWUJZTXdpVzc1YnU5b25Hb2M1bUVkYWJPUWFpVllhYm5xNFBNWHVkcXFoblg1X2piNGpWT2syNGtDck9yazJyaldHMW5sczRwc3FZYTU3U1RSRjk3UjFqUktBdHR5bmhNcnM3bDBlQ1BpRnBDWk5oYg?oc=5",
       "source": "صوت الإمارات",
       "published_at": "2026-10-19T19:25:39Z",
-      "country": "",
+      "country": "UAE",
       "countries": [
-        "UAE",
-        "Israel"
+        "UAE"
       ],
       "language": "ar",
       "category": "security",
@@ -1073,6 +1050,21 @@
       "category": "security",
       "tag": "MISSILE REPORT",
       "provider": "BBC Middle East RSS"
+    },
+    {
+      "id": "02c49dcc3c7682d913adc079",
+      "title": "صواريخ ومسيرات إيرانية تستهدف البحرين والكويت والأردن.. والدفاعات الجوية تتصدى - الساحل الغربي",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE15VmNLVDgtRnRBRzRXaVowSlM1cTFRTEtwVGhhS0JoWVRpZ3FpdW1EZXZzdXN3SHcwNXVNV2s1N0tzMU9FYkZEZXFDWUlESWM?oc=5",
+      "source": "الساحل الغربي",
+      "published_at": "2026-10-19T16:18:43Z",
+      "country": "Bahrain",
+      "countries": [
+        "Bahrain"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير عن صواريخ",
+      "provider": "عربي · الكويت والعراق"
     },
     {
       "id": "e0d558673edba69f96cf",
@@ -1663,10 +1655,8 @@
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE02cFdxeG5zT0psN3J6WmVpUF9XNE5vOEdNeDRfMnBjOWhSQjdPRktGY3NkUXRudU9HNEhlaDJSR19wN04xMFMwUXlLTmVIOFRmbHFSenFyOUk0dFV0aTBv?oc=5",
       "source": "المصري اليوم",
       "published_at": "2026-10-19T13:08:00Z",
-      "country": "Iran",
-      "countries": [
-        "Iran"
-      ],
+      "country": "",
+      "countries": [],
       "language": "ar",
       "category": "security",
       "tag": "تقرير امني",
@@ -1708,9 +1698,8 @@
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOLTRuamJnU181RC1HbUJKd1QxekhMTnFPWEk4cGotM21ScnA0QlU1dFR2SEw0QTlGdHNrSlJQejgxYm92cmtWaGNYWF9uYWg1dW5VYTVmMml3VUxCcnZxcFVtSTE2RVNpM1ppTG9mSzBOMEhIRTRVWmY1bWpkTUtlQUZyRGR5SGw0OXc?oc=5",
       "source": "i24NEWS",
       "published_at": "2026-10-19T12:51:24Z",
-      "country": "",
+      "country": "Qatar",
       "countries": [
-        "Iran",
         "Qatar"
       ],
       "language": "ar",
@@ -2397,9 +2386,8 @@
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1PRGtZVWlOVDJHdWhWY2FKUkgyLW8yOEk5cW5KT1JGR1RQZm9odXRDdDlVb2QxUnZJU3phZm50NDBiMXlTV01aZGJYZXYwZjQ?oc=5",
       "source": "الساحل الغربي",
       "published_at": "2026-10-19T06:12:18Z",
-      "country": "",
+      "country": "UAE",
       "countries": [
-        "Iran",
         "UAE"
       ],
       "language": "ar",
@@ -3070,21 +3058,6 @@
       "provider": "Google News · shipping"
     },
     {
-      "id": "da0991c8dcc37929f8997f49",
-      "title": "تحتضن مليونيْ نازح.. الحوثيون يستهدفون مأرب بـ8 صواريخ باليستية - الجزيرة نت",
-      "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxNcTExWmpIMXpUVGE1akp1Q1RKVUlEbVdBX0Y5cDJNLVlxTGloVVBrSFpvbGdJU0x2bVZ4N1pwV09fZEV2VGFDbk9Bbzlfc09tZDJza3RYZmNRNi1oVnBRMEtOX3E4MU1IbnJtbVh4MElaMVVmcVU2U1JXNVo1U2pnZHkyR2dRa2IyT3hpZVdKaVdmbFNoTHlhall6VGlHTjlUX1Yyb1RyeXJXcEc0WnVzMEdvNTJJZVI5NHRqSWdyTko3YWRpNVB6WC1sTWV3cWJfTlNqOUk1VktvdGtxbjlsaGczaDN3Z3RDcUVFNExZQ3UzWWRpNWx0NG5SSVQ5a1FnWHJqRmdVQ2FIbGR1TS0yZDBPRS1EY1dFNUFiTUxKclRxQ0lrZzVsQ3VUYm96RXJUck5reG9YU2JmemtucFd0ZXFGQVVtdjh5RlcwSUcxakJUUdIB1wJBVV95cUxQYm12VERtM0ViSHdxWHgweUlXYmFzQWJULXNhQ2cyR0xMRXF1QkNJQVJtRFBRZVpadXZmbUw2d1NPWnNGc3RkN0JwVHRkSWZJX0dRdmM1b3haYTJMSWx6X1BjcnRhSktfUVpwT0pBWHVDQnhmazhIWjJFdkxWX25ITVRJS2xNRjVCYVhXSEY1NVdXMDEyeHpQb2hlbF9fdGtYdDNZcjl3UjltOWZBcHFnbWdOR0h0N3RrM0JCRVFfcGxOMUxvNXpqcVFEY1VIOWlIYnRpcDFqR3BBSkhCZ0lkcHNyUHh2bjZnWDlUNFE2R09rT3VJMkhNWTU1ajUyX0x6emVWaHFHQzlEcENlUUxhRjY0NFVUWHNhOURxWGFXUHA0ZkdqTFd3dE1uazloYTVYRlczMFpXNVZpbjRMeWM0SGwwaE10MEg0dTRfTzlER2I0aUg3V1hB?oc=5",
-      "source": "الجزيرة نت",
-      "published_at": "2026-10-18T22:39:31Z",
-      "country": "Yemen",
-      "countries": [
-        "Yemen"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "تقرير عن صواريخ",
-      "provider": "عربي · الجزيرة"
-    },
-    {
       "id": "13a8de8d23771a10abb52479",
       "title": "IRGC says tanker hit mine, caught fire in Hormuz - Breakingthenews.net",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVzFEUktQQm9PeW1VWTFtb0JkV0FrT1BKZmxiMFgySHpvRWttQVU1b0N0Tmx0TGxyYnlzc0V3ekdVclIwdWlHWWFybmpNN2dXS3pwdGlfSmRSbkhYaUppTFZMXzRCZ2VHNGJ2WFhMbFRFdWRuSlBPVVRsbXJKLU5xWlh5M0huOXZKbEIzUEVHXzNHeEItYk9R?oc=5",
@@ -3149,8 +3122,7 @@
       "country": "",
       "countries": [
         "Saudi",
-        "Qatar",
-        "Yemen"
+        "Qatar"
       ],
       "language": "ar",
       "category": "security",
@@ -3176,10 +3148,9 @@
       "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE04RWFXZHJvX0NqZVl6UDZqTzBNY2ZubzROTDgwQXo1T2o2d2piaGJidlZ2Y21BS1ZqN2FHYi1KbGtldk5MM1lN?oc=5",
       "source": "صدى البلد",
       "published_at": "2026-10-18T22:03:00Z",
-      "country": "",
+      "country": "Iran",
       "countries": [
-        "Iran",
-        "Israel"
+        "Iran"
       ],
       "language": "ar",
       "category": "security",
@@ -3192,9 +3163,8 @@
       "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5GNWJHYUJCT1ZVWXJpMFhyb1I3YWV2Q1RVYVJHRl9iNDgxcTlvcTJpalBScVl1TG1HaVlVLUk1dEZ2WENU?oc=5",
       "source": "مصريون في الكويت",
       "published_at": "2026-10-18T21:59:09Z",
-      "country": "",
+      "country": "Kuwait",
       "countries": [
-        "Iran",
         "Kuwait"
       ],
       "language": "ar",
@@ -3534,10 +3504,9 @@
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBiZGw2V1hnWU9fd2dscmdnZkVsSDFhR1VxZnc0U0hpMkhWc0tuaU81cTVqWW80Yk1YTm1HdHhzR1o4TzZkTlUyRmNVUG80Ul9Q?oc=5",
       "source": "المسيرة نت",
       "published_at": "2026-10-18T18:09:49Z",
-      "country": "",
+      "country": "Saudi",
       "countries": [
-        "Saudi",
-        "Yemen"
+        "Saudi"
       ],
       "language": "ar",
       "category": "security",
@@ -3580,11 +3549,9 @@
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5KOEFYWWRXb1hoci1nS1RrUW14RjY1bXpPekEyeGxDUlVha2MxODN5YXMtbFR3TURBVzJmaG9ZMUVtaklQbTQ4YjVub3VtX295RGV5M2toNVRoOHRpSUpmTGJVZWhlN0tPbHc3QUs5T1hhcFp6?oc=5",
       "source": "وكالة الأنباء الكويتية",
       "published_at": "2026-10-18T17:41:06Z",
-      "country": "",
+      "country": "Saudi",
       "countries": [
-        "Saudi",
-        "Bahrain",
-        "Kuwait"
+        "Saudi"
       ],
       "language": "ar",
       "category": "diplomacy",
@@ -3733,10 +3700,9 @@
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdkdiemgtUFpjeWtzRGh1N1Q5T3VjLXdnREsta3M5b0FhQzhyMjQzVVFkSGswRVZWWlctSnRVdWpJOGtLcG9xdnNsUEVKNUszTVZXQllLMm55UmEzUzZzcnhOUmNEdzEwT2N5Zk4zb0p0ci1UWm5iVmE1c0J0NjR4aXdhUE5BMUFZOHhnNmtKUnFWME5BclVJZFJNUDNtcE9JUmgzMkJjaw?oc=5",
       "source": "بوابة الشروق",
       "published_at": "2026-10-18T16:18:09Z",
-      "country": "",
+      "country": "Saudi",
       "countries": [
-        "Saudi",
-        "Yemen"
+        "Saudi"
       ],
       "language": "ar",
       "category": "transport",
@@ -3779,10 +3745,8 @@
       "url": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxNek5zT1J6UlBxNVlBVi1IenZqUEhyRmk1RUM5c0IzMDdZaVFtQXRoaVFzaExhZ2ZzdTZ0Qjdla0VSRDJDZkRYel9aMzM5NExFMUJ2dldFSl90ZTlkdWtWa0RnaTJKRll1LURaNFR1M3N1NDk0OHJSVWVEOHg0dl9rNGt1SnFLSHpVYWVHdmhYMWVERVpTOFhxTV8zbzd6c3RFUXhuYjVWdzB4cVdLZUxKSG9xYlZuS3ZhazhueG5EVlZzbFZ3bGN2clllNTFzTG9FNUlnRVV2V0dWbkl4MXhuUDlDSHpRNlhHakMxUzJsYmFfZ2l6NVVHUXVPVlZHR0dTS2RGVXM3bnN1ZGtFell0M3hodm5KbmF4emwtaUpkOXdITm5JdWpIcTl5UFpqOXlCWXpOb3pvUXFlQlIwZlpuMEpFTENiQjdBSEM1SU1BaULSAdACQVVfeXFMTXpOc09SelJQcTVZQVYtSHp2alBIckZpNUVDOXNCMzA3WWlRbUF0aGlRc2hMYWdmc3U2dEI3ZWtFUkQyQ2ZEWHpfWjMzOTRMRTFCdnZXRUpfdGU5ZHVrVmtEZ2kySkZZdS1EWjRUdTNzdTQ5NDhyUlVlRDh4NHZfazRrdUpxS0h6VWFlR3ZoWDFlREVaUzhYcU1fM283enN0RVF4bmI1VncweHFXS2VMSkhvcWJWbkt2YWs4bnhuRFZWc2xWd2xjdnJZZTUxc0xvRTVJZ0VVdldHVm5JeDF4blA5Q0h6UTZYR2pDMVMybGJhX2dpejVVR1F1T1ZWR0dHU0tkRlVzN25zdWRrRXpZdDN4aHZuSm5heHpsLWlKZDl3SE5uSXVqSHE5eVBaajl5Qll6Tm96b1FxZUJSMGZabjBKRUxDYkI3QUhDNUlNQWlC?oc=5",
       "source": "الجزيرة نت",
       "published_at": "2026-10-18T15:45:51Z",
-      "country": "Iran",
-      "countries": [
-        "Iran"
-      ],
+      "country": "",
+      "countries": [],
       "language": "ar",
       "category": "transport",
       "tag": "ملاحه بحريه",
@@ -3824,12 +3788,9 @@
       "url": "https://news.google.com/rss/articles/CBMipARBVV95cUxNdDIzWTNDcWI0Y0pCc3ZkMXM2andtTW1KSkFMUk13VXpaMTlYYXdZS2JNRjEweGlidVhpMXNZN2dZbUctQW5OUmhxSS1QekxpQ0ZnSkRNZG5Kci1ld1dBNHlhNmdsS09LM251NG0xUEx6VThldFI2NWxsWWlpRUtMemRvMzlKMlEwTFFSa1hmcXJUcUhqcGJyeTB5SUJSTmxIVGNYUUxDVTR5WEROdjA3YUVVMTdXT3NTRWk2QVQzcmh5Xzhya3hKcGZpOGdoYjNGblFSZUlyV3JqX0Y1OHJ1OGRJME4ydFB5WHdwWWpqek5xRDB6SkxsWjlXOGRYU2xFS0NhYmp3YTRneC1uWWItSHhjX0E1WjBXclYzTU5rWVZxOUN0YldoLTdzSDZINVY5SWxieVZxODI1ekhUV1c2dGNNdnNhSXZ3Ml9sSko3b0FYM25qMUdFSVZ6ZGlYWi1EMzdCTURjVkZVSUpqa0o3M3JkVmZyamRSOXZRTTFKVEdNWTdsalpfUUhUU05nQkxKWnBqc08tRHVhMHBac1BweUNvSTJwS1Q1SXRLalBwN21wdWN3d1ZUT3VZazdFZkdRQXF6TEJIVFU5eU5MWTY5WnlrUGNKN3JoVzQtb2pfUWh3VGVfMXdobko5TEw2RE9EQjRsUmNEMFJNZzZ1cUNFcWxOSE16bkRqTFdoUmgzNzNqNkZGMnhRMl9jVmdDazBBQktlLdIBpARBVV95cUxNdDIzWTNDcWI0Y0pCc3ZkMXM2andtTW1KSkFMUk13VXpaMTlYYXdZS2JNRjEweGlidVhpMXNZN2dZbUctQW5OUmhxSS1QekxpQ0ZnSkRNZG5Kci1ld1dBNHlhNmdsS09LM251NG0xUEx6VThldFI2NWxsWWlpRUtMemRvMzlKMlEwTFFSa1hmcXJUcUhqcGJyeTB5SUJSTmxIVGNYUUxDVTR5WEROdjA3YUVVMTdXT3NTRWk2QVQzcmh5Xzhya3hKcGZpOGdoYjNGblFSZUlyV3JqX0Y1OHJ1OGRJME4ydFB5WHdwWWpqek5xRDB6SkxsWjlXOGRYU2xFS0NhYmp3YTRneC1uWWItSHhjX0E1WjBXclYzTU5rWVZxOUN0YldoLTdzSDZINVY5SWxieVZxODI1ekhUV1c2dGNNdnNhSXZ3Ml9sSko3b0FYM25qMUdFSVZ6ZGlYWi1EMzdCTURjVkZVSUpqa0o3M3JkVmZyamRSOXZRTTFKVEdNWTdsalpfUUhUU05nQkxKWnBqc08tRHVhMHBac1BweUNvSTJwS1Q1SXRLalBwN21wdWN3d1ZUT3VZazdFZkdRQXF6TEJIVFU5eU5MWTY5WnlrUGNKN3JoVzQtb2pfUWh3VGVfMXdobko5TEw2RE9EQjRsUmNEMFJNZzZ1cUNFcWxOSE16bkRqTFdoUmgzNzNqNkZGMnhRMl9jVmdDazBBQktlLQ?oc=5",
       "source": "طقس العرب",
       "published_at": "2026-10-18T15:19:33Z",
-      "country": "",
+      "country": "Qatar",
       "countries": [
-        "Saudi",
-        "Qatar",
-        "UAE",
-        "Oman"
+        "Qatar"
       ],
       "language": "ar",
       "category": "transport",
@@ -3899,10 +3860,8 @@
       "url": "https://news.google.com/rss/articles/CBMiiwRBVV95cUxNWFRrV2JRVUFIRkFxOHN1VTNsb1ZTZ2FxVEw1bWlSbTlzQ2h1TDR1dURoNzhIQXp4M0oyY01qeC1VcWhBUVRadllzbTdzX3N5RTV6M1FDdmgwUzQ1dHVodjZfbkVQVjVjSk1YVVFYVDFVRU0xczZhdW8tRTdfeTIxZzJYNGVXeUFieWI3aVB5bjBvTnVRc3R4RHJrNnlLSzExZ1FFeS1XVUwyZTVMQ2djaU03YVJKdFlITFU2UEtyOHBEcHpaRlRwMFJacVNVQl9GNF9NRHhwNXQ3aU03SjE2Tjd5M0xrdVE4SnVod2ZoOE9fU20xTGxUOEJlZWdPdV8wWWJRb0MtSmMyakpRSTR5eGhwUXZGYmVvZFFGSVBoclV6OURqeGtNbkIyblhGb0pWX2RtRzJnanJBMms1d2lwV2VuN0hSemduRXRuR21mODM3X09MUEdyYkRfdnlhT0FxdUxBVzJod1dya1BUZWx1eU1FSUFNQXo5VjNnSmlNcVpaM2NHbWc4WE12MC1sbU5rS2dGYWo2aW5BV1ZqVE4wZjJiUDJqUnRZZ1FzaWhodE95cjJqUmg0enVadHhTRFVCczVKWFk1STRHRVJCMTRZWFFuZEl6c3NmalhaRUN0M0dEM0RaR3hvaGdzaEVCN3VnNDdNU1VJeTZRMHR2MnhiNDFkUlJ2djhwdjFZ?oc=5",
       "source": "معلومات مباشر",
       "published_at": "2026-10-18T14:43:45Z",
-      "country": "Iran",
-      "countries": [
-        "Iran"
-      ],
+      "country": "",
+      "countries": [],
       "language": "ar",
       "category": "transport",
       "tag": "ملاحه بحريه",
@@ -3914,10 +3873,8 @@
       "url": "https://news.google.com/rss/articles/CBMiiwRBVV95cUxOcTFZTWVXRkNkSmtGQU9wYU1IbGE3ZzROMGJ2ajVPVDBiYW0zUHNoc0FrRUN0Ui1LZXlNOFhRNmVOV3d1bkVFWDcxOW5sMThkNlhGZ3phc05yT0tfY2RtM0xORnk0d2lueTdGdTh6QXlTYjhlbzllOVdkUlZjLXVaM2tvWS01a3VaeDdHeU4yWGRxc3pRV2RXcG5VdFkteEdpdUtYQ2hCaEdUTXFoVHZuVjRhYU1DYnRuSjBuaXgyTlB4d0Nxdk55QlhoYV9iMHVueVNSZXpVZjFCeHVrRGFUUFpmVXF0QVhOMFVWNGtxbF9rLW5nbFJRMDgtNjRGVy1rMktXY28wNUVlMGRUNHI5QW5VVVNYaXV2YnVMWXctckFMSk1BY1ZUcXpIVVV1dUdyRmJLZUxycWRWMmNRcTR6cDhhLWx0Mm9XZV9kVHVBQ2ZpU3o0aFN0VDZPQ2pFNi04VXhyOG1sYzlldzYyczhVY1J3bHRxRUN0bm1kdnZST0psM3F4Q1RmU2h3THlpNk5FamtqYi05QXdHdk5Qd1NaY2VUeklwQWdtakMyLXdKRWNIS1I2Ym5VbjltRVQtMk1qTDhBTlRueld5LVJfc2E5SkNPVks3bFdVSVZoTS0yMThQa3lSeEx2TnF1M21Xa2J0WDRvWUZrYjNQeTF3UUNybEhEQldoMVotNktB?oc=5",
       "source": "معلومات مباشر",
       "published_at": "2026-10-18T14:43:45Z",
-      "country": "Iran",
-      "countries": [
-        "Iran"
-      ],
+      "country": "",
+      "countries": [],
       "language": "ar",
       "category": "transport",
       "tag": "ملاحه بحريه",
@@ -3959,10 +3916,8 @@
       "url": "https://news.google.com/rss/articles/CBMi4gNBVV95cUxPTUJOdHZ2SHhkZHNuX0RFS2RXaG1YY0lQWmFfOWRkRU1xektqOVdfYnktV3RyN0VoZHc2OV9fXzAzQ0RFUU9nU1U2ampPSkNKOGdhZ1ZtbUozaWNCOUpGcWVVeWtOeWktX0Y4OHZFWC11Q1dGa29WQTlEYWo1OUtjMnN3R2ljVlV6NXFGc0JHdnVUNmxKQzV4ak5ocXZOQnRaa1dUaEZHZUpuTW96aDNuOUZ1YW9vaXlMN1JNTTBTSDVFTDhiZjJUQW1fLU0wYW9BcUtDOG9NbmFLaHQ1d0d5Z05JMEYtbVdfWXAzcVM1ZDZ1LWtqUFZuYjlRVFktRlFQV0lUalJ0RURyMUc4amYzQmR5eGpDNXlERG1SOURIajhieW5ZS2I3R291MW5SSWVWdTVpc1ltd2xrU01MTGZ5dzg3Zk90MzZuUE1zS2pOZkVqZ3RSREk1TXVZY3dieFZzb2VWZTBEMzNsX2ZnSlBrVjVJV1R3Vkl5X1JOcHhjWWt3NFhuU1dEcXcyQTYtS0RhN2JHRnJsbEdKcHZsbjF4N2NtYlRXWXRhUlNZX1BlM2ZCcFJkSU0xT2ZrLURSMGxZZGlvX1BldUZPcEtqWXk1R3RlRFNBOWhua2lka3cxeUZqdw?oc=5",
       "source": "الشرق للأخبار",
       "published_at": "2026-10-18T14:11:45Z",
-      "country": "Iran",
-      "countries": [
-        "Iran"
-      ],
+      "country": "",
+      "countries": [],
       "language": "ar",
       "category": "security",
       "tag": "تقرير عن صواريخ",
@@ -4180,21 +4135,6 @@
       "provider": "Google News · shipping"
     },
     {
-      "id": "dd383d0c197c4665adb43473",
-      "title": "التلغراف: الحوثيون يسعون لتصنيع صواريخ باليستية بمكونات صينية - الجزيرة نت",
-      "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxQRWp3N0VOTU85bXZBSWpIeU9NeldvdWVsQzNDWmpFV0F3Z3l0TlAyMXoxenZxeXZZRnpDdllxaWNJeUdRWmVKMHpXdUgyeTdhMG8tbWhYbVRLOUE2ZTM0NUFlRkx6MnF4MFpKc0padzBodzJQdFM4VjR5dU9wVEFJak9YdlV0bzFZQWtKWHY4SlpjWEJWMzJlV0ljdWVHZGdGemw3bUd1VUdNX0ZuejA4UjJSMmpsNU0zSzU0MGMteEgyVVNkZXFmXy1qNmIyNHpWLWtVWE1yT0RHbURQWGoyVjVGSHJ2dWQ4Szc4R01OdTg2ZWxlWkg3dzJJYmJuYnZiYTZPbDI0cVlueW5YOVB6MHJYdHlJYk5pRW1nU0xBd2J4ZWNrVzdzUDladF9ISEY1?oc=5",
-      "source": "الجزيرة نت",
-      "published_at": "2026-10-18T12:33:15Z",
-      "country": "Yemen",
-      "countries": [
-        "Yemen"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "تقرير عن صواريخ",
-      "provider": "عربي · الجزيرة"
-    },
-    {
       "id": "9743bae6d51372bdf8df45e3",
       "title": "رومانيا تسقط مسيرتين فوق البحر الأسود بعد دخولهما مجالها الجوي - مرسال قطر",
       "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxPeFRqZDdwU0tiaEU0SG1NREVrSzZ1WDI0YTNjczF5YU8tb1phb3h4Uk5BYVN2eUd2QkdsYlRWSHY5a29qWGM2Tm10SWR0TVdpT2hRSkxqenN6ZWJ0dGNvVjdaRXk2ejBKZzJISHI4clBoNkE1ajk0TEc2dWdBdWR4ZXNtY2psaS1WZVczX0VmUkZXMERvblpIckJSQXpwNnpfWXVVSW5SRG5Sb29tOHhUc1JlWVlBd3JnNWx1aU9tUTFvNkJmOEhyYS1WZDF4VV91VTN5alBSQ0V5cW9ENTJtUnFkdEN0LXBPNUJ2YV9IdWFMUlRBMUNoLW1sNGdVMXptQkdVWlpBSlEweW1QWnRHM0dIM0E0X2xQNGFEWTRoMA?oc=5",
@@ -4328,21 +4268,6 @@
       "category": "security",
       "tag": "ملاحه بحريه",
       "provider": "عربي · مضيق هرمز"
-    },
-    {
-      "id": "d800db6f72a79f2af14b415b",
-      "title": "فيديو أثار تساؤلات إسرائيلية.. ظهور صائد المسيرات المصري - العربية",
-      "url": "https://news.google.com/rss/articles/CBMi9ANBVV95cUxNbUNCQ1BhY2loX3NjNzhPdkZyM3pkeHMzTjd5cFdpVHc5YkxHc0FDTVljTjJlMkJwRE9md2JIWS1Ca1I3OTJXSW5mZFB3WlhGbF91TWM1QUZ1ZkZ2Y25rOE9rRlBtMGtHcWE1cExFcVJXV0xLcFV1Z2FYVGRaSXJISXJQcUhmMnRXQnhpVkdTNTFKQkhsZXZ3QlMwRWI1eHdUdnp5a3cxRktvZUxiU1FCd3h4cjlpZTlEdHBmS0RTbXZLRjNYcUh6TTM0WkQyUEd0Ujh0cHQ3aEtTdDVkMWtILS1ldzlVSnVERi0xSENlOVk1eW1xSnJ5aUFxVXFsVzZIbXZqX0FvOEVnc29pSlZvamg4TGhJZGNLUExHT0JETF9GM2tpeXBkMmcycGRnLTlrdVM2dURCSDNvTWJWeWpNYmpvN3laR0ZvY3g2LUVPQnRZanBtNmFEVTBybGtIaHhiNDRWNHlNeHFsaktVNzg1QTZoUnhvMnNieDhwUTRMb2p2S1pMNVZkX3Bib1ltcnB4Q200cWhjLTJOdkFPdmxDMTFONHVtRXhYb2gtOFZXU2theTVZSFhfam16OUctbXAtNlBOOXVtWVFvVV9BaVZUY1dRMWNWMmROTkZ0N3RxNjNEWHpBWEduN1h5SzVQb3h0ZVhYb9IB-gNBVV95cUxNYUdWdm1Dd1FiWXpfUmpDb0tMXzVoMFRJUTJZSkFTZkdCVlNKS1FqMERLZDFMd1pUbXhkaHFTOEJPZVNEQTUwbGhIMlJYWHNGWGtGUUxxMUlvNVNQcVpJREZOQ2hKQmNPOHhLUUF2ZTN0QmtLeXFIT0RnT2ZOQ0JDeWp2VGJRVWJKU3NoUnEyVTQ4Q2dyRDhCc3E0cDh4NzVGeks4MDkxbDZza0pFWXMzSTVfZHV0NmpzbktVVXpNb253NGtKSGtZU0x3QkRBaG8zWWgtblp5V0c5WjAxdzV6dnNuZnYzMGEwOEJxNkJBSjItQmtlSHRNSnI4UE85anlJQlpPODFjclQ3OWNLXzU0Y3Y2Q1FvNjJxTG1URENpVnpOVlV3Rm41RnZZbG9iSmhQMnAtVHZqX05nU3ZEdDFKYnJmWUNuSmJKbGNra0t6YWhDM0l3RW0zMEllUEh1ZmVaektYbXdSbGJBNy05UGlYSE5XYkdTamk4dnRLWGowRWN6blk0cUhSUUZxaHBYN2Z1eWdaN1AwN0RNandzVndXRmRQSVFuZENycFBKQ3V0MVNEcGw0dkRSanpLZkp4TjhBN0RrNFVZem1lbGFuTWx1MnhmY2JlVmNBc0tYSl9FXzloUkFCZ2RUS0h5OTI1aVEzT3JTVEdFTnVMdw?oc=5",
-      "source": "العربية",
-      "published_at": "2026-10-18T11:32:00Z",
-      "country": "Israel",
-      "countries": [
-        "Israel"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "تقرير عن مسيرات",
-      "provider": "عربي · العربية"
     },
     {
       "id": "1719ca17be0d9d7a43a20ff5",
@@ -4588,9 +4513,8 @@
       "url": "https://news.google.com/rss/articles/CBMimwRBVV95cUxQUFN3WHE0Uk5NRmVZV181RmJ1dWdFcGRwS3dkeW5rS01fek1yR1VlTFdjYVJXR09nWVB6WV84NW42Nm9pZGljTEN1R0RXZ0lCVnlqcHJNWHVNZlFyb1ctVF9Ed1BKRlhWSkFUN0d5cm1nSG9TUlloSmNibFFqVkNUaGVDVEtOb2RwaS1oYk9jYTNhSnBQUzR2ZkJHXzNKaEpHRDZJWGd1cDcwTUotNEpyMnUta3pfcEVRSF8zTmcxTGhJQVZKZ0R2OU81ZE54ZUVnZ01VcEFLWGRjTzhQOWxXb0NYanlXNHBIWXZsYXJoWUtzUFFoTEdFZDZtcW5zUmNCOGJlLW5EMS01SEl1VVV6anBlYURDN1BocjJFdUU3SjkzbW5RUllDWTlrR2tQczNxM1VCdUFqdVpHeFdDVDFPWlEtdDdJRngtQzN4b01iM1F5TGlZaV9lWk1xbnhHTnR2QmJ1ZjhvUUVCWjlVOXlId29VQ2ZaTEE1N0RnbXExcW04QWJsb2RiT21VUjIyNVU1ejBybXAtR29jRWp0d3hjNU1lQmUxbG5WaDhoejVMM3dOd2VpOW9wOEE2MEh5WHM0TjQ0Z2xXcENHRHJacEZ5R0lXbmdnbTY3aEZEWWFGZEJ4NGQ5VWtVVHBMaXdfTEV1V296bEgyUmMyYkJfcEVqSnlDUlpQMkZUdGtySXlKUWp3NFR5UWlVc3dna9IBoARBVV95cUxPanMyT2wtODhlNFpDLTJObVpRNUlZbTlEamtKdnhoTVMxS29aQzg1eUIzTFlEeVhxcXRRQ3plb2RRTkNuTjFiNS1udkZkZzVFUXpWaFZPQ01xZHhjRlBLQkpCM1pWV3YxcUpBSXB0S0xTOGR2UTI2RmNzMk1oWjgzRTNBSWc1WXdtVWV2QlhPbzA1dWVVT1YtQkd1ODB1Rmg4eGdwNVJOUURpbmVEUm01MTE2REttdkhJUndwZ3puSm1pMGJEZS0wcU83MXR5OVJpcnljN1NoVlppQzdtcDJoVnJxWWtFWkJKR2FBVzA2VldyLWdqYWUxaTZWaVc0RWtPa3N6SXVfYmNabkJZMzdSQlJBOFpOZng0Wkd5b3lHczJsZkxnaXpvRmZZRG5XS1BTMnhVclRJa0QtR0ZsQVdKbC1EWGVxZHQ3ak8yTXZBRlUxODY2VWk3ZXJCWkxDRmdKREVDTS1ILW1ydUIyS1h0eTI3NFR3dFVKdkRwdjR6Z0ZqMWJhaF94VkYxSlBOS2w3aVVSVGczUVpUa2pwV0Z0UGMtN0RWMU5JM25nY0E1VjJMbFJBV2RQNkdGQzdTbHVsMmd4YXhUNFhBd2xDZlNPUmZJMzZTSWFNVkVyNlNqak5xSDJra1NxZlZMaEd3aFZxdmY0LWdDZ0tjTi1QTXZ1di1tTWRvQmtwdkZ2Vm41MmZ1Sl9mSy1wdW9BOTJHSTE2?oc=5",
       "source": "العربية",
       "published_at": "2026-10-18T08:41:00Z",
-      "country": "",
+      "country": "Iraq",
       "countries": [
-        "Iran",
         "Iraq"
       ],
       "language": "ar",
@@ -4619,9 +4543,8 @@
       "url": "https://news.google.com/rss/articles/CBMikgRBVV95cUxNNzEwQ0RVM2JER21BYldTUHdhUFd1MW8zYTdmcHg4LUFFR3d6RXBmN3ZyaTVKckNXVU5LVEtESWhtQ1JqYWI3TkFQRS1vWjllal9qUVB1ZVFMNmd5V2Q3VV9rOUFTWkhDMGRwSkhFWnQ1ajZjNWVWV1ZNZUF5VkV6TVZlQVZyMHRoMmdlWGZiNHgtZGVuZXRtX1RnVXljbjdhT1lkZzZUeXl4dUJFUDZzbmF3Tm9iRGxCY0RrdkItSWpLYS13cnJ0R1k0YV9jV2V4Y2hreEpRV00tVG02S013cHVlS05Zb3BGN1Y0bmhRRklDaGJJcGJQUU9yVVVDMEJvdURwa0hUNEVNdk1UdkhNQnBWQlpVdXJ6Q0Q2UldBVHBkYUp1VHNPXzZTcGZWMXVCYUQ1OFBOaFNtYlNib3JaX2lqNzVRa0hPaGVMOVhMV3luR3BiN1VRczhhSC03SDBuZE04c1R6bVFBYzBKYVAzdkR0MTNCWFp1eE5MOVlzZUxDUkEyRkh6UFBFRHlISDRxRVJWSGtjV0FDUzVQTXUtcmoyUUliZVh1bWwwQlB0Sm95STJ4T1FOR1F3bW5LZ0ZXRjRPYnJqMVM1QjNPQzVtOTNNaFF1cTVCWG1rcjlIMTh3UHRqOHBacmxPWUhwVTBCS05kSDBsMVRFSzFUekRZVkRGYnJpeGRrOHJwbmx1ZDlRUQ?oc=5",
       "source": "موقع مسبار",
       "published_at": "2026-10-18T08:32:19Z",
-      "country": "",
+      "country": "Yemen",
       "countries": [
-        "Saudi",
         "Yemen"
       ],
       "language": "ar",
@@ -4951,10 +4874,8 @@
       "url": "https://news.google.com/rss/articles/CBMiyARBVV95cUxQdlhOUXVzdmdQMXVqRE1QbWEtSjhSQWNZTGpBRFNDOGpVeU5icEhkOGJoS1RSeG5FbVkxeC1jX0dpNWcxZWtBbUc2RDFlU092VzB0ME1lMm9EWWpKQjY4V0Z1NUFkVUlOVjVEeUtTaTI1dlJFREd5Z3dVLWE2eFdESGZSZU8yQ1ZkT3Z0S2M3Rm54TzhpWVlnb2laQTNLd2ttR3A3Ym91LTBzR0oybXdjc1F0NGd0NXV2bTB4TmF5OTlWNDFTYWRiTVg4VWJ4WUxsUk1JOGZJbkt3WW9tdXhQVzB1dHhuT0czR0hhc3lEUjJEWFdYLThual9qODV2TVRrU2pDQTFobW0tTW54cmZnaVNIT0YtNlY1djg2MEhMVHJCVFhxS1JOS1EwY2FIM1hjVllYNDAxcDE2THRfY0djbVhIZmFvOV9nTl9McFkyMWNfUGNDNGx3blNjQWJuMFUwMWFRNXF6QUVDdGN5QVhNeUFPQVF3ODVlblRTX3lSMEJjdW8yUjVmOTl5NEhqRVpmaTJQdGsxaXNiMFR5ZmVweUM0NXlQdmlYTEdxUjR2ODJ2R3EyQ01zSGhBeTlKOGdyeWhNNGFCakVxUkhvU0lsZVFBbzJBNk42RjVDYTdLVFNlekdGU3VqVWU3OFRZdmt2LVJEOVV5QXk2dzg0a0E1ODhxRUg2cjRDdmxiNHhRY3pZY0RmbWJGMXh4bEtSSEhVSV9mTXRLRWU1aktwcFVlcC0xalRXUEpzZEVudjg4QzBKMGkyMVlnVg?oc=5",
       "source": "الخليج أونلاين",
       "published_at": "2026-10-18T04:57:08Z",
-      "country": "Iran",
-      "countries": [
-        "Iran"
-      ],
+      "country": "",
+      "countries": [],
       "language": "ar",
       "category": "transport",
       "tag": "ملاحه بحريه",
@@ -5204,10 +5125,8 @@
       "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE83WElLdFJiRS1KSVdXSktQeHhIMDBWRmJURWIwTXNURHRqc09MdVdWWkZDZzJWdkxTVC1DV211VW1TYXBUdVYw?oc=5",
       "source": "صدى البلد",
       "published_at": "2026-10-17T23:01:00Z",
-      "country": "Iran",
-      "countries": [
-        "Iran"
-      ],
+      "country": "",
+      "countries": [],
       "language": "ar",
       "category": "transport",
       "tag": "ملاحه بحريه",
@@ -5249,10 +5168,9 @@
       "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxPREJ3U2Zwc1dfUmtSRmt2c3NpeWZQam8tT2ZBWjZ0NzdZdjh4bEcwSHEtaXpMMnVheTNUcVdubjgxbHplRjcyMThLbmRZWnE0SjU0TVdoYnVkQ1ZVdkdsbzJhdTlRN2lYMS1ZQ29tamVNZGxnUFdTVE1PQzRyTWtWajJicHB3YXF1U0FSa0R1SFh1Rm9JbnZkNElyOVdOQVJrajlpTl94aVF6ZENkc2otU2pqV1ZRd0NvanBWeWM3XzNQTUc3NzVhd0Q5SnlKalB0OUN6UEtVLVBrNTVsZjNXNEdjU3RiTWlaLUFpNnRQS3FDSDdVZ1FKNTlLdW43b2c2WjAzRGVaZmRQZ2hCWHh1U0c1OEIycXZQZmhzV0FlcFNKMzZnRzJPQVg2NVgzTGhtdzViWGVzdFdHcEZjOE04b2NHbjhWSnplOHk2alRkU0tKUQ?oc=5",
       "source": "Defense Arabia",
       "published_at": "2026-10-17T22:41:37Z",
-      "country": "",
+      "country": "Saudi",
       "countries": [
-        "Saudi",
-        "Yemen"
+        "Saudi"
       ],
       "language": "ar",
       "category": "security",
@@ -5295,9 +5213,8 @@
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5IVERFemlheXpaaFc4eFRMZ2Y0OTZwUlRhS0M5QU0ybHZndFlGbzd6eG1vSzBwaUxXRUFoR2lYWTlORHdHLWctVmUta1JIODduYkdQd3lJVTNWYUQzRDRjWUhRLThQaW1yZmc?oc=5",
       "source": "الأيام البحرينية",
       "published_at": "2026-10-17T22:06:42Z",
-      "country": "",
+      "country": "Iraq",
       "countries": [
-        "Bahrain",
         "Iraq"
       ],
       "language": "ar",
@@ -5311,10 +5228,8 @@
       "url": "https://news.google.com/rss/articles/CBMiwARBVV95cUxPWjl1QTNxZ1pabXE4a2tYZXctYkwxbnRCb2w1UjdZRUVoSXIyR1pZQy1DX3JseUlYTWpLc0d2aGlPRjg4VzhmZWF1LXVZenl3NE1saklrNXAzNjRFU3o0ckhJN3NLSW1mRDVoSWF6amFtNF96eVlyYjdqb1NVbmpsTHdrTzZUS1k0ZXhPVmFkdVNoWl9aMXVTN0s5M2JwWm1LVFVERVJ5bUMwRF9nS1M1R2VCS1FDUGlTVFJwSTRuQmlNY0ZkZUN5Qy13aUdVYlltczRRNWlpS2ZRRzN2aFJtV1YtZXRNclowY0w1WjVncm1Xd0lDQUMyWnhEVWNJWlYweW9XLVlWaG9HLTU1MmpGcENVa003TEJJRTl3YW9NYWh6ZnJVdm5lMWtDVzdwTzNBVzRQYWVDWm9kTFNwQWZ0R2VfQ3c1aWd1X1RadDFGOW9iSGdZMi12a053UDZ3cHJIVGxSOFJmV0hIbkI1NkdmNk0xRDhNT1VVNmlkQnNnbGpVVmNhaUQ3eWZGb2JWNl9rejZjU1FIWnpPMG1ITzUyWkFGUWJtYUUxWUM3WFd0VzBCdHVUZkZUZ1Nvcnl1QkRaekk2RS0tWG9RYXpFWV9XcmxmSjE1ckRnN1ZnSDNaTk1uQ3lkbGh4eDNWU21LVWt1SF9CQ0hJQm9Ocjdmd2l4a3dxS25yT3BuZDhOejRVZmJMT3NuRE11dmlHeDIyM2JXZ1F6VjJaN0JUbngycDV0TEJxUkVCOVNzb0lFUWNJTU0?oc=5",
       "source": "بوابة الأهرام",
       "published_at": "2026-10-17T21:51:17Z",
-      "country": "Iran",
-      "countries": [
-        "Iran"
-      ],
+      "country": "",
+      "countries": [],
       "language": "ar",
       "category": "security",
       "tag": "تقرير امني",
@@ -5468,21 +5383,6 @@
       "provider": "Google News · shipping"
     },
     {
-      "id": "a772be3ee25fbed42c8d34b4",
-      "title": "شهداء ومصابون بغارات لمسيرات إسرائيلية ونسف مبان في غزة ودير البلح - الجزيرة نت",
-      "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxObmUzbTFQV2hMdFBERWhqbV92UnlvZWFEWlI0Mjh3dS15bExEWTExNTBIM2lvbjlrQ3ZIamlIU0F0ekEzUmVMOU0xOUJWZFR4LUU2bVdjNWF2M3FsZk1fYVA2WUQ1cXlLUXBqbXZHdnd6RWpGeDk1THh4TG11QjFlWkVZQ256MmNzNEhNQVNXQnZsdTlpLUJVc0xfTDYzT0Y3Q0UyUWFKMDRlWHFiRTBndHVIWlNDVFhlNXcxLWhGeU00SHdzNzJDOFBxZzRoZ2NQWm55Vk1nZGVmZTQwelJ1Z0l2QURJdlV2a2FNakxYVm5ZU2tqOHotZTB3RG5lSk5QTXgtRlBCbjVTZ3ZvYk9WNG9ySFNwcXp0dU9lOHBuR0LSAaYCQVVfeXFMTnRnVzZFYkQwa0Q5SEl1UkhnRGhMREIteG5ueXFKZElZbzQ4QUp1d2cwX2pRaXZOcUYwMjB2YzhObDhvQjZwN252dFFkTG1pSVlJcXBTbWdWU29hYUd5clh5OHNKZkl0NlJURTVEYUtZVlRROGJpenJudjFxQV9iNTZTN2JWbXZIVFdnLS1mSlhxRmxJeGxSVlowZjJUNkIyNG9yNGY2SHJKQnBGOURFbHRyMkFGcnVYS1ViNU10TjJ0S2xsZ2ZSbi1xSHlFeUpXTkpHWDFHZnZMd3BjbFptcThWOVZybmgzSjZ0TS0tR2pyWEpzd1V2cDRaSlhSclpLYUtmTlZLNTV6YXEyY1M0SzdiZm5hMEdnZDBUdjctVC14ZmszSmtR?oc=5",
-      "source": "الجزيرة نت",
-      "published_at": "2026-10-17T20:10:57Z",
-      "country": "Israel",
-      "countries": [
-        "Israel"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "تقرير عن مسيرات",
-      "provider": "عربي · الجزيرة"
-    },
-    {
       "id": "8953c14ca739976c632a",
       "title": "Iranian TV airs video said to show tanker explosion in Hormuz - Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOR0l1V2lHN0lqYXFjaEg4N3R1ZnhUSFVRSXZIV1c4b0dpc1A0LUZCVUpkbkMzQnEtMUo4NGktQ05idGlMLU03WlZQM2tId01VM1V6eF9qU0NZeXZ0c0hZbUFzbVRVaTlfaGlqdE1YYTZ3RFRBWm1RUFd1U0tCT0ZLMl9XLWZUa0JLMHBNalJWTHBURnh6RVpSYWs1OWdKai1SUzA4RncxNEtVcnJURWEzV2c2ONIBuAFBVV95cUxNTWFyZ1ZwYk84V1VFbkhhVXNXclhGWjB4eVdmLWN0ajhkOUhWTFBJZkMwRW1VQVZ0RVVJYkhBeEtHUGRwY0YtRHhFUDhNenBYV1JzSUUzY3pGLVNGeFVaQjNNMk1zSmRxRVNJdGE4R0pGaFhpLWg4ZTBXNGFFRVdld1gyNldIVW9GbFVpdHozQkFDcmlpa3N2S0gzTjhqZkIxWHJjd0ExeU5xTDZyZUVROFlEOElJZHZ4?oc=5",
@@ -5576,10 +5476,8 @@
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9LTS1aVERDMmgzRm16YkluUEZ2UjJRVHdmbE1XQ2tSdFhWRUtkMDhCRkZMS01fQUhxWmxzS0tBc3FhUHR5SWozWG54U1RXWVR4RmpXemM5b2Zjb1dNRnNn?oc=5",
       "source": "المصري اليوم",
       "published_at": "2026-10-17T19:15:00Z",
-      "country": "Iran",
-      "countries": [
-        "Iran"
-      ],
+      "country": "",
+      "countries": [],
       "language": "ar",
       "category": "transport",
       "tag": "ملاحه بحريه",
@@ -5732,22 +5630,6 @@
       "provider": "عربي · مضيق هرمز"
     },
     {
-      "id": "c73217431ecc45abec9de49f",
-      "title": "فيديو.. التحالف ينشر مقاطع لاعتراض صواريخ كروز ومسيّرات وتدمير منصات إطلاق الصواريخ الباليستية للميليشيات الحوثية - الأيام البحرينية",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5waDh0UDhYOEplTGR0NGF3SU1YUWFHWXRNTTBJYjQxSXdZY2l1U2g3OXpubWRnWHFpZ2hYUVRxZDJrNnV5ck0yUUc5bFowMmIzaHZPM1A2eVRWTmhoRDhIX1ZvVQ?oc=5",
-      "source": "الأيام البحرينية",
-      "published_at": "2026-10-17T18:30:51Z",
-      "country": "",
-      "countries": [
-        "Bahrain",
-        "Yemen"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "خبر اعتراض / دفاع جوي",
-      "provider": "عربي · الإمارات والبحرين"
-    },
-    {
       "id": "01f55b3eeb146018c00dbe33",
       "title": "العراق اليوم | انفجار داخل مقر للحشد الشعبي في بغداد وإصابة خمسة أشخاص - تسنیم",
       "url": "https://news.google.com/rss/articles/CBMiugRBVV95cUxPMkxpR01xdDR2cERGQzU0aE1nZ1hsUDViY2U3SHZqekctTGFaNnpTWUNYMjNWQ3NGUWw3OHo4eEdxWVpsOG9pRjhYNllVY2Vac0hjNG5WNEZ3ajhuMHJodDd4Q2lJTzNQZW03UXJBbVdwazNrUmlld2NYel9TazViZGhwZmVZRFpQNEdKYXI4RVlhSUhBWGkyRkY3UUdaY2I5Y2xMZktGLXZwejlaS3hOcGlrZUVIZm1XWGUwOVRhR1ZGdVhKTzdlcklNcTdndHB4MjVvMTF4cTdrVWZkU1BFSEQ2OHFqd2d3OTBqbm5vLXplaGVxWUJxd3Frd1VfcHNOaXVfSE1fY3dPSTYxQXdwQ20wMlZFUWhYVGNhSDY0M1R6cWRRZXEwc09wRzYzYzdNYjFsbnBBT0U2SHh0ZjJTVnJNV2FYRTN4SWJCaGs5NktlVUVfamIxUVhEUUdHRlZJVDlJY0N6aUhjem9oRS04QjA2NjhHcUJ3cERMWmEzN1MxYjY3MVh2UURSWVBIWkFPYllqSmJyRWVKUm9sR2U5NEpmMVNCLUJhVm81R1hHOXc0QWhNd0VpdjJseG9DdHREQzBETksySS1UWkpuZWFtZm5RTXBDa0tSUEpsMURmM2dzcEdlbEtrd1F5UWpHNHIxT19RQkhROXdCZl9zajI1clppZVFHNWticVNTQUtUbFpvbHJVMHZLMEZNOXh3d3RMWjVkUEJ3dVlBMDkxZkdVUmU1a0lIeFNuOWc?oc=5",
@@ -5896,21 +5778,6 @@
       "provider": "عربي · السعودية"
     },
     {
-      "id": "fe12c5a57d5417228c2a63dd",
-      "title": "مقتل عنصر بقوات الحشد الشعبي بالعراق جراء انفجار بمقر للقوات - القدس العربي",
-      "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxQNXZYdFpsUF9IMXdxQ2VEczFiNnJpQm0zaXJ4akRhVzJrWXdLX3VXRkE2MWprand3alBSNF9QbkVNdG9OU0tJR2lVcDFYNjNxUzZZQnNNVzhIZEdVTHVXcHJLQmZTeGxiSnpaOURLclp5WTJaZGctVkZDUnFldVdwaGc5UV9jZ0NESW5RY0ZFYVdQazlreGs3U0F5d3ZfZjdFeUkyR0pOTE9pbmtnT2FYclhqQUJfenlia3VFSWdsdEdhdk9weEhUcXBicW5BbVNFSXBzLTNFc2sxdnNKRUt4YUVYTEMxNE9lNDJkN0dnUjB5VVRZVGdySHhSRXFEVjNiZXhyeTVhb3FZcGQxal9NX19tVkctZVVxOGJSY0l1MGZmZExkZDhRQ1NfUHZuZ3RsN3EzWi16N0lId2FNUkdNaFZiVENDc0E?oc=5",
-      "source": "القدس العربي",
-      "published_at": "2026-10-17T17:32:05Z",
-      "country": "Iraq",
-      "countries": [
-        "Iraq"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "تقرير امني",
-      "provider": "عربي · الكويت والعراق"
-    },
-    {
       "id": "0244cceada89ae2a3c4718a3",
       "title": "العراق.. الزيدي يشكّل لجنة للتحقيق بانفجار مقر للحشد الشعبي في بغداد - قناة ومنصة المشهد - أخبار العالم اليوم",
       "url": "https://news.google.com/rss/articles/CBMiygRBVV95cUxPZy14YTRyR3hpMWNteGZrZkNLelVTeEROWUZWRTVXN0Y2QzNUNjdCN0FuWkQ4Um9xRnNEeHFDSnJ3cnJOX1NPOU0wLTVRU0hiVmdpR1NPdzZPRVY3XzNtaW9QZXdpX3pPdTVhbEdFRUh0X3RkQXJZd0V3SEd2dVlGemZhQ1QzMjFWU2d6Y3hHLTV2S1lmY2o5WlhpOENCUUVqbWlMTXBPTW9wOEw3bUtJNHk1aHNMbUdSd3NnMXdkYjViU2Y1TFI4LUwwSl9Yc04xLVBHcVRNb2VEUlVyVXpCNWVOaHJWeDY3RFMyZ0lkOFFidmV1TmZsTmUtTm5kV0pPbHhndjh0QVFVSnA4WDN2YVZidDRVbUNIUkxwTUxsaWktQXJvcFhZeVpMQndjNEhhTExiX0F5Z1YzbmNMTV90b0sxamY3VlJuNHc2cnYyRmMwSEJGZmV2eWxpQTh6QVl3bHhxc1A0VnBjQmF4Z193SjRhNmV0a0xWSlhrdnZSblp3RWF0ZWpMWjloYkRJYk9kNWlnWDN3Unk5ZURWWlBTMTJaeUJjaDlMWG9nenUwVUVPUVRJd1hIRmUwZmhuMnhOaTJOZEZ5NXBXTDhrRlBVdE1GY0NQM0dHWmduMXFPdU1uWlc3eklWWF9UYVRteTFiR24wY3Z1RUUxcFdndnVTNFJvN1JDRHhrN09GcEJHNFkweFRwODdiT09EaExMOFUtcUxvOFdyNWptYW1mOExNQmdtMDE4WVRzRWhiOHJKZlg2cGYyQzJiRlZ30gHPBEFVX3lxTFBvcnB4dHY4V3o2cno4cEtxdTNhN3g0UzRlckN4Vnk4ZWhyNEQ3aVM5Y2wyWS1YRlZNRmNOcUF3cURCRWJUdU03QVVkUkxPQXBDNy1uUDBxbE9GbFVmdHVfRWtwWFNHTDJHT3FzUFFzYVF6WWxmakFOUHVIdGFhRkd0MFdJZXV4ZkRBQ0owZGNaSGcza0FTS25nNnN1bzgzNzZRMVJURHB2WHBlOTNTcmlsNWN6ODVSSHVNdzM4Q3g4bWI4cVV0eFphNEtlTmtmNktDRzMwYUNKYl9pUlNfdWVOa3U1V2szWnpxWk5hMFFwQS1xUTRCWnNPaWgwRHlkaFhwQ1pYVTNmZGx1cWdQY1ZHV0ZBel9HVV9WM2V4c3NHX1ZhaEx0SVUxNXFvWktINVlTbFd3ZXdON0VnaDJ2VE9RaVNOOTJTZzVudGwxWHV2UUxKdDdDYk43NjljM0hwcU5zZTZNSS10TFNjYklKUkJtbUxOLTRmNzJ6MjZrajN5b210MldEcVhQRnFSaV9IV3phSjhYbHluVk5icUxJUU5kR2VPajFpZXU2T0lFQW9sWWplRDhXZ3hMSlBULXFCZE5RQS10SDU5VmpUSnZiQTJza1lRMU5GdS1BcGZON0ZqdllyU2RNTUl2V3NFanRfMjUwVFRzcHJadW5nWk5BMjNuTUV3M0NDZHl4WW1zU1FteFdET0RId2dIbGd0UmRxMHpsR0FvY2M1dGlaTWM0aEhkTWNyY081OFhIcVNZZ2FpTFZsVTBxSHhjRGwzX2NNUQ?oc=5",
@@ -6022,10 +5889,8 @@
       "url": "https://news.google.com/rss/articles/CBMimgRBVV95cUxObG5DV2JkeVUtV3MyLTZKRTNwYko5eGFPYTNfdy1vVUhRT01YZGlkN1pGbkJzVHZfU0dhTXBtcGZSQjM0ekM1T2dDN2JGZjJYZFI4bzBKYVZ5c01XQ0ZlMUtmZGloMndpWXVaRG9yRTJUeklJQnRBMW9DSVhrTDRORWtOZVRhWW1ETHNLcGhXMXJQOEZYNzU1QklrdWhCZ0xhdnRQams1TnNIRzlYVUF0TGxVLVdBYVEyRE80QjdSQTFrV3NOa25xYlEzVDJnaTAtRm9ueVRzZVR6VkFpS3lKOVNTNmR0cU5xUG13eG5nOUNvYmVOU0o5a3JmUTZBWW9zWFF3Tks5aUY1QUZ2VzVPNjBuWUhLQVlpYUdkZzY3cHpYVE8zU25IOU54XzZtaE1fLXpVSWViUEU3SFVRQTNCR3BkdkE2TVpXVGNPVHRCUGgyUE9WYURsZFZNall5Q0d4bjFNTXBWYkxuX3ZLczlJVVQ4M0hGUEVTS0RhUDZmWm5vbi1paXFYMTlaVm1XNlp5enVhQWhud2xBdUFWWUlzTVF6RjVjaVJwTnlwN3NfUU1PbkRnVC0tSGI0bUQyUFdxcldNZmpxZHVBdHJ5OVJ0dUszREo4d3RkbGh1Xy0wVTE3SzdMRmxRbUFKUTRobElKYUhHYnE5bGhsR2hMSTA4WDdUa2d6cmM4S2ltNVMwaFlSVHFCMGJyeHR3?oc=5",
       "source": "صحيفة الخليج",
       "published_at": "2026-10-17T17:20:29Z",
-      "country": "Iraq",
-      "countries": [
-        "Iraq"
-      ],
+      "country": "",
+      "countries": [],
       "language": "ar",
       "category": "security",
       "tag": "تقرير امني",
@@ -6037,10 +5902,8 @@
       "url": "https://news.google.com/rss/articles/CBMivARBVV95cUxQT29yNV9BbWx2Y1ZjenRPN1ZueTNqanhiUG4ydFBsMEMzc3BheGtzWTNDWlA1WERHSkctTDdiN1hhSGdES25teXlkYUNYaWVoT185YjJleDVpTDlKWG5ZTFZqNURkLUlhWWxmdDRZTUtPRWpaX1ZZYlBlZ1BFMVI3by1xVzA1MDRKUGpOZXJnNlJRU1pSRXM0NDUzcEhFSEs3UC02WDFSUWNqc1haaE1WcVVpV1EzZEM3V3pNLV9NWUVzWUoxTUtyaUpDQUFoVXNMR01XZTRkYjlVenBlMUsyTFBYUnBmWmlOYnpUNzZYSXg4NDJfdC1sem5BVGFHeVVPS3dUTEtSZ0JHZUNvYXVGeDRlSUFONHR3T0VYTGwxVzRfVExCNkl2cU9qdnBBVVd3QU9UaFNpM3ZNdDNxOU0wVUFVbkt5Q2ZpeDNMZUhkTnJMY3ZUa3VkZkd2SkRWaHVUeUt6LVZBNnlJR25tVnJXY0J3SDFUXzg5eVd3MFVpZmZiYlc1a3Qzc184YzV4R1BwdXRDNFFHRDVaYXFpcUlSQmtpQjEyZHR2QlB2NWRBTi1wcExpU0d5dWlGeHVzZ28zRkNpeUNjUFpNU0s5d1FNMnI3TXpBNUVLQ0pfbmlFOVBBSUpwUHdsdlYycXJXV2hMYWthRXJsR0hSM3RsMkIxVzM1VlRhU3NSekk0NkktTVZ3bTFnZFdaU2w5dGRQbFBGYU5lZHpSS1h3OFoyb2h2ZG5MSUZvSEJrczRhQ9IBwgRBVV95cUxOdGFILXF0WUlPWnhTcHRqcW1KMjVaWTFSWllWQlo5ekJZTWZBRU5HUjZ3a0VZekpaRWVZZEo1MndhQXgtUzZlUmVYNEY5NXF0bmRrTEhmekRuUEZTcVZfUktCelQxeHphVFRBTnI2QWc3VVhKdUF1T1cySThmRmFKLU1XVXpmZ1RMaUdKbmxBR29PQWZXVzd5TkxrQlZrWlpUM2V3ZjA3OWh6b2FMWEpJdlE4TzBtTXBMVWpmR2h4MVFpNWpqZHVtZEpZV295dGN6SDlMYjJfcTBTWXIxVkZUUzlCQnpsOXUtU1kwZlhFSERFT3ExTHRrb2FmWkRfUGRiakVmaU00N0VHdU1ETWprVDlLR3o1Y3o1VUMyMmJMMkp4ejhkekdnQTdVTUNPMUhmQ2Zqb3JpMzdGMWdYM0V0c1F2djloWnRDUFphTHRHaW5RajVsaVhNclU2X0FFa3U5UG5SWmdySTdUWFBrelpUWUpKN21iVnNiOHNxckRiMG9XalBWRWVuRjJaR2poMU9FRWt1dXd4SXAzQ0liWkVDSW9VX2I2ZFpBOTFoY083WnB1cHp6bUJhbjZUVnVLaHpzR2E4WDBMdVlVWG1sNEd0SE0zVVNXSmcxbkEtQ2duX0dKeE1aVVdON2paY3dSZUQtMGtEYnRvTkN0alZQaDhEczBfQThyclFEY1RRNFRNWVFkczZmd2hFbzNwQ1B0UzRhUTliVk5LNlNUUmhtZXJ6VHlkUkJwV0xUMUtvMHpvQ25Vdw?oc=5",
       "source": "Masrawy",
       "published_at": "2026-10-17T17:18:48Z",
-      "country": "Iran",
-      "countries": [
-        "Iran"
-      ],
+      "country": "",
+      "countries": [],
       "language": "ar",
       "category": "security",
       "tag": "ملاحه بحريه",
@@ -6052,10 +5915,8 @@
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBQbWVKOWttRV9qMlpwTTZLaDh6akZPNGxDT29UbndwdE5pQ056cTd6MkdlTXJBSEJXakRuZ0tPQjRyVlptRDZHUktacFRqXzlRN0RNS2NB?oc=5",
       "source": "بوابة الأهرام",
       "published_at": "2026-10-17T17:18:00Z",
-      "country": "Iran",
-      "countries": [
-        "Iran"
-      ],
+      "country": "",
+      "countries": [],
       "language": "ar",
       "category": "transport",
       "tag": "ملاحه بحريه",
@@ -6246,10 +6107,8 @@
       "url": "https://news.google.com/rss/articles/CBMinwZBVV95cUxOdWpLUEhUUS1URWhIckRTLVprSjhHQjQ5WXZvMXJkUlIxR0hpY1l3OC1YLThRU0ZacjlTSUhqRXRFeldXWDNZZ3hJdlhBU1BPVFkwMVBVQU1qMTFfVUNjX3lWX01OWWN1OU94ZzFnN29PZEZQeVJqdXU1amp3LWJVR1dGVFEwRmZNWWpBOVNqSjFKMlBfNE1oWS0zS240V1FYVm9HbGFGWDQwSXJfYnVWTVdUWjd1VGx5QVJGa1R2UmlDRXcwaE5uOHBTZEIxVmdZbExBak40blYtSjBGbWtGa1FVY29PNnQ3X05rUHBCYkFialFGNExtM21MNjhiZnR1ZGJpRzNNVGpwTVIxeXZVazRNRUwyV01oYlpnMkJIa3BQYkdZaU5hUFZNX2FMV1c3VThmZUwxelNmSEs4TTR1aXROaVVVT3VqbmJOTzNMenFOemxsSWJ4dng5cTgycE9vMUEzVlJQaDVRV2NGZW9BMHRTZUhWQURfVllQTEVPT0t5UFdua0h0RS15bUw0V0QwUFJzUHNoY2hRNHR5aEVrUXVzNTlZa3FVMkNUUm9acjJXNWcteEFTc2NoVF9VWG9RZkx0YW5tTjRYLXdwemw3Rnh0b3JxVFcxUkV0a1hucVdjRlE1M250bEc0VDVpWVRZTTU4bFQ1NW8zd0wyRG04bzV1WFFPZ0tKWGpsOWpocW1lMDl0SnduWV9KX3B1NkFCQUZVVlhwMFlSSUk3M0FXY0h5RnRva05zX3IyTWVDVEhNM01ydEUyZm5pR2wzVy1DSk01M2E0cng1WXRYQnlhNnJMSEh2RmUzeEcwZ2RxZmJlNjEzRDIyRlJpcGNxNWFtM2tHbUFoMzlocHZXZ0JPejF3N3dhS0JWSUdHYzNPUXA2SmxGUS1OYjRnX2Z3YWctM3dPNkNTc1Z3Umc2TGxjM1QxcG9nSEd3aTZ5MnMzZ2tFMnd2VWdrYVI0WHgwUU01ZUQ1b0VYUHd5SWo1bVRFaXNRa2dkaUV2SHFUZ0g1cFd0eUwtdHBfQmxDSHZiQXM5Y1MwSzZ6bDFZc2t6cWxj0gGkBkFVX3lxTE53SHNHT1BzakdqVUFFaHRzcS1STUFaelE2bmJiSUVXQ3JjTlBjbURNMzhremo0RUtraGpzWV9JaUF3eVhEZ1R3TlZFTm5wbWRXNmF6N2U5NDZzZElpa1JoUndDS2FTUklkajQ2aWpoem5CT0JNUXV4UlF5T015dzV2TkdaTDRCX2lTbVgtZWVWRnJ5QWRLQmlzUUxmNGM4OEM5a2E0YkphaXVtdW91NzRWdjBja1dXOWhFeWpkakxCUEdzS2ZueXhvYkV2UnBpUDUyNE1TMEFtbUt0TGY5WVRFVUJXbnhfWUkta29PaFBYVldCbnJBTm9KUzBCNHdaRWdYQ2MyTGZxckcyQnZzRHBwZW9XbllHMWhBX213b2cwOGtLRHFpcktQV0xLakc4ZlZEQTJZYzhGRHdiMXpEM1FlcjlFOEhYNV9LVDR0cmkxTTh0N2xOMDFWX0xMaHl3LW1IMGZ1MkVfUk12WGpFZzdoaGZRYUROVUkwZVM2MjFmZVJLakJDRVV6U2stdGhWd1hkS0pZbUh3QW1TVmF5YzlERGZOT2p4UmxReFlMdVhPX2s2Q3ZVRm96Nmx0cjZXdGpjYXlFTnNkb1lsaGFmajVXbzNmWk05QUdMVUtESEtWSXdpVDQyeExqWk9zYjBBTjVwOGFleTBQNHc1WndieWR1cm9RWHZBdU56bGFISjJraTFtbHZtc1REcVg3U3p4WXV2TExpZk1Za2Q4bVo1bHRqSEZnRmE1bEhibnJJcVVUY1ZlelRKY091OXlNTGhYR1dUXzAzYlJEWjdfQXMzREYxTExVTThpSUxaQ2pxUU9EbGRKMl9WLXJWaFpITUs1NGpTZ1JlQWJ1eXJ4Ml9QMGZybzhoOHhkdUlYYTFtZ09udFdlN3FmelgyODRldmg3UkRvYlNLUC1FdFBXMWdDb1dDcGZZeTdCenBNdVZVTVBtUDBjTERBTGJaVkZxU3ducW54X3RueGVaNU9kSVhmcGlBVGluaktWRkFHT3RWMmtMVjNVYmpYRE85a3k3XzNVYzlrVkRFVmZnUGVQbFZ6RGVxZTZoeg?oc=5",
       "source": "عرب 48",
       "published_at": "2026-10-17T15:56:00Z",
-      "country": "Iran",
-      "countries": [
-        "Iran"
-      ],
+      "country": "",
+      "countries": [],
       "language": "ar",
       "category": "security",
       "tag": "تقرير امني",
@@ -6374,21 +6233,6 @@
       "category": "security",
       "tag": "تقرير امني",
       "provider": "عربي · الكويت والعراق"
-    },
-    {
-      "id": "f229c5b9264d5f2f9e863f43",
-      "title": "التحالف: تدمير 4 مسيرات في 3 مناطق سعودية - الأيام البحرينية",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBGZWwxcTdPcGY5a3lQMGNkei1rdG12TEppX05yMmtYNjdrUzY2UlA3ZV9SaUhDeGU5dThuM0liR0NOVXAzWmZnU0IzcTRUc29XRWRpWHc4aWpnZElhZ1UtVFl0REZsOGxDd3hESjh4WTJGcWM5?oc=5",
-      "source": "الأيام البحرينية",
-      "published_at": "2026-10-17T15:28:59Z",
-      "country": "Bahrain",
-      "countries": [
-        "Bahrain"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "تقرير عن مسيرات",
-      "provider": "عربي · الإمارات والبحرين"
     },
     {
       "id": "3492eadca5ce804f294926f6",
@@ -6564,10 +6408,8 @@
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQcTBVQTZHOEFqRE1RS0ttdmJobUJYWkpnZ080N1FMRHlUa05SbnF3bFlLYVBwYVhlRkk3ekt5bFdTZ3lXQUxidHJWTTFoazItY1NzV3VZYVIzcXd2QlZ1ZGZrNVBqWHZRcmE3ZE1wWjJSMVRuLUh4SEljQzh0cjJvXzlqUEdpM3pLb1E?oc=5",
       "source": "i24NEWS",
       "published_at": "2026-10-17T14:32:46Z",
-      "country": "Iran",
-      "countries": [
-        "Iran"
-      ],
+      "country": "",
+      "countries": [],
       "language": "ar",
       "category": "security",
       "tag": "ملاحه بحريه",
@@ -6640,10 +6482,8 @@
       "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxOZF92cVQtSlhvek5EekNjU3FQMWtwTHJHdTNXMWczLTRmaFUydHpNNXZrWmxuTlE3Ulgta3RWdTJEU21MMGVzeE9zaTdHX1Zvb0stU0JxTjZvY2hFQUFCNDNsSEZMenl1RUZpUjA1SlRVVHFmVWF0b183b240VmVzMUk4ejJlaTViWjAwb2dGYWZaUkFiMU92cWpNbFBXNVZSdVUydG5rT3ExM2lvbjVjQmdseFhCNERnbzI0V2NELThjOGM3S3NPOE9uRm41Mk5yT1E5X19mWktIWi1NSGVlUUFoTTJ1VDg4c1Z4emc1NG1SSFRkMDJnQjg4NWdyZVRyZE1sSFZwS0FOelBIODJ2Q3BkOHplOFJhRVRUNkpRczVsdWM0a3AxMnk0NGFXQWNQdTNEaWZIOXZfRlZETzloNmJlYkE0NWxTaGwxVtIB0gJBVV95cUxOOGdpZm5CT0pqQnpRam5nN1lwSWhaWGhkZ0ZlZmNkMUZzd3FZaGFGdVFQQTRHNHNGaXlIU1ZxMHBLb1d4Qkh1VXJUNUdXSnZSZ3dMVFE3TmhXZTdIcmRvR3ZROHhzd3U5T1BsT2hQZ3hkbDJwb2Juc3pxQThEWFBxQnJ5QjJsZlptT0NWM05BNUJlOVBDNkZiNWV4RWpHdzFtUTFuNXBxQ3BSNmVaVFQ1bTdWdkRnTkU3S0ZZcHN1Q1oxbVlPaGhFYURXQXRWYm1NWjAwMnF6MWdOUDdLNHFJTWlweVhvWFdHanltaXN6dWFlM3NnMWE2cTNOM0ppU0ZPT1RJVU9OVUNmVnBxdW93T1FJZmRSdDFXdkEwZEFTelJhOUxuMkcxRVl3RGx4clBBN1hSQU9SZ1I5NnVxdWZDUUhtcXRpb1I3NFN5MnVEaUozUQ?oc=5",
       "source": "الجزيرة نت",
       "published_at": "2026-10-17T14:22:17Z",
-      "country": "Iran",
-      "countries": [
-        "Iran"
-      ],
+      "country": "",
+      "countries": [],
       "language": "ar",
       "category": "security",
       "tag": "تقرير امني",
@@ -6683,10 +6523,8 @@
       "url": "https://news.google.com/rss/articles/CBMinwRBVV95cUxOaHRRQkhXQzFxTE5qa0k2RE5lclkzU0N3WnRFV1JjVVFhR3N4TzQzVUNreFF0b2RsYUZpQXBhdnFncV8wU05PT2h0dXNTZy01RDBBenhlMnlidF96U3BzUVA3Q0tCMlpfQXRLc0VNSGhJVm1Qa0tQM2QtWlBTbEVaTWlQRHl0dVFSMF82cjc1ZlNwSzNBb1lQVGNNdHNQWm5xWDE1cWxkLWlTVnJmWjBjNTRxWDhEaGp6ckFLcjRja1BWaXo1ZW5rUzdwNmpldm84TXE3T29CVFJQY18tM1BIMS1vNDMxYlNBRTI0aDZ6czVGSjk2RVlkYjdHOEpjNjZfc0dTRnZ4Ql9mTkpZM05WRnJBQ0VVRmxmRTFkb1VqZlU3bDNvc3BWR0k4VVJSdEVNNmNzOGFxS1JTdnA0NjVuZ1UxdDZobTh1QkdGYmhnajRuWGJEZXJZQ3NlcUFtakxKaTZHUTRtcVhTYm9Gbm56azFaaFJfWFozTkEwQzVLdUJPZGh5dXRnTlZ4UlVnX1ZUZ1pMbFk5UXNaQlU0MlhpemxXZDNFbHBqUklZYi1RVTE0RHhvZVBRbllUY3dlb1drekkyOEs4aU9lVUdYWVRQdEpmOEtlNm9CZ3dnY1lXQmtHVFphWFBlcnlMTmF1OFFkb1VfNDNqWml2RkhsSl9QNXEyQnZrSDRfM21KZFNoMF9uZHZSQUhZUjFFUFo2NUk?oc=5",
       "source": "Anadolu Ajansı",
       "published_at": "2026-10-17T14:02:27Z",
-      "country": "Iran",
-      "countries": [
-        "Iran"
-      ],
+      "country": "",
+      "countries": [],
       "language": "ar",
       "category": "security",
       "tag": "ملاحه بحريه",
@@ -6991,21 +6829,6 @@
       "provider": "عربي · إيران والخليج"
     },
     {
-      "id": "4f2e10377596bc2af600ba33",
-      "title": "شهداء ومصابون بغارات لمسيرات إسرائيلية ونسف مبان في غزة ودير البلح - الجزيرة نت",
-      "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxOdGdXNkViRDBrRDlISXVSSGdEaExEQi14bm55cUpkSVlvNDhBSnV3ZzBfalFpdk5xRjAyMHZjOE5sOG9CNnA3bnZ0UWRMbWlJWUlxcFNtZ1ZTb2FhR3lyWHk4c0pmSXQ2UlRFNURhS1lWVFE4Yml6cm52MXFBX2I1NlM3YlZtdkhUV2ctLWZKWHFGbEl4bFJWWjBmMlQ2QjI0b3I0ZjZIckpCcEY5REVsdHIyQUZydVhLVWI1TXROMnRLbGxnZlJuLXFIeUV5SldOSkdYMUdmdkx3cGNsWm1xOFY5VnJuaDNKNnRNLS1HanJYSnN3VXZwNFpKWFJyWkthS2ZOVks1NXphcTJjUzRLN2JmbmEwR2dkMFR2Ny1ULXhmazNKa1HSAaYCQVVfeXFMTnRnVzZFYkQwa0Q5SEl1UkhnRGhMREIteG5ueXFKZElZbzQ4QUp1d2cwX2pRaXZOcUYwMjB2YzhObDhvQjZwN252dFFkTG1pSVlJcXBTbWdWU29hYUd5clh5OHNKZkl0NlJURTVEYUtZVlRROGJpenJudjFxQV9iNTZTN2JWbXZIVFdnLS1mSlhxRmxJeGxSVlowZjJUNkIyNG9yNGY2SHJKQnBGOURFbHRyMkFGcnVYS1ViNU10TjJ0S2xsZ2ZSbi1xSHlFeUpXTkpHWDFHZnZMd3BjbFptcThWOVZybmgzSjZ0TS0tR2pyWEpzd1V2cDRaSlhSclpLYUtmTlZLNTV6YXEyY1M0SzdiZm5hMEdnZDBUdjctVC14ZmszSmtR?oc=5",
-      "source": "الجزيرة نت",
-      "published_at": "2026-10-17T10:24:39Z",
-      "country": "Israel",
-      "countries": [
-        "Israel"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "تقرير عن مسيرات",
-      "provider": "عربي · الجزيرة"
-    },
-    {
       "id": "a9fa63b816629560951549e0",
       "title": "Saudi airport restrictions: 17,701 passengers affected as 114 flights disrupted so far - The Business Standard",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUE1IWkItREhUbmNRQ1dHMTQxX2VGcm0wbDJPWGEtbWVKc2VzMEp4VHNacWF2cFRubXA5LW5Pa2wzalFQYTNBbFBGZVJzWExPWDdNVnN3cG1kUWp5U1hLUkdhbXRPRXIyVXZmWUUyQ0JGTzBVTEdOcnc4WGpDWEYtd2VrekY0ajZ3aUo5VXg4cFVjRHNBMDlicThmU3BIU3dFZWlUYkdSQkdpSTRNNXNwOWQxS2o3dkw4YWJLMjdxVQ?oc=5",
@@ -7084,10 +6907,9 @@
       "url": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxPMUFjNzVJejdsaEtFT3lzR2tfUk9qX3RKN2JPVFVGeFpwbmVxUDMtbXJYS3ZoeWZoaVpoSlhTR2ZoRmhDUWJjVlgtRVRsdzE3TVFCWk41WEdMUFZLREdXSHhzb19zeVdPU1NTTWdHZkp6UDRlUjJFZUZoTmZLNklHNXBVS1pOcFBFZ3J3UWlKV0RTaWc3OGFubTY2bVFJeWN3ZW5mYWdSVVB1STNQWlczZTVuR3J0eHhONE5jdGVKRkJTRnVpa09ucm1aTnBIZS1aT3B4YXdEMkhDbUItbXBlZFA1WkxRNGtJNHdzbVNaNXJqZFZjRzBoUmgtR1lYRUJrZTB3dVJlOTd0Nzl3TFNMN2ZJM1phOV9GQ2t0QXV4WW9TN3ZRTWM2OTZBSzBaTGY4LUFsSlBVeGdaM29SSHE2M0FlaWNtMjRaYW5meW01SGhwOHpCY1lxZzlQZ3M?oc=5",
       "source": "موقع الدفاع العربي",
       "published_at": "2026-10-17T09:30:19Z",
-      "country": "",
+      "country": "Saudi",
       "countries": [
-        "Saudi",
-        "Yemen"
+        "Saudi"
       ],
       "language": "ar",
       "category": "security",
@@ -7700,10 +7522,8 @@
       "url": "https://news.google.com/rss/articles/CBMi1gNBVV95cUxNRjRjOUFINmFKMHFNcU1JbGpKSVl0YktBb0NFWHJSWmxnejlCOHFtVzE3LXJ4b3NhV2RXZkp3VUJXV3FLNEh1VGZ0SlJrdVZvUHBFRk1yZF9jTHFPcjJ0YTZaTkxjVUFocEhMMzhaaUJDcGVDX0hqZTVLR2QtTzdnM3JCVkszMThDWlVZczc4R1BfLVFqLWt4YllTMkxuRmk4dFVuSndSOGtjd0hRbklfdm4zNFpFYlZwcDFqRFlNbHM4LVNETldFWDY4OWs2M0Ewd0hOaGNiZzhZYmhFRWt3eVVRR3JxamR3RFl6RFRZRjczMW5IMURpU3VhR0Z3U0ZhNk14aHZmVG1QdDdjSDZNMHp0NWZfc2Uwd21YUEFpaVlSRTlKMzR1dU5kS0pFNjg2VmRack5ZWnVuNWJIZ2hud2duUU0yU2k4WkMzb2x1Ql9PdV9KVDEwLXNDVV91WGVZc1VBdFlUbjJ6YmVZaUFrVXY5TjEzQUhldGlKMTlrdEFsU1QtMHhobG9GSXhpTTNzRzFoTXpkbFhBbmRUNXNFRk1ValRweWFfQTZUNzlub2dZeE9oWWJPYTc2V0JvZ1IxTU13NklGRnFwU0VOckIwYmRvWUVkUdIB2gNBVV95cUxNeTQ3UFdQZzhlX1RPcks4bjk5M01OR0VJb2JaWUdIN1NQRUx2X08yd2tKbDY1eWNMd0tmYzlDTDhzcGVkaGhnS3d3dGwtNDVtYWdGSWRzNGx2cVA1XzRETVNacXl2aTJCSFF0TEgxbzVQU1RBeFJKbFE2c214cnE1RnpQMWpLdVh3VXFVaVppWElkMlY1Mmt3WmhKTkd6M1RTeC1qOVVRNXVEQ1dhLVl2MVRkRTZVSTE0OGhSTEhUQmFsY244cVFmRDJNRENUM3hmVm53NGR1Y0pyQm5QeU13eUVrYmFrM2g5VEh4TUJ1OGd1WWhsUUMxX1FYN01BQzBNb0FqcXo0RWxXS05jZWEyejB2SWNhZUVNOU5idDRKM3kwNzRYSGExVE1JdjZaNDktcnZPRnl6eFlCOHZFLV9qQXNVbndfTlpJakc2d1laem9PUm5oVmVTazI2RDRIVE41Ulc1cXlDejhqUDNySlRYQlp6VGtiTG5aNndnRGhGSW9kVVNFNTVmOVVxR1ZNd2wxM1Y3eDVWbjA3WGJBQ18xcXM0T0JmeHBBVG9YalNEZVRVaDFVYmI3OXRBaXI2UlN5ZEFVaGltbllPTy1YSTdrejJ3SVhTcG53dXc?oc=5",
       "source": "عربي21",
       "published_at": "2026-10-17T03:50:00Z",
-      "country": "Iran",
-      "countries": [
-        "Iran"
-      ],
+      "country": "",
+      "countries": [],
       "language": "ar",
       "category": "security",
       "tag": "ملاحه بحريه",
@@ -7922,10 +7742,8 @@
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5TWENEd3RXU1E0SGxXRWRZSkJNbXhRTUI0QlFYcm1Nb3FMenFvNnFaNm9JRjFhekhrRmo0ME5mT3lJOG1qUU9vX25GaXlDMDNVRUtYdlFuVWJIZTlYQ2F3d05PLUNBWHlXOHBBUENoSHBfVEZIa1l2Uzd6QQ?oc=5",
       "source": "Reuters",
       "published_at": "2026-10-17T02:02:00Z",
-      "country": "Iran",
-      "countries": [
-        "Iran"
-      ],
+      "country": "",
+      "countries": [],
       "language": "ar",
       "category": "security",
       "tag": "ملاحه بحريه",
@@ -7953,9 +7771,8 @@
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5vUkp4SlVldmhBUkNfZjBPM0Z2Nlhfa0ZoWTR4SEU0V3d1QUpmWGJBNTFKTDBZcE5EbzBZSGdCLUhlZzFWakk5QWE3dW1SSnBSRXRXTHhVdkFqUUFFZkx5TXhhRVZteFRveGc?oc=5",
       "source": "زاد الاردن",
       "published_at": "2026-10-17T01:48:00Z",
-      "country": "",
+      "country": "Iraq",
       "countries": [
-        "Kuwait",
         "Iraq"
       ],
       "language": "ar",
@@ -8187,21 +8004,6 @@
       "provider": "Google News · missiles/drones"
     },
     {
-      "id": "ce4502288c47b532f35ebdae",
-      "title": "بالفيديو.. التحالف يعرض استهداف عمليات الميليشيا الحوثية الإرهابية لتهريب الأسلحة - العربية",
-      "url": "https://news.google.com/rss/articles/CBMimwVBVV95cUxOcVRnSUd4VXNzOFNSY0N1Q0gtbUVaT3VXcURfa0RFbzFKTS1KN1RkcUZ0NFJKeWRpQ0lEckhkTnNqWThhWU5KQmxJLVgtQzU5U3lxODRWOWVoSzNmU2NkR0NDS1dxZkJOQVdUNVRWam5jdk9vYUVuMkRrRVIyZVNCa0pkNURwTFVlY2psVERjQjM3Ym9JNjU4U0VqVUVjVldNejhNNlRsWkp4RnBCWE1idWZQV1JISjhmNXZmTm9HTHNkRDdOVmxEOHBkaGRWdkVkeERpTHVGY0lrS0hGR2h3TjF6Ni16ZHBiNDg3SjQzU0YtdlNJVU9idGlxRXJNcF9TVW43ZXZyVC1KQ3lTell6djI2aW9MaEd2WC1tWkhKMTIwekpha0RCLXlhVTctM0daLWpobzh6M0xoZ0xWY1RXdUplVi0yM3hCU1lxOXN1SGRtN0ppTGkyWHpveWhmTGktRV9Jd2d2Qnh0S1loY255UW5obW94QnNjUTU2NTRHLVo1SzhzS2pWOXcxRUR6cFJVTjRhR1VpRVloNy0zdXkyemc4bzBKbW5aN2lrNmR6SU9JY09oMTJFSExDalZiV1RGVVo4aXRVM2w4Nm9NMml4ZHVlR2xDcUlBOFN6dEpKSXdhWTVFVkNMX3lwS2ZiU3pMN2pxaHQzR01STnZJbWFMVWFwSGRVZF9BSVRldGc3NU13ODY1bkNNeExsWEt4SzA5dkF2OEJkNVUxM0pLS0ZfU3VBc3JHSEE4Z2lmT2RhUWd0RXlHZTYwZXpfUXdKUEsxb09CeXVLY2I2RUpBZVZwczgta1NFQ3M0Tnh2ZTkzbnJKTlk1dlVac1pYRGJ1bFhFckhLYm9Ldi1SY3MzUjQ4cy1ZQlFUZHlVWjdz0gGgBUFVX3lxTFA4VnVwRnRpRE1XQVh2VV9pUkdjbFY0YlZxM2oydkFnS2F1QXZMVXB4d2ptbnMxNnV5akRMS1lEQVZ3U0xOZ0pBTW9IbjVzQkR6dGc1VXQ2ekRmZ0NzZFM5VkItcFkxbDZNVjk1RG5rWXpYR3AxZXJuUWVyelEwcjExMUlTMUMzRWY1SFgxM0Q4eElrTE9yYjV5SWR5YlFwVEk0Q0tkVXJBeUZCQVJSeTMxcUFLMFZqYWJTTTdqaU5wVGxLTUJIakpUbzU2Y2o5Vl9tcnNZTFQ1TUpjbWstTVltXzFUYXMzUTJfWVZoc09BaFN4MGRtdklaOHlRVmdYNFdZTkdDMmplNmVPcjFwa3ZYOWJ4UzdlelJVMmNpRGtKenRVQVEwVWJEMlVzMWhwUFZHWFFJRklGSDBHZHBJRTlKUWlFQnh2aFFCaGxYSFlYNWFCc3U3Ry1fWGpfbDNuYzRKd2g2M1FDZHJObTlpS0dSYXJLZGNUUGRvOVlldGZyRDhaVkRwWTU5bmU5VFlUVUYwa1dac0lhXzZ5TncwTDRXMDVBdzloMWlubUltdVc5N0lHU2ppdkl3SXRSeDVXNFdheDYtdHJHRXl1a0VBTi11dGZ5VkI4QmdLTmFaZWdlemJNWk5Gai01LW9LRmViUFU0bjFXOUpobWRacEh1cVp6QXlVLTUwZU1tenlYU2t1NHU2NzAwMklnQ2V5QWdELTIwUXBtWTd2VGlwSlNlRFFuM0I4azA4YVVtTEtQSHRRaElISmJQR3VqcnJHamgtZG9uOEVLLWowRU5fcWJoRlZtTEZ5UFhfWm5wYnVzUUhxczFsYkw3cHlFWmlwM252aG5QSWNic0wzNHdGWkFZdE56M2pmS2RURVR0NGdDMUxjUg?oc=5",
-      "source": "العربية",
-      "published_at": "2026-10-16T21:08:00Z",
-      "country": "Yemen",
-      "countries": [
-        "Yemen"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "تقرير امني",
-      "provider": "عربي · العربية"
-    },
-    {
       "id": "0149133e101edc0a2f4b",
       "title": "U.S. ignored Ukraine’s lessons on Iran’s drone threat to Gulf bases - Foundation for Defense of Democracies",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdWJ2cmpONGhzVmNoeWZZanRnZHlnblNTeFJWd1pScng3OWZPM0RZS21tTTVEU1JTSnBtN3FSUHdwdjVIdjRqSlQydVIyZktRaGdOeEY4MDUtN011MHlQY1FJLTE0QnE4a0tZWTc4cU5KTzZiX19CRXNBaGNKb0s0QUJ6eXlUM1o2bVp2ZE1PVHBtVGhoa3BXSFktS1hOUQ?oc=5",
@@ -8314,10 +8116,8 @@
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5MUGcwNmZfY0g1VmpPWVViVHYwVWF5RXF2Uk85eExLU0tublVOLXpPakxRaHFlYjRhUlcwbld3aE1SYWFFekpkMm5MbzhEa2VIUVR3NVB4cEVyVHIzaHJaT3BGdUhEcHotRUN0UVNXZ2RMclVS?oc=5",
       "source": "وكالة الأنباء الكويتية",
       "published_at": "2026-10-16T20:07:48Z",
-      "country": "Kuwait",
-      "countries": [
-        "Kuwait"
-      ],
+      "country": "",
+      "countries": [],
       "language": "ar",
       "category": "transport",
       "tag": "ملاحه بحريه",
@@ -8399,21 +8199,6 @@
       "language": "en"
     },
     {
-      "id": "1920684fd85c188c39b2cbc0",
-      "title": "الجيش الإسرائيلي يطلق صاروخا اعتراضيًا على هدف جوي في جنوب لبنان - صدى البلد",
-      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE15aUNPU0hwdmdidVFTZkpPYl82a3BkM2ZuM253ZEtxUlVqdGx0ckpqeU01d3Y4MGg1cXFzZU83QkdYcU5Ya0Zr?oc=5",
-      "source": "صدى البلد",
-      "published_at": "2026-10-16T17:55:00Z",
-      "country": "Israel",
-      "countries": [
-        "Israel"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "خبر اعتراض / دفاع جوي",
-      "provider": "عربي · قطر"
-    },
-    {
       "id": "99aeefb1050922e410955705",
       "title": "قبل حرب إيران.. تحذير عسكري أميركي من أزمة صواريخ حتى 2030 - المدن",
       "url": "https://news.google.com/rss/articles/CBMiwANBVV95cUxOaE9WTC1uSXEweTVyMUVyRDJkdXZnTGJFZFdmc2tLMVZldk9oaHJ6ZmFsdHVfbF9ELWphUlNKUUVsdzM1SHNxeTJVOWppRDVpSGpZSzdLeDZZajdUbWI1amYydDVwN2hqNEc3QzVsdXFIYWtYbnhBOGN5YjRiaXplNkd1THlEOS0wM0NKMmlhWWNYQTRycFlLWWdUMHR3YU9pRTdDbXRQUFN3SVdPZjVEMk9tN21FdVpaNU80eW90WHVnRUZWVTBuUUM5RjBINTVZdmNNVk5jVU40c2ZDZk0tQVZWT2NsSVhUc1JTN0JpRFM2d3pUQjliMU1kSWY3SXVOdURGMTZhMVVxdS1wM0w5QktiZjl1LTNua3hMdld6V0dPZ0hoZmZ2dlZ2dFdCbUtXT1NDWWxTeXlHV1lQUHhET21SWnN2ZjNBRWR6RjNxc2tNYXZBckNpRnZFY1RoMHdzTDRTWWV1dWtNaFRCc1lKcHUwbU5uOHY1aWs1MGtwem5acUZTWWdlQ2RZODZLeVJwTjR3dkNrVDRpQjJDbWlqVi1RamI4cEFuRDRyM2dVSnk4aFdsS3R1dmk3VFN1eUJW0gHAA0FVX3lxTE5oT1ZMLW5JcTB5NXIxRXJEMmR1dmdMYkVkV2Zza0sxVmV2T2hocnpmYWx0dV9sX0QtamFSU0pRRWx3MzVIc3F5MlU5amlENWlIallLN0t4NllqN1RtYjVqZjJ0NXA3aGo0RzdDNWx1cUhha1hueEE4Y3liNGJpemU2R3VMeUQ5LTAzQ0oyaWFZY1hBNHJwWUtZZ1QwdHdhT2lFN0NtdFBQU3dJV09mNUQyT203bUV1Wlo1TzR5b3RYdWdFRlZVMG5RQzlGMEg1NVl2Y01WTmNVTjRzZkNmTS1BVlZPY2xJWFRzUlM3QmlEUzZ3elRCOWIxTWRJZjdJdU51REYxNmExVXF1LXAzTDlCS2JmOXUtM25reEx2V3pXR09nSGhmZnZ2VnZ0V0JtS1dPU0NZbFN5eUdXWVBQeERPbVJac3ZmM0FFZHpGM3Fza01hdkFyQ2lGdkVjVGgwd3NMNFNZZXV1a01oVEJzWUpwdTBtTm44djVpazUwa3B6blpxRlNZZ2VDZFk4Nkt5UnBONHd2Q2tUNGlCMkNtaWpWLVFqYjhwQW5ENHIzZ1VKeThoV2xLdHV2aTdUU3V5QlY?oc=5",
@@ -8442,21 +8227,6 @@
         "Iran"
       ],
       "language": "en"
-    },
-    {
-      "id": "479c92544475e9a2d6db6f2c",
-      "title": "تشاد .. مقتل ضابطين وإصابة 9 آخرين في هجوم على موقع عسكري شمالي البلاد - الدفاع - 16/10/2026 - وكالة الأنباء الكويتية",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE00ZEVjWXZLczdqam5JVF9TLU9CNFJjOEhnZFhUYVQ3aWFrMWxiUmUzSVFhS3VYZ1hranRNeG5jZXJGTTdOVXFfNldvVjlDVDI3Tlh4cVlDVkRCcXJhaEE4OGFPcGVxVGNBbHhoREdTdkNUbGxt?oc=5",
-      "source": "وكالة الأنباء الكويتية",
-      "published_at": "2026-10-16T16:57:13Z",
-      "country": "Kuwait",
-      "countries": [
-        "Kuwait"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "تقرير امني",
-      "provider": "عربي · وكالات الخليج"
     },
     {
       "id": "3ff7fb3b6117def30a6d76ab",
@@ -8640,21 +8410,6 @@
       "provider": "عربي · السعودية"
     },
     {
-      "id": "a791deb1e6cc5364634e098d",
-      "title": "ركلوها وسرقوا جوازها.. 50 مستوطنا إسرائيليا ينهالون على مصورة أميركية بهجوم صادم بالضفة - العربية",
-      "url": "https://news.google.com/rss/articles/CBMirAVBVV95cUxPY2lhLTNoR2VJa3FrZm5Sb0pzdm9XQnFDbmpkRUpQS3B2Q2ZUSzZzV0dzV2R2QjN6b2JtaFB2bFlscnpwVkFZdUFzbk1JdWRHVkxFd0NCNHV3S2x2NENnaDF0RUxPUVllSGsxWmxlMFpERjdwcFJtWWlERkJIQlZBSXRRTmtLZTQzampRREVGQ2ktRTRvNWVIbmp0THlOeFpKZlV1c2FWY01mOS1tdUxaTm5IaUhqdk5OVVhXZllIMklPbTRQZ3o5ekw4WTFSYWZfVlZaVFYzQVRWeTdXbUJDMmNTUV9ZZnpRdmJRT2t6VmQ3WVh6RTJKdmJlOUYzWFdZcjZ2ekpZaHUxMDdnY0RiMVZyR0oybjcwU0JETFRRUDZZZnpUYzl1LTVJSGc4c0dnUnJucWtHRW1McWtxUmxtelRwQlFGV0ZyeFRqYjR5THQtT3FjcEs2YmxNMmdtS2w0ZG9nRVFNcXdmSmdnTDZNQmtPT1loZDFPUlltdXB2Ulp1X2tpQmhCOEh6UEF4OU5yYVdteVZOdDI0OUlJOHFza3BiZzJZMS1SZElYeU5LWm0ybkF6R3BKa2pFbk0zSlBOVGdmTDF1a0J3QTB2Z2J2M21FcDdidVJPSGI4N1N2M1NKZFBDTGlVQXlnR0s1ckl1LU5CRHRvek85OE5JbGxtRjdYQUVXRkdJdFdTMUJyZXB5SWlwX0l2ZGFnZDU0QVRWWWpIb0p2NXQ3TGNfNUlGYkVMcjNqWWIzLTFobkowazhPVW1RRldFTGpxRjQ4UmxZWWFLSjlJVTJRUVdfWUZjZlZlNkt5RGtiVWE1LVJsZ1E0T0VsN3JXY1hsMjU5MDE5clBHeVJwVTd1a1M3ektTblh4WHRaWFM0Z1pyRTNZMmdrTjlaNi05QjNZVkHSAbIFQVVfeXFMT2FzeEtYc1lEU1ZEZHREVXNhOTd3MzhWekdVeFMtcEFoTjRJVzUzbldWX09sT2E3QTEydl9kUTdKU0xueGVJc0VpUkFPbFdMcXV6b2U3c2dmdmF6Q0V1ek5sY29yMm9MSzNMZ29pMFRGbmlXX0todFRYVGp3aFlOcjYyUldqVDhab0Y3ZE1wRmNudW5LQlpaX3dFZk96R1ktNDBQU0hBREhrNkI0U0wtNXhNQjdlRzN4N2VyMlI5dzNtNEZCcmlWYk00YjRFRUM5dEJ1TjFNdC1SczZpR3cxMFFGUXZTeTdmcWtXNmZfN29FSUFTV0V4XzhYVUljcEg2OExYYUotNG9ENkZUQTZibWRnTjFkWkVUTGJ6RFFRUWxpWXk4Z3lXQkdDNG1yUEpHT0NXcnVUcTZTYkhhVzZLM0E4ZFphMDFFSlZXQ3BYYjYtMVF6UEd5b3pYMlBNZWR6cXZnajFGMVFzU1E2LTI0U0hGWGpaNzk3dC03c0FqV1RETU5fNDl3RzRpNUJrTG90YWtRMUNZb2FxemJuUUJqZnNMUmJvdk5waDVZWFNLTUlEb1JqR3cxSHJoRmE0SmVKTWJMeUhSeHNXT1lVVkdnVm1pbUVHc0dCdTFjUXNLUi1XZWVnSGZxZ2V3Vm5GVkxWcVA3UjJvS2ZTLXV3bUt1ZTl2SEFCWDdDZjFPWnU3MUl0T3RxZ2ptbnRNaVo0VjB5eHdGdGdrYjZOTURWRk00NVJJWkRoZmRQVm1hLXhJVDh5cktwWVVWdHNfMTFtejhwc2ZnYjBETVVVbk5uMDAyN0drVmpYT2lhUjNjOEJWMTdqcUlCQ0QtZks2VWNka1J1RTg3TXdfeVJvejhjNTA3dEc4TUh1VjNUbkgyVVNqOW9rWHd1S1otRzZSWjhUaUZuei1R?oc=5",
-      "source": "العربية",
-      "published_at": "2026-10-16T14:51:00Z",
-      "country": "Israel",
-      "countries": [
-        "Israel"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "تقرير امني",
-      "provider": "عربي · العربية"
-    },
-    {
       "id": "217cab2c3517f9cf0ac5a881",
       "title": "السعودية تعلن اعتراض وتدمير صواريخ ومسيرات استهدفت عدة مناطق - الإمارات اليوم",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNS3ByNlpjckNWd0NWSG9qd0ZxelVhV1I2dzVHRGhuUVZNV2RqQ2ktZWZHREd0S2s4QUhPdk9wZGFBSTJLbHh6NWtJT2hkLVBmM1ZXd0tvRHB6SVlXdHBUcmlBNlhwTlJWdzBTR3psaFNLSkp4b1Qwd2hxRWJyRENFbUh5bm9IblZIX3lj0gGLAUFVX3lxTE1LcHI2WmNyQ1Z3Q1ZIb2p3RnF6VWFXUjZ3NUdEaG5RVk1XZGpDaS1lZkdER3RLazhBSE92T3BkYUFJMktseHo1a0lPaGQtUGYzVld3S29EcHpJWVd0cFRyaUE2WHBOUlZ3MFNHemxoU0tKSnhvVDB3aHFFYnJEQ0VtSHlub0huVkhfeWM?oc=5",
@@ -8669,21 +8424,6 @@
       "category": "security",
       "tag": "خبر اعتراض / دفاع جوي",
       "provider": "عربي · الإمارات والبحرين"
-    },
-    {
-      "id": "ba60482a40dacc25bd0b3126",
-      "title": "هل الفيديو لهجوم حوثي استهدف معسكرًا للحرس الملكي في الرياض؟ - موقع مسبار",
-      "url": "https://news.google.com/rss/articles/CBMi-wNBVV95cUxOUGFCS2NDZklJTmRfZ3BYWExWQTBpY1A4UHQ2c0gzTWNkcnE4S1lBVXhxb19EU0lrN1lVbHVYTmtPUUZDbHh4QlpOVzhESTdUWU15NFRKV2VEeXg1U0pTQXZnUEVkNVVIVURUdG1WckFiSzRQczFURUI0MThUOGloS3N1NERyLXcxalJmR2tKLVh2VG9YVEhVOEJjRUYydnJHQ0FZcmpTNTl6RVhUdEIyMUVVcXFnc0hOeDJCQVV1T3I2SDdKLVN4YnpHOG9lcWVWR3J5cDNNeWowMFU3XzhjSW1MSkwyUW1jcTk0OUlUUDhfWDd2N2ZvQzhMWFRWVFdfd3kxZnBSNkZYY3Y4VktpWFFXUHI0dmU2NS1YNFFoYW5pWkRhcll2TW00WVNET1NDRTZlX1BHaDRZbEl6dHZHYTNvbGltbWx6R09aSGZaN0FRNV9FV2NhVkVRN0RQUGVOY29WTFREU2JrUGduaVU1RVNHNHZUZnhrYk5pVEJ6ZENMUVh2VWxUOFdoZnJLWEZYQkREYWY1T19QZ1pad0hHX0dYcGowekFTZXprdjZFSnJvTGZwblhtWnJtd1FBSFUtUkwwZHRDeHdERjdTMVJyQjVNbkhlaWlVTmgxaUxmOFU5aUY3WGRucjhQVHBsZmtCLTA1ejItT21fZm8?oc=5",
-      "source": "موقع مسبار",
-      "published_at": "2026-10-16T14:39:07Z",
-      "country": "Saudi",
-      "countries": [
-        "Saudi"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "تقرير امني",
-      "provider": "عربي · السعودية"
     },
     {
       "id": "86b1bf34c65c116be3d1e86d",
@@ -8778,10 +8518,9 @@
       "url": "https://news.google.com/rss/articles/CBMi4wRBVV95cUxPeDFIb3p0SmJmcnBidWJMcXlBZ0toWW8ydkxxS0RLdDJYWmxHeWRrVWRBUTMzbkRkNjd0ekMwUVA5bmF5UWlpdGFWWFVwSWp3RGYxdlVnSnMzMnRmQURza3FBYVJMQVdWaWgwNkpPNkxMLXBsVVpJcG9YUFFnVnJTUUNFOThma2g1LVdOMWRabW1mc29VV0wtaUZmbFZaRnJ5QzhCSFdIdFlRRUhJdE1SazJwZWJULTc0YUYtZGdaT01ackFSeTZIR0pvdUFZS3V6UERwMW1YOTU4X2UzaU5ucTQxYW5ZRXhyc1RjSXA0YkM0dXJDc0VmQWxBYUVGalA0Y3cwZDBEbFVTZUNCOHhEN19ZWFVLeDRid29WX1FvTVVjMDV6YXY2NHJmRG9SR2otcm5uX0hBdDFxOFQ0cUlEeWttQ1BrNUJXS2h0a0l4aTQyV2dzRmE0LXUwZzU4VFBZNEZjTU9RSWZVWlNCQlZfQUVTM1NYUjZpcXZ0SEhjVzYzc3dGVTV1RGJvZHktell5Mnl1MkQzNlJ6RWdpZEtXVGZ0RU5xUTBoVG0wcVk1UE5RT0ZtaFdEcTF5ZVVSMUlIR0xnQl8xejRmVXRSX3MtS2ZIZmVZUVgtZ3d1cDdMb3g3ZVUzaHNLNVpaYXZBTjJrWU01T3VMWU1QRFpFRC1hemt3V1FHUFB3ZlZvV0liTHdNZ2VaNWVHMUdZejEweHdVckM0UjdYQ0FpWTU4Z0ZxZ1BIaWgwa3haVXMwMFdoU1hQYmRYN3YtMkc0QnByVHROU2Q0UGxkclk5MC1NSnpaWFhpONIB6ARBVV95cUxNVlRMNzIyMjVTLS1qLWdCZ3pYUlhWWHFBWjZHNTVBd2NHdXFuOGwtd2JSTkFzdXA1WS1QaWZ6OTYwV09UOU5uMHBZdWFZWVVlZ1VUbGFUZ054MlJEOGc2RlpYNVJyWENxcUlWcWZGY1hjTGY3dXpSN1lVNzVKQjBSWjloODRqQm5reFYwWTkwZE9KVFFocGdLaXN6UGF2bWJGSHBYdV9HbFdPNnhzTm1IcjBGTjlWX21hNkNxN0h2MGp1ZTd4VkdQUTJJczBMUlhpSmNlTHhGZzBGMFU4cFZFWXRzM09UaUNWRVNWODZwNzRnRUJ2NGdxQkY0Vzh2a3BkZ2hjeVo2R0psR0lSSWVkSW80TG9OdDl5QjBKdF9zTHhqZzd1VFZGOThDNWRZZzFnRERnYXU3dWpUYXpIV3kyakw0cTVoWG5WR1BEaDlYRlZsSWxjVktpLWt6bURIYTJScmlOLVBXSGNid1RERUZUdUxGS1BCX2tfdmprdmkwOFpHS2FBU3RCWE1zcERKZ1plTmlUZUVWSmhGNUNOMUVNQ3diTnJIQjZGYTk1TWdWLWRBNWQ3RDRZLVZSWG52WE5fNjBoTTRJNU1JUTFwV0Y2LVBiWEdfOWZIeEJsdnpTbTNHaE5IMFNjTlpPUUVLN2dBazFfaG9INDV6RFBzT0EwTVdjOXNPeEhsS3ZoY3RjaDNOTTZrS3JuV2xhWl92aFp6bmd2RmtQVlVQX2JCZTl5VnlEVWprSS1jcWp5aTZzeTJWc2ttOWVGV1lzRWxmdk9xQWxfUGhYeDBhSnlYNFRaSDFvZThadUt5?oc=5",
       "source": "العربية",
       "published_at": "2026-10-16T12:10:00Z",
-      "country": "",
+      "country": "Saudi",
       "countries": [
-        "Saudi",
-        "Yemen"
+        "Saudi"
       ],
       "language": "ar",
       "category": "security",
@@ -8953,21 +8692,6 @@
       "provider": "Google News · shipping"
     },
     {
-      "id": "18ef0b0dcdcb07a32418c839",
-      "title": "بعد ضرب المطارات.. كيف نفهم الرسائل الموجهة من تلك القوى إلى الرياض؟ - الجزيرة نت",
-      "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxOa2VtNVBsc05XcXVRTXM3Vzh5ZnBKbFM4WllnNk9QcnN4eXp0QlFoVkxFR3pWalpYeDlJa0hWekdHcnpoTXZqcTdJSU9XNWk5elM0UDlwYkN3cGFHSjdHSzhCQUMxTWwwdnNJT0pDV2FPNHRZQ09RMDRKZ292aDJ0eHlKSjRwSGxnV3ZqVGNwWVprNVFIZzdjMmNJamZ5akVrd04zcC1ocXd5TUo5RVVnTkpUTGdJVEJQZ1VwaVUyN0tUYzRXSGhuQ0JYV0dCam5kVmhzN2FnM1BRTVF5cFplc3A0eXpNbWJCa0tGU3NtOHJIaGNmM2VGdE1HWjRxSF9yQWlhUmMxdEI4RGZCLXNMLUl2eGRjM0VVdk4yblhCaXhmSnJqb0xLZGJLd2I4ZzI2ekVGMWtmeTBMajhxcjhhQlh5Tm9RcFNBZ0Zyd29rQUJRR2JEM3lrZdIB3gJBVV95cUxPblE0ZXZnTWYxMUwtYTNIMW1tZ2dHaU9kYUlBTG5mVkxwSElKWTV0NGVLbVplMGpkMm1haS1xTFh6ejNfZldYYTdzU04zZTZqZElHZUw4NENqOTAtdGt0YmgxQVk5TlJ4THYxWlJhbC1WUWxFZ3lzdDFTTnVObmxyWlh3Mlp6ZU1jemkzWUUxVGkxNWFzVk83bWh3c2xOQVQzR1lpRXVGemo2anBoWHN5MnRGanpxTXhPS2VjYzNsRVd4T2xWX1dzOHYyZTBnNEM4c1NqZU9PbzMtQ3lUY2U5Z0Y2SWNfVEFhcFhXREpVMmljbjNKQzhkclVIcGxMN0lRdUVVQ09va1I4S3JfcnBmbGkxVGJILWpOTkV0QXdfc2RQd0hCVkFNLU9ob3RtaFhuYXAzZ0Y2alMtdW9TT2hJY3NscHRBbmJQTzlpU2tkNVVYNjZpNnl2dWtTNXdHQQ?oc=5",
-      "source": "الجزيرة نت",
-      "published_at": "2026-10-16T11:10:08Z",
-      "country": "Saudi",
-      "countries": [
-        "Saudi"
-      ],
-      "language": "ar",
-      "category": "transport",
-      "tag": "اضطراب نقل",
-      "provider": "عربي · الجزيرة"
-    },
-    {
       "id": "5b8305cf4bcd749268f01148",
       "title": "The UAE’s ‘Zero Hormuz’ strategy runs through Fujairah - Semafor",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNbmVNSWFLYklNVjVlVHM3YlZHUUVVMnpaV0ZLLXMwQ2JYVjJwZlNfU3lSR0NlMldtSktmcmRYanlqNWVxYi0wUE1VZEJiVnlRZkFaZ2V4YWYyVi16M3dYQjhnSjJmV21JODE3VWNRdzlnUHJFSG1JV0ZuUkNLRVI4c04teUd1RDhxWDhBNFhvQl9GMlJYQzdRMVln?oc=5",
@@ -9100,21 +8824,6 @@
         "Saudi"
       ],
       "language": "en"
-    },
-    {
-      "id": "80f1122566522ad6ada267e6",
-      "title": "بـ5 آلاف دولار فقط.. دولة خليجية تبدأ لأول مرة تصنيع مسيّرة اعتراضية لإسقاط الدرونز الإيرانية - خاص عن مصر",
-      "url": "https://news.google.com/rss/articles/CBMivAJBVV95cUxOOW1yVkxOdXJVU045NzFaa0VqdHZ5V3RQUV9nS1hwbUVZUzZ6eHI0M2V1RHZyeV9rMkhEbTJUTmVhWjdGMHN5azBPajlnYU9YUDJDM1oyY1Z6Z0JKS25iNld4YWNkRnoyNUV0eTBTanlzTVBtS1F1OHIzWDhhbjZGX2VUMGdoYWdwdG93V1d5SkVvcXUtT3dyVkNzNjZEZmRBWTR6ay16S1dEQ1UwLWhxczJaRUMtOU41QURWc05hdzFzVVNlMEczdm10WGY0TTN2MGpDSTZpT1YyT2R1WUlFd2pzZkhSbHNfQVZGTEpxbVBtRXNZamZLYXJlaVctZkwtSkI2VkVGeDdwemE0WjBqUDlTLUltNWxPT2pSUGdxZ0lDYnBYMkpWVFVOVFBjS193d1cyZXNsNEkyOHhG?oc=5",
-      "source": "خاص عن مصر",
-      "published_at": "2026-10-16T09:45:43Z",
-      "country": "Iran",
-      "countries": [
-        "Iran"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "خبر اعتراض / دفاع جوي",
-      "provider": "عربي · إيران والخليج"
     },
     {
       "id": "b7e4b30dc9fb05b45052803d",
@@ -9333,21 +9042,6 @@
       "provider": "Google News · regional"
     },
     {
-      "id": "43b9eb3e52f39b049d84905a",
-      "title": "بعد المعاشيق.. لماذا نقل الحوثيون الصواريخ إلى عدن؟ - سكاي نيوز عربية",
-      "url": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxOcS1HQ1NfTWcydk0wdldQUUJDS2I3QWNlZUdkMndWOUtySVAzNEFZZFhmdG4tZl9kdG1ISURSSE1CVXRkN2dQUHFZaEstMlN0ZGNDMEw2ZW45ZERneFlOcGZKYzQtTTE5b3RkUWJxN2lyZTZqN1dYT3pNejZuSGN5S3JibWVUbmo0Y3ZzQUlBbzNHdllzbnprZVpnaURmNno5OE40T0Zwd0J2VkkzWG9zaVlIdlR6c082OFE5aHJzZ1ZfSmVEdWx2N2hPNkQ2blJLTG9QQVpKMWpvdGhLV0p6Vk9rY25SZS1uUzZtMzJHM1NVM3lkTU5BbDdxcTNpRXNUZl9HTjhkYy01bnoxZ2gzU1VEdDRGMVFiR2RMLVZlZUhIQWJfcUJQTHU5ZTd3TUMtcDRnYVNsZDVHalhmNU9OdXNxZUoyY2Y4TkI0ZnBRYmwySms4eW9YMVd0MTNNYTd1NS01TWNJRHdrZEh5RW1WTFhKdWpiNnU5YS1FRThn0gGDA0FVX3lxTFBNaUFXSk03Qy1nSERHN3BWcXZ1SXpZdWlFQmJvcENudXJDYmVHOHV4OEJlYTQyYXQ1aTluanJQMC14MjRwZy1wRHV5OXhybmxWQkUxQ1VwQm95NGdXMWxoRno0SjJwellLWUxBdEpDTHc1eFFHY3RNU3dfOUZNLVl2bEZfZ2o4U2M5cWFGWWJYU1RrN2xZRVBhR3hiVmE4dlZzZDJDOHhOME5KSXBBTElaMS0tRDdsMm5tRGlFbl9FMWZEckhnclMwM2NmMUlldGlOY3kyU3lqdmdSWDU4cHJxcDdYNTBrZ0ctRlhsekpRS2lsQ1cxQWZSNjgwNlVBZS1faTBvN1k1Y0pQQnNPLUZ5Z3o3dy1oWEY5cWhlY1BEWmY5UjFsU3JJLUxfN3huZXBzalpEMWN2V0piRDV2S2pQWmk5MXVqb1JnZFRVWU9WcTF5M3ZzTUtwcnFTenNIY0JEMmRLeDJ0aHpydUNKZHRCcDNKT2hRQ0FDakxpQm1oOTBkZw?oc=5",
-      "source": "سكاي نيوز عربية",
-      "published_at": "2026-10-16T07:35:00Z",
-      "country": "Yemen",
-      "countries": [
-        "Yemen"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "تقرير عن صواريخ",
-      "provider": "عربي · السعودية"
-    },
-    {
       "id": "002de4eaabbdf803d248ca33",
       "title": "Dubai and Middle East flight disruption: widespread route cancellations across Saudi Arabia and Gulf - Condé Nast Traveller Middle East",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQeFBZTF9pSkN6cFhMVmZ5NnpHczB4XzVBaXNnRXo4UmxXT3JGbi10VGVLcm9aOHl5bTJNUXl2bk5LLUN3aUhZQ3Z2alplOXJXZWE4c2g2VWVIX0JiMWhEU2p1NmpueFBtZmdHVThwQ19PMWo1YlZuZHBSaFFDSkpQXzRoS0F0ZjVlaDcwWnd3Z2dPNnBVVXAzdjctYTZJOUN2X21qVHJNT3BiZ0M2VEtCMWQyVWdvWnNha2ZzRThBbHh0TDM1QWFZR25DcG0tZlpf?oc=5",
@@ -9482,10 +9176,9 @@
       "url": "https://news.google.com/rss/articles/CBMipAZBVV95cUxNZlVlSUFIN1ViSHk2U3U0ajExQVFnVUpramlJRkxRbTJXVXBDVUtRcFhSSnFFS2JkTU85NV9QU3RQazFtRDRHbFhvRFZzQnZWMVQxN2UtRmttRlFmWnlQWjAxRF9hRy1ZcHBtT2Jpc2kxcE9uaWRuS1lOa1BwbVJETzlaWGJxeURxVEhUTGJiRkhUY1htNjBvM0N2SVZOZGlLT1JvVFhRcG1UUm9Id0RkUTlyMWtTSEFTRnhxaVNYMUgxVjB4alJNb0Rvc1BQT0w1YmlNdDNHTWtFNHRqbW5Ralp3b3gyb3ZlM0pNdHRXb0ZCbFlkSHFySk41VktBQUZ5WGhwYTVqaC1nazZPZVRWeTFfdXFTLXJpSzktV0s2S3p3QTl0Z0cxRlN3WnZQcklzeHR3SUQtVU9mdXQ1N014U2hCbllnNzhTVUZuN2VkSXRMcFI5Zi13V3ZEdm5hcWpfYnlwOXN4ZTljNGdvNWF0TU9JZVRLcGEzcGc4dmJ4WkZvS2cyQnRZa2lXMUNocWpKUmZVSWIzQXdoc3hNeXJMaTBMRjBlc2QwOHRxa2pELU5RU2ZQcW8xRDZpUDdiY1hfRzF5d2lJWThRZ2g2VDBja2N5SUs4dGViQ0hBZkozWlpZZzJzR1FtVkI2b2Nkb1d2UWtiZFlxdWdSUnJEQ3hlc3BPbV9lX1Q3R19LRnV2M2ZINkZRakNFUWRGcjBkVVFzdlNETDJxYWFpd1RFaE85SzZ1YUIwUENjaXYtTVQ0ZXR6aklMcU1PbzJ0NWp6MEdGeWZzb2FCa04zeHdBVTRJNnF5VlFMY0ZkSkVaYzlrQktOTVppcTF0OHlpRFVUcU11RzlUWWpmN09fUUZvRHdqUVNvYVFPNVI2SnBmQm5jeFdub0FGcXFMUmtrOWc5U1VSYTJfWGpneDYzcmNpZm1qeWIza3ltMjNKTmN6UUlJZzUxZ0ZnbFZLZG1YZkhKZUxGQmNEdy1ZXzZSRk9SR21kVXMtQVJNWUhmd2NRTERSSk5tT1VGdVlqZ1dqOFFKbHBvZ09SRDBmOUFfVUcybXA0aE1pUTLSAaQGQVVfeXFMTWZVZUlBSDdVYkh5NlN1NGoxMUFRZ1VKa2ppSUZMUW0yV1VwQ1VLUXBYUkpxRUtiZE1POTVfUFN0UGsxbUQ0R2xYb0RWc0J2VjFUMTdlLUZrbUZRZlp5UFowMURfYUctWXBwbU9iaXNpMXBPbmlkbktZTmtQcG1SRE85WlhicXlEcVRIVExiYkZIVGNYbTYwbzNDdklWTmRpS09Sb1RYUXBtVFJvSHdEZFE5cjFrU0hBU0Z4cWlTWDFIMVYweGpSTW9Eb3NQUE9MNWJpTXQzR01rRTR0am1uUWpad294Mm92ZTNKTXR0V29GQmxZZEhxckpONVZLQUFGeVhocGE1amgtZ2s2T2VUVnkxX3VxUy1yaUs5LVdLNkt6d0E5dGdHMUZTd1p2UHJJc3h0d0lELVVPZnV0NTdNeFNoQm5ZZzc4U1VGbjdlZEl0THBSOWYtd1d2RHZuYXFqX2J5cDlzeGU5YzRnbzVhdE1PSWVUS3BhM3BnOHZieFpGb0tnMkJ0WWtpVzFDaHFqSlJmVUliM0F3aHN4TXlyTGkwTEYwZXNkMDh0cWtqRC1OUVNmUHFvMUQ2aVA3YmNYX0cxeXdpSVk4UWdoNlQwY2tjeUlLOHRlYkNIQWZKM1paWWcyc0dRbVZCNm9jZG9XdlFrYmRZcXVnUlJyREN4ZXNwT21fZV9UN0dfS0Z1djNmSDZGUWpDRVFkRnIwZFVRc3ZTREwycWFhaXdURWhPOUs2dWFCMFBDY2l2LU1UNGV0empJTHFNT28ydDVqejBHRnlmc29hQmtOM3h3QVU0STZxeVZRTGNGZEpFWmM5a0JLTk1aaXExdDh5aURVVHFNdUc5VFlqZjdPX1FGb0R3alFTb2FRTzVSNkpwZkJuY3hXbm9BRnFxTFJrazlnOVNVUmEyX1hqZ3g2M3JjaWZtanliM2t5bTIzSk5jelFJSWc1MWdGZ2xWS2RtWGZISmVMRkJjRHctWV82UkZPUkdtZFVzLUFSTVlIZndjUUxEUkpObU9VRnVZamdXajhRSmxwb2dPUkQwZjlBX1VHMm1wNGhNaVEy?oc=5",
       "source": "عرب 48",
       "published_at": "2026-10-16T04:40:30Z",
-      "country": "",
+      "country": "Iran",
       "countries": [
-        "Iran",
-        "Saudi"
+        "Iran"
       ],
       "language": "ar",
       "category": "security",
@@ -9514,10 +9207,7 @@
       "country": "",
       "countries": [
         "Iran",
-        "Qatar",
-        "UAE",
-        "Bahrain",
-        "Kuwait"
+        "Qatar"
       ],
       "language": "ar",
       "category": "security",
@@ -9532,11 +9222,8 @@
       "published_at": "2026-10-16T03:25:46Z",
       "country": "",
       "countries": [
-        "Iran",
         "Saudi",
-        "UAE",
-        "Bahrain",
-        "Kuwait"
+        "Bahrain"
       ],
       "language": "ar",
       "category": "security",
@@ -9641,10 +9328,9 @@
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBCVEdFbFJ1ZVphR19rdnlQNWpKdVQ4NkNiVjBQeGcxZU00a0NTaWxDSVBmc3pCVGZwX1VNZWRoel9zTE83cUE5bGdGdnNVLTN2UDliYjhlYzhZRE9YWmfSAWNBVV95cUxNZkFsNzZhUmpyUkJJTlVMazl2VjY1YV9BekZFM3BhVnlNaTdpNy16MUtLVHhaanNMTGkydkJkRkhyUS1rczlpdVRjWldteGd5Y19NMXRaWkhhT1hNdXNkVHE2U1k?oc=5",
       "source": "BBC",
       "published_at": "2026-10-16T01:38:46Z",
-      "country": "",
+      "country": "Saudi",
       "countries": [
-        "Saudi",
-        "Yemen"
+        "Saudi"
       ],
       "language": "ar",
       "category": "security",
@@ -9728,21 +9414,6 @@
       "language": "en"
     },
     {
-      "id": "bee011c15fc53bdfa0c95fa1",
-      "title": "الجيش الإسرائيلي يطارد مشبها به في عملية دهس قرب رام الله - الجزيرة نت",
-      "url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxQQWtRdTh0Ml91N2t4UF9iOGh1TVJlTkVlSkg3R3BrajRpbFFndHl4c3pqaHpxTWdtRDBEZTl6NnVVWHdxWEtNUVB6OWVXZWoxSnZsRnRvY3c5Wk1pTkE1YVJSYnpwSXkyNnJaUzdmYml0U0kxRzc3QWRjU1Q0MG0zZExJbHJKVzVyUnBXMC1teDhpanNZTC1PeVd0Z1lZMWRnb3JsVVY1SktqZWtsYmpzckEyMzBwVUVoenBtLXJELU5XNDlSNWZGTnBPeWRaeXRHanptcXZ6WWQzV2FPZmU2WFI2RkdITFB5STZOaW5Pb0MzdlZtd0tJMnJXaWZoNmRTUVhiaTV6N2N2TnBCV1o5bFA3MDNXdjhBcEFLbHlGMXk4eXo4VE5lbV92QkVFMzdiVzRxWVNEbXNUdm5kbnZHNWRISdIByAJBVV95cUxPZWNXbm9oWXJzTHBNTmpQb2FqbVpNRXdSUEZ0dGFIeXhuWTJtY2RRdzE5cXdFTWdXUDAwRU1CNHl2b3BEWTNrMTk3YXh0YnJsRWNEQzV1bFh3TFE1NFphMUpyckhIcU5oaTVUX2dHcks0aVhEdDQwaS16eFQ3MnJWTGc2eV96T3dMbUtHbV9Pb05VYzZ1R3RhWlZvdzEyWGxzUVNEbUNsSkY0Z0MxYjBzeUNrYllMREpySGZLSWFiUEFmenhUb3dpOEgxOXk0c19TRG9qQWFCbHVwU2pXUWhQdmZhUTR6V0V5LXZNWW0yM1AyWUtKRG9Wb044Q2s2M2VuLXhQc194X2k4WTJwMl9ZeF95V3cyd01LVjJLWVNzazhPTkhINXBMemdwVDBqdmJYQ1p6RG9SQnFydXFMZ2sxQk56MFpEdXhp?oc=5",
-      "source": "الجزيرة نت",
-      "published_at": "2026-10-15T23:12:24Z",
-      "country": "Israel",
-      "countries": [
-        "Israel"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "تقرير امني",
-      "provider": "عربي · الجزيرة"
-    },
-    {
       "id": "42df18e6be1cce90c7e20ec1",
       "title": "'Mother of All Bombs': Iran Energy Sites Could Be Targeted by Major United States' Blast - Military.com",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOM29pRE1yWVpvUVJVZFVaRTlMeE5jQm9VR25xZk04Vkt6NUxtRzl1T0k5dWUzQjVWRHQ3Zm1oUm14dGZaSmg0REZzVjJGZ3doZjNSbUVmU2NQc200aWNwZHhqaTFfc0hNMncyVDROQWduMF8xMV82M0VXVmFsWDNmSXNQSTBwMVg1T3ZaTFNLd3J1eWlIN0F3OFQtZVgwdw?oc=5",
@@ -9763,11 +9434,9 @@
       "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBRWmxnU2k4WkRBdEc5WnNOX1luVVBSVFRsQ3dSVUU3ejNNLW1hXy1oQUZIb3FGQjY5MVVLclgzcG9qWE5kY2V3?oc=5",
       "source": "صدى البلد",
       "published_at": "2026-10-15T23:02:00Z",
-      "country": "",
+      "country": "Qatar",
       "countries": [
-        "Saudi",
-        "Qatar",
-        "UAE"
+        "Qatar"
       ],
       "language": "ar",
       "category": "transport",
@@ -9783,21 +9452,6 @@
       "country": "",
       "countries": [
         "Saudi",
-        "Yemen"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "تقرير امني",
-      "provider": "عربي · الشرق"
-    },
-    {
-      "id": "275d44764edb35a2b03ec4cc",
-      "title": "استهداف قصر معاشيق في عدن يفتح جبهة جديدة في التصعيد اليمني - NOW الشرق",
-      "url": "https://news.google.com/rss/articles/CBMi5ANBVV95cUxNM1hyTkhzTjhNT0o0bjV5RUhrSFNwd1VGY3NVSDhFS0F2WURfRWEtZEN2Y0lweUZXQlVNc0c0c1lYTUh2YlZoRWJlUVFOaVBtQnpHTXlidnpCYlBDa2pTaGFZdlh0aDNjMnNQcnFhdFZEb0FEaFZnZl9raGkzbVZhb09ocUN4cUg0SEZaODZibi1lN1FETy1TakhYc1RCSGQwc3NKY0U0Y2wwSElqVjhmMFRVZGEybTRLaVZGUFRCMkpDWTVKVk1SX3lHbjVXZ0VOZXlGaGVkWUtFWlB2d2pKM21RRDZ5Xy1fMVZHSUFWZld1eUVOTlpZWi1UNTJMS1hWZFVCVGU4MUI5YTdQeGRkeTk2RUh3TEZPTUVxUWJNTi1wdFdxRzllNk1tTDdBdFRHMFBDeVVrZWVUWE5mOXZBMjhfSWVwNlRlVkp2OXlTV20yTDBsZWdZRjlmYUItd1F3aDVXSW40aHlRQlNRQVBkMWZLcDJzVEowMTg5dy1iNV8xZkJIbENMcTlPeEFhV0JEX3FvNVpQVTNtRXFDRjRBbHNEWXNpUUkzMzNtVWlQV01OZUMwdzBqbk9TcGl6am9jdTNGZk1lTkhqRVZ5MVJybkxQRy12NUVpa1JNTDNCdnVaMGQw?oc=5",
-      "source": "NOW الشرق",
-      "published_at": "2026-10-15T22:53:06Z",
-      "country": "Yemen",
-      "countries": [
         "Yemen"
       ],
       "language": "ar",
@@ -9839,9 +9493,8 @@
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5BZDEyV043M2ZVMTVqbmU4ZzdicXRyTWt4ems0YUJpX2hBWlNBZ1FTS2ZtVmViOERaSVlhQURleXkzakk3NXNCWGFKUUZRcjR2a1hCYlZxWVNUMDVwbWFrXzl6S1J3RU1RQTIxeFh2Zm5pYzZo?oc=5",
       "source": "وكالة الأنباء الكويتية",
       "published_at": "2026-10-15T22:02:46Z",
-      "country": "",
+      "country": "Yemen",
       "countries": [
-        "Kuwait",
         "Yemen"
       ],
       "language": "ar",
@@ -9894,21 +9547,6 @@
       "category": "security",
       "tag": "تقرير عن صواريخ",
       "provider": "عربي · الشرق"
-    },
-    {
-      "id": "50b57cd5850dcf4d558dfc8f",
-      "title": "الحكومة اليمنية تعلن مقتل خمسة وإصابة ستة عشر بهجوم حوثي على قصر معاشيق بعدن - https://emirates24.net/",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1FclRkVnJ6TThuVWJfMGpYSl81RDdUbXVISWdnM3dDMHZuNGRaSTg0bmZHNE9pczZJOGp1MGstbExtN19RMjlLWmQ4LXhadUZfeFBVNWlhQUZlQjh2d1E?oc=5",
-      "source": "https://emirates24.net/",
-      "published_at": "2026-10-15T21:08:12Z",
-      "country": "Yemen",
-      "countries": [
-        "Yemen"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "تقرير امني",
-      "provider": "عربي · الإمارات والبحرين"
     },
     {
       "id": "35272747aa3149251d25",
@@ -9986,21 +9624,6 @@
       "language": "en"
     },
     {
-      "id": "36b845362c8761a7171bfa14",
-      "title": "المكتب الإعلامي بغزة ينفي مزاعم إسرائيلية بفرض ضرائب على الشاحنات التجارية - الجزيرة نت",
-      "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxQY0h5c0hnOFpyV05GTTZCNk9YcEUtQWhNcTk1bU81ZXBENk1PTnJCYW9FTWk2VG14MGxKdklveFp1Q3ZlRENyOHB6WnBqcnpzYlZoSlJaU0Jha0FYOExVN0VvVTI4bm1tMDZTZWVBMmNLVFFNTjY3TlRlZ0tWVlE3aU1nVEg2cXVNQTEtZk1pWW80alBxZE80TkVMRnNHMlFNSzY2aUQzTXFqZzJnOHV3OHJMbFFyTV9KdVU0V3UxcjFmQmJoWFVjX3NGYmdkc3NFZDlFVDlYOXZSUkoxVVBKRWVDQVlwOUFya21GNWhhTkVDXy0zRUd0MFZuVC15Q0VtcERkQWYwMVRhb3I5b0ZtZmVIZUF4OTE5TjRlRUVabjJ1aVlQLUNwd0YyUzl6R2JYV1HSAbcCQVVfeXFMT0FacUVPcHg4RzJfd05wcFpWcGo0MElwdkRMdnFNcUVEMGlNNWl3Zl9IQ0ZGRGdjRWhxNTVFSk1xb21mTi1zNWJlVDlEd01fOVROT3VwMUYtWlgtZVUzM1dwS2I0YTJSTVBSdUR6S0xHR0NxbXlmZy05aWRUa2p3UTMyaFJBWU9mWG5zdWhhNXNHU3VnZmM5ZlNxRWJuUk9UU3R6OWZ3elg3ZTljMTF4N3NhSWxzOWpGZThieFZLX1R4N2txU2hDSHNrU0I4bElTdmM3MzhfVGhjSVA3LVpCaDRjVFFEcUJtOUNmb0NxRF9fS0dBbHJZSTZDV2FQWjNfdVF6YzdJSUdCTC03THJyZy1XUjRoOHFoUXVQQjVxNUdURExGTDFSN2xESjl0WHJ4VFZ6aU8wdFU?oc=5",
-      "source": "الجزيرة نت",
-      "published_at": "2026-10-15T20:28:14Z",
-      "country": "Israel",
-      "countries": [
-        "Israel"
-      ],
-      "language": "ar",
-      "category": "transport",
-      "tag": "اضطراب نقل",
-      "provider": "عربي · الجزيرة"
-    },
-    {
       "id": "42856977d88db9cff1d93074",
       "title": "Ousted general warned of years-long missile defense shortage before Iran war - CBS News",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQeWNTdkVxSFAwejREYWszQlhvM0RtWUYzdU5OcDRzSlNmVEtlWld0dmxYUER4MHVnaEJBRm4tdzNpVEprTTJ1RzFBcFJpc3FzTWo2ZHpxTEs4UkRSbng0dkI5QzgwdHdnNl9QeVZsVndPX21ZRjgxak9QdUxwaWt2NTMwNnY?oc=5",
@@ -10064,10 +9687,8 @@
       "url": "https://news.google.com/rss/articles/CBMi1wNBVV95cUxNV0UwMlZJWWp3dEVSUlZNRWdKb2dFMmZ5eHRrdFlLR1hLZ0RlWXFDRUFQUTBzTzM0d2JZdVBQbjF1bUpfYzMyMzRIOTF5eVdiSlJ3bzJCNnJmcWxodUJFQXBWakluWWJYMmZXcHF1dzJtbXFiOVdXenNLVHZDWUdhNV9JbWg0Wm8zVUhrSG56Sjd0di0zY0xTSVJTb3lrMDZLa1ZCQ0E3V1M3LUtZZHZMdWhZbEVvUmFXM2tEckJmVFhQNTZ4TzYyYVdFR21SMXlsdy1uLXZpOFhtbVpWZEFlM29EMHNqMzBtejNXVjhMTlJROTJieVFfMU9XSl9IUXd5VS11Q3Y2dmtqRlVSeDdVR215MzBmZjY4VG9oaDBiemRoaGc3aW1yczRJcVA1ZGt3andfV1JadlBSV1VmblhOLU5sMmNJb1Y4em14TG5pdVY1VmJ3NjNTTWJQMU8tVnJ5WXdRZnFMaVd3aEJSeC1HWmNRVWc4LWxiMzJxMTdkWU51blNINWpIaUR4S1V5T3Z0RHFNR1cwd2RJQmtDbjdhdDJnajZZOTUxTHJRWng2MFFWbU9sVWFFSXlLVzRhX2Q2LUNPLVBVTGU5eGxDM1RMUTJwemJIbzQ?oc=5",
       "source": "الشرق للأخبار",
       "published_at": "2026-10-15T19:18:59Z",
-      "country": "Iran",
-      "countries": [
-        "Iran"
-      ],
+      "country": "",
+      "countries": [],
       "language": "ar",
       "category": "security",
       "tag": "تقرير امني",
@@ -10087,21 +9708,6 @@
         "Iran"
       ],
       "language": "en"
-    },
-    {
-      "id": "0b86ce972dab5be494d8b7dc",
-      "title": "تحالف دعم الشرعية: ‏اعتراض وتدمير صاروخ مجنح (كروز) بمنطقة المدينة المنورة - General - 15/10/2026 - وكالة الأنباء الكويتية",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBiZkl3cGdEaWE0RGttWGVhc050ZV9waEFWVWRlVE12RFV6MVhINVNUTXpDcUowNTg1RE5aeEtBMjN4VnF1RGVWZm1ncnl6MDg0MVpKcy0wcWJ0bFlkVW8yalUzTmlkLUxXTW9OcFRpX08td29I?oc=5",
-      "source": "وكالة الأنباء الكويتية",
-      "published_at": "2026-10-15T19:11:06Z",
-      "country": "Kuwait",
-      "countries": [
-        "Kuwait"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "خبر اعتراض / دفاع جوي",
-      "provider": "عربي · وكالات الخليج"
     },
     {
       "id": "12ec1fae93297b17b559",
@@ -10160,21 +9766,6 @@
       "category": "security",
       "tag": "تقرير امني",
       "provider": "عربي · الكويت والعراق"
-    },
-    {
-      "id": "3bd44d7efe179f0297007b44",
-      "title": "التحالف: 17 وفاة و333 إصابة جراء الاعتداءات الحوثية على مطار الملك خالد - الجزيرة نت",
-      "url": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxQYVI4aE1abUdBbGpCVnlQSzRRbkQxaFZ4WDlieXl4amZWSVpLbldBaTZxdlFEeG5lRnY3REtIRTlDaTZlRjRyaUNVckQxTXZVZEhrUnNXY1kxMnZmOWlibExyX1pQWGtwaUZQenU2dzJYQXZWNVVBbzFpUmpiVG42TnZHSG84c0daRDdnUTdtN2Z2R1JMV1JhM3pqUkMxRUd2amNUNFRNMnRVenVndkZMcll2SjNLM1RtblZ4MVo1OXJDYVl2Y1dWZzdDaUlpUVF4ODFKUTRRRksxUExNS09WeUJNaXBFbDFWZHliSEJEYUN5NFRrTUc3YndQb2d6VnpwenhCT09GckJ0bFE3b3lPWW9QVTYyNnZIRHhGWkRvR3ZvRy1ZN0lLaEVSNHBVMm43TVVuWlF2Q2dCUHk0QlJuczV0Y1BmYlZzNGdINlhLT080UEV6SmphOFZrc9IB4AJBVV95cUxOLWtOX0ppV1lxVVRpSTZQR2dCNDA4RkRfSFRCSlpCbzVtR2YzMFRLRTZmMTBsQmJLOVpVbmV1cFkxUFE4Ujc4YVI0ZzgxQVRPb3NucEpNWEw5Mm96RlotTFRxYXd2bkY1ZUQ2Rmh0eWZPMmxVaF9aYlBfdHRjNnEwdEMyNEF3ejB3Y0FKY09jcmxTSS01R0RYQkhBT3daSHZEaTdsWHlUMWU2RzFXRjhoMVBfOVh5c1JCTVhYcm05VmtkZUduR2RtY3l0Q0dMLVVyS1ZoOE1zN1JxeVBhbEM3dXptVkdLdFMyUFU0R3hnblQtbjJRUHZ0a1dtS1ZZTlFxNjNLdUlZclNVaFVjSWt5c2s3NExON2F0UVNIcjczQW5kYVJWT1g2OEt2NXlQUzUyd2hzd2tmM1AweEV0bVl6Z1VSemtyRTNHQXNHUk9oV3NNS3BXcDdWTEdnNjZROTg2?oc=5",
-      "source": "الجزيرة نت",
-      "published_at": "2026-10-15T18:14:16Z",
-      "country": "Yemen",
-      "countries": [
-        "Yemen"
-      ],
-      "language": "ar",
-      "category": "transport",
-      "tag": "اضطراب نقل",
-      "provider": "عربي · السعودية"
     },
     {
       "id": "192dba0fcc7f10538b7b0480",
@@ -10276,29 +9867,13 @@
       "provider": "عربي · السعودية"
     },
     {
-      "id": "9a9666ea97c159e728dca134",
-      "title": "اكتشاف أثري لكهف شانيدار بالعراق يرجح تعرض إنسان نيندريال لأول هجوم رمح قاتل قبل 75 ألف عام - بوابة الوسط",
-      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFB4VWNSdl9uQjlpMFhDTHd5Smo3QkFlSk1zdXQyWnRocER2ZldIckU5WWhNLWc3VmFlTHQ4aUFRTlNUUTE2?oc=5",
-      "source": "بوابة الوسط",
-      "published_at": "2026-10-15T16:47:46Z",
-      "country": "Iraq",
-      "countries": [
-        "Iraq"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "تقرير امني",
-      "provider": "عربي · الكويت والعراق"
-    },
-    {
       "id": "6f2c409153f37ebd5ccd3d5f",
       "title": "وكالة الإقتصاد نيوز - إعادة فتح أجواء الطيران بين العراق والكويت - E C O N O M Y - N E W S",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBlUjNDY0xwaHQydWlXLUlabDd6NkxFOXA5TzBoQ0p3dlNGc3JBWUZXT0FSb0dlX1pwQk1vM3hPMFZVZjlobVpmdGg5cGpWa0FscmZJOS1oMUZMTWZuSXc?oc=5",
       "source": "E C O N O M Y - N E W S",
       "published_at": "2026-10-15T16:33:27Z",
-      "country": "",
+      "country": "Iraq",
       "countries": [
-        "Kuwait",
         "Iraq"
       ],
       "language": "ar",
@@ -10318,21 +9893,6 @@
       "category": "security",
       "tag": "MARITIME REPORT",
       "provider": "Google News · shipping"
-    },
-    {
-      "id": "11eba1fc2fa7aa8cdd027148",
-      "title": "صواريخ في السماء وهواتف صامتة.. لماذا لا يوثق السعوديون هجمات الحوثيين؟ - عربي21",
-      "url": "https://news.google.com/rss/articles/CBMipwRBVV95cUxOYXR1MU9JMzFlNXZ4UG15UlBzMDlVWE9PYTZYSlEyY0hjZmE5MU1HQ2MwOTdxMDJObGhvZkNsdERvZVVYNDVQb0FmRmJreVpjMnpyVHVIN3hwSVRBVUxBdExMSWtOLTJWcWdoSURJcXdzQ0xNblpyR2pGUTdNQWJUYWxjMVczd0xGLWlqOGhPdHVZOEowanBJdjYwV3RfazViRWJEbE4yZ1FqaktXY0NKSllRSmpNOXJSLVB1WVAxX1NpeEFpMDJ6eUJpUUx5T3VDaDhIeU1QZE1Zc3MydUFiYXpobmpQU2ZtcHp4bXpud1Y5Xzd5NkRmSGJTMnZ0TXR2YjVYZUNDNEdiU3F5dkVmNkhXRzNYeDlxZXAzNUFsdk9mYXhxNFpTNUZlbEJhanZQaUVVWkVGNVFjbTdjdVI1c2VMUHhFa3ZKN2J5TU1wZk1BQ0ZsTXFlTU9obzl6eWg2UHpEVFg0Mlc4eTJUS2JzZFBkbkxoMEhfbVlLQ2FxQ2NuUUNfNUl2d0kzOHlFVG1tMm9ESGJVUFB2RDZaSDJpR2EzWDNlQUlOS1oydjdJc1NubWw1cHl6WXRVUExtWGh3WHJvb1BpVDZYNFZaSDNheWE5NTA5ZVk1LUkzTnFPSVNqeXJ2NjlGamVxSWMyOHVnT0txVnZncm5FN2d2UmdYTGdtVmhOdVhJd2RpOHl4Y2ZaeXNWaHNFRlRyWlBZOTRoV0ZBQVRzd9IBqwRBVV95cUxNeGdqc2F1a1U0RElEZjdSdXQxM083OUpnTmpiVWl4WXZBd2p2ZjdraDV0M1lHbjhGMTFLV2lveVJDb24yV1E3Sng2Z0d5LTR5eTRVTHNGMGdjVkNtNW5CSUdjUTljOHFRY20zQW8zRm00eUxUUjhNU1ctNmpYU0tzZTZFdTE5WEdwMXVoc212TjNuOHp0YUNSUkxrT3dXbXVVazgxZk9RREo2MVgwWDZGRnJISmN2MmlQRzMyRE85VG9MRlFwQUdPd29nQVEtR1d4Sl9laHZRbUVEVUxSLUFSZGNoNWphaFh6M2hrU1FVVURSRTFRR0wyMjY4aWNabXdxTlVtNkxvZ1Y2Qnp4ZWVNbTZDd1dfOXJPV3o1OHh5bnRlYlVVWnI5Q1dEQy1Ta01TOTh2a05nU284M1pwSzVPMHQtV29zOGx2ZEFBdFlDT3ZHMkJTY3JhRFN0THVCbWZDYzVIQkcxN3FqUklQcTJiMUxTeFlzVGhBNE1NOVRXUC10Q0FLU3Rfa3F2OEpjRXVNU0lQQVNFNWh4NHpuU25RYWNQd1VtbU04SGRKMHIyZVVyWWRqUFU3cHIzZXl1OUFrRExmTFFrdTc3d3Jaa2ZMU3JOSExsR3JGUldKNXY5ZlpObXpoSTZ2eFFVdDBjSzlCVlV1X2hwYjNSSDI2TEoyZk1XbS1pZzEta2RxV3dzNVgtbUV6dzZwd3ZzRVVaRXRXZVg1RWl5VUpaWFU?oc=5",
-      "source": "عربي21",
-      "published_at": "2026-10-15T16:29:00Z",
-      "country": "Yemen",
-      "countries": [
-        "Yemen"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "تقرير عن صواريخ",
-      "provider": "عربي · السعودية"
     },
     {
       "id": "79be169283ee5afa47c00adf",
@@ -10440,45 +10000,14 @@
       "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE04YVo4a1g2VFJaS0V5YW9LTjZqMnpiTm1VSEo1TVpZNG5OUnM4cnlmVXZfcldKOGNsMy1Kc3ZrZDFsSElEQUlF?oc=5",
       "source": "صدى البلد",
       "published_at": "2026-10-15T15:22:00Z",
-      "country": "",
+      "country": "Saudi",
       "countries": [
-        "Saudi",
-        "Yemen"
+        "Saudi"
       ],
       "language": "ar",
       "category": "security",
       "tag": "تقرير امني",
       "provider": "عربي · السعودية"
-    },
-    {
-      "id": "c9a3fafbe1c8c96fe1b196d9",
-      "title": "نجاة الحكومة اليمنية من هجوم صاروخي استهدف قصر معاشيق في عدن - أخبار حياة",
-      "url": "https://news.google.com/rss/articles/CBMizwJBVV95cUxOcmlEb2ZTNnRjT3htZUwyb1RxUTgyQTE3b3BEQkJlX0xzVEc3OTF1aGFJNTk0ZVhPeXo0b3ptQm8wVnBmc0RqUWZjejVlWnBER2p5YTI2STFtdlR5N1NGZDNQbTQzcmpiZE16TlFkNGpDQ0ZVZ0NTS01oM3FjWE9icUpkUThfR3gyVE51OWdVMEN4QVFrNURpbzROSUNQU2FKSVhCNHhDVGR5QUM0YWt2aEZrNHZUT1Q2MmVrN3E0U1hhZ2o3bEFNUmRwREdpNUs4OUJQUXlzTExqdWVSM2xxNkxqQm9XMWxzTjc3RGQwZlVhTGdGa20ySVJFYUc5VmdpVjhOZE5OQ2E4N0hva3d6V3kyRHM1ZDY1dFEzYmh2TFZ6VjVJaDR4NUxLcHRnWjRQbWVUUDBjUHdDTHBEQWJ5bS0zRzhCaEE4dlc2YWFNVQ?oc=5",
-      "source": "أخبار حياة",
-      "published_at": "2026-10-15T15:13:49Z",
-      "country": "Yemen",
-      "countries": [
-        "Yemen"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "تقرير عن صواريخ",
-      "provider": "عربي · السعودية"
-    },
-    {
-      "id": "80398bfdcb9e11f12383a9d8",
-      "title": "تقرير حقوقي يكشف حالات إطلاق نار على الأسرى بالسجون الإسرائيلية - الجزيرة نت",
-      "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxQUlJwOGx4UVlxMV85N1VROFNWWmNZX085dEJ3eUtGeTNVQzMzVGJBRjZNOEduYXpUdmZfZDg2OTItdE5TcnUtQ0c0OUFwOEVWVFQ3Q25uU0FoMEpqTlFnX2l5NThiZ3VvQi1vREpvQ3d4Y19ELWthRFV2UVpETVdhWFZuQWNFbkVFT01RT0RYYUc1bW9FcDg0Nlo3M3VDeW5VWmtBOVo2Y1BtdHR4WldpM2l1b2E0RnZ3TXhXSWFLV1VqY3RKbjNBZGhGUTdqT1FHaHRZTU1xN0xKN3NqZkVkZ1BsaG1ldXBBTFhZR2VVR3VVdzNFR3lNZlJucU9WeTR6UjBud0MzN2ZuTG9jNXIyNUN2QS1lUHZDQVdycDJNSjFCLUtYLWE3OUJiMV9EZW1hTFJ1dmlaV1h5N0hQellxTGUwSVRUeDJRLXNLdNIB0gJBVV95cUxOM2xZUEgtN0xqbWc1QU5WcGNQT19BYlBpenl5MUJ3eTBWcTNNYmZEU2Rod3JHWUlndmdMV256WUItNGxobHlsWDkxa1ctZjJWVWtNSUFNVE9Db0ZrTV9zb2xHbmlzYnZYRkhtc3E0eEMwbFJsU2JxYVg0d2FkVjJnTEZQOUpubmNnX3RFZ19QTi1UN0F0ZG84MnllTWxzNm4zc3NZRmRERHFubTVxelp6MU9nRm1BMy1rRHZXUnYtVnJxOFQxZEYwNE9weUNmMWxEM0J4a2Q4NkE3T2JZemgzS19hWmJvNXpmUWl6cWowUWl0aFlLSDJNNHFhdDc0ekpRdTFmMkt6cVFqREU5VjNROFdab2RwdU1PMlpRaGpxMzRsdk9MZUYtSVFyUHc3SWhPOXBsMWdjQ3plWkhNVlRNR0RjcjlqaFk5SjQ0UTNsRE4wZw?oc=5",
-      "source": "الجزيرة نت",
-      "published_at": "2026-10-15T15:04:26Z",
-      "country": "Israel",
-      "countries": [
-        "Israel"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "تقرير امني",
-      "provider": "عربي · الجزيرة"
     },
     {
       "id": "408326848023cc60aad453cb",
@@ -10618,10 +10147,9 @@
       "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFByUDdpOS1LR2lDa1lHZmFUMDVlUGQ4X1EtRUJRZXMxU2pWV2JmM3ZmbHI0TllkcTU4bE95QnhQa05VVUk5eXc?oc=5",
       "source": "وكالة الأنباء السعودية",
       "published_at": "2026-10-15T12:32:45Z",
-      "country": "",
+      "country": "Saudi",
       "countries": [
-        "Saudi",
-        "Kuwait"
+        "Saudi"
       ],
       "language": "ar",
       "category": "diplomacy",
@@ -10649,10 +10177,9 @@
       "url": "https://news.google.com/rss/articles/CBMi7AVBVV95cUxNVTVndXdLdVloLUhiMzAyQjl4MGY2ZlFnb09NSlNlUzg0OEZVNkNfU284bWQ0Wjc1TWpsdUxkaWVVcXBVSW9UNjhzVmNyb05fS1RKX0d1eFhzQ3ZGZG1jSlhSbFlPb1BYVHlmUnZtWjNfN05sb0FTSmNVYTdIb3dETHZlRXZoZE1od1BoQlQ4RGVkWW5BcHR1S3RoNDNaOGhySl82WUNRdFMzZ1U0OGZmZm9VMXdpSHhfd1RKVHZIZVJ5WnFYYVJBRjY3YzFLOEtNcmtrTktYdzBqYXlqUUxlQlV3bWJzdm1fMzBKWDFaWGR5NjdOM1JVbmh3VV83aGItSi1nRkNKR2loVDFsX1VWVjFoSEZTUnY3djN6SllaMXpWOG81N1E2Q053WVEzQWxoTlJsa015Sl9PR3BfYlYtZHE0TS15WkM3alZnZThVbHZWX0lVNlJuUnZrNUZMYmpsNlA1Z2todHI3Zjd6OTkwb1RZdVhzMUQ2RkhqczZ2SzYtc21VYlpxaUxqZ2Yyby1IYzVJTkdxOEdxQW9RZ3pWTDliVnFXa1E5YnVpeEdFTTVSVFBaS2gxUUNZMUVKd0dWb3BmVnNXX19ZVDNUZExKeTY5U0tBcHNmQW9nbl9kd003emplWXM3bjY0MlNDUnpBa1ZCV3otblpQWjBpZkhnY2FtY054RVNvRUlUMkk1RWZRTVBDbjIwSnlPSVExeGtKbkc0TVhXLXZmdUtMUWdvTGpWRWk4VkZDWkNXTHpIRnJhVnhYdTFvX3ItS3JibmZjREl1WHZGSzZrR0FqdTNMT3d1QWVLSWhGYkRZYW1zYmlzdVFJVXBaUDVnbThKcjg5RXZsMHN2YXZxWGJ4NzZpbnJhak4yUXgzY0JlUko3andyN18wM1FpUDNKdTRFY05hLVMzLW15ODFhaXlaNEhtcHBzWW5ELURicGl6dWRaOWRxQW5XRURnNUZ0MUxfcHViVGhNWVg4ZDFOcWtj?oc=5",
       "source": "France 24",
       "published_at": "2026-10-15T12:17:21Z",
-      "country": "",
+      "country": "Iran",
       "countries": [
-        "Iran",
-        "Saudi"
+        "Iran"
       ],
       "language": "ar",
       "category": "security",
@@ -10711,10 +10238,7 @@
       "source": "الساحل الغربي",
       "published_at": "2026-10-15T11:22:34Z",
       "country": "",
-      "countries": [
-        "Iran",
-        "Iraq"
-      ],
+      "countries": [],
       "language": "ar",
       "category": "security",
       "tag": "خبر اعتراض / دفاع جوي",
@@ -10783,21 +10307,6 @@
       "language": "en"
     },
     {
-      "id": "c22f0e611b6e3be8cddf2cfc",
-      "title": "الجيش اليمني يصد هجوماً للحوثيين على جبل هان وتعز تتحدث عن غارات سعودية - emirates24.net",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBEUzhrMXluZVl4anJuZzN2NlpEUFBPSWJ4RHY2U2J4Z3lyNWxLemJQX3NTcWVpaS04NTFCLThaUC1EamV5RmpTM0VaT2poc3FGbjJIMmZENU8zTlJPRlE?oc=5",
-      "source": "emirates24.net",
-      "published_at": "2026-10-15T10:10:24Z",
-      "country": "Yemen",
-      "countries": [
-        "Yemen"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "تقرير امني",
-      "provider": "عربي · الإمارات والبحرين"
-    },
-    {
       "id": "f2d6e474b5e4a09c776d88ef",
       "title": "Riyadh airport closure extended as airlines suspend flights - ITIJ",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTDF4Vm5xbVpVVldLbTdjLTVKUGs2NHpBTDFncG8wS2VOWlJ4ckZHdjg2Y0VVVndaUG9xSTFyb25FT1JxZzU2bThObDNGTV81UU1pVDU0Z2F6NXBoZVdzbm1tMUIxSXBrSmRJSU1vUnAzT0NfVmdNUmh1M3BQZHN5cGVUYXpEYUUxV0o4ZlJCdlg0OVE?oc=5",
@@ -10811,21 +10320,6 @@
       "category": "transport",
       "tag": "AVIATION REPORT",
       "provider": "Google News · aviation"
-    },
-    {
-      "id": "410bf3f649f4f378bc270269",
-      "title": "(الدفاع) الروسية: حريق في مصفاة ريازان إثر هجوم أوكراني بمسيرات وصواريخ - عام - 15/10/2026 - وكالة الأنباء الكويتية",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBaa1Q5WHN4NmRKcG9leVJxQVBPZi1jcTJyT1doVHEtWUZwbTRrdC00U0plUG8xeG1ZZ2Q3T281SmpIRXNlUW1oallkRjlRY0s4S1hGVmlXaWVWLWJTMll6U2NhLUxaNkZaWGlwNXRkRGRKcGww?oc=5",
-      "source": "وكالة الأنباء الكويتية",
-      "published_at": "2026-10-15T09:59:58Z",
-      "country": "Kuwait",
-      "countries": [
-        "Kuwait"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "تقرير عن صواريخ",
-      "provider": "عربي · وكالات الخليج"
     },
     {
       "id": "e3a3889cdfad8de6d18862b8",
@@ -11024,9 +10518,8 @@
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9ON3BJNmlzcF9uVjhrdnhRQUxRcWFLOTI2QkZjcFUzZWVBdzhLd2RWcUp5ZlJZNVNQNTNtYkxTd19COEt4TzZoamtSd3JMNE0?oc=5",
       "source": "الساحل الغربي",
       "published_at": "2026-10-15T07:41:06Z",
-      "country": "",
+      "country": "Bahrain",
       "countries": [
-        "Iran",
         "Bahrain"
       ],
       "language": "ar",
@@ -11127,21 +10620,6 @@
       "category": "security",
       "tag": "تقرير عن صواريخ",
       "provider": "عربي · الإمارات والبحرين"
-    },
-    {
-      "id": "55b33d95bacb4fdd0f825baf",
-      "title": "وزير التربية: دعم القيادة السياسية لمسيرة التعليم ورعاية الموهوبين ركيزة أساسية لتعزيز التميز - وكالة الأنباء الكويتية",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQSUQ5aVdGQWxJb2swQnlVSmUtZHhWWXJBY3R6Xzl1dzFMaVN0TkJUbzBlU1NDd0l0eFZZbC11bGRDZC1mUFV1WDFQLThkSmJFRVgxdUdRQ2FOLU5ibXN0dndzOFY2bDhrTGVGY3BDREhQdVl0dlJlSjQ1Qm14dkFwMzNkYnh3NlZOYTFTaHVBcUNaRXkxdHFOSlBLTjZQRHRmdzZyZVZIUHZmSEtSWllzSC1mT3JpZTJ4UnZ0ZkxHLVdQejdsZWRaaldTczNIZWZ5U0E?oc=5",
-      "source": "وكالة الأنباء الكويتية",
-      "published_at": "2026-10-15T07:00:00Z",
-      "country": "Kuwait",
-      "countries": [
-        "Kuwait"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "تقرير عن مسيرات",
-      "provider": "عربي · وكالات الخليج"
     },
     {
       "id": "883d111a00250f77d5811af7",
@@ -11297,9 +10775,8 @@
       "url": "https://news.google.com/rss/articles/CBMi9wVBVV95cUxNaG4wTlVFaUc4U2hXd0wtQlVTaW9OMGJWTzZEazFQQndFcExrUFVRRm9Tc3hMLW5IYjYwcUNPSjYwOWFNZ2ZDODN0ZldsOFBqVkI2SGVkT0l5dF9FeG1IRF9WMnhCS01ZcGZSYVdkdW1DX3VlZi1nZGQ1ZEhfbnM0ajh1T05NYnlCeVF4OS1jNjZrcGFRQ00zcnlXcHVyeWh4SUFtRDZWbVg0ajItS3FMUGpGQ2l1cjBlV2RTaEZGQ2luVy1iNWZJT19rNVpwdkZQd2trcFp1Mnd4WlNzaWtvYTJFbm1iSTJTYl9NTURCVXhvdmY0YmE2NjZJWTYwbDJnX3hJU2xFMkVUM3Z3anB3SVlTR1l4T2pISTdfbGk0cU40V2dzV3Z4VnliOTVvaEprNGs5RmdNT1laUHRWS3VGaTVNVFlaU2lITGhVb1VPY0N4VnRaaTYtY042UHRZd3ZHeHQzdkVQSGxMd0kzbGt3WFFTQmwxTXRJckhTS1B1SVFxQy1vdE9YU3JoZFlOQnJHN1QyakZJUml1T2hHX3NjVkFJRFFTUmtIMVZsM0xmZ3Q3ZEdRbFF4RmI4VGxpQ0hWNXE3cWtPUkhTUjNPT3gtY051dWNINlVoQjJOODJFZVBSd0NldnBtSkgtbWw1OFFjNGdMWU9KeDk3WnluWjc4RDJtSFZpOUFRYjljVGpaN1l6bnR0MkdPd29USV9iVE1BRzBnZFNfYVQ5TksyS1loWkNPNmVSb0w4V2dBc2theVg3M2UzSWp2QnBheHdFLUNmMUlfal9lcEdnSHMzd1NiVU95Nl9sQXVnWjBzYk5XV29ZQnRvRmlJWXcyOWhxVlRTMk91bjhIR3Z1eEVVajN3eERZS0pkS2NUWVc1aG03aEJmcW50U0JBc1lFd0ktdktmWk9IMHk2NDhFalF3Q1lYdFZGRW5LakNoMUh3b1p4NVNiN3lIZFhueVNqMlFmMjRYXzFHLVVyUDFMOGNOZE94bm1tTHR5ODQ?oc=5",
       "source": "صحيفة المرصد",
       "published_at": "2026-10-15T02:31:28Z",
-      "country": "",
+      "country": "Iraq",
       "countries": [
-        "Saudi",
         "Iraq"
       ],
       "language": "ar",
@@ -11487,21 +10964,6 @@
       "provider": "عربي · الشرق"
     },
     {
-      "id": "c2fdbea061924568e4196fbc",
-      "title": "جماعة أنصار الله الحوثية تعلن \"إصابة\" مقاتلة سعودية في أجواء محافظة صعدة - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBuVWotQnpCMkJhTEZIcTZYVFdvZWdKdGE0N3ZNakdHV0I5REVrNDk4cm5EbVlTZ215ZmNDejA3cnBQczFTa3dDbmwtUjByYVY3UHM2TFJwYUthbnFoeVHSAWNBVV95cUxQNk5KdHV3MjdjU2ZzWERCUjNmOVdlLVJwNmlwZzRwWUNFVnRORUZ3UEhNQXh6YkV1U0RXN1E0SlczZ0pJdFlWdGZaeFNBcVJ1aEtiY21DT3FqeDYzUzNydHJ0T0U?oc=5",
-      "source": "BBC",
-      "published_at": "2026-10-14T22:11:12Z",
-      "country": "Yemen",
-      "countries": [
-        "Yemen"
-      ],
-      "language": "ar",
-      "category": "transport",
-      "tag": "اضطراب نقل",
-      "provider": "عربي · السعودية"
-    },
-    {
       "id": "94bb61ae38cf0f617982",
       "title": "Iran-backed Houthis strike Saudi oil company Aramco's headquarters, officials say - PBS",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQzY0TGNicFB5Y2ZTa21iaGExMGt4djdWaHZOZVZOMnA4UzAtQnplMVYwR3kxTk1OekxLbnhlbjFKTXMyOVNRb1YtNXRKa0V0cVUxTDdEMHV4UGd6QzVHM1d4Sy04SWNnOXdIcW5uTWtzbWZrTVk1WHFhbTZUM0U0YnV3ZklqcTdMX2EydTU0cFVMSHZFZVNUUGxiYm1LTFJzclRyeDg5RlpnZk1kOGtKY3lsRmnSAboBQVVfeXFMTXZEek5DX0hPTnFmUm10T1JXTERZVVhFa1BNclBJZTV5Y3l4MXVQWkptRkc0UVBQOEcyN1Y2UUEzZFlrOWZHZFhRVl9nR3AtSmYwSEdtbVdhM19YZWZELTRvdzl4VDNfbkFEMkNRZWlRdnFJcDRoU1BGb3NGNDF1OHJOMlFScFVSWFNBR2xnZnZ6YzA4NU43NGU2am1EWmdiOEdVQ0FjaFNiYWQ2NjdwRWd5aTNvYklkNDB3?oc=5",
@@ -11561,21 +11023,6 @@
       "category": "security",
       "tag": "MISSILE REPORT",
       "provider": "Google News · missiles/drones"
-    },
-    {
-      "id": "9d83682da0b0ebc59ecf6761",
-      "title": "5 شهداء في غزة وخروقات إسرائيلية متواصلة لوقف إطلاق النار - الجزيرة نت",
-      "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxNdU9UZHpfeTRhZWMwNkxNUnRUX2hSU3BtV1B2MGd2NE16LTJkVURZVzlxVjdleTVGMW5mNXlqZ2N6bFhadlEwZ09RNjdxTnI5ajY5b3VhNFVGYU9aVWVOR2tYWUR6YlhoeG1pOUxEUEJpV2pxUTNNWF9KNFVJT1pOUUF2SEZfNDBJc1ZPMFo0ZUJ1bkV4UHZoZktTbXVRNXliSkotMElpQlBxOTdFSEJCVGZfTFNtOFdQc0dodGdxSDdOSm1BWTZGTmFhRlJHYVFrdFZDcldzTklsVC00OTUyZ2o1UmZ2bXdRUVM1elUwX1duZF9yWVJfOFR0c2o3QWsteG50aUJkRDItQk4yNmlaRXhTVkF1aU54dDNCLThadXpOY0xtcDJWbEZoaVLSAbICQVVfeXFMTVZ2MEQzd3ViNFZYS0JteUFLSlpyREpheEo5MmF6Y2pUd2Y3QmRPUlVvdktzaWlRaTctTjBUY292cGpaMEpqZl9BcHpfc3ZJZXVlMEZZb1NjeFd2cmU3U3VJaDY3VDl2VG5HUmtNZE9fZlNWWVhKWDJOelUyR1JfUnJjaEhuUGNrWklRZ21hb2NPQUtxTXNPbzV6NklGYklwczh2a0YwMkRzXy1MNTE3bUdtMHZuUmR1Vnl1NGdUUERsd3RNNmRlM045YXlfYXdkSGw2UTRJRlJpRHh4c2xpUmRBZjZYSTdHUnR1UWdhY3QzcldBclRSUXg5SFdod2hHMnRzQXU5ak10NVl2U29EZXNRUnZkeGJyMU1WSEZBTzhJTFpTdjdMX0RqdUxoRGs2dElR?oc=5",
-      "source": "الجزيرة نت",
-      "published_at": "2026-10-14T19:55:12Z",
-      "country": "Israel",
-      "countries": [
-        "Israel"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "تقرير امني",
-      "provider": "عربي · الجزيرة"
     },
     {
       "id": "b563ce3a7b92d49c6590",
@@ -11656,10 +11103,9 @@
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOQVphaW5zc3d3RUFuZXZrZ1JIa2VrbG1oUzdyMEViRkdfcjlrWWh1eVZLRnFHbjkzV0d0MXJBMlpkN18xMjdlTkVfTVY3M29wSlZQYTF4ZWg3QVB2X01sTHRsdHU5SHNIc1NWdWNoVkJveUh2ZEhmSkVONDF0RGdGaUtMUmVkaFJzbDhzYmltUGtuQ3ROc2FDT0Z0RjVMRi01aVVXaWdmQXY1eUdHT0t3M29ZREpfTW5tQWpQZUV0OHQ2X3VseW1id3lB?oc=5",
       "source": "وكالة الأنباء العمانية (العمانية)",
       "published_at": "2026-10-14T18:46:53Z",
-      "country": "",
+      "country": "UAE",
       "countries": [
-        "UAE",
-        "Oman"
+        "UAE"
       ],
       "language": "ar",
       "category": "security",
@@ -11717,10 +11163,8 @@
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBEbVdfVUxjVGlrN0lvNi1ZcGh4ZER3ZWt2OHViaGZ4WGgwUEZjdDZNTTlvNTFoWk94YVE5RVZLaUxUWmd1LWdNbFR6dDdWZk0?oc=5",
       "source": "الساحل الغربي",
       "published_at": "2026-10-14T16:38:06Z",
-      "country": "",
+      "country": "Kuwait",
       "countries": [
-        "Iran",
-        "Bahrain",
         "Kuwait"
       ],
       "language": "ar",
@@ -11957,6 +11401,21 @@
       "provider": "Google News · shipping"
     },
     {
+      "id": "6a3aa799a9f9136e63a4d6c2",
+      "title": "إصابة مقيم وأضرار بمنزل ومركبة في الرياض إثر سقوط شظايا صاروخ باليستي بعد اعتراضه - www.youlyou.com",
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1HNk5lYjdBRHZkUjRWREZDUkdJZ3Zhc2lqcG1SaEVwdXFaNjQtcjBYTnNYMjNCWVBJZ3NzOEt5SllNbGs?oc=5",
+      "source": "www.youlyou.com",
+      "published_at": "2026-10-14T14:31:13Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "خبر اعتراض / دفاع جوي",
+      "provider": "عربي · السعودية"
+    },
+    {
       "id": "ad01b3be8376bbde36ce530b",
       "title": "الإمارات تعلن اعتراض طائرات مسيرة في أبوظبي ودبي ورأس الخيمة - News of Bahrain",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOOXU2QXpzWFdvWkJLeGlBS1M0a2RVNHpqLXFiUzBPQ0NRSFBWWmpzbXNzNFZLMmRvZExPZmhKTXJoRU5GWExPa2FhemEyOTB3VnJXbDF6c2FtbW52NVFlR0RxNFNKZzNWMnVhVWhFV2plLUp3dktLczJuZWFBb0dwVi1LbE1CdEh4dXRzYTA5b1FhRFYwc252TG8ycjZRY3R5eUEybE1KN2N5WXQyN2RHU1dVUzZYQ0NlLUVhWk13?oc=5",
@@ -11970,6 +11429,21 @@
       "language": "ar",
       "category": "security",
       "tag": "خبر اعتراض / دفاع جوي",
+      "provider": "عربي · الإمارات والبحرين"
+    },
+    {
+      "id": "f724c76f55ec56c3685280bd",
+      "title": "هجوم إلكتروني يستهدف ثلاجات مئات المتاجر في فرنسا ويرفع حرارتها - صوت الأمارات | Emirates Voice | Emirates Today",
+      "url": "https://news.google.com/rss/articles/CBMirgRBVV95cUxQV2lNVDhfeXJERTVablZ5Vjg1WkdPXzdnbU55cGVkaEU1VWVabU1hVHBDTUlfNjRHLThidWJ6dnp0dzVmMGF0Um15bmJTUmVuQlUwYW84NlRBbElsMGp0bnE4c1B2bzFmV1g2UjZUajNmTXpUb3UtMlY3b1M3dXhEWS1aV0hOTm9vQ3dDNEFMM3V5ckt1UXJHTXRXeFpXenRka0FPS3NkdDJ4ZWxZdVFmVFRudTl2eGw3QnM2NmhLRGNUVGZ2YzFWa1VTQldvQ19jYnpUT2FfSkx0dHNEaVdvOHIzR1FrOHVoR2JvaVhpSmNSZFVaU1BfdTd5bmZtcDFFR21zZ2tKQlQ5c2x5UHhiRzhDVnQ5VGRxTmtaeVlNeVloVHljNzlJQkR1dm9QZGpxSmprQk1jY09KVkhWb2FONGZlTlRZTmJTRm5lY25zVEJvWUxRdFdmODNISWkxNTFreDQ5WHAtZ2JmbWlVeEJtbDU4MXFHTl9YZXNVblh0TjBPY1dHaFJaT2dLTDZlMUdpTmpKN1Q0Q1dHekdOSi1EbW5kTWJhVFh5WGpZODhOdDNPV01QZGJzUF9uVXQ0RS1POTU4T21ib0VrZ1FGMGF2X255Z1d5Nm83S3N1bU5BV0JSVVhMcmctb1g1eF9JLVd4bFllZllFWGh5S24tS3JRcm5HMjd5cUNldk9saG5rRWdiMi1uejdkUWtuWnJ4c1Z4NVFDMkhEQjVVR3VfMFE?oc=5",
+      "source": "صوت الأمارات | Emirates Voice | Emirates Today",
+      "published_at": "2026-10-14T13:55:03Z",
+      "country": "UAE",
+      "countries": [
+        "UAE"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير امني",
       "provider": "عربي · الإمارات والبحرين"
     },
     {
@@ -12011,10 +11485,9 @@
       "url": "https://news.google.com/rss/articles/CBMi8gNBVV95cUxQbkVtUHZnN0h5dFhiVzIxWnpwa2MzWFpDSDBsMWVOd3pBQ2ItdDlQeGFZZUZrUUJXNWFLSXd0dG03b1hwcURNOHdYX1dMalMyNERqV2dUX1p4OGg3ZDhyMnVES0Z6LVEwUzJ3V0t0S2pjVUFUaEdYOXRvN19YSWlkcnNqQUI5cFdjWlJHOVlUTEFpdENGTnRKcU1IUjlkeEVZZWFWR2toNzgzbG5ScHVKQTBXZ1IzOHdXRVhLZk1pTXlpNlpjRHdPRlRGS3VPTXpDb28wMEZDOEhFTW14dlFkYTVPTHV3ZDUwUWZMMEY1dTNpOGVrLTBoUEdsVVo3MzRfYlo3eW05aV9ZampnR1JtYU1FcEFtWFlHQ0NMLTFCNGw5QmkyTHpZSzgyS1hVZnEzcFRwUnl1RHk3NEFZM1BmS01RY1I3NjhGdlZaTlp5Y2pEUDM1YmRwc2FNY3NkdUIzUkNuX3JKeGJVUEptZzBVN0lhTlc3WVJGSGhZalNQbnJkeEx4dF9BVVQtQWNJbjJqYmFOeUlQOHJTc2pRcnNuOWlFdklsdGNMa0NRN2t4NVBXUTh5NHBzVjNzODBnN05BWlNVY0JDMWlkWEdlYlQ2TWhkSEpHWWpEcjdXN183Qk9ZLXFzb0RoM203cld6bEpibFE?oc=5",
       "source": "NOW الشرق",
       "published_at": "2026-10-14T13:44:29Z",
-      "country": "",
+      "country": "Saudi",
       "countries": [
-        "Saudi",
-        "Iraq"
+        "Saudi"
       ],
       "language": "ar",
       "category": "diplomacy",
@@ -12042,10 +11515,9 @@
       "url": "https://news.google.com/rss/articles/CBMi0gRBVV95cUxPOXNLbWhDMzdZUk9sU2ZyWU93R0dkWm1VSnJqTDJSY1pPY1VZZXdxMDctYmQ2ZWJIX1lCQzlXVWwwSVVPVXZmOG9lWDBIaXdpaThOMENySkhpUlExTl9taGdvckdhWXhuaXZrOG5yVUdpY2EzZEtQWUMtYjVhUnlUMUNmLUNldGZscWZWcDlqVzhoWW9yaHVUblQ3UXBMUFZOZFZHWEs3RWE5bGRud0lGY29RM3RLSm5kd21ULWVFWVBSUjNGcTF1UnpabTB4SW53dTNOeWs5Zkd3RERiaTBVS3RvVU5VM1RlTkE5cGpjNC1uWGFQdm15ajFZY1hsUEJBUDQ2R3J1MlhITmJqS3dNOGxkNWs5SXNMckgxaEJ4Y2g5U2RRSUpBWDd1RVpIUmpldWFZdU0xZF9RMXpYYTl5LUlaalR3XzJid2dUMHBNLVdqaWtMNjR1YUgzb1hsVVVOUHo4S2FOZXJEeDVCR3FHQ05zSGhxQzdhZm1Ga3hncElzdTB1cnJkTzlpaEhaWlMtQ04tOWFRRWcwVjJqYXJuMlZONmpULTRHbFFCSlhTM202aFhxQ2VodjlPM1hlaFByQXZMckVGS1h2cGJ4WVhkNV9xRFZlTVVHRlZKWFRzdjFnU3hUSGRTX2luWlZ3Q0xBOURHN21naW1XX1lhYWpueE1EM1RQR3A0VnZ2RmlrUGlHUGxTZG1IaEFURTlFLUlqQ3JhbHFKSUt1R3o1YVp0eVBxdFp3WUdOSlRTbnhUaGJ6dzY2VDFrd0dvemZHSEpqaFE?oc=5",
       "source": "France 24",
       "published_at": "2026-10-14T13:39:58Z",
-      "country": "",
+      "country": "Saudi",
       "countries": [
-        "Saudi",
-        "Yemen"
+        "Saudi"
       ],
       "language": "ar",
       "category": "security",
@@ -12349,21 +11821,6 @@
       "language": "en"
     },
     {
-      "id": "3509e638509c896773e6280a",
-      "title": "انفجار عبوة ناسفة يتسبب في مقتل عميد وجندي بالجيش العراقي - قناة ومنصة المشهد - أخبار العالم اليوم",
-      "url": "https://news.google.com/rss/articles/CBMiqgRBVV95cUxPNFI3ZVA4QTNMUVFTV2syT1VLXzBrd3lJNjM5d3RleTcyUTlHcGpQN2prODQ3R040eDZDeENGX0YyT2xNaVd5eUFnYXE0WnpXSmNneW9LN201czdaN3YxTm5JOFNacDhYWEJndEV3MFB5S2pPVTZIOWJILU95c2JObjZOdzFLZ1NKQVBsN21ONjVLaDZMaDFHZ1NtV0w2M0E1bVUzdGlZR3NFTmVsb2VDMlFmUWt3TS1aVTdEYXNHbkp4UDRsYUNSUXVBaXA1SUlHZnJWRHZSYmNLMExDNnZjVG1lQ2xBdXhEMndrQkhndjZfellxVmNGbVdDbkQ2NGdQTDJZU0xOWG0wTk54bXJudWdoOUwyT3JnSW5QMmZTZHZ4ZW5xdjlISzBZZWFqUVlHM2ZiNldYazIwcDR2TFMzYkFOeXlLdWt6N0xOMnBOMDNMVXNja2VUTTFjby1tWUdhVmpmQTRxa2pSZ2ExdHAyYmo4N0xTUHkyUUJGTTNFNzlUV1REM0x5OWtoVVczb3pZdlROZWZCWHdWUl9uYnlOZHFXTWRUbjNqTmJXVTdMcXFDSFNfSl9EZVNTWTY0ZEt4RUNhV1ItV19hSEs0b1Jya0o4ZzE0S0FJMk1nWDZNTnNvSTV2VFV5MFhUcHBTTzBwNVNVdG9rOTJUQ05hOWdwTU9CUGJsbWswUEhOOWxhOG50Y0M4VlYxczJqRks4RWdGdTRzblJYRjJ2d9IBrwRBVV95cUxOOTNXcUxnTTB0ekRMNDR1VElaYUc2R2g2OWluMjRGSlMtbGtDQU1lUUFSUVNIZVhvNlY3V3Rad0JKTXhQbWJtT1V2Zmoxd2czOXhzdmt0U2dMZ1BHX05Pa3FfcHlOZXZaYmx6aUs3NXl3TmxKYk1IRktfQXF5RXVxdGdERnFWWDBiMWZyZ0JadjRtZmtwNG5VLVNvVXV0R1hHSEdhMEFtWW84ejJqeE9KS25McjhIUURJNTQzcVFuZTc1ZkJaLTdyZ3VEV3ltZU9RX1dJODJnQU5mTlVnemlidW9qWHg3c0M0R0VxX3dQX3BtNXhBeFc3b1E2ZzFmaVhCM0tJOHc5eWRCOUczMlFWaUViT2R1Zk1rZTRPR1hJaEdiUUNRQ092NWc5b05xU0tmUEtjUVU3LW5SeTNUZTBod1V0NVJfR0xfQTFPdk5oWjlKTUJsd1hOQkQ5TEFsMEpRYnFXYXoyZXNjcjlkNE4xN0RsM3pHYlB3eVhTMlp4cHNqLUdfMlRZUHBVTTlfTXlHSVd4WXJDaEpJdi1LVkFxbkVYODBpOWZTQldUOXFKMkthdEhyckpoNXRMT0gzYThXVURhWV9BdG1rSUxCVXYyRFR1UWdSdmFaaVRKa0h2ZmpIZTBzbVRwQVZmNlU1czI0Y2gzTFlHMVdBUE1Bclo4Mi1Rc19GNVFXMkRnei15QW1HOEhSMGRERVZ0b3ZWY0pONEJpcFh3LTc3a1k4WWc4?oc=5",
-      "source": "قناة ومنصة المشهد - أخبار العالم اليوم",
-      "published_at": "2026-10-14T11:01:06Z",
-      "country": "Iraq",
-      "countries": [
-        "Iraq"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "تقرير امني",
-      "provider": "عربي · الكويت والعراق"
-    },
-    {
       "id": "4ac9c11e424bc42f5d269b1a",
       "title": "إيران تعيد بناء ترسانتها الصاروخية وتحصّن دفاعاتها تحسّبًا لمواجهة أميركية محتملة - موقع الصحفيين التونسيين بصفاقس",
       "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxOOHFKTjlPeUNPWEtpUkJYaV82eU5DaFllWGlPRVhwdHpONzFMUTkxQ2tLNE9XZC1RekRCcFM2U281d0hsOEdFVnE5a1B2SFppQXFnek9VLTdjcEtpNnBrYVNaVm1ZRExtUVpOUkVMWFN6c0hZYlV5R1FXWVlRaGZBaENmczBCTTVxS2dmMk9faWYyWnEtVWVvTzlXRzBlaFdjSmJCQmFReGxydnpfYkZTUWNkaUk5V3RQVXFIVXlVa25Xck14eS02dlZrQ0VSUlo1clVoamZCTndaWUpLdVBZd1VjblJIS1lzbjlDMG1iNVRVTGlKOXZfR1FqSmdWTmxWRU81LXJualp3MUhzTGdDMENMRHlZTHZiSzlsbW4wclpZaFY3VXc0RWZYczhpTndPR08yVmt2SDVZYTAtRWl6a29qOGx4VmRKWExhUw?oc=5",
@@ -12384,10 +11841,9 @@
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5jWU9VMDd2MzlCTlczZEZvSDlyWTBGT2l5dk9rMXdWOXVHM1RrVUNDeUJ1UjJ4ZUp6TTFla2ZOc0tTeE1NeWh1d0plSUJqN2QySFVfNXJYUjJNS3diTUpiV1JnNGpHT0tfWkpYUlg0WlHSAYsBQVVfeXFMUGZLRHdzSlVFUE9EenM0WXJPWlJuRkJMZkFDeE1jYktmaXRnaVVXYjl0V21IMXVsTzBhTkV3SzRSaTMtQXlBT0szYjRvLWtWR0NFMVJnOTQwMkJSTFV0aHU2djI0Z2NvdUpYTTYxZDFNVUdGaUVmOGRPWFI3Y3VCMmpybDR0UUlubk1IUQ?oc=5",
       "source": "الإمارات اليوم",
       "published_at": "2026-10-14T10:49:57Z",
-      "country": "",
+      "country": "UAE",
       "countries": [
-        "UAE",
-        "Iraq"
+        "UAE"
       ],
       "language": "ar",
       "category": "security",
@@ -12416,10 +11872,8 @@
       "url": "https://news.google.com/rss/articles/CBMiswRBVV95cUxOMFdqV2N0RWZwaTNmZXROWlY0cGFzSnNyM2JNRmh6WWhxcTEyR3QxUklxb2JvZVVzb2tGWndYS0p1TGJmaW1mVWdxdEJzNmFKdmlDa1RVN1VsVWxWUUd3dFBHM2JmaEFDRHdsT19wcTdzcVpGTi1mRktidF9HVVVsRVpaaHFWQm1SRW9haWw4cUVKR0NpVmxUUTY0T014OTYzS0xRSzdPYjNhNW5tbFBzWDRJZk5WSHBieDltSXFZcUlmRGFISm9EZE1IMU5zMEoxNWhKVWdBOWZtR1Y4dGs4djBrYnRGbHN2QzVxRzNhNV9ReFg4eHBOYVJJWDRJUDBFeDZFVVVDcVNRWENYSnQwZUN4WGhYUktxMnN3d2xndEk1QlhNZU9oQW4tUDYwdVhrSlpncHBKTDU3UXdkMmoxUXJhb3Q1aXFheWlIOHF6NGtuM18zb3lEeHhXY3VSS2FRMjlsdHZjRENmVFVmaUN0bXBPejk4aGF6bWlqeG8zd05BY2hlTzh0TVlqeWhBRk5QTk5icjcxaDlFSlpkbWtZRlBLMkpsT1AxNFNQMFRHSUtFeXFPd3JTRkxHaHVISWhzcVZaR3gxUDFrWDJ0OWd5eG5QZVBHYXVrNmdtSjVnY19RbGNJb21KZnluWXhNbjlzNEIxNUp2OTU5VVl4b1htVDAzZHNCRVlPWHZQZVptXy1DUC1qSTNzQWF5bHZzYlNVMVN6OU14QTFiLUg0OWxNYm9SRQ?oc=5",
       "source": "صحيفة الخليج",
       "published_at": "2026-10-14T10:34:00Z",
-      "country": "Iraq",
-      "countries": [
-        "Iraq"
-      ],
+      "country": "",
+      "countries": [],
       "language": "ar",
       "category": "security",
       "tag": "تقرير امني",
@@ -12523,10 +11977,9 @@
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBZT3gtN0FBMFR3NE82NzhLZVpwWVhpeEprQjNqbnpNODFBdGQ2WTluTEQ2ZThmbTRmTXlldTlPVUlJYVI3X2hxMjd4T0RJbG9Zcmtr?oc=5",
       "source": "emirates24.net",
       "published_at": "2026-10-14T09:00:49Z",
-      "country": "",
+      "country": "Saudi",
       "countries": [
-        "Saudi",
-        "Yemen"
+        "Saudi"
       ],
       "language": "ar",
       "category": "security",
@@ -12675,10 +12128,9 @@
       "url": "https://news.google.com/rss/articles/CBMi7wNBVV95cUxPODZHYmJmWl9OSGhBNUllVlN2U3dhRzJiaTF3NHU2MENHOXZ6N3hla1lNeE01eFpOWDlNRTA1djJMTWF4UmZNY082NGhxQkgwbG1UMmV5bkFvcGtuYXMwM0g4LTBIUTg2MFVJQXl1QlJBdzBfNFB0SW04VUVqYl93cTRqbG9Pdm1QdFRVYWExRnBwc2FsSVRpV0FLU0VLcGt4S1M0TlZNdy1NOWNNMEhQU1VMYmp1aW9rR2hvZm1NR0VkNlo0NEY5c3V3d0ZJTDNaRm9fbFhjeUFTLWh0b05lRDMyNHFtdzdaN1dCQk9yeXp5aHFDZFJESENFMmV1ZkQ3ZHpRR0ZjSnlDdk9uNmFwUl81blJSaGZhWWx5U3pTcXJ6UEcwNE1PaDk2ZWNtVGdxTndBLTVtOG4xUm1NRTRVZlAzZTNpTkEwMVgyZjJsYVhPNThQTkp5d3FxZEZmZk1YaWt4ck0wMVlfWFRUNG1aRkNUSUt4TEE1dDVtNkxZZHZpNWs0V2dzejN6MlZXVjBTQ1hQejI1WjBLTjUyZEs2WTFLSXlldmhzS1lyREYxajdwLTYwVzNPazVienlFdzFOUTl0Q0czNURZZDlBSHhnUThMSHdaVU84NDRYLUN0d2JKMDhfNUVoWTc3U1IxY28?oc=5",
       "source": "الشرق للأخبار",
       "published_at": "2026-10-14T07:57:11Z",
-      "country": "",
+      "country": "Saudi",
       "countries": [
-        "Saudi",
-        "Yemen"
+        "Saudi"
       ],
       "language": "ar",
       "category": "security",
@@ -12721,10 +12173,9 @@
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1LdHJ5ajlvMElGX0lfSFdzWG5KNW1xZHEzb1UzbEVSTk1NZkxGQzZLSGszWnc2REM3Y0xPU0tSQ05IYkdDMHdrUDhGVTBTWWs?oc=5",
       "source": "تطبيق نبض",
       "published_at": "2026-10-14T07:20:01Z",
-      "country": "",
+      "country": "Saudi",
       "countries": [
-        "Saudi",
-        "Yemen"
+        "Saudi"
       ],
       "language": "ar",
       "category": "security",
@@ -12797,10 +12248,9 @@
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5qWUk0MWlqczNTTGlsNzI0V2V4MmRpa1RNeUxWNGFxN25WbXFRdmluTGh3SVdzRG10dDdFeDZ2ZlBaNWV5aUdrYVBjX3puN2VUdnJBSzh4SVRUcmh5ZlNkbldtN2Rva1I2bm1jc29JZTB2c1V1?oc=5",
       "source": "وكالة الأنباء الكويتية",
       "published_at": "2026-10-14T07:00:00Z",
-      "country": "",
+      "country": "Saudi",
       "countries": [
-        "Saudi",
-        "Kuwait"
+        "Saudi"
       ],
       "language": "ar",
       "category": "security",
@@ -12824,30 +12274,14 @@
       "provider": "عربي · إيران والخليج"
     },
     {
-      "id": "622fbc9995e76c774e9423b8",
-      "title": "الحوثيون يطوّرون صاروخا متقدما باستخدام مكونات صينية - العربية",
-      "url": "https://news.google.com/rss/articles/CBMi2wNBVV95cUxPenN0aWdhVHV5WFAwMUFOWEVkS0ZnMUtxeFZWR01Bajh6MkJjSzZocVJyVERHcHpKWjhYWnRhS2gxZGQ3WlVDRTIwNGlmMDMyaE5hX1V5NFhjUzRWT3c1dXdvOW5DS0lYd295ZC1wREhlMnBVVUF1Wkp1REFLSTNqYWVYYmd6ZG8xRHJqN1EwZlJFay1Md3FPRU9aVTFGYjlHTGdsdmpKX2NJUkVMc0tzLWJjWUJnTkcxSDY1RURBRHRwZ0x4Wk1xak1sZ3lwcmxkem8wLWJ0T0l4bnBSb3VJcHBGbWM1REpQOVBwUnNxLXBaeU1YRjlnTjNjNTVCMFB6bHd6LWg3Q1pTUjlWai05S01GQWNtb2tFRkszaTEwT0E2UUNLbjNUSWpjQ0JXS3E4UVN2VFAxc1hiNl9LODBRMWkwVnJHVjRFQjdNRHJBOFVNWlNaaVMwMnFHUUVQa2tJejlSbXBJMnlydHg3N3VKR1Rub2l1ZUdRaEZRWG9PajhmTlZVemlDSXRMcWhaWHF6Q2pjRW1nR1hyOHRBSnlpaG5JNHNibE5kT01Md1JyWFF1LUFGWjFJNnFyN0k4SUFkUDFWWEF4alNuRXhOMzgycnIzLS1XVTVBOVlZ0gHgA0FVX3lxTE1Qb1E0aFRkY0dtWXJjMUhmLUVOSm9vTmFwWU8tbUw2clFHcTRHWHRZTm40NV8tb28zQlNuX25fd1dEMkpEUzFuNkl5aEZHVC1MMWVJUldKSjFnT0JtNFFzT05yQ2pjWU8zN2lzSFNnWWFOc2xLeThoQ1pJOEpuWnJlRFdtSTV4aEVBVzBGRkJBb0N5Z0F3RmhjZzhIUTJ2cTJpNWExMlpZU1RGUWdXNG1DandOT0xPeElKMUxMWWZjQlNienBISDk2UFFGU2V2SFcyWEV4eWVzYWlBT3BacTFnVHMzb3JTSlprUWxLZVA5S1lxVXZoZjAxTWdWUlMxV1VBVjhpRnA3S0VjRWZwY2xUenFGWlZzZlM1aFFYVW42cHB2V3NQcXpiZVNrZzh5dDBJT0gwUmdYYngxNXlzRFVzX0JLYVBEV252YXFmUUNSX2JvVkVrUktYYlVEdkhYUWsyY0NYUkZEalhQYTNtaXJLOGlJb1pDWVQtSDBfWGVrTzNOR253QXJYM1FXZTFwNFJ3LWI5blNLclJ4RldDR0ROcFpUalowdV9uT0hrdmVvOUtFZGVPdTMzUm5RZnlWNlpEZFF6M2hhbm9DM1ZtNTlGQXhxZmdNUkFSbHJ6RGdwUA?oc=5",
-      "source": "العربية",
-      "published_at": "2026-10-14T06:00:00Z",
-      "country": "Yemen",
-      "countries": [
-        "Yemen"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "تقرير عن صواريخ",
-      "provider": "عربي · العربية"
-    },
-    {
       "id": "08afe017c298d19438ac0ce5",
       "title": "تحليل.. كيف نجح الحوثيون في استهداف منشآت السعودية الحيوية رغم إنفاق المملكة عشرات مليارات الدولارات سنويًا على الدفاع؟ - CNN Arabic",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOTU5LN2ZFQThnd2JxanNLdUx5OHNyTXZQWDhLcXJZSTBKNkVQRk1QSFhDeS10dEFOZ3M0Zk1veVBFZm5CQkVtalVNSTVaSnhTU3pHWVhiMEpvS29sWWtOQUtQSUVBTG1iTHdzQ3c4dXExUUpTRGhBZEROOHprN2xiWUE0aTJSTUxLYzlpS2l2U2dVckprMDlwZ2NvMlNCWWVndmJTcTdWOWpSd1dad0E5elNkOWlfbFE4a0FyMHJKMUxud29aemRGSW8zUFk?oc=5",
       "source": "CNN Arabic",
       "published_at": "2026-10-14T05:47:10Z",
-      "country": "",
+      "country": "Saudi",
       "countries": [
-        "Saudi",
-        "Yemen"
+        "Saudi"
       ],
       "language": "ar",
       "category": "security",
@@ -12905,9 +12339,8 @@
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBuTzNqODFVNTFrOTRaUE9LNVg2Mm50M1p3bEZKcEFVMC1MSXF1WUhTX2pqRjBiM0hSNDB2d1ZZMFZPdWNhTGRmVGQyR2ZhSWs?oc=5",
       "source": "الساحل الغربي",
       "published_at": "2026-10-14T05:09:16Z",
-      "country": "",
+      "country": "UAE",
       "countries": [
-        "Iran",
         "UAE"
       ],
       "language": "ar",
@@ -12921,10 +12354,9 @@
       "url": "https://news.google.com/rss/articles/CBMi0wRBVV95cUxOOVJvY1RUak43YWxuRmhTSG52ajN4RlpEcHJBc3VLLWhfV0pnT18yYzU0UG9WWEtQbE9aVkFVTzRBajBCS3BHeXNVdDFwNUppY2hJQzdub2hTNmZBNHNOTzh0dzJLMk41Y3lRUm1EUFRxSGVLZmtnMS1GeWQwb1RsTGJ1Z1hhb0NUNkd0ejJkZXdpZ2VMMVBla1M1QWtjY2dXQjVvYzZ5UkRLeDVid0hZQS1TeUdleEtyTzNaamg2VC13c2VsQS05STJjQkZ6YlQwNjBIWmt6OEpNWThfdnlxN3FXN1dKcE1sVGRCaVcyWkpJTVRlcDZXdjYzdE5PcW1BNlVpV1hGclgzelhGNDVwdG9MQXJwdzNvSUJENGFaQ2hyYjU1MEtVTklIell2VTRCX3V6aXk4c2VNQWN0dzhiUnk1MkllMDJ3TzFyNy0xZlJRMjJoUUc1U1ZvOFgyQ2lpWWlLS3BPRUV5RWtCRzBKRzR6b3BiU080UzI0aFBFMnEwbDEyNS1NdGZteHdaWEk4Zl9ZZXdlbzZLd09wcGlodUphb05JUFhoRnl2d2hWTWRQdXg3a3RSUHl0OVo1RkZscW1BVFFRZUo1dWFmaUVfSWhHUmQ5U1hUSEtrYTRvV1ZBZVg1RGNiSlpkbUNsdEIyaGZyMjVQTDNGWmthQ29iZUVnTFprM05JSWNnbVE2Zk9FdHBrdjhFYU1GVjdrQzNrWUFwLVJ2S0txVmRUM2wtUVZBdmVQdE16Y1k3VzYzbUQyQ1dNZ1FwTFp3YUlLMlh1ZDNN?oc=5",
       "source": "France 24",
       "published_at": "2026-10-14T04:58:23Z",
-      "country": "",
+      "country": "Saudi",
       "countries": [
-        "Saudi",
-        "Yemen"
+        "Saudi"
       ],
       "language": "ar",
       "category": "security",
@@ -13175,21 +12607,6 @@
       "language": "en"
     },
     {
-      "id": "d74dee6865e61366acc98811",
-      "title": "مقاتلات إف-14 الإيرانية.. هل تستطيع التصدي لصواريخ توماهوك الأميركية؟ | التلفزيون العربي - التلفزيون العربي",
-      "url": "https://news.google.com/rss/articles/CBMiigRBVV95cUxQVm5yVjVQaDNjdFhha1VjaXV0S216aVhYT0ZpODhfZUx3aU5pOXo3WWp6b2R5MXoyTmN4WUY5bDEyaGJKeWhNWWxhSzZRQWpBRmtkX0FPZU5odndGOUU5QkR3ZE55RWZwWnF2MkVFQXdkWXk3MUZKZ01Md05pRE5QcGhvQWRRbW5hTjFvWW9lLXJyblJUOGYzblFOcHh0Rnh4eTNUZWZJbXdFZV8zcElsVVQwYks0VFlRT2tUU1lZczJtOWNTeWgzOWFfMmJkR0FvbTc5YVVVc2YyTHRld1ZMMEJVTDFrZTVFSnlFRDhvWmZyeGNES2NILWtKQ3FYMFVVUDVtWFVCemFVX1QtVFJfZkZvMVlhZHB5OXh2MUh3TnpVY0hEbGFMd28wT0dYQUQ0SG5kWnVYS3lTN3FVVjJmZ1dxLVpfVE5jUy1HejBhTjBicEtRbFFFMTJnVG5RSTJKUk1HVXpsUXRCTFZobFNMSG1STXIxV0JHSlRLYWdUeEZta1NiUGFNLTBhYUFOVjVBb2RPMXg0X29FVFNqbUdYSHhlLVpGcEx1azVEWWFjRm5Gd0tBcE9QbmxxSU5CbWttUGlZTThwTmltT1VRWkdIeVB6QVlfOWJkNWs2Zko3cjJHQ3MteUZjWG9NMU1rd3BIaENDcjN6S1hCa2ZuWGx2RXU5OEktZTJfcFHSAY8EQVVfeXFMUEd6VDd1RU1PazZzYnA2akxxLVY5TmRSQkFJZUtRVkUydXVPREpISnhKYXFBR2xCQXBuSjd1TW1JTE56M1ZrQ1YxbmlqOGpmcWpPUDlabG5DT3g4c3JwZG9RZ1VvQllrQzdRZ29fcnlNWHFxcWhrcEZHNGtJb0tOUWJVZldCaDBObnZvZjBTLTI4VWJQenRlLXpFWXZGQ3ptZ3p5dXU5T0piY2M5SmcxamhsQlk5bmlXbk1XdldjZV9zT0tRczFQT3BiMzRaNUJHeDlZT3ZZSzFJa3I0WmM4TVdVNUV3eUUtcVkwMllOZnUwS3R1ZUZsSjE3S0dWZWlVS2NoYmdneHpldkNCQ0lIc01Pa2dYdFRDcXZ6dlBlQ3RlWkV4Zk5Da1Y2MEs5LUw3RnUwS2FaelR0dklYNVRCVER3TjdjTGZ5S1BYUlBBRmVMU3gtd0pBT0hVZVkwRTNlbGV0X2xyZXhueHpWQk43RjY2U1EtMlZISTU3TXljREFBN1FIOVVjMWtWa0w5Yno5dXJRbVJydG1TNDRQRUtwSkUzbzJsd0h2ZklKbUtpRHNUdG9zLVpGcjE4UWQ1SW1XbWZ1R0FlenMxM3JLMjR3a3Mza0lUU2Zlb2FHemRLQW1neGZVOVM4RzFaZjFHeWFiVDVFUGxMNnNmQ2V4VXV2a2lSVm9lclJxNXlVSXh5clE?oc=5",
-      "source": "التلفزيون العربي",
-      "published_at": "2026-10-14T00:03:02Z",
-      "country": "Iran",
-      "countries": [
-        "Iran"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "تقرير عن صواريخ",
-      "provider": "عربي · إيران والخليج"
-    },
-    {
       "id": "364cde280e17c514e6ad",
       "title": "Aramco HQ Hit as Houthi Missiles Strike Saudi Arabia - Bloomberg.com",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZW5UZm9rTkVDR01LTzZFcTQ0MUprS3hKLTdHaWtXQkVUQzdOSzNJUWJxRlQ3WkpnbUl0TzZlMWg2eVI1bzJidmpzQnFlaC1VcVRpS1FaN0tvZENEeS1LMUVPVmFaM3o0cEI2bkx6bGhMZ1c4WXliLTg3c0djRjgwUU9YWTE5d3F5dFlVV3hlWXh4clk0eUZNWGczUnhUbmtsbElkR2ExNEFqcVRKUEJwT053?oc=5",
@@ -13254,10 +12671,9 @@
       "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE9SMWI3VlJ5VmJLeHdZMmUyQ2s4YjhPV2FrOWtkaXBFamZLbXplVVpILTBFUGcxdFJTeE1fMkZR?oc=5",
       "source": "الحرة",
       "published_at": "2026-10-13T22:22:43Z",
-      "country": "",
+      "country": "Saudi",
       "countries": [
-        "Saudi",
-        "Yemen"
+        "Saudi"
       ],
       "language": "ar",
       "category": "security",
@@ -13345,9 +12761,8 @@
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNTkRiUThjaU5pMGhuYjliU2dIZVNxZU85TzVIQXZ3cWNmOXFZb0wxWUg1TTJRU21TOGtsWU5Idlh4YXJZUmFydHFSeWZId2ZqLVJvR1k1cUxTRERoNktyM2FuZ2xDSVVjQzRiUVZuajlGaFBJc2dzLXdVVlRNSHQ2djlR?oc=5",
       "source": "Reuters",
       "published_at": "2026-10-13T21:22:08Z",
-      "country": "",
+      "country": "Kuwait",
       "countries": [
-        "Saudi",
         "Kuwait"
       ],
       "language": "ar",
@@ -13361,10 +12776,9 @@
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9yN3BESXBTQVQ3Qm8zYlNka2xzZ0IzMDNSa19nSDNMYUIxNnYyQzlNTlRsbm5nS1VCRE10NGt1bG1NNUdISlNicVhvY0lwVi1qVndV?oc=5",
       "source": "https://emirates24.net/",
       "published_at": "2026-10-13T21:17:48Z",
-      "country": "",
+      "country": "Saudi",
       "countries": [
-        "Saudi",
-        "Yemen"
+        "Saudi"
       ],
       "language": "ar",
       "category": "security",
@@ -13405,10 +12819,9 @@
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBaRGtnNXkzd1RQZVdYbUJvQXlXOUpiMHJuc055bzZiZjc1OWFuR1FKaGxFcDh2MFM4Z3g0Z0dkTXdyckFxU0tmYXZrWHFPMkNDMHdR?oc=5",
       "source": "https://emirates24.net/",
       "published_at": "2026-10-13T21:01:35Z",
-      "country": "",
+      "country": "Saudi",
       "countries": [
-        "Saudi",
-        "Yemen"
+        "Saudi"
       ],
       "language": "ar",
       "category": "security",
@@ -13482,10 +12895,9 @@
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8wMmFxZ2xBMkhuOE9XQjJtQ3dqZjlSTTd4bWFxOUJNZWhLQXRTaXBBbDJmeGNUTGxicDBCZE5qdkw3OFMzYUhQTHBPODVYNmw0WXkwUTZhZEdPUGFVOWhwWldVSDRyaXFDN0NMdVgxMjJKRjFH?oc=5",
       "source": "وكالة الأنباء الكويتية",
       "published_at": "2026-10-13T20:21:25Z",
-      "country": "",
+      "country": "Saudi",
       "countries": [
-        "Saudi",
-        "Kuwait"
+        "Saudi"
       ],
       "language": "ar",
       "category": "security",
@@ -13559,11 +12971,9 @@
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1hcEthLUFQRmFqekJvQkpzMDZNR3Q2MkJKdVVTbkVxRHZiVEdraW5Hb01TMWpDUm5wNDNFdFhqR0JxNlgzNEZ1eGMwc0dXeFE?oc=5",
       "source": "الساحل الغربي",
       "published_at": "2026-10-13T19:23:44Z",
-      "country": "",
+      "country": "Bahrain",
       "countries": [
-        "Iran",
-        "Bahrain",
-        "Kuwait"
+        "Bahrain"
       ],
       "language": "ar",
       "category": "security",
@@ -13944,10 +13354,9 @@
       "url": "https://news.google.com/rss/articles/CBMi1ARBVV95cUxQYjdkc3BidFNuMF9vdm1VWDVBM2d0dXJOUlpNSU1JZW5wSzNvVzFNLXVQNkx1V28wMW04SUVpSTR2TEExOU5NUEFzSU5lLWR0SHVLV2J0LWgtX21hbWVlV0Q0SFJuY2hsTUpvbDJVbk11N2FNTlZHVkR3Q2Nma1ZOZ1BBNUNva04xTFZZQVdRZXlQTkl1SWFrUFJvRWlzOWNkaUhSZXE0TnlkYWc4VVhLVG5qV3NrczZoMF90UmRuVzRMUXhQWlB2UGdPMWtPbHNvZWhGMjF2eGxlZzNHa09XM2JNbTR1d0gxTWFPSXg0MjctTlVpQ0N2d2JkT1NBT2RvbnFzUVFYVC1uSm43LUhxdkluT3FJaWdqcUpxekw4OWYtUkJsa1UtNGNVTzMwejNUNXEzb3NyaUVoUUFHN0dQc25xNE5lSE1vSEN4MWZhYnlVQXlPMG9xdHlNeTQ1WW0xbkozaS16UDd4dUJBTXVBX2YzdW4yV3NIY0JEeExNNUpIVWZ3Tm90NU5xdkVReWlFQURpN2p5LUFoNkxLMFA5QUFkbzE1Q1lvLWFoWUJWZnA2RXdTQllyNFNpbERGX1VmLUo3NmdqamdtMmZfV0lGSnhPcmpNMnd5ZURISEE0MW10NE5FVHdqU2ZGc1F5MHhtQmdITV9HUm9ZMllOSXJRRTVRcFQ0N1FqcUZtbW1MSnhZRDNVQU5TZVlHS0p5MnNIeldkd1FiMlNCalJrZ25EVVpuVlVpUmMyOFB4ODVkS0NROWlCbk1ZYTUteG82X0RZTnA0dw?oc=5",
       "source": "NOW الشرق",
       "published_at": "2026-10-13T14:50:05Z",
-      "country": "",
+      "country": "Saudi",
       "countries": [
-        "Saudi",
-        "Yemen"
+        "Saudi"
       ],
       "language": "ar",
       "category": "security",
@@ -14000,6 +13409,21 @@
       "provider": "Google News · aviation"
     },
     {
+      "id": "50a71cb48e3f71e6738680a2",
+      "title": "قناة المسيرة التابعة للحوثيين: هجوم على شركة النفط اليمنية في صنعاء - Elnashra",
+      "url": "https://news.google.com/rss/articles/CBMisANBVV95cUxOSE9lUDFyMExmZmltdVM2SEV1THBSckU5UUVGVE8xekhLOHA5NFB1Nl9yMzN3VlMzeTNjMVVhSXJuNUNkWWNka21TSjQ4ejdfUGEtYkU4aktEN3BhUXFQX09CVEdQd2NGMmZHTXJVU3RYTzcxYUg0TVV1Vm1KajhqNGhRdTR6WU1HNDdJeFJNQ1NJZnlkc2EzZHJxQlhWd18wdi1LSWhBVUYwNDh6NEdVRU53LTJaQWJ5LS1nY3Q2eTVQVDNYNm9kN045N2pMQmh6QmxVWk9seW4yOGtCZlM4ZTdiZ19Oc19tbGduVXlybUtNd0xfaHFFUm0xTEYwSmRaWlktRG5PdzlOdkdabmEtc2xSZ1lLYlpPZ1dNS2t4cGRDcUJyOHhXZDZpdS11QzRrUi1oYXZtX0ttV3Roa3JTSFJPc3h4Y2RSVURjRGxBYU5IYl9fNzBsdWpsY2h0MmdyRENJaXFuRVpXWW9Na0E5OVlsV1FvZDJBT29WWGlINml1VmJJUWVMdFhXelAzZTVYc3VtUkRNUk15dGxnOGZOWVMyV3NNNmFkQVR1ZDR2aTc?oc=5",
+      "source": "Elnashra",
+      "published_at": "2026-10-13T14:12:20Z",
+      "country": "Yemen",
+      "countries": [
+        "Yemen"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير عن مسيرات",
+      "provider": "عربي · السعودية"
+    },
+    {
       "id": "c165a76f4165f7f36cd8",
       "title": "MI5 chief says Iran is targeting military sites and suspected plot at RAF Fairford is 'not unique’ - ABC News - Breaking News, Latest News and Videos",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeE9ndjhGUVJKSmM2YmlKMTlWbkM5UmlMZU9nWWFPRnVWdV9QRzgyMV9YeV9Obmh5cTY0NVZZWXpwSXFwRU1UcXhER2tTeENXVDBPc2lpMERkZV9SbkZiMVhBQWJ2SkNTNWc5ZnBna0o4a2xId09QNnk1aE5uM3p5LXBxYnA5ZDVFaVNWY2U1OW5LUlpPYXJKNUNsTjlwUGN1Vk9BOWJJc1Bidnkz0gGyAUFVX3lxTE9ESHN6QXFWQnJRUTk3b3JrZ3h0Sm9Mb1ByWURlTHltZHhZckJFOHV6djBIdVhoQ09mWUZaNUVEOHFZR0dJSm8wSG1aTzlReTduVV9QSnNzSzBwZkNtRmtzVGNYSXVkMkxqY3dmcUN6MHczcEowVnR2LXV1ekJ5LVRnQnJDV0RzSUk2RXROQVpERG5HRl9xMzc3NWpWT1FtcTkxZkhlZVlXSVFKSEpPSjdmTkE?oc=5",
@@ -14035,10 +13459,9 @@
       "url": "https://news.google.com/rss/articles/CBMi8ANBVV95cUxQN0RPTWRpTmVzUHZ0aFBWZXRScy1hTGVrWFNlYUgwa2doWW9UVHhBUUp3UGFoUDRwaTEwaktjM3JnVGtJVC1FM256NXNNQUhEOE1pT0xYNGsxQzUyYXJYa3FBZF9UVmg5aU1OdzNMbk4wdlRyOV9hOEw0MXpHZ3VzVXo4ZzgxRzBMYUIwbjlGbW1oSWVNQ3NZb3VqaXhURmVOSUJmZXBjekNCVGhfUkFXSldEajFOLTZ2ekI5T0tHM3lmcy1CZU9ZUG9rNnJJRlppY3FvcXB2S1FIUkc0dFplWEljcHdGckxKNzlqQUxsOG5pMUpqN21oZnp3Mnh5aDdVZDk0dXBKUGhsa2tEQTUtbUs0R0lILTJZZVRJTVRZOEhfbWJQT0VBR1NmNFc4TEFYTXVrOGk3bDhKcDRKT0NuNjZkRGVBZEhNNzVDZkNhZTg1TUFHSnRSZVBtMlliSHJwNUtPM3NWSUxVcUNmZXBaRGlRT3dxb1pEZFI0MVJoRTZST09NaTBoeDFoVFdRbFRNaTNzdHFEMWhDUjNuYzJXZWJVS2Jfa09PNE1qOG5aYmdDTWFrcWZRZW8yQnpHeHRTR2dzLUVXZWpSWEc0MVdWTVZ4eEdwTndKT2lBVVh2Y3dvUHlfeFN3OXRjQmc0Unda?oc=5",
       "source": "الشرق للأخبار",
       "published_at": "2026-10-13T14:07:07Z",
-      "country": "",
+      "country": "Saudi",
       "countries": [
-        "Saudi",
-        "Yemen"
+        "Saudi"
       ],
       "language": "ar",
       "category": "security",
@@ -14105,23 +13528,6 @@
       "category": "transport",
       "tag": "AVIATION REPORT",
       "provider": "Google News · aviation"
-    },
-    {
-      "id": "02c49dcc3c7682d913adc079",
-      "title": "صواريخ ومسيرات إيرانية تستهدف البحرين والكويت والأردن.. والدفاعات الجوية تتصدى - الساحل الغربي",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE15VmNLVDgtRnRBRzRXaVowSlM1cTFRTEtwVGhhS0JoWVRpZ3FpdW1EZXZzdXN3SHcwNXVNV2s1N0tzMU9FYkZEZXFDWUlESWM?oc=5",
-      "source": "الساحل الغربي",
-      "published_at": "2026-10-13T13:09:10Z",
-      "country": "",
-      "countries": [
-        "Iran",
-        "Bahrain",
-        "Kuwait"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "تقرير عن صواريخ",
-      "provider": "عربي · الكويت والعراق"
     },
     {
       "id": "2d6e21dbddb7c4e6ebd7e0a1",
@@ -14229,21 +13635,6 @@
       "provider": "عربي · العربية"
     },
     {
-      "id": "310f61bd252f0c64ae43aa5e",
-      "title": "تحصينات إيرانية وحشد أميركي.. واشنطن وطهران تتحسبان لاستئناف الحرب - الشرق للأخبار",
-      "url": "https://news.google.com/rss/articles/CBMixwNBVV95cUxPX255NnVGOVhKYTNISFhVS0ZzLWhwbFpidkdiaVFoS2hCWWphWS1XMzlxcEdtN2JBUnZsLTFtY0M0c3dDalk3cjFUNXlTZWQ0LUNwY0VwdndOVTVlV3pDb0g4TWxXaUppTnA1elJJbE1tZXpxbW4xQlBfQWlINmhiU0VGOUhxd0EtcXBtcmx5aU1rOG9FcnZvcGdSZXVqYmU3MkhIakdCQ2haZVRvQS15RGNxa0Jja3ZtTURwMXJaZGlUb011TFZrLTBoTnR0TWFncnBNWEhTM2pCelFhMG5LRG5iZkdRZTc1SjJIcjBFME1YM1ZqZGNHYTM5SUtXQmNmX2xJRkt5dlpfcTVQRkhrRTN5elRON1J1ZWpsc01JbWRTb2lhaGZ4eWN2TkZkZ25Scl9KeklaVVZNMGJwRkJZWUlVb3dXWFZQcEt3NWRYbW1OWUZBSnRyTzV5MTFsOVNwdklqTjVFZDBJWUNzSTFVa2R1dVlKajA2dmQzcEVZSERITUxGemlqZG1yY2lWRlA1MXBjNHpkcW1fZHh4UzFDRnk1MUdoeWpOSHA2THZqRkM3TUFSMGdRVDQ0b21lRHF6bnc2MmZvOA?oc=5",
-      "source": "الشرق للأخبار",
-      "published_at": "2026-10-13T11:37:06Z",
-      "country": "Iran",
-      "countries": [
-        "Iran"
-      ],
-      "language": "ar",
-      "category": "diplomacy",
-      "tag": "تطور دبلوماسي",
-      "provider": "عربي · الشرق"
-    },
-    {
       "id": "1527c92cc0f7db46a26ec592",
       "title": "Riyadh Airport Attack: 4 Indians Remain in ICU, Indian Airlines Suspend Saudi Flights Until Oct 17 - Arab Times Kuwait News",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOQjVIVDZuZFBrRm9vYmFDYlZjZWw5ZmVOM243cHQtb2lrWmZIRzJGd1RXSGhQSDdyNVBvWkVpcTZWaW1JbTRtZEk0bmhKMFg0UHI1akZNaTBNSVZWWUFYSXlqbEZ1eHpzS2RZSVhMbUJ5b3UwdjhvRVBJaWdWcmwtdmphUzh5dF91ZGZaTnU5UGN2Ql9uamNmdmZhVGFneDRPVXBoMFNvU25vd0MwajBjUV90bEJaNjZlcFFiR3gxR2pfbGdwYTBVV1lKb0VkOUU?oc=5",
@@ -14305,21 +13696,6 @@
       "provider": "Google News · security"
     },
     {
-      "id": "9cfcaa1496ad3c887ddb6c36",
-      "title": "توغلات بالقنيطرة وإطلاق نار في بيت جن.. ودعوة أممية لوقف الانتهاكات الإسرائيلية - الجزيرة نت",
-      "url": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxNdlNXMWNOMlZyRGVnUjNxck5ZeEZPZk5nc2paNGY1ek9ndVBuRHk5al9JTTdzcmZ2LTNsTFhlak9LSFFhTjU4NlFaMG1ObVRuM0VWMHNRb2RZLWV3X0lfNEVZRTB2QWZvVzRsY3lmbDNtVTA5eU94T3Fmd2JPLXN3ZUNrWXNXdU1jWW5yVmgwdzF4Um1ONW9NY3dlbC01V3F1WWh1VllfV2ZKWDJIcGxrd3NQdzQ4VXhGbE0tQld3NVQ5Y2IxOXhYaWFzRWtfa184MkwtV0l2UHA2MklVSHY4UklkUWpHNXlYY1p3MFUxQ3VVRTdjaE1ZUWRhbDZzSkpaaC1pQS1NWHF5VFJoZjJVZVlRYUxYeGc3RTQ4VTA1S0xNUi14ZFRGSXRsSlJSNGVzSHlFQ3g5UlB5c2FfMTRTaFRPaWhOV1RJTW1oQUNfMDJIQ0dE0gHaAkFVX3lxTE1NVXg1OC03RXplRDFNV0ZXUk84elpuekYyOFhkaTkwemRyTzk4M0VENll5SmtXUWt3Y3BwVGhEdlRiYmExdUswSEdTLVN0Mzc1eG5xTE82d2liVHBCYzdQLTI1a2dzNGpTOTYzTFl4ZGZNdWVXa1BPWlVtQTU1clJXSWZqSUpvc1drazNxNGpYNmlTRTl1aWxCUVVCeHdTSXp1aXVHMFBHU042a3Y3TVlQdTBrMkFGb2NhcklaTmVndm84dEN0QnY1aVVWT0d4STVBaFVyendpenZqU3p3azZRdFlscEYtLWxPN2dpbkJBaEpnRnhEeHlmR2Z6aE5qc3g3YU0yVnpWWEJuNzRSU29zSGx3Zk1xM3o3dGFBazRvRkFYcm5hNkJJbHV2OHdDMTFBTHRYb0ZGc05iYXV2OXhid3FFX0JmSGFzVFRKMGk5OFpOSmJibkVCc1E?oc=5",
-      "source": "الجزيرة نت",
-      "published_at": "2026-10-13T10:08:04Z",
-      "country": "Israel",
-      "countries": [
-        "Israel"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "تقرير امني",
-      "provider": "عربي · الجزيرة"
-    },
-    {
       "id": "70e30fe29974a34a9367314f",
       "title": "مصر: مستعدون لدعم السعودية وندرس بجدية اتفاقية مكة - الشرق للأخبار",
       "url": "https://news.google.com/rss/articles/CBMi7wNBVV95cUxQMW1mNEJlYzJOakVOR2hod3JOckxyUjYzUGJaVVV4TWFya0NjSWNzeTBya0xjYW9hOVctQXAxbml1SzRGT2VOeGRKNTk5dmt1TGhFMzV6aUlzSjIwTEt4dmlBdUttcGxWTDlmcm9CRjV5aVZXdkQ3NEV0ZFJUWDBmNDNjS25DUlNpc2RTb1BqQVN1Yk9fMGhTRXVuRV81NUgxaTRVRVlLcnZnZGwtbFZwaEZsY0Roc2lpaThyREttYnVjNHVWTDJwZzVHQURicXBYY3FPdFA2RDVJOTRmeUlGZ2NMaEN6c0ZjRndKa3ZkSXgzVzlzMmw2cFRTQnJCaEx2b2pWWUkxLXZDelJwZnhlQ2cwUnhCaVBJWi1KTTNmOG93WmF1X0dSWTY2eUZ3NzRVNUVXYTBNZExnVTBGUnppU2JDbEJMTVF4VlhLUmRHSVNFUkRsRnVyZloxMlJseWQzYnlzaHBSUmZja2w2ODJqa3hCOHd6RU1MTFF2TWZneGlCVWpNbmExZkV1blJXMVlvRFY5RjRtOTZpM1ExakNPc3J3WUp2T09fVHlTeVRSZXEtNHJ5YVp0UGtCZ3pselNVQy01dEIyUVJpMWxhM0VtVlRfNFBiLVJ6dUs3YXVyYmpGMGhyQ25PcS1GNGNQeE0?oc=5",
@@ -14357,10 +13733,7 @@
       "source": "www.wam.ae",
       "published_at": "2026-10-13T09:16:00Z",
       "country": "",
-      "countries": [
-        "UAE",
-        "Bahrain"
-      ],
+      "countries": [],
       "language": "ar",
       "category": "transport",
       "tag": "اضطراب نقل",
@@ -14385,9 +13758,8 @@
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5IVHdhejU0azRtaUt4RFVSZG9GcnJqM2ZVSXJJenVtaVpRelN2eGwzam1ua1JYTDV6SEdnNTFIbjN3RU9nY1pDc1B1WDBHSzRwVHpxVHB4VWZSRGZUOUHSAWNBVV95cUxPRHF3aGNwaF9EWTJja3pvb1MwTjFhcExTN0JiaFpvOVl2WElZbHFVbmdwNk0zUG9CajFlZ0hzX2JTQ1FpUEJHeVdydnBteUZFVFduYWFCeWJjbUZjOUpmVngxZTQ?oc=5",
       "source": "BBC",
       "published_at": "2026-10-13T07:46:15Z",
-      "country": "",
+      "country": "Yemen",
       "countries": [
-        "Saudi",
         "Yemen"
       ],
       "language": "ar",
@@ -14434,8 +13806,7 @@
       "country": "",
       "countries": [
         "Saudi",
-        "Qatar",
-        "UAE"
+        "Qatar"
       ],
       "language": "ar",
       "category": "transport",
@@ -14524,7 +13895,7 @@
     "Google News · missiles/drones": {
       "ok": true,
       "items": 100,
-      "relevant": 58
+      "relevant": 56
     },
     "Google News · security": {
       "ok": true,
@@ -14554,27 +13925,27 @@
     "عربي · إيران والخليج": {
       "ok": true,
       "items": 55,
-      "relevant": 42
+      "relevant": 39
     },
     "عربي · قطر": {
       "ok": true,
       "items": 55,
-      "relevant": 23
+      "relevant": 22
     },
     "عربي · السعودية": {
       "ok": true,
       "items": 100,
-      "relevant": 58
+      "relevant": 52
     },
     "عربي · الإمارات والبحرين": {
       "ok": true,
-      "items": 64,
-      "relevant": 49
+      "items": 63,
+      "relevant": 45
     },
     "عربي · الكويت والعراق": {
       "ok": true,
       "items": 49,
-      "relevant": 48
+      "relevant": 45
     },
     "عربي · مضيق هرمز": {
       "ok": true,
@@ -14584,22 +13955,22 @@
     "عربي · الجزيرة": {
       "ok": true,
       "items": 100,
-      "relevant": 18
+      "relevant": 9
     },
     "عربي · العربية": {
       "ok": true,
       "items": 100,
-      "relevant": 37
+      "relevant": 32
     },
     "عربي · الشرق": {
       "ok": true,
       "items": 100,
-      "relevant": 43
+      "relevant": 40
     },
     "عربي · وكالات الخليج": {
       "ok": true,
       "items": 100,
-      "relevant": 28
+      "relevant": 24
     },
     "الجزيرة نت · RSS عربي": {
       "ok": true,
@@ -14617,8 +13988,9 @@
       "relevant": 1
     },
     "GDELT · article index": {
-      "ok": false,
-      "error": "HTTP Error 429: Too Many Requests"
+      "ok": true,
+      "items": 75,
+      "relevant": 3
     }
   },
   "notice": "Public news headlines only, not verified attacks. Approximate country reference markers. Provider errors are reported."
