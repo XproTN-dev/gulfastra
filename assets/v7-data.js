@@ -6,7 +6,7 @@
 "use strict";
 const BASE="https://raw.githubusercontent.com/XproTN-dev/gulfastra/intelligence-data/data/";
 const FALLBACK="data/";
-const ALLOWED=new Set(["reports.json","events.json","revisions.json","observations.json"]);
+const ALLOWED=new Set(["reports.json","events.json","revisions.json","observations.json","alerts.json"]);
 const state={channel:"starting",checked_at:null,manifest:null,error:null,dataVersions:{},fallback:false};
 const memory=new Map(),loading=new Map(),bootstrapped=new Set();
 const interested=new Set();
