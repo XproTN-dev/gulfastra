@@ -62,6 +62,25 @@ with sync_playwright() as pw:
         assert page.locator("#timelineBars button").count()==48,"Real-data publication timeline missing"
         assert page.evaluate('!document.querySelector(\'link[href*="v9.css"]\')'),"Old CSS should not be loaded"
         assert page.evaluate("getComputedStyle(document.querySelector('.map-wrap')).height!=='0px'")
+        # New source-specific panes must be reachable without reclassifying
+        # social posts as publisher verified reporting or official advisories.
+        if name.startswith("mobile"):
+            page.locator('[data-mobile="intel"]').click()
+        page.locator('[data-tab="social"]').click()
+        assert page.locator("#streamSummary").inner_text().startswith("X POSTS"), (
+            "X social review pane unavailable"
+        )
+        assert "UNVERIFIED" in page.locator("#stream").inner_text()
+        assert "API STATUS" in page.locator("#stream").inner_text()
+        page.locator('[data-tab="advisories"]').click()
+        assert "OFFICIAL" in page.locator("#streamSummary").inner_text()
+        assert "Public advisories" in page.locator("#stream").inner_text()
+        page.locator('[data-tab="sources"]').click()
+        assert "ADDITIONAL PUBLIC DATA" in page.locator("#stream").inner_text()
+        assert "ReliefWeb" in page.locator("#stream").inner_text()
+        page.locator('[data-tab="priority"]').click()
+        if name.startswith("mobile"):
+            page.locator('[data-mobile="map"]').click()
         page.screenshot(path=str(OUT/f"v11-{name}-overview.png"),full_page=True)
         page.locator("#commandButton").click()
         assert page.locator("#commandOverlay").is_visible()
