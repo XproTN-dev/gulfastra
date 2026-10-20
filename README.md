@@ -1,3 +1,13 @@
+## Impact Lab v12 — evidence-based analytical workspaces
+
+**[Open Impact Lab](https://xprotn-dev.github.io/gulfastra/lab/)** · **[Read how it works](docs/IMPACT_LAB.md)**
+
+A separate GitHub-hosted research workspace now provides a source-linked publication network, 48h / seven-day time replay, FRED economic indicators (VIX, Brent, WTI, credit spreads, Treasury spread and unemployment), raw 2008 comparisons, clearly hypothetical impact mechanisms, a deterministic daily briefing and phone-friendly investigation sheets. A local **since-last-visit** view compares source-record revisions without any tracking backend.
+
+**No simulated live markets or causal probability scores:** connections indicate topical metadata overlap; prices and rates retain their actual FRED observation dates; historical comparisons are contextual rather than predictive. The main command center and exact v9 backup remain accessible.
+
+---
+
 ## Expanded intelligence sources — official advisories and X integration
 
 The ingestion now configures **31 news/RSS/search channels** (including direct QNA RSS and Reuters/AP/UKMTO/State Department *source-restricted discovery*). GDACS supplies separate official disaster advisories. ReliefWeb, OpenSky and official X API retrieval are supported only with appropriate credentials and API access. The X feed is **disabled by default** and explicitly requires billing approval; no unapproved paid requests are made. See **[source types, status, credentials and restrictions](docs/SOURCES_V12.md)**.
