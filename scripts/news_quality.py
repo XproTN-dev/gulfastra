@@ -13,6 +13,10 @@ RETROSPECTIVE = re.compile(
     r"training drill)\b|(?:العام الماضي|سنوات مضت|ذكرى|سابقا|الأسبوع الماضي|تحليل|"
     r"تدريبات|مناورات|محاكاة|تاريخ|في عام 20(?:0\d|1\d|2[0-5]))",
     re.I)
+DENIAL = re.compile(
+    r"\b(denies|denied|no evidence|false report|debunked|refuted|no casualties|"
+    r"no attack|not attacked|not hit|false alarm|hoax)\b|"
+    r"(?:ينفي|نفت|نفى|غير صحيح|أنباء كاذبة|مزاعم كاذبة|لا إصابات|لا خسائر)", re.I)
 SPECULATIVE = re.compile(
     r"\b(could|might|may|possibly|potentially|fears|fear of|risks?|"
     r"threatens?|would|if|plans? to|prepares? to|expected to|"
@@ -95,14 +99,17 @@ def assess(title, published_at, now=None):
     now = now or datetime.now(timezone.utc)
     age = freshness(published_at, now)
     old_context = bool(RETROSPECTIVE.search(title or ""))
+    denied = bool(DENIAL.search(title or ""))
     hypothetical = bool(SPECULATIVE.search(title or ""))
     has_critical = bool(CRITICAL.search(title or ""))
     has_elevated = bool(ELEVATED.search(title or ""))
     # Never turn old/explainer/hypothetical headlines into urgent alerts.
-    urgent = age == "new-reporting" and not old_context and not hypothetical and has_critical
+    date = when(published_at)
+    urgent = (age == "new-reporting" and date is not None and date <= now
+              and not old_context and not hypothetical and not denied and has_critical)
     return {
         "freshness": age,
-        "context": "retrospective" if old_context else "speculative" if hypothetical else "reporting",
+        "context": "retrospective" if old_context else "denial" if denied else "speculative" if hypothetical else "reporting",
         "severity": "critical-candidate" if urgent else (
             "elevated-reporting" if has_critical or has_elevated else "routine-reporting"),
         "critical_candidate": urgent,
