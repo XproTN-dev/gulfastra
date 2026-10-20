@@ -115,6 +115,7 @@ async function init(){
  window.addEventListener("resize",()=>{clearTimeout(init.timer);init.timer=setTimeout(resizeMap,160)});
  document.addEventListener("visibilitychange",()=>{if(!document.hidden)pull()});
  await pull();
+ window.addEventListener("gulfastra:data-changed",e=>{if(e.detail?.name==="reports.json")pull()});
  setInterval(()=>{if(!document.hidden)pull()},45000);
  setInterval(updated,15000);
 }
