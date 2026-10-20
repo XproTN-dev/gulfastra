@@ -66,6 +66,11 @@ jobs:
           GULFASTRA_DATA_DIR: ${{ github.workspace }}/archive/data
           CF_RADAR_TOKEN: ${{ secrets.CF_RADAR_TOKEN }}
         run: python source/scripts/observations.py
+      - name: Optional NASA FIRMS geospatial thermal detections (requires private key)
+        env:
+          GULFASTRA_DATA_DIR: ${{ github.workspace }}/archive/data
+          NASA_FIRMS_MAP_KEY: ${{ secrets.NASA_FIRMS_MAP_KEY }}
+        run: python source/scripts/firms.py
       - name: Record independent collection and alert health
         env:
           GULFASTRA_DATA_DIR: ${{ github.workspace }}/archive/data
