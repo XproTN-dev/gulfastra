@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#ecf2f3">
+<meta name="theme-color" content="#050a08">
 <meta name="description" content="Gulfastra: Gulf public-source intelligence reporting and geographic monitoring dashboard.">
 <title>Gulfastra | Gulf Intelligence Observatory</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,6 +14,7 @@
 <link rel="stylesheet" href="assets/v6.css?v=6-2">
 <link rel="stylesheet" href="assets/v7.css?v=7-2">
 <link rel="stylesheet" href="assets/v8.css?v=8-2">
+<link rel="stylesheet" href="assets/v9.css?v=9-1">
 </head>
 <body>
 <div class="shell" id="shell">
@@ -76,6 +77,38 @@
  <div id="feed" class="feed-list" aria-live="polite"><div class="empty"><div class="empty-symbol">⌁</div><strong>Loading public intelligence feed</strong><p>Checking the latest collected articles and sources.</p></div></div>
  <div class="feed-bottom"><span id="feedSummary">REPORTS ARE NOT VERIFIED INCIDENTS</span><button id="showAll" class="text-link">VIEW ALL →</button></div>
 </aside>
+<nav class="v9-primary-nav" aria-label="Primary map modes">
+  <button type="button" class="active" data-v9-mode="map">THE MAP</button>
+  <button type="button" data-v9-mode="wire">THE WIRE</button>
+  <button type="button" data-v9-mode="globe">THE GLOBE</button>
+</nav>
+<nav class="v9-dock" aria-label="Intelligence tools">
+  <button data-v9-panel="wire"><span>▤</span> INTEL WIRE</button>
+  <button data-v9-panel="verify"><span>◈</span> VERIFICATION</button>
+  <button data-v9-panel="hormuz"><span>≋</span> MARITIME</button>
+  <button data-v9-panel="alerts"><span>◇</span> ALERTS</button>
+  <button data-v9-panel="sources"><span>⌁</span> SOURCE HEALTH</button>
+  <button data-v9-panel="timeline"><span>▥</span> REPLAY</button>
+  <button data-v9-panel="lab"><span>⌘</span> ANALYST LAB</button>
+</nav>
+<div class="v9-top-status"><span class="v9-led"></span><span id="v9DataStatus">CONNECTING TO PUBLIC SOURCES</span><button id="v9Appearance" type="button" aria-label="Change interface color scheme">◐ THEME</button></div>
+<nav class="v9-map-tools" aria-label="Map and display controls">
+  <button id="v9Filters" type="button">☷ FILTERS</button>
+  <button id="v9ZoomIn" type="button">＋ ZOOM IN</button>
+  <button id="v9ZoomOut" type="button">－ ZOOM OUT</button>
+  <button id="v9Reset" type="button">⌖ RESET</button>
+  <button data-v9-panel="sources" type="button">◉ SOURCES</button>
+</nav>
+<div class="v9-map-disclaimer">◎ COUNTRY REPORTING REFERENCE · NOT INCIDENT OR ASSET LOCATIONS</div>
+<div class="v9-panels" id="v9Panels" aria-live="off"></div>
+<div class="v9-appearance-menu" id="v9AppearanceMenu" hidden role="group" aria-label="Color scheme">
+  <span>DISPLAY PROFILE</span>
+  <button data-v9-theme="phosphor">● PHOSPHOR GREEN</button>
+  <button data-v9-theme="arctic">● ARCTIC CYAN</button>
+  <button data-v9-theme="ember">● AMBER COMMAND</button>
+</div>
+<div class="v9-mobile-tools" id="v9MobileTools"><button data-v9-panel="wire">▤ WIRE</button><button data-v9-panel="verify">◈ VERIFY</button><button data-v9-panel="hormuz">≋ HORMUZ</button><button id="v9MobileFilters">☷ FILTERS</button></div>
+<footer class="v9-ticker" aria-label="Recent published headlines"><span class="v9-ticker-tag"><i></i> SOURCE WIRE</span><div class="v9-ticker-viewport"><div id="v9TickerItems" class="v9-ticker-items">AWAITING SOURCE-LINKED PUBLIC REPORTS · HEADLINES ARE NOT VERIFIED INCIDENTS</div></div><span id="v9TickerAge" class="v9-ticker-age">DATA CHECKING</span></footer>
 </div>
 <nav class="mobile-nav" aria-label="Mobile navigation"><button class="active" data-mobile="map">◎<span>MAP</span></button><button data-mobile="reports">▤<span>REPORTS</span></button><button data-mobile="filters">☷<span>FILTERS</span></button><button data-mobile="alerts">♧<span>ALERTS</span></button><button data-mobile="fusion">◈<span>FUSION</span></button></nav>
 <section class="v8-theme-studio" id="v8ThemeStudio" hidden role="dialog" aria-modal="true" aria-labelledby="v8ThemeTitle">
@@ -121,6 +154,6 @@ await import("./assets/v7-data.js?v=7-3");
 await import("./assets/v3.js?v=8-1");
 await import("./assets/v5.js?v=7-4");
 await import("./assets/v6.js?v=8-1");
-await import("./assets/v8.js?v=8-2");
+await import("./assets/v9.js?v=9-1");
 </script>
 </body></html>
