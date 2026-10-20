@@ -3,7 +3,9 @@ on:
   push:
     branches: [main]
     paths:
-      - 'scripts/visual_check.py'
+      - 'scripts/**'
+      - 'assets/**'
+      - 'index.html'
       - '.github/workflows/visual-check.yml'
   workflow_dispatch:
 permissions:
@@ -25,6 +27,8 @@ jobs:
         run: |
           python -m http.server 8765 --bind 127.0.0.1 >/tmp/gulfastra.log 2>&1 &
           sleep 2
+      - name: Validate Arabic classification
+        run: python scripts/test_arabic.py
       - name: Check desktop and mobile visual behavior
         run: python scripts/visual_check.py
       - name: Save actual browser screenshots
