@@ -140,13 +140,9 @@ function setup(){
  const mapSettings={style:S.mapStyle,region:S.region,globe:S.globe};
  const mapClick=(kind,id)=>V.showDossier(kind,id);
  const initialMap=M.init(mapClick,mapSettings);
- if(!initialMap&&!window.maplibregl){
-  // Backup public CDN; never substitute a fake or screenshot map.
-  const fallback=document.createElement("script");
-  fallback.src="https://cdn.jsdelivr.net/npm/maplibre-gl@6.15.0/dist/maplibre-gl.js";
-  fallback.async=true;
-  fallback.onload=()=>{if(M.init(mapClick,mapSettings))render()};
-  document.head.appendChild(fallback);
+ if(!initialMap) {
+  // The ES module bootstrap has already tried same-origin then CDN fallback.
+  console.warn("Map could not initialize:",window.GXMapLibraryError||"WebGL or style initialization failed");
  }
  $$("[data-workspace]").forEach(b=>b.onclick=()=>workspace(b.dataset.workspace));
  $$("[data-region]").forEach(b=>b.onclick=()=>{S.region=b.dataset.region;M.focus(S.region);store();render()});
