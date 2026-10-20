@@ -78,7 +78,7 @@ function selectAlerts(data,s){
  return asArray(data).filter(a=>countryOk(a,s.country)&&within(a.published_at,Math.min(s.hours||24,24),s.asof))
  .sort((a,b)=>dt(b.published_at)-dt(a.published_at));
 }
-function coords(o){let lat=+o.lat,lng=+o.lon;return Number.isFinite(lat)&&Number.isFinite(lng)&&Math.abs(lat)<=90&&Math.abs(lng)<=180?[lng,lat]:null}
+function coords(o){if(!o||o.lat===null||o.lat===undefined||o.lon===null||o.lon===undefined||String(o.lat).trim()===""||String(o.lon).trim()==="")return null;const lat=Number(o.lat),lng=Number(o.lon);return Number.isFinite(lat)&&Number.isFinite(lng)&&Math.abs(lat)<=90&&Math.abs(lng)<=180?[lng,lat]:null}
 function geojson(items){
  return {type:"FeatureCollection",features:items.map(o=>({type:"Feature",geometry:{type:"Point",coordinates:o.coords},
   properties:{id:String(o.id),name:String(o.name||""),kind:o.kind||"unknown",count:o.count||1,country:o.country||""}}))};
