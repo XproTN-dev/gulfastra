@@ -85,3 +85,14 @@ body[data-theme="sand"]{--bg:#12110f;--panel:#1e1a17;--panel2:#28221d;--raised:#
  .dossier{padding-bottom:env(safe-area-inset-bottom,0px)}
  .map-wrap{touch-action:pan-x pan-y}
 }
+
+/* Tablet layer drawer must have an accessible trigger (651–900px). */
+.tablet-layers-toggle{display:none;background:var(--raised);border:1px solid var(--line2);
+ border-radius:6px;color:var(--accent);font:9px "IBM Plex Mono",monospace;
+ padding:8px;white-space:nowrap}
+@media(min-width:651px) and (max-width:900px){
+ .tablet-layers-toggle{display:inline-flex;align-items:center;justify-content:center;min-height:32px}
+ .topnav{min-width:0}
+ .app.mobile-layers .layers-rail{transform:translateX(0)}
+}
+@media(max-width:650px){.tablet-layers-toggle{display:none}}
