@@ -29,6 +29,7 @@ with sync_playwright() as pw:
             assert page.locator("#controlpanel").evaluate("(node)=>node.classList.contains('open')"),"Filters drawer failed"
             page.locator("#closeLayers").click()
         assert count > 0,f"{label} report cards not rendered despite {total} archived reports"
+        assert "COVERAGE GROUPS" in page.locator("#feedSummary").inner_text(),"Coverage grouping missing"
         page.screenshot(path=str(OUT/f"{label}.png"),full_page=True)
         print(label,"reported_count=",total,"visible_articles=",count,"mapcanvas=",mapcanvas,"pageerrors=",errors[:5])
         assert mapcanvas==1,"MapLibre canvas missing"
