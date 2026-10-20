@@ -25,6 +25,7 @@ with sync_playwright() as pw:
         page.locator("#languageTabs [data-lang=ar]").click()
         arabic_count=page.locator(".report h3[lang=ar]").count()
         assert arabic_count>0, f"{label}: Arabic reports not visible after selecting Arabic"
+        assert page.locator(".report h3[lang=ar]").first.get_attribute("dir")=="auto", "Arabic title lacks bidi handling"
         page.locator("#languageTabs [data-lang=all]").click()
         page.wait_for_timeout(650)
         total=page.locator("#mTotal").inner_text()
