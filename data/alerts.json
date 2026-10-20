@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-20T22:30:39.527349Z",
+  "generated_at": "2026-10-20T22:31:17.080153Z",
   "alerts": [
     {
       "id": "GF-59BE3EBBD1CFD7",
@@ -39,6 +39,27 @@
         {
           "name": "صحيفة الخليج",
           "url": "https://news.google.com/rss/articles/CBMiogVBVV95cUxOUko5UU5VazBoNkIzekVXZ3N3YjlwWlgtU25qNDNaRmY5MGsyWHNvSHJZcTIxX0NKemx0V2dQZnV5ZnJSbkZlUGxHUVFzeW55TEp2SlJEem5teGdwUGk1WnI3VmtwbTA0TGZ6RlNGak91ZHB4d2JZN2FwaHViZzJxTjVxQzh1SFQ5NUMyY094MWlGX21peWxxZGJEZUp6OE1pbXNLRUVvaHlKcV9BNmN3OU1QVG1OR0xTWEJTcnRPbHVOekw5Zm5yVTA1RXVBQ056cDZFRFBULUZwY3Ewa2hYbjY1Z0F1WGtKTElKN2JfMDM1aDEtWVV4d1VtWF8yYmZYRmZMQmN6NXJIdWREdHhyR3ZfU1dPUGw3aEctRDhVanRzdXhxTnJDc0RfbXV0ZU9KRVdDRUZRNmJuXzVFV1h5Ym8tTDlnNXJXRFNISG1jNm5zSng1R0k5ejZvZjFHdmVkMGtubWNrcmpzTnBKYmtVMVRGLWN4dnk4STVLbTFQdDkzTGJaRkIweU5WRHdlejZnejBfS05pNndYRURFclhPX3VweXdReUdtOFBrdE45MHcwdkZxWXFpT1ZxeE1valM2NUlCZlpuOXFWb2tQWTJfbEdTZ01HVnJBV0M5anppbXU5TFBjbnFsTzJlT3ZNalFqaHRsX2N3U0VKbVhuRWVENXU3NHVRMlRzdXVjaTBHM3ZaaFBYaTlyS0JzblhHN3RfQUYtNmJVbVZmRjNBSW5lSE1SX21vQmpaSjNRSFJONVhWa1VyWlRDWExPa1A5NnFSUDFfNm53b18yZTQtNkY0WHVic1d0N0NXbDNsTlBqX1QxeUVrTmEweUpkUTJOeFp4aHZFUDNGdzZPVTJVaWNieXNwc0g0SlljYi1MblNnZ3R0dw?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-5AC762AD9B1164",
+      "level": "review",
+      "title": "Middle East latest: Iran says supertanker 'exploded' near Strait of Hormuz - The National",
+      "published_at": "2026-10-20T20:37:51Z",
+      "countries": [
+        "Iran"
+      ],
+      "category": "security",
+      "topic": "maritime",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "The National",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNMkVpbk9qT29fT1A3MHN5dnlHc1RjaXJLRVhTVTBhOGNON3d1UGQ2amJNQVdWZ0U0RzYwTC1pVHRqZjFYZUZGSWU0cGJYTVVncnRoYjEzdG1fUmhyMWJHUE0zS3dPcmJMaDE0Z0c5ZzdSRVZLYVB3SzdfQ28ydWg4Yld3?oc=5"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
