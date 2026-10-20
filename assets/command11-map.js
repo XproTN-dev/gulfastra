@@ -4,7 +4,7 @@
 const C=root.GXCore;
 let map=null,ready=false,onOpen=null,last=null,globe=false,style="fiord";
 const empty=()=>C.geojson([]);
-const layers=[["observed","#5bdac9",7],["reference","#8eacc7",5],["coverage","#678fd6",14]];
+const layers=[["observed","#5bdac9",7],["fires","#edab63",6],["reference","#8eacc7",5],["coverage","#678fd6",14]];
 function ensure(){
  if(!map)return;
  for(const [kind,color,radius] of layers){
@@ -23,21 +23,23 @@ function update(opts){
  last=opts;
  if(!ready||!map)return;
  const {reports,observations,layers:enabled,country}=opts;
- const observed=C.observedPoints(observations,enabled);
+ const observedAll=C.observedPoints(observations,enabled);
+ const observed=observedAll.filter(o=>o.kind!=="thermal-detection");
+ const fires=observedAll.filter(o=>o.kind==="thermal-detection");
  const coverage=enabled.coverage?C.countryCoverage(reports):[];
  const reference=C.staticFacilities(enabled,country);
- const payload={observed,coverage,reference};
+ const payload={observed,fires,coverage,reference};
  for(const [kind,rows] of Object.entries(payload)){
   const src=map.getSource("gx-"+kind);if(src)src.setData(C.geojson(rows));
  }
 }
 function pick(e){
  if(!map||!onOpen)return;
- const names=["gx-observed-dot","gx-reference-dot","gx-coverage-dot"].filter(id=>map.getLayer(id));
+ const names=["gx-observed-dot","gx-fires-dot","gx-reference-dot","gx-coverage-dot"].filter(id=>map.getLayer(id));
  const matches=map.queryRenderedFeatures(e.point,{layers:names});
  if(!matches.length)return;
  const item=matches[0],p=item.properties||{};
- if(item.layer.id.includes("observed"))onOpen("observation",p.id);
+ if(item.layer.id.includes("observed")||item.layer.id.includes("fires"))onOpen("observation",p.id);
  if(item.layer.id.includes("reference"))onOpen("facility",p.id);
  if(item.layer.id.includes("coverage"))onOpen("country",p.country);
 }
@@ -53,7 +55,7 @@ function init(callback,settings){
   map.on("style.load",ensure);
   map.on("click",pick);
   map.on("mousemove",e=>{
-   const active=["gx-observed-dot","gx-reference-dot","gx-coverage-dot"].filter(id=>map.getLayer(id));
+   const active=["gx-observed-dot","gx-fires-dot","gx-reference-dot","gx-coverage-dot"].filter(id=>map.getLayer(id));
    map.getCanvas().style.cursor=map.queryRenderedFeatures(e.point,{layers:active}).length?"pointer":"";
   });
   let failures=0;
