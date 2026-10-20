@@ -8,11 +8,13 @@ const BASE="https://raw.githubusercontent.com/XproTN-dev/gulfastra/intelligence-
 const FALLBACK="data/";
 const ALLOWED=new Set(["reports.json","events.json","revisions.json","observations.json"]);
 const state={channel:"starting",checked_at:null,manifest:null,error:null,dataVersions:{},fallback:false};
-const memory=new Map(),loading=new Map();
+const memory=new Map(),loading=new Map(),bootstrapped=new Set();
+const interested=new Set();
+let backgroundTimer=null;
 let manifestPromise=null,lastManifestCheck=0;
 const PING_MS=24000;
 const toUrl=(path,revision)=>BASE+path+(revision?"?version="+encodeURIComponent(revision):"?fresh="+Date.now());
-const timeout=()=>typeof AbortSignal!=="undefined"&&AbortSignal.timeout?{signal:AbortSignal.timeout(11500)}:{};
+const timeout=()=>typeof AbortSignal!=="undefined"&&AbortSignal.timeout?{signal:AbortSignal.timeout(6500)}:{};
 async function fetchJSON(url){
  const response=await fetch(url,{mode:"cors",cache:"no-store",credentials:"omit",...timeout()});
  if(!response.ok)throw new Error("HTTP "+response.status+": "+url.split("?")[0]);
@@ -42,7 +44,7 @@ async function manifest(force=false){
  })();
  return manifestPromise;
 }
-async function get(name,{force=false}={}){
+async function remoteGet(name,{force=false}={}){
  if(!ALLOWED.has(name))throw new Error("Unsupported dataset "+name);
  const doc=await manifest(force);
  const entry=doc?.files?.[name];
@@ -83,6 +85,40 @@ async function local(name){
   }finally{loading.delete("local:"+name)}
  })();
  loading.set("local:"+name,request);return request;
+}
+function wakeRemote(name){
+ interested.add(name);
+ if(backgroundTimer!==null)return;
+ backgroundTimer=setTimeout(async()=>{
+  backgroundTimer=null;
+  const doc=await manifest();
+  if(!doc)return;
+  await Promise.allSettled([...interested].map(async dataset=>{
+   const before=memory.get(dataset)?.version;
+   const result=await remoteGet(dataset);
+   const after=memory.get(dataset)?.version;
+   if(after&&before!==after&&after!=="bundled-fallback"){
+    window.dispatchEvent(new CustomEvent("gulfastra:data-changed",{detail:{name:dataset,version:after}}));
+   }
+  }));
+ },0);
+}
+async function get(name,options={}){
+ if(!ALLOWED.has(name))throw new Error("Unsupported dataset "+name);
+ interested.add(name);
+ if(!bootstrapped.has(name)){
+  bootstrapped.add(name);
+  // Fast first paint from the existing static archive; never block UI on GitHub CDN.
+  const data=await local(name);
+  wakeRemote(name);
+  return data;
+ }
+ const cached=memory.get(name);
+ if(cached?.version==="bundled-fallback"){
+  wakeRemote(name);
+  return cached.data;
+ }
+ return remoteGet(name,options);
 }
 function info(){return {...state,dataVersions:{...state.dataVersions}}}
 function clearCache(){memory.clear();lastManifestCheck=0}
