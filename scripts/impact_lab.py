@@ -87,7 +87,7 @@ def graph(events,previous=None,now=NOW):
             if node["topic"]=="unspecified" or node["topic"]!=other["topic"]:continue
             countries=sorted(set(node["countries"]) & set(other["countries"]))
             if not countries:continue
-            if node["report_count"]<2 and other["report_count"]<2:continue
+            if node["report_count"]<2 or other["report_count"]<2:continue
             if degree.get(node["id"],0)>=4 or degree.get(other["id"],0)>=4:continue
             edges.append({"source":node["id"],"target":other["id"],
                 "kind":"shared-topic-and-country","relation_verified":False,
