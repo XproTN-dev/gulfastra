@@ -1,8 +1,8 @@
 {
   "version": 6,
-  "last_run": "2026-10-20T16:53:44.872710Z",
-  "last_successful_run": "2026-10-20T16:53:44.872710Z",
-  "successful_sources": 24,
+  "last_run": "2026-10-20T16:54:14.138769Z",
+  "last_successful_run": "2026-10-20T16:54:14.138769Z",
+  "successful_sources": 23,
   "reports": [
     {
       "id": "c6bb33de20283d18d8149d6a",
@@ -18598,6 +18598,29 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "8bd2e9d4e52e168c2e2e5f19",
+      "title": "83 مليار دولار للإنفاق العسكري.. لماذا تخترق صواريخ الحوثيين الدفاعات السعودية؟ - جنوبية",
+      "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxNNjJFMHpnYlZ1bm9vLVRiX2FodFhHXzJLbGw5TnBGVW9fYjUwcFZMUW5LSkZ2SnVoXzhsdG42cE9BdTZqcVc0OTNNRmRVeDBCcjJ3V1ppQkJDZHhDMnZIeXhyYV9jNU45czVoWC0wU0Z2dktrQXdFU1RRRHVzVkZvN0FXT2duc1BWamhwd1kxUElRc0JTcm1POUhSNld3RFFBdVpnYU44V0VkX1hGYVZCdHU0NTZPQVBkczZscVhVYUNaRzBEMTlrQ05meWhXSUttTHdVcFQ1X0NCdGNKa0lrNGpSMThTTFg1MUhud0F2UTE3OVZuWG82eUd3RVFpNlVPMmN5YXR1ZGpKX2xMWGkxREx4bzB3QTlpdU1rbTFJV1dPNDRfM1lhUmF1LXQybFo0ejJHWE9ERFBHX0NFeXRTbmxmSURCNWxmcTZz?oc=5",
+      "source": "جنوبية",
+      "published_at": "2026-10-16T14:42:48Z",
+      "country": "Yemen",
+      "countries": [
+        "Yemen"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير عن صواريخ",
+      "provider": "عربي · السعودية",
+      "first_seen_at": "2026-10-20T16:54:14.138769Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "217cab2c3517f9cf0ac5a881",
       "title": "السعودية تعلن اعتراض وتدمير صواريخ ومسيرات استهدفت عدة مناطق - الإمارات اليوم",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNS3ByNlpjckNWd0NWSG9qd0ZxelVhV1I2dzVHRGhuUVZNV2RqQ2ktZWZHREd0S2s4QUhPdk9wZGFBSTJLbHh6NWtJT2hkLVBmM1ZXd0tvRHB6SVlXdHBUcmlBNlhwTlJWdzBTR3psaFNLSkp4b1Qwd2hxRWJyRENFbUh5bm9IblZIX3lj0gGLAUFVX3lxTE1LcHI2WmNyQ1Z3Q1ZIb2p3RnF6VWFXUjZ3NUdEaG5RVk1XZGpDaS1lZkdER3RLazhBSE92T3BkYUFJMktseHo1a0lPaGQtUGYzVld3S29EcHpJWVd0cFRyaUE2WHBOUlZ3MFNHemxoU0tKSnhvVDB3aHFFYnJEQ0VtSHlub0huVkhfeWM?oc=5",
@@ -27929,6 +27952,29 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "505c313332ace2cf4f2db504",
+      "title": "Ronaldo waves Saudi flag scarf after missile alert delays Asian Champions League match in Riyadh - Euronews.com",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVU9LLXAyVXpRbVVtZHRuZFBIcmMzLWZwNGlGamJNMDU4ek9sdnh0UjVaRmpKV2VIMnJsY29MZDdaOThWT3BuVjRtcFZkbGNqSjlaZGJFek5yRzZ3a19tNzhuOG91RHF6SHJBOEhDX3ZLZy1VVERZWWVuS0ZFYjIyaElVcmRILU1fWnpWaGRPSmZadDBSd1FlTWdBeTZ1Rm5UaVI0X3lsdnBlRGNUbndwd1h1c1dUYkdwMUl4SmtxbS1ZSGZV?oc=5",
+      "source": "Euronews.com",
+      "published_at": "2026-10-13T17:26:19Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "MISSILE REPORT",
+      "provider": "Google News · missiles/drones",
+      "first_seen_at": "2026-10-20T16:54:14.138769Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "542b254b08d9154a579a24c8",
       "title": "Saudi Arabia spends $83 billion on defence. Why are missiles and drones still getting through? - The Economic Times",
       "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNaEJ1dnMwYjNlSTBCNGhla1Q1Q3dsYWlBb0xTQm5mVVBVLS02b2Q0UDJPZXBOaXo1b3ZtQXFHZVZlaXp2SnpSNEp3WU5MSG1XZE96dWdsWEMzbnNWRzk5aDBidUNiRHBwMEdvdXJpdFUwZWlTdzQweVhLd3A1QnNpeWR6RmxSUXpiUjdORjRYYTBfaWRCZ29pTzZpUXItdGV1SXd4SDg5Y3A3OGdkWmtjMGVZSHNHTEQtaG9WUmtxRFBhMlZQbGJIOXBJMmgzWlJrbWlpa0xyNk1LR3hFVVpuZ3g4U3JCTVVqWEhVRl9qaGtMU2RXYzBDaUc4OGpfSlg0X1FQd2N30gGLAkFVX3lxTE1DRVRBRVF4dGZ0c0pfTDByaFRRcnV3SVZOX1pzbmVpSTB5d0tFYVN1M0IxZlg0NDhjUVBsTFY3TVUxR1U1MkhBU1NoS1FyVVRXejRZTXpHQzdqcGhZM3lfblFSejd1cWhCYVI0LXJNYXF1NXRHRlVORl9NcE5CT2Z1Vm9VWnB0MXZJM1Q2ZUZmX1VhenJsakUxX19DcnNILWdoOWdoY2RhX2QwUTVOcURpbzd0VEFXZzZISF91SlNzWTBDUlNuT21JNWxhLVlpaDV5b1BjOE9QU0RhRVlzSGk0OWhoWW93NUdiZ0NWNmZYdDZjaXR5YXdUNWs2dVdwMnM0ZG9UNHdEOU1vbw?oc=5",
@@ -29889,7 +29935,7 @@
     "Google News · missiles/drones": {
       "ok": true,
       "items": 100,
-      "relevant": 75
+      "relevant": 76
     },
     "Google News · security": {
       "ok": true,
@@ -29923,8 +29969,8 @@
     },
     "عربي · قطر": {
       "ok": true,
-      "items": 56,
-      "relevant": 25
+      "items": 55,
+      "relevant": 26
     },
     "عربي · السعودية": {
       "ok": true,
@@ -29933,8 +29979,8 @@
     },
     "عربي · الإمارات والبحرين": {
       "ok": true,
-      "items": 64,
-      "relevant": 46
+      "items": 63,
+      "relevant": 45
     },
     "عربي · الكويت والعراق": {
       "ok": true,
@@ -29944,7 +29990,7 @@
     "عربي · مضيق هرمز": {
       "ok": true,
       "items": 100,
-      "relevant": 75
+      "relevant": 76
     },
     "عربي · الجزيرة": {
       "ok": true,
@@ -29959,7 +30005,7 @@
     "عربي · الشرق": {
       "ok": true,
       "items": 100,
-      "relevant": 38
+      "relevant": 39
     },
     "عربي · وكالات الخليج": {
       "ok": true,
@@ -30002,9 +30048,8 @@
       "relevant": 1
     },
     "UN News · الشرق الأوسط (AR)": {
-      "ok": true,
-      "items": 30,
-      "relevant": 7
+      "ok": false,
+      "error": "not well-formed (invalid token): line 1, column 0"
     },
     "GDELT · article index": {
       "ok": null,

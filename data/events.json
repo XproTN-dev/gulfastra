@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "generated_at": "2026-10-20T16:53:50.241113Z",
+  "generated_at": "2026-10-20T16:54:18.863117Z",
   "model": "deterministic-source-correlation-v2-coverage-lifecycle",
   "disclaimer": "Clusters are related PUBLIC REPORTS, not confirmed incidents. Source counts are not proof. Country names are mentions, not incident locations.",
   "events": [
@@ -43015,6 +43015,62 @@
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
+      "id": "GF-35D952AE2BADD5",
+      "title": "83 مليار دولار للإنفاق العسكري.. لماذا تخترق صواريخ الحوثيين الدفاعات السعودية؟ - جنوبية",
+      "category": "security",
+      "topic": "missile",
+      "countries": [
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-16T14:42:48Z",
+      "last_published": "2026-10-16T14:42:48Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "8bd2e9d4e52e168c2e2e5f19",
+          "title": "83 مليار دولار للإنفاق العسكري.. لماذا تخترق صواريخ الحوثيين الدفاعات السعودية؟ - جنوبية",
+          "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxNNjJFMHpnYlZ1bm9vLVRiX2FodFhHXzJLbGw5TnBGVW9fYjUwcFZMUW5LSkZ2SnVoXzhsdG42cE9BdTZqcVc0OTNNRmRVeDBCcjJ3V1ppQkJDZHhDMnZIeXhyYV9jNU45czVoWC0wU0Z2dktrQXdFU1RRRHVzVkZvN0FXT2duc1BWamhwd1kxUElRc0JTcm1POUhSNld3RFFBdVpnYU44V0VkX1hGYVZCdHU0NTZPQVBkczZscVhVYUNaRzBEMTlrQ05meWhXSUttTHdVcFQ1X0NCdGNKa0lrNGpSMThTTFg1MUhud0F2UTE3OVZuWG82eUd3RVFpNlVPMmN5YXR1ZGpKX2xMWGkxREx4bzB3QTlpdU1rbTFJV1dPNDRfM1lhUmF1LXQybFo0ejJHWE9ERFBHX0NFeXRTbmxmSURCNWxmcTZz?oc=5",
+          "source": "جنوبية",
+          "publisher_key": "جنوبية",
+          "provider": "عربي · السعودية",
+          "published_at": "2026-10-16T14:42:48Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T16:54:14.138769Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Yemen"
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-16T14:42:48Z",
+      "coverage_last_published_at": "2026-10-16T14:42:48Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "ff32d404e959ab334381",
+      "revision": 1,
+      "updated_at": "2026-10-20T16:54:18.863117Z"
+    },
+    {
       "id": "GF-FB1887EB5F1C37",
       "title": "السعودية تعلن اعتراض وتدمير صواريخ ومسيرات استهدفت عدة مناطق - الإمارات اليوم",
       "category": "security",
@@ -65039,7 +65095,7 @@
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
-      "id": "GF-B571C0E2C0C8F9",
+      "id": "GF-9470037E784F69",
       "title": "Ronaldo waves Saudi flag scarf after missile alert delays Asian Champions League match in Riyadh - Euronews",
       "category": "security",
       "topic": "missile",
@@ -65049,7 +65105,7 @@
       "location_quality": "country-mention",
       "confidence": null,
       "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
+      "corroboration": "multi-publisher-unverified",
       "cross_language_candidate": false,
       "wording_review": {
         "potentially_divergent_wording": false,
@@ -65059,8 +65115,8 @@
       "languages": [
         "en"
       ],
-      "publisher_count": 1,
-      "report_count": 1,
+      "publisher_count": 2,
+      "report_count": 2,
       "first_published": "2026-10-13T17:26:19Z",
       "last_published": "2026-10-13T17:26:19Z",
       "event_occurred_at": null,
@@ -65079,20 +65135,34 @@
           "collected_at": null,
           "language": "en",
           "country": "Saudi"
+        },
+        {
+          "id": "505c313332ace2cf4f2db504",
+          "title": "Ronaldo waves Saudi flag scarf after missile alert delays Asian Champions League match in Riyadh - Euronews.com",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVU9LLXAyVXpRbVVtZHRuZFBIcmMzLWZwNGlGamJNMDU4ek9sdnh0UjVaRmpKV2VIMnJsY29MZDdaOThWT3BuVjRtcFZkbGNqSjlaZGJFek5yRzZ3a19tNzhuOG91RHF6SHJBOEhDX3ZLZy1VVERZWWVuS0ZFYjIyaElVcmRILU1fWnpWaGRPSmZadDBSd1FlTWdBeTZ1Rm5UaVI0X3lsdnBlRGNUbndwd1h1c1dUYkdwMUl4SmtxbS1ZSGZV?oc=5",
+          "source": "Euronews.com",
+          "publisher_key": "euronews com",
+          "provider": "Google News · missiles/drones",
+          "published_at": "2026-10-13T17:26:19Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T16:54:14.138769Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Saudi"
         }
       ],
-      "coverage_stage": "publication-time-unknown",
-      "coverage_last_published_at": null,
-      "coverage_first_published_at": null,
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-13T17:26:19Z",
+      "coverage_last_published_at": "2026-10-13T17:26:19Z",
       "current_reporting": false,
       "recent_publisher_count": 0,
       "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
-      "lifecycle_note": "Original publication time unavailable. No event status inferred.",
-      "digest": "ce582e8866b30c2b36f2",
-      "revision": 3,
-      "updated_at": "2026-10-20T16:52:31.264495Z"
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "0b0cdca4cb696e977593",
+      "revision": 1,
+      "updated_at": "2026-10-20T16:54:18.863117Z"
     },
     {
       "id": "GF-CB49508349041A",
@@ -69734,7 +69804,7 @@
     },
     "Saudi": {
       "events": 471,
-      "reports": 496,
+      "reports": 497,
       "security_coverage": 364,
       "transport_coverage": 95,
       "sources": 246
@@ -69782,9 +69852,9 @@
       "sources": 5
     },
     "Yemen": {
-      "events": 220,
-      "reports": 228,
-      "security_coverage": 208,
+      "events": 221,
+      "reports": 229,
+      "security_coverage": 209,
       "transport_coverage": 11,
       "sources": 118
     },
@@ -69808,20 +69878,11 @@
     "2026-10-13": 111,
     "2026-10-14": 139,
     "2026-10-15": 129,
-    "2026-10-16": 125,
+    "2026-10-16": 126,
     "2026-10-17": 180,
     "2026-10-18": 143,
     "2026-10-19": 190,
     "2026-10-20": 196
   },
-  "revisions": [
-    {
-      "id": "GF-7B0E21F2D20604",
-      "revision": 5,
-      "at": "2026-10-20T16:53:50.241113Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    }
-  ]
+  "revisions": []
 }

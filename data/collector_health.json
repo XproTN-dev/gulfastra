@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "checked_at": "2026-10-20T16:54:20.303762Z",
+  "last_attempt_at": "2026-10-20T16:54:14.138769Z",
+  "last_success_at": "2026-10-20T16:54:14.138769Z",
+  "last_success_age_minutes": 0.1,
+  "source_total": 25,
+  "source_success": 23,
+  "source_failed": 1,
+  "source_backoff": 1,
+  "quality_gate": "passed",
+  "alerts_available": true,
+  "collection_state": "healthy",
+  "operational_warning": "No live incident detection; best-effort scheduled public collection."
+}
