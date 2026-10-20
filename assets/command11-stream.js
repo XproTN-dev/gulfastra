@@ -34,6 +34,35 @@ function cardAlert(a){
  return '<button class="intel-card" data-open="alert" data-id="'+val(a.id)+'"><div class="tags">'+tag("CRITICAL PUBLIC REPORTING","critical")+tag("UNVERIFIED","warn")+'</div>'+
  '<h3 dir="auto">'+val(a.title)+'</h3><div class="smallmeta"><span>'+fmt(a.outlet_count)+' OUTLETS</span><span>'+C.age(a.published_at)+'</span></div></button>';
 }
+function cardAdvisory(a){
+ return '<button class="intel-card official-advisory" data-open="advisory" data-id="'+val(a.id)+'">'+
+ '<div class="tags">'+tag(String(a.source||"PUBLIC SOURCE").toUpperCase(),"good")+
+ tag(String(a.level||a.category||"PUBLIC ADVISORY").toUpperCase(),"neutral")+'</div>'+
+ '<h3 dir="auto">'+val(a.title)+'</h3>'+
+ '<div class="smallmeta"><span>PROVIDER PUBLICATION · '+C.age(a.published_at)+
+ '</span><span>REVIEW ORIGINAL NOTICE</span></div></button>';
+}
+function cardSocial(p){
+ return '<button class="intel-card social-post" data-open="social" data-id="'+val(p.id)+'">'+
+ '<div class="tags">'+tag("X · SOCIAL POST","neutral")+tag("UNVERIFIED","warn")+'</div>'+
+ '<h3 dir="auto">'+val(p.text)+'</h3>'+
+ '<div class="smallmeta"><span>'+val(p.author)+'</span><span>'+C.age(p.published_at)+'</span></div></button>';
+}
+function supplementalStatus(ctx){
+ const statuses=ctx.supplementalSources||{};
+ const social=ctx.socialSource||{};
+ const rows=Object.entries(statuses).map(([name,status])=>
+  '<div class="source-line"><span>'+val(name)+'</span><span class="source-flag '+
+  (status.ok===true?"":status.ok===false?"failed":"backoff")+'">'+
+  val(status.state||"unknown").toUpperCase()+'</span></div>').join("");
+ const sky=ctx.aviationSnapshot;
+ return '<h3 class="eyebrow">ADDITIONAL PUBLIC DATA / DIFFERENT PROVENANCE</h3>'+rows+
+ '<div class="source-line"><span>X API · SOCIAL POSTS</span><span class="source-flag '+
+ (social.ok===true?"":social.ok===false?"failed":"backoff")+'">'+val(social.state||"unconfigured").toUpperCase()+'</span></div>'+
+ (sky?'<div class="notice-box">OpenSky CIVIL TRANSPONDER SNAPSHOT: '+
+ val(sky.civil_transponder_observations)+' recorded samples at '+val(sky.sample_at)+
+ '. NOT live aircraft tracking or airspace clearance.</div>':"");
+}
 function showSourceHealth(ctx,data){
  const p=data.providers||{},sources=Object.entries(p);
  return (ctx.quality!=="passed"?'<div class="notice-box">Alert-quality gate is '+val(ctx.quality)+'. An empty alert list is not an all-clear.</div>':"")+
@@ -43,7 +72,7 @@ function showSourceHealth(ctx,data){
  val(ctx.collected||"unknown")+'. Backoff and rate-limits are not equivalent to confirmed source failures.</p></div>'+
  sources.map(([name,s])=>'<div class="source-line"><span dir="auto">'+val(name)+'</span><span class="source-flag '+
  (s.ok===true?"":s.ok===false?"failed":"backoff")+'">'+(s.ok===true?"OK":s.ok===false?"ERROR":"BACKOFF")+'</span></div>').join("")+
- '<h3 class="eyebrow">OFFICIAL REFERENCE PORTALS · NOT LIVE INGESTION</h3>'+
+ supplementalStatus(ctx)+'<h3 class="eyebrow">OFFICIAL REFERENCE PORTALS · NOT LIVE INGESTION</h3>'+
  [["UKMTO · MARITIME SECURITY","https://www.ukmto.org/"],
   ["NASA FIRMS · THERMAL DATA","https://firms.modaps.eosdis.nasa.gov/"],
   ["USGS · SEISMIC EVENTS","https://earthquake.usgs.gov/"],
@@ -84,9 +113,20 @@ function render(ctx,d){
  }else if(tab==="news"){
   markup=d.reports.slice(0,120).map(cardReport).join("");
   description="ORIGINAL PUBLISHED HEADLINES · "+d.reports.length+" IN FILTER";
+ }else if(tab==="advisories"){
+  markup='<div class="notice-box">Public advisories and humanitarian notices, not independent proof of damage or ongoing danger. GDACS locations may represent affected regions rather than incident coordinates.</div>'+
+   d.advisories.slice(0,80).map(cardAdvisory).join("");
+  description="OFFICIAL/INSTITUTIONAL ADVISORIES · "+d.advisories.length+" MATCHING";
+ }else if(tab==="social"){
+  const status=ctx.socialSource?.state||"not-configured";
+  markup='<div class="notice-box">X PUBLIC POSTS · UNVERIFIED SOCIAL CLAIMS. The official API may cost money and is disabled unless separately authorized. Social posts do not trigger critical alerts.</div>'+
+   '<div class="brief-box">X API STATUS: '+val(status).toUpperCase()+
+   '<p>One capped search per six hours at most when explicitly enabled; never a continuous stream.</p></div>'+
+   d.social.slice(0,70).map(cardSocial).join("");
+  description="X POSTS · "+d.social.length+" MATCHING · "+status.toUpperCase();
  }else if(tab==="sources"){markup=showSourceHealth(ctx,d);description="INDEPENDENT SOURCE FETCH HEALTH / NOT SOURCE CREDIBILITY"}
  else if(tab==="brief"){markup=brief(ctx,d);description="RULE-BASED SITREP · LINKED SOURCES · NO GENERATIVE AI"}
- $("streamHeading").textContent=({priority:"INTELLIGENCE STREAM",events:"EVENT EVIDENCE",news:"PUBLIC NEWS WIRE",sources:"SOURCE HEALTH",brief:"SITUATION REPORT"})[tab]||"INTELLIGENCE";
+ $("streamHeading").textContent=({priority:"INTELLIGENCE STREAM",events:"EVENT EVIDENCE",news:"PUBLIC NEWS WIRE",advisories:"PUBLIC ADVISORIES",social:"X PUBLIC POSTS",sources:"SOURCE HEALTH",brief:"SITUATION REPORT"})[tab]||"INTELLIGENCE";
  $("streamSummary").textContent=description;
  root.innerHTML=markup||'<div class="empty-state">No matching public records for this period. Select ALL to examine the archive. Lack of reporting does not imply safety.</div>';
 }
@@ -122,6 +162,18 @@ function showDossier(type,id){
    '<div class="dossier-grid">'+fact("LEVEL",item.level)+fact("PUBLISHER NAMES",item.outlet_count)+fact("PUBLICATION",C.date(item.published_at))+
    fact("COUNTRY MENTIONS",C.asArray(item.countries).join(", "))+'</div>'+
    '<h3>LINKED ORIGINAL REPORTS</h3>'+C.asArray(item.source_urls).map(x=>link(x.url,x.name)).join("");
+ }else if(type==="advisory"){
+  item=d.allAdvisories.find(x=>x.id===id);if(!item)return;
+  body='<div class="notice-box">Public institutional notice. Regional disaster coordinates may represent the event area, not an exact incident point. Current status and damage are not inferred.</div>'+
+   '<div class="dossier-grid">'+fact("SOURCE",item.source)+fact("PUBLISHED",C.date(item.published_at))+
+   fact("ADVISORY LEVEL",item.level||"Unspecified")+fact("LOCATION PRECISION",item.location_quality||"Not specified")+
+   fact("EVIDENCE",item.verification||"Provider publication")+'</div>'+link(item.url,"OPEN ORIGINAL PUBLIC NOTICE");
+ }else if(type==="social"){
+  item=d.allSocial.find(x=>x.id===id);if(!item)return;
+  body='<div class="notice-box">X post: an unverified public claim, NOT a confirmed emergency, official account verification, or an independently corroborated event.</div>'+
+   '<div class="dossier-grid">'+fact("AUTHOR",item.author)+fact("POSTED",C.date(item.published_at))+
+   fact("PROVENANCE","Official X API, if enabled")+fact("VERIFICATION","Unverified")+'</div>'+
+   '<p dir="auto">'+val(item.text)+'</p>'+link(item.url,"OPEN ORIGINAL X POST");
  }else if(type==="facility"){
   item=C.FACILITIES.find(x=>"facility:"+x.id===id);if(!item)return;
   body='<div class="notice-box">Static infrastructure reference. NOT a live operating, flight, ship or security feed.</div>'+
