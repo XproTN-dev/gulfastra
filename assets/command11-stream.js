@@ -42,7 +42,16 @@ function showSourceHealth(ctx,data){
  '<div class="brief-box"><strong>'+sources.filter(([,v])=>v.ok===true).length+'/'+sources.length+' SOURCE CHECKS SUCCEEDED</strong><p>Last successful collection: '+
  val(ctx.collected||"unknown")+'. Backoff and rate-limits are not equivalent to confirmed source failures.</p></div>'+
  sources.map(([name,s])=>'<div class="source-line"><span dir="auto">'+val(name)+'</span><span class="source-flag '+
- (s.ok===true?"":s.ok===false?"failed":"backoff")+'">'+(s.ok===true?"OK":s.ok===false?"ERROR":"BACKOFF")+'</span></div>').join("");
+ (s.ok===true?"":s.ok===false?"failed":"backoff")+'">'+(s.ok===true?"OK":s.ok===false?"ERROR":"BACKOFF")+'</span></div>').join("")+
+ '<h3 class="eyebrow">OFFICIAL REFERENCE PORTALS · NOT LIVE INGESTION</h3>'+
+ [["UKMTO · MARITIME SECURITY","https://www.ukmto.org/"],
+  ["NASA FIRMS · THERMAL DATA","https://firms.modaps.eosdis.nasa.gov/"],
+  ["USGS · SEISMIC EVENTS","https://earthquake.usgs.gov/"],
+  ["NASA EONET · NATURAL EVENTS","https://eonet.gsfc.nasa.gov/"],
+  ["GDACS · DISASTER ALERTS","https://www.gdacs.org/"],
+  ["OpenSky · CIVIL AVIATION DATA","https://opensky-network.org/"]]
+ .map(([name,url])=>link(url,name)).join("")+
+ '<div class="notice-box">External reference links are not automatically ingested streams. Their operational coverage, permissions and latency vary.</div>';
 }
 function brief(ctx,d){
  const counts={security:0,transport:0,diplomacy:0};
