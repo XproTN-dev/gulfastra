@@ -24,11 +24,17 @@ jobs:
           python-version: '3.12'
       - name: Collect public-source headlines
         run: python scripts/collect.py
+      - name: Fuse reporting into traceable coverage groups
+        run: python scripts/fusion.py
+      - name: Collect natural hazard and outage observations
+        env:
+          CF_RADAR_TOKEN: ${{ secrets.CF_RADAR_TOKEN }}
+        run: python scripts/observations.py
       - name: Commit updated archive
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/reports.json
+          git add data/reports.json data/events.json data/revisions.json data/observations.json data/sitrep.md data/sitrep-ar.md
           if ! git diff --cached --quiet; then
             git commit -m "data: refresh public OSINT headlines"
             for attempt in 1 2 3; do
