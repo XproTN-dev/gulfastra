@@ -71,7 +71,7 @@ def category_for_arabic(title):
 
 def arabic_tag(title, category):
     s=normalize_title(title)
-    if hits(s,("اعتراض", "اسقاط", "دفاع جوي")):
+    if hits(s,("اعتراض", "تعترض", "اعترضت", "تم اعتراض", "اسقاط", "اسقطت", "اسقط", "دفاع جوي", "الدفاعات الجويه")):
         return "خبر اعتراض / دفاع جوي"
     if hits(s,("صاروخ", "صواريخ")):
         return "تقرير عن صواريخ"
