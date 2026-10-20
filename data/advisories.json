@@ -1,14 +1,13 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-20T19:14:44.899103Z",
+  "generated_at": "2026-10-20T21:35:06.096820Z",
   "items": [],
   "sources": {
     "GDACS": {
-      "last_attempt_at": "2026-10-20T19:05:06.038530Z",
+      "last_attempt_at": "2026-10-20T21:35:06.096820Z",
       "ok": true,
-      "state": "rate-limit-backoff",
-      "new_records": 0,
-      "checked_at": "2026-10-20T19:14:44.899103Z"
+      "state": "healthy",
+      "new_records": 0
     },
     "ReliefWeb": {
       "ok": null,
