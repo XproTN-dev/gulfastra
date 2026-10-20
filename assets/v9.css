@@ -348,3 +348,15 @@ body[data-v9-palette="ember"] .map-stage .maplibregl-canvas{filter:brightness(.6
  .v9-mobile-tools button{font-size:7px!important;padding:8px 1px!important}
  .v9-mobile-tools #v9MobileToolsButton[aria-expanded="true"]{background:var(--cmd-line)}
 }
+
+/* Intelligence alerts: emphasize public reporting, never imply official incident confirmation. */
+#v9CriticalBanner:not([hidden]){display:inline-flex!important;align-items:center;gap:4px;
+  color:#ffdda0!important;background:#4b2613!important;border:1px solid #b87936!important;
+  font-weight:800!important;padding:6px 9px!important;white-space:nowrap;cursor:pointer}
+#v9CriticalBanner:focus-visible{outline:2px solid #ffd082;outline-offset:2px}
+.v9-critical-level{color:#ffe5b0!important;border-color:#9b6a3d!important;background:#392115!important}
+.v9-critical-report{border-left:3px solid #c68a4e;padding-left:10px}
+@media(max-width:640px){
+ #v9CriticalBanner:not([hidden]){font-size:7px!important;padding:5px!important}
+ .v9-top-status{max-width:calc(100vw - 12px);flex-wrap:wrap;justify-content:flex-end}
+}
