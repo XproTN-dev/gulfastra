@@ -45,7 +45,7 @@ function healthy(){
  return S.channel==="live"&&Number.isFinite(t)&&Date.now()-t<30*60000&&Date.now()>=t-600000;
 }
 function elapsed(){return S.manifest?.collected_at?C.age(S.manifest.collected_at):"UNAVAILABLE"}
-function viewContext(){return {tab:S.tab,channel:S.channel,quality:S.manifest?.quality_gate||"unknown",
+function viewContext(){return {tab:S.tab,workspace:S.workspace,channel:S.channel,quality:S.manifest?.quality_gate||"unknown",
  delayed:!healthy(),collected:S.manifest?.collected_at||null,hours:S.hours,filter:filter()}}
 function paintClock(){
  $("utc").textContent=new Date().toLocaleTimeString("en-GB",{hour:"2-digit",minute:"2-digit",timeZone:"UTC"})+" UTC";
