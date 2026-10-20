@@ -30,6 +30,12 @@ FEEDS = {
     "Google News · shipping": '("Hormuz" OR "Persian Gulf" OR "Red Sea") (shipping OR tanker OR vessel OR disruption) when:7d',
     "Google News · diplomacy": '("US" OR "America") ("Iran" OR "Saudi Arabia") (sanctions OR diplomacy OR ceasefire OR negotiations) when:7d',
     "Google News · regional": '("Iran" OR "Gulf states" OR "Saudi Arabia") (security warning OR military statement OR regional tension) when:7d',
+    # Source-restricted discovery: these are Google-indexed links, not direct
+    # licensed Reuters/AP wires or official UKMTO/State Department feeds.
+    "Reuters · indexed Gulf reporting": 'site:reuters.com (Qatar OR Saudi Arabia OR Iran OR Gulf OR Hormuz) (security OR shipping OR aviation OR ceasefire) when:7d',
+    "AP · indexed Gulf reporting": 'site:apnews.com (Qatar OR Saudi Arabia OR Iran OR Gulf OR Hormuz) (security OR shipping OR aviation OR ceasefire) when:7d',
+    "UKMTO · indexed official advisories": 'site:ukmto.org (incident OR warning OR advisory OR vessel OR maritime) when:7d',
+    "US State Dept · indexed advisories": 'site:travel.state.gov (Qatar OR Iran OR Saudi Arabia OR Bahrain OR Kuwait OR UAE OR Iraq OR Oman OR Yemen OR Israel) (advisory OR alert OR warning OR security) when:7d',
 }
 ARABIC_FEEDS = {
     "عربي · إيران والخليج": '("إيران" OR "الخليج") (صواريخ OR مسيرات OR هجوم OR دفاع جوي OR اعتراض) when:7d',
@@ -52,6 +58,9 @@ DIRECT_RSS = {
     "The Guardian · Middle East": "https://www.theguardian.com/world/middleeast/rss",
     "UN News · Middle East (EN)": "https://news.un.org/feed/subscribe/en/news/region/middle-east/feed/rss.xml",
     "UN News · الشرق الأوسط (AR)": "https://news.un.org/feed/subscribe/ar/news/region/middle-east/feed/rss.xml",
+    # Publisher-hosted XML verified from qna.org.qa/en/RSS-Feeds.
+    "Qatar News Agency · Qatar RSS": "https://qna.org.qa/en/Pages/RSS-Feeds/Qatar",
+    "Qatar News Agency · General RSS": "https://qna.org.qa/en/Pages/RSS-Feeds/General",
 }
 COUNTRIES = {
     "Iran": ("iran","tehran","isfahan","persian"),
