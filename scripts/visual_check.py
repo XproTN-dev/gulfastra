@@ -62,7 +62,7 @@ with sync_playwright() as pw:
                   const map=window.__gulfastraMap,coords=window.__gulfastraGeography[country].center;
                   const expected=map.project(coords),a=el.getBoundingClientRect(),b=map.getContainer().getBoundingClientRect();
                   return {error:Math.hypot(a.left+a.width/2-b.left-expected.x,a.top+a.height/2-b.top-expected.y),
-                    hovered:el.matches(':hover'),tooltip:!!document.querySelector('.v9-tooltip')};
+                    hovered:getComputedStyle(el,'::before').transform!=='none',tooltip:!!document.querySelector('.v9-tooltip')};
                 }""",hover["country"])
                 assert moved["hovered"] and moved["error"]<6 and moved["tooltip"],f"Country circle jumps/flickers on hover: {moved}"
             page.screenshot(path=str(OUT/"desktop-marker-hover.png"),full_page=True)
