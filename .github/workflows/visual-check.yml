@@ -6,6 +6,7 @@ on:
       - 'scripts/**'
       - 'assets/**'
       - 'index.html'
+      - 'command/**'
       - '.github/workflows/visual-check.yml'
   workflow_dispatch:
 permissions:
@@ -31,8 +32,8 @@ jobs:
         run: python scripts/test_arabic.py
       - name: Validate conservative source fusion
         run: python scripts/test_fusion.py
-      - name: Check desktop and mobile visual behavior
-        run: python scripts/visual_check.py
+      - name: Check v11 desktop and mobile visual behavior
+        run: python scripts/visual_check_v11.py
       - name: Save actual browser screenshots
         if: always()
         uses: actions/upload-artifact@v4
