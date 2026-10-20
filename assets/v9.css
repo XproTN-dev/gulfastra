@@ -321,3 +321,21 @@ body[data-v9-palette="ember"] .map-stage .maplibregl-canvas{filter:brightness(.6
  .v9-verify-links a{font-size:8px}
  .v9-timeline-row{grid-template-columns:75px minmax(20px,1fr) 24px}
 }
+
+/* Accessible mobile overflow controls — security, source health, replay, and lab. */
+.v9-mobile-menu[hidden]{display:none!important}
+.v9-mobile-menu{display:none;position:absolute;z-index:180;bottom:65px;right:7px;
+ min-width:210px;max-width:calc(100vw - 14px);padding:9px;
+ border:1px solid var(--cmd-line);background:var(--cmd-panel-solid);
+ box-shadow:0 12px 40px #000c;flex-direction:column;gap:4px}
+.v9-mobile-menu strong{color:var(--cmd-accent);padding:8px;
+ font:800 9px "IBM Plex Mono",monospace;letter-spacing:.5px}
+.v9-mobile-menu button{background:transparent;color:var(--cmd-ink);
+ border:1px solid transparent;padding:10px 8px;text-align:left;
+ font:700 9px "IBM Plex Mono",monospace;letter-spacing:.2px}
+.v9-mobile-menu button:hover,.v9-mobile-menu button:focus-visible{
+ border-color:var(--cmd-line);color:var(--cmd-accent)}
+@media(max-width:640px){.v9-mobile-menu:not([hidden]){display:flex}
+ .v9-mobile-tools button{font-size:7px!important;padding:8px 1px!important}
+ .v9-mobile-tools #v9MobileToolsButton[aria-expanded="true"]{background:var(--cmd-line)}
+}
