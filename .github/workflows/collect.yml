@@ -33,11 +33,15 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Validate news classification and alert guardrails
+      - name: Validate classification, lifecycle and critical alert guardrails
+        id: quality
+        continue-on-error: true
         run: |
+          set -e
           python source/scripts/test_arabic.py
           python source/scripts/test_fusion.py
           python source/scripts/test_news_quality.py
+          python source/scripts/test_lifecycle.py
       - name: Collect published Gulf news
         env:
           GULFASTRA_DATA_DIR: ${{ github.workspace }}/archive/data
@@ -46,15 +50,27 @@ jobs:
         env:
           GULFASTRA_DATA_DIR: ${{ github.workspace }}/archive/data
         run: python source/scripts/fusion.py
-      - name: Assess critical public reporting without historical backfill alerts
+      - name: Assess critical reporting (fail CLOSED on quality-test failures)
         env:
           GULFASTRA_DATA_DIR: ${{ github.workspace }}/archive/data
-        run: python source/scripts/alerts.py
+          QUALITY_GATE: ${{ steps.quality.outcome }}
+        run: |
+          if [ "$QUALITY_GATE" = success ]; then
+            python source/scripts/alerts.py
+          else
+            echo "::warning::News quality regression failed; suppressing critical alerts, continuing public feed."
+            python source/scripts/suppress_alerts.py
+          fi
       - name: Collect independent natural hazards
         env:
           GULFASTRA_DATA_DIR: ${{ github.workspace }}/archive/data
           CF_RADAR_TOKEN: ${{ secrets.CF_RADAR_TOKEN }}
         run: python source/scripts/observations.py
+      - name: Record independent collection and alert health
+        env:
+          GULFASTRA_DATA_DIR: ${{ github.workspace }}/archive/data
+          QUALITY_GATE: ${{ steps.quality.outcome == 'success' && 'passed' || 'failed' }}
+        run: python source/scripts/collector_health.py
       - name: Write tiny source-manifest for browser synchronization
         env:
           GULFASTRA_DATA_DIR: ${{ github.workspace }}/archive/data
@@ -64,7 +80,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/reports.json data/events.json data/revisions.json data/alerts.json data/alert_state.json data/observations.json data/sitrep.md data/sitrep-ar.md data/live-manifest.json
+          git add data/reports.json data/events.json data/revisions.json data/alerts.json data/alert_state.json data/collector_health.json data/observations.json data/sitrep.md data/sitrep-ar.md data/live-manifest.json
           if git diff --cached --quiet; then
             echo "No updated public data"
             exit 0
