@@ -1,7 +1,7 @@
 {
   "version": 6,
-  "last_run": "2026-10-20T16:52:26.034595Z",
-  "last_successful_run": "2026-10-20T16:52:26.034595Z",
+  "last_run": "2026-10-20T16:52:48.932870Z",
+  "last_successful_run": "2026-10-20T16:52:48.932870Z",
   "successful_sources": 23,
   "reports": [
     {
@@ -226,6 +226,30 @@
       "freshness": "new-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "c8970264452819a30247c4de",
+      "title": "السعودية تعلن اعتراض وتدمير طائرة مسيرة في منطقة الرياض - صوت الإمارات",
+      "url": "https://news.google.com/rss/articles/CBMi5wJBVV95cUxNNmoxbUUyQkhac1JYa0JGd0lLUk92d1RnejBWSXk0RmdQeTZ0bFVfeEcyakJNRnRPOW5iRy10bDFrdFpvWG9ZZ21NUl9PRXNQVlhHMW9wSGxub0xlTlNJbHlvY1RPRGdFU0NvYk5IUVREZjdwUndHQmFuYkE0TUptVUFZTS1IWnNRako3Ujg2dXgyZ2I1QTRjWG1iNGRIMDQzUDhseHJrdm5xT0RmOGZmak5TZTFQUTZ5OS10bHlTakFQQVVDVm43aGN0Y1FXeEk5bEJtUUVEaC1RLThpbUlwb3hQaTdSOHh3VTZOLTF3TUc5TjhjaFZaU3JYdFYwcGRKM19Rd21seUV4R3luZXY4ZHo0aWxzNnN6VV9NYXY0aUdGUlQyMWJYRzB3VGp6YmZDdjdGQkpqR0pvVGRpQWlBNXI0aGFKVlQwTy1LcjhubjVYUzM0QnAzS2VsQnFHdjJFajZvUnVQMA?oc=5",
+      "source": "صوت الإمارات",
+      "published_at": "2026-10-20T15:56:14Z",
+      "country": "",
+      "countries": [
+        "Saudi",
+        "UAE"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "خبر اعتراض / دفاع جوي",
+      "provider": "عربي · الإمارات والبحرين",
+      "first_seen_at": "2026-10-20T16:52:48.932870Z",
+      "date_quality": "publisher-time",
+      "freshness": "new-reporting",
+      "context": "reporting",
+      "severity": "elevated-reporting",
       "critical_candidate": false,
       "alert_eligible": false,
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
@@ -1727,6 +1751,29 @@
       "tag": "SECURITY REPORT",
       "provider": "Google News · security",
       "first_seen_at": "2026-10-20T16:50:50.754226Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "52bf9a979f7e9953cb5f3a99",
+      "title": "The UK expands military support for Saudi Arabia against Houthis to include 'defensive' air patrols - Daily Sitka Sentinel",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPMTBEZFdNb0EzNUpySXMwRlo1RVRRX29YeVhMQ05yOFNpWW1vX1lIMmhsMmdXQWw3V2pLM1pYZXFSV0NTc1RlcjhCOWlEcy1rX0FHLXp2LXQwc1lxel9hcDNIaE1WZmZfMDFxQnVNWWhGaWxJQkRjSHZkYlYxLUg2Y090WjhKRzBCM3pfRmR0MGUzLUpsTlZid1ZTc2pyWERrRVo1bDBUcDktYk0wRVFmbjVKWU9McHMxOGtZYjk2RUhSS0NXeHZYMHFrR3hpNDc5MXE5M2tn?oc=5",
+      "source": "Daily Sitka Sentinel",
+      "published_at": "2026-10-20T11:40:19Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · security",
+      "first_seen_at": "2026-10-20T16:52:48.932870Z",
       "date_quality": "publisher-time",
       "freshness": "recent-reporting",
       "context": "reporting",
@@ -5116,6 +5163,30 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "c1138a2262b02b848c7569fe",
+      "title": "البحرين تعلن اعتراض هجمات إيرانية جديدة.. والكويت تتصدى لصاروخين باليستيين وسط تصعيد أميركي-إيراني - الساحل الغربي",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1hcEthLUFQRmFqekJvQkpzMDZNR3Q2MkJKdVVTbkVxRHZiVEdraW5Hb01TMWpDUm5wNDNFdFhqR0JxNlgzNEZ1eGMwc0dXeFE?oc=5",
+      "source": "الساحل الغربي",
+      "published_at": "2026-10-19T21:58:54Z",
+      "country": "",
+      "countries": [
+        "Iran",
+        "Bahrain"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "خبر اعتراض / دفاع جوي",
+      "provider": "عربي · الإمارات والبحرين",
+      "first_seen_at": "2026-10-20T12:03:42.847208Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "elevated-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "9b4f1b7d7398c8971bac8443",
       "title": "Day 226 | At least two killed in attack on Riyadh airport - Roya News",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPXzJJYjVmdENoMDh0WEtyczF2T1BhRVZRLUFXTXFmb0VRWUEyeUxic2F4QXVYRHZxOVpuZHU0U01KeFZ6T0ZRV3ZJUU00czN6cFFKS0hMWFFxWTZxaUlOX2RqNzdsUDIxQV9KU04ydU4waHV1VUx1cHR3TWZsYmZHSTVvT0xIQUVmSERNSW9SazVXem1ZVW1uZQ?oc=5",
@@ -6251,7 +6322,7 @@
       "language": "ar",
       "category": "security",
       "tag": "خبر اعتراض / دفاع جوي",
-      "provider": "عربي · الكويت والعراق",
+      "provider": "عربي · الإمارات والبحرين",
       "first_seen_at": "2026-10-20T12:01:49.547007Z",
       "date_quality": "publisher-time",
       "freshness": "older-reporting",
@@ -7224,6 +7295,30 @@
       "provider": "Google News · security",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "91d4581a1376bf96e2612e5b",
+      "title": "تصعيد إيراني يطول الكويت والبحرين والأردن.. وواشنطن ترد باستهداف ناقلات النفط - الساحل الغربي",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBEbVdfVUxjVGlrN0lvNi1ZcGh4ZER3ZWt2OHViaGZ4WGgwUEZjdDZNTTlvNTFoWk94YVE5RVZLaUxUWmd1LWdNbFR6dDdWZk0?oc=5",
+      "source": "الساحل الغربي",
+      "published_at": "2026-10-19T13:10:02Z",
+      "country": "",
+      "countries": [
+        "Iran",
+        "Kuwait"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "ملاحه بحريه",
+      "provider": "عربي · الإمارات والبحرين",
+      "first_seen_at": "2026-10-20T16:50:50.754226Z",
+      "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -17005,30 +17100,6 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
-      "id": "15169afae397081e73a149e4",
-      "title": "Why Does Saudi Arabia Struggle to Stop Houthi Attacks? - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQVlGa1lUdkZRb3JRU3NWRS1jeExIdWIzZDVWLU1sZW0tdlp6a25TMHpmUUluOUFUS3A2UGN4NFdRM1A4WlQ2ejctSmhUQm9jR051Wml3cG1qaFZoX0N0SDRFNHN6YWlNUTZIUlpVS0g1UnhVc1BQVkdWUHRXSWJZVlphX2dVV3RtdUZFRWhiSzhsaXFPbjhoZnNiS0VFbEE?oc=5",
-      "source": "The New York Times",
-      "published_at": "2026-10-17T04:07:23Z",
-      "country": "",
-      "countries": [
-        "Saudi",
-        "Yemen"
-      ],
-      "language": "en",
-      "category": "security",
-      "tag": "SECURITY REPORT",
-      "provider": "Google News · security",
-      "first_seen_at": "2026-10-20T12:09:48.504938Z",
-      "date_quality": "publisher-time",
-      "freshness": "older-reporting",
-      "context": "reporting",
-      "severity": "routine-reporting",
-      "critical_candidate": false,
-      "alert_eligible": false,
-      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
-    },
-    {
       "id": "9d71be67cec1e535a1c1ff8e",
       "title": "مستوى قياسي لهجمات السفن في هرمز.. وإيران تؤكد سيطرتها عليه - عربي21",
       "url": "https://news.google.com/rss/articles/CBMi1gNBVV95cUxNRjRjOUFINmFKMHFNcU1JbGpKSVl0YktBb0NFWHJSWmxnejlCOHFtVzE3LXJ4b3NhV2RXZkp3VUJXV3FLNEh1VGZ0SlJrdVZvUHBFRk1yZF9jTHFPcjJ0YTZaTkxjVUFocEhMMzhaaUJDcGVDX0hqZTVLR2QtTzdnM3JCVkszMThDWlVZczc4R1BfLVFqLWt4YllTMkxuRmk4dFVuSndSOGtjd0hRbklfdm4zNFpFYlZwcDFqRFlNbHM4LVNETldFWDY4OWs2M0Ewd0hOaGNiZzhZYmhFRWt3eVVRR3JxamR3RFl6RFRZRjczMW5IMURpU3VhR0Z3U0ZhNk14aHZmVG1QdDdjSDZNMHp0NWZfc2Uwd21YUEFpaVlSRTlKMzR1dU5kS0pFNjg2VmRack5ZWnVuNWJIZ2hud2duUU0yU2k4WkMzb2x1Ql9PdV9KVDEwLXNDVV91WGVZc1VBdFlUbjJ6YmVZaUFrVXY5TjEzQUhldGlKMTlrdEFsU1QtMHhobG9GSXhpTTNzRzFoTXpkbFhBbmRUNXNFRk1ValRweWFfQTZUNzlub2dZeE9oWWJPYTc2V0JvZ1IxTU13NklGRnFwU0VOckIwYmRvWUVkUdIB2gNBVV95cUxNeTQ3UFdQZzhlX1RPcks4bjk5M01OR0VJb2JaWUdIN1NQRUx2X08yd2tKbDY1eWNMd0tmYzlDTDhzcGVkaGhnS3d3dGwtNDVtYWdGSWRzNGx2cVA1XzRETVNacXl2aTJCSFF0TEgxbzVQU1RBeFJKbFE2c214cnE1RnpQMWpLdVh3VXFVaVppWElkMlY1Mmt3WmhKTkd6M1RTeC1qOVVRNXVEQ1dhLVl2MVRkRTZVSTE0OGhSTEhUQmFsY244cVFmRDJNRENUM3hmVm53NGR1Y0pyQm5QeU13eUVrYmFrM2g5VEh4TUJ1OGd1WWhsUUMxX1FYN01BQzBNb0FqcXo0RWxXS05jZWEyejB2SWNhZUVNOU5idDRKM3kwNzRYSGExVE1JdjZaNDktcnZPRnl6eFlCOHZFLV9qQXNVbndfTlpJakc2d1laem9PUm5oVmVTazI2RDRIVE41Ulc1cXlDejhqUDNySlRYQlp6VGtiTG5aNndnRGhGSW9kVVNFNTVmOVVxR1ZNd2wxM1Y3eDVWbjA3WGJBQ18xcXM0T0JmeHBBVG9YalNEZVRVaDFVYmI3OXRBaXI2UlN5ZEFVaGltbllPTy1YSTdrejJ3SVhTcG53dXc?oc=5",
@@ -23253,6 +23324,30 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "15169afae397081e73a149e4",
+      "title": "Why Does Saudi Arabia Struggle to Stop Houthi Attacks? - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQVlGa1lUdkZRb3JRU3NWRS1jeExIdWIzZDVWLU1sZW0tdlp6a25TMHpmUUluOUFUS3A2UGN4NFdRM1A4WlQ2ejctSmhUQm9jR051Wml3cG1qaFZoX0N0SDRFNHN6YWlNUTZIUlpVS0g1UnhVc1BQVkdWUHRXSWJZVlphX2dVV3RtdUZFRWhiSzhsaXFPbjhoZnNiS0VFbEE?oc=5",
+      "source": "The New York Times",
+      "published_at": "2026-10-15T04:01:10Z",
+      "country": "",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · security",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "fc5a00589918fafc34ec",
       "title": "Iranian attacks sink two ships in Strait of Hormuz - The Washington Post",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNVg0eWh4OTZ1NG5IR1M1ZWJJejUxUncyYVVWeHB3QTdHaHYzUnRDOHBpaFpEZldsb0RNZG5SNVZDMWJIVUV6U0JZRVhLSmdtWEZfSnpGSDlXWVU1UlRRSF9wT0JSbktPRTRWT2dkazNCSmJoWDBaUl9wZEI3bjVpLUNZS2ZDWW9IQk9oUndRNU1qYUpHclhnUzhVYVU1RE0?oc=5",
@@ -24021,30 +24116,6 @@
       "provider": "Google News · shipping",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
-      "freshness": "older-reporting",
-      "context": "reporting",
-      "severity": "routine-reporting",
-      "critical_candidate": false,
-      "alert_eligible": false,
-      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
-    },
-    {
-      "id": "91d4581a1376bf96e2612e5b",
-      "title": "تصعيد إيراني يطول الكويت والبحرين والأردن.. وواشنطن ترد باستهداف ناقلات النفط - الساحل الغربي",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBEbVdfVUxjVGlrN0lvNi1ZcGh4ZER3ZWt2OHViaGZ4WGgwUEZjdDZNTTlvNTFoWk94YVE5RVZLaUxUWmd1LWdNbFR6dDdWZk0?oc=5",
-      "source": "الساحل الغربي",
-      "published_at": "2026-10-14T16:38:06Z",
-      "country": "",
-      "countries": [
-        "Iran",
-        "Kuwait"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "ملاحه بحريه",
-      "provider": "عربي · الإمارات والبحرين",
-      "first_seen_at": "2026-10-20T16:50:50.754226Z",
-      "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -26821,6 +26892,29 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "42f613deb73c7ef6b36637fa",
+      "title": "Iran increases threat to Strait of Hormuz shipping, and other Middle East developments - AP News",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZjZtVDJsR2JiRDFvUWtYR0Jvei1EVklHd2VjRGxUbTZ3MlZmME4yVWhkN1ppU2JMN3NTWFk3X1B4eElWSkhiazYwb0tvMi1NMklRemNiN0F3c21ZX0NybmtxY211bEc5MXNsVkNndjN5MjRjSTUtbUpUVEZlc1hiMkx6Y2h3Z1k2Y0VpcG1vWmEtc1lwN2pnbHhqcGYyVmhGb3FTVA?oc=5",
+      "source": "AP News",
+      "published_at": "2026-10-13T23:29:00Z",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "language": "en",
+      "category": "transport",
+      "tag": "MARITIME REPORT",
+      "provider": "Google News · shipping",
+      "first_seen_at": "2026-10-20T16:52:48.932870Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "d7f172d2ffe3751b0ff84f11",
       "title": "News Content Hub - Strait of Hormuz tanker attacks surge: two missing after attack off Oman; US 'disables' vessel - Riviera Maritime Media",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNjhsbWJfbC14WUN1ekMzUFJCT0lMTzd0WjdteWFVaF90UHBaRU92RFpHVV9lTVp0VEllSEd5TFZyVDk2WjVoT3UyT1BGM0U4bGZaTWNfQmpEdGFwaW9MZVRYMDhZeV95LW1zV1AtZ1lHUUhjbkljWEdvWWlfTUpIcDZpYlpfc3dZcHhVc1pyM0FZLWRqQ3VMa1o2REgtSG9XN19mNnIzV1EzTXdVb0d6c0FlXzhpQTBqa3pkTHdwMA?oc=5",
@@ -27457,30 +27551,6 @@
       "provider": "عربي · العربية",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
-      "freshness": "older-reporting",
-      "context": "reporting",
-      "severity": "elevated-reporting",
-      "critical_candidate": false,
-      "alert_eligible": false,
-      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
-    },
-    {
-      "id": "c1138a2262b02b848c7569fe",
-      "title": "البحرين تعلن اعتراض هجمات إيرانية جديدة.. والكويت تتصدى لصاروخين باليستيين وسط تصعيد أميركي-إيراني - الساحل الغربي",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1hcEthLUFQRmFqekJvQkpzMDZNR3Q2MkJKdVVTbkVxRHZiVEdraW5Hb01TMWpDUm5wNDNFdFhqR0JxNlgzNEZ1eGMwc0dXeFE?oc=5",
-      "source": "الساحل الغربي",
-      "published_at": "2026-10-13T19:23:44Z",
-      "country": "",
-      "countries": [
-        "Iran",
-        "Bahrain"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "خبر اعتراض / دفاع جوي",
-      "provider": "عربي · الإمارات والبحرين",
-      "first_seen_at": "2026-10-20T12:03:42.847208Z",
-      "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "elevated-reporting",
@@ -29796,17 +29866,17 @@
     "Google News · missiles/drones": {
       "ok": true,
       "items": 100,
-      "relevant": 75
+      "relevant": 74
     },
     "Google News · security": {
       "ok": true,
       "items": 100,
-      "relevant": 72
+      "relevant": 73
     },
     "Google News · aviation": {
       "ok": true,
-      "items": 90,
-      "relevant": 83
+      "items": 91,
+      "relevant": 84
     },
     "Google News · shipping": {
       "ok": true,
@@ -29825,28 +29895,28 @@
     },
     "عربي · إيران والخليج": {
       "ok": true,
-      "items": 51,
-      "relevant": 40
+      "items": 53,
+      "relevant": 42
     },
     "عربي · قطر": {
       "ok": true,
-      "items": 56,
+      "items": 55,
       "relevant": 26
     },
     "عربي · السعودية": {
       "ok": true,
-      "items": 56,
-      "relevant": 34
+      "items": 100,
+      "relevant": 53
     },
     "عربي · الإمارات والبحرين": {
       "ok": true,
-      "items": 64,
+      "items": 65,
       "relevant": 46
     },
     "عربي · الكويت والعراق": {
       "ok": true,
-      "items": 52,
-      "relevant": 49
+      "items": 26,
+      "relevant": 25
     },
     "عربي · مضيق هرمز": {
       "ok": true,
@@ -29861,12 +29931,12 @@
     "عربي · العربية": {
       "ok": true,
       "items": 100,
-      "relevant": 34
+      "relevant": 36
     },
     "عربي · الشرق": {
       "ok": true,
       "items": 100,
-      "relevant": 39
+      "relevant": 38
     },
     "عربي · وكالات الخليج": {
       "ok": true,
