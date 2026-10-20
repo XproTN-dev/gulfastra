@@ -27,6 +27,6 @@ body{font:12px/1.5 "DM Sans",sans-serif}button,input,select{font:inherit}button{
 
 /* Node interaction accessibility: SVG transparent background must never steal taps. */
 .network-svg>rect{pointer-events:none}
-.network-svg .graph-node{pointer-events:bounding-box}
+.network-svg .graph-node{pointer-events:none}
 .network-svg .graph-node .hit-zone{pointer-events:all;opacity:0;stroke:none}
-.network-svg .graph-node text{pointer-events:visiblePainted}
+.network-svg .graph-node circle:not(.hit-zone),.network-svg .graph-node text{pointer-events:none}
