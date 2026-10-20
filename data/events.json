@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "generated_at": "2026-10-20T17:31:43.513353Z",
+  "generated_at": "2026-10-20T17:35:41.211329Z",
   "model": "deterministic-source-correlation-v2-coverage-lifecycle",
   "disclaimer": "Clusters are related PUBLIC REPORTS, not confirmed incidents. Source counts are not proof. Country names are mentions, not incident locations.",
   "events": [
@@ -950,6 +950,62 @@
       "digest": "9c9fb61838b83c6c44e2",
       "revision": 2,
       "updated_at": "2026-10-20T16:52:31.264495Z"
+    },
+    {
+      "id": "GF-8E416E4A3CAFF2",
+      "title": "UK expands military support for Saudi Arabia against Houthis with ‘defensive’ air patrols - Rocky Mount Telegram",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T15:56:16Z",
+      "last_published": "2026-10-20T15:56:16Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "60feb8fb4c4682bc1daefc2e",
+          "title": "UK expands military support for Saudi Arabia against Houthis with ‘defensive’ air patrols - Rocky Mount Telegram",
+          "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPOU51dlZQblF0RjF0S1ZPRU12NEhZY0RqcTIyd3pCaFZNUmRJUERXTmNzS3lSWFRObHdlSkNtV3laUV9BRWhYQjBoc3ZlaUtVb0tVNkpHSkc2VUJEb0w4ZkJqeFRpdHZOcVN6NXBDeGVma2JoSEFCUm5ydnJwYVplcW02SmRqUmhMRDFnQ1BDd19Nd2FmdS1KZER3T1c0QlVjZklwSjlRUFMxX1VnX1ozejlFbEJsMzZZWENBZERNbFZiUUFIU2dGZ254WllKbkNlcTNpcnhjYU9IS1FQb3FoNjBxVnZIbFRxdzI3OVJhRjFtc2RJWmJOdmFjZ0tPY1ZBdF9YcUpudlUwUG1keERr?oc=5",
+          "source": "Rocky Mount Telegram",
+          "publisher_key": "rocky mount telegram",
+          "provider": "Google News · security",
+          "published_at": "2026-10-20T15:56:16Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T17:35:34.925540Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Saudi"
+        }
+      ],
+      "coverage_stage": "new-coverage",
+      "coverage_first_published_at": "2026-10-20T15:56:16Z",
+      "coverage_last_published_at": "2026-10-20T15:56:16Z",
+      "current_reporting": true,
+      "recent_publisher_count": 1,
+      "recent_article_count": 1,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "758219d74201a476f908",
+      "revision": 1,
+      "updated_at": "2026-10-20T17:35:41.211329Z"
     },
     {
       "id": "GF-2E5705D5DCEC34",
@@ -5544,6 +5600,62 @@
       "digest": "b6f4090bd3ff1788ddb3",
       "revision": 2,
       "updated_at": "2026-10-20T16:52:31.264495Z"
+    },
+    {
+      "id": "GF-C403FBB9730EAD",
+      "title": "بريطانيا ترسل مقاتلات تايفون لحماية الأجواء السعودية من هجمات أنصار الله - شفقنا العربي",
+      "category": "security",
+      "topic": "aviation",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T11:29:29Z",
+      "last_published": "2026-10-20T11:29:29Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "7d12062937084d0cb9f05954",
+          "title": "بريطانيا ترسل مقاتلات تايفون لحماية الأجواء السعودية من هجمات أنصار الله - شفقنا العربي",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBEM2RKQ3BmdEVJZmtNR3ZWVFJHMmdTYnpFcDBDbjZiOVdUc1ZtdkhIYlI5bFdtVDc0eFNCM05LSnAxbzZFU3FtTVZR?oc=5",
+          "source": "شفقنا العربي",
+          "publisher_key": "شفقنا العربي",
+          "provider": "عربي · السعودية",
+          "published_at": "2026-10-20T11:29:29Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T17:35:34.925540Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Saudi"
+        }
+      ],
+      "coverage_stage": "recent-coverage",
+      "coverage_first_published_at": "2026-10-20T11:29:29Z",
+      "coverage_last_published_at": "2026-10-20T11:29:29Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "76eaaaf23ceff371a661",
+      "revision": 1,
+      "updated_at": "2026-10-20T17:35:41.211329Z"
     },
     {
       "id": "GF-5297AB657BACD4",
@@ -12568,63 +12680,6 @@
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
-      "id": "GF-EB4ADBA3FF937F",
-      "title": "البحرين تعلن اعتراض هجمات إيرانية جديدة.. والكويت تتصدى لصاروخين باليستيين وسط تصعيد أميركي-إيراني - الساحل الغربي",
-      "category": "security",
-      "topic": "interception",
-      "countries": [
-        "Bahrain",
-        "Iran"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "ar"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-19T21:58:54Z",
-      "last_published": "2026-10-19T21:58:54Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "c1138a2262b02b848c7569fe",
-          "title": "البحرين تعلن اعتراض هجمات إيرانية جديدة.. والكويت تتصدى لصاروخين باليستيين وسط تصعيد أميركي-إيراني - الساحل الغربي",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1hcEthLUFQRmFqekJvQkpzMDZNR3Q2MkJKdVVTbkVxRHZiVEdraW5Hb01TMWpDUm5wNDNFdFhqR0JxNlgzNEZ1eGMwc0dXeFE?oc=5",
-          "source": "الساحل الغربي",
-          "publisher_key": "الساحل الغربي",
-          "provider": "عربي · الإمارات والبحرين",
-          "published_at": "2026-10-19T21:58:54Z",
-          "date_quality": "publisher-time",
-          "first_seen_at": "2026-10-20T12:03:42.847208Z",
-          "collected_at": null,
-          "language": "ar",
-          "country": ""
-        }
-      ],
-      "coverage_stage": "recent-coverage",
-      "coverage_first_published_at": "2026-10-19T21:58:54Z",
-      "coverage_last_published_at": "2026-10-19T21:58:54Z",
-      "current_reporting": false,
-      "recent_publisher_count": 0,
-      "recent_article_count": 0,
-      "incident_status": "unknown",
-      "event_occurrence_verified": false,
-      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "eea39b3c23b0b4b36fc1",
-      "revision": 11,
-      "updated_at": "2026-10-20T17:31:43.513353Z"
-    },
-    {
       "id": "GF-A5770A06CD6844",
       "title": "Day 226 | At least two killed in attack on Riyadh airport - Roya News",
       "category": "security",
@@ -12791,64 +12846,6 @@
       "digest": "fe37e8bd3ae1f31507b1",
       "revision": 3,
       "updated_at": "2026-10-20T16:52:31.264495Z"
-    },
-    {
-      "id": "GF-16094BD5B10138",
-      "title": "السعودية والإمارات تدينان الهجمات الإيرانية على البحرين والكويت والأردن وتؤكدان دعمهما لأمن الدول الشقيقة - الساحل الغربي",
-      "category": "security",
-      "topic": "regional",
-      "countries": [
-        "Bahrain",
-        "Iran",
-        "Saudi"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "ar"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-19T21:42:52Z",
-      "last_published": "2026-10-19T21:42:52Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "6df264a43f4803d464219aca",
-          "title": "السعودية والإمارات تدينان الهجمات الإيرانية على البحرين والكويت والأردن وتؤكدان دعمهما لأمن الدول الشقيقة - الساحل الغربي",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBITGlFa05BRWUwWDUwVzhPWlZFaC1yQ0RmMUxpMXZLUF9neHYtZ0lmdFRmQk4ta0VWT1hRZ25YVFlRdENrajdBcTQ2OVdFYmM?oc=5",
-          "source": "الساحل الغربي",
-          "publisher_key": "الساحل الغربي",
-          "provider": "عربي · الإمارات والبحرين",
-          "published_at": "2026-10-19T21:42:52Z",
-          "date_quality": "publisher-time",
-          "first_seen_at": "2026-10-20T16:54:36.300300Z",
-          "collected_at": null,
-          "language": "ar",
-          "country": ""
-        }
-      ],
-      "coverage_stage": "recent-coverage",
-      "coverage_first_published_at": "2026-10-19T21:42:52Z",
-      "coverage_last_published_at": "2026-10-19T21:42:52Z",
-      "current_reporting": false,
-      "recent_publisher_count": 0,
-      "recent_article_count": 0,
-      "incident_status": "unknown",
-      "event_occurrence_verified": false,
-      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "efda49ef4733246c655b",
-      "revision": 3,
-      "updated_at": "2026-10-20T17:31:43.513353Z"
     },
     {
       "id": "GF-59345064D5A1D3",
@@ -17551,6 +17548,63 @@
       "digest": "e10cb46c83265934c0ee",
       "revision": 3,
       "updated_at": "2026-10-20T16:52:31.264495Z"
+    },
+    {
+      "id": "GF-F99E79086CCD1D",
+      "title": "تصعيد إيراني يطول الكويت والبحرين والأردن.. وواشنطن ترد باستهداف ناقلات النفط - الساحل الغربي",
+      "category": "security",
+      "topic": "maritime",
+      "countries": [
+        "Iran",
+        "Kuwait"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-19T13:10:02Z",
+      "last_published": "2026-10-19T13:10:02Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "91d4581a1376bf96e2612e5b",
+          "title": "تصعيد إيراني يطول الكويت والبحرين والأردن.. وواشنطن ترد باستهداف ناقلات النفط - الساحل الغربي",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBEbVdfVUxjVGlrN0lvNi1ZcGh4ZER3ZWt2OHViaGZ4WGgwUEZjdDZNTTlvNTFoWk94YVE5RVZLaUxUWmd1LWdNbFR6dDdWZk0?oc=5",
+          "source": "الساحل الغربي",
+          "publisher_key": "الساحل الغربي",
+          "provider": "عربي · الإمارات والبحرين",
+          "published_at": "2026-10-19T13:10:02Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T16:50:50.754226Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-19T13:10:02Z",
+      "coverage_last_published_at": "2026-10-19T13:10:02Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "8187b9d03815cecbadf8",
+      "revision": 6,
+      "updated_at": "2026-10-20T17:35:41.211329Z"
     },
     {
       "id": "GF-A29F3D9D9BB9BF",
@@ -47698,6 +47752,64 @@
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
+      "id": "GF-16094BD5B10138",
+      "title": "السعودية والإمارات تدينان الهجمات الإيرانية على البحرين والكويت والأردن وتؤكدان دعمهما لأمن الدول الشقيقة - الساحل الغربي",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Bahrain",
+        "Iran",
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-16T03:25:46Z",
+      "last_published": "2026-10-16T03:25:46Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "6df264a43f4803d464219aca",
+          "title": "السعودية والإمارات تدينان الهجمات الإيرانية على البحرين والكويت والأردن وتؤكدان دعمهما لأمن الدول الشقيقة - الساحل الغربي",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBITGlFa05BRWUwWDUwVzhPWlZFaC1yQ0RmMUxpMXZLUF9neHYtZ0lmdFRmQk4ta0VWT1hRZ25YVFlRdENrajdBcTQ2OVdFYmM?oc=5",
+          "source": "الساحل الغربي",
+          "publisher_key": "الساحل الغربي",
+          "provider": "عربي · الإمارات والبحرين",
+          "published_at": "2026-10-16T03:25:46Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T16:54:36.300300Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-16T03:25:46Z",
+      "coverage_last_published_at": "2026-10-16T03:25:46Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "958e3f0a4184cbfda211",
+      "revision": 4,
+      "updated_at": "2026-10-20T17:35:41.211329Z"
+    },
+    {
       "id": "GF-2754D409258FEA",
       "title": "التحالف: اعتراض وتدمير مسيرة بالمنطقة الشرقية في السعودية - العربية",
       "category": "security",
@@ -57217,63 +57329,6 @@
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
-      "id": "GF-F99E79086CCD1D",
-      "title": "تصعيد إيراني يطول الكويت والبحرين والأردن.. وواشنطن ترد باستهداف ناقلات النفط - الساحل الغربي",
-      "category": "security",
-      "topic": "maritime",
-      "countries": [
-        "Iran",
-        "Kuwait"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "ar"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-14T16:38:06Z",
-      "last_published": "2026-10-14T16:38:06Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "91d4581a1376bf96e2612e5b",
-          "title": "تصعيد إيراني يطول الكويت والبحرين والأردن.. وواشنطن ترد باستهداف ناقلات النفط - الساحل الغربي",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBEbVdfVUxjVGlrN0lvNi1ZcGh4ZER3ZWt2OHViaGZ4WGgwUEZjdDZNTTlvNTFoWk94YVE5RVZLaUxUWmd1LWdNbFR6dDdWZk0?oc=5",
-          "source": "الساحل الغربي",
-          "publisher_key": "الساحل الغربي",
-          "provider": "عربي · الإمارات والبحرين",
-          "published_at": "2026-10-14T16:38:06Z",
-          "date_quality": "publisher-time",
-          "first_seen_at": "2026-10-20T16:50:50.754226Z",
-          "collected_at": null,
-          "language": "ar",
-          "country": ""
-        }
-      ],
-      "coverage_stage": "quiet-coverage",
-      "coverage_first_published_at": "2026-10-14T16:38:06Z",
-      "coverage_last_published_at": "2026-10-14T16:38:06Z",
-      "current_reporting": false,
-      "recent_publisher_count": 0,
-      "recent_article_count": 0,
-      "incident_status": "unknown",
-      "event_occurrence_verified": false,
-      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "307696e765120486fd84",
-      "revision": 5,
-      "updated_at": "2026-10-20T16:53:30.131715Z"
-    },
-    {
       "id": "GF-430F14A5B5AD92",
       "title": "Houthi ballistic missile manufacturing - ArcGIS StoryMaps",
       "category": "security",
@@ -65234,6 +65289,63 @@
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
+      "id": "GF-EB4ADBA3FF937F",
+      "title": "البحرين تعلن اعتراض هجمات إيرانية جديدة.. والكويت تتصدى لصاروخين باليستيين وسط تصعيد أميركي-إيراني - الساحل الغربي",
+      "category": "security",
+      "topic": "interception",
+      "countries": [
+        "Bahrain",
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-13T19:23:44Z",
+      "last_published": "2026-10-13T19:23:44Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "c1138a2262b02b848c7569fe",
+          "title": "البحرين تعلن اعتراض هجمات إيرانية جديدة.. والكويت تتصدى لصاروخين باليستيين وسط تصعيد أميركي-إيراني - الساحل الغربي",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1hcEthLUFQRmFqekJvQkpzMDZNR3Q2MkJKdVVTbkVxRHZiVEdraW5Hb01TMWpDUm5wNDNFdFhqR0JxNlgzNEZ1eGMwc0dXeFE?oc=5",
+          "source": "الساحل الغربي",
+          "publisher_key": "الساحل الغربي",
+          "provider": "عربي · الإمارات والبحرين",
+          "published_at": "2026-10-13T19:23:44Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T12:03:42.847208Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-13T19:23:44Z",
+      "coverage_last_published_at": "2026-10-13T19:23:44Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "207b3fccb9b952e69c64",
+      "revision": 12,
+      "updated_at": "2026-10-20T17:35:41.211329Z"
+    },
+    {
       "id": "GF-535D35AC374D48",
       "title": "Iran’s IRGC Navy threatens to sink US warships approaching Strait of Hormuz - Middle East Monitor",
       "category": "security",
@@ -70672,11 +70784,11 @@
       "sources": 206
     },
     "Saudi": {
-      "events": 478,
-      "reports": 505,
-      "security_coverage": 370,
+      "events": 480,
+      "reports": 507,
+      "security_coverage": 372,
       "transport_coverage": 96,
-      "sources": 250
+      "sources": 252
     },
     "Qatar": {
       "events": 43,
@@ -70744,36 +70856,36 @@
     "2026-10-09": 1,
     "2026-10-10": 1,
     "2026-10-12": 7,
-    "2026-10-13": 111,
-    "2026-10-14": 139,
+    "2026-10-13": 112,
+    "2026-10-14": 138,
     "2026-10-15": 130,
-    "2026-10-16": 125,
+    "2026-10-16": 126,
     "2026-10-17": 181,
     "2026-10-18": 143,
-    "2026-10-19": 191,
-    "2026-10-20": 209
+    "2026-10-19": 190,
+    "2026-10-20": 211
   },
   "revisions": [
     {
-      "id": "GF-03303938FAA376",
-      "revision": 9,
-      "at": "2026-10-20T17:31:43.513353Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 2
-    },
-    {
-      "id": "GF-EB4ADBA3FF937F",
-      "revision": 11,
-      "at": "2026-10-20T17:31:43.513353Z",
+      "id": "GF-F99E79086CCD1D",
+      "revision": 6,
+      "at": "2026-10-20T17:35:41.211329Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
       "id": "GF-16094BD5B10138",
-      "revision": 3,
-      "at": "2026-10-20T17:31:43.513353Z",
+      "revision": 4,
+      "at": "2026-10-20T17:35:41.211329Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-EB4ADBA3FF937F",
+      "revision": 12,
+      "at": "2026-10-20T17:35:41.211329Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
