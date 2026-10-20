@@ -72,9 +72,12 @@ function render(ctx,d){
  let markup="",description="";
  if(tab==="priority"){
   const important=!ctx.delayed&&ctx.quality==="passed"?d.alerts.filter(a=>a.level==="critical-reporting"&&C.dt(a.published_at)>Date.now()-7200000):[];
-  markup=important.slice(0,5).map(cardAlert).join("")+d.events.slice(0,60).map(cardEvent).join("");
-  if(!d.events.length)markup+=d.observations.slice(0,12).map(cardObs).join("");
-  description="PRIORITIZED BY PUBLICATION AGE + OUTLET DIVERSITY · "+d.events.length+" REPORTING GROUPS";
+  const hazardFirst=ctx.workspace==="hazards";
+  markup=(hazardFirst?d.observations.slice(0,40).map(cardObs).join(""):"")+
+    important.slice(0,5).map(cardAlert).join("")+d.events.slice(0,hazardFirst?15:60).map(cardEvent).join("");
+  if(!d.events.length&&!hazardFirst)markup+=d.observations.slice(0,12).map(cardObs).join("");
+  description=hazardFirst?"COORDINATE-BACKED NATURAL OBSERVATIONS · NOT CONFLICT CLAIMS":
+   "PRIORITIZED BY PUBLICATION AGE + OUTLET DIVERSITY · "+d.events.length+" REPORTING GROUPS";
  }else if(tab==="events"){
   markup=d.events.slice(0,100).map(cardEvent).join("");
   description="SOURCE CORRELATION · "+d.events.length+" CANDIDATE GROUPS · UNVERIFIED";
