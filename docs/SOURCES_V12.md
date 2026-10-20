@@ -27,7 +27,7 @@ USGS, NASA EONET, optional NASA FIRMS and optional Cloudflare Radar remain as in
 
 ## Public posts on X
 
-The X Posts tab is live as a UI feature. It offers a source-linked archive **only when an authorized X API token is deliberately connected**. Without this configuration, no posts are fabricated and the tab provides shortcuts to live X searches, which open on X's own site. We do not scrape X or mislabel search-engine results as official X post API data.
+The X Posts tab is live as a UI feature. It offers a source-linked archive **only when an authorized X API token is deliberately connected**. Without this configuration, no posts are fabricated: the tab includes shortcuts to X searches and a **click-to-load official X embedded-timeline viewer** for the verified public QNA profiles `@QNAEnglish` and `@QatarNewsAgency`. The timeline widget is rendered by X in the visitor's browser and does not feed our JSON archive, event correlation or alerts. It may be blocked or require login depending on browser settings. Its external script is fetched only after the visitor chooses to load it. We do not scrape X or mislabel search-engine results as official X post API data.
 
 To opt in to official X API **potentially billable** access, explicitly configure all three:
 
