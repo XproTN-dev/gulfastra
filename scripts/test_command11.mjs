@@ -15,7 +15,11 @@ const context=vm.createContext({window,document,Date,Math,JSON,Number,Array,Set,
 for(const name of files){
  const source=fs.readFileSync(path.join(root,"assets",name),"utf8");
  new vm.Script(source,{filename:name}).runInContext(context);
- assert(html.includes(name+"?"),"HTML missing client asset: "+name);
+ if(name==="command11.js"){
+   assert(html.includes("command11-bootstrap.mjs?"),"HTML must load the ESM MapLibre bootstrap");
+ }else{
+   assert(html.includes(name+"?"),"HTML missing client asset: "+name);
+ }
 }
 for(const name of ["GXCore","GXMap","GXStream","GXExtras","GXApp"]){
  assert(window[name],name+" must register its runtime module");
@@ -23,7 +27,12 @@ for(const name of ["GXCore","GXMap","GXStream","GXExtras","GXApp"]){
 const C=window.GXCore;
 assert(!css.includes(".country-pin:hover{transform"),"Legacy marker animations must not return");
 assert(!html.includes("assets/v9.css"),"Do not include the legacy CSS cascade");
-assert(/maplibre-gl\@6.15.0/.test(html),"MapLibre must be sourced");
+assert(html.includes("../vendor/maplibre-gl.css"),"MapLibre CSS must be same-origin");
+assert(!html.includes("unpkg.com/maplibre-gl"),"Do not depend on third-party MapLibre CDN at initial load");
+assert(!html.includes("maplibre-gl.js"),"The removed MapLibre v6 UMD script is invalid");
+const boot=fs.readFileSync(path.join(root,"assets/command11-bootstrap.mjs"),"utf8");
+new vm.SourceTextModule(boot,{context,identifier:"command11-bootstrap.mjs"});
+assert(boot.includes("../vendor/maplibre-gl.mjs"),"MapLibre v6 bootstrap must import pinned same-origin ESM asset");
 const t=new Date(Date.now()-3600000).toISOString();
 const base={id:"r1",title:"Qatar airspace closes",source:"Outlet A",
  published_at:t,countries:["Qatar"],country:"Qatar",category:"transport",language:"en"};
