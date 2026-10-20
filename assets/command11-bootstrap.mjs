@@ -29,7 +29,7 @@ if (mapModule?.Map) {
 }
 // Always start the data/evidence UI, even if map import fails.
 try {
-  await import("./command11.js?v=11-9");
+  await import("./command11.js?v=11-12");
 } catch (error) {
   console.error("GULFASTRA UI bootstrap failed", error);
   const label = document.querySelector("#metricChannel");
