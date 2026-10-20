@@ -76,7 +76,7 @@ function healthView(){
 let rows=Object.entries(D.reportHealth);
 return title("Source health & data provenance","Live source diagnostics and independent environmental provider statuses.")+
 kpis([["NEWS SOURCES",rows.length,"RSS and open news search"],["OK",rows.filter(([,v])=>v.ok===true).length,"Successful collectors"],["ERRORS",rows.filter(([,v])=>v.ok===false).length,"No simulated responses"],["OTHER FEEDS",D.obsHealth.length,"Natural context providers"]])+
-'<div class="gf-row"><section class="gf-card"><h4>NEWS</h4>'+rows.map(([name,v])=>'<div class="gf-signal"><span dir="auto">'+esc(name)+'</span>'+pill(v.ok?"OK · "+(v.relevant??v.items??0):"ERROR",v.ok?"good":"warn")+'</div>'+(v.error?'<p>'+esc(v.error)+'</p>':"")).join("")+'</section>'+
+'<div class="gf-row"><section class="gf-card"><h4>NEWS</h4>'+rows.map(([name,v])=>'<div class="gf-signal"><span dir="auto">'+esc(name)+'</span>'+pill(v.ok===true?"OK · "+(v.relevant??v.items??0):v.ok===null?"RATE-LIMIT BACKOFF":"ERROR",v.ok===true?"good":"warn")+'</div>'+(v.error?'<p>'+esc(v.error)+'</p>':"")).join("")+'</section>'+
 '<section class="gf-card"><h4>INDEPENDENT OBSERVATIONS</h4>'+D.obsHealth.map(v=>'<div class="gf-signal"><span>'+esc(v.source)+'</span>'+pill(v.ok===true?"OK · "+v.count:v.ok===null?"NOT CONFIGURED":"ERROR",v.ok===true?"good":"warn")+'</div>'+(v.error?'<p>'+esc(v.error)+'</p>':"")).join("")+'<div class="gf-notice">Cloudflare Radar requires an authorized token and its noncommercial license must be respected.</div></section></div>'
 }
 
