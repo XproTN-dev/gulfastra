@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "generated_at": "2026-10-20T17:40:56.184578Z",
+  "generated_at": "2026-10-20T17:41:19.989026Z",
   "model": "deterministic-source-correlation-v2-coverage-lifecycle",
   "disclaimer": "Clusters are related PUBLIC REPORTS, not confirmed incidents. Source counts are not proof. Country names are mentions, not incident locations.",
   "events": [
@@ -17994,6 +17994,63 @@
       "digest": "e10cb46c83265934c0ee",
       "revision": 3,
       "updated_at": "2026-10-20T16:52:31.264495Z"
+    },
+    {
+      "id": "GF-F99E79086CCD1D",
+      "title": "تصعيد إيراني يطول الكويت والبحرين والأردن.. وواشنطن ترد باستهداف ناقلات النفط - الساحل الغربي",
+      "category": "security",
+      "topic": "maritime",
+      "countries": [
+        "Iran",
+        "Kuwait"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-19T13:10:02Z",
+      "last_published": "2026-10-19T13:10:02Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "91d4581a1376bf96e2612e5b",
+          "title": "تصعيد إيراني يطول الكويت والبحرين والأردن.. وواشنطن ترد باستهداف ناقلات النفط - الساحل الغربي",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBEbVdfVUxjVGlrN0lvNi1ZcGh4ZER3ZWt2OHViaGZ4WGgwUEZjdDZNTTlvNTFoWk94YVE5RVZLaUxUWmd1LWdNbFR6dDdWZk0?oc=5",
+          "source": "الساحل الغربي",
+          "publisher_key": "الساحل الغربي",
+          "provider": "عربي · الإمارات والبحرين",
+          "published_at": "2026-10-19T13:10:02Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T16:50:50.754226Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-19T13:10:02Z",
+      "coverage_last_published_at": "2026-10-19T13:10:02Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "8187b9d03815cecbadf8",
+      "revision": 8,
+      "updated_at": "2026-10-20T17:41:19.989026Z"
     },
     {
       "id": "GF-A29F3D9D9BB9BF",
@@ -58293,63 +58350,6 @@
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
-      "id": "GF-F99E79086CCD1D",
-      "title": "تصعيد إيراني يطول الكويت والبحرين والأردن.. وواشنطن ترد باستهداف ناقلات النفط - الساحل الغربي",
-      "category": "security",
-      "topic": "maritime",
-      "countries": [
-        "Iran",
-        "Kuwait"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "ar"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-14T16:38:06Z",
-      "last_published": "2026-10-14T16:38:06Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "91d4581a1376bf96e2612e5b",
-          "title": "تصعيد إيراني يطول الكويت والبحرين والأردن.. وواشنطن ترد باستهداف ناقلات النفط - الساحل الغربي",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBEbVdfVUxjVGlrN0lvNi1ZcGh4ZER3ZWt2OHViaGZ4WGgwUEZjdDZNTTlvNTFoWk94YVE5RVZLaUxUWmd1LWdNbFR6dDdWZk0?oc=5",
-          "source": "الساحل الغربي",
-          "publisher_key": "الساحل الغربي",
-          "provider": "عربي · الإمارات والبحرين",
-          "published_at": "2026-10-14T16:38:06Z",
-          "date_quality": "publisher-time",
-          "first_seen_at": "2026-10-20T16:50:50.754226Z",
-          "collected_at": null,
-          "language": "ar",
-          "country": ""
-        }
-      ],
-      "coverage_stage": "quiet-coverage",
-      "coverage_first_published_at": "2026-10-14T16:38:06Z",
-      "coverage_last_published_at": "2026-10-14T16:38:06Z",
-      "current_reporting": false,
-      "recent_publisher_count": 0,
-      "recent_article_count": 0,
-      "incident_status": "unknown",
-      "event_occurrence_verified": false,
-      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "307696e765120486fd84",
-      "revision": 7,
-      "updated_at": "2026-10-20T17:36:38.611766Z"
-    },
-    {
       "id": "GF-430F14A5B5AD92",
       "title": "Houthi ballistic missile manufacturing - ArcGIS StoryMaps",
       "category": "security",
@@ -72160,27 +72160,19 @@
     "2026-10-10": 1,
     "2026-10-12": 7,
     "2026-10-13": 114,
-    "2026-10-14": 141,
+    "2026-10-14": 140,
     "2026-10-15": 132,
     "2026-10-16": 128,
     "2026-10-17": 183,
     "2026-10-18": 144,
-    "2026-10-19": 192,
+    "2026-10-19": 193,
     "2026-10-20": 219
   },
   "revisions": [
     {
-      "id": "GF-4B13232C28C9F4",
-      "revision": 6,
-      "at": "2026-10-20T17:40:56.184578Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-EB4ADBA3FF937F",
-      "revision": 16,
-      "at": "2026-10-20T17:40:56.184578Z",
+      "id": "GF-F99E79086CCD1D",
+      "revision": 8,
+      "at": "2026-10-20T17:41:19.989026Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
