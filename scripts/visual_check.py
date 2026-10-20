@@ -65,7 +65,8 @@ with sync_playwright() as pw:
             assert page.locator(".v9-panel").count()==1,"Mobile should display only one floating workspace at a time"
         assert page.locator("#v9DataStatus").inner_text().find("SOURCES")!=-1,"Source channel status missing"
         # Evidence links and date-specific signals are not just visual decorations.
-        page.locator('[data-v9-panel="verify"]:visible').first.click()
+        if page.locator('.v9-panel[data-panel="verify"]').count()==0:
+            page.locator('[data-v9-panel="verify"]:visible').first.click()
         assert page.locator('.v9-panel[data-panel="verify"] .v9-verify-links a[href^="https://"]').count()>0,"Evidence source links missing"
         assert "0 NAMED OUTLETS" not in page.locator('.v9-panel[data-panel="verify"]').inner_text(),"False zero-source attribution"
         page.locator('[data-v9-panel="timeline"]:visible').first.click()
