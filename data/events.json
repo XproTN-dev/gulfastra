@@ -1,9 +1,400 @@
 {
   "schema": 5,
-  "generated_at": "2026-10-20T16:54:42.496904Z",
+  "generated_at": "2026-10-20T17:30:53.488659Z",
   "model": "deterministic-source-correlation-v2-coverage-lifecycle",
   "disclaimer": "Clusters are related PUBLIC REPORTS, not confirmed incidents. Source counts are not proof. Country names are mentions, not incident locations.",
   "events": [
+    {
+      "id": "GF-C3AAC6B01D4DBA",
+      "title": "الحرس الثوري الإيراني: انفجار ناقلة نفط بعد اصطدامها بلغم بحري - المصري اليوم",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T17:20:00Z",
+      "last_published": "2026-10-20T17:20:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "94b26c1e73a985137f74e02f",
+          "title": "الحرس الثوري الإيراني: انفجار ناقلة نفط بعد اصطدامها بلغم بحري - المصري اليوم",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9oNmVlMW1pa0FOVlI3dURzZVgtYm1jYTIwQVItaC1wYnhUOHBXejUycVUtNl9jdmpFSjI1b0FKUHlpVER3MVhZOXdndnIzTVJqTUpZSWxTd0gyb3B3MFRn?oc=5",
+          "source": "المصري اليوم",
+          "publisher_key": "المصري اليوم",
+          "provider": "عربي · مضيق هرمز",
+          "published_at": "2026-10-20T17:20:00Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T17:30:36.865670Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Iran"
+        }
+      ],
+      "coverage_stage": "new-coverage",
+      "coverage_first_published_at": "2026-10-20T17:20:00Z",
+      "coverage_last_published_at": "2026-10-20T17:20:00Z",
+      "current_reporting": true,
+      "recent_publisher_count": 1,
+      "recent_article_count": 1,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "27579f74819a66af6514",
+      "revision": 1,
+      "updated_at": "2026-10-20T17:30:53.488659Z"
+    },
+    {
+      "id": "GF-C3B966DE5C7CDA",
+      "title": "Houthis attack besieged city in Yemen that UN says is at 'grave risk' - The Washington Post",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T17:16:20Z",
+      "last_published": "2026-10-20T17:16:20Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "674472b7f6c436f05433e40e",
+          "title": "Houthis attack besieged city in Yemen that UN says is at 'grave risk' - The Washington Post",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNd28wNVEwS0FZdThJYmJaQ09SZENwQmVZeTFJM1M3X0p5X1NGRFg5dnRUMWJBc3FZd2cyeUhJT2JYNzFYRGVNXzFUY3NGV0c1TlpMYURmd2hRakY1MDFEclFWbEptemJZcUZJRVZHOENHZ2phTFVrNkdGRkhXeVduSzNRNkprSm1pckctNms0VFp2OFNPMU81V0Zid2ZLZzVCa0h6a2VRbjJNTEF3a1dVSEh1S2hLSVd3LTRJeFA0WF9YUQ?oc=5",
+          "source": "The Washington Post",
+          "publisher_key": "the washington post",
+          "provider": "Google News · security",
+          "published_at": "2026-10-20T17:16:20Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T17:30:36.865670Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Yemen"
+        }
+      ],
+      "coverage_stage": "new-coverage",
+      "coverage_first_published_at": "2026-10-20T17:16:20Z",
+      "coverage_last_published_at": "2026-10-20T17:16:20Z",
+      "current_reporting": true,
+      "recent_publisher_count": 1,
+      "recent_article_count": 1,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "352aef78bfd1af967c34",
+      "revision": 1,
+      "updated_at": "2026-10-20T17:30:53.488659Z"
+    },
+    {
+      "id": "GF-F2D996CBBDC124",
+      "title": "التهديد الإيراني باستهداف كابلات الإنترنت في هرمز يُثير تفاعلاً واسعاً على مواقع التواصل الاجتماعي - BBC",
+      "category": "security",
+      "topic": "maritime",
+      "countries": [
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T17:12:33Z",
+      "last_published": "2026-10-20T17:12:33Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "a0cb22cec43d38c477fd40b3",
+          "title": "التهديد الإيراني باستهداف كابلات الإنترنت في هرمز يُثير تفاعلاً واسعاً على مواقع التواصل الاجتماعي - BBC",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBwZDNramRpUmRUZFFac2Zaem1vY3JjcnZjMmpJM3U1elR1dkxRb0lNbVpPOTh0aHBReG1GWk1jd3pPVUowdzh2bTVxQzZMLTd6b0J1TDhIZmNBUG0tS0HSAWNBVV95cUxQMDVlODBHdDQtenlWdGp5S1JJN1dpRndIaG5EWGpTdV9oZ0NrMnNwdXdSQnJhMFNyRXZPN3ZSX1U2eGF5T3lUc2J3OC1QZWllT3RjZnlFb0FtTjJSUmtMVm0xUTQ?oc=5",
+          "source": "BBC",
+          "publisher_key": "bbc",
+          "provider": "عربي · مضيق هرمز",
+          "published_at": "2026-10-20T17:12:33Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T17:30:36.865670Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Iran"
+        }
+      ],
+      "coverage_stage": "new-coverage",
+      "coverage_first_published_at": "2026-10-20T17:12:33Z",
+      "coverage_last_published_at": "2026-10-20T17:12:33Z",
+      "current_reporting": true,
+      "recent_publisher_count": 1,
+      "recent_article_count": 1,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "7e5d361428a91e0229e0",
+      "revision": 1,
+      "updated_at": "2026-10-20T17:30:53.488659Z"
+    },
+    {
+      "id": "GF-9C2C1B17F64E42",
+      "title": "التحالف: تدمير منصة إطلاق الصاروخ الباليستي الذي أطلقته ميليشيات الحوثي تجاه الرياض اليوم - العربية",
+      "category": "security",
+      "topic": "missile",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T16:54:00Z",
+      "last_published": "2026-10-20T16:54:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "5d5737c02a4c916996c53cf3",
+          "title": "التحالف: تدمير منصة إطلاق الصاروخ الباليستي الذي أطلقته ميليشيات الحوثي تجاه الرياض اليوم - العربية",
+          "url": "https://news.google.com/rss/articles/CBMizgVBVV95cUxPZms2cFZHWjlYbDVva18yb053RnNDSHR6T0pjeGVWdGtVM3ZyVzc0a3FpeDNlbWQ4dlJCTHJYV25ma1kwN01JU0JlaFJvYUdGR01CWmhuaUZQcVRZRUE4c08zLTVYX1Bfb1MxdWVkZ3JhQ0hJWFpzMDdCNnZUeTVfUFpiRkNPV1piRmt4OG01OHJOcGtyRTQwT3hYdkJqTk5OWVJDSDctUEtiMmwzMDU1cVZPQ0lJXzVSN01nMk9lTy0wbzBHZklCWGtKeEpyU25LUy1PdGNqMUZzUU5rZlNpcTJhSm1YMEN2ZS1XTEtNd2ZOdDNIU21hWXVSYjJIaGd2T2Z5c0tVUUlCVVNyRGZ5V0FYLUpNdnBIbXVyWE40R2sxamNKTXRPMTBnWXg3OGM0NVk3cUxvcVJldzhRRmR3Q0R5d1dzaFZETmhOQzN0V2tyN1l2cXBKRVJlNFdHSUNlRUl2Z2dVYngtTUdoWGFHYVVYQndTZkN1T3BqRjRzMURYOGYyNUxyMFdqQ0pVbVhuQldKdHFxUk1HRXVJRkdETDZ2TWdDd25kRWp6TTVfWHBvN2tPWnVsc3Y4UjJFWW1yQUhxWmgtaGgwNkRxOTVBSzBZdF84Z2M5YXlzSm5Jbl8tS2ZGaW80a0xLSFk2YUtuVFRqTjcwLXR1UVdxanAyODJ0X2gyeVRkVVNhMVFnU05pdmk3M3I0NWZNdEctUUx4WTB2c2laX181SnlJZGxOZzJLamJIeWVEVTREMlg4VTBCa0V2UFY4WnpXdms2Yk1xWlJQZzZoT3hZMDJUa09tTWluTVIyZmY2U1hDZkhRUHBBZmRzN09yWEtobEdBRGttS254M2lGRHhWaTVLalFNS3hHbjZtaWlPdlBZZVlmcnRRYjhUanllOEpFdHJkWVQwOXBYbDJLUlhXMW9CaWRTdmVyeDhEbGF4ZjJNOVBn0gHTBUFVX3lxTE1YeFpNOE1UYnR6c3Q1TW5WaVliWHo4SnFkYXpURU9YYmNyZVFiUnpSQjBDNEhEbGVtbV9ZcGs5bGwtSzB1NFNhdHlsSXYyTnQwb1dZVVBodHNSRVdYV2tLb0t1VlhxbG1KVHNwOEdqMVhqR1p6WmRuRDAxVExoSzNfc0ZZS0Z4SU9BblZiWW1XWnJrRFVXcVFrSWs2bE1yc09wbVJOdDVKNnVZcUtXM1ZOWDg3UTNRRENveG5RaDdPLUs4SVEtOUxwVzZOYkQxbDlabmJ0VENobC1yM3kwOXZ0Q0x1ZjBXSnZSVERZUldYWHVmOGg3Z1VlbjRJeklmTHBEWUJReWtNd2g4YlhLd3ZXdjZSQlpmVHpod1R1dDYtdTFPd1AwNWdDR3BrMWVPRFpHRkpMRV9DX3BmdDVldVNPX3d2Wi16TWROTThMYWFjMEZWMkpfdHlnZjVoeUpPTTNia29JQ2xsdDVJTk9zMXI3cnNLUXU4bzByamlFTTVING9vekE4MENncEMtOVRNZ0ZtTWM1WklGSXdRa3pKRU5QTmJZZjdfYkd1UHRiaXhpODBSd2F1d0hCQzhDaGlMSWgwRk9sSUdFVF9HN2h4N3k4bHI3UHlYTlQtRVVtc1JwMmFINlh0RF9rMVgtR09Ebm1pWXRBSEFpZE95b3B0UlpNVldEd2N6QWRnUkphZXRheTEtaS1RN3lIWkVXcy1DVDZRRGpIYUVFSUwxOUZnMFg3VzRVRno3RW1HMUpsdl83OVdJV2JWaGhidTN0VXctMWFMYTFYM3JsVkJTdUZFVjNfNHhkYUxxOVBNemVhLTgyS3VLVG1MREIwai1pUzFZdGZvOWVST0lnbFoxRzcxZ2FKc0p5RnVQZG9YekRSem9IcWdsekdYX253d3dnNm04MGxJcnBlalpSR3UwMUNyYTAtbWNBTDF5N3pOcmE1Z1EyOVdVcw?oc=5",
+          "source": "العربية",
+          "publisher_key": "العربية",
+          "provider": "عربي · العربية",
+          "published_at": "2026-10-20T16:54:00Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T17:30:36.865670Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "new-coverage",
+      "coverage_first_published_at": "2026-10-20T16:54:00Z",
+      "coverage_last_published_at": "2026-10-20T16:54:00Z",
+      "current_reporting": true,
+      "recent_publisher_count": 1,
+      "recent_article_count": 1,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "cf519fb61a2639575d01",
+      "revision": 1,
+      "updated_at": "2026-10-20T17:30:53.488659Z"
+    },
+    {
+      "id": "GF-8BF483DBF51CE0",
+      "title": "IRGC claims it downed US drone, set two tankers ablaze near Hormuz - Al-Monitor",
+      "category": "security",
+      "topic": "drone",
+      "countries": [],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T16:53:00Z",
+      "last_published": "2026-10-20T16:53:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "ae25beb124ca6c704d32f77d",
+          "title": "IRGC claims it downed US drone, set two tankers ablaze near Hormuz - Al-Monitor",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdC0ycGFnNTJocHZWRnZadHBUX19pM29QN0dXbzFMSkM2VW1tZzg2djd5WXNZOHJCYWsyeVk5SzFfZl84aVlSUW5fN09tVzB5SkNnazlCODhGU0FwbDRXYVNfc1BJS0QteTFyb3B6a05xSEVYZUU5WWdvM0hiYzVGV20yUzF0Vml1dmJyMG96V1dPbmFGZUxfNW1DTnlVTGl1UTI0ZUpyb09pNTBNc0t3?oc=5",
+          "source": "Al-Monitor",
+          "publisher_key": "al monitor",
+          "provider": "Google News · shipping",
+          "published_at": "2026-10-20T16:53:00Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T17:30:36.865670Z",
+          "collected_at": null,
+          "language": "en",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "new-coverage",
+      "coverage_first_published_at": "2026-10-20T16:53:00Z",
+      "coverage_last_published_at": "2026-10-20T16:53:00Z",
+      "current_reporting": true,
+      "recent_publisher_count": 1,
+      "recent_article_count": 1,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "a41d8db30a50939531b8",
+      "revision": 1,
+      "updated_at": "2026-10-20T17:30:53.488659Z"
+    },
+    {
+      "id": "GF-47660984666F08",
+      "title": "أعلن الحرس الثوري الإيراني أنه أسقط طائرة مسيرة أمريكية وأضرم النار في ناقلتي نفط بالقرب من هرمز. - Al-Monitor",
+      "category": "security",
+      "topic": "interception",
+      "countries": [
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T16:53:00Z",
+      "last_published": "2026-10-20T16:53:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "d66aae8f4b319f637e2c67ad",
+          "title": "أعلن الحرس الثوري الإيراني أنه أسقط طائرة مسيرة أمريكية وأضرم النار في ناقلتي نفط بالقرب من هرمز. - Al-Monitor",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOOFR0c1ZHSTlNMzNYb1FTX051MUM0WmtXdE14NElrMzkyeFI0Q0JkR3dBVm56c2F4UXpxYnJ1UFVFcFlabHZrYWFpYnBwNTdsNkpOWmhQM1NVUGVXVk9sUHlTWXctak1DSHFpUEhJT3NtX0J2ZVVFc1NZVkRRQ2p3VmE0ZjdIYU9nbEN5NS1XUTlaeWFZVjJ1RWpUNGN3WmhDZXRPdnVfTkliSS1FUFk5SlltOWVfbnNqMWtZVWVYaE1PNVlDN1Z4bw?oc=5",
+          "source": "Al-Monitor",
+          "publisher_key": "al monitor",
+          "provider": "عربي · مضيق هرمز",
+          "published_at": "2026-10-20T16:53:00Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T17:30:36.865670Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Iran"
+        }
+      ],
+      "coverage_stage": "new-coverage",
+      "coverage_first_published_at": "2026-10-20T16:53:00Z",
+      "coverage_last_published_at": "2026-10-20T16:53:00Z",
+      "current_reporting": true,
+      "recent_publisher_count": 1,
+      "recent_article_count": 1,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "6b03fb6a44fa76033420",
+      "revision": 1,
+      "updated_at": "2026-10-20T17:30:53.488659Z"
+    },
+    {
+      "id": "GF-BE5C54C101FA71",
+      "title": "\"سنتكوم\": مضيق هرمز مفتوح بالكامل وهجمات إيران على السفن \"بدافع اليأس\" - Iran International",
+      "category": "security",
+      "topic": "maritime",
+      "countries": [
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T16:50:14Z",
+      "last_published": "2026-10-20T16:50:14Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "d471c1abffe25841eea9164e",
+          "title": "\"سنتكوم\": مضيق هرمز مفتوح بالكامل وهجمات إيران على السفن \"بدافع اليأس\" - Iran International",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9MZ0lyT1RUT1RXaS0tbS1VWHZhczN4YU52eUFwYUZmdDB3YTBRWGdzOWVQRjVmMGRaV3JNdWZEbFYzR0pxR3hpLUN2WjFMb1lYMlE?oc=5",
+          "source": "Iran International",
+          "publisher_key": "iran international",
+          "provider": "عربي · مضيق هرمز",
+          "published_at": "2026-10-20T16:50:14Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T17:30:36.865670Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Iran"
+        }
+      ],
+      "coverage_stage": "new-coverage",
+      "coverage_first_published_at": "2026-10-20T16:50:14Z",
+      "coverage_last_published_at": "2026-10-20T16:50:14Z",
+      "current_reporting": true,
+      "recent_publisher_count": 1,
+      "recent_article_count": 1,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "4d39a944a98fce68b846",
+      "revision": 1,
+      "updated_at": "2026-10-20T17:30:53.488659Z"
+    },
     {
       "id": "GF-6BCE5144358C6F",
       "title": "إيران: إصابة ناقلتي نفط أثناء عبورهما مسارا غير مصرح به في مضيق هرمز - Masrawy",
@@ -757,18 +1148,18 @@
           "country": ""
         }
       ],
-      "coverage_stage": "renewed-coverage",
+      "coverage_stage": "recent-coverage",
       "coverage_first_published_at": "2026-10-20T11:45:31Z",
       "coverage_last_published_at": "2026-10-20T15:30:40Z",
-      "current_reporting": true,
-      "recent_publisher_count": 1,
-      "recent_article_count": 1,
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "40f0c4432804663e97f0",
-      "revision": 3,
-      "updated_at": "2026-10-20T16:52:31.264495Z"
+      "digest": "ea3c008c3136060bef0a",
+      "revision": 4,
+      "updated_at": "2026-10-20T17:30:53.488659Z"
     },
     {
       "id": "GF-E96B752204F855",
@@ -813,18 +1204,18 @@
           "country": "Saudi"
         }
       ],
-      "coverage_stage": "new-coverage",
+      "coverage_stage": "recent-coverage",
       "coverage_first_published_at": "2026-10-20T15:30:17Z",
       "coverage_last_published_at": "2026-10-20T15:30:17Z",
-      "current_reporting": true,
-      "recent_publisher_count": 1,
-      "recent_article_count": 1,
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "bd2a99f065a3b7854ad4",
-      "revision": 2,
-      "updated_at": "2026-10-20T16:52:31.264495Z"
+      "digest": "6dd8e4b0043249af5a82",
+      "revision": 3,
+      "updated_at": "2026-10-20T17:30:53.488659Z"
     },
     {
       "id": "GF-FCB4701521C63D",
@@ -870,18 +1261,18 @@
           "country": ""
         }
       ],
-      "coverage_stage": "new-coverage",
+      "coverage_stage": "recent-coverage",
       "coverage_first_published_at": "2026-10-20T15:22:44Z",
       "coverage_last_published_at": "2026-10-20T15:22:44Z",
-      "current_reporting": true,
-      "recent_publisher_count": 1,
-      "recent_article_count": 1,
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "60449c87006de3f9ffa4",
-      "revision": 2,
-      "updated_at": "2026-10-20T16:52:31.264495Z"
+      "digest": "6f3446703fc9b1610e0c",
+      "revision": 3,
+      "updated_at": "2026-10-20T17:30:53.488659Z"
     },
     {
       "id": "GF-B476C6ACE2154B",
@@ -926,18 +1317,74 @@
           "country": "Iran"
         }
       ],
-      "coverage_stage": "new-coverage",
+      "coverage_stage": "recent-coverage",
       "coverage_first_published_at": "2026-10-20T15:15:38Z",
       "coverage_last_published_at": "2026-10-20T15:15:38Z",
-      "current_reporting": true,
-      "recent_publisher_count": 1,
-      "recent_article_count": 1,
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "7885c58645740a666a15",
-      "revision": 2,
-      "updated_at": "2026-10-20T16:52:31.264495Z"
+      "digest": "51345154bc9a950bd841",
+      "revision": 3,
+      "updated_at": "2026-10-20T17:30:53.488659Z"
+    },
+    {
+      "id": "GF-7924D664A6C6D2",
+      "title": "Exclusive: Mediators submit new peace proposal to Iran, US - The New Arab",
+      "category": "diplomacy",
+      "topic": "regional",
+      "countries": [
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T15:14:22Z",
+      "last_published": "2026-10-20T15:14:22Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "d5754b582d0419c333761e4c",
+          "title": "Exclusive: Mediators submit new peace proposal to Iran, US - The New Arab",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNeU1FMnlJNjB6eUl6S3M3dG5WMG0zVXZHY19ZU1NNSDBCNy0zSlJOWjBFQmpUdFZENWF2T1FvVHppdlpMcUhUMHluZ0hWbldTWUR0a3lJMTJ5M1d3TldmWXY5Yy1vX096YjZlUE5iYklzWFlOaVFacndNSXZ5WVYwc2o4RkN1bGlQc0E?oc=5",
+          "source": "The New Arab",
+          "publisher_key": "the new arab",
+          "provider": "Google News · diplomacy",
+          "published_at": "2026-10-20T15:14:22Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T17:30:36.865670Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Iran"
+        }
+      ],
+      "coverage_stage": "recent-coverage",
+      "coverage_first_published_at": "2026-10-20T15:14:22Z",
+      "coverage_last_published_at": "2026-10-20T15:14:22Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "05660d6bc1cd92e107a4",
+      "revision": 1,
+      "updated_at": "2026-10-20T17:30:53.488659Z"
     },
     {
       "id": "GF-66B39624186ABF",
@@ -982,18 +1429,18 @@
           "country": "Saudi"
         }
       ],
-      "coverage_stage": "new-coverage",
+      "coverage_stage": "recent-coverage",
       "coverage_first_published_at": "2026-10-20T15:04:20Z",
       "coverage_last_published_at": "2026-10-20T15:04:20Z",
-      "current_reporting": true,
-      "recent_publisher_count": 1,
-      "recent_article_count": 1,
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "a70d605efd1edcd3b461",
-      "revision": 2,
-      "updated_at": "2026-10-20T16:52:31.264495Z"
+      "digest": "4597c794b11297e2b192",
+      "revision": 3,
+      "updated_at": "2026-10-20T17:30:53.488659Z"
     },
     {
       "id": "GF-D82E3ADF1CD582",
@@ -1038,18 +1485,18 @@
           "country": "Qatar"
         }
       ],
-      "coverage_stage": "new-coverage",
+      "coverage_stage": "recent-coverage",
       "coverage_first_published_at": "2026-10-20T15:01:45Z",
       "coverage_last_published_at": "2026-10-20T15:01:45Z",
-      "current_reporting": true,
-      "recent_publisher_count": 1,
-      "recent_article_count": 1,
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "dca6cfcf79506c6ffcc9",
-      "revision": 2,
-      "updated_at": "2026-10-20T16:52:31.264495Z"
+      "digest": "f7c6ca852b226795b408",
+      "revision": 3,
+      "updated_at": "2026-10-20T17:30:53.488659Z"
     },
     {
       "id": "GF-3396F251726506",
@@ -1107,6 +1554,62 @@
       "digest": "cbe9b9f4fe6c3179578a",
       "revision": 2,
       "updated_at": "2026-10-20T16:52:31.264495Z"
+    },
+    {
+      "id": "GF-3AE5996E81230D",
+      "title": "The U.K. expands military support for Saudi Arabia against Houthis to include 'defensive' air patrols - Los Angeles Times",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T14:47:46Z",
+      "last_published": "2026-10-20T14:47:46Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "3ae802859ca633bece098100",
+          "title": "The U.K. expands military support for Saudi Arabia against Houthis to include 'defensive' air patrols - Los Angeles Times",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQQ21ERzdQLVdtU2pYYkh3cU5SMEZMNjluMzR4aUVyZ2ExMXFHc3FQRTh1bW9wYTVIM0l0Y25VWm9hS3ZwdXotMzY4am9qZXI2ZEVVZWZPMFdDbWxBM2tFVlVCZ1g1d3EzajRDZ1NoWnJmaGljenRmZTV1Rl9QTWZ2RnRRaWk5bHk4aDd3VWw3Szg5WUllanZncTlFbm1lQjB0QzJZNF9DaWhJcmtnUU1vVDhfWGdYMEs4UWp3eVBKaHF2T0w5bVk3bk1GMkJuR1ZZTjY4cXRQZVp2dmNKa3Y2VzR3?oc=5",
+          "source": "Los Angeles Times",
+          "publisher_key": "los angeles times",
+          "provider": "Google News · security",
+          "published_at": "2026-10-20T14:47:46Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T17:30:36.865670Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Saudi"
+        }
+      ],
+      "coverage_stage": "recent-coverage",
+      "coverage_first_published_at": "2026-10-20T14:47:46Z",
+      "coverage_last_published_at": "2026-10-20T14:47:46Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "cc443eca9d2784b22826",
+      "revision": 1,
+      "updated_at": "2026-10-20T17:30:53.488659Z"
     },
     {
       "id": "GF-6F83F89892C90A",
@@ -1387,6 +1890,62 @@
       "digest": "77e1a0608fd1d521f774",
       "revision": 2,
       "updated_at": "2026-10-20T16:52:31.264495Z"
+    },
+    {
+      "id": "GF-B01B664D4390A4",
+      "title": "إدانات عربية واسعة لاستهداف مليشيا الحوثي محطة كهرباء تخدم المسجد النبوي - وكالة 2 ديسمبر الإخبارية",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T14:10:00Z",
+      "last_published": "2026-10-20T14:10:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "866a8d1afd842581cbbce4cb",
+          "title": "إدانات عربية واسعة لاستهداف مليشيا الحوثي محطة كهرباء تخدم المسجد النبوي - وكالة 2 ديسمبر الإخبارية",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE0wR0Eyc2V6MFUwVWtZWHFpWjZ4LVgzdTZIYzcyaHlpWGNBbzhhSWtaZkJXVVVBcWRpQjVaTlBScFJWa1doUXNpWGhrSQ?oc=5",
+          "source": "وكالة 2 ديسمبر الإخبارية",
+          "publisher_key": "وكالة 2 ديسمبر الإخبارية",
+          "provider": "عربي · الإمارات والبحرين",
+          "published_at": "2026-10-20T14:10:00Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T16:50:50.754226Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Yemen"
+        }
+      ],
+      "coverage_stage": "recent-coverage",
+      "coverage_first_published_at": "2026-10-20T14:10:00Z",
+      "coverage_last_published_at": "2026-10-20T14:10:00Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "6fbba28b9a1f328b1be8",
+      "revision": 4,
+      "updated_at": "2026-10-20T17:30:53.488659Z"
     },
     {
       "id": "GF-99BBFB46709728",
@@ -1818,7 +2377,7 @@
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0waUgtSlRWX3FOZEFhVWlvemhWVmhaSmJJb3E2bHJUQ3dIWmZKY1BSNXc5QzAtY1BiMGlhWHpsRFlCbHowVmFheTBlVkllczBpcXhjSUlubG4xTmc?oc=5",
           "source": "BBC",
           "publisher_key": "bbc",
-          "provider": "Google News · missiles/drones",
+          "provider": "Google News · security",
           "published_at": "2026-10-20T13:54:35Z",
           "date_quality": "publisher-time",
           "first_seen_at": "2026-10-20T13:30:10.274301Z",
@@ -1836,9 +2395,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "e32c5cc63dad0df3d9df",
-      "revision": 3,
-      "updated_at": "2026-10-20T16:52:31.264495Z"
+      "digest": "b8e63bda725802d7db17",
+      "revision": 4,
+      "updated_at": "2026-10-20T17:30:53.488659Z"
     },
     {
       "id": "GF-34F9A53F6612C2",
@@ -2625,6 +3184,63 @@
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
+      "id": "GF-83C22D000CB039",
+      "title": "UK to send jets to defend Saudi Arabia from Houthi attacks, and other Mideast news - Boston Herald",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T12:49:17Z",
+      "last_published": "2026-10-20T12:49:17Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "3c9ccf683acc333186bddd7e",
+          "title": "UK to send jets to defend Saudi Arabia from Houthi attacks, and other Mideast news - Boston Herald",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTE1pd3c1amdJRUZHWnY5eFpmdnFCNnhudVVKdWczQUdiTDFZeWxMb1hwWXZZRS01MTRsYUlqUmstbEhoQW11WGJBOGVGS3pJc0szVDFrZkZKX2pBVm5Dd1BYTmhFMnBxUUZPaDJTMHdvYTdIVzU0R3NHSUxwVnR5TjB2WFZITVBQWGl3?oc=5",
+          "source": "Boston Herald",
+          "publisher_key": "boston herald",
+          "provider": "Google News · security",
+          "published_at": "2026-10-20T12:49:17Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T17:30:36.865670Z",
+          "collected_at": null,
+          "language": "en",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "recent-coverage",
+      "coverage_first_published_at": "2026-10-20T12:49:17Z",
+      "coverage_last_published_at": "2026-10-20T12:49:17Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "7e08185cc14958f55de1",
+      "revision": 1,
+      "updated_at": "2026-10-20T17:30:53.488659Z"
+    },
+    {
       "id": "GF-0CE906BCB94619",
       "title": "The UK expands military support for Saudi Arabia against Houthis to include 'defensive' air patrols - Castanet",
       "category": "security",
@@ -2733,6 +3349,63 @@
       "digest": "c45d221518ef845a5c7e",
       "revision": 2,
       "updated_at": "2026-10-20T16:52:31.264495Z"
+    },
+    {
+      "id": "GF-C11ECF9DCF97BC",
+      "title": "UK to deploy Typhoon jets to help defend Saudi Arabia from Houthi attacks - Al Jazeera",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T12:28:42Z",
+      "last_published": "2026-10-20T12:28:42Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "9808712a06b950fad8fbd004",
+          "title": "UK to deploy Typhoon jets to help defend Saudi Arabia from Houthi attacks - Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUW44eVNLWEJDZ0RWZlFHRU12X1hjMG5mc19fblh1Y2thMW1BYVNVSTdvQW1GUkVLVGRJQ3g2M0FJcVUwTUdyejZiTHlEZlU4emlUVTdhUDN3bFdWV2MxcEpXSXZxdVdMRmlJbHB6Y00wNHVLelp5ZVZkZGF1N3gwdTUxbkVmLVpVdUR1VThBQ2V6SlVrVEpBMWIxQXY3emZVQzVnSHNQMVdLUk5rTGNja0gxNmPSAboBQVVfeXFMTnpQbk02YTFsR3U2MGRtcmgwUmQ4cHFHZE1DTktSQXE1UV8tNWhPWExwaHYtWkprLTNrTXU4YmtEaFJMekM4emFsVUUyUjhRT0Q0QzRuaC1NWHVpNmpfNGRpQzJRQkRmTzRhUExjaDJNSlRVcG9Rb2dmTnRSdVAweVJQOW9nMVlNRk50Q1YtWkU2aFVRXzZJUGJqZmdMWVNnSXJNU0p3Q3VETjNCS0RQOWtlOVE1T1huU3h3?oc=5",
+          "source": "Al Jazeera",
+          "publisher_key": "al-jazeera",
+          "provider": "Google News · security",
+          "published_at": "2026-10-20T12:28:42Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T17:30:36.865670Z",
+          "collected_at": null,
+          "language": "en",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "recent-coverage",
+      "coverage_first_published_at": "2026-10-20T12:28:42Z",
+      "coverage_last_published_at": "2026-10-20T12:28:42Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "fc56b630fd7d603a1314",
+      "revision": 1,
+      "updated_at": "2026-10-20T17:30:53.488659Z"
     },
     {
       "id": "GF-81D4DF2ABD8F6A",
@@ -6065,6 +6738,62 @@
       "digest": "f35c2f9857abd42e75ea",
       "revision": 2,
       "updated_at": "2026-10-20T16:52:31.264495Z"
+    },
+    {
+      "id": "GF-1B14AF4724D15B",
+      "title": "Iran vows to answer any US strike as Pakistan's Munir lands in Tehran - Türkiye Today",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T10:34:04Z",
+      "last_published": "2026-10-20T10:34:04Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "57791bcdb761d358969ac51f",
+          "title": "Iran vows to answer any US strike as Pakistan's Munir lands in Tehran - Türkiye Today",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdUhNbUZjNUxMVjh4d0VMY2dVT2lFa240dWZkWUFPelIwdlR1bG1zclBZcEVFSXpCcmdhOUgyV2xmTWw3MFZvX1hYWVNHZHh5dTVpaVhCV1RIQ0NpcVJSVnRWWWsxQ2J2aE5CYldYbGxVNl84c1J0UjBhVlNaQldkOVlTSGpFdkdsSmk4bjVHUzdnd0JSZEViallJR3hfYmZlbmN1aVNyWE9ZR09NTXJJaDdR?oc=5",
+          "source": "Türkiye Today",
+          "publisher_key": "türkiye today",
+          "provider": "Google News · security",
+          "published_at": "2026-10-20T10:34:04Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T17:30:36.865670Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Iran"
+        }
+      ],
+      "coverage_stage": "recent-coverage",
+      "coverage_first_published_at": "2026-10-20T10:34:04Z",
+      "coverage_last_published_at": "2026-10-20T10:34:04Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "036991823c8bad707ba3",
+      "revision": 1,
+      "updated_at": "2026-10-20T17:30:53.488659Z"
     },
     {
       "id": "GF-874D8A40B4CF10",
@@ -11769,63 +12498,6 @@
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
-      "id": "GF-EB4ADBA3FF937F",
-      "title": "البحرين تعلن اعتراض هجمات إيرانية جديدة.. والكويت تتصدى لصاروخين باليستيين وسط تصعيد أميركي-إيراني - الساحل الغربي",
-      "category": "security",
-      "topic": "interception",
-      "countries": [
-        "Bahrain",
-        "Iran"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "ar"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-19T21:58:54Z",
-      "last_published": "2026-10-19T21:58:54Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "c1138a2262b02b848c7569fe",
-          "title": "البحرين تعلن اعتراض هجمات إيرانية جديدة.. والكويت تتصدى لصاروخين باليستيين وسط تصعيد أميركي-إيراني - الساحل الغربي",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1hcEthLUFQRmFqekJvQkpzMDZNR3Q2MkJKdVVTbkVxRHZiVEdraW5Hb01TMWpDUm5wNDNFdFhqR0JxNlgzNEZ1eGMwc0dXeFE?oc=5",
-          "source": "الساحل الغربي",
-          "publisher_key": "الساحل الغربي",
-          "provider": "عربي · الإمارات والبحرين",
-          "published_at": "2026-10-19T21:58:54Z",
-          "date_quality": "publisher-time",
-          "first_seen_at": "2026-10-20T12:03:42.847208Z",
-          "collected_at": null,
-          "language": "ar",
-          "country": ""
-        }
-      ],
-      "coverage_stage": "recent-coverage",
-      "coverage_first_published_at": "2026-10-19T21:58:54Z",
-      "coverage_last_published_at": "2026-10-19T21:58:54Z",
-      "current_reporting": false,
-      "recent_publisher_count": 0,
-      "recent_article_count": 0,
-      "incident_status": "unknown",
-      "event_occurrence_verified": false,
-      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "eea39b3c23b0b4b36fc1",
-      "revision": 9,
-      "updated_at": "2026-10-20T16:52:56.058493Z"
-    },
-    {
       "id": "GF-A5770A06CD6844",
       "title": "Day 226 | At least two killed in attack on Riyadh airport - Roya News",
       "category": "security",
@@ -11992,64 +12664,6 @@
       "digest": "fe37e8bd3ae1f31507b1",
       "revision": 3,
       "updated_at": "2026-10-20T16:52:31.264495Z"
-    },
-    {
-      "id": "GF-16094BD5B10138",
-      "title": "السعودية والإمارات تدينان الهجمات الإيرانية على البحرين والكويت والأردن وتؤكدان دعمهما لأمن الدول الشقيقة - الساحل الغربي",
-      "category": "security",
-      "topic": "regional",
-      "countries": [
-        "Bahrain",
-        "Iran",
-        "Saudi"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "ar"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-19T21:42:52Z",
-      "last_published": "2026-10-19T21:42:52Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "6df264a43f4803d464219aca",
-          "title": "السعودية والإمارات تدينان الهجمات الإيرانية على البحرين والكويت والأردن وتؤكدان دعمهما لأمن الدول الشقيقة - الساحل الغربي",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBITGlFa05BRWUwWDUwVzhPWlZFaC1yQ0RmMUxpMXZLUF9neHYtZ0lmdFRmQk4ta0VWT1hRZ25YVFlRdENrajdBcTQ2OVdFYmM?oc=5",
-          "source": "الساحل الغربي",
-          "publisher_key": "الساحل الغربي",
-          "provider": "عربي · الإمارات والبحرين",
-          "published_at": "2026-10-19T21:42:52Z",
-          "date_quality": "publisher-time",
-          "first_seen_at": "2026-10-20T16:54:36.300300Z",
-          "collected_at": null,
-          "language": "ar",
-          "country": ""
-        }
-      ],
-      "coverage_stage": "recent-coverage",
-      "coverage_first_published_at": "2026-10-19T21:42:52Z",
-      "coverage_last_published_at": "2026-10-19T21:42:52Z",
-      "current_reporting": false,
-      "recent_publisher_count": 0,
-      "recent_article_count": 0,
-      "incident_status": "unknown",
-      "event_occurrence_verified": false,
-      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "efda49ef4733246c655b",
-      "revision": 1,
-      "updated_at": "2026-10-20T16:54:42.496904Z"
     },
     {
       "id": "GF-59345064D5A1D3",
@@ -14063,7 +14677,7 @@
           "country": "Yemen"
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-10-19T17:15:23Z",
       "coverage_last_published_at": "2026-10-19T17:15:23Z",
       "current_reporting": false,
@@ -14072,9 +14686,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "a266d2a767ebdad6e7d2",
-      "revision": 2,
-      "updated_at": "2026-10-20T16:52:31.264495Z"
+      "digest": "0d95c8954ddc83b10e4f",
+      "revision": 3,
+      "updated_at": "2026-10-20T17:30:53.488659Z"
     },
     {
       "id": "GF-9DD28F54E042F4",
@@ -15948,8 +16562,8 @@
       "languages": [
         "en"
       ],
-      "publisher_count": 7,
-      "report_count": 7,
+      "publisher_count": 8,
+      "report_count": 8,
       "first_published": "2026-10-19T13:45:55Z",
       "last_published": "2026-10-19T14:52:58Z",
       "event_occurred_at": null,
@@ -16040,6 +16654,20 @@
           "country": "Iran"
         },
         {
+          "id": "94a301c5db7a6faf93c620ca",
+          "title": "Iran's Araqchi blames US for Strait of Hormuz tensions, calls for diplomacy - Yahoo",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWm9LZjJVejViOVVzOV92emRDejZFT0JpV3dhMzBoMHBmVDZkU1hISmlkY3BnVmdXRDZONEctLWg5c0RGbmNFQTljamlCNzh3RmdLZzBqRHVWOXNjakdIelVXVEgxaHJvUEFJMWdYRnNCUDVWUWtERXpvcnhZWXpDUUFOalNmZHFnRkNPNFExdmM?oc=5",
+          "source": "Yahoo",
+          "publisher_key": "yahoo",
+          "provider": "Google News · diplomacy",
+          "published_at": "2026-10-19T14:17:29Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T17:30:36.865670Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Iran"
+        },
+        {
           "id": "d8f4635be227987b9007b44b",
           "title": "Iran's Araqchi blames US for Strait of Hormuz tensions, calls for diplomacy - Devdiscourse",
           "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOQnkzRWxFcm9GR0VibmdIbDFxU04ySWF6RDlxTTVMS1c3dWdNQlYyYkZWMnRvcXFSWFRSQmNvX29kd2xYMmNja1JMMjR4V2l0aWRjMVVob2FQT1pXbWhHWUY2cTJVLThraFNRZzU3WDlIclZhbWxnbmlxQURrS1JDX3pIdUUzZWc2MlUyeExSTkxkdHNKMExUS3MySjhHMTBydG1Xb0VDNklqRmRwMWp0enpqRFpCdG8wN3hhazJMM3hkSFJTbEtZbl93NlnSAdIBQVVfeXFMT1lhd0tLdXRfY25td0t3Q1lfWERjcVlpZWhDZ09SSTE4MTZQeFZzMzJUMEw4amJPOHRZVW1WRm9lbEt5ajRhZ0pVckpUOHIybWN5U0NIbUFRdG5abUdVX1AyVjRmQUdFbU12TzZ4ZUVuWHZqbUhMczU3clV2VmF0eHpsRVlGZEcyVVljUFNURXBGMGhKR0VzRzcyanRkb2RhLVF6ZFBBTXJFVUFHa2xnUldzWVBENkQxc190N3VVeUZQdkFMbDlkLTc4cXNNV1UzaGVB?oc=5",
@@ -16056,16 +16684,16 @@
       ],
       "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-10-19T13:45:55Z",
-      "coverage_last_published_at": "2026-10-19T13:45:55Z",
+      "coverage_last_published_at": "2026-10-19T14:17:29Z",
       "current_reporting": false,
       "recent_publisher_count": 0,
       "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "b5107f6d9349ae254dfa",
-      "revision": 2,
-      "updated_at": "2026-10-20T16:52:31.264495Z"
+      "digest": "583a5601596a067f0e2a",
+      "revision": 3,
+      "updated_at": "2026-10-20T17:30:53.488659Z"
     },
     {
       "id": "GF-FD6FC7E53C811E",
@@ -21660,62 +22288,6 @@
       "digest": "f51949f39a26135fcb01",
       "revision": 3,
       "updated_at": "2026-10-20T16:52:31.264495Z"
-    },
-    {
-      "id": "GF-B01B664D4390A4",
-      "title": "إدانات عربية واسعة لاستهداف مليشيا الحوثي محطة كهرباء تخدم المسجد النبوي - وكالة 2 ديسمبر الإخبارية",
-      "category": "security",
-      "topic": "regional",
-      "countries": [
-        "Yemen"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "ar"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-19T01:58:00Z",
-      "last_published": "2026-10-19T01:58:00Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "866a8d1afd842581cbbce4cb",
-          "title": "إدانات عربية واسعة لاستهداف مليشيا الحوثي محطة كهرباء تخدم المسجد النبوي - وكالة 2 ديسمبر الإخبارية",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE0wR0Eyc2V6MFUwVWtZWHFpWjZ4LVgzdTZIYzcyaHlpWGNBbzhhSWtaZkJXVVVBcWRpQjVaTlBScFJWa1doUXNpWGhrSQ?oc=5",
-          "source": "وكالة 2 ديسمبر الإخبارية",
-          "publisher_key": "وكالة 2 ديسمبر الإخبارية",
-          "provider": "عربي · الإمارات والبحرين",
-          "published_at": "2026-10-19T01:58:00Z",
-          "date_quality": "publisher-time",
-          "first_seen_at": "2026-10-20T16:50:50.754226Z",
-          "collected_at": null,
-          "language": "ar",
-          "country": "Yemen"
-        }
-      ],
-      "coverage_stage": "quiet-coverage",
-      "coverage_first_published_at": "2026-10-19T01:58:00Z",
-      "coverage_last_published_at": "2026-10-19T01:58:00Z",
-      "current_reporting": false,
-      "recent_publisher_count": 0,
-      "recent_article_count": 0,
-      "incident_status": "unknown",
-      "event_occurrence_verified": false,
-      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "28a2243aaad40fa0d8eb",
-      "revision": 3,
-      "updated_at": "2026-10-20T16:54:42.496904Z"
     },
     {
       "id": "GF-800369DBA9AB68",
@@ -46941,7 +47513,7 @@
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
-      "id": "GF-42779DD2800A63",
+      "id": "GF-16094BD5B10138",
       "title": "السعودية والإمارات تدينان الهجمات الإيرانية على البحرين والكويت والأردن وتؤكدان دعمهما لأمن الدول الشقيقة - الساحل الغربي",
       "category": "security",
       "topic": "regional",
@@ -46971,32 +47543,32 @@
       "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
       "sources": [
         {
-          "id": "132ee092ca863e76d14a2ef0",
+          "id": "6df264a43f4803d464219aca",
           "title": "السعودية والإمارات تدينان الهجمات الإيرانية على البحرين والكويت والأردن وتؤكدان دعمهما لأمن الدول الشقيقة - الساحل الغربي",
           "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBITGlFa05BRWUwWDUwVzhPWlZFaC1yQ0RmMUxpMXZLUF9neHYtZ0lmdFRmQk4ta0VWT1hRZ25YVFlRdENrajdBcTQ2OVdFYmM?oc=5",
           "source": "الساحل الغربي",
           "publisher_key": "الساحل الغربي",
           "provider": "عربي · الإمارات والبحرين",
           "published_at": "2026-10-16T03:25:46Z",
-          "date_quality": "legacy-unverified",
-          "first_seen_at": "2026-10-20T12:00:32.516927Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T16:54:36.300300Z",
           "collected_at": null,
           "language": "ar",
           "country": ""
         }
       ],
-      "coverage_stage": "publication-time-unknown",
-      "coverage_last_published_at": null,
-      "coverage_first_published_at": null,
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-16T03:25:46Z",
+      "coverage_last_published_at": "2026-10-16T03:25:46Z",
       "current_reporting": false,
       "recent_publisher_count": 0,
       "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
-      "lifecycle_note": "Original publication time unavailable. No event status inferred.",
-      "digest": "1ea8ba8d0e4f29abaee8",
-      "revision": 3,
-      "updated_at": "2026-10-20T16:52:31.264495Z"
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "958e3f0a4184cbfda211",
+      "revision": 2,
+      "updated_at": "2026-10-20T17:30:53.488659Z"
     },
     {
       "id": "GF-2754D409258FEA",
@@ -64535,6 +65107,63 @@
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
+      "id": "GF-EB4ADBA3FF937F",
+      "title": "البحرين تعلن اعتراض هجمات إيرانية جديدة.. والكويت تتصدى لصاروخين باليستيين وسط تصعيد أميركي-إيراني - الساحل الغربي",
+      "category": "security",
+      "topic": "interception",
+      "countries": [
+        "Bahrain",
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-13T19:23:44Z",
+      "last_published": "2026-10-13T19:23:44Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "c1138a2262b02b848c7569fe",
+          "title": "البحرين تعلن اعتراض هجمات إيرانية جديدة.. والكويت تتصدى لصاروخين باليستيين وسط تصعيد أميركي-إيراني - الساحل الغربي",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1hcEthLUFQRmFqekJvQkpzMDZNR3Q2MkJKdVVTbkVxRHZiVEdraW5Hb01TMWpDUm5wNDNFdFhqR0JxNlgzNEZ1eGMwc0dXeFE?oc=5",
+          "source": "الساحل الغربي",
+          "publisher_key": "الساحل الغربي",
+          "provider": "عربي · الإمارات والبحرين",
+          "published_at": "2026-10-13T19:23:44Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T12:03:42.847208Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-13T19:23:44Z",
+      "coverage_last_published_at": "2026-10-13T19:23:44Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "207b3fccb9b952e69c64",
+      "revision": 10,
+      "updated_at": "2026-10-20T17:30:53.488659Z"
+    },
+    {
       "id": "GF-535D35AC374D48",
       "title": "Iran’s IRGC Navy threatens to sink US warships approaching Strait of Hormuz - Middle East Monitor",
       "category": "security",
@@ -65321,7 +65950,7 @@
           "country": "Saudi"
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-10-13T17:26:19Z",
       "coverage_last_published_at": "2026-10-13T17:26:19Z",
       "current_reporting": false,
@@ -65330,9 +65959,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "0b0cdca4cb696e977593",
-      "revision": 1,
-      "updated_at": "2026-10-20T16:54:18.863117Z"
+      "digest": "a6303d07c08d4e0f5d3a",
+      "revision": 2,
+      "updated_at": "2026-10-20T17:30:53.488659Z"
     },
     {
       "id": "GF-CB49508349041A",
@@ -65377,7 +66006,7 @@
           "country": "Saudi"
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-10-13T17:17:15Z",
       "coverage_last_published_at": "2026-10-13T17:17:15Z",
       "current_reporting": false,
@@ -65386,9 +66015,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "b4ce06a6236db6f5626b",
-      "revision": 2,
-      "updated_at": "2026-10-20T16:52:31.264495Z"
+      "digest": "2ecf4b91486e5a571ff4",
+      "revision": 3,
+      "updated_at": "2026-10-20T17:30:53.488659Z"
     },
     {
       "id": "GF-879E42C79BBBAB",
@@ -69966,18 +70595,18 @@
   ],
   "country_stats": {
     "Iran": {
-      "events": 423,
-      "reports": 466,
-      "security_coverage": 273,
+      "events": 428,
+      "reports": 472,
+      "security_coverage": 277,
       "transport_coverage": 90,
-      "sources": 205
+      "sources": 206
     },
     "Saudi": {
-      "events": 474,
-      "reports": 500,
-      "security_coverage": 366,
+      "events": 477,
+      "reports": 503,
+      "security_coverage": 369,
       "transport_coverage": 96,
-      "sources": 246
+      "sources": 248
     },
     "Qatar": {
       "events": 43,
@@ -69994,9 +70623,9 @@
       "sources": 41
     },
     "Bahrain": {
-      "events": 10,
-      "reports": 10,
-      "security_coverage": 8,
+      "events": 9,
+      "reports": 9,
+      "security_coverage": 7,
       "transport_coverage": 0,
       "sources": 6
     },
@@ -70022,11 +70651,11 @@
       "sources": 5
     },
     "Yemen": {
-      "events": 221,
-      "reports": 229,
-      "security_coverage": 209,
+      "events": 225,
+      "reports": 233,
+      "security_coverage": 213,
       "transport_coverage": 11,
-      "sources": 118
+      "sources": 120
     },
     "Israel": {
       "events": 54,
@@ -70045,20 +70674,124 @@
     "2026-10-09": 1,
     "2026-10-10": 1,
     "2026-10-12": 7,
-    "2026-10-13": 111,
+    "2026-10-13": 112,
     "2026-10-14": 139,
     "2026-10-15": 130,
     "2026-10-16": 126,
     "2026-10-17": 181,
     "2026-10-18": 143,
-    "2026-10-19": 192,
-    "2026-10-20": 195
+    "2026-10-19": 189,
+    "2026-10-20": 208
   },
   "revisions": [
     {
-      "id": "GF-B01B664D4390A4",
+      "id": "GF-D3E8CA268EF6C6",
+      "revision": 4,
+      "at": "2026-10-20T17:30:53.488659Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 2,
+      "new_source_count": 2
+    },
+    {
+      "id": "GF-E96B752204F855",
       "revision": 3,
-      "at": "2026-10-20T16:54:42.496904Z",
+      "at": "2026-10-20T17:30:53.488659Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-FCB4701521C63D",
+      "revision": 3,
+      "at": "2026-10-20T17:30:53.488659Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-B476C6ACE2154B",
+      "revision": 3,
+      "at": "2026-10-20T17:30:53.488659Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-66B39624186ABF",
+      "revision": 3,
+      "at": "2026-10-20T17:30:53.488659Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-D82E3ADF1CD582",
+      "revision": 3,
+      "at": "2026-10-20T17:30:53.488659Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-B01B664D4390A4",
+      "revision": 4,
+      "at": "2026-10-20T17:30:53.488659Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-4FBA1BDBA2302C",
+      "revision": 4,
+      "at": "2026-10-20T17:30:53.488659Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-4A33AA4EEFD1F6",
+      "revision": 3,
+      "at": "2026-10-20T17:30:53.488659Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-93868AD1B7E08C",
+      "revision": 3,
+      "at": "2026-10-20T17:30:53.488659Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 7,
+      "new_source_count": 8
+    },
+    {
+      "id": "GF-16094BD5B10138",
+      "revision": 2,
+      "at": "2026-10-20T17:30:53.488659Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-EB4ADBA3FF937F",
+      "revision": 10,
+      "at": "2026-10-20T17:30:53.488659Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-9470037E784F69",
+      "revision": 2,
+      "at": "2026-10-20T17:30:53.488659Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 2,
+      "new_source_count": 2
+    },
+    {
+      "id": "GF-CB49508349041A",
+      "revision": 3,
+      "at": "2026-10-20T17:30:53.488659Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1

@@ -1,7 +1,29 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-20T16:54:43.162149Z",
-  "alerts": [],
+  "generated_at": "2026-10-20T17:30:54.157367Z",
+  "alerts": [
+    {
+      "id": "GF-C3AAC6B01D4DBA",
+      "level": "review",
+      "title": "الحرس الثوري الإيراني: انفجار ناقلة نفط بعد اصطدامها بلغم بحري - المصري اليوم",
+      "published_at": "2026-10-20T17:20:00Z",
+      "countries": [
+        "Iran"
+      ],
+      "category": "security",
+      "topic": "regional",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "المصري اليوم",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9oNmVlMW1pa0FOVlI3dURzZVgtYm1jYTIwQVItaC1wYnhUOHBXejUycVUtNl9jdmpFSjI1b0FKUHlpVER3MVhZOXdndnIzTVJqTUpZSWxTd0gyb3B3MFRn?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    }
+  ],
   "new_alert_ids": [],
   "critical_count": 0,
   "notice": "CRITICAL REPORTING means multiple named outlets published related headlines. This is NOT confirmation, real-time detection or official emergency advice."
