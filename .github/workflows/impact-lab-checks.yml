@@ -1,0 +1,61 @@
+name: Impact Lab v12 quality gates
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'lab/**'
+      - 'assets/impact-lab*'
+      - 'assets/command11-core.js'
+      - 'scripts/impact_lab.py'
+      - 'scripts/test_impact_lab.py'
+      - 'scripts/test_impact_frontend.mjs'
+      - 'scripts/visual_check_lab.py'
+      - '.github/workflows/impact-lab-checks.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  offline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate no-false-causality and financial-data correctness
+        run: python scripts/test_impact_lab.py
+      - name: Validate browser graph, timeline, FRED and briefing modules
+        run: node scripts/test_impact_frontend.mjs
+      - name: Parse all Impact Lab scripts as JavaScript
+        run: |
+          node --check assets/impact-lab-render.js
+          node --check assets/impact-lab.js
+  browser:
+    needs: offline
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install Chromium browser test tools
+        run: |
+          python -m pip install playwright
+          python -m playwright install --with-deps chromium
+      - name: Run desktop, phone and tablet using isolated deterministic sources
+        run: |
+          python -m http.server 8765 --bind 127.0.0.1 >/tmp/gulfastra-impact-http.log 2>&1 &
+          sleep 2
+          LAB_BASE_URL=http://127.0.0.1:8765/lab/ python scripts/visual_check_lab.py
+      - name: Save screenshots for release review
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: impact-lab-v12-browser-evidence
+          path: visual-check/impact-lab-*.png
+          if-no-files-found: ignore
+          retention-days: 7
