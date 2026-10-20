@@ -132,7 +132,13 @@ with sync_playwright() as pw:
         page.on("pageerror",lambda err:errors.append(str(err)))
         page.goto(BASE,wait_until="domcontentloaded",timeout=60000)
         page.wait_for_function("Boolean(window.GXApp?.getState().loaded)",timeout=60000)
-        page.locator('[data-mobile="layers"]').click() if width<=430 else page.locator("#collapseLayers").click()
+        page.locator('[data-mobile="layers"]').click() if width<=430 else page.locator("#tabletLayersButton").click()
+        if width==768:
+            assert page.locator("#tabletLayersButton").get_attribute("aria-expanded")=="true"
+            page.wait_for_timeout(300)
+            assert page.evaluate("document.querySelector('#app').classList.contains('mobile-layers')")
+            page.locator("#collapseLayers").click()
+            assert page.locator("#tabletLayersButton").get_attribute("aria-expanded")=="false"
         if width<=430:
             page.wait_for_timeout(300)
             geometry=page.evaluate("""()=>{
