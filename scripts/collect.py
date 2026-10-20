@@ -4,6 +4,8 @@ Headlines are not independent confirmation of any reported event.
 """
 from __future__ import annotations
 from datetime import datetime, timezone, timedelta
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from time import monotonic
 from email.utils import parsedate_to_datetime
 from hashlib import sha256
 from pathlib import Path
@@ -71,7 +73,7 @@ IRRELEVANT = re.compile(r'\b(football|soccer|cricket|celebrity|wedding|recipe|mo
 
 def fetch(url):
     req = Request(url, headers={"User-Agent": UA, "Accept": "application/json, application/rss+xml, application/xml, text/xml"})
-    with urlopen(req, timeout=24) as response:
+    with urlopen(req, timeout=10) as response:
         return response.read(4_000_000)
 
 def published_date(value):
@@ -154,11 +156,11 @@ def record(title, link, published, outlet, provider, *, date_quality="publisher-
             "first_seen_at":TODAY.isoformat().replace("+00:00","Z"),
             "date_quality":date_quality,**quality}
 
-def add_rss(name, url, seen, statuses):
+def add_rss(name, url, seen, statuses, *, payload=None):
     attempted = 0
     accepted = 0
     try:
-        doc = ET.fromstring(fetch(url))
+        doc = ET.fromstring(payload if payload is not None else fetch(url))
         items = doc.findall(".//channel/item")
         # RSS 2.0 and Atom 1.0 both occur across official and publisher feeds.
         if not items:
@@ -193,6 +195,33 @@ def add_rss(name, url, seen, statuses):
         statuses[name] = {"ok":True,"items":attempted,"relevant":accepted}
     except Exception as exc:
         statuses[name] = {"ok":False,"error":str(exc)[:160]}
+
+def collect_rss_concurrently(feeds, seen, statuses):
+    """Fetch feeds concurrently, then parse/merge in deterministic configured order.
+
+    Five bounded workers replace up to 25 serial 24-second network waits.
+    A failing or slow endpoint cannot block every other public source.
+    """
+    if not feeds:
+        return
+    outcomes = {}
+    started = monotonic()
+    with ThreadPoolExecutor(max_workers=6, thread_name_prefix="rss") as pool:
+        futures = {pool.submit(fetch, url): name for name, url in feeds}
+        for future in as_completed(futures):
+            name = futures[future]
+            try:
+                outcomes[name] = (future.result(), None)
+            except Exception as exc:
+                outcomes[name] = (None, str(exc)[:160])
+    for name, url in feeds:
+        payload, error = outcomes[name]
+        if error:
+            statuses[name] = {"ok": False, "error": error, "state": "fetch-failed"}
+        else:
+            add_rss(name, url, seen, statuses, payload=payload)
+    print("News feeds:", len(feeds), "parallel RSS fetches in", round(monotonic()-started,1), "sec")
+
 
 def add_gdelt(seen, statuses):
     name = "GDELT · article index"
@@ -242,14 +271,15 @@ def main():
                 old["alert_eligible"]=False
             seen[old["id"]]=old
     statuses={}
+    planned=[]
     for name,query in FEEDS.items():
-        url="https://news.google.com/rss/search?"+urlencode({"q":query,"hl":"en-US","gl":"US","ceid":"US:en"})
-        add_rss(name,url,seen,statuses)
+        planned.append((name,"https://news.google.com/rss/search?"+urlencode(
+            {"q":query,"hl":"en-US","gl":"US","ceid":"US:en"})))
     for name,query in ARABIC_FEEDS.items():
-        url="https://news.google.com/rss/search?"+urlencode({"q":query,"hl":"ar","gl":"QA","ceid":"QA:ar"})
-        add_rss(name,url,seen,statuses)
-    for name,url in DIRECT_RSS.items():
-        add_rss(name,url,seen,statuses)
+        planned.append((name,"https://news.google.com/rss/search?"+urlencode(
+            {"q":query,"hl":"ar","gl":"QA","ceid":"QA:ar"})))
+    planned.extend(DIRECT_RSS.items())
+    collect_rss_concurrently(planned, seen, statuses)
     # GDELT has been returning HTTP 429. Probe at most twice per hour,
     # rather than rate-limiting the entire five-minute news collector.
     if TODAY.minute % 30 < 5:
@@ -283,8 +313,9 @@ def main():
     records=sorted(unique.values(),key=lambda x:x.get("published_at",""),reverse=True)[:2600]
     good=any(info.get("ok") for info in statuses.values())
     timestamp=TODAY.isoformat().replace("+00:00","Z")
-    output={"version":5,"last_run":timestamp,
+    output={"version":6,"last_run":timestamp,
             "last_successful_run":timestamp if good else archive.get("last_successful_run"),
+            "successful_sources":sum(x.get("ok") is True for x in statuses.values()),
             "reports":records,"providers":statuses,
             "notice":"Public news headlines only, not verified attacks. Approximate country reference markers. Provider errors are reported."}
     DEST.parent.mkdir(parents=True,exist_ok=True)
