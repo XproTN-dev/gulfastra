@@ -292,3 +292,32 @@ body[data-v9-palette="ember"] .map-stage .maplibregl-canvas{filter:brightness(.6
 .v9-tooltip span{font:600 10px/1.5 "DM Sans",sans-serif;color:var(--cmd-strong);overflow-wrap:anywhere}
 .v9-tooltip span:dir(rtl){text-align:right;font-family:Tahoma,Arial,sans-serif;font-size:12px}
 @media(max-width:640px){.v9-tooltip{display:none!important}}
+
+/* Command 09 stability and evidence readability */
+.v9-timeline-grid{display:flex;flex-direction:column;gap:8px;padding:8px 0}
+.v9-timeline-row{display:grid;grid-template-columns:78px minmax(20px,1fr) 35px;gap:10px;align-items:center;
+ font:700 9px "IBM Plex Mono",monospace;color:var(--cmd-dim)}
+.v9-timeline-row i{display:block;max-width:100%;height:11px;min-width:4px;background:var(--cmd-accent);
+ box-shadow:0 0 7px var(--cmd-glow);border-radius:1px}
+.v9-timeline-row b{text-align:right;color:var(--cmd-strong);font-weight:700}
+.v9-verify .v9-news-top{flex-wrap:wrap}
+.v9-verify-links{display:flex;gap:5px;flex-wrap:wrap;padding:8px 0 2px;border-top:1px dashed var(--cmd-line);
+ margin-top:8px;align-items:center}
+.v9-verify-links a{font:700 8px "IBM Plex Mono",monospace;border:1px solid var(--cmd-line);
+ padding:5px 7px;background:color-mix(in srgb,var(--cmd-accent) 8%,transparent);
+ color:var(--cmd-accent);text-decoration:none;max-width:100%;overflow-wrap:anywhere}
+.v9-verify-links a:hover{background:color-mix(in srgb,var(--cmd-accent) 20%,transparent)}
+.v9-verify-links span{color:var(--cmd-dim);font-size:8px}
+.v9-warning{color:var(--cmd-warn)!important;border-color:var(--cmd-warn)!important}
+.v9-panel-top{cursor:pointer}
+.v9-panel-close{cursor:pointer}
+.v9-panel-body :focus-visible{outline:1px solid var(--cmd-accent);outline-offset:1px}
+.v9-map-tools #v9Tile{color:var(--cmd-accent);border-top:1px solid var(--cmd-line);border-bottom:1px solid var(--cmd-line)}
+.v9-panel-footer, .v9-panel-foot{word-break:normal}
+.v9-panel-titlebar{touch-action:none}
+@media(max-width:640px){
+ .v9-map-tools #v9Tile{display:none}
+ .v9-panel{max-height:min(68dvh,480px)!important}
+ .v9-verify-links a{font-size:8px}
+ .v9-timeline-row{grid-template-columns:75px minmax(20px,1fr) 24px}
+}
