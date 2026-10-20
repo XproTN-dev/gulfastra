@@ -1,7 +1,7 @@
 {
   "version": 6,
-  "last_run": "2026-10-20T19:00:37.368110Z",
-  "last_successful_run": "2026-10-20T19:00:37.368110Z",
+  "last_run": "2026-10-20T19:02:19.804093Z",
+  "last_successful_run": "2026-10-20T19:02:19.804093Z",
   "successful_sources": 29,
   "reports": [
     {
@@ -136,6 +136,29 @@
       "tag": "SECURITY REPORT",
       "provider": "The Guardian · Middle East",
       "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "new-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "5aa658412de1008948ce747b",
+      "title": "Sea mine crisis re-emerges in Strait of Hormuz as Tehran urges Washington to accept deal - Fox News",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQXzg1ajJ2a0FBSjZYTTRqN0k4SnY5eHNxN2w5dmV5SEhTZDdkTFBQMHdiU0NjanRnZ1R2R3V1ZkFmNWZWZTNkZWhKX2xSaFNaQkRpTGJsNWlhWjBJXzJHVXBwcWw5Xzh4M1p5VDRTNGNvcmp4MFlTZWt5U0FVSGJRTUZ5TzNaTjVkMVI4QlBjTE5BN19faWZMUmVxZDV3T2ljWTVrTUF3bENuUdIBrwFBVV95cUxQUmtnOTFCdU1zZDlVZHduYWFMVGFzRWNRZWFiRDQyd3dFN2lFbUlCdmFQNnNxblBtZV9ZRjJnWkZyRHd4YmZISlRHUDZYUDg3LTdTTTk3WXpubWQxQzNTTTlxaUcwSGZlMzJsR2J5UmYzbzJOZS0tczRGUWJsdFdGRFZTblE5VHh4dlcwNFZwM1FZXzJZM0pCZk9jeUhWeXVKMUtGX2gtWmZUalQwUDJr?oc=5",
+      "source": "Fox News",
+      "published_at": "2026-10-20T18:26:18Z",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "language": "en",
+      "category": "transport",
+      "tag": "MARITIME REPORT",
+      "provider": "Google News · shipping",
+      "first_seen_at": "2026-10-20T19:02:19.804093Z",
       "date_quality": "publisher-time",
       "freshness": "new-reporting",
       "context": "reporting",
@@ -325,6 +348,30 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "405461a755de0b1c6719eb25",
+      "title": "التحالف: تدمير منصة إطلاق صواريخ استخدمتها ميليشيا الحوثي بالهجوم على الرياض - alyaum",
+      "url": "https://news.google.com/rss/articles/CBMigwZBVV95cUxNZnROWnpzSXFNdHROTlRkZWVHNHNnYXhZZEo5V0tvSnlhQ1pLS3E1Z2FqYVlBQ1lnWWE2SzcyanhvV1d3Y29veWlWVUc2RnE4cWlYdGtQTm9zSXZRQW9rOW1KbXFEY2YwYTNaTHIzZDBOaDBQYXJ2N0M4YUhjdEo3ZFdtSDRNZGZudEJnUGpQZVpMWEs5TG1uY3JPQm9oQXR1ZkYwdDJ4a2hsck9SXy1DV0kzbUV4bHZKYmRxd3Rad1otREZuYkNOMVRNc0NWMVBrc2lYWGplQ0drSDhmSDZyLXVpbDZJVll2TEVuWjR6ZEVJeTIwMkhhNGh0SFliTzBtRDhuZnJGNWcxd25NcFdPdU9CQ0hFVndBbHVnSnpRejI4Qi1HN01Fa1VJUEtlVU9nQVJjVVVXcExfcDBPNll0V2w1QTQwZ184d3p1andLM0c3ejlKclhOVzEtUFZxSTRjR0xaVm1QZEp1dUhsZk5ORkZSanpyWmZtZ0ZKSHVnT2VUMXp0eEhuM0R4dVYtYmFObHI1dGg5eTVDckRjVlJrekVpbW5pSjRVNEs3VG5OUVpEQXFqbVlhd0wxMUtZc1ExODZHZlVHczZPWkxTMDVwaGdCN21ralRnSGJOcWtDU3Byb19WeUFWVnM0OVBCeFJ2WThMNjBTV3NBdDZFcEsyLTN3cWl1bk1kaVBCODlyOWlkZmpSZ3NMZjBtb1dwcGZlU3oxd1g2QnQ0c0pnYmRMSmE1cDRRNGZuejFzQXY5aElNc2ZfQmNPbjVROHpPMl9SdWlpbU02Q3VzZUFMX3JEVnM2Q0hpT3g0LVA0a2FiSXd2cHNPN3ZMaUx3NmNjWVAyN1NjX21YOWlnckFkdkk4QVpjQzhLWFM5YUtkV1pDM1c3LW5MN285UmZLaVBRRzhnWlY0SFl5cExLRFAwLVFKMjdrWDh3b3FaUHlrc3MxRV84Z0F2TEYteC1rN2tKQTRRSS1ldGVSRVBsclc3b2tTbWk1endUUTJvdHhXN3VEZEFRYUnSAVNBVV95cUxNcXRNSk5YUWNGaE5GbUNPOFNPdlRuTXk0dkU2V2NXTHBqTmQtUVk0eG9aUlhydjE5c3pkc0ZDcVNxWHpwYzlZcFhCdmpDMkYxUmVWVQ?oc=5",
+      "source": "alyaum",
+      "published_at": "2026-10-20T17:35:00Z",
+      "country": "",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير عن صواريخ",
+      "provider": "عربي · السعودية",
+      "first_seen_at": "2026-10-20T19:02:19.804093Z",
+      "date_quality": "publisher-time",
+      "freshness": "new-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "acc1a29e04e2175f96fee993",
       "title": "French President Arrives in Doha for State Visit",
       "url": "https://qna.org.qa/en/News-Area/News/2026-10/20/french-president-arrives-in-doha-for-state-visit",
@@ -343,6 +390,29 @@
       "freshness": "new-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "ce4bee89dc3b17dec5ed28c6",
+      "title": "السعودية تعلن اعتراض وتدمير صاروخ باليستي أطلقه الحوثيون باتجاه الرياض - البوابة نيوز",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1SZjUyd2FrSFpzeWsyTTY2RDhqWnV3cFpaUWIxbmstWVMxeFB1WnhGZDVDODB3RERib3d0UllhMkhySHotTHpMZDB4OUc?oc=5",
+      "source": "البوابة نيوز",
+      "published_at": "2026-10-20T17:22:00Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "خبر اعتراض / دفاع جوي",
+      "provider": "عربي · السعودية",
+      "first_seen_at": "2026-10-20T19:02:19.804093Z",
+      "date_quality": "publisher-time",
+      "freshness": "new-reporting",
+      "context": "reporting",
+      "severity": "elevated-reporting",
       "critical_candidate": false,
       "alert_eligible": false,
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
@@ -1957,6 +2027,29 @@
       "freshness": "recent-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "bca806a3879f890840ecb488",
+      "title": "اضطرابات واسعة في حركة الطيران الدولية نحو السعودية عقب هجمات استهدفت مطار الرياض - جريدة القدس",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNaTNqZWpQTFVRX2FrcnBib2xEYlQ5d1p5ZXkyVmxiS01KTDJiOWFOZ1hWeXVKWmg4Y0NHYl9vd25lSVRrbGxfRWd1aS0tUnpmUEpJVVpEel82aV9FU2NqczRXN3JDcS00Y1NZXzZMdVo5WDFtTVpCaEFwbTUzUk5MUS1md0lPUHJsbnR3cllpcUQ?oc=5",
+      "source": "جريدة القدس",
+      "published_at": "2026-10-20T12:59:56Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير امني",
+      "provider": "عربي · قطر",
+      "first_seen_at": "2026-10-20T19:02:19.804093Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "elevated-reporting",
       "critical_candidate": false,
       "alert_eligible": false,
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
@@ -7111,7 +7204,7 @@
       "provider": "Google News · aviation",
       "first_seen_at": "2026-10-20T12:09:48.504938Z",
       "date_quality": "publisher-time",
-      "freshness": "recent-reporting",
+      "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
       "critical_candidate": false,
@@ -29180,6 +29273,29 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "bfcc92020f70c08339cb4c60",
+      "title": "واشنطن خسرت 82 مقاتلة ومسيّرة خلال حرب إيران! - نافذة العرب",
+      "url": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxPV055TDg1VS1INjh1Qmk0ei1sYkttZGc1YUNsekZhUVFMZFNoOWJLTXU1M3YwaTR2ZGJJTVNkQnZHZHNuaS1BbHUxeGZ1WlRlb2tHNUo0S2tUMlZINWJwMnpnbkpCQmhLU1BWTVRYeEVKMjYxYmM5bGF4aGlaT21oUWdSWkZwY1pSUDRqMHdzOHJQbE5ZTUFNRWtoZVQ5STBwajRxdkYwWUlaS2c2cERXUV9iNllMMExYUFF5aU04OFRoZHZKY05NM1cySXRKclFvczlnbXBTTGhTSXdNWFFZamQ5LU83dkFCZ0ZfODdlb29kbEJ3UHlMdWxPM1l4REh0Nl9QTDA2aGk3dUJjc3VfT09rczEyTVhEWHF1TDlmc3BVbXNwYzN0WVk4azhWVk41YjRLdTZRUUNiM1IyaGRJZDloWFl2bF9XQ0pQQ3JUMFp0MnhwY2h3?oc=5",
+      "source": "نافذة العرب",
+      "published_at": "2026-10-14T05:50:56Z",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير عن مسيرات",
+      "provider": "عربي · إيران والخليج",
+      "first_seen_at": "2026-10-20T19:02:19.804093Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "0ed48f9da602cdd11fab343d",
       "title": "معظمها تحول إلى خردة.. أمريكا خسرت 82 مقاتلة ومسيّرة خلال حرب إيران - Masrawy",
       "url": "https://news.google.com/rss/articles/CBMiqwRBVV95cUxQalJMUVpLZTREUC0tbXdVcjhMbFFJellEOHhXUGZhUy11bktrLXFXNGZoM0NOcVctalVWOVlNLWkwd2poRHJQbXpRRWRsUXBMb3FlS1d5d3hYS3IySmtCYi0ycm1ZdGpYMU5fYVI2WVM4T0d0eDV2T2xsQlV6SElBeXRFeEFzNEo5ZjJCSG5Pa0VtYVc4WGo1NUdrV2dQenBrN1plVjNqQjVrbHVTWDZuVkNuY1dJUzhpbUhlM0stNElYUjg5ZlZOS3drZ08yTTd4dnlEWUV3UV9FZDZ1aWdOLWlvY2F5NllBVjJQRnZBd1VUM1QzUkxrVEFoWHAxUDFrS1p4QVVobDVWOFpGXzIwbUZyRHJLcWMxUE0zN3ZrNjNJV1Q4aW5kR2NhaG5wVURkb1FubEVMWUREcXBybEQ2bWxFMGVnUzFWemVPWW03TzloWTRKTHRIc2dfTnlvNjgwS2xLRE1EUjMyR282U0szdXZJQ0N4cVl3QlNubWc3S0ZwR3NmaGt5WVJJcUFIdWJJWUgzOXJhSkRIcnpTRUFOUGV3Wm9XZUttalNOVlJPc05DbFVHbExLaWpXRUxtemt0anBqZW9pUlEyN1RvcGtOT0txanVZTjAxbW1FeGJMUmZKU0dSV3hJbTBNZVZsZFRBbF93Q3k5cXpRb1ZCZUk5THVmSUE4YVlZZGdsTXREMVZJN2lSQzFhME5Cekhwb0JDWGpEWVdlZEJrSWfSAbAEQVVfeXFMTTBsVWhLblJoZDF6blBFMnMtUkZ3a1cwQm1tRlRVdk93OHBiM3huci1VVjBPVXZtNEpIeUZmb052NTZEYXZpTmxiaGRiS1BGZ1F5c0dwOVlEY0N3OWMySTZpejFPclVzcFlaWXRISDdKU05LUVRmOEFmQ0J0QVo0UW1peHkzUWlpNGw1Y3pJSmtkbkF1Skktb0ZaZWZjZEtxMVFsaWRqSWxvaUJsWmR3R21yWTBqQXdtWlI4bzZ3a1dDNk5yTWtnLVU4WUswcmhyUkx6Y01wRGxoNl9SZk90bUxJbFdFeURVS0dzdXNBVGswZlVhZnFmWkVkUV9OdHB2WlJzV1FhSldWSGF5Tlc0NmZhWjVkOGEwbXBPY2dXMFlkdndtOURRNW1yZFkxZFhLT1RmRF9IejJudGM1b3B4RldBeHdRdmxsdTFRMktlcmxBWXhyZEE2M1RUQnJfMlJEVnRMME9KS1g5V3BXNEM3TTBLeTBib2xWdFJLNVBfYm1ZWXJoM1dqbEVaQVBaZFdESVJDdEJud09pdGsxWGdhV3c4cDE0TDFQeEZMR2VTS1dZX181Yy1TYkRKMkEwamNacEZNa2xtZzJod0VhTHB3bml6Q3R4S19yaHNzdzlvNUp4Yk5FQXktbjE2LVg2M2MxV1JGckN0bmYyY0xEWU9HT19ZUGtNTTE3YTlsRTBsVnJyWEdINk01b1lhTkU1bUlQUU5FeVBuaHR3UzVIMnctc3A?oc=5",
@@ -33126,17 +33242,17 @@
     "Google News · missiles/drones": {
       "ok": true,
       "items": 100,
-      "relevant": 79
+      "relevant": 78
     },
     "Google News · security": {
       "ok": true,
       "items": 100,
-      "relevant": 75
+      "relevant": 74
     },
     "Google News · aviation": {
       "ok": true,
-      "items": 88,
-      "relevant": 82
+      "items": 89,
+      "relevant": 83
     },
     "Google News · shipping": {
       "ok": true,
@@ -33150,7 +33266,7 @@
     },
     "Google News · regional": {
       "ok": true,
-      "items": 55,
+      "items": 54,
       "relevant": 29
     },
     "Reuters · indexed Gulf reporting": {
@@ -33161,11 +33277,11 @@
     "AP · indexed Gulf reporting": {
       "ok": true,
       "items": 100,
-      "relevant": 30
+      "relevant": 29
     },
     "UKMTO · indexed official advisories": {
       "ok": true,
-      "items": 11,
+      "items": 10,
       "relevant": 0
     },
     "US State Dept · indexed advisories": {
@@ -33175,33 +33291,33 @@
     },
     "عربي · إيران والخليج": {
       "ok": true,
-      "items": 51,
-      "relevant": 39
+      "items": 52,
+      "relevant": 40
     },
     "عربي · قطر": {
       "ok": true,
       "items": 56,
-      "relevant": 23
+      "relevant": 24
     },
     "عربي · السعودية": {
       "ok": true,
       "items": 100,
-      "relevant": 51
+      "relevant": 52
     },
     "عربي · الإمارات والبحرين": {
       "ok": true,
-      "items": 65,
-      "relevant": 47
+      "items": 27,
+      "relevant": 21
     },
     "عربي · الكويت والعراق": {
       "ok": true,
-      "items": 52,
-      "relevant": 49
+      "items": 50,
+      "relevant": 47
     },
     "عربي · مضيق هرمز": {
       "ok": true,
       "items": 100,
-      "relevant": 77
+      "relevant": 76
     },
     "عربي · الجزيرة": {
       "ok": true,
@@ -33211,7 +33327,7 @@
     "عربي · العربية": {
       "ok": true,
       "items": 100,
-      "relevant": 36
+      "relevant": 37
     },
     "عربي · الشرق": {
       "ok": true,
@@ -33221,7 +33337,7 @@
     "عربي · وكالات الخليج": {
       "ok": true,
       "items": 100,
-      "relevant": 30
+      "relevant": 31
     },
     "الجزيرة نت · RSS عربي": {
       "ok": true,
@@ -33236,7 +33352,7 @@
     "Al Jazeera RSS": {
       "ok": true,
       "items": 25,
-      "relevant": 1
+      "relevant": 0
     },
     "France 24 · Middle East": {
       "ok": true,

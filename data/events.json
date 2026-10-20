@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "generated_at": "2026-10-20T19:00:55.196262Z",
+  "generated_at": "2026-10-20T19:02:38.488482Z",
   "model": "deterministic-source-correlation-v2-coverage-lifecycle",
   "disclaimer": "Clusters are related PUBLIC REPORTS, not confirmed incidents. Source counts are not proof. Country names are mentions, not incident locations.",
   "events": [
@@ -341,6 +341,62 @@
       "digest": "06dff7dcd4a17aa04518",
       "revision": 3,
       "updated_at": "2026-10-20T18:37:10.035045Z"
+    },
+    {
+      "id": "GF-34061D05076347",
+      "title": "Sea mine crisis re-emerges in Strait of Hormuz as Tehran urges Washington to accept deal - Fox News",
+      "category": "transport",
+      "topic": "maritime",
+      "countries": [
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T18:26:18Z",
+      "last_published": "2026-10-20T18:26:18Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "5aa658412de1008948ce747b",
+          "title": "Sea mine crisis re-emerges in Strait of Hormuz as Tehran urges Washington to accept deal - Fox News",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQXzg1ajJ2a0FBSjZYTTRqN0k4SnY5eHNxN2w5dmV5SEhTZDdkTFBQMHdiU0NjanRnZ1R2R3V1ZkFmNWZWZTNkZWhKX2xSaFNaQkRpTGJsNWlhWjBJXzJHVXBwcWw5Xzh4M1p5VDRTNGNvcmp4MFlTZWt5U0FVSGJRTUZ5TzNaTjVkMVI4QlBjTE5BN19faWZMUmVxZDV3T2ljWTVrTUF3bENuUdIBrwFBVV95cUxQUmtnOTFCdU1zZDlVZHduYWFMVGFzRWNRZWFiRDQyd3dFN2lFbUlCdmFQNnNxblBtZV9ZRjJnWkZyRHd4YmZISlRHUDZYUDg3LTdTTTk3WXpubWQxQzNTTTlxaUcwSGZlMzJsR2J5UmYzbzJOZS0tczRGUWJsdFdGRFZTblE5VHh4dlcwNFZwM1FZXzJZM0pCZk9jeUhWeXVKMUtGX2gtWmZUalQwUDJr?oc=5",
+          "source": "Fox News",
+          "publisher_key": "fox news",
+          "provider": "Google News · shipping",
+          "published_at": "2026-10-20T18:26:18Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T19:02:19.804093Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Iran"
+        }
+      ],
+      "coverage_stage": "new-coverage",
+      "coverage_first_published_at": "2026-10-20T18:26:18Z",
+      "coverage_last_published_at": "2026-10-20T18:26:18Z",
+      "current_reporting": true,
+      "recent_publisher_count": 1,
+      "recent_article_count": 1,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "538fe63e868875e0298e",
+      "revision": 1,
+      "updated_at": "2026-10-20T19:02:38.488482Z"
     },
     {
       "id": "GF-23918DC8180906",
@@ -787,6 +843,63 @@
       "updated_at": "2026-10-20T18:37:57.466221Z"
     },
     {
+      "id": "GF-E180F19169B4CF",
+      "title": "التحالف: تدمير منصة إطلاق صواريخ استخدمتها ميليشيا الحوثي بالهجوم على الرياض - alyaum",
+      "category": "security",
+      "topic": "missile",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T17:35:00Z",
+      "last_published": "2026-10-20T17:35:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "405461a755de0b1c6719eb25",
+          "title": "التحالف: تدمير منصة إطلاق صواريخ استخدمتها ميليشيا الحوثي بالهجوم على الرياض - alyaum",
+          "url": "https://news.google.com/rss/articles/CBMigwZBVV95cUxNZnROWnpzSXFNdHROTlRkZWVHNHNnYXhZZEo5V0tvSnlhQ1pLS3E1Z2FqYVlBQ1lnWWE2SzcyanhvV1d3Y29veWlWVUc2RnE4cWlYdGtQTm9zSXZRQW9rOW1KbXFEY2YwYTNaTHIzZDBOaDBQYXJ2N0M4YUhjdEo3ZFdtSDRNZGZudEJnUGpQZVpMWEs5TG1uY3JPQm9oQXR1ZkYwdDJ4a2hsck9SXy1DV0kzbUV4bHZKYmRxd3Rad1otREZuYkNOMVRNc0NWMVBrc2lYWGplQ0drSDhmSDZyLXVpbDZJVll2TEVuWjR6ZEVJeTIwMkhhNGh0SFliTzBtRDhuZnJGNWcxd25NcFdPdU9CQ0hFVndBbHVnSnpRejI4Qi1HN01Fa1VJUEtlVU9nQVJjVVVXcExfcDBPNll0V2w1QTQwZ184d3p1andLM0c3ejlKclhOVzEtUFZxSTRjR0xaVm1QZEp1dUhsZk5ORkZSanpyWmZtZ0ZKSHVnT2VUMXp0eEhuM0R4dVYtYmFObHI1dGg5eTVDckRjVlJrekVpbW5pSjRVNEs3VG5OUVpEQXFqbVlhd0wxMUtZc1ExODZHZlVHczZPWkxTMDVwaGdCN21ralRnSGJOcWtDU3Byb19WeUFWVnM0OVBCeFJ2WThMNjBTV3NBdDZFcEsyLTN3cWl1bk1kaVBCODlyOWlkZmpSZ3NMZjBtb1dwcGZlU3oxd1g2QnQ0c0pnYmRMSmE1cDRRNGZuejFzQXY5aElNc2ZfQmNPbjVROHpPMl9SdWlpbU02Q3VzZUFMX3JEVnM2Q0hpT3g0LVA0a2FiSXd2cHNPN3ZMaUx3NmNjWVAyN1NjX21YOWlnckFkdkk4QVpjQzhLWFM5YUtkV1pDM1c3LW5MN285UmZLaVBRRzhnWlY0SFl5cExLRFAwLVFKMjdrWDh3b3FaUHlrc3MxRV84Z0F2TEYteC1rN2tKQTRRSS1ldGVSRVBsclc3b2tTbWk1endUUTJvdHhXN3VEZEFRYUnSAVNBVV95cUxNcXRNSk5YUWNGaE5GbUNPOFNPdlRuTXk0dkU2V2NXTHBqTmQtUVk0eG9aUlhydjE5c3pkc0ZDcVNxWHpwYzlZcFhCdmpDMkYxUmVWVQ?oc=5",
+          "source": "alyaum",
+          "publisher_key": "alyaum",
+          "provider": "عربي · السعودية",
+          "published_at": "2026-10-20T17:35:00Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T19:02:19.804093Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "new-coverage",
+      "coverage_first_published_at": "2026-10-20T17:35:00Z",
+      "coverage_last_published_at": "2026-10-20T17:35:00Z",
+      "current_reporting": true,
+      "recent_publisher_count": 1,
+      "recent_article_count": 1,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "1bfb9e0c993f8f1352ee",
+      "revision": 1,
+      "updated_at": "2026-10-20T19:02:38.488482Z"
+    },
+    {
       "id": "GF-006DD52E211E5A",
       "title": "French President Arrives in Doha for State Visit",
       "category": "diplomacy",
@@ -841,6 +954,92 @@
       "digest": "ec1b611f933b6eea7d00",
       "revision": 1,
       "updated_at": "2026-10-20T19:00:55.196262Z"
+    },
+    {
+      "id": "GF-A8526A2180EFE2",
+      "title": "السعودية تعلن اعتراض وتدمير صاروخ باليستي أطلقه الحوثيون باتجاه الرياض - البوابة نيوز",
+      "category": "security",
+      "topic": "interception",
+      "countries": [
+        "Saudi",
+        "UAE",
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "multi-publisher-unverified",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 3,
+      "report_count": 3,
+      "first_published": "2026-10-20T08:22:55Z",
+      "last_published": "2026-10-20T17:22:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "ce4bee89dc3b17dec5ed28c6",
+          "title": "السعودية تعلن اعتراض وتدمير صاروخ باليستي أطلقه الحوثيون باتجاه الرياض - البوابة نيوز",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1SZjUyd2FrSFpzeWsyTTY2RDhqWnV3cFpaUWIxbmstWVMxeFB1WnhGZDVDODB3RERib3d0UllhMkhySHotTHpMZDB4OUc?oc=5",
+          "source": "البوابة نيوز",
+          "publisher_key": "البوابة نيوز",
+          "provider": "عربي · السعودية",
+          "published_at": "2026-10-20T17:22:00Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T19:02:19.804093Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Saudi"
+        },
+        {
+          "id": "4c14be02dce7f51380888c9f",
+          "title": "السعودية: اعتراض وتدمير صاروخ باليستي أطلقته جماعة الحوثي باتجاه الرياض - الإمارات اليوم",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOOUNqWldWMDFscnBLRVNld3ZZSDZsMC1aTW5wcTFlQ0dTLVU1c19KLUluV253XzNON25EYWpDdmN0RGFRZC02dmNzSjlIM3VFOVBKazZROXJSZF9oV2ZfVk0td3o5S1F5MmNuU3hDS05oWnBNUUFxMGlmaGhkOF9YZXdKeFhvS2xCSDdr0gGLAUFVX3lxTE45Q2paV1YwMWxycEtFU2V3dllINmwwLVpNbnBxMWVDR1MtVTVzX0otSW5XbndfM043bkRhakN2Y3REYVFkLTZ2Y3NKOUgzdUU5UEprNlE5clJkX2hXZl9WTS13ejlLUXkyY25TeENLTmhacE1RQXEwaWZoaGQ4X1hld0p4WG9LbEJIN2s?oc=5",
+          "source": "الإمارات اليوم",
+          "publisher_key": "الإمارات اليوم",
+          "provider": "عربي · الإمارات والبحرين",
+          "published_at": "2026-10-20T09:15:46Z",
+          "date_quality": "legacy-unverified",
+          "first_seen_at": "2026-10-20T12:00:32.516927Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        },
+        {
+          "id": "6831324e2679549550438c0f",
+          "title": "مباشر - السعودية: التحالف يعلن اعتراض صاروخ بالستي أطلقه الحوثيون باتجاه الرياض",
+          "url": "https://www.france24.com/ar/%D8%A7%D9%84%D8%B4%D8%B1%D9%82-%D8%A7%D9%84%D8%A3%D9%88%D8%B3%D8%B7/20261020-%D9%85%D8%A8%D8%A7%D8%B4%D8%B1-%D8%AF%D9%88%D9%8A-%D8%A7%D9%86%D9%81%D8%AC%D8%A7%D8%B1-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6-%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A%D9%88%D9%86-%D8%A5%D8%B5%D8%AF%D8%A7%D8%B1-%D8%A5%D9%86%D8%B0%D8%A7%D8%B1-%D8%AE%D8%B7%D8%B1-%D8%A7%D9%84%D9%8A%D9%85%D9%86",
+          "source": "© أسوشيتد برس",
+          "publisher_key": "أسوشيتد برس",
+          "provider": "France 24 · الشرق الأوسط",
+          "published_at": "2026-10-20T08:22:55Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T12:01:49.547007Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Saudi"
+        }
+      ],
+      "coverage_stage": "renewed-coverage",
+      "coverage_first_published_at": "2026-10-20T08:22:55Z",
+      "coverage_last_published_at": "2026-10-20T17:22:00Z",
+      "current_reporting": true,
+      "recent_publisher_count": 1,
+      "recent_article_count": 1,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "eda2653b71b6c300c715",
+      "revision": 3,
+      "updated_at": "2026-10-20T19:02:38.488482Z"
     },
     {
       "id": "GF-C3AAC6B01D4DBA",
@@ -4651,6 +4850,62 @@
       "digest": "00742df2937d41a4b893",
       "revision": 2,
       "updated_at": "2026-10-20T16:52:31.264495Z"
+    },
+    {
+      "id": "GF-9AABB33E09F3E0",
+      "title": "اضطرابات واسعة في حركة الطيران الدولية نحو السعودية عقب هجمات استهدفت مطار الرياض - جريدة القدس",
+      "category": "security",
+      "topic": "aviation",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T12:59:56Z",
+      "last_published": "2026-10-20T12:59:56Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "bca806a3879f890840ecb488",
+          "title": "اضطرابات واسعة في حركة الطيران الدولية نحو السعودية عقب هجمات استهدفت مطار الرياض - جريدة القدس",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNaTNqZWpQTFVRX2FrcnBib2xEYlQ5d1p5ZXkyVmxiS01KTDJiOWFOZ1hWeXVKWmg4Y0NHYl9vd25lSVRrbGxfRWd1aS0tUnpmUEpJVVpEel82aV9FU2NqczRXN3JDcS00Y1NZXzZMdVo5WDFtTVpCaEFwbTUzUk5MUS1md0lPUHJsbnR3cllpcUQ?oc=5",
+          "source": "جريدة القدس",
+          "publisher_key": "جريدة القدس",
+          "provider": "عربي · قطر",
+          "published_at": "2026-10-20T12:59:56Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T19:02:19.804093Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Saudi"
+        }
+      ],
+      "coverage_stage": "recent-coverage",
+      "coverage_first_published_at": "2026-10-20T12:59:56Z",
+      "coverage_last_published_at": "2026-10-20T12:59:56Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "2ebe581c002d7e61877e",
+      "revision": 1,
+      "updated_at": "2026-10-20T19:02:38.488482Z"
     },
     {
       "id": "GF-8AA686BD8CB08E",
@@ -10049,64 +10304,6 @@
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
-      "id": "GF-E5E9BAB0FEFDDA",
-      "title": "السعودية: اعتراض وتدمير صاروخ باليستي أطلقته جماعة الحوثي باتجاه الرياض - الإمارات اليوم",
-      "category": "security",
-      "topic": "interception",
-      "countries": [
-        "Saudi",
-        "UAE",
-        "Yemen"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "ar"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-20T09:15:46Z",
-      "last_published": "2026-10-20T09:15:46Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "4c14be02dce7f51380888c9f",
-          "title": "السعودية: اعتراض وتدمير صاروخ باليستي أطلقته جماعة الحوثي باتجاه الرياض - الإمارات اليوم",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOOUNqWldWMDFscnBLRVNld3ZZSDZsMC1aTW5wcTFlQ0dTLVU1c19KLUluV253XzNON25EYWpDdmN0RGFRZC02dmNzSjlIM3VFOVBKazZROXJSZF9oV2ZfVk0td3o5S1F5MmNuU3hDS05oWnBNUUFxMGlmaGhkOF9YZXdKeFhvS2xCSDdr0gGLAUFVX3lxTE45Q2paV1YwMWxycEtFU2V3dllINmwwLVpNbnBxMWVDR1MtVTVzX0otSW5XbndfM043bkRhakN2Y3REYVFkLTZ2Y3NKOUgzdUU5UEprNlE5clJkX2hXZl9WTS13ejlLUXkyY25TeENLTmhacE1RQXEwaWZoaGQ4X1hld0p4WG9LbEJIN2s?oc=5",
-          "source": "الإمارات اليوم",
-          "publisher_key": "الإمارات اليوم",
-          "provider": "عربي · الإمارات والبحرين",
-          "published_at": "2026-10-20T09:15:46Z",
-          "date_quality": "legacy-unverified",
-          "first_seen_at": "2026-10-20T12:00:32.516927Z",
-          "collected_at": null,
-          "language": "ar",
-          "country": ""
-        }
-      ],
-      "coverage_stage": "publication-time-unknown",
-      "coverage_last_published_at": null,
-      "coverage_first_published_at": null,
-      "current_reporting": false,
-      "recent_publisher_count": 0,
-      "recent_article_count": 0,
-      "incident_status": "unknown",
-      "event_occurrence_verified": false,
-      "lifecycle_note": "Original publication time unavailable. No event status inferred.",
-      "digest": "9343e181869b276e7abf",
-      "revision": 2,
-      "updated_at": "2026-10-20T16:52:31.264495Z"
-    },
-    {
       "id": "GF-975453D2F798D7",
       "title": "الرئيس الأمريكي يكشف عن ان مفاوضاته مع روسيا تشمل الملف الإيراني - الشؤون السياسية - 19/10/2026 - وكالة الأنباء الكويتية",
       "category": "diplomacy",
@@ -10730,62 +10927,6 @@
       "event_occurrence_verified": false,
       "lifecycle_note": "Original publication time unavailable. No event status inferred.",
       "digest": "641c0127a7c9cded8b92",
-      "revision": 2,
-      "updated_at": "2026-10-20T16:52:31.264495Z"
-    },
-    {
-      "id": "GF-A8526A2180EFE2",
-      "title": "مباشر - السعودية: التحالف يعلن اعتراض صاروخ بالستي أطلقه الحوثيون باتجاه الرياض",
-      "category": "security",
-      "topic": "interception",
-      "countries": [
-        "Saudi"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "ar"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-20T08:22:55Z",
-      "last_published": "2026-10-20T08:22:55Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "6831324e2679549550438c0f",
-          "title": "مباشر - السعودية: التحالف يعلن اعتراض صاروخ بالستي أطلقه الحوثيون باتجاه الرياض",
-          "url": "https://www.france24.com/ar/%D8%A7%D9%84%D8%B4%D8%B1%D9%82-%D8%A7%D9%84%D8%A3%D9%88%D8%B3%D8%B7/20261020-%D9%85%D8%A8%D8%A7%D8%B4%D8%B1-%D8%AF%D9%88%D9%8A-%D8%A7%D9%86%D9%81%D8%AC%D8%A7%D8%B1-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6-%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A%D9%88%D9%86-%D8%A5%D8%B5%D8%AF%D8%A7%D8%B1-%D8%A5%D9%86%D8%B0%D8%A7%D8%B1-%D8%AE%D8%B7%D8%B1-%D8%A7%D9%84%D9%8A%D9%85%D9%86",
-          "source": "© أسوشيتد برس",
-          "publisher_key": "أسوشيتد برس",
-          "provider": "France 24 · الشرق الأوسط",
-          "published_at": "2026-10-20T08:22:55Z",
-          "date_quality": "publisher-time",
-          "first_seen_at": "2026-10-20T12:01:49.547007Z",
-          "collected_at": null,
-          "language": "ar",
-          "country": "Saudi"
-        }
-      ],
-      "coverage_stage": "recent-coverage",
-      "coverage_first_published_at": "2026-10-20T08:22:55Z",
-      "coverage_last_published_at": "2026-10-20T08:22:55Z",
-      "current_reporting": false,
-      "recent_publisher_count": 0,
-      "recent_article_count": 0,
-      "incident_status": "unknown",
-      "event_occurrence_verified": false,
-      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "a82a12b22fca7d44bdd0",
       "revision": 2,
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
@@ -68154,6 +68295,62 @@
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
+      "id": "GF-9CA17466B2D6F0",
+      "title": "واشنطن خسرت 82 مقاتلة ومسيّرة خلال حرب إيران! - نافذة العرب",
+      "category": "security",
+      "topic": "drone",
+      "countries": [
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-14T05:50:56Z",
+      "last_published": "2026-10-14T05:50:56Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "bfcc92020f70c08339cb4c60",
+          "title": "واشنطن خسرت 82 مقاتلة ومسيّرة خلال حرب إيران! - نافذة العرب",
+          "url": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxPV055TDg1VS1INjh1Qmk0ei1sYkttZGc1YUNsekZhUVFMZFNoOWJLTXU1M3YwaTR2ZGJJTVNkQnZHZHNuaS1BbHUxeGZ1WlRlb2tHNUo0S2tUMlZINWJwMnpnbkpCQmhLU1BWTVRYeEVKMjYxYmM5bGF4aGlaT21oUWdSWkZwY1pSUDRqMHdzOHJQbE5ZTUFNRWtoZVQ5STBwajRxdkYwWUlaS2c2cERXUV9iNllMMExYUFF5aU04OFRoZHZKY05NM1cySXRKclFvczlnbXBTTGhTSXdNWFFZamQ5LU83dkFCZ0ZfODdlb29kbEJ3UHlMdWxPM1l4REh0Nl9QTDA2aGk3dUJjc3VfT09rczEyTVhEWHF1TDlmc3BVbXNwYzN0WVk4azhWVk41YjRLdTZRUUNiM1IyaGRJZDloWFl2bF9XQ0pQQ3JUMFp0MnhwY2h3?oc=5",
+          "source": "نافذة العرب",
+          "publisher_key": "نافذة العرب",
+          "provider": "عربي · إيران والخليج",
+          "published_at": "2026-10-14T05:50:56Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T19:02:19.804093Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Iran"
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-14T05:50:56Z",
+      "coverage_last_published_at": "2026-10-14T05:50:56Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "45407644d4015ee91f08",
+      "revision": 1,
+      "updated_at": "2026-10-20T19:02:38.488482Z"
+    },
+    {
       "id": "GF-B8CAB28132C942",
       "title": "معظمها تحول إلى خردة.. أمريكا خسرت 82 مقاتلة ومسيّرة خلال حرب إيران - Masrawy",
       "category": "security",
@@ -77035,18 +77232,18 @@
   ],
   "country_stats": {
     "Iran": {
-      "events": 454,
-      "reports": 499,
-      "security_coverage": 290,
-      "transport_coverage": 96,
-      "sources": 208
+      "events": 456,
+      "reports": 501,
+      "security_coverage": 291,
+      "transport_coverage": 97,
+      "sources": 209
     },
     "Saudi": {
-      "events": 533,
-      "reports": 569,
-      "security_coverage": 419,
+      "events": 534,
+      "reports": 572,
+      "security_coverage": 420,
       "transport_coverage": 97,
-      "sources": 263
+      "sources": 265
     },
     "Qatar": {
       "events": 54,
@@ -77057,10 +77254,10 @@
     },
     "UAE": {
       "events": 68,
-      "reports": 71,
+      "reports": 73,
       "security_coverage": 46,
       "transport_coverage": 19,
-      "sources": 43
+      "sources": 45
     },
     "Bahrain": {
       "events": 9,
@@ -77091,11 +77288,11 @@
       "sources": 6
     },
     "Yemen": {
-      "events": 253,
-      "reports": 263,
-      "security_coverage": 241,
+      "events": 254,
+      "reports": 266,
+      "security_coverage": 242,
       "transport_coverage": 11,
-      "sources": 125
+      "sources": 128
     },
     "Israel": {
       "events": 58,
@@ -77115,158 +77312,22 @@
     "2026-10-10": 1,
     "2026-10-12": 7,
     "2026-10-13": 116,
-    "2026-10-14": 152,
+    "2026-10-14": 153,
     "2026-10-15": 146,
     "2026-10-16": 133,
     "2026-10-17": 186,
     "2026-10-18": 149,
     "2026-10-19": 208,
-    "2026-10-20": 250
+    "2026-10-20": 252
   },
   "revisions": [
     {
-      "id": "GF-C3B966DE5C7CDA",
-      "revision": 2,
-      "at": "2026-10-20T19:00:55.196262Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-9C2C1B17F64E42",
-      "revision": 2,
-      "at": "2026-10-20T19:00:55.196262Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-8BF483DBF51CE0",
-      "revision": 2,
-      "at": "2026-10-20T19:00:55.196262Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-47660984666F08",
-      "revision": 2,
-      "at": "2026-10-20T19:00:55.196262Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-BE5C54C101FA71",
-      "revision": 2,
-      "at": "2026-10-20T19:00:55.196262Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-08DB5D6F403545",
-      "revision": 2,
-      "at": "2026-10-20T19:00:55.196262Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 2
-    },
-    {
-      "id": "GF-14FE6602BB9047",
-      "revision": 4,
-      "at": "2026-10-20T19:00:55.196262Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-188F8318FA121B",
-      "revision": 2,
-      "at": "2026-10-20T19:00:55.196262Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-56E27E2D2EBDC3",
+      "id": "GF-A8526A2180EFE2",
       "revision": 3,
-      "at": "2026-10-20T19:00:55.196262Z",
+      "at": "2026-10-20T19:02:38.488482Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-93868AD1B7E08C",
-      "revision": 4,
-      "at": "2026-10-20T19:00:55.196262Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 8,
-      "new_source_count": 9
-    },
-    {
-      "id": "GF-23CE44EF9DCA45",
-      "revision": 3,
-      "at": "2026-10-20T19:00:55.196262Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-B173C8DF298128",
-      "revision": 3,
-      "at": "2026-10-20T19:00:55.196262Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-16094BD5B10138",
-      "revision": 10,
-      "at": "2026-10-20T19:00:55.196262Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-0B5147E1439EBF",
-      "revision": 4,
-      "at": "2026-10-20T19:00:55.196262Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-3581F2B64F3B71",
-      "revision": 4,
-      "at": "2026-10-20T19:00:55.196262Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 3,
-      "new_source_count": 4
-    },
-    {
-      "id": "GF-58682ABDDE355B",
-      "revision": 9,
-      "at": "2026-10-20T19:00:55.196262Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-510581F6AB38EB",
-      "revision": 2,
-      "at": "2026-10-20T19:00:55.196262Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 2
-    },
-    {
-      "id": "GF-EB4ADBA3FF937F",
-      "revision": 24,
-      "at": "2026-10-20T19:00:55.196262Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
+      "new_source_count": 3
     }
   ]
 }
