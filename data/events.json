@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "generated_at": "2026-10-20T10:48:18.703284Z",
+  "generated_at": "2026-10-20T10:53:17.800955Z",
   "model": "deterministic-source-correlation-v1",
   "disclaimer": "Clusters are related PUBLIC REPORTS, not confirmed incidents. Source counts are not proof. Country names are mentions, not incident locations.",
   "events": [
@@ -848,7 +848,7 @@
       "updated_at": "2026-10-20T10:12:39.488669Z"
     },
     {
-      "id": "GF-DA3AD6A9FB97FC",
+      "id": "GF-B63A8C198D701C",
       "title": "Saudi Arabia says it has intercepted a ballistic missile aimed at Riyadh - Middle East Eye",
       "category": "security",
       "topic": "interception",
@@ -858,7 +858,7 @@
       "location_quality": "country-mention",
       "confidence": null,
       "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
+      "corroboration": "repeated-publication",
       "cross_language_candidate": false,
       "wording_review": {
         "potentially_divergent_wording": false,
@@ -869,7 +869,7 @@
         "en"
       ],
       "publisher_count": 1,
-      "report_count": 1,
+      "report_count": 2,
       "first_published": "2026-10-20T09:04:00Z",
       "last_published": "2026-10-20T09:04:00Z",
       "event_occurred_at": null,
@@ -885,11 +885,22 @@
           "collected_at": null,
           "language": "en",
           "country": "Saudi"
+        },
+        {
+          "id": "25dd492dcb355744be4cdef5",
+          "title": "Saudi Arabia says it has intercepted a ballistic missile aimed at Riyadh - Middle East Eye",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZ2pkTS1Mb2Y1TlRLakw3cVZxUFV5d0pjMkppamQzUmNvRlJzX0JMOFotdUdwTnlrRGZ4Q1RwZG5aSkRCVDdkLUM3S2p4eWxwUmxrMUo0N3pKdnlYVDFEcUVyX3dfSHdWMXpqVzNhNUhwaFgyaEItd1YyYUFiTTBISHNyTEpMWWZCdk5LczBKa1U4RlBUdGlMRllDcmJvNVJiV0RBOVZtc184VGJpWWRULS05YlZ0YkpCN1dEOE4xRFcxZw?oc=5",
+          "source": "Middle East Eye",
+          "provider": "Google News · missiles/drones",
+          "published_at": "2026-10-20T09:04:00Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Saudi"
         }
       ],
-      "digest": "b942f00ae588326040f6",
+      "digest": "229a0ac97c4db4900bd9",
       "revision": 1,
-      "updated_at": "2026-10-20T10:12:39.488669Z"
+      "updated_at": "2026-10-20T10:53:17.800955Z"
     },
     {
       "id": "GF-69DA066BF6DE16",
@@ -5609,51 +5620,6 @@
       "updated_at": "2026-10-20T09:48:10.536726Z"
     },
     {
-      "id": "GF-B09D0E6ED840BC",
-      "title": "صواريخ ومسيرات إيرانية تستهدف البحرين والكويت والأردن.. والدفاعات الجوية تتصدى - الساحل الغربي",
-      "category": "security",
-      "topic": "missile",
-      "countries": [
-        "Bahrain",
-        "Iran"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "ar"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-19T16:18:43Z",
-      "last_published": "2026-10-19T16:18:43Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "02c49dcc3c7682d913adc079",
-          "title": "صواريخ ومسيرات إيرانية تستهدف البحرين والكويت والأردن.. والدفاعات الجوية تتصدى - الساحل الغربي",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE15VmNLVDgtRnRBRzRXaVowSlM1cTFRTEtwVGhhS0JoWVRpZ3FpdW1EZXZzdXN3SHcwNXVNV2s1N0tzMU9FYkZEZXFDWUlESWM?oc=5",
-          "source": "الساحل الغربي",
-          "provider": "عربي · الكويت والعراق",
-          "published_at": "2026-10-19T16:18:43Z",
-          "collected_at": null,
-          "language": "ar",
-          "country": ""
-        }
-      ],
-      "digest": "a3c5bf17afc190f70092",
-      "revision": 8,
-      "updated_at": "2026-10-20T10:18:19.020775Z"
-    },
-    {
       "id": "GF-03476150E89A5F",
       "title": "Riyadh Airport Reopens With Restrictions as Airline Suspensions Continue - Airways Magazine",
       "category": "transport",
@@ -7823,16 +7789,16 @@
           "title": "Naghdi: Iran’s Missile Sites and Strategic Reserves Remained Intact Despite Heavy Bombing - WANA News Agency",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWkdQQ1BVeFI3X0FOWklQWW00T2kwZHl3QmlxbTM5RDRmZEZoTy1RQVJtOGs3NGIyVmNoNDc4ZGJHeDZic05DVmozOWxoZHNSRDhmSlA4V01kSUtHQXBYOTBQLW5Vc09GdkF6dnJrOU12MlRHS2FIa0dURGROSTdZUlB6bTZfOGhsdVl4Sm5Mek00U3drQW9fdTVVN2dsdU1meGJlQjBRdjNKQU0?oc=5",
           "source": "WANA News Agency",
-          "provider": "Google News · missiles/drones",
+          "provider": "Google News · security",
           "published_at": "2026-10-19T11:42:35Z",
           "collected_at": null,
           "language": "en",
           "country": "Iran"
         }
       ],
-      "digest": "0d3b88e3454b24135d03",
-      "revision": 2,
-      "updated_at": "2026-10-20T07:40:58.957167Z"
+      "digest": "89f62886f3799bdcb25d",
+      "revision": 3,
+      "updated_at": "2026-10-20T10:53:17.800955Z"
     },
     {
       "id": "GF-D8C4AFD0138E13",
@@ -43857,6 +43823,51 @@
       "updated_at": "2026-10-20T07:40:58.957167Z"
     },
     {
+      "id": "GF-B09D0E6ED840BC",
+      "title": "صواريخ ومسيرات إيرانية تستهدف البحرين والكويت والأردن.. والدفاعات الجوية تتصدى - الساحل الغربي",
+      "category": "security",
+      "topic": "missile",
+      "countries": [
+        "Bahrain",
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-13T13:09:10Z",
+      "last_published": "2026-10-13T13:09:10Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "02c49dcc3c7682d913adc079",
+          "title": "صواريخ ومسيرات إيرانية تستهدف البحرين والكويت والأردن.. والدفاعات الجوية تتصدى - الساحل الغربي",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE15VmNLVDgtRnRBRzRXaVowSlM1cTFRTEtwVGhhS0JoWVRpZ3FpdW1EZXZzdXN3SHcwNXVNV2s1N0tzMU9FYkZEZXFDWUlESWM?oc=5",
+          "source": "الساحل الغربي",
+          "provider": "عربي · الكويت والعراق",
+          "published_at": "2026-10-13T13:09:10Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "digest": "ff05e38278ac4b0f174e",
+      "revision": 9,
+      "updated_at": "2026-10-20T10:53:17.800955Z"
+    },
+    {
       "id": "GF-4BCF1CEDA6EA75",
       "title": "تحالف دعم الشرعية في اليمن يعلن اعتراض وتدمير ثلاث مسيرات شمالي الرياض - https://emirates24.net/",
       "category": "security",
@@ -45501,7 +45512,7 @@
     },
     "Saudi": {
       "events": 323,
-      "reports": 346,
+      "reports": 347,
       "security_coverage": 225,
       "transport_coverage": 84,
       "sources": 168
@@ -45568,28 +45579,28 @@
     "2026-09-04": 1,
     "2026-10-02": 1,
     "2026-10-12": 1,
-    "2026-10-13": 102,
+    "2026-10-13": 103,
     "2026-10-14": 125,
     "2026-10-15": 112,
     "2026-10-16": 105,
     "2026-10-17": 172,
     "2026-10-18": 132,
-    "2026-10-19": 180,
+    "2026-10-19": 179,
     "2026-10-20": 74
   },
   "revisions": [
     {
-      "id": "GF-C32BA3A5E3B98D",
+      "id": "GF-FD73FA11DFF465",
       "revision": 3,
-      "at": "2026-10-20T10:48:18.703284Z",
+      "at": "2026-10-20T10:53:17.800955Z",
       "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
+      "previous_source_count": 2,
+      "new_source_count": 2
     },
     {
-      "id": "GF-2CB4FE1D7349B4",
-      "revision": 2,
-      "at": "2026-10-20T10:48:18.703284Z",
+      "id": "GF-B09D0E6ED840BC",
+      "revision": 9,
+      "at": "2026-10-20T10:53:17.800955Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
