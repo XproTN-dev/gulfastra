@@ -1,8 +1,8 @@
 {
   "version": 6,
-  "last_run": "2026-10-20T16:53:23.944920Z",
-  "last_successful_run": "2026-10-20T16:53:23.944920Z",
-  "successful_sources": 23,
+  "last_run": "2026-10-20T16:53:44.872710Z",
+  "last_successful_run": "2026-10-20T16:53:44.872710Z",
+  "successful_sources": 24,
   "reports": [
     {
       "id": "c6bb33de20283d18d8149d6a",
@@ -17099,6 +17099,30 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "15169afae397081e73a149e4",
+      "title": "Why Does Saudi Arabia Struggle to Stop Houthi Attacks? - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQVlGa1lUdkZRb3JRU3NWRS1jeExIdWIzZDVWLU1sZW0tdlp6a25TMHpmUUluOUFUS3A2UGN4NFdRM1A4WlQ2ejctSmhUQm9jR051Wml3cG1qaFZoX0N0SDRFNHN6YWlNUTZIUlpVS0g1UnhVc1BQVkdWUHRXSWJZVlphX2dVV3RtdUZFRWhiSzhsaXFPbjhoZnNiS0VFbEE?oc=5",
+      "source": "The New York Times",
+      "published_at": "2026-10-17T04:07:23Z",
+      "country": "",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · security",
+      "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "9d71be67cec1e535a1c1ff8e",
       "title": "مستوى قياسي لهجمات السفن في هرمز.. وإيران تؤكد سيطرتها عليه - عربي21",
       "url": "https://news.google.com/rss/articles/CBMi1gNBVV95cUxNRjRjOUFINmFKMHFNcU1JbGpKSVl0YktBb0NFWHJSWmxnejlCOHFtVzE3LXJ4b3NhV2RXZkp3VUJXV3FLNEh1VGZ0SlJrdVZvUHBFRk1yZF9jTHFPcjJ0YTZaTkxjVUFocEhMMzhaaUJDcGVDX0hqZTVLR2QtTzdnM3JCVkszMThDWlVZczc4R1BfLVFqLWt4YllTMkxuRmk4dFVuSndSOGtjd0hRbklfdm4zNFpFYlZwcDFqRFlNbHM4LVNETldFWDY4OWs2M0Ewd0hOaGNiZzhZYmhFRWt3eVVRR3JxamR3RFl6RFRZRjczMW5IMURpU3VhR0Z3U0ZhNk14aHZmVG1QdDdjSDZNMHp0NWZfc2Uwd21YUEFpaVlSRTlKMzR1dU5kS0pFNjg2VmRack5ZWnVuNWJIZ2hud2duUU0yU2k4WkMzb2x1Ql9PdV9KVDEwLXNDVV91WGVZc1VBdFlUbjJ6YmVZaUFrVXY5TjEzQUhldGlKMTlrdEFsU1QtMHhobG9GSXhpTTNzRzFoTXpkbFhBbmRUNXNFRk1ValRweWFfQTZUNzlub2dZeE9oWWJPYTc2V0JvZ1IxTU13NklGRnFwU0VOckIwYmRvWUVkUdIB2gNBVV95cUxNeTQ3UFdQZzhlX1RPcks4bjk5M01OR0VJb2JaWUdIN1NQRUx2X08yd2tKbDY1eWNMd0tmYzlDTDhzcGVkaGhnS3d3dGwtNDVtYWdGSWRzNGx2cVA1XzRETVNacXl2aTJCSFF0TEgxbzVQU1RBeFJKbFE2c214cnE1RnpQMWpLdVh3VXFVaVppWElkMlY1Mmt3WmhKTkd6M1RTeC1qOVVRNXVEQ1dhLVl2MVRkRTZVSTE0OGhSTEhUQmFsY244cVFmRDJNRENUM3hmVm53NGR1Y0pyQm5QeU13eUVrYmFrM2g5VEh4TUJ1OGd1WWhsUUMxX1FYN01BQzBNb0FqcXo0RWxXS05jZWEyejB2SWNhZUVNOU5idDRKM3kwNzRYSGExVE1JdjZaNDktcnZPRnl6eFlCOHZFLV9qQXNVbndfTlpJakc2d1laem9PUm5oVmVTazI2RDRIVE41Ulc1cXlDejhqUDNySlRYQlp6VGtiTG5aNndnRGhGSW9kVVNFNTVmOVVxR1ZNd2wxM1Y3eDVWbjA3WGJBQ18xcXM0T0JmeHBBVG9YalNEZVRVaDFVYmI3OXRBaXI2UlN5ZEFVaGltbllPTy1YSTdrejJ3SVhTcG53dXc?oc=5",
@@ -23315,30 +23339,6 @@
       "language": "en",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
-      "freshness": "older-reporting",
-      "context": "reporting",
-      "severity": "routine-reporting",
-      "critical_candidate": false,
-      "alert_eligible": false,
-      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
-    },
-    {
-      "id": "15169afae397081e73a149e4",
-      "title": "Why Does Saudi Arabia Struggle to Stop Houthi Attacks? - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQVlGa1lUdkZRb3JRU3NWRS1jeExIdWIzZDVWLU1sZW0tdlp6a25TMHpmUUluOUFUS3A2UGN4NFdRM1A4WlQ2ejctSmhUQm9jR051Wml3cG1qaFZoX0N0SDRFNHN6YWlNUTZIUlpVS0g1UnhVc1BQVkdWUHRXSWJZVlphX2dVV3RtdUZFRWhiSzhsaXFPbjhoZnNiS0VFbEE?oc=5",
-      "source": "The New York Times",
-      "published_at": "2026-10-15T04:01:10Z",
-      "country": "",
-      "countries": [
-        "Saudi",
-        "Yemen"
-      ],
-      "language": "en",
-      "category": "security",
-      "tag": "SECURITY REPORT",
-      "provider": "Google News · security",
-      "first_seen_at": "2026-10-20T12:09:48.504938Z",
-      "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -29889,7 +29889,7 @@
     "Google News · missiles/drones": {
       "ok": true,
       "items": 100,
-      "relevant": 74
+      "relevant": 75
     },
     "Google News · security": {
       "ok": true,
@@ -29898,8 +29898,8 @@
     },
     "Google News · aviation": {
       "ok": true,
-      "items": 92,
-      "relevant": 85
+      "items": 91,
+      "relevant": 84
     },
     "Google News · shipping": {
       "ok": true,
@@ -29909,7 +29909,7 @@
     "Google News · diplomacy": {
       "ok": true,
       "items": 100,
-      "relevant": 50
+      "relevant": 51
     },
     "Google News · regional": {
       "ok": true,
@@ -29918,13 +29918,13 @@
     },
     "عربي · إيران والخليج": {
       "ok": true,
-      "items": 52,
+      "items": 53,
       "relevant": 41
     },
     "عربي · قطر": {
       "ok": true,
-      "items": 55,
-      "relevant": 26
+      "items": 56,
+      "relevant": 25
     },
     "عربي · السعودية": {
       "ok": true,
@@ -29938,13 +29938,13 @@
     },
     "عربي · الكويت والعراق": {
       "ok": true,
-      "items": 52,
-      "relevant": 49
+      "items": 51,
+      "relevant": 48
     },
     "عربي · مضيق هرمز": {
       "ok": true,
       "items": 100,
-      "relevant": 76
+      "relevant": 75
     },
     "عربي · الجزيرة": {
       "ok": true,
@@ -30002,8 +30002,9 @@
       "relevant": 1
     },
     "UN News · الشرق الأوسط (AR)": {
-      "ok": false,
-      "error": "not well-formed (invalid token): line 1, column 0"
+      "ok": true,
+      "items": 30,
+      "relevant": 7
     },
     "GDELT · article index": {
       "ok": null,
