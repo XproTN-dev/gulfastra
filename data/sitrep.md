@@ -1,9 +1,9 @@
 # Gulfastra | Open-source situation report
 Window: last 24 hours (publication-based)
-Coverage groups: 218 | linked headlines: 237
+Coverage groups: 219 | linked headlines: 239
 IMPORTANT: Unverified published reporting; not confirmed attacks or official safety advice.
 
-## Security (151 coverage groups)
+## Security (152 coverage groups)
 - UK to deploy jets to defend Saudi Arabia from Houthi attacks (1 headlines; single-source)
   - BBC Middle East RSS: https://www.bbc.co.uk/news/articles/ckr5yqe1r1llo?at_medium=RSS&at_campaign=rss
 - مقاتلات تايفون البريطانية تستعد لحماية أجواء السعودية من الصواريخ والمسيّرات - موقع الدفاع العربي (1 headlines; single-source)

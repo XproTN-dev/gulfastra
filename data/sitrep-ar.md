@@ -1,10 +1,10 @@
 # موجز جلفاسترا للمصادر العلنية
 الفترة: آخر 24 ساعة (حسب وقت نشر التقارير)
 
-مجموعات التغطية: 218 | عناوين مرتبطة: 237
+مجموعات التغطية: 219 | عناوين مرتبطة: 239
 هذه تقارير صحفية وليست أحداثا مؤكدة، ولا تعتبر توجيهات سلامة رسمية.
 
-## Security (151 coverage groups)
+## Security (152 coverage groups)
 - UK to deploy jets to defend Saudi Arabia from Houthi attacks (1 headlines; single-source)
   - BBC Middle East RSS: https://www.bbc.co.uk/news/articles/ckr5yqe1r1llo?at_medium=RSS&at_campaign=rss
 - مقاتلات تايفون البريطانية تستعد لحماية أجواء السعودية من الصواريخ والمسيّرات - موقع الدفاع العربي (1 headlines; single-source)

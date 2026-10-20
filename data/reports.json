@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "last_run": "2026-10-20T12:12:36.175382Z",
-  "last_successful_run": "2026-10-20T12:12:36.175382Z",
+  "last_run": "2026-10-20T12:13:02.701104Z",
+  "last_successful_run": "2026-10-20T12:13:02.701104Z",
   "reports": [
     {
       "id": "1cbd40d4a285b22349c62b11",
@@ -916,7 +916,7 @@
       "provider": "عربي · العربية",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
-      "freshness": "new-reporting",
+      "freshness": "recent-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
       "critical_candidate": false,
@@ -1359,6 +1359,29 @@
       "freshness": "recent-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "ea235bc1d573504f20f79777",
+      "title": "«التحالف»: اعتراض وتدمير صاروخ باليستي أطلقته الميليشيا الحوثية الإرهابية باتجاه الرياض - الراي",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1wRnREZUFwTTlOeDFvd0I3Z1V1ZGFTaUNTUmNWNVRNMWN2Z0FPUW45V2FPUzdBOHF2UTRvZmdyeENpNFZlcHpNWU04R3JSQUpIMENOY1NMTUTSAVhBVV95cUxNcEZ0RGVBcE05Tngxb3dCN2dVdWRhU2lDU1JjVjVUTTFjdmdBT1FuOVdhT1M3QThxdlE0b2ZncnhDaTRWZXB6TVlNOEdyUkFKSDBDTmNTTE1E?oc=5",
+      "source": "الراي",
+      "published_at": "2026-10-20T09:00:00Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "خبر اعتراض / دفاع جوي",
+      "provider": "عربي · الإمارات والبحرين",
+      "first_seen_at": "2026-10-20T12:13:02.701104Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "elevated-reporting",
       "critical_candidate": false,
       "alert_eligible": false,
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
@@ -4083,6 +4106,29 @@
       "language": "en",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "3720f1101667937202d7cd6a",
+      "title": "سعيد العطر: «الخليج» جزء من تشكيل الوعي ومسيرة الإمارات التنموية - صحيفة الخليج",
+      "url": "https://news.google.com/rss/articles/CBMijAVBVV95cUxOWXBvM2J0bmhHNC1kdzBBc3NCcXg2MllUSW8tZzJhMDdzZ2NkTENzNEoyM3IwTEh6YzlEOW5ORDBsY1owb005WHAtNDVESkhjVWM1SnBWZXNaZk9GbEM0c1Q5bGVJbTlldDNWZ0dQaUhZdmFYd3NyWG9ZTnBkM2kyVm12eWZWdURFVjhUSm8wcEhRLUZhUE9sUi14bGticXc3aFpXbDRBN0pEb0JsTmNmcHRoLWhGUHY1aW9yQnQwTEFXeFlWeG5EbUZQZWVkWk9fTmVlS2ZPRUQ3MmU1dWhSbndKaUozcWh1SldKYk5xNGNsWE1xNDZ5bXZMcm9aR2x4TXVhYXNRUy05WUNvOHpUSjN4akJTaExFNzJNNElzdGlmTk5qR1FGWEZITmFaZjk2azZZaGxvbFQ1UVpIekVMM3RRRWo4WWk2SW96bHI1TFBLVkFlUTN5YnE3VGN5TE4tRFF6ZXExMVpJU090V3hxVXNOV1dWNmVmNGhrVHhxeVc0NW5FSUN6eWNNcC1nRGU2d3FtTWhkN2tiWUFBOVhUVHF2ZjJQVVhSdktqU0VMalhvYkdXMTlYWWstcXNzUVE4WVhfQXBVQXZZbVZyU25zeUNfSDluZFZJZ2c4b01tcUlMd3RzSEREY1owMWJUajJ4LXZhd1daM2dYZVJnNDdLYVhJd0NNaTkzMGtLbnozdFl2YzhJOWgzdTR6eTFSSENadHVZLWxPbE5YdU1SQWVkOG9BTlNGeEdYYTBFRTNNalRLbFJUTDlfay1DcGNWSXdJcnlMSm1jOG9JamN5eFpHREIyb2l4VHRDNktCd2pjZ3FkY0JoWjJZUGgtNHRCT3JYQ3RKMm16ZE00Z2xk?oc=5",
+      "source": "صحيفة الخليج",
+      "published_at": "2026-10-19T16:49:25Z",
+      "country": "UAE",
+      "countries": [
+        "UAE"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير عن مسيرات",
+      "provider": "عربي · الإمارات والبحرين",
+      "first_seen_at": "2026-10-20T12:13:02.701104Z",
+      "date_quality": "publisher-time",
       "freshness": "recent-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -9435,6 +9481,29 @@
       "tag": "MARITIME REPORT",
       "provider": "Google News · diplomacy",
       "first_seen_at": "2026-10-20T12:03:42.847208Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "14f54b1b06ff9053414a4855",
+      "title": "خالد بن عبد الله: المنظومة الصحية تواصل ازدهارها في ظل مسيرة الخير.. وعراقتها شاهدة على ريادة البحرين منذ عهد عيسى الكبير - الأيام البحرينية",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5EODBUc1ZpNTQ2VzFTZ0RPbklJZHlhSkF2dFlFWXNHVnIxRExlMExLeHFZcmtPRHZDX1dZRGd3dEdEcEQ1TFppd3VnM0tKY1NKR3pJRUMwVnMyVy1nQkN0VnRqcw?oc=5",
+      "source": "الأيام البحرينية",
+      "published_at": "2026-10-18T12:10:26Z",
+      "country": "Bahrain",
+      "countries": [
+        "Bahrain"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير عن مسيرات",
+      "provider": "عربي · الإمارات والبحرين",
+      "first_seen_at": "2026-10-20T12:13:02.701104Z",
       "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
@@ -27393,7 +27462,7 @@
     "Google News · missiles/drones": {
       "ok": true,
       "items": 100,
-      "relevant": 75
+      "relevant": 76
     },
     "Google News · security": {
       "ok": true,
@@ -27422,8 +27491,8 @@
     },
     "عربي · إيران والخليج": {
       "ok": true,
-      "items": 27,
-      "relevant": 21
+      "items": 54,
+      "relevant": 41
     },
     "عربي · قطر": {
       "ok": true,
@@ -27437,8 +27506,8 @@
     },
     "عربي · الإمارات والبحرين": {
       "ok": true,
-      "items": 64,
-      "relevant": 46
+      "items": 27,
+      "relevant": 21
     },
     "عربي · الكويت والعراق": {
       "ok": true,
