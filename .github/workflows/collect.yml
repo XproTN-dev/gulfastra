@@ -43,6 +43,7 @@ jobs:
           python source/scripts/test_news_quality.py
           python source/scripts/test_lifecycle.py
           python source/scripts/test_firms.py
+          python source/scripts/test_supplemental_sources.py
       - name: Collect published Gulf news
         env:
           GULFASTRA_DATA_DIR: ${{ github.workspace }}/archive/data
@@ -72,6 +73,20 @@ jobs:
           GULFASTRA_DATA_DIR: ${{ github.workspace }}/archive/data
           NASA_FIRMS_MAP_KEY: ${{ secrets.NASA_FIRMS_MAP_KEY }}
         run: python source/scripts/firms.py
+      - name: GDACS official advisories and optional ReliefWeb/OpenSky data
+        env:
+          GULFASTRA_DATA_DIR: ${{ github.workspace }}/archive/data
+          RELIEFWEB_APPROVED_APPNAME: ${{ secrets.RELIEFWEB_APPROVED_APPNAME }}
+          OPENSKY_CLIENT_ID: ${{ secrets.OPENSKY_CLIENT_ID }}
+          OPENSKY_CLIENT_SECRET: ${{ secrets.OPENSKY_CLIENT_SECRET }}
+        run: python source/scripts/supplemental_sources.py
+      - name: Optional X public posts (off unless separately enabled and billing approved)
+        env:
+          GULFASTRA_DATA_DIR: ${{ github.workspace }}/archive/data
+          GULFASTRA_X_API_ENABLED: ${{ vars.GULFASTRA_X_API_ENABLED }}
+          GULFASTRA_X_API_BEARER_TOKEN: ${{ secrets.GULFASTRA_X_API_BEARER_TOKEN }}
+          GULFASTRA_X_BILLING_APPROVED: ${{ secrets.GULFASTRA_X_BILLING_APPROVED }}
+        run: python source/scripts/x_public_posts.py
       - name: Record independent collection and alert health
         env:
           GULFASTRA_DATA_DIR: ${{ github.workspace }}/archive/data
@@ -86,7 +101,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/reports.json data/events.json data/revisions.json data/alerts.json data/alert_state.json data/collector_health.json data/observations.json data/sitrep.md data/sitrep-ar.md data/live-manifest.json
+          git add data/social.json data/advisories.json data/reports.json data/events.json data/revisions.json data/alerts.json data/alert_state.json data/collector_health.json data/observations.json data/sitrep.md data/sitrep-ar.md data/live-manifest.json
           if git diff --cached --quiet; then
             echo "No updated public data"
             exit 0
