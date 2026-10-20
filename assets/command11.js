@@ -43,7 +43,8 @@ function filtered(){
 }
 function healthy(){
  const t=C.dt(S.manifest?.collected_at);
- return S.channel==="live"&&Number.isFinite(t)&&Date.now()-t<30*60000&&Date.now()>=t-600000;
+ // Collection target is five minutes. More than three missed cycles is delayed.
+ return S.channel==="live"&&Number.isFinite(t)&&Date.now()-t<15*60000&&Date.now()>=t-600000;
 }
 function elapsed(){return S.manifest?.collected_at?C.age(S.manifest.collected_at):"UNAVAILABLE"}
 function viewContext(){return {tab:S.tab,workspace:S.workspace,channel:S.channel,quality:S.manifest?.quality_gate||"unknown",
