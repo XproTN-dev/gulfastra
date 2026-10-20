@@ -258,3 +258,28 @@ body[data-v9-palette="ember"] .map-stage .maplibregl-canvas{filter:brightness(.4
  .v9-ticker-items{animation:none!important}
  .country-pin{transition:none!important}
 }
+
+/* 09.1 — visible locator and calibrated neon reading contrast */
+.v9-locate{position:absolute;z-index:130;top:52px;left:50%;transform:translateX(-50%);
+ display:flex;align-items:center;gap:6px;width:226px;height:27px;background:#03100bdd;
+ border:1px solid var(--cmd-line);color:var(--cmd-accent);padding:0 7px;box-shadow:0 4px 14px #0006}
+.v9-locate span{font-size:17px}
+.v9-locate input{border:0;outline:none!important;background:transparent;color:var(--cmd-strong);
+ min-width:0;width:100%;font:700 9px "IBM Plex Mono",monospace}
+.v9-locate input::placeholder{color:#7caa82;opacity:.8}
+.v9-locate button{background:transparent;border:0;color:var(--cmd-accent);
+ font:800 14px "IBM Plex Mono",monospace}
+.v9-primary-nav button{color:#91c69b!important}
+.v9-primary-nav button.active{color:var(--cmd-accent)!important}
+.v9-dock button,.v9-map-tools button{font-size:9px!important}
+.v9-dock button:hover,.v9-map-tools button:hover{background:#162a1c88}
+.v9-map-tools button{color:#a6d9ae}
+.v9-top-status{color:#9cca9f}
+.v9-map-disclaimer{color:#91bc93}
+.v9-news-source{color:#9dc4a1}
+@media(max-width:640px){
+ .v9-locate{top:117px;left:7px;transform:none;width:min(205px,52vw);z-index:125}
+ .v9-top-status{top:83px}
+ .v9-panels{top:150px}
+ .v9-map-tools button{font-size:7px!important}
+}
