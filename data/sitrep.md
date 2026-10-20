@@ -1,9 +1,9 @@
 # Gulfastra | Open-source situation report
 Window: last 24 hours (publication-based)
-Coverage groups: 317 | linked headlines: 345
+Coverage groups: 319 | linked headlines: 347
 IMPORTANT: Unverified published reporting; not confirmed attacks or official safety advice.
 
-## Security (219 coverage groups)
+## Security (221 coverage groups)
 - الإمارات تعلن التصدي لنحو 750 ألف محاولة هجوم سيبراني استهدفت قطاعات حيوية - السياسة (1 headlines; single-source)
   - السياسة: https://news.google.com/rss/articles/CBMiwwRBVV95cUxNRGRUR2lTYVJHNmY1amxYTnl5SjZZM1ZjQVZwTWtWUW51WmNLQWh6UjNjU3FTRVRsckR2VDhyZzVKb1BEdnlwdGY4SmlLR3dLYW5DT3ppRFNQYWp5aENrRi15S1VQaTd0UjZjaFRZb0tsUVg0S2dVSkVYMVc0eDhfVktxamxnZmEyUVBTVmZ5UExST0NNSS1BZWFZelI4eUpGY3Q5R3FuZ0YzLV91VWExT0EtbHBJbGdvd1hLNDB6T05JVG9OOTVlcDZJaVNVVG8tNGhfcHFsU2h4UHo2MU83bmNXRmo4XzBYZUkzc2VPTTlfTUlPbDJRTHNQZVNHLWxkWnNJV2E5OE5YOEFxSHhnMW5vamV1clk1MTA3cUp5Rk5Kb194dGJ0UjB2eTZudEFiTEx2ZzZsaWRCa3N0ZEJOV2xkQlVzaWwza1hkWnBsSjZQOVFzX1dSd3hoZ1dIWUY5aFNCN2VPOGhGM0loWlh0X19ENjFELXd6dUtnNnJBMTRTb09nZ2pPR3RZVmp6dDRqMTRiYTJMaXFwTXZrbVZsUmhnb0FoU0ZKWmdrc2k1Ri1KaGlJVnlGdFEtbHJoZEJIcEc2TEJWUXhFSi1keTNZUmNGelRwQXg3LWNuMWNmMHlGd1d4UXRqS1lIWTZ5LW9EQTJIT3pyN1ZtYy12WmpDLWJzcjg0SmY1ZmdaMlp2SnRWV1RzQnIzQlZ5YlBpRzlhNWJtdzVLWjNIS25CTnZncXk2TGU0alQ3MXM4cXhlTkZHUGc?oc=5
 - الإمارات تعلن التصدي لنحو 750 ألف محاولة هجوم سيبراني - الراي (1 headlines; single-source)
