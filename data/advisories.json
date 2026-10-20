@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "generated_at": null,
+  "items": [],
+  "sources": {
+    "GDACS": {
+      "state": "not-yet-collected",
+      "ok": null
+    },
+    "ReliefWeb": {
+      "state": "requires-preapproved-appname",
+      "ok": null
+    },
+    "OpenSky": {
+      "state": "requires-oauth-credentials",
+      "ok": null
+    }
+  },
+  "aviation_snapshot": null,
+  "notice": "Offline bundled fallback; no active advisory claims."
+}
