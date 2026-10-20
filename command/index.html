@@ -6,7 +6,7 @@
 <title>GULFASTRA X · Intelligence Command Center</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@6.15.0/dist/maplibre-gl.css">
+<link rel="stylesheet" href="../vendor/maplibre-gl.css?v=6-15-0">
 <link rel="stylesheet" href="../assets/command11.css?v=11-3">
 </head><body data-theme="midnight">
 <div id="app" class="app">
@@ -84,10 +84,10 @@
 <div id="settingsOverlay" class="overlay" hidden role="dialog" aria-label="Settings" aria-modal="true"><div class="settings-modal"><header><h2>COMMAND CENTER SETTINGS</h2><button id="settingsClose">✕</button></header><p>APPEARANCE</p><div class="theme-choices"><button data-theme-choice="midnight">MIDNIGHT / NAVY</button><button data-theme-choice="obsidian">OBSIDIAN / CARBON</button><button data-theme-choice="sand">ATLAS / SAND</button></div><p>MAP</p><button id="densityButton" class="linebutton">COMPACT / SPACIOUS LAYOUT</button><button id="notificationButton" class="linebutton">ENABLE OPT-IN CRITICAL REPORT NOTIFICATIONS</button><p>DATA INTEGRITY</p><small>GitHub-hosted public reporting is best effort. Alerts are not official emergency guidance. Optional integrations only render real records when enabled.</small><a href="../legacy-v9.html" class="linebutton">OPEN LEGACY V9 ↗</a></div></div>
 <div id="toast" class="toast" role="status" aria-live="polite"></div>
 </div>
-<script defer src="https://unpkg.com/maplibre-gl@6.15.0/dist/maplibre-gl.js"></script>
+
 <script defer src="../assets/command11-core.js?v=11-3"></script>
-<script defer src="../assets/command11-map.js?v=11-4"></script>
+<script defer src="../assets/command11-map.js?v=11-5"></script>
 <script defer src="../assets/command11-stream.js?v=11-3"></script>
 <script defer src="../assets/command11-extra.js?v=11-3"></script>
-<script defer src="../assets/command11.js?v=11-3"></script>
+<script type="module" src="../assets/command11-bootstrap.mjs?v=11-5"></script>
 </body></html>
