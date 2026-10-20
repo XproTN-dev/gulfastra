@@ -10,12 +10,13 @@ from pathlib import Path
 from urllib.parse import urlencode, urlsplit
 from urllib.request import Request, urlopen
 import json
+import os
 import re
 import xml.etree.ElementTree as ET
 from arabic_sources import is_arabic, category_for_arabic, country_mentions, arabic_tag
 
 ROOT = Path(__file__).resolve().parents[1]
-DEST = ROOT / "data" / "reports.json"
+DEST = Path(os.environ.get("GULFASTRA_DATA_DIR", str(ROOT / "data"))) / "reports.json"
 UA = "Gulfastra/3.0 (+https://github.com/XproTN-dev/gulfastra; public news research)"
 TODAY = datetime.now(timezone.utc)
 
