@@ -1,3 +1,21 @@
+## News Intelligence v10 — source quality, reporting freshness and critical watch (20 October 2026)
+
+Focused upgrade to the public-source intelligence engine, preserving the map-first v9 interface.
+
+**Sources:** Added dedicated English/Arabic France 24 Middle East, The Guardian Middle East, and English/Arabic UN News Middle East RSS feeds alongside existing regional Google News queries, BBC, Al Jazeera, and GDELT (with documented HTTP 429 backoff). Each feed has its own success/failure status. RSS 2.0, Atom and RDF publication metadata are supported; feeds can fail or change at any time. Do not treat source count as independent-confirmation count.
+
+**Filtering and freshness:** `scripts/news_quality.py` assigns report-publication lifecycle stages `new-reporting` (under two hours), `recent-reporting` (under 24 hours), `older-reporting` (under seven days), and `archive`. Unknown/future timestamps are excluded from urgency assessment; hypothetical, denial, historical and retrospective wording is flagged conservatively. GDELT's first-indexed time is labelled separately from publishers' publication timestamps. Canonical URL and publisher-plus-title/day normalization reduce duplicate indexing. Original article links remain intact. The Intelligence Wire defaults to the last 72 hours and provides 24h/72h/7d/full-archive controls. Maritime watch and the ticker no longer silently blend in archived headlines.
+
+**Critical reporting watch:** `scripts/alerts.py` publishes `data/alerts.json` on the independent `intelligence-data` branch. High-priority *reporting candidates* require (a) a recent, explicit severe-impact headline, (b) no obvious speculative/denial/retrospective language, (c) a publisher-provided timestamp, and (d) two recent articles with at least two distinct normalized newsroom names within a conservatively correlated group. Single-outlet items are review-only. No historical backfill alerts on first deployment, and previously notified groups are suppressed. One-outlet reviews can still escalate once additional coverage appears. Language editions of the same publisher are not counted as independent outlets.
+
+**Notification delivery:** The top-bar **CRITICAL REPORTING** badge opens evidence links and source counts. Browser notifications require permission and a currently open, visible tab; first viewing uses a no-backlog baseline. The optional Telegram integration sends only new qualifying public-report alerts, requires `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID` repository secrets, and is disabled otherwise. GitHub Actions remains a best-effort scheduled collector; no WebSocket, always-on push, direct emergency or military telemetry is implied.
+
+**Critical distinction:** “New reporting” means an article was published recently. It does **not** establish when an alleged event occurred or whether it is currently ongoing. “Critical reporting” means severe newsworthy claims with multiple named outlets, *not a verified attack, incident, or emergency warning*. Outlets may syndicate the same wire report. Always defer to official local authorities for safety-critical decisions.
+
+**Test and publication gates:** `scripts/test_news_quality.py`, `test_arabic.py`, and `test_fusion.py` run in the GitHub Actions news collector before updating the data branch. Tests cover future-dated reports, archive suppression, speculative/denied reports, Arabic filtering, same-story deduplication, bilingual newsroom normalization, initial alert bootstrap, no repeat alerts and escalation from one source to multiple sources. `scripts/publish_manifest.py` versions alerts beside reports/events/observations. `main` remains the code/Pages branch; `intelligence-data` stores the rolling published JSON.
+
+---
+
 ## Command View v9 — bugfix and stability pass (20 October 2026)
 
 Audited the user-provided desktop recording and exercised the application with real Playwright desktop (1600×960) and mobile (390×844) browser tests.
