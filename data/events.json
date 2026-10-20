@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "generated_at": "2026-10-20T09:25:08.588396Z",
+  "generated_at": "2026-10-20T09:29:36.544778Z",
   "model": "deterministic-source-correlation-v1",
   "disclaimer": "Clusters are related PUBLIC REPORTS, not confirmed incidents. Source counts are not proof. Country names are mentions, not incident locations.",
   "events": [
@@ -212,6 +212,51 @@
       "digest": "429b5f65843a3262254b",
       "revision": 1,
       "updated_at": "2026-10-20T09:25:08.588396Z"
+    },
+    {
+      "id": "GF-FE749A998B5562",
+      "title": "Saudi Arabia Flight Update: Lufthansa, BA, Etihad & Qatar Dates - Travel Tourister",
+      "category": "transport",
+      "topic": "aviation",
+      "countries": [
+        "Qatar",
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T07:46:43Z",
+      "last_published": "2026-10-20T07:46:43Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "18ac16f9887405bca56d2f6f",
+          "title": "Saudi Arabia Flight Update: Lufthansa, BA, Etihad & Qatar Dates - Travel Tourister",
+          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOVWRRc0pFNEs2Sm13Yk4xRlhud3VFTVJhSmYzRHJwcmxBNEVrRTNHVDByYmJobjVKclFOZmU1aWxCOHNYYVRDR2lMQjdWTW56dzVBbkhtV3FoZnk1SG9aS0o0d01VaU42ZktCUUoyV2F5cEhlallHeG5ab2l3SDFqWm1RSjFjZXJFMV9IX0VGM29aQWxjckMyOVlFX1JJMENoSUNBVk94M3hhYU9DU0tONHN4LTd4WTR1S3lRTFF5UmdtY0R3dVVOOVpEVnJPV3RqS3ZJdXJNU1NFLWp3QllId0xEb25RWU45dDJ2SlZMVy1MZDA?oc=5",
+          "source": "Travel Tourister",
+          "provider": "Google News · aviation",
+          "published_at": "2026-10-20T07:46:43Z",
+          "collected_at": null,
+          "language": "en",
+          "country": ""
+        }
+      ],
+      "digest": "4dc887ceff7857015ea5",
+      "revision": 1,
+      "updated_at": "2026-10-20T09:29:36.544778Z"
     },
     {
       "id": "GF-942CF8570A79FC",
@@ -33881,48 +33926,6 @@
       "updated_at": "2026-10-20T07:40:58.957167Z"
     },
     {
-      "id": "GF-52DF3E405DDC16",
-      "title": "Two Cargo Ships Sink Near Strait of Hormuz, as Iranian Attacks Increase - WSJ",
-      "category": "transport",
-      "topic": "maritime",
-      "countries": [],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "en"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-14T16:48:44Z",
-      "last_published": "2026-10-14T16:48:44Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "b90ad168cacff438f9de19ee",
-          "title": "Two Cargo Ships Sink Near Strait of Hormuz, as Iranian Attacks Increase - WSJ",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeVJzcVMzeW15SzZXQ09EZHdZNzdXY0lmbWVJNjRDLVlodjE0SVBTeFBES1VudmJROGNiQ3RlYU1NM2FlLWs0eVhadlR1Q3luYnoxTDBkRjBwcFdoN052cUxSOVBkQTFBSkdVYTd0elBuX3F0X19feXBuRGgtTVZfZmVvY21yU0F0RkdKX01DMHZDZE5ITUtMTzFZTnBJX1VnSWpwRW4xQQ?oc=5",
-          "source": "WSJ",
-          "provider": "Google News · shipping",
-          "published_at": "2026-10-14T16:48:44Z",
-          "collected_at": null,
-          "language": "en",
-          "country": ""
-        }
-      ],
-      "digest": "fd13062a62213d75ac0f",
-      "revision": 3,
-      "updated_at": "2026-10-20T09:16:22.504036Z"
-    },
-    {
       "id": "GF-5DAFC35D5E24EB",
       "title": "تصعيد إيراني يطول الكويت والبحرين والأردن.. وواشنطن ترد باستهداف ناقلات النفط - الساحل الغربي",
       "category": "security",
@@ -34142,6 +34145,48 @@
       "digest": "a5597142f6a508c35f07",
       "revision": 2,
       "updated_at": "2026-10-20T07:40:58.957167Z"
+    },
+    {
+      "id": "GF-52DF3E405DDC16",
+      "title": "Two Cargo Ships Sink Near Strait of Hormuz, as Iranian Attacks Increase - WSJ",
+      "category": "transport",
+      "topic": "maritime",
+      "countries": [],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-14T15:49:00Z",
+      "last_published": "2026-10-14T15:49:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "b90ad168cacff438f9de19ee",
+          "title": "Two Cargo Ships Sink Near Strait of Hormuz, as Iranian Attacks Increase - WSJ",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeVJzcVMzeW15SzZXQ09EZHdZNzdXY0lmbWVJNjRDLVlodjE0SVBTeFBES1VudmJROGNiQ3RlYU1NM2FlLWs0eVhadlR1Q3luYnoxTDBkRjBwcFdoN052cUxSOVBkQTFBSkdVYTd0elBuX3F0X19feXBuRGgtTVZfZmVvY21yU0F0RkdKX01DMHZDZE5ITUtMTzFZTnBJX1VnSWpwRW4xQQ?oc=5",
+          "source": "WSJ",
+          "provider": "Google News · shipping",
+          "published_at": "2026-10-14T15:49:00Z",
+          "collected_at": null,
+          "language": "en",
+          "country": ""
+        }
+      ],
+      "digest": "4fe5ea5d2ef94c6377b2",
+      "revision": 4,
+      "updated_at": "2026-10-20T09:29:36.544778Z"
     },
     {
       "id": "GF-E77249BF7DF2C3",
@@ -42409,18 +42454,18 @@
       "sources": 180
     },
     "Saudi": {
-      "events": 296,
-      "reports": 317,
+      "events": 297,
+      "reports": 318,
       "security_coverage": 207,
-      "transport_coverage": 76,
+      "transport_coverage": 77,
       "sources": 158
     },
     "Qatar": {
-      "events": 31,
-      "reports": 32,
+      "events": 32,
+      "reports": 33,
       "security_coverage": 20,
-      "transport_coverage": 6,
-      "sources": 18
+      "transport_coverage": 7,
+      "sources": 19
     },
     "UAE": {
       "events": 51,
@@ -42484,32 +42529,16 @@
     "2026-10-17": 169,
     "2026-10-18": 127,
     "2026-10-19": 171,
-    "2026-10-20": 47
+    "2026-10-20": 48
   },
   "revisions": [
     {
-      "id": "GF-B09D0E6ED840BC",
-      "revision": 6,
-      "at": "2026-10-20T09:25:08.588396Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-4ACF500EC169DB",
+      "id": "GF-52DF3E405DDC16",
       "revision": 4,
-      "at": "2026-10-20T09:25:08.588396Z",
+      "at": "2026-10-20T09:29:36.544778Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
-    },
-    {
-      "id": "GF-88B3B1CE19E365",
-      "revision": 3,
-      "at": "2026-10-20T09:25:08.588396Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 2
     }
   ]
 }
