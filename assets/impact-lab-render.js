@@ -121,7 +121,7 @@ function marketCards(markets,cb){
 }
 function compare(markets){
  const all=markets?.series||{},ids=["VIXCLS","BAMLH0A0HYM2","DCOILBRENTEU","UNRATE"];
- return '<div class="risk-label">RAW OBSERVATIONS: 2008 reference values and latest values are NOT a statistical probability of crisis or a comparable world-risk score. Different publication frequencies, economic structures and measurement definitions apply.</div>'+
+ return '<div class="risk-label">RAW OBSERVATIONS: 2008 reference values and latest values are NOT a statistical probability of crisis or a comparable world-risk score. Different publication frequencies, economic structures and measurement definitions apply. Each line is plotted in its own time window on a SHARED vertical value scale; the two horizontal windows are not the same calendar dates.</div>'+
  '<div class="compare-grid">'+ids.map(id=>{
   const s=all[id];
   if(!s)return '<div class="historical-card">'+safe(id)+' · NO SOURCE OBSERVATIONS</div>';
