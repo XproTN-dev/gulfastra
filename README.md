@@ -1,3 +1,17 @@
+## Operations v10.1 — recovered collection, lifecycle tracking and watchdog (20 October 2026)
+
+- **Collector reliability:** 25 public RSS feeds fetched concurrently using six bounded workers and 10-second network timeouts, with source-by-source failure isolation and deterministic parsing. Previously requests were serial with a 24-second timeout each, risking the 12-minute workflow budget.
+- **Health status:** last attempted collection, last successful collection, live quality-gate result and source counts are exposed in `data/live-manifest.json` and `data/collector_health.json`.
+- **Failure isolation:** classification/alert tests run before collection; failed tests suppress critical alert generation (fail closed) without blocking ordinary public-news updates. The last-alert watermark is retained.
+- **Event lifecycle:** candidate clusters carry `coverage_stage`, `current_reporting`, recent article/publisher counts and `incident_status: unknown`. Timeline stages describe PUBLICATION ACTIVITY, never confirmed active, ongoing or resolved incidents. GDELT index-first-seen is not treated as a trusted publisher publication time.
+- **UI:** evidence/verification view now filters ACTIVE COVERAGE / LAST 24H / ARCHIVE and displays lifecycle and incident-unknown labels. Source health displays failed quality gates.
+- **Independent watchdog:** `.github/workflows/collector-watchdog.yml` checks the data-branch heartbeat on a best-effort schedule; opens a single GitHub Issue after 45 minutes without a successful collection and closes it on recovery.
+- **Observed success:** after deployment on October 20, the `intelligence-data` manifest reported the quality gate **passed**, collector state **healthy**, and **24 of 25** configured source channels successful (one backoff). This is a checkpoint, not a guarantee future schedules will always complete.
+
+**Runbook and limitations:** [docs/OPERATIONS.md](docs/OPERATIONS.md).
+
+---
+
 ## News Intelligence v10 — source quality, reporting freshness and critical watch (20 October 2026)
 
 Focused upgrade to the public-source intelligence engine, preserving the map-first v9 interface.
