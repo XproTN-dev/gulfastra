@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "generated_at": "2026-10-20T07:56:05.543708Z",
+  "generated_at": "2026-10-20T08:01:24.093600Z",
   "model": "deterministic-source-correlation-v1",
   "disclaimer": "Clusters are related PUBLIC REPORTS, not confirmed incidents. Source counts are not proof. Country names are mentions, not incident locations.",
   "events": [
@@ -15243,6 +15243,48 @@
       "updated_at": "2026-10-20T07:40:58.957167Z"
     },
     {
+      "id": "GF-7A4671285B14EE",
+      "title": "القيادة المركزية الأمريكية: 97% من السفن نجحت فى محاولتها عبور مضيق هرمز - اليوم السابع",
+      "category": "transport",
+      "topic": "maritime",
+      "countries": [],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-17T22:45:00Z",
+      "last_published": "2026-10-17T22:45:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "ec9969d8e869a156d92f61aa",
+          "title": "القيادة المركزية الأمريكية: 97% من السفن نجحت فى محاولتها عبور مضيق هرمز - اليوم السابع",
+          "url": "https://news.google.com/rss/articles/CBMi8gNBVV95cUxQbGpWVlY2WHllbGNsa25rdW1wSndXY3lpaDZ4bmRsNlNUbFJiU2RIM1NuY3RzY1dycXBoajROalJnNWRBeTRMc3VZOU16YU5pZTZMck54SGZyWDlaN0NEWUUyTlVOQVVYRTFULUdZXzhhTWxsXzE5V1V3SmZQVlhFMFE5SUtPOC16MWd2UVRsbjBkOXE0QTIxY09YYXpEX3k2cW5tZWNlenpaVFFhYjlNUmlBU0VPRnRXWURzZ1dSYUxjNndOYkZCenBDaWM0aDdpcFllWjZrdG96NVJERzh4di1LQjU1T2dBMjVETGdaOFNYa0dHT3BSV0Q0M2NWM0xZSjVjMEZJX3pGTWJXNGo5SDZWeFJiamc2NlNnQnp1TUF2UFZ5UFpfdXVHdlF4YnpIQXZPS0puVVNUZkdrLVJIa3BaUDFKTjZfb2ZTQ1VTVzl3QllnOUo1ZFBTN1BuTVFYaTVHM2hWUDV5VldoYmZWaUFjd3JWWFpna3J4QzlodFQ0QXVvN1FldFA2aWtpLW85dnpSWkdoLUtuWGlQUXJKWW1PVFc1N3FzTzQ0bVRzOHhuZ2psaVBDdXc2N1QwOHZKMnpLRW9fczBVRFM5SUxIX1JhcVcyRGZOd2VvbHZpOFMyN2lZZ0dBUURQeTJEMFBUMVHSAewDQVVfeXFMUEdBeEprZW5rUjBkSVpwcWExRmtHVDFnaTRNdGtmSHRyV29kNUl2bS1RLTZHVU1VOWhia25qandPaUYwRUtJU0JGazNwX2R1TXltVEh0TWFIdi1zaFktcVJONkZuc0RQYXl6QnpyUjMzcFVkQl9Qb0pyMmxfUndmLWFkbzA2WG92SGFDMDVlMG0zLWIyR1lLS0FNLWJwWmVtbDZNOTdMeE13ck1PVm9IVklVRy02cHlyWWJxUnZ1anR4di13cFpFT3FBOVh5STF2STJKWEo5ai1nRkNyZm5Jd1hnTUZZNl94NmZSV2RFalJVMWVpVXVKQlRaUnpHeGNkTVM2THl3T3JTa09vaGVXdkFiRFhMZk5QUWFjWEtoSTE3Sk9BV1hhSXRVakF4SmxmMkhtTjV3UTE1YlF4LTg2TzRKUDd1TmpiNUEySnoyZ3JYRVVuTE9xa3FwYUIwWnZrZGpjSjJPQUJfMV9OdjJYNjVkLXVqNVNpWm5OcVFaakVHOU9VQ080bHhWamxLNlJPQ09UM0VtVjJGYmtHYW1VS3JSOW8yQkJnOWhNcktVck5zWnJ0d2VSVlNiUUhRS19tdUk1QnpUZFZxNVJNOTFoLWxQVUdMY0pna2M4Q0Q0ZmFXeGhJenRGcFJ2MENF?oc=5",
+          "source": "اليوم السابع",
+          "provider": "عربي · مضيق هرمز",
+          "published_at": "2026-10-17T22:45:00Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "digest": "ad1b7fa2410a416d8d8c",
+      "revision": 1,
+      "updated_at": "2026-10-20T08:01:24.093600Z"
+    },
+    {
       "id": "GF-D1426BCD58E1C4",
       "title": "تصاعد الهجمات في مضيق هرمز.. وترامب يعتبر أن العملية في إيران ستنتهي - CNBC عربية",
       "category": "security",
@@ -17695,6 +17737,50 @@
       "digest": "2abde56c3a79b3a3b47c",
       "revision": 2,
       "updated_at": "2026-10-20T07:40:58.957167Z"
+    },
+    {
+      "id": "GF-EEAAA4FC638BAE",
+      "title": "العراق: قتيل و4 جرحى في انفجار بمقر للحشد الشعبي - صحيفة السوسنة الأردنية",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Iraq"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-17T16:38:00Z",
+      "last_published": "2026-10-17T16:38:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "517795b7234833b75b2139a3",
+          "title": "العراق: قتيل و4 جرحى في انفجار بمقر للحشد الشعبي - صحيفة السوسنة الأردنية",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0zcTl5TnBYSGFCcGUxOEhoN0dsUktTaGdvT05ndjJpdnA4bVFDRS1jZ2VuaWduSzV1Y0FIZC0zd0FaSzZWajJtMnYzbk5nVU54U2c?oc=5",
+          "source": "صحيفة السوسنة الأردنية",
+          "provider": "عربي · الكويت والعراق",
+          "published_at": "2026-10-17T16:38:00Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Iraq"
+        }
+      ],
+      "digest": "44f8f399d4aa46afd71d",
+      "revision": 1,
+      "updated_at": "2026-10-20T08:01:24.093600Z"
     },
     {
       "id": "GF-44BC4B14DF903E",
@@ -25338,7 +25424,7 @@
     },
     {
       "id": "GF-980DCF9DF0BBCB",
-      "title": "Military signals building: Is the US-Iran war about to escalate? - Euronews.com",
+      "title": "Military signals building: Is the US-Iran war about to escalate? - Euronews",
       "category": "security",
       "topic": "regional",
       "countries": [
@@ -25366,9 +25452,9 @@
       "sources": [
         {
           "id": "b7e4b30dc9fb05b45052803d",
-          "title": "Military signals building: Is the US-Iran war about to escalate? - Euronews.com",
+          "title": "Military signals building: Is the US-Iran war about to escalate? - Euronews",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZnQxSlUxSHV2RjFuaFlUN2NuYkl5ZmZ1RXlMUmNyLWl5Vk5vTEx5SU1kZ0xYNkxBbEp4SzAwbWZxQnVad2lOMGU3ZGY1dDRCdWh0Y3dxeXEzaVd3b2FpdWJSR3FLZzFuSmZjQXJ5cHJ1RnhrVUtJZVJTeE9tWGdHNVdXaTA5WVBCUlI1LUM5cUV4aU1MdU5IYThuZmtTUWs?oc=5",
-          "source": "Euronews.com",
+          "source": "Euronews",
           "provider": "Google News · security",
           "published_at": "2026-10-16T09:37:01Z",
           "collected_at": null,
@@ -25376,9 +25462,9 @@
           "country": "Iran"
         }
       ],
-      "digest": "c3dd3fa6f0f733dd8424",
-      "revision": 4,
-      "updated_at": "2026-10-20T07:56:05.543708Z"
+      "digest": "3b949d0c6d7cb2fa7c83",
+      "revision": 5,
+      "updated_at": "2026-10-20T08:01:24.093600Z"
     },
     {
       "id": "GF-2F307663907B4D",
@@ -28830,7 +28916,7 @@
     },
     {
       "id": "GF-FEFDEE84343B18",
-      "title": "Another tanker catches fire near Hormuz after two cargo ships sunk in attacks - Euronews",
+      "title": "Another tanker catches fire near Hormuz after two cargo ships sunk in attacks - Euronews.com",
       "category": "transport",
       "topic": "maritime",
       "countries": [],
@@ -28856,9 +28942,9 @@
       "sources": [
         {
           "id": "872c9bf91f6bc22eed841c10",
-          "title": "Another tanker catches fire near Hormuz after two cargo ships sunk in attacks - Euronews",
+          "title": "Another tanker catches fire near Hormuz after two cargo ships sunk in attacks - Euronews.com",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUWdqWXNXODBHZzhMbnlGWDd0dlB4LXBKQWtKQ1U5Z25NNHVSdHBUMXNJcXhaZDBLVjRqWVF6UU5rc2tXcG95bHJfcENWeXVVcjQzZ0hWX2N6UEpIZ2dNRkd1MEZxRnJFa1lSMm1xN2R2R3ZuWU16VFNGOHFHYzhlNEhXTzBuZnpFdTg0aG4tamlfbW1VZ05fY0lVbjBGZU1YbFRWQkVRdmhPLXZIbXowOXJoVQ?oc=5",
-          "source": "Euronews",
+          "source": "Euronews.com",
           "provider": "Google News · shipping",
           "published_at": "2026-10-15T16:00:57Z",
           "collected_at": null,
@@ -28866,9 +28952,9 @@
           "country": ""
         }
       ],
-      "digest": "06e2e7cf3f5366f1dea0",
-      "revision": 4,
-      "updated_at": "2026-10-20T07:40:58.957167Z"
+      "digest": "8aab782db6dcab0b61b0",
+      "revision": 5,
+      "updated_at": "2026-10-20T08:01:24.093600Z"
     },
     {
       "id": "GF-E7A8033A4892FC",
@@ -41206,7 +41292,7 @@
       "reports": 434,
       "security_coverage": 186,
       "transport_coverage": 101,
-      "sources": 177
+      "sources": 178
     },
     "Saudi": {
       "events": 280,
@@ -41244,11 +41330,11 @@
       "sources": 9
     },
     "Iraq": {
-      "events": 51,
-      "reports": 51,
-      "security_coverage": 46,
+      "events": 52,
+      "reports": 52,
+      "security_coverage": 47,
       "transport_coverage": 5,
-      "sources": 40
+      "sources": 41
     },
     "Oman": {
       "events": 5,
@@ -41281,56 +41367,24 @@
     "2026-10-14": 121,
     "2026-10-15": 105,
     "2026-10-16": 102,
-    "2026-10-17": 165,
+    "2026-10-17": 167,
     "2026-10-18": 125,
     "2026-10-19": 164,
     "2026-10-20": 38
   },
   "revisions": [
     {
-      "id": "GF-B5B71784951E17",
-      "revision": 3,
-      "at": "2026-10-20T07:56:05.543708Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 3
-    },
-    {
-      "id": "GF-FDC4347794DDC7",
-      "revision": 4,
-      "at": "2026-10-20T07:56:05.543708Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-0A958563716E63",
-      "revision": 3,
-      "at": "2026-10-20T07:56:05.543708Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-825ED56C1A3A18",
-      "revision": 5,
-      "at": "2026-10-20T07:56:05.543708Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
       "id": "GF-980DCF9DF0BBCB",
-      "revision": 4,
-      "at": "2026-10-20T07:56:05.543708Z",
+      "revision": 5,
+      "at": "2026-10-20T08:01:24.093600Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-6596F9DE579E84",
-      "revision": 3,
-      "at": "2026-10-20T07:56:05.543708Z",
+      "id": "GF-FEFDEE84343B18",
+      "revision": 5,
+      "at": "2026-10-20T08:01:24.093600Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
