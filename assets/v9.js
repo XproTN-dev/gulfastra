@@ -294,13 +294,16 @@ function registerMapPreview(){
   if(!marker||marker.contains(event.relatedTarget))return;
   destroy();
   const country=marker.dataset.country,geo=window.__gulfastraGeography?.[country];
+  // The map pin is computed from the ACTIVE map filters. The full archive can be
+  // much larger: never label its size as the marker's visible reporting count.
+  const visibleCount=marker.querySelector(".pin-number")?.textContent?.trim()||"0";
   const list=state.reports.filter(r=>(r.countries||[r.country]).includes(country))
    .sort((a,b)=>new Date(b.published_at)-new Date(a.published_at));
   const box=marker.getBoundingClientRect();
   tooltip=document.createElement("div");tooltip.className="v9-tooltip";
-  tooltip.innerHTML='<strong>'+esc(geo?.label||country)+' · '+list.length+' HEADLINES</strong>'+
-   '<small>COUNTRY-AGGREGATED REPORTING, NOT EXACT EVENT POSITION</small>'+
-   (list.length?'<span dir="auto">'+esc(list[0].title)+'</span>':'');
+  tooltip.innerHTML='<strong>'+esc(geo?.label||country)+' · '+esc(visibleCount)+' MAP-FILTERED HEADLINES</strong>'+
+   '<small>COUNTRY MENTIONS · NOT EXACT EVENT POSITIONS</small>'+
+   (list.length?'<span dir="auto">'+esc(headline(list[0]))+'</span><small>NEWEST INDEXED ARTICLE · '+esc(shortTime(list[0].published_at))+'</small>':'');
   document.body.appendChild(tooltip);
   const left=Math.min(window.innerWidth-250,Math.max(8,box.right+12));
   const top=Math.min(window.innerHeight-110,Math.max(43,box.top-24));
