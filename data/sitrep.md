@@ -1,6 +1,6 @@
 # Gulfastra | Open-source situation report
 Window: last 24 hours (publication-based)
-Coverage groups: 290 | linked headlines: 313
+Coverage groups: 291 | linked headlines: 314
 IMPORTANT: Unverified published reporting; not confirmed attacks or official safety advice.
 
 ## Security (203 coverage groups)
@@ -64,7 +64,9 @@ IMPORTANT: Unverified published reporting; not confirmed attacks or official saf
 - Iran Says Burning Tanker Found In Hormuz Restricted Zone, CENTCOM Rejected - Kurdistan24 (1 headlines; single-source)
   - Kurdistan24: https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZG9wSXZuTENZLUlWeGFrUGpfOEV1aHZyMHEzT1otNkJhZUh5Wkg5WDgtZmx3bDBFdlBjZHdqVUw3OWRGSGVSdXFvR0pyUHltRjZ0Y2JWeEFwQ2NfSThTZkZSeV8yU3lFR3ZfeGFKTU5senBPU2FQTEV0TC1zX0JKSjc1VVNhcUlpS3RvTE9NeU4zZ0ZzbnNHVXFGSUtJUTFSMGNCZGxTTVBVX0U4R2hFb1Rtc2tfREtr?oc=5
 
-## Diplomacy (37 coverage groups)
+## Diplomacy (38 coverage groups)
+- Iran’s president says US must lift sanctions before any negotiations - Türkiye Today (1 headlines; single-source)
+  - Türkiye Today: https://news.google.com/rss/articles/CBMisAFBVV95cUxNcjE2WTdjdzVmRzhLVFR5RHM0cjdWREpLaGNwWXE1djI3Q1JIX2JvcEgxWTRoUjRrSUVfdmw4bmFTRjlKQXIzNldUYlgtRnhiWXkxX3pad3Z5WldYcFkyQ2hCM0hHYTlVcXlyOXREWUtYblJydDQyTlQwRDdSa0N4cEd6LWgtdFFENEp0cXFzQXRiaHQ5ZWJ2blM4dFdScFZtX2ZWWHZITXl6VUtuN1F1aw?oc=5
 - Iran tells Pakistan army chief no talks with Washington until demands are met - Reuters (1 headlines; single-source)
   - Reuters: https://news.google.com/rss/articles/CBMizgFBVV95cUxOVDRWMklOYkRvUmtPYU1tcnN0MVJCbzRxWlJzS3lSUFhsZzQ3SnQ2N0FKXzRsZFpmdmMwS1lVYWhKenNoNEF6UmhhcThrbVM1V0ZHQUk0aXFwWHlvbXFNWVhzQkV2aHVzM1I2am9fOHFHa19CQlN0Z3FqUG5nc2VwQUJxazBhbGZlSUhDMHExSWJLbDJNNXRjc3BOYkZrTThIUW1IUkE4QUI2azl6MzZHT0Nrb2M4aDZBQzZKYVp4OTg0VV9xWWllLUJGYkFkdw?oc=5
 - French President Arrives in Doha for State Visit (1 headlines; single-source)
@@ -92,5 +94,3 @@ IMPORTANT: Unverified published reporting; not confirmed attacks or official saf
   - Vietnam.vn: https://news.google.com/rss/articles/CBMiugFBVV95cUxPckNnaGVMMG8xcG5PLXV5VTRONmVmNU93NE9mdUhnOE1WTWJJZ3JEM0JsR01ZSGlKTVl0dHJ5RzlKZXJWUmx6TFo1MlZMU01UYWU4aVpyM2ttM0toWnh0UWJqYVpHM0J3VlZ1QzhrSXMtVW04amNtTHRHZ0RESjNhdUZ1aDRYdmpycEF1ZU9rd0ZNbmRCSWxJY041U0MtYUlMNEZsVUNzY3liRmdHV05mQ3lGUldSb2xCQVE?oc=5
 - Iran war latest: Hegseth makes surprise visit to Israel as Netanyahu tells Trump 'we have job to finish' - The National (1 headlines; single-source)
   - The National: https://news.google.com/rss/articles/CBMijgFBVV95cUxPTVZ5ekNnd0lWdHo2RW5CVnUtOVZqZG5VUWd6V1pUQ2d0a2NxWFEwRzI5OTBQckZtTnVKUWRMZzNuT3N0X1V5YXlEU0lfdWtRY0hlRXRJSlNpNFhXZ3hYN240RTNCamhPSDBSaGdVZ0J2TUl4RDR3QUFFa1laMDRQTm5kOWF4QXZjTWdyZjR3?oc=5
-- Qatar says Iran-US talks ongoing, warns of wider regional war - Mehr News Agency (1 headlines; single-source)
-  - Mehr News Agency: https://news.google.com/rss/articles/CBMinAFBVV95cUxQMGRhRWNoeTlhSkJqVElOTUp3aDJwQ040RERaeXppa3h6OV9EbzYzREhudWVEVE1xbDF2c3VVUU9NWkJMN0FkdVVISzVrVUxoZHdoTTNlZUJxeWU1SmlBMkxwa2ZPNDdIM3FIR2lBVlphVkpzYkJFR2J3eDhSaWt2dEVXT2FxejNBdmExYms3RC1NMnIxVDgtSkRPNEg?oc=5

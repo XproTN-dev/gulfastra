@@ -1,9 +1,32 @@
 {
   "version": 6,
-  "last_run": "2026-10-20T19:04:37.397044Z",
-  "last_successful_run": "2026-10-20T19:04:37.397044Z",
+  "last_run": "2026-10-20T19:09:18.137210Z",
+  "last_successful_run": "2026-10-20T19:09:18.137210Z",
   "successful_sources": 29,
   "reports": [
+    {
+      "id": "6523b8af7889128e99aa5508",
+      "title": "Iran’s president says US must lift sanctions before any negotiations - Türkiye Today",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNcjE2WTdjdzVmRzhLVFR5RHM0cjdWREpLaGNwWXE1djI3Q1JIX2JvcEgxWTRoUjRrSUVfdmw4bmFTRjlKQXIzNldUYlgtRnhiWXkxX3pad3Z5WldYcFkyQ2hCM0hHYTlVcXlyOXREWUtYblJydDQyTlQwRDdSa0N4cEd6LWgtdFFENEp0cXFzQXRiaHQ5ZWJ2blM4dFdScFZtX2ZWWHZITXl6VUtuN1F1aw?oc=5",
+      "source": "Türkiye Today",
+      "published_at": "2026-10-20T18:50:44Z",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "language": "en",
+      "category": "diplomacy",
+      "tag": "DIPLOMACY REPORT",
+      "provider": "Google News · diplomacy",
+      "first_seen_at": "2026-10-20T19:09:18.137210Z",
+      "date_quality": "publisher-time",
+      "freshness": "new-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
     {
       "id": "830352a15dabf36e6b2efc08",
       "title": "Britain sends fighter jets to defend Saudi Arabia amid Houthi attacks - The Washington Post",
@@ -962,29 +985,6 @@
       "freshness": "recent-reporting",
       "context": "reporting",
       "severity": "elevated-reporting",
-      "critical_candidate": false,
-      "alert_eligible": false,
-      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
-    },
-    {
-      "id": "b75bb2b7af18a30b6c56175c",
-      "title": "UK expands military support for Saudi Arabia against Houthis with ‘defensive’ air patrols - AP News",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdFpJQjVaX2pPYVMybXM3OEQ4ZzRzNEdpc2FVMldTRTVWaVFNQXZQVkZrRmdLNVpKc1RVeS1sbGIzSDJlNE12QkRMR2UxcC1PZWIwcnJXY0Z4T0hEQkxmWnBrNHpkSFZxaWgzZU5pRGM1cGJVUWRISHFraGJaUFFzRnlHYko4UlJpMmFvMVZLc1lFdw?oc=5",
-      "source": "AP News",
-      "published_at": "2026-10-20T15:56:00Z",
-      "country": "Saudi",
-      "countries": [
-        "Saudi"
-      ],
-      "language": "en",
-      "category": "security",
-      "tag": "SECURITY REPORT",
-      "provider": "AP · indexed Gulf reporting",
-      "first_seen_at": "2026-10-20T12:03:42.847208Z",
-      "date_quality": "publisher-time",
-      "freshness": "recent-reporting",
-      "context": "reporting",
-      "severity": "routine-reporting",
       "critical_candidate": false,
       "alert_eligible": false,
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
@@ -3066,6 +3066,29 @@
       "provider": "عربي · قطر",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "b75bb2b7af18a30b6c56175c",
+      "title": "UK expands military support for Saudi Arabia against Houthis with ‘defensive’ air patrols - AP News",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdFpJQjVaX2pPYVMybXM3OEQ4ZzRzNEdpc2FVMldTRTVWaVFNQXZQVkZrRmdLNVpKc1RVeS1sbGIzSDJlNE12QkRMR2UxcC1PZWIwcnJXY0Z4T0hEQkxmWnBrNHpkSFZxaWgzZU5pRGM1cGJVUWRISHFraGJaUFFzRnlHYko4UlJpMmFvMVZLc1lFdw?oc=5",
+      "source": "AP News",
+      "published_at": "2026-10-20T11:31:03Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "AP · indexed Gulf reporting",
+      "first_seen_at": "2026-10-20T12:03:42.847208Z",
+      "date_quality": "publisher-time",
       "freshness": "recent-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -12374,6 +12397,29 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "37a7862e22843fad0855763d",
+      "title": "سلطات مأرب تؤكد إطلاق الحوثيين ثمانية صواريخ باليستية على المدينة - emirates24.net",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBkMzRYTThjSVVoWHY4aUhCZ25EYjh1cnM3ejByUVh2RFdRdXZSSFA4eVFiZGRtek9pNlI5M1IxRGVHak9yMUF2ZjhuYUpfeXdlOWE4dlUxNWVHZHdROUE?oc=5",
+      "source": "emirates24.net",
+      "published_at": "2026-10-18T19:01:33Z",
+      "country": "Yemen",
+      "countries": [
+        "Yemen"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير عن صواريخ",
+      "provider": "عربي · الإمارات والبحرين",
+      "first_seen_at": "2026-10-20T19:09:18.137210Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "cf40f32cdb967191abd15135",
       "title": "Egypt’s top security body agrees to help Saudi Arabia defend itself against Houthi attacks - AP News",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOS1hsZ1ZMdXFsZmM1WHRVeFRpV0dzUEpwcFlNVjAyUnBfUjVGb0JjVFFmY1dZeVd1ekw0MGhsSWNtNE9pQ1hCangwSFpaOG9Ec1JJWWtwS0pXbTJBT0tkVm5qS2FPTVdleUlZVWNmNjZiVi14NzAwc2JHOFh6TXU0WGsxNVBpajdHaEhYSmhoWWV0dnNXdlpn?oc=5",
@@ -15236,7 +15282,7 @@
       "language": "en",
       "category": "security",
       "tag": "INTERCEPTION REPORT",
-      "provider": "Google News · missiles/drones",
+      "provider": "Google News · security",
       "first_seen_at": "2026-10-20T12:09:48.504938Z",
       "date_quality": "publisher-time",
       "freshness": "older-reporting",
@@ -19836,6 +19882,27 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "5209719c6b6365ccef01ceb9",
+      "title": "هجوم الجزيرة يقلق «القيصر» كوزمين - صحيفة الخليج",
+      "url": "https://news.google.com/rss/articles/CBMivgNBVV95cUxPcVljMWZmUF8ycFMwa3hfX0Z3V2pYZ1k2R1FhMGZlVHYyTldNdmhnZXVvMmZMN1huX1hzWHBOMEVDSHlQT2ZJTU9SSENOcmk0aXlnYlFQZHhOTFJ0cUZjX0hWbndUdURNUHFpTGhuYnlwMFRnbkhLZ2RGVGwtbEp0NFlsZFN3UXFjOFQ2WFhNV1d0ZkhoTjFmSUpZYVdmb2xSemptVGZ1d0llN0VFcXRrcC1CMk9Mek0ySDdxUjAwaVBNUkY5ZnI1dThoRXBtVXZidFI2SmIxaVpsdXIxelBzMlhuTVRLTFhYbE1vcjQzQlJpV193YWZCazYyWXBMOVB2YktIQ2IxdXp1QjNOcGNZWUJJbkpFWXZILXZza0dsQlpIeVV0V2x1NXBCZEptdUJ5QnUtVjdYcDl3ckNIM2RMbWUzSG4zU2pULWc5NXFRQXhoczMzcmZFSUpRNS1DRWZ3SjB3ZFJKNHdKMG9yVHJPS1JmUnlEbmVhSXhid0RaNDVmOExSNG0zdTRyR1J0Q1BqRERnM3dHUU81SlhBQTM4bEc5TkJPYWNsUnhjaF9XMDlxU0ZranZka1FRMDkwQQ?oc=5",
+      "source": "صحيفة الخليج",
+      "published_at": "2026-10-16T22:44:24Z",
+      "country": "",
+      "countries": [],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير امني",
+      "provider": "عربي · الإمارات والبحرين",
+      "first_seen_at": "2026-10-20T18:06:19.470860Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "f8b86ddbb8074bccdaa6",
       "title": "Saudi crude exports surge despite Strait of Hormuz shipping risks - TankerTrackers - Iran International",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1vQXh3NmJpMDdiaWptbkdvTWpkMU41V3dLV18tNlZOcmdsY0VfOElVTXRaRGRjVXNfQWlwLUhTMl80UWdOUElDZC1CeXAwOS1XUFE?oc=5",
@@ -23278,27 +23345,6 @@
       "language": "en",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
-      "freshness": "older-reporting",
-      "context": "reporting",
-      "severity": "routine-reporting",
-      "critical_candidate": false,
-      "alert_eligible": false,
-      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
-    },
-    {
-      "id": "5209719c6b6365ccef01ceb9",
-      "title": "هجوم الجزيرة يقلق «القيصر» كوزمين - صحيفة الخليج",
-      "url": "https://news.google.com/rss/articles/CBMivgNBVV95cUxPcVljMWZmUF8ycFMwa3hfX0Z3V2pYZ1k2R1FhMGZlVHYyTldNdmhnZXVvMmZMN1huX1hzWHBOMEVDSHlQT2ZJTU9SSENOcmk0aXlnYlFQZHhOTFJ0cUZjX0hWbndUdURNUHFpTGhuYnlwMFRnbkhLZ2RGVGwtbEp0NFlsZFN3UXFjOFQ2WFhNV1d0ZkhoTjFmSUpZYVdmb2xSemptVGZ1d0llN0VFcXRrcC1CMk9Mek0ySDdxUjAwaVBNUkY5ZnI1dThoRXBtVXZidFI2SmIxaVpsdXIxelBzMlhuTVRLTFhYbE1vcjQzQlJpV193YWZCazYyWXBMOVB2YktIQ2IxdXp1QjNOcGNZWUJJbkpFWXZILXZza0dsQlpIeVV0V2x1NXBCZEptdUJ5QnUtVjdYcDl3ckNIM2RMbWUzSG4zU2pULWc5NXFRQXhoczMzcmZFSUpRNS1DRWZ3SjB3ZFJKNHdKMG9yVHJPS1JmUnlEbmVhSXhid0RaNDVmOExSNG0zdTRyR1J0Q1BqRERnM3dHUU81SlhBQTM4bEc5TkJPYWNsUnhjaF9XMDlxU0ZranZka1FRMDkwQQ?oc=5",
-      "source": "صحيفة الخليج",
-      "published_at": "2026-10-15T20:52:23Z",
-      "country": "",
-      "countries": [],
-      "language": "ar",
-      "category": "security",
-      "tag": "تقرير امني",
-      "provider": "عربي · الإمارات والبحرين",
-      "first_seen_at": "2026-10-20T18:06:19.470860Z",
-      "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -30996,7 +31042,7 @@
       "provider": "Google News · security",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
-      "freshness": "older-reporting",
+      "freshness": "archive",
       "context": "reporting",
       "severity": "routine-reporting",
       "critical_candidate": false,
@@ -33288,12 +33334,12 @@
     "Google News · missiles/drones": {
       "ok": true,
       "items": 100,
-      "relevant": 79
+      "relevant": 78
     },
     "Google News · security": {
       "ok": true,
       "items": 100,
-      "relevant": 75
+      "relevant": 73
     },
     "Google News · aviation": {
       "ok": true,
@@ -33312,7 +33358,7 @@
     },
     "Google News · regional": {
       "ok": true,
-      "items": 54,
+      "items": 56,
       "relevant": 29
     },
     "Reuters · indexed Gulf reporting": {
@@ -33323,7 +33369,7 @@
     "AP · indexed Gulf reporting": {
       "ok": true,
       "items": 100,
-      "relevant": 30
+      "relevant": 31
     },
     "UKMTO · indexed official advisories": {
       "ok": true,
@@ -33348,7 +33394,7 @@
     "عربي · السعودية": {
       "ok": true,
       "items": 100,
-      "relevant": 52
+      "relevant": 51
     },
     "عربي · الإمارات والبحرين": {
       "ok": true,
@@ -33357,8 +33403,8 @@
     },
     "عربي · الكويت والعراق": {
       "ok": true,
-      "items": 51,
-      "relevant": 48
+      "items": 50,
+      "relevant": 47
     },
     "عربي · مضيق هرمز": {
       "ok": true,
@@ -33373,7 +33419,7 @@
     "عربي · العربية": {
       "ok": true,
       "items": 100,
-      "relevant": 37
+      "relevant": 36
     },
     "عربي · الشرق": {
       "ok": true,
@@ -33435,8 +33481,9 @@
       "relevant": 7
     },
     "GDELT · article index": {
-      "ok": false,
-      "error": "The read operation timed out"
+      "ok": null,
+      "state": "rate-limit-backoff",
+      "note": "Probed twice hourly; previous HTTP 429 responses"
     }
   },
   "notice": "Public news headlines only, not verified attacks. Approximate country reference markers. Provider errors are reported."
