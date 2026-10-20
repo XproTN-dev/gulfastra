@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "generated_at": "2026-10-20T18:38:38.974460Z",
+  "generated_at": "2026-10-20T18:39:45.212287Z",
   "model": "deterministic-source-correlation-v2-coverage-lifecycle",
   "disclaimer": "Clusters are related PUBLIC REPORTS, not confirmed incidents. Source counts are not proof. Country names are mentions, not incident locations.",
   "events": [
@@ -3407,7 +3407,7 @@
       "updated_at": "2026-10-20T17:40:06.462754Z"
     },
     {
-      "id": "GF-77B15967C2912D",
+      "id": "GF-B733DA8B5DCD07",
       "title": "UK to deploy fighter jets to defend Saudi Arabia against Houthi missile and drone attacks - WION",
       "category": "security",
       "topic": "missile",
@@ -3418,7 +3418,7 @@
       "location_quality": "country-mention",
       "confidence": null,
       "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
+      "corroboration": "multi-publisher-unverified",
       "cross_language_candidate": false,
       "wording_review": {
         "potentially_divergent_wording": false,
@@ -3428,9 +3428,9 @@
       "languages": [
         "en"
       ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-20T13:37:00Z",
+      "publisher_count": 2,
+      "report_count": 2,
+      "first_published": "2026-10-20T12:02:58Z",
       "last_published": "2026-10-20T13:37:00Z",
       "event_occurred_at": null,
       "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
@@ -3448,10 +3448,24 @@
           "collected_at": null,
           "language": "en",
           "country": ""
+        },
+        {
+          "id": "32df43e7eaede21435eccf59",
+          "title": "UK Deploys RAF Typhoon Jets To Defend Saudi Arabia From Houthi Missile And Drone Attacks - NewsCord",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOZXRoellXN3I4YTBWN2I2XzJOU2lZVE9kelFQbXVuenV4WFNtWkpwZVFGMXJ5ZzFIa3luZ1hUcGVWUExOQ3hLNmNTeTNDbDVOOU1GUTFJX1ZRX3hudmpUb2tUaWZVM3Jxcll0TmpQamhlM2E1d3hfSGEwX0pFSHVkbktXQmJjOFZoWFJTaFlMU1NoMzk5bkphZjVfM05RR3VBczV4Z0FWMEVvcVNIWlJmaHVKV1RHVXFHcFlZQW9qa2x4aVoyeFNPVjduRGkyUVUxczF1c3hMWnJTNEh0ZWtMMnMzdV90emR3UUE?oc=5",
+          "source": "NewsCord",
+          "publisher_key": "newscord",
+          "provider": "Google News · missiles/drones",
+          "published_at": "2026-10-20T12:02:58Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T13:30:10.274301Z",
+          "collected_at": null,
+          "language": "en",
+          "country": ""
         }
       ],
       "coverage_stage": "recent-coverage",
-      "coverage_first_published_at": "2026-10-20T13:37:00Z",
+      "coverage_first_published_at": "2026-10-20T12:02:58Z",
       "coverage_last_published_at": "2026-10-20T13:37:00Z",
       "current_reporting": false,
       "recent_publisher_count": 0,
@@ -3459,9 +3473,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "17273e9a78262d0e98db",
-      "revision": 2,
-      "updated_at": "2026-10-20T16:52:31.264495Z"
+      "digest": "949cc587f185634543d7",
+      "revision": 3,
+      "updated_at": "2026-10-20T18:39:45.212287Z"
     },
     {
       "id": "GF-0E2CDE59D42310",
@@ -5115,63 +5129,6 @@
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
       "digest": "7300a32dab996515c33d",
-      "revision": 2,
-      "updated_at": "2026-10-20T16:52:31.264495Z"
-    },
-    {
-      "id": "GF-B733DA8B5DCD07",
-      "title": "UK Deploys RAF Typhoon Jets To Defend Saudi Arabia From Houthi Missile And Drone Attacks: 11 outlets compared - NewsCord",
-      "category": "security",
-      "topic": "missile",
-      "countries": [
-        "Saudi",
-        "Yemen"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "en"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-20T12:02:58Z",
-      "last_published": "2026-10-20T12:02:58Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "32df43e7eaede21435eccf59",
-          "title": "UK Deploys RAF Typhoon Jets To Defend Saudi Arabia From Houthi Missile And Drone Attacks: 11 outlets compared - NewsCord",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOZXRoellXN3I4YTBWN2I2XzJOU2lZVE9kelFQbXVuenV4WFNtWkpwZVFGMXJ5ZzFIa3luZ1hUcGVWUExOQ3hLNmNTeTNDbDVOOU1GUTFJX1ZRX3hudmpUb2tUaWZVM3Jxcll0TmpQamhlM2E1d3hfSGEwX0pFSHVkbktXQmJjOFZoWFJTaFlMU1NoMzk5bkphZjVfM05RR3VBczV4Z0FWMEVvcVNIWlJmaHVKV1RHVXFHcFlZQW9qa2x4aVoyeFNPVjduRGkyUVUxczF1c3hMWnJTNEh0ZWtMMnMzdV90emR3UUE?oc=5",
-          "source": "NewsCord",
-          "publisher_key": "newscord",
-          "provider": "Google News · missiles/drones",
-          "published_at": "2026-10-20T12:02:58Z",
-          "date_quality": "publisher-time",
-          "first_seen_at": "2026-10-20T13:30:10.274301Z",
-          "collected_at": null,
-          "language": "en",
-          "country": ""
-        }
-      ],
-      "coverage_stage": "recent-coverage",
-      "coverage_first_published_at": "2026-10-20T12:02:58Z",
-      "coverage_last_published_at": "2026-10-20T12:02:58Z",
-      "current_reporting": false,
-      "recent_publisher_count": 0,
-      "recent_article_count": 0,
-      "incident_status": "unknown",
-      "event_occurrence_verified": false,
-      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "791c92fca36770b801dd",
       "revision": 2,
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
@@ -13952,6 +13909,63 @@
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
+      "id": "GF-EB4ADBA3FF937F",
+      "title": "البحرين تعلن اعتراض هجمات إيرانية جديدة.. والكويت تتصدى لصاروخين باليستيين وسط تصعيد أميركي-إيراني - الساحل الغربي",
+      "category": "security",
+      "topic": "interception",
+      "countries": [
+        "Bahrain",
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-19T21:58:54Z",
+      "last_published": "2026-10-19T21:58:54Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "c1138a2262b02b848c7569fe",
+          "title": "البحرين تعلن اعتراض هجمات إيرانية جديدة.. والكويت تتصدى لصاروخين باليستيين وسط تصعيد أميركي-إيراني - الساحل الغربي",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1hcEthLUFQRmFqekJvQkpzMDZNR3Q2MkJKdVVTbkVxRHZiVEdraW5Hb01TMWpDUm5wNDNFdFhqR0JxNlgzNEZ1eGMwc0dXeFE?oc=5",
+          "source": "الساحل الغربي",
+          "publisher_key": "الساحل الغربي",
+          "provider": "عربي · الإمارات والبحرين",
+          "published_at": "2026-10-19T21:58:54Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T12:03:42.847208Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "recent-coverage",
+      "coverage_first_published_at": "2026-10-19T21:58:54Z",
+      "coverage_last_published_at": "2026-10-19T21:58:54Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "eea39b3c23b0b4b36fc1",
+      "revision": 23,
+      "updated_at": "2026-10-20T18:39:45.212287Z"
+    },
+    {
       "id": "GF-A5770A06CD6844",
       "title": "Day 226 | At least two killed in attack on Riyadh airport - Roya News",
       "category": "security",
@@ -14118,6 +14132,64 @@
       "digest": "fe37e8bd3ae1f31507b1",
       "revision": 3,
       "updated_at": "2026-10-20T16:52:31.264495Z"
+    },
+    {
+      "id": "GF-16094BD5B10138",
+      "title": "السعودية والإمارات تدينان الهجمات الإيرانية على البحرين والكويت والأردن وتؤكدان دعمهما لأمن الدول الشقيقة - الساحل الغربي",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Bahrain",
+        "Iran",
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-19T21:42:52Z",
+      "last_published": "2026-10-19T21:42:52Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "6df264a43f4803d464219aca",
+          "title": "السعودية والإمارات تدينان الهجمات الإيرانية على البحرين والكويت والأردن وتؤكدان دعمهما لأمن الدول الشقيقة - الساحل الغربي",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBITGlFa05BRWUwWDUwVzhPWlZFaC1yQ0RmMUxpMXZLUF9neHYtZ0lmdFRmQk4ta0VWT1hRZ25YVFlRdENrajdBcTQ2OVdFYmM?oc=5",
+          "source": "الساحل الغربي",
+          "publisher_key": "الساحل الغربي",
+          "provider": "عربي · الإمارات والبحرين",
+          "published_at": "2026-10-19T21:42:52Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T16:54:36.300300Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "recent-coverage",
+      "coverage_first_published_at": "2026-10-19T21:42:52Z",
+      "coverage_last_published_at": "2026-10-19T21:42:52Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "efda49ef4733246c655b",
+      "revision": 9,
+      "updated_at": "2026-10-20T18:39:45.212287Z"
     },
     {
       "id": "GF-59345064D5A1D3",
@@ -43467,6 +43539,60 @@
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
+      "id": "GF-0B5147E1439EBF",
+      "title": "هجوم الجزيرة يقلق «القيصر» كوزمين - صحيفة الخليج",
+      "category": "security",
+      "topic": "regional",
+      "countries": [],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-16T22:44:24Z",
+      "last_published": "2026-10-16T22:44:24Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "5209719c6b6365ccef01ceb9",
+          "title": "هجوم الجزيرة يقلق «القيصر» كوزمين - صحيفة الخليج",
+          "url": "https://news.google.com/rss/articles/CBMivgNBVV95cUxPcVljMWZmUF8ycFMwa3hfX0Z3V2pYZ1k2R1FhMGZlVHYyTldNdmhnZXVvMmZMN1huX1hzWHBOMEVDSHlQT2ZJTU9SSENOcmk0aXlnYlFQZHhOTFJ0cUZjX0hWbndUdURNUHFpTGhuYnlwMFRnbkhLZ2RGVGwtbEp0NFlsZFN3UXFjOFQ2WFhNV1d0ZkhoTjFmSUpZYVdmb2xSemptVGZ1d0llN0VFcXRrcC1CMk9Mek0ySDdxUjAwaVBNUkY5ZnI1dThoRXBtVXZidFI2SmIxaVpsdXIxelBzMlhuTVRLTFhYbE1vcjQzQlJpV193YWZCazYyWXBMOVB2YktIQ2IxdXp1QjNOcGNZWUJJbkpFWXZILXZza0dsQlpIeVV0V2x1NXBCZEptdUJ5QnUtVjdYcDl3ckNIM2RMbWUzSG4zU2pULWc5NXFRQXhoczMzcmZFSUpRNS1DRWZ3SjB3ZFJKNHdKMG9yVHJPS1JmUnlEbmVhSXhid0RaNDVmOExSNG0zdTRyR1J0Q1BqRERnM3dHUU81SlhBQTM4bEc5TkJPYWNsUnhjaF9XMDlxU0ZranZka1FRMDkwQQ?oc=5",
+          "source": "صحيفة الخليج",
+          "publisher_key": "صحيفة الخليج",
+          "provider": "عربي · الإمارات والبحرين",
+          "published_at": "2026-10-16T22:44:24Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T18:06:19.470860Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-16T22:44:24Z",
+      "coverage_last_published_at": "2026-10-16T22:44:24Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "83a4472297584c730062",
+      "revision": 3,
+      "updated_at": "2026-10-20T18:39:45.212287Z"
+    },
+    {
       "id": "GF-3D2C72840C05AA",
       "title": "Saudi crude exports surge despite Strait of Hormuz shipping risks - TankerTrackers - Iran International",
       "category": "transport",
@@ -49764,64 +49890,6 @@
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
-      "id": "GF-16094BD5B10138",
-      "title": "السعودية والإمارات تدينان الهجمات الإيرانية على البحرين والكويت والأردن وتؤكدان دعمهما لأمن الدول الشقيقة - الساحل الغربي",
-      "category": "security",
-      "topic": "regional",
-      "countries": [
-        "Bahrain",
-        "Iran",
-        "Saudi"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "ar"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-16T03:25:46Z",
-      "last_published": "2026-10-16T03:25:46Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "6df264a43f4803d464219aca",
-          "title": "السعودية والإمارات تدينان الهجمات الإيرانية على البحرين والكويت والأردن وتؤكدان دعمهما لأمن الدول الشقيقة - الساحل الغربي",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBITGlFa05BRWUwWDUwVzhPWlZFaC1yQ0RmMUxpMXZLUF9neHYtZ0lmdFRmQk4ta0VWT1hRZ25YVFlRdENrajdBcTQ2OVdFYmM?oc=5",
-          "source": "الساحل الغربي",
-          "publisher_key": "الساحل الغربي",
-          "provider": "عربي · الإمارات والبحرين",
-          "published_at": "2026-10-16T03:25:46Z",
-          "date_quality": "publisher-time",
-          "first_seen_at": "2026-10-20T16:54:36.300300Z",
-          "collected_at": null,
-          "language": "ar",
-          "country": ""
-        }
-      ],
-      "coverage_stage": "quiet-coverage",
-      "coverage_first_published_at": "2026-10-16T03:25:46Z",
-      "coverage_last_published_at": "2026-10-16T03:25:46Z",
-      "current_reporting": false,
-      "recent_publisher_count": 0,
-      "recent_article_count": 0,
-      "incident_status": "unknown",
-      "event_occurrence_verified": false,
-      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "958e3f0a4184cbfda211",
-      "revision": 8,
-      "updated_at": "2026-10-20T18:07:17.994275Z"
-    },
-    {
       "id": "GF-2754D409258FEA",
       "title": "التحالف: اعتراض وتدمير مسيرة بالمنطقة الشرقية في السعودية - العربية",
       "category": "security",
@@ -51412,60 +51480,6 @@
       "digest": "a67d91a9ab200bf061a3",
       "revision": 3,
       "updated_at": "2026-10-20T16:52:31.264495Z"
-    },
-    {
-      "id": "GF-0B5147E1439EBF",
-      "title": "هجوم الجزيرة يقلق «القيصر» كوزمين - صحيفة الخليج",
-      "category": "security",
-      "topic": "regional",
-      "countries": [],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "ar"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-15T20:52:23Z",
-      "last_published": "2026-10-15T20:52:23Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "5209719c6b6365ccef01ceb9",
-          "title": "هجوم الجزيرة يقلق «القيصر» كوزمين - صحيفة الخليج",
-          "url": "https://news.google.com/rss/articles/CBMivgNBVV95cUxPcVljMWZmUF8ycFMwa3hfX0Z3V2pYZ1k2R1FhMGZlVHYyTldNdmhnZXVvMmZMN1huX1hzWHBOMEVDSHlQT2ZJTU9SSENOcmk0aXlnYlFQZHhOTFJ0cUZjX0hWbndUdURNUHFpTGhuYnlwMFRnbkhLZ2RGVGwtbEp0NFlsZFN3UXFjOFQ2WFhNV1d0ZkhoTjFmSUpZYVdmb2xSemptVGZ1d0llN0VFcXRrcC1CMk9Mek0ySDdxUjAwaVBNUkY5ZnI1dThoRXBtVXZidFI2SmIxaVpsdXIxelBzMlhuTVRLTFhYbE1vcjQzQlJpV193YWZCazYyWXBMOVB2YktIQ2IxdXp1QjNOcGNZWUJJbkpFWXZILXZza0dsQlpIeVV0V2x1NXBCZEptdUJ5QnUtVjdYcDl3ckNIM2RMbWUzSG4zU2pULWc5NXFRQXhoczMzcmZFSUpRNS1DRWZ3SjB3ZFJKNHdKMG9yVHJPS1JmUnlEbmVhSXhid0RaNDVmOExSNG0zdTRyR1J0Q1BqRERnM3dHUU81SlhBQTM4bEc5TkJPYWNsUnhjaF9XMDlxU0ZranZka1FRMDkwQQ?oc=5",
-          "source": "صحيفة الخليج",
-          "publisher_key": "صحيفة الخليج",
-          "provider": "عربي · الإمارات والبحرين",
-          "published_at": "2026-10-15T20:52:23Z",
-          "date_quality": "publisher-time",
-          "first_seen_at": "2026-10-20T18:06:19.470860Z",
-          "collected_at": null,
-          "language": "ar",
-          "country": ""
-        }
-      ],
-      "coverage_stage": "quiet-coverage",
-      "coverage_first_published_at": "2026-10-15T20:52:23Z",
-      "coverage_last_published_at": "2026-10-15T20:52:23Z",
-      "current_reporting": false,
-      "recent_publisher_count": 0,
-      "recent_article_count": 0,
-      "incident_status": "unknown",
-      "event_occurrence_verified": false,
-      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "b6ec1dfa49b6c5950f74",
-      "revision": 2,
-      "updated_at": "2026-10-20T18:06:54.672518Z"
     },
     {
       "id": "GF-8C6AD0A170A07E",
@@ -67865,63 +67879,6 @@
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
-      "id": "GF-EB4ADBA3FF937F",
-      "title": "البحرين تعلن اعتراض هجمات إيرانية جديدة.. والكويت تتصدى لصاروخين باليستيين وسط تصعيد أميركي-إيراني - الساحل الغربي",
-      "category": "security",
-      "topic": "interception",
-      "countries": [
-        "Bahrain",
-        "Iran"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "ar"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-13T19:23:44Z",
-      "last_published": "2026-10-13T19:23:44Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "c1138a2262b02b848c7569fe",
-          "title": "البحرين تعلن اعتراض هجمات إيرانية جديدة.. والكويت تتصدى لصاروخين باليستيين وسط تصعيد أميركي-إيراني - الساحل الغربي",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1hcEthLUFQRmFqekJvQkpzMDZNR3Q2MkJKdVVTbkVxRHZiVEdraW5Hb01TMWpDUm5wNDNFdFhqR0JxNlgzNEZ1eGMwc0dXeFE?oc=5",
-          "source": "الساحل الغربي",
-          "publisher_key": "الساحل الغربي",
-          "provider": "عربي · الإمارات والبحرين",
-          "published_at": "2026-10-13T19:23:44Z",
-          "date_quality": "publisher-time",
-          "first_seen_at": "2026-10-20T12:03:42.847208Z",
-          "collected_at": null,
-          "language": "ar",
-          "country": ""
-        }
-      ],
-      "coverage_stage": "quiet-coverage",
-      "coverage_first_published_at": "2026-10-13T19:23:44Z",
-      "coverage_last_published_at": "2026-10-13T19:23:44Z",
-      "current_reporting": false,
-      "recent_publisher_count": 0,
-      "recent_article_count": 0,
-      "incident_status": "unknown",
-      "event_occurrence_verified": false,
-      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "207b3fccb9b952e69c64",
-      "revision": 22,
-      "updated_at": "2026-10-20T18:38:38.974460Z"
-    },
-    {
       "id": "GF-535D35AC374D48",
       "title": "Iran’s IRGC Navy threatens to sink US warships approaching Strait of Hormuz - Middle East Monitor",
       "category": "security",
@@ -73360,9 +73317,9 @@
       "sources": 208
     },
     "Saudi": {
-      "events": 502,
+      "events": 501,
       "reports": 534,
-      "security_coverage": 393,
+      "security_coverage": 392,
       "transport_coverage": 96,
       "sources": 259
     },
@@ -73409,9 +73366,9 @@
       "sources": 5
     },
     "Yemen": {
-      "events": 234,
+      "events": 233,
       "reports": 243,
-      "security_coverage": 222,
+      "security_coverage": 221,
       "transport_coverage": 11,
       "sources": 123
     },
@@ -73432,36 +73389,44 @@
     "2026-10-09": 1,
     "2026-10-10": 1,
     "2026-10-12": 7,
-    "2026-10-13": 114,
+    "2026-10-13": 113,
     "2026-10-14": 141,
-    "2026-10-15": 134,
+    "2026-10-15": 133,
     "2026-10-16": 130,
     "2026-10-17": 184,
     "2026-10-18": 144,
-    "2026-10-19": 195,
-    "2026-10-20": 234
+    "2026-10-19": 197,
+    "2026-10-20": 233
   },
   "revisions": [
     {
-      "id": "GF-4FBA1BDBA2302C",
-      "revision": 10,
-      "at": "2026-10-20T18:38:38.974460Z",
+      "id": "GF-B733DA8B5DCD07",
+      "revision": 3,
+      "at": "2026-10-20T18:39:45.212287Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-F99E79086CCD1D",
-      "revision": 15,
-      "at": "2026-10-20T18:38:38.974460Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
+      "new_source_count": 2
     },
     {
       "id": "GF-EB4ADBA3FF937F",
-      "revision": 22,
-      "at": "2026-10-20T18:38:38.974460Z",
+      "revision": 23,
+      "at": "2026-10-20T18:39:45.212287Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-16094BD5B10138",
+      "revision": 9,
+      "at": "2026-10-20T18:39:45.212287Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-0B5147E1439EBF",
+      "revision": 3,
+      "at": "2026-10-20T18:39:45.212287Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1

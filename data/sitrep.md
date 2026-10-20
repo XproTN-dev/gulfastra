@@ -1,9 +1,9 @@
 # Gulfastra | Open-source situation report
 Window: last 24 hours (publication-based)
-Coverage groups: 269 | linked headlines: 289
+Coverage groups: 270 | linked headlines: 291
 IMPORTANT: Unverified published reporting; not confirmed attacks or official safety advice.
 
-## Security (197 coverage groups)
+## Security (198 coverage groups)
 - UK to deploy fighter jets to protect Saudi Arabia from Houthi attacks (1 headlines; single-source)
   - The Guardian · Middle East: https://www.theguardian.com/uk-news/2026/oct/20/uk-raf-typhoon-fighters-saudi-arabia-houthi-attacks
 - Ukraine Deployed Drone Units around Iran, Tehran Weighs Response – Tasnim - Palestine Chronicle (1 headlines; single-source)
