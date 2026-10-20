@@ -53,8 +53,12 @@ function openContext(title,body){
  if(root.innerWidth<=950)$("contextClose").focus();
 }
 function backdrop(){
- $("labBackdrop").hidden=!($("impactApp").classList.contains("filters-open")||
-   $("impactApp").classList.contains("context-open"));
+ // Desktop context is an ordinary docked rail: an invisible modal backdrop
+ // there would block the stage. Only phone/tablet drawers need the scrim.
+ const sheet=(root.innerWidth<=950)&&(
+  $("impactApp").classList.contains("filters-open")||
+  $("impactApp").classList.contains("context-open"));
+ $("labBackdrop").hidden=!sheet;
 }
 function closeLayers(){$("impactApp").classList.remove("filters-open");backdrop()}
 function contextEvent(id){
