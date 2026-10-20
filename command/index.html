@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../vendor/maplibre-gl.css?v=6-15-0">
-<link rel="stylesheet" href="../assets/command11.css?v=11-14">
+<link rel="stylesheet" href="../assets/command11.css?v=12-1">
 </head><body data-theme="midnight">
 <div id="app" class="app">
 <header class="topbar">
@@ -19,7 +19,7 @@
   <button data-workspace="maritime">MARITIME</button>
   <button data-workspace="aviation">AVIATION</button>
   <button data-workspace="hazards">HAZARDS</button>
-  <button data-workspace="analyst">ANALYST LAB</button>
+  <button data-workspace="analyst">ANALYST LAB</button><a class="lab-nav-link" href="../lab/">◎ IMPACT LAB</a>
  </nav>
  <div class="top-actions"><span id="utc" class="mono utc">--:-- UTC</span><button id="tabletLayersButton" class="tablet-layers-toggle" type="button" aria-label="Open layers sidebar" aria-expanded="false">☰ LAYERS</button><button id="commandButton" class="circle" aria-label="Search or command">⌕</button><button id="languageButton" class="tiny" aria-label="Toggle Arabic and English">ع / EN</button><button id="settingsButton" class="circle" aria-label="Appearance settings">⚙</button><a class="legacy" href="../legacy-v9.html" title="Return to previous GULFASTRA version">V9 ↗</a></div>
 </header>
@@ -85,7 +85,7 @@
  <input id="timelineScrub" type="range" min="0" max="100" value="100" aria-label="Select historical publication cutoff"></div>
  <div class="timeline-stats"><span id="timelineStart">EARLIER</span><span id="timelineChosen">CURRENT VIEW</span><span id="timelineEnd">NOW</span></div>
 </section>
-<nav class="mobile-nav" aria-label="Mobile sections"><button data-mobile="layers">☷<span>LAYERS</span></button><button data-mobile="map" class="active">◎<span>MAP</span></button><button data-mobile="intel">▤<span>INTEL</span></button><button id="mobileSearch">⌕<span>SEARCH</span></button></nav>
+<nav class="mobile-nav" aria-label="Mobile sections"><button data-mobile="layers">☷<span>LAYERS</span></button><button data-mobile="map" class="active">◎<span>MAP</span></button><button data-mobile="intel">▤<span>INTEL</span></button><button id="mobileSearch">⌕<span>SEARCH</span></button><a class="lab-mobile-link" href="../lab/">◎<span>LAB</span></a></nav>
 <div id="dossierBackdrop" class="backdrop" hidden></div>
 <aside id="dossier" class="dossier" role="dialog" aria-modal="true" aria-label="Evidence dossier" hidden><header><div><span class="eyebrow">EVIDENCE / PUBLIC RECORD</span><h2 id="dossierTitle">SOURCE RECORD</h2></div><button id="dossierClose" aria-label="Close evidence dossier">✕</button></header><div id="dossierContent" class="dossier-body"></div></aside>
 <div id="commandOverlay" class="overlay" hidden role="dialog" aria-label="Search and commands" aria-modal="true"><div class="command-modal"><div class="command-input"><span>⌕</span><input id="globalSearch" placeholder="Search headlines, countries, sources, commands…" autocomplete="off"><button id="commandClose">ESC</button></div><div id="commandResults" class="command-results"></div><div class="command-help">ENTER OPEN · ↑ ↓ NAVIGATE · ESC CLOSE · CTRL+K</div></div></div>
