@@ -96,7 +96,8 @@ with sync_playwright() as pw:
             page.locator('[data-mode="network"]').click()
             page.locator(".graph-node .hit-zone").first.click()
             assert page.locator("#contextContent .context-link").count()>0
-            page.locator("#contextClose").click() if page.locator("#contextClose").is_visible() else page.locator("#labExplain").click()
+            if page.locator("#contextClose").is_visible():
+                page.locator("#contextClose").click()
             page.locator('[data-view="markets"]').click()
         assert page.locator('[data-market="VIXCLS"]').count()==1
         assert "18.44" in page.locator('[data-market="VIXCLS"]').inner_text()
