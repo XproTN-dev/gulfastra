@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "generated_at": "2026-10-20T16:50:56.881777Z",
+  "generated_at": "2026-10-20T16:51:46.178056Z",
   "model": "deterministic-source-correlation-v1",
   "disclaimer": "Clusters are related PUBLIC REPORTS, not confirmed incidents. Source counts are not proof. Country names are mentions, not incident locations.",
   "events": [
@@ -670,6 +670,50 @@
       "digest": "2dea8552c584a424195b",
       "revision": 1,
       "updated_at": "2026-10-20T16:50:56.881777Z"
+    },
+    {
+      "id": "GF-66B39624186ABF",
+      "title": "صادرات النفط ترتفع وأرباح \"السعودي الفرنسي\" 1.5 مليار - NOW الشرق",
+      "category": "transport",
+      "topic": "regional",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T15:04:20Z",
+      "last_published": "2026-10-20T15:04:20Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "853269fc073a011d9e180a08",
+          "title": "صادرات النفط ترتفع وأرباح \"السعودي الفرنسي\" 1.5 مليار - NOW الشرق",
+          "url": "https://news.google.com/rss/articles/CBMi8ARBVV95cUxQSC1WWWxTWW1SZEllQzlsbG5pMGpjYnBYbXB5eXpSTWVNTzczTWx2aGtGOTVQOFdCLWg3UTVReXlhUmNMY1BmdHI2Q2RhTGNrNjZjQlU0Y3BOa2xRV1M2WnBsOEpXNDExbjM4T2xycVJWWnhYNV85cXh1ZEl6aHRTLUY4SUxEQTZUdExLakYxTkxRMkozOUlLaTBvZy1iRHhYMWpDX1QwX0pVVi0wLUpyY2NiRTA1c250Z2tYRlRjVC1ocUlRVklGVkxnMTNpRVViQWdLMDJ3VS0wdnpXSHVReWRNSmF5bTlqWDQ0UW8tdkJqdC1LSTg0WHFVaXltaEwxMl9xRUItUFdoMU51N05mLU9sVGRFbG5QSGUwclhuNEswbnc4TjQ5UWtXTldCN1hyTTZPRHdad3FXOV91ZnphdG1TZUNlQmM0Qlo2aC1NWlhZMEI2bzlZMWxRY1hiLS1ma0pPMXlOR29reWVpelpqZEhVMWhTT1lUb1hsZldyOERlOEtIOHlER1pCSEVrRlR1TXpVNXhkd01Wd19aUXNOSmlzS0s2alpLdnNIVU5KVF9wRkdiSXBHWEhyMGJiSjM3c1dsRjNGQkJmTEZubzB0Rm0xTncxR0FYSmlpaG5JRzJ2NW1CaGdZdE9VSUpKN2NkLXJkVHNQVFBDdWhoZjgwRjNuVEJVUEh0M3ZmNHNKWmpVVVVzYlBsc3hCdHNTeXNHZExRdXRIM3FvUTZIaXN1MXRpYVN6WFBkVEFFT0pJaDlfN2FGd253RXh4VWpUYmZvNzdzRlJWZ09tYlNVWVlVdzhTRTdjNXZIVGNWa3lvS3Q?oc=5",
+          "source": "NOW الشرق",
+          "provider": "عربي · الشرق",
+          "published_at": "2026-10-20T15:04:20Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Saudi"
+        }
+      ],
+      "digest": "18e43ba090644d31fcc9",
+      "revision": 1,
+      "updated_at": "2026-10-20T16:51:46.178056Z"
     },
     {
       "id": "GF-D82E3ADF1CD582",
@@ -3812,6 +3856,50 @@
       "updated_at": "2026-10-20T16:50:56.881777Z"
     },
     {
+      "id": "GF-C77CCD940DAD77",
+      "title": "بريطانيا تعلن تعزيز دعمها العسكري الدفاعي للسعودية لمواجهة هجمات الحوثيين - شبكة تواصل الإخبارية",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T11:18:31Z",
+      "last_published": "2026-10-20T11:18:31Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "fc9aa8ebfcd927c0419ca743",
+          "title": "بريطانيا تعلن تعزيز دعمها العسكري الدفاعي للسعودية لمواجهة هجمات الحوثيين - شبكة تواصل الإخبارية",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9CNzhjdy1LNU9QV3VQbUFyb3lYWUVuM0FTZU84YkVUSHhYaVJGQlhqSWZwdTB5ejU3RjJEc3NaaGxWOC11cVpqSVRrVnVMWmhsc2Jv?oc=5",
+          "source": "شبكة تواصل الإخبارية",
+          "provider": "عربي · السعودية",
+          "published_at": "2026-10-20T11:18:31Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Yemen"
+        }
+      ],
+      "digest": "79813e314820b05f898a",
+      "revision": 1,
+      "updated_at": "2026-10-20T16:51:46.178056Z"
+    },
+    {
       "id": "GF-952DDE3A4BFBE5",
       "title": "The UK expands military support for Saudi Arabia against Houthis to include 'defensive' air patrols - KTVN",
       "category": "security",
@@ -4380,6 +4468,50 @@
       "digest": "fc374da64f22e5e01fae",
       "revision": 1,
       "updated_at": "2026-10-20T11:35:35.646171Z"
+    },
+    {
+      "id": "GF-D9D049A55EA588",
+      "title": "إحباط هجوم حوثي باليستي استهدف الرياض الثلاثاء 20 أكتوبر - موقع المنشر الاخبارى",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T10:53:42Z",
+      "last_published": "2026-10-20T10:53:42Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "b631babe99d7bdadc3b8f88b",
+          "title": "إحباط هجوم حوثي باليستي استهدف الرياض الثلاثاء 20 أكتوبر - موقع المنشر الاخبارى",
+          "url": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxNMHJPblowNXIxTjJoRVhnZndkZFpZNVlMRHFFVGd6ZG1jaU1JMWxJTDRxeUt1M01xWl92cTliLWo5VkJ6UG5hRVFNMlNpQkhhVHNkR1RzaG5kWTYwM0dtVG11RUIxb2hQTDRtNkM5NkZwZ29nYjNPckRTdTFmX1Fzb3lNVUZ6WlRramZkbk5SMDBiVWx6OGNVV1VfLU5NcDF1bWtSQXVXSDR3Tl9ZWmxQNUdTMnBMQTlhTFhud1VSYzNPUEN1aDJVOGV0M3FxRFRtcjljbDVYeWxuQjBKcFU5WjRqZFN4SVdOVnNJamg4aTVQOEZ5Q1lWQUVQSlpZc0FVTnd6NHUyTVB6V3l6NEZMWWZNREVvd0t0NG9WR1lDcHpWLVBKX2lsSDBueFNEd2Fqa1EwWk1WTzFhekJUT2FTQlpCbjhGNDlxRXQzZHVoQm0?oc=5",
+          "source": "موقع المنشر الاخبارى",
+          "provider": "عربي · السعودية",
+          "published_at": "2026-10-20T10:53:42Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Saudi"
+        }
+      ],
+      "digest": "fef90e8fa1a89caef240",
+      "revision": 1,
+      "updated_at": "2026-10-20T16:51:46.178056Z"
     },
     {
       "id": "GF-7F41EBC6434375",
@@ -8312,6 +8444,50 @@
       "digest": "89ef7906843e116d61ff",
       "revision": 2,
       "updated_at": "2026-10-20T07:40:58.957167Z"
+    },
+    {
+      "id": "GF-CE7E7EFB09CFF0",
+      "title": "Ceasefire deal between Iran and the US under consideration - 10TV",
+      "category": "security",
+      "topic": "diplomacy",
+      "countries": [
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T01:55:00Z",
+      "last_published": "2026-10-20T01:55:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "42d3d9e42854be683108b352",
+          "title": "Ceasefire deal between Iran and the US under consideration - 10TV",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPVkJtLVBra1VXOFAwdi1NZnpYNHlUZFBfRk1xZFVlZEdQdEZPQzdYaTdxUFJJSnY1d3ZqZ1FFQ2dsWmVOYWs3aGl1bmJ4TFpyNVBCYXJtOS1iWHBZRko5UXlrX3d6OWRDWHlVUkJSOGQ5NjdpSk5ycGVSODk2UjBZMFFQMkc0ZEJWaXZLTVVJaWlzX2pIclRhVjdwamJzYWFINTBqcW4xSDVKUFlaZ3FqN1l1ZWpfV3RfN3VyU0FNNW91Zm0zMlh6eVNUUnR6aGNJQ0lxZGZXVDlPUkItbzBlQ2kxQ1Vfd2dYLUdUNTBYbEo?oc=5",
+          "source": "10TV",
+          "provider": "Google News · diplomacy",
+          "published_at": "2026-10-20T01:55:00Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Iran"
+        }
+      ],
+      "digest": "e02195622bce0500b36a",
+      "revision": 1,
+      "updated_at": "2026-10-20T16:51:46.178056Z"
     },
     {
       "id": "GF-484868D73D0E43",
@@ -12791,51 +12967,6 @@
       "updated_at": "2026-10-20T07:40:58.957167Z"
     },
     {
-      "id": "GF-F99E79086CCD1D",
-      "title": "تصعيد إيراني يطول الكويت والبحرين والأردن.. وواشنطن ترد باستهداف ناقلات النفط - الساحل الغربي",
-      "category": "security",
-      "topic": "maritime",
-      "countries": [
-        "Iran",
-        "Kuwait"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "ar"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-19T13:10:02Z",
-      "last_published": "2026-10-19T13:10:02Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "91d4581a1376bf96e2612e5b",
-          "title": "تصعيد إيراني يطول الكويت والبحرين والأردن.. وواشنطن ترد باستهداف ناقلات النفط - الساحل الغربي",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBEbVdfVUxjVGlrN0lvNi1ZcGh4ZER3ZWt2OHViaGZ4WGgwUEZjdDZNTTlvNTFoWk94YVE5RVZLaUxUWmd1LWdNbFR6dDdWZk0?oc=5",
-          "source": "الساحل الغربي",
-          "provider": "عربي · الإمارات والبحرين",
-          "published_at": "2026-10-19T13:10:02Z",
-          "collected_at": null,
-          "language": "ar",
-          "country": ""
-        }
-      ],
-      "digest": "77ec8a5a9d403b541fdd",
-      "revision": 1,
-      "updated_at": "2026-10-20T16:50:56.881777Z"
-    },
-    {
       "id": "GF-A29F3D9D9BB9BF",
       "title": "أفتح الثلاجة فأجد علي جاسم! هجوم ناري على نجوم منتخب العراق - winwin",
       "category": "security",
@@ -17274,7 +17405,7 @@
           "id": "ec6131d40da8a6a0f41de9e1",
           "title": "هجمات حوثية على السعودية ومصر ترجئ التصويت على دعمها الرياض",
           "url": "https://www.france24.com/ar/%D8%A7%D9%84%D8%B4%D8%B1%D9%82-%D8%A7%D9%84%D8%A3%D9%88%D8%B3%D8%B7/20261018-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A%D9%88%D9%86-%D9%85%D8%B5%D8%B1-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D9%85%D8%B6%D9%8A%D9%82-%D9%87%D8%B1%D9%85%D8%B2",
-          "source": "© أ ف ب",
+          "source": "© أ ف ب/ أرشيف",
           "provider": "France 24 · الشرق الأوسط",
           "published_at": "2026-10-18T23:29:28Z",
           "collected_at": null,
@@ -17282,9 +17413,9 @@
           "country": "Saudi"
         }
       ],
-      "digest": "fab52434b03406f69aa3",
-      "revision": 1,
-      "updated_at": "2026-10-20T12:02:20.533246Z"
+      "digest": "9f738817d3deaf4a54a8",
+      "revision": 2,
+      "updated_at": "2026-10-20T16:51:46.178056Z"
     },
     {
       "id": "GF-1FC433C266BC59",
@@ -18107,6 +18238,48 @@
       "digest": "9129bb89da4c4d9fe7cc",
       "revision": 2,
       "updated_at": "2026-10-20T07:40:58.957167Z"
+    },
+    {
+      "id": "GF-EC0401077AA4EF",
+      "title": "بحرية الحرس الثوري: حريق بناقلة نفط بعد اصطدامها بلغم في مضيق هرمز - Reuters",
+      "category": "security",
+      "topic": "maritime",
+      "countries": [],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-18T20:50:52Z",
+      "last_published": "2026-10-18T20:50:52Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "627beb6dc8fe3ab69c496e67",
+          "title": "بحرية الحرس الثوري: حريق بناقلة نفط بعد اصطدامها بلغم في مضيق هرمز - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0zNmdDQ2FaeWVEcDlnOUZCWmVDWWs2ZkNlNW0yXy1RdkkzUHFRcktRNHY1WjZpdjAyOEJ5S0U5UjQ4Rm9nTDVUaFJibWpod1RzeTlSelZVR0NxRmVfa0RLVjFvMXVfWHhKU0NYdkxWc1BqZEZ1MUtMbFRaUQ?oc=5",
+          "source": "Reuters",
+          "provider": "عربي · مضيق هرمز",
+          "published_at": "2026-10-18T20:50:52Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "digest": "c57b556e83205216fc93",
+      "revision": 1,
+      "updated_at": "2026-10-20T16:51:46.178056Z"
     },
     {
       "id": "GF-20538E50ED8783",
@@ -43906,7 +44079,7 @@
       "updated_at": "2026-10-20T12:10:02.002002Z"
     },
     {
-      "id": "GF-5DAFC35D5E24EB",
+      "id": "GF-F99E79086CCD1D",
       "title": "تصعيد إيراني يطول الكويت والبحرين والأردن.. وواشنطن ترد باستهداف ناقلات النفط - الساحل الغربي",
       "category": "security",
       "topic": "maritime",
@@ -43935,7 +44108,7 @@
       "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
       "sources": [
         {
-          "id": "2d9163686ba5a1f1e00be500",
+          "id": "91d4581a1376bf96e2612e5b",
           "title": "تصعيد إيراني يطول الكويت والبحرين والأردن.. وواشنطن ترد باستهداف ناقلات النفط - الساحل الغربي",
           "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBEbVdfVUxjVGlrN0lvNi1ZcGh4ZER3ZWt2OHViaGZ4WGgwUEZjdDZNTTlvNTFoWk94YVE5RVZLaUxUWmd1LWdNbFR6dDdWZk0?oc=5",
           "source": "الساحل الغربي",
@@ -43946,9 +44119,9 @@
           "country": ""
         }
       ],
-      "digest": "023ee218322fb861d986",
+      "digest": "b6978d2f3b0aeddf323b",
       "revision": 2,
-      "updated_at": "2026-10-20T07:40:58.957167Z"
+      "updated_at": "2026-10-20T16:51:46.178056Z"
     },
     {
       "id": "GF-430F14A5B5AD92",
@@ -44427,6 +44600,50 @@
       "digest": "3d743542f6e86a2a6f8d",
       "revision": 3,
       "updated_at": "2026-10-20T12:02:20.533246Z"
+    },
+    {
+      "id": "GF-6338DA548B766D",
+      "title": "هجوم حوثي بالصواريخ على الرياض والظهران وإصابات بين المدنيين - جريدة القدس",
+      "category": "security",
+      "topic": "missile",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-14T14:45:34Z",
+      "last_published": "2026-10-14T14:45:34Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "671f56e13920bccee4309160",
+          "title": "هجوم حوثي بالصواريخ على الرياض والظهران وإصابات بين المدنيين - جريدة القدس",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVWVLNmNoaHIxd2YzLUJJNnI3ZjI4TERNRG5yMXA4VnFJSHQ4ZUplSjhaY1o2S1ZEbGI5WHFCQkN6blRJank4eDVhODJTTmhleTFtcjU5bWVqTUxpR18yTDc3T1Radml2SjBxbzJieUEyTmw4RXEwaTdsU3ZIU0wwSDhBOVZ1UQ?oc=5",
+          "source": "جريدة القدس",
+          "provider": "عربي · السعودية",
+          "published_at": "2026-10-14T14:45:34Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Saudi"
+        }
+      ],
+      "digest": "1833d7aa83e526603ed0",
+      "revision": 1,
+      "updated_at": "2026-10-20T16:51:46.178056Z"
     },
     {
       "id": "GF-87931ECB162A53",
@@ -45131,6 +45348,50 @@
       "digest": "691dc8f182680b19f09a",
       "revision": 2,
       "updated_at": "2026-10-20T07:40:58.957167Z"
+    },
+    {
+      "id": "GF-987C2CA825445B",
+      "title": "العراق.. استشهاد ضابط برتبة عميد وجندي وإصابة اثنين آخرين بانفجار عبوة ناسفة في أطراف كركوك - ShiaWaves",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Iraq"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-14T13:07:57Z",
+      "last_published": "2026-10-14T13:07:57Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "38fe0bda673200776d5ec68c",
+          "title": "العراق.. استشهاد ضابط برتبة عميد وجندي وإصابة اثنين آخرين بانفجار عبوة ناسفة في أطراف كركوك - ShiaWaves",
+          "url": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxPZnprY240ZzRXbFppWEE5OGpPNGtIa00tOWRSWVZZLURaTm1rcnJDV292bURyWWhqMExfUENydEs1bUE4MS1KcUJ6ZHRRckM3XzdHM3VTRVJMajFTZl8xdDh2RlA5bnEtR0Z6SlNGcTVoRFZuVWlEZnpDTXhUNjF6c0NFTFBoeEU1NzBQTkdFSU03a3VrTWtBZFVCZ1RDTm1WV3Q5aTd6djk2UWpzaGxfY3pTMHNLM1E3bHBxWFE5REp1TllSVm52UHN3aFNEZ2hpZ1FTdUZtZkpyVlRQeHNReFp5V3VQWm9GbjliR1V0b2tSblEzcTctTFFZZER6MU5idkJVUlZxMmtfenY5WWlkZGJ6TElTV1l2QV9QNGRYTW13YmltMUx6NzdiUlhjVHhmVFc1dThJakhERUdlZzJRcDRjd2hUc0QwUEZ0amkyNllhVzVSVFFVMzNuRGVwSTFtQkRKOURQLWs?oc=5",
+          "source": "ShiaWaves",
+          "provider": "عربي · الكويت والعراق",
+          "published_at": "2026-10-14T13:07:57Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Iraq"
+        }
+      ],
+      "digest": "9480fe8ecd19295a5bc7",
+      "revision": 1,
+      "updated_at": "2026-10-20T16:51:46.178056Z"
     },
     {
       "id": "GF-F0AF2DE7637234",
@@ -54419,14 +54680,14 @@
       "reports": 464,
       "security_coverage": 272,
       "transport_coverage": 90,
-      "sources": 203
+      "sources": 204
     },
     "Saudi": {
-      "events": 466,
-      "reports": 490,
-      "security_coverage": 360,
-      "transport_coverage": 94,
-      "sources": 243
+      "events": 469,
+      "reports": 493,
+      "security_coverage": 362,
+      "transport_coverage": 95,
+      "sources": 245
     },
     "Qatar": {
       "events": 43,
@@ -54450,18 +54711,18 @@
       "sources": 6
     },
     "Kuwait": {
-      "events": 24,
-      "reports": 24,
-      "security_coverage": 18,
+      "events": 23,
+      "reports": 23,
+      "security_coverage": 17,
       "transport_coverage": 2,
       "sources": 10
     },
     "Iraq": {
-      "events": 61,
-      "reports": 61,
-      "security_coverage": 55,
+      "events": 62,
+      "reports": 62,
+      "security_coverage": 56,
       "transport_coverage": 5,
-      "sources": 47
+      "sources": 48
     },
     "Oman": {
       "events": 6,
@@ -54471,11 +54732,11 @@
       "sources": 5
     },
     "Yemen": {
-      "events": 219,
-      "reports": 227,
-      "security_coverage": 207,
+      "events": 220,
+      "reports": 228,
+      "security_coverage": 208,
       "transport_coverage": 11,
-      "sources": 117
+      "sources": 118
     },
     "Israel": {
       "events": 54,
@@ -54495,78 +54756,30 @@
     "2026-10-10": 1,
     "2026-10-12": 7,
     "2026-10-13": 112,
-    "2026-10-14": 137,
+    "2026-10-14": 139,
     "2026-10-15": 129,
     "2026-10-16": 125,
     "2026-10-17": 180,
-    "2026-10-18": 142,
-    "2026-10-19": 190,
-    "2026-10-20": 190
+    "2026-10-18": 143,
+    "2026-10-19": 189,
+    "2026-10-20": 194
   },
   "revisions": [
     {
-      "id": "GF-D3E8CA268EF6C6",
+      "id": "GF-C93746AA0CFEDC",
       "revision": 2,
-      "at": "2026-10-20T16:50:56.881777Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 2
-    },
-    {
-      "id": "GF-81969672F1A85B",
-      "revision": 3,
-      "at": "2026-10-20T16:50:56.881777Z",
+      "at": "2026-10-20T16:51:46.178056Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-4FBA1BDBA2302C",
+      "id": "GF-F99E79086CCD1D",
       "revision": 2,
-      "at": "2026-10-20T16:50:56.881777Z",
+      "at": "2026-10-20T16:51:46.178056Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
-    },
-    {
-      "id": "GF-14FE6602BB9047",
-      "revision": 2,
-      "at": "2026-10-20T16:50:56.881777Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-2641AEE1D03B4C",
-      "revision": 11,
-      "at": "2026-10-20T16:50:56.881777Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-0919E6A005984A",
-      "revision": 3,
-      "at": "2026-10-20T16:50:56.881777Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 2
-    },
-    {
-      "id": "GF-7B0E21F2D20604",
-      "revision": 2,
-      "at": "2026-10-20T16:50:56.881777Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-A3EB361884375D",
-      "revision": 3,
-      "at": "2026-10-20T16:50:56.881777Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 2
     }
   ]
 }

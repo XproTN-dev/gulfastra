@@ -1,8 +1,8 @@
 {
   "version": 6,
-  "last_run": "2026-10-20T16:50:50.754226Z",
-  "last_successful_run": "2026-10-20T16:50:50.754226Z",
-  "successful_sources": 23,
+  "last_run": "2026-10-20T16:51:39.651905Z",
+  "last_successful_run": "2026-10-20T16:51:39.651905Z",
+  "successful_sources": 24,
   "reports": [
     {
       "id": "c6bb33de20283d18d8149d6a",
@@ -337,6 +337,29 @@
       "tag": "ملاحه بحريه",
       "provider": "عربي · مضيق هرمز",
       "first_seen_at": "2026-10-20T16:50:50.754226Z",
+      "date_quality": "publisher-time",
+      "freshness": "new-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "853269fc073a011d9e180a08",
+      "title": "صادرات النفط ترتفع وأرباح \"السعودي الفرنسي\" 1.5 مليار - NOW الشرق",
+      "url": "https://news.google.com/rss/articles/CBMi8ARBVV95cUxQSC1WWWxTWW1SZEllQzlsbG5pMGpjYnBYbXB5eXpSTWVNTzczTWx2aGtGOTVQOFdCLWg3UTVReXlhUmNMY1BmdHI2Q2RhTGNrNjZjQlU0Y3BOa2xRV1M2WnBsOEpXNDExbjM4T2xycVJWWnhYNV85cXh1ZEl6aHRTLUY4SUxEQTZUdExLakYxTkxRMkozOUlLaTBvZy1iRHhYMWpDX1QwX0pVVi0wLUpyY2NiRTA1c250Z2tYRlRjVC1ocUlRVklGVkxnMTNpRVViQWdLMDJ3VS0wdnpXSHVReWRNSmF5bTlqWDQ0UW8tdkJqdC1LSTg0WHFVaXltaEwxMl9xRUItUFdoMU51N05mLU9sVGRFbG5QSGUwclhuNEswbnc4TjQ5UWtXTldCN1hyTTZPRHdad3FXOV91ZnphdG1TZUNlQmM0Qlo2aC1NWlhZMEI2bzlZMWxRY1hiLS1ma0pPMXlOR29reWVpelpqZEhVMWhTT1lUb1hsZldyOERlOEtIOHlER1pCSEVrRlR1TXpVNXhkd01Wd19aUXNOSmlzS0s2alpLdnNIVU5KVF9wRkdiSXBHWEhyMGJiSjM3c1dsRjNGQkJmTEZubzB0Rm0xTncxR0FYSmlpaG5JRzJ2NW1CaGdZdE9VSUpKN2NkLXJkVHNQVFBDdWhoZjgwRjNuVEJVUEh0M3ZmNHNKWmpVVVVzYlBsc3hCdHNTeXNHZExRdXRIM3FvUTZIaXN1MXRpYVN6WFBkVEFFT0pJaDlfN2FGd253RXh4VWpUYmZvNzdzRlJWZ09tYlNVWVlVdzhTRTdjNXZIVGNWa3lvS3Q?oc=5",
+      "source": "NOW الشرق",
+      "published_at": "2026-10-20T15:04:20Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "ar",
+      "category": "transport",
+      "tag": "اضطراب نقل",
+      "provider": "عربي · الشرق",
+      "first_seen_at": "2026-10-20T16:51:39.651905Z",
       "date_quality": "publisher-time",
       "freshness": "new-reporting",
       "context": "reporting",
@@ -2043,6 +2066,29 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "fc9aa8ebfcd927c0419ca743",
+      "title": "بريطانيا تعلن تعزيز دعمها العسكري الدفاعي للسعودية لمواجهة هجمات الحوثيين - شبكة تواصل الإخبارية",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9CNzhjdy1LNU9QV3VQbUFyb3lYWUVuM0FTZU84YkVUSHhYaVJGQlhqSWZwdTB5ejU3RjJEc3NaaGxWOC11cVpqSVRrVnVMWmhsc2Jv?oc=5",
+      "source": "شبكة تواصل الإخبارية",
+      "published_at": "2026-10-20T11:18:31Z",
+      "country": "Yemen",
+      "countries": [
+        "Yemen"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير امني",
+      "provider": "عربي · السعودية",
+      "first_seen_at": "2026-10-20T16:51:39.651905Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "4dc991dfe04eadf466d5d824",
       "title": "The UK expands military support for Saudi Arabia against Houthis to include 'defensive' air patrols - KTVN",
       "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQNHlkWnZLUzNacTNNQk5rV3VoZkJSSUg3ak8ydzB4Uk9zWkJzZDBwU1U1SjBoNWw5c0owMEtKUE04NGVnYzZ1SGstQl9JeXdUYmsxbHo2VFFnM2UxRW1zenBBc2xiTFAyNmdXQVNKcUZJU09KVWFOZ0Zxa0lxdnpvb1A0OEYyaEd3YUZqM3VEN3dKN0xXSlNPMUVuVEc1ZlFNM0dudXJWWHUxMmZrd3YwR2JNYlNXa3M1djQ2dkp1SVFRMjJtZHdSTF9JdjJGVFkzQkdwTUNrVDVMWms5TGVza0lFTUhLNjNSdEJsNC14RHJvell6NF82M3hLaS04dHBzaVpwREZNS2RXTHI4MWc?oc=5",
@@ -2335,6 +2381,29 @@
       "freshness": "recent-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "b631babe99d7bdadc3b8f88b",
+      "title": "إحباط هجوم حوثي باليستي استهدف الرياض الثلاثاء 20 أكتوبر - موقع المنشر الاخبارى",
+      "url": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxNMHJPblowNXIxTjJoRVhnZndkZFpZNVlMRHFFVGd6ZG1jaU1JMWxJTDRxeUt1M01xWl92cTliLWo5VkJ6UG5hRVFNMlNpQkhhVHNkR1RzaG5kWTYwM0dtVG11RUIxb2hQTDRtNkM5NkZwZ29nYjNPckRTdTFmX1Fzb3lNVUZ6WlRramZkbk5SMDBiVWx6OGNVV1VfLU5NcDF1bWtSQXVXSDR3Tl9ZWmxQNUdTMnBMQTlhTFhud1VSYzNPUEN1aDJVOGV0M3FxRFRtcjljbDVYeWxuQjBKcFU5WjRqZFN4SVdOVnNJamg4aTVQOEZ5Q1lWQUVQSlpZc0FVTnd6NHUyTVB6V3l6NEZMWWZNREVvd0t0NG9WR1lDcHpWLVBKX2lsSDBueFNEd2Fqa1EwWk1WTzFhekJUT2FTQlpCbjhGNDlxRXQzZHVoQm0?oc=5",
+      "source": "موقع المنشر الاخبارى",
+      "published_at": "2026-10-20T10:53:42Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير امني",
+      "provider": "عربي · السعودية",
+      "first_seen_at": "2026-10-20T16:51:39.651905Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "elevated-reporting",
       "critical_candidate": false,
       "alert_eligible": false,
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
@@ -4625,6 +4694,29 @@
       "provider": "Google News · shipping",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "42d3d9e42854be683108b352",
+      "title": "Ceasefire deal between Iran and the US under consideration - 10TV",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPVkJtLVBra1VXOFAwdi1NZnpYNHlUZFBfRk1xZFVlZEdQdEZPQzdYaTdxUFJJSnY1d3ZqZ1FFQ2dsWmVOYWs3aGl1bmJ4TFpyNVBCYXJtOS1iWHBZRko5UXlrX3d6OWRDWHlVUkJSOGQ5NjdpSk5ycGVSODk2UjBZMFFQMkc0ZEJWaXZLTVVJaWlzX2pIclRhVjdwamJzYWFINTBqcW4xSDVKUFlaZ3FqN1l1ZWpfV3RfN3VyU0FNNW91Zm0zMlh6eVNUUnR6aGNJQ0lxZGZXVDlPUkItbzBlQ2kxQ1Vfd2dYLUdUNTBYbEo?oc=5",
+      "source": "10TV",
+      "published_at": "2026-10-20T01:55:00Z",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · diplomacy",
+      "first_seen_at": "2026-10-20T16:51:39.651905Z",
+      "date_quality": "publisher-time",
       "freshness": "recent-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -7140,30 +7232,6 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
-      "id": "91d4581a1376bf96e2612e5b",
-      "title": "تصعيد إيراني يطول الكويت والبحرين والأردن.. وواشنطن ترد باستهداف ناقلات النفط - الساحل الغربي",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBEbVdfVUxjVGlrN0lvNi1ZcGh4ZER3ZWt2OHViaGZ4WGgwUEZjdDZNTTlvNTFoWk94YVE5RVZLaUxUWmd1LWdNbFR6dDdWZk0?oc=5",
-      "source": "الساحل الغربي",
-      "published_at": "2026-10-19T13:10:02Z",
-      "country": "",
-      "countries": [
-        "Iran",
-        "Kuwait"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "ملاحه بحريه",
-      "provider": "عربي · الإمارات والبحرين",
-      "first_seen_at": "2026-10-20T16:50:50.754226Z",
-      "date_quality": "publisher-time",
-      "freshness": "older-reporting",
-      "context": "reporting",
-      "severity": "routine-reporting",
-      "critical_candidate": false,
-      "alert_eligible": false,
-      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
-    },
-    {
       "id": "7a0918f520106e3bcba2ca37",
       "title": "أفتح الثلاجة فأجد علي جاسم! هجوم ناري على نجوم منتخب العراق - winwin",
       "url": "https://news.google.com/rss/articles/CBMiggRBVV95cUxPNDlsV0FFSU9xWkp0WndaWDJ1WjNFaFpiOUZWUW53WDBIZXk3blR0bkh5TE9LakZvdXN2SjBGMzNLb3k0am9BUDhBS2UteWw0SXB2aTh5dklqd2JfWk5wMnhvS0tKTFlWQ081ZDBCWTFsUWZpQ1d4OU5qVHQ3TmlqSjdPaV9lM0N5dzNGOUJOM0FRWGtQeHVTMkdIODdPQkktY0U5bW1VZ2Z6MjI1aHZiRFE0SzJrLVUycTNNcks0dEthNXRiUGpWMXV2d1o2d1lVTnRsTHY4ekQ5dW1oVGljYlB4ZVRlcWpmalJXT2pHUVljRnVieW1pUlU3SEIzUTN1UzR4RVRPczU2UFQ0WXVpSElYSlZiY0RwMWp6UnRQZEFJR3BZZnNMbW9nUWhLLXJTSnpxR1hsdUZRWFZOWG9vdk5KMVkzeWk4R0JCUHBkLU13eXFqd19HdkJDdUt2Snh2a3l4T181X3NucXFsem8zUUZNMVVGNG9FcXBFbGlpZGZvaXlrejFBWVpmU3UxaXpVOFN4T095Q29KTXZJNlZNZzgzNG5GV1J4MDVxejVDRTNXaXhtZmp2SEFGUUtBQmJJVXZ2dkdNT29vRGFXc2xVajdsbzhxVTRBTjB0cXhPY3MtZ0RZN2hfdC0tZVo0d2gzX2pYOXZQeGNIakV3REhrQ3dB?oc=5",
@@ -9519,7 +9587,7 @@
       "id": "ec6131d40da8a6a0f41de9e1",
       "title": "هجمات حوثية على السعودية ومصر ترجئ التصويت على دعمها الرياض",
       "url": "https://www.france24.com/ar/%D8%A7%D9%84%D8%B4%D8%B1%D9%82-%D8%A7%D9%84%D8%A3%D9%88%D8%B3%D8%B7/20261018-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A%D9%88%D9%86-%D9%85%D8%B5%D8%B1-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D9%85%D8%B6%D9%8A%D9%82-%D9%87%D8%B1%D9%85%D8%B2",
-      "source": "© أ ف ب",
+      "source": "© أ ف ب/ أرشيف",
       "published_at": "2026-10-18T23:29:28Z",
       "country": "Saudi",
       "countries": [
@@ -10001,6 +10069,27 @@
       "provider": "Google News · shipping",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "627beb6dc8fe3ab69c496e67",
+      "title": "بحرية الحرس الثوري: حريق بناقلة نفط بعد اصطدامها بلغم في مضيق هرمز - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0zNmdDQ2FaeWVEcDlnOUZCWmVDWWs2ZkNlNW0yXy1RdkkzUHFRcktRNHY1WjZpdjAyOEJ5S0U5UjQ4Rm9nTDVUaFJibWpod1RzeTlSelZVR0NxRmVfa0RLVjFvMXVfWHhKU0NYdkxWc1BqZEZ1MUtMbFRaUQ?oc=5",
+      "source": "Reuters",
+      "published_at": "2026-10-18T20:50:52Z",
+      "country": "",
+      "countries": [],
+      "language": "ar",
+      "category": "security",
+      "tag": "ملاحه بحريه",
+      "provider": "عربي · مضيق هرمز",
+      "first_seen_at": "2026-10-20T16:51:39.651905Z",
+      "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -23940,7 +24029,7 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
-      "id": "2d9163686ba5a1f1e00be500",
+      "id": "91d4581a1376bf96e2612e5b",
       "title": "تصعيد إيراني يطول الكويت والبحرين والأردن.. وواشنطن ترد باستهداف ناقلات النفط - الساحل الغربي",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBEbVdfVUxjVGlrN0lvNi1ZcGh4ZER3ZWt2OHViaGZ4WGgwUEZjdDZNTTlvNTFoWk94YVE5RVZLaUxUWmd1LWdNbFR6dDdWZk0?oc=5",
       "source": "الساحل الغربي",
@@ -23954,8 +24043,8 @@
       "category": "security",
       "tag": "ملاحه بحريه",
       "provider": "عربي · الإمارات والبحرين",
-      "first_seen_at": "2026-10-20T12:00:32.516927Z",
-      "date_quality": "legacy-unverified",
+      "first_seen_at": "2026-10-20T16:50:50.754226Z",
+      "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -24206,6 +24295,29 @@
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "671f56e13920bccee4309160",
+      "title": "هجوم حوثي بالصواريخ على الرياض والظهران وإصابات بين المدنيين - جريدة القدس",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVWVLNmNoaHIxd2YzLUJJNnI3ZjI4TERNRG5yMXA4VnFJSHQ4ZUplSjhaY1o2S1ZEbGI5WHFCQkN6blRJank4eDVhODJTTmhleTFtcjU5bWVqTUxpR18yTDc3T1Radml2SjBxbzJieUEyTmw4RXEwaTdsU3ZIU0wwSDhBOVZ1UQ?oc=5",
+      "source": "جريدة القدس",
+      "published_at": "2026-10-14T14:45:34Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير عن صواريخ",
+      "provider": "عربي · السعودية",
+      "first_seen_at": "2026-10-20T16:51:39.651905Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "elevated-reporting",
       "critical_candidate": false,
       "alert_eligible": false,
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
@@ -24574,6 +24686,29 @@
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "38fe0bda673200776d5ec68c",
+      "title": "العراق.. استشهاد ضابط برتبة عميد وجندي وإصابة اثنين آخرين بانفجار عبوة ناسفة في أطراف كركوك - ShiaWaves",
+      "url": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxPZnprY240ZzRXbFppWEE5OGpPNGtIa00tOWRSWVZZLURaTm1rcnJDV292bURyWWhqMExfUENydEs1bUE4MS1KcUJ6ZHRRckM3XzdHM3VTRVJMajFTZl8xdDh2RlA5bnEtR0Z6SlNGcTVoRFZuVWlEZnpDTXhUNjF6c0NFTFBoeEU1NzBQTkdFSU03a3VrTWtBZFVCZ1RDTm1WV3Q5aTd6djk2UWpzaGxfY3pTMHNLM1E3bHBxWFE5REp1TllSVm52UHN3aFNEZ2hpZ1FTdUZtZkpyVlRQeHNReFp5V3VQWm9GbjliR1V0b2tSblEzcTctTFFZZER6MU5idkJVUlZxMmtfenY5WWlkZGJ6TElTV1l2QV9QNGRYTW13YmltMUx6NzdiUlhjVHhmVFc1dThJakhERUdlZzJRcDRjd2hUc0QwUEZ0amkyNllhVzVSVFFVMzNuRGVwSTFtQkRKOURQLWs?oc=5",
+      "source": "ShiaWaves",
+      "published_at": "2026-10-14T13:07:57Z",
+      "country": "Iraq",
+      "countries": [
+        "Iraq"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير امني",
+      "provider": "عربي · الكويت والعراق",
+      "first_seen_at": "2026-10-20T16:51:39.651905Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "elevated-reporting",
       "critical_candidate": false,
       "alert_eligible": false,
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
@@ -29666,12 +29801,12 @@
     "Google News · security": {
       "ok": true,
       "items": 100,
-      "relevant": 73
+      "relevant": 72
     },
     "Google News · aviation": {
       "ok": true,
-      "items": 92,
-      "relevant": 85
+      "items": 90,
+      "relevant": 83
     },
     "Google News · shipping": {
       "ok": true,
@@ -29681,7 +29816,7 @@
     "Google News · diplomacy": {
       "ok": true,
       "items": 100,
-      "relevant": 48
+      "relevant": 50
     },
     "Google News · regional": {
       "ok": true,
@@ -29700,23 +29835,23 @@
     },
     "عربي · السعودية": {
       "ok": true,
-      "items": 100,
-      "relevant": 53
+      "items": 56,
+      "relevant": 34
     },
     "عربي · الإمارات والبحرين": {
       "ok": true,
-      "items": 65,
+      "items": 64,
       "relevant": 46
     },
     "عربي · الكويت والعراق": {
       "ok": true,
-      "items": 50,
-      "relevant": 47
+      "items": 52,
+      "relevant": 49
     },
     "عربي · مضيق هرمز": {
       "ok": true,
       "items": 100,
-      "relevant": 75
+      "relevant": 76
     },
     "عربي · الجزيرة": {
       "ok": true,
@@ -29726,12 +29861,12 @@
     "عربي · العربية": {
       "ok": true,
       "items": 100,
-      "relevant": 35
+      "relevant": 34
     },
     "عربي · الشرق": {
       "ok": true,
       "items": 100,
-      "relevant": 38
+      "relevant": 39
     },
     "عربي · وكالات الخليج": {
       "ok": true,
@@ -29759,8 +29894,9 @@
       "relevant": 11
     },
     "France 24 · الشرق الأوسط": {
-      "ok": false,
-      "error": "not well-formed (invalid token): line 1, column 433"
+      "ok": true,
+      "items": 30,
+      "relevant": 10
     },
     "The Guardian · Middle East": {
       "ok": true,
