@@ -136,4 +136,50 @@ D.hazardMarkers.push(new maplibregl.Marker({element:node}).setLngLat([o.lon,o.la
 function saveWatch(){try{localStorage.setItem("gulfastra-v5-watch",JSON.stringify(D.watch))}catch(e){}}
 function loadWatch(){try{let a=JSON.parse(localStorage.getItem("gulfastra-v5-watch")||"[]");D.watch=Array.isArray(a)?a.filter(x=>typeof x==="string"):[]}catch(e){D.watch=[]}}
 
+
+function doAction(action){
+if(action==="clear"){D.country="";D.hours=72;D.lang="all";D.day=""}
+if(action==="back")D.focus=null;
+if(action==="day-reset")D.day="";
+if(action==="go-query")D.view="query";
+if(action==="brief-copy"){let text=markdownReport();if(navigator.clipboard)navigator.clipboard.writeText(text).catch(()=>output("Gulfastra-SITREP.md",text));else output("Gulfastra-SITREP.md",text)}
+if(action==="brief-download")output("Gulfastra-SITREP.md",markdownReport(),"text/markdown;charset=utf-8");
+if(action==="export-query")output("Gulfastra-results.csv",csv(D.queryResults),"text/csv;charset=utf-8");
+if(action==="watch-add"){let value=$("gfWatchSelect")?.value;if(value&&!D.watch.includes(value)){D.watch.push(value);saveWatch()}}
+if(action==="hazard-map"){hazardOverlay(!D.hazardsVisible);close();$("mapColumn")?.scrollIntoView({behavior:"smooth"});return}
+draw();
+}
+async function requestData(name){let r=await fetch("data/"+name+"?v="+Date.now(),{cache:"no-store"});if(!r.ok)throw Error("HTTP "+r.status+" "+name);return r.json()}
+async function refresh(){
+const attempts=await Promise.allSettled(["events.json","revisions.json","observations.json","reports.json"].map(requestData));
+if(attempts[0].status==="fulfilled"){
+let d=attempts[0].value;D.events=d.events||[];D.countryStats=d.country_stats||{};D.daily=d.daily_coverage||{};D.generated=d.generated_at}
+if(attempts[1].status==="fulfilled")D.revisions=attempts[1].value.history||[];
+if(attempts[2].status==="fulfilled"){D.observations=attempts[2].value.observations||[];D.obsHealth=attempts[2].value.health||[]}
+if(attempts[3].status==="fulfilled")D.reportHealth=attempts[3].value.providers||{};
+$("fusionHealth").textContent=D.events.length?"◈ "+D.events.length+" COVERAGE GROUPS":"FUSION ARCHIVE PENDING";
+$("fusionHealth").classList.toggle("warning",!D.events.length);
+$("fusionGenerated").textContent=D.generated?"UPDATED "+dates(D.generated):"ARCHIVE PENDING";
+if(!$("fusionWorkbench").hidden)draw();
+}
+function bind(){
+$("gfClose").onclick=close;
+$("gfExport").onclick=()=>output("Gulfastra-public-coverage.json",JSON.stringify({generated_at:D.generated,events:sortedEvents()},null,2),"application/json;charset=utf-8");
+document.querySelectorAll("[data-gf-open]").forEach(b=>b.onclick=()=>open(b.dataset.gfOpen));
+$("fusionWorkNav").addEventListener("click",e=>{let n=e.target.closest("[data-gf-page]");if(!n)return;D.view=n.dataset.gfPage;D.focus=null;draw()});
+$("fusionView").addEventListener("click",e=>{
+let event=e.target.closest("[data-gf-event]");if(event){D.focus=event.dataset.gfEvent;draw();$("fusionView").scrollTop=0;return}
+let c=e.target.closest("[data-gf-country]");if(c){D.country=c.dataset.gfCountry;D.view="fusion";draw();return}
+let d=e.target.closest("[data-gf-day]");if(d){D.day=d.dataset.gfDay;D.hours=0;draw();return}
+let w=e.target.closest("[data-watch-remove]");if(w){D.watch=D.watch.filter(x=>x!==w.dataset.watchRemove);saveWatch();draw();return}
+let a=e.target.closest("[data-act]");if(a)doAction(a.dataset.act)});
+$("fusionView").addEventListener("change",e=>{if(e.target.id==="gfCountry")D.country=e.target.value;else if(e.target.id==="gfWindow")D.hours=+e.target.value;else if(e.target.id==="gfLang")D.lang=e.target.value;else return;D.day="";draw()});
+$("fusionView").addEventListener("submit",e=>{if(e.target.id!=="gfQueryForm")return;e.preventDefault();D.query=$("gfQueryInput").value;draw()});
+$("fusionView").addEventListener("keydown",e=>{if((e.key==="Enter"||e.key===" ")&&e.target.matches("[data-gf-event],[data-gf-country]")){e.preventDefault();e.target.click()}});
+document.querySelector('[data-mobile="fusion"]')?.addEventListener("click",e=>{e.stopImmediatePropagation();open("fusion")},true);
+document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!$("fusionWorkbench").hidden)close();if(e.key==="/"&&!e.ctrlKey&&!e.metaKey&&!["INPUT","TEXTAREA"].includes(e.target.tagName)){e.preventDefault();open("query");$("gfQueryInput")?.focus()}});
+}
+async function init(){loadWatch();bind();await refresh();setInterval(refresh,180000)}
+if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",init);else init();
+
 })();
