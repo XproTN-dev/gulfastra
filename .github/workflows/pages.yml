@@ -5,6 +5,7 @@ on:
     paths:
       - "index.html"
       - "command/**"
+      - "lab/**"
       - "legacy-v9.html"
       - "assets/**"
       - "scripts/prepare_maplibre_vendor.sh"
@@ -33,10 +34,14 @@ jobs:
       - name: Prepare site
         run: |
           mkdir -p _site
-          cp -R index.html assets data command legacy-v9.html vendor _site/
+          cp -R index.html assets data command lab legacy-v9.html vendor _site/
           touch _site/.nojekyll
           test -s _site/index.html
           test -s _site/command/index.html
+          test -s _site/lab/index.html
+          test -s _site/assets/impact-lab.js
+          test -s _site/assets/impact-lab-render.js
+          test -s _site/assets/impact-lab.css
           test -s _site/legacy-v9.html
           test -s _site/assets/command11.js
           test -s _site/assets/command11-bootstrap.mjs
@@ -78,5 +83,9 @@ jobs:
           test "$(wc -c </tmp/gulfastra-maplibre.mjs)" -gt 100000
           test -s /tmp/gulfastra-maplibre-worker.mjs
           test -s /tmp/gulfastra-maplibre.css
-          echo "Live GitHub Pages v11 route, self-hosted MapLibre module, worker, CSS and v9 rollback verified"
+          curl --fail --silent --show-error --location --max-time 15 --output /tmp/gulfastra-lab.html "$base/lab/"
+          grep -q "GULFASTRA X · Impact Lab" /tmp/gulfastra-lab.html
+          curl --fail --silent --show-error --location --max-time 15 --output /tmp/gulfastra-lab.js "$base/assets/impact-lab.js"
+          grep -q "GXImpactApp" /tmp/gulfastra-lab.js
+          echo "Live GitHub Pages v11 and v12 lab routes, self-hosted MapLibre and exact v9 rollback verified"
 
