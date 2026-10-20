@@ -41,7 +41,7 @@ function health(){
  const status=window.GulfastraData?.info()||{};
  const manifest=status.manifest||state.manifest;
  const versions=status.dataVersions||{};
- const fromBranch=Object.values(versions).some(v=>v&&v!=="bundled-fallback");
+ const fromBranch=Boolean(versions["reports.json"]&&versions["reports.json"]!=="bundled-fallback");
  const channel=fromBranch?"PUBLIC GITHUB DATA":status.channel==="cached-branch"?"CACHED DATA":status.channel==="static-fallback"?"BUNDLED SNAPSHOT":"CONNECTING DATA";
  const stale=manifest?.collected_at&&(Date.now()-new Date(manifest.collected_at).getTime()>20*60000);
  $("v9DataStatus").textContent=(stale?"DELAYED · ":"")+channel+" / "+ok+"/"+provider.length+" SOURCES / "+(manifest?.collected_at?ageLong(manifest.collected_at):"COLLECTING");
