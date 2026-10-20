@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "generated_at": "2026-10-20T12:14:35.582439Z",
+  "generated_at": "2026-10-20T12:14:58.406803Z",
   "model": "deterministic-source-correlation-v1",
   "disclaimer": "Clusters are related PUBLIC REPORTS, not confirmed incidents. Source counts are not proof. Country names are mentions, not incident locations.",
   "events": [
@@ -50752,22 +50752,5 @@
     "2026-10-19": 185,
     "2026-10-20": 121
   },
-  "revisions": [
-    {
-      "id": "GF-58682ABDDE355B",
-      "revision": 5,
-      "at": "2026-10-20T12:14:35.582439Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-2641AEE1D03B4C",
-      "revision": 8,
-      "at": "2026-10-20T12:14:35.582439Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    }
-  ]
+  "revisions": []
 }
