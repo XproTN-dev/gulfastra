@@ -1,7 +1,50 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-21T14:42:14.267516Z",
-  "alerts": [],
+  "generated_at": "2026-10-21T18:59:16.762565Z",
+  "alerts": [
+    {
+      "id": "GF-31B6FC2BB73114",
+      "level": "review",
+      "title": "Yemen holds mass funeral for 75 recruits killed in Houthi strike",
+      "published_at": "2026-10-21T18:29:38Z",
+      "countries": [
+        "Yemen"
+      ],
+      "category": "security",
+      "topic": "regional",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "Al Jazeera RSS",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/21/aje-onl-nf_funeral-in-yemen-for-recruits-killed-by-houthis-211026?traffic_source=rss"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-E0C61702044E9E",
+      "level": "review",
+      "title": "Egyptian defense of Saudi Arabia not to include strikes on Houthis - The Jerusalem Post",
+      "published_at": "2026-10-21T17:32:37Z",
+      "countries": [
+        "Saudi"
+      ],
+      "category": "security",
+      "topic": "regional",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "The Jerusalem Post",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5xb21kVXJ5NGxCSFJ6VERjckJhX21YbUx6cnFqUFVZa1BSaVJuZndxSVQ3UExreFZhRC1GZkJ0dy13TkFPczA1dmkzMEk5MnBWRUsxUmE0NUo1Tkl2?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    }
+  ],
   "new_alert_ids": [],
   "critical_count": 0,
   "notice": "CRITICAL REPORTING means multiple named outlets published related headlines. This is NOT confirmation, real-time detection or official emergency advice."
