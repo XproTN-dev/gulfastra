@@ -139,6 +139,10 @@ with sync_playwright() as pw:
             assert page.locator(".relation-card").count()==1,"Actual metadata connection not available"
             page.locator(".relation-card").first.click()
             assert "NOT evidence" in page.locator("#contextContent").inner_text()
+            # Tablet investigations use a modal side sheet; dismiss before
+            # changing modes. Desktop detail panel remains docked.
+            if page.locator("#contextClose").is_visible():
+                page.locator("#contextClose").click()
             page.locator('[data-mode="network"]').click()
             page.locator(".cluster-card").first.click()
             page.locator(".cluster-story").first.click()
