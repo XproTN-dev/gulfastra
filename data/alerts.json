@@ -1,51 +1,7 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-21T09:42:24.104234Z",
-  "alerts": [
-    {
-      "id": "GF-1DC089036B1AD3",
-      "level": "review",
-      "title": "Tanker struck by unknown projectile off Oman, UKMTO says - Iran International",
-      "published_at": "2026-10-21T08:35:18Z",
-      "countries": [
-        "Iran",
-        "Oman"
-      ],
-      "category": "transport",
-      "topic": "maritime",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "Iran International",
-          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9POG5VTEFqQmlsWG5IakEwSElCYmhEWmsxbEl1UWJZWXAyTWtJYmJkUDdvLXU2akVZaWtvQmdZU002UDBOMGxhT3lsb1Q?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-17EF4DB6CF3942",
-      "level": "review",
-      "title": "الإمارات تُحبط نحو 750 ألف هجوم سيبراني استهدف قطاعات حيوية - برس بي",
-      "published_at": "2026-10-21T08:00:51Z",
-      "countries": [
-        "UAE"
-      ],
-      "category": "security",
-      "topic": "regional",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "برس بي",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5mSnE0NUZ5NG55M0RKNzYyOUhGSHJGSEZIdjdtQk4ta0k5dW03dGk0ZE1lQzRHemF2RVNyYVlCMi1ya1hFckh6Uk5Zd29yaXgxeW9wbjdHekphcllXOHfSAV5BVV95cUxOZkpxNDVGeTRueTNESjc2MjlIRkhyRkhGSHY3bUJOLWtJOXVtN3RpNGRNZUM0R3phdkVTcmFZQjItcmtYRXJIelJOWXdvcml4MXlvcG43R3pKYXJZVzh3?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    }
-  ],
+  "generated_at": "2026-10-21T14:42:14.267516Z",
+  "alerts": [],
   "new_alert_ids": [],
   "critical_count": 0,
   "notice": "CRITICAL REPORTING means multiple named outlets published related headlines. This is NOT confirmation, real-time detection or official emergency advice."
