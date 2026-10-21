@@ -107,7 +107,10 @@ with sync_playwright() as pw:
         assert "18.44" in page.locator('[data-market="VIXCLS"]').inner_text()
         page.locator('[data-market="VIXCLS"]').first.click()
         assert page.locator("#contextContent").get_by_text("FRED SOURCE SERIES",exact=False).count()==1
-        page.locator("#contextClose").click() if mobile else page.locator('[data-view="compare"]').click()
+        # Tablet width 768px also uses the overlay investigation panel.
+        # Close it before attempting top navigation; avoid duplicate clicks.
+        if page.locator("#contextClose").is_visible():
+            page.locator("#contextClose").click()
         page.locator('[data-view="compare"]').click()
         assert "2008 REFERENCE" in page.locator("#stageContent").inner_text()
         page.locator('[data-view="pathways"]').click()
