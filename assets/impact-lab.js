@@ -281,7 +281,7 @@ function init(){
  $("countryLab").value=S.country;$("topicLab").value=S.category;
  $$("[data-view]").forEach(b=>b.onclick=()=>view(b.dataset.view));
  $$("[data-mobile-view]").forEach(b=>b.onclick=()=>view(b.dataset.mobileView));
- $("[data-mode]").forEach(b=>b.onclick=()=>{S.mode=b.dataset.mode;S.graphFocus=null;save();render()});
+ $$("[data-mode]").forEach(b=>b.onclick=()=>{S.mode=b.dataset.mode;S.graphFocus=null;save();render()});
  $$("[data-window]").forEach(b=>b.onclick=()=>{S.hours=Number(b.dataset.window);S.scrub=100;S.asof=Date.now();save();render()});
  $("countryLab").onchange=e=>{S.country=e.target.value;save();render();closeLayers()};
  $("topicLab").onchange=e=>{S.category=e.target.value;save();render();closeLayers()};
