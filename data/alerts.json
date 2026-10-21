@@ -1,44 +1,67 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-21T18:59:16.762565Z",
+  "generated_at": "2026-10-21T22:16:41.588640Z",
   "alerts": [
     {
-      "id": "GF-31B6FC2BB73114",
+      "id": "GF-CA2D299A65563B",
       "level": "review",
-      "title": "Yemen holds mass funeral for 75 recruits killed in Houthi strike",
-      "published_at": "2026-10-21T18:29:38Z",
+      "title": "Saudi Authorities Say 2 killed By Falling Debris At Oil Facility Following A Drone Attack In Kingdom - ETV Bharat",
+      "published_at": "2026-10-21T21:44:29Z",
       "countries": [
-        "Yemen"
+        "Saudi"
       ],
       "category": "security",
-      "topic": "regional",
+      "topic": "drone",
       "outlet_count": 1,
-      "article_count": 1,
+      "article_count": 2,
       "source_urls": [
         {
-          "name": "Al Jazeera RSS",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/21/aje-onl-nf_funeral-in-yemen-for-recruits-killed-by-houthis-211026?traffic_source=rss"
+          "name": "ETV Bharat",
+          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPTTRUZDdNeThaNVVhMWgwUWlyeUo4NTJuVERMaDlzaWxBYzF2MS1Yb3Bhd1ltSkZydFBlQkJteXVHdGpUa2pnU3JEMlNVaFpBelFMd3Vkbl9vcDdKcjdENUpFeTYzVUhYdXB5UlgxVzhZWnlVclE3bWVoSnE5WXo4d1llVzJiajlwOWpWTFFOdlJKV2ZTQ0lObEh1eHFvbHg3Qko3OEY5X0ZkS0VtY3FyWnRBMnNyZGxoOGl1aFJNSVk2WUd5cjJSUTExLS1TTEQzVGhOQmFxdlFaejFkTlhkZjVKQlpfWklESkdZUnhUUdIB9AFBVV95cUxNSlpvN2ROQkU3dC1WdlFUVWxqMUlRN0hRS3dvSy1DbkVfZFRfSkgzX1hyVUlHN3ZtT09hQURiVDBpVGVfSkVaTHZYVFB5UmhVb3lVX2FSSk56a3ZsaU50N3BGUUM4eWZEc1oxclJIM29FV3pobmdOQnhzXzBUcnJ1dmI2dEswM3lTbnVRQ0p4dHZyaEVqMHQycnpkU3pWUHJ5dzU1U2ZuSk9MQkJ4MUFCUmd5R1JrcGd5ZEZ4aEhoRWEzQ3REMVB3YjlYR3dsdTZnNkloa0s1WG1xaThIc1hXbTdaaFRUb0FNMjVvakxfX19XbDNk?oc=5"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
       "verification": "unverified-reporting"
     },
     {
-      "id": "GF-E0C61702044E9E",
+      "id": "GF-541E2DF288C5B5",
       "level": "review",
-      "title": "Egyptian defense of Saudi Arabia not to include strikes on Houthis - The Jerusalem Post",
-      "published_at": "2026-10-21T17:32:37Z",
+      "title": "وزارة الدفاع السعودية تعلن اعتراض وتدمير طائرة مسيّرة استهدفت المنطقة الشرقية - صوت الإمارات",
+      "published_at": "2026-10-21T20:40:34Z",
       "countries": [
-        "Saudi"
+        "Saudi",
+        "UAE"
       ],
       "category": "security",
-      "topic": "regional",
+      "topic": "interception",
       "outlet_count": 1,
       "article_count": 1,
       "source_urls": [
         {
-          "name": "The Jerusalem Post",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5xb21kVXJ5NGxCSFJ6VERjckJhX21YbUx6cnFqUFVZa1BSaVJuZndxSVQ3UExreFZhRC1GZkJ0dy13TkFPczA1dmkzMEk5MnBWRUsxUmE0NUo1Tkl2?oc=5"
+          "name": "صوت الإمارات",
+          "url": "https://news.google.com/rss/articles/CBMi5wJBVV95cUxNOEQ3bVd3Zk1CQjRyQVI4X1lURkVIR0lWZVQxMEZhWUdoVDdJTnVCNmJVc1puYzQ3Y2s3bkN0b1BSZThyc0lZcmt4QXZRQUQtWGhCYkdNVHhvd0pMRVo1cFZESGlxN1BGYVFpSTYwMG1ad2NDdVUzTm1hVDNFVC15cVBwMDhTQWo1cXRCTU9xQVlwVG05eC0xcHNWNmJ0LU5ET1ItUnRwb1otekRLOVhEblgzSV9QTDl3SjRoZVNabG5ILUZ2bjU4c1JsNV96VjVma2Nvc2xua3FUM25UOXV4MFZNRmQ0Yy02Nk1vQ0xMZUxOSUwyQ0dtTU9JTVZ0R0ZfV1pwQmVkYVdyUWFXU3N5UzdDR1pOeW5aWVFCLXVOR015ZnJEdWxnYk92eXZ6ZUxsVkhrRGJwQkhUWmlxYUhvek9IYWtCVHpoMGlZQm02TUliMkxDOXdCQXBWRV84c2FiS0JZaHVJVQ?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-4C216135DE686C",
+      "level": "review",
+      "title": "السعودية تعلن إحباط هجوم بطائرة مسيرة على حقل نفطي ومقتل مقيمين وإصابة اثنين آخرين - Qatar news agency",
+      "published_at": "2026-10-21T20:28:09Z",
+      "countries": [
+        "Qatar",
+        "Saudi"
+      ],
+      "category": "security",
+      "topic": "drone",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "Qatar news agency",
+          "url": "https://news.google.com/rss/articles/CBMimgVBVV95cUxQakh3TUt0Q2hhcUpQUnpQRUpSdFFZdXZVQTZRb1BLS2tYV2swSGw5Q2NlRXduVV9Kc18tZG5YY1Q4eEt2V2JBb3BYZUlNYjVEMGhtV0d1a2NVdXdSRVBWVk0xdDFSNG1EZ29sTXJmQ1k1Zi1GNXpxR2JmRnl1c3FBR2luOWtxSDVfcVZBNk5WaUp1bWRmSWloRkdZTGJQeHdNSml1eHRNR3dsODRKSTdhNjBsMGUxcmkwbHFLR1o1YmtQd05IQ0Q2SkdCWlNDYXhLSkZZbDdUOGFwY0xsZDFLbF9FeXduNzU4OWhuQzlGdmxvZEtHbFRmbFNOYnltYmtmOVc1dXVEU0w0RWFyT3lvTGxvRlBpUE8waklYdWNjTTNnQl9tQlYzbjFOUXVFbEowczRJQS0xT1NPRVlfcGdBZFhXcGNIYVFqLVgyVC1leUhIbVh2MjRGVkdWaGhIeE9UUVZZdEJHWldsN3dPcDlobUVfVDJVSEVzOEktMXA1WENQckI5MjdGUTRPWWFUckhtX1JEZTY1azkyY3lqZHVqNFpKb2JpdDhNSm1NdXBlblBRRl9NVWtQNkpWbDQ3Sk5EWWdvOWVQTlhMX2tvRWZDUHNTNjh5OVRqeUctbEhWbzFKWjNaN0xXWDNJdnZkQUdNZVBFU3VOZk43eHBqRjhuMVJoLUMydjZnWXd1clpiTWlpRFpzY2xIVDNkUUtvcEVodmFfWGhPcUlHZjNFTnZTM29fVTR1ZkdnX1JTeXJmU1RxSmpMQzVZVE5HU1czQTZNX0hTeTZrV3VSVFBYN0tNbnA5a0ZFZkIzSjFZOXJ3U1pYZ0MxYjNJLXZkeVNEdW5hanpKNkVhcnNfM2RYR1pvSlJVVC1KeTJVSFE?oc=5"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
