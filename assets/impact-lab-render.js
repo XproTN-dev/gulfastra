@@ -86,6 +86,114 @@ function chronology(data){
  ' · '+Number(n.publisher_count||0)+' NAMED OUTLETS · UNVERIFIED</small></span></button>'
  ).join("")+'</div>';
 }
+
+/* Investigable publication clusters: no unreadable 95-node hairball.
+   Group labels are publisher metadata, not AI-inferred crisis severity. */
+const topicNames={
+ regional:"Regional reporting",maritime:"Maritime & shipping",missile:"Missile reporting",
+ interception:"Interception reporting",diplomacy:"Diplomacy",sanctions:"Sanctions",
+ drone:"Drone reporting",aviation:"Aviation",unspecified:"Other reporting"
+};
+const iconForTopic={
+ regional:"◎",maritime:"≋",missile:"↗",interception:"◈",
+ diplomacy:"◇",sanctions:"§",drone:"✧",aviation:"✈",unspecified:"◌"
+};
+function groups(data){
+ const grouped=new Map();
+ for(const n of as(data?.nodes)){
+  const topic=String(n.topic||"unspecified").toLowerCase();
+  if(!grouped.has(topic))grouped.set(topic,{id:topic,title:topicNames[topic]||
+   topic.replace(/[-_]/g," ").replace(/\b\w/g,c=>c.toUpperCase()),nodes:[],links:0,latest:0,
+   articleTotal:0,kind:n.category||"other"});
+  const g=grouped.get(topic);
+  g.nodes.push(n);g.latest=Math.max(g.latest,dt(n.published_at)||0);
+  g.articleTotal+=Number(n.report_count||0);
+ }
+ const idToTopic=new Map(as(data?.nodes).map(n=>[n.id,String(n.topic||"unspecified").toLowerCase()]));
+ for(const e of as(data?.edges)){
+  const a=idToTopic.get(e.source),b=idToTopic.get(e.target);
+  if(a&&grouped.has(a))grouped.get(a).links++;
+  if(b&&b!==a&&grouped.has(b))grouped.get(b).links++;
+ }
+ return [...grouped.values()].map(g=>{
+  g.nodes.sort((a,b)=>dt(b.published_at)-dt(a.published_at));
+  const categoryCounts={};for(const n of g.nodes)categoryCounts[n.category]=(categoryCounts[n.category]||0)+1;
+  g.kind=Object.entries(categoryCounts).sort((a,b)=>b[1]-a[1])[0]?.[0]||"other";
+  return g;
+ }).sort((a,b)=>b.nodes.length-a.nodes.length||b.latest-a.latest);
+}
+function clusterCard(g){
+ const newest=g.nodes[0],count=g.nodes.length;
+ const prev=g.nodes.slice(0,2).map(n=>'<div class="cluster-headline" dir="auto">'+
+  safe(n.title)+'</div>').join("");
+ return '<button type="button" data-cluster="'+safe(g.id)+'" class="cluster-card cluster-'+
+ safe(g.kind)+'" aria-label="Explore '+safe(g.title)+' '+count+' source reporting groups">'+
+ '<span class="cluster-card-top"><span class="cluster-topic-icon">'+
+ safe(iconForTopic[g.id]||"◌")+'</span><span class="cluster-count">'+count+
+ '<small>GROUPS</small></span></span>'+
+ '<strong class="cluster-title">'+safe(g.title)+'</strong>'+
+ '<span class="cluster-card-summary">'+prev+'</span>'+
+ '<span class="cluster-card-bottom"><span>'+g.links+
+ ' SOURCE-METADATA LINKS</span><span>'+safe(C.age(newest?.published_at))+' ↗</span></span></button>';
+}
+function relationshipCards(data,all=false){
+ const byId=new Map(as(data?.nodes).map(n=>[n.id,n]));
+ const records=as(data?.edges).filter(e=>byId.has(e.source)&&byId.has(e.target)&&!e.relation_verified);
+ const items=(all?records:records.slice(0,5)).map(e=>{
+  const a=byId.get(e.source),b=byId.get(e.target);
+  return '<button type="button" class="relation-card" data-edge="'+safe(e.source+"|"+e.target)+
+   '" aria-label="Inspect published reporting relationship">'+
+   '<span class="relation-meta">'+safe((e.shared_topic||"TOPICAL OVERLAP").toUpperCase())+
+   ' · '+safe(as(e.shared_countries).join(", ")||"COUNTRY MENTION")+'</span>'+
+   '<span class="relation-pair"><span dir="auto">'+safe(a.title)+
+   '</span><span class="relation-arrow">↔</span><span dir="auto">'+safe(b.title)+'</span></span>'+
+   '<span class="relation-footer">SHARED METADATA, NOT CAUSATION <b>EXPLORE ↗</b></span></button>';
+ }).join("");
+ if(!records.length)return '<div class="cluster-empty">No related reporting groups meet the chosen period and metadata criteria. This is not evidence of safety.</div>';
+ return '<div class="relation-grid">'+items+'</div>';
+}
+function clusterOverview(data,focus=null){
+ const grouped=groups(data);
+ if(focus){
+  const g=grouped.find(x=>x.id===focus);
+  if(g){
+   return '<div class="cluster-drill"><button type="button" class="cluster-back" data-cluster-back="1">← ALL REPORTING TOPICS</button>'+
+    '<div class="cluster-drill-hero"><span class="kicker">TOPIC INVESTIGATION · SOURCE CLAIMS ONLY</span>'+
+    '<h2>'+safe(g.title)+'</h2><p>'+g.nodes.length+' publication groups · '+g.links+
+    ' associated metadata links. Open any story to inspect original publisher evidence.</p></div>'+
+    '<div class="cluster-story-list">'+g.nodes.map(n=>'<button class="cluster-story" data-node="'+safe(n.id)+'">'+
+     '<span class="cluster-story-identity"><i style="--k:'+col(n)+'"></i>'+
+     safe((n.category||"other").toUpperCase())+' · '+safe(C.age(n.published_at))+
+     ' · '+Number(n.publisher_count||0)+' NAMED PUBLISHERS</span>'+
+     '<strong dir="auto">'+safe(n.title)+'</strong>'+
+     '<span class="cluster-story-footer">READ PUBLISHER EVIDENCE ↗</span></button>').join("")+
+    '</div></div>';
+  }
+ }
+ const show=grouped.slice(0,12);
+ return '<div class="cluster-dashboard">'+
+ '<section class="cluster-overview-intro"><div><span class="kicker">STRUCTURED NEWS LANDSCAPE</span>'+
+ '<h2>Explore what is being reported</h2>'+
+ '<p>'+as(data.nodes).length+' source-linked groups organized into '+grouped.length+
+ ' publisher-topic categories. Headlines stay readable; original reporting is one click away.</p></div>'+
+ '<div class="cluster-uncertainty"><b>NO AUTOMATED CAUSAL CLAIMS</b><span>Clusters are a navigation tool, not independent confirmation of the underlying events.</span></div></section>'+
+ '<div class="cluster-grid">'+show.map(clusterCard).join("")+'</div>'+
+ (grouped.length>12?'<div class="cluster-caveat">'+(grouped.length-12)+' additional topics available using the reporting category filter.</div>':"")+
+ '<section class="cluster-relations"><div class="cluster-section-head"><div>'+
+ '<span class="kicker">PUBLISHED RELATIONSHIPS</span><h3>Related coverage worth comparing</h3>'+
+ '<p>Shared topic, country and publication period. Not a cause-and-effect conclusion.</p></div>'+
+ '<button type="button" data-network-mode="spatial">SEE ALL '+as(data.edges).length+' LINKS ↗</button></div>'+
+ relationshipCards(data,false)+'</section></div>';
+}
+function relationExplorer(data){
+ return '<div class="cluster-dashboard"><section class="cluster-overview-intro"><div>'+
+ '<span class="kicker">EVIDENCE LINK EXPLORER</span><h2>Investigate related coverage</h2>'+
+ '<p>Only actual shared-metadata connections returned by the collector. Headlines remain attached to their original source dossiers.</p></div>'+
+ '<div class="cluster-uncertainty"><b>NO CAUSATION ASSUMED</b>'+
+ '<span>These links do not prove two headlines describe the same event.</span></div></section>'+
+ relationshipCards(data,true)+'</div>';
+}
+
 function spark(points,other=null){
  points=as(points).filter(p=>Array.isArray(p)&&Number.isFinite(Number(p[1]))).slice(-130);
  other=as(other).filter(p=>Array.isArray(p)&&Number.isFinite(Number(p[1]))).slice(-130);
@@ -185,5 +293,5 @@ function radar(nodes){
  '" fill="#c3d5e8" font-size="10" text-anchor="middle">'+safe(k.toUpperCase()+" "+counts[k])+'</text>';
  }).join("")+'</svg>';
 }
-root.GXImpactRender={filtered,graphSvg,chronology,spark,marketCards,compare,briefing,pathways,radar,PATHWAYS};
+root.GXImpactRender={filtered,graphSvg,chronology,groups,clusterOverview,relationExplorer,spark,marketCards,compare,briefing,pathways,radar,PATHWAYS};
 })(window);
