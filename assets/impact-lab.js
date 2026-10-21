@@ -296,8 +296,8 @@ function init(){
   getData:()=>S.files,getFilter:()=>({country:S.country,category:S.category,hours:S.hours,asof:S.asof}),
   onDetails:openContext
  });
- $("[data-map-layer]").forEach(b=>b.onchange=()=>root.GXImpactMap?.update());
- $("[data-map-action]").forEach(b=>b.onclick=()=>root.GXImpactMap?.action(b.dataset.mapAction));
+ $$("[data-map-layer]").forEach(b=>b.onchange=()=>root.GXImpactMap?.update());
+ $$("[data-map-action]").forEach(b=>b.onclick=()=>root.GXImpactMap?.action(b.dataset.mapAction));
  $("labFiltersOpen").onclick=()=>{$("impactApp").classList.add("filters-open");backdrop()};
  $("labBackdrop").onclick=()=>{closeContext();closeLayers()};
  $("contextClose").onclick=closeContext;
