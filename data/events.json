@@ -1,9 +1,66 @@
 {
   "schema": 5,
-  "generated_at": "2026-10-21T08:46:37.467255Z",
+  "generated_at": "2026-10-21T08:49:21.384801Z",
   "model": "deterministic-source-correlation-v2-coverage-lifecycle",
   "disclaimer": "Clusters are related PUBLIC REPORTS, not confirmed incidents. Source counts are not proof. Country names are mentions, not incident locations.",
   "events": [
+    {
+      "id": "GF-D3D66046C55F5F",
+      "title": "تعرض مقر حزب إيراني معارض لقصف بـ4 صواريخ في كردستان العراق - Al Daee News",
+      "category": "security",
+      "topic": "missile",
+      "countries": [
+        "Iran",
+        "Iraq"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-21T08:47:37Z",
+      "last_published": "2026-10-21T08:47:37Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "292cb8f7a7cb122abdf62ceb",
+          "title": "تعرض مقر حزب إيراني معارض لقصف بـ4 صواريخ في كردستان العراق - Al Daee News",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBqc1NFV1piUXMwNDg1SzZFaGhLa2l1T1NHZWFoMzJyTUd6bHR1WkxyU2Z0a3NsMkxqUDlfR0JqLXd2b0p4YjFsYlRYdU83dWxmOUc5MjR3?oc=5",
+          "source": "Al Daee News",
+          "publisher_key": "al daee news",
+          "provider": "عربي · الكويت والعراق",
+          "published_at": "2026-10-21T08:47:37Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-21T08:49:13.520607Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "new-coverage",
+      "coverage_first_published_at": "2026-10-21T08:47:37Z",
+      "coverage_last_published_at": "2026-10-21T08:47:37Z",
+      "current_reporting": true,
+      "recent_publisher_count": 1,
+      "recent_article_count": 1,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "351df4b8870515faf836",
+      "revision": 1,
+      "updated_at": "2026-10-21T08:49:21.384801Z"
+    },
     {
       "id": "GF-7E822B7A5CFE9F",
       "title": "هجوم يستهدف مواقع للمعارضة الإيرانية في أربيل شمالي العراق - مبتدا",
@@ -60,6 +117,63 @@
       "digest": "30d2945fd3bd2662b3c5",
       "revision": 1,
       "updated_at": "2026-10-21T08:46:37.467255Z"
+    },
+    {
+      "id": "GF-1DC089036B1AD3",
+      "title": "Tanker struck by unknown projectile off Oman, UKMTO says - Iran International",
+      "category": "transport",
+      "topic": "maritime",
+      "countries": [
+        "Iran",
+        "Oman"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-21T08:35:18Z",
+      "last_published": "2026-10-21T08:35:18Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "bfd0d4c854de2aaae5eb2021",
+          "title": "Tanker struck by unknown projectile off Oman, UKMTO says - Iran International",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9POG5VTEFqQmlsWG5IakEwSElCYmhEWmsxbEl1UWJZWXAyTWtJYmJkUDdvLXU2akVZaWtvQmdZU002UDBOMGxhT3lsb1Q?oc=5",
+          "source": "Iran International",
+          "publisher_key": "iran international",
+          "provider": "Google News · diplomacy",
+          "published_at": "2026-10-21T08:35:18Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-21T08:49:13.520607Z",
+          "collected_at": null,
+          "language": "en",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "new-coverage",
+      "coverage_first_published_at": "2026-10-21T08:35:18Z",
+      "coverage_last_published_at": "2026-10-21T08:35:18Z",
+      "current_reporting": true,
+      "recent_publisher_count": 1,
+      "recent_article_count": 1,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "8df4cb9f10a7c5096e07",
+      "revision": 1,
+      "updated_at": "2026-10-21T08:49:21.384801Z"
     },
     {
       "id": "GF-3FFAAE617D1BB0",
@@ -475,8 +589,8 @@
       ],
       "publisher_count": 1,
       "report_count": 1,
-      "first_published": "2026-10-21T07:07:28Z",
-      "last_published": "2026-10-21T07:07:28Z",
+      "first_published": "2026-10-21T07:06:54Z",
+      "last_published": "2026-10-21T07:06:54Z",
       "event_occurred_at": null,
       "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
       "sources": [
@@ -487,7 +601,7 @@
           "source": "The Media Line",
           "publisher_key": "the media line",
           "provider": "Google News · diplomacy",
-          "published_at": "2026-10-21T07:07:28Z",
+          "published_at": "2026-10-21T07:06:54Z",
           "date_quality": "publisher-time",
           "first_seen_at": "2026-10-21T08:35:35.505979Z",
           "collected_at": null,
@@ -496,17 +610,17 @@
         }
       ],
       "coverage_stage": "new-coverage",
-      "coverage_first_published_at": "2026-10-21T07:07:28Z",
-      "coverage_last_published_at": "2026-10-21T07:07:28Z",
+      "coverage_first_published_at": "2026-10-21T07:06:54Z",
+      "coverage_last_published_at": "2026-10-21T07:06:54Z",
       "current_reporting": true,
       "recent_publisher_count": 1,
       "recent_article_count": 1,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "2e915f46d802bc3c40f7",
-      "revision": 1,
-      "updated_at": "2026-10-21T08:35:43.756243Z"
+      "digest": "ef233b15b066f1f950a6",
+      "revision": 2,
+      "updated_at": "2026-10-21T08:49:21.384801Z"
     },
     {
       "id": "GF-547818C0E6F22C",
@@ -28697,7 +28811,7 @@
           "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE15VmNLVDgtRnRBRzRXaVowSlM1cTFRTEtwVGhhS0JoWVRpZ3FpdW1EZXZzdXN3SHcwNXVNV2s1N0tzMU9FYkZEZXFDWUlESWM?oc=5",
           "source": "الساحل الغربي",
           "publisher_key": "الساحل الغربي",
-          "provider": "عربي · الإمارات والبحرين",
+          "provider": "عربي · الكويت والعراق",
           "published_at": "2026-10-19T16:18:43Z",
           "date_quality": "publisher-time",
           "first_seen_at": "2026-10-20T12:01:49.547007Z",
@@ -28715,9 +28829,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "85dca9dd9411084795ef",
-      "revision": 21,
-      "updated_at": "2026-10-21T08:46:37.467255Z"
+      "digest": "04ec33b0f8ff139ef8da",
+      "revision": 22,
+      "updated_at": "2026-10-21T08:49:21.384801Z"
     },
     {
       "id": "GF-03476150E89A5F",
@@ -32713,6 +32827,62 @@
       "digest": "0040a9080f174c129dd6",
       "revision": 3,
       "updated_at": "2026-10-20T16:52:31.264495Z"
+    },
+    {
+      "id": "GF-780203BABF6BC0",
+      "title": "هجوم بحري يستهدف قاطرة قبالة سواحل الإمارات - نيو ترك بوست",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "UAE"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-19T10:10:10Z",
+      "last_published": "2026-10-19T10:10:10Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "1470d9b92373720c1d9683ed",
+          "title": "هجوم بحري يستهدف قاطرة قبالة سواحل الإمارات - نيو ترك بوست",
+          "url": "https://news.google.com/rss/articles/CBMixgNBVV95cUxPQmN0SERLRE9Vcm1JaWZZSmJWNVFzaW43YmlDczZ4UXNjd2VkWWthSE9fWVBOV3h4WjQ1czlucHFQaDJRVGxKZXdGbnE0QnZOdElDTU5Zd0lBRUxHM01lb04yQ2xsNHUxblpnekE4dmpLa2kyTngtT3MxUUxyS2lyRUFHSTdtRk95ZU56UV9iZXQzaTMxYUJ4eGJNV0hlNFNrbjJaRERHLXVoNjJZY1RNd3d1dTJnWUpGb2JSUmRUeV9XWkFyOE5nU0tPTnhaNmFYcXZPOHE3NmE5ZnU4X3FzWHZWbjF2V29jMUFyMHFaU0QxWUV6dE9TQTVDRE9YbWl0TjRGUllrdUNaWnRhZE81SFEyOFhfWk05WmFBSkRXSV9id1BIYlR2Q3RHbnJHWE05X3FMY05jWmhhOFR4TlZnUGR2WEpnMU9tci1ia2hQZ01MWS16aXg0YUZDS2MzcnlrTGJQVnktNUt0VVl1S21WSDgySkJkNHBoalMwQmxTZ25xdEVYZ2xVRXRBSm5IVEpCczEtY192WWU4aGRkdS1janNMVlg2c2dnWkczT3RPZjUxQnZsUWpSdnRsRTdtbkVFUF9LdTBB?oc=5",
+          "source": "نيو ترك بوست",
+          "publisher_key": "نيو ترك بوست",
+          "provider": "عربي · الإمارات والبحرين",
+          "published_at": "2026-10-19T10:10:10Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-21T08:49:13.520607Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "UAE"
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-19T10:10:10Z",
+      "coverage_last_published_at": "2026-10-19T10:10:10Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "4d077d4e8b6a1d4d2973",
+      "revision": 1,
+      "updated_at": "2026-10-21T08:49:21.384801Z"
     },
     {
       "id": "GF-0A36136C75922F",
@@ -40094,6 +40264,62 @@
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
+      "id": "GF-F30FAA0D8FA737",
+      "title": "Airstrike kills at least 9 in rebel-held Yemen, and other Mideast news - AP News",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-18T16:31:00Z",
+      "last_published": "2026-10-18T16:31:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "5a459fb2dcaaa1033cef6ba5",
+          "title": "Airstrike kills at least 9 in rebel-held Yemen, and other Mideast news - AP News",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZTVQOXY5eWJtZXExSXpLYk9CMWUycWRQTEREeEtlUUtlQkRTR3laVnZQTEFIVjN6S1BpbXVkU3N1Nm1Vb09POV8xVGRncFFBMlp6RUR6QVJTTXBwcnZ4M2kzcmVXYVJVM3FaWkZyVlRsNGs2aml5UWdBM0Nuc3oyblpMS1hrdnVjcFZnNkx4bjJTVGJ3OEM0S1piZnFtbHZ1VnlUdEZvMjVHcGtZaGNSVg?oc=5",
+          "source": "AP News",
+          "publisher_key": "ap news",
+          "provider": "AP · indexed Gulf reporting",
+          "published_at": "2026-10-18T16:31:00Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T19:00:37.368110Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Yemen"
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-18T16:31:00Z",
+      "coverage_last_published_at": "2026-10-18T16:31:00Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "c27f7baf51728806777a",
+      "revision": 3,
+      "updated_at": "2026-10-21T08:49:21.384801Z"
+    },
+    {
       "id": "GF-B4EED7189B9A22",
       "title": "Search for survivors as airstrike kills at least 9 in rebel-held Yemen - AP News",
       "category": "security",
@@ -41516,62 +41742,6 @@
       "digest": "d67ac87d990c1660101f",
       "revision": 3,
       "updated_at": "2026-10-20T16:52:31.264495Z"
-    },
-    {
-      "id": "GF-AD538CC5619B1E",
-      "title": "أمين «مجلس التعاون الخليجي»: ندين الممارسات الإيرانية المهددة للملاحة في هرمز - الشرق الأوسط",
-      "category": "transport",
-      "topic": "maritime",
-      "countries": [
-        "Iran"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "ar"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-18T13:32:43Z",
-      "last_published": "2026-10-18T13:32:43Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "b103f95e535dc288d8e52e75",
-          "title": "أمين «مجلس التعاون الخليجي»: ندين الممارسات الإيرانية المهددة للملاحة في هرمز - الشرق الأوسط",
-          "url": "https://news.google.com/rss/articles/CBMi1gRBVV95cUxQRGxvTDRBTC12OFpxbkwtdDJGYnZ6cE5RVUNvM0U1dHFjUE5TZmlDVFZCNmRwejRNamFRZjE3ZENCVXNfWHhWRzR2TUlFMFJPdGZvWW9JZ1hFdFAyRzMzWW1vZVlLYng4NGVCRlh4TVhGMzBvSXVDQVJPWUlSdEdPZTlFdW5ldEZnOFFYWm95cUU5QXFaQ3ljTm5tZGZURjF2SFhIZ3dUb2x4VmpUd2stX2RNMk45OGRnaWFQMWxOS1Utd3A0Yy1MaFpzcHJCdTIyXzl5MldSUEFqMmlHQm1yN2pobW9yZ2pZdk42TDNTNDFxVWlKY2xVR3JSX0ZiRnhiYmlJaE90WER3cnFmTFB3NW9BMW9MYjR2ajYyd054YzRocFB5UHU2NEV5Mi1UOGpwQnd4RHNLQXRKWVc2SW40NnAtMmFhQTFWYTFubmNJRDRjSks2RU9JSHowOFNJdkd4Tkd2UzRmb3MtaF95Y0FiaUdUdzU3ZFc1NWhXVTJDbGpQVWNkTVZTZ2RfWENVUFdubFVRWDJjeV9Bb0d6ZXBMS042WkdDdkVxZWdqa19sTk9UdFhNaDVqUjRlYld2d01GTmIzbDdoNzBLLU9EZmctV21hdFJENS1TU2RFalRab29HVHRxYi1va1pGMjEyNVJYT2ppQVhSVzcycTNRQXFpY2psZW5yYVhnYWs0akhjSlFmcmJORWVCVU8yRlZwSjNjRVZYSm9vQUNRYlZTTlBIR2IyVm9XU2VSUmktVVY4Z2lHTC0yMWRmVmdUSmZQb002NXRyd0x3?oc=5",
-          "source": "الشرق الأوسط",
-          "publisher_key": "الشرق الأوسط",
-          "provider": "عربي · مضيق هرمز",
-          "published_at": "2026-10-18T13:32:43Z",
-          "date_quality": "publisher-time",
-          "first_seen_at": "2026-10-21T08:38:17.161396Z",
-          "collected_at": null,
-          "language": "ar",
-          "country": "Iran"
-        }
-      ],
-      "coverage_stage": "quiet-coverage",
-      "coverage_first_published_at": "2026-10-18T13:32:43Z",
-      "coverage_last_published_at": "2026-10-18T13:32:43Z",
-      "current_reporting": false,
-      "recent_publisher_count": 0,
-      "recent_article_count": 0,
-      "incident_status": "unknown",
-      "event_occurrence_verified": false,
-      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "d709cc5783adee44e534",
-      "revision": 1,
-      "updated_at": "2026-10-21T08:38:26.049851Z"
     },
     {
       "id": "GF-648DBE1290C3B1",
@@ -43068,62 +43238,6 @@
       "digest": "b462c3ee383c1cc0f62c",
       "revision": 2,
       "updated_at": "2026-10-20T16:52:31.264495Z"
-    },
-    {
-      "id": "GF-F30FAA0D8FA737",
-      "title": "Airstrike kills at least 9 in rebel-held Yemen, and other Mideast news - AP News",
-      "category": "security",
-      "topic": "regional",
-      "countries": [
-        "Yemen"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "en"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-18T09:43:34Z",
-      "last_published": "2026-10-18T09:43:34Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "5a459fb2dcaaa1033cef6ba5",
-          "title": "Airstrike kills at least 9 in rebel-held Yemen, and other Mideast news - AP News",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZTVQOXY5eWJtZXExSXpLYk9CMWUycWRQTEREeEtlUUtlQkRTR3laVnZQTEFIVjN6S1BpbXVkU3N1Nm1Vb09POV8xVGRncFFBMlp6RUR6QVJTTXBwcnZ4M2kzcmVXYVJVM3FaWkZyVlRsNGs2aml5UWdBM0Nuc3oyblpMS1hrdnVjcFZnNkx4bjJTVGJ3OEM0S1piZnFtbHZ1VnlUdEZvMjVHcGtZaGNSVg?oc=5",
-          "source": "AP News",
-          "publisher_key": "ap news",
-          "provider": "AP · indexed Gulf reporting",
-          "published_at": "2026-10-18T09:43:34Z",
-          "date_quality": "publisher-time",
-          "first_seen_at": "2026-10-20T19:00:37.368110Z",
-          "collected_at": null,
-          "language": "en",
-          "country": "Yemen"
-        }
-      ],
-      "coverage_stage": "quiet-coverage",
-      "coverage_first_published_at": "2026-10-18T09:43:34Z",
-      "coverage_last_published_at": "2026-10-18T09:43:34Z",
-      "current_reporting": false,
-      "recent_publisher_count": 0,
-      "recent_article_count": 0,
-      "incident_status": "unknown",
-      "event_occurrence_verified": false,
-      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "5fef7a382cae2ebc7f5c",
-      "revision": 2,
-      "updated_at": "2026-10-21T08:46:37.467255Z"
     },
     {
       "id": "GF-DCFD6BC355D3E6",
@@ -55689,7 +55803,7 @@
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQVlGa1lUdkZRb3JRU3NWRS1jeExIdWIzZDVWLU1sZW0tdlp6a25TMHpmUUluOUFUS3A2UGN4NFdRM1A4WlQ2ejctSmhUQm9jR051Wml3cG1qaFZoX0N0SDRFNHN6YWlNUTZIUlpVS0g1UnhVc1BQVkdWUHRXSWJZVlphX2dVV3RtdUZFRWhiSzhsaXFPbjhoZnNiS0VFbEE?oc=5",
           "source": "The New York Times",
           "publisher_key": "the new york times",
-          "provider": "Google News · missiles/drones",
+          "provider": "Google News · security",
           "published_at": "2026-10-17T04:07:23Z",
           "date_quality": "publisher-time",
           "first_seen_at": "2026-10-20T12:09:48.504938Z",
@@ -55707,9 +55821,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "a7c124fb5ad22de1bfa0",
-      "revision": 10,
-      "updated_at": "2026-10-21T08:46:37.467255Z"
+      "digest": "286eae9108a3ea84a643",
+      "revision": 11,
+      "updated_at": "2026-10-21T08:49:21.384801Z"
     },
     {
       "id": "GF-53EE160270EDE3",
@@ -80096,7 +80210,7 @@
           "country": "Saudi"
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-10-13T21:50:15Z",
       "coverage_last_published_at": "2026-10-14T08:47:42Z",
       "current_reporting": false,
@@ -80105,9 +80219,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "216c03be5a41c15ff7d3",
-      "revision": 1,
-      "updated_at": "2026-10-20T17:36:38.611766Z"
+      "digest": "0c55e3603bee8ff2029a",
+      "revision": 2,
+      "updated_at": "2026-10-21T08:49:21.384801Z"
     },
     {
       "id": "GF-3E302980F4F8AC",
@@ -90314,11 +90428,11 @@
   ],
   "country_stats": {
     "Iran": {
-      "events": 530,
-      "reports": 583,
-      "security_coverage": 335,
+      "events": 531,
+      "reports": 584,
+      "security_coverage": 336,
       "transport_coverage": 106,
-      "sources": 234
+      "sources": 235
     },
     "Saudi": {
       "events": 596,
@@ -90335,11 +90449,11 @@
       "sources": 33
     },
     "UAE": {
-      "events": 100,
-      "reports": 105,
-      "security_coverage": 72,
+      "events": 101,
+      "reports": 106,
+      "security_coverage": 73,
       "transport_coverage": 25,
-      "sources": 65
+      "sources": 66
     },
     "Bahrain": {
       "events": 13,
@@ -90356,18 +90470,18 @@
       "sources": 15
     },
     "Iraq": {
-      "events": 69,
-      "reports": 69,
-      "security_coverage": 63,
+      "events": 70,
+      "reports": 70,
+      "security_coverage": 64,
       "transport_coverage": 5,
-      "sources": 53
+      "sources": 54
     },
     "Oman": {
-      "events": 10,
-      "reports": 10,
+      "events": 11,
+      "reports": 11,
       "security_coverage": 7,
-      "transport_coverage": 3,
-      "sources": 8
+      "transport_coverage": 4,
+      "sources": 9
     },
     "Yemen": {
       "events": 288,
@@ -90398,83 +90512,51 @@
     "2026-10-15": 155,
     "2026-10-16": 146,
     "2026-10-17": 190,
-    "2026-10-18": 156,
-    "2026-10-19": 229,
+    "2026-10-18": 155,
+    "2026-10-19": 230,
     "2026-10-20": 349,
-    "2026-10-21": 72
+    "2026-10-21": 74
   },
   "revisions": [
     {
-      "id": "GF-953337E48B790F",
+      "id": "GF-2DEFA7FABF1BB4",
       "revision": 2,
-      "at": "2026-10-21T08:46:37.467255Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 3
-    },
-    {
-      "id": "GF-B5C02D16F2B997",
-      "revision": 3,
-      "at": "2026-10-21T08:46:37.467255Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-2BBBE30210B1B4",
-      "revision": 4,
-      "at": "2026-10-21T08:46:37.467255Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-450C0006983D14",
-      "revision": 3,
-      "at": "2026-10-21T08:46:37.467255Z",
+      "at": "2026-10-21T08:49:21.384801Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
       "id": "GF-2641AEE1D03B4C",
-      "revision": 21,
-      "at": "2026-10-21T08:46:37.467255Z",
+      "revision": 22,
+      "at": "2026-10-21T08:49:21.384801Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
       "id": "GF-F30FAA0D8FA737",
-      "revision": 2,
-      "at": "2026-10-21T08:46:37.467255Z",
+      "revision": 3,
+      "at": "2026-10-21T08:49:21.384801Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
       "id": "GF-7B0E21F2D20604",
-      "revision": 10,
-      "at": "2026-10-21T08:46:37.467255Z",
+      "revision": 11,
+      "at": "2026-10-21T08:49:21.384801Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-C8FB0E606CC54B",
-      "revision": 4,
-      "at": "2026-10-21T08:46:37.467255Z",
+      "id": "GF-38D128F847C5DA",
+      "revision": 2,
+      "at": "2026-10-21T08:49:21.384801Z",
       "change": "published-source-set-updated",
-      "previous_source_count": 1,
+      "previous_source_count": 2,
       "new_source_count": 2
-    },
-    {
-      "id": "GF-F99E79086CCD1D",
-      "revision": 25,
-      "at": "2026-10-21T08:46:37.467255Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
     }
   ]
 }

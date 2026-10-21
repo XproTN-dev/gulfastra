@@ -1,9 +1,33 @@
 {
   "version": 6,
-  "last_run": "2026-10-21T08:46:29.846742Z",
-  "last_successful_run": "2026-10-21T08:46:29.846742Z",
-  "successful_sources": 29,
+  "last_run": "2026-10-21T08:49:13.520607Z",
+  "last_successful_run": "2026-10-21T08:49:13.520607Z",
+  "successful_sources": 30,
   "reports": [
+    {
+      "id": "292cb8f7a7cb122abdf62ceb",
+      "title": "تعرض مقر حزب إيراني معارض لقصف بـ4 صواريخ في كردستان العراق - Al Daee News",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBqc1NFV1piUXMwNDg1SzZFaGhLa2l1T1NHZWFoMzJyTUd6bHR1WkxyU2Z0a3NsMkxqUDlfR0JqLXd2b0p4YjFsYlRYdU83dWxmOUc5MjR3?oc=5",
+      "source": "Al Daee News",
+      "published_at": "2026-10-21T08:47:37Z",
+      "country": "",
+      "countries": [
+        "Iran",
+        "Iraq"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير عن صواريخ",
+      "provider": "عربي · الكويت والعراق",
+      "first_seen_at": "2026-10-21T08:49:13.520607Z",
+      "date_quality": "publisher-time",
+      "freshness": "new-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
     {
       "id": "4a340400792a5e0d69331630",
       "title": "هجوم يستهدف مواقع للمعارضة الإيرانية في أربيل شمالي العراق - مبتدا",
@@ -26,6 +50,30 @@
       "severity": "routine-reporting",
       "critical_candidate": false,
       "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "bfd0d4c854de2aaae5eb2021",
+      "title": "Tanker struck by unknown projectile off Oman, UKMTO says - Iran International",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9POG5VTEFqQmlsWG5IakEwSElCYmhEWmsxbEl1UWJZWXAyTWtJYmJkUDdvLXU2akVZaWtvQmdZU002UDBOMGxhT3lsb1Q?oc=5",
+      "source": "Iran International",
+      "published_at": "2026-10-21T08:35:18Z",
+      "country": "",
+      "countries": [
+        "Iran",
+        "Oman"
+      ],
+      "language": "en",
+      "category": "transport",
+      "tag": "MARITIME REPORT",
+      "provider": "Google News · diplomacy",
+      "first_seen_at": "2026-10-21T08:49:13.520607Z",
+      "date_quality": "publisher-time",
+      "freshness": "new-reporting",
+      "context": "reporting",
+      "severity": "critical-candidate",
+      "critical_candidate": true,
+      "alert_eligible": true,
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
@@ -192,7 +240,7 @@
       "title": "Pakistan, Qatar Propose Release of $6 Billion Funds to Iran, Renewed Nuclear Inspections To End Conflict - The Media Line",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOWmNPLTJVd3M3VnNUSEx4VHgwVElhbnFxSmJ5X1dicjFsUHJySUNJM29nT1prNnlFYTRsdkZ1SFhIN19wd0lDS3ljUnFOQk9LNEdzdWFKcjN5SFdkNUVXZjVIVWk5LWNKTm93bFU1a0gtb3Mzbkx4c1g0SkdsYnRObHM2ZENpbVNCU3FpLW9acThYdUdmQkRVenEwY3ZydnVrbzhxUGVNUmJmUUFjNDlnOGFDazV2aXhrTVRHN0pTMGw4WW5NRTBKcWdESm9IZHhZVlE4?oc=5",
       "source": "The Media Line",
-      "published_at": "2026-10-21T07:07:28Z",
+      "published_at": "2026-10-21T07:06:54Z",
       "country": "",
       "countries": [
         "Iran",
@@ -8459,7 +8507,7 @@
       "provider": "عربي · العربية",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
-      "freshness": "recent-reporting",
+      "freshness": "older-reporting",
       "context": "reporting",
       "severity": "elevated-reporting",
       "critical_candidate": false,
@@ -8482,7 +8530,7 @@
       "provider": "عربي · مضيق هرمز",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
-      "freshness": "recent-reporting",
+      "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
       "critical_candidate": false,
@@ -12299,7 +12347,7 @@
       "language": "ar",
       "category": "security",
       "tag": "خبر اعتراض / دفاع جوي",
-      "provider": "عربي · الإمارات والبحرين",
+      "provider": "عربي · الكويت والعراق",
       "first_seen_at": "2026-10-20T12:01:49.547007Z",
       "date_quality": "publisher-time",
       "freshness": "older-reporting",
@@ -14126,6 +14174,29 @@
       "date_quality": "legacy-unverified",
       "freshness": "older-reporting",
       "context": "speculative",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "1470d9b92373720c1d9683ed",
+      "title": "هجوم بحري يستهدف قاطرة قبالة سواحل الإمارات - نيو ترك بوست",
+      "url": "https://news.google.com/rss/articles/CBMixgNBVV95cUxPQmN0SERLRE9Vcm1JaWZZSmJWNVFzaW43YmlDczZ4UXNjd2VkWWthSE9fWVBOV3h4WjQ1czlucHFQaDJRVGxKZXdGbnE0QnZOdElDTU5Zd0lBRUxHM01lb04yQ2xsNHUxblpnekE4dmpLa2kyTngtT3MxUUxyS2lyRUFHSTdtRk95ZU56UV9iZXQzaTMxYUJ4eGJNV0hlNFNrbjJaRERHLXVoNjJZY1RNd3d1dTJnWUpGb2JSUmRUeV9XWkFyOE5nU0tPTnhaNmFYcXZPOHE3NmE5ZnU4X3FzWHZWbjF2V29jMUFyMHFaU0QxWUV6dE9TQTVDRE9YbWl0TjRGUllrdUNaWnRhZE81SFEyOFhfWk05WmFBSkRXSV9id1BIYlR2Q3RHbnJHWE05X3FMY05jWmhhOFR4TlZnUGR2WEpnMU9tci1ia2hQZ01MWS16aXg0YUZDS2MzcnlrTGJQVnktNUt0VVl1S21WSDgySkJkNHBoalMwQmxTZ25xdEVYZ2xVRXRBSm5IVEpCczEtY192WWU4aGRkdS1janNMVlg2c2dnWkczT3RPZjUxQnZsUWpSdnRsRTdtbkVFUF9LdTBB?oc=5",
+      "source": "نيو ترك بوست",
+      "published_at": "2026-10-19T10:10:10Z",
+      "country": "UAE",
+      "countries": [
+        "UAE"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير امني",
+      "provider": "عربي · الإمارات والبحرين",
+      "first_seen_at": "2026-10-21T08:49:13.520607Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
       "severity": "routine-reporting",
       "critical_candidate": false,
       "alert_eligible": false,
@@ -17294,6 +17365,29 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "5a459fb2dcaaa1033cef6ba5",
+      "title": "Airstrike kills at least 9 in rebel-held Yemen, and other Mideast news - AP News",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZTVQOXY5eWJtZXExSXpLYk9CMWUycWRQTEREeEtlUUtlQkRTR3laVnZQTEFIVjN6S1BpbXVkU3N1Nm1Vb09POV8xVGRncFFBMlp6RUR6QVJTTXBwcnZ4M2kzcmVXYVJVM3FaWkZyVlRsNGs2aml5UWdBM0Nuc3oyblpMS1hrdnVjcFZnNkx4bjJTVGJ3OEM0S1piZnFtbHZ1VnlUdEZvMjVHcGtZaGNSVg?oc=5",
+      "source": "AP News",
+      "published_at": "2026-10-18T16:31:00Z",
+      "country": "Yemen",
+      "countries": [
+        "Yemen"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "AP · indexed Gulf reporting",
+      "first_seen_at": "2026-10-20T19:00:37.368110Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "23014acbe67c508f78d67e1c",
       "title": "وزيرا خارجية السعودية وروسيا يبحثان التصعيد باليمن وأمن الملاحة في هرمز وباب المندب - بوابة الشروق",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdkdiemgtUFpjeWtzRGh1N1Q5T3VjLXdnREsta3M5b0FhQzhyMjQzVVFkSGswRVZWWlctSnRVdWpJOGtLcG9xdnNsUEVKNUszTVZXQllLMm55UmEzUzZzcnhOUmNEdzEwT2N5Zk4zb0p0ci1UWm5iVmE1c0J0NjR4aXdhUE5BMUFZOHhnNmtKUnFWME5BclVJZFJNUDNtcE9JUmgzMkJjaw?oc=5",
@@ -17882,29 +17976,6 @@
       "date_quality": "legacy-unverified",
       "freshness": "older-reporting",
       "context": "speculative",
-      "severity": "routine-reporting",
-      "critical_candidate": false,
-      "alert_eligible": false,
-      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
-    },
-    {
-      "id": "b103f95e535dc288d8e52e75",
-      "title": "أمين «مجلس التعاون الخليجي»: ندين الممارسات الإيرانية المهددة للملاحة في هرمز - الشرق الأوسط",
-      "url": "https://news.google.com/rss/articles/CBMi1gRBVV95cUxQRGxvTDRBTC12OFpxbkwtdDJGYnZ6cE5RVUNvM0U1dHFjUE5TZmlDVFZCNmRwejRNamFRZjE3ZENCVXNfWHhWRzR2TUlFMFJPdGZvWW9JZ1hFdFAyRzMzWW1vZVlLYng4NGVCRlh4TVhGMzBvSXVDQVJPWUlSdEdPZTlFdW5ldEZnOFFYWm95cUU5QXFaQ3ljTm5tZGZURjF2SFhIZ3dUb2x4VmpUd2stX2RNMk45OGRnaWFQMWxOS1Utd3A0Yy1MaFpzcHJCdTIyXzl5MldSUEFqMmlHQm1yN2pobW9yZ2pZdk42TDNTNDFxVWlKY2xVR3JSX0ZiRnhiYmlJaE90WER3cnFmTFB3NW9BMW9MYjR2ajYyd054YzRocFB5UHU2NEV5Mi1UOGpwQnd4RHNLQXRKWVc2SW40NnAtMmFhQTFWYTFubmNJRDRjSks2RU9JSHowOFNJdkd4Tkd2UzRmb3MtaF95Y0FiaUdUdzU3ZFc1NWhXVTJDbGpQVWNkTVZTZ2RfWENVUFdubFVRWDJjeV9Bb0d6ZXBMS042WkdDdkVxZWdqa19sTk9UdFhNaDVqUjRlYld2d01GTmIzbDdoNzBLLU9EZmctV21hdFJENS1TU2RFalRab29HVHRxYi1va1pGMjEyNVJYT2ppQVhSVzcycTNRQXFpY2psZW5yYVhnYWs0akhjSlFmcmJORWVCVU8yRlZwSjNjRVZYSm9vQUNRYlZTTlBIR2IyVm9XU2VSUmktVVY4Z2lHTC0yMWRmVmdUSmZQb002NXRyd0x3?oc=5",
-      "source": "الشرق الأوسط",
-      "published_at": "2026-10-18T13:32:43Z",
-      "country": "Iran",
-      "countries": [
-        "Iran"
-      ],
-      "language": "ar",
-      "category": "transport",
-      "tag": "اضطراب نقل",
-      "provider": "عربي · مضيق هرمز",
-      "first_seen_at": "2026-10-21T08:38:17.161396Z",
-      "date_quality": "publisher-time",
-      "freshness": "older-reporting",
-      "context": "reporting",
       "severity": "routine-reporting",
       "critical_candidate": false,
       "alert_eligible": false,
@@ -18590,29 +18661,6 @@
       "tag": "SECURITY REPORT",
       "provider": "Google News · missiles/drones",
       "first_seen_at": "2026-10-20T12:09:48.504938Z",
-      "date_quality": "publisher-time",
-      "freshness": "older-reporting",
-      "context": "reporting",
-      "severity": "routine-reporting",
-      "critical_candidate": false,
-      "alert_eligible": false,
-      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
-    },
-    {
-      "id": "5a459fb2dcaaa1033cef6ba5",
-      "title": "Airstrike kills at least 9 in rebel-held Yemen, and other Mideast news - AP News",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZTVQOXY5eWJtZXExSXpLYk9CMWUycWRQTEREeEtlUUtlQkRTR3laVnZQTEFIVjN6S1BpbXVkU3N1Nm1Vb09POV8xVGRncFFBMlp6RUR6QVJTTXBwcnZ4M2kzcmVXYVJVM3FaWkZyVlRsNGs2aml5UWdBM0Nuc3oyblpMS1hrdnVjcFZnNkx4bjJTVGJ3OEM0S1piZnFtbHZ1VnlUdEZvMjVHcGtZaGNSVg?oc=5",
-      "source": "AP News",
-      "published_at": "2026-10-18T09:43:34Z",
-      "country": "Yemen",
-      "countries": [
-        "Yemen"
-      ],
-      "language": "en",
-      "category": "security",
-      "tag": "SECURITY REPORT",
-      "provider": "AP · indexed Gulf reporting",
-      "first_seen_at": "2026-10-20T19:00:37.368110Z",
       "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
@@ -24057,7 +24105,7 @@
       "language": "en",
       "category": "security",
       "tag": "SECURITY REPORT",
-      "provider": "Google News · missiles/drones",
+      "provider": "Google News · security",
       "first_seen_at": "2026-10-20T12:09:48.504938Z",
       "date_quality": "publisher-time",
       "freshness": "older-reporting",
@@ -34282,7 +34330,7 @@
       "provider": "عربي · وكالات الخليج",
       "first_seen_at": "2026-10-20T17:36:32.179146Z",
       "date_quality": "publisher-time",
-      "freshness": "older-reporting",
+      "freshness": "archive",
       "context": "reporting",
       "severity": "elevated-reporting",
       "critical_candidate": false,
@@ -38822,8 +38870,8 @@
     },
     "Google News · security": {
       "ok": true,
-      "items": 53,
-      "relevant": 42
+      "items": 100,
+      "relevant": 69
     },
     "Google News · aviation": {
       "ok": true,
@@ -38838,11 +38886,11 @@
     "Google News · diplomacy": {
       "ok": true,
       "items": 100,
-      "relevant": 50
+      "relevant": 51
     },
     "Google News · regional": {
       "ok": true,
-      "items": 55,
+      "items": 56,
       "relevant": 27
     },
     "Reuters · indexed Gulf reporting": {
@@ -38857,43 +38905,43 @@
     },
     "UKMTO · indexed official advisories": {
       "ok": true,
-      "items": 14,
+      "items": 13,
       "relevant": 0
     },
     "US State Dept · indexed advisories": {
       "ok": true,
-      "items": 9,
+      "items": 8,
       "relevant": 0
     },
     "عربي · إيران والخليج": {
       "ok": true,
       "items": 58,
-      "relevant": 45
+      "relevant": 44
     },
     "عربي · قطر": {
       "ok": true,
-      "items": 56,
+      "items": 57,
       "relevant": 23
     },
     "عربي · السعودية": {
       "ok": true,
-      "items": 58,
-      "relevant": 31
+      "items": 100,
+      "relevant": 46
     },
     "عربي · الإمارات والبحرين": {
       "ok": true,
-      "items": 54,
-      "relevant": 49
+      "items": 23,
+      "relevant": 23
     },
     "عربي · الكويت والعراق": {
       "ok": true,
-      "items": 28,
-      "relevant": 28
+      "items": 54,
+      "relevant": 50
     },
     "عربي · مضيق هرمز": {
       "ok": true,
       "items": 100,
-      "relevant": 72
+      "relevant": 71
     },
     "عربي · الجزيرة": {
       "ok": true,
@@ -38908,7 +38956,7 @@
     "عربي · الشرق": {
       "ok": true,
       "items": 100,
-      "relevant": 23
+      "relevant": 37
     },
     "عربي · وكالات الخليج": {
       "ok": true,
@@ -38946,8 +38994,9 @@
       "relevant": 8
     },
     "UN News · Middle East (EN)": {
-      "ok": false,
-      "error": "not well-formed (invalid token): line 1, column 0"
+      "ok": true,
+      "items": 30,
+      "relevant": 1
     },
     "UN News · الشرق الأوسط (AR)": {
       "ok": true,
