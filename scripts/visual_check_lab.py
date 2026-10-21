@@ -74,6 +74,30 @@ with sync_playwright() as pw:
         assert page.locator("#mSeries").inner_text()=="6",page.locator("#mSeries").inner_text()
         assert page.evaluate("document.documentElement.scrollWidth <= innerWidth+2"),(
             "Horizontal page overflow",width)
+        # Real interactive map is part of the Lab. Require a MapLibre canvas,
+        # not a screenshot or a button that sends people to the Command Center.
+        if mobile:
+            page.locator('[data-mobile-view="map"]').click()
+        else:
+            page.locator('[data-view="map"]').click()
+        page.wait_for_function(
+            "Boolean(window.GXImpactMap?.started && window.maplibregl?.Map && document.querySelector('#map canvas'))",
+            timeout=40000)
+        assert page.locator("#labMapHost").is_visible()
+        assert page.locator("#map canvas").count()>=1
+        assert "News articles" in page.locator("#labMapCounts").inner_text()
+        page.locator('[data-map-action="gulf"]').click()
+        page.locator('[data-map-layer="coverage"]').uncheck()
+        assert not page.locator('[data-map-layer="coverage"]').is_checked()
+        page.locator('[data-map-layer="coverage"]').check()
+        if mobile:
+            dims=page.locator("#map").bounding_box()
+            assert dims and dims["width"]>180 and dims["height"]>120,(width,dims)
+            page.locator('[data-mobile-view="graph"]').click()
+        else:
+            page.locator('[data-view="graph"]').click()
+        assert page.locator("#labMapHost").is_hidden()
+        assert not errors,(width,"Map errors",errors)
         if mobile:
             assert page.locator(".lab-mobile-nav").is_visible()
             assert page.locator(".chronology-item").count()==2,"Readable mobile list not default"
