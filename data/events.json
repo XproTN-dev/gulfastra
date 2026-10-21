@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "generated_at": "2026-10-21T08:35:43.756243Z",
+  "generated_at": "2026-10-21T08:38:26.049851Z",
   "model": "deterministic-source-correlation-v2-coverage-lifecycle",
   "disclaimer": "Clusters are related PUBLIC REPORTS, not confirmed incidents. Source counts are not proof. Country names are mentions, not incident locations.",
   "events": [
@@ -898,6 +898,62 @@
       "digest": "5bfb6050d5556d9433b9",
       "revision": 2,
       "updated_at": "2026-10-21T08:33:18.187764Z"
+    },
+    {
+      "id": "GF-C5BCF339C4CE7D",
+      "title": "وزير خارجية إيران: لن نفتح هرمز بالكامل قبل تفاهم مع واشنطن.. ولن نستسلم للعقوبات - Masrawy",
+      "category": "diplomacy",
+      "topic": "maritime",
+      "countries": [
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-21T06:24:58Z",
+      "last_published": "2026-10-21T06:24:58Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "7d16b54fe7b3fdb5a545ec86",
+          "title": "وزير خارجية إيران: لن نفتح هرمز بالكامل قبل تفاهم مع واشنطن.. ولن نستسلم للعقوبات - Masrawy",
+          "url": "https://news.google.com/rss/articles/CBMi2ARBVV95cUxQMTRPSjdkNnJIb183S1YtR3hOb0NocHN1bWl2dS1oc0p5Nm9CeDVncXJxOUR4S0JOWk0xVzlkX2tsakdkTU90TTFvbEJXY0FwbFlQZWNPVERBVHd0S042VlJXUllEYzNweDZLdDRoRkhScFVUd05IZkhLMGctSF92LXRBMWhKODYzMDN6SFhHWm1ITTRyTzBKeVNPSWIyanpadnllLWJkMm11dFByTXk2Z2FSUGlKT0cweDNwUkZ1UE1XMmNRUll0WTc3ejg1UmdMNW9sTXNpYkxteHRhZ2tZVFl4SmdwdjNQdjVaNGp2Wms3ejBmZFhfSGpqWl9xbkp6enkxbGFwc0lrYjJkeGNmRG41S0tyWXlINVN6SUNtcC1pb3A0SzRJcms3dWJSYVdCREd1UjBSZVF6YV9fc01oUHZnSnBPWjROMkZtX21LLW0xc2VhdkZQbThfRTNVRVV2SkNvbXc5MHozXy1yZzlRdHNOVkQ2Yk40c19jSU83SUdtM1QtNldjVGhYczZzd1ltSjNNa3ZlQXR2ZmFwcUJudlc0WFd0ODdmTDJkd1pNU1poNWQ5U1F6aWl0NVBORFh0ZUJhdUhTRXRaM3VMVjE1WVRnRkJpbzFUQ2pMRHhUWmFzejZMOVR0bmhyVWZXWmM1Uk1pOWRlTFQ0WlhDUEJEa0FvT24xcXBfMkJzaG13b2xfYXZTRHIxckcwTlc5dUZ2RTJpd0hUWkl0RDh4SFZvd0NLQmpCQkVCdzBQTDlEWnJpc3lNM0dheGphbmFwWE93ZkZQbXNPU0vSAZ8FQVVfeXFMUE9lMlJIMEJWRWU4QUJzM0VGQUt5TUZrazJCQ3dZVkRoR3RYNTNYUExCWjc0U2tFNldBdm5xY0tTazBVUTV6c3M5eE9fMklWZlcwczlReGlXTjZvZHZXN1FheExrRTVYNm1OWHdvbTExdlZRemZBczk4cGQzdEl1QlFaNEtSY3ZaUUhYTU9lMmZrYzBpOFcyaWtyN181Nk1Ma0FxUGgzQXVpS1M0U24tWEhET2tTSFVDMDVVUm5tY1NlVUFBbzM3Y3VWVzN5Nm5jQURORkZXNHdpUDdLVHpPU0J3anhsdWVXZUF3YmxTVERjWG1YUXZ0emFVaTlremprWjdXdzR3ekd0bVF0MGM1TENvYnk4Z2NiYWJZRmZBb0VPOHgxUzBKMlNiMV9CQWVMbUNpQTdSXzlqMjRWWkptNXhzTGVuQXR5QVY2Z1c1RHhPRzR3Q2ZRYnNYcUN3ZnpGZERuWTRHeXJtMmJqbGYyREhFQVk2V1Fnd3ZDVk84c1RGbVIxTEJxRm8xWHVxdkE4WU1PZTJmX01LanpvNzROaW44ZEhuaGJRUWVaZWZJVVQ2OEVtTERtOUtFTnJSSDI4RDNVdEF0YzhPLU9td0VWYnBrOUZGSHBCSVltcXc1NmFZd2tDYVc3MnNsakFEeVA0SDVUYUJzdGNJdXhrY2x5bE9qOWprSG1LamlFaVRacDdkQlg2OHgyOU84ZXo0TGFLakNKeVJleU1kTC1VbHJGMmRRTm1CVWNELUZfQlpzSFFkYUdQZzlCU1ZkcUlFbGRJRXpuWmF5aFBHcUE5a1RLVGpIRzNHVXFvWVY0QVI4ZU81ckotS0s4ZFQ4TnVVS2hjV1ZmaHZ5RTBMWlJzLXJmX2xQbVlZZFlrazFtay0xZTA?oc=5",
+          "source": "Masrawy",
+          "publisher_key": "masrawy",
+          "provider": "عربي · مضيق هرمز",
+          "published_at": "2026-10-21T06:24:58Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-21T08:38:17.161396Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Iran"
+        }
+      ],
+      "coverage_stage": "recent-coverage",
+      "coverage_first_published_at": "2026-10-21T06:24:58Z",
+      "coverage_last_published_at": "2026-10-21T06:24:58Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "c757de5e2f115d068992",
+      "revision": 1,
+      "updated_at": "2026-10-21T08:38:26.049851Z"
     },
     {
       "id": "GF-04BDFBDC44F6F3",
@@ -27419,6 +27475,63 @@
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
+      "id": "GF-1726FEB4AACC80",
+      "title": "عام / استشهاد ثلاثة فلسطينيين في قصف الاحتلال الإسرائيلي على قطاع غزة - وكالة الأنباء السعودية",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Israel",
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-19T16:53:35Z",
+      "last_published": "2026-10-19T16:53:35Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "76d0342c5d54a4f57f85b26d",
+          "title": "عام / استشهاد ثلاثة فلسطينيين في قصف الاحتلال الإسرائيلي على قطاع غزة - وكالة الأنباء السعودية",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE42Q2szY3M2c2EwVGNrUlRfcmJJRHdlUkpxaFRQS2t2X3dWcWdhVkpocGM3SEtnZGlpTVhCWmFHMmd2MXptOVE?oc=5",
+          "source": "وكالة الأنباء السعودية",
+          "publisher_key": "وكالة الأنباء السعودية",
+          "provider": "عربي · وكالات الخليج",
+          "published_at": "2026-10-19T16:53:35Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-21T08:38:17.161396Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-19T16:53:35Z",
+      "coverage_last_published_at": "2026-10-19T16:53:35Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "ecc7be776cf47d37967e",
+      "revision": 1,
+      "updated_at": "2026-10-21T08:38:26.049851Z"
+    },
+    {
       "id": "GF-1FAE356DA474A6",
       "title": "سعيد العطر: «الخليج» جزء من تشكيل الوعي ومسيرة الإمارات التنموية - صحيفة الخليج",
       "category": "security",
@@ -28007,7 +28120,7 @@
           "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE15VmNLVDgtRnRBRzRXaVowSlM1cTFRTEtwVGhhS0JoWVRpZ3FpdW1EZXZzdXN3SHcwNXVNV2s1N0tzMU9FYkZEZXFDWUlESWM?oc=5",
           "source": "الساحل الغربي",
           "publisher_key": "الساحل الغربي",
-          "provider": "عربي · الإمارات والبحرين",
+          "provider": "عربي · الكويت والعراق",
           "published_at": "2026-10-19T16:18:43Z",
           "date_quality": "publisher-time",
           "first_seen_at": "2026-10-20T12:01:49.547007Z",
@@ -28025,9 +28138,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "85dca9dd9411084795ef",
-      "revision": 19,
-      "updated_at": "2026-10-21T08:35:43.756243Z"
+      "digest": "04ec33b0f8ff139ef8da",
+      "revision": 20,
+      "updated_at": "2026-10-21T08:38:26.049851Z"
     },
     {
       "id": "GF-03476150E89A5F",
@@ -40887,6 +41000,62 @@
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
+      "id": "GF-AD538CC5619B1E",
+      "title": "أمين «مجلس التعاون الخليجي»: ندين الممارسات الإيرانية المهددة للملاحة في هرمز - الشرق الأوسط",
+      "category": "transport",
+      "topic": "maritime",
+      "countries": [
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-18T13:32:43Z",
+      "last_published": "2026-10-18T13:32:43Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "b103f95e535dc288d8e52e75",
+          "title": "أمين «مجلس التعاون الخليجي»: ندين الممارسات الإيرانية المهددة للملاحة في هرمز - الشرق الأوسط",
+          "url": "https://news.google.com/rss/articles/CBMi1gRBVV95cUxQRGxvTDRBTC12OFpxbkwtdDJGYnZ6cE5RVUNvM0U1dHFjUE5TZmlDVFZCNmRwejRNamFRZjE3ZENCVXNfWHhWRzR2TUlFMFJPdGZvWW9JZ1hFdFAyRzMzWW1vZVlLYng4NGVCRlh4TVhGMzBvSXVDQVJPWUlSdEdPZTlFdW5ldEZnOFFYWm95cUU5QXFaQ3ljTm5tZGZURjF2SFhIZ3dUb2x4VmpUd2stX2RNMk45OGRnaWFQMWxOS1Utd3A0Yy1MaFpzcHJCdTIyXzl5MldSUEFqMmlHQm1yN2pobW9yZ2pZdk42TDNTNDFxVWlKY2xVR3JSX0ZiRnhiYmlJaE90WER3cnFmTFB3NW9BMW9MYjR2ajYyd054YzRocFB5UHU2NEV5Mi1UOGpwQnd4RHNLQXRKWVc2SW40NnAtMmFhQTFWYTFubmNJRDRjSks2RU9JSHowOFNJdkd4Tkd2UzRmb3MtaF95Y0FiaUdUdzU3ZFc1NWhXVTJDbGpQVWNkTVZTZ2RfWENVUFdubFVRWDJjeV9Bb0d6ZXBMS042WkdDdkVxZWdqa19sTk9UdFhNaDVqUjRlYld2d01GTmIzbDdoNzBLLU9EZmctV21hdFJENS1TU2RFalRab29HVHRxYi1va1pGMjEyNVJYT2ppQVhSVzcycTNRQXFpY2psZW5yYVhnYWs0akhjSlFmcmJORWVCVU8yRlZwSjNjRVZYSm9vQUNRYlZTTlBIR2IyVm9XU2VSUmktVVY4Z2lHTC0yMWRmVmdUSmZQb002NXRyd0x3?oc=5",
+          "source": "الشرق الأوسط",
+          "publisher_key": "الشرق الأوسط",
+          "provider": "عربي · مضيق هرمز",
+          "published_at": "2026-10-18T13:32:43Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-21T08:38:17.161396Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Iran"
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-18T13:32:43Z",
+      "coverage_last_published_at": "2026-10-18T13:32:43Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "d709cc5783adee44e534",
+      "revision": 1,
+      "updated_at": "2026-10-21T08:38:26.049851Z"
+    },
+    {
       "id": "GF-648DBE1290C3B1",
       "title": "Iran urges US to accept proposal to reopen Strait of Hormuz - Daily Sun",
       "category": "transport",
@@ -41209,6 +41378,62 @@
       "digest": "ce90e7fdb1519390a5e5",
       "revision": 2,
       "updated_at": "2026-10-20T16:52:31.264495Z"
+    },
+    {
+      "id": "GF-519DF416FFECDA",
+      "title": "سياسي / وزير الخارجية المصري ونظيره الباكستاني يبحثان جهود خفض التصعيد واستعادة الاستقرار الإقليمي - وكالة الأنباء السعودية",
+      "category": "diplomacy",
+      "topic": "regional",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-18T12:59:38Z",
+      "last_published": "2026-10-18T12:59:38Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "a4a4a22a172c77e7a6e25ec4",
+          "title": "سياسي / وزير الخارجية المصري ونظيره الباكستاني يبحثان جهود خفض التصعيد واستعادة الاستقرار الإقليمي - وكالة الأنباء السعودية",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9UZktuc0RtX3gxdUdlaDByTmV0T2VyMGczTGFETGVHTXBLelI3WUltcng4Nk5kazgydW9BZlhwWm03QncxNWc?oc=5",
+          "source": "وكالة الأنباء السعودية",
+          "publisher_key": "وكالة الأنباء السعودية",
+          "provider": "عربي · وكالات الخليج",
+          "published_at": "2026-10-18T12:59:38Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-21T08:38:17.161396Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Saudi"
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-18T12:59:38Z",
+      "coverage_last_published_at": "2026-10-18T12:59:38Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "0debc4e76102039d26e9",
+      "revision": 1,
+      "updated_at": "2026-10-21T08:38:26.049851Z"
     },
     {
       "id": "GF-9F4216BC670973",
@@ -41996,60 +42221,6 @@
     },
     {
       "id": "GF-0BC077BA2F5DC1",
-      "title": "عراقجي: خطة الأيام السبعة لفتح مضيق هرمز لا تزال مطروحة | CNN Arabic | CNN - CNN Arabic",
-      "category": "transport",
-      "topic": "maritime",
-      "countries": [],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "ar"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-18T10:58:05Z",
-      "last_published": "2026-10-18T10:58:05Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "a5907c75cdae2b31c48dab63",
-          "title": "عراقجي: خطة الأيام السبعة لفتح مضيق هرمز لا تزال مطروحة | CNN Arabic | CNN - CNN Arabic",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNWpTYUdyeUdoUlVidFpXbTdyQlVqb3NTYl85SjdBS3R2ZlUtWVMzemR3Y3ZrNVpHQVhLeDlSemI1YVhrSzVFSXpoc2ZickZoZ3oxMFppcElWZ2dZNm50ZEl6NzZyRkZBOS1XaVlQalZoeWFERWd0dkp3ZkxCUEhyYU1MN3UwaWpBZHBDOXl2T242dEhKOHI3c1NScF83U2hOYnVvUmpnN1IwNzAzNGNkcjBqUQ?oc=5",
-          "source": "CNN Arabic",
-          "publisher_key": "cnn arabic",
-          "provider": "عربي · مضيق هرمز",
-          "published_at": "2026-10-18T10:58:05Z",
-          "date_quality": "publisher-time",
-          "first_seen_at": "2026-10-21T08:33:01.202992Z",
-          "collected_at": null,
-          "language": "ar",
-          "country": ""
-        }
-      ],
-      "coverage_stage": "quiet-coverage",
-      "coverage_first_published_at": "2026-10-18T10:58:05Z",
-      "coverage_last_published_at": "2026-10-18T10:58:05Z",
-      "current_reporting": false,
-      "recent_publisher_count": 0,
-      "recent_article_count": 0,
-      "incident_status": "unknown",
-      "event_occurrence_verified": false,
-      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "be1814d0f3e6e4264e40",
-      "revision": 1,
-      "updated_at": "2026-10-21T08:33:18.187764Z"
-    },
-    {
-      "id": "GF-745D7BA5A2828B",
       "title": "عراقجي: خطة الأيام السبعة لفتح مضيق هرمز لا تزال مطروحة على الطاولة - CNN Arabic",
       "category": "transport",
       "topic": "maritime",
@@ -42075,32 +42246,32 @@
       "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
       "sources": [
         {
-          "id": "1b03415e8810bacbb01863cf",
+          "id": "a5907c75cdae2b31c48dab63",
           "title": "عراقجي: خطة الأيام السبعة لفتح مضيق هرمز لا تزال مطروحة على الطاولة - CNN Arabic",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNWpTYUdyeUdoUlVidFpXbTdyQlVqb3NTYl85SjdBS3R2ZlUtWVMzemR3Y3ZrNVpHQVhLeDlSemI1YVhrSzVFSXpoc2ZickZoZ3oxMFppcElWZ2dZNm50ZEl6NzZyRkZBOS1XaVlQalZoeWFERWd0dkp3ZkxCUEhyYU1MN3UwaWpBZHBDOXl2T242dEhKOHI3c1NScF83U2hOYnVvUmpnN1IwNzAzNGNkcjBqUQ?oc=5",
           "source": "CNN Arabic",
           "publisher_key": "cnn arabic",
           "provider": "عربي · مضيق هرمز",
           "published_at": "2026-10-18T10:57:24Z",
-          "date_quality": "legacy-unverified",
-          "first_seen_at": "2026-10-20T12:00:32.516927Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-21T08:33:01.202992Z",
           "collected_at": null,
           "language": "ar",
           "country": ""
         }
       ],
-      "coverage_stage": "publication-time-unknown",
-      "coverage_last_published_at": null,
-      "coverage_first_published_at": null,
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-18T10:57:24Z",
+      "coverage_last_published_at": "2026-10-18T10:57:24Z",
       "current_reporting": false,
       "recent_publisher_count": 0,
       "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
-      "lifecycle_note": "Original publication time unavailable. No event status inferred.",
-      "digest": "925ee4efae4a86ea69dd",
-      "revision": 3,
-      "updated_at": "2026-10-20T16:52:31.264495Z"
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "aff5e24bf5d19bdbc1e2",
+      "revision": 2,
+      "updated_at": "2026-10-21T08:38:26.049851Z"
     },
     {
       "id": "GF-74FBF91DA6B0F1",
@@ -58869,6 +59040,62 @@
       "digest": "295260cfe0c0ad60a805",
       "revision": 3,
       "updated_at": "2026-10-20T16:52:31.264495Z"
+    },
+    {
+      "id": "GF-09A320E5C6309C",
+      "title": "قوات التحالف: اعتراض وتدمير صاروخين كروز فوق البحر الأحمر و3 مسيرات بالمنطقة الجنوبية والرياض - Qatar news agency",
+      "category": "security",
+      "topic": "interception",
+      "countries": [
+        "Qatar"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-16T15:30:42Z",
+      "last_published": "2026-10-16T15:30:42Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "ad268f79afef3f1f08e8331b",
+          "title": "قوات التحالف: اعتراض وتدمير صاروخين كروز فوق البحر الأحمر و3 مسيرات بالمنطقة الجنوبية والرياض - Qatar news agency",
+          "url": "https://news.google.com/rss/articles/CBMi4wVBVV95cUxQX0RXRHBIQzltVjYxV0tfeF9ycUV3MmNZNks4YkxEdmlHVGJBYUhyM1Fab2V0c0s4Q0hrRVJRLXdfNTdoNmpDbHlRVU9VTkJFTDZxTUVySnF6UUhLZlFMOHdVVkRwejV3NmNPMEhtTy1yZDZoQzJUcUd3WElRZzdYQU14WGV4SkdYRlNXZHdZZDB2allsTmNWNUlFUGlDTmFKRW5XSlg5S3AwTEh2TGNuUkpFTF9WRExoanlfX2sxeGNWTkJYZ3ByQkFwWmVmWWpoMFVGS3QweWRjUzlMRUJJcVBkOUhuX3B6LWRUdDhZLWZuTEhWZVRzeGRVZVp1d2d6WFNvVDdraUliN2hSYm9aQ1ZhZWtxV0tJeW81dURuZm44aExxbFppOWE0LXZZbmtsa2dhUVZyYjh1Q3NLSnZRV1dEQXNvZkRYRjZkU1htT1FyLUhkWDlxZlpmdlE3X1pBMFFsV01maF8yMVdhVlNQTjJkM3EyaEc4T0wzZk5jNTV0VUd2OXFncnlaLTJoMEZOMkZ3NlBBekZDcVQ5NktSU2Y2WXhkMU5LY1dDUTgyTlBUT1hFMEpYQk1LM3JNNFZ6TlgyeW1ueTdMaFhHdm55RC0xUHZ4aDQ5VkpxamlBNHFnNlV0UGZnbmd6aVI5M0xHZDdsbkViMG13SmYzeUVmVDZmeFJqSnNLRHkxcVVWY2hHaGt6SG10ZUFPQWtrT1VNN3dDaG1XT3VuMkpDNHpZZFlmVElCVnpUOV9keHZjVjB1RGNYWEU3TXhLRjloVUhHRjlNY19xN1g1Qm9oLXA1YUVSdlZsYnRpQng5WFFoNmFXRGEzbmZualg1c0lLTkgwRG9vbDV1NU43a2lsaDhCNjRIMVNBUk9vc1AyNlUwVHlBWW1qWlVoSmRvakFPU2lNQ05SVkEtN09ocDRSbjdqLUxGYUhhaEhybHRIeGtGeUxWTzhEcXpHZ1hCLVFpNThZbDhz?oc=5",
+          "source": "Qatar news agency",
+          "publisher_key": "qatar news agency",
+          "provider": "عربي · وكالات الخليج",
+          "published_at": "2026-10-16T15:30:42Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-21T08:38:17.161396Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Qatar"
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-16T15:30:42Z",
+      "coverage_last_published_at": "2026-10-16T15:30:42Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "8b4539781c3da052efb0",
+      "revision": 1,
+      "updated_at": "2026-10-21T08:38:26.049851Z"
     },
     {
       "id": "GF-8D90D472B2DA94",
@@ -89442,23 +89669,23 @@
   ],
   "country_stats": {
     "Iran": {
-      "events": 527,
-      "reports": 579,
+      "events": 529,
+      "reports": 581,
       "security_coverage": 334,
-      "transport_coverage": 105,
+      "transport_coverage": 106,
       "sources": 233
     },
     "Saudi": {
-      "events": 586,
-      "reports": 628,
-      "security_coverage": 458,
+      "events": 588,
+      "reports": 630,
+      "security_coverage": 459,
       "transport_coverage": 110,
       "sources": 284
     },
     "Qatar": {
-      "events": 61,
-      "reports": 66,
-      "security_coverage": 32,
+      "events": 62,
+      "reports": 67,
+      "security_coverage": 33,
       "transport_coverage": 13,
       "sources": 33
     },
@@ -89505,11 +89732,11 @@
       "sources": 136
     },
     "Israel": {
-      "events": 63,
-      "reports": 68,
-      "security_coverage": 47,
+      "events": 64,
+      "reports": 69,
+      "security_coverage": 48,
       "transport_coverage": 6,
-      "sources": 38
+      "sources": 39
     }
   },
   "daily_coverage": {
@@ -89524,50 +89751,26 @@
     "2026-10-13": 115,
     "2026-10-14": 160,
     "2026-10-15": 155,
-    "2026-10-16": 145,
+    "2026-10-16": 146,
     "2026-10-17": 190,
-    "2026-10-18": 155,
-    "2026-10-19": 228,
+    "2026-10-18": 156,
+    "2026-10-19": 229,
     "2026-10-20": 342,
-    "2026-10-21": 68
+    "2026-10-21": 69
   },
   "revisions": [
     {
-      "id": "GF-8868480067AC62",
-      "revision": 3,
-      "at": "2026-10-21T08:35:43.756243Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-8D0A6BA326E83D",
-      "revision": 3,
-      "at": "2026-10-21T08:35:43.756243Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-9907D6B793C0C2",
-      "revision": 2,
-      "at": "2026-10-21T08:35:43.756243Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
       "id": "GF-2641AEE1D03B4C",
-      "revision": 19,
-      "at": "2026-10-21T08:35:43.756243Z",
+      "revision": 20,
+      "at": "2026-10-21T08:38:26.049851Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-73DC4829A050DE",
-      "revision": 4,
-      "at": "2026-10-21T08:35:43.756243Z",
+      "id": "GF-0BC077BA2F5DC1",
+      "revision": 2,
+      "at": "2026-10-21T08:38:26.049851Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
