@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "generated_at": "2026-10-21T08:33:18.187764Z",
+  "generated_at": "2026-10-21T08:35:43.756243Z",
   "model": "deterministic-source-correlation-v2-coverage-lifecycle",
   "disclaimer": "Clusters are related PUBLIC REPORTS, not confirmed incidents. Source counts are not proof. Country names are mentions, not incident locations.",
   "events": [
@@ -395,6 +395,63 @@
       "updated_at": "2026-10-21T08:21:05.994285Z"
     },
     {
+      "id": "GF-2DEFA7FABF1BB4",
+      "title": "Pakistan, Qatar Propose Release of $6 Billion Funds to Iran, Renewed Nuclear Inspections To End Conflict - The Media Line",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Iran",
+        "Qatar"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-21T07:07:28Z",
+      "last_published": "2026-10-21T07:07:28Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "53390b6cf6f7df1de4088457",
+          "title": "Pakistan, Qatar Propose Release of $6 Billion Funds to Iran, Renewed Nuclear Inspections To End Conflict - The Media Line",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOWmNPLTJVd3M3VnNUSEx4VHgwVElhbnFxSmJ5X1dicjFsUHJySUNJM29nT1prNnlFYTRsdkZ1SFhIN19wd0lDS3ljUnFOQk9LNEdzdWFKcjN5SFdkNUVXZjVIVWk5LWNKTm93bFU1a0gtb3Mzbkx4c1g0SkdsYnRObHM2ZENpbVNCU3FpLW9acThYdUdmQkRVenEwY3ZydnVrbzhxUGVNUmJmUUFjNDlnOGFDazV2aXhrTVRHN0pTMGw4WW5NRTBKcWdESm9IZHhZVlE4?oc=5",
+          "source": "The Media Line",
+          "publisher_key": "the media line",
+          "provider": "Google News · diplomacy",
+          "published_at": "2026-10-21T07:07:28Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-21T08:35:35.505979Z",
+          "collected_at": null,
+          "language": "en",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "new-coverage",
+      "coverage_first_published_at": "2026-10-21T07:07:28Z",
+      "coverage_last_published_at": "2026-10-21T07:07:28Z",
+      "current_reporting": true,
+      "recent_publisher_count": 1,
+      "recent_article_count": 1,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "2e915f46d802bc3c40f7",
+      "revision": 1,
+      "updated_at": "2026-10-21T08:35:43.756243Z"
+    },
+    {
       "id": "GF-547818C0E6F22C",
       "title": "هجوم بطائرات مسيرة يستهدف مواقع للمعارضة الإيرانية في أربيل شمالي العراق - الوطن",
       "category": "security",
@@ -508,6 +565,62 @@
       "updated_at": "2026-10-21T08:21:05.994285Z"
     },
     {
+      "id": "GF-CC74504C781BB8",
+      "title": "\"غولدمان ساكس\": حرب إيران ترفع تكاليف شحن النفط 7 أضعاف - الشرق بلومبرغ",
+      "category": "transport",
+      "topic": "regional",
+      "countries": [
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-21T06:56:51Z",
+      "last_published": "2026-10-21T06:56:51Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "9b0503121052c8c6876e810f",
+          "title": "\"غولدمان ساكس\": حرب إيران ترفع تكاليف شحن النفط 7 أضعاف - الشرق بلومبرغ",
+          "url": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxNdHhWZ09xZkRMZmQ2NmdvTjRxRkhoX2hmOWZMc2NQNVMzOFhwdjlLX2hJcHF4a2YzU2FkTi14YkkwLXh2Q0ZXbHROX2tHeGppbG1aVEVsZ25QV1pkcFFxTTI5d2QxTXZrMTlTM3MzV3RzR2NNd3laSTlRd1Z5VTEwb0pHYjN5ZXZlRGpHSWtfUWdFMkhKb29HblJ6T3NwT0FDdVFVWkNjWW14NTkxNlRjdHJRVkNhN0YtU2x6TzBvb19mWW5ZVmZRQTF4VjFFX2dVT0lja3ZSZzhleXlQMHFkZDAtcDJ2Qi1FQXFNaXA1b1g3d1VvQTFPdklZQkp3bGFOeVY2aUpFemZKbUdLQlFuLU1HNGxIMkx5ekxpbmdkdTRrWUpldGhLVTVlc3BENk50QnBVX3hlTjJOVG5JSUQxZVVaMnZqTzFuTnR3VHR1VEpGZGhoZW5jbkNCaw?oc=5",
+          "source": "الشرق بلومبرغ",
+          "publisher_key": "الشرق بلومبرغ",
+          "provider": "عربي · مضيق هرمز",
+          "published_at": "2026-10-21T06:56:51Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-21T08:35:35.505979Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Iran"
+        }
+      ],
+      "coverage_stage": "new-coverage",
+      "coverage_first_published_at": "2026-10-21T06:56:51Z",
+      "coverage_last_published_at": "2026-10-21T06:56:51Z",
+      "current_reporting": true,
+      "recent_publisher_count": 1,
+      "recent_article_count": 1,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "9dd7ead0c47a85055849",
+      "revision": 1,
+      "updated_at": "2026-10-21T08:35:43.756243Z"
+    },
+    {
       "id": "GF-6B3344C54DFB6D",
       "title": "Oil Prices Rise as Hormuz Shipping Risks Persist - WSJ",
       "category": "transport",
@@ -619,6 +732,62 @@
       "updated_at": "2026-10-21T08:21:05.994285Z"
     },
     {
+      "id": "GF-8868480067AC62",
+      "title": "استهدف قطاعات حيوية.. الإمارات تتصدى لنحو 750 ألف محاولة هجوم سيبراني - Shabiba",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "UAE"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-21T06:33:04Z",
+      "last_published": "2026-10-21T06:33:04Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "8eb3333399a734e30a6a7bcc",
+          "title": "استهدف قطاعات حيوية.. الإمارات تتصدى لنحو 750 ألف محاولة هجوم سيبراني - Shabiba",
+          "url": "https://news.google.com/rss/articles/CBMijARBVV95cUxQQVU5Nk55TXVLUndSZjN2WGFadURxRmpGT1p1RXNQZ3NWaUptTUtxYndIU2tkeU1fVlJYRlNnU0ZqbDZWcl9OUDVYa25CWnhPSFJTOU03TEVaRGQyY2laTWxkSFNsTzdGNDNyczJyQmdaT19vWHZIaWtjdl9VakpYSHEtQzdaT0JOQTdfZ25SeDJKam53WjNaVGFueG1WNHIyZWg2RlkwX1dhbXlpdUV0aTNlWjNCcU52dk5hU01lWTJIQlNUaloyeERZY2FZUlV5dUhsdVpwc05lc1UtVlFtdWpzNjZSZkVMcmdRYWJhV2JGaVY5ZlczNFJNOG9LVWZNQ0RydVRJbzE5QWx6bzVTMGwxNXdfdFNTQTc4bkpkSkIwM0xUd1dpaDlEZWFaQ1J6Zzk3cTg1N3pqd3hnTVlmZ3dQalVEUjBBdTNNMVh4azZVcHF3cWlMRUh4ZWlwNF9EQzZxOE85NXM1aHczeXZIeDJlTy1ZVUZrSmhBOVdUb3pGLTBEQ3hTOUJiNzFXMi02ZFF3ZXBpc0VwSURhWWJKZ05aeWZkdnlYNzEwcUNDbWxHdEZtQ3ZMTUdQMXk4bmRaS3JrUXZoTjhleGlJeUxQY0VPLXIwdk5yTXhsWWFWNng2YUJsdUktenA2dHIzaFJGMDljQVh2aTdpYm9TWEhTNzV1c29EbXhxWWlnRg?oc=5",
+          "source": "Shabiba",
+          "publisher_key": "shabiba",
+          "provider": "عربي · الإمارات والبحرين",
+          "published_at": "2026-10-21T06:33:04Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-21T08:20:58.205329Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "UAE"
+        }
+      ],
+      "coverage_stage": "recent-coverage",
+      "coverage_first_published_at": "2026-10-21T06:33:04Z",
+      "coverage_last_published_at": "2026-10-21T06:33:04Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "18225b9e549eaebad7db",
+      "revision": 3,
+      "updated_at": "2026-10-21T08:35:43.756243Z"
+    },
+    {
       "id": "GF-5B1A6ABEA72E3F",
       "title": "Iran sets conditions for reopening Strait of Hormuz within 7 days - www.israelhayom.com",
       "category": "transport",
@@ -671,62 +840,6 @@
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
       "digest": "6920927bbc4569e10a7c",
-      "revision": 2,
-      "updated_at": "2026-10-21T08:33:18.187764Z"
-    },
-    {
-      "id": "GF-8868480067AC62",
-      "title": "استهدف قطاعات حيوية.. الإمارات تتصدى لنحو 750 ألف محاولة هجوم سيبراني - Shabiba",
-      "category": "security",
-      "topic": "regional",
-      "countries": [
-        "UAE"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "ar"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-21T06:26:52Z",
-      "last_published": "2026-10-21T06:26:52Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "8eb3333399a734e30a6a7bcc",
-          "title": "استهدف قطاعات حيوية.. الإمارات تتصدى لنحو 750 ألف محاولة هجوم سيبراني - Shabiba",
-          "url": "https://news.google.com/rss/articles/CBMijARBVV95cUxQQVU5Nk55TXVLUndSZjN2WGFadURxRmpGT1p1RXNQZ3NWaUptTUtxYndIU2tkeU1fVlJYRlNnU0ZqbDZWcl9OUDVYa25CWnhPSFJTOU03TEVaRGQyY2laTWxkSFNsTzdGNDNyczJyQmdaT19vWHZIaWtjdl9VakpYSHEtQzdaT0JOQTdfZ25SeDJKam53WjNaVGFueG1WNHIyZWg2RlkwX1dhbXlpdUV0aTNlWjNCcU52dk5hU01lWTJIQlNUaloyeERZY2FZUlV5dUhsdVpwc05lc1UtVlFtdWpzNjZSZkVMcmdRYWJhV2JGaVY5ZlczNFJNOG9LVWZNQ0RydVRJbzE5QWx6bzVTMGwxNXdfdFNTQTc4bkpkSkIwM0xUd1dpaDlEZWFaQ1J6Zzk3cTg1N3pqd3hnTVlmZ3dQalVEUjBBdTNNMVh4azZVcHF3cWlMRUh4ZWlwNF9EQzZxOE85NXM1aHczeXZIeDJlTy1ZVUZrSmhBOVdUb3pGLTBEQ3hTOUJiNzFXMi02ZFF3ZXBpc0VwSURhWWJKZ05aeWZkdnlYNzEwcUNDbWxHdEZtQ3ZMTUdQMXk4bmRaS3JrUXZoTjhleGlJeUxQY0VPLXIwdk5yTXhsWWFWNng2YUJsdUktenA2dHIzaFJGMDljQVh2aTdpYm9TWEhTNzV1c29EbXhxWWlnRg?oc=5",
-          "source": "Shabiba",
-          "publisher_key": "shabiba",
-          "provider": "عربي · الإمارات والبحرين",
-          "published_at": "2026-10-21T06:26:52Z",
-          "date_quality": "publisher-time",
-          "first_seen_at": "2026-10-21T08:20:58.205329Z",
-          "collected_at": null,
-          "language": "ar",
-          "country": "UAE"
-        }
-      ],
-      "coverage_stage": "recent-coverage",
-      "coverage_first_published_at": "2026-10-21T06:26:52Z",
-      "coverage_last_published_at": "2026-10-21T06:26:52Z",
-      "current_reporting": false,
-      "recent_publisher_count": 0,
-      "recent_article_count": 0,
-      "incident_status": "unknown",
-      "event_occurrence_verified": false,
-      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "2db3f9e97b1a93c5d910",
       "revision": 2,
       "updated_at": "2026-10-21T08:33:18.187764Z"
     },
@@ -2563,8 +2676,8 @@
       ],
       "publisher_count": 1,
       "report_count": 1,
-      "first_published": "2026-10-21T04:00:13Z",
-      "last_published": "2026-10-21T04:00:13Z",
+      "first_published": "2026-10-21T04:00:40Z",
+      "last_published": "2026-10-21T04:00:40Z",
       "event_occurred_at": null,
       "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
       "sources": [
@@ -2575,7 +2688,7 @@
           "source": "Financial Times",
           "publisher_key": "financial times",
           "provider": "Google News · security",
-          "published_at": "2026-10-21T04:00:13Z",
+          "published_at": "2026-10-21T04:00:40Z",
           "date_quality": "publisher-time",
           "first_seen_at": "2026-10-21T08:20:58.205329Z",
           "collected_at": null,
@@ -2584,17 +2697,17 @@
         }
       ],
       "coverage_stage": "recent-coverage",
-      "coverage_first_published_at": "2026-10-21T04:00:13Z",
-      "coverage_last_published_at": "2026-10-21T04:00:13Z",
+      "coverage_first_published_at": "2026-10-21T04:00:40Z",
+      "coverage_last_published_at": "2026-10-21T04:00:40Z",
       "current_reporting": false,
       "recent_publisher_count": 0,
       "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "c9fa3ba253ce3d05b8be",
-      "revision": 2,
-      "updated_at": "2026-10-21T08:33:18.187764Z"
+      "digest": "3ae1ceea9198ef17f679",
+      "revision": 3,
+      "updated_at": "2026-10-21T08:35:43.756243Z"
     },
     {
       "id": "GF-BD0D1E15D74799",
@@ -17543,62 +17656,6 @@
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
-      "id": "GF-9907D6B793C0C2",
-      "title": "3 wounded soldiers receive honors for efforts to save others after Iranian missile attack on Saudi base - Stars and Stripes",
-      "category": "security",
-      "topic": "missile",
-      "countries": [
-        "Saudi"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "en"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-20T10:31:53Z",
-      "last_published": "2026-10-20T10:31:53Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "d7274f100d6d17bed1d39415",
-          "title": "3 wounded soldiers receive honors for efforts to save others after Iranian missile attack on Saudi base - Stars and Stripes",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSEZHcTJyMjNKdWFMbzRCWnRGWldNSzl5SF9uWi1lOUhuQ2luZEpRRkhOUjJEVkN5QmJCbWpwbzAtYTZnU2JLbVQtNDdnTkFKNGFiVjgtb2gyQXNmQXVtZEZUQ1BhU2NDU1BZSGZPTUQ2VTQyLVZ2UWZLZ21YX0w1eUc1VFo4N0J0OTJnZ0t5em8yZWZOMDA0R3YtYWE3MGFEb0pzaw?oc=5",
-          "source": "Stars and Stripes",
-          "publisher_key": "stars and stripes",
-          "provider": "Google News · security",
-          "published_at": "2026-10-20T10:31:53Z",
-          "date_quality": "publisher-time",
-          "first_seen_at": "2026-10-21T08:20:58.205329Z",
-          "collected_at": null,
-          "language": "en",
-          "country": "Saudi"
-        }
-      ],
-      "coverage_stage": "recent-coverage",
-      "coverage_first_published_at": "2026-10-20T10:31:53Z",
-      "coverage_last_published_at": "2026-10-20T10:31:53Z",
-      "current_reporting": false,
-      "recent_publisher_count": 0,
-      "recent_article_count": 0,
-      "incident_status": "unknown",
-      "event_occurrence_verified": false,
-      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "2a5b036cfe32e6700ef3",
-      "revision": 1,
-      "updated_at": "2026-10-21T08:21:05.994285Z"
-    },
-    {
       "id": "GF-32FEA10939BFFE",
       "title": "الحرس الثوري: اشتعال النيران في ناقلتين جنوب مضيق هرمز - صوت بيروت إنترناشونال",
       "category": "security",
@@ -18625,6 +18682,62 @@
       "digest": "8bd79e2f13bc7f331f93",
       "revision": 2,
       "updated_at": "2026-10-20T16:52:31.264495Z"
+    },
+    {
+      "id": "GF-9907D6B793C0C2",
+      "title": "3 wounded soldiers receive honors for efforts to save others after Iranian missile attack on Saudi base - Stars and Stripes",
+      "category": "security",
+      "topic": "missile",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T09:31:53Z",
+      "last_published": "2026-10-20T09:31:53Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "d7274f100d6d17bed1d39415",
+          "title": "3 wounded soldiers receive honors for efforts to save others after Iranian missile attack on Saudi base - Stars and Stripes",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSEZHcTJyMjNKdWFMbzRCWnRGWldNSzl5SF9uWi1lOUhuQ2luZEpRRkhOUjJEVkN5QmJCbWpwbzAtYTZnU2JLbVQtNDdnTkFKNGFiVjgtb2gyQXNmQXVtZEZUQ1BhU2NDU1BZSGZPTUQ2VTQyLVZ2UWZLZ21YX0w1eUc1VFo4N0J0OTJnZ0t5em8yZWZOMDA0R3YtYWE3MGFEb0pzaw?oc=5",
+          "source": "Stars and Stripes",
+          "publisher_key": "stars and stripes",
+          "provider": "Google News · security",
+          "published_at": "2026-10-20T09:31:53Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-21T08:20:58.205329Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Saudi"
+        }
+      ],
+      "coverage_stage": "recent-coverage",
+      "coverage_first_published_at": "2026-10-20T09:31:53Z",
+      "coverage_last_published_at": "2026-10-20T09:31:53Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "55076fb157451582ad64",
+      "revision": 2,
+      "updated_at": "2026-10-21T08:35:43.756243Z"
     },
     {
       "id": "GF-526B3140621807",
@@ -27894,7 +28007,7 @@
           "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE15VmNLVDgtRnRBRzRXaVowSlM1cTFRTEtwVGhhS0JoWVRpZ3FpdW1EZXZzdXN3SHcwNXVNV2s1N0tzMU9FYkZEZXFDWUlESWM?oc=5",
           "source": "الساحل الغربي",
           "publisher_key": "الساحل الغربي",
-          "provider": "عربي · الكويت والعراق",
+          "provider": "عربي · الإمارات والبحرين",
           "published_at": "2026-10-19T16:18:43Z",
           "date_quality": "publisher-time",
           "first_seen_at": "2026-10-20T12:01:49.547007Z",
@@ -27912,9 +28025,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "04ec33b0f8ff139ef8da",
-      "revision": 18,
-      "updated_at": "2026-10-20T19:05:04.305028Z"
+      "digest": "85dca9dd9411084795ef",
+      "revision": 19,
+      "updated_at": "2026-10-21T08:35:43.756243Z"
     },
     {
       "id": "GF-03476150E89A5F",
@@ -35897,7 +36010,7 @@
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1zNl9zdG1hb2kzUnMxdnIwNDN6MjZtTHdYcEpnOGhyU2JaVnVzTm9jVWwzUVJSYWI5VmZla0FqMVlJaWZOdGxnWjdFMVQxZDRGTFE?oc=5",
           "source": "Iran International",
           "publisher_key": "iran international",
-          "provider": "Google News · missiles/drones",
+          "provider": "Google News · diplomacy",
           "published_at": "2026-10-19T01:31:23Z",
           "date_quality": "publisher-time",
           "first_seen_at": "2026-10-20T12:09:48.504938Z",
@@ -35915,9 +36028,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "ade8dbc90a9ca9ffbb24",
-      "revision": 3,
-      "updated_at": "2026-10-21T08:33:18.187764Z"
+      "digest": "6fa69e617074ad889965",
+      "revision": 4,
+      "updated_at": "2026-10-21T08:35:43.756243Z"
     },
     {
       "id": "GF-08FDDC2E14FCDD",
@@ -37595,6 +37708,63 @@
       "digest": "f098a1b78478f5a68b24",
       "revision": 2,
       "updated_at": "2026-10-20T16:52:31.264495Z"
+    },
+    {
+      "id": "GF-006A4A379815BD",
+      "title": "سياسي / البحرين تدين بأشد العبارات استمرار الاعتداءات الإرهابية الحوثية على المملكة ومطار الملك خالد الدولي - وكالة الأنباء السعودية",
+      "category": "transport",
+      "topic": "aviation",
+      "countries": [
+        "Bahrain",
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-18T20:31:19Z",
+      "last_published": "2026-10-18T20:31:19Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "f796b08daa93483b2e90c285",
+          "title": "سياسي / البحرين تدين بأشد العبارات استمرار الاعتداءات الإرهابية الحوثية على المملكة ومطار الملك خالد الدولي - وكالة الأنباء السعودية",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBwOWdmZV9VQVctOEZOdjJ4Mlo5VC1WaS1xbWJhQVBXQ0dQMWViUm1mdWxxUnhaVnhKbU5lMElaekRDaEF6eDEzYzVR?oc=5",
+          "source": "وكالة الأنباء السعودية",
+          "publisher_key": "وكالة الأنباء السعودية",
+          "provider": "عربي · وكالات الخليج",
+          "published_at": "2026-10-18T20:31:19Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-21T08:35:35.505979Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-18T20:31:19Z",
+      "coverage_last_published_at": "2026-10-18T20:31:19Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "cd7f6307a55268be5b00",
+      "revision": 1,
+      "updated_at": "2026-10-21T08:35:43.756243Z"
     },
     {
       "id": "GF-20538E50ED8783",
@@ -60955,6 +61125,62 @@
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
+      "id": "GF-C6C71DFF16C705",
+      "title": "ترحيب سعودي بإدانة مجلس الأمن لهجمات الحوثي المتواصلة والتصعيدية ضد المملكة - العربية",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-16T10:07:00Z",
+      "last_published": "2026-10-16T10:07:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "422d67c4bcc01f2758d46770",
+          "title": "ترحيب سعودي بإدانة مجلس الأمن لهجمات الحوثي المتواصلة والتصعيدية ضد المملكة - العربية",
+          "url": "https://news.google.com/rss/articles/CBMi5ARBVV95cUxNcmlselRzUWVid09ocXUtd2VWZjdJSmVYRklGMUNGRjYtbUFVci02Uzh5QTBUcFBjelhPeFE0cmpYNV96THVZSGZMcEhqSEtCSjR1ZGNnOE1CRkpVLUg1ckZkVzFlSEdmR1VxZ2NjSGtzMkxXaFdKclpTMWpZTnJfcjFyajExVk9Ra0RjX1psM3ZPemlwb3IwWVE3ZEVnSUJ4bjQ5SHBpS2NvTnNVcE8zeDlDbjNkVGM2dGo1RXBjbDBIU2k1WXZCOFA3VUV4SmtCVUszd2ppdmlieGxIMFdHc0V0VW1ZcVZxVjh2R1daNDdWdEkybEhEbjBNdmU5dHVYa3B4S2lhanBzRUhYUVRRbUl6OEdxNTBDeDhCclR5djM0QXRaSVJLOVFxM2QxUDE2dTB3OERDQ2YtV2poLXpMN3RxR2R1NF9xZFljcnRDaUxEQXl1ZnFQQkd5WE5SemVvZ19TOE80WU9fRmRQRVpXQ1Vxd3VJR011d28zeVJsVDJHT3htX0VxcXM4c0ZhNFpVN2Izckx4Z29NdVgwb0tFdVFKMXhwNWtISERHTXFWTFo0dk1raWUwYlhWVnp4V0FqYW9XcTVrOVhEZV9MODVCU0N6ZU5oNU9IeUhxRDNRRDNNR2ZqOVhXNVJmanBUdDhmdUNuaUwwczJiNkZDR3Nib0NxOWs5enVGNTBfNGhYbWt3V0ZGTm54RjNiVUlOQmVaWHNpclNYRnVvaWhJWmM3dXdoTy12MG01amgzanU1NDV6WGFCNHJneWNQS2puR09xaXk5V3lmc0tLekFDcm1TeEtfYlLSAeoEQVVfeXFMTVlEUEMxM2dBeG5YZFRHaDZHTVJ1WDJQT2l0MDVpWWdjUi1HVmc0VlhDUXFQd3JGaDdaeHNvT2RmNmlqR25QdE5CLWhlSXUtUXpTV0Z5dEtSa2wzckU0WWlSNzhGZ1l1Y2pSU2hOX2pSVWNKNjRVajNvWFRUWHRVbFRvVzVpYkZRckQtc3UzbEplemxyMEx0cFB4WThOMWs5bkE2Yk0xbnJpaTNlWWt4a3Q0RWMzY05TWXBmdVVRY3NiQzlDU1R0RnhGOF9kb0RKNTl6TWhoWjAtYzVlaW9IYjV6X09teHUxNldHalA5eVpIOC1CM1N1LW1VRE0wNDRpUFJGTnNzQWpaWjFvYkdZdmZfNmF2Mkg3Nzg1bFBQSmQ4Qlp5cmUxQkFZNWZHQXRSc1dlWDV4ZkZuNG1LM0k0WFlDa252a3FfdnhVRUZ4Y3BxVWQ2UmFVRDVJeUJWdDJUbmg0NDdXcGJCa0pNdm5qU19ncUZOZHVaM3ZzNjY0dC1wckNxUzA5VHExTGFPcS1vamxNVGhzYmFieVYwdXhSc2hkM25xNkZweG1WVVBraXEwYkIxRGFWU25XQ0M2c09DSGZRbzF4ejVQeEtGcnppY0NPekVMemtzOHVPTmxtMVpZdVVCMEV5STdIRzZUNVFFT1lsYmlsa1I1OGt4cEt5RjFlZExseGFyb2JRZjJXNm5YTE94U3VsdVI4M3BKVXZsdHprYlQ3Z0dINHBzNEw0MjhNUTlIaEFOVE1WV2d4V2hvMzdiTHRZZVYzX0VtcVRzOTNCN0tmU1kzSFktVkhsVDNlWU5WLXc3SGF3?oc=5",
+          "source": "العربية",
+          "publisher_key": "العربية",
+          "provider": "عربي · العربية",
+          "published_at": "2026-10-16T10:07:00Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-21T08:35:35.505979Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Yemen"
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-16T10:07:00Z",
+      "coverage_last_published_at": "2026-10-16T10:07:00Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "086ca85767de5aae9bc2",
+      "revision": 1,
+      "updated_at": "2026-10-21T08:35:43.756243Z"
+    },
+    {
       "id": "GF-9C32E739BC639C",
       "title": "Houthis strike Saudi Arabian airport - UConn Daily Campus",
       "category": "security",
@@ -72458,6 +72684,62 @@
       "digest": "8486395255f55dbc4d08",
       "revision": 3,
       "updated_at": "2026-10-20T16:52:31.264495Z"
+    },
+    {
+      "id": "GF-79DCEFCA9EF6B4",
+      "title": "Houthi rebels claim video shows fighting in Dhobab desert and airport - AP News",
+      "category": "transport",
+      "topic": "aviation",
+      "countries": [
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-15T00:38:00Z",
+      "last_published": "2026-10-15T00:38:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "08e911826d38165a3d18344e",
+          "title": "Houthi rebels claim video shows fighting in Dhobab desert and airport - AP News",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUlhURERfNW9qc3pXTFN6ZkR2eFU2Q3dfOHN4NEJqZlVLUkxnQWx2UWp3dHVhdzJWeU03elpMQ3dqYnh1UzBvcWNFRV8tSDBRZm5aX3MtR2Q5NW5YVHJEMzRfcW9fZUxGeEJGaTNsWHdJSGFPN1g1Sldmb043MHlRVVZBOTZxbEtkbnZQZkktNThPd094eEZUTHktWDF5QWVISlBId0VzaWtpbHZSQXJldjJJQW5scHdfNGZkcThRY0Nqakx2Snc?oc=5",
+          "source": "AP News",
+          "publisher_key": "ap news",
+          "provider": "AP · indexed Gulf reporting",
+          "published_at": "2026-10-15T00:38:00Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-21T08:35:35.505979Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Yemen"
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-15T00:38:00Z",
+      "coverage_last_published_at": "2026-10-15T00:38:00Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "a15b1e497f8c6e3c659e",
+      "revision": 1,
+      "updated_at": "2026-10-21T08:35:43.756243Z"
     },
     {
       "id": "GF-9AC72555ED5C65",
@@ -89160,25 +89442,25 @@
   ],
   "country_stats": {
     "Iran": {
-      "events": 525,
-      "reports": 577,
-      "security_coverage": 333,
-      "transport_coverage": 104,
+      "events": 527,
+      "reports": 579,
+      "security_coverage": 334,
+      "transport_coverage": 105,
       "sources": 233
     },
     "Saudi": {
-      "events": 585,
-      "reports": 627,
+      "events": 586,
+      "reports": 628,
       "security_coverage": 458,
-      "transport_coverage": 109,
+      "transport_coverage": 110,
       "sources": 284
     },
     "Qatar": {
-      "events": 60,
-      "reports": 65,
-      "security_coverage": 31,
+      "events": 61,
+      "reports": 66,
+      "security_coverage": 32,
       "transport_coverage": 13,
-      "sources": 32
+      "sources": 33
     },
     "UAE": {
       "events": 99,
@@ -89188,10 +89470,10 @@
       "sources": 64
     },
     "Bahrain": {
-      "events": 12,
-      "reports": 12,
+      "events": 13,
+      "reports": 13,
       "security_coverage": 8,
-      "transport_coverage": 1,
+      "transport_coverage": 2,
       "sources": 9
     },
     "Kuwait": {
@@ -89216,10 +89498,10 @@
       "sources": 8
     },
     "Yemen": {
-      "events": 284,
-      "reports": 296,
-      "security_coverage": 270,
-      "transport_coverage": 12,
+      "events": 286,
+      "reports": 298,
+      "security_coverage": 271,
+      "transport_coverage": 13,
       "sources": 136
     },
     "Israel": {
@@ -89241,123 +89523,51 @@
     "2026-10-12": 7,
     "2026-10-13": 115,
     "2026-10-14": 160,
-    "2026-10-15": 154,
-    "2026-10-16": 144,
+    "2026-10-15": 155,
+    "2026-10-16": 145,
     "2026-10-17": 190,
-    "2026-10-18": 154,
+    "2026-10-18": 155,
     "2026-10-19": 228,
     "2026-10-20": 342,
-    "2026-10-21": 66
+    "2026-10-21": 68
   },
   "revisions": [
     {
-      "id": "GF-53228738259587",
-      "revision": 2,
-      "at": "2026-10-21T08:33:18.187764Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-6B3344C54DFB6D",
-      "revision": 2,
-      "at": "2026-10-21T08:33:18.187764Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-5B1A6ABEA72E3F",
-      "revision": 2,
-      "at": "2026-10-21T08:33:18.187764Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
       "id": "GF-8868480067AC62",
-      "revision": 2,
-      "at": "2026-10-21T08:33:18.187764Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-6B8A37EF28997E",
-      "revision": 2,
-      "at": "2026-10-21T08:33:18.187764Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-4C111EF32008D8",
-      "revision": 2,
-      "at": "2026-10-21T08:33:18.187764Z",
+      "revision": 3,
+      "at": "2026-10-21T08:35:43.756243Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
       "id": "GF-8D0A6BA326E83D",
-      "revision": 2,
-      "at": "2026-10-21T08:33:18.187764Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-2BBBE30210B1B4",
       "revision": 3,
-      "at": "2026-10-21T08:33:18.187764Z",
+      "at": "2026-10-21T08:35:43.756243Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-BA8CD3346D7F8F",
+      "id": "GF-9907D6B793C0C2",
       "revision": 2,
-      "at": "2026-10-21T08:33:18.187764Z",
+      "at": "2026-10-21T08:35:43.756243Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-2CD41B492CC55D",
-      "revision": 3,
-      "at": "2026-10-21T08:33:18.187764Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-8251A91AA33D59",
-      "revision": 2,
-      "at": "2026-10-21T08:33:18.187764Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-48488955A92F70",
-      "revision": 2,
-      "at": "2026-10-21T08:33:18.187764Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-F99E79086CCD1D",
-      "revision": 24,
-      "at": "2026-10-21T08:33:18.187764Z",
+      "id": "GF-2641AEE1D03B4C",
+      "revision": 19,
+      "at": "2026-10-21T08:35:43.756243Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
       "id": "GF-73DC4829A050DE",
-      "revision": 3,
-      "at": "2026-10-21T08:33:18.187764Z",
+      "revision": 4,
+      "at": "2026-10-21T08:35:43.756243Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
