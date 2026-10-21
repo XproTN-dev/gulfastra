@@ -9,11 +9,12 @@ const DEFAULT={view:"graph",country:"",category:"all",mode:"network",hours:48,zo
 const saved=C.loadState(KEY,{});
 const S={...DEFAULT,...saved,files:{},manifest:null,status:"checking",warning:"",loaded:false,pending:false,
  asof:Date.now(),scrub:100,selected:null,prior:null,visits:{new:0,changed:0},lastCheck:null};
-if(!["graph","timeline","markets","compare","pathways","brief"].includes(S.view))S.view="graph";
+if(!["map","graph","timeline","markets","compare","pathways","brief"].includes(S.view))S.view="graph";
 if(root.innerWidth<=650&&S.mode==="network")S.mode="chronology";
 const color={security:"#e78f73",transport:"#74b4ed",diplomacy:"#a799ea",other:"#69cfaa"};
 const words={
  en:{
+  map:["GEOSPATIAL OBSERVATIONS","PUBLIC INTELLIGENCE MAP","Real coordinates from providers, clearly labelled country news mentions and static infrastructure."],
   graph:["EVIDENCE RELATIONSHIPS","PUBLICATION NETWORK","Source-related reports; links show shared metadata, never proven causation."],
   timeline:["CHRONOLOGICAL EVIDENCE","PUBLICATION TIME EXPLORER","Scrub a real publication timeline. These are publication dates, not incident occurrence times."],
   markets:["ECONOMIC CONTEXT","FRED MARKET & MACRO SERIES","Actual provider observations only. Different series have different publication delays."],
@@ -22,6 +23,7 @@ const words={
   brief:["DAILY INTELLIGENCE","SOURCE-BACKED DAILY BRIEF","A deterministic summary of reporting and official records from the latest 24 hours."]
  },
  ar:{
+  map:["المشاهدات الجغرافية","خريطة المعلومات العامة","إحداثيات المصدر للمشاهدات، وتغطية أخبار الدول وليست مواقع للحوادث."],
   graph:["ارتباطات المصادر","شبكة التغطية المنشورة","الروابط تشابه في الأخبار، وليست دليلا على علاقة سببية."],
   timeline:["التسلسل الزمني","مستكشف أوقات النشر","استعرض تاريخ نشر الأخبار الحقيقي، لا توقيت وقوع الحوادث."],
   markets:["المؤشرات الاقتصادية","بيانات الأسواق والاقتصاد من FRED","مشاهدات فعلية منشورة بتواتر مختلف. ليست أسعارا لحظية."],
@@ -31,7 +33,7 @@ const words={
  }
 };
 const AR_CHROME={
- views:{graph:"◉ شبكة الأخبار",timeline:"◷ التسلسل الزمني",markets:"⌁ الأسواق والمؤشرات",
+ views:{map:"◎ خريطة العالم",graph:"◉ شبكة الأخبار",timeline:"◷ التسلسل الزمني",markets:"⌁ الأسواق والمؤشرات",
  compare:"⇄ مقارنة ٢٠٠٨",pathways:"⤳ مسارات التأثير",brief:"▤ الموجز اليومي"},
  modes:{network:"شبكة",chronology:"تسلسل",spatial:"عرض ثلاثي"},
  controls:["الجغرافيا","نوع التغطية","عرض الشبكة"],
@@ -40,7 +42,7 @@ const AR_CHROME={
  now:"↪ الآن",reference:"المصادر والمنهجية"
 };
 const EN_CHROME={
- views:{graph:"◉ EVENT NETWORK",timeline:"◷ TIME EXPLORER",markets:"⌁ MARKET INDICATORS",
+ views:{map:"◎ WORLD MAP",graph:"◉ EVENT NETWORK",timeline:"◷ TIME EXPLORER",markets:"⌁ MARKET INDICATORS",
  compare:"⇄ 2008 COMPARISON",pathways:"⤳ IMPACT PATHWAYS",brief:"▤ DAILY BRIEF"},
  modes:{network:"NETWORK",chronology:"SEQUENCE",spatial:"3D STYLE"},
  controls:["GEOGRAPHY","REPORTING CATEGORY","NETWORK PRESENTATION"],
@@ -192,7 +194,7 @@ function view(view){
  const [eyebrow,title,description]=trans[view];
  $("stageEyebrow").textContent=eyebrow;$("stageTitle").textContent=title;
  $("stageDescription").textContent=description;
- $("graphFooter").hidden=!["graph","timeline"].includes(view);
+ $("graphFooter").hidden=!["map","graph","timeline"].includes(view);
  save();render();
 }
 function renderGraph(){
@@ -232,6 +234,11 @@ function render(){
  if(!S.loaded)return;
  showStatus();
  const stage=$("stageContent"),page=stage.scrollTop;
+ const mapIsVisible=S.view==="map";
+ stage.hidden=mapIsVisible;
+ $("labMapHost").hidden=!mapIsVisible;
+ if(mapIsVisible)root.GXImpactMap?.show();
+ else root.GXImpactMap?.hide();
  if(S.view==="graph")renderGraph();
  else if(S.view==="timeline")renderTimeline();
  else if(S.view==="markets")stage.innerHTML=
@@ -285,7 +292,12 @@ function init(){
  $("resetLab").onclick=()=>{S.country="";S.category="all";S.hours=48;S.zoom=1;S.scrub=100;
    S.asof=Date.now();$("countryLab").value="";$("topicLab").value="all";closeLayers();render();save()};
  $("labRefresh").onclick=refresh;
- $("labReturn").onclick=()=>{location.href="../command/"};
+ root.GXImpactMap?.configure({
+  getData:()=>S.files,getFilter:()=>({country:S.country,category:S.category,hours:S.hours,asof:S.asof}),
+  onDetails:openContext
+ });
+ $("[data-map-layer]").forEach(b=>b.onchange=()=>root.GXImpactMap?.update());
+ $("[data-map-action]").forEach(b=>b.onclick=()=>root.GXImpactMap?.action(b.dataset.mapAction));
  $("labFiltersOpen").onclick=()=>{$("impactApp").classList.add("filters-open");backdrop()};
  $("labBackdrop").onclick=()=>{closeContext();closeLayers()};
  $("contextClose").onclick=closeContext;
@@ -347,12 +359,13 @@ function init(){
  const [eyebrow,title,description]=trans[S.view];
  $("stageEyebrow").textContent=eyebrow;$("stageTitle").textContent=title;$("stageDescription").textContent=description;
  $$("[data-view]").forEach(b=>b.classList.toggle("active",b.dataset.view===S.view));
- $("graphFooter").hidden=!["graph","timeline"].includes(S.view);
+ $("graphFooter").hidden=!["map","graph","timeline"].includes(S.view);
  $("labUTC").textContent=new Date().toLocaleTimeString("en-GB",{timeZone:"UTC",hour:"2-digit",minute:"2-digit"})+" UTC";
  setInterval(()=>{if(!document.hidden)refresh()},60000);
  setInterval(()=>{$("labUTC").textContent=new Date().toLocaleTimeString("en-GB",{timeZone:"UTC",hour:"2-digit",minute:"2-digit"})+" UTC"},30000);
  refresh();
 }
 if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",init);else init();
-root.GXImpactApp={getState:()=>S,refresh,view,replay,filter:graphData};
+root.GXImpactApp={getState:()=>S,refresh,view,replay,filter:graphData,
+ mapReady:()=>{if(S.loaded&&S.view==="map")root.GXImpactMap?.show()}};
 })(window);
