@@ -15,7 +15,7 @@ function filtered(graph,opts={}){
   return Number.isFinite(at)&&at<=end&&at>=earliest&&
    (!opts.country||as(n.countries).includes(opts.country))&&
    (!opts.category||opts.category==="all"||opts.category===n.category);
- }).slice(0,95);
+ }).slice(0,150);
  const ids=new Set(nodes.map(n=>n.id));
  const edges=as(graph?.edges).filter(e=>ids.has(e.source)&&ids.has(e.target)&&
    dt(e.first_visible_at)<=end&&!e.relation_verified);
