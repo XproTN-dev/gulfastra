@@ -2,14 +2,6 @@
   "schema": 1,
   "history": [
     {
-      "id": "GF-E4FC4DDE942C03",
-      "revision": 2,
-      "at": "2026-10-20T07:40:58.957167Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
       "id": "GF-E30B6E1362C6C9",
       "revision": 2,
       "at": "2026-10-20T07:40:58.957167Z",
@@ -20000,6 +19992,14 @@
       "change": "published-source-set-updated",
       "previous_source_count": 2,
       "new_source_count": 2
+    },
+    {
+      "id": "GF-F99E79086CCD1D",
+      "revision": 26,
+      "at": "2026-10-21T08:49:46.235030Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
     }
   ]
 }

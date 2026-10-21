@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "generated_at": "2026-10-21T08:49:21.384801Z",
+  "generated_at": "2026-10-21T08:49:46.235030Z",
   "model": "deterministic-source-correlation-v2-coverage-lifecycle",
   "disclaimer": "Clusters are related PUBLIC REPORTS, not confirmed incidents. Source counts are not proof. Country names are mentions, not incident locations.",
   "events": [
@@ -564,6 +564,62 @@
       "digest": "d0b46706376f3ac854f6",
       "revision": 1,
       "updated_at": "2026-10-21T08:21:05.994285Z"
+    },
+    {
+      "id": "GF-DE65D67FAD5760",
+      "title": "Middle East Conflict Disrupts Gulf Flights; Air India, IndiGo Extend Saudi Arabia Suspensions - Content Media Solution",
+      "category": "security",
+      "topic": "aviation",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-21T07:10:39Z",
+      "last_published": "2026-10-21T07:10:39Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "c2823903c35446c23a51a707",
+          "title": "Middle East Conflict Disrupts Gulf Flights; Air India, IndiGo Extend Saudi Arabia Suspensions - Content Media Solution",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQT0ZzeGh4YzRPdHhWRFlDb25xT1J6T0ZrLUxKc0FKR2VkOWxLY29MbmtxV1RQWmFVdTA0MGRLaUZod2Vqa2JOd0lZWGFXS3pJa2ZfNkdVSjV5dUJTTXNvYmlFbHZwWlZMazUwUGhaSXF4OEpRcjRjTkZsNG9WN0hndkZ1SXVPSmZMY0t4Zk1sc0tJTjk5ZUFBMGNqQlkxM3RoN2ZfbGVEOGhCRmw0MHpLcDU0eWRtZVJOZ2JrcGhseHIwTlh3dTM2TGpvcnJzTEnSAc8BQVVfeXFMUE9Gc3hoeGM0T3R4VkRZQ29ucU9Sek9Gay1MSnNBSkdlZDlsS2NvTG5rcVdUUFphVXUwNDBkS2lGaHdlamtiTndJWVhhV0t6SWtmXzZHVUo1eXVCU01zb2JpRWx2cFpWTGs1MFBoWklxeDhKUXI0Y05GbDRvVjdIZ3ZGdUl1T0pmTGNLeGZNbHNLSU45OWVBQTBjakJZMTN0aDdmX2xlRDhoQkZsNDB6S3A1NHlkbWVSTmdia3BobHhyME5Yd3UzNkxqb3Jyc0xJ?oc=5",
+          "source": "Content Media Solution",
+          "publisher_key": "content media solution",
+          "provider": "Google News · aviation",
+          "published_at": "2026-10-21T07:10:39Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-21T08:49:37.602663Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Saudi"
+        }
+      ],
+      "coverage_stage": "new-coverage",
+      "coverage_first_published_at": "2026-10-21T07:10:39Z",
+      "coverage_last_published_at": "2026-10-21T07:10:39Z",
+      "current_reporting": true,
+      "recent_publisher_count": 1,
+      "recent_article_count": 1,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "6b640c01ff860604ec7b",
+      "revision": 1,
+      "updated_at": "2026-10-21T08:49:46.235030Z"
     },
     {
       "id": "GF-2DEFA7FABF1BB4",
@@ -2252,8 +2308,8 @@
       "updated_at": "2026-10-21T08:21:05.994285Z"
     },
     {
-      "id": "GF-953337E48B790F",
-      "title": "التحالف: اعتراض وتدمير 4 مسيرات أطلقت باتجاه السعودية - رؤيا الإخباري",
+      "id": "GF-8FE110598ADAE1",
+      "title": "التحالف: اعتراض وتدمير 4 مسيرات أطلقت باتجاه السعودية في المجال الجوي للمدنية المنورة - شبكة تواصل الإخبارية",
       "category": "security",
       "topic": "interception",
       "countries": [
@@ -2274,25 +2330,11 @@
       ],
       "publisher_count": 3,
       "report_count": 3,
-      "first_published": "2026-10-21T04:39:41Z",
-      "last_published": "2026-10-21T04:54:09Z",
+      "first_published": "2026-10-21T04:28:06Z",
+      "last_published": "2026-10-21T04:47:12Z",
       "event_occurred_at": null,
       "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
       "sources": [
-        {
-          "id": "b837ff9e334dcd792f30c7d4",
-          "title": "التحالف: اعتراض وتدمير 4 مسيرات أطلقت باتجاه السعودية - رؤيا الإخباري",
-          "url": "https://news.google.com/rss/articles/CBMitgNBVV95cUxQMEh3T1o3UDlnMllyY1d1WnRLdEhVTUlSWmI4azJCX0VuQ2VhaUg2V2Vfb0FjRWxKNEd3M2g2ZWVfOGRKODRibEZYMTJEaXFrWjVqdzNYbmtRSGJXOWxhSm5DdmxPbXlBanVoRHBtWFEzcHM4cW0xMjYtZEdTUDhwcmxraDU4cnJZV1I1X2loaUktQk5qNUl4UFJOdHVCdmdqZy1XcHBwRlFCNEJCSHg0Q1ZUYW54TE5tRnNja3lVQ3U0d3psT1dYdmZjanh1Tksxa2pMSjRWQ25QYVJtYjlUN01fUl9sMDZxRHl3d0otWk1jeXRkcnpRc3ZEUHFIZ1MtYVVHU3BJTGJzMG1PR0M4STI5RDR5TXQwX2psZHZNN2F0S2ZjbEFISmY2ZHc2d3J2OENxZFNrTW5YWERJazV5YlFXMzQyVTE4NU84RjRKZGJlSGplTDNrbXQ0OW80aVp3dGVySXozYTVUYld3M1dDWG1aX1UzQXp6NXZRdS0wM2l0VTFuc2ktS05meTk3VkgydnVHNUJid29FX1VIUjhqUU9UaC1FNmNEMTN4TG15WW1EOHRrRnc?oc=5",
-          "source": "رؤيا الإخباري",
-          "publisher_key": "رؤيا الإخباري",
-          "provider": "عربي · السعودية",
-          "published_at": "2026-10-21T04:54:09Z",
-          "date_quality": "publisher-time",
-          "first_seen_at": "2026-10-21T08:20:58.205329Z",
-          "collected_at": null,
-          "language": "ar",
-          "country": "Saudi"
-        },
         {
           "id": "7e1a9f2348a1d7aa4571468b",
           "title": "التحالف: اعتراض وتدمير 4 مسيرات أطلقت باتجاه السعودية في المجال الجوي للمدنية المنورة - شبكة تواصل الإخبارية",
@@ -2320,20 +2362,34 @@
           "collected_at": null,
           "language": "ar",
           "country": "Saudi"
+        },
+        {
+          "id": "b837ff9e334dcd792f30c7d4",
+          "title": "التحالف: اعتراض وتدمير 4 مسيرات أطلقت باتجاه السعودية - رؤيا الإخباري",
+          "url": "https://news.google.com/rss/articles/CBMitgNBVV95cUxQMEh3T1o3UDlnMllyY1d1WnRLdEhVTUlSWmI4azJCX0VuQ2VhaUg2V2Vfb0FjRWxKNEd3M2g2ZWVfOGRKODRibEZYMTJEaXFrWjVqdzNYbmtRSGJXOWxhSm5DdmxPbXlBanVoRHBtWFEzcHM4cW0xMjYtZEdTUDhwcmxraDU4cnJZV1I1X2loaUktQk5qNUl4UFJOdHVCdmdqZy1XcHBwRlFCNEJCSHg0Q1ZUYW54TE5tRnNja3lVQ3U0d3psT1dYdmZjanh1Tksxa2pMSjRWQ25QYVJtYjlUN01fUl9sMDZxRHl3d0otWk1jeXRkcnpRc3ZEUHFIZ1MtYVVHU3BJTGJzMG1PR0M4STI5RDR5TXQwX2psZHZNN2F0S2ZjbEFISmY2ZHc2d3J2OENxZFNrTW5YWERJazV5YlFXMzQyVTE4NU84RjRKZGJlSGplTDNrbXQ0OW80aVp3dGVySXozYTVUYld3M1dDWG1aX1UzQXp6NXZRdS0wM2l0VTFuc2ktS05meTk3VkgydnVHNUJid29FX1VIUjhqUU9UaC1FNmNEMTN4TG15WW1EOHRrRnc?oc=5",
+          "source": "رؤيا الإخباري",
+          "publisher_key": "رؤيا الإخباري",
+          "provider": "عربي · السعودية",
+          "published_at": "2026-10-21T04:28:06Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-21T08:20:58.205329Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Saudi"
         }
       ],
       "coverage_stage": "recent-coverage",
-      "coverage_first_published_at": "2026-10-21T04:39:41Z",
-      "coverage_last_published_at": "2026-10-21T04:54:09Z",
+      "coverage_first_published_at": "2026-10-21T04:28:06Z",
+      "coverage_last_published_at": "2026-10-21T04:47:12Z",
       "current_reporting": false,
       "recent_publisher_count": 0,
       "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "89b91ab035eb6d2f235f",
-      "revision": 2,
-      "updated_at": "2026-10-21T08:46:37.467255Z"
+      "digest": "a50fba3f075418a2b5d5",
+      "revision": 1,
+      "updated_at": "2026-10-21T08:49:46.235030Z"
     },
     {
       "id": "GF-7F83B24C2698BF",
@@ -31130,6 +31186,63 @@
       "digest": "e10cb46c83265934c0ee",
       "revision": 3,
       "updated_at": "2026-10-20T16:52:31.264495Z"
+    },
+    {
+      "id": "GF-F99E79086CCD1D",
+      "title": "تصعيد إيراني يطول الكويت والبحرين والأردن.. وواشنطن ترد باستهداف ناقلات النفط - الساحل الغربي",
+      "category": "security",
+      "topic": "maritime",
+      "countries": [
+        "Iran",
+        "Kuwait"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-19T13:10:02Z",
+      "last_published": "2026-10-19T13:10:02Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "91d4581a1376bf96e2612e5b",
+          "title": "تصعيد إيراني يطول الكويت والبحرين والأردن.. وواشنطن ترد باستهداف ناقلات النفط - الساحل الغربي",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBEbVdfVUxjVGlrN0lvNi1ZcGh4ZER3ZWt2OHViaGZ4WGgwUEZjdDZNTTlvNTFoWk94YVE5RVZLaUxUWmd1LWdNbFR6dDdWZk0?oc=5",
+          "source": "الساحل الغربي",
+          "publisher_key": "الساحل الغربي",
+          "provider": "عربي · الإمارات والبحرين",
+          "published_at": "2026-10-19T13:10:02Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T16:50:50.754226Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-19T13:10:02Z",
+      "coverage_last_published_at": "2026-10-19T13:10:02Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "8187b9d03815cecbadf8",
+      "revision": 26,
+      "updated_at": "2026-10-21T08:49:46.235030Z"
     },
     {
       "id": "GF-A29F3D9D9BB9BF",
@@ -75574,63 +75687,6 @@
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
-      "id": "GF-F99E79086CCD1D",
-      "title": "تصعيد إيراني يطول الكويت والبحرين والأردن.. وواشنطن ترد باستهداف ناقلات النفط - الساحل الغربي",
-      "category": "security",
-      "topic": "maritime",
-      "countries": [
-        "Iran",
-        "Kuwait"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "ar"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-14T16:38:06Z",
-      "last_published": "2026-10-14T16:38:06Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "91d4581a1376bf96e2612e5b",
-          "title": "تصعيد إيراني يطول الكويت والبحرين والأردن.. وواشنطن ترد باستهداف ناقلات النفط - الساحل الغربي",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBEbVdfVUxjVGlrN0lvNi1ZcGh4ZER3ZWt2OHViaGZ4WGgwUEZjdDZNTTlvNTFoWk94YVE5RVZLaUxUWmd1LWdNbFR6dDdWZk0?oc=5",
-          "source": "الساحل الغربي",
-          "publisher_key": "الساحل الغربي",
-          "provider": "عربي · الإمارات والبحرين",
-          "published_at": "2026-10-14T16:38:06Z",
-          "date_quality": "publisher-time",
-          "first_seen_at": "2026-10-20T16:50:50.754226Z",
-          "collected_at": null,
-          "language": "ar",
-          "country": ""
-        }
-      ],
-      "coverage_stage": "quiet-coverage",
-      "coverage_first_published_at": "2026-10-14T16:38:06Z",
-      "coverage_last_published_at": "2026-10-14T16:38:06Z",
-      "current_reporting": false,
-      "recent_publisher_count": 0,
-      "recent_article_count": 0,
-      "incident_status": "unknown",
-      "event_occurrence_verified": false,
-      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "307696e765120486fd84",
-      "revision": 25,
-      "updated_at": "2026-10-21T08:46:37.467255Z"
-    },
-    {
       "id": "GF-430F14A5B5AD92",
       "title": "Houthi ballistic missile manufacturing - ArcGIS StoryMaps",
       "category": "security",
@@ -90435,11 +90491,11 @@
       "sources": 235
     },
     "Saudi": {
-      "events": 596,
-      "reports": 639,
-      "security_coverage": 467,
+      "events": 597,
+      "reports": 640,
+      "security_coverage": 468,
       "transport_coverage": 110,
-      "sources": 288
+      "sources": 289
     },
     "Qatar": {
       "events": 62,
@@ -90508,55 +90564,23 @@
     "2026-10-10": 2,
     "2026-10-12": 7,
     "2026-10-13": 115,
-    "2026-10-14": 161,
+    "2026-10-14": 160,
     "2026-10-15": 155,
     "2026-10-16": 146,
     "2026-10-17": 190,
     "2026-10-18": 155,
-    "2026-10-19": 230,
+    "2026-10-19": 231,
     "2026-10-20": 349,
-    "2026-10-21": 74
+    "2026-10-21": 75
   },
   "revisions": [
     {
-      "id": "GF-2DEFA7FABF1BB4",
-      "revision": 2,
-      "at": "2026-10-21T08:49:21.384801Z",
+      "id": "GF-F99E79086CCD1D",
+      "revision": 26,
+      "at": "2026-10-21T08:49:46.235030Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
-    },
-    {
-      "id": "GF-2641AEE1D03B4C",
-      "revision": 22,
-      "at": "2026-10-21T08:49:21.384801Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-F30FAA0D8FA737",
-      "revision": 3,
-      "at": "2026-10-21T08:49:21.384801Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-7B0E21F2D20604",
-      "revision": 11,
-      "at": "2026-10-21T08:49:21.384801Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-38D128F847C5DA",
-      "revision": 2,
-      "at": "2026-10-21T08:49:21.384801Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 2
     }
   ]
 }

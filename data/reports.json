@@ -1,7 +1,7 @@
 {
   "version": 6,
-  "last_run": "2026-10-21T08:49:13.520607Z",
-  "last_successful_run": "2026-10-21T08:49:13.520607Z",
+  "last_run": "2026-10-21T08:49:37.602663Z",
+  "last_successful_run": "2026-10-21T08:49:37.602663Z",
   "successful_sources": 30,
   "reports": [
     {
@@ -230,6 +230,29 @@
       "date_quality": "publisher-time",
       "freshness": "new-reporting",
       "context": "speculative",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "c2823903c35446c23a51a707",
+      "title": "Middle East Conflict Disrupts Gulf Flights; Air India, IndiGo Extend Saudi Arabia Suspensions - Content Media Solution",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQT0ZzeGh4YzRPdHhWRFlDb25xT1J6T0ZrLUxKc0FKR2VkOWxLY29MbmtxV1RQWmFVdTA0MGRLaUZod2Vqa2JOd0lZWGFXS3pJa2ZfNkdVSjV5dUJTTXNvYmlFbHZwWlZMazUwUGhaSXF4OEpRcjRjTkZsNG9WN0hndkZ1SXVPSmZMY0t4Zk1sc0tJTjk5ZUFBMGNqQlkxM3RoN2ZfbGVEOGhCRmw0MHpLcDU0eWRtZVJOZ2JrcGhseHIwTlh3dTM2TGpvcnJzTEnSAc8BQVVfeXFMUE9Gc3hoeGM0T3R4VkRZQ29ucU9Sek9Gay1MSnNBSkdlZDlsS2NvTG5rcVdUUFphVXUwNDBkS2lGaHdlamtiTndJWVhhV0t6SWtmXzZHVUo1eXVCU01zb2JpRWx2cFpWTGs1MFBoWklxeDhKUXI0Y05GbDRvVjdIZ3ZGdUl1T0pmTGNLeGZNbHNLSU45OWVBQTBjakJZMTN0aDdmX2xlRDhoQkZsNDB6S3A1NHlkbWVSTmdia3BobHhyME5Yd3UzNkxqb3Jyc0xJ?oc=5",
+      "source": "Content Media Solution",
+      "published_at": "2026-10-21T07:10:39Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · aviation",
+      "first_seen_at": "2026-10-21T08:49:37.602663Z",
+      "date_quality": "publisher-time",
+      "freshness": "new-reporting",
+      "context": "reporting",
       "severity": "routine-reporting",
       "critical_candidate": false,
       "alert_eligible": false,
@@ -941,29 +964,6 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
-      "id": "b837ff9e334dcd792f30c7d4",
-      "title": "التحالف: اعتراض وتدمير 4 مسيرات أطلقت باتجاه السعودية - رؤيا الإخباري",
-      "url": "https://news.google.com/rss/articles/CBMitgNBVV95cUxQMEh3T1o3UDlnMllyY1d1WnRLdEhVTUlSWmI4azJCX0VuQ2VhaUg2V2Vfb0FjRWxKNEd3M2g2ZWVfOGRKODRibEZYMTJEaXFrWjVqdzNYbmtRSGJXOWxhSm5DdmxPbXlBanVoRHBtWFEzcHM4cW0xMjYtZEdTUDhwcmxraDU4cnJZV1I1X2loaUktQk5qNUl4UFJOdHVCdmdqZy1XcHBwRlFCNEJCSHg0Q1ZUYW54TE5tRnNja3lVQ3U0d3psT1dYdmZjanh1Tksxa2pMSjRWQ25QYVJtYjlUN01fUl9sMDZxRHl3d0otWk1jeXRkcnpRc3ZEUHFIZ1MtYVVHU3BJTGJzMG1PR0M4STI5RDR5TXQwX2psZHZNN2F0S2ZjbEFISmY2ZHc2d3J2OENxZFNrTW5YWERJazV5YlFXMzQyVTE4NU84RjRKZGJlSGplTDNrbXQ0OW80aVp3dGVySXozYTVUYld3M1dDWG1aX1UzQXp6NXZRdS0wM2l0VTFuc2ktS05meTk3VkgydnVHNUJid29FX1VIUjhqUU9UaC1FNmNEMTN4TG15WW1EOHRrRnc?oc=5",
-      "source": "رؤيا الإخباري",
-      "published_at": "2026-10-21T04:54:09Z",
-      "country": "Saudi",
-      "countries": [
-        "Saudi"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "خبر اعتراض / دفاع جوي",
-      "provider": "عربي · السعودية",
-      "first_seen_at": "2026-10-21T08:20:58.205329Z",
-      "date_quality": "publisher-time",
-      "freshness": "recent-reporting",
-      "context": "reporting",
-      "severity": "elevated-reporting",
-      "critical_candidate": false,
-      "alert_eligible": false,
-      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
-    },
-    {
       "id": "7e1a9f2348a1d7aa4571468b",
       "title": "التحالف: اعتراض وتدمير 4 مسيرات أطلقت باتجاه السعودية في المجال الجوي للمدنية المنورة - شبكة تواصل الإخبارية",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE03OEdmQnpST1NaYy1oYmUwb2o0Qk14X0FhOGZPRnExQXZuZ0NfY1ZJVDBHZkdaWk1FUHVGY19pek1zeXRESWM2R3JCdXQtNkoydkdR?oc=5",
@@ -1097,6 +1097,29 @@
       "freshness": "recent-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "b837ff9e334dcd792f30c7d4",
+      "title": "التحالف: اعتراض وتدمير 4 مسيرات أطلقت باتجاه السعودية - رؤيا الإخباري",
+      "url": "https://news.google.com/rss/articles/CBMitgNBVV95cUxQMEh3T1o3UDlnMllyY1d1WnRLdEhVTUlSWmI4azJCX0VuQ2VhaUg2V2Vfb0FjRWxKNEd3M2g2ZWVfOGRKODRibEZYMTJEaXFrWjVqdzNYbmtRSGJXOWxhSm5DdmxPbXlBanVoRHBtWFEzcHM4cW0xMjYtZEdTUDhwcmxraDU4cnJZV1I1X2loaUktQk5qNUl4UFJOdHVCdmdqZy1XcHBwRlFCNEJCSHg0Q1ZUYW54TE5tRnNja3lVQ3U0d3psT1dYdmZjanh1Tksxa2pMSjRWQ25QYVJtYjlUN01fUl9sMDZxRHl3d0otWk1jeXRkcnpRc3ZEUHFIZ1MtYVVHU3BJTGJzMG1PR0M4STI5RDR5TXQwX2psZHZNN2F0S2ZjbEFISmY2ZHc2d3J2OENxZFNrTW5YWERJazV5YlFXMzQyVTE4NU84RjRKZGJlSGplTDNrbXQ0OW80aVp3dGVySXozYTVUYld3M1dDWG1aX1UzQXp6NXZRdS0wM2l0VTFuc2ktS05meTk3VkgydnVHNUJid29FX1VIUjhqUU9UaC1FNmNEMTN4TG15WW1EOHRrRnc?oc=5",
+      "source": "رؤيا الإخباري",
+      "published_at": "2026-10-21T04:28:06Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "خبر اعتراض / دفاع جوي",
+      "provider": "عربي · السعودية",
+      "first_seen_at": "2026-10-21T08:20:58.205329Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "elevated-reporting",
       "critical_candidate": false,
       "alert_eligible": false,
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
@@ -13479,6 +13502,30 @@
       "provider": "Google News · security",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "91d4581a1376bf96e2612e5b",
+      "title": "تصعيد إيراني يطول الكويت والبحرين والأردن.. وواشنطن ترد باستهداف ناقلات النفط - الساحل الغربي",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBEbVdfVUxjVGlrN0lvNi1ZcGh4ZER3ZWt2OHViaGZ4WGgwUEZjdDZNTTlvNTFoWk94YVE5RVZLaUxUWmd1LWdNbFR6dDdWZk0?oc=5",
+      "source": "الساحل الغربي",
+      "published_at": "2026-10-19T13:10:02Z",
+      "country": "",
+      "countries": [
+        "Iran",
+        "Kuwait"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "ملاحه بحريه",
+      "provider": "عربي · الإمارات والبحرين",
+      "first_seen_at": "2026-10-20T16:50:50.754226Z",
+      "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
@@ -32427,30 +32474,6 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
-      "id": "91d4581a1376bf96e2612e5b",
-      "title": "تصعيد إيراني يطول الكويت والبحرين والأردن.. وواشنطن ترد باستهداف ناقلات النفط - الساحل الغربي",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBEbVdfVUxjVGlrN0lvNi1ZcGh4ZER3ZWt2OHViaGZ4WGgwUEZjdDZNTTlvNTFoWk94YVE5RVZLaUxUWmd1LWdNbFR6dDdWZk0?oc=5",
-      "source": "الساحل الغربي",
-      "published_at": "2026-10-14T16:38:06Z",
-      "country": "",
-      "countries": [
-        "Iran",
-        "Kuwait"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "ملاحه بحريه",
-      "provider": "عربي · الإمارات والبحرين",
-      "first_seen_at": "2026-10-20T16:50:50.754226Z",
-      "date_quality": "publisher-time",
-      "freshness": "older-reporting",
-      "context": "reporting",
-      "severity": "routine-reporting",
-      "critical_candidate": false,
-      "alert_eligible": false,
-      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
-    },
-    {
       "id": "b500ecb8dedaa46603b82bbd",
       "title": "Houthi ballistic missile manufacturing - ArcGIS StoryMaps",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBReG5hQlNDTzNKSGdKaW1PNVdmMGRNWTFoTzJJWTZIbFR4cFZRVERkNDZONHBiYmtlYmQ2TnBQb0pweG5WcHdvREdnSEN6TFo4eTNnRWc5RzdVVTlwdGdfR3hJR3doQks5VU9pSjVUbGdpSHdaZmRrUA?oc=5",
@@ -34307,7 +34330,7 @@
       "provider": "Google News · missiles/drones",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
-      "freshness": "older-reporting",
+      "freshness": "archive",
       "context": "reporting",
       "severity": "elevated-reporting",
       "critical_candidate": false,
@@ -38866,7 +38889,7 @@
     "Google News · missiles/drones": {
       "ok": true,
       "items": 100,
-      "relevant": 71
+      "relevant": 72
     },
     "Google News · security": {
       "ok": true,
@@ -38875,13 +38898,13 @@
     },
     "Google News · aviation": {
       "ok": true,
-      "items": 76,
-      "relevant": 74
+      "items": 77,
+      "relevant": 75
     },
     "Google News · shipping": {
       "ok": true,
       "items": 100,
-      "relevant": 92
+      "relevant": 91
     },
     "Google News · diplomacy": {
       "ok": true,
@@ -38890,8 +38913,8 @@
     },
     "Google News · regional": {
       "ok": true,
-      "items": 56,
-      "relevant": 27
+      "items": 27,
+      "relevant": 12
     },
     "Reuters · indexed Gulf reporting": {
       "ok": true,
@@ -38905,33 +38928,33 @@
     },
     "UKMTO · indexed official advisories": {
       "ok": true,
-      "items": 13,
+      "items": 14,
       "relevant": 0
     },
     "US State Dept · indexed advisories": {
       "ok": true,
-      "items": 8,
+      "items": 9,
       "relevant": 0
     },
     "عربي · إيران والخليج": {
       "ok": true,
-      "items": 58,
-      "relevant": 44
+      "items": 59,
+      "relevant": 45
     },
     "عربي · قطر": {
       "ok": true,
-      "items": 57,
+      "items": 56,
       "relevant": 23
     },
     "عربي · السعودية": {
       "ok": true,
       "items": 100,
-      "relevant": 46
+      "relevant": 47
     },
     "عربي · الإمارات والبحرين": {
       "ok": true,
-      "items": 23,
-      "relevant": 23
+      "items": 54,
+      "relevant": 49
     },
     "عربي · الكويت والعراق": {
       "ok": true,
@@ -38941,7 +38964,7 @@
     "عربي · مضيق هرمز": {
       "ok": true,
       "items": 100,
-      "relevant": 71
+      "relevant": 72
     },
     "عربي · الجزيرة": {
       "ok": true,
