@@ -18,6 +18,10 @@ for(const filename of js){
  new vm.Script(src,{filename}).runInContext(context);
  assert(html.includes(filename),filename+" must load on Impact Lab page");
 }
+const labJS=fs.readFileSync(path.join(root,"assets/impact-lab.js"),"utf8");
+assert(labJS.includes('$("[data-view]").forEach'),"All workspace tabs need querySelectorAll; no getElementById().forEach");
+assert(labJS.includes('$("[data-mode]").forEach'),"All presentation modes need querySelectorAll");
+assert(labJS.includes('$("#labControls label").forEach'),"All filter labels need querySelectorAll");
 const C=window.GXCore,R=window.GXImpactRender;
 assert(window.GXImpactApp&&C&&R);
 const now=Date.now(),hour=3600000,date=n=>new Date(now-n*hour).toISOString();
