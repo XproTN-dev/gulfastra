@@ -115,7 +115,7 @@ function contextEvent(id){
    ' · '+Number(n.report_count||0)+' linked articles</div>'+
   '<h3>ORIGINAL PUBLISHED EVIDENCE</h3>'+links+
   '<p class="context-meta">Source-based grouping · no inferred casualty total · no asserted ongoing status.</p>');
- if(S.view==="graph")renderGraph();
+ // Keep the investigated topic list in position; selection does not redraw it.
 }
 function contextEdge(id){
  const [left,right]=id.split("|"),a=graph().nodes?.find(x=>x.id===left),b=graph().nodes?.find(x=>x.id===right);
