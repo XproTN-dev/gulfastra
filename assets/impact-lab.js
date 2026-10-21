@@ -8,14 +8,14 @@ const KEY="gulfastra-lab-v12",VISITED="gulfastra-lab-visited-v1";
 const DEFAULT={view:"graph",country:"",category:"all",mode:"network",hours:48,zoom:1,lang:"en"};
 const saved=C.loadState(KEY,{});
 const S={...DEFAULT,...saved,files:{},manifest:null,status:"checking",warning:"",loaded:false,pending:false,
- asof:Date.now(),scrub:100,selected:null,prior:null,visits:{new:0,changed:0},lastCheck:null};
+ asof:Date.now(),scrub:100,selected:null,graphFocus:null,prior:null,visits:{new:0,changed:0},lastCheck:null};
 if(!["map","graph","timeline","markets","compare","pathways","brief"].includes(S.view))S.view="graph";
-if(root.innerWidth<=650&&S.mode==="network")S.mode="chronology";
+// All screen sizes use readable topic clusters by default, never a dense label cloud.
 const color={security:"#e78f73",transport:"#74b4ed",diplomacy:"#a799ea",other:"#69cfaa"};
 const words={
  en:{
   map:["GEOSPATIAL OBSERVATIONS","PUBLIC INTELLIGENCE MAP","Real coordinates from providers, clearly labelled country news mentions and static infrastructure."],
-  graph:["EVIDENCE RELATIONSHIPS","PUBLICATION NETWORK","Source-related reports; links show shared metadata, never proven causation."],
+  graph:["SOURCE-BACKED COVERAGE","INTELLIGENCE LANDSCAPE","Explore reporting topics and original evidence. Relationships are shared metadata, not proven cause."],
   timeline:["CHRONOLOGICAL EVIDENCE","PUBLICATION TIME EXPLORER","Scrub a real publication timeline. These are publication dates, not incident occurrence times."],
   markets:["ECONOMIC CONTEXT","FRED MARKET & MACRO SERIES","Actual provider observations only. Different series have different publication delays."],
   compare:["HISTORICAL CONTEXT","2008 VS. RECENT OBSERVATIONS","Compare raw published indicators, not global collapse probabilities."],
@@ -24,7 +24,7 @@ const words={
  },
  ar:{
   map:["المشاهدات الجغرافية","خريطة المعلومات العامة","إحداثيات المصدر للمشاهدات، وتغطية أخبار الدول وليست مواقع للحوادث."],
-  graph:["ارتباطات المصادر","شبكة التغطية المنشورة","الروابط تشابه في الأخبار، وليست دليلا على علاقة سببية."],
+  graph:["تحليل التغطية المنشورة","مشهد الأخبار والتحليل","استكشف مواضيع التغطية ومصادرها الأصلية. التشابه في الأخبار لا يثبت السببية."],
   timeline:["التسلسل الزمني","مستكشف أوقات النشر","استعرض تاريخ نشر الأخبار الحقيقي، لا توقيت وقوع الحوادث."],
   markets:["المؤشرات الاقتصادية","بيانات الأسواق والاقتصاد من FRED","مشاهدات فعلية منشورة بتواتر مختلف. ليست أسعارا لحظية."],
   compare:["المقارنة التاريخية","بيانات 2008 مقابل المؤشرات الحالية","مقارنة قيم منشورة وليست احتمال انهيار الاقتصاد."],
@@ -35,7 +35,7 @@ const words={
 const AR_CHROME={
  views:{map:"◎ خريطة العالم",graph:"◉ شبكة الأخبار",timeline:"◷ التسلسل الزمني",markets:"⌁ الأسواق والمؤشرات",
  compare:"⇄ مقارنة ٢٠٠٨",pathways:"⤳ مسارات التأثير",brief:"▤ الموجز اليومي"},
- modes:{network:"شبكة",chronology:"تسلسل",spatial:"عرض ثلاثي"},
+ modes:{network:"المواضيع",chronology:"العناوين",spatial:"العلاقات"},
  controls:["الجغرافيا","نوع التغطية","عرض الشبكة"],
  metrics:["مجموعات التغطية","روابط مواضيع مشتركة","سلاسل اقتصادية فعلية","موجز آخر ٢٤ ساعة"],
  title:"أدوات التحليل",method:"ⓘ المنهجية",reset:"إعادة ضبط",
@@ -44,7 +44,7 @@ const AR_CHROME={
 const EN_CHROME={
  views:{map:"◎ WORLD MAP",graph:"◉ EVENT NETWORK",timeline:"◷ TIME EXPLORER",markets:"⌁ MARKET INDICATORS",
  compare:"⇄ 2008 COMPARISON",pathways:"⤳ IMPACT PATHWAYS",brief:"▤ DAILY BRIEF"},
- modes:{network:"NETWORK",chronology:"SEQUENCE",spatial:"3D STYLE"},
+ modes:{network:"TOPICS",chronology:"HEADLINES",spatial:"RELATIONS"},
  controls:["GEOGRAPHY","REPORTING CATEGORY","NETWORK PRESENTATION"],
  metrics:["RELATED COVERAGE","METADATA CONNECTIONS","OBSERVED MACRO SERIES","LAST 24H BRIEFING"],
  title:"RESEARCH CONTROLS",method:"ⓘ METHODOLOGY",reset:"RESET",
@@ -199,23 +199,21 @@ function view(view){
 }
 function renderGraph(){
  const g=graphData(),mode=S.mode;
- const body='<div class="graph-wrap"><div class="graph-topline">'+
- '<span class="graph-badge">'+g.nodes.length+' PUBLICATION GROUPS</span>'+
- '<span class="graph-badge">'+g.edges.length+' RELATED COVERAGE LINKS</span>'+
- '<span class="graph-badge">NOT CAUSATION</span></div>'+
- '<div class="graph-zoom"><button data-zoom="in" aria-label="Zoom graph in">+</button>'+
- '<button data-zoom="out" aria-label="Zoom graph out">−</button>'+
- '<button data-zoom="reset" aria-label="Reset graph zoom">⌖</button></div>'+
- R.graphSvg(g,{mode,zoom:S.zoom,selected:S.selected})+
- '<div class="graph-bottomline"><span>CLICK A NODE FOR ORIGINAL SOURCES</span>'+
- '<span>WHEEL / + − TO ZOOM · SOURCE-TIME REPLAY</span></div></div>'+
- '<div class="graph-legend"><span>● SECURITY</span><span>● TRANSPORT</span>'+
- '<span>● DIPLOMACY</span><span>● OTHER</span></div>';
- $("stageContent").innerHTML=!g.nodes.length?
- '<div class="state-empty">No publication groups match this region and time cutoff. Widen the window or choose ALL countries. Zero items is not an all-clear.</div>':
- mode==="chronology"?
- '<div class="context-warning">SEQUENCE VIEW · chronological publication lists, not causal order or incident timelines.</div>'+R.chronology(g):
- '<div class="graph-layout">'+body+'</div>';
+ if(!g.nodes.length){
+  S.graphFocus=null;
+  $("stageContent").innerHTML='<div class="state-empty">No published reporting groups match these filters and dates. Expand the period or select another country. Absence of coverage is not an all-clear.</div>';
+  return;
+ }
+ if(mode==="chronology"){
+  $("stageContent").innerHTML='<div class="cluster-dashboard"><div class="cluster-overview-intro"><div>'+
+   '<span class="kicker">ORIGINAL PUBLISHED HEADLINES</span><h2>Publication chronology</h2>'+
+   '<p>'+g.nodes.length+' source-linked groups, most recently reported first. Select a headline for publisher evidence.</p></div></div>'+
+   R.chronology(g)+'</div>';
+ }else if(mode==="spatial"){
+  $("stageContent").innerHTML=R.relationExplorer(g);
+ }else{
+  $("stageContent").innerHTML=R.clusterOverview(g,S.graphFocus);
+ }
 }
 function renderTimeline(){
  const g=graphData(),sorted=[...g.nodes].sort((a,b)=>C.dt(b.published_at)-C.dt(a.published_at));
@@ -283,7 +281,7 @@ function init(){
  $("countryLab").value=S.country;$("topicLab").value=S.category;
  $$("[data-view]").forEach(b=>b.onclick=()=>view(b.dataset.view));
  $$("[data-mobile-view]").forEach(b=>b.onclick=()=>view(b.dataset.mobileView));
- $$("[data-mode]").forEach(b=>b.onclick=()=>{S.mode=b.dataset.mode;save();render()});
+ $("[data-mode]").forEach(b=>b.onclick=()=>{S.mode=b.dataset.mode;S.graphFocus=null;save();render()});
  $$("[data-window]").forEach(b=>b.onclick=()=>{S.hours=Number(b.dataset.window);S.scrub=100;S.asof=Date.now();save();render()});
  $("countryLab").onchange=e=>{S.country=e.target.value;save();render();closeLayers()};
  $("topicLab").onchange=e=>{S.category=e.target.value;save();render();closeLayers()};
@@ -309,6 +307,14 @@ function init(){
   '<p>Pathways: Hypothetical mechanisms require separately sourced real events and empirical testing before any causal conclusion.</p>'+
   '<p>Daily briefing: deterministic public metadata and source links; not generative autonomous analysis.</p>');
  $("stageContent").onclick=e=>{
+  const back=e.target.closest("[data-cluster-back]");
+  if(back){S.graphFocus=null;renderGraph();return}
+  const cluster=e.target.closest("[data-cluster]");
+  if(cluster){S.graphFocus=cluster.dataset.cluster;renderGraph();return}
+  const networkMode=e.target.closest("[data-network-mode]");
+  if(networkMode){
+   S.mode=networkMode.dataset.networkMode;S.graphFocus=null;save();render();return;
+  }
   const zoom=e.target.closest("[data-zoom]");
   if(zoom){
    S.zoom=zoom.dataset.zoom==="in"?Math.min(3,S.zoom+.22):
