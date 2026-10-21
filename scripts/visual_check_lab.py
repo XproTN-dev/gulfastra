@@ -69,7 +69,18 @@ with sync_playwright() as pw:
         page.route("**/intelligence-data/data/**",handle)
         response=page.goto(BASE,wait_until="domcontentloaded",timeout=60000)
         assert response and response.status==200
-        page.wait_for_function("window.GXImpactApp?.getState().loaded===true",timeout=60000)
+        try:
+            page.wait_for_function("window.GXImpactApp?.getState().loaded===true",timeout=20000)
+        except Exception:
+            report=page.evaluate("""()=>{
+                return {labModule:!!window.GXImpactApp,mapModule:!!window.GXImpactMap,
+                  core:!!window.GXCore,renderer:!!window.GXImpactRender,
+                  mapEngine:!!window.GXMap,state:window.GXImpactApp?.getState()?.status,
+                  warning:window.GXImpactApp?.getState()?.warning,
+                  body:document.body.textContent?.slice(0,700)};
+            }""")
+            raise AssertionError(f"Impact Lab did not initialize at {width}px: {report}; page errors: {errors}")
+
         assert page.locator("#mNodes").inner_text() in ("2","1")
         assert page.locator("#mSeries").inner_text()=="6",page.locator("#mSeries").inner_text()
         assert page.evaluate("document.documentElement.scrollWidth <= innerWidth+2"),(
