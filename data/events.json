@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "generated_at": "2026-10-21T08:49:46.235030Z",
+  "generated_at": "2026-10-21T08:51:51.299720Z",
   "model": "deterministic-source-correlation-v2-coverage-lifecycle",
   "disclaimer": "Clusters are related PUBLIC REPORTS, not confirmed incidents. Source counts are not proof. Country names are mentions, not incident locations.",
   "events": [
@@ -60,6 +60,63 @@
       "digest": "351df4b8870515faf836",
       "revision": 1,
       "updated_at": "2026-10-21T08:49:21.384801Z"
+    },
+    {
+      "id": "GF-1D9EB4C4421D90",
+      "title": "مقاتلات «يوروفايتر تايفون» البريطانية تستعد لاعتراض صواريخ ومسيّرات الحوثيين فوق السعودية - موقع الدفاع العربي",
+      "category": "security",
+      "topic": "interception",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-21T08:47:06Z",
+      "last_published": "2026-10-21T08:47:06Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "690992e6014f5b0f1b05946d",
+          "title": "مقاتلات «يوروفايتر تايفون» البريطانية تستعد لاعتراض صواريخ ومسيّرات الحوثيين فوق السعودية - موقع الدفاع العربي",
+          "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxNTFF1QVlQcDR2M3dxYjkwbzBPcnNHVWZteXM4c0JJUTVKbXoyTjRGMHJ0NUw5UGJQQXF3V2xzeUx6cTNjQ2M1bG9RTnNhYVRIZVB3YjhwZnZxWTRYQXFFa1FtbXRzbmNqMVNPRWhGVlR6bkpRX0JxbU5WS2YzbXdsRHFrOTNYLUFJbXBydmc5Zmoza213M0V5RWs3Q0s2OWJhTTBsVHpSaktCYjJIY3lrWXhFUzhrY0lENnhSQ1F6anVVaTBnVHJ4SlJicGVJWXR5VXR6NEFHc1NUOENaR0lEb2VqYVN4bW95Qkt1cEo5N095TExqejMwa1pPeFhqSmdCYWFPUERuYmRGTkpRTVZlSXZhdDBDcjZEbFNmeUdnVG9HdHIyY2c4Z3hCb0tyaXFmWVNzb2J5SjFER21JQ2pra2VtS3hicThXSkE?oc=5",
+          "source": "موقع الدفاع العربي",
+          "publisher_key": "موقع الدفاع العربي",
+          "provider": "عربي · السعودية",
+          "published_at": "2026-10-21T08:47:06Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-21T08:51:43.329341Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "new-coverage",
+      "coverage_first_published_at": "2026-10-21T08:47:06Z",
+      "coverage_last_published_at": "2026-10-21T08:47:06Z",
+      "current_reporting": true,
+      "recent_publisher_count": 1,
+      "recent_article_count": 1,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "035e7b3a038f89550015",
+      "revision": 1,
+      "updated_at": "2026-10-21T08:51:51.299720Z"
     },
     {
       "id": "GF-7E822B7A5CFE9F",
@@ -31186,63 +31243,6 @@
       "digest": "e10cb46c83265934c0ee",
       "revision": 3,
       "updated_at": "2026-10-20T16:52:31.264495Z"
-    },
-    {
-      "id": "GF-F99E79086CCD1D",
-      "title": "تصعيد إيراني يطول الكويت والبحرين والأردن.. وواشنطن ترد باستهداف ناقلات النفط - الساحل الغربي",
-      "category": "security",
-      "topic": "maritime",
-      "countries": [
-        "Iran",
-        "Kuwait"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "ar"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-19T13:10:02Z",
-      "last_published": "2026-10-19T13:10:02Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "91d4581a1376bf96e2612e5b",
-          "title": "تصعيد إيراني يطول الكويت والبحرين والأردن.. وواشنطن ترد باستهداف ناقلات النفط - الساحل الغربي",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBEbVdfVUxjVGlrN0lvNi1ZcGh4ZER3ZWt2OHViaGZ4WGgwUEZjdDZNTTlvNTFoWk94YVE5RVZLaUxUWmd1LWdNbFR6dDdWZk0?oc=5",
-          "source": "الساحل الغربي",
-          "publisher_key": "الساحل الغربي",
-          "provider": "عربي · الإمارات والبحرين",
-          "published_at": "2026-10-19T13:10:02Z",
-          "date_quality": "publisher-time",
-          "first_seen_at": "2026-10-20T16:50:50.754226Z",
-          "collected_at": null,
-          "language": "ar",
-          "country": ""
-        }
-      ],
-      "coverage_stage": "quiet-coverage",
-      "coverage_first_published_at": "2026-10-19T13:10:02Z",
-      "coverage_last_published_at": "2026-10-19T13:10:02Z",
-      "current_reporting": false,
-      "recent_publisher_count": 0,
-      "recent_article_count": 0,
-      "incident_status": "unknown",
-      "event_occurrence_verified": false,
-      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "8187b9d03815cecbadf8",
-      "revision": 26,
-      "updated_at": "2026-10-21T08:49:46.235030Z"
     },
     {
       "id": "GF-A29F3D9D9BB9BF",
@@ -75687,6 +75687,63 @@
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
+      "id": "GF-F99E79086CCD1D",
+      "title": "تصعيد إيراني يطول الكويت والبحرين والأردن.. وواشنطن ترد باستهداف ناقلات النفط - الساحل الغربي",
+      "category": "security",
+      "topic": "maritime",
+      "countries": [
+        "Iran",
+        "Kuwait"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-14T16:38:06Z",
+      "last_published": "2026-10-14T16:38:06Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "91d4581a1376bf96e2612e5b",
+          "title": "تصعيد إيراني يطول الكويت والبحرين والأردن.. وواشنطن ترد باستهداف ناقلات النفط - الساحل الغربي",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBEbVdfVUxjVGlrN0lvNi1ZcGh4ZER3ZWt2OHViaGZ4WGgwUEZjdDZNTTlvNTFoWk94YVE5RVZLaUxUWmd1LWdNbFR6dDdWZk0?oc=5",
+          "source": "الساحل الغربي",
+          "publisher_key": "الساحل الغربي",
+          "provider": "عربي · الإمارات والبحرين",
+          "published_at": "2026-10-14T16:38:06Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T16:50:50.754226Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-14T16:38:06Z",
+      "coverage_last_published_at": "2026-10-14T16:38:06Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "307696e765120486fd84",
+      "revision": 27,
+      "updated_at": "2026-10-21T08:51:51.299720Z"
+    },
+    {
       "id": "GF-430F14A5B5AD92",
       "title": "Houthi ballistic missile manufacturing - ArcGIS StoryMaps",
       "category": "security",
@@ -90491,9 +90548,9 @@
       "sources": 235
     },
     "Saudi": {
-      "events": 597,
-      "reports": 640,
-      "security_coverage": 468,
+      "events": 598,
+      "reports": 641,
+      "security_coverage": 469,
       "transport_coverage": 110,
       "sources": 289
     },
@@ -90540,11 +90597,11 @@
       "sources": 9
     },
     "Yemen": {
-      "events": 288,
-      "reports": 300,
-      "security_coverage": 273,
+      "events": 289,
+      "reports": 301,
+      "security_coverage": 274,
       "transport_coverage": 13,
-      "sources": 137
+      "sources": 138
     },
     "Israel": {
       "events": 64,
@@ -90564,20 +90621,20 @@
     "2026-10-10": 2,
     "2026-10-12": 7,
     "2026-10-13": 115,
-    "2026-10-14": 160,
+    "2026-10-14": 161,
     "2026-10-15": 155,
     "2026-10-16": 146,
     "2026-10-17": 190,
     "2026-10-18": 155,
-    "2026-10-19": 231,
+    "2026-10-19": 230,
     "2026-10-20": 349,
-    "2026-10-21": 75
+    "2026-10-21": 76
   },
   "revisions": [
     {
       "id": "GF-F99E79086CCD1D",
-      "revision": 26,
-      "at": "2026-10-21T08:49:46.235030Z",
+      "revision": 27,
+      "at": "2026-10-21T08:51:51.299720Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
