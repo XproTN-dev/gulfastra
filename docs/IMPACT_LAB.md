@@ -8,7 +8,7 @@ Inspired by analytical workflows shown in Breakpoint Monitor videos, but indepen
 
 ## Six functioning workspaces
 
-1. **Publication Network** — two-dimensional, source-linked event clustering from our news reports. Dashed links are restricted shared topic/country and a bounded publication window, **not verified causation or incident equivalence**. Network, compact sequence and perspective-styled graph views are available; the perspective is a CSS presentation and is not a 3D geographic model.
+1. **Publication Network / Intelligence Landscape** — readable source-backed topic clusters rather than overlapping headlines and miniature dots. The default TOPICS view groups all recent source-correlated publication groups by their actual collector topic, displays recent source headlines, and opens a complete story list on selection. HEADLINES displays chronological source cards; RELATIONS shows only actual published shared-metadata links and allows side-by-side evidence inspection. A link is **not verified causation or incident equivalence**. No synthetic 3D map or arbitrary causal probability is shown.
 2. **Time Explorer** — actual publication timestamps and 48-hour/7-day cutoff replay. It is not a reconstruction of historical source availability or incident-occurrence time. Reporting can be missed or updated afterward.
 3. **FRED Indicators** — real publicly available series from `fred.stlouisfed.org` (VIXCLS, DCOILBRENTEU, DCOILWTICO, BAMLH0A0HYM2, T10Y2Y, UNRATE). Every card links to FRED and provides latest **observation date**, value and retrieval status. GitHub Actions fetches the open CSV roughly every 12h; different underlying series publish at different cadences. Not live market quotes.
 4. **2008 Comparison** — recorded values from 2007–2009, with October 15, 2008 or the closest available earlier reference period, and current published values. Curves overlay historical and recent windows with a shared raw-value vertical scale, **not shared calendar dates**; no percentage similarity/probability of another crisis is claimed.
@@ -31,7 +31,7 @@ The files are committed to `intelligence-data` and referenced by versioned hashe
 
 ## Mobile
 
-On screens up to 650px the default graph presentation switches to **readable chronological cards** rather than microscopic nodes. A bottom tab bar switches Graph / Markets / Brief / Filters / Map. An evidence selection opens a dismissible bottom sheet; filters open a drawer. Network and perspective-style views remain available as options. Neither the mobile sheet nor the graph depends on a paid visualization package.
+On screens up to 650px the graph defaults to **readable topic cards**; tapping a topic reveals every matching source-group headline, and tapping a headline opens publisher evidence. A bottom tab bar switches Graph / Markets / Brief / Filters / Map. An evidence selection opens a dismissible bottom sheet; filters open a drawer. HEADLINES and RELATIONS modes remain available, without showing 150 headlines on top of each other. Neither the mobile sheet nor the graph depends on a paid visualization package.
 
 ## Validation
 
