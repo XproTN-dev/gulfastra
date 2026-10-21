@@ -2,7 +2,8 @@
 <meta name="theme-color" content="#070f1c"><meta name="description" content="GULFASTRA X Impact Lab: source-backed relationships, original FRED indicators, historical comparisons and daily OSINT briefing.">
 <title>GULFASTRA X · Impact Lab</title>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../assets/impact-lab.css?v=12-3">
+<link rel="stylesheet" href="../vendor/maplibre-gl.css?v=6-15-0">
+<link rel="stylesheet" href="../assets/impact-lab.css?v=12-4">
 </head><body data-theme="midnight"><div id="impactApp" class="lab-app">
 <header class="lab-header">
  <a class="lab-brand" href="../command/" aria-label="Return to GULFASTRA Command Center"><span class="brand-glyph">◎</span><span><b>GULF<span>ASTRA</span></b><small>IMPACT INTELLIGENCE / X</small></span></a>
@@ -17,6 +18,7 @@
  <div><small>LAST 24H BRIEFING</small><b id="mBrief">—</b><span>new publication groups</span></div>
 </div>
 <div class="lab-tabs" role="tablist" aria-label="Impact Lab workspaces">
+ <button data-view="map" role="tab">◎ WORLD MAP</button>
  <button data-view="graph" class="active" role="tab">◉ EVENT NETWORK</button>
  <button data-view="timeline" role="tab">◷ TIME EXPLORER</button>
  <button data-view="markets" role="tab">⌁ MARKET INDICATORS</button>
@@ -45,6 +47,32 @@
  <main class="lab-stage">
   <div class="stage-header"><div><span class="kicker" id="stageEyebrow">EVIDENCE RELATIONSHIPS</span><h1 id="stageTitle">PUBLICATION NETWORK</h1><p id="stageDescription">Explore related source-backed coverage clusters. Connections never imply proven causation.</p></div><button id="labExplain">ⓘ METHODOLOGY</button></div>
   <div class="stage-content" id="stageContent" aria-live="polite"><div class="state-empty">Collecting public-source analysis…</div></div>
+  <section class="lab-map-host" id="labMapHost" aria-label="Interactive global evidence map" hidden>
+   <div class="lab-map-stage">
+    <div id="map" class="lab-map-canvas" role="application" aria-label="Interactive OpenFreeMap map with source-backed geographic layers"></div>
+    <div class="lab-map-toolbar">
+     <button type="button" data-map-action="gulf">GULF</button>
+     <button type="button" data-map-action="global">WORLD</button>
+     <button type="button" data-map-action="style">STYLE</button>
+     <button type="button" data-map-action="globe">GLOBE</button>
+     <button type="button" data-map-action="zoom-in" aria-label="Zoom in">+</button>
+     <button type="button" data-map-action="zoom-out" aria-label="Zoom out">−</button>
+    </div>
+    <div id="mapFallback" class="lab-map-fallback" hidden>MAP NOT YET INITIALIZED</div>
+    <div class="lab-map-disclaimer">Source-backed observations · GDACS advisory areas · country NEWS MENTIONS · static infrastructure. News markers are NOT incident positions, and nothing here confirms an active emergency.</div>
+   </div>
+   <div class="lab-map-layers" id="labMapLayers">
+    <strong>GEO-SPATIAL EVIDENCE</strong>
+    <label><input type="checkbox" data-map-layer="observed" checked> <i style="--dot:#5bdac9"></i> Natural observations</label>
+    <label><input type="checkbox" data-map-layer="advisories" checked> <i style="--dot:#efd07f"></i> GDACS advisories</label>
+    <label><input type="checkbox" data-map-layer="coverage" checked> <i style="--dot:#678fd6"></i> Country news mentions</label>
+    <label><input type="checkbox" data-map-layer="reference" checked> <i style="--dot:#8eacc7"></i> Static ports / airports</label>
+    <label><input type="checkbox" data-map-layer="fires"> <i style="--dot:#edab63"></i> Satellite thermal anomalies*</label>
+    <label><input type="checkbox" data-map-layer="outages"> <i style="--dot:#b7a0ef"></i> Country connectivity reports*</label>
+    <div id="labMapCounts" class="lab-map-stats">Waiting for actual geographic data</div>
+    <small>*Optional provider source; no simulated positions.</small>
+   </div>
+  </section>
   <div class="graph-footer" id="graphFooter"><div class="timeline-read"><b id="scrubTime">NOW</b><small id="scrubCount">SOURCE PUBLICATIONS ONLY</small></div><input type="range" min="0" max="100" value="100" step="1" id="labReplay" aria-label="Replay reported publications over 48 hours"><button id="labNow">↪ NOW</button><div class="window-buttons"><button data-window="48" class="active">48H</button><button data-window="168">7D</button></div></div>
  </main>
  <aside class="lab-context" id="labContext"><div class="context-top"><span class="kicker">INVESTIGATION DESK</span><h2 id="contextTitle">SELECT A REPORT</h2><button id="contextClose" aria-label="Close mobile detail">✕</button></div>
@@ -56,11 +84,13 @@
  <button data-mobile-view="markets">⌁<small>MARKETS</small></button>
  <button data-mobile-view="brief">▤<small>BRIEF</small></button>
  <button id="labFiltersOpen">☷<small>FILTERS</small></button>
- <button id="labReturn">↩<small>MAP</small></button>
+ <button data-mobile-view="map">◎<small>MAP</small></button>
 </nav>
 <div id="labBackdrop" class="lab-backdrop" hidden></div>
 <div id="labToast" role="status" aria-live="polite"></div>
 <script defer src="../assets/command11-core.js?v=12-2"></script>
+<script defer src="../assets/command11-map.js?v=12-4"></script>
 <script defer src="../assets/impact-lab-render.js?v=12-3"></script>
-<script defer src="../assets/impact-lab.js?v=12-3"></script>
+<script defer src="../assets/impact-lab.js?v=12-4"></script>
+<script type="module" src="../assets/impact-map-bootstrap.mjs?v=12-4"></script>
 </div></body></html>
