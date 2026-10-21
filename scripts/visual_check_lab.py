@@ -111,8 +111,13 @@ with sync_playwright() as pw:
         assert not errors,(width,"Map errors",errors)
         if mobile:
             assert page.locator(".lab-mobile-nav").is_visible()
-            assert page.locator(".chronology-item").count()==2,"Readable mobile list not default"
-            page.locator(".chronology-item").first.click()
+            # Redesigned graph defaults to real topic clusters on small screens,
+            # rather than microscopic labels or the old plain chronology view.
+            assert page.locator(".cluster-card").count()==1,"Mobile topic grouping missing"
+            assert page.locator(".network-svg").count()==0,"Old visual hairball was not removed"
+            page.locator(".cluster-card").first.click()
+            assert page.locator(".cluster-story").count()==2,"Topic drilldown missing real stories"
+            page.locator(".cluster-story").first.click()
             assert page.locator("#impactApp").evaluate("el=>el.classList.contains('context-open')")
             sheet=page.locator("#labContext").bounding_box()
             assert sheet and sheet["y"]+sheet["height"]<=height+3,(
@@ -124,16 +129,19 @@ with sync_playwright() as pw:
             assert page.evaluate("window.GXImpactApp.getState().country==='Qatar'")
             page.locator('[data-mobile-view="markets"]').click()
         else:
-            assert page.locator(".network-svg").is_visible()
-            assert page.locator(".graph-node").count()==2
-            page.locator('[data-zoom="in"]').click()
-            assert page.evaluate("window.GXImpactApp.getState().zoom>1"),"Graph zoom button inert"
-            page.locator('[data-zoom="reset"]').click()
-            assert page.evaluate("window.GXImpactApp.getState().zoom===1"),"Graph zoom reset inert"
+            assert page.locator(".cluster-card").count()==1,"Topic cards not rendered"
+            assert page.locator(".network-svg").count()==0,"Old overlapping graph still in DOM"
+            page.locator(".cluster-card").first.click()
+            assert page.locator(".cluster-story").count()==2,"Topic drilldown should preserve every group"
+            page.locator(".cluster-back").click()
+            assert page.locator(".cluster-card").count()==1
             page.locator('[data-mode="spatial"]').click()
-            assert page.locator(".network-svg.spatial").count()==1
+            assert page.locator(".relation-card").count()==1,"Actual metadata connection not available"
+            page.locator(".relation-card").first.click()
+            assert "NOT evidence" in page.locator("#contextContent").inner_text()
             page.locator('[data-mode="network"]').click()
-            page.locator(".graph-node .hit-zone").first.click()
+            page.locator(".cluster-card").first.click()
+            page.locator(".cluster-story").first.click()
             assert page.locator("#contextContent .context-link").count()>0
             if page.locator("#contextClose").is_visible():
                 page.locator("#contextClose").click()
