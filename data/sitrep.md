@@ -1,9 +1,9 @@
 # Gulfastra | Open-source situation report
 Window: last 24 hours (publication-based)
-Coverage groups: 330 | linked headlines: 352
+Coverage groups: 332 | linked headlines: 354
 IMPORTANT: Unverified published reporting; not confirmed attacks or official safety advice.
 
-## Security (237 coverage groups)
+## Security (239 coverage groups)
 - العراق .. إستهداف مقر حزب حرية كردستان الإيراني المعارض بـ 4 صواريخ - صدى البلد (1 headlines; single-source)
   - صدى البلد: https://news.google.com/rss/articles/CBMiR0FVX3lxTE9HOXNkcUZrY0NqWnJ0bkxJdEtwc1A2MGoyS3BobUpIeEE3MnI3QjJGTFk5bUlpaVY5UzFWQlRtck12Z3dxYnJF?oc=5
 - مصادر: إطلاق صاروخ على معسكر للمعارضة الإيرانية الكردية شمال شرقي أربيل - العربية (1 headlines; single-source)

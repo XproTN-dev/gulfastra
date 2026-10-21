@@ -1,10 +1,10 @@
 # موجز جلفاسترا للمصادر العلنية
 الفترة: آخر 24 ساعة (حسب وقت نشر التقارير)
 
-مجموعات التغطية: 330 | عناوين مرتبطة: 352
+مجموعات التغطية: 332 | عناوين مرتبطة: 354
 هذه تقارير صحفية وليست أحداثا مؤكدة، ولا تعتبر توجيهات سلامة رسمية.
 
-## Security (237 coverage groups)
+## Security (239 coverage groups)
 - العراق .. إستهداف مقر حزب حرية كردستان الإيراني المعارض بـ 4 صواريخ - صدى البلد (1 headlines; single-source)
   - صدى البلد: https://news.google.com/rss/articles/CBMiR0FVX3lxTE9HOXNkcUZrY0NqWnJ0bkxJdEtwc1A2MGoyS3BobUpIeEE3MnI3QjJGTFk5bUlpaVY5UzFWQlRtck12Z3dxYnJF?oc=5
 - مصادر: إطلاق صاروخ على معسكر للمعارضة الإيرانية الكردية شمال شرقي أربيل - العربية (1 headlines; single-source)
