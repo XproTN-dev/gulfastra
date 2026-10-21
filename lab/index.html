@@ -3,7 +3,7 @@
 <title>GULFASTRA X · Impact Lab</title>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../vendor/maplibre-gl.css?v=6-15-0">
-<link rel="stylesheet" href="../assets/impact-lab.css?v=12-4">
+<link rel="stylesheet" href="../assets/impact-lab.css?v=12-5">
 </head><body data-theme="midnight"><div id="impactApp" class="lab-app">
 <header class="lab-header">
  <a class="lab-brand" href="../command/" aria-label="Return to GULFASTRA Command Center"><span class="brand-glyph">◎</span><span><b>GULF<span>ASTRA</span></b><small>IMPACT INTELLIGENCE / X</small></span></a>
@@ -32,7 +32,7 @@
  <label for="countryLab">GEOGRAPHY</label><select id="countryLab"><option value="">ALL MONITORED COUNTRIES</option></select>
  <label for="topicLab">REPORTING CATEGORY</label><select id="topicLab"><option value="all">ALL PUBLIC COVERAGE</option><option value="security">SECURITY</option><option value="transport">TRANSPORT</option><option value="diplomacy">DIPLOMACY</option><option value="other">OTHER</option></select>
  <label for="graphMode">NETWORK PRESENTATION</label><div class="graph-modes" id="graphModes">
- <button data-mode="network" class="active">NETWORK</button><button data-mode="chronology">SEQUENCE</button><button data-mode="spatial">3D STYLE</button>
+ <button data-mode="network" class="active">TOPICS</button><button data-mode="chronology">HEADLINES</button><button data-mode="spatial">RELATIONS</button>
  </div>
  <div class="side-rule"></div><div class="subheading">READING A CONNECTION</div>
  <p>Every line represents <strong>shared reported topic + country</strong> within 36 hours. It does not prove one incident caused another.</p>
@@ -45,7 +45,7 @@
  <div class="sources-note">NEWS · INSTITUTIONAL NOTICES · FRED MACRO CONTEXT<br>PROVENANCE BEFORE PREDICTION.</div>
  </aside>
  <main class="lab-stage">
-  <div class="stage-header"><div><span class="kicker" id="stageEyebrow">EVIDENCE RELATIONSHIPS</span><h1 id="stageTitle">PUBLICATION NETWORK</h1><p id="stageDescription">Explore related source-backed coverage clusters. Connections never imply proven causation.</p></div><button id="labExplain">ⓘ METHODOLOGY</button></div>
+  <div class="stage-header"><div><span class="kicker" id="stageEyebrow">EVIDENCE RELATIONSHIPS</span><h1 id="stageTitle">INTELLIGENCE LANDSCAPE</h1><p id="stageDescription">Explore source-linked topics and original evidence without unreadable headline clouds.</p></div><button id="labExplain">ⓘ METHODOLOGY</button></div>
   <div class="stage-content" id="stageContent" aria-live="polite"><div class="state-empty">Collecting public-source analysis…</div></div>
   <section class="lab-map-host" id="labMapHost" aria-label="Interactive global evidence map" hidden>
    <div class="lab-map-stage">
@@ -91,7 +91,7 @@
 <script defer src="../assets/command11-core.js?v=12-2"></script>
 <script defer src="../assets/command11-map.js?v=12-4"></script>
 <script defer src="../assets/impact-lab-map.js?v=12-4"></script>
-<script defer src="../assets/impact-lab-render.js?v=12-3"></script>
-<script defer src="../assets/impact-lab.js?v=12-4"></script>
+<script defer src="../assets/impact-lab-render.js?v=12-5"></script>
+<script defer src="../assets/impact-lab.js?v=12-5"></script>
 <script type="module" src="../assets/impact-map-bootstrap.mjs?v=12-4"></script>
 </div></body></html>
