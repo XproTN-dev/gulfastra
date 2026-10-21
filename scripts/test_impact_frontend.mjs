@@ -19,9 +19,15 @@ for(const filename of js){
  assert(html.includes(filename),filename+" must load on Impact Lab page");
 }
 const labJS=fs.readFileSync(path.join(root,"assets/impact-lab.js"),"utf8");
-assert(labJS.includes('$("[data-view]").forEach'),"All workspace tabs need querySelectorAll; no getElementById().forEach");
-assert(labJS.includes('$("[data-mode]").forEach'),"All presentation modes need querySelectorAll");
-assert(labJS.includes('$("#labControls label").forEach'),"All filter labels need querySelectorAll");
+assert(labJS.includes('$$("[data-view]").forEach'),"All workspace tabs need querySelectorAll");
+assert(labJS.includes('$$("[data-mode]").forEach'),"All presentation modes need querySelectorAll");
+assert(labJS.includes('$$("#labControls label").forEach'),"All filter labels need querySelectorAll");
+assert(labJS.includes('$$("[data-map-layer]").forEach'),"Map layer selectors must use querySelectorAll");
+assert(labJS.includes('$$("[data-map-action]").forEach'),"Map toolbar selectors must use querySelectorAll");
+assert(html.includes('data-view="map"'),"The Lab must include a Map workspace");
+assert(html.includes('data-mobile-view="map"'),"Mobile map navigation must stay inside Lab");
+assert(html.includes("impact-map-bootstrap.mjs"),"MapLibre module loader must be linked");
+assert(html.includes("impact-lab-map.js"),"Actual map data controller must be loaded");
 const C=window.GXCore,R=window.GXImpactRender;
 assert(window.GXImpactApp&&C&&R);
 const now=Date.now(),hour=3600000,date=n=>new Date(now-n*hour).toISOString();
