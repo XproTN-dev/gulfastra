@@ -17,7 +17,7 @@ now=datetime.now(timezone.utc)
 iso=lambda dt:dt.isoformat().replace("+00:00","Z")
 hour=lambda h:iso(now-timedelta(hours=h))
 files=("reports.json","events.json","observations.json","alerts.json","collector_health.json",
-       "advisories.json","social.json","impact_graph.json","markets.json","daily_brief.json","direct_signals.json")
+       "advisories.json","social.json","impact_graph.json","markets.json","daily_brief.json","direct_signals.json","fast_signals.json","early_signals.json")
 node1={"id":"GF-TEST1","title":"Illustrative Qatar airspace headline — CI FIXTURE ONLY",
  "category":"transport","topic":"airspace","published_at":hour(1),"first_published":hour(1),
  "report_count":3,"publisher_count":2,"countries":["Qatar"],"digest":"v1","coverage_stage":"recent-coverage",
@@ -30,6 +30,18 @@ mock_series={id:{"id":id,"name":id+" CI mocked values (test only)","unit":"index
  "historical_2007_2009":[["2008-10-14",38],["2008-10-15",40]],
  "retrieved_at":hour(1),"url":"https://fred.stlouisfed.org/series/"+id} for id in market_ids}
 payloads={
+ "fast_signals.json":{"generated_at":hour(0),"records":[],"sources":{
+   "USGS hourly":{"state":"healthy","ok":True,"last_success_at":hour(0)},
+   "AviationWeather METAR":{"state":"healthy","ok":True,"last_success_at":hour(0)}}},
+ "early_signals.json":{"schema":1,"quality_gate":"passed","generated_at":hour(0),
+ "urgent_count":1,"new_ids":["q1"],"new_urgent_ids":[],
+ "signals":[{"id":"q1","kind":"earthquake","priority":"P1",
+ "evidence_state":"provider-observation","title":"CI TEST ONLY M5.9 seismic observation",
+ "last_published_at":hour(.3),"first_published_at":hour(.3),
+ "first_detected_at":hour(.25),"sources":[{"name":"USGS",
+  "url":"https://earthquake.usgs.gov/","published_at":hour(.3)}],
+ "coordinates":{"lat":25.2,"lon":51.3,"precision":"provider epicentre"},
+ "evidence_note":"CI fixture, never deployed","countries":[],"original_source":"USGS"}]},
  "reports.json":{"reports":[{"id":"report-recent","title":"Mock recent source report about Qatar","source":"QNA Test",
    "url":"https://example.com/report-recent","category":"transport","topic":"aviation",
    "published_at":hour(.2),"countries":["Qatar"]},
@@ -101,6 +113,22 @@ with sync_playwright() as pw:
             }""")
             raise AssertionError(f"Impact Lab did not initialize at {width}px: {report}; page errors: {errors}")
 
+        assert page.locator('[data-view="detect"]').is_visible()
+        assert page.locator(".detector-root").count()==1,(
+            "Early signal feed must be the initial workspace")
+        assert page.locator(".det-event").count()==1
+        assert "provider" in page.locator(".det-event").first.inner_text().lower()
+        page.locator(".det-event").first.click()
+        assert "PROVIDER COORDINATES" in page.locator("#contextContent").inner_text()
+        assert "UNKNOWN" in page.locator("#contextContent").inner_text()
+        if page.locator("#contextClose").is_visible():
+            page.locator("#contextClose").click()
+        page.locator('[data-detect-window="1"]').click()
+        assert page.locator(".det-event").count()==1
+        page.locator('[data-detect-priority="P3"]').click()
+        assert page.locator(".det-event").count()==0
+        page.locator('[data-detect-priority="all"]').click()
+        assert page.locator(".det-event").count()==1
         assert page.locator("#labTheme").input_value()=="crimson"
         assert page.evaluate("document.body.dataset.theme==='crimson'")
         page.locator("#labTheme").select_option("matrix")
@@ -173,7 +201,7 @@ with sync_playwright() as pw:
             assert page.locator(".lab-controls").is_visible()
             page.locator("#countryLab").select_option("Qatar")
             assert page.evaluate("window.GXImpactApp.getState().country==='Qatar'")
-            page.locator('[data-mobile-view="markets"]').click()
+            page.locator('[data-view="markets"]').click()
         else:
             assert page.locator(".cluster-card").count()==1,"Topic cards not rendered"
             assert page.locator(".network-svg").count()==0,"Old overlapping graph still in DOM"
