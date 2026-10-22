@@ -4,7 +4,7 @@
 const C=root.GXCore,R=root.GXImpactRender;
 if(!C||!R){document.body.textContent="Impact Lab modules could not initialize.";return}
 const $=id=>document.getElementById(id),$$=q=>[...document.querySelectorAll(q)];
-const KEY="gulfastra-lab-v12",VISITED="gulfastra-lab-visited-v1";
+const KEY="gulfastra-lab-v13",VISITED="gulfastra-lab-visited-v1";
 const DEFAULT={view:"map",country:"",category:"all",mode:"network",hours:48,
  mapHours:1,theme:"crimson",zoom:1,lang:"en"};
 const saved=C.loadState(KEY,{});
