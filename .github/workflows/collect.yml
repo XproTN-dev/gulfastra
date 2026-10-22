@@ -46,6 +46,7 @@ jobs:
           python source/scripts/test_supplemental_sources.py
           python source/scripts/test_impact_lab.py
           python source/scripts/test_direct_signals.py
+          python source/scripts/test_early_detector.py
       - name: Collect published Gulf news
         env:
           GULFASTRA_DATA_DIR: ${{ github.workspace }}/archive/data
@@ -97,6 +98,15 @@ jobs:
         env:
           GULFASTRA_DATA_DIR: ${{ github.workspace }}/archive/data
         run: python source/scripts/impact_lab.py
+      - name: Collect priority public signals separately from news feeds
+        env:
+          GULFASTRA_DATA_DIR: ${{ github.workspace }}/archive/data
+        run: python source/scripts/fast_sources.py
+      - name: Detect important early public signals and preserve verification states
+        env:
+          GULFASTRA_DATA_DIR: ${{ github.workspace }}/archive/data
+          QUALITY_GATE: ${{ steps.quality.outcome == 'success' && 'passed' || 'failed' }}
+        run: python source/scripts/early_detector.py
       - name: Record independent collection and alert health
         env:
           GULFASTRA_DATA_DIR: ${{ github.workspace }}/archive/data
@@ -111,7 +121,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/direct_signals.json data/impact_graph.json data/markets.json data/daily_brief.json data/social.json data/advisories.json data/reports.json data/events.json data/revisions.json data/alerts.json data/alert_state.json data/collector_health.json data/observations.json data/sitrep.md data/sitrep-ar.md data/live-manifest.json
+          git add data/fast_signals.json data/early_signals.json data/early_state.json data/direct_signals.json data/impact_graph.json data/markets.json data/daily_brief.json data/social.json data/advisories.json data/reports.json data/events.json data/revisions.json data/alerts.json data/alert_state.json data/collector_health.json data/observations.json data/sitrep.md data/sitrep-ar.md data/live-manifest.json
           if git diff --cached --quiet; then
             echo "No updated public data"
             exit 0
