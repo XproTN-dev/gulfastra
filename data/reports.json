@@ -1,7 +1,7 @@
 {
   "version": 6,
-  "last_run": "2026-10-22T09:28:18.534715Z",
-  "last_successful_run": "2026-10-22T09:28:18.534715Z",
+  "last_run": "2026-10-22T09:28:48.190748Z",
+  "last_successful_run": "2026-10-22T09:28:48.190748Z",
   "successful_sources": 29,
   "reports": [
     {
@@ -322,6 +322,29 @@
       "date_quality": "publisher-time",
       "freshness": "recent-reporting",
       "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "bb835f3dfad0292d2049f3a3",
+      "title": "Trump denies Iran negotiations, says situation will resolve soon - New Age BD",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPX2k2QUR1c2MxOU4ycl9JSGFaMUp3YnBzMFdBRzlkUHV2alVVSXAweGZxT3ZhakF3MVphT2xsMldiWjA5VHVFVGJCNW5tOHJSNXBlWC14emZlZnhzaWRrdzA4VWxsN0FwaF9aUHptOW9SWVhBQVlpaFJvaXJrQjhrc21ZLTdMUHVMZ1dxV3JLZEZFV1hJdXJkYlVaQmhDVUpCdTlPYkhFZmhzM3VqZTVPcmZ2Rms?oc=5",
+      "source": "New Age BD",
+      "published_at": "2026-10-22T06:53:00Z",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "language": "en",
+      "category": "diplomacy",
+      "tag": "DIPLOMACY REPORT",
+      "provider": "Google News · diplomacy",
+      "first_seen_at": "2026-10-22T09:28:48.190748Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "denial",
       "severity": "routine-reporting",
       "critical_candidate": false,
       "alert_eligible": false,
@@ -2886,6 +2909,30 @@
       "freshness": "recent-reporting",
       "context": "reporting",
       "severity": "elevated-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "34a8cb162ae3808a3baa70a4",
+      "title": "إيران تشن هجمات على قطر والكويت والبحرين والإمارات والأردن - الساحل الغربي",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9SUUNDallCbDJvaVoyVHN6Z2JKT29EZkJSekgwLXdLZUVNbFhlaGdyaDdXWDI3MlVHNmhLSlB3bFFtcHptOVNZTTZ0TnJETjA?oc=5",
+      "source": "الساحل الغربي",
+      "published_at": "2026-10-21T19:25:33Z",
+      "country": "",
+      "countries": [
+        "Iran",
+        "Qatar"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير امني",
+      "provider": "عربي · قطر",
+      "first_seen_at": "2026-10-22T05:29:00.114694Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
       "critical_candidate": false,
       "alert_eligible": false,
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
@@ -8949,6 +8996,30 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "bfedc36b78da24f731dd1853",
+      "title": "الإمارات تعلن التصدي لنحو 750 ألف محاولة هجوم سيبراني - الدفاع - 21/10/2026 - كونا :: وكالة الأنباء الكويتية",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1aQTEwUWVucXhxQWJtQXUyWWZ3U19HTVdGcldtQk02VWdIbW80WktVUzhtaE9FYWlZdnp0bFdIU3U0V1VYcEtqR1JnMHdjLUNBRURtVFB3ZnZuc0RWWi1fUDFtR3ltMkxpQ0RNZ0Jmb0FqWk1J?oc=5",
+      "source": "كونا :: وكالة الأنباء الكويتية",
+      "published_at": "2026-10-20T22:26:56Z",
+      "country": "",
+      "countries": [
+        "UAE",
+        "Kuwait"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير امني",
+      "provider": "عربي · وكالات الخليج",
+      "first_seen_at": "2026-10-22T09:28:48.190748Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "3e5005a92f357e842e1a2219",
       "title": "الحرس الثوري الإيراني: 3 ناقلات اصطدمت بألغام بحرية في هرمز - عربي21",
       "url": "https://news.google.com/rss/articles/CBMi1wNBVV95cUxQZHFvbEptSWI5UkR2S2JNZlRqNy1vaHJxV3FSV29WYWYxOEdfdHpPdWJLNHh5bXZ2LUh3a3FDQTJNcHRDTnYwcE0xb3NabVA1bUZERzVfcGhzRHloVVlsVlV4YkF3ekhRdVRmTTQwSXlhNzlRYjA4YUJ3cy1DTjJxOC1raWlwUEpINmVLVko1RkRwRHJnejFUanVnWFlJN3JLMUVwZjR2eDE2dXo5dVY2RS1wYUJDaVVqVGZXZURySnJUUlRxd1hpRGxOMElnSU9laVdtNzNoejYzMWNaSlZWZVVpUGViUm9xWEJrcTAxMkY0aHpFRUlybUtiVmdRODlacnBqS2FrZGxQNjVVRW8tQXFOMkRtSk5WZjRBMEU0eHNuOTEyTHpvQ01KcENaOUlES0UtVlAzY1hXWGdvcnFyLWhrY0hHaUFoMGt3aE9QaHBlZUgwdWV2UG15SldTUWpuY1MwcHoxSFU2TndlRk9FZmswb2VhckUzM0EtbFJiOFJJbGg5SGNuM253bnA1aFdiYmFDZUdmZHBMNm1nemlkUEpFMkdpX0xpX0VpVW9WUHVWVTZoU1lQN05EN3dHQjJtdzRIQjIyVDk1bmdhaEJoci1IMjVEMEXSAdsDQVVfeXFMUE9QTXlXclZvTGhKVDFVd2RhQ0tXM1BwdGNxdGpDSVcwczdlaGc3cldmZUI0Zm1jSHp0b1ViMFJwcTJCMVpBWmtPN2VxOVd5SGphaDBaU1RhOXJucnFKRFo1QVlVRGpvZXM5ZVBXQUExVzdCdWI0V1llc0htQkhkOFNER0p0NlM5dldrOFJmb3NXSVZHeWdzQ1NsMmRMSVRtTGVTVjBNZ0pCWXR4aXJfTjJZYjJtbzl3dzdmdjVDVVo0eDRuQUNreDludk56anFWR3RHa3RGQXBWQVBHWm5LZFFKRHFCTnRIOWwtRE54Mmt4WkZjTzVBNV9TYngzU2lESTFYNXF2SW9WOEJia1V6UTAxZUdrOGJHOUNSVXdnM19yMzl3NlQxMFNCanNySWQtdDMyUmhWNDlFel9QTU5oeTh3QnFUdXNGZzUyWVRyYVNxY2NJTzhIR2xCaFpFajZEampoc1IxS3dSa0JMbWdjLXJKcnpLN1AxZGpqTFhidE93SHl0MTl1NDlsdVBNamtyaW1TcXBrWkNYUU5laUZMSkZ6eGdfdmxDSm4zT05RSWpOX3lxcWhvOFlvb19xcml5THJGOFJWZmhQZzhPb3VXWG5ldGxTbF9VYTNibw?oc=5",
@@ -11746,29 +11817,6 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
-      "id": "b75bb2b7af18a30b6c56175c",
-      "title": "UK expands military support for Saudi Arabia against Houthis with ‘defensive’ air patrols - AP News",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdFpJQjVaX2pPYVMybXM3OEQ4ZzRzNEdpc2FVMldTRTVWaVFNQXZQVkZrRmdLNVpKc1RVeS1sbGIzSDJlNE12QkRMR2UxcC1PZWIwcnJXY0Z4T0hEQkxmWnBrNHpkSFZxaWgzZU5pRGM1cGJVUWRISHFraGJaUFFzRnlHYko4UlJpMmFvMVZLc1lFdw?oc=5",
-      "source": "AP News",
-      "published_at": "2026-10-20T15:56:00Z",
-      "country": "Saudi",
-      "countries": [
-        "Saudi"
-      ],
-      "language": "en",
-      "category": "security",
-      "tag": "SECURITY REPORT",
-      "provider": "AP · indexed Gulf reporting",
-      "first_seen_at": "2026-10-20T12:03:42.847208Z",
-      "date_quality": "publisher-time",
-      "freshness": "older-reporting",
-      "context": "reporting",
-      "severity": "routine-reporting",
-      "critical_candidate": false,
-      "alert_eligible": false,
-      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
-    },
-    {
       "id": "1ee5b93406726006a155974c",
       "title": "حريق في ناقلة نفط بمضيق هرمز - شبكة يافا الإخبارية",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9CUC1KWnR2dWRLREFFOTFCclNlaXZUcXRBYm9ERU5HZHRZc2tIOXJiN3B5WFFqdVBYc0lXUTczQVlMSHljeUp6OTRhckV4ckl0?oc=5",
@@ -11869,6 +11917,29 @@
       "tag": "SECURITY REPORT",
       "provider": "Google News · security",
       "first_seen_at": "2026-10-22T00:44:51.576065Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "b75bb2b7af18a30b6c56175c",
+      "title": "UK expands military support for Saudi Arabia against Houthis with ‘defensive’ air patrols - AP News",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdFpJQjVaX2pPYVMybXM3OEQ4ZzRzNEdpc2FVMldTRTVWaVFNQXZQVkZrRmdLNVpKc1RVeS1sbGIzSDJlNE12QkRMR2UxcC1PZWIwcnJXY0Z4T0hEQkxmWnBrNHpkSFZxaWgzZU5pRGM1cGJVUWRISHFraGJaUFFzRnlHYko4UlJpMmFvMVZLc1lFdw?oc=5",
+      "source": "AP News",
+      "published_at": "2026-10-20T15:33:17Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "AP · indexed Gulf reporting",
+      "first_seen_at": "2026-10-20T12:03:42.847208Z",
       "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
@@ -24025,7 +24096,7 @@
       "language": "en",
       "category": "security",
       "tag": "SECURITY REPORT",
-      "provider": "Google News · diplomacy",
+      "provider": "Google News · missiles/drones",
       "first_seen_at": "2026-10-20T12:09:48.504938Z",
       "date_quality": "publisher-time",
       "freshness": "older-reporting",
@@ -27652,7 +27723,7 @@
       "language": "en",
       "category": "diplomacy",
       "tag": "DIPLOMACY REPORT",
-      "provider": "Google News · diplomacy",
+      "provider": "Google News · security",
       "first_seen_at": "2026-10-20T13:30:10.274301Z",
       "date_quality": "publisher-time",
       "freshness": "older-reporting",
@@ -36393,30 +36464,6 @@
       "tag": "SECURITY REPORT",
       "provider": "Google News · aviation",
       "first_seen_at": "2026-10-20T12:09:48.504938Z",
-      "date_quality": "publisher-time",
-      "freshness": "older-reporting",
-      "context": "reporting",
-      "severity": "routine-reporting",
-      "critical_candidate": false,
-      "alert_eligible": false,
-      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
-    },
-    {
-      "id": "34a8cb162ae3808a3baa70a4",
-      "title": "إيران تشن هجمات على قطر والكويت والبحرين والإمارات والأردن - الساحل الغربي",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9SUUNDallCbDJvaVoyVHN6Z2JKT29EZkJSekgwLXdLZUVNbFhlaGdyaDdXWDI3MlVHNmhLSlB3bFFtcHptOVNZTTZ0TnJETjA?oc=5",
-      "source": "الساحل الغربي",
-      "published_at": "2026-10-16T03:54:01Z",
-      "country": "",
-      "countries": [
-        "Iran",
-        "Qatar"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "تقرير امني",
-      "provider": "عربي · قطر",
-      "first_seen_at": "2026-10-22T05:29:00.114694Z",
       "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
@@ -47767,7 +47814,7 @@
     "Google News · missiles/drones": {
       "ok": true,
       "items": 100,
-      "relevant": 73
+      "relevant": 72
     },
     "Google News · security": {
       "ok": true,
@@ -47776,8 +47823,8 @@
     },
     "Google News · aviation": {
       "ok": true,
-      "items": 83,
-      "relevant": 78
+      "items": 76,
+      "relevant": 73
     },
     "Google News · shipping": {
       "ok": true,
@@ -47787,17 +47834,17 @@
     "Google News · diplomacy": {
       "ok": true,
       "items": 100,
-      "relevant": 46
+      "relevant": 47
     },
     "Google News · regional": {
       "ok": true,
-      "items": 28,
-      "relevant": 13
+      "items": 52,
+      "relevant": 25
     },
     "Reuters · indexed Gulf reporting": {
       "ok": true,
       "items": 100,
-      "relevant": 25
+      "relevant": 24
     },
     "AP · indexed Gulf reporting": {
       "ok": true,
@@ -47821,18 +47868,18 @@
     },
     "عربي · قطر": {
       "ok": true,
-      "items": 56,
-      "relevant": 21
+      "items": 57,
+      "relevant": 22
     },
     "عربي · السعودية": {
       "ok": true,
       "items": 100,
-      "relevant": 65
+      "relevant": 66
     },
     "عربي · الإمارات والبحرين": {
       "ok": true,
-      "items": 52,
-      "relevant": 47
+      "items": 51,
+      "relevant": 46
     },
     "عربي · الكويت والعراق": {
       "ok": true,
@@ -47842,7 +47889,7 @@
     "عربي · مضيق هرمز": {
       "ok": true,
       "items": 100,
-      "relevant": 74
+      "relevant": 73
     },
     "عربي · الجزيرة": {
       "ok": true,
@@ -47857,12 +47904,12 @@
     "عربي · الشرق": {
       "ok": true,
       "items": 100,
-      "relevant": 35
+      "relevant": 36
     },
     "عربي · وكالات الخليج": {
       "ok": true,
       "items": 100,
-      "relevant": 29
+      "relevant": 30
     },
     "الجزيرة نت · RSS عربي": {
       "ok": true,

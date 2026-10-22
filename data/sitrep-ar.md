@@ -1,10 +1,10 @@
 # موجز جلفاسترا للمصادر العلنية
 الفترة: آخر 24 ساعة (حسب وقت نشر التقارير)
 
-مجموعات التغطية: 260 | عناوين مرتبطة: 278
+مجموعات التغطية: 261 | عناوين مرتبطة: 280
 هذه تقارير صحفية وليست أحداثا مؤكدة، ولا تعتبر توجيهات سلامة رسمية.
 
-## Security (172 coverage groups)
+## Security (173 coverage groups)
 - Two killed in attack on airport in eastern Saudi Arabia, authorities say (2 headlines; multi-publisher-unverified)
   - BBC Middle East RSS: https://www.bbc.co.uk/news/articles/cqwy71ww156ro?at_medium=RSS&at_campaign=rss
   - AP News: https://news.google.com/rss/articles/CBMioAFBVV95cUxQaXo0Nk1pSDFVdkZGeEp4TGZobnBPS2FpdVlORlptNFFhWnp4SG1UQk9icEhXYTNUSzEtUXVoSEwxZUMtc0Z3cG1lQWJsS3I5TE9JLVJiRnlYTXczSkZfd2E0dFdVNDctZkR1emhpNmc5bF9SMXA2cHhwU3pPOVRkZ090MUVnLWU5NHd5TjN6NnN3S0poLThpYlpzLWFqNHdv?oc=5
@@ -66,6 +66,9 @@
   - TRT عربي: https://news.google.com/rss/articles/CBMiWEFVX3lxTE1vSlpUZ1Y3MDNsUzBOUVFPejVDcDhnTk5UX0hCc2xTNktYUi01T1VKZHl3eHM4UUVqTjIzX0xhVWt1Q3YxMEs1QWxjLWZnQm5fNlI4eG1kbWo?oc=5
 
 ## Diplomacy (42 coverage groups)
+- Trump denies Iran negotiations, says situation will resolve soon - New Age BD (2 headlines; multi-publisher-unverified)
+  - New Age BD: https://news.google.com/rss/articles/CBMitAFBVV95cUxPX2k2QUR1c2MxOU4ycl9JSGFaMUp3YnBzMFdBRzlkUHV2alVVSXAweGZxT3ZhakF3MVphT2xsMldiWjA5VHVFVGJCNW5tOHJSNXBlWC14emZlZnhzaWRrdzA4VWxsN0FwaF9aUHptOW9SWVhBQVlpaFJvaXJrQjhrc21ZLTdMUHVMZ1dxV3JLZEZFV1hJdXJkYlVaQmhDVUpCdTlPYkhFZmhzM3VqZTVPcmZ2Rms?oc=5
+  - Al Jazeera RSS: https://www.aljazeera.com/news/liveblog/2026/10/22/iran-war-live-irgc-vows-invasion-as-defence-doctrine-turns-offensive?traffic_source=rss
 - رغم الجهود الدبلوماسية.. خطط أميركية إسرائيلية لاستئناف حرب إيران في نوفمبر - الشرق للأخبار (1 headlines; single-source)
   - الشرق للأخبار: https://news.google.com/rss/articles/CBMi6gNBVV95cUxOWFBRc3hLT2tJOWY4azV6X2FhRlhFVERuVlN4a2tjUDNudHpHcGxPOGk4ZkVSOVNVVE9OUFlxWGZ4VzFnNThQaGZaS0otZlRHWHVrSll3M3J1ZDFsRS1OSFNUU0hUaXMzYnFVSVluZXFYMGx1Ri1HZVR3dmx6RWpFQkNNQXRyLWRtbTFvV2NuWGt2MUxnUksxTEhHN1Y4S2lrYnZtaEJReGRhcGFSVDBJbF9CYUpieExpeWV0SkRpcGphbFNDNXdoOFVJNkRLX1BtX1BhNF9la0xVM3dDN2JxRmxLS1RrcjZ2ZXlPYmpGMlMwUmh2Y3dDMFVFcXpzNUI5NEFQYnJZd25YZUIxdkozQXRUdkxneVNHQ0RZcGI1U3YyemhsaE50d1hKNHRJUEx3WWgzRWZJSkF2dU9NN3VGMG5WNVAyWmtwYy1neXlXdlUxSWl3TmpNZXRoYVZ3SjNOUnZiOVBIaTFvTEc1eWIxMHBsZm5CaU1mNHUwbVN6b1E4akljYjNZem91OUpQUHZ0Q3lxNUpFWVdua2xLXzBKLUtlT3NFSmUza3E1b3VuWk1EUXFzcmVxTUhiVktHeTVRTThqaUxjVUc4eFkwdU5nN0I2LWZfSUtRUk9GSjdQSHFZaTBPX3hNXzJR?oc=5
 - بيان مشترك بين الإمارات العربية المتحدة وجمهورية سنغافورة - www.wam.ae (1 headlines; single-source)
@@ -78,8 +81,6 @@
   - AP News: https://news.google.com/rss/articles/CBMitgFBVV95cUxOMnJyYTZ2NXBaVGJRX1Q4eFB0VDgyX0tNSU1NazFUUExVUmd2U3RXdzZFa0JlenBGZUNvMWtuNlRIM01PclQxbmVJR1g4QW9lemw2VV8yakl2a0p1QWItbXg3Yk1ROVdtZGxaOU9KRVQyNHFsOTkyN3F3TENMSV9NSlQ4WnFpYVJmMGxJMndSQW9taWkxV2ZGLVFxVWk1MzlEcmJYWXFsc2thSE1hMng5ejdGdENaUQ?oc=5
 - Joint Statement between the State of Qatar and the French Republic on Occasion of His Excellency President Macron's Visit to Doha (1 headlines; single-source)
   - Qatar News Agency · Qatar RSS: https://qna.org.qa/en/News-Area/News/2026-10/22/joint-statement-between-the-state-of-qatar-and-the-french-republic-on-occasion-of-his-excellency-president-macrons-visit-to-doha
-- Iran war live: Trump denies Iran talks, says situation will resolve soon (1 headlines; single-source)
-  - Al Jazeera RSS: https://www.aljazeera.com/news/liveblog/2026/10/22/iran-war-live-irgc-vows-invasion-as-defence-doctrine-turns-offensive?traffic_source=rss
 - عقوبات أمريكية على إيران بالتزامن مع تحركات دبلوماسية دولية - NOW الشرق (1 headlines; single-source)
   - NOW الشرق: https://news.google.com/rss/articles/CBMikwRBVV95cUxQWkNqOVdjU2VObGVwczVqYTFsMFZTa3ZsZzVYYXE0U092WUZUNWR6eUNqVEVGWjBxSFRMTmdXM2NHMEdtRTVudmtsNmc5YUg2WmxVSU1aOWlJck1EUnZTaWd6TlpEUjVSbmw4UG9XWGltZjJmN3pLQ0NJeVV1bDVfR0VHTFNISFhicWF6WTl6YXk4OXdsdFp2VEpvX3VGYWxGXzVZaU5TUFRjUGl6SWl1c0hIR3UzNHB5VlJCbHZfUGVMYTZWbkhLVWJrb3VRb0l0TmFPX2xEMTRla2F5VENhZFBvZW8xTzNjc2VjUE1FMURtQ0RJb2lFU0p3UFMxbjROUlhVWThkTXpUZE1XcUJVTXdyeWlFZnUtVlRxOURGc2dpbEhCM3piRTY3QXdKZDlHZEIxdnAybTR4N2M4TnA5RENYaGQzVXliZDVoUUR2SVlFSEZHRUlpbUFENnNGSHR6dWpSWF9NNjk1Xy1HT0J3TG5QTXZVMDFZOTN0RFZ4QVdFaDN3LVREODlpQ3RWeHRCVGl5YmJSQnVSV0E5STZwTVl5WnVSNUJYbGladW94Q1JzMUZZcWcwY293dnVDT0tHV0ZiQUV1aEdqd1oyYWd4X0ZPalhpZGZpOXR3RVB5R3E3LUdPUmtSYUNJNW5QV2pEMnFxU1hyWlhOVzYtQWtrYW0wamNsbU1HejBuMUpTdWVlcG8?oc=5
 - Pezeshkian: US Must Lift Sanctions, Threats Before Any Talks as Iran Distrusts Washington - Orinoco Tribune (1 headlines; single-source)
