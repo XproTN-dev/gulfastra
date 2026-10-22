@@ -1,0 +1,112 @@
+/* GULFASTRA X v13 — four fully selectable palettes.
+   Variables drive workspace surfaces; overrides remove legacy fixed blue slabs. */
+body[data-theme="crimson"]{
+ --bg:#050506;--panel:#0d0e11;--panel2:#151519;--raised:#232329;
+ --line:#353037;--ink:#f2eded;--muted:#b6a6aa;--dim:#8d787e;
+ --blue:#ff4055;--accent:#ff4055;--teal:#d4b0b0;--amber:#f6ad65;
+ --red:#fb5163;--purple:#c7a0b6;--surface-deep:#09090c;
+ --surface-stage:#090a0d;--surface-gradient:#211216;--card-top:#201519;
+ --card-bottom:#0f1014;--alert-surface:#2b1419;--badge-ink:#ffd5dc;
+ --map-bubble:#160a10;--grid-hint:#38252b;
+}
+body[data-theme="carbon"]{
+ --bg:#080a0d;--panel:#13171c;--panel2:#1b2229;--raised:#263541;
+ --line:#3b4852;--ink:#f1f2f4;--muted:#b6c3cc;--dim:#8295a1;
+ --blue:#f6b66c;--accent:#f6b66c;--teal:#85d3cf;--amber:#ffc179;
+ --red:#e27b7b;--purple:#bcb5db;--surface-deep:#0c1015;
+ --surface-stage:#0e161d;--surface-gradient:#283340;
+ --card-top:#263039;--card-bottom:#141c23;--alert-surface:#302519;
+ --badge-ink:#ffe6c7;--map-bubble:#171c21;--grid-hint:#2e4149;
+}
+body[data-theme="matrix"]{
+ --bg:#020a08;--panel:#07120e;--panel2:#0b2019;--raised:#10362a;
+ --line:#1c5941;--ink:#d5fae7;--muted:#91c7ad;--dim:#619a7c;
+ --blue:#57ed98;--accent:#57ed98;--teal:#7cffc2;--amber:#e6c76a;
+ --red:#fe8b83;--purple:#95bbdf;--surface-deep:#03100b;
+ --surface-stage:#04130e;--surface-gradient:#173d28;
+ --card-top:#113426;--card-bottom:#071b12;--alert-surface:#152b20;
+ --badge-ink:#cdffe0;--map-bubble:#061d12;--grid-hint:#1c4d38;
+}
+body[data-theme="arctic"]{
+ --bg:#eef2f6;--panel:#ffffff;--panel2:#e8eff5;--raised:#d9e7f3;
+ --line:#b9cbdc;--ink:#142335;--muted:#405971;--dim:#56738b;
+ --blue:#0c5e9d;--accent:#0c5e9d;--teal:#007e78;--amber:#a45d20;
+ --red:#b12c42;--purple:#684ba2;--surface-deep:#f9fbfd;
+ --surface-stage:#edf4f9;--surface-gradient:#deeaf5;
+ --card-top:#f9fbfd;--card-bottom:#e8f0f7;--alert-surface:#fff4e7;
+ --badge-ink:#14426b;--map-bubble:#f8fbff;--grid-hint:#c1d3e2;
+ color-scheme:light;
+}
+body[data-theme]{background:var(--bg);color:var(--ink)}
+body[data-theme] .lab-app{background:var(--bg)}
+body[data-theme] .lab-header,body[data-theme] .lab-metrics,
+body[data-theme] .lab-tabs,body[data-theme] .lab-controls,
+body[data-theme] .lab-context,body[data-theme] .lab-mobile-nav,
+body[data-theme] .lab-map-layers{background:var(--panel)}
+body[data-theme] .lab-stage,body[data-theme] .stage-content,
+body[data-theme] .lab-map-host{background:var(--surface-stage)}
+body[data-theme] .stage-header{background:linear-gradient(135deg,var(--surface-gradient),var(--surface-stage))}
+body[data-theme] .lab-status{background:var(--panel2)}
+body[data-theme] .lab-metrics b,body[data-theme] .cluster-title{color:var(--ink)}
+body[data-theme] .lab-brand b span,
+body[data-theme] .kicker,body[data-theme] .lab-tabs button.active,
+body[data-theme] .lab-key i,body[data-theme] .cluster-section-head button,
+body[data-theme] .cluster-back{color:var(--blue)}
+body[data-theme] .lab-tabs button.active{background:var(--panel2);border-bottom-color:var(--blue)}
+body[data-theme] .lab-header-buttons button,body[data-theme] .lab-back,
+body[data-theme] .stage-header button,body[data-theme] .graph-footer,
+body[data-theme] .graph-footer button,body[data-theme] .lab-controls select,
+body[data-theme] .graph-modes,body[data-theme] .graph-modes button.active,
+body[data-theme] .data-card,body[data-theme] .historical-card,
+body[data-theme] .brief-top,body[data-theme] .brief-row,
+body[data-theme] .chronology-item,body[data-theme] .pathway-row,
+body[data-theme] .relation-card,body[data-theme] .context-row,
+body[data-theme] .cluster-back{background:var(--panel2);color:var(--ink)}
+body[data-theme] .cluster-card{background:linear-gradient(155deg,var(--card-top),var(--card-bottom));border-color:var(--line)}
+body[data-theme] .cluster-card:hover,body[data-theme] .cluster-card:focus-visible{background:var(--raised);border-color:var(--blue)}
+body[data-theme] .cluster-headline{color:var(--muted)}
+body[data-theme] .cluster-uncertainty{background:var(--panel2);border-left-color:var(--blue)}
+body[data-theme] .cluster-uncertainty b{color:var(--ink)}
+body[data-theme] .cluster-drill-hero{background:linear-gradient(120deg,var(--surface-gradient),var(--panel));border-color:var(--line)}
+body[data-theme] .cluster-story{background:var(--panel2);border-color:var(--line);color:var(--ink)}
+body[data-theme] .cluster-story:hover{background:var(--raised);border-color:var(--blue)}
+body[data-theme] .relation-card:hover{background:var(--raised)}
+body[data-theme] .context-warning,body[data-theme] .risk-label{background:var(--alert-surface);color:var(--muted)}
+body[data-theme] .chart-svg{background:var(--surface-stage)}
+body[data-theme] .lab-map-toolbar button,
+body[data-theme] .lab-map-disclaimer,body[data-theme] .lab-map-fallback{background:var(--map-bubble);color:var(--ink);border-color:var(--line)}
+body[data-theme] .lab-map-fallback{color:var(--amber)}
+body[data-theme] .cluster-card .cluster-count,
+body[data-theme] .cluster-card .cluster-topic-icon{color:var(--cluster-color)}
+body[data-theme] .brief-row:hover,body[data-theme] .context-link:hover{background:var(--raised)}
+body[data-theme] .graph-modes button.active{color:var(--blue)}
+body[data-theme] .lab-mobile-nav button.active{color:var(--blue);box-shadow:inset 0 2px var(--blue)}
+body[data-theme] ::selection{background:var(--blue);color:var(--bg)}
+body[data-theme] button:focus-visible,body[data-theme] a:focus-visible,
+body[data-theme] select:focus-visible{outline-color:var(--blue)}
+body[data-theme="arctic"] .graph-badge{background:var(--panel2);border-color:var(--line);color:var(--ink)}
+body[data-theme="arctic"] .cluster-uncertainty{color:var(--muted)}
+body[data-theme="arctic"] .lab-status[data-level="delayed"]{background:#fff3e7}
+body[data-theme="arctic"] .lab-status[data-level="delayed"] span:first-child{color:#a24813}
+body[data-theme="arctic"] .cluster-card-bottom,body[data-theme="arctic"] .relation-footer{border-color:var(--line)}
+body[data-theme="arctic"] .context-link{border-color:var(--line);color:var(--blue)}
+body[data-theme="arctic"] .lab-map-stats{background:var(--panel)}
+body[data-theme="arctic"] .chart-svg .gridline{stroke:#a4bfd6}
+/* Theme selector: visible swatches and persistent selection, no pretend switch. */
+.theme-picker{display:flex;align-items:center;gap:7px;min-width:0}
+.theme-picker label{font:9px "IBM Plex Mono",monospace;color:var(--muted);white-space:nowrap}
+.theme-picker select{background:var(--panel2);color:var(--ink);border:1px solid var(--line);
+ border-radius:6px;min-height:33px;max-width:143px;padding:5px 7px;
+ font:10px "IBM Plex Mono",monospace;cursor:pointer}
+.theme-picker select:hover{border-color:var(--blue)}
+.theme-dot{height:11px;width:11px;flex:none;border-radius:50%;background:var(--blue);box-shadow:0 0 0 2px var(--line)}
+.theme-preview{display:flex;gap:6px;align-items:center;padding:11px 12px;background:var(--panel2);
+ border:1px solid var(--line);border-radius:6px;margin:4px 0 10px;
+ font:9px "IBM Plex Mono",monospace;color:var(--muted)}
+.theme-preview i{height:17px;width:17px;border-radius:50%;border:2px solid var(--line)}
+.theme-preview .swatch-red{background:#fa3d4f}.theme-preview .swatch-carbon{background:#e5a65d}
+.theme-preview .swatch-matrix{background:#50df99}.theme-preview .swatch-arctic{background:#e8f1fa}
+@media(max-width:950px){.theme-picker label{display:none}.theme-picker select{max-width:111px;font-size:9px}}
+@media(max-width:650px){.theme-picker select{max-width:98px;min-height:34px;padding:3px;font-size:8px}
+ .theme-picker{gap:4px}.theme-dot{width:8px;height:8px}.lab-header-buttons{gap:4px}}
+@media(max-width:365px){.theme-dot{display:none}.theme-picker select{max-width:77px}}
