@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-22T09:35:39.975299Z",
+  "generated_at": "2026-10-22T09:52:03.840226Z",
   "alerts": [
     {
       "id": "GF-99AFAD177AA7D7",
@@ -13,11 +13,15 @@
       "category": "security",
       "topic": "aviation",
       "outlet_count": 1,
-      "article_count": 2,
+      "article_count": 3,
       "source_urls": [
         {
           "name": "BBC Middle East RSS",
           "url": "https://www.bbc.co.uk/news/articles/cqwy71ww156ro?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "BBC",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1ZLXJNaS01NmN3UEpVbllOU1RXV3NOTGRHUWFIM0FCTlNScE5RTXBmTy1FS3VDVEI3Nnp4dk9mWDFINlBTQ0RNeUk5SXlKTG43UFc2OGtxTGNIZXd0OVE?oc=5"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
@@ -39,27 +43,6 @@
         {
           "name": "صحيفة الخليج",
           "url": "https://news.google.com/rss/articles/CBMi_gRBVV95cUxQU2puUWpNMDQ4U3dhOFpNQzRkQlRmNEhNamdZMkpIa05oUVVNeWMtRHNLMWJTWFBuM29SNkdNcVBvSTNIQU5aVUsxTGF0c3hkRzlCMXBHNGt3Mks1UzdsbWp5RWlEdXE3OWNPS0hibEtvTmlENWROVFNMenJ0ZGx0MnB3d1VkQlJUMFg5bEFKVHJUaWJGSVA2VkNGbjNjLXVyVWxVY3V4Z0FZdVlCOVhJYlJKWDdQNm9uaVZYcHA4MGZlOGo4eVJsSHdFeU0zbk5JYUphT3BRcURCVEYwTm5XTDh3Z0dRc1NrOC1IWnRleGJfTGZxTGl3V0ZwU0Qwck0xbHBkZHc0Ul9LTS1yN3hYTkd3Nm5QYkt6TGQ4ejE0MDZYTmFoQ29UZEFnWFFCd0hnUXA1MGFwZGM5N3VOVHl4Y0MtRFVBNDNTSGlYNVVTamI3SUV0dFdFX1JuUkFVZlZMY0hPVWFiZmNhcmRRM1FOT2I0RkxBRm1MeXVEMWRGOUppSkdsbjZHREhHTUViUFVCeks1Y2d4ZGdhUnhhdmZ5X0EwWm0tSGU3LWZQQWVub1VGYlRhYUdRX2NNLWdaRkp4MG1nMERxZUExSlNVWk9pWDlGV0hFWFpNYW5yVXAtWFp1bUdXdGR2WGM2UUpFTDBmeXBGZU00azlFTGVVa2VfSEtXTlRNdjdCbHNBbC1FdFY4NGtEMVp5YlhLNWpjZHpxeUJiczFGTlhSejcyU0tnaTQ1YmVyMjFnLVplTXNVZnVuNmxQOEJoMF8yeDNnbDVMVGhNNHFBLTJQTE52aXhJd2Q2cElqc0huQlZvaWJlMmVPZzJUSFM2bXFaa2lxdw?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-AFEA333491895B",
-      "level": "review",
-      "title": "Middle East latest: Two dead in attack on Dammam airport in Saudi Arabia - The National",
-      "published_at": "2026-10-22T07:44:10Z",
-      "countries": [
-        "Saudi"
-      ],
-      "category": "security",
-      "topic": "aviation",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "The National",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQ2R1cnowWHhzQXdZcXRMWGVEZU83YmJaLUE3bHk1b1hleDhCNmpwcVJDbEg0Zll0LWpjTkhwdE1qc3hUdTJYSjdmMFlMaml2eTBPeHVwWll2bVFsVDJ5REx0RHk3YllpeXZuVVc5enVhS2ZyazlYQ0xGQl9WV0NMM1l0eHM0QQ?oc=5"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",

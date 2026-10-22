@@ -1,9 +1,65 @@
 {
   "schema": 5,
-  "generated_at": "2026-10-22T09:35:38.976890Z",
+  "generated_at": "2026-10-22T09:52:02.824790Z",
   "model": "deterministic-source-correlation-v2-coverage-lifecycle",
   "disclaimer": "Clusters are related PUBLIC REPORTS, not confirmed incidents. Source counts are not proof. Country names are mentions, not incident locations.",
   "events": [
+    {
+      "id": "GF-D7FAA912D67662",
+      "title": "US Sanctions Companies, Individuals, and Nine Vessels Linked to Iran - IranWire",
+      "category": "transport",
+      "topic": "maritime",
+      "countries": [
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-22T09:22:30Z",
+      "last_published": "2026-10-22T09:22:30Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "f2ce1afe5b77c48e83fcda9a",
+          "title": "US Sanctions Companies, Individuals, and Nine Vessels Linked to Iran - IranWire",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMFBzN1VuMEQ0NGNHcXNVYnQ5UzdXdkc5by1vbXBLRV9pVXN6Q2twWE91QTktRDZvTEhEMmEwN05WNE1MTjdHTDBxT0p0WXg5V21LcUx4YWM1QWVlbHpGXzdNdi01NzZjaXEyclFlc2FYNE5TeDlTbVhINzVmT0NpbGxHNUs5QzdycGxwQk5wUTI2OHc0VVgyUTdpU2Q1VmxaWEo4MWhR?oc=5",
+          "source": "IranWire",
+          "publisher_key": "iranwire",
+          "provider": "Google News · diplomacy",
+          "published_at": "2026-10-22T09:22:30Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-22T09:27:47.332166Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Iran"
+        }
+      ],
+      "coverage_stage": "new-coverage",
+      "coverage_first_published_at": "2026-10-22T09:22:30Z",
+      "coverage_last_published_at": "2026-10-22T09:22:30Z",
+      "current_reporting": true,
+      "recent_publisher_count": 1,
+      "recent_article_count": 1,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "6e59167fc2e0d9d02120",
+      "revision": 2,
+      "updated_at": "2026-10-22T09:52:02.824790Z"
+    },
     {
       "id": "GF-99AFAD177AA7D7",
       "title": "Two killed in attack on airport in eastern Saudi Arabia, authorities say",
@@ -26,7 +82,7 @@
         "en"
       ],
       "publisher_count": 2,
-      "report_count": 2,
+      "report_count": 3,
       "first_published": "2026-10-21T23:23:00Z",
       "last_published": "2026-10-22T09:14:48Z",
       "event_occurred_at": null,
@@ -42,6 +98,20 @@
           "published_at": "2026-10-22T09:14:48Z",
           "date_quality": "publisher-time",
           "first_seen_at": "2026-10-22T09:27:47.332166Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Saudi"
+        },
+        {
+          "id": "a6df194af67296b6cb40e225",
+          "title": "Two killed in attack on airport in eastern Saudi Arabia, authorities say - BBC",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1ZLXJNaS01NmN3UEpVbllOU1RXV3NOTGRHUWFIM0FCTlNScE5RTXBmTy1FS3VDVEI3Nnp4dk9mWDFINlBTQ0RNeUk5SXlKTG43UFc2OGtxTGNIZXd0OVE?oc=5",
+          "source": "BBC",
+          "publisher_key": "bbc",
+          "provider": "Google News · security",
+          "published_at": "2026-10-22T09:14:48Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-22T09:51:53.199336Z",
           "collected_at": null,
           "language": "en",
           "country": "Saudi"
@@ -66,69 +136,13 @@
       "coverage_last_published_at": "2026-10-22T09:14:48Z",
       "current_reporting": true,
       "recent_publisher_count": 1,
-      "recent_article_count": 1,
+      "recent_article_count": 2,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "9ea4de0643af427e43f2",
-      "revision": 2,
-      "updated_at": "2026-10-22T09:27:55.353747Z"
-    },
-    {
-      "id": "GF-D7FAA912D67662",
-      "title": "US Sanctions Companies, Individuals, and Nine Vessels Linked to Iran - IranWire",
-      "category": "transport",
-      "topic": "maritime",
-      "countries": [
-        "Iran"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "en"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-22T09:07:37Z",
-      "last_published": "2026-10-22T09:07:37Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "f2ce1afe5b77c48e83fcda9a",
-          "title": "US Sanctions Companies, Individuals, and Nine Vessels Linked to Iran - IranWire",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMFBzN1VuMEQ0NGNHcXNVYnQ5UzdXdkc5by1vbXBLRV9pVXN6Q2twWE91QTktRDZvTEhEMmEwN05WNE1MTjdHTDBxT0p0WXg5V21LcUx4YWM1QWVlbHpGXzdNdi01NzZjaXEyclFlc2FYNE5TeDlTbVhINzVmT0NpbGxHNUs5QzdycGxwQk5wUTI2OHc0VVgyUTdpU2Q1VmxaWEo4MWhR?oc=5",
-          "source": "IranWire",
-          "publisher_key": "iranwire",
-          "provider": "Google News · diplomacy",
-          "published_at": "2026-10-22T09:07:37Z",
-          "date_quality": "publisher-time",
-          "first_seen_at": "2026-10-22T09:27:47.332166Z",
-          "collected_at": null,
-          "language": "en",
-          "country": "Iran"
-        }
-      ],
-      "coverage_stage": "new-coverage",
-      "coverage_first_published_at": "2026-10-22T09:07:37Z",
-      "coverage_last_published_at": "2026-10-22T09:07:37Z",
-      "current_reporting": true,
-      "recent_publisher_count": 1,
-      "recent_article_count": 1,
-      "incident_status": "unknown",
-      "event_occurrence_verified": false,
-      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "a0eb9009cd069c9b8075",
-      "revision": 1,
-      "updated_at": "2026-10-22T09:27:55.353747Z"
+      "digest": "55ac1fb89d5bfb1de671",
+      "revision": 3,
+      "updated_at": "2026-10-22T09:52:02.824790Z"
     },
     {
       "id": "GF-7E7EAAD3303D4F",
@@ -239,6 +253,119 @@
       "digest": "920c9a6e22d7fab70384",
       "revision": 1,
       "updated_at": "2026-10-22T09:27:55.353747Z"
+    },
+    {
+      "id": "GF-C3E8D7A46FC917",
+      "title": "US and Israel develop plans to attack Iran after the midterms - EL PAÍS English",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Iran",
+        "Israel"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-22T09:00:17Z",
+      "last_published": "2026-10-22T09:00:17Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "5fd28b06c58320cee39df5de",
+          "title": "US and Israel develop plans to attack Iran after the midterms - EL PAÍS English",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNekpKanUwWk0zNEpULWhPVVdOUlItQ0MxMGtpVWp6NHZ2dDU1ajl3SUEtQnBoMUF0SjFyVEQ3Tnpnd3lGRWhOWVBBM2U0T1JWWUdsV1NGVE9VWWExb3ZSeGlhbFBTLVVSTk1taXFzdG5FaEpnWGhsWmNwaXVCZVR3cEYwdmhtUzMxbURHdXpHMkNEclEzdy12UldKOHVTdUEydHpiRUFWR3lUS2h2ZjVYa0gtNlo5cnpFOFHSAc4BQVVfeXFMTmoyVTdNYVdtcEsyVkhpVi1kYWZwQjIycmFLVm5IZ3BpeXRFLVNVVEJ3ZTRFS0FPSEtrSzJlcG1uS1RFLWNEWFZnUkhhSlBudC1GeG9TNGw0d29JLXVJbEJOMnFfX281UUZwY3pKVl90SGYwRU9KaEJVbWJxUlRRa19YQTJIWU10OUtrVlhOdVhYR2Z0blVJNXNnNGREeG45YWttUGZheWRNdUhKT2tWZXhhS2FoSTVOaTlPbVlzQmM4dndiWlRZbTRxMXVza0E?oc=5",
+          "source": "EL PAÍS English",
+          "publisher_key": "el país english",
+          "provider": "Google News · security",
+          "published_at": "2026-10-22T09:00:17Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-22T09:51:53.199336Z",
+          "collected_at": null,
+          "language": "en",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "new-coverage",
+      "coverage_first_published_at": "2026-10-22T09:00:17Z",
+      "coverage_last_published_at": "2026-10-22T09:00:17Z",
+      "current_reporting": true,
+      "recent_publisher_count": 1,
+      "recent_article_count": 1,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "cfc9f9aac5c0cdd89d8b",
+      "revision": 1,
+      "updated_at": "2026-10-22T09:52:02.824790Z"
+    },
+    {
+      "id": "GF-532BAF3FB40475",
+      "title": "إيران تربك حسابات الكنيست.. تحذيرات من هجوم بتوقيت سياسي - العربية",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-22T08:58:00Z",
+      "last_published": "2026-10-22T08:58:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "7879e4af9d6343b322b20a5d",
+          "title": "إيران تربك حسابات الكنيست.. تحذيرات من هجوم بتوقيت سياسي - العربية",
+          "url": "https://news.google.com/rss/articles/CBMi3ANBVV95cUxQeDRpTlN6SW9FdTdDcnZzRHVaSTJ1eDYxRkJUUmZ0TlRLWlFrM2ZLa2xZVHRHODg3bzNSaE9ZQ1lJVExLZmkzNHl0VzV0cGFEalhrcG9PU04tSkJpX0tJb0dmVUYyR0hITnVXLTRVbkhrSkVZYllSLVkwRE91eFE5WDU4aEwzdmhuUG9SS3VHRVE5ME9GUTVGbDZIZWpFd21CeVZ0cTVYR3hLYkFRQl8yXzNuYVlreWNoQTdES0tWWl9DLXZGRVVhbmpfRUhwZnZPOEJScEIwZGl5TWk3STRfeDAzVGkwWDFCbDZFSWY2RkxLSlRPd0VUY1Zlb1BobDdUaWdHME5hWEtwNkMyTEpJU2V5NEdMN0o0Ql81U19GclY2OURIcEFNbHFHbEFKTUJIdnhiUGl1SVRMN1dpOHFpMElHNkZLeXN2Y2JMa1YxQWNwLUxXR1Zwb1BiYjQ3RlR2S1dOcUJwM0JFOWFTb3QxSFc4Qk1IZEdFbmUydjNFY255QWFHX3dxYjRCczJXQkI2ODFjU2s2NHlfNDY3QThnMm9SU3lqUkRwQi1IYW03cHN1UE1kemdyWVVoclBSUmpRNm9NTHlURGpRSDZrdk1jOHhkRC1uSmYzd0RHX9IB4gNBVV95cUxNRUw0bEpjN3o5RWJTV1ZyVkE0QUhoSFptOEdsdzVrYW9GcW9ONl9qR3Vwd3prSFZiVUptMWdsS0ZYYUNxTEJsZW5rQTVjemthNnYwZTdWZEpSZDNNX05Hd3pHNFRRS1JkWkc3N3RWa0EzTzVYdVpPNlA3RGs0WTJWY04ybURSNmlLM2lGc0tURmh0YmFmVFJxUHN6RFZkMElpbDFJblJjcG1ManA4dFRLb01RS2k3UVpIdzM4SlV6Tnk3SjdJRFFyU2RGbThpNXNPbndBOEhERFJsWE92MU9zUWY2Wk5ORVlUN3BtYV9wNjF6dFplSUxDQXBhMGRjOVBJNW02dVZyRl9oRWhSMEdhd2cwRFNUeHFyMFFEbldzUkNGMHI0aVNDQkxlMmtiYjJpci1UWU5rckx0a25OTUdQYzFhMm1zdUNHZTBfOTRMdElWZGFUdTdCZWFDSFNlc0QzUHpwRXVPOFVWOUZxZUwyOHl3ZEExLVpiS2FGNkduQk5VWWhZODhzOFNDSVdVOHBMeXdudm5mYVExRnBOY21EMXFEY3pPaGdjbGNjbEthc2tMNF9MX1RYWWRaWlNNRGtrWXVZYjZfODd6Qzh6engzZFcwVVpkSlhTZG9Kd0k1Nlh1QQ?oc=5",
+          "source": "العربية",
+          "publisher_key": "العربية",
+          "provider": "عربي · العربية",
+          "published_at": "2026-10-22T08:58:00Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-22T09:51:53.199336Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Iran"
+        }
+      ],
+      "coverage_stage": "new-coverage",
+      "coverage_first_published_at": "2026-10-22T08:58:00Z",
+      "coverage_last_published_at": "2026-10-22T08:58:00Z",
+      "current_reporting": true,
+      "recent_publisher_count": 1,
+      "recent_article_count": 1,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "643c11d7d153e5023edd",
+      "revision": 1,
+      "updated_at": "2026-10-22T09:52:02.824790Z"
     },
     {
       "id": "GF-46A4251EB678FB",
@@ -519,6 +646,62 @@
       "updated_at": "2026-10-22T09:27:55.353747Z"
     },
     {
+      "id": "GF-A95391E4249BE1",
+      "title": "الطيران المدني السعودي يعلن استئناف العمليات في مطار الدمام - الشرق للأخبار",
+      "category": "transport",
+      "topic": "aviation",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-22T08:04:21Z",
+      "last_published": "2026-10-22T08:04:21Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "4ecbc690761f6aaa0f262245",
+          "title": "الطيران المدني السعودي يعلن استئناف العمليات في مطار الدمام - الشرق للأخبار",
+          "url": "https://news.google.com/rss/articles/CBMi7wNBVV95cUxQOEhMeHVIeldacEpUSTBMRXZKd3RrTE8ydDBCYVNBOFRUbC1SNnRfX0FLZm1RTVBXakpGcEs2OERaZWIwYURKZk85cUFPa25XSE1ieFltbklIUzdNcW51aThNUXRuODdIQkxMeUp2cHlCWjZqTmVjZEVJR1hGNUw4UVJXZ2tYLUcyNGtJbzdrWG9UMHlYaVd6aVdfcU10cXR5LVFLMmZ3RnVfUk9HUUtvZ1dXUmFxME51bnlVQUxFcW5kM0x0R0N3cmFuX21PNDZPSkFUVzEyRFdER0x5UkZJeEFMLXZZUDdlcGVpcnpkektSSDFQMk84b3ZUODZtNk1HWXhOR0k2UXdfOS13VVpOaW9fT1NZeTFxbVlMTXRkSDA0dTJGbzlzeGRfLXZ3ZVh0aFZjZU12d0tGNlMzUGMxVHdfekFTVmRfSUw0SFIyZzFkbEdvTDZPVmRsOW5MZHI2amFwczVkc3dOc2tUQ3ByY1NFckFucGJqMUhVZ1dlUHlWSEJsZUFUR1pNTUpnVmJIRWc5YlE3U0R6d3ZiVVV5MW9saFg4N3ZTNDltOFFaOHg3M1p2SGIyZlV3OW5BTmNuQUNCNUJsRUdMaWctcGdGcXIwT1pYckI5UG8tdjBPY0NnYzFPcm1QWmlWVHRmcTQ?oc=5",
+          "source": "الشرق للأخبار",
+          "publisher_key": "الشرق للأخبار",
+          "provider": "عربي · الشرق",
+          "published_at": "2026-10-22T08:04:21Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-22T09:51:53.199336Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Saudi"
+        }
+      ],
+      "coverage_stage": "new-coverage",
+      "coverage_first_published_at": "2026-10-22T08:04:21Z",
+      "coverage_last_published_at": "2026-10-22T08:04:21Z",
+      "current_reporting": true,
+      "recent_publisher_count": 1,
+      "recent_article_count": 1,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "88d2ae7c02031421e56b",
+      "revision": 1,
+      "updated_at": "2026-10-22T09:52:02.824790Z"
+    },
+    {
       "id": "GF-9018B56B4CD795",
       "title": "'4 Ships Bombed, 3 Hit Mines': Iran's Deadly Assault On Hormuz Shipping | WATCH - The Times of India",
       "category": "transport",
@@ -731,18 +914,18 @@
           "country": "Saudi"
         }
       ],
-      "coverage_stage": "new-coverage",
+      "coverage_stage": "recent-coverage",
       "coverage_first_published_at": "2026-10-22T07:44:10Z",
       "coverage_last_published_at": "2026-10-22T07:44:10Z",
-      "current_reporting": true,
-      "recent_publisher_count": 1,
-      "recent_article_count": 1,
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "a09603c72b7ee4ae4cd0",
-      "revision": 2,
-      "updated_at": "2026-10-22T09:27:55.353747Z"
+      "digest": "45decab3819170b59d2a",
+      "revision": 3,
+      "updated_at": "2026-10-22T09:52:02.824790Z"
     },
     {
       "id": "GF-283E288EB377F2",
@@ -787,18 +970,18 @@
           "country": "Iran"
         }
       ],
-      "coverage_stage": "new-coverage",
+      "coverage_stage": "recent-coverage",
       "coverage_first_published_at": "2026-10-22T07:43:00Z",
       "coverage_last_published_at": "2026-10-22T07:43:00Z",
-      "current_reporting": true,
-      "recent_publisher_count": 1,
-      "recent_article_count": 1,
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "41142a253ff46e1765ae",
-      "revision": 1,
-      "updated_at": "2026-10-22T09:27:55.353747Z"
+      "digest": "63ae40f7685c8030128e",
+      "revision": 2,
+      "updated_at": "2026-10-22T09:52:02.824790Z"
     },
     {
       "id": "GF-8B85A405DB4BBA",
@@ -843,18 +1026,18 @@
           "country": "Iran"
         }
       ],
-      "coverage_stage": "new-coverage",
+      "coverage_stage": "recent-coverage",
       "coverage_first_published_at": "2026-10-22T07:43:00Z",
       "coverage_last_published_at": "2026-10-22T07:43:00Z",
-      "current_reporting": true,
-      "recent_publisher_count": 1,
-      "recent_article_count": 1,
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "a028028d7fac0a175c53",
-      "revision": 1,
-      "updated_at": "2026-10-22T09:27:55.353747Z"
+      "digest": "8171d81178339826812d",
+      "revision": 2,
+      "updated_at": "2026-10-22T09:52:02.824790Z"
     },
     {
       "id": "GF-BB9A242BFED0D4",
@@ -2637,6 +2820,62 @@
       "updated_at": "2026-10-22T09:27:55.353747Z"
     },
     {
+      "id": "GF-83FA34F788E3CA",
+      "title": "US troops evacuate bases across Middle East due to ongoing threats as Trump mulls major strike on Iran - Daily Mail",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-22T04:48:23Z",
+      "last_published": "2026-10-22T04:48:23Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "cf667eda9eded823739913a9",
+          "title": "US troops evacuate bases across Middle East due to ongoing threats as Trump mulls major strike on Iran - Daily Mail",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQ192b3VQWkl6N015NXFZeVRWRXBoeElsUDZMdnh2RmlnSmxxWG9CVTJUMTFadHpTQUxjaGhuRDJTd3dzUDRmRzlVR3N3QUthUktoSTZ2NVJ2VmJ6QUJsRGJxNTUwWlVHZU9EZkNlODFzSDNreF9pYjNmdzd5OWM3S0JIbUdxYk9HRjA1Y1U3U0JMY1RtNzBoSFN30gGfAUFVX3lxTE9NOEFxODByTGktOFoxdjh6RlJISzY2NjhxSjRhbDluTEEwem9wVlAxT1dqTzZNU0ZUMjBGYWlyd015UmM5Zk4wY0dXcElRbXlCVEw2aTZCTWhoWGdwaDV2Zkh4UWRNOWVWWDBUSnE5eHNpOVh2YXVvWGJaRHY1M3Ryd3pZd1ZsRzNVYV9NQWVUWnQzTGF5aGZzeUhYcFM2MA?oc=5",
+          "source": "Daily Mail",
+          "publisher_key": "daily mail",
+          "provider": "Google News · security",
+          "published_at": "2026-10-22T04:48:23Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-22T09:51:53.199336Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Iran"
+        }
+      ],
+      "coverage_stage": "recent-coverage",
+      "coverage_first_published_at": "2026-10-22T04:48:23Z",
+      "coverage_last_published_at": "2026-10-22T04:48:23Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "38b1db15f212dfb8115a",
+      "revision": 1,
+      "updated_at": "2026-10-22T09:52:02.824790Z"
+    },
+    {
       "id": "GF-087E0423A6910C",
       "title": "الحرس الثوري الإيراني: إصابة 7 سفن في الخليج ومضيق هرمز والتهديد باستهداف قواعد أمريكية - صدى البلد",
       "category": "security",
@@ -3038,6 +3277,62 @@
       "digest": "32e429b99cdb2e5e5aaf",
       "revision": 2,
       "updated_at": "2026-10-22T09:27:55.353747Z"
+    },
+    {
+      "id": "GF-0AD0139CC7C620",
+      "title": "Houthis deny Medina drone attack as Saudi Arabia raises alert - IDNFinancials",
+      "category": "security",
+      "topic": "drone",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-22T04:20:00Z",
+      "last_published": "2026-10-22T04:20:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "c53b2b78ebe44f1020f98897",
+          "title": "Houthis deny Medina drone attack as Saudi Arabia raises alert - IDNFinancials",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZ1RLVTJ0UXRVQy1tNUNsQnlINWEwMkdMSm5Wc19YSUxrUEhrUlZ5OUU5Sm5sWTlGb3VyZWdwanQ3U2gyakMwMmFFa3Z0OUZhajZsTjkxcW1va2FOaWx1Qmc5TjZvck44M2hwMnFtbTBpQzhIdHhKRmVaTTkxZFktOVhxUnJpMTJtbUhibUp1aWlLdFF3dWVLeVQyaTBRSTI0WnhKRA?oc=5",
+          "source": "IDNFinancials",
+          "publisher_key": "idnfinancials",
+          "provider": "Google News · security",
+          "published_at": "2026-10-22T04:20:00Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-22T09:51:53.199336Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Saudi"
+        }
+      ],
+      "coverage_stage": "recent-coverage",
+      "coverage_first_published_at": "2026-10-22T04:20:00Z",
+      "coverage_last_published_at": "2026-10-22T04:20:00Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "89dbe887be782b626c9a",
+      "revision": 1,
+      "updated_at": "2026-10-22T09:52:02.824790Z"
     },
     {
       "id": "GF-F15C180F2AD53B",
@@ -3824,6 +4119,63 @@
       "updated_at": "2026-10-22T09:27:55.353747Z"
     },
     {
+      "id": "GF-193B547FA8F1D6",
+      "title": "US, Israel plan renewed Iran strikes after midterm elections, step up military exercises: sources - The Business Times",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Iran",
+        "Israel"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-22T01:35:00Z",
+      "last_published": "2026-10-22T01:35:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "adfc5207959743807a082f08",
+          "title": "US, Israel plan renewed Iran strikes after midterm elections, step up military exercises: sources - The Business Times",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPM2w3SE9DN3JOWWtOeW5MbWdrdEZDSXVLSkJ1d0FDVW9PWW1JYzVzYXRMVm1JQ1Bkc2oyWm1aSFBtME1nM3c0NUp6SV9ZcjZDaXhGYlFZazlUdFlFZUx0aVM3enZucG1qa2JDY0xyOVhwNWxDUV9YWjBhTGJrdWRac2E5QU9na0RFRHl3SV9VZFlFTkc1ZjdaaGRwMzIzcjdhYXBzblZVeWVSOVFya0pmX0o2R2RBbDNLQms1RXZ0LU5UU0FOTTdOQ1J3eWlUUDMtUmVONg?oc=5",
+          "source": "The Business Times",
+          "publisher_key": "the business times",
+          "provider": "Google News · security",
+          "published_at": "2026-10-22T01:35:00Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-22T09:51:53.199336Z",
+          "collected_at": null,
+          "language": "en",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "recent-coverage",
+      "coverage_first_published_at": "2026-10-22T01:35:00Z",
+      "coverage_last_published_at": "2026-10-22T01:35:00Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "fca2192f846472d50281",
+      "revision": 1,
+      "updated_at": "2026-10-22T09:52:02.824790Z"
+    },
+    {
       "id": "GF-B78BCDB391641B",
       "title": "Middle East latest: Pezeshkian says US must recognise Iran's rights before talks can resume - The National",
       "category": "diplomacy",
@@ -3992,6 +4344,62 @@
       "digest": "e0feadcee631fd1317cc",
       "revision": 1,
       "updated_at": "2026-10-22T09:27:55.353747Z"
+    },
+    {
+      "id": "GF-1B87E73ADA8D6E",
+      "title": "How the Mecca defense agreement between Turkey, Pakistan and Saudi Arabia will work - WRAL",
+      "category": "diplomacy",
+      "topic": "regional",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-22T00:49:08Z",
+      "last_published": "2026-10-22T00:49:08Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "16b388ea87e04d6e088d7d6f",
+          "title": "How the Mecca defense agreement between Turkey, Pakistan and Saudi Arabia will work - WRAL",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSEN4N1BtdjV4RW9CTWp5TXAwRWYtWEZZR2VpQTI2MGFueFpZTUpfVGdzTkJ5dFBzMmRfUmRQSFBxQV9pdDhocnFYYUxsVDRybmI3WjFUVFJyYmJ5d0cwc2pFM0NMUGQtWU5ld3Vpdi1zdWNNQV83MVRaTXRvUDRrblpRdVBGNWtVUDRNQlREMzV0N010QloyY0g4WE9SS294TUR4cDZfRmN1VnlkRXpYVkgxNzZ2RnZ5TUE?oc=5",
+          "source": "WRAL",
+          "publisher_key": "wral",
+          "provider": "Google News · security",
+          "published_at": "2026-10-22T00:49:08Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-22T09:51:53.199336Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Saudi"
+        }
+      ],
+      "coverage_stage": "recent-coverage",
+      "coverage_first_published_at": "2026-10-22T00:49:08Z",
+      "coverage_last_published_at": "2026-10-22T00:49:08Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "b3fa4e2af3d2fcec3836",
+      "revision": 1,
+      "updated_at": "2026-10-22T09:52:02.824790Z"
     },
     {
       "id": "GF-17348D6F723578",
@@ -15821,7 +16229,7 @@
           "country": "Saudi"
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-10-21T09:49:16Z",
       "coverage_last_published_at": "2026-10-21T09:49:16Z",
       "current_reporting": false,
@@ -15830,9 +16238,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "08fa076ff8eb0d2f7fac",
-      "revision": 1,
-      "updated_at": "2026-10-21T14:42:13.409373Z"
+      "digest": "d6065a2995e3d290991c",
+      "revision": 2,
+      "updated_at": "2026-10-22T09:52:02.824790Z"
     },
     {
       "id": "GF-27820F48F0A11C",
@@ -15877,7 +16285,7 @@
           "country": "Israel"
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-10-21T09:48:34Z",
       "coverage_last_published_at": "2026-10-21T09:48:34Z",
       "current_reporting": false,
@@ -15886,9 +16294,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "aac2093772f99f83bbbb",
-      "revision": 2,
-      "updated_at": "2026-10-21T18:59:15.820927Z"
+      "digest": "1952b5bc5eef35f09a55",
+      "revision": 3,
+      "updated_at": "2026-10-22T09:52:02.824790Z"
     },
     {
       "id": "GF-CFBA57D38EB026",
@@ -15933,7 +16341,7 @@
           "country": "Qatar"
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-10-21T09:47:34Z",
       "coverage_last_published_at": "2026-10-21T09:47:34Z",
       "current_reporting": false,
@@ -15942,9 +16350,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "6d978808d3d6a8d363cc",
-      "revision": 1,
-      "updated_at": "2026-10-21T22:16:40.668024Z"
+      "digest": "e49e91ec4516d4be0046",
+      "revision": 2,
+      "updated_at": "2026-10-22T09:52:02.824790Z"
     },
     {
       "id": "GF-300A3B5EC70F73",
@@ -15989,7 +16397,7 @@
           "country": "Qatar"
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-10-21T09:47:01Z",
       "coverage_last_published_at": "2026-10-21T09:47:01Z",
       "current_reporting": false,
@@ -15998,9 +16406,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "2683e43198930e71b239",
-      "revision": 2,
-      "updated_at": "2026-10-21T18:59:15.820927Z"
+      "digest": "7711bae4c914ea69fb02",
+      "revision": 3,
+      "updated_at": "2026-10-22T09:52:02.824790Z"
     },
     {
       "id": "GF-4239ED2134D17A",
@@ -16043,7 +16451,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-10-21T09:46:12Z",
       "coverage_last_published_at": "2026-10-21T09:46:12Z",
       "current_reporting": false,
@@ -16052,9 +16460,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "cb8c3dca5241fbc09f26",
-      "revision": 1,
-      "updated_at": "2026-10-22T09:35:38.976890Z"
+      "digest": "cfa845d06a14689f0c26",
+      "revision": 2,
+      "updated_at": "2026-10-22T09:52:02.824790Z"
     },
     {
       "id": "GF-95401A8BFF02EB",
@@ -16114,7 +16522,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-10-21T08:32:46Z",
       "coverage_last_published_at": "2026-10-21T09:43:38Z",
       "current_reporting": false,
@@ -16123,9 +16531,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "5405e127ff1566148267",
-      "revision": 1,
-      "updated_at": "2026-10-21T22:16:40.668024Z"
+      "digest": "839747a84820653f52e5",
+      "revision": 2,
+      "updated_at": "2026-10-22T09:52:02.824790Z"
     },
     {
       "id": "GF-C1729EB04D2C4D",
@@ -16171,7 +16579,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-10-21T09:40:20Z",
       "coverage_last_published_at": "2026-10-21T09:40:20Z",
       "current_reporting": false,
@@ -16180,9 +16588,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "3b4bab2a136a3574ed18",
-      "revision": 6,
-      "updated_at": "2026-10-22T09:28:28.100510Z"
+      "digest": "b42444082d28f95982a5",
+      "revision": 7,
+      "updated_at": "2026-10-22T09:52:02.824790Z"
     },
     {
       "id": "GF-D2461A08AB86A2",
@@ -16227,7 +16635,7 @@
           "country": "Iran"
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-10-21T09:40:07Z",
       "coverage_last_published_at": "2026-10-21T09:40:07Z",
       "current_reporting": false,
@@ -16236,9 +16644,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "f4ee196ff2db80eb24e5",
-      "revision": 1,
-      "updated_at": "2026-10-21T14:42:13.409373Z"
+      "digest": "67383f2fa40cbb5ddd2a",
+      "revision": 2,
+      "updated_at": "2026-10-22T09:52:02.824790Z"
     },
     {
       "id": "GF-A0B2354E0C5709",
@@ -16312,7 +16720,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-10-21T08:07:00Z",
       "coverage_last_published_at": "2026-10-21T09:39:53Z",
       "current_reporting": false,
@@ -16321,9 +16729,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "583f0b79503aa85f7bb7",
-      "revision": 2,
-      "updated_at": "2026-10-21T14:42:13.409373Z"
+      "digest": "1534c9c055c21907829d",
+      "revision": 3,
+      "updated_at": "2026-10-22T09:52:02.824790Z"
     },
     {
       "id": "GF-2BA15F5FDB9C63",
@@ -21715,7 +22123,7 @@
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQXBXMWdNYVRIU0pDdjdkTnZLOEhXdnE0dW9UYkl6NjVpcDRlWEE0MHoxS2VObkNYSjJsbzJCMkVxNlZaTHplRmV3aEtrMFNueEtRT1RreXNtLVhvNWoxVExlalo5UW9zU0hrQVhOMzBRZjhQMjRFNWN4SVduaTJ5Yi1uNE1sbjlBLThsZnln?oc=5",
           "source": "CBS News",
           "publisher_key": "cbs news",
-          "provider": "Google News · security",
+          "provider": "Google News · diplomacy",
           "published_at": "2026-10-21T00:58:00Z",
           "date_quality": "publisher-time",
           "first_seen_at": "2026-10-21T18:59:06.569317Z",
@@ -21733,9 +22141,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "167a1b3aa972108f8d40",
-      "revision": 3,
-      "updated_at": "2026-10-22T09:35:38.976890Z"
+      "digest": "5d1aac41089f354c38f2",
+      "revision": 4,
+      "updated_at": "2026-10-22T09:52:02.824790Z"
     },
     {
       "id": "GF-28AD030B0B1861",
@@ -27450,7 +27858,7 @@
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdC0ycGFnNTJocHZWRnZadHBUX19pM29QN0dXbzFMSkM2VW1tZzg2djd5WXNZOHJCYWsyeVk5SzFfZl84aVlSUW5fN09tVzB5SkNnazlCODhGU0FwbDRXYVNfc1BJS0QteTFyb3B6a05xSEVYZUU5WWdvM0hiYzVGV20yUzF0Vml1dmJyMG96V1dPbmFGZUxfNW1DTnlVTGl1UTI0ZUpyb09pNTBNc0t3?oc=5",
           "source": "Al-Monitor",
           "publisher_key": "al monitor",
-          "provider": "Google News · missiles/drones",
+          "provider": "Google News · shipping",
           "published_at": "2026-10-20T16:58:40Z",
           "date_quality": "publisher-time",
           "first_seen_at": "2026-10-20T17:30:36.865670Z",
@@ -27468,9 +27876,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "90c5524c3418a3547cc4",
-      "revision": 7,
-      "updated_at": "2026-10-22T09:35:38.976890Z"
+      "digest": "7cf71ac7440408e036f6",
+      "revision": 8,
+      "updated_at": "2026-10-22T09:52:02.824790Z"
     },
     {
       "id": "GF-9C2C1B17F64E42",
@@ -57763,7 +58171,7 @@
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1zNl9zdG1hb2kzUnMxdnIwNDN6MjZtTHdYcEpnOGhyU2JaVnVzTm9jVWwzUVJSYWI5VmZla0FqMVlJaWZOdGxnWjdFMVQxZDRGTFE?oc=5",
           "source": "Iran International",
           "publisher_key": "iran international",
-          "provider": "Google News · missiles/drones",
+          "provider": "Google News · diplomacy",
           "published_at": "2026-10-19T01:31:23Z",
           "date_quality": "publisher-time",
           "first_seen_at": "2026-10-20T12:09:48.504938Z",
@@ -57781,9 +58189,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "ade8dbc90a9ca9ffbb24",
-      "revision": 9,
-      "updated_at": "2026-10-22T09:35:38.976890Z"
+      "digest": "6fa69e617074ad889965",
+      "revision": 10,
+      "updated_at": "2026-10-22T09:52:02.824790Z"
     },
     {
       "id": "GF-08FDDC2E14FCDD",
@@ -77612,7 +78020,7 @@
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQVlGa1lUdkZRb3JRU3NWRS1jeExIdWIzZDVWLU1sZW0tdlp6a25TMHpmUUluOUFUS3A2UGN4NFdRM1A4WlQ2ejctSmhUQm9jR051Wml3cG1qaFZoX0N0SDRFNHN6YWlNUTZIUlpVS0g1UnhVc1BQVkdWUHRXSWJZVlphX2dVV3RtdUZFRWhiSzhsaXFPbjhoZnNiS0VFbEE?oc=5",
           "source": "The New York Times",
           "publisher_key": "the new york times",
-          "provider": "Google News · security",
+          "provider": "Google News · missiles/drones",
           "published_at": "2026-10-17T04:07:23Z",
           "date_quality": "publisher-time",
           "first_seen_at": "2026-10-20T12:09:48.504938Z",
@@ -77630,9 +78038,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "286eae9108a3ea84a643",
-      "revision": 15,
-      "updated_at": "2026-10-22T05:29:07.183809Z"
+      "digest": "a7c124fb5ad22de1bfa0",
+      "revision": 16,
+      "updated_at": "2026-10-22T09:52:02.824790Z"
     },
     {
       "id": "GF-53EE160270EDE3",
@@ -93784,7 +94192,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-10-15T09:49:26Z",
       "coverage_last_published_at": "2026-10-15T09:49:26Z",
       "current_reporting": false,
@@ -93793,9 +94201,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "49a81f35776ca2ec2f18",
-      "revision": 1,
-      "updated_at": "2026-10-20T17:36:38.611766Z"
+      "digest": "ed82e6d77fde1d587b37",
+      "revision": 2,
+      "updated_at": "2026-10-22T09:52:02.824790Z"
     },
     {
       "id": "GF-291D074FBDCE3C",
@@ -113138,18 +113546,18 @@
   ],
   "country_stats": {
     "Iran": {
-      "events": 672,
-      "reports": 749,
-      "security_coverage": 412,
+      "events": 676,
+      "reports": 753,
+      "security_coverage": 416,
       "transport_coverage": 147,
-      "sources": 280
+      "sources": 283
     },
     "Saudi": {
-      "events": 746,
-      "reports": 803,
-      "security_coverage": 584,
-      "transport_coverage": 125,
-      "sources": 335
+      "events": 749,
+      "reports": 807,
+      "security_coverage": 585,
+      "transport_coverage": 126,
+      "sources": 336
     },
     "Qatar": {
       "events": 87,
@@ -113201,11 +113609,11 @@
       "sources": 171
     },
     "Israel": {
-      "events": 86,
-      "reports": 95,
-      "security_coverage": 64,
+      "events": 88,
+      "reports": 97,
+      "security_coverage": 66,
       "transport_coverage": 10,
-      "sources": 55
+      "sources": 57
     }
   },
   "daily_coverage": {
@@ -113226,96 +113634,160 @@
     "2026-10-19": 242,
     "2026-10-20": 388,
     "2026-10-21": 314,
-    "2026-10-22": 73
+    "2026-10-22": 80
   },
   "revisions": [
     {
-      "id": "GF-AFB660A9F27748",
-      "revision": 3,
-      "at": "2026-10-22T09:35:38.976890Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-CFC9044395B7D9",
-      "revision": 3,
-      "at": "2026-10-22T09:35:38.976890Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 3
-    },
-    {
-      "id": "GF-96AE14DC07ECE7",
-      "revision": 3,
-      "at": "2026-10-22T09:35:38.976890Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 4,
-      "new_source_count": 5
-    },
-    {
-      "id": "GF-2CD41B492CC55D",
-      "revision": 4,
-      "at": "2026-10-22T09:35:38.976890Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-A41D8DCC8418B9",
-      "revision": 3,
-      "at": "2026-10-22T09:35:38.976890Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-D102B90FE7780C",
-      "revision": 3,
-      "at": "2026-10-22T09:35:38.976890Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-D7DD6151C39BE8",
+      "id": "GF-D7FAA912D67662",
       "revision": 2,
-      "at": "2026-10-22T09:35:38.976890Z",
+      "at": "2026-10-22T09:52:02.824790Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-99AFAD177AA7D7",
+      "revision": 3,
+      "at": "2026-10-22T09:52:02.824790Z",
       "change": "published-source-set-updated",
       "previous_source_count": 2,
       "new_source_count": 3
     },
     {
-      "id": "GF-8BF483DBF51CE0",
-      "revision": 7,
-      "at": "2026-10-22T09:35:38.976890Z",
+      "id": "GF-AFEA333491895B",
+      "revision": 3,
+      "at": "2026-10-22T09:52:02.824790Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-14FE6602BB9047",
-      "revision": 18,
-      "at": "2026-10-22T09:35:38.976890Z",
+      "id": "GF-283E288EB377F2",
+      "revision": 2,
+      "at": "2026-10-22T09:52:02.824790Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-8B85A405DB4BBA",
+      "revision": 2,
+      "at": "2026-10-22T09:52:02.824790Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-C33E9B09CB16F6",
+      "revision": 2,
+      "at": "2026-10-22T09:52:02.824790Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-27820F48F0A11C",
+      "revision": 3,
+      "at": "2026-10-22T09:52:02.824790Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-CFBA57D38EB026",
+      "revision": 2,
+      "at": "2026-10-22T09:52:02.824790Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-300A3B5EC70F73",
+      "revision": 3,
+      "at": "2026-10-22T09:52:02.824790Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-4239ED2134D17A",
+      "revision": 2,
+      "at": "2026-10-22T09:52:02.824790Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-95401A8BFF02EB",
+      "revision": 2,
+      "at": "2026-10-22T09:52:02.824790Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 2,
+      "new_source_count": 2
+    },
+    {
+      "id": "GF-C1729EB04D2C4D",
+      "revision": 7,
+      "at": "2026-10-22T09:52:02.824790Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-D2461A08AB86A2",
+      "revision": 2,
+      "at": "2026-10-22T09:52:02.824790Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-A0B2354E0C5709",
+      "revision": 3,
+      "at": "2026-10-22T09:52:02.824790Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 3,
+      "new_source_count": 3
+    },
+    {
+      "id": "GF-D102B90FE7780C",
+      "revision": 4,
+      "at": "2026-10-22T09:52:02.824790Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-8BF483DBF51CE0",
+      "revision": 8,
+      "at": "2026-10-22T09:52:02.824790Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
       "id": "GF-73DC4829A050DE",
-      "revision": 9,
-      "at": "2026-10-22T09:35:38.976890Z",
+      "revision": 10,
+      "at": "2026-10-22T09:52:02.824790Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-E482AE0449C78B",
-      "revision": 4,
-      "at": "2026-10-22T09:35:38.976890Z",
+      "id": "GF-7B0E21F2D20604",
+      "revision": 16,
+      "at": "2026-10-22T09:52:02.824790Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
-      "new_source_count": 2
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-19CD5C48BA8FFB",
+      "revision": 2,
+      "at": "2026-10-22T09:52:02.824790Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
     }
   ]
 }

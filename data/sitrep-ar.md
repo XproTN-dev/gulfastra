@@ -1,15 +1,19 @@
 # موجز جلفاسترا للمصادر العلنية
 الفترة: آخر 24 ساعة (حسب وقت نشر التقارير)
 
-مجموعات التغطية: 285 | عناوين مرتبطة: 308
+مجموعات التغطية: 283 | عناوين مرتبطة: 304
 هذه تقارير صحفية وليست أحداثا مؤكدة، ولا تعتبر توجيهات سلامة رسمية.
 
-## Security (180 coverage groups)
-- Two killed in attack on airport in eastern Saudi Arabia, authorities say (2 headlines; multi-publisher-unverified)
+## Security (177 coverage groups)
+- Two killed in attack on airport in eastern Saudi Arabia, authorities say (3 headlines; multi-publisher-unverified)
   - BBC Middle East RSS: https://www.bbc.co.uk/news/articles/cqwy71ww156ro?at_medium=RSS&at_campaign=rss
-  - AP News: https://news.google.com/rss/articles/CBMioAFBVV95cUxQaXo0Nk1pSDFVdkZGeEp4TGZobnBPS2FpdVlORlptNFFhWnp4SG1UQk9icEhXYTNUSzEtUXVoSEwxZUMtc0Z3cG1lQWJsS3I5TE9JLVJiRnlYTXczSkZfd2E0dFdVNDctZkR1emhpNmc5bF9SMXA2cHhwU3pPOVRkZ090MUVnLWU5NHd5TjN6NnN3S0poLThpYlpzLWFqNHdv?oc=5
+  - BBC: https://news.google.com/rss/articles/CBMiXkFVX3lxTE1ZLXJNaS01NmN3UEpVbllOU1RXV3NOTGRHUWFIM0FCTlNScE5RTXBmTy1FS3VDVEI3Nnp4dk9mWDFINlBTQ0RNeUk5SXlKTG43UFc2OGtxTGNIZXd0OVE?oc=5
 - Emirates cancel Dammam flights after airport attack - Arabian Business (1 headlines; single-source)
   - Arabian Business: https://news.google.com/rss/articles/CBMipAFBVV95cUxPLU5YajVSUjFKNERSbElnaVpaTW5PMzBiZk9DZ09qazRwdUpxWXpzZHFCVm5YWnB4ZzBkRjU1cnJsQVJQRF9BOWtNSWM5WEFkaUZYNnRKTmo3Z21VOFlRdzdrVTA2SU5xRjJwTjZGUEhNWm85U0x5M3BFNmdtTE01a0pHTllKdGxoSzkwZHQxdGtNb3NBOWstSjFhem1FcnlZRjAzTg?oc=5
+- US and Israel develop plans to attack Iran after the midterms - EL PAÍS English (1 headlines; single-source)
+  - EL PAÍS English: https://news.google.com/rss/articles/CBMiugFBVV95cUxNekpKanUwWk0zNEpULWhPVVdOUlItQ0MxMGtpVWp6NHZ2dDU1ajl3SUEtQnBoMUF0SjFyVEQ3Tnpnd3lGRWhOWVBBM2U0T1JWWUdsV1NGVE9VWWExb3ZSeGlhbFBTLVVSTk1taXFzdG5FaEpnWGhsWmNwaXVCZVR3cEYwdmhtUzMxbURHdXpHMkNEclEzdy12UldKOHVTdUEydHpiRUFWR3lUS2h2ZjVYa0gtNlo5cnpFOFHSAc4BQVVfeXFMTmoyVTdNYVdtcEsyVkhpVi1kYWZwQjIycmFLVm5IZ3BpeXRFLVNVVEJ3ZTRFS0FPSEtrSzJlcG1uS1RFLWNEWFZnUkhhSlBudC1GeG9TNGw0d29JLXVJbEJOMnFfX281UUZwY3pKVl90SGYwRU9KaEJVbWJxUlRRa19YQTJIWU10OUtrVlhOdVhYR2Z0blVJNXNnNGREeG45YWttUGZheWRNdUhKT2tWZXhhS2FoSTVOaTlPbVlzQmM4dndiWlRZbTRxMXVza0E?oc=5
+- إيران تربك حسابات الكنيست.. تحذيرات من هجوم بتوقيت سياسي - العربية (1 headlines; single-source)
+  - العربية: https://news.google.com/rss/articles/CBMi3ANBVV95cUxQeDRpTlN6SW9FdTdDcnZzRHVaSTJ1eDYxRkJUUmZ0TlRLWlFrM2ZLa2xZVHRHODg3bzNSaE9ZQ1lJVExLZmkzNHl0VzV0cGFEalhrcG9PU04tSkJpX0tJb0dmVUYyR0hITnVXLTRVbkhrSkVZYllSLVkwRE91eFE5WDU4aEwzdmhuUG9SS3VHRVE5ME9GUTVGbDZIZWpFd21CeVZ0cTVYR3hLYkFRQl8yXzNuYVlreWNoQTdES0tWWl9DLXZGRVVhbmpfRUhwZnZPOEJScEIwZGl5TWk3STRfeDAzVGkwWDFCbDZFSWY2RkxLSlRPd0VUY1Zlb1BobDdUaWdHME5hWEtwNkMyTEpJU2V5NEdMN0o0Ql81U19GclY2OURIcEFNbHFHbEFKTUJIdnhiUGl1SVRMN1dpOHFpMElHNkZLeXN2Y2JMa1YxQWNwLUxXR1Zwb1BiYjQ3RlR2S1dOcUJwM0JFOWFTb3QxSFc4Qk1IZEdFbmUydjNFY255QWFHX3dxYjRCczJXQkI2ODFjU2s2NHlfNDY3QThnMm9SU3lqUkRwQi1IYW03cHN1UE1kemdyWVVoclBSUmpRNm9NTHlURGpRSDZrdk1jOHhkRC1uSmYzd0RHX9IB4gNBVV95cUxNRUw0bEpjN3o5RWJTV1ZyVkE0QUhoSFptOEdsdzVrYW9GcW9ONl9qR3Vwd3prSFZiVUptMWdsS0ZYYUNxTEJsZW5rQTVjemthNnYwZTdWZEpSZDNNX05Hd3pHNFRRS1JkWkc3N3RWa0EzTzVYdVpPNlA3RGs0WTJWY04ybURSNmlLM2lGc0tURmh0YmFmVFJxUHN6RFZkMElpbDFJblJjcG1ManA4dFRLb01RS2k3UVpIdzM4SlV6Tnk3SjdJRFFyU2RGbThpNXNPbndBOEhERFJsWE92MU9zUWY2Wk5ORVlUN3BtYV9wNjF6dFplSUxDQXBhMGRjOVBJNW02dVZyRl9oRWhSMEdhd2cwRFNUeHFyMFFEbldzUkNGMHI0aVNDQkxlMmtiYjJpci1UWU5rckx0a25OTUdQYzFhMm1zdUNHZTBfOTRMdElWZGFUdTdCZWFDSFNlc0QzUHpwRXVPOFVWOUZxZUwyOHl3ZEExLVpiS2FGNkduQk5VWWhZODhzOFNDSVdVOHBMeXdudm5mYVExRnBOY21EMXFEY3pPaGdjbGNjbEthc2tMNF9MX1RYWWRaWlNNRGtrWXVZYjZfODd6Qzh6engzZFcwVVpkSlhTZG9Kd0k1Nlh1QQ?oc=5
 - Oil Prices Rise More Than 2% as Attacks on Saudi Arabia, U.S.-Iran Risks Persist - WSJ (1 headlines; single-source)
   - WSJ: https://news.google.com/rss/articles/CBMixAFBVV95cUxQYjRlQlhGVEJPT2JaeEpGWkxTZFVEdnpuMUxLRUZhUU1EY09ZcnJMaFlZNmdUbHkwdlBpcURmeHpZXzl1c1Z4WW94YmtMNTJ2N0paSlQtNXJ2eGVfam4tdW5NekpScjdYLU1RSzVGRTJqN3hCT3NOWnNmNGZpYjEwemo3ejBfOTU2ODFoMWtFX1hWS3RHZU9lcm93anl4UUczODQyd1hrUVc4VHQ5ZEpPay1SWGhWbW9YdFFPVmZWd3ZwNmhV?oc=5
 - UK Sends Fighter Jets to Saudi Arabia as Yemen Conflict Escalates - https://globalpost.com/ (1 headlines; single-source)
@@ -30,10 +34,6 @@
   - WSJ: https://news.google.com/rss/articles/CBMiygFBVV95cUxNZzlrRVp3SjY0Qjc1ejhzdHcxQWFQejJLS2hfZzJocWhnV3AtUi1OM1NGX2s2b0NjQkV4NnpYZUxTOGJTRVBlSEM2blAzMXRhbjNydFRjVnYyNGM4a25waTR1aGVTVWt1MXlKOURybDlzS0kxQXVrbUNlQTlRN3lxa3YxMEZ5djByOUhzTlg4MUZUYTRMT1V6MzBYODY3d2FhSk5zRkxMdWpocU1KYTV0TUVLMUtHcWZHbkJWVHVHc2NIRGFwQ1F2c0x3?oc=5
 - طائرات أميركا وإسرائيل في سماء العراق تنتظر ليل إيران الطويل لتنفيذ هجومها – تقرير - شبكة 964 (1 headlines; single-source)
   - شبكة 964: https://news.google.com/rss/articles/CBMiQkFVX3lxTFA1OUdPdUVKY3FIekJHdGZoRjNLTDZmQy1GNHdSc3cwWEJkOXlMNi1ScWxkR1hVaHdfekZhdHVfcnZKZw?oc=5
-- الحرس الثوري الإيراني: اندلاع حرائق على متن عدة ناقلات نفطية بالقرب من مضيق هرمز - بوابة الشروق (1 headlines; single-source)
-  - بوابة الشروق: https://news.google.com/rss/articles/CBMipwFBVV95cUxQVml1MWw4b2dWcVFfUU9EaVA3WnVCOThGWVp0bUJRMXcwRnpPNjRRTFdlNEFnMDhtNGlzRnhDNnc4dEhUOVpWaUFLTFlwc1AzdVJNRXNVV2QxeEQxOHJjeHVwVWJuenJwelNib0g3Q0w1U0lSaGZldUVKOVBXN1Y3cjVLQkFWTjU1dFBHRVFIYlVTajBRbE5OcDkxSVRJWTc3VDNER3hYWQ?oc=5
-- UAE flight status today: Cancellations, delays and updates after Saudi airport attack - Gulf News (1 headlines; single-source)
-  - Gulf News: https://news.google.com/rss/articles/CBMizwFBVV95cUxQWUxOWnpHSk9jZFpUcnZTaWt1LVMxdm5vOS1BNVVCWU1ISFRjb3dEM1hJemxubmY5UXFTUllDV1RkeVB1bTdKOXNqUTlnNV9TUFFuQ0t3bnE1X0JnOUNrNnFRanJRUGlramJiS191dF83dnlfbVlzV2FTR09KUEpIMXVxcnBmc2l2M0o5SDVrQTV6YkJBeDd0eDVnalNwbGFHYmw1c1pxTVQ4dkwtSUNaN2pQUHgtOXhfeHM5S2Q1cFpFREdReV9VVDVJNDRmb0k?oc=5
 
 ## Transport (61 coverage groups)
 - US Sanctions Companies, Individuals, and Nine Vessels Linked to Iran - IranWire (1 headlines; single-source)
@@ -48,6 +48,8 @@
   - صحيفة الخليج: https://news.google.com/rss/articles/CBMi_gRBVV95cUxQU2puUWpNMDQ4U3dhOFpNQzRkQlRmNEhNamdZMkpIa05oUVVNeWMtRHNLMWJTWFBuM29SNkdNcVBvSTNIQU5aVUsxTGF0c3hkRzlCMXBHNGt3Mks1UzdsbWp5RWlEdXE3OWNPS0hibEtvTmlENWROVFNMenJ0ZGx0MnB3d1VkQlJUMFg5bEFKVHJUaWJGSVA2VkNGbjNjLXVyVWxVY3V4Z0FZdVlCOVhJYlJKWDdQNm9uaVZYcHA4MGZlOGo4eVJsSHdFeU0zbk5JYUphT3BRcURCVEYwTm5XTDh3Z0dRc1NrOC1IWnRleGJfTGZxTGl3V0ZwU0Qwck0xbHBkZHc0Ul9LTS1yN3hYTkd3Nm5QYkt6TGQ4ejE0MDZYTmFoQ29UZEFnWFFCd0hnUXA1MGFwZGM5N3VOVHl4Y0MtRFVBNDNTSGlYNVVTamI3SUV0dFdFX1JuUkFVZlZMY0hPVWFiZmNhcmRRM1FOT2I0RkxBRm1MeXVEMWRGOUppSkdsbjZHREhHTUViUFVCeks1Y2d4ZGdhUnhhdmZ5X0EwWm0tSGU3LWZQQWVub1VGYlRhYUdRX2NNLWdaRkp4MG1nMERxZUExSlNVWk9pWDlGV0hFWFpNYW5yVXAtWFp1bUdXdGR2WGM2UUpFTDBmeXBGZU00azlFTGVVa2VfSEtXTlRNdjdCbHNBbC1FdFY4NGtEMVp5YlhLNWpjZHpxeUJiczFGTlhSejcyU0tnaTQ1YmVyMjFnLVplTXNVZnVuNmxQOEJoMF8yeDNnbDVMVGhNNHFBLTJQTE52aXhJd2Q2cElqc0huQlZvaWJlMmVPZzJUSFM2bXFaa2lxdw?oc=5
 - Iran says 7 tankers were damaged in the Strait of Hormuz, and other Mideast news - WOWK 13 News (1 headlines; single-source)
   - WOWK 13 News: https://news.google.com/rss/articles/CBMi0wFBVV95cUxOSzJJRVNEa1JJU2lTZ2V1el9iVU0zb2ZPYjc5SWVuOEIyMy0yRGFFZ2E2ZjF3ZzZuV1c3LUEwdGVRaVNVOEZNZF9DREM0QzRRTTAwd1FkeFR0a0poeVQ1aTJMbHR2SzlwcjNXYjRSQkUyYjdKOXhuT2lrOEg2WTBWQWx1MmthRkxwRlZGeHlpTWl1NjJRQ2U4elJYRWF4VC1tbWxMdW1Lbm1vYlh0UnhpVlZoQmtyNGxQS2toMDVyNGkzWGJDWWRLcGlabXpKZlU5dDBv0gHYAUFVX3lxTE1DSVQ2Umc5bDlKRkROdW96S2ViVmpTSUQ3b1F4aE8wRV9tYlQ5dXBudHlNVDBHZjdRdFBYbUVWbGNmSloweHZtelJIWENKU1JJZ0pQQlprNVZwb085bDBJcm1GNHBBMm5FV3cxVG5YUmZBaTRoMXhVY1oyNFA0SW0zMDNSWTZCZ05hd2wzZ3ZjaER6Wm9HeDlSYUdLRHdNczNuQ2NHRFMwTWszd2Uwcml3MnB0X1hvNjFHVkVNSUM2WEpWYktlN2tSUXhBMEtWcjRXODIyLWk3VQ?oc=5
+- الطيران المدني السعودي يعلن استئناف العمليات في مطار الدمام - الشرق للأخبار (1 headlines; single-source)
+  - الشرق للأخبار: https://news.google.com/rss/articles/CBMi7wNBVV95cUxQOEhMeHVIeldacEpUSTBMRXZKd3RrTE8ydDBCYVNBOFRUbC1SNnRfX0FLZm1RTVBXakpGcEs2OERaZWIwYURKZk85cUFPa25XSE1ieFltbklIUzdNcW51aThNUXRuODdIQkxMeUp2cHlCWjZqTmVjZEVJR1hGNUw4UVJXZ2tYLUcyNGtJbzdrWG9UMHlYaVd6aVdfcU10cXR5LVFLMmZ3RnVfUk9HUUtvZ1dXUmFxME51bnlVQUxFcW5kM0x0R0N3cmFuX21PNDZPSkFUVzEyRFdER0x5UkZJeEFMLXZZUDdlcGVpcnpkektSSDFQMk84b3ZUODZtNk1HWXhOR0k2UXdfOS13VVpOaW9fT1NZeTFxbVlMTXRkSDA0dTJGbzlzeGRfLXZ3ZVh0aFZjZU12d0tGNlMzUGMxVHdfekFTVmRfSUw0SFIyZzFkbEdvTDZPVmRsOW5MZHI2amFwczVkc3dOc2tUQ3ByY1NFckFucGJqMUhVZ1dlUHlWSEJsZUFUR1pNTUpnVmJIRWc5YlE3U0R6d3ZiVVV5MW9saFg4N3ZTNDltOFFaOHg3M1p2SGIyZlV3OW5BTmNuQUNCNUJsRUdMaWctcGdGcXIwT1pYckI5UG8tdjBPY0NnYzFPcm1QWmlWVHRmcTQ?oc=5
 - '4 Ships Bombed, 3 Hit Mines': Iran's Deadly Assault On Hormuz Shipping | WATCH - The Times of India (1 headlines; single-source)
   - The Times of India: https://news.google.com/rss/articles/CBMi6AFBVV95cUxOX19YMlozTlNJamk4b2c2UmlLVDNvbXhjNzhxSWt2U3RyeGk3RUZfRW9qNmRSeDVZNHdtY3B3LTU0b0JVeFgzQ0tjQ1dnOENrYlRtY0YzbE4zRWV4YUEwRnltV3VVSHFMMTFaUU81UjhhR0RJYVBtamk3VF8yQ3prcEhyQV9WbUFqQXU2cVlqVGRPTmluaTRpSnppZENfYW9EY3ItNGpSSlFGRjcyQ1R3MGNBeXFIaGtjenVqUVY5MEVFZzc4d3JiYnVPRFJmN21pSDVXUWJaeFRYR251WXExY3lGNVVPeFgx0gHuAUFVX3lxTE1kcEYwZUJ4RkQ1d2hvSFB0VkF0VGF4RUV6c2JRTXEyX1BRTlRNbGg3VzhHelM0YUNZN0hWM19XOFQtTWZkZkdUcUlkMmdtV0FLbFdBZUZiWURvWGxnRkIyU3R3blFWc0xYZk4zVEN1ZXdqZGFFRDg4SnFWZjZnSGs2VDZYb3Uzd2hCT2hTZWNhdjc1QU84LWtkcml4TVVyRXotNXkzVVVUQ0NtSGNIM3RpaFJtUjNUbDNsNVJLUy03V3NmeGF4Sk9wUmg3UkhwUS1TRFRqd0p4UlFqVm9PZGlOQ21iM28zQ3JWZlFOcWc?oc=5
 - Dubai and Middle East flight disruption: Expect route cancellations across the region as Saudi airport hit again - Condé Nast Traveller Middle East (1 headlines; single-source)
@@ -62,10 +64,8 @@
   - EnergyNow.com: https://news.google.com/rss/articles/CBMirwFBVV95cUxNVlFjYjEweHQ5SUhBM2hWUEpaMWs0QnktcWQ5aGpUMHVQQ2VVLXFJWGwyVzJNWWgzcUF3cEEyY2doV3djeTBxNlVBaGJZWjFQY1JPSDNqQ1RLblBkVmRkeEtPTlhtVTJ0NXdqdlJIMEFxRmc5bEpUTGdEVlRCbDRQZnlQaHkxT2tyVjU0cHlyZzVhYUFEYnNUdXM5N1I2ZFdTbjBuWjFtcUR5dGhCdnk0?oc=5
 - Adnoc Keeps Loading LNG on Tankers Despite Hormuz Disruption - EnergyNow.com (1 headlines; single-source)
   - EnergyNow.com: https://news.google.com/rss/articles/CBMilgFBVV95cUxQeDN1dG5rTzdCM2JxazN6eEtHc1pRR1VJVmF4MXF2TXVfcGNmSzVsTVRQQXhXeWE4bC1HTTJhb3Awc0kzWnQ3blVwLW5Ub0VDSFpLMDkwSVp5bF9SRlliOFlUenpyMHRaNWFQT2x5eVlQZmE2aTBLOS00a2pVVk9WOGY5Z1NiUkwwOWZsQUpHc2NMN0hfeFE?oc=5
-- Iran Says Draft Deal with US Would Reopen Hormuz Shipping, End Naval Blockade - EnergyNow.com (1 headlines; single-source)
-  - EnergyNow.com: https://news.google.com/rss/articles/CBMiqwFBVV95cUxOc2pnYzI5TUFHRXpTNVNfMTQyRFBEWDAtREhxcXpUY0pMalNkS1o4SDAwQ1BPXzZoMGZETVNMeG5BQlVVRUpxMnM4Sl9CZnRRTGFyZ2hfQ3N0ZHBoYzl4eVJURnhBb25lcFhEY0ZudWhZMEdZVEpuRmh1Tm5FT0xKM3RtWWlaelBnM1BrMVBFWmFIQ1JlU3JhYWF1YjhGUHFOVmE5UVNVRGc4dEU?oc=5
 
-## Diplomacy (44 coverage groups)
+## Diplomacy (45 coverage groups)
 - Diplomacy or War? The Alarming Signals Behind Iran–US Talks - WANA News Agency (1 headlines; single-source)
   - WANA News Agency: https://news.google.com/rss/articles/CBMihAFBVV95cUxQQlhaVjJaY0pUTmFBRlZPRm5jay0ybi1sTmY1dTBKdHVSem83Z3R1bFZyX0pER0FQV1hnT21UYzNFaWRSR2RQdkNnTVZsa18wUEVMdWFGVE04X1M4b0hoZ2tMampUWFA4b24xOXFqc3M3SUZBcHNJd3dWZkRCbXd4UDVzZ2Q?oc=5
 - Trump denies Iran negotiations, says situation will resolve soon - New Age BD (2 headlines; multi-publisher-unverified)
@@ -79,6 +79,8 @@
   - Benzinga: https://news.google.com/rss/articles/CBMirAFBVV95cUxPdHhaNnlvN2FHRl9DMUFPX3ozTTFYTlZHWVBuXzc2QlNuOFlJbVd2ZVdmaWdSOEdsR1NMTzEwN1dCZG9yT2U3ODFTTWhRTGtueWJrX2EwcFF0NUs2UF9WbHRwZ3RxVEVJeE1qWm90YlNGZlA5eEpNejRHaUR4dExrZ0FBTE0yZTFIdWpGRmt6TFNtNHRHZG5yY2pyc0RHQ1hMcGpmU1dCa0JXdUVQ?oc=5
 - Middle East latest: Pezeshkian says US must recognise Iran's rights before talks can resume - The National (1 headlines; single-source)
   - The National: https://news.google.com/rss/articles/CBMinwFBVV95cUxNb1Rrak9DUVcxWUFNREEyZTgtVGRyT1ladW9xeldkR0tadEQxWGFDaS0zR0RrN3U1T3VTNmV2QnVrNHNramJTY0FRZ21IX0FMUWt5N0JGSk5qc2pyQXZBbFFDRkliU3NYanFLbC0tQnNzV0FoaXJuUWoyQ0Z4aDZ0eVY4WmFzbFlwd0JPLTBVNktWYmxQMjlSbzJYY0VtZ28?oc=5
+- How the Mecca defense agreement between Turkey, Pakistan and Saudi Arabia will work - WRAL (1 headlines; single-source)
+  - WRAL: https://news.google.com/rss/articles/CBMiugFBVV95cUxQSEN4N1BtdjV4RW9CTWp5TXAwRWYtWEZZR2VpQTI2MGFueFpZTUpfVGdzTkJ5dFBzMmRfUmRQSFBxQV9pdDhocnFYYUxsVDRybmI3WjFUVFJyYmJ5d0cwc2pFM0NMUGQtWU5ld3Vpdi1zdWNNQV83MVRaTXRvUDRrblpRdVBGNWtVUDRNQlREMzV0N010QloyY0g4WE9SS294TUR4cDZfRmN1VnlkRXpYVkgxNzZ2RnZ5TUE?oc=5
 - How the Mecca defense agreement between Turkey, Pakistan and Saudi Arabia will work - AP News (1 headlines; single-source)
   - AP News: https://news.google.com/rss/articles/CBMitgFBVV95cUxOMnJyYTZ2NXBaVGJRX1Q4eFB0VDgyX0tNSU1NazFUUExVUmd2U3RXdzZFa0JlenBGZUNvMWtuNlRIM01PclQxbmVJR1g4QW9lemw2VV8yakl2a0p1QWItbXg3Yk1ROVdtZGxaOU9KRVQyNHFsOTkyN3F3TENMSV9NSlQ4WnFpYVJmMGxJMndSQW9taWkxV2ZGLVFxVWk1MzlEcmJYWXFsc2thSE1hMng5ejdGdENaUQ?oc=5
 - Joint Statement between the State of Qatar and the French Republic on Occasion of His Excellency President Macron's Visit to Doha (1 headlines; single-source)
@@ -93,5 +95,3 @@
   - Al Jazeera RSS: https://www.aljazeera.com/video/newsfeed/2026/10/21/aje-onl-nf_tehran-displays-mock-installation-of-trump-211026?traffic_source=rss
 - Saudi Crown Prince Meets French President (1 headlines; single-source)
   - Qatar News Agency · General RSS: https://qna.org.qa/en/News-Area/News/2026-10/21/saudi-crown-prince-meets-french-president
-- How the Mecca defense agreement between Turkey, Pakistan and Saudi Arabia will work - The Washington Post (1 headlines; single-source)
-  - The Washington Post: https://news.google.com/rss/articles/CBMi6gFBVV95cUxPcHF2WGo1QU5hZ0JTN1NkS2lGMlk1ZHJzUmhtVGtCYk9FREJSaGgyVVRCZEIzZ1MzWjJrQTJZZWFOaXlFQTk0TWZ3QzZOenZBNUZxdVo5MWtIbEQzQlhuYzNPZy1ZaTBaS1dTb0NhLVJodzMtcXFiZnBGeFV1UUxWZjVDa2dVTW5ZdXVoN2c1ckozTVlmQVg1VlhmTzFRLWZrWG81aDdHSUtveGdJUkVhckttbTFuMngyWnViQ0xZLVpoMUo1VXg3ME5mcldGNUUwYnF6SFcwS25FVnRVS3ZZY1prckM4OHRlc1E?oc=5
