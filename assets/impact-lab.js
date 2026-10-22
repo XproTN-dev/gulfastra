@@ -192,6 +192,28 @@ function showStatus(){
    C.age(new Date(Math.max(...times)).toISOString()):"UNAVAILABLE");
  $("labNew").textContent=S.visits.firstVisit?"FIRST VISIT · BASELINE SAVED":
   S.visits.new+" NEW / "+S.visits.changed+" UPDATED SINCE LAST VISIT";
+ if(S.view==="detect"){
+  const detector=S.files["early_signals.json"]||{};
+  const records=C.asArray(detector.signals);
+  const t=C.dt(detector.generated_at);
+  const detectorLate=!Number.isFinite(t)||Date.now()-t>16*60000;
+  $("labStatus").dataset.level=detectorLate?"delayed":"current";
+  $("labFreshness").textContent="DETECTOR "+(detector.generated_at?C.age(detector.generated_at):"NEVER COLLECTED")+
+   (detectorLate?" · DELAYED":"");
+  $("labNew").textContent="FIRST SIGNALS · "+C.asArray(detector.new_ids).length+
+   " NEW / "+C.asArray(detector.updated_ids).length+" UPDATED";
+  const labels=S.lang==="ar"?
+   ["إشارات منشورة","P1 للمراجعة الفورية","مشاهدات ومصادر رسمية","تقارير غير مؤكدة"]:
+   ["PUBLIC SIGNALS","P1 · REVIEW NOW","PROVIDER OBSERVATIONS","UNVERIFIED REPORTS"];
+  $(".lab-metrics small").forEach((cell,i)=>{cell.textContent=labels[i]});
+  $("mNodes").textContent=records.length.toLocaleString();
+  $("mEdges").textContent=records.filter(s=>s.priority==="P1").length.toLocaleString();
+  $("mSeries").textContent=records.filter(s=>s.evidence_state!=="unverified-reporting").length.toLocaleString();
+  $("mBrief").textContent=records.filter(s=>s.evidence_state==="unverified-reporting").length.toLocaleString();
+  return;
+ }
+ const labels=(S.lang==="ar"?AR_CHROME:EN_CHROME).metrics;
+ $(".lab-metrics small").forEach((cell,i)=>{cell.textContent=labels[i]});
  const d=graphData();
  $("mNodes").textContent=d.nodes.length.toLocaleString();
  $("mEdges").textContent=d.edges.length.toLocaleString();
