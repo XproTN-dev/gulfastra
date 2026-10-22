@@ -1,118 +1,12 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-22T00:45:02.724076Z",
+  "generated_at": "2026-10-22T05:29:07.941291Z",
   "alerts": [
     {
-      "id": "GF-662012F8125282",
+      "id": "GF-93B41191C45FED",
       "level": "review",
-      "title": "Saudi Arabia Says Drone Intercepted Near Oil Field, Two Killed",
-      "published_at": "2026-10-22T00:44:29Z",
-      "countries": [
-        "Saudi"
-      ],
-      "category": "security",
-      "topic": "interception",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "Qatar News Agency · General RSS",
-          "url": "https://qna.org.qa/en/News-Area/News/2026-10/22/saudi-arabia-says-drone-intercepted-near-oil-field-two-killed"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-FDEF0BDE21F7D8",
-      "level": "review",
-      "title": "One killed, eight injured in attack on Saudi Arabia’s King Fahd airport",
-      "published_at": "2026-10-22T00:25:41Z",
-      "countries": [
-        "Saudi"
-      ],
-      "category": "security",
-      "topic": "aviation",
-      "outlet_count": 1,
-      "article_count": 2,
-      "source_urls": [
-        {
-          "name": "Al Jazeera RSS",
-          "url": "https://www.aljazeera.com/news/2026/10/22/one-killed-eight-injured-in-attack-on-saudi-arabias-king-fahd-airport-2?traffic_source=rss"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-AC8E1269AF4C90",
-      "level": "review",
-      "title": "US, Israel develop plans for renewed strikes on Iran after midterm elections: Report - Anadolu Ajansı",
-      "published_at": "2026-10-21T23:43:31Z",
-      "countries": [
-        "Iran",
-        "Israel"
-      ],
-      "category": "security",
-      "topic": "regional",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "Anadolu Ajansı",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPLTNtaUlPOFB5M1EtSktDVmFzUDhuaS1pNmlmc3NGdkplQTNseHRpOXBySDVXNVA0UjJnU2x5M0ZrV0k1RjJvZ0hRV09TMjBkNGNPTGI2UjJybFBQU3Jka3RrdDF0TGkzdmJhSHhFQkdIZk12RVNNOTJDVE40WkNtWUxhYWFfZGRsY3plcXM0by14SHczVWhiZk5yd1BRNmJuYmF3NUxvemc5N1AxM3lMX1hldENob2ZnWDVUamppbXFJWGxGSmc?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-DF9274794E3769",
-      "level": "review",
-      "title": "1 killed in Saudi Arabia airport attack as Houthis target drone strikes across nation’s airports - New York Post",
-      "published_at": "2026-10-21T23:38:00Z",
-      "countries": [
-        "Saudi"
-      ],
-      "category": "security",
-      "topic": "drone",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "New York Post",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOa3o2ZDV0Qi12cS1nRS1SVU5QSk5OTHd4YkV2czFjaVh0X3FJOXBLcHdDaGY0T3E0d3R3RXNYcGV0Wnkzcl9QWjF5X0ZSWnFKNTZyTHFWdk9LT0t1eDF4Y0N5V2Z1X3M1b29zU1VnOVRSclY3RFpwQ0JIRzRLMU5hTzczMklDOFV6dXlLUUk5YmFQY0hmRVA1Z0Q0OG1vUGJRS29JTEFXX2prQTNIUGpsdlQ2Qm5YdVRvSUIwU3RsZlBlUXRKb2tuN2ZaZlRoRGFRMmxj?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-9E1C0C06665478",
-      "level": "review",
-      "title": "US and Israeli militaries have reportedly developed plans for renewed strikes on Iran after the US midterm elections, targeting energy infrastructure, nuclear facilities and missile and drone arsenals, NYT reports, citing sources - Newsquawk",
-      "published_at": "2026-10-21T23:03:13Z",
-      "countries": [
-        "Iran"
-      ],
-      "category": "security",
-      "topic": "missile",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "Newsquawk",
-          "url": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxNYnIwVW5VczMtVXpEMUp3UzJtU0JZWkRtWXdySDREUEJfNWtTaXR6TFlJd2RQaS0wTlVUcUZ1Y0V3SjdBVUdpdjYzdjF3UklyWFplSGNmZGRvc3VxWGZIdnVMZ2lMc0F4LU11VUNOZkRiSjNpTVdoTXYxYXg1M2UtYVhFN2FQb1lWU2YtYlRBSmpMcHo0bGZtZVAyRG15WHI2QzNRQUFRamRUV1lnYi1sa0E3ajlJWnpUOGVNeEk3MzV5aE5Ybm41M2RnRkk0d3JnTEcxNWYxQUt3dnFka3gtbXpuMFVKa3VpZ05FVjg4Vm9XbU1MbXZ2NndRZHRlRzd2MFhUWlZ0WUV5dDFVVlNpVXpST1FSREs3eVNTcHhDYkQzblI1amFQeW5DQUxWQjRBQV84UGlhTXVWaXJKZXlBY2l4Z24xRnpaSm5oa21RXzV6TkRQNTZjZlJPYkNxY1IwWFN6Wm1NR3RaQm03SVNuSGY4WmF2SF9i?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-6B03A672AAF1E4",
-      "level": "review",
-      "title": "وفاة وإصابات إثر هجوم على مطار الملك فهد بالدمام، والسفارة الأمريكية تطلب من موظفيها مغادرة السعودية - BBC",
-      "published_at": "2026-10-21T23:00:40Z",
+      "title": "مباشر - السعودية: مقتل شخص وإصابة 8 آخرين في هجوم على مطار الدمام الدولي",
+      "published_at": "2026-10-22T05:05:04Z",
       "countries": [
         "Saudi"
       ],
@@ -122,8 +16,29 @@
       "article_count": 1,
       "source_urls": [
         {
-          "name": "BBC",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5jaFE1ckNSQlU2cjkxTlQwR1FGZ21NcjloLXQwSVNHT0JwMUlOS2tSc2UwckZIajB5OWg4U0VUcG5HMUlOcUF3WUtKV0dwRnpXd0RJWF9fajBLdXdqeFHSAWNBVV95cUxNc2hyUnVTOXgtQnhZZ1p1YlV0dWNDcUM5MzBsTzlQWFFJMExfS0VxeV9XU0xyVFZxa3hRRFJwZVg1SjhTYjhLV1FvN2xjeU9zYkZraXg5bHZiOXVKZjg4S0NPdEE?oc=5"
+          "name": "© رويترز",
+          "url": "https://www.france24.com/ar/%D8%A7%D9%84%D8%B4%D8%B1%D9%82-%D8%A7%D9%84%D8%A3%D9%88%D8%B3%D8%B7/20261022-%D9%85%D8%A8%D8%A7%D8%B4%D8%B1-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%A7%D9%84%D9%8A%D9%85%D9%86-%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D8%A7%D9%84%D9%88%D9%84%D8%A7%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%AA%D8%AD%D8%AF%D8%A9-%D9%85%D8%B7%D8%A7%D8%B1-%D8%A7%D9%84%D8%AF%D9%85%D8%A7%D9%85-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-AFEA333491895B",
+      "level": "review",
+      "title": "Middle East latest: One dead in attack on Dammam airport in Saudi Arabia - The National",
+      "published_at": "2026-10-22T04:36:23Z",
+      "countries": [
+        "Saudi"
+      ],
+      "category": "security",
+      "topic": "aviation",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "The National",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQ2R1cnowWHhzQXdZcXRMWGVEZU83YmJaLUE3bHk1b1hleDhCNmpwcVJDbEg0Zll0LWpjTkhwdE1qc3hUdTJYSjdmMFlMaml2eTBPeHVwWll2bVFsVDJ5REx0RHk3YllpeXZuVVc5enVhS2ZyazlYQ0xGQl9WV0NMM1l0eHM0QQ?oc=5"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
