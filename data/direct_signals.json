@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "generated_at": null,
+  "observations": [],
+  "bulletins": [],
+  "health": {
+    "EMSC": {
+      "ok": null,
+      "state": "not-yet-collected"
+    },
+    "NOAA SWPC": {
+      "ok": null,
+      "state": "not-yet-collected"
+    }
+  },
+  "notice": "Direct provider signals not yet collected. No fabricated events."
+}
