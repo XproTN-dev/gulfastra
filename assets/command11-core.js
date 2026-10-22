@@ -3,7 +3,7 @@
 "use strict";
 const REPO="https://raw.githubusercontent.com/XproTN-dev/gulfastra/intelligence-data/data/";
 const FALLBACK="../data/";
-const FILES=["reports.json","events.json","observations.json","alerts.json","collector_health.json","advisories.json","social.json","impact_graph.json","markets.json","daily_brief.json","direct_signals.json"];
+const FILES=["reports.json","events.json","observations.json","alerts.json","collector_health.json","advisories.json","social.json","impact_graph.json","markets.json","daily_brief.json","direct_signals.json","fast_signals.json","early_signals.json"];
 const COUNTRY={
  Iran:{label:"Iran",lng:53.7,lat:32.2},Saudi:{label:"Saudi Arabia",lng:44.5,lat:24.5},
  Qatar:{label:"Qatar",lng:51.2,lat:25.25},UAE:{label:"United Arab Emirates",lng:54.4,lat:24.3},
