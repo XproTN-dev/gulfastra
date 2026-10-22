@@ -1,0 +1,12 @@
+[Unit]
+Description=GULFASTRA independent public early-signal collector
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/bash %h/gulfastra-detector/source/deploy/early-detector/run.sh
+TimeoutStartSec=115
+Environment=PYTHONDONTWRITEBYTECODE=1
+Environment=DETECTOR_TELEGRAM_ENABLED=false
+NoNewPrivileges=true
