@@ -1,36 +1,14 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-21T22:16:41.588640Z",
+  "generated_at": "2026-10-22T00:45:02.724076Z",
   "alerts": [
     {
-      "id": "GF-CA2D299A65563B",
+      "id": "GF-662012F8125282",
       "level": "review",
-      "title": "Saudi Authorities Say 2 killed By Falling Debris At Oil Facility Following A Drone Attack In Kingdom - ETV Bharat",
-      "published_at": "2026-10-21T21:44:29Z",
+      "title": "Saudi Arabia Says Drone Intercepted Near Oil Field, Two Killed",
+      "published_at": "2026-10-22T00:44:29Z",
       "countries": [
         "Saudi"
-      ],
-      "category": "security",
-      "topic": "drone",
-      "outlet_count": 1,
-      "article_count": 2,
-      "source_urls": [
-        {
-          "name": "ETV Bharat",
-          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPTTRUZDdNeThaNVVhMWgwUWlyeUo4NTJuVERMaDlzaWxBYzF2MS1Yb3Bhd1ltSkZydFBlQkJteXVHdGpUa2pnU3JEMlNVaFpBelFMd3Vkbl9vcDdKcjdENUpFeTYzVUhYdXB5UlgxVzhZWnlVclE3bWVoSnE5WXo4d1llVzJiajlwOWpWTFFOdlJKV2ZTQ0lObEh1eHFvbHg3Qko3OEY5X0ZkS0VtY3FyWnRBMnNyZGxoOGl1aFJNSVk2WUd5cjJSUTExLS1TTEQzVGhOQmFxdlFaejFkTlhkZjVKQlpfWklESkdZUnhUUdIB9AFBVV95cUxNSlpvN2ROQkU3dC1WdlFUVWxqMUlRN0hRS3dvSy1DbkVfZFRfSkgzX1hyVUlHN3ZtT09hQURiVDBpVGVfSkVaTHZYVFB5UmhVb3lVX2FSSk56a3ZsaU50N3BGUUM4eWZEc1oxclJIM29FV3pobmdOQnhzXzBUcnJ1dmI2dEswM3lTbnVRQ0p4dHZyaEVqMHQycnpkU3pWUHJ5dzU1U2ZuSk9MQkJ4MUFCUmd5R1JrcGd5ZEZ4aEhoRWEzQ3REMVB3YjlYR3dsdTZnNkloa0s1WG1xaThIc1hXbTdaaFRUb0FNMjVvakxfX19XbDNk?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-541E2DF288C5B5",
-      "level": "review",
-      "title": "وزارة الدفاع السعودية تعلن اعتراض وتدمير طائرة مسيّرة استهدفت المنطقة الشرقية - صوت الإمارات",
-      "published_at": "2026-10-21T20:40:34Z",
-      "countries": [
-        "Saudi",
-        "UAE"
       ],
       "category": "security",
       "topic": "interception",
@@ -38,20 +16,62 @@
       "article_count": 1,
       "source_urls": [
         {
-          "name": "صوت الإمارات",
-          "url": "https://news.google.com/rss/articles/CBMi5wJBVV95cUxNOEQ3bVd3Zk1CQjRyQVI4X1lURkVIR0lWZVQxMEZhWUdoVDdJTnVCNmJVc1puYzQ3Y2s3bkN0b1BSZThyc0lZcmt4QXZRQUQtWGhCYkdNVHhvd0pMRVo1cFZESGlxN1BGYVFpSTYwMG1ad2NDdVUzTm1hVDNFVC15cVBwMDhTQWo1cXRCTU9xQVlwVG05eC0xcHNWNmJ0LU5ET1ItUnRwb1otekRLOVhEblgzSV9QTDl3SjRoZVNabG5ILUZ2bjU4c1JsNV96VjVma2Nvc2xua3FUM25UOXV4MFZNRmQ0Yy02Nk1vQ0xMZUxOSUwyQ0dtTU9JTVZ0R0ZfV1pwQmVkYVdyUWFXU3N5UzdDR1pOeW5aWVFCLXVOR015ZnJEdWxnYk92eXZ6ZUxsVkhrRGJwQkhUWmlxYUhvek9IYWtCVHpoMGlZQm02TUliMkxDOXdCQXBWRV84c2FiS0JZaHVJVQ?oc=5"
+          "name": "Qatar News Agency · General RSS",
+          "url": "https://qna.org.qa/en/News-Area/News/2026-10/22/saudi-arabia-says-drone-intercepted-near-oil-field-two-killed"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
       "verification": "unverified-reporting"
     },
     {
-      "id": "GF-4C216135DE686C",
+      "id": "GF-FDEF0BDE21F7D8",
       "level": "review",
-      "title": "السعودية تعلن إحباط هجوم بطائرة مسيرة على حقل نفطي ومقتل مقيمين وإصابة اثنين آخرين - Qatar news agency",
-      "published_at": "2026-10-21T20:28:09Z",
+      "title": "One killed, eight injured in attack on Saudi Arabia’s King Fahd airport",
+      "published_at": "2026-10-22T00:25:41Z",
       "countries": [
-        "Qatar",
+        "Saudi"
+      ],
+      "category": "security",
+      "topic": "aviation",
+      "outlet_count": 1,
+      "article_count": 2,
+      "source_urls": [
+        {
+          "name": "Al Jazeera RSS",
+          "url": "https://www.aljazeera.com/news/2026/10/22/one-killed-eight-injured-in-attack-on-saudi-arabias-king-fahd-airport-2?traffic_source=rss"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-AC8E1269AF4C90",
+      "level": "review",
+      "title": "US, Israel develop plans for renewed strikes on Iran after midterm elections: Report - Anadolu Ajansı",
+      "published_at": "2026-10-21T23:43:31Z",
+      "countries": [
+        "Iran",
+        "Israel"
+      ],
+      "category": "security",
+      "topic": "regional",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "Anadolu Ajansı",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPLTNtaUlPOFB5M1EtSktDVmFzUDhuaS1pNmlmc3NGdkplQTNseHRpOXBySDVXNVA0UjJnU2x5M0ZrV0k1RjJvZ0hRV09TMjBkNGNPTGI2UjJybFBQU3Jka3RrdDF0TGkzdmJhSHhFQkdIZk12RVNNOTJDVE40WkNtWUxhYWFfZGRsY3plcXM0by14SHczVWhiZk5yd1BRNmJuYmF3NUxvemc5N1AxM3lMX1hldENob2ZnWDVUamppbXFJWGxGSmc?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-DF9274794E3769",
+      "level": "review",
+      "title": "1 killed in Saudi Arabia airport attack as Houthis target drone strikes across nation’s airports - New York Post",
+      "published_at": "2026-10-21T23:38:00Z",
+      "countries": [
         "Saudi"
       ],
       "category": "security",
@@ -60,8 +80,50 @@
       "article_count": 1,
       "source_urls": [
         {
-          "name": "Qatar news agency",
-          "url": "https://news.google.com/rss/articles/CBMimgVBVV95cUxQakh3TUt0Q2hhcUpQUnpQRUpSdFFZdXZVQTZRb1BLS2tYV2swSGw5Q2NlRXduVV9Kc18tZG5YY1Q4eEt2V2JBb3BYZUlNYjVEMGhtV0d1a2NVdXdSRVBWVk0xdDFSNG1EZ29sTXJmQ1k1Zi1GNXpxR2JmRnl1c3FBR2luOWtxSDVfcVZBNk5WaUp1bWRmSWloRkdZTGJQeHdNSml1eHRNR3dsODRKSTdhNjBsMGUxcmkwbHFLR1o1YmtQd05IQ0Q2SkdCWlNDYXhLSkZZbDdUOGFwY0xsZDFLbF9FeXduNzU4OWhuQzlGdmxvZEtHbFRmbFNOYnltYmtmOVc1dXVEU0w0RWFyT3lvTGxvRlBpUE8waklYdWNjTTNnQl9tQlYzbjFOUXVFbEowczRJQS0xT1NPRVlfcGdBZFhXcGNIYVFqLVgyVC1leUhIbVh2MjRGVkdWaGhIeE9UUVZZdEJHWldsN3dPcDlobUVfVDJVSEVzOEktMXA1WENQckI5MjdGUTRPWWFUckhtX1JEZTY1azkyY3lqZHVqNFpKb2JpdDhNSm1NdXBlblBRRl9NVWtQNkpWbDQ3Sk5EWWdvOWVQTlhMX2tvRWZDUHNTNjh5OVRqeUctbEhWbzFKWjNaN0xXWDNJdnZkQUdNZVBFU3VOZk43eHBqRjhuMVJoLUMydjZnWXd1clpiTWlpRFpzY2xIVDNkUUtvcEVodmFfWGhPcUlHZjNFTnZTM29fVTR1ZkdnX1JTeXJmU1RxSmpMQzVZVE5HU1czQTZNX0hTeTZrV3VSVFBYN0tNbnA5a0ZFZkIzSjFZOXJ3U1pYZ0MxYjNJLXZkeVNEdW5hanpKNkVhcnNfM2RYR1pvSlJVVC1KeTJVSFE?oc=5"
+          "name": "New York Post",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOa3o2ZDV0Qi12cS1nRS1SVU5QSk5OTHd4YkV2czFjaVh0X3FJOXBLcHdDaGY0T3E0d3R3RXNYcGV0Wnkzcl9QWjF5X0ZSWnFKNTZyTHFWdk9LT0t1eDF4Y0N5V2Z1X3M1b29zU1VnOVRSclY3RFpwQ0JIRzRLMU5hTzczMklDOFV6dXlLUUk5YmFQY0hmRVA1Z0Q0OG1vUGJRS29JTEFXX2prQTNIUGpsdlQ2Qm5YdVRvSUIwU3RsZlBlUXRKb2tuN2ZaZlRoRGFRMmxj?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-9E1C0C06665478",
+      "level": "review",
+      "title": "US and Israeli militaries have reportedly developed plans for renewed strikes on Iran after the US midterm elections, targeting energy infrastructure, nuclear facilities and missile and drone arsenals, NYT reports, citing sources - Newsquawk",
+      "published_at": "2026-10-21T23:03:13Z",
+      "countries": [
+        "Iran"
+      ],
+      "category": "security",
+      "topic": "missile",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "Newsquawk",
+          "url": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxNYnIwVW5VczMtVXpEMUp3UzJtU0JZWkRtWXdySDREUEJfNWtTaXR6TFlJd2RQaS0wTlVUcUZ1Y0V3SjdBVUdpdjYzdjF3UklyWFplSGNmZGRvc3VxWGZIdnVMZ2lMc0F4LU11VUNOZkRiSjNpTVdoTXYxYXg1M2UtYVhFN2FQb1lWU2YtYlRBSmpMcHo0bGZtZVAyRG15WHI2QzNRQUFRamRUV1lnYi1sa0E3ajlJWnpUOGVNeEk3MzV5aE5Ybm41M2RnRkk0d3JnTEcxNWYxQUt3dnFka3gtbXpuMFVKa3VpZ05FVjg4Vm9XbU1MbXZ2NndRZHRlRzd2MFhUWlZ0WUV5dDFVVlNpVXpST1FSREs3eVNTcHhDYkQzblI1amFQeW5DQUxWQjRBQV84UGlhTXVWaXJKZXlBY2l4Z24xRnpaSm5oa21RXzV6TkRQNTZjZlJPYkNxY1IwWFN6Wm1NR3RaQm03SVNuSGY4WmF2SF9i?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-6B03A672AAF1E4",
+      "level": "review",
+      "title": "وفاة وإصابات إثر هجوم على مطار الملك فهد بالدمام، والسفارة الأمريكية تطلب من موظفيها مغادرة السعودية - BBC",
+      "published_at": "2026-10-21T23:00:40Z",
+      "countries": [
+        "Saudi"
+      ],
+      "category": "security",
+      "topic": "aviation",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "BBC",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5jaFE1ckNSQlU2cjkxTlQwR1FGZ21NcjloLXQwSVNHT0JwMUlOS2tSc2UwckZIajB5OWg4U0VUcG5HMUlOcUF3WUtKV0dwRnpXd0RJWF9fajBLdXdqeFHSAWNBVV95cUxNc2hyUnVTOXgtQnhZZ1p1YlV0dWNDcUM5MzBsTzlQWFFJMExfS0VxeV9XU0xyVFZxa3hRRFJwZVg1SjhTYjhLV1FvN2xjeU9zYkZraXg5bHZiOXVKZjg4S0NPdEE?oc=5"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
