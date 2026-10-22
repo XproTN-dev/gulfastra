@@ -1,7 +1,7 @@
 {
   "version": 6,
-  "last_run": "2026-10-22T10:05:03.610848Z",
-  "last_successful_run": "2026-10-22T10:05:03.610848Z",
+  "last_run": "2026-10-22T10:07:45.339170Z",
+  "last_successful_run": "2026-10-22T10:07:45.339170Z",
   "successful_sources": 29,
   "reports": [
     {
@@ -25,6 +25,29 @@
       "severity": "critical-candidate",
       "critical_candidate": true,
       "alert_eligible": true,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "40ec24ee96426c6bf4cdf25c",
+      "title": "Strait of Hormuz near ‘maximum danger’ as US-Iran diplomacy stalls, analyst says - Modern Ghana",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0tTTBHYXFkVFZxZXFMSmZwSHpldDFPbGpGMnZZZmVJZXRwNmg0elBiSkRpdnRlVldGUFF1MXRsTWx4VWY2ekxpT2pEYkJCX2ROSHdYa2txWUNiYzlpWGVwcjZBMEtvUDTSAVxBVV95cUxPcFhicEhhVzFlNVFwd0lVOHRkN1RIeGp6bElpX2lLRjh1QWlZSElPUE9FZU5Db21lbG05T3JBZXA0ZU4xdnBjYmJJQUE2OUxnVm5XczU0S2VXV1JyQQ?oc=5",
+      "source": "Modern Ghana",
+      "published_at": "2026-10-22T09:39:28Z",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "language": "en",
+      "category": "transport",
+      "tag": "MARITIME REPORT",
+      "provider": "Google News · diplomacy",
+      "first_seen_at": "2026-10-22T10:07:45.339170Z",
+      "date_quality": "publisher-time",
+      "freshness": "new-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
@@ -213,29 +236,6 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
-      "id": "5d971886f821dd20156802ad",
-      "title": "Strait of Hormuz near ‘maximum danger’ as US-Iran diplomacy stalls, analyst says - Modern Ghana",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1LZGpMVnE0OHRpS0dEOGxoOU1wRk5ZaWRNOFdrYndoSmktRnVaNkgyTkF2clNKX1FHTnVZaEhlUWVhMEljQ1Q5SU9GMTVQbmdnSmJtMXFUV21vZU9fTG1RSDRESDg1SFXSAVxBVV95cUxPcFhicEhhVzFlNVFwd0lVOHRkN1RIeGp6bElpX2lLRjh1QWlZSElPUE9FZU5Db21lbG05T3JBZXA0ZU4xdnBjYmJJQUE2OUxnVm5XczU0S2VXV1JyQQ?oc=5",
-      "source": "Modern Ghana",
-      "published_at": "2026-10-22T08:55:18Z",
-      "country": "Iran",
-      "countries": [
-        "Iran"
-      ],
-      "language": "en",
-      "category": "transport",
-      "tag": "MARITIME REPORT",
-      "provider": "Google News · diplomacy",
-      "first_seen_at": "2026-10-22T09:35:30.181787Z",
-      "date_quality": "publisher-time",
-      "freshness": "new-reporting",
-      "context": "reporting",
-      "severity": "routine-reporting",
-      "critical_candidate": false,
-      "alert_eligible": false,
-      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
-    },
-    {
       "id": "e4d9abacc5895bf866045b25",
       "title": "Diplomacy or War? The Alarming Signals Behind Iran–US Talks - WANA News Agency",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQlhaVjJaY0pUTmFBRlZPRm5jay0ybi1sTmY1dTBKdHVSem83Z3R1bFZyX0pER0FQV1hnT21UYzNFaWRSR2RQdkNnTVZsa18wUEVMdWFGVE04X1M4b0hoZ2tMampUWFA4b24xOXFqc3M3SUZBcHNJd3dWZkRCbXd4UDVzZ2Q?oc=5",
@@ -372,30 +372,6 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
-      "id": "20e02c4380409759c26abaec",
-      "title": "UK Sends Fighter Jets to Saudi Arabia as Yemen Conflict Escalates - https://globalpost.com/",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPYkpZTzd5SnZWOTBDYW9MeEpLYU1ONzlCOGFQdDVoRDN1OE9pMG9rSUlUeWJnaUdId2lOWFBPdV9xOTZvNzJ0S1hiN3QycUx2V21mNE5uSGdCN3dXYU9YWU1IUkFtNVU4Y2tQVV9ubTA2QjZhUEFLMWdkQWlUeVZhRmNpVWFYcERZMmduM0JjLUJjUVh0QlpjNHpCUjROUQ?oc=5",
-      "source": "https://globalpost.com/",
-      "published_at": "2026-10-22T07:59:41Z",
-      "country": "",
-      "countries": [
-        "Saudi",
-        "Yemen"
-      ],
-      "language": "en",
-      "category": "security",
-      "tag": "SECURITY REPORT",
-      "provider": "Google News · security",
-      "first_seen_at": "2026-10-22T09:27:47.332166Z",
-      "date_quality": "publisher-time",
-      "freshness": "recent-reporting",
-      "context": "reporting",
-      "severity": "routine-reporting",
-      "critical_candidate": false,
-      "alert_eligible": false,
-      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
-    },
-    {
       "id": "ca43eca23dc0fbf7a085f690",
       "title": "Oil Prices Rise More Than 2% as Attacks on Saudi Arabia, U.S.-Iran Risks Persist - WSJ",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYjRlQlhGVEJPT2JaeEpGWkxTZFVEdnpuMUxLRUZhUU1EY09ZcnJMaFlZNmdUbHkwdlBpcURmeHpZXzl1c1Z4WW94YmtMNTJ2N0paSlQtNXJ2eGVfam4tdW5NekpScjdYLU1RSzVGRTJqN3hCT3NOWnNmNGZpYjEwemo3ejBfOTU2ODFoMWtFX1hWS3RHZU9lcm93anl4UUczODQyd1hrUVc4VHQ5ZEpPay1SWGhWbW9YdFFPVmZWd3ZwNmhV?oc=5",
@@ -414,6 +390,30 @@
       "date_quality": "publisher-time",
       "freshness": "recent-reporting",
       "context": "speculative",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "20e02c4380409759c26abaec",
+      "title": "UK Sends Fighter Jets to Saudi Arabia as Yemen Conflict Escalates - https://globalpost.com/",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPYkpZTzd5SnZWOTBDYW9MeEpLYU1ONzlCOGFQdDVoRDN1OE9pMG9rSUlUeWJnaUdId2lOWFBPdV9xOTZvNzJ0S1hiN3QycUx2V21mNE5uSGdCN3dXYU9YWU1IUkFtNVU4Y2tQVV9ubTA2QjZhUEFLMWdkQWlUeVZhRmNpVWFYcERZMmduM0JjLUJjUVh0QlpjNHpCUjROUQ?oc=5",
+      "source": "https://globalpost.com/",
+      "published_at": "2026-10-22T07:55:08Z",
+      "country": "",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · security",
+      "first_seen_at": "2026-10-22T09:27:47.332166Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
       "severity": "routine-reporting",
       "critical_candidate": false,
       "alert_eligible": false,
@@ -1911,6 +1911,30 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "f5a5f2a78fbe78293597552f",
+      "title": "U.S. and Israel Draw Up Plans for Renewed Strikes on Iran After Elections - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOaFNybFlkMEkyWkpGZUhTNHUyd2V2Y0JGQkNUNzdJVFhaNlpMWU1FQXh6NG9PWWU0ZlBSdDBCUXUwcEc0c1lJaXRFMzdNajVFdjN5Mm43Y2dBdmNST2lYY1JsWjA5dlVzZkZFcGVaY1RlUEMwS3pOblF0RlVzRGtlYm40TWh2NEp3UGc?oc=5",
+      "source": "The New York Times",
+      "published_at": "2026-10-22T00:58:22Z",
+      "country": "",
+      "countries": [
+        "Iran",
+        "Israel"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · missiles/drones",
+      "first_seen_at": "2026-10-22T05:29:00.114694Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "elevated-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "16b388ea87e04d6e088d7d6f",
       "title": "How the Mecca defense agreement between Turkey, Pakistan and Saudi Arabia will work - WRAL",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSEN4N1BtdjV4RW9CTWp5TXAwRWYtWEZZR2VpQTI2MGFueFpZTUpfVGdzTkJ5dFBzMmRfUmRQSFBxQV9pdDhocnFYYUxsVDRybmI3WjFUVFJyYmJ5d0cwc2pFM0NMUGQtWU5ld3Vpdi1zdWNNQV83MVRaTXRvUDRrblpRdVBGNWtVUDRNQlREMzV0N010QloyY0g4WE9SS294TUR4cDZfRmN1VnlkRXpYVkgxNzZ2RnZ5TUE?oc=5",
@@ -2671,30 +2695,6 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
-      "id": "f5a5f2a78fbe78293597552f",
-      "title": "U.S. and Israel Draw Up Plans for Renewed Strikes on Iran After Elections - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOaFNybFlkMEkyWkpGZUhTNHUyd2V2Y0JGQkNUNzdJVFhaNlpMWU1FQXh6NG9PWWU0ZlBSdDBCUXUwcEc0c1lJaXRFMzdNajVFdjN5Mm43Y2dBdmNST2lYY1JsWjA5dlVzZkZFcGVaY1RlUEMwS3pOblF0RlVzRGtlYm40TWh2NEp3UGc?oc=5",
-      "source": "The New York Times",
-      "published_at": "2026-10-21T22:41:33Z",
-      "country": "",
-      "countries": [
-        "Iran",
-        "Israel"
-      ],
-      "language": "en",
-      "category": "security",
-      "tag": "SECURITY REPORT",
-      "provider": "Google News · missiles/drones",
-      "first_seen_at": "2026-10-22T05:29:00.114694Z",
-      "date_quality": "publisher-time",
-      "freshness": "recent-reporting",
-      "context": "reporting",
-      "severity": "elevated-reporting",
-      "critical_candidate": false,
-      "alert_eligible": false,
-      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
-    },
-    {
       "id": "30ddf07427a3ab76f0e97d01",
       "title": "Saudi Arabia Says Drone Intercepted Near Oil Field, Two Killed - Fana News -",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMmFYTGw3LVVNWGxCbWdfaE1HR2JvVUlCOTlLVGtma2NHYVJDREZ3TDlqT0Q5ZFdSS0RTcnlHU0w5c0hLZDdmLTNDdkp0cmd0TGZjUXR2R3NkZF9RdnZfWUtqcHp5NWRzOXowRzVFNG9hS3N4YWdJaFRIZmxlMVJMSUhBelJHQkdPTzZaR0dsTUdRdkNBdlBrVXB0bHR0MGVv?oc=5",
@@ -2939,6 +2939,29 @@
       "freshness": "recent-reporting",
       "context": "reporting",
       "severity": "elevated-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "c3456f0efd6120c426d047a6",
+      "title": "Trump waives sanctions under Russia and Iran sanctions law, citing US national interest - News On AIR",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVVlwOXBka000NktkSHpGWk85SmE1cmtadE44ZGVnZUxibnowOFRramZGNV9hRWxDSWVnOGdzMmFQZDJkWTFodTdkYUxpQmZZVV9LdkIxYkxvYkZIWHFwUWd5TkppV1FlV01RaXItQThFNVVmVF9uWEk3bE4tQ3diOFJWYXd4NW5FQmVOcnpJc19RUkZEQjdRMmFkN2xQZDFBRWpqWFBzVGp1c2lnSkpka3JR?oc=5",
+      "source": "News On AIR",
+      "published_at": "2026-10-21T22:15:28Z",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "language": "en",
+      "category": "diplomacy",
+      "tag": "DIPLOMACY REPORT",
+      "provider": "Google News · diplomacy",
+      "first_seen_at": "2026-10-22T10:07:45.339170Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
       "critical_candidate": false,
       "alert_eligible": false,
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
@@ -3711,6 +3734,30 @@
       "freshness": "recent-reporting",
       "context": "reporting",
       "severity": "elevated-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "34a8cb162ae3808a3baa70a4",
+      "title": "إيران تشن هجمات على قطر والكويت والبحرين والإمارات والأردن - الساحل الغربي",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9SUUNDallCbDJvaVoyVHN6Z2JKT29EZkJSekgwLXdLZUVNbFhlaGdyaDdXWDI3MlVHNmhLSlB3bFFtcHptOVNZTTZ0TnJETjA?oc=5",
+      "source": "الساحل الغربي",
+      "published_at": "2026-10-21T19:25:33Z",
+      "country": "",
+      "countries": [
+        "Iran",
+        "Qatar"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير امني",
+      "provider": "عربي · قطر",
+      "first_seen_at": "2026-10-22T05:29:00.114694Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
       "critical_candidate": false,
       "alert_eligible": false,
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
@@ -7223,7 +7270,7 @@
       "provider": "عربي · الإمارات والبحرين",
       "first_seen_at": "2026-10-21T14:42:05.171293Z",
       "date_quality": "publisher-time",
-      "freshness": "recent-reporting",
+      "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
       "critical_candidate": false,
@@ -9840,7 +9887,7 @@
       "language": "en",
       "category": "diplomacy",
       "tag": "DIPLOMACY REPORT",
-      "provider": "Google News · diplomacy",
+      "provider": "Google News · security",
       "first_seen_at": "2026-10-21T18:59:06.569317Z",
       "date_quality": "publisher-time",
       "freshness": "older-reporting",
@@ -12295,7 +12342,7 @@
       "language": "en",
       "category": "security",
       "tag": "DRONE REPORT",
-      "provider": "Google News · missiles/drones",
+      "provider": "Google News · shipping",
       "first_seen_at": "2026-10-20T17:30:36.865670Z",
       "date_quality": "publisher-time",
       "freshness": "older-reporting",
@@ -13085,29 +13132,6 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
-      "id": "b75bb2b7af18a30b6c56175c",
-      "title": "UK expands military support for Saudi Arabia against Houthis with ‘defensive’ air patrols - AP News",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdFpJQjVaX2pPYVMybXM3OEQ4ZzRzNEdpc2FVMldTRTVWaVFNQXZQVkZrRmdLNVpKc1RVeS1sbGIzSDJlNE12QkRMR2UxcC1PZWIwcnJXY0Z4T0hEQkxmWnBrNHpkSFZxaWgzZU5pRGM1cGJVUWRISHFraGJaUFFzRnlHYko4UlJpMmFvMVZLc1lFdw?oc=5",
-      "source": "AP News",
-      "published_at": "2026-10-20T15:56:00Z",
-      "country": "Saudi",
-      "countries": [
-        "Saudi"
-      ],
-      "language": "en",
-      "category": "security",
-      "tag": "SECURITY REPORT",
-      "provider": "AP · indexed Gulf reporting",
-      "first_seen_at": "2026-10-20T12:03:42.847208Z",
-      "date_quality": "publisher-time",
-      "freshness": "older-reporting",
-      "context": "reporting",
-      "severity": "routine-reporting",
-      "critical_candidate": false,
-      "alert_eligible": false,
-      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
-    },
-    {
       "id": "1ee5b93406726006a155974c",
       "title": "حريق في ناقلة نفط بمضيق هرمز - شبكة يافا الإخبارية",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9CUC1KWnR2dWRLREFFOTFCclNlaXZUcXRBYm9ERU5HZHRZc2tIOXJiN3B5WFFqdVBYc0lXUTczQVlMSHljeUp6OTRhckV4ckl0?oc=5",
@@ -13229,6 +13253,29 @@
       "tag": "SECURITY REPORT",
       "provider": "Google News · security",
       "first_seen_at": "2026-10-22T00:44:51.576065Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "b75bb2b7af18a30b6c56175c",
+      "title": "UK expands military support for Saudi Arabia against Houthis with ‘defensive’ air patrols - AP News",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdFpJQjVaX2pPYVMybXM3OEQ4ZzRzNEdpc2FVMldTRTVWaVFNQXZQVkZrRmdLNVpKc1RVeS1sbGIzSDJlNE12QkRMR2UxcC1PZWIwcnJXY0Z4T0hEQkxmWnBrNHpkSFZxaWgzZU5pRGM1cGJVUWRISHFraGJaUFFzRnlHYko4UlJpMmFvMVZLc1lFdw?oc=5",
+      "source": "AP News",
+      "published_at": "2026-10-20T15:33:17Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "AP · indexed Gulf reporting",
+      "first_seen_at": "2026-10-20T12:03:42.847208Z",
       "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
@@ -13878,6 +13925,29 @@
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "elevated-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "96951b4e587c022f21cdfdd4",
+      "title": "Iran says it downed US drone over Strait of Hormuz - Muslim Network TV",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSlVxTFU1VF9XREZMRFBFaUhCbEloUkZTRUtTRWxDZ01xMzZfcmZWRDQySkJJT21DdUltZ0RyWjZNTUlwSW82WFZ6RzlyNDZDSXBrMVVrUkpmcVVFa3ZXd05DZXBzZ0pWYWFUQkFJYy1nQ3JtanZ1MmFRN0FQeWYxMDRCMExFT1k?oc=5",
+      "source": "Muslim Network TV",
+      "published_at": "2026-10-20T14:09:34Z",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "DRONE REPORT",
+      "provider": "Google News · missiles/drones",
+      "first_seen_at": "2026-10-22T10:07:45.339170Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
       "critical_candidate": false,
       "alert_eligible": false,
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
@@ -14957,7 +15027,7 @@
       "language": "ar",
       "category": "security",
       "tag": "خبر اعتراض / دفاع جوي",
-      "provider": "عربي · السعودية",
+      "provider": "عربي · قطر",
       "first_seen_at": "2026-10-20T12:19:08.929948Z",
       "date_quality": "publisher-time",
       "freshness": "older-reporting",
@@ -18564,29 +18634,6 @@
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZ3UzWWlVQWZmQ0NxbkZ4SU5uRkRIXzg0c2ZrRU1iSVRLdjVobTF0SlBmeEVGSGdvc0p2MXhscFJqTmw3OUc2RWZaZHJ6dURHVW51cVZGbGFUREpHUFFfR3czbE5OdzZmb2ktWWNMM19xVmNSZWMxWGlLZmtmdFNRR25EbnVpWE4zQ1o4aU1rUE41MTlRTFZEUktDZw?oc=5",
       "source": "Anadolu Ajansı",
       "published_at": "2026-10-20T06:43:46Z",
-      "country": "Iran",
-      "countries": [
-        "Iran"
-      ],
-      "language": "en",
-      "category": "security",
-      "tag": "DRONE REPORT",
-      "provider": "Google News · missiles/drones",
-      "first_seen_at": "2026-10-20T12:00:32.516927Z",
-      "date_quality": "legacy-unverified",
-      "freshness": "older-reporting",
-      "context": "reporting",
-      "severity": "routine-reporting",
-      "critical_candidate": false,
-      "alert_eligible": false,
-      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
-    },
-    {
-      "id": "9a2d25935b5cec706732e9de",
-      "title": "Iran says it downed US drone over Strait of Hormuz - Muslim Network TV",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSlVxTFU1VF9XREZMRFBFaUhCbEloUkZTRUtTRWxDZ01xMzZfcmZWRDQySkJJT21DdUltZ0RyWjZNTUlwSW82WFZ6RzlyNDZDSXBrMVVrUkpmcVVFa3ZXd05DZXBzZ0pWYWFUQkFJYy1nQ3JtanZ1MmFRN0FQeWYxMDRCMExFT1k?oc=5",
-      "source": "Muslim Network TV",
-      "published_at": "2026-10-20T06:43:17Z",
       "country": "Iran",
       "countries": [
         "Iran"
@@ -25546,7 +25593,7 @@
       "language": "en",
       "category": "security",
       "tag": "SECURITY REPORT",
-      "provider": "Google News · diplomacy",
+      "provider": "Google News · missiles/drones",
       "first_seen_at": "2026-10-20T12:09:48.504938Z",
       "date_quality": "publisher-time",
       "freshness": "older-reporting",
@@ -38059,30 +38106,6 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
-      "id": "34a8cb162ae3808a3baa70a4",
-      "title": "إيران تشن هجمات على قطر والكويت والبحرين والإمارات والأردن - الساحل الغربي",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9SUUNDallCbDJvaVoyVHN6Z2JKT29EZkJSekgwLXdLZUVNbFhlaGdyaDdXWDI3MlVHNmhLSlB3bFFtcHptOVNZTTZ0TnJETjA?oc=5",
-      "source": "الساحل الغربي",
-      "published_at": "2026-10-16T03:54:01Z",
-      "country": "",
-      "countries": [
-        "Iran",
-        "Qatar"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "تقرير امني",
-      "provider": "عربي · قطر",
-      "first_seen_at": "2026-10-22T05:29:00.114694Z",
-      "date_quality": "publisher-time",
-      "freshness": "older-reporting",
-      "context": "reporting",
-      "severity": "routine-reporting",
-      "critical_candidate": false,
-      "alert_eligible": false,
-      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
-    },
-    {
       "id": "ef6193de38b5bb1d79dfb24f",
       "title": "التحالف: اعتراض وتدمير مسيرة بالمنطقة الشرقية في السعودية - العربية",
       "url": "https://news.google.com/rss/articles/CBMi7wNBVV95cUxOaHpYMXZ3U0pCOGpfT0Jickk3WFA2eFFRbnpYNnMxamJuYmdSb2J1cExfTGdZWnhHZjFBa3hQTlhRay1obzZFRWh0YV8yNE5ELVRZUVd3Y0tRQTloeUxTTHpja0FlVVprOUlUUUdiQmlzQ2NQVHY1UmJhSkxGa2hZTDd2WXNwZm1QY3prc25uMmFZSWVaSDVrblpRMDJKQXNPaVRUaTc0N1BYRWZ0S2o0OUpHWWhJX1A1bm1pVUNqOERXQjJGRUpmZnJ5a3Z5RzlfeWthM0hhWTI1ZUc4UkU4TEpYU3NiQmlRQTFHVnpJc3BIYm0xX1dPWkhGS19XVFpWZGVySUt2N3B3ZGZRb2JNTGFPMFZ6UVZYamV3dXNTZ2ZlZVF4ZmRPalVoMXB1Q3FpbHRaTFl5dlMxZTFxOTNIWFAySVpDZ2VFN2dPb1NZejI2WWQxekhZZUEtY012STBGUXdHZk1KazYtbWVJakRXV3VHQzl4WXYtU19tNWk2X2Z4VlBabHhRYUJ4WTNWZ1NXbEl1SkRsNU03MWpZZkxjeFNkdnhOd0FxR09wdlc3SzlfVEMxVW5uc3I1YzJqd3BneVFYNkRUOHNPMm9LbGlpTFFWdFUxT1lfZms3ZHV2Uk92bHRDVEp0dlhxdnNrTGvSAfQDQVVfeXFMUFhZRnU0V0ZBQ2hrN0lsMExJRW5reFdoOVFJVHRXR05IaFNGMloxVkduOHJFTkNIR2Nzbk01OEQxeFRfeEQ5czJ4bDEzLUNlRUlBVVA5QjRfeEMtZUlicUFNeWRTZjdDeWNfSHlQTlBkR2ZjWGxTOTl5TkR5Y3hzdkUyN3d2ckdza3BwbDhYdW1pZUo5TkdxYnlCMm94UjQxMWxEWjhMNklFVVI3ZkJNRGl2Q3V3TnBLLUxpNXd1YThLNEJrVHhIdGJTYmJxb1JUeW9pd1IwUHlkS0xRel9wVC12WEZiakNaSEpTZDliT0lzd0V4Q0V0bFgyNUJVNU1vMV9IeE4wZzVBLURoSUJUMUM2QzJCc3VXbjlNNTRUNVotNEo2UE91a190MUFoaHJaanpBNWl1Z1daS3NLbzVOWWsxaVBkMzJjZ01xUlZoaDBINVZZamp6ZEhYb1I4RWUzTUxWT3BKblpBZmE3UUZ5bWw1M3BaRGl5SktCMUN2OW5nX01LaVZ1N1VaREdvREpqX29SeE50dTR4eTg3NkUtaVpBOE1HSE5fMW9ObzlZV3N4WEpVb1BQcU9GVnlsNU1aWlVfaWE4T21pcGJBcy1FcmRacEw1cF9Kc0Y2blpCMVdvd2t4R1R0QkNsMFpJUkN2bzFyaEk?oc=5",
@@ -49525,23 +49548,23 @@
     },
     "Google News · aviation": {
       "ok": true,
-      "items": 85,
-      "relevant": 79
+      "items": 83,
+      "relevant": 78
     },
     "Google News · shipping": {
       "ok": true,
       "items": 100,
-      "relevant": 84
+      "relevant": 79
     },
     "Google News · diplomacy": {
       "ok": true,
       "items": 100,
-      "relevant": 45
+      "relevant": 35
     },
     "Google News · regional": {
       "ok": true,
-      "items": 27,
-      "relevant": 13
+      "items": 53,
+      "relevant": 25
     },
     "Reuters · indexed Gulf reporting": {
       "ok": true,
@@ -49555,7 +49578,7 @@
     },
     "UKMTO · indexed official advisories": {
       "ok": true,
-      "items": 16,
+      "items": 14,
       "relevant": 0
     },
     "US State Dept · indexed advisories": {
@@ -49566,22 +49589,22 @@
     "عربي · إيران والخليج": {
       "ok": true,
       "items": 55,
-      "relevant": 42
+      "relevant": 41
     },
     "عربي · قطر": {
       "ok": true,
-      "items": 56,
-      "relevant": 21
+      "items": 57,
+      "relevant": 22
     },
     "عربي · السعودية": {
       "ok": true,
-      "items": 100,
-      "relevant": 65
+      "items": 61,
+      "relevant": 45
     },
     "عربي · الإمارات والبحرين": {
       "ok": true,
-      "items": 49,
-      "relevant": 44
+      "items": 51,
+      "relevant": 46
     },
     "عربي · الكويت والعراق": {
       "ok": true,
@@ -49591,12 +49614,12 @@
     "عربي · مضيق هرمز": {
       "ok": true,
       "items": 100,
-      "relevant": 73
+      "relevant": 74
     },
     "عربي · الجزيرة": {
       "ok": true,
       "items": 100,
-      "relevant": 11
+      "relevant": 9
     },
     "عربي · العربية": {
       "ok": true,
@@ -49606,7 +49629,7 @@
     "عربي · الشرق": {
       "ok": true,
       "items": 100,
-      "relevant": 36
+      "relevant": 35
     },
     "عربي · وكالات الخليج": {
       "ok": true,

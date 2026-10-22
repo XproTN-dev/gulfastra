@@ -1,7 +1,7 @@
 # موجز جلفاسترا للمصادر العلنية
 الفترة: آخر 24 ساعة (حسب وقت نشر التقارير)
 
-مجموعات التغطية: 292 | عناوين مرتبطة: 313
+مجموعات التغطية: 293 | عناوين مرتبطة: 314
 هذه تقارير صحفية وليست أحداثا مؤكدة، ولا تعتبر توجيهات سلامة رسمية.
 
 ## Security (183 coverage groups)
@@ -18,10 +18,10 @@
   - EL PAÍS English: https://news.google.com/rss/articles/CBMiugFBVV95cUxNekpKanUwWk0zNEpULWhPVVdOUlItQ0MxMGtpVWp6NHZ2dDU1ajl3SUEtQnBoMUF0SjFyVEQ3Tnpnd3lGRWhOWVBBM2U0T1JWWUdsV1NGVE9VWWExb3ZSeGlhbFBTLVVSTk1taXFzdG5FaEpnWGhsWmNwaXVCZVR3cEYwdmhtUzMxbURHdXpHMkNEclEzdy12UldKOHVTdUEydHpiRUFWR3lUS2h2ZjVYa0gtNlo5cnpFOFHSAc4BQVVfeXFMTmoyVTdNYVdtcEsyVkhpVi1kYWZwQjIycmFLVm5IZ3BpeXRFLVNVVEJ3ZTRFS0FPSEtrSzJlcG1uS1RFLWNEWFZnUkhhSlBudC1GeG9TNGw0d29JLXVJbEJOMnFfX281UUZwY3pKVl90SGYwRU9KaEJVbWJxUlRRa19YQTJIWU10OUtrVlhOdVhYR2Z0blVJNXNnNGREeG45YWttUGZheWRNdUhKT2tWZXhhS2FoSTVOaTlPbVlzQmM4dndiWlRZbTRxMXVza0E?oc=5
 - إيران تربك حسابات الكنيست.. تحذيرات من هجوم بتوقيت سياسي - العربية (1 headlines; single-source)
   - العربية: https://news.google.com/rss/articles/CBMi3ANBVV95cUxQeDRpTlN6SW9FdTdDcnZzRHVaSTJ1eDYxRkJUUmZ0TlRLWlFrM2ZLa2xZVHRHODg3bzNSaE9ZQ1lJVExLZmkzNHl0VzV0cGFEalhrcG9PU04tSkJpX0tJb0dmVUYyR0hITnVXLTRVbkhrSkVZYllSLVkwRE91eFE5WDU4aEwzdmhuUG9SS3VHRVE5ME9GUTVGbDZIZWpFd21CeVZ0cTVYR3hLYkFRQl8yXzNuYVlreWNoQTdES0tWWl9DLXZGRVVhbmpfRUhwZnZPOEJScEIwZGl5TWk3STRfeDAzVGkwWDFCbDZFSWY2RkxLSlRPd0VUY1Zlb1BobDdUaWdHME5hWEtwNkMyTEpJU2V5NEdMN0o0Ql81U19GclY2OURIcEFNbHFHbEFKTUJIdnhiUGl1SVRMN1dpOHFpMElHNkZLeXN2Y2JMa1YxQWNwLUxXR1Zwb1BiYjQ3RlR2S1dOcUJwM0JFOWFTb3QxSFc4Qk1IZEdFbmUydjNFY255QWFHX3dxYjRCczJXQkI2ODFjU2s2NHlfNDY3QThnMm9SU3lqUkRwQi1IYW03cHN1UE1kemdyWVVoclBSUmpRNm9NTHlURGpRSDZrdk1jOHhkRC1uSmYzd0RHX9IB4gNBVV95cUxNRUw0bEpjN3o5RWJTV1ZyVkE0QUhoSFptOEdsdzVrYW9GcW9ONl9qR3Vwd3prSFZiVUptMWdsS0ZYYUNxTEJsZW5rQTVjemthNnYwZTdWZEpSZDNNX05Hd3pHNFRRS1JkWkc3N3RWa0EzTzVYdVpPNlA3RGs0WTJWY04ybURSNmlLM2lGc0tURmh0YmFmVFJxUHN6RFZkMElpbDFJblJjcG1ManA4dFRLb01RS2k3UVpIdzM4SlV6Tnk3SjdJRFFyU2RGbThpNXNPbndBOEhERFJsWE92MU9zUWY2Wk5ORVlUN3BtYV9wNjF6dFplSUxDQXBhMGRjOVBJNW02dVZyRl9oRWhSMEdhd2cwRFNUeHFyMFFEbldzUkNGMHI0aVNDQkxlMmtiYjJpci1UWU5rckx0a25OTUdQYzFhMm1zdUNHZTBfOTRMdElWZGFUdTdCZWFDSFNlc0QzUHpwRXVPOFVWOUZxZUwyOHl3ZEExLVpiS2FGNkduQk5VWWhZODhzOFNDSVdVOHBMeXdudm5mYVExRnBOY21EMXFEY3pPaGdjbGNjbEthc2tMNF9MX1RYWWRaWlNNRGtrWXVZYjZfODd6Qzh6engzZFcwVVpkSlhTZG9Kd0k1Nlh1QQ?oc=5
-- UK Sends Fighter Jets to Saudi Arabia as Yemen Conflict Escalates - https://globalpost.com/ (1 headlines; single-source)
-  - https://globalpost.com/: https://news.google.com/rss/articles/CBMingFBVV95cUxPYkpZTzd5SnZWOTBDYW9MeEpLYU1ONzlCOGFQdDVoRDN1OE9pMG9rSUlUeWJnaUdId2lOWFBPdV9xOTZvNzJ0S1hiN3QycUx2V21mNE5uSGdCN3dXYU9YWU1IUkFtNVU4Y2tQVV9ubTA2QjZhUEFLMWdkQWlUeVZhRmNpVWFYcERZMmduM0JjLUJjUVh0QlpjNHpCUjROUQ?oc=5
 - Oil Prices Rise More Than 2% as Attacks on Saudi Arabia, U.S.-Iran Risks Persist - WSJ (1 headlines; single-source)
   - WSJ: https://news.google.com/rss/articles/CBMixAFBVV95cUxQYjRlQlhGVEJPT2JaeEpGWkxTZFVEdnpuMUxLRUZhUU1EY09ZcnJMaFlZNmdUbHkwdlBpcURmeHpZXzl1c1Z4WW94YmtMNTJ2N0paSlQtNXJ2eGVfam4tdW5NekpScjdYLU1RSzVGRTJqN3hCT3NOWnNmNGZpYjEwemo3ejBfOTU2ODFoMWtFX1hWS3RHZU9lcm93anl4UUczODQyd1hrUVc4VHQ5ZEpPay1SWGhWbW9YdFFPVmZWd3ZwNmhV?oc=5
+- UK Sends Fighter Jets to Saudi Arabia as Yemen Conflict Escalates - https://globalpost.com/ (1 headlines; single-source)
+  - https://globalpost.com/: https://news.google.com/rss/articles/CBMingFBVV95cUxPYkpZTzd5SnZWOTBDYW9MeEpLYU1ONzlCOGFQdDVoRDN1OE9pMG9rSUlUeWJnaUdId2lOWFBPdV9xOTZvNzJ0S1hiN3QycUx2V21mNE5uSGdCN3dXYU9YWU1IUkFtNVU4Y2tQVV9ubTA2QjZhUEFLMWdkQWlUeVZhRmNpVWFYcERZMmduM0JjLUJjUVh0QlpjNHpCUjROUQ?oc=5
 - Middle East latest: Two dead in attack on Dammam airport in Saudi Arabia - The National (1 headlines; single-source)
   - The National: https://news.google.com/rss/articles/CBMihgFBVV95cUxOQ2R1cnowWHhzQXdZcXRMWGVEZU83YmJaLUE3bHk1b1hleDhCNmpwcVJDbEg0Zll0LWpjTkhwdE1qc3hUdTJYSjdmMFlMaml2eTBPeHVwWll2bVFsVDJ5REx0RHk3YllpeXZuVVc5enVhS2ZyazlYQ0xGQl9WV0NMM1l0eHM0QQ?oc=5
 - الحرس الثوري الإيراني: إصابة 7 سفن في مضيق هرمز ومياه الخليج - بوابة الأهرام (1 headlines; single-source)
@@ -36,12 +36,12 @@
   - شبكة رؤية الإخبارية: https://news.google.com/rss/articles/CBMiwwJBVV95cUxPbFRISV9fY0JaNExOVnI1UE1YdmhlRmh6c05sZnVhVERlaWZYd09tQ0tEY29jQnFVZUVJcnJWdXFqUHRZSTN4d0JXMm9aS0dwbHc5c3BZVWJVS2lKc1dTV3hYWllnNm93WmVVbFA5aEZtX0tCTjZoOVIzQWVNYkFodUpzX0staHhBek1pX3hRTXR6bHJOaWtJYko3ZEdFeFRYeWtvUG12dXhMUTdwR1NMSjNnbDBPZUhiamxlYjZDVUxrLXFuaDdFYk9xUUwyWUpicGVtU21ZU2xzRWhILWFQb3hydGdOczB5S2dOMG9qcWhHYmliVGN0QllVazlaNzN5OGlnMTNnanVZTXZYVWRBU2RQNlF0UkVnQmtDX196X3NJTXlaUm52eVEwdzNOQzk4Z0tLQzJwT2NzT2oxYm04R25xMA?oc=5
 
 ## Transport (64 coverage groups)
+- Strait of Hormuz near ‘maximum danger’ as US-Iran diplomacy stalls, analyst says - Modern Ghana (1 headlines; single-source)
+  - Modern Ghana: https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0tTTBHYXFkVFZxZXFMSmZwSHpldDFPbGpGMnZZZmVJZXRwNmg0elBiSkRpdnRlVldGUFF1MXRsTWx4VWY2ekxpT2pEYkJCX2ROSHdYa2txWUNiYzlpWGVwcjZBMEtvUDTSAVxBVV95cUxPcFhicEhhVzFlNVFwd0lVOHRkN1RIeGp6bElpX2lLRjh1QWlZSElPUE9FZU5Db21lbG05T3JBZXA0ZU4xdnBjYmJJQUE2OUxnVm5XczU0S2VXV1JyQQ?oc=5
 - US Sanctions Companies, Individuals, and Nine Vessels Linked to Iran - IranWire (1 headlines; single-source)
   - IranWire: https://news.google.com/rss/articles/CBMipgFBVV95cUxPMFBzN1VuMEQ0NGNHcXNVYnQ5UzdXdkc5by1vbXBLRV9pVXN6Q2twWE91QTktRDZvTEhEMmEwN05WNE1MTjdHTDBxT0p0WXg5V21LcUx4YWM1QWVlbHpGXzdNdi01NzZjaXEyclFlc2FYNE5TeDlTbVhINzVmT0NpbGxHNUs5QzdycGxwQk5wUTI2OHc0VVgyUTdpU2Q1VmxaWEo4MWhR?oc=5
 - US sanctions facilitators and vessels linked to Iran’s shadow fleet - safety4sea (1 headlines; single-source)
   - safety4sea: https://news.google.com/rss/articles/CBMilAFBVV95cUxNZ2tSaG9HeGY2enZsejNRakRRbFB3VU1LaUpEeVNJSFVBSGJZV1BaYW1iTm8xcEs1STFsS1c3elFtRXNtYzNmTjgwLWpmZXF4dEhvX3ktc2dkVnhvVE1kR1RyV1NiZEJ3Rkp0eXNTaFNiQ2JqQVJyZkJpRGVTMUd1eElIU19peDdxX2N3Wk9TdVRVT3Vk?oc=5
-- Strait of Hormuz near ‘maximum danger’ as US-Iran diplomacy stalls, analyst says - Modern Ghana (1 headlines; single-source)
-  - Modern Ghana: https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1LZGpMVnE0OHRpS0dEOGxoOU1wRk5ZaWRNOFdrYndoSmktRnVaNkgyTkF2clNKX1FHTnVZaEhlUWVhMEljQ1Q5SU9GMTVQbmdnSmJtMXFUV21vZU9fTG1RSDRESDg1SFXSAVxBVV95cUxPcFhicEhhVzFlNVFwd0lVOHRkN1RIeGp6bElpX2lLRjh1QWlZSElPUE9FZU5Db21lbG05T3JBZXA0ZU4xdnBjYmJJQUE2OUxnVm5XczU0S2VXV1JyQQ?oc=5
 - Seven tankers reportedly damaged in Strait of Hormuz overnight - India Today (1 headlines; single-source)
   - India Today: https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYlIzTmhOdTlCbVZ5Y0JTU3FFZnpGc3Azc192T1JwOGJBWkdHZjd0U2F5bVBYLUV3RGFHc1B3dG1YMU1uSzg5eC1zcWd3Sk9UUE0xeWFYbDVLRmdXbV9aZ1BRZUl6Zm9XN0NSV3dSLVhham5zb0xITE5LOHNpSDFGQWpraG5xVHpUa1NxRFFHc0ZpUkJESERuYlZrT1lMS09uWEpUWUdQMk9PTTQxUXBxYlVmRzdoa3BHQlZz0gG7AUFVX3lxTE5iUjNOaE51OUJtVnljQlNTcUVmekZzcDNzX3ZPUnA4YkFaR0dmN3RTYXltUFgtRXdEYUdzUHd0bVgxTW5LODl4LXNxZ3dKT1RQTTF5YVhsNUtGZ1dtX1pnUFFlSXpmb1c3Q1JXd1ItWGFqbnNvTEhMTks4c2lIMUZBamtobnFUelRrU3FEUUdzRmlSQkRIRG5iVmtPWUxLT25YSlRZR1AyT09NNDFRcHFiVWZHN2hrcEdCVnM?oc=5
 - السعودية.. ارتفاع عدد ضحايا الاعتداء على مطار الملك فهد إلى قتيلين - صحيفة الخليج (1 headlines; single-source)
@@ -65,7 +65,7 @@
 - Adnoc Keeps Loading LNG on Tankers Despite Hormuz Disruption - EnergyNow.com (1 headlines; single-source)
   - EnergyNow.com: https://news.google.com/rss/articles/CBMilgFBVV95cUxQeDN1dG5rTzdCM2JxazN6eEtHc1pRR1VJVmF4MXF2TXVfcGNmSzVsTVRQQXhXeWE4bC1HTTJhb3Awc0kzWnQ3blVwLW5Ub0VDSFpLMDkwSVp5bF9SRlliOFlUenpyMHRaNWFQT2x5eVlQZmE2aTBLOS00a2pVVk9WOGY5Z1NiUkwwOWZsQUpHc2NMN0hfeFE?oc=5
 
-## Diplomacy (45 coverage groups)
+## Diplomacy (46 coverage groups)
 - Diplomacy or War? The Alarming Signals Behind Iran–US Talks - WANA News Agency (1 headlines; single-source)
   - WANA News Agency: https://news.google.com/rss/articles/CBMihAFBVV95cUxQQlhaVjJaY0pUTmFBRlZPRm5jay0ybi1sTmY1dTBKdHVSem83Z3R1bFZyX0pER0FQV1hnT21UYzNFaWRSR2RQdkNnTVZsa18wUEVMdWFGVE04X1M4b0hoZ2tMampUWFA4b24xOXFqc3M3SUZBcHNJd3dWZkRCbXd4UDVzZ2Q?oc=5
 - Trump denies Iran negotiations, says situation will resolve soon - New Age BD (2 headlines; multi-publisher-unverified)
@@ -89,9 +89,9 @@
   - NOW الشرق: https://news.google.com/rss/articles/CBMikwRBVV95cUxQWkNqOVdjU2VObGVwczVqYTFsMFZTa3ZsZzVYYXE0U092WUZUNWR6eUNqVEVGWjBxSFRMTmdXM2NHMEdtRTVudmtsNmc5YUg2WmxVSU1aOWlJck1EUnZTaWd6TlpEUjVSbmw4UG9XWGltZjJmN3pLQ0NJeVV1bDVfR0VHTFNISFhicWF6WTl6YXk4OXdsdFp2VEpvX3VGYWxGXzVZaU5TUFRjUGl6SWl1c0hIR3UzNHB5VlJCbHZfUGVMYTZWbkhLVWJrb3VRb0l0TmFPX2xEMTRla2F5VENhZFBvZW8xTzNjc2VjUE1FMURtQ0RJb2lFU0p3UFMxbjROUlhVWThkTXpUZE1XcUJVTXdyeWlFZnUtVlRxOURGc2dpbEhCM3piRTY3QXdKZDlHZEIxdnAybTR4N2M4TnA5RENYaGQzVXliZDVoUUR2SVlFSEZHRUlpbUFENnNGSHR6dWpSWF9NNjk1Xy1HT0J3TG5QTXZVMDFZOTN0RFZ4QVdFaDN3LVREODlpQ3RWeHRCVGl5YmJSQnVSV0E5STZwTVl5WnVSNUJYbGladW94Q1JzMUZZcWcwY293dnVDT0tHV0ZiQUV1aEdqd1oyYWd4X0ZPalhpZGZpOXR3RVB5R3E3LUdPUmtSYUNJNW5QV2pEMnFxU1hyWlhOVzYtQWtrYW0wamNsbU1HejBuMUpTdWVlcG8?oc=5
 - Pezeshkian: US Must Lift Sanctions, Threats Before Any Talks as Iran Distrusts Washington - Orinoco Tribune (1 headlines; single-source)
   - Orinoco Tribune: https://news.google.com/rss/articles/CBMitgFBVV95cUxNam5lQ01VRXlSVG5IdlZXWHpzak9TQ0V2WHlIU0N3a1NDQXhhX2xoMnpnZUNldWphWUduVzNNTVlBQld2WnRfc242SEREak9ua3hlU25xaGhuUEVDMlpLeFJzQXl4aVZ2M0taMnBSSHZZTVpnR3ZDdl9QTk9RZTNTcjBBNEZPZ3hHVDdCV0pSdjVfMllFNkJxWGRjd2JGMGZQWk1GZTZqajhJYlplQlZRNVk5RkI1Zw?oc=5
+- Trump waives sanctions under Russia and Iran sanctions law, citing US national interest - News On AIR (1 headlines; single-source)
+  - News On AIR: https://news.google.com/rss/articles/CBMisgFBVV95cUxOVVlwOXBka000NktkSHpGWk85SmE1cmtadE44ZGVnZUxibnowOFRramZGNV9hRWxDSWVnOGdzMmFQZDJkWTFodTdkYUxpQmZZVV9LdkIxYkxvYkZIWHFwUWd5TkppV1FlV01RaXItQThFNVVmVF9uWEk3bE4tQ3diOFJWYXd4NW5FQmVOcnpJc19RUkZEQjdRMmFkN2xQZDFBRWpqWFBzVGp1c2lnSkpka3JR?oc=5
 - Qatar Joins UN-Backed Talks in Geneva to Advance Peace Efforts in Sudan (1 headlines; single-source)
   - Qatar News Agency · General RSS: https://qna.org.qa/en/News-Area/News/2026-10/21/qatar-joins-un-backed-talks-in-geneva-to-advance-peace-efforts-in-sudan
 - Tehran displays mock installation of Trump behind bars (1 headlines; single-source)
   - Al Jazeera RSS: https://www.aljazeera.com/video/newsfeed/2026/10/21/aje-onl-nf_tehran-displays-mock-installation-of-trump-211026?traffic_source=rss
-- Saudi Crown Prince Meets French President (1 headlines; single-source)
-  - Qatar News Agency · General RSS: https://qna.org.qa/en/News-Area/News/2026-10/21/saudi-crown-prince-meets-french-president

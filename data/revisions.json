@@ -2,86 +2,6 @@
   "schema": 1,
   "history": [
     {
-      "id": "GF-980DCF9DF0BBCB",
-      "revision": 6,
-      "at": "2026-10-20T08:06:40.825197Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-C30150D17CCE95",
-      "revision": 2,
-      "at": "2026-10-20T09:16:22.504036Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 4
-    },
-    {
-      "id": "GF-B5B71784951E17",
-      "revision": 5,
-      "at": "2026-10-20T09:16:22.504036Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 4,
-      "new_source_count": 5
-    },
-    {
-      "id": "GF-05F74586CA0396",
-      "revision": 3,
-      "at": "2026-10-20T09:16:22.504036Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-6744666E8D404D",
-      "revision": 3,
-      "at": "2026-10-20T09:16:22.504036Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-4ACF500EC169DB",
-      "revision": 3,
-      "at": "2026-10-20T09:16:22.504036Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-825ED56C1A3A18",
-      "revision": 6,
-      "at": "2026-10-20T09:16:22.504036Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-52DF3E405DDC16",
-      "revision": 3,
-      "at": "2026-10-20T09:16:22.504036Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-B09D0E6ED840BC",
-      "revision": 6,
-      "at": "2026-10-20T09:25:08.588396Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-4ACF500EC169DB",
-      "revision": 4,
-      "at": "2026-10-20T09:25:08.588396Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
       "id": "GF-88B3B1CE19E365",
       "revision": 3,
       "at": "2026-10-20T09:25:08.588396Z",
@@ -19997,6 +19917,86 @@
       "id": "GF-22E6071B5886EB",
       "revision": 6,
       "at": "2026-10-22T10:05:13.151201Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-AFB660A9F27748",
+      "revision": 6,
+      "at": "2026-10-22T10:07:53.147960Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-CCCBF4B0C9682E",
+      "revision": 5,
+      "at": "2026-10-22T10:07:53.147960Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-22E6071B5886EB",
+      "revision": 7,
+      "at": "2026-10-22T10:07:53.147960Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-2729564FCE243E",
+      "revision": 2,
+      "at": "2026-10-22T10:07:53.147960Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-D102B90FE7780C",
+      "revision": 5,
+      "at": "2026-10-22T10:07:53.147960Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-8BF483DBF51CE0",
+      "revision": 10,
+      "at": "2026-10-22T10:07:53.147960Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-14FE6602BB9047",
+      "revision": 22,
+      "at": "2026-10-22T10:07:53.147960Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-EE419554FAC3D3",
+      "revision": 5,
+      "at": "2026-10-22T10:07:53.147960Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 5,
+      "new_source_count": 5
+    },
+    {
+      "id": "GF-0E631F932F40BC",
+      "revision": 5,
+      "at": "2026-10-22T10:07:53.147960Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 2,
+      "new_source_count": 2
+    },
+    {
+      "id": "GF-73DC4829A050DE",
+      "revision": 11,
+      "at": "2026-10-22T10:07:53.147960Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
