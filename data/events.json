@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "generated_at": "2026-10-22T09:52:02.824790Z",
+  "generated_at": "2026-10-22T09:53:30.175801Z",
   "model": "deterministic-source-correlation-v2-coverage-lifecycle",
   "disclaimer": "Clusters are related PUBLIC REPORTS, not confirmed incidents. Source counts are not proof. Country names are mentions, not incident locations.",
   "events": [
@@ -16173,7 +16173,7 @@
           "country": "Iran"
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-10-21T09:52:46Z",
       "coverage_last_published_at": "2026-10-21T09:52:46Z",
       "current_reporting": false,
@@ -16182,9 +16182,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "fbbbe36c0ac817340b60",
-      "revision": 1,
-      "updated_at": "2026-10-21T18:59:15.820927Z"
+      "digest": "7aa31eca4dbb30fbe1b6",
+      "revision": 2,
+      "updated_at": "2026-10-22T09:53:30.175801Z"
     },
     {
       "id": "GF-C33E9B09CB16F6",
@@ -44407,6 +44407,62 @@
       "digest": "88d84beb04ea01be1bcc",
       "revision": 3,
       "updated_at": "2026-10-21T04:44:56.211637Z"
+    },
+    {
+      "id": "GF-F874ADF1672CA9",
+      "title": "عام / قيادة القوات المشتركة للتحالف تحذر الميليشيا الحوثية الإرهابية من استغلال الوسائط البحرية التقليدية في عمليات تهريب الأسلحة والصواريخ والمعدات العسكرية عبر البحر - وكالة الأنباء السعودية",
+      "category": "security",
+      "topic": "missile",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T01:52:58Z",
+      "last_published": "2026-10-20T01:52:58Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "c7895fbe954e818d7752193d",
+          "title": "عام / قيادة القوات المشتركة للتحالف تحذر الميليشيا الحوثية الإرهابية من استغلال الوسائط البحرية التقليدية في عمليات تهريب الأسلحة والصواريخ والمعدات العسكرية عبر البحر - وكالة الأنباء السعودية",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1BbE9YY1cwUWpNTlVrcVdDVW41cmFldk13SGZUZU5FeWpzV2Jwd1VtSWMyOWJhVWhVaURCa0gxZmJkV3FRd0E?oc=5",
+          "source": "وكالة الأنباء السعودية",
+          "publisher_key": "وكالة الأنباء السعودية",
+          "provider": "عربي · وكالات الخليج",
+          "published_at": "2026-10-20T01:52:58Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-22T09:53:23.472577Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Saudi"
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-20T01:52:58Z",
+      "coverage_last_published_at": "2026-10-20T01:52:58Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "2fb44a24760244ecb8f3",
+      "revision": 1,
+      "updated_at": "2026-10-22T09:53:30.175801Z"
     },
     {
       "id": "GF-484868D73D0E43",
@@ -74664,6 +74720,64 @@
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
+      "id": "GF-AB109B906E4DE7",
+      "title": "سياسي / الكويت ترحب ببيان مجلس الأمن بشأن اعتداءات ميليشيا الحوثي المتواصلة على المملكة - وكالة الأنباء السعودية",
+      "category": "diplomacy",
+      "topic": "regional",
+      "countries": [
+        "Kuwait",
+        "Saudi",
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-17T13:17:29Z",
+      "last_published": "2026-10-17T13:17:29Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "a532e8d10b60006b4f0e1d09",
+          "title": "سياسي / الكويت ترحب ببيان مجلس الأمن بشأن اعتداءات ميليشيا الحوثي المتواصلة على المملكة - وكالة الأنباء السعودية",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9SMVdxUkR6Rmc3WjBpakZoaHozenVLaTk0NUtGQWNxN2s3WWlSQnVQYktPam1nV1BRSG12ZW80QmlOOXVMYmc?oc=5",
+          "source": "وكالة الأنباء السعودية",
+          "publisher_key": "وكالة الأنباء السعودية",
+          "provider": "عربي · وكالات الخليج",
+          "published_at": "2026-10-17T13:17:29Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-22T09:53:23.472577Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-17T13:17:29Z",
+      "coverage_last_published_at": "2026-10-17T13:17:29Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "eacf5a5334fefdb822e4",
+      "revision": 1,
+      "updated_at": "2026-10-22T09:53:30.175801Z"
+    },
+    {
       "id": "GF-F4117B2FF81A1D",
       "title": "IRGC Says Second Supertanker Hits Mine In Hormuz As Turkish FM Calls For Free Navigation - Kurdistan24",
       "category": "transport",
@@ -88305,6 +88419,62 @@
       "digest": "83b9dc722ab40eba987c",
       "revision": 2,
       "updated_at": "2026-10-20T16:52:31.264495Z"
+    },
+    {
+      "id": "GF-2884B4F5F3A91E",
+      "title": "عام / التحالف: استهداف المطارات المدنية انتهاك صارخ للقانون الدولي الإنساني ومستمرون في تفكيك القدرات الحوثية الهجومية - وكالة الأنباء السعودية",
+      "category": "security",
+      "topic": "aviation",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-15T22:20:21Z",
+      "last_published": "2026-10-15T22:20:21Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "5880a146d47d3be99969489d",
+          "title": "عام / التحالف: استهداف المطارات المدنية انتهاك صارخ للقانون الدولي الإنساني ومستمرون في تفكيك القدرات الحوثية الهجومية - وكالة الأنباء السعودية",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9fNXJYb0pyR0d5dmdMYzd3M1F4VjRtTktWVEEwR0hYZFh3MlB4YVVHaDlKbDgyRjVseFBkWmxKYnpCWG1ta1E?oc=5",
+          "source": "وكالة الأنباء السعودية",
+          "publisher_key": "وكالة الأنباء السعودية",
+          "provider": "عربي · وكالات الخليج",
+          "published_at": "2026-10-15T22:20:21Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-22T09:53:23.472577Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Saudi"
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-15T22:20:21Z",
+      "coverage_last_published_at": "2026-10-15T22:20:21Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "78fd94f2319aceaa1042",
+      "revision": 1,
+      "updated_at": "2026-10-22T09:53:30.175801Z"
     },
     {
       "id": "GF-9DB139F0DB2444",
@@ -113553,9 +113723,9 @@
       "sources": 283
     },
     "Saudi": {
-      "events": 749,
-      "reports": 807,
-      "security_coverage": 585,
+      "events": 752,
+      "reports": 810,
+      "security_coverage": 587,
       "transport_coverage": 126,
       "sources": 336
     },
@@ -113581,8 +113751,8 @@
       "sources": 11
     },
     "Kuwait": {
-      "events": 37,
-      "reports": 38,
+      "events": 38,
+      "reports": 39,
       "security_coverage": 24,
       "transport_coverage": 5,
       "sources": 20
@@ -113602,11 +113772,11 @@
       "sources": 12
     },
     "Yemen": {
-      "events": 360,
-      "reports": 375,
+      "events": 361,
+      "reports": 376,
       "security_coverage": 342,
       "transport_coverage": 15,
-      "sources": 171
+      "sources": 172
     },
     "Israel": {
       "events": 88,
@@ -113627,164 +113797,20 @@
     "2026-10-12": 7,
     "2026-10-13": 115,
     "2026-10-14": 160,
-    "2026-10-15": 165,
+    "2026-10-15": 166,
     "2026-10-16": 151,
-    "2026-10-17": 201,
+    "2026-10-17": 202,
     "2026-10-18": 161,
     "2026-10-19": 242,
-    "2026-10-20": 388,
+    "2026-10-20": 389,
     "2026-10-21": 314,
     "2026-10-22": 80
   },
   "revisions": [
     {
-      "id": "GF-D7FAA912D67662",
+      "id": "GF-01490067CF451F",
       "revision": 2,
-      "at": "2026-10-22T09:52:02.824790Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-99AFAD177AA7D7",
-      "revision": 3,
-      "at": "2026-10-22T09:52:02.824790Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 3
-    },
-    {
-      "id": "GF-AFEA333491895B",
-      "revision": 3,
-      "at": "2026-10-22T09:52:02.824790Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-283E288EB377F2",
-      "revision": 2,
-      "at": "2026-10-22T09:52:02.824790Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-8B85A405DB4BBA",
-      "revision": 2,
-      "at": "2026-10-22T09:52:02.824790Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-C33E9B09CB16F6",
-      "revision": 2,
-      "at": "2026-10-22T09:52:02.824790Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-27820F48F0A11C",
-      "revision": 3,
-      "at": "2026-10-22T09:52:02.824790Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-CFBA57D38EB026",
-      "revision": 2,
-      "at": "2026-10-22T09:52:02.824790Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-300A3B5EC70F73",
-      "revision": 3,
-      "at": "2026-10-22T09:52:02.824790Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-4239ED2134D17A",
-      "revision": 2,
-      "at": "2026-10-22T09:52:02.824790Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-95401A8BFF02EB",
-      "revision": 2,
-      "at": "2026-10-22T09:52:02.824790Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 2
-    },
-    {
-      "id": "GF-C1729EB04D2C4D",
-      "revision": 7,
-      "at": "2026-10-22T09:52:02.824790Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-D2461A08AB86A2",
-      "revision": 2,
-      "at": "2026-10-22T09:52:02.824790Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-A0B2354E0C5709",
-      "revision": 3,
-      "at": "2026-10-22T09:52:02.824790Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 3,
-      "new_source_count": 3
-    },
-    {
-      "id": "GF-D102B90FE7780C",
-      "revision": 4,
-      "at": "2026-10-22T09:52:02.824790Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-8BF483DBF51CE0",
-      "revision": 8,
-      "at": "2026-10-22T09:52:02.824790Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-73DC4829A050DE",
-      "revision": 10,
-      "at": "2026-10-22T09:52:02.824790Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-7B0E21F2D20604",
-      "revision": 16,
-      "at": "2026-10-22T09:52:02.824790Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-19CD5C48BA8FFB",
-      "revision": 2,
-      "at": "2026-10-22T09:52:02.824790Z",
+      "at": "2026-10-22T09:53:30.175801Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1

@@ -1,7 +1,7 @@
 {
   "version": 6,
-  "last_run": "2026-10-22T09:51:53.199336Z",
-  "last_successful_run": "2026-10-22T09:51:53.199336Z",
+  "last_run": "2026-10-22T09:53:23.472577Z",
+  "last_successful_run": "2026-10-22T09:53:23.472577Z",
   "successful_sources": 29,
   "reports": [
     {
@@ -7015,7 +7015,7 @@
       "provider": "Google News · diplomacy",
       "first_seen_at": "2026-10-21T18:59:06.569317Z",
       "date_quality": "publisher-time",
-      "freshness": "recent-reporting",
+      "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
       "critical_candidate": false,
@@ -19343,6 +19343,29 @@
       "tag": "SECURITY REPORT",
       "provider": "Google News · diplomacy",
       "first_seen_at": "2026-10-20T16:51:39.651905Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "c7895fbe954e818d7752193d",
+      "title": "عام / قيادة القوات المشتركة للتحالف تحذر الميليشيا الحوثية الإرهابية من استغلال الوسائط البحرية التقليدية في عمليات تهريب الأسلحة والصواريخ والمعدات العسكرية عبر البحر - وكالة الأنباء السعودية",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1BbE9YY1cwUWpNTlVrcVdDVW41cmFldk13SGZUZU5FeWpzV2Jwd1VtSWMyOWJhVWhVaURCa0gxZmJkV3FRd0E?oc=5",
+      "source": "وكالة الأنباء السعودية",
+      "published_at": "2026-10-20T01:52:58Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير عن صواريخ",
+      "provider": "عربي · وكالات الخليج",
+      "first_seen_at": "2026-10-22T09:53:23.472577Z",
       "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
@@ -32307,6 +32330,31 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "a532e8d10b60006b4f0e1d09",
+      "title": "سياسي / الكويت ترحب ببيان مجلس الأمن بشأن اعتداءات ميليشيا الحوثي المتواصلة على المملكة - وكالة الأنباء السعودية",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9SMVdxUkR6Rmc3WjBpakZoaHozenVLaTk0NUtGQWNxN2s3WWlSQnVQYktPam1nV1BRSG12ZW80QmlOOXVMYmc?oc=5",
+      "source": "وكالة الأنباء السعودية",
+      "published_at": "2026-10-17T13:17:29Z",
+      "country": "",
+      "countries": [
+        "Saudi",
+        "Kuwait",
+        "Yemen"
+      ],
+      "language": "ar",
+      "category": "diplomacy",
+      "tag": "تطور دبلوماسي",
+      "provider": "عربي · وكالات الخليج",
+      "first_seen_at": "2026-10-22T09:53:23.472577Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "b9bbf381f2c887a0f108e851",
       "title": "إيران: مضيق هرمز مغلق وسنستهدف السفن المخالفة - Anadolu Ajansı",
       "url": "https://news.google.com/rss/articles/CBMiogNBVV95cUxOQkZxcjN2ZkFhOVlYZzJpNWJoRnFtNEdEb3ZsVC0xOTVrVVVZaV82QW41VUszSHRBQUp1STlMTHZ1LThuYjE2enRZQndVcDdLRTZkY19zYlRoY0U0dE1YcVFzRUdlS0hvMTdxZHhkZXc3OEVETWNoQWlhLS1Db2VIWVM5QVpyTlB3V2Vta1B3anVFS2xsbTUtUXdXVl9nUUFDMktVS1JJdWo0S3ZRdXRwWHotbWdEbEpRUUs1Ny1ab0V3WldjemlNRTBvN3AxdG9TZXY1ajFTNk9PTkFaM3VzQVRxdUU2cUZHTllub2YyTjdzbUJ4MmQweF9JUE5CTDAwb1k2MmJWR1J0bEt6M3ZoVWx2eVVvNDgyYmZtYUlTV3Z1Z2wxSWJBY0xQeHVxMURtZ0hmQUtFU2FWZGJoX3BoSXEwVEhLWk1pM0NSbjBUQW1haS03YkFQMzNmT1dTOGRrbGFPT21ST2hMaTlORTlzVG9NUDVzQzE3UDRtV29jbDFMNGRmNHR0Ny1yQlhaRUF6eDFrenFYT0pDOUFQaC1vZXJB?oc=5",
@@ -38220,6 +38268,29 @@
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "elevated-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "5880a146d47d3be99969489d",
+      "title": "عام / التحالف: استهداف المطارات المدنية انتهاك صارخ للقانون الدولي الإنساني ومستمرون في تفكيك القدرات الحوثية الهجومية - وكالة الأنباء السعودية",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9fNXJYb0pyR0d5dmdMYzd3M1F4VjRtTktWVEEwR0hYZFh3MlB4YVVHaDlKbDgyRjVseFBkWmxKYnpCWG1ta1E?oc=5",
+      "source": "وكالة الأنباء السعودية",
+      "published_at": "2026-10-15T22:20:21Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير امني",
+      "provider": "عربي · وكالات الخليج",
+      "first_seen_at": "2026-10-22T09:53:23.472577Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
       "critical_candidate": false,
       "alert_eligible": false,
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
@@ -49081,12 +49152,12 @@
     },
     "Google News · security": {
       "ok": true,
-      "items": 53,
+      "items": 51,
       "relevant": 37
     },
     "Google News · aviation": {
       "ok": true,
-      "items": 82,
+      "items": 83,
       "relevant": 78
     },
     "Google News · shipping": {
@@ -49107,7 +49178,7 @@
     "Reuters · indexed Gulf reporting": {
       "ok": true,
       "items": 100,
-      "relevant": 25
+      "relevant": 24
     },
     "AP · indexed Gulf reporting": {
       "ok": true,
@@ -49116,7 +49187,7 @@
     },
     "UKMTO · indexed official advisories": {
       "ok": true,
-      "items": 15,
+      "items": 14,
       "relevant": 0
     },
     "US State Dept · indexed advisories": {
@@ -49127,12 +49198,12 @@
     "عربي · إيران والخليج": {
       "ok": true,
       "items": 56,
-      "relevant": 42
+      "relevant": 43
     },
     "عربي · قطر": {
       "ok": true,
-      "items": 56,
-      "relevant": 21
+      "items": 30,
+      "relevant": 15
     },
     "عربي · السعودية": {
       "ok": true,
@@ -49141,13 +49212,13 @@
     },
     "عربي · الإمارات والبحرين": {
       "ok": true,
-      "items": 51,
-      "relevant": 46
+      "items": 49,
+      "relevant": 44
     },
     "عربي · الكويت والعراق": {
       "ok": true,
-      "items": 53,
-      "relevant": 49
+      "items": 52,
+      "relevant": 48
     },
     "عربي · مضيق هرمز": {
       "ok": true,
@@ -49162,17 +49233,17 @@
     "عربي · العربية": {
       "ok": true,
       "items": 100,
-      "relevant": 43
+      "relevant": 42
     },
     "عربي · الشرق": {
       "ok": true,
       "items": 100,
-      "relevant": 35
+      "relevant": 36
     },
     "عربي · وكالات الخليج": {
       "ok": true,
       "items": 100,
-      "relevant": 29
+      "relevant": 27
     },
     "الجزيرة نت · RSS عربي": {
       "ok": true,

@@ -1,6 +1,6 @@
 # Gulfastra | Open-source situation report
 Window: last 24 hours (publication-based)
-Coverage groups: 283 | linked headlines: 304
+Coverage groups: 282 | linked headlines: 303
 IMPORTANT: Unverified published reporting; not confirmed attacks or official safety advice.
 
 ## Security (177 coverage groups)
@@ -64,7 +64,7 @@ IMPORTANT: Unverified published reporting; not confirmed attacks or official saf
 - Adnoc Keeps Loading LNG on Tankers Despite Hormuz Disruption - EnergyNow.com (1 headlines; single-source)
   - EnergyNow.com: https://news.google.com/rss/articles/CBMilgFBVV95cUxQeDN1dG5rTzdCM2JxazN6eEtHc1pRR1VJVmF4MXF2TXVfcGNmSzVsTVRQQXhXeWE4bC1HTTJhb3Awc0kzWnQ3blVwLW5Ub0VDSFpLMDkwSVp5bF9SRlliOFlUenpyMHRaNWFQT2x5eVlQZmE2aTBLOS00a2pVVk9WOGY5Z1NiUkwwOWZsQUpHc2NMN0hfeFE?oc=5
 
-## Diplomacy (45 coverage groups)
+## Diplomacy (44 coverage groups)
 - Diplomacy or War? The Alarming Signals Behind Iran–US Talks - WANA News Agency (1 headlines; single-source)
   - WANA News Agency: https://news.google.com/rss/articles/CBMihAFBVV95cUxQQlhaVjJaY0pUTmFBRlZPRm5jay0ybi1sTmY1dTBKdHVSem83Z3R1bFZyX0pER0FQV1hnT21UYzNFaWRSR2RQdkNnTVZsa18wUEVMdWFGVE04X1M4b0hoZ2tMampUWFA4b24xOXFqc3M3SUZBcHNJd3dWZkRCbXd4UDVzZ2Q?oc=5
 - Trump denies Iran negotiations, says situation will resolve soon - New Age BD (2 headlines; multi-publisher-unverified)
