@@ -139,8 +139,9 @@ with sync_playwright() as pw:
         assert page.evaluate("document.body.dataset.theme==='carbon'")
         page.locator("#labTheme").select_option("crimson")
         assert page.evaluate("document.body.dataset.theme==='crimson'")
-        assert page.locator("#mNodes").inner_text() in ("2","1")
-        assert page.locator("#mSeries").inner_text()=="6",page.locator("#mSeries").inner_text()
+        assert page.locator("#mNodes").inner_text()=="1","Detector top scorecard should count actual signals"
+        assert page.locator("#mEdges").inner_text()=="1","P1 count must match synthetic signal"
+        assert "DETECTOR" in page.locator("#labFreshness").inner_text()
         assert page.evaluate("document.documentElement.scrollWidth <= innerWidth+2"),(
             "Horizontal page overflow",width)
         # Real interactive map is part of the Lab. Require a MapLibre canvas,
