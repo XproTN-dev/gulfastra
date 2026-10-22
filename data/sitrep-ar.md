@@ -1,10 +1,10 @@
 # موجز جلفاسترا للمصادر العلنية
 الفترة: آخر 24 ساعة (حسب وقت نشر التقارير)
 
-مجموعات التغطية: 293 | عناوين مرتبطة: 314
+مجموعات التغطية: 288 | عناوين مرتبطة: 309
 هذه تقارير صحفية وليست أحداثا مؤكدة، ولا تعتبر توجيهات سلامة رسمية.
 
-## Security (183 coverage groups)
+## Security (182 coverage groups)
 - Houthis conduct drone strike on Saudi Arabia's oil facility, killing two - VOV World (1 headlines; single-source)
   - VOV World: https://news.google.com/rss/articles/CBMirAFBVV95cUxOX20wdFRxdUpWcXY4ZERPZEV6MFBENDd3SnNkbk5CUnRrMG5OblN5YTQxLUJjRFJONTAyeDZGc0dRdVphOWFJTzlmMXVGSTZaUVlXQTZkWHBNUGxPRkhDRHVHekxnbUttMU9KckJSWDlHVnU2N0VpYS1ZVHQzbjV5ZnJCa3YzWS1fU2t1YzFndjRoamJzQzdWMVQyald1c216NHNDYTFSYTdKWUhi?oc=5
 - أربيل .. هجوم إيراني ب4 صواريخ يستهدف مقرات حزب (حرية كردستان) المعارض لإيران - الدفاع - 21/10/2026 - كونا :: وكالة الأنباء الكويتية (1 headlines; single-source)
@@ -18,10 +18,10 @@
   - EL PAÍS English: https://news.google.com/rss/articles/CBMiugFBVV95cUxNekpKanUwWk0zNEpULWhPVVdOUlItQ0MxMGtpVWp6NHZ2dDU1ajl3SUEtQnBoMUF0SjFyVEQ3Tnpnd3lGRWhOWVBBM2U0T1JWWUdsV1NGVE9VWWExb3ZSeGlhbFBTLVVSTk1taXFzdG5FaEpnWGhsWmNwaXVCZVR3cEYwdmhtUzMxbURHdXpHMkNEclEzdy12UldKOHVTdUEydHpiRUFWR3lUS2h2ZjVYa0gtNlo5cnpFOFHSAc4BQVVfeXFMTmoyVTdNYVdtcEsyVkhpVi1kYWZwQjIycmFLVm5IZ3BpeXRFLVNVVEJ3ZTRFS0FPSEtrSzJlcG1uS1RFLWNEWFZnUkhhSlBudC1GeG9TNGw0d29JLXVJbEJOMnFfX281UUZwY3pKVl90SGYwRU9KaEJVbWJxUlRRa19YQTJIWU10OUtrVlhOdVhYR2Z0blVJNXNnNGREeG45YWttUGZheWRNdUhKT2tWZXhhS2FoSTVOaTlPbVlzQmM4dndiWlRZbTRxMXVza0E?oc=5
 - إيران تربك حسابات الكنيست.. تحذيرات من هجوم بتوقيت سياسي - العربية (1 headlines; single-source)
   - العربية: https://news.google.com/rss/articles/CBMi3ANBVV95cUxQeDRpTlN6SW9FdTdDcnZzRHVaSTJ1eDYxRkJUUmZ0TlRLWlFrM2ZLa2xZVHRHODg3bzNSaE9ZQ1lJVExLZmkzNHl0VzV0cGFEalhrcG9PU04tSkJpX0tJb0dmVUYyR0hITnVXLTRVbkhrSkVZYllSLVkwRE91eFE5WDU4aEwzdmhuUG9SS3VHRVE5ME9GUTVGbDZIZWpFd21CeVZ0cTVYR3hLYkFRQl8yXzNuYVlreWNoQTdES0tWWl9DLXZGRVVhbmpfRUhwZnZPOEJScEIwZGl5TWk3STRfeDAzVGkwWDFCbDZFSWY2RkxLSlRPd0VUY1Zlb1BobDdUaWdHME5hWEtwNkMyTEpJU2V5NEdMN0o0Ql81U19GclY2OURIcEFNbHFHbEFKTUJIdnhiUGl1SVRMN1dpOHFpMElHNkZLeXN2Y2JMa1YxQWNwLUxXR1Zwb1BiYjQ3RlR2S1dOcUJwM0JFOWFTb3QxSFc4Qk1IZEdFbmUydjNFY255QWFHX3dxYjRCczJXQkI2ODFjU2s2NHlfNDY3QThnMm9SU3lqUkRwQi1IYW03cHN1UE1kemdyWVVoclBSUmpRNm9NTHlURGpRSDZrdk1jOHhkRC1uSmYzd0RHX9IB4gNBVV95cUxNRUw0bEpjN3o5RWJTV1ZyVkE0QUhoSFptOEdsdzVrYW9GcW9ONl9qR3Vwd3prSFZiVUptMWdsS0ZYYUNxTEJsZW5rQTVjemthNnYwZTdWZEpSZDNNX05Hd3pHNFRRS1JkWkc3N3RWa0EzTzVYdVpPNlA3RGs0WTJWY04ybURSNmlLM2lGc0tURmh0YmFmVFJxUHN6RFZkMElpbDFJblJjcG1ManA4dFRLb01RS2k3UVpIdzM4SlV6Tnk3SjdJRFFyU2RGbThpNXNPbndBOEhERFJsWE92MU9zUWY2Wk5ORVlUN3BtYV9wNjF6dFplSUxDQXBhMGRjOVBJNW02dVZyRl9oRWhSMEdhd2cwRFNUeHFyMFFEbldzUkNGMHI0aVNDQkxlMmtiYjJpci1UWU5rckx0a25OTUdQYzFhMm1zdUNHZTBfOTRMdElWZGFUdTdCZWFDSFNlc0QzUHpwRXVPOFVWOUZxZUwyOHl3ZEExLVpiS2FGNkduQk5VWWhZODhzOFNDSVdVOHBMeXdudm5mYVExRnBOY21EMXFEY3pPaGdjbGNjbEthc2tMNF9MX1RYWWRaWlNNRGtrWXVZYjZfODd6Qzh6engzZFcwVVpkSlhTZG9Kd0k1Nlh1QQ?oc=5
-- Oil Prices Rise More Than 2% as Attacks on Saudi Arabia, U.S.-Iran Risks Persist - WSJ (1 headlines; single-source)
-  - WSJ: https://news.google.com/rss/articles/CBMixAFBVV95cUxQYjRlQlhGVEJPT2JaeEpGWkxTZFVEdnpuMUxLRUZhUU1EY09ZcnJMaFlZNmdUbHkwdlBpcURmeHpZXzl1c1Z4WW94YmtMNTJ2N0paSlQtNXJ2eGVfam4tdW5NekpScjdYLU1RSzVGRTJqN3hCT3NOWnNmNGZpYjEwemo3ejBfOTU2ODFoMWtFX1hWS3RHZU9lcm93anl4UUczODQyd1hrUVc4VHQ5ZEpPay1SWGhWbW9YdFFPVmZWd3ZwNmhV?oc=5
 - UK Sends Fighter Jets to Saudi Arabia as Yemen Conflict Escalates - https://globalpost.com/ (1 headlines; single-source)
   - https://globalpost.com/: https://news.google.com/rss/articles/CBMingFBVV95cUxPYkpZTzd5SnZWOTBDYW9MeEpLYU1ONzlCOGFQdDVoRDN1OE9pMG9rSUlUeWJnaUdId2lOWFBPdV9xOTZvNzJ0S1hiN3QycUx2V21mNE5uSGdCN3dXYU9YWU1IUkFtNVU4Y2tQVV9ubTA2QjZhUEFLMWdkQWlUeVZhRmNpVWFYcERZMmduM0JjLUJjUVh0QlpjNHpCUjROUQ?oc=5
+- Oil Prices Rise More Than 2% as Attacks on Saudi Arabia, U.S.-Iran Risks Persist - WSJ (1 headlines; single-source)
+  - WSJ: https://news.google.com/rss/articles/CBMixAFBVV95cUxQYjRlQlhGVEJPT2JaeEpGWkxTZFVEdnpuMUxLRUZhUU1EY09ZcnJMaFlZNmdUbHkwdlBpcURmeHpZXzl1c1Z4WW94YmtMNTJ2N0paSlQtNXJ2eGVfam4tdW5NekpScjdYLU1RSzVGRTJqN3hCT3NOWnNmNGZpYjEwemo3ejBfOTU2ODFoMWtFX1hWS3RHZU9lcm93anl4UUczODQyd1hrUVc4VHQ5ZEpPay1SWGhWbW9YdFFPVmZWd3ZwNmhV?oc=5
 - Middle East latest: Two dead in attack on Dammam airport in Saudi Arabia - The National (1 headlines; single-source)
   - The National: https://news.google.com/rss/articles/CBMihgFBVV95cUxOQ2R1cnowWHhzQXdZcXRMWGVEZU83YmJaLUE3bHk1b1hleDhCNmpwcVJDbEg0Zll0LWpjTkhwdE1qc3hUdTJYSjdmMFlMaml2eTBPeHVwWll2bVFsVDJ5REx0RHk3YllpeXZuVVc5enVhS2ZyazlYQ0xGQl9WV0NMM1l0eHM0QQ?oc=5
 - الحرس الثوري الإيراني: إصابة 7 سفن في مضيق هرمز ومياه الخليج - بوابة الأهرام (1 headlines; single-source)
@@ -35,7 +35,7 @@
 - طلعة إسرائيلية قرب إيران.. اختبار للردع أم تمهيد للهجوم؟ - شبكة رؤية الإخبارية (1 headlines; single-source)
   - شبكة رؤية الإخبارية: https://news.google.com/rss/articles/CBMiwwJBVV95cUxPbFRISV9fY0JaNExOVnI1UE1YdmhlRmh6c05sZnVhVERlaWZYd09tQ0tEY29jQnFVZUVJcnJWdXFqUHRZSTN4d0JXMm9aS0dwbHc5c3BZVWJVS2lKc1dTV3hYWllnNm93WmVVbFA5aEZtX0tCTjZoOVIzQWVNYkFodUpzX0staHhBek1pX3hRTXR6bHJOaWtJYko3ZEdFeFRYeWtvUG12dXhMUTdwR1NMSjNnbDBPZUhiamxlYjZDVUxrLXFuaDdFYk9xUUwyWUpicGVtU21ZU2xzRWhILWFQb3hydGdOczB5S2dOMG9qcWhHYmliVGN0QllVazlaNzN5OGlnMTNnanVZTXZYVWRBU2RQNlF0UkVnQmtDX196X3NJTXlaUm52eVEwdzNOQzk4Z0tLQzJwT2NzT2oxYm04R25xMA?oc=5
 
-## Transport (64 coverage groups)
+## Transport (62 coverage groups)
 - Strait of Hormuz near ‘maximum danger’ as US-Iran diplomacy stalls, analyst says - Modern Ghana (1 headlines; single-source)
   - Modern Ghana: https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0tTTBHYXFkVFZxZXFMSmZwSHpldDFPbGpGMnZZZmVJZXRwNmg0elBiSkRpdnRlVldGUFF1MXRsTWx4VWY2ekxpT2pEYkJCX2ROSHdYa2txWUNiYzlpWGVwcjZBMEtvUDTSAVxBVV95cUxPcFhicEhhVzFlNVFwd0lVOHRkN1RIeGp6bElpX2lLRjh1QWlZSElPUE9FZU5Db21lbG05T3JBZXA0ZU4xdnBjYmJJQUE2OUxnVm5XczU0S2VXV1JyQQ?oc=5
 - US Sanctions Companies, Individuals, and Nine Vessels Linked to Iran - IranWire (1 headlines; single-source)
@@ -65,7 +65,7 @@
 - Adnoc Keeps Loading LNG on Tankers Despite Hormuz Disruption - EnergyNow.com (1 headlines; single-source)
   - EnergyNow.com: https://news.google.com/rss/articles/CBMilgFBVV95cUxQeDN1dG5rTzdCM2JxazN6eEtHc1pRR1VJVmF4MXF2TXVfcGNmSzVsTVRQQXhXeWE4bC1HTTJhb3Awc0kzWnQ3blVwLW5Ub0VDSFpLMDkwSVp5bF9SRlliOFlUenpyMHRaNWFQT2x5eVlQZmE2aTBLOS00a2pVVk9WOGY5Z1NiUkwwOWZsQUpHc2NMN0hfeFE?oc=5
 
-## Diplomacy (46 coverage groups)
+## Diplomacy (44 coverage groups)
 - Diplomacy or War? The Alarming Signals Behind Iran–US Talks - WANA News Agency (1 headlines; single-source)
   - WANA News Agency: https://news.google.com/rss/articles/CBMihAFBVV95cUxQQlhaVjJaY0pUTmFBRlZPRm5jay0ybi1sTmY1dTBKdHVSem83Z3R1bFZyX0pER0FQV1hnT21UYzNFaWRSR2RQdkNnTVZsa18wUEVMdWFGVE04X1M4b0hoZ2tMampUWFA4b24xOXFqc3M3SUZBcHNJd3dWZkRCbXd4UDVzZ2Q?oc=5
 - Trump denies Iran negotiations, says situation will resolve soon - New Age BD (2 headlines; multi-publisher-unverified)
