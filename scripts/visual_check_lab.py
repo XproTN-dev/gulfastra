@@ -17,7 +17,7 @@ now=datetime.now(timezone.utc)
 iso=lambda dt:dt.isoformat().replace("+00:00","Z")
 hour=lambda h:iso(now-timedelta(hours=h))
 files=("reports.json","events.json","observations.json","alerts.json","collector_health.json",
-       "advisories.json","social.json","impact_graph.json","markets.json","daily_brief.json")
+       "advisories.json","social.json","impact_graph.json","markets.json","daily_brief.json","direct_signals.json")
 node1={"id":"GF-TEST1","title":"Illustrative Qatar airspace headline — CI FIXTURE ONLY",
  "category":"transport","topic":"airspace","published_at":hour(1),"first_published":hour(1),
  "report_count":3,"publisher_count":2,"countries":["Qatar"],"digest":"v1","coverage_stage":"recent-coverage",
@@ -30,13 +30,27 @@ mock_series={id:{"id":id,"name":id+" CI mocked values (test only)","unit":"index
  "historical_2007_2009":[["2008-10-14",38],["2008-10-15",40]],
  "retrieved_at":hour(1),"url":"https://fred.stlouisfed.org/series/"+id} for id in market_ids}
 payloads={
- "reports.json":{"reports":[],"providers":{}},
+ "reports.json":{"reports":[{"id":"report-recent","title":"Mock recent source report about Qatar","source":"QNA Test",
+   "url":"https://example.com/report-recent","category":"transport","topic":"aviation",
+   "published_at":hour(.2),"countries":["Qatar"]},
+   {"id":"report-old","title":"Older archived headline","source":"Mock archive",
+   "url":"https://example.com/report-old","category":"transport","topic":"aviation",
+   "published_at":hour(3),"countries":["Qatar"]}],"providers":{}},
  "events.json":{"events":[]},
  "observations.json":{"observations":[]},
  "alerts.json":{"alerts":[]},
  "collector_health.json":{"quality_gate":"passed"},
  "advisories.json":{"items":[],"sources":{}},
  "social.json":{"posts":[]},
+ "direct_signals.json":{"schema":1,"observations":[{"id":"emsc:fixture","source":"EMSC",
+ "kind":"earthquake","title":"EMSC test observation","url":"https://www.emsc-csem.org/",
+ "occurred_at":hour(.3),"published_at":hour(.3),"lat":25.3,"lon":51.5,
+ "coordinates_quality":"provider-reported epicentre"}],
+ "bulletins":[{"id":"noaa:fixture","source":"NOAA SWPC",
+ "kind":"space-weather-bulletin","title":"NOAA global geomagnetic alert (TEST)",
+ "url":"https://www.swpc.noaa.gov/","published_at":hour(.4),
+ "geo_precision":"non-geographic-global-bulletin"}],
+ "health":{"EMSC":{"state":"healthy","ok":True},"NOAA SWPC":{"state":"healthy","ok":True}}},
  "impact_graph.json":{"schema":1,"generated_at":hour(0),"nodes":[node1,node2],
   "edges":[{"source":"GF-TEST1","target":"GF-TEST2","kind":"shared-topic-and-country",
   "label":"Related metadata NOT causation","relation_verified":False,
@@ -67,6 +81,12 @@ with sync_playwright() as pw:
         errors=[]
         page.on("pageerror",lambda e:errors.append(str(e)))
         page.route("**/intelligence-data/data/**",handle)
+        page.route("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
+          lambda route: route.fulfill(status=200,
+            headers={"Access-Control-Allow-Origin":"*","Content-Type":"application/json"},
+            body=json.dumps({"features":[{"id":"usgs-fixture","geometry":{"type":"Point",
+                "coordinates":[51.1,25.1]},"properties":{"time":int((now-timedelta(minutes=10)).timestamp()*1000),
+                "title":"USGS test seismic observation","url":"https://earthquake.usgs.gov/"}}]})))
         response=page.goto(BASE,wait_until="domcontentloaded",timeout=60000)
         assert response and response.status==200
         try:
@@ -81,6 +101,16 @@ with sync_playwright() as pw:
             }""")
             raise AssertionError(f"Impact Lab did not initialize at {width}px: {report}; page errors: {errors}")
 
+        assert page.locator("#labTheme").input_value()=="crimson"
+        assert page.evaluate("document.body.dataset.theme==='crimson'")
+        page.locator("#labTheme").select_option("matrix")
+        assert page.evaluate("document.body.dataset.theme==='matrix'")
+        page.locator("#labTheme").select_option("arctic")
+        assert page.evaluate("document.body.dataset.theme==='arctic'")
+        page.locator("#labTheme").select_option("carbon")
+        assert page.evaluate("document.body.dataset.theme==='carbon'")
+        page.locator("#labTheme").select_option("crimson")
+        assert page.evaluate("document.body.dataset.theme==='crimson'")
         assert page.locator("#mNodes").inner_text() in ("2","1")
         assert page.locator("#mSeries").inner_text()=="6",page.locator("#mSeries").inner_text()
         assert page.evaluate("document.documentElement.scrollWidth <= innerWidth+2"),(
@@ -96,7 +126,23 @@ with sync_playwright() as pw:
             timeout=40000)
         assert page.locator("#labMapHost").is_visible()
         assert page.locator("#map canvas").count()>=1
-        assert "News articles" in page.locator("#labMapCounts").inner_text()
+        assert "Latest published reports" in page.locator("#labMapCounts").inner_text()
+        assert page.locator('[data-map-hours="1"]').get_attribute("class")=="active"
+        assert page.locator("#labMapCounts").inner_text().find("Latest published reports: 1")!=-1,(
+          "One-hour window included older news",page.locator("#labMapCounts").inner_text())
+        assert page.locator('[data-latest-report]').count()==1
+        assert "EMSC" in page.locator("#labDirectProviders").inner_text()
+        assert "NOAA" in page.locator("#labDirectProviders").inner_text()
+        assert "Not pinned" in page.locator("#labSpaceWeather").inner_text()
+        page.locator('[data-map-hours="6"]').click()
+        assert page.locator('[data-latest-report]').count()==2,"Six-hour selection should show older source story"
+        page.locator('[data-map-hours="1"]').click()
+        assert page.locator('[data-latest-report]').count()==1
+        page.locator('[data-latest-report]').first.click()
+        assert "country label is not an exact" in page.locator("#contextContent").inner_text()
+        if page.locator("#contextClose").is_visible():
+            page.locator("#contextClose").click()
+
         page.locator('[data-map-action="gulf"]').click()
         page.locator('[data-map-layer="coverage"]').uncheck()
         assert not page.locator('[data-map-layer="coverage"]').is_checked()
