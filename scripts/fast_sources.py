@@ -127,7 +127,7 @@ def collect(now=None,fetch=get,previous=None):
   for source,url in URLS.items():
    prev=(previous.get("sources") or {}).get(source) or {}
    last=when(prev.get("attempt_at"))
-   cooldown=10 if source=="AviationWeather METAR" else 4
+   cooldown=10 if source=="AviationWeather METAR" else 2
    if last and timedelta(0)<=now-last<timedelta(minutes=cooldown):
     statuses[source]={**prev,"state":"cooldown","checked_at":iso(now)}
     continue
