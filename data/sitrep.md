@@ -1,11 +1,13 @@
 # Gulfastra | Open-source situation report
 Window: last 24 hours (publication-based)
-Coverage groups: 290 | linked headlines: 311
+Coverage groups: 292 | linked headlines: 313
 IMPORTANT: Unverified published reporting; not confirmed attacks or official safety advice.
 
 ## Security (183 coverage groups)
 - Houthis conduct drone strike on Saudi Arabia's oil facility, killing two - VOV World (1 headlines; single-source)
   - VOV World: https://news.google.com/rss/articles/CBMirAFBVV95cUxOX20wdFRxdUpWcXY4ZERPZEV6MFBENDd3SnNkbk5CUnRrMG5OblN5YTQxLUJjRFJONTAyeDZGc0dRdVphOWFJTzlmMXVGSTZaUVlXQTZkWHBNUGxPRkhDRHVHekxnbUttMU9KckJSWDlHVnU2N0VpYS1ZVHQzbjV5ZnJCa3YzWS1fU2t1YzFndjRoamJzQzdWMVQyald1c216NHNDYTFSYTdKWUhi?oc=5
+- أربيل .. هجوم إيراني ب4 صواريخ يستهدف مقرات حزب (حرية كردستان) المعارض لإيران - الدفاع - 21/10/2026 - كونا :: وكالة الأنباء الكويتية (1 headlines; single-source)
+  - كونا :: وكالة الأنباء الكويتية: https://news.google.com/rss/articles/CBMiZEFVX3lxTE8yNl8xZjh4c0steVBNQjVvY2g5c0ZwSGtzUS1NY0tpVWdNY3IwTDJoOEZFWVFPSWtoVjE0VVJET2J3NTNBbGZCMVNpby10OG5QU2NJZThHOHdHdEU4YkJUbE5wd0M?oc=5
 - Two killed in attack on airport in eastern Saudi Arabia, authorities say (3 headlines; multi-publisher-unverified)
   - BBC Middle East RSS: https://www.bbc.co.uk/news/articles/cqwy71ww156ro?at_medium=RSS&at_campaign=rss
   - BBC: https://news.google.com/rss/articles/CBMiXkFVX3lxTE1ZLXJNaS01NmN3UEpVbllOU1RXV3NOTGRHUWFIM0FCTlNScE5RTXBmTy1FS3VDVEI3Nnp4dk9mWDFINlBTQ0RNeUk5SXlKTG43UFc2OGtxTGNIZXd0OVE?oc=5
@@ -31,10 +33,8 @@ IMPORTANT: Unverified published reporting; not confirmed attacks or official saf
   - القدس العربي: https://news.google.com/rss/articles/CBMiwwJBVV95cUxOSC14cksyc0ltUmlXMllLZEFSZTVKVGY2MEtTLW85ZHhlM1FwV1FZd2ZEclFscEhaVWcyRmdscEN3dWxEX3dBRDNOeHhSWjNZb3FkTVhNcWlNVU5HaGJ4MEYzV2dUR1JmeWo3dEl3azRsbDFTLXhtS2R0dkU2QnllTWNvYm5RRVVzWnIzMU1SX0d0YTVnQWhjUWhkRllqYzlKdWgtOG5zbE5mUzFHRGJuNWNqcEZIbE1BT2V0S3ctTW0ycXN6VVl0Qk52Mk83Ullnbzh0eVVtMmNrbTU2UHNLMTdSQjg0Tm5Sa25leld2dFdmTDFINDV4REJzR05iRURmSFp5cWVGQ09Ba28wVEhSdThRRmxEWTlUR1NuN2JIVnRudXl1RTE0V1VxN0hCcU9XTWh3WE1EMXg3SFNpalNhZUVTNA?oc=5
 - طلعة إسرائيلية قرب إيران.. اختبار للردع أم تمهيد للهجوم؟ - شبكة رؤية الإخبارية (1 headlines; single-source)
   - شبكة رؤية الإخبارية: https://news.google.com/rss/articles/CBMiwwJBVV95cUxPbFRISV9fY0JaNExOVnI1UE1YdmhlRmh6c05sZnVhVERlaWZYd09tQ0tEY29jQnFVZUVJcnJWdXFqUHRZSTN4d0JXMm9aS0dwbHc5c3BZVWJVS2lKc1dTV3hYWllnNm93WmVVbFA5aEZtX0tCTjZoOVIzQWVNYkFodUpzX0staHhBek1pX3hRTXR6bHJOaWtJYko3ZEdFeFRYeWtvUG12dXhMUTdwR1NMSjNnbDBPZUhiamxlYjZDVUxrLXFuaDdFYk9xUUwyWUpicGVtU21ZU2xzRWhILWFQb3hydGdOczB5S2dOMG9qcWhHYmliVGN0QllVazlaNzN5OGlnMTNnanVZTXZYVWRBU2RQNlF0UkVnQmtDX196X3NJTXlaUm52eVEwdzNOQzk4Z0tLQzJwT2NzT2oxYm04R25xMA?oc=5
-- Oil Prices Rise as Traders Weigh Saudi Aramco Attack Report, Hormuz Shipping Risks - WSJ (1 headlines; single-source)
-  - WSJ: https://news.google.com/rss/articles/CBMiygFBVV95cUxNZzlrRVp3SjY0Qjc1ejhzdHcxQWFQejJLS2hfZzJocWhnV3AtUi1OM1NGX2s2b0NjQkV4NnpYZUxTOGJTRVBlSEM2blAzMXRhbjNydFRjVnYyNGM4a25waTR1aGVTVWt1MXlKOURybDlzS0kxQXVrbUNlQTlRN3lxa3YxMEZ5djByOUhzTlg4MUZUYTRMT1V6MzBYODY3d2FhSk5zRkxMdWpocU1KYTV0TUVLMUtHcWZHbkJWVHVHc2NIRGFwQ1F2c0x3?oc=5
 
-## Transport (62 coverage groups)
+## Transport (64 coverage groups)
 - US Sanctions Companies, Individuals, and Nine Vessels Linked to Iran - IranWire (1 headlines; single-source)
   - IranWire: https://news.google.com/rss/articles/CBMipgFBVV95cUxPMFBzN1VuMEQ0NGNHcXNVYnQ5UzdXdkc5by1vbXBLRV9pVXN6Q2twWE91QTktRDZvTEhEMmEwN05WNE1MTjdHTDBxT0p0WXg5V21LcUx4YWM1QWVlbHpGXzdNdi01NzZjaXEyclFlc2FYNE5TeDlTbVhINzVmT0NpbGxHNUs5QzdycGxwQk5wUTI2OHc0VVgyUTdpU2Q1VmxaWEo4MWhR?oc=5
 - US sanctions facilitators and vessels linked to Iran’s shadow fleet - safety4sea (1 headlines; single-source)

@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "generated_at": "2026-10-22T10:02:27.796949Z",
+  "generated_at": "2026-10-22T10:05:13.151201Z",
   "model": "deterministic-source-correlation-v2-coverage-lifecycle",
   "disclaimer": "Clusters are related PUBLIC REPORTS, not confirmed incidents. Source counts are not proof. Country names are mentions, not incident locations.",
   "events": [
@@ -59,6 +59,64 @@
       "digest": "74b4228d17ab7246b3f3",
       "revision": 1,
       "updated_at": "2026-10-22T09:59:42.286921Z"
+    },
+    {
+      "id": "GF-4EE5AB469DEB7B",
+      "title": "أربيل .. هجوم إيراني ب4 صواريخ يستهدف مقرات حزب (حرية كردستان) المعارض لإيران - الدفاع - 21/10/2026 - كونا :: وكالة الأنباء الكويتية",
+      "category": "security",
+      "topic": "missile",
+      "countries": [
+        "Iran",
+        "Iraq",
+        "Kuwait"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-22T09:26:27Z",
+      "last_published": "2026-10-22T09:26:27Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "ab3469ec55f015616af4462c",
+          "title": "أربيل .. هجوم إيراني ب4 صواريخ يستهدف مقرات حزب (حرية كردستان) المعارض لإيران - الدفاع - 21/10/2026 - كونا :: وكالة الأنباء الكويتية",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8yNl8xZjh4c0steVBNQjVvY2g5c0ZwSGtzUS1NY0tpVWdNY3IwTDJoOEZFWVFPSWtoVjE0VVJET2J3NTNBbGZCMVNpby10OG5QU2NJZThHOHdHdEU4YkJUbE5wd0M?oc=5",
+          "source": "كونا :: وكالة الأنباء الكويتية",
+          "publisher_key": "كونا وكالة الأنباء الكويتية",
+          "provider": "عربي · وكالات الخليج",
+          "published_at": "2026-10-22T09:26:27Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-22T10:05:03.610848Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "new-coverage",
+      "coverage_first_published_at": "2026-10-22T09:26:27Z",
+      "coverage_last_published_at": "2026-10-22T09:26:27Z",
+      "current_reporting": true,
+      "recent_publisher_count": 1,
+      "recent_article_count": 1,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "fd18f67a2dfb3adcf1cf",
+      "revision": 1,
+      "updated_at": "2026-10-22T10:05:13.151201Z"
     },
     {
       "id": "GF-D7FAA912D67662",
@@ -724,8 +782,8 @@
       ],
       "publisher_count": 1,
       "report_count": 1,
-      "first_published": "2026-10-22T08:04:59Z",
-      "last_published": "2026-10-22T08:04:59Z",
+      "first_published": "2026-10-22T08:04:21Z",
+      "last_published": "2026-10-22T08:04:21Z",
       "event_occurred_at": null,
       "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
       "sources": [
@@ -736,7 +794,7 @@
           "source": "الشرق للأخبار",
           "publisher_key": "الشرق للأخبار",
           "provider": "عربي · الشرق",
-          "published_at": "2026-10-22T08:04:59Z",
+          "published_at": "2026-10-22T08:04:21Z",
           "date_quality": "publisher-time",
           "first_seen_at": "2026-10-22T09:51:53.199336Z",
           "collected_at": null,
@@ -744,18 +802,18 @@
           "country": "Saudi"
         }
       ],
-      "coverage_stage": "new-coverage",
-      "coverage_first_published_at": "2026-10-22T08:04:59Z",
-      "coverage_last_published_at": "2026-10-22T08:04:59Z",
-      "current_reporting": true,
-      "recent_publisher_count": 1,
-      "recent_article_count": 1,
+      "coverage_stage": "recent-coverage",
+      "coverage_first_published_at": "2026-10-22T08:04:21Z",
+      "coverage_last_published_at": "2026-10-22T08:04:21Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "f85e1fa1aa70cbf433d3",
-      "revision": 2,
-      "updated_at": "2026-10-22T10:02:27.796949Z"
+      "digest": "f12ff59251317211fa90",
+      "revision": 3,
+      "updated_at": "2026-10-22T10:05:13.151201Z"
     },
     {
       "id": "GF-9018B56B4CD795",
@@ -5835,6 +5893,62 @@
       "updated_at": "2026-10-22T05:29:07.183809Z"
     },
     {
+      "id": "GF-BE227C1F6F605C",
+      "title": "Iran Declares Strait of Hormuz Closed as ‘Unauthorised’ Vessel Hit - EnergyNow.com",
+      "category": "transport",
+      "topic": "maritime",
+      "countries": [
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-21T23:01:37Z",
+      "last_published": "2026-10-21T23:01:37Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "bb2215b95c40f5c5ad7986e9",
+          "title": "Iran Declares Strait of Hormuz Closed as ‘Unauthorised’ Vessel Hit - EnergyNow.com",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNU3BGdU5KMkwwNVNINnRuYnZBdWZpYUNjSHlXSGh2MWJWck1INVRtbXNyS2t5WXZPRGxlVEpGcnM5NUkyQnlmNEtLazBSM2dFcDROdVJ1RC1Bd1haYUlXbnphM2tzenhjNm1PQUNnRkNRYi1SNVBxX2RsNTJhY19vVUU4ejhtRlRlUkdpcmxvd1YtRXZ1dVBuaVBLWQ?oc=5",
+          "source": "EnergyNow.com",
+          "publisher_key": "energynow com",
+          "provider": "Google News · shipping",
+          "published_at": "2026-10-21T23:01:37Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-22T10:05:03.610848Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Iran"
+        }
+      ],
+      "coverage_stage": "recent-coverage",
+      "coverage_first_published_at": "2026-10-21T23:01:37Z",
+      "coverage_last_published_at": "2026-10-21T23:01:37Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "f9cf0ca70601cb558b6c",
+      "revision": 1,
+      "updated_at": "2026-10-22T10:05:13.151201Z"
+    },
+    {
       "id": "GF-6B03A672AAF1E4",
       "title": "مقتل شخص وإصابات إثر هجوم على مطار الملك فهد بالدمام، والسفارة الأمريكية تطلب من موظفيها مغادرة السعودية - BBC",
       "category": "security",
@@ -6057,6 +6171,60 @@
       "digest": "63df5a9d0066bc85cf16",
       "revision": 1,
       "updated_at": "2026-10-22T09:35:38.976890Z"
+    },
+    {
+      "id": "GF-44F0414976F97B",
+      "title": "Citi Raises Brent Forecast for 2026; Sees $150 Oil if Hormuz Disruption Persists - EnergyNow.com",
+      "category": "transport",
+      "topic": "maritime",
+      "countries": [],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-21T22:42:42Z",
+      "last_published": "2026-10-21T22:42:42Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "9b33656a813de94b52f88725",
+          "title": "Citi Raises Brent Forecast for 2026; Sees $150 Oil if Hormuz Disruption Persists - EnergyNow.com",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdk5UVWpBQWFNVy1reG1ZeFlEdlQxcWlxWkMzTFNfUmFKdVFZaWRqNm4zTFo5V05Pd2o5b3hpOXNLeWJ3Tm9XdzR1aEk1VWd1S29vaW1GUVZ1OTU5c0hsUE5fWnhUV1RoakRubVlGcW14cHBhaER0VzZmeDVFNGZkeEVUb2l6WGhtTVlBUXBMTFFYNkMwalRYZmYzQUItWEhDLUhiVkdaOFBoU0Q4Vnc?oc=5",
+          "source": "EnergyNow.com",
+          "publisher_key": "energynow com",
+          "provider": "Google News · shipping",
+          "published_at": "2026-10-21T22:42:42Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-22T10:05:03.610848Z",
+          "collected_at": null,
+          "language": "en",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "recent-coverage",
+      "coverage_first_published_at": "2026-10-21T22:42:42Z",
+      "coverage_last_published_at": "2026-10-21T22:42:42Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "fd38c4ce86262c33a28e",
+      "revision": 1,
+      "updated_at": "2026-10-22T10:05:13.151201Z"
     },
     {
       "id": "GF-CCCBF4B0C9682E",
@@ -8406,63 +8574,6 @@
       "digest": "59ad3badeef032ea2c27",
       "revision": 1,
       "updated_at": "2026-10-21T22:16:40.668024Z"
-    },
-    {
-      "id": "GF-22E6071B5886EB",
-      "title": "إيران تشن هجمات على قطر والكويت والبحرين والإمارات والأردن - الساحل الغربي",
-      "category": "security",
-      "topic": "regional",
-      "countries": [
-        "Iran",
-        "Qatar"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "ar"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-21T19:25:33Z",
-      "last_published": "2026-10-21T19:25:33Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "34a8cb162ae3808a3baa70a4",
-          "title": "إيران تشن هجمات على قطر والكويت والبحرين والإمارات والأردن - الساحل الغربي",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9SUUNDallCbDJvaVoyVHN6Z2JKT29EZkJSekgwLXdLZUVNbFhlaGdyaDdXWDI3MlVHNmhLSlB3bFFtcHptOVNZTTZ0TnJETjA?oc=5",
-          "source": "الساحل الغربي",
-          "publisher_key": "الساحل الغربي",
-          "provider": "عربي · قطر",
-          "published_at": "2026-10-21T19:25:33Z",
-          "date_quality": "publisher-time",
-          "first_seen_at": "2026-10-22T05:29:00.114694Z",
-          "collected_at": null,
-          "language": "ar",
-          "country": ""
-        }
-      ],
-      "coverage_stage": "recent-coverage",
-      "coverage_first_published_at": "2026-10-21T19:25:33Z",
-      "coverage_last_published_at": "2026-10-21T19:25:33Z",
-      "current_reporting": false,
-      "recent_publisher_count": 0,
-      "recent_article_count": 0,
-      "incident_status": "unknown",
-      "event_occurrence_verified": false,
-      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "5a2275a0d170da7169d1",
-      "revision": 5,
-      "updated_at": "2026-10-22T09:55:07.745286Z"
     },
     {
       "id": "GF-EA0C94A21FB4A1",
@@ -18030,6 +18141,62 @@
       "updated_at": "2026-10-22T09:27:55.353747Z"
     },
     {
+      "id": "GF-E59F056F1D91D6",
+      "title": "Projectile strikes tanker west of Oman’s Bukha overlooking Hormuz Strait, UKMTO says - Al Arabiya English",
+      "category": "security",
+      "topic": "maritime",
+      "countries": [
+        "Oman"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-21T08:17:00Z",
+      "last_published": "2026-10-21T08:17:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "f648fea30fd2ee93e5033f9d",
+          "title": "Projectile strikes tanker west of Oman’s Bukha overlooking Hormuz Strait, UKMTO says - Al Arabiya English",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOT1pQRzMzTlFkVnFqemt3Q2NmXzh4UTdaODJLSkh2UU9IX0VHcEVRVEdCNGppdHR5aFg4QlN5Y181MXk2dTYtVkNXc0hGQnNJX0hWUUVac1lRbXlPU0ZwWWFxQXU0dE5qNFoxVFFZNmljdU4yenNyTWFuNjlpMENVWmlTSVdESlpfVGd1MXNZTG1sSHl2eDAzVzRpSS02a2pyYnNJRFFRelBCVXkyVFBSMTdSY3pJSGdSWUNqeng2LTBOM2FpTnBDWU1zVDFkX0HSAdQBQVVfeXFMTVhoRDJFSlpHUG1PemRXUFExMHFheUNsYVFBRUw4TUNNRlgwdzZxYXpCN3RYMDYyclFKQlpUaDJsSE9JSWxyTllkUEFQUjc4THBLODVXV3Y0UjhMd1FDbm9yYXdPZG5QbXVaQXRZSVZKM2h1bHlZRTYtM1R1UmtyamZZMGlNbFQtTFZELVF2Wlo4SFlhY2laM0ZuaktRendhYlljTlFHdXoxN2xHczJZMGVRLUhFN3Rfc3RtX0tuNFFjeUJNdVdGeWd0RlRyandJQXBkYS0?oc=5",
+          "source": "Al Arabiya English",
+          "publisher_key": "al arabiya english",
+          "provider": "Google News · shipping",
+          "published_at": "2026-10-21T08:17:00Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-22T10:05:03.610848Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Oman"
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-21T08:17:00Z",
+      "coverage_last_published_at": "2026-10-21T08:17:00Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "86e72536f76dcfcb0498",
+      "revision": 1,
+      "updated_at": "2026-10-22T10:05:13.151201Z"
+    },
+    {
       "id": "GF-69BDEE418A32AD",
       "title": "Iran's IRGC claims two oil tankers set ablaze, 54th US MQ-9 drone downed - Latest news from Azerbaijan",
       "category": "security",
@@ -18140,6 +18307,62 @@
       "digest": "5065d942710936b8615d",
       "revision": 2,
       "updated_at": "2026-10-22T09:27:55.353747Z"
+    },
+    {
+      "id": "GF-7238B982A5B58D",
+      "title": "Iran seeks special Hormuz routes for Iraqi oil tankers amid maritime restrictions - Rudaw",
+      "category": "transport",
+      "topic": "maritime",
+      "countries": [
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-21T08:00:55Z",
+      "last_published": "2026-10-21T08:00:55Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "e5c00f425c7c65fd35379179",
+          "title": "Iran seeks special Hormuz routes for Iraqi oil tankers amid maritime restrictions - Rudaw",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1maTlYMW5VVDJJR19wQmtOVkdGekJoTjNGelhQaFJ5LUlsdDZBOV95VDVCQjMxVkpVd0NIZkdIT2dqSmwxTk5IeUhmMzR2VGVNRDQtVXZ5RFM0dkhKNXc?oc=5",
+          "source": "Rudaw",
+          "publisher_key": "rudaw",
+          "provider": "Google News · shipping",
+          "published_at": "2026-10-21T08:00:55Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-22T10:05:03.610848Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Iran"
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-21T08:00:55Z",
+      "coverage_last_published_at": "2026-10-21T08:00:55Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "9ffbb1128a9da48e57b2",
+      "revision": 1,
+      "updated_at": "2026-10-22T10:05:13.151201Z"
     },
     {
       "id": "GF-B1384F0AC9BF8C",
@@ -28308,7 +28531,7 @@
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdC0ycGFnNTJocHZWRnZadHBUX19pM29QN0dXbzFMSkM2VW1tZzg2djd5WXNZOHJCYWsyeVk5SzFfZl84aVlSUW5fN09tVzB5SkNnazlCODhGU0FwbDRXYVNfc1BJS0QteTFyb3B6a05xSEVYZUU5WWdvM0hiYzVGV20yUzF0Vml1dmJyMG96V1dPbmFGZUxfNW1DTnlVTGl1UTI0ZUpyb09pNTBNc0t3?oc=5",
           "source": "Al-Monitor",
           "publisher_key": "al monitor",
-          "provider": "Google News · shipping",
+          "provider": "Google News · missiles/drones",
           "published_at": "2026-10-20T16:58:40Z",
           "date_quality": "publisher-time",
           "first_seen_at": "2026-10-20T17:30:36.865670Z",
@@ -28326,9 +28549,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "7cf71ac7440408e036f6",
-      "revision": 8,
-      "updated_at": "2026-10-22T09:52:02.824790Z"
+      "digest": "90c5524c3418a3547cc4",
+      "revision": 9,
+      "updated_at": "2026-10-22T10:05:13.151201Z"
     },
     {
       "id": "GF-9C2C1B17F64E42",
@@ -30274,6 +30497,62 @@
       "updated_at": "2026-10-21T18:59:15.820927Z"
     },
     {
+      "id": "GF-14FE6602BB9047",
+      "title": "UK expands military support for Saudi Arabia against Houthis with ‘defensive’ air patrols - AP News",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T15:56:00Z",
+      "last_published": "2026-10-20T15:56:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "b75bb2b7af18a30b6c56175c",
+          "title": "UK expands military support for Saudi Arabia against Houthis with ‘defensive’ air patrols - AP News",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdFpJQjVaX2pPYVMybXM3OEQ4ZzRzNEdpc2FVMldTRTVWaVFNQXZQVkZrRmdLNVpKc1RVeS1sbGIzSDJlNE12QkRMR2UxcC1PZWIwcnJXY0Z4T0hEQkxmWnBrNHpkSFZxaWgzZU5pRGM1cGJVUWRISHFraGJaUFFzRnlHYko4UlJpMmFvMVZLc1lFdw?oc=5",
+          "source": "AP News",
+          "publisher_key": "ap news",
+          "provider": "AP · indexed Gulf reporting",
+          "published_at": "2026-10-20T15:56:00Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T12:03:42.847208Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Saudi"
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-20T15:56:00Z",
+      "coverage_last_published_at": "2026-10-20T15:56:00Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "713838c8b3e614e0449a",
+      "revision": 21,
+      "updated_at": "2026-10-22T10:05:13.151201Z"
+    },
+    {
       "id": "GF-688AB1038F854F",
       "title": "حريق في ناقلة نفط بمضيق هرمز - شبكة يافا الإخبارية",
       "category": "transport",
@@ -30600,62 +30879,6 @@
       "digest": "af89a6c285122bdf952a",
       "revision": 1,
       "updated_at": "2026-10-22T00:45:01.751907Z"
-    },
-    {
-      "id": "GF-14FE6602BB9047",
-      "title": "UK expands military support for Saudi Arabia against Houthis with ‘defensive’ air patrols - AP News",
-      "category": "security",
-      "topic": "regional",
-      "countries": [
-        "Saudi"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "en"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-20T15:33:17Z",
-      "last_published": "2026-10-20T15:33:17Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "b75bb2b7af18a30b6c56175c",
-          "title": "UK expands military support for Saudi Arabia against Houthis with ‘defensive’ air patrols - AP News",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdFpJQjVaX2pPYVMybXM3OEQ4ZzRzNEdpc2FVMldTRTVWaVFNQXZQVkZrRmdLNVpKc1RVeS1sbGIzSDJlNE12QkRMR2UxcC1PZWIwcnJXY0Z4T0hEQkxmWnBrNHpkSFZxaWgzZU5pRGM1cGJVUWRISHFraGJaUFFzRnlHYko4UlJpMmFvMVZLc1lFdw?oc=5",
-          "source": "AP News",
-          "publisher_key": "ap news",
-          "provider": "AP · indexed Gulf reporting",
-          "published_at": "2026-10-20T15:33:17Z",
-          "date_quality": "publisher-time",
-          "first_seen_at": "2026-10-20T12:03:42.847208Z",
-          "collected_at": null,
-          "language": "en",
-          "country": "Saudi"
-        }
-      ],
-      "coverage_stage": "quiet-coverage",
-      "coverage_first_published_at": "2026-10-20T15:33:17Z",
-      "coverage_last_published_at": "2026-10-20T15:33:17Z",
-      "current_reporting": false,
-      "recent_publisher_count": 0,
-      "recent_article_count": 0,
-      "incident_status": "unknown",
-      "event_occurrence_verified": false,
-      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "9c46a4f002fb3ad0759e",
-      "revision": 20,
-      "updated_at": "2026-10-22T09:55:43.861978Z"
     },
     {
       "id": "GF-FBDB3FD66D2EF0",
@@ -34699,7 +34922,7 @@
           "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBDckdzckE1ejRCN1picEJ6WTVSeHZ5VmJOYmpzVlhhS1VvekY3Skd4VnNDMjlPWEtFZzdZRU1TM01falBPTzRoRG9sbw?oc=5",
           "source": "عرب لندن",
           "publisher_key": "عرب لندن",
-          "provider": "عربي · قطر",
+          "provider": "عربي · السعودية",
           "published_at": "2026-10-20T12:12:14Z",
           "date_quality": "publisher-time",
           "first_seen_at": "2026-10-20T12:19:08.929948Z",
@@ -34731,9 +34954,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "03fe3e0414846cedaeaa",
-      "revision": 3,
-      "updated_at": "2026-10-22T10:02:27.796949Z"
+      "digest": "142393d61f95e8d8a16b",
+      "revision": 4,
+      "updated_at": "2026-10-22T10:05:13.151201Z"
     },
     {
       "id": "GF-7FB3F4BEF1CBB0",
@@ -58531,6 +58754,62 @@
       "updated_at": "2026-10-21T18:59:15.820927Z"
     },
     {
+      "id": "GF-70DF1BB878E9B7",
+      "title": "Iran Says Draft Deal with US Would Reopen Hormuz Shipping, End Naval Blockade - EnergyNow",
+      "category": "transport",
+      "topic": "maritime",
+      "countries": [
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-19T01:54:25Z",
+      "last_published": "2026-10-19T01:54:25Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "f701ff994b5d0050b4a9bebf",
+          "title": "Iran Says Draft Deal with US Would Reopen Hormuz Shipping, End Naval Blockade - EnergyNow",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdDhGMTdwanZ5Q1ZLWEk3LVJ5MFU3WGpsWUFKX0pPTXZCbGktOVdXV2o3TDZJZGstSnRJUWFpZE1DM0hHVUF6Nk9uMXltTGFNdnpvZkcwT2FrQmRmRDFEa19uaUF3MHdobU5lWldLcV9wZm83TEp2NUdoR000RmF2QWFLbEt3VWotbW5xbndIY2lud3BYMzQyRVFxaTdwXzRPTDBjRHFYOEMzdw?oc=5",
+          "source": "EnergyNow",
+          "publisher_key": "energynow",
+          "provider": "Google News · shipping",
+          "published_at": "2026-10-19T01:54:25Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-22T10:05:03.610848Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Iran"
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-19T01:54:25Z",
+      "coverage_last_published_at": "2026-10-19T01:54:25Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "0208ea596f744f74d705",
+      "revision": 1,
+      "updated_at": "2026-10-22T10:05:13.151201Z"
+    },
+    {
       "id": "GF-800369DBA9AB68",
       "title": "إيران تعيد طرح خطة فتح مضيق هرمز خلال 7 أيام - اندبندنت عربية",
       "category": "transport",
@@ -69891,6 +70170,60 @@
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
+      "id": "GF-F42C613304CEB8",
+      "title": "Oil Prices Up Over 3% Over Concerns About Prolonged Hormuz Disruption - EnergyNow",
+      "category": "transport",
+      "topic": "maritime",
+      "countries": [],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-17T19:44:59Z",
+      "last_published": "2026-10-17T19:44:59Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "34ec9598d3a8ff8032ef481d",
+          "title": "Oil Prices Up Over 3% Over Concerns About Prolonged Hormuz Disruption - EnergyNow",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOODd3TTNncHlPazlzTldQN2ZPNXI5blFLYlBrUXE3VU1lRmNlMWxXNlVodU9LQUZCRlkzcnpyeC00OVMzcENDQjZfLTJSSG9QVXQ3MVpmYjhCSEFqUEdnd1I3SXF1M2dEdE5XYlA3akg3ZThCRjhuc0NEd3M3b0dBQ3hQWGFRMUhON1NmTDR1TklxQjl1M2dFSjA1SnkwVUk?oc=5",
+          "source": "EnergyNow",
+          "publisher_key": "energynow",
+          "provider": "Google News · shipping",
+          "published_at": "2026-10-17T19:44:59Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-22T10:05:03.610848Z",
+          "collected_at": null,
+          "language": "en",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-17T19:44:59Z",
+      "coverage_last_published_at": "2026-10-17T19:44:59Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "6c5befe2dcc33b5f64bb",
+      "revision": 1,
+      "updated_at": "2026-10-22T10:05:13.151201Z"
+    },
+    {
       "id": "GF-02871F3DC1F17B",
       "title": "Oil Prices Fall as Market Awaits Possible US-Iran Ceasefire Deal - EnergyNow",
       "category": "security",
@@ -75853,7 +76186,7 @@
       "location_quality": "country-mention",
       "confidence": null,
       "claim_status": "not-independently-verified",
-      "corroboration": "multi-publisher-unverified",
+      "corroboration": "single-source",
       "cross_language_candidate": false,
       "wording_review": {
         "potentially_divergent_wording": false,
@@ -75863,8 +76196,8 @@
       "languages": [
         "ar"
       ],
-      "publisher_count": 2,
-      "report_count": 2,
+      "publisher_count": 1,
+      "report_count": 1,
       "first_published": "2026-10-17T11:15:29Z",
       "last_published": "2026-10-17T11:15:29Z",
       "event_occurred_at": null,
@@ -75883,34 +76216,20 @@
           "collected_at": null,
           "language": "ar",
           "country": "Iran"
-        },
-        {
-          "id": "4c95dfa5a2d2481d41ca0bed",
-          "title": "تحسبا للتصعيد.. إيران تعيد تشغيل منظومات دفاع جوي متضررة وتعزز قدراتها - سواليف",
-          "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxQdGVrQjQweEVrWEs3dWZCMWRxdVA2cWtTRlhVbEpuT3I0OFdqTVVlN1J2YUw2SnFpN2VUZWcwaDhRVklQTDZyMnN6ajVScEpGWmtmcGZMejFhU0hXWGpyTlVSVXhRWmo5bkIzV25JNmNzUUtwT2hmVzRzTHRQMnBJcHNVUnNrMUlOTW1zekhfdkl5OHE4T0FqZFJ0Y2xEVzBDUlV6SXNuRDBLeVhucWVDQjlDSnJDdUtfREVYZUx1cGUtVFRTSi1tbjMtLUtHa0YyUUk0RUZvSG1oS0hpTDBGQUgzdWpMN2hEY3R3VUdXZy1MM0Fab1BuQXBHdVpqV3NmNlkwNTNpLTlwaHhIYi1Sb3c0WVFSZWtnNWZlZUhPRFVLOHNuT2ZzaWRWd0JGaVl4RllMMk1EUEx3blg1andWa3lqMS13T09DdDh3?oc=5",
-          "source": "سواليف",
-          "publisher_key": "سواليف",
-          "provider": "عربي · إيران والخليج",
-          "published_at": "2026-10-17T11:15:29Z",
-          "date_quality": "publisher-time",
-          "first_seen_at": "2026-10-22T10:02:08.064133Z",
-          "collected_at": null,
-          "language": "ar",
-          "country": "Iran"
         }
       ],
-      "coverage_stage": "quiet-coverage",
-      "coverage_first_published_at": "2026-10-17T11:15:29Z",
-      "coverage_last_published_at": "2026-10-17T11:15:29Z",
+      "coverage_stage": "publication-time-unknown",
+      "coverage_last_published_at": null,
+      "coverage_first_published_at": null,
       "current_reporting": false,
       "recent_publisher_count": 0,
       "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
-      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "2b1df79807d29e3eab70",
-      "revision": 6,
-      "updated_at": "2026-10-22T10:02:27.796949Z"
+      "lifecycle_note": "Original publication time unavailable. No event status inferred.",
+      "digest": "599950469e40a2ee1cef",
+      "revision": 7,
+      "updated_at": "2026-10-22T10:05:13.151201Z"
     },
     {
       "id": "GF-B010AB1F6AF49C",
@@ -78598,7 +78917,7 @@
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQVlGa1lUdkZRb3JRU3NWRS1jeExIdWIzZDVWLU1sZW0tdlp6a25TMHpmUUluOUFUS3A2UGN4NFdRM1A4WlQ2ejctSmhUQm9jR051Wml3cG1qaFZoX0N0SDRFNHN6YWlNUTZIUlpVS0g1UnhVc1BQVkdWUHRXSWJZVlphX2dVV3RtdUZFRWhiSzhsaXFPbjhoZnNiS0VFbEE?oc=5",
           "source": "The New York Times",
           "publisher_key": "the new york times",
-          "provider": "Google News · missiles/drones",
+          "provider": "Google News · security",
           "published_at": "2026-10-17T04:07:23Z",
           "date_quality": "publisher-time",
           "first_seen_at": "2026-10-20T12:09:48.504938Z",
@@ -78616,9 +78935,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "a7c124fb5ad22de1bfa0",
-      "revision": 18,
-      "updated_at": "2026-10-22T10:02:27.796949Z"
+      "digest": "286eae9108a3ea84a643",
+      "revision": 19,
+      "updated_at": "2026-10-22T10:05:13.151201Z"
     },
     {
       "id": "GF-53EE160270EDE3",
@@ -87563,6 +87882,63 @@
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
+      "id": "GF-22E6071B5886EB",
+      "title": "إيران تشن هجمات على قطر والكويت والبحرين والإمارات والأردن - الساحل الغربي",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Iran",
+        "Qatar"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-16T03:54:01Z",
+      "last_published": "2026-10-16T03:54:01Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "34a8cb162ae3808a3baa70a4",
+          "title": "إيران تشن هجمات على قطر والكويت والبحرين والإمارات والأردن - الساحل الغربي",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9SUUNDallCbDJvaVoyVHN6Z2JKT29EZkJSekgwLXdLZUVNbFhlaGdyaDdXWDI3MlVHNmhLSlB3bFFtcHptOVNZTTZ0TnJETjA?oc=5",
+          "source": "الساحل الغربي",
+          "publisher_key": "الساحل الغربي",
+          "provider": "عربي · قطر",
+          "published_at": "2026-10-16T03:54:01Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-22T05:29:00.114694Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-16T03:54:01Z",
+      "coverage_last_published_at": "2026-10-16T03:54:01Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "6403b43954edd658ed09",
+      "revision": 6,
+      "updated_at": "2026-10-22T10:05:13.151201Z"
+    },
+    {
       "id": "GF-2754D409258FEA",
       "title": "التحالف: اعتراض وتدمير مسيرة بالمنطقة الشرقية في السعودية - العربية",
       "category": "security",
@@ -93440,6 +93816,62 @@
       "digest": "18269643a68f9b289433",
       "revision": 1,
       "updated_at": "2026-10-20T16:54:42.496904Z"
+    },
+    {
+      "id": "GF-5C2D619C692692",
+      "title": "Iran’s army says oil tanker on fire in the Strait of Hormuz - BOE Report",
+      "category": "transport",
+      "topic": "maritime",
+      "countries": [
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-15T12:41:06Z",
+      "last_published": "2026-10-15T12:41:06Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "30295737fd7af4e01ba7f659",
+          "title": "Iran’s army says oil tanker on fire in the Strait of Hormuz - BOE Report",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZkxFVU96N0pyZ3lhR2VPMVdid3YxS2FGd29lZGdjTmw0RVMybEdzUTdCbXR1d3F2MGE0SlRxQlV5bFhJRmVrTTBRQ3pFcFZuc3RycHd3RmpiV3VwSVdCSFpQaFVTZWtIcER1eDliOUlYX09PTFJkYnUxV0N5R3kxSzdZVVJlTFE5VVZYNGw1bS1mekk2dVVv0gGcAUFVX3lxTE12WGxPSmRZYm5JT2xwRy02dVFnMVhxLXd5Q3dVcjZnOThIblpoM1pPX0lHbnltclhLNnk2R2JZVFU4d0lIZlZEWGhZQ0RvNHpOTGx3SmFnbFc4eTk5bE5OSHpjbHk4Zkx0UmM1S0l3aUZacUVfZWctRURkZXBqT2w0aUk3ZW1XZE1udHRIVjhfMzdkLVRHSlQ0UllQSA?oc=5",
+          "source": "BOE Report",
+          "publisher_key": "boe report",
+          "provider": "Google News · shipping",
+          "published_at": "2026-10-15T12:41:06Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-22T10:05:03.610848Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Iran"
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-15T12:41:06Z",
+      "coverage_last_published_at": "2026-10-15T12:41:06Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "e446c99e40e3a4c1d739",
+      "revision": 1,
+      "updated_at": "2026-10-22T10:05:13.151201Z"
     },
     {
       "id": "GF-3F093EDDB59BD8",
@@ -114180,11 +114612,11 @@
   ],
   "country_stats": {
     "Iran": {
-      "events": 677,
-      "reports": 755,
-      "security_coverage": 417,
-      "transport_coverage": 147,
-      "sources": 284
+      "events": 682,
+      "reports": 759,
+      "security_coverage": 418,
+      "transport_coverage": 151,
+      "sources": 286
     },
     "Saudi": {
       "events": 758,
@@ -114215,25 +114647,25 @@
       "sources": 11
     },
     "Kuwait": {
-      "events": 38,
-      "reports": 39,
-      "security_coverage": 24,
+      "events": 39,
+      "reports": 40,
+      "security_coverage": 25,
       "transport_coverage": 5,
       "sources": 20
     },
     "Iraq": {
-      "events": 82,
-      "reports": 84,
-      "security_coverage": 72,
+      "events": 83,
+      "reports": 85,
+      "security_coverage": 73,
       "transport_coverage": 9,
-      "sources": 65
+      "sources": 66
     },
     "Oman": {
-      "events": 17,
-      "reports": 17,
-      "security_coverage": 12,
+      "events": 18,
+      "reports": 18,
+      "security_coverage": 13,
       "transport_coverage": 5,
-      "sources": 12
+      "sources": 13
     },
     "Yemen": {
       "events": 365,
@@ -114261,84 +114693,68 @@
     "2026-10-12": 7,
     "2026-10-13": 115,
     "2026-10-14": 160,
-    "2026-10-15": 166,
-    "2026-10-16": 151,
-    "2026-10-17": 202,
+    "2026-10-15": 167,
+    "2026-10-16": 152,
+    "2026-10-17": 203,
     "2026-10-18": 161,
-    "2026-10-19": 242,
+    "2026-10-19": 243,
     "2026-10-20": 389,
-    "2026-10-21": 318,
-    "2026-10-22": 84
+    "2026-10-21": 321,
+    "2026-10-22": 85
   },
   "revisions": [
     {
       "id": "GF-A95391E4249BE1",
-      "revision": 2,
-      "at": "2026-10-22T10:02:27.796949Z",
+      "revision": 3,
+      "at": "2026-10-22T10:05:13.151201Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-9018B56B4CD795",
-      "revision": 2,
-      "at": "2026-10-22T10:02:27.796949Z",
+      "id": "GF-8BF483DBF51CE0",
+      "revision": 9,
+      "at": "2026-10-22T10:05:13.151201Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-CCCBF4B0C9682E",
-      "revision": 4,
-      "at": "2026-10-22T10:02:27.796949Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-6EBBAD58E9F97B",
-      "revision": 4,
-      "at": "2026-10-22T10:02:27.796949Z",
+      "id": "GF-14FE6602BB9047",
+      "revision": 21,
+      "at": "2026-10-22T10:05:13.151201Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
       "id": "GF-0E631F932F40BC",
-      "revision": 3,
-      "at": "2026-10-22T10:02:27.796949Z",
+      "revision": 4,
+      "at": "2026-10-22T10:05:13.151201Z",
       "change": "published-source-set-updated",
       "previous_source_count": 2,
       "new_source_count": 2
     },
     {
-      "id": "GF-CCFD0D7CD8D07A",
-      "revision": 2,
-      "at": "2026-10-22T10:02:27.796949Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
       "id": "GF-5D8C1FF4D7407B",
-      "revision": 6,
-      "at": "2026-10-22T10:02:27.796949Z",
+      "revision": 7,
+      "at": "2026-10-22T10:05:13.151201Z",
       "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 2
+      "previous_source_count": 2,
+      "new_source_count": 1
     },
     {
       "id": "GF-7B0E21F2D20604",
-      "revision": 18,
-      "at": "2026-10-22T10:02:27.796949Z",
+      "revision": 19,
+      "at": "2026-10-22T10:05:13.151201Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-58682ABDDE355B",
-      "revision": 15,
-      "at": "2026-10-22T10:02:27.796949Z",
+      "id": "GF-22E6071B5886EB",
+      "revision": 6,
+      "at": "2026-10-22T10:05:13.151201Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
