@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "generated_at": "2026-10-22T09:55:07.745286Z",
+  "generated_at": "2026-10-22T09:55:43.861978Z",
   "model": "deterministic-source-correlation-v2-coverage-lifecycle",
   "disclaimer": "Clusters are related PUBLIC REPORTS, not confirmed incidents. Source counts are not proof. Country names are mentions, not incident locations.",
   "events": [
@@ -858,18 +858,18 @@
           "country": ""
         }
       ],
-      "coverage_stage": "new-coverage",
+      "coverage_stage": "recent-coverage",
       "coverage_first_published_at": "2026-10-22T07:55:08Z",
       "coverage_last_published_at": "2026-10-22T07:55:08Z",
-      "current_reporting": true,
-      "recent_publisher_count": 1,
-      "recent_article_count": 1,
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "1f371ccff90904edf232",
-      "revision": 3,
-      "updated_at": "2026-10-22T09:35:38.976890Z"
+      "digest": "0d6d5c0c09e492b531aa",
+      "revision": 4,
+      "updated_at": "2026-10-22T09:55:43.861978Z"
     },
     {
       "id": "GF-AFEA333491895B",
@@ -29935,62 +29935,6 @@
       "updated_at": "2026-10-21T18:59:15.820927Z"
     },
     {
-      "id": "GF-14FE6602BB9047",
-      "title": "UK expands military support for Saudi Arabia against Houthis with ‘defensive’ air patrols - AP News",
-      "category": "security",
-      "topic": "regional",
-      "countries": [
-        "Saudi"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "en"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-20T15:56:00Z",
-      "last_published": "2026-10-20T15:56:00Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "b75bb2b7af18a30b6c56175c",
-          "title": "UK expands military support for Saudi Arabia against Houthis with ‘defensive’ air patrols - AP News",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdFpJQjVaX2pPYVMybXM3OEQ4ZzRzNEdpc2FVMldTRTVWaVFNQXZQVkZrRmdLNVpKc1RVeS1sbGIzSDJlNE12QkRMR2UxcC1PZWIwcnJXY0Z4T0hEQkxmWnBrNHpkSFZxaWgzZU5pRGM1cGJVUWRISHFraGJaUFFzRnlHYko4UlJpMmFvMVZLc1lFdw?oc=5",
-          "source": "AP News",
-          "publisher_key": "ap news",
-          "provider": "AP · indexed Gulf reporting",
-          "published_at": "2026-10-20T15:56:00Z",
-          "date_quality": "publisher-time",
-          "first_seen_at": "2026-10-20T12:03:42.847208Z",
-          "collected_at": null,
-          "language": "en",
-          "country": "Saudi"
-        }
-      ],
-      "coverage_stage": "quiet-coverage",
-      "coverage_first_published_at": "2026-10-20T15:56:00Z",
-      "coverage_last_published_at": "2026-10-20T15:56:00Z",
-      "current_reporting": false,
-      "recent_publisher_count": 0,
-      "recent_article_count": 0,
-      "incident_status": "unknown",
-      "event_occurrence_verified": false,
-      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "713838c8b3e614e0449a",
-      "revision": 19,
-      "updated_at": "2026-10-22T09:55:07.745286Z"
-    },
-    {
       "id": "GF-688AB1038F854F",
       "title": "حريق في ناقلة نفط بمضيق هرمز - شبكة يافا الإخبارية",
       "category": "transport",
@@ -30317,6 +30261,62 @@
       "digest": "af89a6c285122bdf952a",
       "revision": 1,
       "updated_at": "2026-10-22T00:45:01.751907Z"
+    },
+    {
+      "id": "GF-14FE6602BB9047",
+      "title": "UK expands military support for Saudi Arabia against Houthis with ‘defensive’ air patrols - AP News",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-20T15:33:17Z",
+      "last_published": "2026-10-20T15:33:17Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "b75bb2b7af18a30b6c56175c",
+          "title": "UK expands military support for Saudi Arabia against Houthis with ‘defensive’ air patrols - AP News",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdFpJQjVaX2pPYVMybXM3OEQ4ZzRzNEdpc2FVMldTRTVWaVFNQXZQVkZrRmdLNVpKc1RVeS1sbGIzSDJlNE12QkRMR2UxcC1PZWIwcnJXY0Z4T0hEQkxmWnBrNHpkSFZxaWgzZU5pRGM1cGJVUWRISHFraGJaUFFzRnlHYko4UlJpMmFvMVZLc1lFdw?oc=5",
+          "source": "AP News",
+          "publisher_key": "ap news",
+          "provider": "AP · indexed Gulf reporting",
+          "published_at": "2026-10-20T15:33:17Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-20T12:03:42.847208Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Saudi"
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-20T15:33:17Z",
+      "coverage_last_published_at": "2026-10-20T15:33:17Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "9c46a4f002fb3ad0759e",
+      "revision": 20,
+      "updated_at": "2026-10-22T09:55:43.861978Z"
     },
     {
       "id": "GF-FBDB3FD66D2EF0",
@@ -113919,25 +113919,17 @@
   },
   "revisions": [
     {
-      "id": "GF-CCCBF4B0C9682E",
-      "revision": 3,
-      "at": "2026-10-22T09:55:07.745286Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-22E6071B5886EB",
-      "revision": 5,
-      "at": "2026-10-22T09:55:07.745286Z",
+      "id": "GF-AFB660A9F27748",
+      "revision": 4,
+      "at": "2026-10-22T09:55:43.861978Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
       "id": "GF-14FE6602BB9047",
-      "revision": 19,
-      "at": "2026-10-22T09:55:07.745286Z",
+      "revision": 20,
+      "at": "2026-10-22T09:55:43.861978Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1

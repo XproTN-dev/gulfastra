@@ -1,7 +1,7 @@
 {
   "version": 6,
-  "last_run": "2026-10-22T09:55:00.717803Z",
-  "last_successful_run": "2026-10-22T09:55:00.717803Z",
+  "last_run": "2026-10-22T09:55:37.460313Z",
+  "last_successful_run": "2026-10-22T09:55:37.460313Z",
   "successful_sources": 29,
   "reports": [
     {
@@ -364,7 +364,7 @@
       "provider": "Google News · security",
       "first_seen_at": "2026-10-22T09:27:47.332166Z",
       "date_quality": "publisher-time",
-      "freshness": "new-reporting",
+      "freshness": "recent-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
       "critical_candidate": false,
@@ -12853,29 +12853,6 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
-      "id": "b75bb2b7af18a30b6c56175c",
-      "title": "UK expands military support for Saudi Arabia against Houthis with ‘defensive’ air patrols - AP News",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdFpJQjVaX2pPYVMybXM3OEQ4ZzRzNEdpc2FVMldTRTVWaVFNQXZQVkZrRmdLNVpKc1RVeS1sbGIzSDJlNE12QkRMR2UxcC1PZWIwcnJXY0Z4T0hEQkxmWnBrNHpkSFZxaWgzZU5pRGM1cGJVUWRISHFraGJaUFFzRnlHYko4UlJpMmFvMVZLc1lFdw?oc=5",
-      "source": "AP News",
-      "published_at": "2026-10-20T15:56:00Z",
-      "country": "Saudi",
-      "countries": [
-        "Saudi"
-      ],
-      "language": "en",
-      "category": "security",
-      "tag": "SECURITY REPORT",
-      "provider": "AP · indexed Gulf reporting",
-      "first_seen_at": "2026-10-20T12:03:42.847208Z",
-      "date_quality": "publisher-time",
-      "freshness": "older-reporting",
-      "context": "reporting",
-      "severity": "routine-reporting",
-      "critical_candidate": false,
-      "alert_eligible": false,
-      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
-    },
-    {
       "id": "1ee5b93406726006a155974c",
       "title": "حريق في ناقلة نفط بمضيق هرمز - شبكة يافا الإخبارية",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9CUC1KWnR2dWRLREFFOTFCclNlaXZUcXRBYm9ERU5HZHRZc2tIOXJiN3B5WFFqdVBYc0lXUTczQVlMSHljeUp6OTRhckV4ckl0?oc=5",
@@ -12997,6 +12974,29 @@
       "tag": "SECURITY REPORT",
       "provider": "Google News · security",
       "first_seen_at": "2026-10-22T00:44:51.576065Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "b75bb2b7af18a30b6c56175c",
+      "title": "UK expands military support for Saudi Arabia against Houthis with ‘defensive’ air patrols - AP News",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdFpJQjVaX2pPYVMybXM3OEQ4ZzRzNEdpc2FVMldTRTVWaVFNQXZQVkZrRmdLNVpKc1RVeS1sbGIzSDJlNE12QkRMR2UxcC1PZWIwcnJXY0Z4T0hEQkxmWnBrNHpkSFZxaWgzZU5pRGM1cGJVUWRISHFraGJaUFFzRnlHYko4UlJpMmFvMVZLc1lFdw?oc=5",
+      "source": "AP News",
+      "published_at": "2026-10-20T15:33:17Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "AP · indexed Gulf reporting",
+      "first_seen_at": "2026-10-20T12:03:42.847208Z",
       "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
@@ -49213,12 +49213,12 @@
     "Google News · diplomacy": {
       "ok": true,
       "items": 100,
-      "relevant": 44
+      "relevant": 45
     },
     "Google News · regional": {
       "ok": true,
-      "items": 53,
-      "relevant": 25
+      "items": 27,
+      "relevant": 13
     },
     "Reuters · indexed Gulf reporting": {
       "ok": true,
@@ -49232,7 +49232,7 @@
     },
     "UKMTO · indexed official advisories": {
       "ok": true,
-      "items": 16,
+      "items": 14,
       "relevant": 0
     },
     "US State Dept · indexed advisories": {
@@ -49253,17 +49253,17 @@
     "عربي · السعودية": {
       "ok": true,
       "items": 100,
-      "relevant": 65
+      "relevant": 64
     },
     "عربي · الإمارات والبحرين": {
       "ok": true,
-      "items": 49,
-      "relevant": 44
+      "items": 51,
+      "relevant": 46
     },
     "عربي · الكويت والعراق": {
       "ok": true,
-      "items": 51,
-      "relevant": 47
+      "items": 52,
+      "relevant": 48
     },
     "عربي · مضيق هرمز": {
       "ok": true,
