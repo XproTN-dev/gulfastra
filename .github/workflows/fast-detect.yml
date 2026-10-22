@@ -1,0 +1,89 @@
+name: Early Signal Detection
+on:
+  schedule:
+    # Five minutes is GitHub's minimum supported Actions schedule; best effort.
+    - cron: '1/5 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/fast_sources.py'
+      - 'scripts/early_detector.py'
+      - 'scripts/early_notify.py'
+      - 'scripts/test_early_detector.py'
+      - '.github/workflows/fast-detect.yml'
+permissions:
+  contents: write
+concurrency:
+  group: gulfastra-collect-data
+  cancel-in-progress: false
+jobs:
+  detect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          path: source
+          persist-credentials: false
+      - uses: actions/checkout@v4
+        with:
+          ref: intelligence-data
+          path: archive
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate detectors against false positives
+        id: quality
+        continue-on-error: true
+        run: |
+          set -e
+          python source/scripts/test_early_detector.py
+          python source/scripts/test_news_quality.py
+      - name: Fetch compact independent providers and direct publisher RSS
+        env:
+          GULFASTRA_DATA_DIR: ${{ github.workspace }}/archive/data
+        run: python source/scripts/fast_sources.py
+      - name: Evaluate publisher-first and provider observations
+        env:
+          GULFASTRA_DATA_DIR: ${{ github.workspace }}/archive/data
+          QUALITY_GATE: ${{ steps.quality.outcome == 'success' && 'passed' || 'failed' }}
+        run: python source/scripts/early_detector.py
+      - name: Publish immutable versions and freshness information
+        env:
+          GULFASTRA_DATA_DIR: ${{ github.workspace }}/archive/data
+        run: python source/scripts/publish_manifest.py
+      - name: Commit detector data without deploying website
+        working-directory: archive
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/fast_signals.json data/early_signals.json data/early_state.json data/live-manifest.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "data: refresh priority signal detector without website rebuild"
+          for attempt in 1 2 3 4; do
+            if git pull --rebase -X theirs origin intelligence-data && git push origin HEAD:intelligence-data; then
+              exit 0
+            fi
+            git rebase --abort || true
+            sleep 3
+          done
+          exit 1
+      - name: Optional first-signal Telegram delivery
+        env:
+          GULFASTRA_DATA_DIR: ${{ github.workspace }}/archive/data
+          DETECTOR_TELEGRAM_ENABLED: ${{ vars.DETECTOR_TELEGRAM_ENABLED }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python source/scripts/early_notify.py
+      - name: Persist successful opt-in delivery watermark
+        working-directory: archive
+        run: |
+          if [ ! -f data/early_telegram_state.json ]; then exit 0; fi
+          git add data/early_telegram_state.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "data: store acknowledged detector notifications"
+          git pull --rebase -X theirs origin intelligence-data
+          git push origin HEAD:intelligence-data
