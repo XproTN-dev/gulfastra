@@ -18,10 +18,15 @@ const inputs=()=>{
  const files=data(),f=getFilter(),q={country:f.country,topic:f.category||"all",
   hours:f.hours||1,asof:Date.now(),query:""};
  const allReports=C.asArray(files["reports.json"]?.reports);
+ const publishedUrls=new Set(allReports.map(r=>C.validUrl(r.url)).filter(Boolean));
+ const fastPublisher=C.asArray(files["fast_signals.json"]?.records)
+  .filter(r=>r.kind==="direct-publisher-report"&&C.validUrl(r.url)&&
+    !publishedUrls.has(C.validUrl(r.url)))
+  .map(r=>({...r,category:r.category||"other"}));
  const geo=C.asArray(files["observations.json"]?.observations);
  const direct=C.asArray(files["direct_signals.json"]?.observations);
  const advisory=C.asArray(files["advisories.json"]?.items);
- const reports=C.selectReports(allReports,q);
+ const reports=C.selectReports([...allReports,...fastPublisher],q);
  // Merge USGS browser-hour feed with cached GitHub source data; same id wins.
  const combined=new Map();
  for(const item of [...geo,...direct,...liveUSGS]){
