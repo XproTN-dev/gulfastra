@@ -1,3 +1,19 @@
+## v13: live-first map, real visual themes and independent provider sources
+
+The Impact Lab now defaults to **LIVE MAP** and a **1-hour** filter for source publication or observation timestamps. The map has separate 1h, 2h, 6h, 12h, 24h, 48h and 7-day filters. Map selection is independent of the 48-hour reporting network replay, so the user can investigate older topic relationships without silently altering the fresh map.
+
+**The difference between a real event and coverage:** USGS/EMSC seismic observations are placed at the provider's published epicentre; GDACS advisories use regional provider geometry; country news counts are shown on explicitly labelled country reference markers and never at guessed incident coordinates. A recent article is not proof of an active emergency. The side rail displays source-linked recent articles and collection-vs-publication timestamps.
+
+**Non-publisher telemetry and announcements:**
+- **USGS:** existing GitHub observations plus a separate browser-side `all_hour.geojson` query while the map is viewed. USGS publishes these feeds approximately every minute. This direct request can bypass GitHub collection delay for earthquakes ONLY, if browser access permits; failed direct requests preserve last cached observations.
+- **EMSC:** official FDSN seismic API via `scripts/direct_signals.py`, with actual Gulf-region coordinates, event times, magnitude and last-update values. Provider fetch cooldown ~18 minutes.
+- **NOAA SWPC:** direct public JSON space-weather watches, warnings and alerts. Shown only in the independent provider pulse with original source link. This is **global/non-geographic** context and never gets artificial Qatar or Gulf pin coordinates.
+- **Existing** USGS, NASA EONET, GDACS, optional NASA FIRMS and Cloudflare Radar observations are retained, and OpenSky remains opt-in with approved credentials. Public X posts still require an authorized API key for structured ingestion; embedded timelines are external to our collector.
+
+The page shows **freshness and provider status**. The site does not claim minute-by-minute geopolitical reporting: GitHub Actions cron is best effort; news feeds and indexers publish at different delays, and newer articles can be absent until they are indexed. Expand the time window if no new reports match; zero results is not a regional safety conclusion.
+
+**Four functional themes** under the lab header, saved locally: OBSIDIAN RED (black/red default), CARBON (warm industrial), MATRIX (green tactical), and ARCTIC LIGHT (light palette). Themes affect workspace surfaces, text, cards, charts and toolbars, not just button labels. MapLibre tile styling remains dependent on the tile provider.
+
 # GULFASTRA X · Impact Lab v12
 
 **Production URL:** https://xprotn-dev.github.io/gulfastra/lab/  
