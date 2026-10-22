@@ -1,9 +1,9 @@
 # Gulfastra | Open-source situation report
 Window: last 24 hours (publication-based)
-Coverage groups: 286 | linked headlines: 307
+Coverage groups: 290 | linked headlines: 311
 IMPORTANT: Unverified published reporting; not confirmed attacks or official safety advice.
 
-## Security (179 coverage groups)
+## Security (183 coverage groups)
 - Houthis conduct drone strike on Saudi Arabia's oil facility, killing two - VOV World (1 headlines; single-source)
   - VOV World: https://news.google.com/rss/articles/CBMirAFBVV95cUxOX20wdFRxdUpWcXY4ZERPZEV6MFBENDd3SnNkbk5CUnRrMG5OblN5YTQxLUJjRFJONTAyeDZGc0dRdVphOWFJTzlmMXVGSTZaUVlXQTZkWHBNUGxPRkhDRHVHekxnbUttMU9KckJSWDlHVnU2N0VpYS1ZVHQzbjV5ZnJCa3YzWS1fU2t1YzFndjRoamJzQzdWMVQyald1c216NHNDYTFSYTdKWUhi?oc=5
 - Two killed in attack on airport in eastern Saudi Arabia, authorities say (3 headlines; multi-publisher-unverified)

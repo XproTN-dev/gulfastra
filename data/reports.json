@@ -1,7 +1,7 @@
 {
   "version": 6,
-  "last_run": "2026-10-22T09:59:33.379606Z",
-  "last_successful_run": "2026-10-22T09:59:33.379606Z",
+  "last_run": "2026-10-22T10:02:08.064133Z",
+  "last_successful_run": "2026-10-22T10:02:08.064133Z",
   "successful_sources": 29,
   "reports": [
     {
@@ -305,7 +305,7 @@
       "title": "الطيران المدني السعودي يعلن استئناف العمليات في مطار الدمام - الشرق للأخبار",
       "url": "https://news.google.com/rss/articles/CBMi7wNBVV95cUxQOEhMeHVIeldacEpUSTBMRXZKd3RrTE8ydDBCYVNBOFRUbC1SNnRfX0FLZm1RTVBXakpGcEs2OERaZWIwYURKZk85cUFPa25XSE1ieFltbklIUzdNcW51aThNUXRuODdIQkxMeUp2cHlCWjZqTmVjZEVJR1hGNUw4UVJXZ2tYLUcyNGtJbzdrWG9UMHlYaVd6aVdfcU10cXR5LVFLMmZ3RnVfUk9HUUtvZ1dXUmFxME51bnlVQUxFcW5kM0x0R0N3cmFuX21PNDZPSkFUVzEyRFdER0x5UkZJeEFMLXZZUDdlcGVpcnpkektSSDFQMk84b3ZUODZtNk1HWXhOR0k2UXdfOS13VVpOaW9fT1NZeTFxbVlMTXRkSDA0dTJGbzlzeGRfLXZ3ZVh0aFZjZU12d0tGNlMzUGMxVHdfekFTVmRfSUw0SFIyZzFkbEdvTDZPVmRsOW5MZHI2amFwczVkc3dOc2tUQ3ByY1NFckFucGJqMUhVZ1dlUHlWSEJsZUFUR1pNTUpnVmJIRWc5YlE3U0R6d3ZiVVV5MW9saFg4N3ZTNDltOFFaOHg3M1p2SGIyZlV3OW5BTmNuQUNCNUJsRUdMaWctcGdGcXIwT1pYckI5UG8tdjBPY0NnYzFPcm1QWmlWVHRmcTQ?oc=5",
       "source": "الشرق للأخبار",
-      "published_at": "2026-10-22T08:04:21Z",
+      "published_at": "2026-10-22T08:04:59Z",
       "country": "Saudi",
       "countries": [
         "Saudi"
@@ -339,7 +339,7 @@
       "provider": "Google News · shipping",
       "first_seen_at": "2026-10-22T09:35:30.181787Z",
       "date_quality": "publisher-time",
-      "freshness": "new-reporting",
+      "freshness": "recent-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
       "critical_candidate": false,
@@ -363,7 +363,7 @@
       "provider": "Google News · security",
       "first_seen_at": "2026-10-22T09:27:47.332166Z",
       "date_quality": "publisher-time",
-      "freshness": "new-reporting",
+      "freshness": "recent-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
       "critical_candidate": false,
@@ -1512,6 +1512,30 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "60304e3510852b029257a75a",
+      "title": "السيسي يوضح: الجهد العسكري المصري للدفاع عن السعودية لا يمتد إلى هجوم داخل اليمن - شبكة تواصل الإخبارية",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBQV09ab1Q3MDh0ZEhnODlManZ6SExvRUhvZFlVRUQxTm5kTS0xalZlV1B2VElnZ0gzQ1lzZ2RWYXI4X2tTbEpUbWFYallmazdhUFFN?oc=5",
+      "source": "شبكة تواصل الإخبارية",
+      "published_at": "2026-10-22T03:04:34Z",
+      "country": "",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير امني",
+      "provider": "عربي · السعودية",
+      "first_seen_at": "2026-10-22T10:02:08.064133Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "2f2d1a5c64da5f97678bf3c7",
       "title": "Iran Ready to Give Trump Another Chance at Peace, Says Foreign Minister Abbas Araghchi: 'If US Chooses Wa - Benzinga",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdHhaNnlvN2FHRl9DMUFPX3ozTTFYTlZHWVBuXzc2QlNuOFlJbVd2ZVdmaWdSOEdsR1NMTzEwN1dCZG9yT2U3ODFTTWhRTGtueWJrX2EwcFF0NUs2UF9WbHRwZ3RxVEVJeE1qWm90YlNGZlA5eEpNejRHaUR4dExrZ0FBTE0yZTFIdWpGRmt6TFNtNHRHZG5yY2pyc0RHQ1hMcGpmU1dCa0JXdUVQ?oc=5",
@@ -1862,30 +1886,6 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
-      "id": "f5a5f2a78fbe78293597552f",
-      "title": "U.S. and Israel Draw Up Plans for Renewed Strikes on Iran After Elections - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOaFNybFlkMEkyWkpGZUhTNHUyd2V2Y0JGQkNUNzdJVFhaNlpMWU1FQXh6NG9PWWU0ZlBSdDBCUXUwcEc0c1lJaXRFMzdNajVFdjN5Mm43Y2dBdmNST2lYY1JsWjA5dlVzZkZFcGVaY1RlUEMwS3pOblF0RlVzRGtlYm40TWh2NEp3UGc?oc=5",
-      "source": "The New York Times",
-      "published_at": "2026-10-22T00:58:22Z",
-      "country": "",
-      "countries": [
-        "Iran",
-        "Israel"
-      ],
-      "language": "en",
-      "category": "security",
-      "tag": "SECURITY REPORT",
-      "provider": "Google News · missiles/drones",
-      "first_seen_at": "2026-10-22T05:29:00.114694Z",
-      "date_quality": "publisher-time",
-      "freshness": "recent-reporting",
-      "context": "reporting",
-      "severity": "elevated-reporting",
-      "critical_candidate": false,
-      "alert_eligible": false,
-      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
-    },
-    {
       "id": "16b388ea87e04d6e088d7d6f",
       "title": "How the Mecca defense agreement between Turkey, Pakistan and Saudi Arabia will work - WRAL",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSEN4N1BtdjV4RW9CTWp5TXAwRWYtWEZZR2VpQTI2MGFueFpZTUpfVGdzTkJ5dFBzMmRfUmRQSFBxQV9pdDhocnFYYUxsVDRybmI3WjFUVFJyYmJ5d0cwc2pFM0NMUGQtWU5ld3Vpdi1zdWNNQV83MVRaTXRvUDRrblpRdVBGNWtVUDRNQlREMzV0N010QloyY0g4WE9SS294TUR4cDZfRmN1VnlkRXpYVkgxNzZ2RnZ5TUE?oc=5",
@@ -2018,6 +2018,29 @@
       "tag": "SECURITY REPORT",
       "provider": "Google News · security",
       "first_seen_at": "2026-10-22T05:29:00.114694Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "elevated-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "2f69e1bf339942c27b875f99",
+      "title": "مقتل مقيم وإصابة 8 في هجوم على مطار الدمام بالسعودية - شبكة أخبار الشرق",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE8zTTRSaEFpNVRkWWFLaVdfWEhZOHk3ZVJaVkM4WGliVy1rY0tnLW9tdnA1b3ZjcHF2bHZhUVd5dTdPS1VuQnJRMjM0M0Nud3VW?oc=5",
+      "source": "شبكة أخبار الشرق",
+      "published_at": "2026-10-22T00:31:30Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير امني",
+      "provider": "عربي · السعودية",
+      "first_seen_at": "2026-10-22T10:02:08.064133Z",
       "date_quality": "publisher-time",
       "freshness": "recent-reporting",
       "context": "reporting",
@@ -2574,6 +2597,30 @@
       "freshness": "recent-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "f5a5f2a78fbe78293597552f",
+      "title": "U.S. and Israel Draw Up Plans for Renewed Strikes on Iran After Elections - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOaFNybFlkMEkyWkpGZUhTNHUyd2V2Y0JGQkNUNzdJVFhaNlpMWU1FQXh6NG9PWWU0ZlBSdDBCUXUwcEc0c1lJaXRFMzdNajVFdjN5Mm43Y2dBdmNST2lYY1JsWjA5dlVzZkZFcGVaY1RlUEMwS3pOblF0RlVzRGtlYm40TWh2NEp3UGc?oc=5",
+      "source": "The New York Times",
+      "published_at": "2026-10-21T22:41:33Z",
+      "country": "",
+      "countries": [
+        "Iran",
+        "Israel"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · missiles/drones",
+      "first_seen_at": "2026-10-22T05:29:00.114694Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "elevated-reporting",
       "critical_candidate": false,
       "alert_eligible": false,
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
@@ -5801,6 +5848,30 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "a7ac4c4ab78d3843d71ff793",
+      "title": "السيسي: الجهد العسكري المصري هو للدفاع عن أراضي السعودية ولا يشمل هجوما على اليمن - شبكة تواصل الإخبارية",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBrSXlxeU5TQnpLaTRrZHZ1LWtwZUJhR2FhYUdTRE9YQ0dIbjFEeklWYWxGNUEyemtoSUFBcllyeG5GSmZZYnh1WmlVWjNPS2JtXzZn?oc=5",
+      "source": "شبكة تواصل الإخبارية",
+      "published_at": "2026-10-21T15:30:46Z",
+      "country": "",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير امني",
+      "provider": "عربي · السعودية",
+      "first_seen_at": "2026-10-22T10:02:08.064133Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "641920cb6b0695581aa316e1",
       "title": "السيسي: الجهد العسكري المصري هو للدفاع عن أراضي السعودية ولا يشمل هجوما على اليمن - وكالة الانباء العراقية (واع)",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE91T0k3TTZfcE53bTd6RzN0OEJHUDgwWDUwZDBRd3BZTGoxa0hnMEFHY1BNQ3Z2a0V2Z0dGYXo2Y0xBSUI2Slo2MWoySlFIVVBvbzdLTmN0dw?oc=5",
@@ -5817,6 +5888,30 @@
       "tag": "تقرير امني",
       "provider": "عربي · السعودية",
       "first_seen_at": "2026-10-21T22:16:30.037566Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "bacbd4d7a7603aba1eba9ee6",
+      "title": "عاجل | الرئيس السيسي يحسم الجدل بشأن المهمة العسكرية المصرية في السعودية: دفاع عن المملكة دون هجوم على اليمن - مستقبل وطن نيوز",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE15d09iVUJZSVZWVnNlak1VNTc2VW1meHlvTTRkY18tN3Nielh0ZUhFZ0o0WGU4M2dGRGtYeEJVWGdLNlFmclE?oc=5",
+      "source": "مستقبل وطن نيوز",
+      "published_at": "2026-10-21T15:20:17Z",
+      "country": "",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير امني",
+      "provider": "عربي · السعودية",
+      "first_seen_at": "2026-10-22T10:02:08.064133Z",
       "date_quality": "publisher-time",
       "freshness": "recent-reporting",
       "context": "reporting",
@@ -7827,7 +7922,7 @@
       "language": "ar",
       "category": "security",
       "tag": "تقرير امني",
-      "provider": "عربي · مضيق هرمز",
+      "provider": "عربي · الشرق",
       "first_seen_at": "2026-10-21T08:20:58.205329Z",
       "date_quality": "publisher-time",
       "freshness": "older-reporting",
@@ -14771,7 +14866,7 @@
       "language": "ar",
       "category": "security",
       "tag": "خبر اعتراض / دفاع جوي",
-      "provider": "عربي · السعودية",
+      "provider": "عربي · قطر",
       "first_seen_at": "2026-10-20T12:19:08.929948Z",
       "date_quality": "publisher-time",
       "freshness": "older-reporting",
@@ -30440,7 +30535,7 @@
       "language": "ar",
       "category": "security",
       "tag": "خبر اعتراض / دفاع جوي",
-      "provider": "عربي · إيران والخليج",
+      "provider": "عربي · السعودية",
       "first_seen_at": "2026-10-21T14:42:05.171293Z",
       "date_quality": "publisher-time",
       "freshness": "older-reporting",
@@ -32813,6 +32908,29 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "4c95dfa5a2d2481d41ca0bed",
+      "title": "تحسبا للتصعيد.. إيران تعيد تشغيل منظومات دفاع جوي متضررة وتعزز قدراتها - سواليف",
+      "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxQdGVrQjQweEVrWEs3dWZCMWRxdVA2cWtTRlhVbEpuT3I0OFdqTVVlN1J2YUw2SnFpN2VUZWcwaDhRVklQTDZyMnN6ajVScEpGWmtmcGZMejFhU0hXWGpyTlVSVXhRWmo5bkIzV25JNmNzUUtwT2hmVzRzTHRQMnBJcHNVUnNrMUlOTW1zekhfdkl5OHE4T0FqZFJ0Y2xEVzBDUlV6SXNuRDBLeVhucWVDQjlDSnJDdUtfREVYZUx1cGUtVFRTSi1tbjMtLUtHa0YyUUk0RUZvSG1oS0hpTDBGQUgzdWpMN2hEY3R3VUdXZy1MM0Fab1BuQXBHdVpqV3NmNlkwNTNpLTlwaHhIYi1Sb3c0WVFSZWtnNWZlZUhPRFVLOHNuT2ZzaWRWd0JGaVl4RllMMk1EUEx3blg1andWa3lqMS13T09DdDh3?oc=5",
+      "source": "سواليف",
+      "published_at": "2026-10-17T11:15:29Z",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "خبر اعتراض / دفاع جوي",
+      "provider": "عربي · إيران والخليج",
+      "first_seen_at": "2026-10-22T10:02:08.064133Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "elevated-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "d5514fef316442c7d29596c6",
       "title": "Air India and AI Express cancel Saudi Arabia flights till Oct. 24 - The Hindu",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNEhYbldJX1JpazJsOTllYThLNVVLSDNleThXNkdmX2wwV092dWhvSVp5NVc5LUlOanlHMWQ3MURlckNWMUJMZjlrdkIwMVhwT1V2Y3NyTGtlTFVUWUZyQ1dabUpEN2dmN05PVlloT3NxNVVhWFVNLU0yM3YwdHRpTjhLUTl4RFRrdFFGQThnYW5yN3E3a3hfQjVaeHJ1amVsV3ZSU0RBc2lGMDlySVBUYkxZTE50YzRyeXVHMWVtWDDSAccBQVVfeXFMT1dxek9nOFo5RFh6SUJRUl91YTBXLWZjVkdZbDh6SUU1VXR1WTFYUVgyMGNqTW9uVGZ4M2NQaDlpbGhNcGVscElHTGtYVm1iWExDeWptbUl3b2lacVN2VFVXbE5yaDBRNXRHSHM1OE11NjVPM0lCcVhldTBqX1hfa3RtcEtZMWFmLThYR2dJeGE5YzYwM05VbVFuSXVOeHp2S0FhbHVWYm95VDVWWkQ0MUtIbXZDeklQZzlGcllMc3pBdG1nTHZuTQ?oc=5",
@@ -34013,7 +34131,7 @@
       "language": "en",
       "category": "security",
       "tag": "SECURITY REPORT",
-      "provider": "Google News · security",
+      "provider": "Google News · missiles/drones",
       "first_seen_at": "2026-10-20T12:09:48.504938Z",
       "date_quality": "publisher-time",
       "freshness": "older-reporting",
@@ -40878,7 +40996,7 @@
       "provider": "Reuters · indexed Gulf reporting",
       "first_seen_at": "2026-10-20T12:09:48.504938Z",
       "date_quality": "publisher-time",
-      "freshness": "older-reporting",
+      "freshness": "archive",
       "context": "reporting",
       "severity": "routine-reporting",
       "critical_candidate": false,
@@ -40901,7 +41019,7 @@
       "provider": "عربي · وكالات الخليج",
       "first_seen_at": "2026-10-20T12:00:32.516927Z",
       "date_quality": "legacy-unverified",
-      "freshness": "older-reporting",
+      "freshness": "archive",
       "context": "reporting",
       "severity": "routine-reporting",
       "critical_candidate": false,
@@ -49239,17 +49357,17 @@
     "Google News · missiles/drones": {
       "ok": true,
       "items": 100,
-      "relevant": 74
+      "relevant": 73
     },
     "Google News · security": {
       "ok": true,
-      "items": 100,
-      "relevant": 67
+      "items": 51,
+      "relevant": 37
     },
     "Google News · aviation": {
       "ok": true,
-      "items": 85,
-      "relevant": 80
+      "items": 83,
+      "relevant": 78
     },
     "Google News · shipping": {
       "ok": true,
@@ -49259,7 +49377,7 @@
     "Google News · diplomacy": {
       "ok": true,
       "items": 100,
-      "relevant": 43
+      "relevant": 45
     },
     "Google News · regional": {
       "ok": true,
@@ -49269,7 +49387,7 @@
     "Reuters · indexed Gulf reporting": {
       "ok": true,
       "items": 100,
-      "relevant": 26
+      "relevant": 24
     },
     "AP · indexed Gulf reporting": {
       "ok": true,
@@ -49288,8 +49406,8 @@
     },
     "عربي · إيران والخليج": {
       "ok": true,
-      "items": 56,
-      "relevant": 42
+      "items": 55,
+      "relevant": 41
     },
     "عربي · قطر": {
       "ok": true,
@@ -49298,23 +49416,23 @@
     },
     "عربي · السعودية": {
       "ok": true,
-      "items": 100,
-      "relevant": 65
+      "items": 61,
+      "relevant": 45
     },
     "عربي · الإمارات والبحرين": {
       "ok": true,
-      "items": 51,
-      "relevant": 46
+      "items": 49,
+      "relevant": 44
     },
     "عربي · الكويت والعراق": {
       "ok": true,
-      "items": 53,
-      "relevant": 49
+      "items": 51,
+      "relevant": 47
     },
     "عربي · مضيق هرمز": {
       "ok": true,
       "items": 100,
-      "relevant": 74
+      "relevant": 73
     },
     "عربي · الجزيرة": {
       "ok": true,
@@ -49329,12 +49447,12 @@
     "عربي · الشرق": {
       "ok": true,
       "items": 100,
-      "relevant": 36
+      "relevant": 37
     },
     "عربي · وكالات الخليج": {
       "ok": true,
       "items": 100,
-      "relevant": 29
+      "relevant": 28
     },
     "الجزيرة نت · RSS عربي": {
       "ok": true,
@@ -49367,13 +49485,13 @@
       "relevant": 7
     },
     "UN News · Middle East (EN)": {
-      "ok": false,
-      "error": "not well-formed (invalid token): line 1, column 0"
-    },
-    "UN News · الشرق الأوسط (AR)": {
       "ok": true,
       "items": 30,
-      "relevant": 6
+      "relevant": 1
+    },
+    "UN News · الشرق الأوسط (AR)": {
+      "ok": false,
+      "error": "not well-formed (invalid token): line 1, column 0"
     },
     "Qatar News Agency · Qatar RSS": {
       "ok": true,
@@ -49386,9 +49504,8 @@
       "relevant": 10
     },
     "GDELT · article index": {
-      "ok": null,
-      "state": "rate-limit-backoff",
-      "note": "Probed twice hourly; previous HTTP 429 responses"
+      "ok": false,
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
     }
   },
   "notice": "Public news headlines only, not verified attacks. Approximate country reference markers. Provider errors are reported."
