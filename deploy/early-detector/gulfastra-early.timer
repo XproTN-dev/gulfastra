@@ -1,0 +1,11 @@
+[Unit]
+Description=Run GULFASTRA early detector every two minutes
+
+[Timer]
+OnCalendar=*:0/2
+AccuracySec=15s
+Persistent=true
+Unit=gulfastra-early.service
+
+[Install]
+WantedBy=timers.target
