@@ -205,7 +205,7 @@ function showStatus(){
   const labels=S.lang==="ar"?
    ["إشارات منشورة","P1 للمراجعة الفورية","مشاهدات ومصادر رسمية","تقارير غير مؤكدة"]:
    ["PUBLIC SIGNALS","P1 · REVIEW NOW","PROVIDER OBSERVATIONS","UNVERIFIED REPORTS"];
-  $(".lab-metrics small").forEach((cell,i)=>{cell.textContent=labels[i]});
+  document.querySelectorAll(".lab-metrics small").forEach((cell,i)=>{cell.textContent=labels[i]});
   $("mNodes").textContent=records.length.toLocaleString();
   $("mEdges").textContent=records.filter(s=>s.priority==="P1").length.toLocaleString();
   $("mSeries").textContent=records.filter(s=>s.evidence_state!=="unverified-reporting").length.toLocaleString();
@@ -213,7 +213,7 @@ function showStatus(){
   return;
  }
  const labels=(S.lang==="ar"?AR_CHROME:EN_CHROME).metrics;
- $(".lab-metrics small").forEach((cell,i)=>{cell.textContent=labels[i]});
+ document.querySelectorAll(".lab-metrics small").forEach((cell,i)=>{cell.textContent=labels[i]});
  const d=graphData();
  $("mNodes").textContent=d.nodes.length.toLocaleString();
  $("mEdges").textContent=d.edges.length.toLocaleString();
