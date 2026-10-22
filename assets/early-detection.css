@@ -1,0 +1,103 @@
+/* GULFASTRA EARLY DETECTION: readability and clear provenance over crisis spectacle. */
+.detector-root{max-width:1240px;margin:auto;padding:2px 4px 30px;color:var(--ink)}
+.detector-head{display:flex;justify-content:space-between;gap:20px;align-items:flex-start;
+ padding:14px 3px 18px;border-bottom:1px solid var(--line)}
+.detector-head h2{font-size:26px;margin:6px 0;letter-spacing:-.4px}
+.detector-head p{margin:5px 0;line-height:1.65;color:var(--muted);font-size:12px;max-width:690px}
+.detector-status{display:flex;flex-direction:column;gap:5px;padding:10px 12px;
+ border:1px solid var(--teal);border-radius:8px;background:var(--panel2);
+ font:9px "IBM Plex Mono",monospace;min-width:180px}
+.detector-status strong{color:var(--teal);font-size:10px}
+.detector-status span{color:var(--muted)}
+.detector-status.late{border-color:var(--amber)}
+.detector-status.late strong{color:var(--amber)}
+.det-metrics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin:14px 0}
+.det-metrics>div{background:var(--panel2);padding:13px 14px;border:1px solid var(--line);
+ border-radius:9px;display:flex;flex-direction:column;gap:5px;min-width:0}
+.det-metrics small{font:9px "IBM Plex Mono",monospace;color:var(--muted)}
+.det-metrics b{font:700 24px "IBM Plex Mono",monospace;color:var(--ink)}
+.det-metrics>div:first-child b{color:var(--blue)}
+.det-metrics span{font-size:10px;color:var(--dim)}
+.det-toolbar{display:flex;justify-content:space-between;gap:9px;flex-wrap:wrap;margin:13px 0}
+.det-range{display:flex;align-items:center;gap:4px;flex-wrap:wrap}
+.det-range>span{font:10px "IBM Plex Mono",monospace;color:var(--muted);margin-right:7px}
+.det-range button{border:1px solid var(--line);border-radius:5px;background:var(--panel2);
+ color:var(--muted);padding:8px 11px;min-height:35px;font:10px "IBM Plex Mono",monospace}
+.det-range button.active{border-color:var(--blue);color:var(--blue);background:var(--raised)}
+.det-notice{display:flex;gap:12px;align-items:start;border:1px solid var(--line);
+ background:var(--panel2);border-left:3px solid var(--amber);border-radius:6px;
+ padding:10px 13px;color:var(--muted);font-size:10px;line-height:1.65}
+.det-notice b{white-space:nowrap;font:700 10px "IBM Plex Mono",monospace;color:var(--amber)}
+.detector-body{display:grid;grid-template-columns:minmax(0,1fr) 245px;gap:14px;margin-top:18px}
+.detector-list,.detector-sources{min-width:0}
+.det-section-title{display:flex;align-items:center;justify-content:space-between;
+ font:700 10px "IBM Plex Mono",monospace;color:var(--blue);margin-bottom:12px;gap:12px}
+.det-section-title span{color:var(--muted)}
+.det-event{display:flex;flex-direction:column;align-items:stretch;gap:12px;width:100%;
+ text-align:left;padding:15px 17px;margin:8px 0;border:1px solid var(--line);
+ border-left:3px solid var(--dim);border-radius:8px;background:var(--panel2);
+ color:var(--ink);min-width:0}
+.det-event.priority-P1{border-left-color:var(--red)}
+.det-event.priority-P2{border-left-color:var(--amber)}
+.det-event.priority-P3{border-left-color:var(--teal)}
+.det-event:hover,.det-event:focus-visible{border-color:var(--blue);background:var(--raised)}
+.det-event-meta,.det-event-foot{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.det-event-meta>span:last-child{color:var(--dim);font:9px "IBM Plex Mono",monospace}
+.det-chip{padding:4px 7px;border-radius:4px;font:700 9px "IBM Plex Mono",monospace;
+ border:1px solid var(--line);color:var(--ink)}
+.det-chip.p1{border-color:var(--red);background:var(--panel);color:var(--red)}
+.det-chip.p2{border-color:var(--amber);background:var(--panel);color:var(--amber)}
+.det-chip.p3{border-color:var(--teal);background:var(--panel);color:var(--teal)}
+.det-chip.unverified{border-color:var(--dim);color:var(--muted)}
+.det-chip.provider{border-color:var(--teal);color:var(--teal)}
+.det-event strong{line-height:1.5;font-size:14px;overflow-wrap:anywhere;
+ unicode-bidi:plaintext;text-align:start}
+.det-event-foot{justify-content:space-between;gap:8px;padding-top:9px;
+ border-top:1px solid var(--line);color:var(--muted);font:9px "IBM Plex Mono",monospace}
+.det-event-foot>span:last-child{color:var(--blue)}
+.detector-sources{border:1px solid var(--line);border-radius:9px;padding:13px;
+ background:var(--panel);align-self:start}
+.det-sources-note{font-size:10px;color:var(--muted);line-height:1.6;margin-bottom:12px}
+.det-source-row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:3px 6px;
+ border-bottom:1px solid var(--line);padding:9px 0;font:9px "IBM Plex Mono",monospace}
+.det-source-row span{color:var(--ink);overflow-wrap:anywhere}
+.det-source-row b{font-size:9px;color:var(--teal);text-align:end}
+.det-source-row b.bad{color:var(--amber)}
+.det-source-row small{grid-column:1 / -1;color:var(--dim)}
+.det-enable{margin-top:13px;display:flex;flex-direction:column;gap:7px}
+.det-enable button{width:100%;background:var(--raised);border:1px solid var(--blue);
+ border-radius:5px;padding:10px;color:var(--blue);font:10px "IBM Plex Mono",monospace}
+.det-enable small{font:9px/1.6 "IBM Plex Mono",monospace;color:var(--muted)}
+.det-empty{border:1px dashed var(--line);border-radius:7px;padding:18px;
+ background:var(--panel2);color:var(--muted);font-size:12px;line-height:1.6}
+.det-footer{font:9px/1.8 "IBM Plex Mono",monospace;color:var(--dim);margin:17px 0}
+@media(max-width:1150px){
+ .detector-body{grid-template-columns:minmax(0,1fr) 210px}
+ .det-notice{flex-direction:column;gap:5px}
+}
+@media(max-width:800px){
+ .detector-body{grid-template-columns:1fr}
+ .detector-sources{order:2}
+ .det-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .detector-head{flex-direction:column;gap:10px}
+ .detector-status{min-width:0;width:100%;flex-direction:row;justify-content:space-between;flex-wrap:wrap}
+}
+@media(max-width:650px){
+ .detector-root{padding:0 1px 25px}
+ .detector-head{padding:5px 1px 11px}
+ .detector-head h2{font-size:21px}
+ .detector-head p{font-size:11px}
+ .det-metrics{gap:7px;margin:10px 0}
+ .det-metrics>div{padding:8px 10px}
+ .det-metrics b{font-size:19px}
+ .det-metrics small{font-size:8px}
+ .det-metrics span{font-size:9px}
+ .det-toolbar{flex-direction:column}
+ .det-range>span{min-width:72px;font-size:9px}
+ .det-range button{min-height:43px;flex:1;padding:8px 7px}
+ .det-event{padding:13px 11px;gap:9px}
+ .det-event strong{font-size:12px}
+ .det-event-foot{font-size:8px}
+ .det-chip{font-size:8px}
+ .det-status,.detector-status{font-size:8px}
+}
