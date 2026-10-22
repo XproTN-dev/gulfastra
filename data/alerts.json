@@ -1,23 +1,66 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-22T10:34:37.862366Z",
+  "generated_at": "2026-10-22T15:38:47.729091Z",
   "alerts": [
     {
-      "id": "GF-9AE6FC4CBA7F37",
+      "id": "GF-215627CED9C8F2",
       "level": "review",
-      "title": "Houthis conduct drone strike on Saudi Arabia's oil facility, killing two - VOV World",
-      "published_at": "2026-10-22T09:54:00Z",
+      "title": "Reports show US and Israel are planning new strikes on Iran",
+      "published_at": "2026-10-22T15:34:34Z",
       "countries": [
-        "Saudi"
+        "Iran",
+        "Israel"
       ],
       "category": "security",
-      "topic": "drone",
+      "topic": "regional",
       "outlet_count": 1,
       "article_count": 1,
       "source_urls": [
         {
-          "name": "VOV World",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOX20wdFRxdUpWcXY4ZERPZEV6MFBENDd3SnNkbk5CUnRrMG5OblN5YTQxLUJjRFJONTAyeDZGc0dRdVphOWFJTzlmMXVGSTZaUVlXQTZkWHBNUGxPRkhDRHVHekxnbUttMU9KckJSWDlHVnU2N0VpYS1ZVHQzbjV5ZnJCa3YzWS1fU2t1YzFndjRoamJzQzdWMVQyald1c216NHNDYTFSYTdKWUhi?oc=5"
+          "name": "France 24 · Middle East",
+          "url": "https://www.france24.com/en/video/20261022-reports-show-us-and-israel-plan-new-strikes-on-iran"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-96C4D901DC0808",
+      "level": "review",
+      "title": "قتيلان وعشرات المصابين في هجوم روسي على العاصمة الأوكرانية كييف - Qatar news agency",
+      "published_at": "2026-10-22T14:10:01Z",
+      "countries": [
+        "Qatar"
+      ],
+      "category": "security",
+      "topic": "regional",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "Qatar news agency",
+          "url": "https://news.google.com/rss/articles/CBMinARBVV95cUxNclAtbjg5cXpnOHl0TTdrQ2MxVWpseVM5eEtlRjVTejhROWZCVjhldV9RVGpLOVVMOUlWWks3bWJUVzlfemN6amtnOWNNakZiaFdoNDhPLV9pc3RkWlBGT2Q2N1RfcG43a2hIRGR2X1h6WnAxaVg5NWF1VmRGbWh2QnVuT1FHclNCS2JCT0RPQk1JZE5BVjJLWnV0WVdyV1NtOFN3Rk9iZmJWOWkzQVhSd1RGd2NrZ1I4ekxMdmd2V184R2hDR0NJd0l6aEFrTy1YZXVLUEpYMzBHSzIwZ1BCd3hYLTdQZWszNlNDaEc0U3hmS3JySWxlcFZWaWNaU2tHM3pBYlNZMEF3VThxN2NvRDd3ZHZsM1MzTktJYlVCN1g5NTRFNk9RVjg3MWgwSmlNVFh4ZFF4ZkFuT1dzejdBQnhfRVJqMEx0Q2E3Nk4wLWphQVJEbVhkZm1FNmdLSjZxdkRsOUtmdjNDOWVRV2lnZlFzWGE0eXZkZkRHVzFLWGVEWENuV0JOdkVQc3lHUG04SGdMdi1jcFRsZ0REOUxJdms3MzVUVzNQcHJ6eGMxa3ZQU1JNZkg4bEJqUU9IYS1rMlJNNWdmc3g2VlRaMEFVbkUxbElpWEJOR0k2a3BoTmgxUDNkUVhNdGFmZmJXcjRGRnNlY0d5VTNheW9oUllxdHZmVW9TdzJ5QTFMMTBTdEVadl9Yekx4cUxJN2w?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-2E51C0F1282AB2",
+      "level": "review",
+      "title": "السعودية تعلن مقتل شخص وإصابة 8 جراء هجوم على مطار الملك فهد.. و\"كبار العلماء\": استهداف المقدسات والمدنيين \"إرهاب\" - CNN Arabic",
+      "published_at": "2026-10-22T14:02:44Z",
+      "countries": [
+        "Saudi"
+      ],
+      "category": "security",
+      "topic": "aviation",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "CNN Arabic",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPemtwTGVqSng0cWpCZ0hrVFEyY1lUb1daTXRwSllIMnAyRkNHSmVlVzJvYVY2WXdOak0yRjIwd1RXNlNlTXpsNmFtR2lNTWdUa1FLaVRRV1NnVEJ5bUt3TmVNZFFoQko2SGlCR3JuMGtDUkM5Wjg5VFZKYXRxd0xMd29jdVpQTnVzSXJBMTdKcFYtZnNiVzZTQ05LTzA1UG1RN1hhMEdsczEtVUJheEkwZGdaY1BDSnBHNnpQclRlVHZ3b2J5QU1lbnNJU1o0Zw?oc=5"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
@@ -26,10 +69,11 @@
     {
       "id": "GF-99AFAD177AA7D7",
       "level": "review",
-      "title": "Two killed in attack on airport in eastern Saudi Arabia, authorities say",
-      "published_at": "2026-10-22T09:14:48Z",
+      "title": "Two killed in Houthi attack on airport in eastern Saudi Arabia, authorities say",
+      "published_at": "2026-10-22T13:46:33Z",
       "countries": [
-        "Saudi"
+        "Saudi",
+        "Yemen"
       ],
       "category": "security",
       "topic": "aviation",
@@ -39,10 +83,6 @@
         {
           "name": "BBC Middle East RSS",
           "url": "https://www.bbc.co.uk/news/articles/cqwy71ww156ro?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "name": "BBC",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1ZLXJNaS01NmN3UEpVbllOU1RXV3NOTGRHUWFIM0FCTlNScE5RTXBmTy1FS3VDVEI3Nnp4dk9mWDFINlBTQ0RNeUk5SXlKTG43UFc2OGtxTGNIZXd0OVE?oc=5"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
