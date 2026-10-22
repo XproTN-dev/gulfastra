@@ -5,16 +5,19 @@ const C=root.GXCore,R=root.GXImpactRender;
 if(!C||!R){document.body.textContent="Impact Lab modules could not initialize.";return}
 const $=id=>document.getElementById(id),$$=q=>[...document.querySelectorAll(q)];
 const KEY="gulfastra-lab-v12",VISITED="gulfastra-lab-visited-v1";
-const DEFAULT={view:"graph",country:"",category:"all",mode:"network",hours:48,zoom:1,lang:"en"};
+const DEFAULT={view:"map",country:"",category:"all",mode:"network",hours:48,
+ mapHours:1,theme:"crimson",zoom:1,lang:"en"};
 const saved=C.loadState(KEY,{});
 const S={...DEFAULT,...saved,files:{},manifest:null,status:"checking",warning:"",loaded:false,pending:false,
  asof:Date.now(),scrub:100,selected:null,graphFocus:null,prior:null,visits:{new:0,changed:0},lastCheck:null};
-if(!["map","graph","timeline","markets","compare","pathways","brief"].includes(S.view))S.view="graph";
+if(!["map","graph","timeline","markets","compare","pathways","brief"].includes(S.view))S.view="map";
+if(![1,2,6,12,24,48,168].includes(Number(S.mapHours)))S.mapHours=1;
+if(!["crimson","carbon","matrix","arctic"].includes(S.theme))S.theme="crimson";
 // All screen sizes use readable topic clusters by default, never a dense label cloud.
 const color={security:"#e78f73",transport:"#74b4ed",diplomacy:"#a799ea",other:"#69cfaa"};
 const words={
  en:{
-  map:["GEOSPATIAL OBSERVATIONS","PUBLIC INTELLIGENCE MAP","Real coordinates from providers, clearly labelled country news mentions and static infrastructure."],
+  map:["LATEST SOURCE EVIDENCE","LIVE INTELLIGENCE MAP","Latest published news, official advisories and independent observations. Country markers are not incident positions."],
   graph:["SOURCE-BACKED COVERAGE","INTELLIGENCE LANDSCAPE","Explore reporting topics and original evidence. Relationships are shared metadata, not proven cause."],
   timeline:["CHRONOLOGICAL EVIDENCE","PUBLICATION TIME EXPLORER","Scrub a real publication timeline. These are publication dates, not incident occurrence times."],
   markets:["ECONOMIC CONTEXT","FRED MARKET & MACRO SERIES","Actual provider observations only. Different series have different publication delays."],
@@ -23,7 +26,7 @@ const words={
   brief:["DAILY INTELLIGENCE","SOURCE-BACKED DAILY BRIEF","A deterministic summary of reporting and official records from the latest 24 hours."]
  },
  ar:{
-  map:["المشاهدات الجغرافية","خريطة المعلومات العامة","إحداثيات المصدر للمشاهدات، وتغطية أخبار الدول وليست مواقع للحوادث."],
+  map:["أحدث البيانات المنشورة","خريطة المراقبة المباشرة","أخبار حديثة وتنبيهات رسمية ومشاهدات مستقلة، مع تمييز مواقع الدول عن مواقع الأحداث."],
   graph:["تحليل التغطية المنشورة","مشهد الأخبار والتحليل","استكشف مواضيع التغطية ومصادرها الأصلية. التشابه في الأخبار لا يثبت السببية."],
   timeline:["التسلسل الزمني","مستكشف أوقات النشر","استعرض تاريخ نشر الأخبار الحقيقي، لا توقيت وقوع الحوادث."],
   markets:["المؤشرات الاقتصادية","بيانات الأسواق والاقتصاد من FRED","مشاهدات فعلية منشورة بتواتر مختلف. ليست أسعارا لحظية."],
@@ -33,7 +36,7 @@ const words={
  }
 };
 const AR_CHROME={
- views:{map:"◎ خريطة العالم",graph:"◉ شبكة الأخبار",timeline:"◷ التسلسل الزمني",markets:"⌁ الأسواق والمؤشرات",
+ views:{map:"◎ الخريطة الحية",graph:"◉ شبكة الأخبار",timeline:"◷ التسلسل الزمني",markets:"⌁ الأسواق والمؤشرات",
  compare:"⇄ مقارنة ٢٠٠٨",pathways:"⤳ مسارات التأثير",brief:"▤ الموجز اليومي"},
  modes:{network:"المواضيع",chronology:"العناوين",spatial:"العلاقات"},
  controls:["الجغرافيا","نوع التغطية","عرض الشبكة"],
@@ -42,7 +45,7 @@ const AR_CHROME={
  now:"↪ الآن",reference:"المصادر والمنهجية"
 };
 const EN_CHROME={
- views:{map:"◎ WORLD MAP",graph:"◉ EVENT NETWORK",timeline:"◷ TIME EXPLORER",markets:"⌁ MARKET INDICATORS",
+ views:{map:"◎ LIVE MAP",graph:"◉ EVENT NETWORK",timeline:"◷ TIME EXPLORER",markets:"⌁ MARKET INDICATORS",
  compare:"⇄ 2008 COMPARISON",pathways:"⤳ IMPACT PATHWAYS",brief:"▤ DAILY BRIEF"},
  modes:{network:"TOPICS",chronology:"HEADLINES",spatial:"RELATIONS"},
  controls:["GEOGRAPHY","REPORTING CATEGORY","NETWORK PRESENTATION"],
@@ -64,7 +67,16 @@ function translateChrome(){
  $("labLang").textContent=S.lang==="en"?"EN / عربي":"العربية / EN";
 }
 const esc=C.esc;
-const save=()=>C.store(KEY,Object.fromEntries(["view","country","category","mode","hours","zoom","lang"].map(k=>[k,S[k]])));
+function applyTheme(theme){
+ if(!["crimson","carbon","matrix","arctic"].includes(theme))theme="crimson";
+ S.theme=theme;document.body.dataset.theme=theme;
+ $("labTheme").value=theme;
+ const mobile=document.querySelector('meta[name="theme-color"]');
+ if(mobile)mobile.setAttribute("content",theme==="arctic"?"#eef2f6":
+   theme==="matrix"?"#020a08":theme==="carbon"?"#080a0d":"#050506");
+ save();
+}
+const save=()=>C.store(KEY,Object.fromEntries(["view","country","category","mode","hours","mapHours","theme","zoom","lang"].map(k=>[k,S[k]])));
 const raw=(key,defaultValue)=>S.files[key]??defaultValue;
 const graph=()=>raw("impact_graph.json",{nodes:[],edges:[]});
 const markets=()=>raw("markets.json",{series:{},source_status:{}});
@@ -233,6 +245,10 @@ function render(){
  showStatus();
  const stage=$("stageContent"),page=stage.scrollTop;
  const mapIsVisible=S.view==="map";
+ $("[data-map-hours]").forEach(b=>b.classList.toggle("active",Number(b.dataset.mapHours)===S.mapHours));
+ const custom=$("labMapCustomWindow");
+ custom.value=[48,168].includes(S.mapHours)?String(S.mapHours):"";
+ if($("labLatestAge"))$("labLatestAge").textContent=S.mapHours+"H WINDOW";
  stage.hidden=mapIsVisible;
  $("labMapHost").hidden=!mapIsVisible;
  if(mapIsVisible)root.GXImpactMap?.show();
@@ -266,7 +282,11 @@ async function refresh(){
   S.files={...S.files,...incoming.files};S.manifest=incoming.manifest;
   S.status=incoming.status;S.warning=incoming.warning;S.loaded=true;S.lastCheck=Date.now();
   if(!wasLoaded)markVisit();
-  if(!wasLoaded||incoming.changed)render();else showStatus();
+  if(!wasLoaded||incoming.changed)render();
+  else{
+   showStatus();
+   if(S.view==="map")root.GXImpactMap?.update();
+  }
  }catch(e){
   S.status="degraded";S.warning=String(e);
   if(!S.loaded){S.loaded=true;render()}
@@ -279,6 +299,17 @@ function init(){
   $("countryLab").appendChild(o);
  }
  $("countryLab").value=S.country;$("topicLab").value=S.category;
+ applyTheme(S.theme);
+ $("labTheme").onchange=e=>applyTheme(e.target.value);
+ $("[data-map-hours]").forEach(b=>b.onclick=()=>{
+  S.mapHours=Number(b.dataset.mapHours);S.asof=Date.now();S.scrub=100;
+  save();render();
+ });
+ $("labMapCustomWindow").onchange=e=>{
+  if(!e.target.value)return;
+  S.mapHours=Number(e.target.value);S.asof=Date.now();S.scrub=100;
+  save();render();
+ };
  $$("[data-view]").forEach(b=>b.onclick=()=>view(b.dataset.view));
  $$("[data-mobile-view]").forEach(b=>b.onclick=()=>view(b.dataset.mobileView));
  $$("[data-mode]").forEach(b=>b.onclick=()=>{S.mode=b.dataset.mode;S.graphFocus=null;save();render()});
@@ -291,7 +322,9 @@ function init(){
    S.asof=Date.now();$("countryLab").value="";$("topicLab").value="all";closeLayers();render();save()};
  $("labRefresh").onclick=refresh;
  root.GXImpactMap?.configure({
-  getData:()=>S.files,getFilter:()=>({country:S.country,category:S.category,hours:S.hours,asof:S.asof}),
+  getData:()=>S.files,
+  getFilter:()=>({country:S.country,category:S.category,hours:S.mapHours,asof:Date.now(),
+    collectionTime:S.manifest?.collected_at||null,latestArticle:S.manifest?.latest_article_published_at||null}),
   onDetails:openContext
  });
  $$("[data-map-layer]").forEach(b=>b.onchange=()=>root.GXImpactMap?.update());
@@ -367,7 +400,11 @@ function init(){
  $$("[data-view]").forEach(b=>b.classList.toggle("active",b.dataset.view===S.view));
  $("graphFooter").hidden=!["map","graph","timeline"].includes(S.view);
  $("labUTC").textContent=new Date().toLocaleTimeString("en-GB",{timeZone:"UTC",hour:"2-digit",minute:"2-digit"})+" UTC";
- setInterval(()=>{if(!document.hidden)refresh()},60000);
+ setInterval(()=>{
+  if(document.hidden)return;
+  refresh();
+  if(S.view==="map")root.GXImpactMap?.update();
+ },60000);
  setInterval(()=>{$("labUTC").textContent=new Date().toLocaleTimeString("en-GB",{timeZone:"UTC",hour:"2-digit",minute:"2-digit"})+" UTC"},30000);
  refresh();
 }
