@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "generated_at": "2026-10-22T09:53:30.175801Z",
+  "generated_at": "2026-10-22T09:54:21.067199Z",
   "model": "deterministic-source-correlation-v2-coverage-lifecycle",
   "disclaimer": "Clusters are related PUBLIC REPORTS, not confirmed incidents. Source counts are not proof. Country names are mentions, not incident locations.",
   "events": [
@@ -4119,6 +4119,63 @@
       "updated_at": "2026-10-22T09:27:55.353747Z"
     },
     {
+      "id": "GF-DF26CDB971A6F6",
+      "title": "الخامسة | مليشيا الحوثي تهاجم المطارات اليمنية.. والرئيس الفرنسي يصل الرياض - العربية",
+      "category": "transport",
+      "topic": "aviation",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-22T01:39:00Z",
+      "last_published": "2026-10-22T01:39:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "1474a2953a20be29679357b6",
+          "title": "الخامسة | مليشيا الحوثي تهاجم المطارات اليمنية.. والرئيس الفرنسي يصل الرياض - العربية",
+          "url": "https://news.google.com/rss/articles/CBMi3ARBVV95cUxQd3FzeEl2QWhsa1EwQkVlZUpiallqd3l2WGRKMVlPNjZOMC1JUWdIOUFmczAyQ2FJTXVOZ0JXdGVOYXJvaG1aLXZUOEZKVjR5Q09jcEdfYXllVXZxcnd4X2c5R3dybFpXd2R5SklDR0pDb1cxcW9TZjVYY1lwUy1QWS1nNWF5MEpucjJFZG1sa1lRZi1ERFVhWDRtZTdFa1ctMThCSnpMU2M3WVlxWERUZmczSDEtQWFWVWhSbkdUaEtzcU5ZMENJZjRFZDY1dU9HQkotQnJVejJuamlNSktQQ2hoRHNwMDEybktBenB0MlhocTczRVBmRC1LamhqWlVqdFV6d2ZERTRsR2wxQmx6S3dEdVVSNzN6bjE3d3lsQlFfZU1GZk10MkZ6eUdnX0N0OUhPUldONHdxMm5EOV93Vk1iT0xKdkRuUzFwUkVtZklqU0dmMUwxdDRabVdyNkU3WFhUeW85d1BuQkpEdVZPcV9QVVUwbHFaRTRWM0hCTnM1SHJWR0VlWEYxTEVPRWJtVnV2dEE0VmRtTzhvbXhxc3A1UEJaTG9KQ1lhQ3pjQ0lNbERXU21mZTZyWmxXelVPYU9SSV92dHZUTmQwWDRtMmc4ZXp3ZnFCLUpGUnlZT3YtSVc1dUJLc3htWmI3aTdYcFdLeXE3aGdBVnAyd0dSdHVENDVqTmZ0cW40dHp2ZUl4aVdEZlNSTFdqR2g2NGVBdkZuZ1FMeXUxRnFsc0V4bWQyUkFVcWsyUkh1WmFtWjNlWS1qczI3bkdQeWd6aVpPNWJQVkZqOE8zUjI20gHiBEFVX3lxTE1FYXJ5NUZIYVQ0bGJSc3kxTXBBUGtqWVZ0d1dwam0xaTRLNXBvUEdSX19ReWxGSXlIQXowbkxINGVBblhPN1REa1VFaWgzTzllcjUzbmtvdElsNFA4eXRfdWcxMC1VTGt1NWt3RS0td3JPNFFwVk5WQjFnS0trSFhBTHQxcFdVdXhGTlhrX1VacS1oeWlVZ2FrMDF2cWxRNkFvMWlKMFItd0NEbTlDSHEwaHU1dUJhNktPb3B4Xy03NGhOemdzcEN4bjZpa1AxQkJ1THZPLWlhM0hlMjRPSHgxYzBHaTMyMUJLZjRJWTFHS2s3MEdnRkJHaDc5WlRjSFd6bi10TEtPWHFmUjRFRDY3UXpNVlg2eWhXWjVRd05sM3ItNVB2elA4NHJtZzJLak5xNFFMRFNrNXZ2Ri1NcnFxWVhfTThwUTJRVkRRWElEajc2U0kxdFptOWYxS2lELXAwZnRGWjNLa0pIbng0LV9YWW9SdldIMlRqcFczaEFNWEhUYlVvTVkzWnhfVG5yQWRqaHNIbUFRRFFiREg5SDV2M0NDREF2Q0thVkwxQ0gwcWd4a3VtYTNnX2lrMFROSnlMMGRUaG1vU3dmYjJLV1c2SWF0QTJ1aWczY3BadVRiLTJOd1dyajZrMERXb3lXaFJsREJsZTZLbHA2eFBvWGZ6MHNsMG9VWVRuaTVlTDloaEcxV1AzUUdYbGd4cU5XOHJLUkkzWDdhdVljRWc1WVBrZkMzRjQ4XzFwU0tXVHhIajJPZDhaLTJRQVdfVjFOZjlPSVJhSzRUZlNHdFByeXV2NWc?oc=5",
+          "source": "العربية",
+          "publisher_key": "العربية",
+          "provider": "عربي · العربية",
+          "published_at": "2026-10-22T01:39:00Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-22T09:54:14.104618Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "recent-coverage",
+      "coverage_first_published_at": "2026-10-22T01:39:00Z",
+      "coverage_last_published_at": "2026-10-22T01:39:00Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "61b141920272b595b9eb",
+      "revision": 1,
+      "updated_at": "2026-10-22T09:54:21.067199Z"
+    },
+    {
       "id": "GF-193B547FA8F1D6",
       "title": "US, Israel plan renewed Iran strikes after midterm elections, step up military exercises: sources - The Business Times",
       "category": "security",
@@ -8124,63 +8181,6 @@
       "digest": "59ad3badeef032ea2c27",
       "revision": 1,
       "updated_at": "2026-10-21T22:16:40.668024Z"
-    },
-    {
-      "id": "GF-22E6071B5886EB",
-      "title": "إيران تشن هجمات على قطر والكويت والبحرين والإمارات والأردن - الساحل الغربي",
-      "category": "security",
-      "topic": "regional",
-      "countries": [
-        "Iran",
-        "Qatar"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "ar"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-21T19:25:33Z",
-      "last_published": "2026-10-21T19:25:33Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "34a8cb162ae3808a3baa70a4",
-          "title": "إيران تشن هجمات على قطر والكويت والبحرين والإمارات والأردن - الساحل الغربي",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9SUUNDallCbDJvaVoyVHN6Z2JKT29EZkJSekgwLXdLZUVNbFhlaGdyaDdXWDI3MlVHNmhLSlB3bFFtcHptOVNZTTZ0TnJETjA?oc=5",
-          "source": "الساحل الغربي",
-          "publisher_key": "الساحل الغربي",
-          "provider": "عربي · قطر",
-          "published_at": "2026-10-21T19:25:33Z",
-          "date_quality": "publisher-time",
-          "first_seen_at": "2026-10-22T05:29:00.114694Z",
-          "collected_at": null,
-          "language": "ar",
-          "country": ""
-        }
-      ],
-      "coverage_stage": "recent-coverage",
-      "coverage_first_published_at": "2026-10-21T19:25:33Z",
-      "coverage_last_published_at": "2026-10-21T19:25:33Z",
-      "current_reporting": false,
-      "recent_publisher_count": 0,
-      "recent_article_count": 0,
-      "incident_status": "unknown",
-      "event_occurrence_verified": false,
-      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "5a2275a0d170da7169d1",
-      "revision": 3,
-      "updated_at": "2026-10-22T09:28:57.675772Z"
     },
     {
       "id": "GF-EA0C94A21FB4A1",
@@ -13813,6 +13813,60 @@
       "digest": "12a2dcde946c626bdd78",
       "revision": 1,
       "updated_at": "2026-10-22T09:27:55.353747Z"
+    },
+    {
+      "id": "GF-5CADB7507CBF22",
+      "title": "أسهم الخليج تتراجع مع تعثر محادثات واشنطن وطهران.. وبورصة مصر ترتفع 1.5% - العربية",
+      "category": "diplomacy",
+      "topic": "regional",
+      "countries": [],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-21T14:18:00Z",
+      "last_published": "2026-10-21T14:18:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "affa5a95149184e40c486752",
+          "title": "أسهم الخليج تتراجع مع تعثر محادثات واشنطن وطهران.. وبورصة مصر ترتفع 1.5% - العربية",
+          "url": "https://news.google.com/rss/articles/CBMitwRBVV95cUxONFMtMks5dmJCRTR0Z0s4NkhNZkxfS3AweU42djBHRVRwYjNGNmd5UURvemw5NWd2V3RoeVYyVGVFNzMyMTYtem5kZnM3cXRZMDFENlY1TFdMS1ZLM1ZmUFNKZG1zNy1EejlFN2ZOT09wdDdGMEhDSEVwckhiWjVuMHBaSUtocGRlamFwQlpFVEVtM3dpMHBhbng4Vk9Qb0FLTlpKMUxnaFVkQmpzMjVHb2VwN2dHdWtQODZaUElKd3lTZ0RNVXE0Wmwya3ZUcDNBYXVWZ0dIQUJPNndqSlBTVHdXamtqM05SazV3eXNWcWdrMlg4cGw3SDIwUWhFNFBSeFlPdFVZUDh0UVFtdXlBZTM2NVRiREpXeXAyOU56S2xfN05XVTVvYUs3TF9jbks3VC1WblhHWGp5S3dmMkt6dWhzUGdkZUJ2bWJQbmlxM2NaN1RYS2N3UXJGYVh5OXI1UkJwTWV4WGVqVS1uLW0wUU9KelFuekNNNmktVjQ1dXZudE5CRVByU0VNYWZFSGRqTUNBWUtLQkZHOTd3eUJqb0hGbkVNZHhXcFU4NVl0MUJsb2hGM3Fyd096MGJ4MlpvbzRzaVNaNEd1S3RqQVZjMy1kSk9zQktTemozazVOaERYZFFrVllsbE83UXRkdWRQeHExNmxSUVZvUDZMdXR6dEE2VldLcTNCZG1QVm1pRnNPT1FyYm5tUFdSMGlDOEVQaG4tMTdGWjdpeFhfelluNHhERG9sVW_SAbwEQVVfeXFMTm5GMDZ2a080djN0Y3ZWMnUtT1VNelJSZ2lqdmlCU3VwaHE2RzdIa1kzREtESGNUckF0UHdMUkRqYlNucmVYbWRIYmhGbVBOUUI3cllwcnI3WU5PQWZXYk1EQ2N5RzZxYnVTVUhtNnZ4NDd3M183OEUwYTRISnhaTXJpQUVwUzdDUUpKOWcwNkwwZFcyZE1yR2poNTJoZzNrd3R5clF2bFhDMjI0MFAtNDhjTmhRLUdTUUZSQW5pSWduWUUyRm9PVFdEUDB5R0xFUTFHZmpLNjg0dVlWZzRqX3JoclJKTGdfMm5EVEdSM0p3QzlGMkYzdFVjNXFFX2FkVWxOTzdnMXlBTnVzYXJUR3lzc193VG9HM0gzeXJQM0dpRjJpbEVQOFdxenFTQ2phRnJYX3ZhSnRYVzZoa3VLUXludTl0WEVvNUtwT2lQVDcwVnZXN2s5YnZWcWpJTXdJRUw5SUFQS1NIOGxTTmdKaFZiVFVFZXdWU3E1RTZiYXVQUk5NRjNtSDhfamxWRWJOUXhPUlNZdjNkN1VQY1k3d0ZkRjdBTGhadjh0S0czMS1NNGpLc2xwTUdrRUpHMWZESmZkenJiaFpsTmdaSHcyeDF1UnNleVBRZUhpREFzM2pycDBTQ0N5cUh2X0ZpdHlfMjJzQnlTR1NkT3RvcTVqc1JVUFlXRjNMUE53dURpTGFFTFdPNXZlakY0VkZ3TmRSVTdac2hzYTZ6MUhUY0hlR1FNd2ktNHBfa2o4QUw?oc=5",
+          "source": "العربية",
+          "publisher_key": "العربية",
+          "provider": "عربي · العربية",
+          "published_at": "2026-10-21T14:18:00Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-22T09:54:14.104618Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "recent-coverage",
+      "coverage_first_published_at": "2026-10-21T14:18:00Z",
+      "coverage_last_published_at": "2026-10-21T14:18:00Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "02be03f0f227b2f28e84",
+      "revision": 1,
+      "updated_at": "2026-10-22T09:54:21.067199Z"
     },
     {
       "id": "GF-9D7B20F60B34BF",
@@ -78134,7 +78188,7 @@
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQVlGa1lUdkZRb3JRU3NWRS1jeExIdWIzZDVWLU1sZW0tdlp6a25TMHpmUUluOUFUS3A2UGN4NFdRM1A4WlQ2ejctSmhUQm9jR051Wml3cG1qaFZoX0N0SDRFNHN6YWlNUTZIUlpVS0g1UnhVc1BQVkdWUHRXSWJZVlphX2dVV3RtdUZFRWhiSzhsaXFPbjhoZnNiS0VFbEE?oc=5",
           "source": "The New York Times",
           "publisher_key": "the new york times",
-          "provider": "Google News · missiles/drones",
+          "provider": "Google News · security",
           "published_at": "2026-10-17T04:07:23Z",
           "date_quality": "publisher-time",
           "first_seen_at": "2026-10-20T12:09:48.504938Z",
@@ -78152,9 +78206,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "a7c124fb5ad22de1bfa0",
-      "revision": 16,
-      "updated_at": "2026-10-22T09:52:02.824790Z"
+      "digest": "286eae9108a3ea84a643",
+      "revision": 17,
+      "updated_at": "2026-10-22T09:54:21.067199Z"
     },
     {
       "id": "GF-53EE160270EDE3",
@@ -87097,6 +87151,63 @@
       "digest": "5102ad31e48b02cf72dc",
       "revision": 2,
       "updated_at": "2026-10-20T16:52:31.264495Z"
+    },
+    {
+      "id": "GF-22E6071B5886EB",
+      "title": "إيران تشن هجمات على قطر والكويت والبحرين والإمارات والأردن - الساحل الغربي",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Iran",
+        "Qatar"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-16T03:54:01Z",
+      "last_published": "2026-10-16T03:54:01Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "34a8cb162ae3808a3baa70a4",
+          "title": "إيران تشن هجمات على قطر والكويت والبحرين والإمارات والأردن - الساحل الغربي",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9SUUNDallCbDJvaVoyVHN6Z2JKT29EZkJSekgwLXdLZUVNbFhlaGdyaDdXWDI3MlVHNmhLSlB3bFFtcHptOVNZTTZ0TnJETjA?oc=5",
+          "source": "الساحل الغربي",
+          "publisher_key": "الساحل الغربي",
+          "provider": "عربي · قطر",
+          "published_at": "2026-10-16T03:54:01Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-22T05:29:00.114694Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-16T03:54:01Z",
+      "coverage_last_published_at": "2026-10-16T03:54:01Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "6403b43954edd658ed09",
+      "revision": 4,
+      "updated_at": "2026-10-22T09:54:21.067199Z"
     },
     {
       "id": "GF-2754D409258FEA",
@@ -113723,10 +113834,10 @@
       "sources": 283
     },
     "Saudi": {
-      "events": 752,
-      "reports": 810,
+      "events": 753,
+      "reports": 811,
       "security_coverage": 587,
-      "transport_coverage": 126,
+      "transport_coverage": 127,
       "sources": 336
     },
     "Qatar": {
@@ -113772,10 +113883,10 @@
       "sources": 12
     },
     "Yemen": {
-      "events": 361,
-      "reports": 376,
+      "events": 362,
+      "reports": 377,
       "security_coverage": 342,
-      "transport_coverage": 15,
+      "transport_coverage": 16,
       "sources": 172
     },
     "Israel": {
@@ -113798,19 +113909,27 @@
     "2026-10-13": 115,
     "2026-10-14": 160,
     "2026-10-15": 166,
-    "2026-10-16": 151,
+    "2026-10-16": 152,
     "2026-10-17": 202,
     "2026-10-18": 161,
     "2026-10-19": 242,
     "2026-10-20": 389,
     "2026-10-21": 314,
-    "2026-10-22": 80
+    "2026-10-22": 81
   },
   "revisions": [
     {
-      "id": "GF-01490067CF451F",
-      "revision": 2,
-      "at": "2026-10-22T09:53:30.175801Z",
+      "id": "GF-7B0E21F2D20604",
+      "revision": 17,
+      "at": "2026-10-22T09:54:21.067199Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-22E6071B5886EB",
+      "revision": 4,
+      "at": "2026-10-22T09:54:21.067199Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1

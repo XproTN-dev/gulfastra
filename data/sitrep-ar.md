@@ -1,10 +1,10 @@
 # موجز جلفاسترا للمصادر العلنية
 الفترة: آخر 24 ساعة (حسب وقت نشر التقارير)
 
-مجموعات التغطية: 282 | عناوين مرتبطة: 303
+مجموعات التغطية: 283 | عناوين مرتبطة: 304
 هذه تقارير صحفية وليست أحداثا مؤكدة، ولا تعتبر توجيهات سلامة رسمية.
 
-## Security (177 coverage groups)
+## Security (176 coverage groups)
 - Two killed in attack on airport in eastern Saudi Arabia, authorities say (3 headlines; multi-publisher-unverified)
   - BBC Middle East RSS: https://www.bbc.co.uk/news/articles/cqwy71ww156ro?at_medium=RSS&at_campaign=rss
   - BBC: https://news.google.com/rss/articles/CBMiXkFVX3lxTE1ZLXJNaS01NmN3UEpVbllOU1RXV3NOTGRHUWFIM0FCTlNScE5RTXBmTy1FS3VDVEI3Nnp4dk9mWDFINlBTQ0RNeUk5SXlKTG43UFc2OGtxTGNIZXd0OVE?oc=5
@@ -35,7 +35,7 @@
 - طائرات أميركا وإسرائيل في سماء العراق تنتظر ليل إيران الطويل لتنفيذ هجومها – تقرير - شبكة 964 (1 headlines; single-source)
   - شبكة 964: https://news.google.com/rss/articles/CBMiQkFVX3lxTFA1OUdPdUVKY3FIekJHdGZoRjNLTDZmQy1GNHdSc3cwWEJkOXlMNi1ScWxkR1hVaHdfekZhdHVfcnZKZw?oc=5
 
-## Transport (61 coverage groups)
+## Transport (62 coverage groups)
 - US Sanctions Companies, Individuals, and Nine Vessels Linked to Iran - IranWire (1 headlines; single-source)
   - IranWire: https://news.google.com/rss/articles/CBMipgFBVV95cUxPMFBzN1VuMEQ0NGNHcXNVYnQ5UzdXdkc5by1vbXBLRV9pVXN6Q2twWE91QTktRDZvTEhEMmEwN05WNE1MTjdHTDBxT0p0WXg5V21LcUx4YWM1QWVlbHpGXzdNdi01NzZjaXEyclFlc2FYNE5TeDlTbVhINzVmT0NpbGxHNUs5QzdycGxwQk5wUTI2OHc0VVgyUTdpU2Q1VmxaWEo4MWhR?oc=5
 - US sanctions facilitators and vessels linked to Iran’s shadow fleet - safety4sea (1 headlines; single-source)
@@ -65,7 +65,7 @@
 - Adnoc Keeps Loading LNG on Tankers Despite Hormuz Disruption - EnergyNow.com (1 headlines; single-source)
   - EnergyNow.com: https://news.google.com/rss/articles/CBMilgFBVV95cUxQeDN1dG5rTzdCM2JxazN6eEtHc1pRR1VJVmF4MXF2TXVfcGNmSzVsTVRQQXhXeWE4bC1HTTJhb3Awc0kzWnQ3blVwLW5Ub0VDSFpLMDkwSVp5bF9SRlliOFlUenpyMHRaNWFQT2x5eVlQZmE2aTBLOS00a2pVVk9WOGY5Z1NiUkwwOWZsQUpHc2NMN0hfeFE?oc=5
 
-## Diplomacy (44 coverage groups)
+## Diplomacy (45 coverage groups)
 - Diplomacy or War? The Alarming Signals Behind Iran–US Talks - WANA News Agency (1 headlines; single-source)
   - WANA News Agency: https://news.google.com/rss/articles/CBMihAFBVV95cUxQQlhaVjJaY0pUTmFBRlZPRm5jay0ybi1sTmY1dTBKdHVSem83Z3R1bFZyX0pER0FQV1hnT21UYzNFaWRSR2RQdkNnTVZsa18wUEVMdWFGVE04X1M4b0hoZ2tMampUWFA4b24xOXFqc3M3SUZBcHNJd3dWZkRCbXd4UDVzZ2Q?oc=5
 - Trump denies Iran negotiations, says situation will resolve soon - New Age BD (2 headlines; multi-publisher-unverified)

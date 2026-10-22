@@ -1,8 +1,8 @@
 {
   "version": 6,
-  "last_run": "2026-10-22T09:53:23.472577Z",
-  "last_successful_run": "2026-10-22T09:53:23.472577Z",
-  "successful_sources": 29,
+  "last_run": "2026-10-22T09:54:14.104618Z",
+  "last_successful_run": "2026-10-22T09:54:14.104618Z",
+  "successful_sources": 30,
   "reports": [
     {
       "id": "f2ce1afe5b77c48e83fcda9a",
@@ -1715,6 +1715,30 @@
       "freshness": "recent-reporting",
       "context": "reporting",
       "severity": "elevated-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "1474a2953a20be29679357b6",
+      "title": "الخامسة | مليشيا الحوثي تهاجم المطارات اليمنية.. والرئيس الفرنسي يصل الرياض - العربية",
+      "url": "https://news.google.com/rss/articles/CBMi3ARBVV95cUxQd3FzeEl2QWhsa1EwQkVlZUpiallqd3l2WGRKMVlPNjZOMC1JUWdIOUFmczAyQ2FJTXVOZ0JXdGVOYXJvaG1aLXZUOEZKVjR5Q09jcEdfYXllVXZxcnd4X2c5R3dybFpXd2R5SklDR0pDb1cxcW9TZjVYY1lwUy1QWS1nNWF5MEpucjJFZG1sa1lRZi1ERFVhWDRtZTdFa1ctMThCSnpMU2M3WVlxWERUZmczSDEtQWFWVWhSbkdUaEtzcU5ZMENJZjRFZDY1dU9HQkotQnJVejJuamlNSktQQ2hoRHNwMDEybktBenB0MlhocTczRVBmRC1LamhqWlVqdFV6d2ZERTRsR2wxQmx6S3dEdVVSNzN6bjE3d3lsQlFfZU1GZk10MkZ6eUdnX0N0OUhPUldONHdxMm5EOV93Vk1iT0xKdkRuUzFwUkVtZklqU0dmMUwxdDRabVdyNkU3WFhUeW85d1BuQkpEdVZPcV9QVVUwbHFaRTRWM0hCTnM1SHJWR0VlWEYxTEVPRWJtVnV2dEE0VmRtTzhvbXhxc3A1UEJaTG9KQ1lhQ3pjQ0lNbERXU21mZTZyWmxXelVPYU9SSV92dHZUTmQwWDRtMmc4ZXp3ZnFCLUpGUnlZT3YtSVc1dUJLc3htWmI3aTdYcFdLeXE3aGdBVnAyd0dSdHVENDVqTmZ0cW40dHp2ZUl4aVdEZlNSTFdqR2g2NGVBdkZuZ1FMeXUxRnFsc0V4bWQyUkFVcWsyUkh1WmFtWjNlWS1qczI3bkdQeWd6aVpPNWJQVkZqOE8zUjI20gHiBEFVX3lxTE1FYXJ5NUZIYVQ0bGJSc3kxTXBBUGtqWVZ0d1dwam0xaTRLNXBvUEdSX19ReWxGSXlIQXowbkxINGVBblhPN1REa1VFaWgzTzllcjUzbmtvdElsNFA4eXRfdWcxMC1VTGt1NWt3RS0td3JPNFFwVk5WQjFnS0trSFhBTHQxcFdVdXhGTlhrX1VacS1oeWlVZ2FrMDF2cWxRNkFvMWlKMFItd0NEbTlDSHEwaHU1dUJhNktPb3B4Xy03NGhOemdzcEN4bjZpa1AxQkJ1THZPLWlhM0hlMjRPSHgxYzBHaTMyMUJLZjRJWTFHS2s3MEdnRkJHaDc5WlRjSFd6bi10TEtPWHFmUjRFRDY3UXpNVlg2eWhXWjVRd05sM3ItNVB2elA4NHJtZzJLak5xNFFMRFNrNXZ2Ri1NcnFxWVhfTThwUTJRVkRRWElEajc2U0kxdFptOWYxS2lELXAwZnRGWjNLa0pIbng0LV9YWW9SdldIMlRqcFczaEFNWEhUYlVvTVkzWnhfVG5yQWRqaHNIbUFRRFFiREg5SDV2M0NDREF2Q0thVkwxQ0gwcWd4a3VtYTNnX2lrMFROSnlMMGRUaG1vU3dmYjJLV1c2SWF0QTJ1aWczY3BadVRiLTJOd1dyajZrMERXb3lXaFJsREJsZTZLbHA2eFBvWGZ6MHNsMG9VWVRuaTVlTDloaEcxV1AzUUdYbGd4cU5XOHJLUkkzWDdhdVljRWc1WVBrZkMzRjQ4XzFwU0tXVHhIajJPZDhaLTJRQVdfVjFOZjlPSVJhSzRUZlNHdFByeXV2NWc?oc=5",
+      "source": "العربية",
+      "published_at": "2026-10-22T01:39:00Z",
+      "country": "",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "language": "ar",
+      "category": "transport",
+      "tag": "اضطراب نقل",
+      "provider": "عربي · العربية",
+      "first_seen_at": "2026-10-22T09:54:14.104618Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
       "critical_candidate": false,
       "alert_eligible": false,
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
@@ -3525,30 +3549,6 @@
       "freshness": "recent-reporting",
       "context": "reporting",
       "severity": "elevated-reporting",
-      "critical_candidate": false,
-      "alert_eligible": false,
-      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
-    },
-    {
-      "id": "34a8cb162ae3808a3baa70a4",
-      "title": "إيران تشن هجمات على قطر والكويت والبحرين والإمارات والأردن - الساحل الغربي",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9SUUNDallCbDJvaVoyVHN6Z2JKT29EZkJSekgwLXdLZUVNbFhlaGdyaDdXWDI3MlVHNmhLSlB3bFFtcHptOVNZTTZ0TnJETjA?oc=5",
-      "source": "الساحل الغربي",
-      "published_at": "2026-10-21T19:25:33Z",
-      "country": "",
-      "countries": [
-        "Iran",
-        "Qatar"
-      ],
-      "language": "ar",
-      "category": "security",
-      "tag": "تقرير امني",
-      "provider": "عربي · قطر",
-      "first_seen_at": "2026-10-22T05:29:00.114694Z",
-      "date_quality": "publisher-time",
-      "freshness": "recent-reporting",
-      "context": "reporting",
-      "severity": "routine-reporting",
       "critical_candidate": false,
       "alert_eligible": false,
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
@@ -6025,6 +6025,27 @@
       "tag": "تقرير امني",
       "provider": "عربي · السعودية",
       "first_seen_at": "2026-10-22T09:27:47.332166Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "affa5a95149184e40c486752",
+      "title": "أسهم الخليج تتراجع مع تعثر محادثات واشنطن وطهران.. وبورصة مصر ترتفع 1.5% - العربية",
+      "url": "https://news.google.com/rss/articles/CBMitwRBVV95cUxONFMtMks5dmJCRTR0Z0s4NkhNZkxfS3AweU42djBHRVRwYjNGNmd5UURvemw5NWd2V3RoeVYyVGVFNzMyMTYtem5kZnM3cXRZMDFENlY1TFdMS1ZLM1ZmUFNKZG1zNy1EejlFN2ZOT09wdDdGMEhDSEVwckhiWjVuMHBaSUtocGRlamFwQlpFVEVtM3dpMHBhbng4Vk9Qb0FLTlpKMUxnaFVkQmpzMjVHb2VwN2dHdWtQODZaUElKd3lTZ0RNVXE0Wmwya3ZUcDNBYXVWZ0dIQUJPNndqSlBTVHdXamtqM05SazV3eXNWcWdrMlg4cGw3SDIwUWhFNFBSeFlPdFVZUDh0UVFtdXlBZTM2NVRiREpXeXAyOU56S2xfN05XVTVvYUs3TF9jbks3VC1WblhHWGp5S3dmMkt6dWhzUGdkZUJ2bWJQbmlxM2NaN1RYS2N3UXJGYVh5OXI1UkJwTWV4WGVqVS1uLW0wUU9KelFuekNNNmktVjQ1dXZudE5CRVByU0VNYWZFSGRqTUNBWUtLQkZHOTd3eUJqb0hGbkVNZHhXcFU4NVl0MUJsb2hGM3Fyd096MGJ4MlpvbzRzaVNaNEd1S3RqQVZjMy1kSk9zQktTemozazVOaERYZFFrVllsbE83UXRkdWRQeHExNmxSUVZvUDZMdXR6dEE2VldLcTNCZG1QVm1pRnNPT1FyYm5tUFdSMGlDOEVQaG4tMTdGWjdpeFhfelluNHhERG9sVW_SAbwEQVVfeXFMTm5GMDZ2a080djN0Y3ZWMnUtT1VNelJSZ2lqdmlCU3VwaHE2RzdIa1kzREtESGNUckF0UHdMUkRqYlNucmVYbWRIYmhGbVBOUUI3cllwcnI3WU5PQWZXYk1EQ2N5RzZxYnVTVUhtNnZ4NDd3M183OEUwYTRISnhaTXJpQUVwUzdDUUpKOWcwNkwwZFcyZE1yR2poNTJoZzNrd3R5clF2bFhDMjI0MFAtNDhjTmhRLUdTUUZSQW5pSWduWUUyRm9PVFdEUDB5R0xFUTFHZmpLNjg0dVlWZzRqX3JoclJKTGdfMm5EVEdSM0p3QzlGMkYzdFVjNXFFX2FkVWxOTzdnMXlBTnVzYXJUR3lzc193VG9HM0gzeXJQM0dpRjJpbEVQOFdxenFTQ2phRnJYX3ZhSnRYVzZoa3VLUXludTl0WEVvNUtwT2lQVDcwVnZXN2s5YnZWcWpJTXdJRUw5SUFQS1NIOGxTTmdKaFZiVFVFZXdWU3E1RTZiYXVQUk5NRjNtSDhfamxWRWJOUXhPUlNZdjNkN1VQY1k3d0ZkRjdBTGhadjh0S0czMS1NNGpLc2xwTUdrRUpHMWZESmZkenJiaFpsTmdaSHcyeDF1UnNleVBRZUhpREFzM2pycDBTQ0N5cUh2X0ZpdHlfMjJzQnlTR1NkT3RvcTVqc1JVUFlXRjNMUE53dURpTGFFTFdPNXZlakY0VkZ3TmRSVTdac2hzYTZ6MUhUY0hlR1FNd2ktNHBfa2o4QUw?oc=5",
+      "source": "العربية",
+      "published_at": "2026-10-21T14:18:00Z",
+      "country": "",
+      "countries": [],
+      "language": "ar",
+      "category": "diplomacy",
+      "tag": "تطور دبلوماسي",
+      "provider": "عربي · العربية",
+      "first_seen_at": "2026-10-22T09:54:14.104618Z",
       "date_quality": "publisher-time",
       "freshness": "recent-reporting",
       "context": "reporting",
@@ -33922,7 +33943,7 @@
       "language": "en",
       "category": "security",
       "tag": "SECURITY REPORT",
-      "provider": "Google News · missiles/drones",
+      "provider": "Google News · security",
       "first_seen_at": "2026-10-20T12:09:48.504938Z",
       "date_quality": "publisher-time",
       "freshness": "older-reporting",
@@ -37729,6 +37750,30 @@
       "tag": "SECURITY REPORT",
       "provider": "Google News · aviation",
       "first_seen_at": "2026-10-20T12:09:48.504938Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "34a8cb162ae3808a3baa70a4",
+      "title": "إيران تشن هجمات على قطر والكويت والبحرين والإمارات والأردن - الساحل الغربي",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9SUUNDallCbDJvaVoyVHN6Z2JKT29EZkJSekgwLXdLZUVNbFhlaGdyaDdXWDI3MlVHNmhLSlB3bFFtcHptOVNZTTZ0TnJETjA?oc=5",
+      "source": "الساحل الغربي",
+      "published_at": "2026-10-16T03:54:01Z",
+      "country": "",
+      "countries": [
+        "Iran",
+        "Qatar"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير امني",
+      "provider": "عربي · قطر",
+      "first_seen_at": "2026-10-22T05:29:00.114694Z",
       "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
@@ -49152,13 +49197,13 @@
     },
     "Google News · security": {
       "ok": true,
-      "items": 51,
-      "relevant": 37
+      "items": 100,
+      "relevant": 67
     },
     "Google News · aviation": {
       "ok": true,
-      "items": 83,
-      "relevant": 78
+      "items": 84,
+      "relevant": 79
     },
     "Google News · shipping": {
       "ok": true,
@@ -49178,7 +49223,7 @@
     "Reuters · indexed Gulf reporting": {
       "ok": true,
       "items": 100,
-      "relevant": 24
+      "relevant": 26
     },
     "AP · indexed Gulf reporting": {
       "ok": true,
@@ -49187,7 +49232,7 @@
     },
     "UKMTO · indexed official advisories": {
       "ok": true,
-      "items": 14,
+      "items": 16,
       "relevant": 0
     },
     "US State Dept · indexed advisories": {
@@ -49198,32 +49243,32 @@
     "عربي · إيران والخليج": {
       "ok": true,
       "items": 56,
-      "relevant": 43
+      "relevant": 42
     },
     "عربي · قطر": {
       "ok": true,
-      "items": 30,
-      "relevant": 15
+      "items": 56,
+      "relevant": 21
     },
     "عربي · السعودية": {
       "ok": true,
       "items": 100,
-      "relevant": 65
+      "relevant": 66
     },
     "عربي · الإمارات والبحرين": {
       "ok": true,
-      "items": 49,
-      "relevant": 44
+      "items": 51,
+      "relevant": 46
     },
     "عربي · الكويت والعراق": {
       "ok": true,
-      "items": 52,
-      "relevant": 48
+      "items": 51,
+      "relevant": 47
     },
     "عربي · مضيق هرمز": {
       "ok": true,
       "items": 100,
-      "relevant": 74
+      "relevant": 73
     },
     "عربي · الجزيرة": {
       "ok": true,
@@ -49233,17 +49278,17 @@
     "عربي · العربية": {
       "ok": true,
       "items": 100,
-      "relevant": 42
+      "relevant": 38
     },
     "عربي · الشرق": {
       "ok": true,
       "items": 100,
-      "relevant": 36
+      "relevant": 34
     },
     "عربي · وكالات الخليج": {
       "ok": true,
       "items": 100,
-      "relevant": 27
+      "relevant": 29
     },
     "الجزيرة نت · RSS عربي": {
       "ok": true,
@@ -49281,8 +49326,9 @@
       "relevant": 1
     },
     "UN News · الشرق الأوسط (AR)": {
-      "ok": false,
-      "error": "not well-formed (invalid token): line 1, column 0"
+      "ok": true,
+      "items": 30,
+      "relevant": 6
     },
     "Qatar News Agency · Qatar RSS": {
       "ok": true,
