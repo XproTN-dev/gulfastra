@@ -5,9 +5,11 @@ on:
     paths:
       - 'lab/**'
       - 'assets/impact-lab*'
+      - 'assets/early-detection*'
       - 'assets/command11-core.js'
       - 'scripts/impact_lab.py'
       - 'scripts/test_impact_lab.py'
+      - 'scripts/test_early_detector.py'
       - 'scripts/test_impact_frontend.mjs'
       - 'scripts/visual_check_lab.py'
       - '.github/workflows/impact-lab-checks.yml'
@@ -26,13 +28,16 @@ jobs:
         with:
           python-version: '3.12'
       - name: Validate no-false-causality and financial-data correctness
-        run: python scripts/test_impact_lab.py
+        run: |
+          python scripts/test_impact_lab.py
+          python scripts/test_early_detector.py
       - name: Validate browser graph, timeline, FRED and briefing modules
         run: node scripts/test_impact_frontend.mjs
       - name: Parse all Impact Lab scripts as JavaScript
         run: |
           node --check assets/impact-lab-render.js
           node --check assets/impact-lab.js
+          node --check assets/early-detection.js
           node --check assets/impact-lab-map.js
           node --check assets/impact-map-bootstrap.mjs
   browser:
