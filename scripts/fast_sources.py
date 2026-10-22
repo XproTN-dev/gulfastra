@@ -98,7 +98,8 @@ def rss(xml_bytes,now,label):
  for e in entries[:65]:
   field=lambda name:next((x for x in e.iter() if x.tag.split("}")[-1]==name),None)
   title=(field("title").text or "").strip() if field("title") is not None else ""
-  pdate=field("pubDate") or field("published") or field("updated")
+  pdate=next((element for name in ("pubDate","published","updated")
+              if (element:=field(name)) is not None),None)
   if pdate is None:continue
   try:dt=parsedate_to_datetime((pdate.text or "").strip())
   except (ValueError,TypeError,OverflowError):dt=when(pdate.text)
