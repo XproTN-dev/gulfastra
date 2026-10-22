@@ -1,10 +1,12 @@
 # موجز جلفاسترا للمصادر العلنية
 الفترة: آخر 24 ساعة (حسب وقت نشر التقارير)
 
-مجموعات التغطية: 285 | عناوين مرتبطة: 306
+مجموعات التغطية: 286 | عناوين مرتبطة: 307
 هذه تقارير صحفية وليست أحداثا مؤكدة، ولا تعتبر توجيهات سلامة رسمية.
 
-## Security (178 coverage groups)
+## Security (179 coverage groups)
+- Houthis conduct drone strike on Saudi Arabia's oil facility, killing two - VOV World (1 headlines; single-source)
+  - VOV World: https://news.google.com/rss/articles/CBMirAFBVV95cUxOX20wdFRxdUpWcXY4ZERPZEV6MFBENDd3SnNkbk5CUnRrMG5OblN5YTQxLUJjRFJONTAyeDZGc0dRdVphOWFJTzlmMXVGSTZaUVlXQTZkWHBNUGxPRkhDRHVHekxnbUttMU9KckJSWDlHVnU2N0VpYS1ZVHQzbjV5ZnJCa3YzWS1fU2t1YzFndjRoamJzQzdWMVQyald1c216NHNDYTFSYTdKWUhi?oc=5
 - Two killed in attack on airport in eastern Saudi Arabia, authorities say (3 headlines; multi-publisher-unverified)
   - BBC Middle East RSS: https://www.bbc.co.uk/news/articles/cqwy71ww156ro?at_medium=RSS&at_campaign=rss
   - BBC: https://news.google.com/rss/articles/CBMiXkFVX3lxTE1ZLXJNaS01NmN3UEpVbllOU1RXV3NOTGRHUWFIM0FCTlNScE5RTXBmTy1FS3VDVEI3Nnp4dk9mWDFINlBTQ0RNeUk5SXlKTG43UFc2OGtxTGNIZXd0OVE?oc=5
@@ -14,10 +16,10 @@
   - EL PAÍS English: https://news.google.com/rss/articles/CBMiugFBVV95cUxNekpKanUwWk0zNEpULWhPVVdOUlItQ0MxMGtpVWp6NHZ2dDU1ajl3SUEtQnBoMUF0SjFyVEQ3Tnpnd3lGRWhOWVBBM2U0T1JWWUdsV1NGVE9VWWExb3ZSeGlhbFBTLVVSTk1taXFzdG5FaEpnWGhsWmNwaXVCZVR3cEYwdmhtUzMxbURHdXpHMkNEclEzdy12UldKOHVTdUEydHpiRUFWR3lUS2h2ZjVYa0gtNlo5cnpFOFHSAc4BQVVfeXFMTmoyVTdNYVdtcEsyVkhpVi1kYWZwQjIycmFLVm5IZ3BpeXRFLVNVVEJ3ZTRFS0FPSEtrSzJlcG1uS1RFLWNEWFZnUkhhSlBudC1GeG9TNGw0d29JLXVJbEJOMnFfX281UUZwY3pKVl90SGYwRU9KaEJVbWJxUlRRa19YQTJIWU10OUtrVlhOdVhYR2Z0blVJNXNnNGREeG45YWttUGZheWRNdUhKT2tWZXhhS2FoSTVOaTlPbVlzQmM4dndiWlRZbTRxMXVza0E?oc=5
 - إيران تربك حسابات الكنيست.. تحذيرات من هجوم بتوقيت سياسي - العربية (1 headlines; single-source)
   - العربية: https://news.google.com/rss/articles/CBMi3ANBVV95cUxQeDRpTlN6SW9FdTdDcnZzRHVaSTJ1eDYxRkJUUmZ0TlRLWlFrM2ZLa2xZVHRHODg3bzNSaE9ZQ1lJVExLZmkzNHl0VzV0cGFEalhrcG9PU04tSkJpX0tJb0dmVUYyR0hITnVXLTRVbkhrSkVZYllSLVkwRE91eFE5WDU4aEwzdmhuUG9SS3VHRVE5ME9GUTVGbDZIZWpFd21CeVZ0cTVYR3hLYkFRQl8yXzNuYVlreWNoQTdES0tWWl9DLXZGRVVhbmpfRUhwZnZPOEJScEIwZGl5TWk3STRfeDAzVGkwWDFCbDZFSWY2RkxLSlRPd0VUY1Zlb1BobDdUaWdHME5hWEtwNkMyTEpJU2V5NEdMN0o0Ql81U19GclY2OURIcEFNbHFHbEFKTUJIdnhiUGl1SVRMN1dpOHFpMElHNkZLeXN2Y2JMa1YxQWNwLUxXR1Zwb1BiYjQ3RlR2S1dOcUJwM0JFOWFTb3QxSFc4Qk1IZEdFbmUydjNFY255QWFHX3dxYjRCczJXQkI2ODFjU2s2NHlfNDY3QThnMm9SU3lqUkRwQi1IYW03cHN1UE1kemdyWVVoclBSUmpRNm9NTHlURGpRSDZrdk1jOHhkRC1uSmYzd0RHX9IB4gNBVV95cUxNRUw0bEpjN3o5RWJTV1ZyVkE0QUhoSFptOEdsdzVrYW9GcW9ONl9qR3Vwd3prSFZiVUptMWdsS0ZYYUNxTEJsZW5rQTVjemthNnYwZTdWZEpSZDNNX05Hd3pHNFRRS1JkWkc3N3RWa0EzTzVYdVpPNlA3RGs0WTJWY04ybURSNmlLM2lGc0tURmh0YmFmVFJxUHN6RFZkMElpbDFJblJjcG1ManA4dFRLb01RS2k3UVpIdzM4SlV6Tnk3SjdJRFFyU2RGbThpNXNPbndBOEhERFJsWE92MU9zUWY2Wk5ORVlUN3BtYV9wNjF6dFplSUxDQXBhMGRjOVBJNW02dVZyRl9oRWhSMEdhd2cwRFNUeHFyMFFEbldzUkNGMHI0aVNDQkxlMmtiYjJpci1UWU5rckx0a25OTUdQYzFhMm1zdUNHZTBfOTRMdElWZGFUdTdCZWFDSFNlc0QzUHpwRXVPOFVWOUZxZUwyOHl3ZEExLVpiS2FGNkduQk5VWWhZODhzOFNDSVdVOHBMeXdudm5mYVExRnBOY21EMXFEY3pPaGdjbGNjbEthc2tMNF9MX1RYWWRaWlNNRGtrWXVZYjZfODd6Qzh6engzZFcwVVpkSlhTZG9Kd0k1Nlh1QQ?oc=5
-- Oil Prices Rise More Than 2% as Attacks on Saudi Arabia, U.S.-Iran Risks Persist - WSJ (1 headlines; single-source)
-  - WSJ: https://news.google.com/rss/articles/CBMixAFBVV95cUxQYjRlQlhGVEJPT2JaeEpGWkxTZFVEdnpuMUxLRUZhUU1EY09ZcnJMaFlZNmdUbHkwdlBpcURmeHpZXzl1c1Z4WW94YmtMNTJ2N0paSlQtNXJ2eGVfam4tdW5NekpScjdYLU1RSzVGRTJqN3hCT3NOWnNmNGZpYjEwemo3ejBfOTU2ODFoMWtFX1hWS3RHZU9lcm93anl4UUczODQyd1hrUVc4VHQ5ZEpPay1SWGhWbW9YdFFPVmZWd3ZwNmhV?oc=5
 - UK Sends Fighter Jets to Saudi Arabia as Yemen Conflict Escalates - https://globalpost.com/ (1 headlines; single-source)
   - https://globalpost.com/: https://news.google.com/rss/articles/CBMingFBVV95cUxPYkpZTzd5SnZWOTBDYW9MeEpLYU1ONzlCOGFQdDVoRDN1OE9pMG9rSUlUeWJnaUdId2lOWFBPdV9xOTZvNzJ0S1hiN3QycUx2V21mNE5uSGdCN3dXYU9YWU1IUkFtNVU4Y2tQVV9ubTA2QjZhUEFLMWdkQWlUeVZhRmNpVWFYcERZMmduM0JjLUJjUVh0QlpjNHpCUjROUQ?oc=5
+- Oil Prices Rise More Than 2% as Attacks on Saudi Arabia, U.S.-Iran Risks Persist - WSJ (1 headlines; single-source)
+  - WSJ: https://news.google.com/rss/articles/CBMixAFBVV95cUxQYjRlQlhGVEJPT2JaeEpGWkxTZFVEdnpuMUxLRUZhUU1EY09ZcnJMaFlZNmdUbHkwdlBpcURmeHpZXzl1c1Z4WW94YmtMNTJ2N0paSlQtNXJ2eGVfam4tdW5NekpScjdYLU1RSzVGRTJqN3hCT3NOWnNmNGZpYjEwemo3ejBfOTU2ODFoMWtFX1hWS3RHZU9lcm93anl4UUczODQyd1hrUVc4VHQ5ZEpPay1SWGhWbW9YdFFPVmZWd3ZwNmhV?oc=5
 - Middle East latest: Two dead in attack on Dammam airport in Saudi Arabia - The National (1 headlines; single-source)
   - The National: https://news.google.com/rss/articles/CBMihgFBVV95cUxOQ2R1cnowWHhzQXdZcXRMWGVEZU83YmJaLUE3bHk1b1hleDhCNmpwcVJDbEg0Zll0LWpjTkhwdE1qc3hUdTJYSjdmMFlMaml2eTBPeHVwWll2bVFsVDJ5REx0RHk3YllpeXZuVVc5enVhS2ZyazlYQ0xGQl9WV0NMM1l0eHM0QQ?oc=5
 - الحرس الثوري الإيراني: إصابة 7 سفن في مضيق هرمز ومياه الخليج - بوابة الأهرام (1 headlines; single-source)
@@ -32,8 +34,6 @@
   - شبكة رؤية الإخبارية: https://news.google.com/rss/articles/CBMiwwJBVV95cUxPbFRISV9fY0JaNExOVnI1UE1YdmhlRmh6c05sZnVhVERlaWZYd09tQ0tEY29jQnFVZUVJcnJWdXFqUHRZSTN4d0JXMm9aS0dwbHc5c3BZVWJVS2lKc1dTV3hYWllnNm93WmVVbFA5aEZtX0tCTjZoOVIzQWVNYkFodUpzX0staHhBek1pX3hRTXR6bHJOaWtJYko3ZEdFeFRYeWtvUG12dXhMUTdwR1NMSjNnbDBPZUhiamxlYjZDVUxrLXFuaDdFYk9xUUwyWUpicGVtU21ZU2xzRWhILWFQb3hydGdOczB5S2dOMG9qcWhHYmliVGN0QllVazlaNzN5OGlnMTNnanVZTXZYVWRBU2RQNlF0UkVnQmtDX196X3NJTXlaUm52eVEwdzNOQzk4Z0tLQzJwT2NzT2oxYm04R25xMA?oc=5
 - Oil Prices Rise as Traders Weigh Saudi Aramco Attack Report, Hormuz Shipping Risks - WSJ (1 headlines; single-source)
   - WSJ: https://news.google.com/rss/articles/CBMiygFBVV95cUxNZzlrRVp3SjY0Qjc1ejhzdHcxQWFQejJLS2hfZzJocWhnV3AtUi1OM1NGX2s2b0NjQkV4NnpYZUxTOGJTRVBlSEM2blAzMXRhbjNydFRjVnYyNGM4a25waTR1aGVTVWt1MXlKOURybDlzS0kxQXVrbUNlQTlRN3lxa3YxMEZ5djByOUhzTlg4MUZUYTRMT1V6MzBYODY3d2FhSk5zRkxMdWpocU1KYTV0TUVLMUtHcWZHbkJWVHVHc2NIRGFwQ1F2c0x3?oc=5
-- طائرات أميركا وإسرائيل في سماء العراق تنتظر ليل إيران الطويل لتنفيذ هجومها – تقرير - شبكة 964 (1 headlines; single-source)
-  - شبكة 964: https://news.google.com/rss/articles/CBMiQkFVX3lxTFA1OUdPdUVKY3FIekJHdGZoRjNLTDZmQy1GNHdSc3cwWEJkOXlMNi1ScWxkR1hVaHdfekZhdHVfcnZKZw?oc=5
 
 ## Transport (62 coverage groups)
 - US Sanctions Companies, Individuals, and Nine Vessels Linked to Iran - IranWire (1 headlines; single-source)

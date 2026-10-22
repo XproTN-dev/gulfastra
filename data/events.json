@@ -1,9 +1,65 @@
 {
   "schema": 5,
-  "generated_at": "2026-10-22T09:56:07.176616Z",
+  "generated_at": "2026-10-22T09:59:42.286921Z",
   "model": "deterministic-source-correlation-v2-coverage-lifecycle",
   "disclaimer": "Clusters are related PUBLIC REPORTS, not confirmed incidents. Source counts are not proof. Country names are mentions, not incident locations.",
   "events": [
+    {
+      "id": "GF-9AE6FC4CBA7F37",
+      "title": "Houthis conduct drone strike on Saudi Arabia's oil facility, killing two - VOV World",
+      "category": "security",
+      "topic": "drone",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-22T09:54:00Z",
+      "last_published": "2026-10-22T09:54:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "6bb3d4ce5ce80f6b70542dcf",
+          "title": "Houthis conduct drone strike on Saudi Arabia's oil facility, killing two - VOV World",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOX20wdFRxdUpWcXY4ZERPZEV6MFBENDd3SnNkbk5CUnRrMG5OblN5YTQxLUJjRFJONTAyeDZGc0dRdVphOWFJTzlmMXVGSTZaUVlXQTZkWHBNUGxPRkhDRHVHekxnbUttMU9KckJSWDlHVnU2N0VpYS1ZVHQzbjV5ZnJCa3YzWS1fU2t1YzFndjRoamJzQzdWMVQyald1c216NHNDYTFSYTdKWUhi?oc=5",
+          "source": "VOV World",
+          "publisher_key": "vov world",
+          "provider": "Google News · missiles/drones",
+          "published_at": "2026-10-22T09:54:00Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-22T09:59:33.379606Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Saudi"
+        }
+      ],
+      "coverage_stage": "new-coverage",
+      "coverage_first_published_at": "2026-10-22T09:54:00Z",
+      "coverage_last_published_at": "2026-10-22T09:54:00Z",
+      "current_reporting": true,
+      "recent_publisher_count": 1,
+      "recent_article_count": 1,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "74b4228d17ab7246b3f3",
+      "revision": 1,
+      "updated_at": "2026-10-22T09:59:42.286921Z"
+    },
     {
       "id": "GF-D7FAA912D67662",
       "title": "US Sanctions Companies, Individuals, and Nine Vessels Linked to Iran - IranWire",
@@ -758,63 +814,6 @@
       "updated_at": "2026-10-22T09:35:38.976890Z"
     },
     {
-      "id": "GF-FF6A076184F598",
-      "title": "Oil Prices Rise More Than 2% as Attacks on Saudi Arabia, U.S.-Iran Risks Persist - WSJ",
-      "category": "security",
-      "topic": "regional",
-      "countries": [
-        "Iran",
-        "Saudi"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "en"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-22T07:57:00Z",
-      "last_published": "2026-10-22T07:57:00Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "ca43eca23dc0fbf7a085f690",
-          "title": "Oil Prices Rise More Than 2% as Attacks on Saudi Arabia, U.S.-Iran Risks Persist - WSJ",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYjRlQlhGVEJPT2JaeEpGWkxTZFVEdnpuMUxLRUZhUU1EY09ZcnJMaFlZNmdUbHkwdlBpcURmeHpZXzl1c1Z4WW94YmtMNTJ2N0paSlQtNXJ2eGVfam4tdW5NekpScjdYLU1RSzVGRTJqN3hCT3NOWnNmNGZpYjEwemo3ejBfOTU2ODFoMWtFX1hWS3RHZU9lcm93anl4UUczODQyd1hrUVc4VHQ5ZEpPay1SWGhWbW9YdFFPVmZWd3ZwNmhV?oc=5",
-          "source": "WSJ",
-          "publisher_key": "wsj",
-          "provider": "Google News · missiles/drones",
-          "published_at": "2026-10-22T07:57:00Z",
-          "date_quality": "publisher-time",
-          "first_seen_at": "2026-10-22T09:27:47.332166Z",
-          "collected_at": null,
-          "language": "en",
-          "country": ""
-        }
-      ],
-      "coverage_stage": "new-coverage",
-      "coverage_first_published_at": "2026-10-22T07:57:00Z",
-      "coverage_last_published_at": "2026-10-22T07:57:00Z",
-      "current_reporting": true,
-      "recent_publisher_count": 1,
-      "recent_article_count": 1,
-      "incident_status": "unknown",
-      "event_occurrence_verified": false,
-      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "4a69a8a02c45b1d3d7ba",
-      "revision": 1,
-      "updated_at": "2026-10-22T09:27:55.353747Z"
-    },
-    {
       "id": "GF-AFB660A9F27748",
       "title": "UK Sends Fighter Jets to Saudi Arabia as Yemen Conflict Escalates - https://globalpost.com/",
       "category": "security",
@@ -838,8 +837,8 @@
       ],
       "publisher_count": 1,
       "report_count": 1,
-      "first_published": "2026-10-22T07:55:08Z",
-      "last_published": "2026-10-22T07:55:08Z",
+      "first_published": "2026-10-22T07:59:41Z",
+      "last_published": "2026-10-22T07:59:41Z",
       "event_occurred_at": null,
       "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
       "sources": [
@@ -850,7 +849,7 @@
           "source": "https://globalpost.com/",
           "publisher_key": "globalpost com",
           "provider": "Google News · security",
-          "published_at": "2026-10-22T07:55:08Z",
+          "published_at": "2026-10-22T07:59:41Z",
           "date_quality": "publisher-time",
           "first_seen_at": "2026-10-22T09:27:47.332166Z",
           "collected_at": null,
@@ -859,17 +858,74 @@
         }
       ],
       "coverage_stage": "recent-coverage",
-      "coverage_first_published_at": "2026-10-22T07:55:08Z",
-      "coverage_last_published_at": "2026-10-22T07:55:08Z",
+      "coverage_first_published_at": "2026-10-22T07:59:41Z",
+      "coverage_last_published_at": "2026-10-22T07:59:41Z",
       "current_reporting": false,
       "recent_publisher_count": 0,
       "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "0d6d5c0c09e492b531aa",
-      "revision": 4,
-      "updated_at": "2026-10-22T09:55:43.861978Z"
+      "digest": "b10031a0365e65d80bae",
+      "revision": 5,
+      "updated_at": "2026-10-22T09:59:42.286921Z"
+    },
+    {
+      "id": "GF-FF6A076184F598",
+      "title": "Oil Prices Rise More Than 2% as Attacks on Saudi Arabia, U.S.-Iran Risks Persist - WSJ",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Iran",
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-22T07:59:18Z",
+      "last_published": "2026-10-22T07:59:18Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "ca43eca23dc0fbf7a085f690",
+          "title": "Oil Prices Rise More Than 2% as Attacks on Saudi Arabia, U.S.-Iran Risks Persist - WSJ",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYjRlQlhGVEJPT2JaeEpGWkxTZFVEdnpuMUxLRUZhUU1EY09ZcnJMaFlZNmdUbHkwdlBpcURmeHpZXzl1c1Z4WW94YmtMNTJ2N0paSlQtNXJ2eGVfam4tdW5NekpScjdYLU1RSzVGRTJqN3hCT3NOWnNmNGZpYjEwemo3ejBfOTU2ODFoMWtFX1hWS3RHZU9lcm93anl4UUczODQyd1hrUVc4VHQ5ZEpPay1SWGhWbW9YdFFPVmZWd3ZwNmhV?oc=5",
+          "source": "WSJ",
+          "publisher_key": "wsj",
+          "provider": "Google News · missiles/drones",
+          "published_at": "2026-10-22T07:59:18Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-22T09:27:47.332166Z",
+          "collected_at": null,
+          "language": "en",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "recent-coverage",
+      "coverage_first_published_at": "2026-10-22T07:59:18Z",
+      "coverage_last_published_at": "2026-10-22T07:59:18Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "27affbf28059dfe0af1c",
+      "revision": 2,
+      "updated_at": "2026-10-22T09:59:42.286921Z"
     },
     {
       "id": "GF-AFEA333491895B",
@@ -113890,11 +113946,11 @@
       "sources": 283
     },
     "Saudi": {
-      "events": 753,
-      "reports": 811,
-      "security_coverage": 587,
+      "events": 754,
+      "reports": 812,
+      "security_coverage": 588,
       "transport_coverage": 127,
-      "sources": 336
+      "sources": 337
     },
     "Qatar": {
       "events": 87,
@@ -113971,7 +114027,24 @@
     "2026-10-19": 242,
     "2026-10-20": 389,
     "2026-10-21": 315,
-    "2026-10-22": 82
+    "2026-10-22": 83
   },
-  "revisions": []
+  "revisions": [
+    {
+      "id": "GF-AFB660A9F27748",
+      "revision": 5,
+      "at": "2026-10-22T09:59:42.286921Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-FF6A076184F598",
+      "revision": 2,
+      "at": "2026-10-22T09:59:42.286921Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    }
+  ]
 }

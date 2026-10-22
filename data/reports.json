@@ -1,9 +1,32 @@
 {
   "version": 6,
-  "last_run": "2026-10-22T09:56:00.651327Z",
-  "last_successful_run": "2026-10-22T09:56:00.651327Z",
+  "last_run": "2026-10-22T09:59:33.379606Z",
+  "last_successful_run": "2026-10-22T09:59:33.379606Z",
   "successful_sources": 29,
   "reports": [
+    {
+      "id": "6bb3d4ce5ce80f6b70542dcf",
+      "title": "Houthis conduct drone strike on Saudi Arabia's oil facility, killing two - VOV World",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOX20wdFRxdUpWcXY4ZERPZEV6MFBENDd3SnNkbk5CUnRrMG5OblN5YTQxLUJjRFJONTAyeDZGc0dRdVphOWFJTzlmMXVGSTZaUVlXQTZkWHBNUGxPRkhDRHVHekxnbUttMU9KckJSWDlHVnU2N0VpYS1ZVHQzbjV5ZnJCa3YzWS1fU2t1YzFndjRoamJzQzdWMVQyald1c216NHNDYTFSYTdKWUhi?oc=5",
+      "source": "VOV World",
+      "published_at": "2026-10-22T09:54:00Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "DRONE REPORT",
+      "provider": "Google News · missiles/drones",
+      "first_seen_at": "2026-10-22T09:59:33.379606Z",
+      "date_quality": "publisher-time",
+      "freshness": "new-reporting",
+      "context": "reporting",
+      "severity": "critical-candidate",
+      "critical_candidate": true,
+      "alert_eligible": true,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
     {
       "id": "f2ce1afe5b77c48e83fcda9a",
       "title": "US Sanctions Companies, Individuals, and Nine Vessels Linked to Iran - IranWire",
@@ -324,35 +347,11 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
-      "id": "ca43eca23dc0fbf7a085f690",
-      "title": "Oil Prices Rise More Than 2% as Attacks on Saudi Arabia, U.S.-Iran Risks Persist - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYjRlQlhGVEJPT2JaeEpGWkxTZFVEdnpuMUxLRUZhUU1EY09ZcnJMaFlZNmdUbHkwdlBpcURmeHpZXzl1c1Z4WW94YmtMNTJ2N0paSlQtNXJ2eGVfam4tdW5NekpScjdYLU1RSzVGRTJqN3hCT3NOWnNmNGZpYjEwemo3ejBfOTU2ODFoMWtFX1hWS3RHZU9lcm93anl4UUczODQyd1hrUVc4VHQ5ZEpPay1SWGhWbW9YdFFPVmZWd3ZwNmhV?oc=5",
-      "source": "WSJ",
-      "published_at": "2026-10-22T07:57:00Z",
-      "country": "",
-      "countries": [
-        "Iran",
-        "Saudi"
-      ],
-      "language": "en",
-      "category": "security",
-      "tag": "SECURITY REPORT",
-      "provider": "Google News · missiles/drones",
-      "first_seen_at": "2026-10-22T09:27:47.332166Z",
-      "date_quality": "publisher-time",
-      "freshness": "new-reporting",
-      "context": "speculative",
-      "severity": "routine-reporting",
-      "critical_candidate": false,
-      "alert_eligible": false,
-      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
-    },
-    {
       "id": "20e02c4380409759c26abaec",
       "title": "UK Sends Fighter Jets to Saudi Arabia as Yemen Conflict Escalates - https://globalpost.com/",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPYkpZTzd5SnZWOTBDYW9MeEpLYU1ONzlCOGFQdDVoRDN1OE9pMG9rSUlUeWJnaUdId2lOWFBPdV9xOTZvNzJ0S1hiN3QycUx2V21mNE5uSGdCN3dXYU9YWU1IUkFtNVU4Y2tQVV9ubTA2QjZhUEFLMWdkQWlUeVZhRmNpVWFYcERZMmduM0JjLUJjUVh0QlpjNHpCUjROUQ?oc=5",
       "source": "https://globalpost.com/",
-      "published_at": "2026-10-22T07:55:08Z",
+      "published_at": "2026-10-22T07:59:41Z",
       "country": "",
       "countries": [
         "Saudi",
@@ -364,8 +363,32 @@
       "provider": "Google News · security",
       "first_seen_at": "2026-10-22T09:27:47.332166Z",
       "date_quality": "publisher-time",
-      "freshness": "recent-reporting",
+      "freshness": "new-reporting",
       "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "ca43eca23dc0fbf7a085f690",
+      "title": "Oil Prices Rise More Than 2% as Attacks on Saudi Arabia, U.S.-Iran Risks Persist - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYjRlQlhGVEJPT2JaeEpGWkxTZFVEdnpuMUxLRUZhUU1EY09ZcnJMaFlZNmdUbHkwdlBpcURmeHpZXzl1c1Z4WW94YmtMNTJ2N0paSlQtNXJ2eGVfam4tdW5NekpScjdYLU1RSzVGRTJqN3hCT3NOWnNmNGZpYjEwemo3ejBfOTU2ODFoMWtFX1hWS3RHZU9lcm93anl4UUczODQyd1hrUVc4VHQ5ZEpPay1SWGhWbW9YdFFPVmZWd3ZwNmhV?oc=5",
+      "source": "WSJ",
+      "published_at": "2026-10-22T07:59:18Z",
+      "country": "",
+      "countries": [
+        "Iran",
+        "Saudi"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · missiles/drones",
+      "first_seen_at": "2026-10-22T09:27:47.332166Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "speculative",
       "severity": "routine-reporting",
       "critical_candidate": false,
       "alert_eligible": false,
@@ -49225,18 +49248,18 @@
     },
     "Google News · aviation": {
       "ok": true,
-      "items": 83,
-      "relevant": 78
+      "items": 85,
+      "relevant": 80
     },
     "Google News · shipping": {
       "ok": true,
       "items": 100,
-      "relevant": 79
+      "relevant": 80
     },
     "Google News · diplomacy": {
       "ok": true,
       "items": 100,
-      "relevant": 45
+      "relevant": 43
     },
     "Google News · regional": {
       "ok": true,
@@ -49246,7 +49269,7 @@
     "Reuters · indexed Gulf reporting": {
       "ok": true,
       "items": 100,
-      "relevant": 25
+      "relevant": 26
     },
     "AP · indexed Gulf reporting": {
       "ok": true,
@@ -49255,7 +49278,7 @@
     },
     "UKMTO · indexed official advisories": {
       "ok": true,
-      "items": 14,
+      "items": 15,
       "relevant": 0
     },
     "US State Dept · indexed advisories": {
@@ -49266,12 +49289,12 @@
     "عربي · إيران والخليج": {
       "ok": true,
       "items": 56,
-      "relevant": 43
+      "relevant": 42
     },
     "عربي · قطر": {
       "ok": true,
-      "items": 57,
-      "relevant": 22
+      "items": 56,
+      "relevant": 21
     },
     "عربي · السعودية": {
       "ok": true,
@@ -49280,18 +49303,18 @@
     },
     "عربي · الإمارات والبحرين": {
       "ok": true,
-      "items": 49,
-      "relevant": 44
+      "items": 51,
+      "relevant": 46
     },
     "عربي · الكويت والعراق": {
       "ok": true,
-      "items": 51,
-      "relevant": 47
+      "items": 53,
+      "relevant": 49
     },
     "عربي · مضيق هرمز": {
       "ok": true,
       "items": 100,
-      "relevant": 73
+      "relevant": 74
     },
     "عربي · الجزيرة": {
       "ok": true,
@@ -49301,7 +49324,7 @@
     "عربي · العربية": {
       "ok": true,
       "items": 100,
-      "relevant": 43
+      "relevant": 42
     },
     "عربي · الشرق": {
       "ok": true,
@@ -49311,7 +49334,7 @@
     "عربي · وكالات الخليج": {
       "ok": true,
       "items": 100,
-      "relevant": 28
+      "relevant": 29
     },
     "الجزيرة نت · RSS عربي": {
       "ok": true,
@@ -49344,13 +49367,13 @@
       "relevant": 7
     },
     "UN News · Middle East (EN)": {
-      "ok": true,
-      "items": 30,
-      "relevant": 1
-    },
-    "UN News · الشرق الأوسط (AR)": {
       "ok": false,
       "error": "not well-formed (invalid token): line 1, column 0"
+    },
+    "UN News · الشرق الأوسط (AR)": {
+      "ok": true,
+      "items": 30,
+      "relevant": 6
     },
     "Qatar News Agency · Qatar RSS": {
       "ok": true,
