@@ -245,7 +245,7 @@ function render(){
  showStatus();
  const stage=$("stageContent"),page=stage.scrollTop;
  const mapIsVisible=S.view==="map";
- $("[data-map-hours]").forEach(b=>b.classList.toggle("active",Number(b.dataset.mapHours)===S.mapHours));
+ $$("[data-map-hours]").forEach(b=>b.classList.toggle("active",Number(b.dataset.mapHours)===S.mapHours));
  const custom=$("labMapCustomWindow");
  custom.value=[48,168].includes(S.mapHours)?String(S.mapHours):"";
  if($("labLatestAge"))$("labLatestAge").textContent=S.mapHours+"H WINDOW";
@@ -301,7 +301,7 @@ function init(){
  $("countryLab").value=S.country;$("topicLab").value=S.category;
  applyTheme(S.theme);
  $("labTheme").onchange=e=>applyTheme(e.target.value);
- $("[data-map-hours]").forEach(b=>b.onclick=()=>{
+ $$("[data-map-hours]").forEach(b=>b.onclick=()=>{
   S.mapHours=Number(b.dataset.mapHours);S.asof=Date.now();S.scrub=100;
   save();render();
  });
