@@ -1,3 +1,13 @@
+## GULFASTRA X — Early Detection Engine v14
+
+**[Open the EARLY DETECTIONS desk](https://xprotn-dev.github.io/gulfastra/lab/)** · **[Technical setup, sources and limitations](docs/EARLY_DETECTOR.md)**
+
+The primary workspace is now **early public signal detection**, not another delayed news list. A separate best-effort five-minute GitHub Actions pipeline monitors compact direct providers (USGS seismic observations, NOAA airport weather and QNA publisher RSS) alongside existing EMSC, GDACS, NASA, NOAA and regional reporting feeds. Important **single-publisher reports are displayed as unverified**, and provider observations/advisories remain their own evidence classes. Detected and published timestamps are separate, with explicit delayed-feed warnings. A first-run baseline prevents historic-alert spam.
+
+P1 means **immediate human review**, not a verified attack or a probability of danger. Optional Telegram and browser notifications require opt-in. An additional Debian two-minute timer is provided but **not running** until the owner configures an authorized server.
+
+---
+
 ## Impact Lab v12 — evidence-based analytical workspaces
 
 **[Open Impact Lab](https://xprotn-dev.github.io/gulfastra/lab/)** · **[Read how it works](docs/IMPACT_LAB.md)**
