@@ -3,7 +3,7 @@
 set -euo pipefail
 umask 077
 BASE="$HOME/gulfastra-detector"
-if [[ -n "$GULFASTRA_HOME" ]]; then BASE="$GULFASTRA_HOME";fi
+if [[ -n "${GULFASTRA_HOME:-}" ]]; then BASE="$GULFASTRA_HOME";fi
 SRC="$BASE/source"
 ARCHIVE="$BASE/archive"
 if [[ ! -d "$SRC/.git" || ! -d "$ARCHIVE/.git" ]]; then
