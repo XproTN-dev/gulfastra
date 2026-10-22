@@ -5,6 +5,7 @@
 <link rel="stylesheet" href="../vendor/maplibre-gl.css?v=6-15-0">
 <link rel="stylesheet" href="../assets/impact-lab.css?v=13-1">
 <link rel="stylesheet" href="../assets/impact-themes.css?v=13-1">
+<link rel="stylesheet" href="../assets/early-detection.css?v=14-0">
 </head><body data-theme="crimson"><div id="impactApp" class="lab-app">
 <header class="lab-header">
  <a class="lab-brand" href="../command/" aria-label="Return to GULFASTRA Command Center"><span class="brand-glyph">◎</span><span><b>GULF<span>ASTRA</span></b><small>IMPACT INTELLIGENCE / X</small></span></a>
@@ -22,7 +23,8 @@
  <div><small>LAST 24H BRIEFING</small><b id="mBrief">—</b><span>new publication groups</span></div>
 </div>
 <div class="lab-tabs" role="tablist" aria-label="Impact Lab workspaces">
- <button data-view="map" class="active" role="tab">◎ LIVE MAP</button>
+ <button data-view="detect" class="active" role="tab">◉ EARLY DETECTIONS</button>
+ <button data-view="map" role="tab">◎ LIVE MAP</button>
  <button data-view="graph" role="tab">◉ EVENT NETWORK</button>
  <button data-view="timeline" role="tab">◷ TIME EXPLORER</button>
  <button data-view="markets" role="tab">⌁ MARKET INDICATORS</button>
@@ -104,17 +106,18 @@
 </div>
 <nav class="lab-mobile-nav" aria-label="Mobile workspaces">
  <button data-mobile-view="graph">◉<small>GRAPH</small></button>
- <button data-mobile-view="markets">⌁<small>MARKETS</small></button>
+ <button data-mobile-view="detect" class="active">◎<small>DETECT</small></button>
  <button data-mobile-view="brief">▤<small>BRIEF</small></button>
  <button id="labFiltersOpen">☷<small>FILTERS</small></button>
- <button data-mobile-view="map" class="active">◎<small>MAP</small></button>
+ <button data-mobile-view="map">◎<small>MAP</small></button>
 </nav>
 <div id="labBackdrop" class="lab-backdrop" hidden></div>
 <div id="labToast" role="status" aria-live="polite"></div>
 <script defer src="../assets/command11-core.js?v=13-1"></script>
 <script defer src="../assets/command11-map.js?v=12-4"></script>
 <script defer src="../assets/impact-lab-map.js?v=13-1"></script>
+<script defer src="../assets/early-detection.js?v=14-0"></script>
 <script defer src="../assets/impact-lab-render.js?v=12-6"></script>
-<script defer src="../assets/impact-lab.js?v=13-1"></script>
+<script defer src="../assets/impact-lab.js?v=14-0"></script>
 <script type="module" src="../assets/impact-map-bootstrap.mjs?v=12-4"></script>
 </div></body></html>
