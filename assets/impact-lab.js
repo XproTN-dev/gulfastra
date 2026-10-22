@@ -4,19 +4,20 @@
 const C=root.GXCore,R=root.GXImpactRender;
 if(!C||!R){document.body.textContent="Impact Lab modules could not initialize.";return}
 const $=id=>document.getElementById(id),$$=q=>[...document.querySelectorAll(q)];
-const KEY="gulfastra-lab-v13",VISITED="gulfastra-lab-visited-v1";
-const DEFAULT={view:"map",country:"",category:"all",mode:"network",hours:48,
+const KEY="gulfastra-lab-v14",VISITED="gulfastra-lab-visited-v1";
+const DEFAULT={view:"detect",country:"",category:"all",mode:"network",hours:48,
  mapHours:1,theme:"crimson",zoom:1,lang:"en"};
 const saved=C.loadState(KEY,{});
 const S={...DEFAULT,...saved,files:{},manifest:null,status:"checking",warning:"",loaded:false,pending:false,
  asof:Date.now(),scrub:100,selected:null,graphFocus:null,prior:null,visits:{new:0,changed:0},lastCheck:null};
-if(!["map","graph","timeline","markets","compare","pathways","brief"].includes(S.view))S.view="map";
+if(!["detect","map","graph","timeline","markets","compare","pathways","brief"].includes(S.view))S.view="detect";
 if(![1,2,6,12,24,48,168].includes(Number(S.mapHours)))S.mapHours=1;
 if(!["crimson","carbon","matrix","arctic"].includes(S.theme))S.theme="crimson";
 // All screen sizes use readable topic clusters by default, never a dense label cloud.
 const color={security:"#e78f73",transport:"#74b4ed",diplomacy:"#a799ea",other:"#69cfaa"};
 const words={
  en:{
+  detect:["EARLY PUBLIC SIGNALS","EARLY DETECTION DESK","Direct observations, newly published warnings and first publisher reports. Urgency is not confirmation."],
   map:["LATEST SOURCE EVIDENCE","LIVE INTELLIGENCE MAP","Latest published news, official advisories and independent observations. Country markers are not incident positions."],
   graph:["SOURCE-BACKED COVERAGE","INTELLIGENCE LANDSCAPE","Explore reporting topics and original evidence. Relationships are shared metadata, not proven cause."],
   timeline:["CHRONOLOGICAL EVIDENCE","PUBLICATION TIME EXPLORER","Scrub a real publication timeline. These are publication dates, not incident occurrence times."],
@@ -26,6 +27,7 @@ const words={
   brief:["DAILY INTELLIGENCE","SOURCE-BACKED DAILY BRIEF","A deterministic summary of reporting and official records from the latest 24 hours."]
  },
  ar:{
+  detect:["إشارات مبكرة منشورة","مركز الكشف المبكر","مشاهدات مباشرة وإنذارات منشورة وأول تقارير المصادر، مع تمييز درجة التأكد."],
   map:["أحدث البيانات المنشورة","خريطة المراقبة المباشرة","أخبار حديثة وتنبيهات رسمية ومشاهدات مستقلة، مع تمييز مواقع الدول عن مواقع الأحداث."],
   graph:["تحليل التغطية المنشورة","مشهد الأخبار والتحليل","استكشف مواضيع التغطية ومصادرها الأصلية. التشابه في الأخبار لا يثبت السببية."],
   timeline:["التسلسل الزمني","مستكشف أوقات النشر","استعرض تاريخ نشر الأخبار الحقيقي، لا توقيت وقوع الحوادث."],
@@ -36,7 +38,7 @@ const words={
  }
 };
 const AR_CHROME={
- views:{map:"◎ الخريطة الحية",graph:"◉ شبكة الأخبار",timeline:"◷ التسلسل الزمني",markets:"⌁ الأسواق والمؤشرات",
+ views:{detect:"◉ الكشف المبكر",map:"◎ الخريطة الحية",graph:"◉ شبكة الأخبار",timeline:"◷ التسلسل الزمني",markets:"⌁ الأسواق والمؤشرات",
  compare:"⇄ مقارنة ٢٠٠٨",pathways:"⤳ مسارات التأثير",brief:"▤ الموجز اليومي"},
  modes:{network:"المواضيع",chronology:"العناوين",spatial:"العلاقات"},
  controls:["الجغرافيا","نوع التغطية","عرض الشبكة"],
@@ -45,7 +47,7 @@ const AR_CHROME={
  now:"↪ الآن",reference:"المصادر والمنهجية"
 };
 const EN_CHROME={
- views:{map:"◎ LIVE MAP",graph:"◉ EVENT NETWORK",timeline:"◷ TIME EXPLORER",markets:"⌁ MARKET INDICATORS",
+ views:{detect:"◉ EARLY DETECTIONS",map:"◎ LIVE MAP",graph:"◉ EVENT NETWORK",timeline:"◷ TIME EXPLORER",markets:"⌁ MARKET INDICATORS",
  compare:"⇄ 2008 COMPARISON",pathways:"⤳ IMPACT PATHWAYS",brief:"▤ DAILY BRIEF"},
  modes:{network:"TOPICS",chronology:"HEADLINES",spatial:"RELATIONS"},
  controls:["GEOGRAPHY","REPORTING CATEGORY","NETWORK PRESENTATION"],
@@ -261,6 +263,9 @@ function render(){
  else if(S.view==="compare")stage.innerHTML=R.compare(markets());
  else if(S.view==="pathways")stage.innerHTML=R.pathways();
  else if(S.view==="brief")stage.innerHTML=R.briefing(brief(),Date.now(),S.visits);
+ else if(S.view==="detect")stage.innerHTML=root.GXEarlyUI?
+  root.GXEarlyUI.panel(S.files,{country:S.country}):
+  '<div class="state-empty">Detector module unavailable. Source feeds remain accessible in the Map.</div>';
  if(S.view!=="graph")stage.scrollTop=page;
  $("labReplay").value=String(S.scrub);
  $("scrubTime").textContent=S.scrub>=100?"CURRENT VIEW":"CUTOFF "+C.date(new Date(S.asof).toISOString());
@@ -283,6 +288,7 @@ async function refresh(){
   S.status=incoming.status;S.warning=incoming.warning;S.loaded=true;S.lastCheck=Date.now();
   if(!wasLoaded)markVisit();
   if(!wasLoaded||incoming.changed)render();
+  if(wasLoaded&&incoming.changed)root.GXEarlyUI?.maybeNotify(S.files);
   else{
    showStatus();
    if(S.view==="map")root.GXImpactMap?.update();
@@ -340,6 +346,21 @@ function init(){
   '<p>Pathways: Hypothetical mechanisms require separately sourced real events and empirical testing before any causal conclusion.</p>'+
   '<p>Daily briefing: deterministic public metadata and source links; not generative autonomous analysis.</p>');
  $("stageContent").onclick=e=>{
+  const detHours=e.target.closest("[data-detect-window]");
+  if(detHours){root.GXEarlyUI?.setHours(Number(detHours.dataset.detectWindow));render();return}
+  const detLevel=e.target.closest("[data-detect-priority]");
+  if(detLevel){root.GXEarlyUI?.setPriority(detLevel.dataset.detectPriority);render();return}
+  const detEvent=e.target.closest("[data-early-id]");
+  if(detEvent){
+   const record=C.asArray(S.files["early_signals.json"]?.signals).find(s=>s.id===detEvent.dataset.earlyId);
+   if(record)openContext(record.title,root.GXEarlyUI.dossier(record));
+   return;
+  }
+  const notices=e.target.closest("[data-detect-notify]");
+  if(notices){
+   root.GXEarlyUI?.enableNotice().then(msg=>{toast(msg);render()});
+   return;
+  }
   const back=e.target.closest("[data-cluster-back]");
   if(back){S.graphFocus=null;renderGraph();return}
   const cluster=e.target.closest("[data-cluster]");
