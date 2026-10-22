@@ -1,9 +1,9 @@
 # Gulfastra | Open-source situation report
 Window: last 24 hours (publication-based)
-Coverage groups: 284 | linked headlines: 305
+Coverage groups: 285 | linked headlines: 306
 IMPORTANT: Unverified published reporting; not confirmed attacks or official safety advice.
 
-## Security (177 coverage groups)
+## Security (178 coverage groups)
 - Two killed in attack on airport in eastern Saudi Arabia, authorities say (3 headlines; multi-publisher-unverified)
   - BBC Middle East RSS: https://www.bbc.co.uk/news/articles/cqwy71ww156ro?at_medium=RSS&at_campaign=rss
   - BBC: https://news.google.com/rss/articles/CBMiXkFVX3lxTE1ZLXJNaS01NmN3UEpVbllOU1RXV3NOTGRHUWFIM0FCTlNScE5RTXBmTy1FS3VDVEI3Nnp4dk9mWDFINlBTQ0RNeUk5SXlKTG43UFc2OGtxTGNIZXd0OVE?oc=5

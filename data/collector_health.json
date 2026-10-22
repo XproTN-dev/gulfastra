@@ -1,15 +1,15 @@
 {
   "schema": 1,
-  "checked_at": "2026-10-22T09:55:45.714395Z",
-  "last_attempt_at": "2026-10-22T09:55:37.460313Z",
-  "last_success_at": "2026-10-22T09:55:37.460313Z",
-  "last_success_age_minutes": 0.1,
+  "checked_at": "2026-10-22T09:56:10.008833Z",
+  "last_attempt_at": "2026-10-22T09:56:00.651327Z",
+  "last_success_at": "2026-10-22T09:56:00.651327Z",
+  "last_success_age_minutes": 0.2,
   "source_total": 31,
   "source_success": 29,
   "source_failed": 1,
   "source_backoff": 1,
-  "quality_gate": "passed",
-  "alerts_available": true,
+  "quality_gate": "failed",
+  "alerts_available": false,
   "collection_state": "healthy",
   "operational_warning": "No live incident detection; best-effort scheduled public collection."
 }

@@ -1,6 +1,6 @@
 {
   "schema": 5,
-  "generated_at": "2026-10-22T09:55:43.861978Z",
+  "generated_at": "2026-10-22T09:56:07.176616Z",
   "model": "deterministic-source-correlation-v2-coverage-lifecycle",
   "disclaimer": "Clusters are related PUBLIC REPORTS, not confirmed incidents. Source counts are not proof. Country names are mentions, not incident locations.",
   "events": [
@@ -5498,6 +5498,62 @@
       "digest": "cbed340c483796d4f9f5",
       "revision": 1,
       "updated_at": "2026-10-22T09:27:55.353747Z"
+    },
+    {
+      "id": "GF-08B86E0D9295B8",
+      "title": "تصعيد إيراني واسع.. اعتراض صواريخ ومُسيرات وأضرار بمنشآت حيوية في الخليج والأردن والعراق وقتلى في إقليم كردستان - الساحل الغربي",
+      "category": "security",
+      "topic": "interception",
+      "countries": [
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-21T23:25:15Z",
+      "last_published": "2026-10-21T23:25:15Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "d655b244871bf383a2833d81",
+          "title": "تصعيد إيراني واسع.. اعتراض صواريخ ومُسيرات وأضرار بمنشآت حيوية في الخليج والأردن والعراق وقتلى في إقليم كردستان - الساحل الغربي",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9TV1RNZlZvdHM1ak5kUFR0bzV4Wnd5clJSRW5FY2Y1VF83UjM1a0pYTHM3STFGZldVTVJ3SW4tRGhMN3JjRktyZ1dhb0hSZTg?oc=5",
+          "source": "الساحل الغربي",
+          "publisher_key": "الساحل الغربي",
+          "provider": "عربي · قطر",
+          "published_at": "2026-10-21T23:25:15Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-22T09:56:00.651327Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Iran"
+        }
+      ],
+      "coverage_stage": "recent-coverage",
+      "coverage_first_published_at": "2026-10-21T23:25:15Z",
+      "coverage_last_published_at": "2026-10-21T23:25:15Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "53c49212e1e691cf405d",
+      "revision": 1,
+      "updated_at": "2026-10-22T09:56:07.176616Z"
     },
     {
       "id": "GF-D6F9B6771975DC",
@@ -113827,9 +113883,9 @@
   ],
   "country_stats": {
     "Iran": {
-      "events": 676,
-      "reports": 753,
-      "security_coverage": 416,
+      "events": 677,
+      "reports": 754,
+      "security_coverage": 417,
       "transport_coverage": 147,
       "sources": 283
     },
@@ -113914,25 +113970,8 @@
     "2026-10-18": 161,
     "2026-10-19": 242,
     "2026-10-20": 389,
-    "2026-10-21": 314,
+    "2026-10-21": 315,
     "2026-10-22": 82
   },
-  "revisions": [
-    {
-      "id": "GF-AFB660A9F27748",
-      "revision": 4,
-      "at": "2026-10-22T09:55:43.861978Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-14FE6602BB9047",
-      "revision": 20,
-      "at": "2026-10-22T09:55:43.861978Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    }
-  ]
+  "revisions": []
 }
