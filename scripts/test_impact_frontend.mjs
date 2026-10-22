@@ -28,6 +28,23 @@ assert(html.includes('data-view="map"'),"The Lab must include a Map workspace");
 assert(html.includes('data-mobile-view="map"'),"Mobile map navigation must stay inside Lab");
 assert(html.includes("impact-map-bootstrap.mjs"),"MapLibre module loader must be linked");
 assert(html.includes("impact-lab-map.js"),"Actual map data controller must be loaded");
+assert(html.includes("impact-themes.css"),"Theme CSS must be applied to all workspaces");
+assert(html.includes('id="labTheme"'),"Accessible theme selection must be visible");
+assert(html.includes('data-map-hours="1"'),"One-hour source window must exist");
+assert(html.includes('data-map-hours="2"'),"Two-hour source window must exist");
+assert(labJS.includes("mapHours:1"),"New users must see last-hour map by default");
+assert(labJS.includes('theme:"crimson"'),"Black/red must be the default palette");
+assert(labJS.includes('getFilter:()=>({country:S.country,category:S.category,hours:S.mapHours'),
+ "Map must use separate latest-hour window rather than 48-hour graph period");
+const themeCSS=fs.readFileSync(path.join(root,"assets/impact-themes.css"),"utf8");
+for(const theme of ["crimson","carbon","matrix","arctic"])
+ assert(themeCSS.includes('body[data-theme="'+theme+'"]'),"Working theme palette missing: "+theme);
+const mapJS=fs.readFileSync(path.join(root,"assets/impact-lab-map.js"),"utf8");
+assert(mapJS.includes("pollHourlyUSGS"),"Direct USGS hourly provider must be wired");
+assert(mapJS.includes("NOAA SWPC"),"Independent non-geographic NOAA bulletin must appear");
+assert(mapJS.includes("direct_signals.json"),"Independent EMSC observations must be read");
+assert(mapJS.includes("Latest published reports"),"Show separate actual recent report count");
+
 assert(!/(^|[^$])\$\("[^"]+"\)\.forEach\(/m.test(labJS),"No single-element DOM selector may be used as a NodeList");
 const C=window.GXCore,R=window.GXImpactRender;
 const sampleGroups=()=>R.groups({nodes:[{id:"GF-A",topic:"maritime",category:"transport",title:"Shipping report",published_at:new Date().toISOString(),report_count:2},{id:"GF-B",topic:"maritime",category:"transport",title:"Another shipping report",published_at:new Date().toISOString(),report_count:1},{id:"GF-C",topic:"diplomacy",category:"diplomacy",title:"Diplomatic report",published_at:new Date().toISOString(),report_count:1}],edges:[]});
