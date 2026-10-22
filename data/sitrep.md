@@ -1,9 +1,9 @@
 # Gulfastra | Open-source situation report
 Window: last 24 hours (publication-based)
-Coverage groups: 261 | linked headlines: 280
+Coverage groups: 262 | linked headlines: 281
 IMPORTANT: Unverified published reporting; not confirmed attacks or official safety advice.
 
-## Security (173 coverage groups)
+## Security (175 coverage groups)
 - Two killed in attack on airport in eastern Saudi Arabia, authorities say (2 headlines; multi-publisher-unverified)
   - BBC Middle East RSS: https://www.bbc.co.uk/news/articles/cqwy71ww156ro?at_medium=RSS&at_campaign=rss
   - AP News: https://news.google.com/rss/articles/CBMioAFBVV95cUxQaXo0Nk1pSDFVdkZGeEp4TGZobnBPS2FpdVlORlptNFFhWnp4SG1UQk9icEhXYTNUSzEtUXVoSEwxZUMtc0Z3cG1lQWJsS3I5TE9JLVJiRnlYTXczSkZfd2E0dFdVNDctZkR1emhpNmc5bF9SMXA2cHhwU3pPOVRkZ090MUVnLWU5NHd5TjN6NnN3S0poLThpYlpzLWFqNHdv?oc=5
@@ -23,6 +23,8 @@ IMPORTANT: Unverified published reporting; not confirmed attacks or official saf
   - Gulf News: https://news.google.com/rss/articles/CBMizwFBVV95cUxPVmhBbmZPSkFJTTJhdktYZGZ0U0t1elNpQlA4bmxRMDF0dmIwX0Fpa2VzcXR3Qk1HbTc0YnFkY280STdyNXBoYnNYeFBxQkdmZ0pOT2tibjFDV2VOWHZiZDBfdmQ2QkU5RFlWNHZjb3B6SHB2TlBWSHdSbXBuZlZIcXdYbVJPYzZyN1VrVG5jTE01bjEtRFZnUS04WmxmbktXMzFVWFRmT2hSc2Fvd01ldDQ4dVIyOGRyU1dLY21mOXdnMnZoOHNIVnhXaVM1SzA?oc=5
 - إيران تعلن استهداف 4 سفن تنقل النفط في الخليج العربي - القدس العربي (1 headlines; single-source)
   - القدس العربي: https://news.google.com/rss/articles/CBMiwwJBVV95cUxOSC14cksyc0ltUmlXMllLZEFSZTVKVGY2MEtTLW85ZHhlM1FwV1FZd2ZEclFscEhaVWcyRmdscEN3dWxEX3dBRDNOeHhSWjNZb3FkTVhNcWlNVU5HaGJ4MEYzV2dUR1JmeWo3dEl3azRsbDFTLXhtS2R0dkU2QnllTWNvYm5RRVVzWnIzMU1SX0d0YTVnQWhjUWhkRllqYzlKdWgtOG5zbE5mUzFHRGJuNWNqcEZIbE1BT2V0S3ctTW0ycXN6VVl0Qk52Mk83Ullnbzh0eVVtMmNrbTU2UHNLMTdSQjg0Tm5Sa25leld2dFdmTDFINDV4REJzR05iRURmSFp5cWVGQ09Ba28wVEhSdThRRmxEWTlUR1NuN2JIVnRudXl1RTE0V1VxN0hCcU9XTWh3WE1EMXg3SFNpalNhZUVTNA?oc=5
+- طلعة إسرائيلية قرب إيران.. اختبار للردع أم تمهيد للهجوم؟ - شبكة رؤية الإخبارية (1 headlines; single-source)
+  - شبكة رؤية الإخبارية: https://news.google.com/rss/articles/CBMiwwJBVV95cUxPbFRISV9fY0JaNExOVnI1UE1YdmhlRmh6c05sZnVhVERlaWZYd09tQ0tEY29jQnFVZUVJcnJWdXFqUHRZSTN4d0JXMm9aS0dwbHc5c3BZVWJVS2lKc1dTV3hYWllnNm93WmVVbFA5aEZtX0tCTjZoOVIzQWVNYkFodUpzX0staHhBek1pX3hRTXR6bHJOaWtJYko3ZEdFeFRYeWtvUG12dXhMUTdwR1NMSjNnbDBPZUhiamxlYjZDVUxrLXFuaDdFYk9xUUwyWUpicGVtU21ZU2xzRWhILWFQb3hydGdOczB5S2dOMG9qcWhHYmliVGN0QllVazlaNzN5OGlnMTNnanVZTXZYVWRBU2RQNlF0UkVnQmtDX196X3NJTXlaUm52eVEwdzNOQzk4Z0tLQzJwT2NzT2oxYm04R25xMA?oc=5
 - Oil Prices Rise as Traders Weigh Saudi Aramco Attack Report, Hormuz Shipping Risks - WSJ (1 headlines; single-source)
   - WSJ: https://news.google.com/rss/articles/CBMiygFBVV95cUxNZzlrRVp3SjY0Qjc1ejhzdHcxQWFQejJLS2hfZzJocWhnV3AtUi1OM1NGX2s2b0NjQkV4NnpYZUxTOGJTRVBlSEM2blAzMXRhbjNydFRjVnYyNGM4a25waTR1aGVTVWt1MXlKOURybDlzS0kxQXVrbUNlQTlRN3lxa3YxMEZ5djByOUhzTlg4MUZUYTRMT1V6MzBYODY3d2FhSk5zRkxMdWpocU1KYTV0TUVLMUtHcWZHbkJWVHVHc2NIRGFwQ1F2c0x3?oc=5
 - طائرات أميركا وإسرائيل في سماء العراق تنتظر ليل إيران الطويل لتنفيذ هجومها – تقرير - شبكة 964 (1 headlines; single-source)
@@ -31,8 +33,6 @@ IMPORTANT: Unverified published reporting; not confirmed attacks or official saf
   - بوابة الشروق: https://news.google.com/rss/articles/CBMipwFBVV95cUxQVml1MWw4b2dWcVFfUU9EaVA3WnVCOThGWVp0bUJRMXcwRnpPNjRRTFdlNEFnMDhtNGlzRnhDNnc4dEhUOVpWaUFLTFlwc1AzdVJNRXNVV2QxeEQxOHJjeHVwVWJuenJwelNib0g3Q0w1U0lSaGZldUVKOVBXN1Y3cjVLQkFWTjU1dFBHRVFIYlVTajBRbE5OcDkxSVRJWTc3VDNER3hYWQ?oc=5
 - UAE flight status today: Cancellations, delays and updates after Saudi airport attack - Gulf News (1 headlines; single-source)
   - Gulf News: https://news.google.com/rss/articles/CBMizwFBVV95cUxQWUxOWnpHSk9jZFpUcnZTaWt1LVMxdm5vOS1BNVVCWU1ISFRjb3dEM1hJemxubmY5UXFTUllDV1RkeVB1bTdKOXNqUTlnNV9TUFFuQ0t3bnE1X0JnOUNrNnFRanJRUGlramJiS191dF83dnlfbVlzV2FTR09KUEpIMXVxcnBmc2l2M0o5SDVrQTV6YkJBeDd0eDVnalNwbGFHYmw1c1pxTVQ4dkwtSUNaN2pQUHgtOXhfeHM5S2Q1cFpFREdReV9VVDVJNDRmb0k?oc=5
-- IRGC: Three Tankers Caught Fire After Mine Strike In Western Hormuz - Kurdistan24 (1 headlines; single-source)
-  - Kurdistan24: https://news.google.com/rss/articles/CBMirwFBVV95cUxNd0hfRGRTa3pzU0VzUnlHTlZ3QnhVU0tYZVlHZHFwMjVmZTIyQmRMSXdXVjBja1BzblNkaW5ieTlDMzR0dEVaWGkyd2EteVNhdnBUeDQ4TC03NzIySjhMT2xkUF92eDB5V1pROFc0dzBBM2VTcGUzbFliY3JBYV9ZQmRUZkdKbHJjeDhVSHlvTnBoOFVkOUR6SE0tcWNlc2kydldqS2ZFYmlxeHJfR3dZ?oc=5
 
 ## Transport (46 coverage groups)
 - US Sanctions Companies, Individuals, and Nine Vessels Linked to Iran - IranWire (1 headlines; single-source)
@@ -64,7 +64,7 @@ IMPORTANT: Unverified published reporting; not confirmed attacks or official saf
 - قطر وفرنسا تدعوان إلى حلّ سلمي لحرب إيران واستعادة حرية الملاحة في مضيق هرمز - TRT عربي (1 headlines; single-source)
   - TRT عربي: https://news.google.com/rss/articles/CBMiWEFVX3lxTE1vSlpUZ1Y3MDNsUzBOUVFPejVDcDhnTk5UX0hCc2xTNktYUi01T1VKZHl3eHM4UUVqTjIzX0xhVWt1Q3YxMEs1QWxjLWZnQm5fNlI4eG1kbWo?oc=5
 
-## Diplomacy (42 coverage groups)
+## Diplomacy (41 coverage groups)
 - Trump denies Iran negotiations, says situation will resolve soon - New Age BD (2 headlines; multi-publisher-unverified)
   - New Age BD: https://news.google.com/rss/articles/CBMitAFBVV95cUxPX2k2QUR1c2MxOU4ycl9JSGFaMUp3YnBzMFdBRzlkUHV2alVVSXAweGZxT3ZhakF3MVphT2xsMldiWjA5VHVFVGJCNW5tOHJSNXBlWC14emZlZnhzaWRrdzA4VWxsN0FwaF9aUHptOW9SWVhBQVlpaFJvaXJrQjhrc21ZLTdMUHVMZ1dxV3JLZEZFV1hJdXJkYlVaQmhDVUpCdTlPYkhFZmhzM3VqZTVPcmZ2Rms?oc=5
   - Al Jazeera RSS: https://www.aljazeera.com/news/liveblog/2026/10/22/iran-war-live-irgc-vows-invasion-as-defence-doctrine-turns-offensive?traffic_source=rss
