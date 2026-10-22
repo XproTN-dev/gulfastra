@@ -1,7 +1,7 @@
 {
   "version": 6,
-  "last_run": "2026-10-22T09:27:47.332166Z",
-  "last_successful_run": "2026-10-22T09:27:47.332166Z",
+  "last_run": "2026-10-22T09:28:18.534715Z",
+  "last_successful_run": "2026-10-22T09:28:18.534715Z",
   "successful_sources": 29,
   "reports": [
     {
@@ -118,6 +118,30 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "20e02c4380409759c26abaec",
+      "title": "UK Sends Fighter Jets to Saudi Arabia as Yemen Conflict Escalates - https://globalpost.com/",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPYkpZTzd5SnZWOTBDYW9MeEpLYU1ONzlCOGFQdDVoRDN1OE9pMG9rSUlUeWJnaUdId2lOWFBPdV9xOTZvNzJ0S1hiN3QycUx2V21mNE5uSGdCN3dXYU9YWU1IUkFtNVU4Y2tQVV9ubTA2QjZhUEFLMWdkQWlUeVZhRmNpVWFYcERZMmduM0JjLUJjUVh0QlpjNHpCUjROUQ?oc=5",
+      "source": "https://globalpost.com/",
+      "published_at": "2026-10-22T07:59:41Z",
+      "country": "",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · security",
+      "first_seen_at": "2026-10-22T09:27:47.332166Z",
+      "date_quality": "publisher-time",
+      "freshness": "new-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "ca43eca23dc0fbf7a085f690",
       "title": "Oil Prices Rise More Than 2% as Attacks on Saudi Arabia, U.S.-Iran Risks Persist - WSJ",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYjRlQlhGVEJPT2JaeEpGWkxTZFVEdnpuMUxLRUZhUU1EY09ZcnJMaFlZNmdUbHkwdlBpcURmeHpZXzl1c1Z4WW94YmtMNTJ2N0paSlQtNXJ2eGVfam4tdW5NekpScjdYLU1RSzVGRTJqN3hCT3NOWnNmNGZpYjEwemo3ejBfOTU2ODFoMWtFX1hWS3RHZU9lcm93anl4UUczODQyd1hrUVc4VHQ5ZEpPay1SWGhWbW9YdFFPVmZWd3ZwNmhV?oc=5",
@@ -136,30 +160,6 @@
       "date_quality": "publisher-time",
       "freshness": "new-reporting",
       "context": "speculative",
-      "severity": "routine-reporting",
-      "critical_candidate": false,
-      "alert_eligible": false,
-      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
-    },
-    {
-      "id": "20e02c4380409759c26abaec",
-      "title": "UK Sends Fighter Jets to Saudi Arabia as Yemen Conflict Escalates - https://globalpost.com/",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPYkpZTzd5SnZWOTBDYW9MeEpLYU1ONzlCOGFQdDVoRDN1OE9pMG9rSUlUeWJnaUdId2lOWFBPdV9xOTZvNzJ0S1hiN3QycUx2V21mNE5uSGdCN3dXYU9YWU1IUkFtNVU4Y2tQVV9ubTA2QjZhUEFLMWdkQWlUeVZhRmNpVWFYcERZMmduM0JjLUJjUVh0QlpjNHpCUjROUQ?oc=5",
-      "source": "https://globalpost.com/",
-      "published_at": "2026-10-22T07:55:08Z",
-      "country": "",
-      "countries": [
-        "Saudi",
-        "Yemen"
-      ],
-      "language": "en",
-      "category": "security",
-      "tag": "SECURITY REPORT",
-      "provider": "Google News · security",
-      "first_seen_at": "2026-10-22T09:27:47.332166Z",
-      "date_quality": "publisher-time",
-      "freshness": "new-reporting",
-      "context": "reporting",
       "severity": "routine-reporting",
       "critical_candidate": false,
       "alert_eligible": false,
@@ -489,6 +489,29 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "5dff6ba4b491efff2a6dc179",
+      "title": "وزير خارجية إيران يفصّل خطة الـ7 أيام لفتح مضيق هرمز بمقال - CNN Arabic",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQjRQRFp0Q3FEMUFOcTluc3BoTjRZTWd4a25fbTZBeDNwclJERmdxSkVCQW9SVFdlV09jTUdVeE0zZnRqM2xybkF0RjNRSFA4R2dkWnZ4aExVY2xIQ1kyREUxRHdjdUo1VTNYSWVKaF9CZWs0NVNWaWlwSURyM0JyS2NyX29CclQ2VXZYcUNUUzlrZ3V4enN3eUR6RmJJbTctbGhKZA?oc=5",
+      "source": "CNN Arabic",
+      "published_at": "2026-10-22T06:05:07Z",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "language": "ar",
+      "category": "transport",
+      "tag": "ملاحه بحريه",
+      "provider": "عربي · مضيق هرمز",
+      "first_seen_at": "2026-10-22T09:28:18.534715Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "0eeb55f1422e3cb1945726b7",
       "title": "Is the Red Sea safe for shipping? - Seatrade Maritime News",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBpc3ZDRnBHc2d3Q19iZ1JhdWRhOWh5dHA0UWVWanZneFhxZXlaSmhzVnJrMzdnSW1jRTlDcmx5SC1YOS1ucFFDT0tQT2xmYkdMQ0ZUaldOM25IaE1GbEdJaE1td0N1T213cEJkTnRfUEJHaEk?oc=5",
@@ -571,6 +594,27 @@
       "tag": "ملاحه بحريه",
       "provider": "عربي · مضيق هرمز",
       "first_seen_at": "2026-10-22T09:27:47.332166Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "bcb429b9b8af3a1ee43a26ff",
+      "title": "IRGC: Three Tankers Caught Fire After Mine Strike In Western Hormuz - Kurdistan24",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNd0hfRGRTa3pzU0VzUnlHTlZ3QnhVU0tYZVlHZHFwMjVmZTIyQmRMSXdXVjBja1BzblNkaW5ieTlDMzR0dEVaWGkyd2EteVNhdnBUeDQ4TC03NzIySjhMT2xkUF92eDB5V1pROFc0dzBBM2VTcGUzbFliY3JBYV9ZQmRUZkdKbHJjeDhVSHlvTnBoOFVkOUR6SE0tcWNlc2kydldqS2ZFYmlxeHJfR3dZ?oc=5",
+      "source": "Kurdistan24",
+      "published_at": "2026-10-22T05:34:31Z",
+      "country": "",
+      "countries": [],
+      "language": "en",
+      "category": "security",
+      "tag": "MARITIME REPORT",
+      "provider": "Google News · shipping",
+      "first_seen_at": "2026-10-22T09:28:18.534715Z",
       "date_quality": "publisher-time",
       "freshness": "recent-reporting",
       "context": "reporting",
@@ -5544,6 +5588,29 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "b6ce3b01075d8ce1aa7a22fa",
+      "title": "Is Ukraine deploying thousands of micro-drones near Iran’s border? Kyiv denies claims, but risks remain significant - TodayPress.tv",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQcjF3bmV3VFhTcHpZRE1zSUhEanE3eHNORm43VXhCa1RWbDJYaEx0WGJzM0FmRjV6U0tPUUlBSU90US0yMVdqZUxSdnJUS0xhelVsU280dC10d2k4UEY4ekxGM1lPdll6dEEzSl95SUhpWEI2aTFiZ0tzQTd1R1FyeVFkOWw5QkE2RWEtNUFZZ3FpM3JJNzJ4a2RIWHhHLWlscUtqeWhtXzFuV2FDOWl0OTZGRXQ0ZUNmTE9pNWl4N2RIMWd5ZlhUQkNVVGZzSFNXaGI2R2tLRHNvWlJLbGhn?oc=5",
+      "source": "TodayPress.tv",
+      "published_at": "2026-10-21T12:15:58Z",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · missiles/drones",
+      "first_seen_at": "2026-10-22T09:28:18.534715Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "denial",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "75882b6f8b60acad810714b9",
       "title": "Gargash welcomes IAEA recognition of UAE's nuclear safety response after May 17 drone attack - Gulf News",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPV0pHd21SblRSUGRyYzRCbW5vbVZpQzNBcVFFOWFqVG10aTdnTjlGaERyVUpnRWxhYlFnTEcwMUljZ1pxLTVlUlJWaktyYmFEZ084NmdEaXNualpBMEZ3T2prX2dHVmRtNERxWTN0SXNCVWxCd2xOQ0N0OTFCQ3VNcHpfNmdkTGNjMXUwamJHNzlFTVhFU0hDc3h3aWhTNEIxcWcxY1VKektBV3ZBaE1ERllqeGZKZlZtQno2ZTNQNFJhQQ?oc=5",
@@ -6180,6 +6247,30 @@
       "tag": "INTERCEPTION REPORT",
       "provider": "Qatar News Agency · General RSS",
       "first_seen_at": "2026-10-21T09:42:17.355583Z",
+      "date_quality": "publisher-time",
+      "freshness": "recent-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "d53a659f3de772ab496082fb",
+      "title": "UK fighter jets to protect Saudi Arabia from Houthi attacks - DW.com",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPX09hOG01THVnWTBtMmVfekx4eUpYdnRtdDJZUVpRZFNuQTh5NlE0RlVaYlhHbVJzRTNXaXd4RURST1ZPTFF5TnJ1ODJCdkRCOENXTVVZd09NZHJjeXktRzZCdlJrbVNFdmYwdXUwOEtycjA1OVBlS3ZTZ25KR0NCNUZWWdIBgwFBVV95cUxNY1lEUHVHNzlwOUNJcW5YeE15RllpRmdVZThBdjlvMjdKY2JqUkxfQmV0QkVXbVNVeGgzalVacXhLMURVclhxVjhIT2JkLTZMVVNrUlkzd1hic3RuV25iWXdtSERockhvcXI3RzJ2eHMwYUpHZ0EzZnUxcVFJYW9XTC1Edw?oc=5",
+      "source": "DW.com",
+      "published_at": "2026-10-21T09:40:20Z",
+      "country": "",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · security",
+      "first_seen_at": "2026-10-21T04:44:48.118278Z",
       "date_quality": "publisher-time",
       "freshness": "recent-reporting",
       "context": "reporting",
@@ -7093,30 +7184,6 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
-      "id": "d53a659f3de772ab496082fb",
-      "title": "UK fighter jets to protect Saudi Arabia from Houthi attacks - DW.com",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPX09hOG01THVnWTBtMmVfekx4eUpYdnRtdDJZUVpRZFNuQTh5NlE0RlVaYlhHbVJzRTNXaXd4RURST1ZPTFF5TnJ1ODJCdkRCOENXTVVZd09NZHJjeXktRzZCdlJrbVNFdmYwdXUwOEtycjA1OVBlS3ZTZ25KR0NCNUZWWdIBgwFBVV95cUxNY1lEUHVHNzlwOUNJcW5YeE15RllpRmdVZThBdjlvMjdKY2JqUkxfQmV0QkVXbVNVeGgzalVacXhLMURVclhxVjhIT2JkLTZMVVNrUlkzd1hic3RuV25iWXdtSERockhvcXI3RzJ2eHMwYUpHZ0EzZnUxcVFJYW9XTC1Edw?oc=5",
-      "source": "DW.com",
-      "published_at": "2026-10-21T06:49:02Z",
-      "country": "",
-      "countries": [
-        "Saudi",
-        "Yemen"
-      ],
-      "language": "en",
-      "category": "security",
-      "tag": "SECURITY REPORT",
-      "provider": "Google News · security",
-      "first_seen_at": "2026-10-21T04:44:48.118278Z",
-      "date_quality": "publisher-time",
-      "freshness": "older-reporting",
-      "context": "reporting",
-      "severity": "routine-reporting",
-      "critical_candidate": false,
-      "alert_eligible": false,
-      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
-    },
-    {
       "id": "582d624a55ff27f68493fe8a",
       "title": "عراقجي: لن نفتح مضيق هرمز بالكامل أمام الملاحة ما لم نتوصل إلى تفاهم مع واشنطن - اخبارك نت",
       "url": "https://news.google.com/rss/articles/CBMi4wRBVV95cUxNY203RWJBOHBLWFkxQVVxWktfLS1HaDJyOUl0NFFRX2NNM1ZjUDYzMk9sM1NJYlF4N1BIV3RPM180OUtLZVFEQlBSMnRUeFNxOG0tZXkxelFGSE91Q2xRTjJ1Zkt4bUpWNHlWRzZQRkdzZFlfLUNSWnhCLUR6VWZQTF9CSElWVDd5b2tSVG5vNmdyZEdQWW9Oakh4aW44TmpBV3ZIMzZYdnd3U29weGN2OE9zYkxTT1ZyTGc3LTdneWlQU3dFUU1PNkNfVkFnd0JMQmltYXJ3aGMtWDh2bWtTU1N6b2hjbmhGcW1QTFk3LU9xQWZYN3lSQi1SSXBscS1pZktLY2d4UHJIdE83WFV0Z3JEWEJ1YVVDR29JbkVabXU0RGsyUm1YU2NKS3JfS18xS1dQX21VRl9ia3NTcTRkdVJFRHpsc21jZWZfLUpsMDU5MGp6WWxuaVZBX1VWbGY4N2lkSlFNajEzVzhLU3RWaDNETGRaYWs1c0VYOWVacHBkNHRhdkxlVV91dkh4NXJBUTVFbk5vckVkX0JFczNwZ1hhQTlZTUtxSFl2QlNpcml4SEtvQ1dXWDk2U2VjTzNkTzZEcThHTl8zNzNEYnNCVzI5M3lCR0lMT2dhZDRkc0x3M0JxTEh0T2kwS3pSazhtUzREYjlpSTVfWjNoV3BkWVE1M3MzWVdkY2NmN0hwZ05hQTBvMXRuc0lINm9XaDlybXE2NzhrM0s0QlZ5a21NWld1QkpublN2cVd2c0YzZHVWNkVwU1JWZnM0c3NibUZsME92WmJ6VHFSUGlRZnhLZzdGdw?oc=5",
@@ -7224,6 +7291,29 @@
       "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "denial",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "99959ba1bb8de86d0ae0495b",
+      "title": "نية مبتة لضربها بشدة.. هيجسيث: إيران محور محادثات نتنياهو مع ترامب - صدى البلد",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9aU2FJZUpiWlA0bU5XakhiZ0NYeFkwdGxycjlkZlZfNUs0czRPRG1iTE5jalpQVGl6dVZNMDQ4WnBMVXVzUzZJ?oc=5",
+      "source": "صدى البلد",
+      "published_at": "2026-10-21T06:17:00Z",
+      "country": "Iran",
+      "countries": [
+        "Iran"
+      ],
+      "language": "ar",
+      "category": "diplomacy",
+      "tag": "تطور دبلوماسي",
+      "provider": "عربي · إيران والخليج",
+      "first_seen_at": "2026-10-22T09:28:18.534715Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
       "severity": "routine-reporting",
       "critical_candidate": false,
       "alert_eligible": false,
@@ -22846,6 +22936,27 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "74f563f70bc50307714de9c5",
+      "title": "IRGC Navy says oil tanker struck mine in Strait of Hormuz - Latest news from Azerbaijan",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTUxLSkdzWGE5Zk5ieGdFSmVOTHdiREMwX0VORmlUeVgxbG11MVVuTU9sNWp0ZGtXYTFRU3pTUXZHRDhjQWx6VFNtUFUzWlBzUU15WEhHbjMwRDF1YTVBT0ZPR2pQRDNmVW9VbDYtdmk5cU5POC02ZnlRdjg2U0ZZc1FaQXA?oc=5",
+      "source": "Latest news from Azerbaijan",
+      "published_at": "2026-10-19T07:18:44Z",
+      "country": "",
+      "countries": [],
+      "language": "en",
+      "category": "transport",
+      "tag": "MARITIME REPORT",
+      "provider": "Google News · shipping",
+      "first_seen_at": "2026-10-22T09:28:18.534715Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "elevated-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "a82217f580980d808da0719b",
       "title": "US, ‘Israeli’ officials deny reports of planned Tel Aviv strike on Iran: Axios - Roya News",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOUHpRMDNXY21JUk1iZk12RnhjUGw1T2FGYTlOOHp6N3pUU0ZmOHhNUGdjbHBTaThpOWhJaDlJYkpHT2RfZ1lEVmRtdkozVHBaTTVERlh3NDBjOG9MVXN3OFBkMDFUdGowQ2N1MnlTQjh3eHNodDBacHREMG55MWNITkZEQWJIZDdwanA5RV9zWWJQQ0ZpNFEtSUVraXNoUU1FYnhtUTFjM2FUNl9XWGVId052OXVaR2JRaHlLNmszbDFKYzBibEwwWXBoRTA?oc=5",
@@ -29346,6 +29457,30 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "1d99f3e23876af910def47aa",
+      "title": "Saudi Arabia Intercepts Four Drones Over Riyadh Amid Houthi Attacks - NDTV",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOelVBWWc2d1FEMFNUN1BsdjNEbnNNUF9XX0l3dGdnOHhBTkhsaDdsWFExdUNkTUJrV0w4OUVpTlN3cDh0c1Y5aHlHdkYzeTdCeHNycktlSUsycUtpeVRnS2FmZHB4OFpKV0xsSTNCUVBOQW5lOXp4UkV1cTFUd3pSV1l1MU8yOGNZOEN3VnFCVGV6RVR5ZVJYUUpSTV9MZ1BjYVZDbnVaY05GS19Wb2fSAbYBQVVfeXFMTUxHNFY3MDZBNWVDQ0JnWHZtZWRaVlRfbF9NdFFRdnhKVzkwamM2SXR6NnBjRnlZejRZTEo2SWNzdTg1MzdRWTY4WHR4WUJwYk9IQ01Yc1NUQ0RUNHpDdjZ5Y0pVVU4xcmwtZ0JETWtuVFJTQjdPaUhQb3lZaDdiaU85YUxZVDhVWDh1ZVVvMmswakd6UXc0YXBZRU04Z3RKdUltSGFzQmg5eWhPbmREMzBBTTVQNFE?oc=5",
+      "source": "NDTV",
+      "published_at": "2026-10-17T17:28:29Z",
+      "country": "",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "INTERCEPTION REPORT",
+      "provider": "Google News · missiles/drones",
+      "first_seen_at": "2026-10-22T09:28:18.534715Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "0244cceada89ae2a3c4718a3",
       "title": "العراق.. الزيدي يشكّل لجنة للتحقيق بانفجار مقر للحشد الشعبي في بغداد - قناة ومنصة المشهد - أخبار العالم اليوم",
       "url": "https://news.google.com/rss/articles/CBMiygRBVV95cUxPZy14YTRyR3hpMWNteGZrZkNLelVTeEROWUZWRTVXN0Y2QzNUNjdCN0FuWkQ4Um9xRnNEeHFDSnJ3cnJOX1NPOU0wLTVRU0hiVmdpR1NPdzZPRVY3XzNtaW9QZXdpX3pPdTVhbEdFRUh0X3RkQXJZd0V3SEd2dVlGemZhQ1QzMjFWU2d6Y3hHLTV2S1lmY2o5WlhpOENCUUVqbWlMTXBPTW9wOEw3bUtJNHk1aHNMbUdSd3NnMXdkYjViU2Y1TFI4LUwwSl9Yc04xLVBHcVRNb2VEUlVyVXpCNWVOaHJWeDY3RFMyZ0lkOFFidmV1TmZsTmUtTm5kV0pPbHhndjh0QVFVSnA4WDN2YVZidDRVbUNIUkxwTUxsaWktQXJvcFhZeVpMQndjNEhhTExiX0F5Z1YzbmNMTV90b0sxamY3VlJuNHc2cnYyRmMwSEJGZmV2eWxpQTh6QVl3bHhxc1A0VnBjQmF4Z193SjRhNmV0a0xWSlhrdnZSblp3RWF0ZWpMWjloYkRJYk9kNWlnWDN3Unk5ZURWWlBTMTJaeUJjaDlMWG9nenUwVUVPUVRJd1hIRmUwZmhuMnhOaTJOZEZ5NXBXTDhrRlBVdE1GY0NQM0dHWmduMXFPdU1uWlc3eklWWF9UYVRteTFiR24wY3Z1RUUxcFdndnVTNFJvN1JDRHhrN09GcEJHNFkweFRwODdiT09EaExMOFUtcUxvOFdyNWptYW1mOExNQmdtMDE4WVRzRWhiOHJKZlg2cGYyQzJiRlZ30gHPBEFVX3lxTFBvcnB4dHY4V3o2cno4cEtxdTNhN3g0UzRlckN4Vnk4ZWhyNEQ3aVM5Y2wyWS1YRlZNRmNOcUF3cURCRWJUdU03QVVkUkxPQXBDNy1uUDBxbE9GbFVmdHVfRWtwWFNHTDJHT3FzUFFzYVF6WWxmakFOUHVIdGFhRkd0MFdJZXV4ZkRBQ0owZGNaSGcza0FTS25nNnN1bzgzNzZRMVJURHB2WHBlOTNTcmlsNWN6ODVSSHVNdzM4Q3g4bWI4cVV0eFphNEtlTmtmNktDRzMwYUNKYl9pUlNfdWVOa3U1V2szWnpxWk5hMFFwQS1xUTRCWnNPaWgwRHlkaFhwQ1pYVTNmZGx1cWdQY1ZHV0ZBel9HVV9WM2V4c3NHX1ZhaEx0SVUxNXFvWktINVlTbFd3ZXdON0VnaDJ2VE9RaVNOOTJTZzVudGwxWHV2UUxKdDdDYk43NjljM0hwcU5zZTZNSS10TFNjYklKUkJtbUxOLTRmNzJ6MjZrajN5b210MldEcVhQRnFSaV9IV3phSjhYbHluVk5icUxJUU5kR2VPajFpZXU2T0lFQW9sWWplRDhXZ3hMSlBULXFCZE5RQS10SDU5VmpUSnZiQTJza1lRMU5GdS1BcGZON0ZqdllyU2RNTUl2V3NFanRfMjUwVFRzcHJadW5nWk5BMjNuTUV3M0NDZHl4WW1zU1FteFdET0RId2dIbGd0UmRxMHpsR0FvY2M1dGlaTWM0aEhkTWNyY081OFhIcVNZZ2FpTFZsVTBxSHhjRGwzX2NNUQ?oc=5",
@@ -29614,6 +29749,29 @@
       "freshness": "older-reporting",
       "context": "reporting",
       "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "8c7773f16ef5392fc425090f",
+      "title": "رئيس الوزراء العراقي يوجّه بالتحقيق في انفجار مقر الحشد الشعبي - Lebanon24",
+      "url": "https://news.google.com/rss/articles/CBMikwRBVV95cUxPNWxmSVg2bUp2SUh3TGlmU2ZOTjluOWQ0MkVCb3JMbWxIRVhvYW1nYWhGLVRtVVduZ2s3cFhZdFFXTFJaTlRDU0dZRUc2ZFQycW5SUjlZcDhwLXk1blhqZHJlSkh6OG84bWYxTmJTc3lHRkVWUm9xRlNTd1RqR1ZMWmtQWVVWaF82a3drYVpsZnlvamp3MjRoWUxoQkl5NjVaZEd5NldMTHlrbUdjd2liQTRwdTNuck5MbWRScUl2UkhxM0dRS0ZzNk9QME1sckdnR0ZmdXg5cFBJVE1obFAtanhsTVRUSVpGeXNQMV9WTkY3REZuNXJNLWVNam9ZQmFiSGZYY0hzQy02N1VGYUZ5T05ZbHhVZ1pLS3l4N09iLUYwVThOVWJkQjVKeXdSZk1CQV9jWWtaNmZ2YjdueGRKbEp3Tll2WmVMdndEaXlaa09sb29URmlHMkE0VTVCQkJ2aDloSFlReGZqRXVWWXlzQlBabEVoSDRTN3BWenVubHFnOVk0eXFsNVQ1ZjM2ZWFwQlo2WkU5UlhCYi1STFdiZmxnc0ZReWpKVmF0TDMyd24wRzRyTkZqcjh6RVZ4dENiWjQxZnFoNmtmZEpmbTFmb3hldnJKa3I0akRranNqcU5lV2tqS0ZSYzJqc1FYa3Z4ZGRWaDJESzAwbmpSRnVaY0pqVHBMN3BKQXgzWW1OT0tLVDA?oc=5",
+      "source": "Lebanon24",
+      "published_at": "2026-10-17T17:04:30Z",
+      "country": "Iraq",
+      "countries": [
+        "Iraq"
+      ],
+      "language": "ar",
+      "category": "security",
+      "tag": "تقرير امني",
+      "provider": "عربي · الكويت والعراق",
+      "first_seen_at": "2026-10-22T09:28:18.534715Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "elevated-reporting",
       "critical_candidate": false,
       "alert_eligible": false,
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
@@ -32664,6 +32822,30 @@
       "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
     },
     {
+      "id": "ac27f802a13212091162c038",
+      "title": "Airlines Suspend Saudi Arabia Flights After Houthi Attacks on Airports, Including Riyadh and Abha - Avi-Go",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1UaHBHYUx2VjZLNTNyS25lUlFCT1NLa3kyZHNHTGctc3prUHBXNlJScE1mYTZKNGRxRldWVzlUOVpvUDlpNnZCbWk3YlpabFpqRDFTRzFjTWVqOXhOdE5fQWxuUFR2VFZmeTE5S2tmaGR5MVE?oc=5",
+      "source": "Avi-Go",
+      "published_at": "2026-10-17T02:14:12Z",
+      "country": "",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "SECURITY REPORT",
+      "provider": "Google News · aviation",
+      "first_seen_at": "2026-10-22T09:28:18.534715Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "routine-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
       "id": "b0249198e2077121a160f9e9",
       "title": "IRGC says tanker passing Hormuz through 'prohibited' route hits mine - Middle East Eye",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcHlRZ2xDd1poaHM4eTh5angzLWRwVzUwMGtOaFJlREtvNGlBbGdsZHBBZjF6UHNJQkZUVlVMcXlteDd2eVV5U0VSbm8xVHgyY0xMckxQOVhJMDA4SjNOaFdkWHpxblpVeWVXQWgxOU1PZmozNENaQmZ1eGZxVll1UnZJc2VXUVM3cV9vVnJxWl9VeUxLeEgyZmtadndiUmRWempHb1JsY2RJdTViZTZ2a3BEMS1Fd1M3UFYySmFCVXM?oc=5",
@@ -34682,7 +34864,7 @@
       "language": "en",
       "category": "transport",
       "tag": "DISRUPTION REPORT",
-      "provider": "Reuters · indexed Gulf reporting",
+      "provider": "Google News · diplomacy",
       "first_seen_at": "2026-10-20T12:09:48.504938Z",
       "date_quality": "publisher-time",
       "freshness": "older-reporting",
@@ -35072,6 +35254,29 @@
       "tag": "MISSILE REPORT",
       "provider": "Google News · missiles/drones",
       "first_seen_at": "2026-10-21T22:16:30.037566Z",
+      "date_quality": "publisher-time",
+      "freshness": "older-reporting",
+      "context": "reporting",
+      "severity": "elevated-reporting",
+      "critical_candidate": false,
+      "alert_eligible": false,
+      "assessment_note": "Keyword-screened public reporting; incident unverified and not necessarily ongoing."
+    },
+    {
+      "id": "b00f55eaa3f55328dc4a4c2f",
+      "title": "UCI cancels World Championships in Saudi Arabia after missile strikes on airport - Cycling Weekly",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQQWhsbkRnNndWR3p1Rkg0OEI4R1RsUFRlZ0poSEk5bmU1MzJXSmpfR3VLNDRVX3ZidHNPX1V4UUhlZzRKdi1nMEN0d0NoZm9IaERRZ2hOcGZiV0JtT1NnZVVCOEtvbUZsd0VydW9jNEFjZHZac2xFYTBORGx6U1M1ZDJTX2xoM1Q3ZzBpQ0hMTkxRd2VuaU0zVFZDMDJPenJqSzhxVTJsMUdMdGEtb0VQcHJ3ZWlXMDBEbGhFUS1tOWJEMkRNS3JySA?oc=5",
+      "source": "Cycling Weekly",
+      "published_at": "2026-10-16T10:24:55Z",
+      "country": "Saudi",
+      "countries": [
+        "Saudi"
+      ],
+      "language": "en",
+      "category": "security",
+      "tag": "MISSILE REPORT",
+      "provider": "Google News · missiles/drones",
+      "first_seen_at": "2026-10-22T09:28:18.534715Z",
       "date_quality": "publisher-time",
       "freshness": "older-reporting",
       "context": "reporting",
@@ -47562,37 +47767,37 @@
     "Google News · missiles/drones": {
       "ok": true,
       "items": 100,
-      "relevant": 72
+      "relevant": 73
     },
     "Google News · security": {
       "ok": true,
       "items": 100,
-      "relevant": 67
+      "relevant": 66
     },
     "Google News · aviation": {
       "ok": true,
-      "items": 82,
+      "items": 83,
       "relevant": 78
     },
     "Google News · shipping": {
       "ok": true,
       "items": 100,
-      "relevant": 81
+      "relevant": 80
     },
     "Google News · diplomacy": {
       "ok": true,
       "items": 100,
-      "relevant": 45
+      "relevant": 46
     },
     "Google News · regional": {
       "ok": true,
-      "items": 52,
-      "relevant": 24
+      "items": 28,
+      "relevant": 13
     },
     "Reuters · indexed Gulf reporting": {
       "ok": true,
       "items": 100,
-      "relevant": 26
+      "relevant": 25
     },
     "AP · indexed Gulf reporting": {
       "ok": true,
@@ -47601,18 +47806,18 @@
     },
     "UKMTO · indexed official advisories": {
       "ok": true,
-      "items": 16,
+      "items": 15,
       "relevant": 0
     },
     "US State Dept · indexed advisories": {
       "ok": true,
-      "items": 4,
+      "items": 3,
       "relevant": 0
     },
     "عربي · إيران والخليج": {
       "ok": true,
       "items": 56,
-      "relevant": 42
+      "relevant": 43
     },
     "عربي · قطر": {
       "ok": true,
@@ -47626,23 +47831,23 @@
     },
     "عربي · الإمارات والبحرين": {
       "ok": true,
-      "items": 51,
-      "relevant": 46
+      "items": 52,
+      "relevant": 47
     },
     "عربي · الكويت والعراق": {
       "ok": true,
-      "items": 51,
-      "relevant": 47
+      "items": 52,
+      "relevant": 48
     },
     "عربي · مضيق هرمز": {
       "ok": true,
       "items": 100,
-      "relevant": 73
+      "relevant": 74
     },
     "عربي · الجزيرة": {
       "ok": true,
       "items": 100,
-      "relevant": 10
+      "relevant": 11
     },
     "عربي · العربية": {
       "ok": true,
@@ -47657,7 +47862,7 @@
     "عربي · وكالات الخليج": {
       "ok": true,
       "items": 100,
-      "relevant": 30
+      "relevant": 29
     },
     "الجزيرة نت · RSS عربي": {
       "ok": true,
@@ -47690,13 +47895,13 @@
       "relevant": 7
     },
     "UN News · Middle East (EN)": {
-      "ok": false,
-      "error": "not well-formed (invalid token): line 1, column 0"
-    },
-    "UN News · الشرق الأوسط (AR)": {
       "ok": true,
       "items": 30,
-      "relevant": 6
+      "relevant": 1
+    },
+    "UN News · الشرق الأوسط (AR)": {
+      "ok": false,
+      "error": "not well-formed (invalid token): line 1, column 0"
     },
     "Qatar News Agency · Qatar RSS": {
       "ok": true,
