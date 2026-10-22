@@ -19,6 +19,8 @@ concurrency:
   cancel-in-progress: false
 jobs:
   detect:
+    # If an owner-managed always-on collector is active, skip scheduled copies.
+    if: ${{ vars.EXTERNAL_DETECTOR_ACTIVE != 'true' || github.event_name != 'schedule' }}
     runs-on: ubuntu-latest
     timeout-minutes: 9
     steps:
