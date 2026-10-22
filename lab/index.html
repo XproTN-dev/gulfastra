@@ -1,14 +1,18 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#070f1c"><meta name="description" content="GULFASTRA X Impact Lab: source-backed relationships, original FRED indicators, historical comparisons and daily OSINT briefing.">
+<meta name="theme-color" content="#050506"><meta name="description" content="GULFASTRA X Impact Lab: source-backed relationships, original FRED indicators, historical comparisons and daily OSINT briefing.">
 <title>GULFASTRA X · Impact Lab</title>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../vendor/maplibre-gl.css?v=6-15-0">
-<link rel="stylesheet" href="../assets/impact-lab.css?v=12-6">
-</head><body data-theme="midnight"><div id="impactApp" class="lab-app">
+<link rel="stylesheet" href="../assets/impact-lab.css?v=13-0">
+<link rel="stylesheet" href="../assets/impact-themes.css?v=13-0">
+</head><body data-theme="crimson"><div id="impactApp" class="lab-app">
 <header class="lab-header">
  <a class="lab-brand" href="../command/" aria-label="Return to GULFASTRA Command Center"><span class="brand-glyph">◎</span><span><b>GULF<span>ASTRA</span></b><small>IMPACT INTELLIGENCE / X</small></span></a>
  <div class="lab-head-title"><span class="kicker">INTELLIGENCE RESEARCH</span><strong>EVENTS → RELATIONSHIPS → INDICATORS</strong></div>
- <div class="lab-header-buttons"><span id="labUTC" class="mono">--:-- UTC</span><button id="labLang" title="Toggle English/Arabic">EN / عربي</button><button id="labRefresh" title="Check for updated public data">↻ REFRESH</button><a href="../command/" class="lab-back">↩ COMMAND</a></div>
+ <div class="lab-header-buttons"><div class="theme-picker"><span class="theme-dot" aria-hidden="true"></span><label for="labTheme">THEME</label><select id="labTheme" aria-label="Choose color theme">
+<option value="crimson">◉ OBSIDIAN RED</option><option value="carbon">◈ CARBON</option>
+<option value="matrix">⌁ MATRIX</option><option value="arctic">◇ ARCTIC LIGHT</option>
+</select></div><span id="labUTC" class="mono">--:-- UTC</span><button id="labLang" title="Toggle English/Arabic">EN / عربي</button><button id="labRefresh" title="Check for updated public data">↻ REFRESH</button><a href="../command/" class="lab-back">↩ COMMAND</a></div>
 </header>
 <div class="lab-status" id="labStatus" data-level="checking"><span id="labFreshness">CONNECTING PUBLIC DATA</span><span id="labMacroAge">FRED: NOT LOADED</span><span id="labNew">NO LOCAL COMPARISON YET</span><span>PUBLIC DATA · NOT LIVE TICK PRICES OR VERIFIED CAUSATION</span></div>
 <div class="lab-metrics">
@@ -18,8 +22,8 @@
  <div><small>LAST 24H BRIEFING</small><b id="mBrief">—</b><span>new publication groups</span></div>
 </div>
 <div class="lab-tabs" role="tablist" aria-label="Impact Lab workspaces">
- <button data-view="map" role="tab">◎ WORLD MAP</button>
- <button data-view="graph" class="active" role="tab">◉ EVENT NETWORK</button>
+ <button data-view="map" class="active" role="tab">◎ LIVE MAP</button>
+ <button data-view="graph" role="tab">◉ EVENT NETWORK</button>
  <button data-view="timeline" role="tab">◷ TIME EXPLORER</button>
  <button data-view="markets" role="tab">⌁ MARKET INDICATORS</button>
  <button data-view="compare" role="tab">⇄ 2008 COMPARISON</button>
@@ -34,6 +38,8 @@
  <label for="graphMode">NETWORK PRESENTATION</label><div class="graph-modes" id="graphModes">
  <button data-mode="network" class="active">TOPICS</button><button data-mode="chronology">HEADLINES</button><button data-mode="spatial">RELATIONS</button>
  </div>
+ <div class="side-rule"></div><div class="subheading">VISUAL THEMES</div>
+ <div class="theme-preview"><i class="swatch-red"></i><i class="swatch-carbon"></i><i class="swatch-matrix"></i><i class="swatch-arctic"></i>4 COMPLETE THEMES · SAVED LOCALLY</div>
  <div class="side-rule"></div><div class="subheading">READING A CONNECTION</div>
  <p>Every line represents <strong>shared reported topic + country</strong> within 36 hours. It does not prove one incident caused another.</p>
  <div class="lab-key"><i style="--k:#e78f73"></i>Security reports</div>
@@ -50,6 +56,15 @@
   <section class="lab-map-host" id="labMapHost" aria-label="Interactive global evidence map" hidden>
    <div class="lab-map-stage">
     <div id="map" class="lab-map-canvas" role="application" aria-label="Interactive OpenFreeMap map with source-backed geographic layers"></div>
+    <div class="lab-map-window" id="labMapWindow" role="group" aria-label="Recent evidence publication window">
+     <span class="map-window-title">LATEST PUBLISHED</span>
+     <button data-map-hours="1" class="active" type="button">1H</button>
+     <button data-map-hours="2" type="button">2H</button>
+     <button data-map-hours="6" type="button">6H</button>
+     <button data-map-hours="12" type="button">12H</button>
+     <button data-map-hours="24" type="button">24H</button>
+     <select id="labMapCustomWindow" aria-label="More map time periods"><option value="">MORE</option><option value="48">48 HOURS</option><option value="168">7 DAYS</option></select>
+    </div>
     <div class="lab-map-toolbar">
      <button type="button" data-map-action="gulf">GULF</button>
      <button type="button" data-map-action="global">WORLD</button>
@@ -59,6 +74,7 @@
      <button type="button" data-map-action="zoom-out" aria-label="Zoom out">−</button>
     </div>
     <div id="mapFallback" class="lab-map-fallback" hidden>MAP NOT YET INITIALIZED</div>
+    <div class="lab-map-current" id="mapSourceFreshness">FETCHING SOURCE TIMESTAMPS</div>
     <div class="lab-map-disclaimer">Source-backed observations · GDACS advisory areas · country NEWS MENTIONS · static infrastructure. News markers are NOT incident positions, and nothing here confirms an active emergency.</div>
    </div>
    <div class="lab-map-layers" id="labMapLayers">
@@ -71,6 +87,13 @@
     <label><input type="checkbox" data-map-layer="outages"> <i style="--dot:#b7a0ef"></i> Country connectivity reports*</label>
     <div id="labMapCounts" class="lab-map-stats">Waiting for actual geographic data</div>
     <small>*Optional provider source; no simulated positions.</small>
+    <div class="lab-latest"><div class="lab-latest-head">LATEST SOURCE REPORTS <small id="labLatestAge">1H WINDOW</small></div>
+     <div id="labLatestReports" class="lab-latest-list"><p>Loading published reports…</p></div>
+    </div>
+    <div class="lab-direct-health"><strong>NON-NEWS SENSOR / PROVIDER PULSE</strong>
+     <div id="labDirectProviders">Checking USGS, NASA, EMSC, GDACS, NOAA…</div>
+     <div id="labSpaceWeather">Space-weather bulletins are global; they are not placed on map coordinates.</div>
+    </div>
    </div>
   </section>
   <div class="graph-footer" id="graphFooter"><div class="timeline-read"><b id="scrubTime">NOW</b><small id="scrubCount">SOURCE PUBLICATIONS ONLY</small></div><input type="range" min="0" max="100" value="100" step="1" id="labReplay" aria-label="Replay reported publications over 48 hours"><button id="labNow">↪ NOW</button><div class="window-buttons"><button data-window="48" class="active">48H</button><button data-window="168">7D</button></div></div>
@@ -80,18 +103,18 @@
  </aside>
 </div>
 <nav class="lab-mobile-nav" aria-label="Mobile workspaces">
- <button data-mobile-view="graph" class="active">◉<small>GRAPH</small></button>
+ <button data-mobile-view="graph">◉<small>GRAPH</small></button>
  <button data-mobile-view="markets">⌁<small>MARKETS</small></button>
  <button data-mobile-view="brief">▤<small>BRIEF</small></button>
  <button id="labFiltersOpen">☷<small>FILTERS</small></button>
- <button data-mobile-view="map">◎<small>MAP</small></button>
+ <button data-mobile-view="map" class="active">◎<small>MAP</small></button>
 </nav>
 <div id="labBackdrop" class="lab-backdrop" hidden></div>
 <div id="labToast" role="status" aria-live="polite"></div>
-<script defer src="../assets/command11-core.js?v=12-2"></script>
+<script defer src="../assets/command11-core.js?v=13-0"></script>
 <script defer src="../assets/command11-map.js?v=12-4"></script>
-<script defer src="../assets/impact-lab-map.js?v=12-4"></script>
+<script defer src="../assets/impact-lab-map.js?v=13-0"></script>
 <script defer src="../assets/impact-lab-render.js?v=12-6"></script>
-<script defer src="../assets/impact-lab.js?v=12-6"></script>
+<script defer src="../assets/impact-lab.js?v=13-0"></script>
 <script type="module" src="../assets/impact-map-bootstrap.mjs?v=12-4"></script>
 </div></body></html>
