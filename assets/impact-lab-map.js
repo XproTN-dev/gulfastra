@@ -130,6 +130,7 @@ function show(){
  if(!started&&root.maplibregl){
   started=M.init(showDetails,{style:"fiord",region:getFilter().country?"gulf":"global",globe:false});
  }
+ if(started)$("mapFallback").hidden=true;
  if(!started){
   const warning=$("mapFallback");
   warning.hidden=false;
