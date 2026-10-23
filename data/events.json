@@ -1,9 +1,234 @@
 {
   "schema": 5,
-  "generated_at": "2026-10-22T22:43:41.996389Z",
+  "generated_at": "2026-10-23T01:01:09.192224Z",
   "model": "deterministic-source-correlation-v2-coverage-lifecycle",
   "disclaimer": "Clusters are related PUBLIC REPORTS, not confirmed incidents. Source counts are not proof. Country names are mentions, not incident locations.",
   "events": [
+    {
+      "id": "GF-FAB3A4CF7798BC",
+      "title": "Saudi FM Holds Talks with Cyprus, Germany Counterparts",
+      "category": "diplomacy",
+      "topic": "diplomacy",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-23T00:58:49Z",
+      "last_published": "2026-10-23T00:58:49Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "8a564b902f070d12f338b5e6",
+          "title": "Saudi FM Holds Talks with Cyprus, Germany Counterparts",
+          "url": "https://qna.org.qa/en/News-Area/News/2026-10/23/saudi-fm-holds-talks-with-cyprus-germany-counterparts",
+          "source": "Qatar News Agency · General RSS",
+          "publisher_key": "qatar news agency general rss",
+          "provider": "Qatar News Agency · General RSS",
+          "published_at": "2026-10-23T00:58:49Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-23T01:00:48.563085Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Saudi"
+        }
+      ],
+      "coverage_stage": "new-coverage",
+      "coverage_first_published_at": "2026-10-23T00:58:49Z",
+      "coverage_last_published_at": "2026-10-23T00:58:49Z",
+      "current_reporting": true,
+      "recent_publisher_count": 1,
+      "recent_article_count": 1,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "deb2d602e8b4db5c8d3a",
+      "revision": 1,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
+    },
+    {
+      "id": "GF-DCA9DDF943D3D2",
+      "title": "Iran war live: Trump hints new strikes, says US knocked ‘hell out’ of Iran",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-23T00:00:00Z",
+      "last_published": "2026-10-23T00:00:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "0995f082b6b32febc7fb7801",
+          "title": "Iran war live: Trump hints new strikes, says US knocked ‘hell out’ of Iran",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/10/23/trump-hints-new-strikes-says-us-knocked-hell-out-of-iran?traffic_source=rss",
+          "source": "Al Jazeera RSS",
+          "publisher_key": "al-jazeera",
+          "provider": "Al Jazeera RSS",
+          "published_at": "2026-10-23T00:00:00Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-23T01:00:48.563085Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Iran"
+        }
+      ],
+      "coverage_stage": "new-coverage",
+      "coverage_first_published_at": "2026-10-23T00:00:00Z",
+      "coverage_last_published_at": "2026-10-23T00:00:00Z",
+      "current_reporting": true,
+      "recent_publisher_count": 1,
+      "recent_article_count": 1,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "fdf82d4049127ae569d5",
+      "revision": 1,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
+    },
+    {
+      "id": "GF-C863B5BE963428",
+      "title": "إسرائيل تحلق بعشرات المقاتلات قرب إيران وتبلغ واشنطن مسبقاً - العربية",
+      "category": "diplomacy",
+      "topic": "regional",
+      "countries": [
+        "Iran",
+        "Israel"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-22T23:36:00Z",
+      "last_published": "2026-10-22T23:36:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "dd188e96d4d7ad4d78659cf8",
+          "title": "إسرائيل تحلق بعشرات المقاتلات قرب إيران وتبلغ واشنطن مسبقاً - العربية",
+          "url": "https://news.google.com/rss/articles/CBMi_wNBVV95cUxNYjRHYmFhRGlqS1F1N1hFSi1WWkoyV1Y1cWZ3QWhYWXFfZ094dzR2UGhTOWhzSzQ1UDhISTJhdWM3QmotOGlESHp4eTNLMjBPVm5EalEwTk5iZTVZTEEydjNoS19pclg0N2VNVDE0Zl8yWWs3aWljaVJsTl9DMUo3OFhDNmx2bjFpMEJ5cXgyZ3NxYWE0a2d6WXR6WmdjYkhvNlFpdkJOWmhQUE5EZktyWlhmbkg2akJuTGwxbUE2VnJ5cUNEbDV1SVJ5a0ZEd0YxRUdtSEVRMEo4cFlVOVk2cm5HdlBSTHNxWUxnWk9CTkZWcWhlZXVxSC1ocDlKMWl3cVJoN3hydk9ZUE95VU5PSzkxWF8zekVFNW5ab0RTU085Y0JRbTU0Tm1CMTdlb0J4eW43ekxlWXhyMW9Yak1zVFRESnJsM19wY3Q5N0JPOU9nWjdUZmt5SXhTWEgtRHhtMWczRi1zVWQ4ZGVUd2NiWGlGTU1SOHluRjZsNVNTRE40b3FoNF9FVG1rQXZ3QVk5cjhvcF9lb1NVWmR5WWFYNWJZSHQ4SVpmNGJrd3B0M0pGQngtby1aemc3MlJXUmdoQW41VVdYRmpmLWVHZlYzZVZPQmdRY3lxY3AyQnl3MkNWWTFZZlc1c0lVSmNDS0ZwS0t0Qzc1NDhXVkpVTElF0gGEBEFVX3lxTE9RWkZsUW1mNXpaNVBSRDdJZ0NCTEl0MlMxUUp5SUNNeHhqWGdGdWU0UkJibDNkRXYzTmNySUowMmVOMGR2cThDR2h3eURmU1dJVEdraVFTdmRyYjRzN2VYeEp2QnMzdDd4SGNBSEFldWprZ1R4cEk2NTVYcERsQ3hqXzFiUFY5Q2VESjRyZXRQVHBuel9IRnVWQ0VrT240NjgteVZxaUVFbUFUeFRuelMzYVd0TXR2R2xpakZrZ0dDS2V0OGJOalVYWjNKZkVYRi1ERDNlZDdUQlA3STN3Uk1jOVMwbEhIeVNxUHlpTi1Kc0I1MHBCbF9vNzV5WnF0WFcyTmhaZFRLWmY1ZzRMbjZqbkZjVUxXS2tlQ3JCSkotdkxYS29VS0ZlT09WeHg5ZFlYX2tLcE9ZOWFJTkR1eGZSMWJuODdrV3hTbHJKcVRaZjA1NnM0NzB6RWdWZlg4YTMxTjQwVmxUQXhJazN5aVRVTXBWNjlCM29ZcEdkcGpPa0VieWZkZEFIbW1BZ0NiRXcxN0VjNkxSc0NfY3Jhbk1HQnJTMmd2cmxQUy1ldWh5cGpsY0NHN3kxaHVkRjlPR3Zib0E5RlVwZDNjWmZTRVVqcTQ5d2VFZnZFMmwxcXIzQkhuR1lORDdvZFh4Yi15ZkNrVWtLMjJlQ3dxal9naFhObF9WNw?oc=5",
+          "source": "العربية",
+          "publisher_key": "العربية",
+          "provider": "عربي · العربية",
+          "published_at": "2026-10-22T23:36:00Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-23T01:00:48.563085Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "new-coverage",
+      "coverage_first_published_at": "2026-10-22T23:36:00Z",
+      "coverage_last_published_at": "2026-10-22T23:36:00Z",
+      "current_reporting": true,
+      "recent_publisher_count": 1,
+      "recent_article_count": 1,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "0ec84b6d3aafeaf045d5",
+      "revision": 1,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
+    },
+    {
+      "id": "GF-2E51C0F1282AB2",
+      "title": "السعودية تعلن مقتل شخص وإصابة 8 جراء هجوم على مطار الملك فهد.. و\"كبار العلماء\": استهداف المقدسات والمدنيين \"إرهاب\" - CNN Arabic",
+      "category": "security",
+      "topic": "aviation",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-22T23:10:29Z",
+      "last_published": "2026-10-22T23:10:29Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "6a795f50eea64d674c6e691c",
+          "title": "السعودية تعلن مقتل شخص وإصابة 8 جراء هجوم على مطار الملك فهد.. و\"كبار العلماء\": استهداف المقدسات والمدنيين \"إرهاب\" - CNN Arabic",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPemtwTGVqSng0cWpCZ0hrVFEyY1lUb1daTXRwSllIMnAyRkNHSmVlVzJvYVY2WXdOak0yRjIwd1RXNlNlTXpsNmFtR2lNTWdUa1FLaVRRV1NnVEJ5bUt3TmVNZFFoQko2SGlCR3JuMGtDUkM5Wjg5VFZKYXRxd0xMd29jdVpQTnVzSXJBMTdKcFYtZnNiVzZTQ05LTzA1UG1RN1hhMEdsczEtVUJheEkwZGdaY1BDSnBHNnpQclRlVHZ3b2J5QU1lbnNJU1o0Zw?oc=5",
+          "source": "CNN Arabic",
+          "publisher_key": "cnn arabic",
+          "provider": "عربي · السعودية",
+          "published_at": "2026-10-22T23:10:29Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-22T15:38:38.755738Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Saudi"
+        }
+      ],
+      "coverage_stage": "new-coverage",
+      "coverage_first_published_at": "2026-10-22T23:10:29Z",
+      "coverage_last_published_at": "2026-10-22T23:10:29Z",
+      "current_reporting": true,
+      "recent_publisher_count": 1,
+      "recent_article_count": 1,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "6cc084e93fc06f42478d",
+      "revision": 4,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
+    },
     {
       "id": "GF-64862CEAAD0FF5",
       "title": "السعودية: هجمات الحوثيين تتواصل وصندوق النقد يتوقع انكماش الاقتصاد بنسبة 3,3%",
@@ -48,18 +273,74 @@
           "country": ""
         }
       ],
-      "coverage_stage": "new-coverage",
+      "coverage_stage": "recent-coverage",
       "coverage_first_published_at": "2026-10-22T22:38:15Z",
       "coverage_last_published_at": "2026-10-22T22:38:15Z",
-      "current_reporting": true,
-      "recent_publisher_count": 1,
-      "recent_article_count": 1,
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "68b79ea8d099fa2b3367",
+      "digest": "405b937a306bb9643e03",
+      "revision": 2,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
+    },
+    {
+      "id": "GF-F7EA0CD33A6CD3",
+      "title": "بعد أمطار اليوم في قطر.. متنبئ جوي يكشف عن حالة الطقس الجمعة والسبت - جريدة الشرق",
+      "category": "transport",
+      "topic": "aviation",
+      "countries": [
+        "Qatar"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-22T22:25:44Z",
+      "last_published": "2026-10-22T22:25:44Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "73955bf939511c41877fe331",
+          "title": "بعد أمطار اليوم في قطر.. متنبئ جوي يكشف عن حالة الطقس الجمعة والسبت - جريدة الشرق",
+          "url": "https://news.google.com/rss/articles/CBMiigRBVV95cUxQOEdjOXZPR01LUl9pLTl2dzVGcWI4bW9uMGQxTmZ0LXZsVTRmS3Z5M3JRR3hDY1Qza21QV1FoTUVselU5MWJFX3dXdURzZTVwZTJiMGI2Mk9Bc3RJYkNaM1daR095Vk10cHNwMjZFSzRaT3psVjhjZGp5Q3RTdjhvQlZ3UzFGMkJFazdQMlUteEk3NmlmOU1LZWFDZUtmMnlUbFVlcTFTMktuU055d1dxdFg0QndQMjY3TzZ3blVvVGhKVHpvbEpVOE1ENk14dWJUQlV1NElVV3JyUE95Zzc3WWdYdjhyV2NxcnBQWmhkdjZmSlN6eXhQLTNaSDNWV2JOdzYxaXlWUGNsQlF4SmM0RFFRYmlzbG9PUFoya3ZmU1FOWms3TUdIcURpV0RMOGhsdndmMWdxSS1iR1lveXM1ZFlnaXlBbHJuWE5fcTRNMXNHY2RyTTV0QnBvZWJNWTRIRUpnbnpacXR3M20zenhRMUFyUUtPRHpHdUliekRkMTRkaDRjQkhodlc5Ny00ZjdWSmpFOVZQcTVjTU1OQlRrUjVuU2JXNEowVmxFNmF0bHR0dl9wWDVVYlBLLWZqbV92SEw1dS04YU5YaHFEQXBrMlZSMldHaFA4eXVSdW5VdlRPdnZtQnhLOHlrdHB0a3dWcGc2X1UxRUtJS0w1VFJNQkNld0t3dUJyNFE?oc=5",
+          "source": "جريدة الشرق",
+          "publisher_key": "جريدة الشرق",
+          "provider": "عربي · قطر",
+          "published_at": "2026-10-22T22:25:44Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-23T01:00:48.563085Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Qatar"
+        }
+      ],
+      "coverage_stage": "recent-coverage",
+      "coverage_first_published_at": "2026-10-22T22:25:44Z",
+      "coverage_last_published_at": "2026-10-22T22:25:44Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "910a11708514780d327c",
       "revision": 1,
-      "updated_at": "2026-10-22T22:43:41.996389Z"
+      "updated_at": "2026-10-23T01:01:09.192224Z"
     },
     {
       "id": "GF-C93D904E21DDBC",
@@ -104,18 +385,18 @@
           "country": "Iran"
         }
       ],
-      "coverage_stage": "new-coverage",
+      "coverage_stage": "recent-coverage",
       "coverage_first_published_at": "2026-10-22T21:41:50Z",
       "coverage_last_published_at": "2026-10-22T21:41:50Z",
-      "current_reporting": true,
-      "recent_publisher_count": 1,
-      "recent_article_count": 1,
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "d8e3ec4266da21685d89",
-      "revision": 1,
-      "updated_at": "2026-10-22T22:43:41.996389Z"
+      "digest": "054e70089092fa7b829a",
+      "revision": 2,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
     },
     {
       "id": "GF-5CCE448773401F",
@@ -160,18 +441,18 @@
           "country": "Iran"
         }
       ],
-      "coverage_stage": "new-coverage",
+      "coverage_stage": "recent-coverage",
       "coverage_first_published_at": "2026-10-22T21:33:00Z",
       "coverage_last_published_at": "2026-10-22T21:33:00Z",
-      "current_reporting": true,
-      "recent_publisher_count": 1,
-      "recent_article_count": 1,
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "ce799529cd5b22063dc3",
-      "revision": 1,
-      "updated_at": "2026-10-22T22:43:41.996389Z"
+      "digest": "3a6c55ab7c0bec8fdab2",
+      "revision": 2,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
     },
     {
       "id": "GF-7357BEAF7A702E",
@@ -217,18 +498,74 @@
           "country": ""
         }
       ],
-      "coverage_stage": "new-coverage",
+      "coverage_stage": "recent-coverage",
       "coverage_first_published_at": "2026-10-22T21:30:00Z",
       "coverage_last_published_at": "2026-10-22T21:30:00Z",
-      "current_reporting": true,
-      "recent_publisher_count": 1,
-      "recent_article_count": 1,
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "71ee91edc3c855c9521b",
+      "digest": "178b4b26337ecec84873",
+      "revision": 2,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
+    },
+    {
+      "id": "GF-C7750613F6C549",
+      "title": "تصاعد المواجهات في اليمن.. وتعثر المفاوضات بين واشنطن وطهران - NOW الشرق",
+      "category": "diplomacy",
+      "topic": "diplomacy",
+      "countries": [
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-22T21:24:54Z",
+      "last_published": "2026-10-22T21:24:54Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "3f7ff0aa617947029278df44",
+          "title": "تصاعد المواجهات في اليمن.. وتعثر المفاوضات بين واشنطن وطهران - NOW الشرق",
+          "url": "https://news.google.com/rss/articles/CBMiigRBVV95cUxOOS1hTXpsbVJNbURuZGpVam1STm1TdU9zU3NETzlvOTlqOHdlMFE1UUtTam1YNUlWbG5SVUZRSW5hVGR2UTMtZ3dSOGpnbUVyVmlqeWstOFRSdXpDckhXUW9ka1VVdVprTXJ5ZFlsZHp3ZjVKZ2taOHUwaXFOaTZ6Wlg0RVdSUm5pQmZrNWNfd0JOV0puTHVPdlQ4S3Q2V1pqcWl1MkstRWZHRnJiV2ZSSi1Ta2JBd09lUWRfS01ScXBNY05aUHFEc1EwMF9NY2FSejFyaExWWF9QNDA5dWxVaVhaSFBnUDNScEJJSGU3M1hVUGUyLUx6Ml92NFVxdWRPak01RFRobkF5cEVMMHl4dWVHMG9VOGxMR191VUx4b1hNUWtHeTB2X1dwd0pFaGNYUHFmNDlGRHBVODBudHF6c1Vya1dMV1ZtVGNycHNUWGI2eHY1ckRIc040U29RR2dwLVZodGJpZVJCeUtIZ3U4Y01teEE2S3N2OWNMcHNSNTBMUHQwdUhLZUtaVDhGVXRMc1p1VXIzWS16MmNSRnp0ME1UcGRfSTJubmE0QlJHLUVOSXZFSmlSczhWYkwzNnIwa0MzcjBsdjNZM1FacFUyVXRDZExqSWFzakYwWlVJdHVLU3duOEpZdzFOdHRsaFp1cjZUSlp3bkpLd01JUEdCX3pSU3drMk1OeFE?oc=5",
+          "source": "NOW الشرق",
+          "publisher_key": "now الشرق",
+          "provider": "عربي · الشرق",
+          "published_at": "2026-10-22T21:24:54Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-23T01:00:48.563085Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Yemen"
+        }
+      ],
+      "coverage_stage": "recent-coverage",
+      "coverage_first_published_at": "2026-10-22T21:24:54Z",
+      "coverage_last_published_at": "2026-10-22T21:24:54Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "f57aa269a69d0e8b4473",
       "revision": 1,
-      "updated_at": "2026-10-22T22:43:41.996389Z"
+      "updated_at": "2026-10-23T01:01:09.192224Z"
     },
     {
       "id": "GF-FF89F69DD1FB93",
@@ -273,18 +610,130 @@
           "country": "Iran"
         }
       ],
-      "coverage_stage": "new-coverage",
+      "coverage_stage": "recent-coverage",
       "coverage_first_published_at": "2026-10-22T21:21:00Z",
       "coverage_last_published_at": "2026-10-22T21:21:00Z",
-      "current_reporting": true,
-      "recent_publisher_count": 1,
-      "recent_article_count": 1,
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "deb964e5d24cce33b271",
+      "digest": "68c11023aaf0d4187641",
+      "revision": 2,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
+    },
+    {
+      "id": "GF-5A94861D2D259C",
+      "title": "العالم الليلة | ترمب يتهم إيران بفبركة هجمات في هرمز.. ونتنياهو يتوعد بإسقاط النظام - العربية",
+      "category": "security",
+      "topic": "interception",
+      "countries": [
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-22T21:18:00Z",
+      "last_published": "2026-10-22T21:18:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "17fd2c45e91ee5cd3938c960",
+          "title": "العالم الليلة | ترمب يتهم إيران بفبركة هجمات في هرمز.. ونتنياهو يتوعد بإسقاط النظام - العربية",
+          "url": "https://news.google.com/rss/articles/CBMilgVBVV95cUxPTHk4NHVLbTU2QnpkRjB5cFNQWmprY2c3VmtWcGZLYU04YnhzUzdSNkJuUE1DZFFHcC1XV2hjWC1CQmF6WnEzWE9id3lkTEgwRmFubkJBeGQ1VHVCbEk3bml3dGNxN0g2SEgyV0JWaUhBSXFrMUlLNXc3R0MwWW9jeVpnZzN2Q19QdWh2NnZhVUxWMVNLaGo2RE1MZDVyejBRb2prR25tMTBubHZKOUg5emZjMHV1QkVadG9MUnIwb0oyMHVxWWxIOGdHay1wWjFvc3RGTTdmN3d0M0xzVDRocm5za2pWVWpoNDZoNXRMWW9MV2ZRYnhOdVdIRzNSTFk5bEdQVm5FaldEb0plaUNPRWxCY3V2MDBPYjlyRVctZGtmU0dGLWxqbGlJdHpVV0F1SlVlQjFBTTFpUEZmbHZRMWlCaENSYnI3VTZSRVhVODlaSEhTUWpoQ3pmdGZOOFZJdW1fbVNaOE5NOTUzdmszdFVFWEVRdks3c1pkeUI5S29LcUZrWlZWcWNmZDdTSWVLYUFNbHZnRzA5RkwwdFNpQTZiV0RnQU5qNmlsemRoamJJejVaX1k3WlFDdnNrVmZmcE9hMmhBNW5ac0F6Tm5rUHFrWUNOamh6VC05X1dXV1lzY1A0dlE5R3pLTEoxSHB0VUFKUXN2YWxoUXp0Uko2Sl9UVVhfUHNqdU9SR1Q1UC1hU2cwNF9sRWsyWDFTTk54cWN3eVBHOVJjSnJjcGt0TTRGZlVRY3lhcVBlWHpEREVzTlQ3emhyWlBZaExQcTdMSklpNmt3UXlWSG8wak9sU3Faa3pQOEJPc1p6Nk9yaFJZUU1JNXREWWhxY1NCMGFLVDJHRlRSaWRvOVpaRW5sQkE1Y2czQdIBmwVBVV95cUxPWS1JMUNYUlNmUU5YaEllUlFkc0l2elRucktlakxkTWJoU3JoV0I1bl9mMXUyOGgyU1VBNVRmYndhbDQxYVZLNTdMa0k0cF8tYjlKLThSWUhBdTZsQ3cxTkRJejJqZVJvUWxUWUFnWUU0VGlvM0VPLWwxQWZ5Xy1wQjA1T1lWN19MeXRCWGtWZmpGNUg2a1FBRWVUXzlzSnZweGw1SlctOFBxdXhkdUE0dFhLY1l3V0V4UkRXMHlWVGlvbEVqb1Z4VGpCS2E0NndkVVlnZERwMHpyaXRPdC1Bd1JXaUhDdFI1M2h6dldiLWxyX2RSckdKTUNrbVVkOVlya2ExYXFmWWtKcDdieFFDWXZCUjNGc19BNVFFU25YdzNYU2hUWE1RUjBWSzhGNUo5RXhySlNvY3VYbzFVTy1QcG1MQVNLTzlMR09NSW1Ick56UU1HM2FSNHRtZ09tSzVsSHB3ckU2N2dDVmYyQ1pVYTRzX0M0MXdhUTNLNW5NMGtRcWh5NTBQSnhGM3BqSFpESzJBMnk0bUIyV1ZfSFBPcVBvWWYyUWNjYlNEX1ZleWJNTWxEWXNVT0lfanJpSW5Lbzh2eUIzc01DUFlON08yYkZoSjdlY2NCUDhXaFJsazR4NmU1S1dfd3lOaGQ4YXJ6emJ1d3FfdnZsdGJIbV9mNjNMcnhtZTh3ZGl0d2U0dFg2NTNEb1pWbHM5WnVYdk1EdHA3M19mNGZqeW9BanE5dExaTXc0RDg0NmtnY3dxMVNhN2RSc1lPUDZ3LTgzb2pDNlEyR0ZSdUF0Qm42WVozbG94YWJSRk5ZOHd6Nmd5cXVIR3JJeXcxUUowX1ByTkFQcVBGV082VkdVcTMzQW1nckZhUWNETERfNEZB?oc=5",
+          "source": "العربية",
+          "publisher_key": "العربية",
+          "provider": "عربي · العربية",
+          "published_at": "2026-10-22T21:18:00Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-23T01:00:48.563085Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Iran"
+        }
+      ],
+      "coverage_stage": "recent-coverage",
+      "coverage_first_published_at": "2026-10-22T21:18:00Z",
+      "coverage_last_published_at": "2026-10-22T21:18:00Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "91b42e3a1e13c48173d1",
       "revision": 1,
-      "updated_at": "2026-10-22T22:43:41.996389Z"
+      "updated_at": "2026-10-23T01:01:09.192224Z"
+    },
+    {
+      "id": "GF-CC3DE058A6A0F5",
+      "title": "Oil Prices Jump After Houthi Strikes and Iranian Shipping Attacks - The Maritime Executive",
+      "category": "security",
+      "topic": "maritime",
+      "countries": [
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-22T21:12:08Z",
+      "last_published": "2026-10-22T21:12:08Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "4798f13ff8c4a1da7e61e176",
+          "title": "Oil Prices Jump After Houthi Strikes and Iranian Shipping Attacks - The Maritime Executive",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWW1DNFFSdW93ckIyNGNFNkJ4ekpscEZiMGtUQjJVSm9rZFdrVGg4VkozMmNHQVd4ZzFvd1hvZDVqV2dVOVJtbFhtUkFoX3d6b0NQYTQ0d3VzdER0dUVvY3R5OEUwS1FoZkNYdE1UNnRMY1dha1AxcWRPMDRmanh1TDZ4NmNXVGQ3TF92M2NYZk9ZcE5hdjlzcWRjMllaTGRBTHk2OVA3RQ?oc=5",
+          "source": "The Maritime Executive",
+          "publisher_key": "the maritime executive",
+          "provider": "Google News · shipping",
+          "published_at": "2026-10-22T21:12:08Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-23T01:00:48.563085Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Yemen"
+        }
+      ],
+      "coverage_stage": "recent-coverage",
+      "coverage_first_published_at": "2026-10-22T21:12:08Z",
+      "coverage_last_published_at": "2026-10-22T21:12:08Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "5da320cf126e138826f5",
+      "revision": 1,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
     },
     {
       "id": "GF-B98AB58A6697C1",
@@ -330,18 +779,18 @@
           "country": ""
         }
       ],
-      "coverage_stage": "new-coverage",
+      "coverage_stage": "recent-coverage",
       "coverage_first_published_at": "2026-10-22T21:09:54Z",
       "coverage_last_published_at": "2026-10-22T21:09:54Z",
-      "current_reporting": true,
-      "recent_publisher_count": 1,
-      "recent_article_count": 1,
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "e9dbbe39bbf9c0a25e0c",
-      "revision": 2,
-      "updated_at": "2026-10-22T22:43:41.996389Z"
+      "digest": "b230d7a859af404c944f",
+      "revision": 3,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
     },
     {
       "id": "GF-F09FC7308962F1",
@@ -384,18 +833,74 @@
           "country": ""
         }
       ],
-      "coverage_stage": "new-coverage",
+      "coverage_stage": "recent-coverage",
       "coverage_first_published_at": "2026-10-22T21:04:06Z",
       "coverage_last_published_at": "2026-10-22T21:04:06Z",
-      "current_reporting": true,
-      "recent_publisher_count": 1,
-      "recent_article_count": 1,
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "ec89f954ba74a177ec26",
-      "revision": 1,
-      "updated_at": "2026-10-22T22:43:41.996389Z"
+      "digest": "d685debec85ff7cae5ea",
+      "revision": 2,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
+    },
+    {
+      "id": "GF-78A1C1EC8A6481",
+      "title": "السعودية تعترض 4 مسيرات في الرياض والمدينة المنورة - صحيفة الخليج",
+      "category": "security",
+      "topic": "interception",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-22T21:00:12Z",
+      "last_published": "2026-10-22T21:00:12Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "49e8554bc8fdfb5eab94e290",
+          "title": "السعودية تعترض 4 مسيرات في الرياض والمدينة المنورة - صحيفة الخليج",
+          "url": "https://news.google.com/rss/articles/CBMikwRBVV95cUxPWk96NFVYZzdsTDlZekdYX2hTZnk2cXlQQUliemx1SkJRQzVPN2RPYWVTTGVEWUE2YnhlT19PUVRsZlFhQW5xWUszNHo0MWs3UXUxOW5Xb2tQdUozSGZqMDRJeGtrcDMyc2RVSHU3VkRsOFlYQ2xQVUZlV3hnbE9pbUZnYVJJVVlpU1U0ODJXRmoxbHZNcXN4aWxjcDctYXptOUgxY3VLbDVqdWFMLWFkZjBZV1g3cEpTVGdiN2ZVM0FtV2hWVEx1Nk1ZM2x3N3J1WnNRdDFGWEw1bWRUN016WXMtTUt4eXNjdUlVNGpmR0tLNTYzMWRyTnZVaHdFRzFleFdBSFVhdW11ZUgtei11aUYwNFBKZVBPbzAtb0hkRGhmNWIzX3VYTWlyZm5za1lpWFlRZmJJSC12Wl96YVVQdG5Ja1puRDFVcm90a1dsM1dFSk1rbEo1cEFTQ1Mzck4yTkZIWDF2NTV1bWY3MlltazdaeXEyTWJmQ3RwMlo4Rl9kQmZyd3h1RWRWYTJ6RWdfRWRqc2c4Tjl0Z1l1RmpXdTRvZlAzNE1PYnJNcW5wZk03bXNwM3d3c3drWXA0UkpyOGhGOXR1emxUWDVsVmhnU2hrVmFxR0tYYkZSZDVZa3U2NjhBTHdOLTVGVjE5WHFKbUh6dDZ6UzBHS3hsNmY3N1p0M19FZ2NRVlJJNEZQZUJXOEE?oc=5",
+          "source": "صحيفة الخليج",
+          "publisher_key": "صحيفة الخليج",
+          "provider": "عربي · إيران والخليج",
+          "published_at": "2026-10-22T21:00:12Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-22T15:38:38.755738Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Saudi"
+        }
+      ],
+      "coverage_stage": "recent-coverage",
+      "coverage_first_published_at": "2026-10-22T21:00:12Z",
+      "coverage_last_published_at": "2026-10-22T21:00:12Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "2bd3d92fc737168ab062",
+      "revision": 2,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
     },
     {
       "id": "GF-5D706D1C05E8F6",
@@ -440,18 +945,18 @@
           "country": "Saudi"
         }
       ],
-      "coverage_stage": "new-coverage",
+      "coverage_stage": "recent-coverage",
       "coverage_first_published_at": "2026-10-22T20:58:38Z",
       "coverage_last_published_at": "2026-10-22T20:58:38Z",
-      "current_reporting": true,
-      "recent_publisher_count": 1,
-      "recent_article_count": 1,
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "2d65a18c1a12309b7ae3",
-      "revision": 1,
-      "updated_at": "2026-10-22T22:43:41.996389Z"
+      "digest": "dcaebfdfcedc1ac1be77",
+      "revision": 2,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
     },
     {
       "id": "GF-C1472531A9BEBA",
@@ -497,18 +1002,18 @@
           "country": ""
         }
       ],
-      "coverage_stage": "new-coverage",
+      "coverage_stage": "recent-coverage",
       "coverage_first_published_at": "2026-10-22T20:58:09Z",
       "coverage_last_published_at": "2026-10-22T20:58:09Z",
-      "current_reporting": true,
-      "recent_publisher_count": 1,
-      "recent_article_count": 1,
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "659e887728c0559eabf1",
-      "revision": 1,
-      "updated_at": "2026-10-22T22:43:41.996389Z"
+      "digest": "b604645acb6fdf79f2af",
+      "revision": 2,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
     },
     {
       "id": "GF-161AF2ED188231",
@@ -535,8 +1040,8 @@
       ],
       "publisher_count": 1,
       "report_count": 1,
-      "first_published": "2026-10-22T20:54:39Z",
-      "last_published": "2026-10-22T20:54:39Z",
+      "first_published": "2026-10-22T20:52:00Z",
+      "last_published": "2026-10-22T20:52:00Z",
       "event_occurred_at": null,
       "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
       "sources": [
@@ -547,7 +1052,7 @@
           "source": "The Times of Israel",
           "publisher_key": "the times of israel",
           "provider": "Google News · missiles/drones",
-          "published_at": "2026-10-22T20:54:39Z",
+          "published_at": "2026-10-22T20:52:00Z",
           "date_quality": "publisher-time",
           "first_seen_at": "2026-10-22T22:43:31.946952Z",
           "collected_at": null,
@@ -555,18 +1060,18 @@
           "country": ""
         }
       ],
-      "coverage_stage": "new-coverage",
-      "coverage_first_published_at": "2026-10-22T20:54:39Z",
-      "coverage_last_published_at": "2026-10-22T20:54:39Z",
-      "current_reporting": true,
-      "recent_publisher_count": 1,
-      "recent_article_count": 1,
+      "coverage_stage": "recent-coverage",
+      "coverage_first_published_at": "2026-10-22T20:52:00Z",
+      "coverage_last_published_at": "2026-10-22T20:52:00Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "0136ecbb02973f5d4e78",
-      "revision": 1,
-      "updated_at": "2026-10-22T22:43:41.996389Z"
+      "digest": "61d18e7239040a7b83d4",
+      "revision": 2,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
     },
     {
       "id": "GF-A1AD41E3D2E19C",
@@ -612,18 +1117,18 @@
           "country": ""
         }
       ],
-      "coverage_stage": "new-coverage",
+      "coverage_stage": "recent-coverage",
       "coverage_first_published_at": "2026-10-22T20:52:00Z",
       "coverage_last_published_at": "2026-10-22T20:52:00Z",
-      "current_reporting": true,
-      "recent_publisher_count": 1,
-      "recent_article_count": 1,
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "fdd2b9c7422c25321aeb",
-      "revision": 1,
-      "updated_at": "2026-10-22T22:43:41.996389Z"
+      "digest": "39d453ec529ce1e4746b",
+      "revision": 2,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
     },
     {
       "id": "GF-5F992D00282B5B",
@@ -669,18 +1174,18 @@
           "country": ""
         }
       ],
-      "coverage_stage": "new-coverage",
+      "coverage_stage": "recent-coverage",
       "coverage_first_published_at": "2026-10-22T20:50:05Z",
       "coverage_last_published_at": "2026-10-22T20:50:05Z",
-      "current_reporting": true,
-      "recent_publisher_count": 1,
-      "recent_article_count": 1,
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "beb509efe35888610bec",
-      "revision": 1,
-      "updated_at": "2026-10-22T22:43:41.996389Z"
+      "digest": "aa6cc7d579aa854ff8f9",
+      "revision": 2,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
     },
     {
       "id": "GF-E0FFA42B77DD88",
@@ -725,18 +1230,72 @@
           "country": "Iraq"
         }
       ],
-      "coverage_stage": "new-coverage",
+      "coverage_stage": "recent-coverage",
       "coverage_first_published_at": "2026-10-22T20:49:07Z",
       "coverage_last_published_at": "2026-10-22T20:49:07Z",
-      "current_reporting": true,
-      "recent_publisher_count": 1,
-      "recent_article_count": 1,
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "3bcad254c5eaeae72faf",
+      "digest": "e1cbdeea0fdac27e7190",
+      "revision": 2,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
+    },
+    {
+      "id": "GF-63AD4B9FB3BC0D",
+      "title": "Hormuz and Red Sea disruption squeezes food supplies, UN warns - UN News",
+      "category": "transport",
+      "topic": "maritime",
+      "countries": [],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-22T20:40:26Z",
+      "last_published": "2026-10-22T20:40:26Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "cecfc468b3a598d65e1351f5",
+          "title": "Hormuz and Red Sea disruption squeezes food supplies, UN warns - UN News",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE56bXJ6Mm9aYjRTTWcwbjZzRTdhYWNsRElPRmNnYTlueUc1WXpzNmFOd1lPR3VkMVVUSzc5bWQ2YVZNRmhGempSUGp5S3k2a2cyWUlNWjdIbw?oc=5",
+          "source": "UN News",
+          "publisher_key": "un-news",
+          "provider": "Google News · shipping",
+          "published_at": "2026-10-22T20:40:26Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-23T01:00:48.563085Z",
+          "collected_at": null,
+          "language": "en",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "recent-coverage",
+      "coverage_first_published_at": "2026-10-22T20:40:26Z",
+      "coverage_last_published_at": "2026-10-22T20:40:26Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "5b4258f1e4b6c2138436",
       "revision": 1,
-      "updated_at": "2026-10-22T22:43:41.996389Z"
+      "updated_at": "2026-10-23T01:01:09.192224Z"
     },
     {
       "id": "GF-CCE1AA6E5B228F",
@@ -835,7 +1394,7 @@
       "publisher_count": 1,
       "report_count": 2,
       "first_published": "2026-10-22T17:13:06Z",
-      "last_published": "2026-10-22T20:26:15Z",
+      "last_published": "2026-10-22T20:30:31Z",
       "event_occurred_at": null,
       "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
       "sources": [
@@ -846,7 +1405,7 @@
           "source": "الجزيرة نت",
           "publisher_key": "al-jazeera",
           "provider": "عربي · مضيق هرمز",
-          "published_at": "2026-10-22T20:26:15Z",
+          "published_at": "2026-10-22T20:30:31Z",
           "date_quality": "publisher-time",
           "first_seen_at": "2026-10-22T22:43:31.946952Z",
           "collected_at": null,
@@ -870,16 +1429,16 @@
       ],
       "coverage_stage": "recent-coverage",
       "coverage_first_published_at": "2026-10-22T17:13:06Z",
-      "coverage_last_published_at": "2026-10-22T20:26:15Z",
+      "coverage_last_published_at": "2026-10-22T20:30:31Z",
       "current_reporting": false,
       "recent_publisher_count": 0,
       "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "325282afe3203c61b6c6",
-      "revision": 1,
-      "updated_at": "2026-10-22T22:43:41.996389Z"
+      "digest": "6ba53bbfa8b764155aa3",
+      "revision": 2,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
     },
     {
       "id": "GF-63196B255CF1A1",
@@ -995,7 +1554,7 @@
     },
     {
       "id": "GF-1509F1A56F366D",
-      "title": "US, Israel have drawn up detailed plans for renewed strikes on Iran - The Jerusalem Post",
+      "title": "US, Israel plan renewed Iran strikes after midterms, focusing on short, intense attacks - report - The Jerusalem Post",
       "category": "security",
       "topic": "regional",
       "countries": [
@@ -1024,7 +1583,7 @@
       "sources": [
         {
           "id": "40646fcecaa7e2248ba99889",
-          "title": "US, Israel have drawn up detailed plans for renewed strikes on Iran - The Jerusalem Post",
+          "title": "US, Israel plan renewed Iran strikes after midterms, focusing on short, intense attacks - report - The Jerusalem Post",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1VWmlfQ1hBVlVBX1JjQ0xkR25hSVA2UU93UmRvRVVKelJucUNHRDZUcUhtWXg1OGxMSkd4a18zZEMzU3RwZy1YdkNSV3dZS1c3ekV4X0xIUXZNVmUtNEUwMkF2eE9Va3lHRGc?oc=5",
           "source": "The Jerusalem Post",
           "publisher_key": "the jerusalem post",
@@ -1046,9 +1605,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "4bd2bc584e982596fc82",
-      "revision": 3,
-      "updated_at": "2026-10-22T22:43:41.996389Z"
+      "digest": "0010979dc9b78ea9fed4",
+      "revision": 4,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
     },
     {
       "id": "GF-168803D71F1A81",
@@ -1642,6 +2201,20 @@
           "country": ""
         },
         {
+          "id": "d10e09385f8d30f7f9453c63",
+          "title": "الإمارات تدين بشدة هجوم جماعة الحوثي على مطار الملك فهد - سكاي نيوز عربية",
+          "url": "https://news.google.com/rss/articles/CBMiwgNBVV95cUxNUHJpM21WSlBKY3BxS2hvaG9nWWpwMk14dkdzSVZSMm03eFJ6aEJxWnhQT21hR0RPb3pRTnZJNEt0Ry1uLVkwcUdMcTM0T2FZWVJwYURmeDIzQkVGRXBqcFZzeUV6VmlHYXRYM3dlV1lFTGdhaWI1N1pXbHdIZmdCWDBwQjlkMUQ0Q0w4dDdoOGVrSU02aUppYlpQRF9sa0hiUWoxTzNuY3FCeGxKc09PZTd6aG96S3ZsZGFybm1tUWpBczJKamx4d1V5VVBERnZzQkI2X0VYVTZjbl9lZjFQSUJyeWVYcF80S0U2dGJWMW5IRmtRS1RhNUFDVl9FcnlhTmVkVXpiNVNNb2x5anBfM3h2d3ZYZlJVandFcjU1T2ZOUjlaX05lLTM4SXpFd1RmR3JIX3hmVEhfdUR1RlcxZktnMUZOblBjN2FDR0lWUHI1SnFER2hUOUIyV09xcHlTMXFZU1FkYlJXQktJak1NWjdZbXl6WGNaNnpvdjBISmFLcDZmVjRFVVVTWnpsTWQ4SktxYWR2YWs0WXBTVDBHQVNWVkpwV1NCSk14UjFBSTdwNkNkOXNtREl2cFdTeVE4ZmfSAccDQVVfeXFMTk1uX3h1bGNHWWJQX2RIUVZ5SEliODg2RVJ2bmVaSkxYU18xdDFrTk5raTJhUjhiNEdkd3V3ekpFYjlObWxydnBKcGpsSXY4QU5KT2t5aktYSHYyRWZDUDVwYUQxNEhxSUEyb2NpalVaU3RTYWctOFphNTRCWlVhR1pDT005cXpuRkJvUm91RDNYbXkxR0R1QThCMElfX3JTeVk4U0lyUjktRjdYVGNzc1J1cVVIS2VINktnZ0doN0FkM2VhakhVZ3ZnWG1sMUd1ZHY3TWQ1T0w4OUNHVURrTHJGdkh0MUotUW10clNkZmhVYmpRcTNiZVFpbmNPTVViYzZPWVFGUVpBTldHMlA2MExtT0I0VEJiVmpBY3hhblUweDkzdk9HY1RVVy1Da2RSdllBMmNtVHRhNkdDY2p1SHcwclgxLUtVZ1pHNEpPMi1nQ1lpejFhbnBZZ0x4ZGhEaHd1bmJGRUFYUWhSQ1pmZllYXy03a0dyNlp3TVpBNTktQi1ZMHg5RWpwLUhfdEI5eHIxUWZYUDd6ZGxlT0NWVF9UZFVGVllJZWpBRmRhWFRPNHJmdkpxb0ZNUUNvZ2Q0S2R0MGN3VzA?oc=5",
+          "source": "سكاي نيوز عربية",
+          "publisher_key": "سكاي نيوز عربية",
+          "provider": "عربي · الإمارات والبحرين",
+          "published_at": "2026-10-22T17:35:12Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-22T19:31:34.158129Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        },
+        {
           "id": "1a8e91f3d398aab3dd2d77d9",
           "title": "الإمارات تدين بشدة هجوم جماعة الحوثي على مطار الملك فهد الدولي - شبكة تواصل الإخبارية",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1tVnlYOXVobksyTVJxc09nUjN3NndiTGVkTlFLOVVCczl3Qzd2bGs4T2s1SF9TSlFJVDdIb3d4OExvbXh2U1Z4TGtBUEFSc2hzR3ZF?oc=5",
@@ -1663,20 +2236,6 @@
           "publisher_key": "آخر خبر",
           "provider": "عربي · الإمارات والبحرين",
           "published_at": "2026-10-22T17:30:31Z",
-          "date_quality": "publisher-time",
-          "first_seen_at": "2026-10-22T19:31:34.158129Z",
-          "collected_at": null,
-          "language": "ar",
-          "country": ""
-        },
-        {
-          "id": "d10e09385f8d30f7f9453c63",
-          "title": "الإمارات تدين بشدة هجوم جماعة الحوثي على مطار الملك فهد - سكاي نيوز عربية",
-          "url": "https://news.google.com/rss/articles/CBMiwgNBVV95cUxNUHJpM21WSlBKY3BxS2hvaG9nWWpwMk14dkdzSVZSMm03eFJ6aEJxWnhQT21hR0RPb3pRTnZJNEt0Ry1uLVkwcUdMcTM0T2FZWVJwYURmeDIzQkVGRXBqcFZzeUV6VmlHYXRYM3dlV1lFTGdhaWI1N1pXbHdIZmdCWDBwQjlkMUQ0Q0w4dDdoOGVrSU02aUppYlpQRF9sa0hiUWoxTzNuY3FCeGxKc09PZTd6aG96S3ZsZGFybm1tUWpBczJKamx4d1V5VVBERnZzQkI2X0VYVTZjbl9lZjFQSUJyeWVYcF80S0U2dGJWMW5IRmtRS1RhNUFDVl9FcnlhTmVkVXpiNVNNb2x5anBfM3h2d3ZYZlJVandFcjU1T2ZOUjlaX05lLTM4SXpFd1RmR3JIX3hmVEhfdUR1RlcxZktnMUZOblBjN2FDR0lWUHI1SnFER2hUOUIyV09xcHlTMXFZU1FkYlJXQktJak1NWjdZbXl6WGNaNnpvdjBISmFLcDZmVjRFVVVTWnpsTWQ4SktxYWR2YWs0WXBTVDBHQVNWVkpwV1NCSk14UjFBSTdwNkNkOXNtREl2cFdTeVE4ZmfSAccDQVVfeXFMTk1uX3h1bGNHWWJQX2RIUVZ5SEliODg2RVJ2bmVaSkxYU18xdDFrTk5raTJhUjhiNEdkd3V3ekpFYjlObWxydnBKcGpsSXY4QU5KT2t5aktYSHYyRWZDUDVwYUQxNEhxSUEyb2NpalVaU3RTYWctOFphNTRCWlVhR1pDT005cXpuRkJvUm91RDNYbXkxR0R1QThCMElfX3JTeVk4U0lyUjktRjdYVGNzc1J1cVVIS2VINktnZ0doN0FkM2VhakhVZ3ZnWG1sMUd1ZHY3TWQ1T0w4OUNHVURrTHJGdkh0MUotUW10clNkZmhVYmpRcTNiZVFpbmNPTVViYzZPWVFGUVpBTldHMlA2MExtT0I0VEJiVmpBY3hhblUweDkzdk9HY1RVVy1Da2RSdllBMmNtVHRhNkdDY2p1SHcwclgxLUtVZ1pHNEpPMi1nQ1lpejFhbnBZZ0x4ZGhEaHd1bmJGRUFYUWhSQ1pmZllYXy03a0dyNlp3TVpBNTktQi1ZMHg5RWpwLUhfdEI5eHIxUWZYUDd6ZGxlT0NWVF9UZFVGVllJZWpBRmRhWFRPNHJmdkpxb0ZNUUNvZ2Q0S2R0MGN3VzA?oc=5",
-          "source": "سكاي نيوز عربية",
-          "publisher_key": "سكاي نيوز عربية",
-          "provider": "عربي · الإمارات والبحرين",
-          "published_at": "2026-10-22T17:10:43Z",
           "date_quality": "publisher-time",
           "first_seen_at": "2026-10-22T19:31:34.158129Z",
           "collected_at": null,
@@ -1833,9 +2392,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "b4c605df7cd47c4d8c4d",
-      "revision": 3,
-      "updated_at": "2026-10-22T22:43:41.996389Z"
+      "digest": "dda5dedebcd76e3cd329",
+      "revision": 4,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
     },
     {
       "id": "GF-ABA20F181FB248",
@@ -2370,6 +2929,62 @@
       "updated_at": "2026-10-22T22:43:41.996389Z"
     },
     {
+      "id": "GF-DDB570857B405F",
+      "title": "تحديات قطاع الطاقة في العراق في خضم أزمة مضيق هرمز - The Washington Institute",
+      "category": "transport",
+      "topic": "maritime",
+      "countries": [
+        "Iraq"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-22T18:17:56Z",
+      "last_published": "2026-10-22T18:17:56Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "0ac546175f7024a5d35ef965",
+          "title": "تحديات قطاع الطاقة في العراق في خضم أزمة مضيق هرمز - The Washington Institute",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPLUozMU0wdzhqT0E4cVB5UXVMcW5DMG9ubWl4Q3hrQ0tJZGswNHAwQ1hQNXZSQkpMSDNLV1E4M1ZfakhkVGpmSmNaUzNCd2cxTXhXLV9tYVF0Z2x6VGhQaUNPbm1Ral8tbE03QmZPMXhLcWZzTnRTN19GWU9OazZkdmpTNy0tdTA4TmVIZVIxUjE5enlyN2duXy1fU1NWbldJSHJVMUt6cw?oc=5",
+          "source": "The Washington Institute",
+          "publisher_key": "the washington institute",
+          "provider": "عربي · مضيق هرمز",
+          "published_at": "2026-10-22T18:17:56Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-23T01:00:48.563085Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Iraq"
+        }
+      ],
+      "coverage_stage": "recent-coverage",
+      "coverage_first_published_at": "2026-10-22T18:17:56Z",
+      "coverage_last_published_at": "2026-10-22T18:17:56Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "b87b1823d8c65ccaf578",
+      "revision": 1,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
+    },
+    {
       "id": "GF-94580B49C9F549",
       "title": "Israel frees suspects in two settler attacks as West Bank pogroms intensify",
       "category": "security",
@@ -2427,10 +3042,11 @@
     },
     {
       "id": "GF-5086AC16FBAD8F",
-      "title": "اليمن مباشر.. التحالف يُسقط صاروخا للحوثيين ومحاولات لفكّ الحصار عن تعز",
+      "title": "اليمن مباشر.. التحالف يسقط صاروخا ومسيرتين باتجاه السعودية وينفي استهداف القبائل اليمنية",
       "category": "security",
       "topic": "missile",
       "countries": [
+        "Saudi",
         "Yemen"
       ],
       "location_quality": "country-mention",
@@ -2455,7 +3071,7 @@
       "sources": [
         {
           "id": "4f713b2d3ddf42097c0a16b6",
-          "title": "اليمن مباشر.. التحالف يُسقط صاروخا للحوثيين ومحاولات لفكّ الحصار عن تعز",
+          "title": "اليمن مباشر.. التحالف يسقط صاروخا ومسيرتين باتجاه السعودية وينفي استهداف القبائل اليمنية",
           "url": "https://www.aljazeera.net/news/liveblog/2026/10/23/%d8%a7%d9%84%d9%8a%d9%85%d9%86-%d9%85%d8%a8%d8%a7%d8%b4%d8%b1-%d8%a7%d9%84%d8%aa%d8%ad%d8%a7%d9%84%d9%81-%d9%8a%d8%b3%d9%82%d8%b7-%d8%b5%d8%a7%d8%b1%d9%88%d8%ae%d8%a7?traffic_source=rss",
           "source": "الجزيرة نت · RSS عربي",
           "publisher_key": "al-jazeera",
@@ -2465,7 +3081,7 @@
           "first_seen_at": "2026-10-22T22:43:31.946952Z",
           "collected_at": null,
           "language": "ar",
-          "country": "Yemen"
+          "country": ""
         }
       ],
       "coverage_stage": "recent-coverage",
@@ -2477,9 +3093,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "37f111fb25167722cd5c",
-      "revision": 1,
-      "updated_at": "2026-10-22T22:43:41.996389Z"
+      "digest": "7bab09795d8fd627c2f6",
+      "revision": 2,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
     },
     {
       "id": "GF-778F6AD9A638EC",
@@ -3454,6 +4070,63 @@
       "digest": "685ad40f9d4eba1cce78",
       "revision": 1,
       "updated_at": "2026-10-22T19:31:51.522500Z"
+    },
+    {
+      "id": "GF-8378D3C3EB1BC0",
+      "title": "إدانات عربية ودولية للاعتداء الحوثي الإرهابي على مطار الدمام.. وتأكيد التضامن مع السعودية - العربية",
+      "category": "transport",
+      "topic": "aviation",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-22T16:43:00Z",
+      "last_published": "2026-10-22T16:43:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "70820280145955e0cb7f5242",
+          "title": "إدانات عربية ودولية للاعتداء الحوثي الإرهابي على مطار الدمام.. وتأكيد التضامن مع السعودية - العربية",
+          "url": "https://news.google.com/rss/articles/CBMixgVBVV95cUxNVXdFQVlOSnFrd3o3MXVGOERsWFplazhWQTFJXzloZnhjVFZON08yRkJqcVBGMWxqVmMxakRqa0hqd3JDOXNteFBRbnM0bEFGR3M4eG55RXRJd2tubUcxVG91WmVHaXNOUnh2cVg5R3JVa3hqN1BUUmFBYmtsM3VxLTJvQ25FVTdUZ2J5NVFybGxMbEpFejNzOXdoQXFIeDNMU3VkbUswTU1YWlhIVlBHWVFrLVQzd1FidnM0bUl3N2loTFdLMzE3bVl4elVNUjZGRWt5Q3FxTHk1UE5KZXRBX3Q0MXB3enF6WVlYa19TM0pBdGlTZWxLcjZiejlyTFN5TmxpQ3dVc29PU1JPQVhQM253dS1yUE5ET25qdy1nenY1emlxc2h2ZjhzSXk1QV90b3FrWTFKN2ZHVmMxUUZVcWdTU0ExX1V0YXpNQ18tUzduVk5xaGtRdVBic2I4YWZ1aml2SXAxbEp0N1BFcGlPMlVYOFIxdVhRaXZOdXVoVVZLSVVQNnhnNUI4ZDlGaWFFdjdGaGVnZ1RLOG11VVhwM1ZZaXVpSm5wSnAtLUJZNlpEeXduRHAzTFRyTjVjR3ZiZ0RsMWlTSWotQWVobFItenJkQlRoT1hJcTR6SDR4a0NrTU85VWlQVnhybnFSVDljclBZd2p3a1NUUjA2Ymo1WE12cVlrUWEtRDNBVHlpaHB3cWNzQlVxanF4RjhCcW01VmdYemExZVIwMEM0ZUtHSmFWcUVLUWY3ZHh4bV9RYk16YldZbkFzVlVOdUNBVW03dWpRLXZaMzhySHUta29FUmstWXpNU0dRRjlDT3VGMzA0aEdOLW5wS0k4N2p1Tk4tUHBISmNSMUJVNk9JS21QQy11TjlNWlRyeEJxbEFzeEllbkZMVHE5V1RNV0pVQk1EMXo0WG9JU05jdjdKUGpVR0VPRE5oQdIBywVBVV95cUxQRUVFUjV2andHbDRqZlhmT3VwbkNJZlJzWGNtODRxdFhOYjYya05fV2c1Z1pFc1dwTnNNSERIbDhKMF9ab0liMVZiR2JGWHY0a053Z19NTW9xN1BsZEdEdDBuWjlYN3NIT0kzZ1lYcWxWMG5aQ250MFdsaHcyWFA5ekU5X3lIVTQ2TmwyQmw3dE13blZFdDlXRWJqdWVZMF95b004NGs3Q1JXWEJGdUNDdmJSOGViOXFMdjB4b01JYVlnMmt3cS1mTmc5alpaazdvVUs5VUVNR2JNbENRMk1SNE4yOEtKSUZ4cnJiVE03VExfUC1uQlpiSWdwYzhPaGcxaHdfem92cDJsLWJCbUVpTFJXUk11UkpsUW1qX3dJbWtqRXp5bl9temRTVXFya1JxRHh3NzFJbDVBUWdEZlNyc0RHV2Q2dkFDdkJhLTQ1NWxycjZLREZOZlE2aXhLTlg0Vy1YZ3ZYWS1GLVNQNE40M0dKLW1KNENsVUZQS0R5elVBRG80TEFiT2lfWWdKaDZLbVh3c0JiYm5EMXVvUmFMWG1CaHpmbGd0UVRvdGY2V1BXaGI5Wnpjdl9ER1oxdUhCQWlLY3NNLThSYWI0RGdHUXRVbHF6akZJbjMyZGs0cHJSMzF1M3gxMlBpQkV2cGN4QU9SVDN1Y2NOTGRrM2lWaUEtMndqYUg4UUpYUGNfZWFXRzVrRjFZWXFrVVlUS29HN3ZXLWVoc05QdTNReVhWdlBzaFVoNnZoVlFDQkFzQktWWFlERVB1X2dpR3RqV0FpMnB0RmkwcHhucmRLRThkWldfSGdmRlZaUHVVQ0dQVkh2aGdWRHpaWnMycXo2c3E2YWVXcTRUWWlNellpNDlNR1QtSXFsdUpRQTI2RENnTEpZalJuXzJscnVkdkNTN3FKVWlBNTA5RDRyY0tISUxhY0Y1LWhEaEVfVUJF?oc=5",
+          "source": "العربية",
+          "publisher_key": "العربية",
+          "provider": "عربي · العربية",
+          "published_at": "2026-10-22T16:43:00Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-23T01:00:48.563085Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "recent-coverage",
+      "coverage_first_published_at": "2026-10-22T16:43:00Z",
+      "coverage_last_published_at": "2026-10-22T16:43:00Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "d11a6af23778e02ae658",
+      "revision": 1,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
     },
     {
       "id": "GF-921C477EF6D4F1",
@@ -5095,8 +5768,8 @@
       "languages": [
         "en"
       ],
-      "publisher_count": 2,
-      "report_count": 4,
+      "publisher_count": 3,
+      "report_count": 5,
       "first_published": "2026-10-21T23:23:00Z",
       "last_published": "2026-10-22T13:46:33Z",
       "event_occurred_at": null,
@@ -5145,6 +5818,20 @@
           "country": "Saudi"
         },
         {
+          "id": "d9ddcc4a3ff1518400ee6b0e",
+          "title": "1 person killed in attack on eastern Saudi airport, authorities say - WRAL",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQSmVjLTJJVkNBdFQwb3BEWmNPVXZ5b21waFlaXzN0bVY0b3kxZXFtRGFRVzVDX1BiTUZEdXBXcmNnMUl5MU9wY3IyZGNMSXdxNXJKbmg0OG9GbXh0VDc1em9sZUFHMDl2V0wzM2tWSGQ1SFhIZkpfQmpkcXVZaXQ2Q0xJSHJUU1IzdC16azZaUGRZdnFiaFhoeTVZRFpuZ2ctcUVoM0ZGS2NiT016eVA4YkNIMTZZYjdlbndaVEdES1lFYUszR2JMaTZYcWFHc3lt?oc=5",
+          "source": "WRAL",
+          "publisher_key": "wral",
+          "provider": "Google News · missiles/drones",
+          "published_at": "2026-10-22T02:06:16Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-21T22:16:30.037566Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Saudi"
+        },
+        {
           "id": "bc6196c481cdaa13fc25ccac",
           "title": "1 person killed in attack on eastern Saudi airport, authorities say - AP News",
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQaXo0Nk1pSDFVdkZGeEp4TGZobnBPS2FpdVlORlptNFFhWnp4SG1UQk9icEhXYTNUSzEtUXVoSEwxZUMtc0Z3cG1lQWJsS3I5TE9JLVJiRnlYTXczSkZfd2E0dFdVNDctZkR1emhpNmc5bF9SMXA2cHhwU3pPOVRkZ090MUVnLWU5NHd5TjN6NnN3S0poLThpYlpzLWFqNHdv?oc=5",
@@ -5168,9 +5855,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "5c6eaf97fc81d4d92d80",
-      "revision": 5,
-      "updated_at": "2026-10-22T19:31:51.522500Z"
+      "digest": "e96fc66c8aa09967fc57",
+      "revision": 6,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
     },
     {
       "id": "GF-47E969719570F7",
@@ -5792,63 +6479,6 @@
       "updated_at": "2026-10-22T15:38:47.049967Z"
     },
     {
-      "id": "GF-71141126C7DB27",
-      "title": "US, Israel said to draft plans for resumed strikes on Iran after midterm elections - The Times of Israel",
-      "category": "security",
-      "topic": "regional",
-      "countries": [
-        "Iran",
-        "Israel"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "en"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-22T12:53:34Z",
-      "last_published": "2026-10-22T12:53:34Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "4db5ea45a6aca65915e864b5",
-          "title": "US, Israel said to draft plans for resumed strikes on Iran after midterm elections - The Times of Israel",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORG5EaGdJUGZNRDc3XzA5eUphY0hrMl9zS0V6djFQQVJCVG5HSEVreDNrTFdIWjczQ1pURjFrQ2xQSVhPa3Zva3hxNkRpMDhnZHAxTkpXLVpJMDlkQklvWXViTzNEV01FRXo5Z3ZSWTI0c0VZUW1ON05YVFJmTERTMHQ1T0pvYWs0RU5FQjR4UXlSX1BkdE5DREtiS3ZpZUluVzZmU2JBUnpkYzRvU2NyNTJn0gG3AUFVX3lxTE9Ma0l6QW1yS0tVQXpuOXlnNjhSa3p3Q1hRSTNPak1DS1JVRHR3SWtwRFNkOHZDcGxTdlkwV1NFeEZQV1I5NDl2bDVFbFMtS1RsOVdsTUNxMk5ZNWdyMEhSaml6XzlDeWw0YXZrVXY0NHZBOVVZYy11X1FLRzZnYzE4S1VoRVpJOEF3cWh0TGFSNWxhbURaV0R4QmM1Y250RmZmRWF4eTNNNnh3aEx2MWx0R3NwWkJDQQ?oc=5",
-          "source": "The Times of Israel",
-          "publisher_key": "the times of israel",
-          "provider": "Google News · security",
-          "published_at": "2026-10-22T12:53:34Z",
-          "date_quality": "publisher-time",
-          "first_seen_at": "2026-10-22T15:38:38.755738Z",
-          "collected_at": null,
-          "language": "en",
-          "country": ""
-        }
-      ],
-      "coverage_stage": "recent-coverage",
-      "coverage_first_published_at": "2026-10-22T12:53:34Z",
-      "coverage_last_published_at": "2026-10-22T12:53:34Z",
-      "current_reporting": false,
-      "recent_publisher_count": 0,
-      "recent_article_count": 0,
-      "incident_status": "unknown",
-      "event_occurrence_verified": false,
-      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "45e4b2bae00494fa1250",
-      "revision": 2,
-      "updated_at": "2026-10-22T19:31:51.522500Z"
-    },
-    {
       "id": "GF-04FE7D1B2FBB81",
       "title": "عاجل | إدانات خليجية واسعة.. #الإمارات و#الكويت تدينان هجوم الحوثي على مطار الملك فهد: انتهاك صارخ لسيادة السعودية . - البعد الرابع",
       "category": "security",
@@ -6074,62 +6704,6 @@
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
       "digest": "5fcace6d30851d9b656b",
-      "revision": 1,
-      "updated_at": "2026-10-22T15:38:47.049967Z"
-    },
-    {
-      "id": "GF-78A1C1EC8A6481",
-      "title": "السعودية تعترض 4 مسيرات في الرياض والمدينة المنورة - صحيفة الخليج",
-      "category": "security",
-      "topic": "interception",
-      "countries": [
-        "Saudi"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "ar"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-22T12:32:13Z",
-      "last_published": "2026-10-22T12:32:13Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "49e8554bc8fdfb5eab94e290",
-          "title": "السعودية تعترض 4 مسيرات في الرياض والمدينة المنورة - صحيفة الخليج",
-          "url": "https://news.google.com/rss/articles/CBMikwRBVV95cUxPWk96NFVYZzdsTDlZekdYX2hTZnk2cXlQQUliemx1SkJRQzVPN2RPYWVTTGVEWUE2YnhlT19PUVRsZlFhQW5xWUszNHo0MWs3UXUxOW5Xb2tQdUozSGZqMDRJeGtrcDMyc2RVSHU3VkRsOFlYQ2xQVUZlV3hnbE9pbUZnYVJJVVlpU1U0ODJXRmoxbHZNcXN4aWxjcDctYXptOUgxY3VLbDVqdWFMLWFkZjBZV1g3cEpTVGdiN2ZVM0FtV2hWVEx1Nk1ZM2x3N3J1WnNRdDFGWEw1bWRUN016WXMtTUt4eXNjdUlVNGpmR0tLNTYzMWRyTnZVaHdFRzFleFdBSFVhdW11ZUgtei11aUYwNFBKZVBPbzAtb0hkRGhmNWIzX3VYTWlyZm5za1lpWFlRZmJJSC12Wl96YVVQdG5Ja1puRDFVcm90a1dsM1dFSk1rbEo1cEFTQ1Mzck4yTkZIWDF2NTV1bWY3MlltazdaeXEyTWJmQ3RwMlo4Rl9kQmZyd3h1RWRWYTJ6RWdfRWRqc2c4Tjl0Z1l1RmpXdTRvZlAzNE1PYnJNcW5wZk03bXNwM3d3c3drWXA0UkpyOGhGOXR1emxUWDVsVmhnU2hrVmFxR0tYYkZSZDVZa3U2NjhBTHdOLTVGVjE5WHFKbUh6dDZ6UzBHS3hsNmY3N1p0M19FZ2NRVlJJNEZQZUJXOEE?oc=5",
-          "source": "صحيفة الخليج",
-          "publisher_key": "صحيفة الخليج",
-          "provider": "عربي · إيران والخليج",
-          "published_at": "2026-10-22T12:32:13Z",
-          "date_quality": "publisher-time",
-          "first_seen_at": "2026-10-22T15:38:38.755738Z",
-          "collected_at": null,
-          "language": "ar",
-          "country": "Saudi"
-        }
-      ],
-      "coverage_stage": "recent-coverage",
-      "coverage_first_published_at": "2026-10-22T12:32:13Z",
-      "coverage_last_published_at": "2026-10-22T12:32:13Z",
-      "current_reporting": false,
-      "recent_publisher_count": 0,
-      "recent_article_count": 0,
-      "incident_status": "unknown",
-      "event_occurrence_verified": false,
-      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "676e0caeb00c95cc99c5",
       "revision": 1,
       "updated_at": "2026-10-22T15:38:47.049967Z"
     },
@@ -6536,6 +7110,62 @@
       "updated_at": "2026-10-22T15:38:47.049967Z"
     },
     {
+      "id": "GF-850C7E34C300AF",
+      "title": "Iran: 7 ships hit in the Strait of Hormuz - The Hill",
+      "category": "transport",
+      "topic": "maritime",
+      "countries": [
+        "Iran"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-22T12:01:00Z",
+      "last_published": "2026-10-22T12:01:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "665533ea365c856fba30b9d0",
+          "title": "Iran: 7 ships hit in the Strait of Hormuz - The Hill",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAzN3laeDROWGF3dXktb2drUEJ2QkZuS2NXRTZJODItNHNubTVQMGstaV9kZmt3N0ladlZDenBtSjZMWHBTU0syeTNLbzI4Y3ZBWFhySTVUa2ZIbkliYmpnNDhLeGZTNDZVN0hXR2psZjRoOXVxSEZFa0lB0gF_QVVfeXFMTi00RkYxVWlLczg0MnVNcmUxNjZ4RTh5V1hjRlh3TnZXSHRyYTJFMHcxSXhIT2o1cjRVMHNodU9xSTNkU0JqLTZUd3BoODBtQmFjaWZmdDA3YWZpLWY4UHhYTmdRWncxRm1OVXE4Z25FQXgzaHdESWp3TlE5ZjRvQQ?oc=5",
+          "source": "The Hill",
+          "publisher_key": "the hill",
+          "provider": "Google News · shipping",
+          "published_at": "2026-10-22T12:01:00Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-23T01:00:48.563085Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Iran"
+        }
+      ],
+      "coverage_stage": "recent-coverage",
+      "coverage_first_published_at": "2026-10-22T12:01:00Z",
+      "coverage_last_published_at": "2026-10-22T12:01:00Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "9b078cf38ff1311f9ea2",
+      "revision": 1,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
+    },
+    {
       "id": "GF-B3C4C8369FE0DB",
       "title": "السعودية: اعتراض وتدمير 4 طائرات مسيرة في منطقتي الرياض والمدينة المنورة - الإمارات اليوم",
       "category": "security",
@@ -6925,6 +7555,62 @@
       "updated_at": "2026-10-22T15:38:47.049967Z"
     },
     {
+      "id": "GF-DBCABBC8ABFC5F",
+      "title": "السعودية تعلن تدمير 4 مسيرات بالرياض والمدينة المنورة - سكاي نيوز عربية",
+      "category": "security",
+      "topic": "drone",
+      "countries": [
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-22T11:32:05Z",
+      "last_published": "2026-10-22T11:32:05Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "eebf5c9c3d129ae0abcda5db",
+          "title": "السعودية تعلن تدمير 4 مسيرات بالرياض والمدينة المنورة - سكاي نيوز عربية",
+          "url": "https://news.google.com/rss/articles/CBMi0gNBVV95cUxObGpwMHQyQzBPVVhsTlpRbFdST0s0R0tRT1Q2SmdSS1JHemZydTB1TkN4MXVOZ0tiNzZQT0puOVVoVUY2dGFEdTJFZFJqT2JQRjV5TERGN2t1a29JY3ZfRktIdk0xa0w0LVJoeWdXb2Rmc19EV0hnRDdyOTNxMU5nR2YzbGZ2ODQ0ZFlqUVJ2ZUw2OUdCQXptYVpZTlJpbVpIckJzOVdCWE1fMGtIODd4cXJlems4dF9SakFyN2c1NU1EdXpValBjaHRjX2hjTlFXemhQZzBRMWdpVHBiNnlkSlZPU0I1QkNwYVA3WTZHNE4wa2xIVU1Vd3VvLVFQRHhvWXJmSnFZbWZNSHljR0FKbjZLcVpkMkl5RDluczdqRDNEaEhQY0dSN3VGNVpGQjgwOENyaHhSN0s0SXcydGlDMkkweFgwOGhJWUpTNS1PR09yel9zQU1MdC1PNThsRFRZamJsMGhxWm9rUXh5ZEJ6QVh6d2NNbllsLTdtUW11YVNFRXFXemVnaDFYZm5ERThBSFhIQUdzdXdiYndlZWVaWHg2ZWlTd3gyNWFlNVl3N3VhaVhEWGxCTEdRa1NZWlV5X01zWUljdUM4WkRNeTFoWjBR0gHXA0FVX3lxTE1wcmNYVXFMN1NzV0RaOWZfcVd3a1lRa0tsSklndzluTlNhbWYySnZmbFJvekVEUVhuX2hENnJQbTNIQzgtVG1wSHlIdHVKemFxZWVsaHphTUhwNWpuVHJ0VkwxTGJhVDdYQUVzSHFmZ3ZOWkV3RDIyczBraHgxTXJqNlJzZHVOSVFiYTJCTjA2ZUJqYkxRRjlkT2VyNjBLZjY2cmZZZjdJWXluWFJPZzdNR0k1SEpnbE1TUWhjc3lOZ3lBd015YzB6TGhoOFl2SUVoak9XVE5qVG9Yc2tjVmNiUF9HUkpQOHFLUUlPUF94LXZsRms4dHRBbENhb2lSQUhva1lYeHJ1ekxzZEhHeTZLdHhCTndRRE1nZExKNmszZnRkem1XbmhNdWM0TlRxck9CRHpCTHR2TG1YZ0NMY1JSYUprbjFXWnh6THJrOVNka2JkLVhxc1ZPR3ByZTBZNW5OSGtncDF2c2RhYmdyY2UydTJPZUhKb2RidFU4ekxBRDFmZ2VXcDBfX2VWRDlpMmgtdTljY0JISzFEY3BQZGd5V0kwSVhQSWVqMUJOQ01ZWF9zaHhPTERjdVp3Q2d6LS0zNWZFUTQ0TVhPa0RvZ1RkWHdLNm9Vdw?oc=5",
+          "source": "سكاي نيوز عربية",
+          "publisher_key": "سكاي نيوز عربية",
+          "provider": "عربي · السعودية",
+          "published_at": "2026-10-22T11:32:05Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-23T01:00:48.563085Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Saudi"
+        }
+      ],
+      "coverage_stage": "recent-coverage",
+      "coverage_first_published_at": "2026-10-22T11:32:05Z",
+      "coverage_last_published_at": "2026-10-22T11:32:05Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "c05c99fa0bef38d2baaf",
+      "revision": 1,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
+    },
+    {
       "id": "GF-FCA71D057F6592",
       "title": "Iran Says it Will Reply to US Response on Hormuz Proposal Once Review Over - EnergyNow.com",
       "category": "transport",
@@ -7057,8 +7743,8 @@
       "languages": [
         "ar"
       ],
-      "publisher_count": 2,
-      "report_count": 2,
+      "publisher_count": 3,
+      "report_count": 3,
       "first_published": "2026-10-22T05:05:04Z",
       "last_published": "2026-10-22T11:20:00Z",
       "event_occurred_at": null,
@@ -7091,6 +7777,20 @@
           "collected_at": null,
           "language": "ar",
           "country": "Saudi"
+        },
+        {
+          "id": "e27b8d8d80139ad34d8ef573",
+          "title": "السعودية: التحالف يعلن اعتراض وتدمير 4 مسيرات بمنطقتي الرياض والمدينة المنورة - France 24",
+          "url": "https://news.google.com/rss/articles/CBMilAVBVV95cUxQeE9QVXNWZERIQ0I5dHJkQTRUaElRMHNkUzV5T2Vna2htVDVic2RkMzNHVFRoVHhqU0pXX0d4QlZKV21icFhXTjFLWDkwYXJvVWl1aHhBMngxOWU5RnV3eXpac0VQNFNXN2c0Tm5UNXFfSHdXcmMtRnoyZWljUmxoeGNwOWlibUd4UjV2WU1zQlA4NDFiT2IzY0V0eUdTdkljZ3NOMWJZaGhwamZQVUMyQ3AyTFJFTjhpV0NreHJkX2diODcxWnNiZlRleGd0QlpiaTRaUEZxN2hDckdFeWt1aEdCNlB2TXRIQjNkQVBoV2xfNjZGdjdJSXVNaXNjNEhpbkRiQUVvblQ0LUNuc0swU1V6SG5RQ0RSa1lFaVBNUHFIX1FQdUlNd09YTG5oTHR5dXRHbU1KcC1pNkw3aGV6RDBOenl5aFJobDM5OVdOWjFHV29ndlZybmZwMjRNV2xZTEdHTmFHQmNaR21BYVI0OGRVM3YxWFBtYTFfN3hCVnJEV0JiN3o5RERwU3k1NXR5ZXZTTklDOG5rVVN6Ukg3dnRqS3Z4N1lFbXFmZVdnb3hBQW8xc1RNeFBfTXdQMVkwYlhEZ0hOSjg0LU9aZEY5N0N5ZUVOMHZKZ0xfcmR5TXZmQ1FiTWhIZjN5cHhUQy1JZ21SelFJMV9yeDNISEVxaF9SaDNYWlliMk1qZzVyNzMtd25jVXlKdkRqTWNaaEtfd3RfV09RYkdjVkNtZTVWcmswU3hnN2UtQWFRbms0YWwxU0FnaTAzRlRRNEZUYmpfS3RwYkVPX0pfQklLU3lUQjk3bXk5Q2xFSjFILUhDSXE4bWcyby11RVFUT2dwTzNYWUQ1Vk41R1RZMXRwT2RIN0JpcmU?oc=5",
+          "source": "France 24",
+          "publisher_key": "france24",
+          "provider": "عربي · السعودية",
+          "published_at": "2026-10-22T05:05:04Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-23T01:00:48.563085Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Saudi"
         }
       ],
       "coverage_stage": "recent-coverage",
@@ -7102,9 +7802,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "002c9a259ea52e866529",
-      "revision": 4,
-      "updated_at": "2026-10-22T22:43:41.996389Z"
+      "digest": "23f992d57237ab58cce6",
+      "revision": 5,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
     },
     {
       "id": "GF-2BB5ED2538FD28",
@@ -8341,6 +9041,63 @@
       "updated_at": "2026-10-22T15:38:47.049967Z"
     },
     {
+      "id": "GF-71141126C7DB27",
+      "title": "US, Israel said to draft plans for resumed strikes on Iran after midterm elections - The Times of Israel",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Iran",
+        "Israel"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-22T09:18:00Z",
+      "last_published": "2026-10-22T09:18:00Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "4db5ea45a6aca65915e864b5",
+          "title": "US, Israel said to draft plans for resumed strikes on Iran after midterm elections - The Times of Israel",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORG5EaGdJUGZNRDc3XzA5eUphY0hrMl9zS0V6djFQQVJCVG5HSEVreDNrTFdIWjczQ1pURjFrQ2xQSVhPa3Zva3hxNkRpMDhnZHAxTkpXLVpJMDlkQklvWXViTzNEV01FRXo5Z3ZSWTI0c0VZUW1ON05YVFJmTERTMHQ1T0pvYWs0RU5FQjR4UXlSX1BkdE5DREtiS3ZpZUluVzZmU2JBUnpkYzRvU2NyNTJn0gG3AUFVX3lxTE9Ma0l6QW1yS0tVQXpuOXlnNjhSa3p3Q1hRSTNPak1DS1JVRHR3SWtwRFNkOHZDcGxTdlkwV1NFeEZQV1I5NDl2bDVFbFMtS1RsOVdsTUNxMk5ZNWdyMEhSaml6XzlDeWw0YXZrVXY0NHZBOVVZYy11X1FLRzZnYzE4S1VoRVpJOEF3cWh0TGFSNWxhbURaV0R4QmM1Y250RmZmRWF4eTNNNnh3aEx2MWx0R3NwWkJDQQ?oc=5",
+          "source": "The Times of Israel",
+          "publisher_key": "the times of israel",
+          "provider": "Google News · security",
+          "published_at": "2026-10-22T09:18:00Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-22T15:38:38.755738Z",
+          "collected_at": null,
+          "language": "en",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "recent-coverage",
+      "coverage_first_published_at": "2026-10-22T09:18:00Z",
+      "coverage_last_published_at": "2026-10-22T09:18:00Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "c665b8629c1f99f3e8de",
+      "revision": 3,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
+    },
+    {
       "id": "GF-FB8518CFDB1CE7",
       "title": "\"Yemeni drone attack targets Riyadh in Saudi Arabia\", Sabereen News reports - Newsquawk",
       "category": "security",
@@ -9372,8 +10129,8 @@
       ],
       "publisher_count": 1,
       "report_count": 1,
-      "first_published": "2026-10-22T07:52:28Z",
-      "last_published": "2026-10-22T07:52:28Z",
+      "first_published": "2026-10-22T07:55:35Z",
+      "last_published": "2026-10-22T07:55:35Z",
       "event_occurred_at": null,
       "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
       "sources": [
@@ -9384,7 +10141,7 @@
           "source": "سكاي نيوز عربية",
           "publisher_key": "سكاي نيوز عربية",
           "provider": "عربي · السعودية",
-          "published_at": "2026-10-22T07:52:28Z",
+          "published_at": "2026-10-22T07:55:35Z",
           "date_quality": "publisher-time",
           "first_seen_at": "2026-10-22T22:43:31.946952Z",
           "collected_at": null,
@@ -9393,17 +10150,17 @@
         }
       ],
       "coverage_stage": "recent-coverage",
-      "coverage_first_published_at": "2026-10-22T07:52:28Z",
-      "coverage_last_published_at": "2026-10-22T07:52:28Z",
+      "coverage_first_published_at": "2026-10-22T07:55:35Z",
+      "coverage_last_published_at": "2026-10-22T07:55:35Z",
       "current_reporting": false,
       "recent_publisher_count": 0,
       "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "c8db77c51ae2cbed1f01",
-      "revision": 1,
-      "updated_at": "2026-10-22T22:43:41.996389Z"
+      "digest": "2485ba9abee3f1150d2c",
+      "revision": 2,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
     },
     {
       "id": "GF-F3809F347AB7CA",
@@ -13497,62 +14254,6 @@
       "updated_at": "2026-10-22T09:27:55.353747Z"
     },
     {
-      "id": "GF-2E51C0F1282AB2",
-      "title": "السعودية تعلن مقتل شخص وإصابة 8 جراء هجوم على مطار الملك فهد.. و\"كبار العلماء\": استهداف المقدسات والمدنيين \"إرهاب\" - CNN Arabic",
-      "category": "security",
-      "topic": "aviation",
-      "countries": [
-        "Saudi"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "ar"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-22T00:55:30Z",
-      "last_published": "2026-10-22T00:55:30Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "6a795f50eea64d674c6e691c",
-          "title": "السعودية تعلن مقتل شخص وإصابة 8 جراء هجوم على مطار الملك فهد.. و\"كبار العلماء\": استهداف المقدسات والمدنيين \"إرهاب\" - CNN Arabic",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPemtwTGVqSng0cWpCZ0hrVFEyY1lUb1daTXRwSllIMnAyRkNHSmVlVzJvYVY2WXdOak0yRjIwd1RXNlNlTXpsNmFtR2lNTWdUa1FLaVRRV1NnVEJ5bUt3TmVNZFFoQko2SGlCR3JuMGtDUkM5Wjg5VFZKYXRxd0xMd29jdVpQTnVzSXJBMTdKcFYtZnNiVzZTQ05LTzA1UG1RN1hhMEdsczEtVUJheEkwZGdaY1BDSnBHNnpQclRlVHZ3b2J5QU1lbnNJU1o0Zw?oc=5",
-          "source": "CNN Arabic",
-          "publisher_key": "cnn arabic",
-          "provider": "عربي · السعودية",
-          "published_at": "2026-10-22T00:55:30Z",
-          "date_quality": "publisher-time",
-          "first_seen_at": "2026-10-22T15:38:38.755738Z",
-          "collected_at": null,
-          "language": "ar",
-          "country": "Saudi"
-        }
-      ],
-      "coverage_stage": "recent-coverage",
-      "coverage_first_published_at": "2026-10-22T00:55:30Z",
-      "coverage_last_published_at": "2026-10-22T00:55:30Z",
-      "current_reporting": false,
-      "recent_publisher_count": 0,
-      "recent_article_count": 0,
-      "incident_status": "unknown",
-      "event_occurrence_verified": false,
-      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "17dee6ed434a52c7e5ad",
-      "revision": 3,
-      "updated_at": "2026-10-22T22:43:41.996389Z"
-    },
-    {
       "id": "GF-1B87E73ADA8D6E",
       "title": "How the Mecca defense agreement between Turkey, Pakistan and Saudi Arabia will work - WRAL",
       "category": "diplomacy",
@@ -13595,7 +14296,7 @@
           "country": "Saudi"
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-10-22T00:49:08Z",
       "coverage_last_published_at": "2026-10-22T00:49:08Z",
       "current_reporting": false,
@@ -13604,9 +14305,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "b3fa4e2af3d2fcec3836",
-      "revision": 1,
-      "updated_at": "2026-10-22T09:52:02.824790Z"
+      "digest": "67760b540b674f10db10",
+      "revision": 2,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
     },
     {
       "id": "GF-17348D6F723578",
@@ -13652,7 +14353,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-10-22T00:48:21Z",
       "coverage_last_published_at": "2026-10-22T00:48:21Z",
       "current_reporting": false,
@@ -13661,9 +14362,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "9c9dbe33a81d5ccec19d",
-      "revision": 3,
-      "updated_at": "2026-10-22T05:29:07.183809Z"
+      "digest": "c44cd22b9b55c8f530c5",
+      "revision": 4,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
     },
     {
       "id": "GF-B67AA319E26402",
@@ -13708,7 +14409,7 @@
           "country": "Yemen"
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-10-22T00:46:00Z",
       "coverage_last_published_at": "2026-10-22T00:46:00Z",
       "current_reporting": false,
@@ -13717,9 +14418,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "d5ace09bed55821f54b4",
-      "revision": 2,
-      "updated_at": "2026-10-22T22:43:41.996389Z"
+      "digest": "f6695ed9a0a18f7dd693",
+      "revision": 3,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
     },
     {
       "id": "GF-F063566E2AD1D5",
@@ -13778,7 +14479,7 @@
           "country": "Saudi"
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-10-21T22:41:07Z",
       "coverage_last_published_at": "2026-10-22T00:44:29Z",
       "current_reporting": false,
@@ -13787,9 +14488,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "db4454d8dc7615c59a68",
-      "revision": 1,
-      "updated_at": "2026-10-22T09:27:55.353747Z"
+      "digest": "2c45cbf4003d69187853",
+      "revision": 2,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
     },
     {
       "id": "GF-A732256ECE1C0A",
@@ -13834,7 +14535,7 @@
           "country": "Saudi"
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-10-22T00:39:00Z",
       "coverage_last_published_at": "2026-10-22T00:39:00Z",
       "current_reporting": false,
@@ -13843,9 +14544,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "271562b82a279ac93ee1",
-      "revision": 2,
-      "updated_at": "2026-10-22T05:29:07.183809Z"
+      "digest": "6f1f7bf35d1b3f813400",
+      "revision": 3,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
     },
     {
       "id": "GF-631276B1A0936C",
@@ -13891,7 +14592,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-10-22T00:35:45Z",
       "coverage_last_published_at": "2026-10-22T00:35:45Z",
       "current_reporting": false,
@@ -13900,9 +14601,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "3f6426ef017af3ae6a67",
-      "revision": 1,
-      "updated_at": "2026-10-22T05:29:07.183809Z"
+      "digest": "a2f08006918d0a4adf97",
+      "revision": 2,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
     },
     {
       "id": "GF-1342D4D0D0A7DD",
@@ -13947,7 +14648,7 @@
           "country": "Saudi"
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-10-22T00:31:30Z",
       "coverage_last_published_at": "2026-10-22T00:31:30Z",
       "current_reporting": false,
@@ -13956,9 +14657,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "58ec5e2d212632a5917b",
-      "revision": 1,
-      "updated_at": "2026-10-22T10:02:27.796949Z"
+      "digest": "17f4fb58821212e409cf",
+      "revision": 2,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
     },
     {
       "id": "GF-722FDB2030EB26",
@@ -14004,7 +14705,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-10-22T00:29:45Z",
       "coverage_last_published_at": "2026-10-22T00:29:45Z",
       "current_reporting": false,
@@ -14013,9 +14714,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "1d2e95da0dea708b667f",
-      "revision": 1,
-      "updated_at": "2026-10-22T05:29:07.183809Z"
+      "digest": "c5245b2bd5cd04fc8a01",
+      "revision": 2,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
     },
     {
       "id": "GF-E922673BB73696",
@@ -14074,7 +14775,7 @@
           "country": "Saudi"
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-10-21T22:25:34Z",
       "coverage_last_published_at": "2026-10-22T00:25:41Z",
       "current_reporting": false,
@@ -14083,9 +14784,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "0cdf717c8e120b2fa360",
-      "revision": 1,
-      "updated_at": "2026-10-22T09:27:55.353747Z"
+      "digest": "3e9ce6374ac44d832ad5",
+      "revision": 2,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
     },
     {
       "id": "GF-8BFC9209ECDBDD",
@@ -14130,7 +14831,7 @@
           "country": "Qatar"
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-10-22T00:15:25Z",
       "coverage_last_published_at": "2026-10-22T00:15:25Z",
       "current_reporting": false,
@@ -14139,9 +14840,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "dc1d7c7add1c5ddec8f3",
-      "revision": 2,
-      "updated_at": "2026-10-22T05:29:07.183809Z"
+      "digest": "4f42c4130aea5c34a593",
+      "revision": 3,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
     },
     {
       "id": "GF-D27925518B63F7",
@@ -14184,7 +14885,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-10-22T00:12:04Z",
       "coverage_last_published_at": "2026-10-22T00:12:04Z",
       "current_reporting": false,
@@ -14193,9 +14894,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "abc5e2c0eeab1cb0fce7",
-      "revision": 1,
-      "updated_at": "2026-10-22T09:27:55.353747Z"
+      "digest": "e1d6d9f5dbaa272c951f",
+      "revision": 2,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
     },
     {
       "id": "GF-F05370F5519786",
@@ -14238,7 +14939,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-10-21T23:57:00Z",
       "coverage_last_published_at": "2026-10-21T23:57:00Z",
       "current_reporting": false,
@@ -14247,9 +14948,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "245c286f37648de5949e",
-      "revision": 2,
-      "updated_at": "2026-10-22T09:27:55.353747Z"
+      "digest": "0948725fe76d3ebb180d",
+      "revision": 3,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
     },
     {
       "id": "GF-B3449E0ACD7AE4",
@@ -14295,7 +14996,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-10-21T23:53:31Z",
       "coverage_last_published_at": "2026-10-21T23:53:31Z",
       "current_reporting": false,
@@ -14304,9 +15005,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "b9d1164d974a7c40b57c",
-      "revision": 1,
-      "updated_at": "2026-10-22T05:29:07.183809Z"
+      "digest": "02219279c2ce0c5429a4",
+      "revision": 2,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
     },
     {
       "id": "GF-2B570229570481",
@@ -14351,7 +15052,7 @@
           "country": "Saudi"
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-10-21T23:45:00Z",
       "coverage_last_published_at": "2026-10-21T23:45:00Z",
       "current_reporting": false,
@@ -14360,9 +15061,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "547a5b77bdf3f1b4c9f5",
-      "revision": 5,
-      "updated_at": "2026-10-22T05:29:07.183809Z"
+      "digest": "14d0d56b6bd1afcfb23d",
+      "revision": 6,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
     },
     {
       "id": "GF-AC8E1269AF4C90",
@@ -14408,7 +15109,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-10-21T23:43:31Z",
       "coverage_last_published_at": "2026-10-21T23:43:31Z",
       "current_reporting": false,
@@ -14417,9 +15118,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "174f0ec374f267cda410",
-      "revision": 2,
-      "updated_at": "2026-10-22T05:29:07.183809Z"
+      "digest": "8718e1539a081c5fb504",
+      "revision": 3,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
     },
     {
       "id": "GF-27594574124B85",
@@ -14465,7 +15166,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-10-21T23:42:00Z",
       "coverage_last_published_at": "2026-10-21T23:42:00Z",
       "current_reporting": false,
@@ -14474,9 +15175,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "d48c5ab26e2a8a070fac",
-      "revision": 1,
-      "updated_at": "2026-10-22T05:29:07.183809Z"
+      "digest": "11ebddbf5044d1dc66cd",
+      "revision": 2,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
     },
     {
       "id": "GF-DF9274794E3769",
@@ -14521,7 +15222,7 @@
           "country": "Saudi"
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-10-21T23:38:00Z",
       "coverage_last_published_at": "2026-10-21T23:38:00Z",
       "current_reporting": false,
@@ -14530,9 +15231,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "4538def92d2bfbdc17f5",
-      "revision": 2,
-      "updated_at": "2026-10-22T05:29:07.183809Z"
+      "digest": "acbe02162b672413c2ee",
+      "revision": 3,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
     },
     {
       "id": "GF-F1DC82EC6FE844",
@@ -14577,7 +15278,7 @@
           "country": "Saudi"
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-10-21T23:28:37Z",
       "coverage_last_published_at": "2026-10-21T23:28:37Z",
       "current_reporting": false,
@@ -14586,9 +15287,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "cbed340c483796d4f9f5",
-      "revision": 1,
-      "updated_at": "2026-10-22T09:27:55.353747Z"
+      "digest": "ebd3a6fc9e5b16d09db7",
+      "revision": 2,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
     },
     {
       "id": "GF-08B86E0D9295B8",
@@ -14633,7 +15334,7 @@
           "country": "Iran"
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-10-21T23:25:15Z",
       "coverage_last_published_at": "2026-10-21T23:25:15Z",
       "current_reporting": false,
@@ -14642,9 +15343,66 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "53c49212e1e691cf405d",
+      "digest": "067dbb3c309e419ade37",
+      "revision": 5,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
+    },
+    {
+      "id": "GF-AB77D378B08891",
+      "title": "US orders some diplomats to leave Saudi Arabia as fears of escalating Houthi attacks rise - AP News",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-21T23:13:18Z",
+      "last_published": "2026-10-21T23:13:18Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "1351189376745e183f8a5bb3",
+          "title": "US orders some diplomats to leave Saudi Arabia as fears of escalating Houthi attacks rise - AP News",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSkdGRlFLaE1FOXc3dGM0UHhMVnpzcjF6SkR4TzJRTWtuTm0wZmpGVFJMeEZydGx5VndhUGo3dzN2ZHJCOHdnVVVGVE9LNFNfVlgyTzlmRHJadlRuTk10OFdaZ1otTlB2OEhHWTJvUlQ3Sk5QYUI4Tk9HRjhfMVFmWXBUM0JSXzllODBTNTRqOEk5U00?oc=5",
+          "source": "AP News",
+          "publisher_key": "ap news",
+          "provider": "AP · indexed Gulf reporting",
+          "published_at": "2026-10-21T23:13:18Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-21T22:16:30.037566Z",
+          "collected_at": null,
+          "language": "en",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-21T23:13:18Z",
+      "coverage_last_published_at": "2026-10-21T23:13:18Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "299089dea39cd5dc4969",
       "revision": 4,
-      "updated_at": "2026-10-22T19:31:51.522500Z"
+      "updated_at": "2026-10-23T01:01:09.192224Z"
     },
     {
       "id": "GF-D6F9B6771975DC",
@@ -14690,7 +15448,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-10-21T23:12:10Z",
       "coverage_last_published_at": "2026-10-21T23:12:10Z",
       "current_reporting": false,
@@ -14699,9 +15457,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "484ff12eb00a9e489389",
-      "revision": 2,
-      "updated_at": "2026-10-22T05:29:07.183809Z"
+      "digest": "7bf922fa42d12c512e7b",
+      "revision": 3,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
     },
     {
       "id": "GF-96A0F064C19EEB",
@@ -14744,7 +15502,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-10-21T23:07:01Z",
       "coverage_last_published_at": "2026-10-21T23:07:01Z",
       "current_reporting": false,
@@ -14753,9 +15511,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "6ceec111b9b0519c5a4d",
-      "revision": 1,
-      "updated_at": "2026-10-22T09:35:38.976890Z"
+      "digest": "ea51aca1f471e9fec124",
+      "revision": 2,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
     },
     {
       "id": "GF-9E1C0C06665478",
@@ -14800,7 +15558,7 @@
           "country": "Iran"
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-10-21T23:03:13Z",
       "coverage_last_published_at": "2026-10-21T23:03:13Z",
       "current_reporting": false,
@@ -14809,9 +15567,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "fb8b446d1857bcc2e394",
-      "revision": 2,
-      "updated_at": "2026-10-22T05:29:07.183809Z"
+      "digest": "10dd87c0db8759a641ef",
+      "revision": 3,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
     },
     {
       "id": "GF-BE227C1F6F605C",
@@ -14856,7 +15614,7 @@
           "country": "Iran"
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-10-21T23:01:37Z",
       "coverage_last_published_at": "2026-10-21T23:01:37Z",
       "current_reporting": false,
@@ -14865,9 +15623,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "f9cf0ca70601cb558b6c",
-      "revision": 1,
-      "updated_at": "2026-10-22T10:05:13.151201Z"
+      "digest": "81c4c895bbaeea86aefe",
+      "revision": 2,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
     },
     {
       "id": "GF-71F4891C24DFCD",
@@ -14912,7 +15670,7 @@
           "country": "Saudi"
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-10-21T23:00:00Z",
       "coverage_last_published_at": "2026-10-21T23:00:00Z",
       "current_reporting": false,
@@ -14921,9 +15679,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "0fabf433d160416cf956",
-      "revision": 2,
-      "updated_at": "2026-10-22T05:29:07.183809Z"
+      "digest": "b6f927fcfec142186073",
+      "revision": 3,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
     },
     {
       "id": "GF-32EF61A35E6F3C",
@@ -14968,7 +15726,7 @@
           "country": "Iraq"
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-10-21T22:52:30Z",
       "coverage_last_published_at": "2026-10-21T22:52:30Z",
       "current_reporting": false,
@@ -14977,9 +15735,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "29d289fa2e7346db2389",
-      "revision": 3,
-      "updated_at": "2026-10-22T05:29:07.183809Z"
+      "digest": "6efd14a35f32bf5be3fa",
+      "revision": 4,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
     },
     {
       "id": "GF-44F0414976F97B",
@@ -15392,8 +16150,8 @@
       "languages": [
         "en"
       ],
-      "publisher_count": 7,
-      "report_count": 7,
+      "publisher_count": 8,
+      "report_count": 8,
       "first_published": "2026-10-21T16:55:00Z",
       "last_published": "2026-10-21T22:28:21Z",
       "event_occurred_at": null,
@@ -15484,6 +16242,20 @@
           "country": "Iran"
         },
         {
+          "id": "7b2a06e5ae9f86a352a216e7",
+          "title": "US imposes sanctions on Greek, Panama law firm for helping Iran shipping - Al-Monitor",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZjZDTDdhSUNjWXJxT25Tb3c4RzRTbi1TMW12cEQzdUtWRndPT0U0RXhXVzhwRG5OMDI4RDhhZnp6U2V0QlVSQUpoXzZYTncxRDJ0YUdwOWhCa2hNSUVta3h0Y2dvWWN1YkpTd3NWNENBZUw5bkF4LW0xSmd6dF8tWVZlRjZ4M21LUUktVVQ2R181VllpZjJqYVdyR2tDX0lydXEyMEVTSnQtRGNKdlE?oc=5",
+          "source": "Al-Monitor",
+          "publisher_key": "al monitor",
+          "provider": "Google News · diplomacy",
+          "published_at": "2026-10-21T17:01:43Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-23T01:00:48.563085Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Iran"
+        },
+        {
           "id": "7a22c09d7ef5c920bd72842b",
           "title": "US imposes sanctions on Greek, Panama law firm for helping Iran shipping - Al Arabiya English",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNOWczNnpGTC1tSWRIcnE5S1hmVGUzMjdaYk1HdXZyYTBUdjR6ekE2NlN5QURjQmFUU3czRk5GNm05V05vYk1odndEdkxZeFkxMDVrbGl5NkdHaG5meWlxZ2ViaEpjRHZnTjFtbmU0R3FycjlnR3lVV2M4ZTJaWUp0R0dzWkN5TjJudjlfWjRTY1cydU1nOHNrNm9ibjdzaW10NWlUZG0xSC03MUtGV1FZb0FuQ2VlaV9uRXh1bklLdHdOY0psbFctSNIBzgFBVV95cUxPa3NMTXBWNnc2TUc1N3N1dXVxWUdOb185YlpsdVVBal8zaHh6OGJVVkpTZXBUVEpkY0tucTRYTWNuZkdlQlRWVmZTNjVySC1KU09iZUJXdF80TlJyNkZUSThuWXBvNy14RWJ5N0lhT2JaRUJrWmMtbjVqTmdrN3dRa3A2QThFRk5EV3Z4VnBfdXo4dzdwMW9hcGpUYll1UVRIWmhkMGtVeERkcEI5d3N5eWtjU3VhZkxOUmpvWHpLOHN3aFlacHRLZlhxZ2kxUQ?oc=5",
@@ -15507,9 +16279,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "fa638a68f933dcfdbe6f",
-      "revision": 2,
-      "updated_at": "2026-10-22T22:43:41.996389Z"
+      "digest": "9742fc6a604507a9d383",
+      "revision": 3,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
     },
     {
       "id": "GF-FF16E8B2B39328",
@@ -16093,8 +16865,8 @@
       "languages": [
         "en"
       ],
-      "publisher_count": 3,
-      "report_count": 3,
+      "publisher_count": 2,
+      "report_count": 2,
       "first_published": "2026-10-21T19:51:00Z",
       "last_published": "2026-10-21T21:44:29Z",
       "event_occurred_at": null,
@@ -16108,20 +16880,6 @@
           "publisher_key": "etv bharat",
           "provider": "Google News · missiles/drones",
           "published_at": "2026-10-21T21:44:29Z",
-          "date_quality": "publisher-time",
-          "first_seen_at": "2026-10-21T22:16:30.037566Z",
-          "collected_at": null,
-          "language": "en",
-          "country": "Saudi"
-        },
-        {
-          "id": "d9ddcc4a3ff1518400ee6b0e",
-          "title": "Saudi authorities say 2 killed by falling debris at oil facility following drone attack in kingdom - WRAL",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQSmVjLTJJVkNBdFQwb3BEWmNPVXZ5b21waFlaXzN0bVY0b3kxZXFtRGFRVzVDX1BiTUZEdXBXcmNnMUl5MU9wY3IyZGNMSXdxNXJKbmg0OG9GbXh0VDc1em9sZUFHMDl2V0wzM2tWSGQ1SFhIZkpfQmpkcXVZaXQ2Q0xJSHJUU1IzdC16azZaUGRZdnFiaFhoeTVZRFpuZ2ctcUVoM0ZGS2NiT016eVA4YkNIMTZZYjdlbndaVEdES1lFYUszR2JMaTZYcWFHc3lt?oc=5",
-          "source": "WRAL",
-          "publisher_key": "wral",
-          "provider": "Google News · missiles/drones",
-          "published_at": "2026-10-21T20:08:53Z",
           "date_quality": "publisher-time",
           "first_seen_at": "2026-10-21T22:16:30.037566Z",
           "collected_at": null,
@@ -16152,9 +16910,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "dc50752440985956f7bb",
-      "revision": 3,
-      "updated_at": "2026-10-22T22:43:41.996389Z"
+      "digest": "efab9070a7b14709bc5a",
+      "revision": 4,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
     },
     {
       "id": "GF-7E261760986C61",
@@ -16661,63 +17419,6 @@
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
       "digest": "45f0642541a078f8ba50",
-      "revision": 3,
-      "updated_at": "2026-10-22T22:43:41.996389Z"
-    },
-    {
-      "id": "GF-AB77D378B08891",
-      "title": "US orders some diplomats to leave Saudi Arabia as fears of escalating Houthi attacks rise - AP News",
-      "category": "security",
-      "topic": "regional",
-      "countries": [
-        "Saudi",
-        "Yemen"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "en"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-21T20:31:00Z",
-      "last_published": "2026-10-21T20:31:00Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "1351189376745e183f8a5bb3",
-          "title": "US orders some diplomats to leave Saudi Arabia as fears of escalating Houthi attacks rise - AP News",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSkdGRlFLaE1FOXc3dGM0UHhMVnpzcjF6SkR4TzJRTWtuTm0wZmpGVFJMeEZydGx5VndhUGo3dzN2ZHJCOHdnVVVGVE9LNFNfVlgyTzlmRHJadlRuTk10OFdaZ1otTlB2OEhHWTJvUlQ3Sk5QYUI4Tk9HRjhfMVFmWXBUM0JSXzllODBTNTRqOEk5U00?oc=5",
-          "source": "AP News",
-          "publisher_key": "ap news",
-          "provider": "AP · indexed Gulf reporting",
-          "published_at": "2026-10-21T20:31:00Z",
-          "date_quality": "publisher-time",
-          "first_seen_at": "2026-10-21T22:16:30.037566Z",
-          "collected_at": null,
-          "language": "en",
-          "country": ""
-        }
-      ],
-      "coverage_stage": "quiet-coverage",
-      "coverage_first_published_at": "2026-10-21T20:31:00Z",
-      "coverage_last_published_at": "2026-10-21T20:31:00Z",
-      "current_reporting": false,
-      "recent_publisher_count": 0,
-      "recent_article_count": 0,
-      "incident_status": "unknown",
-      "event_occurrence_verified": false,
-      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "70ecea203288ce9b4d69",
       "revision": 3,
       "updated_at": "2026-10-22T22:43:41.996389Z"
     },
@@ -18043,6 +18744,64 @@
       "digest": "3506686dd3acc505a833",
       "revision": 3,
       "updated_at": "2026-10-22T19:31:51.522500Z"
+    },
+    {
+      "id": "GF-E3A74D11520E97",
+      "title": "الرئيس المصري: الجهد العسكري للدفاع عن أراضي السعودية ولا يشمل الهجوم على اليمن - الشؤون السياسية - 21/10/2026 - كونا :: وكالة الأنباء الكويتية",
+      "category": "security",
+      "topic": "regional",
+      "countries": [
+        "Kuwait",
+        "Saudi",
+        "Yemen"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-21T18:57:03Z",
+      "last_published": "2026-10-21T18:57:03Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "8a50e87c90998301b7f0346a",
+          "title": "الرئيس المصري: الجهد العسكري للدفاع عن أراضي السعودية ولا يشمل الهجوم على اليمن - الشؤون السياسية - 21/10/2026 - كونا :: وكالة الأنباء الكويتية",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBYMkVCczhGN1VhWERLdk51SnFfbWFNSkxNODRzZ1ZjTmJhV2RiemctMFRCV1M0Qi16UmM2cERyc1cwVEY1NTM4aUp2Mi16YWhNU2p4N1FMMFUycUlHa05kZVdOTWE?oc=5",
+          "source": "كونا :: وكالة الأنباء الكويتية",
+          "publisher_key": "كونا وكالة الأنباء الكويتية",
+          "provider": "عربي · وكالات الخليج",
+          "published_at": "2026-10-21T18:57:03Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-23T01:00:48.563085Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-21T18:57:03Z",
+      "coverage_last_published_at": "2026-10-21T18:57:03Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "d0a9816810ad06d3eb6f",
+      "revision": 1,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
     },
     {
       "id": "GF-A0B2354E0C5709",
@@ -32178,7 +32937,7 @@
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQXBXMWdNYVRIU0pDdjdkTnZLOEhXdnE0dW9UYkl6NjVpcDRlWEE0MHoxS2VObkNYSjJsbzJCMkVxNlZaTHplRmV3aEtrMFNueEtRT1RreXNtLVhvNWoxVExlalo5UW9zU0hrQVhOMzBRZjhQMjRFNWN4SVduaTJ5Yi1uNE1sbjlBLThsZnln?oc=5",
           "source": "CBS News",
           "publisher_key": "cbs news",
-          "provider": "Google News · security",
+          "provider": "Google News · diplomacy",
           "published_at": "2026-10-21T00:58:00Z",
           "date_quality": "publisher-time",
           "first_seen_at": "2026-10-21T18:59:06.569317Z",
@@ -32196,9 +32955,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "167a1b3aa972108f8d40",
-      "revision": 7,
-      "updated_at": "2026-10-22T19:31:51.522500Z"
+      "digest": "5d1aac41089f354c38f2",
+      "revision": 8,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
     },
     {
       "id": "GF-28AD030B0B1861",
@@ -45051,7 +45810,7 @@
       ],
       "publisher_count": 2,
       "report_count": 2,
-      "first_published": "2026-10-20T09:39:00Z",
+      "first_published": "2026-10-20T09:45:33Z",
       "last_published": "2026-10-20T12:00:00Z",
       "event_occurred_at": null,
       "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
@@ -45077,7 +45836,7 @@
           "source": "اليوم السابع",
           "publisher_key": "اليوم السابع",
           "provider": "عربي · السعودية",
-          "published_at": "2026-10-20T09:39:00Z",
+          "published_at": "2026-10-20T09:45:33Z",
           "date_quality": "publisher-time",
           "first_seen_at": "2026-10-20T12:04:24.966103Z",
           "collected_at": null,
@@ -45086,7 +45845,7 @@
         }
       ],
       "coverage_stage": "quiet-coverage",
-      "coverage_first_published_at": "2026-10-20T09:39:00Z",
+      "coverage_first_published_at": "2026-10-20T09:45:33Z",
       "coverage_last_published_at": "2026-10-20T12:00:00Z",
       "current_reporting": false,
       "recent_publisher_count": 0,
@@ -45094,9 +45853,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "bbfd47cdbe4e7f5079e0",
-      "revision": 11,
-      "updated_at": "2026-10-22T00:45:01.751907Z"
+      "digest": "d9d6bd9fb2dcaa334be7",
+      "revision": 12,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
     },
     {
       "id": "GF-A8743376792FFD",
@@ -71667,6 +72426,63 @@
       "updated_at": "2026-10-20T16:52:31.264495Z"
     },
     {
+      "id": "GF-63D875EC8453E5",
+      "title": "وزير الخارجية البحريني: أمن السعودية جزء لا يتجزأ من أمن \"دول الخليجي\" - الشؤون السياسية - 18/10/2026 - كونا :: وكالة الأنباء الكويتية",
+      "category": "diplomacy",
+      "topic": "regional",
+      "countries": [
+        "Kuwait",
+        "Saudi"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-18T17:41:06Z",
+      "last_published": "2026-10-18T17:41:06Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "95abac1274d3a50daa2c5bdd",
+          "title": "وزير الخارجية البحريني: أمن السعودية جزء لا يتجزأ من أمن \"دول الخليجي\" - الشؤون السياسية - 18/10/2026 - كونا :: وكالة الأنباء الكويتية",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5KOEFYWWRXb1hoci1nS1RrUW14RjY1bXpPekEyeGxDUlVha2MxODN5YXMtbFR3TURBVzJmaG9ZMUVtaklQbTQ4YjVub3VtX295RGV5M2toNVRoOHRpSUpmTGJVZWhlN0tPbHc3QUs5T1hhcFp6?oc=5",
+          "source": "كونا :: وكالة الأنباء الكويتية",
+          "publisher_key": "كونا وكالة الأنباء الكويتية",
+          "provider": "عربي · وكالات الخليج",
+          "published_at": "2026-10-18T17:41:06Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-23T01:00:48.563085Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": ""
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-18T17:41:06Z",
+      "coverage_last_published_at": "2026-10-18T17:41:06Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "9df17f1257927c27a53f",
+      "revision": 1,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
+    },
+    {
       "id": "GF-E4DB232229E2A2",
       "title": "سياسي / سمو وزير الخارجية يشارك في اجتماع المجلس الوزاري الـ168 لمجلس التعاون لدول الخليج العربية - وكالة الأنباء السعودية",
       "category": "diplomacy",
@@ -72965,6 +73781,62 @@
       "digest": "eb3d87bebfd2de039736",
       "revision": 3,
       "updated_at": "2026-10-20T16:52:31.264495Z"
+    },
+    {
+      "id": "GF-D7F4E2B429B496",
+      "title": "العراق والكويت يعيدان مسارات الطيران بينهما بعد إغلاقها - Azzaman",
+      "category": "transport",
+      "topic": "aviation",
+      "countries": [
+        "Iraq"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-10-18T15:13:33Z",
+      "last_published": "2026-10-18T15:13:33Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "2a93a06d272a03a11b56015a",
+          "title": "العراق والكويت يعيدان مسارات الطيران بينهما بعد إغلاقها - Azzaman",
+          "url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxQV2hZOC1hZ0s2dVhlT3MtbDFMdy1DTXp5N1MxdFV6STVLRzlrZ0VVZmJLMHBFcWkyalBhQTZ0S0Vtbnc3WTFFak1oSHpIUTkycWVObUs0QXRnRndEc2hHY1ZVX1FHcjdoWnFqN2NKdllXMkJ4MEtFajdUaVFCWWFLekdoY1VicXBXNXpydWJIamE2QlRJcmVLei1PTGRFbVdWU3hLMUtGTnJfNWJla081a3BXcjNkZl9tMFBfbS1uT3duREYyNGtOQmZCVWVhM0pvbVRaaUI1MFdILTNSQzBqenJqS1V5bHBJcWMwM0hQMEs0VjJZM0R3cXNSa3dSQVlGbmpVYldjWlV1eUdvdzJzNmlMdTdNNkR6cEFKelVwUjlMNkNrY0RxRkc0YjJNSUczT0VoQnM1bGVnQUpsV3dlU3lwTQ?oc=5",
+          "source": "Azzaman",
+          "publisher_key": "azzaman",
+          "provider": "عربي · قطر",
+          "published_at": "2026-10-18T15:13:33Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-10-23T01:00:48.563085Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Iraq"
+        }
+      ],
+      "coverage_stage": "quiet-coverage",
+      "coverage_first_published_at": "2026-10-18T15:13:33Z",
+      "coverage_last_published_at": "2026-10-18T15:13:33Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "05fcf69f332605242112",
+      "revision": 1,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
     },
     {
       "id": "GF-2B129683CA9097",
@@ -77091,9 +77963,9 @@
     },
     {
       "id": "GF-4697936525DF01",
-      "title": "Live - Trump says Iran faking Hormuz hits to push up oil prices before midterms - Iran International",
-      "category": "transport",
-      "topic": "maritime",
+      "title": "Live - Trump says US could go further in Iran war - Iran International",
+      "category": "diplomacy",
+      "topic": "regional",
       "countries": [
         "Iran"
       ],
@@ -77119,7 +77991,7 @@
       "sources": [
         {
           "id": "eacf17df30f2101af62ce55b",
-          "title": "Live - Trump says Iran faking Hormuz hits to push up oil prices before midterms - Iran International",
+          "title": "Live - Trump says US could go further in Iran war - Iran International",
           "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBrcnBqMUFFX1cyREwxckpUbVNRS0FRcUhUS2dlMU1xWnZmWXFKR01HbFZqaHBhYTlJRk9Rb2kzN1FrbmNVbTRFVmViNFFtOVBRWkdXQWVXZkpyWEFfcGc?oc=5",
           "source": "Iran International",
           "publisher_key": "iran international",
@@ -77141,9 +78013,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "2f22df15fc1a0807dd4c",
-      "revision": 11,
-      "updated_at": "2026-10-22T19:31:51.522500Z"
+      "digest": "d6f3f19356bd4c282636",
+      "revision": 12,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
     },
     {
       "id": "GF-00554CE8EAE24B",
@@ -98978,7 +99850,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-10-16T00:11:28Z",
       "coverage_last_published_at": "2026-10-16T00:11:28Z",
       "current_reporting": false,
@@ -98987,9 +99859,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "b66ef2ff3a7d08083bbf",
-      "revision": 2,
-      "updated_at": "2026-10-20T16:52:31.264495Z"
+      "digest": "6153018701d2fa10de53",
+      "revision": 3,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
     },
     {
       "id": "GF-6DF74B59BD961E",
@@ -99204,7 +100076,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-10-15T23:16:23Z",
       "coverage_last_published_at": "2026-10-15T23:16:23Z",
       "current_reporting": false,
@@ -99213,9 +100085,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "4b5139b0ec280439830b",
-      "revision": 2,
-      "updated_at": "2026-10-20T16:52:31.264495Z"
+      "digest": "ae245ac37552266a538b",
+      "revision": 3,
+      "updated_at": "2026-10-23T01:01:09.192224Z"
     },
     {
       "id": "GF-9F1FCDFD139657",
@@ -124793,24 +125665,24 @@
   ],
   "country_stats": {
     "Iran": {
-      "events": 747,
-      "reports": 833,
-      "security_coverage": 461,
+      "events": 751,
+      "reports": 838,
+      "security_coverage": 463,
       "transport_coverage": 167,
       "sources": 309
     },
     "Saudi": {
-      "events": 822,
-      "reports": 903,
-      "security_coverage": 649,
-      "transport_coverage": 132,
+      "events": 828,
+      "reports": 910,
+      "security_coverage": 652,
+      "transport_coverage": 133,
       "sources": 362
     },
     "Qatar": {
-      "events": 95,
-      "reports": 104,
+      "events": 96,
+      "reports": 105,
       "security_coverage": 48,
-      "transport_coverage": 17,
+      "transport_coverage": 18,
       "sources": 45
     },
     "UAE": {
@@ -124828,18 +125700,18 @@
       "sources": 13
     },
     "Kuwait": {
-      "events": 45,
-      "reports": 49,
-      "security_coverage": 29,
+      "events": 47,
+      "reports": 51,
+      "security_coverage": 30,
       "transport_coverage": 6,
       "sources": 24
     },
     "Iraq": {
-      "events": 91,
-      "reports": 95,
+      "events": 93,
+      "reports": 97,
       "security_coverage": 80,
-      "transport_coverage": 10,
-      "sources": 73
+      "transport_coverage": 12,
+      "sources": 75
     },
     "Oman": {
       "events": 19,
@@ -124849,18 +125721,18 @@
       "sources": 13
     },
     "Yemen": {
-      "events": 398,
-      "reports": 432,
-      "security_coverage": 376,
-      "transport_coverage": 18,
-      "sources": 194
+      "events": 402,
+      "reports": 437,
+      "security_coverage": 378,
+      "transport_coverage": 19,
+      "sources": 195
     },
     "Israel": {
-      "events": 105,
-      "reports": 116,
+      "events": 106,
+      "reports": 118,
       "security_coverage": 82,
       "transport_coverage": 10,
-      "sources": 65
+      "sources": 66
     }
   },
   "daily_coverage": {
@@ -124877,649 +125749,458 @@
     "2026-10-15": 166,
     "2026-10-16": 153,
     "2026-10-17": 210,
-    "2026-10-18": 163,
+    "2026-10-18": 165,
     "2026-10-19": 243,
     "2026-10-20": 393,
-    "2026-10-21": 328,
-    "2026-10-22": 238
+    "2026-10-21": 329,
+    "2026-10-22": 248,
+    "2026-10-23": 2
   },
   "revisions": [
     {
+      "id": "GF-2E51C0F1282AB2",
+      "revision": 4,
+      "at": "2026-10-23T01:01:09.192224Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-64862CEAAD0FF5",
+      "revision": 2,
+      "at": "2026-10-23T01:01:09.192224Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-C93D904E21DDBC",
+      "revision": 2,
+      "at": "2026-10-23T01:01:09.192224Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-5CCE448773401F",
+      "revision": 2,
+      "at": "2026-10-23T01:01:09.192224Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-7357BEAF7A702E",
+      "revision": 2,
+      "at": "2026-10-23T01:01:09.192224Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-FF89F69DD1FB93",
+      "revision": 2,
+      "at": "2026-10-23T01:01:09.192224Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
       "id": "GF-B98AB58A6697C1",
-      "revision": 2,
-      "at": "2026-10-22T22:43:41.996389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-CCE1AA6E5B228F",
-      "revision": 2,
-      "at": "2026-10-22T22:43:41.996389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 2
-    },
-    {
-      "id": "GF-1509F1A56F366D",
       "revision": 3,
-      "at": "2026-10-22T22:43:41.996389Z",
+      "at": "2026-10-23T01:01:09.192224Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-6110AB75B4A709",
-      "revision": 5,
-      "at": "2026-10-22T22:43:41.996389Z",
+      "id": "GF-F09FC7308962F1",
+      "revision": 2,
+      "at": "2026-10-23T01:01:09.192224Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-78A1C1EC8A6481",
+      "revision": 2,
+      "at": "2026-10-23T01:01:09.192224Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-5D706D1C05E8F6",
+      "revision": 2,
+      "at": "2026-10-23T01:01:09.192224Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-C1472531A9BEBA",
+      "revision": 2,
+      "at": "2026-10-23T01:01:09.192224Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-161AF2ED188231",
+      "revision": 2,
+      "at": "2026-10-23T01:01:09.192224Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-A1AD41E3D2E19C",
+      "revision": 2,
+      "at": "2026-10-23T01:01:09.192224Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-5F992D00282B5B",
+      "revision": 2,
+      "at": "2026-10-23T01:01:09.192224Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-E0FFA42B77DD88",
+      "revision": 2,
+      "at": "2026-10-23T01:01:09.192224Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-0EDB6FC896C900",
+      "revision": 2,
+      "at": "2026-10-23T01:01:09.192224Z",
       "change": "published-source-set-updated",
       "previous_source_count": 2,
       "new_source_count": 2
     },
     {
+      "id": "GF-1509F1A56F366D",
+      "revision": 4,
+      "at": "2026-10-23T01:01:09.192224Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
       "id": "GF-FB71590851E9BA",
-      "revision": 3,
-      "at": "2026-10-22T22:43:41.996389Z",
+      "revision": 4,
+      "at": "2026-10-23T01:01:09.192224Z",
       "change": "published-source-set-updated",
       "previous_source_count": 15,
       "new_source_count": 15
     },
     {
-      "id": "GF-ABA20F181FB248",
+      "id": "GF-5086AC16FBAD8F",
       "revision": 2,
-      "at": "2026-10-22T22:43:41.996389Z",
+      "at": "2026-10-23T01:01:09.192224Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-F86930475E3A7C",
-      "revision": 2,
-      "at": "2026-10-22T22:43:41.996389Z",
+      "id": "GF-99AFAD177AA7D7",
+      "revision": 6,
+      "at": "2026-10-23T01:01:09.192224Z",
       "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-D47A853F009AC4",
-      "revision": 3,
-      "at": "2026-10-22T22:43:41.996389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 3,
-      "new_source_count": 3
-    },
-    {
-      "id": "GF-67766E64914425",
-      "revision": 3,
-      "at": "2026-10-22T22:43:41.996389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-C780BF9A7E39EC",
-      "revision": 2,
-      "at": "2026-10-22T22:43:41.996389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-94580B49C9F549",
-      "revision": 2,
-      "at": "2026-10-22T22:43:41.996389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-610001D871C95B",
-      "revision": 3,
-      "at": "2026-10-22T22:43:41.996389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-883B6B26EF8DDA",
-      "revision": 2,
-      "at": "2026-10-22T22:43:41.996389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-F92ADD25C41641",
-      "revision": 2,
-      "at": "2026-10-22T22:43:41.996389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 2
-    },
-    {
-      "id": "GF-A09C69213ABEAA",
-      "revision": 2,
-      "at": "2026-10-22T22:43:41.996389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-2D23F70F86BF08",
-      "revision": 2,
-      "at": "2026-10-22T22:43:41.996389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-5A68086D7E8B8C",
-      "revision": 3,
-      "at": "2026-10-22T22:43:41.996389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
+      "previous_source_count": 4,
+      "new_source_count": 5
     },
     {
       "id": "GF-93B41191C45FED",
-      "revision": 4,
-      "at": "2026-10-22T22:43:41.996389Z",
+      "revision": 5,
+      "at": "2026-10-23T01:01:09.192224Z",
       "change": "published-source-set-updated",
       "previous_source_count": 2,
-      "new_source_count": 2
+      "new_source_count": 3
     },
     {
-      "id": "GF-45A404B996EF0A",
-      "revision": 2,
-      "at": "2026-10-22T22:43:41.996389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-BB9A242BFED0D4",
-      "revision": 4,
-      "at": "2026-10-22T22:43:41.996389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-4C216135DE686C",
-      "revision": 5,
-      "at": "2026-10-22T22:43:41.996389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-A8D21F962A7782",
-      "revision": 2,
-      "at": "2026-10-22T22:43:41.996389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-2E51C0F1282AB2",
+      "id": "GF-71141126C7DB27",
       "revision": 3,
-      "at": "2026-10-22T22:43:41.996389Z",
+      "at": "2026-10-23T01:01:09.192224Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-7D798535299654",
+      "revision": 2,
+      "at": "2026-10-23T01:01:09.192224Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-1B87E73ADA8D6E",
+      "revision": 2,
+      "at": "2026-10-23T01:01:09.192224Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-17348D6F723578",
+      "revision": 4,
+      "at": "2026-10-23T01:01:09.192224Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
       "id": "GF-B67AA319E26402",
-      "revision": 2,
-      "at": "2026-10-22T22:43:41.996389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-44F0414976F97B",
-      "revision": 2,
-      "at": "2026-10-22T22:43:41.996389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-CCCBF4B0C9682E",
-      "revision": 8,
-      "at": "2026-10-22T22:43:41.996389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-E359B94E7F0129",
-      "revision": 2,
-      "at": "2026-10-22T22:43:41.996389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-AF48BD314DF5E5",
-      "revision": 2,
-      "at": "2026-10-22T22:43:41.996389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-A75D171F0929BE",
-      "revision": 2,
-      "at": "2026-10-22T22:43:41.996389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-652087928BFB79",
-      "revision": 2,
-      "at": "2026-10-22T22:43:41.996389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-4A371BA9072B17",
-      "revision": 2,
-      "at": "2026-10-22T22:43:41.996389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-0E5E095D381663",
-      "revision": 2,
-      "at": "2026-10-22T22:43:41.996389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 6,
-      "new_source_count": 7
-    },
-    {
-      "id": "GF-FF16E8B2B39328",
-      "revision": 2,
-      "at": "2026-10-22T22:43:41.996389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-E945668410FF2E",
-      "revision": 2,
-      "at": "2026-10-22T22:43:41.996389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-FDEF0BDE21F7D8",
-      "revision": 4,
-      "at": "2026-10-22T22:43:41.996389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-6D59ADF4E305C2",
-      "revision": 2,
-      "at": "2026-10-22T22:43:41.996389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-A897A5DE35B796",
-      "revision": 2,
-      "at": "2026-10-22T22:43:41.996389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-F24AF555152B4A",
-      "revision": 2,
-      "at": "2026-10-22T22:43:41.996389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-E2D01B8AB8C746",
       "revision": 3,
-      "at": "2026-10-22T22:43:41.996389Z",
+      "at": "2026-10-23T01:01:09.192224Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-C34C5799A427B2",
+      "id": "GF-F063566E2AD1D5",
+      "revision": 2,
+      "at": "2026-10-23T01:01:09.192224Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 2,
+      "new_source_count": 2
+    },
+    {
+      "id": "GF-A732256ECE1C0A",
       "revision": 3,
-      "at": "2026-10-22T22:43:41.996389Z",
+      "at": "2026-10-23T01:01:09.192224Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-7B88BD7562A795",
+      "id": "GF-631276B1A0936C",
       "revision": 2,
-      "at": "2026-10-22T22:43:41.996389Z",
+      "at": "2026-10-23T01:01:09.192224Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-BE7065753BBA5F",
+      "id": "GF-1342D4D0D0A7DD",
       "revision": 2,
-      "at": "2026-10-22T22:43:41.996389Z",
+      "at": "2026-10-23T01:01:09.192224Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-194EDA26690D5E",
+      "id": "GF-722FDB2030EB26",
+      "revision": 2,
+      "at": "2026-10-23T01:01:09.192224Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-E922673BB73696",
+      "revision": 2,
+      "at": "2026-10-23T01:01:09.192224Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 2,
+      "new_source_count": 2
+    },
+    {
+      "id": "GF-8BFC9209ECDBDD",
       "revision": 3,
-      "at": "2026-10-22T22:43:41.996389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 3,
-      "new_source_count": 3
-    },
-    {
-      "id": "GF-7E261760986C61",
-      "revision": 2,
-      "at": "2026-10-22T22:43:41.996389Z",
+      "at": "2026-10-23T01:01:09.192224Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-2C4156ACA6958A",
+      "id": "GF-D27925518B63F7",
       "revision": 2,
-      "at": "2026-10-22T22:43:41.996389Z",
+      "at": "2026-10-23T01:01:09.192224Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-5D70BB3A3ACB32",
-      "revision": 2,
-      "at": "2026-10-22T22:43:41.996389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-B0F80E636DE47E",
+      "id": "GF-F05370F5519786",
       "revision": 3,
-      "at": "2026-10-22T22:43:41.996389Z",
+      "at": "2026-10-23T01:01:09.192224Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-0D4FBE39693E15",
+      "id": "GF-B3449E0ACD7AE4",
       "revision": 2,
-      "at": "2026-10-22T22:43:41.996389Z",
+      "at": "2026-10-23T01:01:09.192224Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-F21A9DEC20CC57",
+      "id": "GF-2B570229570481",
+      "revision": 6,
+      "at": "2026-10-23T01:01:09.192224Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-AC8E1269AF4C90",
+      "revision": 3,
+      "at": "2026-10-23T01:01:09.192224Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-27594574124B85",
       "revision": 2,
-      "at": "2026-10-22T22:43:41.996389Z",
+      "at": "2026-10-23T01:01:09.192224Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-907BC2B6A0EA16",
+      "id": "GF-DF9274794E3769",
       "revision": 3,
-      "at": "2026-10-22T22:43:41.996389Z",
+      "at": "2026-10-23T01:01:09.192224Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-4FA3DAD8A468D2",
-      "revision": 3,
-      "at": "2026-10-22T22:43:41.996389Z",
+      "id": "GF-F1DC82EC6FE844",
+      "revision": 2,
+      "at": "2026-10-23T01:01:09.192224Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-541E2DF288C5B5",
-      "revision": 3,
-      "at": "2026-10-22T22:43:41.996389Z",
+      "id": "GF-08B86E0D9295B8",
+      "revision": 5,
+      "at": "2026-10-23T01:01:09.192224Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
       "id": "GF-AB77D378B08891",
+      "revision": 4,
+      "at": "2026-10-23T01:01:09.192224Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-D6F9B6771975DC",
       "revision": 3,
-      "at": "2026-10-22T22:43:41.996389Z",
+      "at": "2026-10-23T01:01:09.192224Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-BF9343C2CFF369",
+      "id": "GF-96A0F064C19EEB",
       "revision": 2,
-      "at": "2026-10-22T22:43:41.996389Z",
+      "at": "2026-10-23T01:01:09.192224Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-03D9A8F8E7CD43",
-      "revision": 2,
-      "at": "2026-10-22T22:43:41.996389Z",
+      "id": "GF-9E1C0C06665478",
+      "revision": 3,
+      "at": "2026-10-23T01:01:09.192224Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-D3DF9EA40E8ED2",
+      "id": "GF-BE227C1F6F605C",
       "revision": 2,
-      "at": "2026-10-22T22:43:41.996389Z",
+      "at": "2026-10-23T01:01:09.192224Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-22B1D4387E733F",
-      "revision": 2,
-      "at": "2026-10-22T22:43:41.996389Z",
+      "id": "GF-71F4891C24DFCD",
+      "revision": 3,
+      "at": "2026-10-23T01:01:09.192224Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-03B0909CA0EF4B",
-      "revision": 2,
-      "at": "2026-10-22T22:43:41.996389Z",
+      "id": "GF-32EF61A35E6F3C",
+      "revision": 4,
+      "at": "2026-10-23T01:01:09.192224Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-0E5E095D381663",
+      "revision": 3,
+      "at": "2026-10-23T01:01:09.192224Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 7,
+      "new_source_count": 8
+    },
+    {
+      "id": "GF-194EDA26690D5E",
+      "revision": 4,
+      "at": "2026-10-23T01:01:09.192224Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 3,
+      "new_source_count": 2
+    },
+    {
+      "id": "GF-D102B90FE7780C",
+      "revision": 8,
+      "at": "2026-10-23T01:01:09.192224Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-03303938FAA376",
+      "revision": 12,
+      "at": "2026-10-23T01:01:09.192224Z",
       "change": "published-source-set-updated",
       "previous_source_count": 2,
       "new_source_count": 2
     },
     {
-      "id": "GF-70D147316B0063",
-      "revision": 2,
-      "at": "2026-10-22T22:43:41.996389Z",
+      "id": "GF-4697936525DF01",
+      "revision": 12,
+      "at": "2026-10-23T01:01:09.192224Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-BF7AF0ECB0B3C1",
-      "revision": 2,
-      "at": "2026-10-22T22:43:41.996389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-4D2E080E840DF4",
-      "revision": 2,
-      "at": "2026-10-22T22:43:41.996389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-4696AFDF33A3BF",
-      "revision": 2,
-      "at": "2026-10-22T22:43:41.996389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-98B542C11D7034",
-      "revision": 2,
-      "at": "2026-10-22T22:43:41.996389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-B62FB51E7D5330",
-      "revision": 8,
-      "at": "2026-10-22T22:43:41.996389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-C237853E219921",
-      "revision": 4,
-      "at": "2026-10-22T22:43:41.996389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-6EBBAD58E9F97B",
-      "revision": 6,
-      "at": "2026-10-22T22:43:41.996389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-73DC4829A050DE",
-      "revision": 14,
-      "at": "2026-10-22T22:43:41.996389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-5ACBD870DDE438",
-      "revision": 7,
-      "at": "2026-10-22T22:43:41.996389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-B173C8DF298128",
-      "revision": 5,
-      "at": "2026-10-22T22:43:41.996389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-55E1BA37A55616",
+      "id": "GF-2B6072DA361EB2",
       "revision": 3,
-      "at": "2026-10-22T22:43:41.996389Z",
+      "at": "2026-10-23T01:01:09.192224Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-2884B4F5F3A91E",
-      "revision": 2,
-      "at": "2026-10-22T22:43:41.996389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-CD237B93011D18",
-      "revision": 2,
-      "at": "2026-10-22T22:43:41.996389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-3AA6EE1E1A75AD",
-      "revision": 2,
-      "at": "2026-10-22T22:43:41.996389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-EA71018A9B07F4",
-      "revision": 2,
-      "at": "2026-10-22T22:43:41.996389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-2928913D75E444",
-      "revision": 2,
-      "at": "2026-10-22T22:43:41.996389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-46467E47A2B083",
+      "id": "GF-89B4609DF61EB5",
       "revision": 3,
-      "at": "2026-10-22T22:43:41.996389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-DCAEB328074DE9",
-      "revision": 2,
-      "at": "2026-10-22T22:43:41.996389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 6,
-      "new_source_count": 6
-    },
-    {
-      "id": "GF-8C28F5DE953D4E",
-      "revision": 3,
-      "at": "2026-10-22T22:43:41.996389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-8BCE93D7AF40FD",
-      "revision": 2,
-      "at": "2026-10-22T22:43:41.996389Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-A051FE553365CB",
-      "revision": 3,
-      "at": "2026-10-22T22:43:41.996389Z",
+      "at": "2026-10-23T01:01:09.192224Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
