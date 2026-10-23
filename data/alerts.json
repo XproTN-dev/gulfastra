@@ -1,7 +1,111 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-23T11:29:11.574281Z",
-  "alerts": [],
+  "generated_at": "2026-10-23T15:53:29.828798Z",
+  "alerts": [
+    {
+      "id": "GF-F07D0A791BD6B9",
+      "level": "review",
+      "title": "Tanker Hit by Unknown Projectile in Strait of Hormuz - WANA News Agency",
+      "published_at": "2026-10-23T15:50:14Z",
+      "countries": [],
+      "category": "transport",
+      "topic": "maritime",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "WANA News Agency",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1wdVhqOGlzYVRDbGtaUU05ZzdCN0tTakttZDRuRDY3QTFWOTNoSk83VzU0THQ1QkZaVktKOEhuNkdhbzMtRmRwZkpiLUNRQ1YyNXJrU1NFSjNzRUYwVTZPaUx0c3Jnd0VRNkJnZXBaX3lISnBjNzNrdmpJa0U?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-E6EC21EC4DE13E",
+      "level": "review",
+      "title": "العراق يدين الهجوم الإرهابي الذي استهدف مواطنين أردنيين - وكالة موازين نيوز",
+      "published_at": "2026-10-23T15:04:09Z",
+      "countries": [
+        "Iraq"
+      ],
+      "category": "security",
+      "topic": "regional",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "وكالة موازين نيوز",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBSTkZXZFZvZmNiZ1RTc0JCMHNXYnVCTDNnYVQ2SnNCbER1RXFVOV9lWjBUeEFIUlVKOUpxTXdCSnVISHc2YnNfVVNyeXBQQzNaSEVzbHRaaHNUSmRSUWhn?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-224A5412078099",
+      "level": "review",
+      "title": "العراق يدين الهجوم الإرهابي الذي استهدف كنيسة في مدينة الكرك بالأردن - قناة الرشيد الفضائية",
+      "published_at": "2026-10-23T15:04:07Z",
+      "countries": [
+        "Iraq"
+      ],
+      "category": "security",
+      "topic": "regional",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "قناة الرشيد الفضائية",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE91X0s0VUpaUEZuWm5pQkhfWHVYbm5TYWRmb1JjWEU5NEF2VXpCZmFuVzVKUGNRX0ZEYkJLMGp1WGhHY0dJZ2JIUkhINllfWmlsWUsyRlp4OEN2VElyX3c?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-28BF0DE57D679E",
+      "level": "review",
+      "title": "العراق يدين الهجوم الإرهابي الذي استهدف مواطنين أردنيين » وكالة الانباء العراقية (واع) | اخبار العراق - وكالة الانباء العراقية (واع)",
+      "published_at": "2026-10-23T15:03:40Z",
+      "countries": [
+        "Iraq"
+      ],
+      "category": "security",
+      "topic": "regional",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "وكالة الانباء العراقية (واع)",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9uVE5kM3N5bXpNNlBhVEQ2OXJMcUFabF9wRWJUOWYyXzBMX0ZCZFhPQ0hxSE9wTFZqLVpGM2w2V2xBekdVbExHaDhYcFhubUVCc0E?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-791DC042C61FE5",
+      "level": "review",
+      "title": "‘I killed lots of terrorists, but it didn’t make me feel better’: The trauma haunting Israel's elections",
+      "published_at": "2026-10-23T14:32:07Z",
+      "countries": [
+        "Israel"
+      ],
+      "category": "security",
+      "topic": "regional",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "© David Gormezano, FRANCE 24",
+          "url": "https://www.france24.com/en/middle-east/20261023-i-killed-lots-of-terrorists-but-it-didn-t-make-me-feel-better-the-trauma-haunting-israel-s-elections"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    }
+  ],
   "new_alert_ids": [],
   "critical_count": 0,
   "notice": "CRITICAL REPORTING means multiple named outlets published related headlines. This is NOT confirmation, real-time detection or official emergency advice."
