@@ -1,7 +1,21 @@
 {
   "schema": 2,
-  "updated_at": "2026-10-23T01:01:15.470903Z",
+  "updated_at": "2026-10-23T05:58:46.367644Z",
   "observations": [
+    {
+      "id": "usgs:us6000u48b",
+      "kind": "earthquake",
+      "source": "USGS",
+      "title": "M 4.4 - 55 km SE of Dalbandin, Pakistan",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u48b",
+      "occurred_at": "2026-10-22T23:26:49.728000Z",
+      "published_at": "2026-10-22T23:26:49.728000Z",
+      "lon": 64.8162,
+      "lat": 28.5388,
+      "magnitude": 4.4,
+      "coordinates_quality": "observed",
+      "classification": "observed-natural-hazard"
+    },
     {
       "id": "usgs:us6000u2w9",
       "kind": "earthquake",
@@ -49,25 +63,25 @@
     {
       "source": "USGS",
       "ok": true,
-      "count": 3,
-      "last_run": "2026-10-23T01:01:10.498987Z"
+      "count": 4,
+      "last_run": "2026-10-23T05:58:43.555845Z"
     },
     {
       "source": "NASA EONET",
       "ok": true,
       "count": 0,
-      "last_run": "2026-10-23T01:01:10.498987Z"
+      "last_run": "2026-10-23T05:58:43.555845Z"
     },
     {
       "source": "Cloudflare Radar",
       "ok": null,
       "state": "not-configured",
       "requires_secret": "CF_RADAR_TOKEN",
-      "last_run": "2026-10-23T01:01:10.498987Z"
+      "last_run": "2026-10-23T05:58:43.555845Z"
     },
     {
       "source": "NASA FIRMS",
-      "last_run": "2026-10-23T01:01:15.470903Z",
+      "last_run": "2026-10-23T05:58:46.367644Z",
       "ok": null,
       "state": "not-configured",
       "requires_secret": "NASA_FIRMS_MAP_KEY"

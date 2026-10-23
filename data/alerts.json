@@ -1,29 +1,7 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-23T01:01:10.323509Z",
-  "alerts": [
-    {
-      "id": "GF-2E51C0F1282AB2",
-      "level": "review",
-      "title": "السعودية تعلن مقتل شخص وإصابة 8 جراء هجوم على مطار الملك فهد.. و\"كبار العلماء\": استهداف المقدسات والمدنيين \"إرهاب\" - CNN Arabic",
-      "published_at": "2026-10-22T23:10:29Z",
-      "countries": [
-        "Saudi"
-      ],
-      "category": "security",
-      "topic": "aviation",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "CNN Arabic",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPemtwTGVqSng0cWpCZ0hrVFEyY1lUb1daTXRwSllIMnAyRkNHSmVlVzJvYVY2WXdOak0yRjIwd1RXNlNlTXpsNmFtR2lNTWdUa1FLaVRRV1NnVEJ5bUt3TmVNZFFoQko2SGlCR3JuMGtDUkM5Wjg5VFZKYXRxd0xMd29jdVpQTnVzSXJBMTdKcFYtZnNiVzZTQ05LTzA1UG1RN1hhMEdsczEtVUJheEkwZGdaY1BDSnBHNnpQclRlVHZ3b2J5QU1lbnNJU1o0Zw?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    }
-  ],
+  "generated_at": "2026-10-23T05:58:43.429822Z",
+  "alerts": [],
   "new_alert_ids": [],
   "critical_count": 0,
   "notice": "CRITICAL REPORTING means multiple named outlets published related headlines. This is NOT confirmation, real-time detection or official emergency advice."
