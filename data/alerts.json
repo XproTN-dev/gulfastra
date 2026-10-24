@@ -1,14 +1,14 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-24T19:43:09.860611Z",
+  "generated_at": "2026-10-24T21:57:54.749917Z",
   "alerts": [
     {
-      "id": "GF-377E4A8A0757D1",
+      "id": "GF-960058DC932A1A",
       "level": "review",
-      "title": "مقتل 3 أشخاص وإصابة آخرين في هجوم روسي على مقاطعة دنيبروبيتروفسك الأوكرانية - Qatar news agency",
-      "published_at": "2026-10-24T19:25:27Z",
+      "title": "Live - US warships ready for potential strikes on Iran, WSJ reports - Iran International",
+      "published_at": "2026-10-24T20:14:36Z",
       "countries": [
-        "Qatar"
+        "Iran"
       ],
       "category": "security",
       "topic": "regional",
@@ -16,71 +16,8 @@
       "article_count": 1,
       "source_urls": [
         {
-          "name": "Qatar news agency",
-          "url": "https://news.google.com/rss/articles/CBMi6ARBVV95cUxNOXNNRnppQko2YW4yT3FRUUM4ZkpsMGoxYTMxUktVazJQSlQzanRvSDdKT2tMaFl2bW90RGp3STJPbVZJYnNhNkxjSkFCbEZTMEpnUVVYcEpfNVQ2Ylo5dEp6bTU5M2tTZmRsSzN2ZzFBME9WNERZZ0xvVXpBRHE1d1BGLVVhckVvelVwa0xQNzdRajNkYkNmSmNEMzhYRDVCSTlOT2o0MU9mLS1kVE44QWFpc0Z1M3pWaG8zQnZCQXZ2d3FyQm9ta0pSbXgwLWE0ZDdhR29ZangwUTZnN1ZGakw4VGNnUWw0MFNTeXM3T2RUVXBIb0huOUZueXhUOXpZYkQyZjVRalVWcmFvVmpBMXA4bmp1ZGF1dWtCZG9neWIyanFSOTFLRDQ2cDB3aldnXzRJUGdPTDQ0VnVwaFlXVFJOTk1WN212VWV4NmNFN3ZKVWQ5Ykc5Q2VvRGQ1eVcwdEgwVS1PQXc2ZG1QU1lMdnBwUjl0bGNTWGJ3S0dJbFNwTUIzOEgzZlA2aDNiRFk3QlNRek1lOFprc1k5c2FsMGF5ZFlnYTZESEFHcERWVkdTRU9jRUN5Wi02OEJtcEJWcUZ1bTNNQXNOV1ZRd1JTeXNfWi1KMk1pYkRQc2VwYWRsREt3enhBMFhDSWs1UlJXcEJBM1pzbUVqVDdablY0TldCM2RZcXgzdk1hUFRiNHlUTVhKRGppa1UtMTgtMUU5TUhJTWxCOW9YanBNWU8yN2NIUTd1VmJ3OXFPXzVNLXRnN0pGWGdDRmxPcFg1THBCYU5TRm1Ld0VqQXM1QmpOSlp2UWJFM1kx?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-9AFAD4C9882D4C",
-      "level": "review",
-      "title": "عام / سمو ولي العهد يُعزي ملك الأردن في ضحايا الهجوم الإرهابي الذي استهدف كنيسة في محافظة الكرك - وكالة الأنباء السعودية",
-      "published_at": "2026-10-24T18:38:42Z",
-      "countries": [
-        "Saudi"
-      ],
-      "category": "security",
-      "topic": "regional",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "وكالة الأنباء السعودية",
-          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5naHdKaWIwWFdJQlJvZmRzWkFRa09VS1VKUlAxbEpEMUVqcWMwMmp6T2JXRlE3ck5pNEFKTlNsdnhUM2F2SFE?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-4BEF8689CB64B4",
-      "level": "review",
-      "title": "عام / خادم الحرمين الشريفين يُعزي ملك الأردن في ضحايا الهجوم الإرهابي الذي استهدف كنيسة في محافظة الكرك - وكالة الأنباء السعودية",
-      "published_at": "2026-10-24T18:38:29Z",
-      "countries": [
-        "Saudi"
-      ],
-      "category": "security",
-      "topic": "regional",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "وكالة الأنباء السعودية",
-          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5tRUpsRDFkVGctaTJQd2FLUkdoR2FQajlZV2taZ21tTGs1WTlTSmZ5eU9SWXhFamRsdTE5aGhFLXAzbi01NHc?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-4EB445DE2EE397",
-      "level": "review",
-      "title": "Houthis say they attacked Saudi oil sites; strikes reported in Aden - Reuters",
-      "published_at": "2026-10-24T17:58:51Z",
-      "countries": [
-        "Saudi"
-      ],
-      "category": "security",
-      "topic": "regional",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNU1JpTkpxd3RUSFgwb29mWkRuSmg5UFd5d1RMQkZMdE5tV3F4cEN6SXFOODhTQUZTbTZucHJGVnpxMWpGZVFuSXJzZ045Q0o1Uzh5NFNvVENFX1M2dFQ0NzRGYjUtWk9TYjBWcldGNS1hY21yS2IyOXBsX29hcFg5N2ZENUlIV2oyTE1OT3hJQUFaS1pjTHV3VnZUTkRWbVFnd0JqYV9iZmVwUW4xcGNVOUdUZmgtaWpkVGdsVzJ1SXR1U1hyWG5uWg?oc=5"
+          "name": "Iran International",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBiblkxNnVtVlJKZk9CWDVFRTZvY2F6bWZORmVtSkR4NVY4VzZQa3dPZy1KNE5EbUpvMWF3TDk0VEY5QnAzTmFWS3FjenBLRHdpU2UtMjVKZlphZl9tRkE?oc=5"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
