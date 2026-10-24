@@ -1,23 +1,23 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-24T01:10:06.826135Z",
+  "generated_at": "2026-10-24T05:56:28.811447Z",
   "alerts": [
     {
-      "id": "GF-1B58F7D0682D75",
+      "id": "GF-8D3519DFFD3C1B",
       "level": "review",
-      "title": "US strikes on Iran now serve the blockade - Iran International",
-      "published_at": "2026-10-24T00:07:49Z",
+      "title": "Massive oil slick seen weeks after tanker struck off UAE’s coast",
+      "published_at": "2026-10-24T04:48:40Z",
       "countries": [
-        "Iran"
+        "UAE"
       ],
-      "category": "security",
-      "topic": "regional",
+      "category": "transport",
+      "topic": "maritime",
       "outlet_count": 1,
       "article_count": 1,
       "source_urls": [
         {
-          "name": "Iran International",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBfUFJDTXdReEhhWERNdW1ueksxZzJhanNHTVRGc2ZIeFVNdmoxOGdXUTBwSWUtR0E2Zk5RQWlkOEl1Z2ZzNGxCeVFZd0MzQUdWeHc?oc=5"
+          "name": "Al Jazeera RSS",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/massive-oil-slick-seen-weeks-after-tanker-struck-off-uaes-coast?traffic_source=rss"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
