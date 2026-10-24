@@ -1,7 +1,21 @@
 {
   "schema": 2,
-  "updated_at": "2026-10-24T10:44:58.439888Z",
+  "updated_at": "2026-10-24T14:08:39.452143Z",
   "observations": [
+    {
+      "id": "usgs:us6000u4m6",
+      "kind": "earthquake",
+      "source": "USGS",
+      "title": "M 4.9 - 148 km NNW of Kilmia, Yemen",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4m6",
+      "occurred_at": "2026-10-24T11:20:27.157000Z",
+      "published_at": "2026-10-24T11:20:27.157000Z",
+      "lon": 51.5108,
+      "lat": 13.3207,
+      "magnitude": 4.9,
+      "coordinates_quality": "observed",
+      "classification": "observed-natural-hazard"
+    },
     {
       "id": "usgs:us6000u48b",
       "kind": "earthquake",
@@ -63,25 +77,25 @@
     {
       "source": "USGS",
       "ok": true,
-      "count": 1,
-      "last_run": "2026-10-24T10:44:53.932191Z"
+      "count": 2,
+      "last_run": "2026-10-24T14:08:36.244381Z"
     },
     {
       "source": "NASA EONET",
       "ok": true,
       "count": 0,
-      "last_run": "2026-10-24T10:44:53.932191Z"
+      "last_run": "2026-10-24T14:08:36.244381Z"
     },
     {
       "source": "Cloudflare Radar",
       "ok": null,
       "state": "not-configured",
       "requires_secret": "CF_RADAR_TOKEN",
-      "last_run": "2026-10-24T10:44:53.932191Z"
+      "last_run": "2026-10-24T14:08:36.244381Z"
     },
     {
       "source": "NASA FIRMS",
-      "last_run": "2026-10-24T10:44:58.439888Z",
+      "last_run": "2026-10-24T14:08:39.452143Z",
       "ok": null,
       "state": "not-configured",
       "requires_secret": "NASA_FIRMS_MAP_KEY"
