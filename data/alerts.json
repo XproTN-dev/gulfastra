@@ -1,7 +1,70 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-24T14:08:36.132035Z",
-  "alerts": [],
+  "generated_at": "2026-10-24T17:27:49.486811Z",
+  "alerts": [
+    {
+      "id": "GF-960058DC932A1A",
+      "level": "review",
+      "title": "Live - US warships ready for potential strikes on Iran, WSJ reports - Iran International",
+      "published_at": "2026-10-24T17:13:11Z",
+      "countries": [
+        "Iran"
+      ],
+      "category": "security",
+      "topic": "regional",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "Iran International",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBiblkxNnVtVlJKZk9CWDVFRTZvY2F6bWZORmVtSkR4NVY4VzZQa3dPZy1KNE5EbUpvMWF3TDk0VEY5QnAzTmFWS3FjenBLRHdpU2UtMjVKZlphZl9tRkE?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-A9761C05124BBB",
+      "level": "review",
+      "title": "Reports of Explosion, Possible Damage to Giant Oil Tanker in Strait of Hormuz - WANA News Agency",
+      "published_at": "2026-10-24T16:48:13Z",
+      "countries": [],
+      "category": "security",
+      "topic": "maritime",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "WANA News Agency",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNY2tka2pPNG9yLVRCR1RtNjBFTG1DT204enpnZkY4YXZHTXJqX3NlV1p2M2dKcGpLc0ZCbWYwT2VqclZDUGlzTkJoNjZnQWwwRTYtMVhDZ2w5WXpWeFk4NXNkSk9yQktTR1pVY2F3U01QMFc2R0phZjc0amIxeUxrRENncUR3ZE5GbE5aVkg5aXVzMjRUcGZLN3ljZFE?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-E70CD5ACB9DE55",
+      "level": "review",
+      "title": "السعودية والحوثيون يتبادلون الضربات.. صواريخ باتجاه الرياض وقتلى في صنعاء وهجوم على مطار عدن - مونت كارلو الدولية",
+      "published_at": "2026-10-24T15:43:19Z",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "category": "security",
+      "topic": "missile",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "مونت كارلو الدولية",
+          "url": "https://news.google.com/rss/articles/CBMiigZBVV95cUxQQWJnMUtIQlVob2JfUlY1X05xdC1raEhVUkV1LS1zREY5RnlCSDR4RHprSkd6Tmo3bHhMbjFzSG9XSkZITFBLOE9fM3BuMDRRVlRxZ1dWbEdtb2JNcUhGbWxMSm5peFA3MmZ6N3FranFXUTJwbl9SLXphTEh0YV9EWjR1TDltTVc4dm5sUk5FSGRMSV9UQnFjZXd4eDBmSEs5UFJWeTlPUVE2ampzc1UxWFRNeW14TzRHS21wRE1EdFg2U2xzSWtJNjRua05SVURhdmY4aFliNmRjXzlpTUJKQ29MWXNOMGpoWmduUnFVVGtrX29LNHBycDcxS29YTG41RW5XN05PTEVqSTB6Nnc3T1VaSzVPeFpfeWtkQmcyMmM5OEMtODEwZ3piczBPdFhXUlBtMVlTWlN3b2sxc2lzR2ZIQTdpRUx6V3BMWF9zSC13WVl6NGhmVGZTRlltUGRKeF9COGM1X2h0WEhBcGpLX3hmcDBGWEs4ZG1UYjRFZFVfN3Rab2w1Qlk0QmpsNzVOM0NqTXFLS1JBYUhfQVVmTGxIeEx4RmY3U3FqYS1JekpKRDIxZ21sZEczMmJnMURycmFOVDZmblJheDVUQ1gzREg3TlBkcVZNdFBaSmNmN1l2em4tWU9NV2FBRVJkVEpENUE0SjlRcnZNRWVjRC05dGVpQ0dFLXd4Q1JMZDdqM3pJS0hBMUtGVUdmRm5NNGdIM0hrUUc1Y2Jlc2ZEaWUxb2h4OTRROUVnWDdOZ2dSYUpOTHo5ZXVfaHoyVVBZTDg2WE9HVHVnaG85bkFLWm9iZFFlUEFjUzBaOUlJV1Mxdzg0dGJMY1Rnb2pTd19waGppVVF6SVBjQ1QzRlBCM2VpSzI0Ykp1cXc1Snl2eld1WHF2Mm9XNjJic09jQ3EyRUxuSjQ3ZzZmX1QzNnlXTmZ6aTlwaUFXZ0xMXzZmYmVqS25nZ3dZN2FSNzEyN2J2UkhSVE1IUjVFR0hUVG8yOTl3RmRJeHdNbi1NNEZHbGFWT3YzNFhPOEhwRXJR?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    }
+  ],
   "new_alert_ids": [],
   "critical_count": 0,
   "notice": "CRITICAL REPORTING means multiple named outlets published related headlines. This is NOT confirmation, real-time detection or official emergency advice."
