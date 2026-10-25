@@ -1,7 +1,29 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-25T13:55:38.966608Z",
-  "alerts": [],
+  "generated_at": "2026-10-25T17:32:03.013395Z",
+  "alerts": [
+    {
+      "id": "GF-0752341EF543A4",
+      "level": "review",
+      "title": "Seven killed in Gaza as Israel targets university campus and other sites",
+      "published_at": "2026-10-25T15:40:25Z",
+      "countries": [
+        "Israel"
+      ],
+      "category": "security",
+      "topic": "regional",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "Al Jazeera RSS",
+          "url": "https://www.aljazeera.com/news/2026/10/25/seven-killed-in-gaza-as-israel-targets-university-campus-and-other-sites?traffic_source=rss"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    }
+  ],
   "new_alert_ids": [],
   "critical_count": 0,
   "notice": "CRITICAL REPORTING means multiple named outlets published related headlines. This is NOT confirmation, real-time detection or official emergency advice."
