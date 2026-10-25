@@ -1,29 +1,7 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-25T09:36:05.584377Z",
-  "alerts": [
-    {
-      "id": "GF-B1AFCAC8304162",
-      "level": "review",
-      "title": "تحالف دعم الشرعية يعلن إحباط هجوم صاروخي وجوي للحوثيين استهدف الرياض وخميس مشيط - شبكة تواصل الإخبارية",
-      "published_at": "2026-10-25T07:53:55Z",
-      "countries": [
-        "Saudi"
-      ],
-      "category": "security",
-      "topic": "missile",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "شبكة تواصل الإخبارية",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA3b0lvRkEyVjB3MGJxczRMSHFWdExwWlotam5naVcyQWxKbERxeExLQy1OYkI2amozX29ZWHdlN1FhQ2V0MVF3ek1peWVKTF84d1M0?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    }
-  ],
+  "generated_at": "2026-10-25T13:55:38.966608Z",
+  "alerts": [],
   "new_alert_ids": [],
   "critical_count": 0,
   "notice": "CRITICAL REPORTING means multiple named outlets published related headlines. This is NOT confirmation, real-time detection or official emergency advice."
