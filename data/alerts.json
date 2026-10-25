@@ -1,23 +1,23 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-25T00:13:15.903550Z",
+  "generated_at": "2026-10-25T04:53:27.648017Z",
   "alerts": [
     {
-      "id": "GF-5EFEB21D60C9BF",
+      "id": "GF-1ABA0292AE2183",
       "level": "review",
-      "title": "منوعات عالمية / مقتل 20 شخصًا على الأقل في هجوم مسلح شمال شرق نيجيريا - وكالة الأنباء السعودية",
-      "published_at": "2026-10-24T22:58:42Z",
+      "title": "144 Saudi-bound flights cancelled, 22,000 passengers affected - Daily Sun",
+      "published_at": "2026-10-25T03:19:54Z",
       "countries": [
         "Saudi"
       ],
-      "category": "security",
-      "topic": "regional",
+      "category": "transport",
+      "topic": "aviation",
       "outlet_count": 1,
       "article_count": 1,
       "source_urls": [
         {
-          "name": "وكالة الأنباء السعودية",
-          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5EeGlnN213NHVnWFVleFRGSE5RNlNiZnM2RTlLT0FvSWpSdzktdHhrYzJlZktHZDJVRGtlZUJHMnk2eHZYRFE?oc=5"
+          "name": "Daily Sun",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNc3Z4amhuZm5LMV9hLXVPbFltNThZcFlIdkdKR0R1WlBXVldIc1E0LWtILWtvYVAzcGJ3NmQ5amowZVlrQTNzcG1rdFI3enNUdkhvajV0RlM1MEoyR295ZmpkdnJXc0RvamtIZ1FOeWVGLXJIR2VhNWVfMGtueUw2ZWxDMVF5Y2ZXSG5IUmo0S0hrMzN0RWt6VTJvSnNCUWhiLVUxemxaTQ?oc=5"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
