@@ -1,14 +1,15 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-26T05:16:50.821116Z",
+  "generated_at": "2026-10-26T11:17:50.479744Z",
   "alerts": [
     {
-      "id": "GF-1BC879C36371DE",
+      "id": "GF-06E5B386ADDE18",
       "level": "review",
-      "title": "Iran Fires Cruise Missile at Vessel in Hormuz; Launcher at Sirik Struck - https://houseofsaud.com/",
-      "published_at": "2026-10-26T04:27:55Z",
+      "title": "Saudi-led coalition says it struck Houthi missile facilities",
+      "published_at": "2026-10-26T10:41:23Z",
       "countries": [
-        "Iran"
+        "Saudi",
+        "Yemen"
       ],
       "category": "security",
       "topic": "missile",
@@ -16,39 +17,18 @@
       "article_count": 1,
       "source_urls": [
         {
-          "name": "https://houseofsaud.com/",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5KeDhOY1VyWXBxTE1MaDNUZDRqS2FBUW43ejdEOTlVUGlmUEJ2OWNoRy0zdkc1SUNKUnduMkJXVV8tck9Zdi1oMnBjWC1sNWNhSnBiNEZHQjdCMXAzQ01NYzBIZXk5eEo3VmZGZGNjMFg?oc=5"
+          "name": "Al Jazeera RSS",
+          "url": "https://www.aljazeera.com/news/2026/10/26/saudi-led-coalition-says-it-struck-houthi-missile-facilities?traffic_source=rss"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
       "verification": "unverified-reporting"
     },
     {
-      "id": "GF-3015549CA016B7",
-      "level": "review",
-      "title": "Houthis say they attacked East-West oil pumping stations; No Saudi confirmation - Reuters",
-      "published_at": "2026-10-26T03:48:00Z",
-      "countries": [
-        "Saudi"
-      ],
-      "category": "security",
-      "topic": "regional",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxORlYwOVl3Z1hlOFdacWVmeXZVNnVhejFlWDVOR0toczJ2MWNjT1FMRWZjVU0xd1hGaGtzNU9VcGdYSnR1Z2NVQjFfRVpKallEcEVuTzNweldmeEdYOE05UXFOejl1ekR1ZjlxUlhHT1NLa3J0cmZYWUxhSEs2eXNGb2xNNUJycVNWci1ZVzZUOXBSNGc0bzRJNWVTTnVlWHhXRlBrLWRTOV9HbmlJTmVfZk95N0FIQnBLQTlTa3N3eFBaVDJMWGptVU1VN3A?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-7D4DEA3B3D89E9",
+      "id": "GF-ACD04D290DF805",
       "level": "review",
       "title": "عام / ارتفاع حصيلة هجوم تارابا في نيجيريا إلى 58 قتيلًا - وكالة الأنباء السعودية",
-      "published_at": "2026-10-26T03:40:37Z",
+      "published_at": "2026-10-26T10:39:07Z",
       "countries": [
         "Saudi"
       ],
@@ -59,7 +39,7 @@
       "source_urls": [
         {
           "name": "وكالة الأنباء السعودية",
-          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE12UHhyZks5VU9NTkY4MGUzanp2cXUxQmwtcjBadUZPZHBRU05QMUk0SFFJRjVORmN3cjY1djQyR2YwU2stYXc?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE8zNHFjOVlHT1laR0V5Q3lFV1hfUHJndWpxRHp0Um9CYkZpRDVuM3BOa3YtS2NIMkkxdzEzR0ZwV20?oc=5"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
