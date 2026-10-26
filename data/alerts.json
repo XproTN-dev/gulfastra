@@ -1,51 +1,7 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-26T11:17:50.479744Z",
-  "alerts": [
-    {
-      "id": "GF-06E5B386ADDE18",
-      "level": "review",
-      "title": "Saudi-led coalition says it struck Houthi missile facilities",
-      "published_at": "2026-10-26T10:41:23Z",
-      "countries": [
-        "Saudi",
-        "Yemen"
-      ],
-      "category": "security",
-      "topic": "missile",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "Al Jazeera RSS",
-          "url": "https://www.aljazeera.com/news/2026/10/26/saudi-led-coalition-says-it-struck-houthi-missile-facilities?traffic_source=rss"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-ACD04D290DF805",
-      "level": "review",
-      "title": "عام / ارتفاع حصيلة هجوم تارابا في نيجيريا إلى 58 قتيلًا - وكالة الأنباء السعودية",
-      "published_at": "2026-10-26T10:39:07Z",
-      "countries": [
-        "Saudi"
-      ],
-      "category": "security",
-      "topic": "regional",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "وكالة الأنباء السعودية",
-          "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE8zNHFjOVlHT1laR0V5Q3lFV1hfUHJndWpxRHp0Um9CYkZpRDVuM3BOa3YtS2NIMkkxdzEzR0ZwV20?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    }
-  ],
+  "generated_at": "2026-10-26T17:28:28.385700Z",
+  "alerts": [],
   "new_alert_ids": [],
   "critical_count": 0,
   "notice": "CRITICAL REPORTING means multiple named outlets published related headlines. This is NOT confirmation, real-time detection or official emergency advice."
