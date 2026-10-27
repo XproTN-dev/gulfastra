@@ -1,7 +1,29 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-27T06:10:38.370002Z",
-  "alerts": [],
+  "generated_at": "2026-10-27T12:17:02.685852Z",
+  "alerts": [
+    {
+      "id": "GF-15B0582D84459F",
+      "level": "review",
+      "title": "Houthis Claim Missile Strike on Saudi Arabia’s Largest Oil Refinery as Regional Tensions Intensify - Belaaz",
+      "published_at": "2026-10-27T11:45:48Z",
+      "countries": [
+        "Saudi"
+      ],
+      "category": "security",
+      "topic": "missile",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "Belaaz",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONkNQSWk5VkZzZjFubTlYak1rMllDT1h2eVhfbndydHpuc1AzbVFFc1pDMEN3blJaVmxyeWhpbzJvcGZwb1JXd0tFaFUwY3lBVHljeEtsM3MzbmdycFIxVnR6VF9kTHN4MG15eWlvdlJKWXBfVER5MW51dDh1RDdObkM1a1ZBcjR6bm5zZS14SXlCLVQzSFc2dVZXMC12cUJ0TkRIdlhHTmVuY0gteDB1bXlQVzQxdXlsMURfQ2Jn?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    }
+  ],
   "new_alert_ids": [],
   "critical_count": 0,
   "notice": "CRITICAL REPORTING means multiple named outlets published related headlines. This is NOT confirmation, real-time detection or official emergency advice."
