@@ -1,7 +1,30 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-28T01:25:57.779175Z",
-  "alerts": [],
+  "generated_at": "2026-10-28T07:15:58.159405Z",
+  "alerts": [
+    {
+      "id": "GF-DA9A787176D3D5",
+      "level": "review",
+      "title": "Houthis claim missile strike on Saudi refinery - Ticker News",
+      "published_at": "2026-10-28T05:46:18Z",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "category": "security",
+      "topic": "missile",
+      "outlet_count": 1,
+      "article_count": 2,
+      "source_urls": [
+        {
+          "name": "Ticker News",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1kT29mRFNoTFRUd2dQemg3Nk5UOHgtM0JuQVVvSDRXbVVYM2hBQnZIRXB2UVByZnhEc05SS3NYcVNwWHpTT0dDcERLSjZMbkUwVnA0OTJiV0lZVEY3VGYtZFh4Vkh6dEJjUUM5WmZpUXpNdzJkSVVaSw?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    }
+  ],
   "new_alert_ids": [],
   "critical_count": 0,
   "notice": "CRITICAL REPORTING means multiple named outlets published related headlines. This is NOT confirmation, real-time detection or official emergency advice."

@@ -1,7 +1,21 @@
 {
   "schema": 2,
-  "updated_at": "2026-10-28T01:26:01.720452Z",
+  "updated_at": "2026-10-28T07:16:02.319017Z",
   "observations": [
+    {
+      "id": "usgs:us7000ttl5",
+      "kind": "earthquake",
+      "source": "USGS",
+      "title": "M 4.0 - 78 km SSW of Fīrūzābād, Iran",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttl5",
+      "occurred_at": "2026-10-28T00:51:28.682000Z",
+      "published_at": "2026-10-28T00:51:28.682000Z",
+      "lon": 52.3309,
+      "lat": 28.1699,
+      "magnitude": 4,
+      "coordinates_quality": "observed",
+      "classification": "observed-natural-hazard"
+    },
     {
       "id": "usgs:us6000u4m6",
       "kind": "earthquake",
@@ -77,25 +91,25 @@
     {
       "source": "USGS",
       "ok": true,
-      "count": 2,
-      "last_run": "2026-10-28T01:25:57.936336Z"
+      "count": 3,
+      "last_run": "2026-10-28T07:15:58.356002Z"
     },
     {
       "source": "NASA EONET",
       "ok": true,
       "count": 0,
-      "last_run": "2026-10-28T01:25:57.936336Z"
+      "last_run": "2026-10-28T07:15:58.356002Z"
     },
     {
       "source": "Cloudflare Radar",
       "ok": null,
       "state": "not-configured",
       "requires_secret": "CF_RADAR_TOKEN",
-      "last_run": "2026-10-28T01:25:57.936336Z"
+      "last_run": "2026-10-28T07:15:58.356002Z"
     },
     {
       "source": "NASA FIRMS",
-      "last_run": "2026-10-28T01:26:01.720452Z",
+      "last_run": "2026-10-28T07:16:02.319017Z",
       "ok": null,
       "state": "not-configured",
       "requires_secret": "NASA_FIRMS_MAP_KEY"
