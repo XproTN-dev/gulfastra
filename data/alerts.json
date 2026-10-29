@@ -1,23 +1,24 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-29T02:47:10.260695Z",
+  "generated_at": "2026-10-29T08:59:23.400367Z",
   "alerts": [
     {
-      "id": "GF-10C8FA58B6CF37",
+      "id": "GF-FD14D8B9A146C1",
       "level": "review",
-      "title": "Middle East latest: Yemen says Houthis attacked Aden airport twice with ballistic missiles - The National",
-      "published_at": "2026-10-29T02:07:45Z",
+      "title": "التحالف يعلن اعتراض صاروخ باليستي حوثي استهدف المنطقة الشرقية في السعودية - صوت الإمارات",
+      "published_at": "2026-10-29T07:08:48Z",
       "countries": [
-        "Yemen"
+        "Saudi",
+        "UAE"
       ],
       "category": "security",
-      "topic": "missile",
+      "topic": "interception",
       "outlet_count": 1,
       "article_count": 1,
       "source_urls": [
         {
-          "name": "The National",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMUttdjlFX1NnTi01X2NGcy0ycl9wa1R5R0JTcnZXUFNtS0xEMWNPbk5wZjZsblhieXBhc25nN2NGaW15MlJDdWdLUVdabGFNaFM5S1ZSRkp1em45RnFvekxWUUNZTERwa21zMW5jZ1hZenNJek4xZXctMmhnMW1TcGoyTmV2Vkh1b1RRb1dKTE5oR0R1ek1BeG53?oc=5"
+          "name": "صوت الإمارات",
+          "url": "https://news.google.com/rss/articles/CBMi6gJBVV95cUxQcW93YVBtYmhkVUI3bk9pY3VFMGlXbXEwSDhISTFxQXNJMHZsU0QwSFZxRnBnbnF2R292elNEc3pBM09FT1FhN2lEdTJQOGRjYW4xaE53RmMtSE5GTGZuaDByTWFmWmoydVlfcEx2dXJYWTVZb1pZNndYWG91WWNxVjUweDJ0c1QwdlJ4d0xJT2NIb2xteF9vQ2VPem1hdEFaUUdqNUlWQUxfczBmZzc2S2FyNU1Sb2lJeEl3eDRSeWFyZl8wN1hpRXduLVRub2ptM3NfNE14ajhvU3V5ZFZCdHc5OVNEUHo1bFV4WmxVX3pIR3I4N0FOWlFseEczVWcteE0xRi1uTm1kc0FfN212NmFJVjFKZEwxbDVubWhPSTNVSnVPVjUwckpSR3RxZkJjMWxaNFpOX0RndTBPNEw1NEJlZDVHSy1YVWlIUklYcmYwVHdWVE0ydjJ5YW9pbFlENERyNUJmLXJFdw?oc=5"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
