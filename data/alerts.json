@@ -1,23 +1,59 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-29T16:01:57.348516Z",
+  "generated_at": "2026-10-29T21:03:32.120353Z",
   "alerts": [
     {
-      "id": "GF-DB15B0243FB477",
+      "id": "GF-FAECD59F47862B",
       "level": "review",
-      "title": "Iran: Tanker hit mine in Hormuz, caught fire - Breakingthenews.net",
-      "published_at": "2026-10-29T14:44:00Z",
-      "countries": [
-        "Iran"
-      ],
+      "title": "UK maritime agency reports new tanker hit in Strait of Hormuz - Yahoo",
+      "published_at": "2026-10-29T20:03:29Z",
+      "countries": [],
       "category": "transport",
       "topic": "maritime",
       "outlet_count": 1,
       "article_count": 1,
       "source_urls": [
         {
-          "name": "Breakingthenews.net",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOOGxSTngxNzVVSVZINmN6YXI0Tk5aOVlpWmI5Y0RuWXBra2JOb0JkTGFtV05rb0E0TlhySHc4RlBvVjd1bGE4QW9lbnhUbTBIcjZ6bS1mSUd3LVU0X2FxUVBPTHM0NU5xc1hma1g0TWdtNERUenVWMk1zTEEwUl9QMDNqWkh6LW5lYmJ0RjA2cFExdw?oc=5"
+          "name": "Yahoo",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdzVjYVJiY3k0X0RIcVFKYjdhc19DdmpwVFNQWHIwNWkzVEFEaDZqSWQ1blNEbzRiY0tRNVpPdDliZjFSTnlGa2VPX0dmXzNmX0FGTGF4MmZiN1MwMnhKTVRkMTc0YTZqNWp4U3g4TVRZQV9JLTdBXzl2aUlna2xsZFVTcDZPSHdqZWdDR1RLMkZXN2FZ?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-CC1BE96C3021C7",
+      "level": "review",
+      "title": "UKMTO confirms tanker was hit by projectile near Strait of Hormuz - Latest news from Azerbaijan",
+      "published_at": "2026-10-29T19:43:26Z",
+      "countries": [],
+      "category": "transport",
+      "topic": "maritime",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "Latest news from Azerbaijan",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQcnNzbndxeUJvdnQ5U0tsMFJXVENpU3l2ZlJ4N1Nad0JwZ2FaSTlVOFlOVGRpdlNJMEJoQnlIakszTDctOUFPdG5yVUo3c3lzNmdJRGZCTnBDWkxnMElLQ3dJT0tCU182c2lid1FGRmZGOXhibmJkZlBvZ1NmOE5Vd2ZLRU53dy1VQWR5Q2dMZw?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-9BABCB925F8E7A",
+      "level": "review",
+      "title": "هيئة بريطانية: إصابة ناقلة بمقذوف مجهول في مضيق هرمز دون إصابات - Anadolu Ajansı",
+      "published_at": "2026-10-29T19:38:53Z",
+      "countries": [],
+      "category": "transport",
+      "topic": "maritime",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "Anadolu Ajansı",
+          "url": "https://news.google.com/rss/articles/CBMikgRBVV95cUxNcTFxYURDZGEwSkZKV1dVYzg3bzZFVHE0U3dGV2txemxubG5fSTB1VEM1V0VBY2RRRDYwY2RQOUlIQ0Q3cHE3M2NId2F0c094M3kybV9TVkowVzdPVzNfRmNxMDFtWW1SUWVvRnd5M0lHU2x5RFRucFVQd2Z2clR4b21Ua0JwY3pqdDJpWUFkOEhwWE5hbm5LWTRuMG9odjBLVkRVY2pPdlZuNFdCbEhnc0pSNHNmT0pNdjhIb0g2Y1VldDFzYVRpc2VWRWwtVVlJTXY2TldaZlg2QUVBSVhTY0psYk0wNjdMYUpQNU9xcDg0QUZaR0RkRXVjMmVDV013QzNfc1ZnNkw3ZXd1Vm9WT3hISG5zNHFBYmMzRDAtanRLZWVKSUxlb2htLXBYRXdXaUdBLWRPbjNBWFE0SGE5bDd6X0R0U3l4Tzg2Y0xnN3FzV3IzVTRKTEdwWThLQlR3TlRkeTc0eGFjNnlEWVVXTEo5ZmM5SzBqSmViT1Nza2RmZDFDQVFpTG5uV0JmRm9tTy0zVF9PUWhnWHVHZExnN2JndG8tRkx6S0FFNjBXSWhQSG1ZVUhpTTA5czdSTlBmdGI1RW5Md1otQnZ6UFN6S01fbE5BY19feU0xbFN4bllMaWVWaGZkRXVYV3hxQWY3bXl4RHI1S1NhNlFNVVAxcUZCMTVPSzZJUHF4Vl9aV3VTUQ?oc=5"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",

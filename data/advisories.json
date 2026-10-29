@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-29T16:02:08.861475Z",
+  "generated_at": "2026-10-29T21:03:37.920339Z",
   "items": [],
   "sources": {
     "GDACS": {
-      "last_attempt_at": "2026-10-29T16:02:08.861475Z",
-      "ok": false,
-      "state": "failed",
-      "error": "The read operation timed out"
+      "last_attempt_at": "2026-10-29T21:03:37.920339Z",
+      "ok": true,
+      "state": "healthy",
+      "new_records": 0
     },
     "ReliefWeb": {
       "ok": null,
