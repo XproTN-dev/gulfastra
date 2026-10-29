@@ -1,7 +1,29 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-28T23:30:24.391434Z",
-  "alerts": [],
+  "generated_at": "2026-10-29T02:47:10.260695Z",
+  "alerts": [
+    {
+      "id": "GF-10C8FA58B6CF37",
+      "level": "review",
+      "title": "Middle East latest: Yemen says Houthis attacked Aden airport twice with ballistic missiles - The National",
+      "published_at": "2026-10-29T02:07:45Z",
+      "countries": [
+        "Yemen"
+      ],
+      "category": "security",
+      "topic": "missile",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "The National",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMUttdjlFX1NnTi01X2NGcy0ycl9wa1R5R0JTcnZXUFNtS0xEMWNPbk5wZjZsblhieXBhc25nN2NGaW15MlJDdWdLUVdabGFNaFM5S1ZSRkp1em45RnFvekxWUUNZTERwa21zMW5jZ1hZenNJek4xZXctMmhnMW1TcGoyTmV2Vkh1b1RRb1dKTE5oR0R1ek1BeG53?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    }
+  ],
   "new_alert_ids": [],
   "critical_count": 0,
   "notice": "CRITICAL REPORTING means multiple named outlets published related headlines. This is NOT confirmation, real-time detection or official emergency advice."
