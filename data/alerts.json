@@ -1,54 +1,14 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-30T13:45:14.462389Z",
+  "generated_at": "2026-10-30T18:54:21.717926Z",
   "alerts": [
     {
-      "id": "GF-CB64430DD2656F",
+      "id": "GF-4FCBDFF2FD7CF0",
       "level": "review",
-      "title": "إجلاء طاقم سفينة قبالة ساحل مسندم وإيران توقف ناقلتي نفط في مضيق هرمز - قناة الغد",
-      "published_at": "2026-10-30T13:08:18Z",
-      "countries": [],
-      "category": "transport",
-      "topic": "maritime",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "قناة الغد",
-          "url": "https://news.google.com/rss/articles/CBMiowRBVV95cUxOSkJCSlczUXZqOFktY1dWaXRRdVQ5WVZIU2JBbE5RVWh1TnlfV2JHb0V0QmN1c05oRFdFbXF1TTd2d0ZrR19lRVVyMUFmaV9MWXVQcWhsTFJ3Z1lJNDlXYmRNNGJzZm5VblpJZFg0VnJ0aXFjVjVzRDAtQTZTMUQxejM1QkJxMEhWY0d0Ym81R2plYnRacU9PV3pnd1d0a2hDTS1qX3dfVnBwWGVqSHl3Y2VRLUg1OUxhWjM5MUpmVnRCVnkzOVkzU2RiTFdtbFd3bjVQTV9fOHh0Znc0WC1RNlNsNWNYYURQMFFKY2xwV0MwWkV2Zk5ZWDVwdGx2R3FQdXp4R2tOY2l4NnFFc3ZaM0xhRHlaZWVkelFGeDNKd3d0OUFCQ0F5bGhrVUhlTzJ0OXR0T1N3U2JYYXNKY0hoMnZXTkV3cm5IdURWSThwcWVhbWloREtJdi00MktfQkhGSlROc2oyM216MjNTQzZ5YVdLV3FuZkJ2ekFESVQ1aGdGM3dlSTVsNGZqNlNUMDg4X0xOcy1WeVM5bjJHcHR1YkctQTNaS1Y0RHNOVXJDbDF2U1pOU1drM1g2V2xxNlpWWUFJUnoxWTMzVWszM3FvX0dQOFViUHJhUnFaYjhJRk81Y0JOdzdvTXVqZEpMd2pSTGhydDVhdGN6ZnJSajZqNlgzay1jT0FJTFh6bVhEbTVzQnVELTZ1NDg5UE5RYmtra21n?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-68442BD241D2DA",
-      "level": "review",
-      "title": "Tanker hit by explosives in Strait of Hormuz as Iran claims two vessels disabled - Ynetnews",
-      "published_at": "2026-10-30T12:55:46Z",
+      "title": "الإمارات تسيطر على تسرب نفطي من ناقلة تعرضت لهجوم - صحيفة صدى الالكترونية",
+      "published_at": "2026-10-30T17:12:50Z",
       "countries": [
-        "Iran"
-      ],
-      "category": "transport",
-      "topic": "maritime",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "Ynetnews",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9uZkhrUzBlR3FWNlNxb0lPLURYTFRKeDJ6cmlOM1oxTWJoM1ZwX0UtWEZHRS0tVjNOaVdWbWVyamkzYW9La0dFQ2tGY3VIaHhpQk5JMHhB?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-DC35F5CAB4117E",
-      "level": "review",
-      "title": "Merz urges diplomacy amid reports of possible renewed US strikes on Iran - A News",
-      "published_at": "2026-10-30T12:31:05Z",
-      "countries": [
-        "Iran"
+        "UAE"
       ],
       "category": "security",
       "topic": "regional",
@@ -56,29 +16,8 @@
       "article_count": 1,
       "source_urls": [
         {
-          "name": "A News",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNaDljcm0zVlZGWjN6SGplekwxWHRrckQ4SzJ0LVI1RG9IYlZ3Z0RFalNjNjJvX1NsUVhlOWEtUWdtODdUZzZ4QlJFWkVDb213NzRNNDQ1XzVKOXQyUlIwT0VQRUVHcU5iVUdjdk51VjEwVEVPdUFmM2dIWTlaUE9idnV3QW40VTJYOFhsbHF1SDlyemdHR0tINWFOOGxrSzZPY2Q0dE1RZUM1THpPRVVIUEwzbmfSAboBQVVfeXFMTVZ1blg2NF8xM1dqclFiQU9SVHk1NUdJaUFNb2x4RFRJcGFiV1hGN19Ya0JxMVhhNTJOc2pDOHlkdzBiQnFXMGZSY3hzRTdpSl9DVVRvM2FPLW5FT0trMUs3S1UwLTZOYXNkYm9DTW43N2l2TURHN0ljTUN3ejk2R0d5TjlwRUpqLTdKUWlvZl9zeXhRbkk1YU1YelZQTlJsYzVQaHltLXBfcDF5blNpYUlWd3FyOHdMNWl3?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-A95BCBF982D23B",
-      "level": "review",
-      "title": "عام / باكستان: إحباط هجوم بطائرات مسيّرة استهدف نقطة أمنية في بلوشستان - وكالة الأنباء السعودية",
-      "published_at": "2026-10-30T11:55:47Z",
-      "countries": [
-        "Saudi"
-      ],
-      "category": "security",
-      "topic": "drone",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "وكالة الأنباء السعودية",
-          "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBpLV9IOTFfM05RcWhaNExhdmVYVl9LRWpnRmx1VmNOdGp6Nnl4WmVQdjdWbzNoQ0ZPaWtRRWVoSGY?oc=5"
+          "name": "صحيفة صدى الالكترونية",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Ya0RDTTRWR1p4VlFEZ1VfaDFvbmRncnUtMEFOZ2tXcEY5ZXpLZHlrVVRPS0k4TDJJQTZaRV9FQlJ0VDJQaDFqTW0xTWxoQ2hTck5fZlln?oc=5"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
