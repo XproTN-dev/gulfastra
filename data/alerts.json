@@ -1,33 +1,12 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-30T00:53:59.369137Z",
+  "generated_at": "2026-10-30T06:51:07.741673Z",
   "alerts": [
     {
-      "id": "GF-CC4BF5E7B96A00",
+      "id": "GF-E80134CBDE9660",
       "level": "review",
-      "title": "الرياض: تفعيل الدفاع الجوي وسماع دوي انفجارات بعد تحذيرات أمنية - نيو ترك بوست",
-      "published_at": "2026-10-30T00:04:15Z",
-      "countries": [
-        "Saudi"
-      ],
-      "category": "security",
-      "topic": "regional",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "نيو ترك بوست",
-          "url": "https://news.google.com/rss/articles/CBMigARBVV95cUxNT3lsbV9KVmVHZnJKbldWaVVoRjNzcEdzelY1d0F6YVM0MnU2VWRmTHlmbGRreHhodHZpMzlXNkxyS3l5S1k4VUNOaWJoUVlYbDNFYTVHMHNPUENhZDAxR2s2bFlqWk9EU0d3ZjZuWkJzbzA3Q3B1NEJLdWZHT0hpT29UeTl5MjZLV1B1Q09HVXQtRC1nbDcwejJyMkZqNXk3MFdTT1hkRnA5SjliVmpBRGhveWtwbHhUak9tTlhoZFZiWkFfWUJ6dmdaVTVtS1o5VkhhNVBOR1NoY2tVOG01UUQ1OE1qNEFuNE1BeFU0eTFXNnNrV1dzSXp3RmpmcVBwSm5qUXhEVFRoeGtUYWlNTWljbVVncUlNUkV0N3dqLW44Z3Jxb1VJNlBYRUMybkF1ZTRGa3NKVkF1SWhnQS1LdG0tckZWV21fMGtHZEEtY1pCQkdaaXN3RmdMcE12UGNpTnNBdHZ6MWJ1N3RfalNwQ1J4NGVBUWp6NEJPd2pvd3AwMEl4dnEyR21tVk9GM1NWTVRoM1BuOXN5R2VCVVVNS1dyX0hEMnlPZ2dsWmxTa1pOX18xY09NbXNOLTBxTEp1UUoyWG5JOEdlSkUxeXNfRTlpWFY5SUIyN1lmbHRQSVZoWVlha1JsaTRNRnhnQzd6RG0yNDBUNWRjVXNhdERObw?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-F4188FB783308A",
-      "level": "review",
-      "title": "News Content Hub - Reports: at least one vessel sunk in Hormuz as competing claims cloud clarity - Riviera Maritime Media",
-      "published_at": "2026-10-30T00:00:00Z",
+      "title": "Tanker Hit by Two Explosive Devices in Strait of Hormuz, Crew Safe - Open Magazine",
+      "published_at": "2026-10-30T06:28:06Z",
       "countries": [],
       "category": "transport",
       "topic": "maritime",
@@ -35,18 +14,37 @@
       "article_count": 1,
       "source_urls": [
         {
-          "name": "Riviera Maritime Media",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUXJSUk9TRXN5M3NpOVJRclpieENXSVp2OFFoeEoyaU90OHl6Z2xNYlNiWDZ6WEhBLVhYd0RWMlZYNEUybmNwSUZTV2FKRnRsRGlOX01vUzZNZXZtR3hiQ2pPS0p1UjRmdzhOQ29tdWFBdV82VjZrSU9vc3VpTnlaMmo5b2JMczhwUU8tSGJyckJoeUc4dW9KRS0yeVBPcmNkd2ZTYWtGTklaT25CN0VFdzN2VVpNUHczMUdySHdwQndwNjg?oc=5"
+          "name": "Open Magazine",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPOTJ6bXYyU3Q5T2sxS01nRHJ0ODVGXzZzbjI5a041Zl9ZaWItNG83cjVFVXdpbnhtRTM4bTNBa2MxR3dfV3pIN0V4MFAyWUZxT1gyeGRUTXF2U1FPZzB5MGNyRmd0SE1VRkZjQXdkSFVZcUZ2LVVOTHpEaUlvSWljV19BRzZ5aWRlYkpfVWliOF9kc2JRYXRPSUh0MFU0Q2Fm?oc=5"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
       "verification": "unverified-reporting"
     },
     {
-      "id": "GF-808A8296E9E98C",
+      "id": "GF-5B26923BB1F024",
       "level": "review",
-      "title": "Iran war live: IRGC says four tankers struck mines in Strait of Hormuz",
-      "published_at": "2026-10-30T00:00:00Z",
+      "title": "مباشر: التحالف يعلن اعتراض مسيّرة أطلقها الحوثيون باتجاه مكة المكرمة... وناقلة تتعرض لهجوم في مضيق هرمز",
+      "published_at": "2026-10-30T06:25:02Z",
+      "countries": [],
+      "category": "security",
+      "topic": "interception",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "© أ ف ب",
+          "url": "https://www.france24.com/ar/%D8%A7%D9%84%D8%B4%D8%B1%D9%82-%D8%A7%D9%84%D8%A3%D9%88%D8%B3%D8%B7/20261030-%D9%85%D8%A8%D8%A7%D8%B4%D8%B1-%D8%A7%D9%84%D8%AA%D8%AD%D8%A7%D9%84%D9%81-%D9%8A%D8%B9%D9%84%D9%86-%D8%A7%D8%B9%D8%AA%D8%B1%D8%A7%D8%B6-%D9%85%D8%B3%D9%8A%D9%91%D8%B1%D8%A9-%D8%A3%D8%B7%D9%84%D9%82%D9%87%D8%A7-%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A%D9%88%D9%86-%D8%A8%D8%A7%D8%AA%D8%AC%D8%A7%D9%87-%D9%85%D9%83%D8%A9-%D8%A7%D9%84%D9%85%D9%83%D8%B1%D9%85%D8%A9-%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D8%AA%D8%AA%D8%B9%D8%B1%D8%B6-%D9%87%D8%AC%D9%88%D9%85-%D9%87%D8%B1%D9%85%D8%B2"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-1CC3B9DB81C573",
+      "level": "review",
+      "title": "Iran Says Four Tankers Struck Mines in Strait of Hormuz on Route U.S. Calls Mine-Free - The SOFX Report",
+      "published_at": "2026-10-30T05:26:32Z",
       "countries": [
         "Iran"
       ],
@@ -56,51 +54,8 @@
       "article_count": 1,
       "source_urls": [
         {
-          "name": "Al Jazeera RSS",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/10/30/iran-war-live-irgc-says-four-tankers-struck-mines-in-strait-of-hormuz?traffic_source=rss"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-BC49A1242EBAAC",
-      "level": "review",
-      "title": "US deploys 10 military cargo planes to Israel amid preparations for possible strike on Iran: Report - Anadolu Ajansı",
-      "published_at": "2026-10-29T23:17:24Z",
-      "countries": [
-        "Iran",
-        "Israel"
-      ],
-      "category": "security",
-      "topic": "regional",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "Anadolu Ajansı",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNSndRVzFHSnZEYzBSMjR4UlAtN1J5SjE5d3dDZ1NEdGQyVEtObW1fajZwcUpydUtEVnY5N0pYWDI5NF9EeHZBLTNmX0hrYUYxb3ZZMUo4T21reGs0dm5UUTBtY3doazR4alZuaUUwWDZRS0JoSnYwSTYzWm9jNWR4ak9GSE42cnZUdm5ZbE5hYWZsLU5JX0l4Y0Q2eWMwWUpMVU9kcEZYWndRLWtzSkkyUWNPNmJCajdTVWlTUFp3SDBHWlJ6OXJId2ZKdFNjUlJhalBRVDVCcEZic2w2d0V3eFBGOF8?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-E92A8F5089B730",
-      "level": "review",
-      "title": "تصدي الدفاعات الجوية السعودية لهجوم جوي مكثف استهدف مناطق متفرقة - الوقائع الإخبارية",
-      "published_at": "2026-10-29T23:03:52Z",
-      "countries": [
-        "Saudi"
-      ],
-      "category": "security",
-      "topic": "regional",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "الوقائع الإخبارية",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9vc0hBRFdOTnZSTDdrbDJzMFlUOHhCTWwyclFESmhORmlKbVNTZ2VvV0dTZl94V0w0dXExVGs0WnBQclRBQlNKVG84UQ?oc=5"
+          "name": "The SOFX Report",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZUN1WVBMNXViVzl5YkdpYnpaZnRRWE9YSjF5MEtXb3VFNTBNRTR5bDM3cXBFRHQzWGp6ejFFNkNrUnFpZHhsSVZsYnBYdllYY0hyOU5sZXFmYk5lNlU2UEllOHlDYWRrM3dPNzlITllLY0JHM0JTQ0pyMjU3Z0xEZkJiODliSGJLbEZBTXM0VExIUWt5cUlRTGhhdHlJY0xRU3NZQXRMbG44QQ?oc=5"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
