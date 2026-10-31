@@ -1,73 +1,7 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-30T22:50:02.649363Z",
-  "alerts": [
-    {
-      "id": "GF-50F22A7360FD68",
-      "level": "review",
-      "title": "مضيق هرمز على صفيح ساخن .. انفجارات ناقلات نفط وروايات متضاربة بين طهران وواشنطن - DW.com",
-      "published_at": "2026-10-30T21:47:59Z",
-      "countries": [
-        "Iran"
-      ],
-      "category": "security",
-      "topic": "maritime",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "DW.com",
-          "url": "https://news.google.com/rss/articles/CBMiywRBVV95cUxNeXAtSVc1TEl2RHFhckp3ZkJieVNVSkJqcmVlZDlXQmMzMmpkUVc1WUZSRzhoUHMzbDNibmNDQVNEZGY5NXJlZ2pTUDRWTWdYTGlQNnZHenJNaFBiZmxqa1p0aWpqWk43cVI5V3l5Wlo1Y3lfRk5FVWlrNTNIeVJmcl8tR2otbHBON0ZmaWhTTkxjVl9DY2puMEViYUxUWm0yYy1XUTNNcm5Kd0VpcjBFSDNGb0NBSktCcWF1X2NtajZLVDM0T29nSDhDejhhbF9adFZia3dKZzVWWDB4eGtoT3R5M1h6akZ6eE9HSHhNaVI5RVJsWVN0am0zYjgwT05QZUJDTEppUmVUdFVMN0E2aTBfaG55YXlwS0t3MmNtc0drS1QtZWhhRDk2a3RIN1dDWnc5cDZkQ0xfN2I1clFWckFHOHRKZ2lSaGpZTUIxdUZxcF9iSkpVa29jYzkxMUhrNmU4dkRDeFVjU2RKdjl3SDBnVlJqckt1U3M2RHB4Q2ZzQjc5WWExX1pqRVdaWGNHTGJmWEphVndkYWNfZjRVN2xQbVVic1BUa01FeTRTSVBmNEZfdGRjUHJXZGM4WG0wSHBWWDBjSnpKZTVidkJOY3E5R2JGcndXWmZYeWN0a0xLVzlXclJIVGhaUW4wU0M3QUdDN3BaYTFyc0lGUTRIekJLcGpOSjNTVlRhWW9Bay10TzN4N21VV3hya1A2Q1hQZkRZUlU5NTh2QWNUTU1QaFd3VHVzajR0cGktZzRhRGJ5SlpyLUxkbkxaNA?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-535F10EA4D3235",
-      "level": "review",
-      "title": "US-Israel-Iran War Latest Live News: Saudi Coalition Shoots Down Drone Near Medina as Houthis Deny Launching Attack; UKMTO Reports Vessel Hit 40 Nautical Miles From Lavan Island - The Sunday Guardian",
-      "published_at": "2026-10-30T21:41:31Z",
-      "countries": [
-        "Iran",
-        "Israel",
-        "Saudi"
-      ],
-      "category": "security",
-      "topic": "drone",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "The Sunday Guardian",
-          "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxNN1JYTFFGb3lXcDMwNC10eUZ0bGYtNUFpLS1fUi11M2NWdU1rcnVHdUNETTFLVnJabWg5cldRNnJseVplNkw5eEdtdTVvM011TUFrWHY2c0kxNVN2OHlad3hfejh2TnYxdkpUWEh2MFZtZGIxLWJ6Uy0tb1Q0Skd6N0JiUDhBWHBVT1ZNYWtveGJQSVotOWU4Wmw5Q1dfajNOZk0tVkNPSGVXOERVd3MzVjFXNFJGazhUemtCWVVMekhkNWYzZjBnXzREbjhNUjNyVk1TWHROVEVsbkZaVVdwWlh6ZHlmNVZWN1JNbFBDYUhYa1E1UzByRnVYbm9KNG93a3F0RnRQbXNqRVNybHVUQUdGR1E3VU1BNnQyVkRiTmNrNDNPc0VfY0RxMEEyS0RaNFBsZ2llQXUxWmpYVER3c1pR0gHHAkFVX3lxTE1vYkFUSndyUHNwZWlqalZ0ZldvQmtIVV9CVGpnS2VEV2FDMkt4QjE3SEVZVFVnTjNPRTJ5V1dXbndEZnFaMkNRMlpOMEF5akJ4TXJVdWNRN0ItZVJxZTFSNFNwLXRRWEVod3I5NW9MNmx4VnNYTVlLejJ2N2JvcHZOQlplX1AtSHBaNkwtN1E4UkFYX2xEZnVtdUJwVDVsN0JuZzZnV1JVdUl1eENTYXNYdTJXWEk0NlFKSHVGWHRIcmlXbF9odEpiODdmSG8xbXY3bTQ1QVFyUUQ3eGVsaUd4YjdVYU5JQ0xNNmRYVnhkMW5TUlBlakpySkV4RmlFZUlpTTBnY0NCOGF2RXRCVUdWcjJ1anpMbkk3a0xYd0Y0NkY4M3JoaDJkZUdfMUEwYVlqOGMzcHppTTVqUU84RTM3dWZCeFUxMA?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-48E1E3B3E33B80",
-      "level": "review",
-      "title": "الحرس الثوري: انفجار ناقلة نفط لاصطدامها بلغم بحري جنوب هرمز - شفقنا العراق",
-      "published_at": "2026-10-30T21:25:28Z",
-      "countries": [
-        "Iraq"
-      ],
-      "category": "security",
-      "topic": "maritime",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "شفقنا العراق",
-          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE14TkN4ZGpMdHlQQmZ1LVlsa2MzYnk3LS1sczQya1h2dTRkT2ZsanZSZFV1aml3Y0VYMGRFS3ZzYVFhRzV1T0pUOFdtcmw?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    }
-  ],
+  "generated_at": "2026-10-31T01:55:50.660394Z",
+  "alerts": [],
   "new_alert_ids": [],
   "critical_count": 0,
   "notice": "CRITICAL REPORTING means multiple named outlets published related headlines. This is NOT confirmation, real-time detection or official emergency advice."
