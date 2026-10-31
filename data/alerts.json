@@ -1,29 +1,7 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-31T18:45:33.739943Z",
-  "alerts": [
-    {
-      "id": "GF-50941681C05590",
-      "level": "review",
-      "title": "Iran says 2 fishing boats hit by US drone - NewsNation",
-      "published_at": "2026-10-31T17:54:28Z",
-      "countries": [
-        "Iran"
-      ],
-      "category": "security",
-      "topic": "drone",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "NewsNation",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9nZmd1bXBJcDh5ejgxYkNGS3UzdmJjN1lwSlZ6NUJ4MDAybEtWZWg4S09UN2hWbGloUVhGWVBqNGxYQ21OSFVZQ3BvTlBRZm96ZTZ3VURlLVM1aGxjRk9Ed0MteUIzZHZLbXhSd0VLYkp1LVnSAXhBVV95cUxQR1lGMWxCMFZQcmhiQUV5NzdFTm1xV0dIT3BhSFd2NGJHYXk5a2V0THN4UTZiYVdQb1dfbGtRcFg3b3Nia0M4eDQzZmZDS3hBZU50azlIWWhOQWJNa0wyS3FuLWs0MnB3LTNCVFl2TjhpWGs5b0JYR20?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    }
-  ],
+  "generated_at": "2026-10-31T21:56:53.295843Z",
+  "alerts": [],
   "new_alert_ids": [],
   "critical_count": 0,
   "notice": "CRITICAL REPORTING means multiple named outlets published related headlines. This is NOT confirmation, real-time detection or official emergency advice."
