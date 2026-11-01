@@ -1,7 +1,50 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-01T07:21:44.065971Z",
-  "alerts": [],
+  "generated_at": "2026-11-01T14:24:38.013712Z",
+  "alerts": [
+    {
+      "id": "GF-3C006F0B04C8DE",
+      "level": "review",
+      "title": "قطر تدين الهجوم الذي استهدف ناقلة للغاز الطبيعي المسال في الخليج العربي - صدى البلد",
+      "published_at": "2026-11-01T13:58:00Z",
+      "countries": [
+        "Qatar"
+      ],
+      "category": "security",
+      "topic": "regional",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "صدى البلد",
+          "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBkLXdSZ1hjcmdIRW10aXQ4VXluZDlDY3JIYmRqUkdkYzdSVFJtLVV2SC1TVE1oNEJqNkFmVENlQzB5aXBueDhr?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-D54A2705946475",
+      "level": "review",
+      "title": "دولة قطر تدين الهجوم الذي استهدف ناقلة للغاز الطبيعي المسال في الخليج العربي - Qatar news agency",
+      "published_at": "2026-11-01T13:01:58Z",
+      "countries": [
+        "Qatar"
+      ],
+      "category": "security",
+      "topic": "regional",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "Qatar news agency",
+          "url": "https://news.google.com/rss/articles/CBMi7wRBVV95cUxPM1Azd2g0OEZWaVR5VHlScEE5bGxsWEV2czVYRHZqbGhRcm52NGJzWm9VX0J4ZWt4WGRiTGt6eDgxMnFkV1UzNEZtTFM1Y0ZXZnJsS0xwSmRMdnJMNE5iZ3Vib21od21Sc29kbUkycy1VRXF2cnRlUEFUTExFSVJ3ZkJkRjAwcUxTV0VRcnBuSU55ZG1xSXNMSEplVzYtbGZMcDREcG1xWHB1LWRidlpNNG9FWG5zUEZ0dHlwdUJWdHhmMzB6YkhXdlNHV0phX0Fxb1d3QnI4ZnVhU1hqN0ZvN0pGRFR1eXk2c3VtVzdoZDI5R0trckN5d1JXSUF6ZFFCNTYxSERHVmhWd3NZdUZJNWdXNS1XWV9CeC0tbHVqMnNnWW92QTh0Yl9RNlJrRG9yVXVIVWlsTFJab0xyc1NHcUJ2Mm5LQVFmTWNSZlprTF81WnZJUHRSMk5yZWJ4OFRjaEtnS1l1TXlBU0FLQ2MwSjVIMy01NUNUcU5kM01PZk5hRVVjd2tHbk1MNWRUVXBXRTB3VkVUR2pvSV84dkpPdWQwbHNBa192TF9PYXVXZWl1TlZlUGl2ZFlONzQ0TjRNRmR4RU5pWGhrOWlSQXdObFRmSVFNNnYyQzlkX3hZWUNJSHQ0NThZV050cG1jeU1tX0otdmlJc0ZfU1E5Y3ZSTVFybkxqZTlSVHFqRVlKY3h0cGlaZS1SR1diMGFUYS16ZDlaX2Y0N2VvMi1CUmFRb2NVcjY4MERpWGp3Z0RRQlVFSUFuSkRHcUxoV0U3MDJxQ1ROdmc4cG5SSGo4MG9HUEM3ZGRCNWVqN3NOX0lJZw?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    }
+  ],
   "new_alert_ids": [],
   "critical_count": 0,
   "notice": "CRITICAL REPORTING means multiple named outlets published related headlines. This is NOT confirmation, real-time detection or official emergency advice."
