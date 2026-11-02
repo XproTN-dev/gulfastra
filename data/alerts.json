@@ -1,42 +1,23 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-02T01:54:59.481133Z",
+  "generated_at": "2026-11-02T09:03:01.843709Z",
   "alerts": [
     {
-      "id": "GF-EFDEF5FF8BFC7F",
+      "id": "GF-A7237D094A13C7",
       "level": "review",
-      "title": "الحرس الثوري الإيراني: انفجارات بناقلتي نفط اصطدمتا بألغام في هرمز - بوابة أخبار اليوم الإلكترونية",
-      "published_at": "2026-11-02T01:05:50Z",
+      "title": "Saudi Arabia Says 2 Killed Near Aramco’s Shaybah After Drone Intercepted - https://houseofsaud.com/",
+      "published_at": "2026-11-02T07:57:41Z",
       "countries": [
-        "Iran"
+        "Saudi"
       ],
       "category": "security",
-      "topic": "maritime",
-      "outlet_count": 1,
-      "article_count": 2,
-      "source_urls": [
-        {
-          "name": "بوابة أخبار اليوم الإلكترونية",
-          "url": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxPdjRtc3dVSmRSZVUtNUQ1TWx5RWU0ODhGR3FScmE5bU9ZWU93RTFFMzNhS09MUGw5QTVOUVRyNVQ1al9oaUpqSzk3ZmdLN05NUklGYUFUdVg5WVVPSlhnanB0TFlrRGVrc3lvREtTOWpmbUVUVEhsVzhjdU5WNmpVbDNvOHEtcXYxb0wyYkJ5ekVGTjNmTGRPVlg4dUs5ZmJjUDJjZWhrRmY0dkpiT1JCT0R5bGtpTllkRjR5T3NRMVRGYWhPMUxUeU5aMjdZQWVSWnRHaDhlMXc4bGV6MWhGcF9sc1RwUnRmZWtOMzhmUmMtRTNZeHNtemhPX3dyRExWTGF6WkdVbFpEMFhCRFBIanVHOTJ5cUZwTWJRT2ZLTFpGMGhKamlOaW9iSTFsMU4xX0RNNkhUN19yMkdEWjZfdG5kUGk2ODNfNmVPX2pnVll3YmVRM1ZSXzdDaEJmcFptSUJmYTYwbFUxTzFKMFl0LU9mYXJKUmFELWZwSW53?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-C329F8DBC67A95",
-      "level": "review",
-      "title": "UKMTO: Vessel Struck in Strait of Hormuz - ASHARQ AL-AWSAT English",
-      "published_at": "2026-11-02T00:23:12Z",
-      "countries": [],
-      "category": "transport",
-      "topic": "maritime",
+      "topic": "interception",
       "outlet_count": 1,
       "article_count": 1,
       "source_urls": [
         {
-          "name": "ASHARQ AL-AWSAT English",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9BOUdlOHZ3cGRtS2liWVo3aFZCNXZFWWZWUnp0SUJhQWd1ZVBkWVJoTzhZdTJ0bGdkWUJ6MDRUYU1CX3FUODE0QnB0M0tLaUFQTGtWbUtGNE1GOWJOMjdiUHZnMnhGRk9NT3I2c1dJT2o5cjVGNWlCalJ3ZGFHa1k?oc=5"
+          "name": "https://houseofsaud.com/",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE44VE9ZVWFvMVhVY0tmcGpSM3Y5NjZwdzlRTHVoeVFOODNFMFhmUUdmSGhvY0JfSEVTVEtTMktGbWxPdzFFajBWV2VhUEZ4N0tBeWVLeDRMaXBJYVlwbjZjaGdWNUxsaFZSY0Rsc0RXdWtwX0xRVkhCUA?oc=5"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
