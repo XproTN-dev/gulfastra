@@ -1,7 +1,115 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-03T01:45:02.584660Z",
-  "alerts": [],
+  "generated_at": "2026-11-03T08:39:42.194644Z",
+  "alerts": [
+    {
+      "id": "GF-8CD413FF4EC066",
+      "level": "review",
+      "title": "U.S. military carries out limited strikes on Iran’s Qeshm Island, U.S. officials say - NBC News",
+      "published_at": "2026-11-03T08:18:00Z",
+      "countries": [
+        "Iran"
+      ],
+      "category": "security",
+      "topic": "regional",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "NBC News",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUUlWcUZ0NmY5aG5Ed0pLb0JGbzdIMDhsd3U5aUVNREtrY0tCZU9JVTFsUU8weWU0OW84Z193bkNfTkVzNG5YSnFuYXJxLWlPWVVjNmZ6UlVpMU0xc0tSYWprbDNIa1pqRlQyb1ZGRC12OVZla0dSWkdkWGM2YmhwMzJxbEtQM2pyWnk5S2tpRzlOa2w5ZXZNTUI5LWhOWUlESWdKYWdXcWNWWjZKQnh6b1Z5S1k1NFk?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-FF169FECBF6D9A",
+      "level": "review",
+      "title": "اختناق عشرات الطلبة داخل مدرسة بانفجار وتسرب غاز الكلور جنوبي العراق - شفق نيوز",
+      "published_at": "2026-11-03T07:57:37Z",
+      "countries": [
+        "Iraq"
+      ],
+      "category": "security",
+      "topic": "regional",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "شفق نيوز",
+          "url": "https://news.google.com/rss/articles/CBMiyARBVV95cUxOSUZkenFOZGxERmdrM2JiWTQ5WmQza0MzY3FZeTY1cEZnc1pyLW8yZWVDVXA1RlZTZm9NX25pWHhWU3dkSDRDSlEtMEt6MURGNWROSFpNUW11a3Qta0V0aDk3RlJSVmltQnJtMUhsYUdqal8xa2NGTGxEQ0RwYUNSWGJpdld3NEREdWItM29EYVFUNkZFQjd0U1VvRktyZEF3Mmh0cmI0Wm1GSXQzZU5fS1ZiQkJZZEVqdzUzazJtdHFvMDZTdjBFOHZYVzJZeUZkdUJOQ2g0QmRQc2VCd2dvME1PREYtX2N4Z0FGdmN4V181RWVKOUZLMDEyc3dlUFZsdjNKUXY0eFRNbFg5aHBIZEsyNTFWcFFCSFUwRk9ITHVaMlluOW5fRVpIMlZ5VU5JNFFBWTBNZXUxaFRrbnMxQW14TjVJRFlJMGhTRGQ2dTFTV0phUE9LMEYwMDU2UEhWWmI3NG1UUHdFTW1zeklQR2FURVR0RmppTXlsX0VvcUlhaFpfMFNNYjlfNjJBUUtiaGtxZzRxX1BUWHVFdjR4SVI4ZVprOFJ3VVlsRkF0aG0wOUtMN3FKb2Y5TEF2eTJrSU5qd2RZbWE1MUJ5RklJUUVpSEY0LVRRUnQ3V3pQMVNVdHhzTEsxdEN4M0NoZm9jTWR1X1lNWTdacktTRk9idE9RNkZVV0F6QjVKemN0TzZLb1RlMlRFdjZfajJzSDFHMW1HaS16enhRdlpFOWFCT0NZcFRjcTRkR1JzS0hCaVEzQjhYNnNGRQ?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-B751D63C12BC6C",
+      "level": "review",
+      "title": "Middle East Airports Status: Dubai, Jeddah, Riyadh Hit by 775 Delays, 108 Cancellations Amid Iran War - International Business Times Australia",
+      "published_at": "2026-11-03T07:40:57Z",
+      "countries": [
+        "Iran",
+        "Saudi",
+        "UAE"
+      ],
+      "category": "transport",
+      "topic": "aviation",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "International Business Times Australia",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOakZYSm5oaXR0LW91R1BwcDNqdnBuZVhzWU5WbDJ0bWhqT1prWnJudEg3RU93U0tjUmxGVm93dU9IV1VXMWRkS0dmemZIaGVUQkptQzdpNGpJMnFSYXVRcHAwSGc4VFZQUnp6ZXRuVFN3VHN1eU9zYzJSNXdaaDB5bHcwUkxvQXN0Ym04?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-231C879CE74449",
+      "level": "review",
+      "title": "الأمم المتحدة تدين بشدة الهجوم الذي استهدف الناقلة القطرية للغاز الطبيعي المسال - Qatar news agency",
+      "published_at": "2026-11-03T07:19:21Z",
+      "countries": [
+        "Qatar"
+      ],
+      "category": "security",
+      "topic": "regional",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "Qatar news agency",
+          "url": "https://news.google.com/rss/articles/CBMijgVBVV95cUxOT1d2ZlE1RXM3WXRJSFBZWVd2X21BaUo1cG9NYm94VE5GTWloRS1VbDMyUGNPVURpclBHbHZnSlJZRnZhT0lFWXJHVGtBclBuYjd1eEhsM180dnJMU1g3dVZoQnpyLUJtYTd3NktLOHNnLWFhOUtHUVRtRlMzeDNrcWRMOUV4Z2dpSHFvZC05VmJ4UGRGMFdiV1JWWW5EQlc2b1A5bkc5V3Bxb1pmQUNlenJNcXJPQl90bGFfY2VBcDVnT2JxWW1Vc253X1kwd3QxRXEyZzJsVENhX1plSnpoMmVlLXJrT0ROZmhFT0p0OEZQdDNhU21UQWEyWFRPQUlHT3RxTTFmRGVQVXlVa3o2Z0UyZzlWYnNwX0NuRTFKWHE5bGNPeXM0dWxJY3FtbThBeGdESFpQVDlHWDhOLUtReUtmcFFNV3pTcFZmck83VlhGQk5wclVZNDFiVkxiQWxhaGh0QVFENFlhMmFENEU5bGJrNFhFcFl6eUVGN2lvMml1cGpHci1Zd1FKblhUNkZlSGRqUlN4NGxmRHpsYnEyaGE3WkxzSngxQ2hxYTRXQTR5STRYcG45VDVydG9LQmpHTVR3WjFta0tyQWhkSzFydlo4Q3YySnNTdEdyRV80WHJKYVdGVHFUTTVPYkxjTWZVRW5wUWpNOWNRaDBGNXoxTGNvZEVUV0p4SjBwa2dGWUtCWkVtR3NPelFkRklDdGNGS01QNGhBbEo1WHNiTl9KTnlTallBR1ByeEk1bUtWdjN3SEo4QXF5aThLV19QQ3h2dWlhTHA2WFpKNXVnbUFkc1RKN0MtSTdURFp5LWlibkZETmNhRFBRTWIxRk41MC1DYWdlZ3RmaXZyNjJ2V2c?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-CC886F23F11A95",
+      "level": "review",
+      "title": "الهند تعلن مقتل بحار في هجوم على سفينة قرب عمان - العربية",
+      "published_at": "2026-11-03T06:50:00Z",
+      "countries": [
+        "Oman"
+      ],
+      "category": "security",
+      "topic": "regional",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "العربية",
+          "url": "https://news.google.com/rss/articles/CBMingNBVV95cUxPaW11Z1RRSG5NLS1DWF9ka3d4WmFOVmJVcTY0aFFCckxJS0VjdzQ5V0VWa3I2cDVIeE9mZl9FZkY1a0poamhPbzdIQ29CNDFOck5lbVhfQTBib29rbDNkdDlZVEpVYzdtWWd3dzhTUGVua21WdkxMRWRKV1NSbEp1NFN3ZEMyY2RjaXZwOW1hMDZVNGg2V2RXVGxDLUttOGQtMDlVRFFJUmxia18wU2F4Mzc4bWZLWXlCTDR4Z2FZek1YWEswLWdmeUp5cXQ1bTZGTUVKenQwQ09wMmFicjNLblpONjZkWVBsVVdrZ21OWVRoclR2V2M3eERDQzlWSUFFSEsyajNCbkFMZVFwYThCc3ZUdlpYZjZ4WW5icVpVRzF4Y3UzRmUwNEpKeUJtU1doSjdnM1d0dWdwZVdTQVQ4akx0QXFuVFhtaUR5amFlQTdXVVhaRGEtVm9fNFNRa1pmSU1ER0hTRTVQU054Z1k2LXF3aVg1TWFrbUVrWDVUZEZzWGFSV0hBakl3bkxlX0pXMi1XcHhLaGpUUndHWWfSAaMDQVVfeXFMT2ptU0VSdFZEWFNvT3lwNVhSQmNab25DOEdNM0kwYTdDREVsMzNreU1hSkpkV0p0Q053dkxKMjA4dUFEbHRjUXBONDM5ZzZHcjE2bVE2b0tQeHpXTXZZUF9QZmVuV2Y3X2Y1eHo2YWVCNU10Tk9tSFZWb2s0UU0yNEtENmhJTXN0RnUtYnFzU0RZZUJ0TzctWlAxWThHTThpRjVlQ1VzM0xIdDVKSlM4R0xjWmdabENPZFNhc2dxVUJYUjM3Z1QwNmpFckZiQl9zWU5hX0gyaXNyVXZnaEFnczRmZWlEV19vMFdIcXRoT0VhRlcxb3ozc05JZDNURktfV2REVndPWmZMSHlEemF2MndXRkI2YWNVeG1ZVFdjeTdoMm1NY1RxbEVoRXBVNXpWcHhxSV92c3JwazRxalJlX0hTQ1R6U1AtUi1VQ2lHRnBEQm9KNVpBX29hV2ppV0hidzdGRVc2UWYxamlBaVZabEJaa0hfYXhlYzNzQ1Jjek5sXzljeDZuRktMRUVEVTVQZ3g1M0FXVzlNYll6eW9nYXBRNlk?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    }
+  ],
   "new_alert_ids": [],
   "critical_count": 0,
   "notice": "CRITICAL REPORTING means multiple named outlets published related headlines. This is NOT confirmation, real-time detection or official emergency advice."
