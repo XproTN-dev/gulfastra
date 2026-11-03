@@ -1,105 +1,23 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-03T16:37:24.405113Z",
+  "generated_at": "2026-11-03T22:02:12.037217Z",
   "alerts": [
     {
-      "id": "GF-3942EE86499193",
+      "id": "GF-8E55F1C389A7C3",
       "level": "review",
-      "title": "Israel's War on Gaza Has Killed 74,615, Wounded 175,899 Since October 2023",
-      "published_at": "2026-11-03T16:13:04Z",
-      "countries": [
-        "Israel"
-      ],
-      "category": "security",
-      "topic": "regional",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "Qatar News Agency · General RSS",
-          "url": "https://qna.org.qa/en/News-Area/News/2026-11/3/israels-war-on-gaza-has-killed-74615-wounded-175899-since-october-2023"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-EBA5DB06BD8471",
-      "level": "review",
-      "title": "قتيل وعشرات الجرحى في هجوم روسي واسع على مناطق أوكرانية متفرقة - Qatar news agency",
-      "published_at": "2026-11-03T15:10:14Z",
-      "countries": [
-        "Qatar"
-      ],
-      "category": "security",
-      "topic": "regional",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "Qatar news agency",
-          "url": "https://news.google.com/rss/articles/CBMijARBVV95cUxQS204SW9NMlhXMGlvV1VPdDN0QVhhTi1YVzNRVjFadmo4QmMyRmlPMzR2WWNDLXE1Xy1xM2lGTFFPZkgtSkV0a2h0elg3LUQwRFdUT0VvSU5CaktRUUVqZ2tROFRxcE94NDMzd2ozekRXUjdfZHNBVXkycmxVRE1JWFgyZlFvOUF3VkhXcmJkYXdnS040M1BzVXFuYlY0Q1N0bWRVMjBpVUE1ZkJMTTc0elM3SjV6Tkl5QkZQTHh3aFJTRElwOUVGbWxWMkxWLUxqLXljbWhkLUlHQXNVSDcwOGo0T2JOQ1d2MjlkVEJuN3dXTXFlTWY0RWNlcHh6bGZDS1UxWUdwNjlLQjdwUG9YaHFLLXMxWTRjTnFLVUpRVFcxWTNnZDVFNnlwR21OLXFGekFrdUxLbHlnQ25tTzJKV050cGVRVi1rVkkwMF9BR0tsa0pSdXQyOVBoVEFIS2ZqdDJ3LTVyNXU0Z00zMlhPZmhUOEVYaHFUeUkxWG9TM1RjZ3FrSmc2TmZERFV1QnNIN0MtLUNaNmhqREFGbXR0RHRSUUhVRzhSNkxIQ0R4QU1UcXNmNk5fMmdvcTFEMEtKS2FkVVp5bXNiZ3FSOEcwMHhPSFZCU2JLV0YtX3FtMXEtR2MxVzdBOUpxV2J5a3Nqb1NpTkFMNlM1OGJwcS11TmFZbGpvbUNzWTlDMg?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-A6B2DFA1896C17",
-      "level": "review",
-      "title": "انفجارات في مضيق هرمز بسبب اصطدام 3 ناقلات بألغام - بوابة أخبار اليوم الإلكترونية",
-      "published_at": "2026-11-03T15:02:14Z",
-      "countries": [],
-      "category": "security",
-      "topic": "maritime",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "بوابة أخبار اليوم الإلكترونية",
-          "url": "https://news.google.com/rss/articles/CBMi6gJBVV95cUxPRjE0MVlmS1BLekNkMDFNaUh3Smp4dmtSYlJGMzVadDd3cV9PYUFZWFlSXzU0aHhVbENOWGFfMmZXdTd1WWlpZ2lyQU83a1lMbzh2WGxMN0lWZXkxekhDa3hkdHRrOTExOHdKVW43Ym1nSUU3cWZHOE9aR1lhUkJmcTVQc0pmbWRQMU1XaFZ2ZTQxVHFvbDZRSTB1Z3JwUkhlMktzbnRVTUk0ckNFZTViRVAwOTB0VXo4LTQzMzZ1bUFCeGNEbE5HSVdpeEJFYVlPYzM1dk14R3ZYbnd2OVBSYzFpQ2wwZ1d4NExZM284UWJnZG1MSkZFZm9CbXMyTDJpMDdzVjJwNkVzMmpaaTU3a3NCZ01jVGlMcDZtUVplVDRMZ1VjRl9kSVZjY1pDOWRTLTc3NnU4OUJjWFh4bGZvdnNJR09DWm52Zm5zV1JuRHRPc0xodVBZWXFfTk43ZzZPME9SLWdVSVNvdw?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-D01C93BB75B34E",
-      "level": "review",
-      "title": "Trump Says U.S. Struck Iran's Air Defense Facility 'Last Night' Right After Completion - news.sbs.co.kr",
-      "published_at": "2026-11-03T15:01:00Z",
+      "title": "US carries out 'defensive' strikes on Qeshm Island after Iran downs drone, officials tell 'Post' - The Jerusalem Post",
+      "published_at": "2026-11-03T20:14:56Z",
       "countries": [
         "Iran"
       ],
       "category": "security",
-      "topic": "interception",
+      "topic": "drone",
       "outlet_count": 1,
       "article_count": 1,
       "source_urls": [
         {
-          "name": "news.sbs.co.kr",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5ORERMaUVueE1QTWxGdldfSTh2WDNwSUZ2T3NsY0dfQVRGNzBJQVNxQlk2RWJUNEh0SGRFb3hyX1phRnJfd29XV1dBYm5vZF91R2FXU3hsTDJpN29RV2ItR005YjF5UQ?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-AA87E5F0D8D23A",
-      "level": "review",
-      "title": "'Hit Their Anti-Aircraft Facility Nicely': Trump Confirms US Strike On Iran - NDTV",
-      "published_at": "2026-11-03T14:40:39Z",
-      "countries": [
-        "Iran"
-      ],
-      "category": "security",
-      "topic": "regional",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "NDTV",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOU1BKa2J0SjRXa3dKVHpZY3FuUHdDLTBfTEE4bms4aXhvVlhmMWhJQWs0NVNobEZvcUluaThLY1dlX0taRWo5di0zWHFIS1NFRGdVdzVIUTk5OXJCTUVnQ0FPUy1UUW9tV05WcTh3ejlIRVFNcy1HNmtLSndoTmFzT3NzY0xyaml5eFVDMjlpbVdPUFctWVkxZHE4Z0ZDb3pBbUNFV1ZHUE11SV8xZXdMS2hrOHVxbGh3VXBBRlNGQ0NQN2tVZE55dXR6ZXhIM0s0UTl4Y3B0WE1ucmJ6cURoWUlsQ0_SAewBQVVfeXFMUFR5VHVBcGsyNlp4bnV3dXRzRmp6T2xRM0p2bWV6OHdCNkIzRnNPV3Q0SWV2eHZpSVhDQTBqUHZ6Wk9wVEs5M3dGQnJkQVZKYVNrbjVfeGYzejNFLWszajV4ai1jN0xYRDh4RkswQW5jYkRxVFN2R21vUHJNNkJFdjZzNU1yeEFucnRTV194eVI0YkhUdXlLWkxIVGZIM3Q1NGtaNzRnR3c4SXF6b1dMaFpPMTlGdW1IVllUc0dRMUxnUFpQWHAwcHRtM0NmREpZRUpMRk5aY1V5UnBkTUlVY3Y3azRyZWxYWGRtdE8?oc=5"
+          "name": "The Jerusalem Post",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1zREl5Nkt3VXYwcXU1ZGhSZnZLZEN1dGhqWW83eFo2X05HTlFZYXhraUxoaEdwekw1M29MTWlsT1JxdS1SN2FDR1d4Yy1EdHctTFprX294ekcxVTdwMTIyYWE3QTNkdk5lRkE?oc=5"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
