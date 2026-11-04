@@ -1,7 +1,29 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-04T02:13:26.080699Z",
-  "alerts": [],
+  "generated_at": "2026-11-04T09:27:20.119801Z",
+  "alerts": [
+    {
+      "id": "GF-C2BBE428AE725A",
+      "level": "review",
+      "title": "America’s Gulf Allies Prepare for New Round of Strikes on Iran—and the Blowback - WSJ",
+      "published_at": "2026-11-04T08:54:48Z",
+      "countries": [
+        "Iran"
+      ],
+      "category": "security",
+      "topic": "regional",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "WSJ",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONGprSkphSVBVaURoYUtYbXJZdGRRRWFRZEF4dzFtcXJlaW45aGFzTTkyS1VtMmR3eFVrT0p1M1dOWkx6VnlnZld3U2c4WkVnVjV3amQwdFhWQUdsTHRKUW1NeHQ2S0RBd2M2b0xaS2FvUlNTY3hDNW1kYkdwUVBYTjlVUGVOeW11RnFocWtuZkN4T2xlYWlpbjI2WF82Q0dlT2tPSkJwQUk0SDgyLWU2dy1tc0JvX3FnZGVCUnF3dmZEUQ?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    }
+  ],
   "new_alert_ids": [],
   "critical_count": 0,
   "notice": "CRITICAL REPORTING means multiple named outlets published related headlines. This is NOT confirmation, real-time detection or official emergency advice."
