@@ -1,8 +1,69 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-05T02:56:04.606270Z",
-  "alerts": [],
-  "new_alert_ids": [],
-  "critical_count": 0,
+  "generated_at": "2026-11-05T10:38:52.580466Z",
+  "alerts": [
+    {
+      "id": "GF-B28F6227ED8357",
+      "level": "critical-reporting",
+      "title": "Tanker struck by projectiles in the Persian Gulf off Qatar, and other Mideast news - Chron",
+      "published_at": "2026-11-05T10:29:57Z",
+      "countries": [
+        "Qatar"
+      ],
+      "category": "transport",
+      "topic": "maritime",
+      "outlet_count": 10,
+      "article_count": 10,
+      "source_urls": [
+        {
+          "name": "Chron",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRFFZNUZ0MElEdDRyTGloSnJkeXllY1BQU2N5SF8zNUJlS0lfVWp1TmkzM2Ywc1VXWTRwWk5PWTdzZU1IY1E3LXQ3bkIxZlFJdm0zRFA2emZYeFk2SUViMllscUhtNXlvekhib0RTOU1UUEFLTGZmdHUyMHZpMUpFZ08zZEFITnMta05HdWVwNUQ3WFZ2NzRpTmhteVJWT2F3YVE?oc=5"
+        },
+        {
+          "name": "Toronto Star",
+          "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNdzBBMmtTUDdtRDRKRENSajU1bVd6cEFhMjAzckhJU1hSMDhkb3dkcnoyekIwR09GZzhNRFhmTzktQkpTYWhKVVhtZzJnUGZMcjRqdlNUaGVhcENkSXZ4SHZLVmdhQ2R1VFkyaDM4TkZPRl94S2pROHViMTRrblNkRl9WbUFFUjhxYkJTS2RRaFFYLUZhLS16Znk1eGNzRTVqNVplcGljdzM3YlQ4NkxkRGhsemxzNHpRYlNQYVpmZDRCRlN2S2pUZ1Z4THRDLTM4eDZHSUpBYjQyUlRmWTZKU0puZFh1R1dSMmVEV09vTmxvZ0U0U2UtVzFsOUxRTlE1aDF1a0w2T1JnQQ?oc=5"
+        },
+        {
+          "name": "The Spec",
+          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNRXdFQkpCNkRQR09uUjZJck5Ic3Q2MGM1eDBNSHBaR01LTXpyekxrM2o0UllxdVBNa01qano5UzhuYTk5TUMtb0tPdS1BcUFyU08zRnNiOTcwSmh4VkluTjc1OER1R05DU1VjRDBTNjQ0ZDloOWx6X0l6U2pIYkdkcXpCcEFQZEhrTlBTckFNQVMtOG5zazVyNWJwempwcDR1cWVsOVkyekthS0I2TVhBMk5wRHE0R3pkVHRkWVo3M1Zjd1hvMnJCQW45bExyM2xGUm9keWw0NTMwbWxMNEFNY190VlVFZkZoUHBTQ0ZjOGtmcXFHMDAw?oc=5"
+        },
+        {
+          "name": "The Killeen Daily Herald",
+          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNU2Vva0podTF6MjgtMWpNMlcyUV9KOWVBelhDTTA0ZV80WndRM3E5TEYxeUtBSk9kekMzUG9XM3ZNeXFYM3ZaU25SMmVlSWZZZWJicXFxTjJ2d20tSGlRN25qWTFBZkx3bGo2Q0UxZHBTdzgzWGE2U0tfWmlyWWVGVURYSjJwTEVhVHNORFJuUDZXd0dmLUdHZC1ic1hkazNpT1J2cjk0Nk1fYXFIb3JfUnZkdy00Tkd3SVFPS0RoQi1mRzZxMXFSVzh3M2VPdXAydk9NajBaUjB6OFBXakNscnJRNkxmeml5TWpMTkwzaThrc3NGZ0E?oc=5"
+        },
+        {
+          "name": "Henry Herald",
+          "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOU3BJcFFWSl9yVFFHcEtvNGpPTjJNWHQ5Y2tWYmhRbm5vNWV1TFI3ei1EcXhYZ0xJek1vUlFSRkRsYk12eTNXejFtbXhra3NQTkxNVVUtYndWVVVTaGtfbVAzSWFRREFRS1J0VU5yTUdxVnk4S3RCS09kZUlWLTJ5VGdWYW52RmxkMHFVQ3JVc3JzT0pybXpIZlRTa1d0RkNyQWFuOVpXZDRvclo3SHBCenQ5akRFdVRLNzNIczdpajZxdlNpM0tmLVZIUjBlbzdCbUY0Z2JOc3BHNVVvZ1U5VS00UEVmcEppUTd4LTB6b2N4OVc2TEdGdHNjZE9hLXFBX0xLa2tDWjk?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-8AD32A0BD28431",
+      "level": "review",
+      "title": "Tanker struck by two projectiles north of Qatar, crew status unconfirmed, UKMTO says - Reuters",
+      "published_at": "2026-11-05T09:00:34Z",
+      "countries": [
+        "Qatar"
+      ],
+      "category": "transport",
+      "topic": "maritime",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQZ2VIeHlJVm1QSVhTLTZ1dHFKMk9lelp2ZTU3MEJFaTN5bzlXdHFUMkdkUDhXeTJSWkNCaFdZTk1jbElDNEMyOXUyOTZaM2hFRDZsWHg5NVFnVWJSQzFhb3NRWjVJN2YtZk1fX1ZOWFAxWkR4ZDZyNndKZG81ZWYydU56ZWRNNV9lajVacVJFdTExdldlbGVEb0FGNjUyM1I0V1FRZ1B1cFM1ZUFzRFVPTWtpa0ktcV82WWhqV01Rb0xLVU1MRUlLQ3hRMzc1UQ?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    }
+  ],
+  "new_alert_ids": [
+    "GF-B28F6227ED8357"
+  ],
+  "critical_count": 1,
   "notice": "CRITICAL REPORTING means multiple named outlets published related headlines. This is NOT confirmation, real-time detection or official emergency advice."
 }
