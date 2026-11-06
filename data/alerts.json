@@ -1,7 +1,29 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-06T03:43:08.108560Z",
-  "alerts": [],
+  "generated_at": "2026-11-06T11:36:42.502464Z",
+  "alerts": [
+    {
+      "id": "GF-7EA7EB711CB7D9",
+      "level": "review",
+      "title": "Seafarer reportedly killed in tanker attack off Qatar - safety4sea",
+      "published_at": "2026-11-06T10:08:09Z",
+      "countries": [
+        "Qatar"
+      ],
+      "category": "security",
+      "topic": "maritime",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "safety4sea",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdnBaYjNHcWQxZ1g4SVVZVkVreGw0NWt6Y2NHWWFMY1pFbjhYbFRVMG1VYjR0bkt6ZFNwcE0ta2dTY0FNSFBWbE5naExaWGUzR2VDSFJsZFh3YW1fbUdDZ3AyODJHY1Z5YTMxQnBYTU1Ra1dxalRRSzQtMk1pQ0hYTm9wRQ?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    }
+  ],
   "new_alert_ids": [],
   "critical_count": 0,
   "notice": "CRITICAL REPORTING means multiple named outlets published related headlines. This is NOT confirmation, real-time detection or official emergency advice."
