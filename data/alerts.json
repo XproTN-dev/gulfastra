@@ -1,14 +1,56 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-06T11:36:42.502464Z",
+  "generated_at": "2026-11-06T18:27:52.591104Z",
   "alerts": [
     {
-      "id": "GF-7EA7EB711CB7D9",
+      "id": "GF-DE45D7EE3DF1D8",
       "level": "review",
-      "title": "Seafarer reportedly killed in tanker attack off Qatar - safety4sea",
-      "published_at": "2026-11-06T10:08:09Z",
+      "title": "هجوم صاروخي يستهدف ناقلة نفط متجهة إلى البحرين ويقتل بحارا بالخليج - ديرتنا نيوز",
+      "published_at": "2026-11-06T18:22:46Z",
       "countries": [
-        "Qatar"
+        "Bahrain"
+      ],
+      "category": "security",
+      "topic": "missile",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "ديرتنا نيوز",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE82Vno4cUlSeVBjUm1EOWxOUWtUakYtSVpHemQ1UG1pbWdzQUt5TFN0Qlh4eEl5LVRDTy1sSFlpTXdjSjBuRjhJYnhsOFd6UGpwSjNv?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-D807144FC19B0B",
+      "level": "review",
+      "title": "إيران تعلن إسقاط مسيرة أمريكية في مضيق هرمز.. ومقتل بحار بهجوم على ناقلة نفط - بوابة أخبار اليوم الإلكترونية",
+      "published_at": "2026-11-06T18:03:48Z",
+      "countries": [
+        "Iran"
+      ],
+      "category": "security",
+      "topic": "interception",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "بوابة أخبار اليوم الإلكترونية",
+          "url": "https://news.google.com/rss/articles/CBMi8AJBVV95cUxORlVzR3RUOUFid3otTC1wcTZaZThoM1lORzZzRnBVQ2JuNUNYemNYUk12ME9kVmFudlQ0SENTYl9KMzBhdlRFSVJQa0VkSnhMenNXYnduZ1l6QU9HVjVjeTlISXRjd0FNUEFCWlM4TkliX3Vwb3FIVjNYc1UxTGlkSWoxWnh0T3VXenJ1YWFwVGhKUFZNaUxVTWk3N0MzbTlqRkRmamNQOEtCQUJnUUotNUVSSzFlVktqTi14X0ZoVkRaTlJIWWlyOHgySEJjOGtfUkJXSHRXVkwteW82MlI0N2xaWFlDd1RncXdfZ1AzUWZ3TGVaOF94VXpZOFZBckcxeG5FSm9ERUNuaDJreXdLNkFCTTZ0T3RURS04NzZ1N3A4X3YwVHhpNW0zSHg2SmE5ZWFSal9tU2Rqc1l5emZacW5XX21xVnB1MUVkSGF3b2hTZEJJY2p6T1BqWWJDdGhwaV9CYzJYel91bERramVnVg?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-E0D3ECA406B77E",
+      "level": "review",
+      "title": "Iran war: Gulf tanker attacked, 1 seaferer killed - DW.com",
+      "published_at": "2026-11-06T17:54:59Z",
+      "countries": [
+        "Iran"
       ],
       "category": "security",
       "topic": "maritime",
@@ -16,8 +58,46 @@
       "article_count": 1,
       "source_urls": [
         {
-          "name": "safety4sea",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdnBaYjNHcWQxZ1g4SVVZVkVreGw0NWt6Y2NHWWFMY1pFbjhYbFRVMG1VYjR0bkt6ZFNwcE0ta2dTY0FNSFBWbE5naExaWGUzR2VDSFJsZFh3YW1fbUdDZ3AyODJHY1Z5YTMxQnBYTU1Ra1dxalRRSzQtMk1pQ0hYTm9wRQ?oc=5"
+          "name": "DW.com",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNk1KUEc4UEU2TzQ4eFRSaUozNGM0LWxCeXNJYUpzWmtSUkxOWW53a2M3ekpFTzRiTElScWJfUHFWM2FoNDkzSTQwTXB3bmkzYVNFa0liaG40T29Kcld6RHdkQnNHbWZETTZlZFVRYXNuenFZR3NLZ2l5WUtrTjRSc1dEVXRIMGfSAYcBQVVfeXFMTy1wLTlEdy1RajY3bE1BdjllT1RmQktJOXF6MXppQUxfVUd5QXVIWTYyQTJZTG5fR0p1QUY4Ql9YSklLdlBDZ3BCbzZfZDJ3cE1sb2o3M0U4cHhZQy1TRG9rREczTnQ5b1dPYi1OZFduNmRKQ3A3VkxFWkNYS1Z5TlFHMF9pc1lB?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-3F7BE480317E6B",
+      "level": "review",
+      "title": "Suspected missile explosion leaves one seafarer dead in Persian Gulf - Baird Maritime",
+      "published_at": "2026-11-06T17:23:21Z",
+      "countries": [],
+      "category": "security",
+      "topic": "missile",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "Baird Maritime",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUUo1U2RDU3dTQUNtQlBob2lFbjh3bEtmbDJORTNBd1lmUGJJak5yLWFCOEFMaXBmeEwtM1hGVUpQMHVBbG1NTlRObTNTMlFGNlRsNXBrcDQzc042eE5iR0dGcW1oX1R6b0VfY0Z3UUg4UUhuNEl0Y1hDTGNEN1d1T3FZZVpWNmJ0UGxia0Q2WHR2cnZYMTlRLWdzTm5mSUVGN1JDSWdkbGN3X3htSWlTUnFTd0NWcXJRdlJoQ2hXU2pETlNSXzBfadIB1gFBVV95cUxQVk82dlRfTDFTSnNNaTdiaGI3WExjLThRS1U0MW1BdUlXZXh4bDIyejctSlNBZzU2SXVDX0E3RVNyaXJLQnJjcEE0UnRfTW1nOUd0YjBTbkFzU3psX0VablViYURGaDhuaHhWTTF2eGk4QXFZb29OaHNuYkNCWlJOdG40LXVlLUlDY2ltZVVhNzI1MDhPUUY4TDVENUtjeTNfYl8tRl9VcnNscmh0S0hsRWotNE5vMzV4RFZwS1lpcmlfMGNCeVdWWmw2TjJ5am5kVVFuYW1n?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-858F75F9E2529A",
+      "level": "review",
+      "title": "Sailor Killed After Missile Attack On Oil Tanker In Persian Gulf - NDTV",
+      "published_at": "2026-11-06T16:58:23Z",
+      "countries": [],
+      "category": "security",
+      "topic": "missile",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "NDTV",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdEdlT3k1d3NjQXRod01HeGVFcVVueHp2aU5Hbk9DZ1FzZDFFZG1LRndDMzVuZDBrcnd5eG1XeEh5YmZxTHVGWVc2WnUxZ3ZVRVJyRXdHTHVRel9pMk04eThJSlAzd1hQWDh5SHMtZklac3c2MG43UUY0YVJORVdUR3Z4WkVhTlR5NlhKanRnVUJIbTJhSGpwWW9ZOEpiY1ZXVk5zR0RsYXXSAbABQVVfeXFMUEJEZklwcXdPOHhYNEpjdXM2QUt4N212MVkxc3hxRGNzNV9rU2VybEUtbVZ6MV85XzhnTGpNd0dkd2gtODB6Nm1mSnNqbXFUTkRVME9QU0MzemllNUY0QTlaa2RfTDFpbWRPdWo0U2k4VXJxMFpsZmVZLXJZdFB4eHZaeVI2MFhjSzQzYUV4ZWp6TVBnQmM3VDdwbjJZb3lCbFlwWnI4VlhkV3hrMU9uZnE?oc=5"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
