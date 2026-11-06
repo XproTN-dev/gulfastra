@@ -1,110 +1,55 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-06T18:27:52.591104Z",
+  "generated_at": "2026-11-06T23:27:17.966210Z",
   "alerts": [
     {
-      "id": "GF-DE45D7EE3DF1D8",
+      "id": "GF-ECF238BA001E3D",
       "level": "review",
-      "title": "هجوم صاروخي يستهدف ناقلة نفط متجهة إلى البحرين ويقتل بحارا بالخليج - ديرتنا نيوز",
-      "published_at": "2026-11-06T18:22:46Z",
-      "countries": [
-        "Bahrain"
-      ],
-      "category": "security",
-      "topic": "missile",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "ديرتنا نيوز",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE82Vno4cUlSeVBjUm1EOWxOUWtUakYtSVpHemQ1UG1pbWdzQUt5TFN0Qlh4eEl5LVRDTy1sSFlpTXdjSjBuRjhJYnhsOFd6UGpwSjNv?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-D807144FC19B0B",
-      "level": "review",
-      "title": "إيران تعلن إسقاط مسيرة أمريكية في مضيق هرمز.. ومقتل بحار بهجوم على ناقلة نفط - بوابة أخبار اليوم الإلكترونية",
-      "published_at": "2026-11-06T18:03:48Z",
-      "countries": [
-        "Iran"
-      ],
-      "category": "security",
-      "topic": "interception",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "بوابة أخبار اليوم الإلكترونية",
-          "url": "https://news.google.com/rss/articles/CBMi8AJBVV95cUxORlVzR3RUOUFid3otTC1wcTZaZThoM1lORzZzRnBVQ2JuNUNYemNYUk12ME9kVmFudlQ0SENTYl9KMzBhdlRFSVJQa0VkSnhMenNXYnduZ1l6QU9HVjVjeTlISXRjd0FNUEFCWlM4TkliX3Vwb3FIVjNYc1UxTGlkSWoxWnh0T3VXenJ1YWFwVGhKUFZNaUxVTWk3N0MzbTlqRkRmamNQOEtCQUJnUUotNUVSSzFlVktqTi14X0ZoVkRaTlJIWWlyOHgySEJjOGtfUkJXSHRXVkwteW82MlI0N2xaWFlDd1RncXdfZ1AzUWZ3TGVaOF94VXpZOFZBckcxeG5FSm9ERUNuaDJreXdLNkFCTTZ0T3RURS04NzZ1N3A4X3YwVHhpNW0zSHg2SmE5ZWFSal9tU2Rqc1l5emZacW5XX21xVnB1MUVkSGF3b2hTZEJJY2p6T1BqWWJDdGhwaV9CYzJYel91bERramVnVg?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-E0D3ECA406B77E",
-      "level": "review",
-      "title": "Iran war: Gulf tanker attacked, 1 seaferer killed - DW.com",
-      "published_at": "2026-11-06T17:54:59Z",
-      "countries": [
-        "Iran"
-      ],
+      "title": "مضيق هرمز يسجل 130 هجوماً.. وحصيلة القتلى ترتفع - العربية",
+      "published_at": "2026-11-06T21:49:00Z",
+      "countries": [],
       "category": "security",
       "topic": "maritime",
       "outlet_count": 1,
       "article_count": 1,
       "source_urls": [
         {
-          "name": "DW.com",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNk1KUEc4UEU2TzQ4eFRSaUozNGM0LWxCeXNJYUpzWmtSUkxOWW53a2M3ekpFTzRiTElScWJfUHFWM2FoNDkzSTQwTXB3bmkzYVNFa0liaG40T29Kcld6RHdkQnNHbWZETTZlZFVRYXNuenFZR3NLZ2l5WUtrTjRSc1dEVXRIMGfSAYcBQVVfeXFMTy1wLTlEdy1RajY3bE1BdjllT1RmQktJOXF6MXppQUxfVUd5QXVIWTYyQTJZTG5fR0p1QUY4Ql9YSklLdlBDZ3BCbzZfZDJ3cE1sb2o3M0U4cHhZQy1TRG9rREczTnQ5b1dPYi1OZFduNmRKQ3A3VkxFWkNYS1Z5TlFHMF9pc1lB?oc=5"
+          "name": "العربية",
+          "url": "https://news.google.com/rss/articles/CBMi8gJBVV95cUxQX29ja0xwQzBSM3FEb2VWT0t4aDdjU0lWRDRzZ3laVHJneVloVm9ISmVReHZSTHFyZEtUbmh4SmJCZE9xQlZ3bXRVSTZfVWVJTC1rSE9Camh3V0paLXM3N0pjd1F3a0pkb2tSY1JCOUR2UEZadC1MeDRiZ1UzNlB1SzFyaWpHY1FqNHkxbi15bUQzSlhFRnZQZngyV0cyaDIxNnFHWmNFT0F1OVpBSTVwSjMwbmlGWTRFTl9vZnc5MTExOFc4S1hBSVhzQ1RmM3BoT1pfYkxuOG95MS1MWFhVb1lmRUt3TkRFTjFPanFwQTBJbDliZEwxRWQ5NDFMNVZYTTFhS1dBaGFxenlNSXl4VUpJN2NLc0ViRlBodVFILVFpSlhTVDlxVHFwTG9NRmU5ZWkxV2ZFaWNiYTQ0R1pUQlktdG8tNWYxY2l5dkE0dnhJYVR4YkgzelZlNXhPOGhzVDVEWVN2dHJCcXJXOUF6RHJn0gH3AkFVX3lxTE1ZbGxJS0NxVzV4R1JMLVp6aTBVRWpXVmdhcEw4dkEzNXV2Y1hnbDVKNVZlcGVtaTVOcWpLcTI2NzZscTZJUVBldXpnUXgxSkpReFM4UWMxaUZqMXpEVVZRN3BfUE5BcEVCZzluNkdSR2F2WXNzY0ppeFVxTy1ONDZrTDB2LUJxQnRnd2JXa1doWnNTMEpxVHdGR2Y1aHBDNU43Rnp0cWZYQVpwUFdHNUxPQldxVkQtVVFZUzlNVXdFRXFFQjNxNk4xcFAwMURZczFOU09BRDJUTDNQS2hqZ3RheV9wSzE1dVhmLVdHN09lUC1qTVJ2Nnd4LUR6WlJCMjdLTUlFNEI1OVFLSDNhelZrSXhkSXRZYUM1cVNXQzFVT0tmUVdvdVpTQUM0NVZvTFl2LWxDXzNCU0lhYzRDeFVPSWZDVUs2WVRJZnpJTWJWRVQtaXVNX0Rpd18yNlhBdVNseUUtR3lmSG4zU2ZzZ0kxWGFtU2VoNA?oc=5"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
       "verification": "unverified-reporting"
     },
     {
-      "id": "GF-3F7BE480317E6B",
-      "level": "review",
-      "title": "Suspected missile explosion leaves one seafarer dead in Persian Gulf - Baird Maritime",
-      "published_at": "2026-11-06T17:23:21Z",
-      "countries": [],
-      "category": "security",
-      "topic": "missile",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "Baird Maritime",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUUo1U2RDU3dTQUNtQlBob2lFbjh3bEtmbDJORTNBd1lmUGJJak5yLWFCOEFMaXBmeEwtM1hGVUpQMHVBbG1NTlRObTNTMlFGNlRsNXBrcDQzc042eE5iR0dGcW1oX1R6b0VfY0Z3UUg4UUhuNEl0Y1hDTGNEN1d1T3FZZVpWNmJ0UGxia0Q2WHR2cnZYMTlRLWdzTm5mSUVGN1JDSWdkbGN3X3htSWlTUnFTd0NWcXJRdlJoQ2hXU2pETlNSXzBfadIB1gFBVV95cUxQVk82dlRfTDFTSnNNaTdiaGI3WExjLThRS1U0MW1BdUlXZXh4bDIyejctSlNBZzU2SXVDX0E3RVNyaXJLQnJjcEE0UnRfTW1nOUd0YjBTbkFzU3psX0VablViYURGaDhuaHhWTTF2eGk4QXFZb29OaHNuYkNCWlJOdG40LXVlLUlDY2ltZVVhNzI1MDhPUUY4TDVENUtjeTNfYl8tRl9VcnNscmh0S0hsRWotNE5vMzV4RFZwS1lpcmlfMGNCeVdWWmw2TjJ5am5kVVFuYW1n?oc=5"
-        }
+      "id": "GF-B2D2B0342C621F",
+      "level": "critical-reporting",
+      "title": "مقتل بحّار في هجوم صاروخي على ناقلة نفط في الخليج وترامب يؤكد أن بلاده تجري محادثات مع إيران - France 24",
+      "published_at": "2026-11-06T21:28:28Z",
+      "countries": [
+        "Iran"
       ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-858F75F9E2529A",
-      "level": "review",
-      "title": "Sailor Killed After Missile Attack On Oil Tanker In Persian Gulf - NDTV",
-      "published_at": "2026-11-06T16:58:23Z",
-      "countries": [],
       "category": "security",
       "topic": "missile",
-      "outlet_count": 1,
-      "article_count": 1,
+      "outlet_count": 2,
+      "article_count": 2,
       "source_urls": [
         {
-          "name": "NDTV",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdEdlT3k1d3NjQXRod01HeGVFcVVueHp2aU5Hbk9DZ1FzZDFFZG1LRndDMzVuZDBrcnd5eG1XeEh5YmZxTHVGWVc2WnUxZ3ZVRVJyRXdHTHVRel9pMk04eThJSlAzd1hQWDh5SHMtZklac3c2MG43UUY0YVJORVdUR3Z4WkVhTlR5NlhKanRnVUJIbTJhSGpwWW9ZOEpiY1ZXVk5zR0RsYXXSAbABQVVfeXFMUEJEZklwcXdPOHhYNEpjdXM2QUt4N212MVkxc3hxRGNzNV9rU2VybEUtbVZ6MV85XzhnTGpNd0dkd2gtODB6Nm1mSnNqbXFUTkRVME9QU0MzemllNUY0QTlaa2RfTDFpbWRPdWo0U2k4VXJxMFpsZmVZLXJZdFB4eHZaeVI2MFhjSzQzYUV4ZWp6TVBnQmM3VDdwbjJZb3lCbFlwWnI4VlhkV3hrMU9uZnE?oc=5"
+          "name": "France 24",
+          "url": "https://news.google.com/rss/articles/CBMiyAVBVV95cUxPQlZaMUd5Z1laUDNuOE9pNWJRRDBaWWJiUGQ0LS1keGppVm9sdFoySk5xNXdreXhoSEpZTzU5TW04VkwwaVV1YkVOd3M5QWpqczZCc2Zxenl5UkktclNubzFpLTNPY0Y5c3paSENUSVRWTlhicUdwenVzWVNCUWtIcThmdFRPMVBUT0ZwUWw4ZWJzWXlXMFZWTUNvZ3FISEhxakFhZ2tQS0hrR0pUUFVpOTNkS2VhQzUtYWlsd2NPYWdkckVyN3lSamx1VUF3c2MybDUwUXR0SzY0LXN2c1JCMzhtOWhYUVYtQUhVRGN6SUZpTGhfUVRIMG1rTkZ2RGQ1N0VLWEdXMm5UWHRXejlBMHNlN0lET1Y4dC1CNGhhekdsY2dPMGl4aUlTNER3czBJRVlEQ3IwOXRGeno2Y3NVVWxqblJJc0ZHMFAyYWRoX0tSM1hQQkhscDBsVldGSmV5YnBUTXgxZXJGUllRYnhHTlBTeEtDT1Q3SzJiVk10QWU3SUJFVmNkY0Z6QjNPeXRwdmdqdkRSbzhGOEd0c3FDLUxMbm1oS0dKUHFGVE1MSFExVE9kQ2N1UlNXVHFzYkY5NmtiZ3drY2xHNDlsOEtDWGZNdWVpV2tjNzBnNkQtTmhYdWlhY1NKcG1iXzJDd25UZFpSb2lvWGRUdzVwcUNSWnZaandqWjlEZWdZb0xvOXNYQUlKWFJ6TnFGbTlncTJ1ZHQ2STBUOW8xYko5aVlXb3d2YmVuUVIxb1RRQjR3WUU0cUVuS3JPY2M4aVBFNTl2aXZveHRQcUFsOEhLaHFoMXRBcjQzLTRFVEhRMzhIXzN2V3ByaDJkSzY1b2dEdmsxaEhDYjNsRExpZGhBeC1DTU5BcmdzaEV5blUxd2pLV0dFV3loamJSV0NwM3lmdXd3Wi1uVEdLbGlQamEwMDNtaFdGa3BZdzQ1?oc=5"
+        },
+        {
+          "name": "© أسوشيتد برس",
+          "url": "https://www.france24.com/ar/%D8%A7%D9%84%D8%B4%D8%B1%D9%82-%D8%A7%D9%84%D8%A3%D9%88%D8%B3%D8%B7/20261106-%D9%85%D9%82%D8%AA%D9%84-%D8%A8%D8%AD%D9%91%D8%A7%D8%B1-%D9%87%D8%AC%D9%88%D9%85-%D8%B5%D8%A7%D8%B1%D9%88%D8%AE-%D9%88%D8%A7%D8%B4%D9%86%D8%B7%D9%86-%D9%86%D8%A7%D9%82%D9%84%D8%A9-%D9%86%D9%81%D8%B7-%D8%AE%D8%A7%D9%85%D9%86%D8%A6%D9%8A-%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC-%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D8%AA%D8%A3%D9%83%D9%8A%D8%AF-%D9%85%D8%AD%D8%A7%D8%AF%D8%AB%D8%A7%D8%AA-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
       "verification": "unverified-reporting"
     }
   ],
-  "new_alert_ids": [],
-  "critical_count": 0,
+  "new_alert_ids": [
+    "GF-B2D2B0342C621F"
+  ],
+  "critical_count": 1,
   "notice": "CRITICAL REPORTING means multiple named outlets published related headlines. This is NOT confirmation, real-time detection or official emergency advice."
 }
