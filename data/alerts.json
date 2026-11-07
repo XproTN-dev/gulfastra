@@ -1,7 +1,50 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-07T20:24:54.145156Z",
-  "alerts": [],
+  "generated_at": "2026-11-07T23:50:03.451742Z",
+  "alerts": [
+    {
+      "id": "GF-5A43B8A742852A",
+      "level": "review",
+      "title": "Donald Trump insists he has 'total control' after launching fresh missile strikes on Iran - The Mirror",
+      "published_at": "2026-11-07T22:54:00Z",
+      "countries": [
+        "Iran"
+      ],
+      "category": "security",
+      "topic": "missile",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "The Mirror",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9uTlpKWjFhSUU5MGphQjZLMFM2SEY2U1RhTmoxaXpGODRJTTJPc2FjbnllWkFQdlMwbTRXdm9TUFZBMXJZbTQ4QTJQV2xwZ2htZElodkNSU1pvbmdZSHBHdG1LV0IyQlRNYzlZckRKUXZXYTN1RzAySXpfVlNEQdIBgwFBVV95cUxNbzZ3U3VJV2ZsLTBKcjUzZFlueGliakpBaldnMkktdmo3OTh6d0ZGN1lweHdrRXVwRmIwV1JkdjFJUUowcERSNHpBR3lRNFBBaU95RVJMRV9QZ3RZV0ZmdDZhc2ZYMEtVZjFSTEJLbXV0YUpZWnBhY2lIdE1ETDNNMW9kMA?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-EE4D2F657AD95C",
+      "level": "review",
+      "title": "تصعيد في مضيق هرمز وخليج عمان.. انفجارات واستهدافات - سكاي نيوز عربية",
+      "published_at": "2026-11-07T22:22:18Z",
+      "countries": [
+        "Oman"
+      ],
+      "category": "security",
+      "topic": "maritime",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "سكاي نيوز عربية",
+          "url": "https://news.google.com/rss/articles/CBMipwNBVV95cUxPWWIxVUt6b0dKRlJ2UW5lWlpHOFcweEJteTlheDZBd01wZXprakVzek0wOWtsQUdKTW5MVmJNOGlmeWlzR0dRZVNKTkJfcmtrbVlENGZydGRYQnFDSWU4Q2dUY0FoczZmVDA3UEdQdDN3bHpfeUVVNlp6OHhmcVlBTTdqY2JwUEFLT05aOFdjVzlDRWpxb1VIVXhBbVRXVVVYYlRYdEQzMUt4RHM4YkpTT3NVTUdMaWVCMmljRnZLQUN3ZTR6Zi1QVGtZRVFMc254MGwxNnd5S0FTVTZQWWtPRWVvSmJUSUYtcmRTTzNMdVBubEg2emVZZHdEMjhpVTVKLXRzWVdBcm9iNzh5LTI2N1NCTzY3cFhPMGpSODJ2ZjdnTlFfZEJvSm1LbV9WZnJOYkFqX2JtVHpXLV81emhET3VrTjN2VVdqZjNZTzRFYlRiUDVGa3Q4QWc5VjViczRHdE9pbmxFSDcwc2d6ek9IV1lGdVE4cHk3NjY4VWxDYS1mYUVyYVpWY2p6SnBfWDRqYURUVHJLbFBHRWQ5VENvOFRuZjVpQVXSAawDQVVfeXFMT0RvbTJibWZMdU8xM1NHME5XTGtXcEZoU2lkQ3BpZUJGTGJ6blJEWmF0UEJqTXc5S1pwSjBNWWpDZnFlMEVYMnRmRlUwc2ZuSzFENlcwZU9qWmx4TFJ6SWhHVWRzalpYVmxUSDdHc2NnRHFsU09JU3FRSHpHZjN3QUdUdWlCZVlqLWJkX2tkbm8ybUJUc0JxQXRBd21GWGY2cnlQMldqN2I3R1hQLXoxUEQ3czExNWF4ZWY1OVkzZHhlc0I0OF9Dd0E3R1JzaTNld1VRSjdzTzZNdEpUQUdiMklDVHUzclRMZXdRY25jLVBMS3RfaFdibTVvYnZhVFR3SXAwWkNYMjB5M2c4MXc4czFFZ1R4ZUR5OVhBdWtlZFBzZms2WnVKLUZyWVRMclRkcW5PUnRpcmxVbmZaVWgzUkV3MkpLMHRvUjU2ckJHQ0N4ZVN2YlVaU3F1UGtPT1Nyb3JPVV83dWdhRy14akRTdExiWWxpcXRjVjNUS1ptV1VVRm5CTGRoNmxDd3I5b0tHS0V1WmVFWV9CS1NTY2FPY0piYWVTaW9UWEJGT2Y?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    }
+  ],
   "new_alert_ids": [],
   "critical_count": 0,
   "notice": "CRITICAL REPORTING means multiple named outlets published related headlines. This is NOT confirmation, real-time detection or official emergency advice."
