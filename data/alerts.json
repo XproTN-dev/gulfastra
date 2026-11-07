@@ -1,71 +1,7 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-07T10:02:58.540677Z",
-  "alerts": [
-    {
-      "id": "GF-E455B96CC46A19",
-      "level": "review",
-      "title": "ترامب يعلن تنفيذ ضربات أمريكية جديدة استهدفت الدفاعات الجوية الإيرانية - برلمان.كوم",
-      "published_at": "2026-11-07T10:00:10Z",
-      "countries": [
-        "Iran"
-      ],
-      "category": "security",
-      "topic": "regional",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "برلمان.كوم",
-          "url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxOT1JVLUdTODBrZW0wTzlnb2tmM2hWTHRGaG1rTVQ5MFdpSDM5bnNYMDNrRjlXbFd3VEJuVjA2YzRra3FuWGRGRm9VejkzN0U1SHBMSkdnWTRjamFLUVNMaGpqREM1YUdSVDBLZjBDMjVkaW9HeTQ0eFZtbTF4SWxGQVZ6WmxYSGwxaVRvYTE1SjJFeEw0dkhMQTJVUEJtTTVlTi1GM0ZPaS1hTksyNDZOa0FGUXVscTNDWnRGaU9VbTBEWjI2RThVeDc4dUJzNHNhM29palB5NmpnVFN3eVdaQ0VOM3lkYkFBcE8yUVROQUlYcTVWaVh5QmRPcmZVdk9scVlfWHlmdVl0d3E2RVJMR1NqWkpjcHJDdnRqTTE5b3dUVVpUdzNxNVhhWlJGNGY0azFNWWFPX2kwX0dha0tUcTJhUQ?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-98990048E44E45",
-      "level": "review",
-      "title": "Yemen: 30 dead in strikes on Taiz market",
-      "published_at": "2026-11-07T09:37:16Z",
-      "countries": [
-        "Yemen"
-      ],
-      "category": "security",
-      "topic": "regional",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "France 24 · Middle East",
-          "url": "https://www.france24.com/en/yemen-30-dead-in-strikes-on-taiz-market"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-74D8EE88678D92",
-      "level": "review",
-      "title": "US Launches Limited Military Strike on Iran, Trump Confirms Attack on Air Defence System - Oherald",
-      "published_at": "2026-11-07T09:18:46Z",
-      "countries": [
-        "Iran"
-      ],
-      "category": "security",
-      "topic": "interception",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "Oherald",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdElSYndwb3ZydlNFX19IN0dFV2N6bzVReVBDaGQ5eG9STW9qMHRiSU9hT0tMSDI3ZDRDeGxpeXBzZHRaS19veFAwU1ktOVFBUW5adUVXZHBWTDk5bXJaUG10dWNoVlliZXdsVVJqNEo4dkVIcVFjM0ZuRThxbTUxYUI4MEItQThpWS1mZHFYMHBvR0pmZHlqZGp1TWk4bC1lWnJlb3luTUxrLUlSRm5wRUFQRGkzbGljSHdZOWtTc0pWQQ?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    }
-  ],
+  "generated_at": "2026-11-07T16:22:55.318724Z",
+  "alerts": [],
   "new_alert_ids": [],
   "critical_count": 0,
   "notice": "CRITICAL REPORTING means multiple named outlets published related headlines. This is NOT confirmation, real-time detection or official emergency advice."
