@@ -1,31 +1,12 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-07T03:06:54.894651Z",
+  "generated_at": "2026-11-07T10:02:58.540677Z",
   "alerts": [
     {
-      "id": "GF-86EDA02F606CFA",
+      "id": "GF-E455B96CC46A19",
       "level": "review",
-      "title": "Tanker reports explosion while leaving Strait of Hormuz - 巴士的報",
-      "published_at": "2026-11-07T02:48:11Z",
-      "countries": [],
-      "category": "security",
-      "topic": "maritime",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "巴士的報",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNOElJcG1rLU8zdVhEOEtoSkJWZWY0Y244NWRKa3RSYkdWRnBVSmNTbUMwVjRwNHdFRkNLOWhjRGhDRm4tRDJNVE4yWWJDRnA5Zl9iZ3ZWdk1aRThwSmZnV2lZQ1dab3hMVG9QZjhtcDRCNlEwSzdHcXNGX2ZaR1ctaDIzMng2YjdQcWo3ZVE4TmpONGRERDA0Q3l2MUFZSmhtY0hBbkhGc050MGs?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-B2483FE76FC1E0",
-      "level": "review",
-      "title": "US carries out fresh strikes on Iran as diplomatic efforts to end war intensify - Ynetnews",
-      "published_at": "2026-11-07T02:05:44Z",
+      "title": "ترامب يعلن تنفيذ ضربات أمريكية جديدة استهدفت الدفاعات الجوية الإيرانية - برلمان.كوم",
+      "published_at": "2026-11-07T10:00:10Z",
       "countries": [
         "Iran"
       ],
@@ -35,20 +16,19 @@
       "article_count": 1,
       "source_urls": [
         {
-          "name": "Ynetnews",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBDbm52TXNOTTM1MTZLSk5DZTM4b2F5dU1RTGdndWJmcThab1lpcUJ4ZXQ1TmtxMXM3b1RZcWh3R3pRLVNIRXdndUlkRlA1YmlHOHJuakl3?oc=5"
+          "name": "برلمان.كوم",
+          "url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxOT1JVLUdTODBrZW0wTzlnb2tmM2hWTHRGaG1rTVQ5MFdpSDM5bnNYMDNrRjlXbFd3VEJuVjA2YzRra3FuWGRGRm9VejkzN0U1SHBMSkdnWTRjamFLUVNMaGpqREM1YUdSVDBLZjBDMjVkaW9HeTQ0eFZtbTF4SWxGQVZ6WmxYSGwxaVRvYTE1SjJFeEw0dkhMQTJVUEJtTTVlTi1GM0ZPaS1hTksyNDZOa0FGUXVscTNDWnRGaU9VbTBEWjI2RThVeDc4dUJzNHNhM29palB5NmpnVFN3eVdaQ0VOM3lkYkFBcE8yUVROQUlYcTVWaVh5QmRPcmZVdk9scVlfWHlmdVl0d3E2RVJMR1NqWkpjcHJDdnRqTTE5b3dUVVpUdzNxNVhhWlJGNGY0azFNWWFPX2kwX0dha0tUcTJhUQ?oc=5"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
       "verification": "unverified-reporting"
     },
     {
-      "id": "GF-831CB1B3C07B44",
+      "id": "GF-98990048E44E45",
       "level": "review",
-      "title": "Trump discusses West Asia de-escalation with Qatar's emir; at least 30 killed in airstrikes in Yemen - The Economic Times",
-      "published_at": "2026-11-07T01:58:27Z",
+      "title": "Yemen: 30 dead in strikes on Taiz market",
+      "published_at": "2026-11-07T09:37:16Z",
       "countries": [
-        "Qatar",
         "Yemen"
       ],
       "category": "security",
@@ -57,176 +37,29 @@
       "article_count": 1,
       "source_urls": [
         {
-          "name": "The Economic Times",
-          "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOOWFBZEU5ME1Lb081YlFUX3RTYy11Uk9rbW5VdzdIZXpMa2YtTzNBSDVhd3RiTkJMMlhjeUF1Mk5ZNVJEeFUyWkdvMExMUGJBNWIya1lNbTJEN2w2dGx1UGVmeTBja3oybFdkekRQUUdWUkhJLWcxUUNZOGk3MGFkNVowWExoLUwxZWdjNkY4bWxRZ3UzQ3Fwb2I0d3RFdThlQjAyRm53RG1NNHlaME5idGxkdEY3M2VsWFNRb3Nla0lld05mMG5IdldvRzdvSEZjRktCUVhndi0tNUczVE8yTzVqRF9YY19MWjJuSmdnYnFaWlhLNXVNRE5CeGUxNjZpWnh2akFDdG1aR21VWFYw0gGUAkFVX3lxTE1WTzhWbVVINjFPNS02RjUyT084MVFzd08ya3Y3ZWZoVmZqUUJHYjNReWh2WUloeWdZcS0tdTQwdUpkeGNQQnZSY01iTDM0QV9obXliaGY2QnB0b1c3NU1yYW9TNUJSQkg1bTBuSVN5SW9ZZ2JsNzBqOGR3WFI0ZUJidlZqS2UtNFN6QUFwZGxzcldnN0xudjRSSUREZ0FTUWloRWhEekdxeHFEUmt2MVZDc0NYVDZ5bUViRVgtUVJjTHp1VWdHak9WUFctLTc3OUs1MzZUN2Y0SmNVQTJTMGh6NFJBTFRXQUhWSXcxbTE5Qm9Cc0F0c0FJTXlkNTFuWnlJREZuU05vdWVZR2RmZWJsbnV3aw?oc=5"
+          "name": "France 24 · Middle East",
+          "url": "https://www.france24.com/en/yemen-30-dead-in-strikes-on-taiz-market"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
       "verification": "unverified-reporting"
     },
     {
-      "id": "GF-36FD067392661F",
+      "id": "GF-74D8EE88678D92",
       "level": "review",
-      "title": "US military carries out new targeted strike on Iran as Tehran’s leaders weigh mediator’s proposals - Arab News PK",
-      "published_at": "2026-11-07T01:57:39Z",
+      "title": "US Launches Limited Military Strike on Iran, Trump Confirms Attack on Air Defence System - Oherald",
+      "published_at": "2026-11-07T09:18:46Z",
       "countries": [
         "Iran"
       ],
       "category": "security",
-      "topic": "regional",
+      "topic": "interception",
       "outlet_count": 1,
       "article_count": 1,
       "source_urls": [
         {
-          "name": "Arab News PK",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQNVNCeHlFQnVEX1ZTM1lTZS1Pa2JKTjgzTmltUGJaQWxMNVFMQURUbzZwazdCbG5EcVdidWxiNi14dUhoMzN1OEZEWTZySEtUOGVTcUdEcENHTWd2dTFYXzk5blBGTDQ1NXVSZjhfaGZWZERESHFPZGxpS3U4Mi1RNnRtMFJWMzNEUlZBdi1nR0NzUGQ1QmJLUEkxb2pMTDR2amswSTlRaGJ5UkE3ZTk0akJlbzJPTW5mVWQtamV0YnhWZXp0OWpyY1Rkemg5blNnaEFCZlJPcw?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-50CEC1D3564544",
-      "level": "review",
-      "title": "US military carries out new targeted strike on Iran as Tehran's leaders weigh mediator's proposals - inkl",
-      "published_at": "2026-11-07T01:49:59Z",
-      "countries": [
-        "Iran"
-      ],
-      "category": "security",
-      "topic": "regional",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "inkl",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPREdIX2lZZ2NmWU16Vk5FSUwwSUl1OV9xX0s5OHdfOXlFSXp3bE9QUUtWaUxjZXFhMkFtMzBxcUZCelF5TUJtbmJHbmFQV3hrckFPODFfTGNYZV9FWjRnZmdLdWc3LVoxT1JCTGpoS2JERjgySFhhY0NsU2JRM1VkbTBZNXl3YTEtVXNWQ0FiSUVvSkU0RzlKa3FuMHBwUm1vR0JMWEstTWJzNG5jSGR0V3p4TG12VHBKLWVNc0RDYw?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-146339594E9AE1",
-      "level": "review",
-      "title": "US military carries out new targeted strike on Iran as Tehran's leaders weigh mediator's proposals - iNFOnews.ca",
-      "published_at": "2026-11-07T01:45:05Z",
-      "countries": [
-        "Iran"
-      ],
-      "category": "security",
-      "topic": "regional",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "iNFOnews.ca",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNQlBUVm9JQmJDVmZnMFpTN2d3azFsSmxTalpuMnVkZVBLV1QwM1hKdkozVERyYk5hRXQxLTdVQUhuc21EVWxscmVHcURaYjlMQ2E3YUxJZWRCVjlGX2diX0Fjd2NEWXlDdUlIU2ZMclhwWmwzTnNibGNKSTQ2M2ttUmhTaW96akgzS1M0cjF0VjlhVnJ4Ykh5ZWgyNW5HUERTVmdqcHlFNFoyanlIU3FKamZJMVZNYlpZbkhmZzlRbk5ncENsOWZhVE13?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-CFFE96D5D08B28",
-      "level": "review",
-      "title": "US military carries out new targeted strike on Iran as Tehran's leaders weigh mediator's proposals - The Killeen Daily Herald",
-      "published_at": "2026-11-07T01:34:31Z",
-      "countries": [
-        "Iran"
-      ],
-      "category": "security",
-      "topic": "regional",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "The Killeen Daily Herald",
-          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQRkdGdFFYeTBKOUNGLTh3aEp4NzBMWVpiTE92NHNNVm04bVE3MkNXRGhiX2lKV1dHbVJYb0tzdHFOVmhHaGxQMUVVN1lwOGI1WVFuNVFUYklyM3F4aU9Ibm5JdVhDS25sNy1VWFpIRGl1VXo2YXdyUHFORDhxRWthU3dXdVN6WGNMcHNpQUZMWmxzcWQyNDh3NG1lRkV6c2pIWVhqQ2xUNTB1LWxOMFZXRWxncktZRFBoZl9Lak5kVWVlUTd2ZDkwNzZVMklDYlc3NzRYaHVxWmZZZ3BCc2RxcXFvcHY4TXpCN2xxQmhMTEFrcjRyRjdnR1V2VjBTMUlKcEplaA?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-B5C0296C462DEC",
-      "level": "review",
-      "title": "US military carries out new targeted strike on Iran as Tehran's leaders weigh mediator's proposals - Ottumwa Courier",
-      "published_at": "2026-11-07T01:34:31Z",
-      "countries": [
-        "Iran"
-      ],
-      "category": "security",
-      "topic": "regional",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "Ottumwa Courier",
-          "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxQbFBtRVhtdDJDRWJJNzVpOXVMX3Jmck93djJ5ekk0c3ZzcmZTVDVvblpNYjlOYldXYlk0bFJVcllvRmtxX1cwLTNWQ0l5VjBONDBqTVA0R05pcWVKS1hVVjFXWWRjNXV3cEV6OHo5emlEM2JkYzlZbXRZLWI0Y2p3Y2tGaUFva3pZY0Fic053OFdVY2pJaFpiOFVVNWxfZ0M1Vmx2QUhzWk1TRktDbDF5eXJmbklnQ3FqQW9BNWY4VkFtblk5dkNVUE9sR2VrVmphaGNiM3dFSklsTjhuWWdZTU9MOTRUSTBJdENDZENaSU44RlBOTVRFM29XU1JmaGViRS1SNUFVb0xKdUlMTU9QYk1tVGNKZDRqTVRvMnJoVzJzZw?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-12CCFB21C5A442",
-      "level": "review",
-      "title": "US military carries out new targeted strike on Iran as Tehran's leaders weigh mediator's proposals - Eagle-Tribune",
-      "published_at": "2026-11-07T01:34:31Z",
-      "countries": [
-        "Iran"
-      ],
-      "category": "security",
-      "topic": "regional",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "Eagle-Tribune",
-          "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPR0lOR1ZaV3dKYXJ4czFBUDBTR1Z4TmxWcVhEZFFZT0NkaWtzaWxYYk1rSXFET2NkbW14M0NpWWljcjhOWXM5RWZ5Y19jQy05all1emFhRUpGVkl6bndHc1NSMHVndFpQd0JTaWQ4SG1MVzc2RHExUnN1SHJjMS1USmRDTFBTSkVtbXRRS1lCQjFtX2tZNUczSzBtSklWa2pPU0Iza0s4ZG1ndEJyMmg4VlhTMm1RamRjSVpQUV9oYVJNZVFLS0daQ3pyMFgxZTFKTHdRYUMtVmx1bnNuVmRJRk1xV3hRa1RvLWVVWVQ2Skc0cmJLVU9qdjQxTGZTZ1JjRzgyY2dxTTcxNDQ0eHNZ?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-090D97C120A3E8",
-      "level": "review",
-      "title": "US military carries out new targeted strike on Iran as Tehran's leaders weigh mediator's proposals - record-eagle.com",
-      "published_at": "2026-11-07T01:34:31Z",
-      "countries": [
-        "Iran"
-      ],
-      "category": "security",
-      "topic": "regional",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "record-eagle.com",
-          "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNRXN4R2p2WllsZldIMmVUT1dGdVBjbUdrSERjUFBObTNZZ3ZpbEdaekVvajdhbEZJSGNtRDFFbDFJdG1OM2JPUDZtRUVmMmFzN3cxU2Y3VmlKVnY4S0tMN3RXY0REMGtiSlRzbWNvMVg5QnVFdURwRHJTS2VRd0swRFFVZnNkTWtZcU1iTkFOVVZmbl9uSF9UcWhXZmtKQURaWHp5S3NnQ21lbkhwVzZ1dkxvb0tjS2lNQWxnQTV5YnVaZUthQzVHNEhwVFhGaE9sZHZ3WXVNb3M0cVNOWFo2WHBWakhlNk52d3lZUTRGS0lOQUZBbWFCeHBybDZ0ajg5bE1SRnpKaHI2V3RwdHRPUE9TMUxuM3ky?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-FFA432CA07E7E7",
-      "level": "review",
-      "title": "U.S. military carries out new targeted strike on Iran; Tehran's leaders weigh mediator's proposals - The Tribune-Democrat",
-      "published_at": "2026-11-07T01:34:00Z",
-      "countries": [
-        "Iran"
-      ],
-      "category": "security",
-      "topic": "regional",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "The Tribune-Democrat",
-          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxON2dnNVJvN3VSNEthT0p3Mk92OHVVeDZ5cy1aTkR6dnB5OXBRZUpzcHg4cmtYcXI5N2VvLUd3bXVJaTRvVTBrNGhQWkdJaUsxZ1FGb3lkaHAxdWxmRWxmaU9HZUNzWXp0NGVtNEdwSGl1amltOEdVS1ZTcEFGU3VqM2tUcm1JbDA2R1k5Y1NFRERCNGUtM3BXVVBwWF96UW00OU1mYnQtVXVuUjktRC1IZVJMZngyRlZ1ZDJ5UXBGai1fSmg1N0RPTmRXVDRCaVd0QU1zTThqRy1rUU16NElJV2ZjZ1pYXzZTUWJKN3hmWERWSElrdTZ0eEY0M1hwZGpHZnk4?oc=5"
+          "name": "Oherald",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdElSYndwb3ZydlNFX19IN0dFV2N6bzVReVBDaGQ5eG9STW9qMHRiSU9hT0tMSDI3ZDRDeGxpeXBzZHRaS19veFAwU1ktOVFBUW5adUVXZHBWTDk5bXJaUG10dWNoVlliZXdsVVJqNEo4dkVIcVFjM0ZuRThxbTUxYUI4MEItQThpWS1mZHFYMHBvR0pmZHlqZGp1TWk4bC1lWnJlb3luTUxrLUlSRm5wRUFQRGkzbGljSHdZOWtTc0pWQQ?oc=5"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
