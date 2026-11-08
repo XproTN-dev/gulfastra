@@ -1,14 +1,36 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-08T10:38:07.809397Z",
+  "generated_at": "2026-11-08T16:47:11.528040Z",
   "alerts": [
     {
-      "id": "GF-DF66390C8822EF",
+      "id": "GF-FBF78B183426F5",
       "level": "review",
-      "title": "التصعيد بين واشنطن وطهران.. انفجارات فى إيران وحرائق بناقلات نفط فى هرمز - اليوم السابع",
-      "published_at": "2026-11-08T09:00:00Z",
+      "title": "Iran says tanker hit mine, caught fire east of Strait of Hormuz - marketscreener.com",
+      "published_at": "2026-11-08T16:32:22Z",
       "countries": [
         "Iran"
+      ],
+      "category": "transport",
+      "topic": "maritime",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "marketscreener.com",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPc3NpZFZJLTZqNXVldDhSVF91VmNrdDVMb0JjU2lKRzlmSk5TUHlCb1Q3TjRjNXRQLUhJcG51bjZYd3AtbVdBNUtBbnMtam1SNGJSclJKZ29NcDlyUjV0QlNIZTVncjlqQUhpRlFEZHRQSmEyUVN6UE9Ec0FmTkZDOGFVMy10WFhMQzdqbzRtMzFEVlhwYUV0LUY5elprcnlDWDRUaDVReXZYcnhZZFg0WmNUWjUxZw?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-946361B81C2F54",
+      "level": "review",
+      "title": "الحرس الثوري الإيراني: انفجار ٣ ناقلات نفط في مضيق هرمز - شفقنا العراق",
+      "published_at": "2026-11-08T16:12:01Z",
+      "countries": [
+        "Iran",
+        "Iraq"
       ],
       "category": "security",
       "topic": "maritime",
@@ -16,42 +38,37 @@
       "article_count": 1,
       "source_urls": [
         {
-          "name": "اليوم السابع",
-          "url": "https://news.google.com/rss/articles/CBMijgRBVV95cUxNZ19yZVk3eGZRa1ZnWTg0dmUydDVOOWMyTjdHV3lyeEpmVlBSczgtSEd2aTZEN0h5LTBnOTVXeGpWTmtpRkExNnZETUJiLURyZVU4eGtHMVMwU3hvaWFNdFVSN3NfY3lyRUtjcmlucEdPN1dPVnlJWXdrUmxQdmE0N3ZRZ3VWMUtURmZod1QzaTJGY3o4aXFUWXNRbDd5MVo3aUNnQk5ERFF1NlNtSzYxS2pYby1qaDdNSU9yOUtINFd5WTA4RWZLNE45YzFyVk5DYnh5bXp4enBBX2s0UEJtZGIwQmtNVUhjc056VnhhMmpIam1aS2Y2cGRCeDhhYngydUViZEV6dUVoN0FlYzRSbnlkelNlbFB5blJ6RVR2NU1TYXplemctbF9ZdDVRbmlGNE9FMzVXbUQ4Nl9xM0YydG1OWmhDd1A5QVo5Z1RhNGc3TENPU3Z1TDR3N0lPVmVyakdyTDFWSlBkemFNd2JrRWkxMXVIZHNvQ2c3Qlh0bHdoTGFzTXNMeEpfbVA2bWhrN1lNTDNudWZPQWFKNjJybnpnVnFsQzRxLWxkUlZlc0ktaXFaOUxmaXhFUlZwTjh3Ykhpd0NSTkZGQk41djUzU0gyXzBUZ3V3bWo3V3R4bTRvUld2R1dScFZpdzYwN3l5T1lmYUxlN09yVEVsTWl0OFBqdVB4Y1FLbjlZTk130gGIBEFVX3lxTE14b1dnV0xidG1sM09LNUtOVUxkcUZMajAxcXFuODg1OVNxeFNYLU43bmdNTWJqVVBBaFJLdm96M1pFUzNVbEQ4bDI4Z1lhSmxZZDVlQjg3TEVhMXVVRlFhVzQzWHY0SlpuXzRXbmJfVjdEUmNFaWRZam5wX2ZxZ1NIOHgzelBBN1ROeW8wYzNhUHNjRThlTXhkU1VsV1Nxd25waUJpd0h1MTZHQkRKLVJUUFp1aS1WcUhhd3JMNldDTEVuQzljR2V6NHV5M0JnalJLeFNnelBITGMwOG05cHJmell5Vk40cEM1bE1zSkJTLXpJNW5MMFRFd0w5OC1meWFudjhGYk9RcFJ0SVZ2MFdwTU5zel9xVkJsVGkzZUxWRkxnNnhFTmtqNnh6ZC1zbmRqT1Z1NjVHSzQ5YWVaMFdNbWpCVTdZSTE1THJkTUMyQXlvRTc2WDllNG9TbHJGTEVZRWNkSG1jaUpsZFNHY2FrSzFwZlNsa1V6RW9WMGNJSElMN2xKbUhWazNuRkV6UVlHcHd2d0Jlczhic3JqZkFqWUFtTVRmUjk0aklsbEtSejMyRkwxWDlXdWlveW5mTjR0VmJnTVgyLW5DTFMxZVprbXJfVWJTVDl6NklsQVdTSnVrZFhGM2V2Q0xNZWRIVlEyWUdrcGRCWjV6RU85Yjd5YTUtLVhjbEs?oc=5"
+          "name": "شفقنا العراق",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBBUm1NUFN3UlM5ZDc5eGlEdEdvY090MVJEVUVWN0dXbGNWRUZJTUFlQUhaRlVKcVg2eXFPSDJlZ3VJdXlMSmg3blRvRlg?oc=5"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
       "verification": "unverified-reporting"
     },
     {
-      "id": "GF-FBE087172C3CFE",
-      "level": "critical-reporting",
-      "title": "التحالف العربي يسقط 5 صواريخ وطائرة مسيرة واحدة استهدفت السعودية منذ فجر اليوم - آخر خبر",
-      "published_at": "2026-11-08T08:47:10Z",
+      "id": "GF-B07B088B3E3E2C",
+      "level": "review",
+      "title": "وسط إدانات لاستمرار الاعتداءات على أراضى السعودية.. تدمير 5 صواريخ ومسيرة أطلقها الحوثيون تجاه المملكة.. أضرار مادية محدودة دون إصابات بمحاولة استهداف مبنى تابع لأرامكو.. فجر اليمن: تنفيذ 875 عملية خلال 24 ساعة - اليوم السابع",
+      "published_at": "2026-11-08T15:40:00Z",
       "countries": [
-        "Saudi"
+        "Saudi",
+        "Yemen"
       ],
       "category": "security",
       "topic": "missile",
-      "outlet_count": 2,
-      "article_count": 2,
+      "outlet_count": 1,
+      "article_count": 1,
       "source_urls": [
         {
-          "name": "آخر خبر",
-          "url": "https://news.google.com/rss/articles/CBMihgVBVV95cUxNWjVsUTMwX0FfZC01YXFIQzZUUEZOWWdjMnRHWGpuLWF6Q2c1U3lFX0x6c25MbkJnY0F3SVN1QVZzRmZ2a3ZxSlZxMjRwUHZ0T1o4T0xhbi1UYU5ocjBoVFEwaHdXUlgtaTN4b3FhMllHVDJyM09OZl8xX2tfNDJxb0J6Nl9fNmVNckNWWnFlTVJyWUZsRFZPZ0VydFM1MGhaR05BSldGczV0eWxqa2g2aXVYY2xiLXBGRVFORmQ0WGJEdURkX2lVWDBCYm1feEVEWmwxdzdIS1laQmQ4Y2x6WEhNMklHRmlfdjNQN0VtZTRtZ0UzcGtPeEMxclpmTXQxdThiS0NOaW8yMTVFRmRsRHNzMHA2ei1YNHd1WHhnZk16b01RUXN5Ry1iZzhmRldYa1BlZVJ3dkxnREY1VERjckJfZGVmQ1ZuZmZHa1ZKb3ZZZElJanhaamZGbW1oZmdqYVFLLV95OTlXazMwbVJuLWZTUUh2SmJkSlpQUm1tcWdHUWViTHdKT3BKOGNOSGttTFlhd2NwX3dCLWRSRjBxSWRScVExZFhBQ0tuS2k2RnVBbWd5MFFNcnVUbFlmbk0yX1Z5bi0tNlVCd2tuaHEwazNRNmJLQVc5YURLMWhnZXZDZHJ3TUF3akdzMl8xSjBtZzUwR0VlX1oycVpaQUZxTXFvbzFzZXlzYl9VZkgzTGMxaXRPMmx6RVd1bktHanFWYmVkS1M5OWhwaFF1OGl4OW9JbUNhMFlvREctM2RGdDlHTksyWmk5QW1PMEd5dV9NV0hqTTRycVpvTkFwWmE5Vk9yd2RTVG1qTjRhTjVrNUpiR3RId1JpRlhZQm94OF9pNDJPZklR?oc=5"
-        },
-        {
-          "name": "شبكة تواصل الإخبارية",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBUYTI0XzR5TjBKNXdwQ011VXlrMm4xVG9idExvM1p0czdscHNweHlMdzNXWi1oTlBwc1BYNTYyRFNiYXNYamRyWFFWZnF2bFY5bFFj?oc=5"
+          "name": "اليوم السابع",
+          "url": "https://news.google.com/rss/articles/CBMilwRBVV95cUxQbW5HYjBUOHVTZk9oY2JIcHBrOEZrNmZsRjFCcXhKeTg0TExwNzU5OWU4MHE5UTV3ZnVNUFg1U0N2dVE4bzl2OUxLWTdXSUJLYzFwZ1hMWEJ3NDRtLVlkckczWlp4ZDBQaTdmR3g5ZlhqZnpEN1dQZEJnUTc5YVFQbDkxWV9rOWZOOWRLUk9LZWNweWJacEJvQ25QN0FaVVVUQkV1U1lVZ1ljLTd6V0drTE9lTWtMWlNPOUVGV1VNclMtMFJrOWU4THozTDR1eC1FVXJuNzNqWi1yZTZtSlZTQVFVcXVaSjFKRkp4ei14aVJhMEhYQS0wTm1ubDAyQ1FNb2N2cnpCOXRfTS1Vc1JGMHc1VUM0WWRLMEVOcHF6UkdMc3NEVVlVdl93ZHVaelUydjNObVhuc2l3b09sTWtoOHI5R0lNM01xTDlMMjZyNWp5R0Izay1fV1dLQ3VzLUpOS1BVWXFDRWpTelZzUXJFeDVZQnVlRndYeEdkNlEtamlrcHVjc0RxZlZHek9tZnlNdmFnZEkwcko3T3cwZk93M3NIMFJRYW03aXVxRGVNR3MtVEV4MDVEdGc1dmFxelRPcnZaRW15ZW8xdUUzUkhkOFhfYWV2Q0ZuLWplSW5VZkRCSDhiNFQwWEw3dk5Wc0tPcWRpRGRpODBsOXpjekF0LTM3TmV1a0xYWXVxSFh5VG56NEZZemxj0gGSBEFVX3lxTFAyWmg3eGlYRXUzd1I1eWZPRDc2Wm9QT2JrV0tJWWpvQWMzb2F3aGd0aHJ5blg4OVlWVzBxVmFDdjl6Vkk0TldmM0VyN2d1RU1lZ19OVDNYMmVJMVJNbmJnQUw1UWFCU0dXOTdpeElpc2w2Y2g1eHRpZU1xbFg2TmxoTGxJc0ljbEpsVHYtUE83Rllxc05GSk53SHQ2YnBHNEpaME8yWEJTX21ZOE9hZTgtNDNKYm9FYk5iZFMwbFhlckRmUXpKWGxlNERTa2pNb3RKamJRbkpBU2RRY3NCaThKR0ZHeTQ3WFpkQjJ3RVhaVHBIdmEzTmczRDhZaGtKaUx6N21WeHUtVkViUUxUcDJGaHZCSUxNQkNoTjdTcGlWRlg4UFF6TjNZWDdsYUYtWFZRdWcwMWFSTXlRRWhEVElOMGNLTldlZVFmdmVvYW5ja0pOZXQ4c25qM25hNHJGU09GMl9jSWo5U0xxTFZRemJrYW12RFluMk5LZ1ViWU9xTU1OSzE5VjlBVlhjdGRCcnJvb09jMmQxTHAxVkgyMWZzUENDc0taWVhMY0k2ZlNRNm5mYVBfQmp5S2ZBamRCNjVTY1FRLUFyQjJ3RmJWOWhSeGk1QWlrZkJqbm05d01wNzhfVlJjbHA1LTlaaURGLVpWUUVjM1ZTRHhiZEE2cHhLcm1ZeEJDYUQ3N2lxNUttc1BR?oc=5"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
       "verification": "unverified-reporting"
     }
   ],
-  "new_alert_ids": [
-    "GF-FBE087172C3CFE"
-  ],
-  "critical_count": 1,
+  "new_alert_ids": [],
+  "critical_count": 0,
   "notice": "CRITICAL REPORTING means multiple named outlets published related headlines. This is NOT confirmation, real-time detection or official emergency advice."
 }
