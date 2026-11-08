@@ -1,44 +1,62 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-07T23:50:03.451742Z",
+  "generated_at": "2026-11-08T03:20:14.504368Z",
   "alerts": [
     {
-      "id": "GF-5A43B8A742852A",
+      "id": "GF-6B43B71BF30915",
       "level": "review",
-      "title": "Donald Trump insists he has 'total control' after launching fresh missile strikes on Iran - The Mirror",
-      "published_at": "2026-11-07T22:54:00Z",
-      "countries": [
-        "Iran"
-      ],
-      "category": "security",
-      "topic": "missile",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "The Mirror",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9uTlpKWjFhSUU5MGphQjZLMFM2SEY2U1RhTmoxaXpGODRJTTJPc2FjbnllWkFQdlMwbTRXdm9TUFZBMXJZbTQ4QTJQV2xwZ2htZElodkNSU1pvbmdZSHBHdG1LV0IyQlRNYzlZckRKUXZXYTN1RzAySXpfVlNEQdIBgwFBVV95cUxNbzZ3U3VJV2ZsLTBKcjUzZFlueGliakpBaldnMkktdmo3OTh6d0ZGN1lweHdrRXVwRmIwV1JkdjFJUUowcERSNHpBR3lRNFBBaU95RVJMRV9QZ3RZV0ZmdDZhc2ZYMEtVZjFSTEJLbXV0YUpZWnBhY2lIdE1ETDNNMW9kMA?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-EE4D2F657AD95C",
-      "level": "review",
-      "title": "تصعيد في مضيق هرمز وخليج عمان.. انفجارات واستهدافات - سكاي نيوز عربية",
-      "published_at": "2026-11-07T22:22:18Z",
-      "countries": [
-        "Oman"
-      ],
+      "title": "One Pinoy dead in Persian Gulf tanker explosion - Philstar.com",
+      "published_at": "2026-11-08T02:56:00Z",
+      "countries": [],
       "category": "security",
       "topic": "maritime",
       "outlet_count": 1,
       "article_count": 1,
       "source_urls": [
         {
-          "name": "سكاي نيوز عربية",
-          "url": "https://news.google.com/rss/articles/CBMipwNBVV95cUxPWWIxVUt6b0dKRlJ2UW5lWlpHOFcweEJteTlheDZBd01wZXprakVzek0wOWtsQUdKTW5MVmJNOGlmeWlzR0dRZVNKTkJfcmtrbVlENGZydGRYQnFDSWU4Q2dUY0FoczZmVDA3UEdQdDN3bHpfeUVVNlp6OHhmcVlBTTdqY2JwUEFLT05aOFdjVzlDRWpxb1VIVXhBbVRXVVVYYlRYdEQzMUt4RHM4YkpTT3NVTUdMaWVCMmljRnZLQUN3ZTR6Zi1QVGtZRVFMc254MGwxNnd5S0FTVTZQWWtPRWVvSmJUSUYtcmRTTzNMdVBubEg2emVZZHdEMjhpVTVKLXRzWVdBcm9iNzh5LTI2N1NCTzY3cFhPMGpSODJ2ZjdnTlFfZEJvSm1LbV9WZnJOYkFqX2JtVHpXLV81emhET3VrTjN2VVdqZjNZTzRFYlRiUDVGa3Q4QWc5VjViczRHdE9pbmxFSDcwc2d6ek9IV1lGdVE4cHk3NjY4VWxDYS1mYUVyYVpWY2p6SnBfWDRqYURUVHJLbFBHRWQ5VENvOFRuZjVpQVXSAawDQVVfeXFMT0RvbTJibWZMdU8xM1NHME5XTGtXcEZoU2lkQ3BpZUJGTGJ6blJEWmF0UEJqTXc5S1pwSjBNWWpDZnFlMEVYMnRmRlUwc2ZuSzFENlcwZU9qWmx4TFJ6SWhHVWRzalpYVmxUSDdHc2NnRHFsU09JU3FRSHpHZjN3QUdUdWlCZVlqLWJkX2tkbm8ybUJUc0JxQXRBd21GWGY2cnlQMldqN2I3R1hQLXoxUEQ3czExNWF4ZWY1OVkzZHhlc0I0OF9Dd0E3R1JzaTNld1VRSjdzTzZNdEpUQUdiMklDVHUzclRMZXdRY25jLVBMS3RfaFdibTVvYnZhVFR3SXAwWkNYMjB5M2c4MXc4czFFZ1R4ZUR5OVhBdWtlZFBzZms2WnVKLUZyWVRMclRkcW5PUnRpcmxVbmZaVWgzUkV3MkpLMHRvUjU2ckJHQ0N4ZVN2YlVaU3F1UGtPT1Nyb3JPVV83dWdhRy14akRTdExiWWxpcXRjVjNUS1ptV1VVRm5CTGRoNmxDd3I5b0tHS0V1WmVFWV9CS1NTY2FPY0piYWVTaW9UWEJGT2Y?oc=5"
+          "name": "Philstar.com",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORjR3M3A0MWVnOXU2TTRXRy1hTEl2Rzc5SnEwSFJuOVJSY0Q5a0NTNFc0OWpSaklSeUVub1pJSkJQMmM5bG1TSzZieG42SlZ5OFNmRXVPYXVqMlhQR2ZIRV9GcGNSc1RVTXhOZi1STTZBMmFBNWhBaE1ULXBkdFdjRkstbmxCYzRvM0VzNXpGaHJ3RXhJZ05IZkRlSmJVSFXSAaYBQVVfeXFMTlFCT1E1Z3QtS1dCQUdsaV9HcmdKS2puVFdfNTBHQV9VajJQQ2cwWWhfd3NpSUM0Z2oyZ0tTZkhuY1pUOVhoYkVScjBQbVhJMVlMNUxoQmdRTUJFWVBNZmFONFpPVi1jUlAtT2x3NXJ1SVVDZU5BVkg4MExFWTd4bU9qenBOUmFBcGVMblgxenhQZW5CcGRtQ2NmQTk3enZQcDFJY0RpZw?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-2E82F7819FEA72",
+      "level": "review",
+      "title": "اشتعال ناقلتي نفط في مضيق هرمز.. والحرس الثوري يكشف تفاصيل الانفجار - بوابة أخبار اليوم الإلكترونية",
+      "published_at": "2026-11-08T02:11:51Z",
+      "countries": [],
+      "category": "security",
+      "topic": "maritime",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "بوابة أخبار اليوم الإلكترونية",
+          "url": "https://news.google.com/rss/articles/CBMi8AJBVV95cUxQTTZWTEphNkdUREFsU0ZrS2M5NzNEU1BJeVlGTGRWQlNaUXdrbjNlZlZrMk5Tc2IyWU81VmY2eFdVUmhSRWRKb3pLa09wS3l2YzRnT3ItQ0NyaFdfZDhRSjVIWloyZ05DRkl2RmhjdGFKTFdCVERmOXpoZ0o1aG5xTUllZVpFRDBRamRRODJkVHlaRkxMU3VjdTFPa3A5NDVRTlFyY25lVThIVFUxRVVHbURGZjh6Z0xncTZiRndVVUd1MWpndmZacWljNVR3VVB6QnVwSEsyemo1eTRVMVhRNDZnYXJNWGVEbS1ISzQzYWhBNUNnZkp2ZFQzaGxFeVVFY0Q2TUJKeExPVi15dFFORU9OUUxhOXBmR0Z4eTJCWHJpRmlXOTVOQTNhckFFY2I5ZHZpM1VMcVJha2RsWEUxc0E5djM5bnFmOEswa092eDlxeF81QnJDLTU5eENUT19NS1lyUnF2d19YWm0wOW9Kdw?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-44E9F00A77EAB2",
+      "level": "review",
+      "title": "Saudi Arabia under attack: Houthis claim missile, drone strikes on Aramco oil facilities, Riyadh airport - Moneycontrol.com",
+      "published_at": "2026-11-08T01:31:58Z",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
+      "category": "security",
+      "topic": "missile",
+      "outlet_count": 1,
+      "article_count": 2,
+      "source_urls": [
+        {
+          "name": "Moneycontrol.com",
+          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQemlmYWhlS25RNDd3N2phb1VmMU8tT1UzOHRVWjhiNmVZZ2FFRlp6QmFvelBwcnFHZGxaTlZCUVBfTE14VU92UElYR3NxaWJmbzZxWXpyQ1ctZnFvZkRxS0p5X25ycXBNU1VtUU9oY0wxY2dKSjFjVm1pYkk3UW0wekQzR3E3RVdzdG1PNWo2RnNGelBkcmlQeTh2WjI4bkhUTVlwV09FZW9td1dkS2tjNUlHT1k5YWIyb0ZCTUtaeVNndXIydF85MXFOOHdtUXh2Z0dPWldjSFF2bk02dTZBTFNzNXczY3EtQWRlTFd3SdIB9AFBVV95cUxNQkpNZGxvaDRQdV93N1FJMVBGWHFJZTZucmRZUFJWS3c1ZEdLeGVDd1h1MFBQR0EwdUo4dVo5TWxpY0VDSUVTaUxGSV92NFhPakkzaGVuT05DUG1uTlF4UGhBbjdMbFc2LXd6cWlLemgzS0E1N3lrR0hCYkcwR1YyWWl0YVBvblFUaWxQRmRFbEdKY0l1eG9zMnhVcEdLR09JY2dhOTc2WHJmQlpWTWxPc0w4dkpURTFmYVR4RXEzVGJYZjdLelhmRTU2MzZ6dzNrZlJVS29Xc0d3NC1NOElTZ2hfN2RGZktORENMWlJXelVYak5P?oc=5"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
