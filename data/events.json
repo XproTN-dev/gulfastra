@@ -1,9 +1,65 @@
 {
   "schema": 5,
-  "generated_at": "2026-11-08T16:47:10.317875Z",
+  "generated_at": "2026-11-08T20:48:57.045954Z",
   "model": "deterministic-source-correlation-v2-coverage-lifecycle",
   "disclaimer": "Clusters are related PUBLIC REPORTS, not confirmed incidents. Source counts are not proof. Country names are mentions, not incident locations.",
   "events": [
+    {
+      "id": "GF-943ADE5B32F7C1",
+      "title": "Qatar Signs General Agreement to Connect GCC Countries with Railway Project",
+      "category": "diplomacy",
+      "topic": "regional",
+      "countries": [
+        "Qatar"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "en"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-11-08T16:57:48Z",
+      "last_published": "2026-11-08T16:57:48Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "d2b13f40a78532208395bf46",
+          "title": "Qatar Signs General Agreement to Connect GCC Countries with Railway Project",
+          "url": "https://qna.org.qa/en/News-Area/News/2026-11/8/qatar-signs-general-agreement-to-connect-gcc-countries-with-railway-project",
+          "source": "Qatar News Agency · Qatar RSS",
+          "publisher_key": "qatar news agency qatar rss",
+          "provider": "Qatar News Agency · Qatar RSS",
+          "published_at": "2026-11-08T16:57:48Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-11-08T20:48:22.601851Z",
+          "collected_at": null,
+          "language": "en",
+          "country": "Qatar"
+        }
+      ],
+      "coverage_stage": "recent-coverage",
+      "coverage_first_published_at": "2026-11-08T16:57:48Z",
+      "coverage_last_published_at": "2026-11-08T16:57:48Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "c6fc623f7bbb82416717",
+      "revision": 1,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
+    },
     {
       "id": "GF-59FF0C55572C60",
       "title": "Qatar, UAE Sign Record of Exchange of Instruments of Ratification for Air Transport Agreement",
@@ -63,11 +119,12 @@
     },
     {
       "id": "GF-14B5EEE713EDDD",
-      "title": "هل باتت ضربات الحوثيون على السعودية أكثر دقة؟",
+      "title": "هل باتت ضربات الحوثيين على السعودية أكثر دقة؟",
       "category": "security",
       "topic": "regional",
       "countries": [
-        "Saudi"
+        "Saudi",
+        "Yemen"
       ],
       "location_quality": "country-mention",
       "confidence": null,
@@ -91,7 +148,7 @@
       "sources": [
         {
           "id": "205d8f07a5262bc653a7925c",
-          "title": "هل باتت ضربات الحوثيون على السعودية أكثر دقة؟",
+          "title": "هل باتت ضربات الحوثيين على السعودية أكثر دقة؟",
           "url": "https://www.france24.com/ar/%D9%81%D9%8A%D8%AF%D9%8A%D9%88/20261108-%D9%87%D9%84-%D8%A8%D8%A7%D8%AA%D8%AA-%D8%B6%D8%B1%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A%D9%88%D9%86-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%A3%D9%83%D8%AB%D8%B1-%D8%AF%D9%82%D8%A9",
           "source": "France 24 · الشرق الأوسط",
           "publisher_key": "france24",
@@ -101,21 +158,21 @@
           "first_seen_at": "2026-11-08T16:47:00.266694Z",
           "collected_at": null,
           "language": "ar",
-          "country": "Saudi"
+          "country": ""
         }
       ],
-      "coverage_stage": "new-coverage",
+      "coverage_stage": "recent-coverage",
       "coverage_first_published_at": "2026-11-08T16:34:18Z",
       "coverage_last_published_at": "2026-11-08T16:34:18Z",
-      "current_reporting": true,
-      "recent_publisher_count": 1,
-      "recent_article_count": 1,
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "6c5815fd402439ec7950",
-      "revision": 1,
-      "updated_at": "2026-11-08T16:47:10.317875Z"
+      "digest": "e9b605ae47943778ce6b",
+      "revision": 2,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-19F5813E0F09A3",
@@ -160,18 +217,18 @@
           "country": "Qatar"
         }
       ],
-      "coverage_stage": "new-coverage",
+      "coverage_stage": "recent-coverage",
       "coverage_first_published_at": "2026-11-08T16:32:50Z",
       "coverage_last_published_at": "2026-11-08T16:32:50Z",
-      "current_reporting": true,
-      "recent_publisher_count": 1,
-      "recent_article_count": 1,
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "7ab32db2da752eebb780",
-      "revision": 1,
-      "updated_at": "2026-11-08T16:47:10.317875Z"
+      "digest": "dd3f3931466f3018de20",
+      "revision": 2,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-A3DF6686B39AED",
@@ -216,18 +273,18 @@
           "country": "Iran"
         }
       ],
-      "coverage_stage": "new-coverage",
+      "coverage_stage": "recent-coverage",
       "coverage_first_published_at": "2026-11-08T16:32:33Z",
       "coverage_last_published_at": "2026-11-08T16:32:33Z",
-      "current_reporting": true,
-      "recent_publisher_count": 1,
-      "recent_article_count": 1,
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "d9e20cd18e8285204782",
-      "revision": 1,
-      "updated_at": "2026-11-08T16:47:10.317875Z"
+      "digest": "b57257cc235500c02873",
+      "revision": 2,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-FBF78B183426F5",
@@ -272,18 +329,18 @@
           "country": "Iran"
         }
       ],
-      "coverage_stage": "new-coverage",
+      "coverage_stage": "recent-coverage",
       "coverage_first_published_at": "2026-11-08T16:32:22Z",
       "coverage_last_published_at": "2026-11-08T16:32:22Z",
-      "current_reporting": true,
-      "recent_publisher_count": 1,
-      "recent_article_count": 1,
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "a0d44a8fd70bd6f53b59",
-      "revision": 1,
-      "updated_at": "2026-11-08T16:47:10.317875Z"
+      "digest": "1801f6aad74f40f26f91",
+      "revision": 2,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-122B9E354D5D79",
@@ -330,18 +387,18 @@
           "country": ""
         }
       ],
-      "coverage_stage": "new-coverage",
+      "coverage_stage": "recent-coverage",
       "coverage_first_published_at": "2026-11-08T16:27:50Z",
       "coverage_last_published_at": "2026-11-08T16:27:50Z",
-      "current_reporting": true,
-      "recent_publisher_count": 1,
-      "recent_article_count": 1,
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "6e67239c88530e6b6f9c",
-      "revision": 1,
-      "updated_at": "2026-11-08T16:47:10.317875Z"
+      "digest": "30bd5e92488d16d9be38",
+      "revision": 2,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-D2EB64F775DD0B",
@@ -387,18 +444,18 @@
           "country": ""
         }
       ],
-      "coverage_stage": "new-coverage",
+      "coverage_stage": "recent-coverage",
       "coverage_first_published_at": "2026-11-08T16:26:01Z",
       "coverage_last_published_at": "2026-11-08T16:26:01Z",
-      "current_reporting": true,
-      "recent_publisher_count": 1,
-      "recent_article_count": 1,
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "4c801b02ffa124e2d07f",
-      "revision": 1,
-      "updated_at": "2026-11-08T16:47:10.317875Z"
+      "digest": "33a08f7a238435f5d584",
+      "revision": 2,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-689DDAE45EA645",
@@ -443,18 +500,18 @@
           "country": "Iran"
         }
       ],
-      "coverage_stage": "new-coverage",
+      "coverage_stage": "recent-coverage",
       "coverage_first_published_at": "2026-11-08T16:19:51Z",
       "coverage_last_published_at": "2026-11-08T16:19:51Z",
-      "current_reporting": true,
-      "recent_publisher_count": 1,
-      "recent_article_count": 1,
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "c559d61472b29984bf38",
-      "revision": 1,
-      "updated_at": "2026-11-08T16:47:10.317875Z"
+      "digest": "923ae4a699609b3fdf4e",
+      "revision": 2,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-C8C37CA0BEEC91",
@@ -499,18 +556,18 @@
           "country": "Oman"
         }
       ],
-      "coverage_stage": "new-coverage",
+      "coverage_stage": "recent-coverage",
       "coverage_first_published_at": "2026-11-08T16:14:35Z",
       "coverage_last_published_at": "2026-11-08T16:14:35Z",
-      "current_reporting": true,
-      "recent_publisher_count": 1,
-      "recent_article_count": 1,
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "38fe688da666a7a4e6af",
-      "revision": 2,
-      "updated_at": "2026-11-08T16:47:10.317875Z"
+      "digest": "f7750e6d1462dbdfcc0f",
+      "revision": 3,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-CC6E43655360B9",
@@ -555,18 +612,18 @@
           "country": "Saudi"
         }
       ],
-      "coverage_stage": "new-coverage",
+      "coverage_stage": "recent-coverage",
       "coverage_first_published_at": "2026-11-08T16:13:48Z",
       "coverage_last_published_at": "2026-11-08T16:13:48Z",
-      "current_reporting": true,
-      "recent_publisher_count": 1,
-      "recent_article_count": 1,
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "0486a4237adb1c46f6d4",
-      "revision": 1,
-      "updated_at": "2026-11-08T16:47:10.317875Z"
+      "digest": "fe3e4260ff82e00668de",
+      "revision": 2,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-946361B81C2F54",
@@ -612,18 +669,18 @@
           "country": ""
         }
       ],
-      "coverage_stage": "new-coverage",
+      "coverage_stage": "recent-coverage",
       "coverage_first_published_at": "2026-11-08T16:12:01Z",
       "coverage_last_published_at": "2026-11-08T16:12:01Z",
-      "current_reporting": true,
-      "recent_publisher_count": 1,
-      "recent_article_count": 1,
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "d5d360cfd1eebe40ea80",
-      "revision": 1,
-      "updated_at": "2026-11-08T16:47:10.317875Z"
+      "digest": "70bc9292d2c4fa788ea2",
+      "revision": 2,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-0D1FF37A71F8F0",
@@ -668,18 +725,18 @@
           "country": "Iran"
         }
       ],
-      "coverage_stage": "new-coverage",
+      "coverage_stage": "recent-coverage",
       "coverage_first_published_at": "2026-11-08T16:03:50Z",
       "coverage_last_published_at": "2026-11-08T16:03:50Z",
-      "current_reporting": true,
-      "recent_publisher_count": 1,
-      "recent_article_count": 1,
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "7155e0a59f810a0044e4",
-      "revision": 1,
-      "updated_at": "2026-11-08T16:47:10.317875Z"
+      "digest": "200a09c00723037fdc33",
+      "revision": 2,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-3886F61D128B87",
@@ -724,18 +781,18 @@
           "country": "Saudi"
         }
       ],
-      "coverage_stage": "new-coverage",
+      "coverage_stage": "recent-coverage",
       "coverage_first_published_at": "2026-11-08T16:02:31Z",
       "coverage_last_published_at": "2026-11-08T16:02:31Z",
-      "current_reporting": true,
-      "recent_publisher_count": 1,
-      "recent_article_count": 1,
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "f7d4b12e0e919fdd27d4",
-      "revision": 1,
-      "updated_at": "2026-11-08T16:47:10.317875Z"
+      "digest": "f1e5f5ae6fc3cfbb729e",
+      "revision": 2,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-09E16EC9A96311",
@@ -780,18 +837,18 @@
           "country": "Saudi"
         }
       ],
-      "coverage_stage": "new-coverage",
+      "coverage_stage": "recent-coverage",
       "coverage_first_published_at": "2026-11-08T15:52:00Z",
       "coverage_last_published_at": "2026-11-08T15:52:00Z",
-      "current_reporting": true,
-      "recent_publisher_count": 1,
-      "recent_article_count": 1,
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "ba85c70df801176f8fcc",
-      "revision": 1,
-      "updated_at": "2026-11-08T16:47:10.317875Z"
+      "digest": "541a8bd9bc69ca9b27c4",
+      "revision": 2,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-0CA52B0443A307",
@@ -850,18 +907,18 @@
           "country": "Saudi"
         }
       ],
-      "coverage_stage": "renewed-coverage",
+      "coverage_stage": "recent-coverage",
       "coverage_first_published_at": "2026-11-08T05:45:17Z",
       "coverage_last_published_at": "2026-11-08T15:43:00Z",
-      "current_reporting": true,
-      "recent_publisher_count": 1,
-      "recent_article_count": 1,
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "5e6f5e2ae6b375728a9d",
-      "revision": 2,
-      "updated_at": "2026-11-08T16:47:10.317875Z"
+      "digest": "5d2725da840e3e5dd03f",
+      "revision": 3,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-B07B088B3E3E2C",
@@ -907,18 +964,18 @@
           "country": ""
         }
       ],
-      "coverage_stage": "new-coverage",
+      "coverage_stage": "recent-coverage",
       "coverage_first_published_at": "2026-11-08T15:40:00Z",
       "coverage_last_published_at": "2026-11-08T15:40:00Z",
-      "current_reporting": true,
-      "recent_publisher_count": 1,
-      "recent_article_count": 1,
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "075654347de9962120ea",
-      "revision": 1,
-      "updated_at": "2026-11-08T16:47:10.317875Z"
+      "digest": "e74176e19504efe03e44",
+      "revision": 2,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-1DB9419CD268D1",
@@ -981,18 +1038,18 @@
           "country": ""
         }
       ],
-      "coverage_stage": "renewed-coverage",
+      "coverage_stage": "recent-coverage",
       "coverage_first_published_at": "2026-11-08T14:35:00Z",
       "coverage_last_published_at": "2026-11-08T15:23:07Z",
-      "current_reporting": true,
-      "recent_publisher_count": 1,
-      "recent_article_count": 1,
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "d5eb25a3d0bf76c614e4",
-      "revision": 1,
-      "updated_at": "2026-11-08T16:47:10.317875Z"
+      "digest": "a3f14ad92adbdcb84597",
+      "revision": 2,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-103604622C108F",
@@ -1037,18 +1094,18 @@
           "country": "Qatar"
         }
       ],
-      "coverage_stage": "new-coverage",
+      "coverage_stage": "recent-coverage",
       "coverage_first_published_at": "2026-11-08T15:20:31Z",
       "coverage_last_published_at": "2026-11-08T15:20:31Z",
-      "current_reporting": true,
-      "recent_publisher_count": 1,
-      "recent_article_count": 1,
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "fb95bcf416a9a52c0dc5",
-      "revision": 1,
-      "updated_at": "2026-11-08T16:47:10.317875Z"
+      "digest": "3e304058b96bdea021ae",
+      "revision": 2,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-867B4821364FAE",
@@ -1093,18 +1150,74 @@
           "country": "Saudi"
         }
       ],
-      "coverage_stage": "new-coverage",
+      "coverage_stage": "recent-coverage",
       "coverage_first_published_at": "2026-11-08T15:20:00Z",
       "coverage_last_published_at": "2026-11-08T15:20:00Z",
-      "current_reporting": true,
-      "recent_publisher_count": 1,
-      "recent_article_count": 1,
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "aa2b54552e4a5990d6f8",
+      "digest": "f69d848ac4328426d0dd",
+      "revision": 2,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
+    },
+    {
+      "id": "GF-5FE809F4B8FB17",
+      "title": "عقب هجوميْ عمان والكرك.. الأردن يغلظ عقوبات \"الإرهاب\" والتحريض عليه",
+      "category": "security",
+      "topic": "sanctions",
+      "countries": [
+        "Oman"
+      ],
+      "location_quality": "country-mention",
+      "confidence": null,
+      "claim_status": "not-independently-verified",
+      "corroboration": "single-source",
+      "cross_language_candidate": false,
+      "wording_review": {
+        "potentially_divergent_wording": false,
+        "review_required": false,
+        "note": "No obvious opposing wording cues detected; absence is not corroboration."
+      },
+      "languages": [
+        "ar"
+      ],
+      "publisher_count": 1,
+      "report_count": 1,
+      "first_published": "2026-11-08T15:19:11Z",
+      "last_published": "2026-11-08T15:19:11Z",
+      "event_occurred_at": null,
+      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
+      "sources": [
+        {
+          "id": "0bd3ca77108c5013e12a79ca",
+          "title": "عقب هجوميْ عمان والكرك.. الأردن يغلظ عقوبات \"الإرهاب\" والتحريض عليه",
+          "url": "https://www.aljazeera.net/news/2026/11/8/%d8%b9%d9%82%d8%a8-%d9%87%d8%ac%d9%88%d9%85%d9%8a-%d8%b9%d9%85%d8%a7%d9%86-%d9%88%d8%a7%d9%84%d9%83%d8%b1%d9%83-%d8%a7%d9%84%d8%a3%d8%b1%d8%af%d9%86-%d9%8a%d8%ba%d9%84%d8%b7?traffic_source=rss",
+          "source": "الجزيرة نت · RSS عربي",
+          "publisher_key": "al-jazeera",
+          "provider": "الجزيرة نت · RSS عربي",
+          "published_at": "2026-11-08T15:19:11Z",
+          "date_quality": "publisher-time",
+          "first_seen_at": "2026-11-08T20:48:22.601851Z",
+          "collected_at": null,
+          "language": "ar",
+          "country": "Oman"
+        }
+      ],
+      "coverage_stage": "recent-coverage",
+      "coverage_first_published_at": "2026-11-08T15:19:11Z",
+      "coverage_last_published_at": "2026-11-08T15:19:11Z",
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
+      "incident_status": "unknown",
+      "event_occurrence_verified": false,
+      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
+      "digest": "7179286ae91843df1dd4",
       "revision": 1,
-      "updated_at": "2026-11-08T16:47:10.317875Z"
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-C8428855485B42",
@@ -1149,18 +1262,18 @@
           "country": "Iran"
         }
       ],
-      "coverage_stage": "new-coverage",
+      "coverage_stage": "recent-coverage",
       "coverage_first_published_at": "2026-11-08T15:10:32Z",
       "coverage_last_published_at": "2026-11-08T15:10:32Z",
-      "current_reporting": true,
-      "recent_publisher_count": 1,
-      "recent_article_count": 1,
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "b5f1e5c3d85ebf8d57e5",
-      "revision": 1,
-      "updated_at": "2026-11-08T16:47:10.317875Z"
+      "digest": "ed77af7efee5e283877d",
+      "revision": 2,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-032CBDE965E161",
@@ -1205,18 +1318,18 @@
           "country": "Saudi"
         }
       ],
-      "coverage_stage": "new-coverage",
+      "coverage_stage": "recent-coverage",
       "coverage_first_published_at": "2026-11-08T15:04:19Z",
       "coverage_last_published_at": "2026-11-08T15:04:19Z",
-      "current_reporting": true,
-      "recent_publisher_count": 1,
-      "recent_article_count": 1,
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "0f14496a7b9f81f3a9e4",
-      "revision": 1,
-      "updated_at": "2026-11-08T16:47:10.317875Z"
+      "digest": "f54c3dcec64301b9d1bc",
+      "revision": 2,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-3B06F4E30578E3",
@@ -1259,18 +1372,18 @@
           "country": ""
         }
       ],
-      "coverage_stage": "new-coverage",
+      "coverage_stage": "recent-coverage",
       "coverage_first_published_at": "2026-11-08T14:52:35Z",
       "coverage_last_published_at": "2026-11-08T14:52:35Z",
-      "current_reporting": true,
-      "recent_publisher_count": 1,
-      "recent_article_count": 1,
+      "current_reporting": false,
+      "recent_publisher_count": 0,
+      "recent_article_count": 0,
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "38e3caecd4db17f95fe4",
-      "revision": 1,
-      "updated_at": "2026-11-08T16:47:10.317875Z"
+      "digest": "39f0f84b1b3d0fed98b5",
+      "revision": 2,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-0BBC3500B84699",
@@ -6536,7 +6649,7 @@
     },
     {
       "id": "GF-3D81E088AE6F7C",
-      "title": "Yemen's Houthis claim attack on Aramco building in Riyadh's financial district",
+      "title": "Yemen's Houthis claim attack on Aramco skyscraper in Riyadh",
       "category": "security",
       "topic": "regional",
       "countries": [
@@ -6565,7 +6678,7 @@
       "sources": [
         {
           "id": "19cac4f4c496b5da98b4f002",
-          "title": "Yemen's Houthis claim attack on Aramco building in Riyadh's financial district",
+          "title": "Yemen's Houthis claim attack on Aramco skyscraper in Riyadh",
           "url": "https://www.france24.com/en/middle-east/20261108-yemen-s-houthis-claim-attack-on-aramco-building-in-riyadh-s-financial-district",
           "source": "© Fayez Nureldine, AFP",
           "publisher_key": "fayez nureldine afp",
@@ -6587,9 +6700,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "cd7ff1c6d89b6071ba64",
-      "revision": 1,
-      "updated_at": "2026-11-08T16:47:10.317875Z"
+      "digest": "1a30f8c9d0492942e564",
+      "revision": 2,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-AFD2B2E8A98B38",
@@ -14764,7 +14877,7 @@
           "country": "Israel"
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-11-07T20:26:58Z",
       "coverage_last_published_at": "2026-11-07T20:26:58Z",
       "current_reporting": false,
@@ -14773,9 +14886,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "600197577c3d7d0b1e56",
-      "revision": 1,
-      "updated_at": "2026-11-07T23:50:02.588128Z"
+      "digest": "c65e53c0ff0f5c6fc13c",
+      "revision": 2,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-C93E2F8F1AD5C9",
@@ -14818,7 +14931,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-11-07T20:20:00Z",
       "coverage_last_published_at": "2026-11-07T20:20:00Z",
       "current_reporting": false,
@@ -14827,9 +14940,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "1231735dc88f78a32b0c",
-      "revision": 1,
-      "updated_at": "2026-11-07T23:50:02.588128Z"
+      "digest": "c5e7caded6c3fba19ce3",
+      "revision": 2,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-4B3E8370E1C77E",
@@ -14874,7 +14987,7 @@
           "country": "Saudi"
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-11-07T20:03:42Z",
       "coverage_last_published_at": "2026-11-07T20:03:42Z",
       "current_reporting": false,
@@ -14883,9 +14996,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "09db587e878b17a03321",
-      "revision": 2,
-      "updated_at": "2026-11-07T23:50:02.588128Z"
+      "digest": "0a5f014402f20d0b24ea",
+      "revision": 3,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-9008458538109C",
@@ -14928,7 +15041,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-11-07T19:52:00Z",
       "coverage_last_published_at": "2026-11-07T19:52:00Z",
       "current_reporting": false,
@@ -14937,9 +15050,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "a75c30497f7a3ac46280",
-      "revision": 2,
-      "updated_at": "2026-11-07T23:50:02.588128Z"
+      "digest": "e66a121aeed6d5489eb3",
+      "revision": 3,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-D28D5671D48B5A",
@@ -14982,7 +15095,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-11-07T19:35:00Z",
       "coverage_last_published_at": "2026-11-07T19:35:00Z",
       "current_reporting": false,
@@ -14991,9 +15104,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "9a0f57140c9298d25840",
-      "revision": 2,
-      "updated_at": "2026-11-07T23:50:02.588128Z"
+      "digest": "d5af50329d7c9fa863ca",
+      "revision": 3,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-7982F9F88BE0AE",
@@ -15038,7 +15151,7 @@
           "country": "Iran"
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-11-07T19:17:55Z",
       "coverage_last_published_at": "2026-11-07T19:17:55Z",
       "current_reporting": false,
@@ -15047,9 +15160,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "06535c5ed9b7960ded56",
-      "revision": 2,
-      "updated_at": "2026-11-07T23:50:02.588128Z"
+      "digest": "e8d5e2bf9596b65e7613",
+      "revision": 3,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-4EFB92E4C59B3B",
@@ -15094,7 +15207,7 @@
           "country": "Iran"
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-11-07T19:12:44Z",
       "coverage_last_published_at": "2026-11-07T19:12:44Z",
       "current_reporting": false,
@@ -15103,9 +15216,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "9c7b39be7527dfdf6123",
-      "revision": 3,
-      "updated_at": "2026-11-08T03:20:13.307694Z"
+      "digest": "d9a58412546bd9307dd8",
+      "revision": 4,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-6093C49E877360",
@@ -15150,7 +15263,7 @@
           "country": "Iran"
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-11-07T19:03:02Z",
       "coverage_last_published_at": "2026-11-07T19:03:02Z",
       "current_reporting": false,
@@ -15159,9 +15272,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "06f0346263eea6f4411f",
-      "revision": 1,
-      "updated_at": "2026-11-07T23:50:02.588128Z"
+      "digest": "78554508c0b13bebaad6",
+      "revision": 2,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-E080F5FB815F90",
@@ -15206,7 +15319,7 @@
           "country": "Saudi"
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-11-07T19:02:55Z",
       "coverage_last_published_at": "2026-11-07T19:02:55Z",
       "current_reporting": false,
@@ -15215,9 +15328,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "b20ab0bb5b4f13a560c5",
-      "revision": 2,
-      "updated_at": "2026-11-07T23:50:02.588128Z"
+      "digest": "a183320c9394c640fecf",
+      "revision": 3,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-53C8D62795B76C",
@@ -15262,7 +15375,7 @@
           "country": "UAE"
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-11-07T18:58:55Z",
       "coverage_last_published_at": "2026-11-07T18:58:55Z",
       "current_reporting": false,
@@ -15271,9 +15384,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "0f2198cf152f0c498184",
-      "revision": 1,
-      "updated_at": "2026-11-08T10:38:06.630593Z"
+      "digest": "abfc6bf7b7d666ca64ca",
+      "revision": 2,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-CE5CE8C701AC0E",
@@ -15318,7 +15431,7 @@
           "country": "Qatar"
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-11-07T18:55:55Z",
       "coverage_last_published_at": "2026-11-07T18:55:55Z",
       "current_reporting": false,
@@ -15327,9 +15440,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "0e721c57b5e001db02b2",
-      "revision": 2,
-      "updated_at": "2026-11-07T23:50:02.588128Z"
+      "digest": "d7ff85bcf7b9c29dae92",
+      "revision": 3,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-B0CF49F7FD12E8",
@@ -15374,7 +15487,7 @@
           "country": "Iran"
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-11-07T18:30:48Z",
       "coverage_last_published_at": "2026-11-07T18:30:48Z",
       "current_reporting": false,
@@ -15383,9 +15496,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "22e95c755baa044b3755",
-      "revision": 2,
-      "updated_at": "2026-11-07T23:50:02.588128Z"
+      "digest": "df8bdc55958e0a7f14ff",
+      "revision": 3,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-8D6CE99C70ABD6",
@@ -15430,7 +15543,7 @@
           "country": "Iran"
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-11-07T18:14:41Z",
       "coverage_last_published_at": "2026-11-07T18:14:41Z",
       "current_reporting": false,
@@ -15439,9 +15552,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "b8172b1a2f4d0675ac32",
-      "revision": 1,
-      "updated_at": "2026-11-07T20:24:52.920209Z"
+      "digest": "081bf1d875e6a92566e7",
+      "revision": 2,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-20F6513E061B4C",
@@ -15486,7 +15599,7 @@
           "country": "Iran"
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-11-07T18:14:38Z",
       "coverage_last_published_at": "2026-11-07T18:14:38Z",
       "current_reporting": false,
@@ -15495,9 +15608,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "c67fa841e030a04df2a5",
-      "revision": 1,
-      "updated_at": "2026-11-07T20:24:52.920209Z"
+      "digest": "df8e9ad3fb3b9db6eee0",
+      "revision": 2,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-CDF55ACE349CD8",
@@ -15542,7 +15655,7 @@
           "country": "Iran"
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-11-07T18:14:38Z",
       "coverage_last_published_at": "2026-11-07T18:14:38Z",
       "current_reporting": false,
@@ -15551,9 +15664,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "fda36ca8df83f4c702ee",
-      "revision": 1,
-      "updated_at": "2026-11-08T10:38:06.630593Z"
+      "digest": "44f112f4e7ffc118a5b8",
+      "revision": 2,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-EA56ED08948E3C",
@@ -15596,7 +15709,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-11-07T18:10:32Z",
       "coverage_last_published_at": "2026-11-07T18:10:32Z",
       "current_reporting": false,
@@ -15605,9 +15718,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "6a336ca69495e6fa2c9a",
-      "revision": 1,
-      "updated_at": "2026-11-07T23:50:02.588128Z"
+      "digest": "b1857e5ed4a376cfdb58",
+      "revision": 2,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-21D4C028EC899C",
@@ -15667,7 +15780,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-11-07T13:12:33Z",
       "coverage_last_published_at": "2026-11-07T18:03:00Z",
       "current_reporting": false,
@@ -15676,9 +15789,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "f26502bd4bd15b114cac",
-      "revision": 4,
-      "updated_at": "2026-11-08T03:20:13.307694Z"
+      "digest": "b4922f5840754e01fed8",
+      "revision": 5,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-3D0C520D6307A4",
@@ -15723,7 +15836,7 @@
           "country": "Iran"
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-11-07T18:01:32Z",
       "coverage_last_published_at": "2026-11-07T18:01:32Z",
       "current_reporting": false,
@@ -15732,9 +15845,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "cd5f9656704440506895",
-      "revision": 1,
-      "updated_at": "2026-11-07T20:24:52.920209Z"
+      "digest": "30a22c82579eb10f1381",
+      "revision": 2,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-148CDFDA4FA773",
@@ -15779,7 +15892,7 @@
           "country": "Iran"
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-11-07T18:01:01Z",
       "coverage_last_published_at": "2026-11-07T18:01:01Z",
       "current_reporting": false,
@@ -15788,9 +15901,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "0813a9556dd1d432a87b",
-      "revision": 1,
-      "updated_at": "2026-11-07T23:50:02.588128Z"
+      "digest": "70edb1a623be5eb36603",
+      "revision": 2,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-4444CC3DE7C9B4",
@@ -15835,7 +15948,7 @@
           "country": "Iran"
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-11-07T18:01:00Z",
       "coverage_last_published_at": "2026-11-07T18:01:00Z",
       "current_reporting": false,
@@ -15844,9 +15957,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "6a81c1bd88eb471c14e8",
-      "revision": 1,
-      "updated_at": "2026-11-07T23:50:02.588128Z"
+      "digest": "680d370538aa093da278",
+      "revision": 2,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-1CE0C9AFF96F60",
@@ -15891,7 +16004,7 @@
           "country": "Iran"
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-11-07T17:57:06Z",
       "coverage_last_published_at": "2026-11-07T17:57:06Z",
       "current_reporting": false,
@@ -15900,9 +16013,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "a506ceca8798ebd2ce02",
-      "revision": 1,
-      "updated_at": "2026-11-07T20:24:52.920209Z"
+      "digest": "9ba85802f62e6d04ff74",
+      "revision": 2,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-AD3B4101ED5000",
@@ -15947,7 +16060,7 @@
           "country": "Iran"
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-11-07T17:54:05Z",
       "coverage_last_published_at": "2026-11-07T17:54:05Z",
       "current_reporting": false,
@@ -15956,9 +16069,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "b6b74bd5585daf14f2b4",
-      "revision": 1,
-      "updated_at": "2026-11-07T20:24:52.920209Z"
+      "digest": "16ca2f1081d8c08b1bba",
+      "revision": 2,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-709EA020835F3B",
@@ -16003,7 +16116,7 @@
           "country": "Yemen"
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-11-07T17:39:23Z",
       "coverage_last_published_at": "2026-11-07T17:39:23Z",
       "current_reporting": false,
@@ -16012,9 +16125,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "b8b7cbe95498f4839f3b",
-      "revision": 1,
-      "updated_at": "2026-11-07T20:24:52.920209Z"
+      "digest": "157b0c8dc22d0afbd548",
+      "revision": 2,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-9EA4687F5399E6",
@@ -16060,7 +16173,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-11-07T17:25:25Z",
       "coverage_last_published_at": "2026-11-07T17:25:25Z",
       "current_reporting": false,
@@ -16069,9 +16182,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "55afadb136ae2603ae4b",
-      "revision": 1,
-      "updated_at": "2026-11-07T20:24:52.920209Z"
+      "digest": "5809c181b04afbe03ac5",
+      "revision": 2,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-49C3210364E37F",
@@ -16116,7 +16229,7 @@
           "country": "Iran"
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-11-07T17:19:33Z",
       "coverage_last_published_at": "2026-11-07T17:19:33Z",
       "current_reporting": false,
@@ -16125,9 +16238,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "3071b6369f9c3ba700a9",
-      "revision": 2,
-      "updated_at": "2026-11-07T23:50:02.588128Z"
+      "digest": "5c11d536e65e0e67b9b3",
+      "revision": 3,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-6A18A96187E0DA",
@@ -16172,7 +16285,7 @@
           "country": "Iran"
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-11-07T17:13:43Z",
       "coverage_last_published_at": "2026-11-07T17:13:43Z",
       "current_reporting": false,
@@ -16181,9 +16294,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "c09d40c552f6c832a991",
-      "revision": 1,
-      "updated_at": "2026-11-07T20:24:52.920209Z"
+      "digest": "65eaa9d82776df4d2c82",
+      "revision": 2,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-C0528945E53401",
@@ -16228,7 +16341,7 @@
           "country": "Iran"
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-11-07T16:52:05Z",
       "coverage_last_published_at": "2026-11-07T16:52:05Z",
       "current_reporting": false,
@@ -16237,9 +16350,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "d5c1d964537b5369bef9",
-      "revision": 1,
-      "updated_at": "2026-11-08T03:20:13.307694Z"
+      "digest": "2a5d03bbf73ff4d40a57",
+      "revision": 2,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-1FFB2ACCEBA03B",
@@ -16282,7 +16395,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "recent-coverage",
+      "coverage_stage": "quiet-coverage",
       "coverage_first_published_at": "2026-11-07T16:50:49Z",
       "coverage_last_published_at": "2026-11-07T16:50:49Z",
       "current_reporting": false,
@@ -16291,9 +16404,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "b862c6f94517e4a5c599",
-      "revision": 1,
-      "updated_at": "2026-11-08T03:20:13.307694Z"
+      "digest": "e04ecb833cad687aa5da",
+      "revision": 2,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-CB40DB308906C6",
@@ -110512,7 +110625,7 @@
           "country": "UAE"
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T20:44:09Z",
       "coverage_last_published_at": "2026-11-01T20:44:09Z",
       "current_reporting": false,
@@ -110521,9 +110634,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "041939cb13cb1663c0fd",
-      "revision": 2,
-      "updated_at": "2026-11-03T01:45:01.829754Z"
+      "digest": "a835354640746ae39721",
+      "revision": 3,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-E8AF6758E05686",
@@ -110568,7 +110681,7 @@
           "country": "Yemen"
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T20:32:45Z",
       "coverage_last_published_at": "2026-11-01T20:32:45Z",
       "current_reporting": false,
@@ -110577,9 +110690,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "7bea5e791a3b324a3668",
-      "revision": 2,
-      "updated_at": "2026-11-03T01:45:01.829754Z"
+      "digest": "da84690517d30f8ab8c3",
+      "revision": 3,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-199FC369B3F151",
@@ -110622,7 +110735,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T20:27:24Z",
       "coverage_last_published_at": "2026-11-01T20:27:24Z",
       "current_reporting": false,
@@ -110631,9 +110744,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "85066ee048d2469262ef",
-      "revision": 4,
-      "updated_at": "2026-11-03T01:45:01.829754Z"
+      "digest": "74183be33eb1173f927f",
+      "revision": 5,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-6E5D62947A1A24",
@@ -110676,7 +110789,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T20:25:15Z",
       "coverage_last_published_at": "2026-11-01T20:25:15Z",
       "current_reporting": false,
@@ -110685,9 +110798,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "a4d9cff1204bd8dfba38",
-      "revision": 2,
-      "updated_at": "2026-11-03T01:45:01.829754Z"
+      "digest": "349abe6c0e75b6da815e",
+      "revision": 3,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-000014B33C382B",
@@ -110733,7 +110846,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T20:22:06Z",
       "coverage_last_published_at": "2026-11-01T20:22:06Z",
       "current_reporting": false,
@@ -110742,9 +110855,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "c7589cd7a567ba500bfa",
-      "revision": 3,
-      "updated_at": "2026-11-03T01:45:01.829754Z"
+      "digest": "3c459d57a008c0282fb8",
+      "revision": 4,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-3E6F33F9555E12",
@@ -110787,7 +110900,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T20:21:46Z",
       "coverage_last_published_at": "2026-11-01T20:21:46Z",
       "current_reporting": false,
@@ -110796,9 +110909,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "834d8f9659b10653238a",
-      "revision": 2,
-      "updated_at": "2026-11-03T01:45:01.829754Z"
+      "digest": "ea11cd5f2bc484f531ea",
+      "revision": 3,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-A86BF4E9C886B3",
@@ -110858,7 +110971,7 @@
           "country": "Saudi"
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T20:15:53Z",
       "coverage_last_published_at": "2026-11-01T20:20:21Z",
       "current_reporting": false,
@@ -110867,9 +110980,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "788cadae01ef09926d5e",
-      "revision": 5,
-      "updated_at": "2026-11-05T23:43:48.010148Z"
+      "digest": "4e9f724c797e86557af0",
+      "revision": 6,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-D54A2705946475",
@@ -110914,7 +111027,7 @@
           "country": "Qatar"
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T20:19:21Z",
       "coverage_last_published_at": "2026-11-01T20:19:21Z",
       "current_reporting": false,
@@ -110923,9 +111036,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "6473634b544b3d49796c",
-      "revision": 4,
-      "updated_at": "2026-11-03T01:45:01.829754Z"
+      "digest": "9801081a786389334b60",
+      "revision": 5,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-166C015BC2721D",
@@ -110971,7 +111084,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T20:18:05Z",
       "coverage_last_published_at": "2026-11-01T20:18:05Z",
       "current_reporting": false,
@@ -110980,9 +111093,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "163c1c44debd6628df5b",
-      "revision": 2,
-      "updated_at": "2026-11-03T01:45:01.829754Z"
+      "digest": "74df20cf1e227cee9071",
+      "revision": 3,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-F22B3713C0B135",
@@ -111028,7 +111141,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T20:17:47Z",
       "coverage_last_published_at": "2026-11-01T20:17:47Z",
       "current_reporting": false,
@@ -111037,9 +111150,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "6c47e470a052c233dc5c",
-      "revision": 2,
-      "updated_at": "2026-11-03T01:45:01.829754Z"
+      "digest": "8f10bc84c87a3fd1b0b6",
+      "revision": 3,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-9472977A4BC5BF",
@@ -111082,7 +111195,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T20:15:00Z",
       "coverage_last_published_at": "2026-11-01T20:15:00Z",
       "current_reporting": false,
@@ -111091,9 +111204,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "d0997c7a8e9d7500ac1c",
-      "revision": 2,
-      "updated_at": "2026-11-03T01:45:01.829754Z"
+      "digest": "62c6e910e8a9ab412b42",
+      "revision": 3,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-E729963ED7945F",
@@ -111139,7 +111252,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T20:13:42Z",
       "coverage_last_published_at": "2026-11-01T20:13:42Z",
       "current_reporting": false,
@@ -111148,9 +111261,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "2645eba26cad91e48ffa",
-      "revision": 2,
-      "updated_at": "2026-11-03T01:45:01.829754Z"
+      "digest": "4c473d56f37b827d13a3",
+      "revision": 3,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-CF59CC6040F6F6",
@@ -111195,7 +111308,7 @@
           "country": "Kuwait"
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T20:13:27Z",
       "coverage_last_published_at": "2026-11-01T20:13:27Z",
       "current_reporting": false,
@@ -111204,9 +111317,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "2635dfc5f752ffe3b348",
-      "revision": 2,
-      "updated_at": "2026-11-03T01:45:01.829754Z"
+      "digest": "baf5bd1140106dca0894",
+      "revision": 3,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-ACA4C035CD0426",
@@ -111251,7 +111364,7 @@
           "country": "Iran"
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T20:12:33Z",
       "coverage_last_published_at": "2026-11-01T20:12:33Z",
       "current_reporting": false,
@@ -111260,9 +111373,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "6855ed60f2566801fcf0",
-      "revision": 1,
-      "updated_at": "2026-11-04T17:26:54.514768Z"
+      "digest": "71f57688a042623bdee5",
+      "revision": 2,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-55D14A8B72D36E",
@@ -111307,7 +111420,7 @@
           "country": "Iran"
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T20:12:14Z",
       "coverage_last_published_at": "2026-11-01T20:12:14Z",
       "current_reporting": false,
@@ -111316,9 +111429,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "f2d609da07e59181ced3",
-      "revision": 2,
-      "updated_at": "2026-11-03T01:45:01.829754Z"
+      "digest": "2135a27e1c657b810bd7",
+      "revision": 3,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-4E31B2CF5A4CAA",
@@ -111361,7 +111474,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T20:10:00Z",
       "coverage_last_published_at": "2026-11-01T20:10:00Z",
       "current_reporting": false,
@@ -111370,9 +111483,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "1db57e3f900f71227d32",
-      "revision": 2,
-      "updated_at": "2026-11-03T01:45:01.829754Z"
+      "digest": "7f9b67919b0d7db50b58",
+      "revision": 3,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-5F3E0D44216DBC",
@@ -111415,7 +111528,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T20:03:46Z",
       "coverage_last_published_at": "2026-11-01T20:03:46Z",
       "current_reporting": false,
@@ -111424,9 +111537,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "ab03750562120c25b06f",
-      "revision": 2,
-      "updated_at": "2026-11-03T01:45:01.829754Z"
+      "digest": "d039cee26fe83aa6aaf6",
+      "revision": 3,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-06D76EC316EB4D",
@@ -111471,7 +111584,7 @@
           "country": "Qatar"
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T20:02:21Z",
       "coverage_last_published_at": "2026-11-01T20:02:21Z",
       "current_reporting": false,
@@ -111480,9 +111593,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "1c2e933ed46b73f3f673",
-      "revision": 2,
-      "updated_at": "2026-11-03T01:45:01.829754Z"
+      "digest": "787de16e1dce197bb15e",
+      "revision": 3,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-91F3A14FCB5563",
@@ -111525,7 +111638,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T19:53:17Z",
       "coverage_last_published_at": "2026-11-01T19:53:17Z",
       "current_reporting": false,
@@ -111534,9 +111647,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "f2793e0f355330b2c7d1",
-      "revision": 2,
-      "updated_at": "2026-11-03T01:45:01.829754Z"
+      "digest": "12dc26c9dbe2aed61a85",
+      "revision": 3,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-6DFF1694C2FFDE",
@@ -111579,7 +111692,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T19:51:15Z",
       "coverage_last_published_at": "2026-11-01T19:51:15Z",
       "current_reporting": false,
@@ -111588,9 +111701,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "989e330d01670b825420",
-      "revision": 2,
-      "updated_at": "2026-11-03T01:45:01.829754Z"
+      "digest": "b0b15f0147a9edcec871",
+      "revision": 3,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-E877F53DA9599A",
@@ -111635,7 +111748,7 @@
           "country": "Iran"
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T19:48:53Z",
       "coverage_last_published_at": "2026-11-01T19:48:53Z",
       "current_reporting": false,
@@ -111644,9 +111757,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "d5cbd2444e1c9de55583",
-      "revision": 3,
-      "updated_at": "2026-11-03T01:45:01.829754Z"
+      "digest": "da33f7118d38f17fe4cd",
+      "revision": 4,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-AC6EAB5DA05BBC",
@@ -111689,7 +111802,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T19:48:19Z",
       "coverage_last_published_at": "2026-11-01T19:48:19Z",
       "current_reporting": false,
@@ -111698,9 +111811,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "e19aaa0488c8d6f00c83",
-      "revision": 4,
-      "updated_at": "2026-11-03T01:45:01.829754Z"
+      "digest": "aa48721abba6960f7427",
+      "revision": 5,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-2B7C7B72359AB5",
@@ -111746,7 +111859,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T19:48:17Z",
       "coverage_last_published_at": "2026-11-01T19:48:17Z",
       "current_reporting": false,
@@ -111755,9 +111868,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "01116532f58133f5e8e1",
-      "revision": 3,
-      "updated_at": "2026-11-03T01:45:01.829754Z"
+      "digest": "49b726fc177aeaa63e9c",
+      "revision": 4,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-97B739BC847545",
@@ -111803,7 +111916,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T19:42:52Z",
       "coverage_last_published_at": "2026-11-01T19:42:52Z",
       "current_reporting": false,
@@ -111812,9 +111925,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "32271abd8c67f5c84777",
-      "revision": 2,
-      "updated_at": "2026-11-03T01:45:01.829754Z"
+      "digest": "16104dc4f7ddccf4d33e",
+      "revision": 3,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-5DB20435372A97",
@@ -111857,7 +111970,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T19:35:42Z",
       "coverage_last_published_at": "2026-11-01T19:35:42Z",
       "current_reporting": false,
@@ -111866,9 +111979,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "8807af9336a026da2f84",
-      "revision": 2,
-      "updated_at": "2026-11-03T01:45:01.829754Z"
+      "digest": "453e750235e59c44908b",
+      "revision": 3,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-FA7C392C8B0A9D",
@@ -111911,7 +112024,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T19:34:17Z",
       "coverage_last_published_at": "2026-11-01T19:34:17Z",
       "current_reporting": false,
@@ -111920,9 +112033,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "c87eac03c80f1316b7cd",
-      "revision": 1,
-      "updated_at": "2026-11-03T16:37:23.699095Z"
+      "digest": "5168a9c4c87bed07a745",
+      "revision": 2,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-1BB3BD0DFDA342",
@@ -111968,7 +112081,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T19:34:11Z",
       "coverage_last_published_at": "2026-11-01T19:34:11Z",
       "current_reporting": false,
@@ -111977,9 +112090,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "3f8c63358b3828a3dd42",
-      "revision": 2,
-      "updated_at": "2026-11-03T01:45:01.829754Z"
+      "digest": "3aebf249c5e10e412262",
+      "revision": 3,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-18082241D34B10",
@@ -112024,7 +112137,7 @@
           "country": "Iran"
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T19:31:24Z",
       "coverage_last_published_at": "2026-11-01T19:31:24Z",
       "current_reporting": false,
@@ -112033,9 +112146,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "785b27d4dbcee790543a",
-      "revision": 2,
-      "updated_at": "2026-11-03T01:45:01.829754Z"
+      "digest": "4961697c5cf6c889c486",
+      "revision": 3,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-DE7BC17C8D7333",
@@ -112081,7 +112194,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T19:28:16Z",
       "coverage_last_published_at": "2026-11-01T19:28:16Z",
       "current_reporting": false,
@@ -112090,9 +112203,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "e7b90e20bc3d075aae3f",
-      "revision": 2,
-      "updated_at": "2026-11-03T01:45:01.829754Z"
+      "digest": "5d81046dac7f57008ba5",
+      "revision": 3,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-C329F8DBC67A95",
@@ -112135,7 +112248,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T19:27:03Z",
       "coverage_last_published_at": "2026-11-01T19:27:03Z",
       "current_reporting": false,
@@ -112144,9 +112257,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "bdfa2cf7766e682e735d",
-      "revision": 4,
-      "updated_at": "2026-11-03T01:45:01.829754Z"
+      "digest": "a9e5e3eea92bf3649b25",
+      "revision": 5,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-E985CA0FB3421C",
@@ -112191,7 +112304,7 @@
           "country": "Iran"
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T19:24:49Z",
       "coverage_last_published_at": "2026-11-01T19:24:49Z",
       "current_reporting": false,
@@ -112200,9 +112313,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "8d6794f8ebbdac88d3f1",
-      "revision": 3,
-      "updated_at": "2026-11-03T16:37:23.699095Z"
+      "digest": "96a39228d0ace2213029",
+      "revision": 4,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-FDF2869BB16CC8",
@@ -112245,7 +112358,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T19:24:23Z",
       "coverage_last_published_at": "2026-11-01T19:24:23Z",
       "current_reporting": false,
@@ -112254,9 +112367,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "531d052630e91a9a918b",
-      "revision": 2,
-      "updated_at": "2026-11-02T19:26:15.587221Z"
+      "digest": "4eaa8e7ff96d78418b37",
+      "revision": 3,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-1B87C8C69441B8",
@@ -112301,7 +112414,7 @@
           "country": "Iran"
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T19:24:23Z",
       "coverage_last_published_at": "2026-11-01T19:24:23Z",
       "current_reporting": false,
@@ -112310,9 +112423,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "3572283cc72632aa37c6",
-      "revision": 2,
-      "updated_at": "2026-11-02T19:26:15.587221Z"
+      "digest": "a992f8597358354e8f67",
+      "revision": 3,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-E3B47399C78BCA",
@@ -112358,7 +112471,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T19:21:34Z",
       "coverage_last_published_at": "2026-11-01T19:21:34Z",
       "current_reporting": false,
@@ -112367,9 +112480,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "9e59862862c03efac138",
-      "revision": 4,
-      "updated_at": "2026-11-02T19:26:15.587221Z"
+      "digest": "58f842e73889d4e5eb1b",
+      "revision": 5,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-9B1CD1044FFBE9",
@@ -112412,7 +112525,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T19:00:00Z",
       "coverage_last_published_at": "2026-11-01T19:00:00Z",
       "current_reporting": false,
@@ -112421,9 +112534,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "ca005c2e3492ea8433f9",
-      "revision": 2,
-      "updated_at": "2026-11-02T19:26:15.587221Z"
+      "digest": "5d9fec075eaed5a2252c",
+      "revision": 3,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-F9C42CC96DD5DA",
@@ -112468,7 +112581,7 @@
           "country": "Saudi"
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T18:53:22Z",
       "coverage_last_published_at": "2026-11-01T18:53:22Z",
       "current_reporting": false,
@@ -112477,9 +112590,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "a9d79ffbfe3dfbae7020",
-      "revision": 2,
-      "updated_at": "2026-11-02T19:26:15.587221Z"
+      "digest": "f58e6d33b1765ed638a9",
+      "revision": 3,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-9B2057339719D8",
@@ -112524,7 +112637,7 @@
           "country": "Qatar"
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T18:44:51Z",
       "coverage_last_published_at": "2026-11-01T18:44:51Z",
       "current_reporting": false,
@@ -112533,9 +112646,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "9fe77db2bf8b035fe674",
-      "revision": 1,
-      "updated_at": "2026-11-07T20:24:52.920209Z"
+      "digest": "9b2e325c440a5f45360b",
+      "revision": 2,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-5086C94AC8545C",
@@ -112580,7 +112693,7 @@
           "country": "Saudi"
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T18:40:52Z",
       "coverage_last_published_at": "2026-11-01T18:40:52Z",
       "current_reporting": false,
@@ -112589,9 +112702,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "7175cff8dfbb71cefc9d",
-      "revision": 3,
-      "updated_at": "2026-11-04T09:27:18.843668Z"
+      "digest": "b8990a07a0c7216bd12a",
+      "revision": 4,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-27310E4963CD2A",
@@ -112636,7 +112749,7 @@
           "country": "Iran"
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T18:39:55Z",
       "coverage_last_published_at": "2026-11-01T18:39:55Z",
       "current_reporting": false,
@@ -112645,9 +112758,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "890143b56d74278d6b66",
-      "revision": 2,
-      "updated_at": "2026-11-03T16:37:23.699095Z"
+      "digest": "c77fe0b04a50790255dd",
+      "revision": 3,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-7965EF7C0F0988",
@@ -112690,7 +112803,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T18:33:00Z",
       "coverage_last_published_at": "2026-11-01T18:33:00Z",
       "current_reporting": false,
@@ -112699,9 +112812,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "574d9b01ed85743c64a7",
-      "revision": 2,
-      "updated_at": "2026-11-02T19:26:15.587221Z"
+      "digest": "8d8bda464bc2917bd7fd",
+      "revision": 3,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-B75C3CF290BB80",
@@ -112744,7 +112857,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T18:33:00Z",
       "coverage_last_published_at": "2026-11-01T18:33:00Z",
       "current_reporting": false,
@@ -112753,9 +112866,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "70bd51f6d1c355bcd5d7",
-      "revision": 2,
-      "updated_at": "2026-11-02T19:26:15.587221Z"
+      "digest": "e89b805c3ca4d004d040",
+      "revision": 3,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-0A53615B5E7263",
@@ -112798,7 +112911,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T18:29:00Z",
       "coverage_last_published_at": "2026-11-01T18:29:00Z",
       "current_reporting": false,
@@ -112807,9 +112920,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "d471685d58e090c79e51",
-      "revision": 2,
-      "updated_at": "2026-11-02T19:26:15.587221Z"
+      "digest": "a522f262c5e2edc95a06",
+      "revision": 3,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-20CCE3981C5D50",
@@ -112852,7 +112965,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T18:29:00Z",
       "coverage_last_published_at": "2026-11-01T18:29:00Z",
       "current_reporting": false,
@@ -112861,9 +112974,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "76080308f91c59018464",
-      "revision": 1,
-      "updated_at": "2026-11-03T16:37:23.699095Z"
+      "digest": "442832ea863616ba7a2e",
+      "revision": 2,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-80D4C49EC98244",
@@ -112908,7 +113021,7 @@
           "country": "Kuwait"
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T18:28:00Z",
       "coverage_last_published_at": "2026-11-01T18:28:00Z",
       "current_reporting": false,
@@ -112917,9 +113030,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "14e33964c8d7606e8f4f",
-      "revision": 6,
-      "updated_at": "2026-11-04T02:13:24.967961Z"
+      "digest": "ad41388b3ffce7c6d8fd",
+      "revision": 7,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-C2EBB1EA018F8B",
@@ -112965,7 +113078,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T18:25:44Z",
       "coverage_last_published_at": "2026-11-01T18:25:44Z",
       "current_reporting": false,
@@ -112974,9 +113087,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "fca39e455881f261ba64",
-      "revision": 2,
-      "updated_at": "2026-11-02T19:26:15.587221Z"
+      "digest": "32417fdaf8ddc09ae2d7",
+      "revision": 3,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-1F897EA619F09C",
@@ -113021,7 +113134,7 @@
           "country": "Iran"
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T18:25:28Z",
       "coverage_last_published_at": "2026-11-01T18:25:28Z",
       "current_reporting": false,
@@ -113030,9 +113143,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "21c01df5bf5d9a80ea8e",
-      "revision": 2,
-      "updated_at": "2026-11-02T19:26:15.587221Z"
+      "digest": "e95fb548b6594c0e57d0",
+      "revision": 3,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-DDD039E5C53379",
@@ -113091,7 +113204,7 @@
           "country": "Iran"
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T17:49:28Z",
       "coverage_last_published_at": "2026-11-01T18:25:00Z",
       "current_reporting": false,
@@ -113100,9 +113213,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "970bb3736df73dd6e981",
-      "revision": 3,
-      "updated_at": "2026-11-02T19:26:15.587221Z"
+      "digest": "95f1986cc31495f95ce0",
+      "revision": 4,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-A01A5CD45E85C0",
@@ -113147,7 +113260,7 @@
           "country": "Iran"
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T18:16:54Z",
       "coverage_last_published_at": "2026-11-01T18:16:54Z",
       "current_reporting": false,
@@ -113156,9 +113269,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "f2f5ffdfbfdf435a468f",
-      "revision": 2,
-      "updated_at": "2026-11-02T19:26:15.587221Z"
+      "digest": "a012d964b730ad8c1c26",
+      "revision": 3,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-3EF210857F0FD6",
@@ -113203,7 +113316,7 @@
           "country": "Iraq"
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T18:16:31Z",
       "coverage_last_published_at": "2026-11-01T18:16:31Z",
       "current_reporting": false,
@@ -113212,9 +113325,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "82756fde88fe6e6ed040",
-      "revision": 2,
-      "updated_at": "2026-11-02T19:26:15.587221Z"
+      "digest": "9d8f908c3bf2fb3835c2",
+      "revision": 3,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-DCE9765ED49722",
@@ -113260,7 +113373,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T18:14:38Z",
       "coverage_last_published_at": "2026-11-01T18:14:38Z",
       "current_reporting": false,
@@ -113269,9 +113382,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "f32e5e920da2a9fb8f85",
-      "revision": 2,
-      "updated_at": "2026-11-02T19:26:15.587221Z"
+      "digest": "6205c6430ae734031000",
+      "revision": 3,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-84627A2457AECC",
@@ -113314,7 +113427,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T18:10:00Z",
       "coverage_last_published_at": "2026-11-01T18:10:00Z",
       "current_reporting": false,
@@ -113323,9 +113436,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "6db22adc55728b6418b6",
-      "revision": 3,
-      "updated_at": "2026-11-02T19:26:15.587221Z"
+      "digest": "ea66094813bcd0bb9af4",
+      "revision": 4,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-157E248CF7162B",
@@ -113370,7 +113483,7 @@
           "country": "Israel"
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T18:07:42Z",
       "coverage_last_published_at": "2026-11-01T18:07:42Z",
       "current_reporting": false,
@@ -113379,9 +113492,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "c6fd1159e08e9d89cf9a",
-      "revision": 1,
-      "updated_at": "2026-11-03T22:02:10.808529Z"
+      "digest": "243901f9fe2b32d90b0b",
+      "revision": 2,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-5DF9F75417FA56",
@@ -113426,7 +113539,7 @@
           "country": "Iran"
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T18:05:35Z",
       "coverage_last_published_at": "2026-11-01T18:05:35Z",
       "current_reporting": false,
@@ -113435,9 +113548,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "7df393340288864323ee",
-      "revision": 3,
-      "updated_at": "2026-11-02T19:26:15.587221Z"
+      "digest": "88ad578466a008fae133",
+      "revision": 4,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-22E492D433FD19",
@@ -113483,7 +113596,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T18:05:30Z",
       "coverage_last_published_at": "2026-11-01T18:05:30Z",
       "current_reporting": false,
@@ -113492,9 +113605,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "43304169c3c102669c04",
-      "revision": 2,
-      "updated_at": "2026-11-02T19:26:15.587221Z"
+      "digest": "775ec192bdf59274ce11",
+      "revision": 3,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-524EAE61052919",
@@ -113539,7 +113652,7 @@
           "country": "Yemen"
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T18:02:41Z",
       "coverage_last_published_at": "2026-11-01T18:02:41Z",
       "current_reporting": false,
@@ -113548,9 +113661,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "ca2e06c1c0bb1a88e0f0",
-      "revision": 3,
-      "updated_at": "2026-11-02T19:26:15.587221Z"
+      "digest": "66230f11b19c0f86911a",
+      "revision": 4,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-17A3A966A8BFDC",
@@ -113595,7 +113708,7 @@
           "country": "Iran"
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T18:01:45Z",
       "coverage_last_published_at": "2026-11-01T18:01:45Z",
       "current_reporting": false,
@@ -113604,9 +113717,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "ac665e7af0ed3b175754",
-      "revision": 5,
-      "updated_at": "2026-11-02T19:26:15.587221Z"
+      "digest": "c01096c9b722f470fabc",
+      "revision": 6,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-3126039F1D3D10",
@@ -113649,7 +113762,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T18:00:02Z",
       "coverage_last_published_at": "2026-11-01T18:00:02Z",
       "current_reporting": false,
@@ -113658,9 +113771,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "23f220d9acc832d1ae14",
-      "revision": 1,
-      "updated_at": "2026-11-03T16:37:23.699095Z"
+      "digest": "b333d5e0ea6b5615fe42",
+      "revision": 2,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-B743F27E01F9E1",
@@ -113703,7 +113816,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T18:00:00Z",
       "coverage_last_published_at": "2026-11-01T18:00:00Z",
       "current_reporting": false,
@@ -113712,9 +113825,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "ff88bc964b4442cab619",
-      "revision": 3,
-      "updated_at": "2026-11-02T19:26:15.587221Z"
+      "digest": "b088b7be59b22c144349",
+      "revision": 4,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-8B4F6224F35800",
@@ -113759,7 +113872,7 @@
           "country": "Bahrain"
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T17:58:13Z",
       "coverage_last_published_at": "2026-11-01T17:58:13Z",
       "current_reporting": false,
@@ -113768,9 +113881,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "11333ed1057eae8bdd96",
-      "revision": 3,
-      "updated_at": "2026-11-02T19:26:15.587221Z"
+      "digest": "6fb80b4ef8f57300b97a",
+      "revision": 4,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-395DE49BF5AC23",
@@ -113815,7 +113928,7 @@
           "country": "Bahrain"
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T17:56:32Z",
       "coverage_last_published_at": "2026-11-01T17:56:32Z",
       "current_reporting": false,
@@ -113824,9 +113937,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "c5618f77a7a270aa42ec",
-      "revision": 2,
-      "updated_at": "2026-11-02T19:26:15.587221Z"
+      "digest": "9500ea0360b94a594c9d",
+      "revision": 3,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-DE77A260F99EA3",
@@ -113869,7 +113982,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T17:50:00Z",
       "coverage_last_published_at": "2026-11-01T17:50:00Z",
       "current_reporting": false,
@@ -113878,9 +113991,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "3a719e7a16e92ae1c64b",
-      "revision": 3,
-      "updated_at": "2026-11-02T19:26:15.587221Z"
+      "digest": "4f0b2538994c0a5603e7",
+      "revision": 4,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-63833D791C1B1F",
@@ -113925,7 +114038,7 @@
           "country": "Qatar"
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T17:48:08Z",
       "coverage_last_published_at": "2026-11-01T17:48:08Z",
       "current_reporting": false,
@@ -113934,9 +114047,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "c37a1040cd66f4c3b84b",
-      "revision": 4,
-      "updated_at": "2026-11-02T19:26:15.587221Z"
+      "digest": "4e8a22dfb96349cae565",
+      "revision": 5,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-00B8F2E4DF9012",
@@ -113981,7 +114094,7 @@
           "country": "Iran"
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T17:39:37Z",
       "coverage_last_published_at": "2026-11-01T17:39:37Z",
       "current_reporting": false,
@@ -113990,9 +114103,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "b1e45230b80e93836efa",
-      "revision": 1,
-      "updated_at": "2026-11-02T19:26:15.587221Z"
+      "digest": "02d210418628086544e2",
+      "revision": 2,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-67817DB18B1039",
@@ -114037,7 +114150,7 @@
           "country": "Qatar"
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T17:37:52Z",
       "coverage_last_published_at": "2026-11-01T17:37:52Z",
       "current_reporting": false,
@@ -114046,9 +114159,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "aa5877c525374a47c9bd",
-      "revision": 5,
-      "updated_at": "2026-11-02T19:26:15.587221Z"
+      "digest": "0b0af089fbdef9fc11f2",
+      "revision": 6,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-733D44CB123F91",
@@ -114093,7 +114206,7 @@
           "country": "Iran"
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T17:32:11Z",
       "coverage_last_published_at": "2026-11-01T17:32:11Z",
       "current_reporting": false,
@@ -114102,9 +114215,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "e257620770bdcfaafa66",
-      "revision": 5,
-      "updated_at": "2026-11-03T08:39:40.925188Z"
+      "digest": "4221f8236179b35bbe4c",
+      "revision": 6,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-C4AA6BC0ABE392",
@@ -114149,7 +114262,7 @@
           "country": "Saudi"
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T17:32:04Z",
       "coverage_last_published_at": "2026-11-01T17:32:04Z",
       "current_reporting": false,
@@ -114158,9 +114271,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "cb58730e8106aa0a83bf",
-      "revision": 3,
-      "updated_at": "2026-11-02T19:26:15.587221Z"
+      "digest": "767d2319f5624a0bfbef",
+      "revision": 4,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-77E7319C90881C",
@@ -114206,7 +114319,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T17:30:11Z",
       "coverage_last_published_at": "2026-11-01T17:30:11Z",
       "current_reporting": false,
@@ -114215,9 +114328,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "afac7a5a2c3dfd3e9160",
-      "revision": 1,
-      "updated_at": "2026-11-03T08:39:40.925188Z"
+      "digest": "3b1dd7909261dee3ab31",
+      "revision": 2,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-AF306B1ED43653",
@@ -114276,7 +114389,7 @@
           "country": "Qatar"
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T15:29:28Z",
       "coverage_last_published_at": "2026-11-01T17:28:32Z",
       "current_reporting": false,
@@ -114285,9 +114398,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "7001bd8afaabb993e09b",
-      "revision": 4,
-      "updated_at": "2026-11-02T19:26:15.587221Z"
+      "digest": "d41009bca7dcb4acdff8",
+      "revision": 5,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-0ABACF96C6B426",
@@ -114330,7 +114443,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T17:22:59Z",
       "coverage_last_published_at": "2026-11-01T17:22:59Z",
       "current_reporting": false,
@@ -114339,9 +114452,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "b535592d246506bb1828",
-      "revision": 1,
-      "updated_at": "2026-11-03T16:37:23.699095Z"
+      "digest": "d3285b8910b648e6039e",
+      "revision": 2,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-3FF59D3D5152CB",
@@ -114386,7 +114499,7 @@
           "country": "Kuwait"
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T17:20:13Z",
       "coverage_last_published_at": "2026-11-01T17:20:13Z",
       "current_reporting": false,
@@ -114395,9 +114508,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "41602294c9762f51fc77",
-      "revision": 3,
-      "updated_at": "2026-11-02T19:26:15.587221Z"
+      "digest": "e19d430f421c474ef119",
+      "revision": 4,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-C36252C2FB42D5",
@@ -114440,7 +114553,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T17:16:00Z",
       "coverage_last_published_at": "2026-11-01T17:16:00Z",
       "current_reporting": false,
@@ -114449,9 +114562,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "395bd04701bf21ed1be5",
-      "revision": 3,
-      "updated_at": "2026-11-02T19:26:15.587221Z"
+      "digest": "6337a11517bc3a821e7e",
+      "revision": 4,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-DC94AF992229C3",
@@ -114497,7 +114610,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T17:10:13Z",
       "coverage_last_published_at": "2026-11-01T17:10:13Z",
       "current_reporting": false,
@@ -114506,9 +114619,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "ba84caa310c5d9524682",
-      "revision": 3,
-      "updated_at": "2026-11-02T19:26:15.587221Z"
+      "digest": "96f2ef2a3e5e21575e8e",
+      "revision": 4,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-1873D7F7E64A07",
@@ -114553,7 +114666,7 @@
           "country": "Saudi"
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T17:03:04Z",
       "coverage_last_published_at": "2026-11-01T17:03:04Z",
       "current_reporting": false,
@@ -114562,9 +114675,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "24b90299645f8f77ee8e",
-      "revision": 2,
-      "updated_at": "2026-11-02T19:26:15.587221Z"
+      "digest": "c39042c46234977e0149",
+      "revision": 3,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-167DADBB494B9C",
@@ -114611,7 +114724,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T17:02:51Z",
       "coverage_last_published_at": "2026-11-01T17:02:51Z",
       "current_reporting": false,
@@ -114620,9 +114733,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "9c099e3aaea5cd1c9840",
-      "revision": 2,
-      "updated_at": "2026-11-02T19:26:15.587221Z"
+      "digest": "f0b37d18f5d12e1bb758",
+      "revision": 3,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-3C2C4E6402B20B",
@@ -114668,7 +114781,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T16:55:58Z",
       "coverage_last_published_at": "2026-11-01T16:55:58Z",
       "current_reporting": false,
@@ -114677,9 +114790,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "8a08d33a21f11424a5a3",
-      "revision": 4,
-      "updated_at": "2026-11-02T19:26:15.587221Z"
+      "digest": "c65b447f3e33e15ab8a5",
+      "revision": 5,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-D8BED73D14ACF1",
@@ -114722,7 +114835,7 @@
           "country": ""
         }
       ],
-      "coverage_stage": "quiet-coverage",
+      "coverage_stage": "archived-coverage",
       "coverage_first_published_at": "2026-11-01T16:51:18Z",
       "coverage_last_published_at": "2026-11-01T16:51:18Z",
       "current_reporting": false,
@@ -114731,9 +114844,9 @@
       "incident_status": "unknown",
       "event_occurrence_verified": false,
       "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "b868920b71e01a1ad70e",
-      "revision": 2,
-      "updated_at": "2026-11-02T19:26:15.587221Z"
+      "digest": "4e7457a475ba9c72d0b9",
+      "revision": 3,
+      "updated_at": "2026-11-08T20:48:57.045954Z"
     },
     {
       "id": "GF-3894656E8B2DC7",
@@ -134756,126 +134869,14 @@
       "digest": "86039756a702d3d8c0aa",
       "revision": 1,
       "updated_at": "2026-11-08T10:38:06.630593Z"
-    },
-    {
-      "id": "GF-5EC3BC1E9FDCEE",
-      "title": "Iran war latest: US strikes Qeshm Island in Strait of Hormuz - The National",
-      "category": "security",
-      "topic": "maritime",
-      "countries": [
-        "Iran"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "en"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-31T04:10:03Z",
-      "last_published": "2026-10-31T04:10:03Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "0e1ee8a633bbc08e79515202",
-          "title": "Iran war latest: US strikes Qeshm Island in Strait of Hormuz - The National",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWnZLTm9HNUpSbUNocng0VDBfQkRsbjFKajRDRTJSLUJrLXpCYktWaE94MWc1TzVJQlY1OEpaTDRRa2tLWlI4bTAyV1dZeDgtaE5maDQyVnYwN2lxZ29UYUdUXzZrejZJY0lqczlsZGRjUC0wTGtwQWotR3A3eHMwaG1ydFdGMkhO?oc=5",
-          "source": "The National",
-          "publisher_key": "the national",
-          "provider": "Google News · regional",
-          "published_at": "2026-10-31T04:10:03Z",
-          "date_quality": "publisher-time",
-          "first_seen_at": "2026-11-06T11:36:31.697700Z",
-          "collected_at": null,
-          "language": "en",
-          "country": "Iran"
-        }
-      ],
-      "coverage_stage": "archived-coverage",
-      "coverage_first_published_at": "2026-10-31T04:10:03Z",
-      "coverage_last_published_at": "2026-10-31T04:10:03Z",
-      "current_reporting": false,
-      "recent_publisher_count": 0,
-      "recent_article_count": 0,
-      "incident_status": "unknown",
-      "event_occurrence_verified": false,
-      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "aee64e9dd8d17189fad4",
-      "revision": 2,
-      "updated_at": "2026-11-07T10:02:57.295494Z"
-    },
-    {
-      "id": "GF-30473C8CFDB46C",
-      "title": "Iran says four tankers on fire after striking mines in Hormuz",
-      "category": "transport",
-      "topic": "maritime",
-      "countries": [
-        "Iran"
-      ],
-      "location_quality": "country-mention",
-      "confidence": null,
-      "claim_status": "not-independently-verified",
-      "corroboration": "single-source",
-      "cross_language_candidate": false,
-      "wording_review": {
-        "potentially_divergent_wording": false,
-        "review_required": false,
-        "note": "No obvious opposing wording cues detected; absence is not corroboration."
-      },
-      "languages": [
-        "en"
-      ],
-      "publisher_count": 1,
-      "report_count": 1,
-      "first_published": "2026-10-31T03:55:48Z",
-      "last_published": "2026-10-31T03:55:48Z",
-      "event_occurred_at": null,
-      "verification_notes": "Related published headlines; editorial independence and underlying events not confirmed.",
-      "sources": [
-        {
-          "id": "bc165ad033a5bfe7b78e1c5f",
-          "title": "Iran says four tankers on fire after striking mines in Hormuz",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/iran-says-four-tankers-on-fire-after-striking-mines-in-hormuz?traffic_source=rss",
-          "source": "Al Jazeera RSS",
-          "publisher_key": "al-jazeera",
-          "provider": "Al Jazeera RSS",
-          "published_at": "2026-10-31T03:55:48Z",
-          "date_quality": "publisher-time",
-          "first_seen_at": "2026-10-31T08:14:41.250089Z",
-          "collected_at": null,
-          "language": "en",
-          "country": "Iran"
-        }
-      ],
-      "coverage_stage": "archived-coverage",
-      "coverage_first_published_at": "2026-10-31T03:55:48Z",
-      "coverage_last_published_at": "2026-10-31T03:55:48Z",
-      "current_reporting": false,
-      "recent_publisher_count": 0,
-      "recent_article_count": 0,
-      "incident_status": "unknown",
-      "event_occurrence_verified": false,
-      "lifecycle_note": "Stage describes article-publication activity only. Incident existence, current operational status and resolution remain unverified.",
-      "digest": "08ae5a9bb05c3814cc0a",
-      "revision": 3,
-      "updated_at": "2026-11-07T10:02:57.295494Z"
     }
   ],
   "country_stats": {
     "Iran": {
-      "events": 1165,
-      "reports": 1294,
-      "security_coverage": 778,
-      "transport_coverage": 168,
+      "events": 1163,
+      "reports": 1292,
+      "security_coverage": 777,
+      "transport_coverage": 167,
       "sources": 475
     },
     "Saudi": {
@@ -134886,8 +134887,8 @@
       "sources": 218
     },
     "Qatar": {
-      "events": 197,
-      "reports": 246,
+      "events": 198,
+      "reports": 247,
       "security_coverage": 109,
       "transport_coverage": 35,
       "sources": 124
@@ -134921,16 +134922,16 @@
       "sources": 43
     },
     "Oman": {
-      "events": 44,
-      "reports": 53,
-      "security_coverage": 29,
+      "events": 45,
+      "reports": 54,
+      "security_coverage": 30,
       "transport_coverage": 12,
       "sources": 42
     },
     "Yemen": {
-      "events": 139,
-      "reports": 174,
-      "security_coverage": 126,
+      "events": 140,
+      "reports": 175,
+      "security_coverage": 127,
       "transport_coverage": 8,
       "sources": 101
     },
@@ -134943,7 +134944,7 @@
     }
   },
   "daily_coverage": {
-    "2026-10-31": 221,
+    "2026-10-31": 219,
     "2026-11-01": 256,
     "2026-11-02": 293,
     "2026-11-03": 334,
@@ -134951,1501 +134952,1013 @@
     "2026-11-05": 276,
     "2026-11-06": 280,
     "2026-11-07": 275,
-    "2026-11-08": 221
+    "2026-11-08": 223
   },
   "revisions": [
     {
-      "id": "GF-C8C37CA0BEEC91",
+      "id": "GF-14B5EEE713EDDD",
       "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-19F5813E0F09A3",
+      "revision": 2,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-A3DF6686B39AED",
+      "revision": 2,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-FBF78B183426F5",
+      "revision": 2,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-122B9E354D5D79",
+      "revision": 2,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-D2EB64F775DD0B",
+      "revision": 2,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-689DDAE45EA645",
+      "revision": 2,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-C8C37CA0BEEC91",
+      "revision": 3,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-CC6E43655360B9",
+      "revision": 2,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-946361B81C2F54",
+      "revision": 2,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-0D1FF37A71F8F0",
+      "revision": 2,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-3886F61D128B87",
+      "revision": 2,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-09E16EC9A96311",
+      "revision": 2,
+      "at": "2026-11-08T20:48:57.045954Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
       "id": "GF-0CA52B0443A307",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
+      "revision": 3,
+      "at": "2026-11-08T20:48:57.045954Z",
       "change": "published-source-set-updated",
-      "previous_source_count": 1,
+      "previous_source_count": 2,
       "new_source_count": 2
     },
     {
-      "id": "GF-19BB9324D82ADE",
+      "id": "GF-B07B088B3E3E2C",
+      "revision": 2,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-1DB9419CD268D1",
+      "revision": 2,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 2,
+      "new_source_count": 2
+    },
+    {
+      "id": "GF-103604622C108F",
+      "revision": 2,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-867B4821364FAE",
+      "revision": 2,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-C8428855485B42",
+      "revision": 2,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-032CBDE965E161",
+      "revision": 2,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-3B06F4E30578E3",
+      "revision": 2,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-3D81E088AE6F7C",
+      "revision": 2,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-D40799380428E8",
+      "revision": 2,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-C93E2F8F1AD5C9",
+      "revision": 2,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-4B3E8370E1C77E",
       "revision": 3,
-      "at": "2026-11-08T16:47:10.317875Z",
+      "at": "2026-11-08T20:48:57.045954Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-FEEDFFEF100C17",
+      "id": "GF-9008458538109C",
+      "revision": 3,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-D28D5671D48B5A",
+      "revision": 3,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-7982F9F88BE0AE",
+      "revision": 3,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-4EFB92E4C59B3B",
+      "revision": 4,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-6093C49E877360",
       "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
+      "at": "2026-11-08T20:48:57.045954Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-5F83054FAE2E9B",
+      "id": "GF-E080F5FB815F90",
+      "revision": 3,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-53C8D62795B76C",
       "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
+      "at": "2026-11-08T20:48:57.045954Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-05CF19CC0B20BD",
+      "id": "GF-CE5CE8C701AC0E",
+      "revision": 3,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-B0CF49F7FD12E8",
+      "revision": 3,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-8D6CE99C70ABD6",
+      "revision": 2,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-20F6513E061B4C",
+      "revision": 2,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-CDF55ACE349CD8",
+      "revision": 2,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-EA56ED08948E3C",
+      "revision": 2,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-21D4C028EC899C",
       "revision": 5,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-E029E885B65A9C",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-F7127F21DCCE94",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-90D39BB190AB55",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-E6BE42D81FA4F4",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-052109DD0D7BDA",
-      "revision": 23,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-A4611524650A81",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-848B843435DAA9",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-4BEFE90A00B7E3",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-BB67EE886F1EAE",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-655D55F013955E",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-5D4F0BEC7E8F65",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-57499E9055FBD7",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-98DFFDABFA669D",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-485A9F1194E2DD",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-4A2C7DE97BA6EC",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-9A61900C6F387D",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-D3AF12731B7801",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-0EF99850F919C3",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-DF66390C8822EF",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-3A7F37C8D9882F",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-C879B94632CBE9",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-FBE087172C3CFE",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
+      "at": "2026-11-08T20:48:57.045954Z",
       "change": "published-source-set-updated",
       "previous_source_count": 2,
       "new_source_count": 2
     },
     {
-      "id": "GF-B8D9F79276A28F",
+      "id": "GF-3D0C520D6307A4",
       "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
+      "at": "2026-11-08T20:48:57.045954Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-17015E254928F1",
+      "id": "GF-148CDFDA4FA773",
       "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
+      "at": "2026-11-08T20:48:57.045954Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-47CE40C335DD33",
+      "id": "GF-4444CC3DE7C9B4",
       "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
+      "at": "2026-11-08T20:48:57.045954Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-D8603D482F432E",
+      "id": "GF-1CE0C9AFF96F60",
       "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
+      "at": "2026-11-08T20:48:57.045954Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-9DF1CFD84D538D",
+      "id": "GF-AD3B4101ED5000",
       "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
+      "at": "2026-11-08T20:48:57.045954Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-AEA5C622692DEB",
+      "id": "GF-709EA020835F3B",
       "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
+      "at": "2026-11-08T20:48:57.045954Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-2CEF336A10B4E7",
+      "id": "GF-9EA4687F5399E6",
       "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
+      "at": "2026-11-08T20:48:57.045954Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-88B57D0A1AF1E0",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-709E0C09F6E0B9",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-D6D05483E470F1",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 3,
-      "new_source_count": 2
-    },
-    {
-      "id": "GF-FCBE7E12E56DD0",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 2
-    },
-    {
-      "id": "GF-3C64189068BE25",
-      "revision": 19,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-C6C9CA46970065",
+      "id": "GF-49C3210364E37F",
       "revision": 3,
-      "at": "2026-11-08T16:47:10.317875Z",
+      "at": "2026-11-08T20:48:57.045954Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-EE4D2F657AD95C",
+      "id": "GF-6A18A96187E0DA",
+      "revision": 2,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-C0528945E53401",
+      "revision": 2,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-1FFB2ACCEBA03B",
+      "revision": 2,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-14454B649F5126",
+      "revision": 3,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-E8AF6758E05686",
+      "revision": 3,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-199FC369B3F151",
+      "revision": 5,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-6E5D62947A1A24",
+      "revision": 3,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-000014B33C382B",
       "revision": 4,
-      "at": "2026-11-08T16:47:10.317875Z",
+      "at": "2026-11-08T20:48:57.045954Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-AA1EA637BE37B4",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 3,
-      "new_source_count": 4
-    },
-    {
-      "id": "GF-CB40DB308906C6",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-38D91ADA50A407",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-BFD5F7DAFEDCE5",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-8CC9068B693F4E",
+      "id": "GF-3E6F33F9555E12",
       "revision": 3,
-      "at": "2026-11-08T16:47:10.317875Z",
+      "at": "2026-11-08T20:48:57.045954Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-80DFBE22911D52",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-AB1518E65EECBA",
-      "revision": 3,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-77A768A6B86A8B",
-      "revision": 4,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-CA452BF8DFE89F",
-      "revision": 4,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 2
-    },
-    {
-      "id": "GF-5B4FF65FE99677",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-D75EB601E472E0",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-5748E9FC46A80B",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-FB2146C169FCDE",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-2BD19B5E6DF505",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-48488955A92F70",
-      "revision": 19,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-60F93D4918A5FD",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-0BB8E7808AA95A",
-      "revision": 3,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-185F1571B2FB74",
-      "revision": 3,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-BA2C1CCBDD2402",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-3588E5584F57C6",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-96A0F064C19EEB",
-      "revision": 4,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-27676216302A28",
-      "revision": 27,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-155CF866B7BE96",
-      "revision": 28,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-43A9626C4FC14F",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-0C48AF3F7640C1",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-D2859BA187C776",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 2
-    },
-    {
-      "id": "GF-44B7F089C4C291",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-4D8FBD9B265632",
-      "revision": 25,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-924175C32AD6C5",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-C4E424C52122AB",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-285B3A2CB07A46",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-561C06B128B061",
-      "revision": 3,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 2
-    },
-    {
-      "id": "GF-44F0414976F97B",
-      "revision": 18,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-2A0E89206AC1E5",
-      "revision": 3,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-21EFC227E582A7",
-      "revision": 3,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-D8CC06F91C45B8",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-63E719162435ED",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-3E0F6E8B5AE935",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-3848AE24CDF3A2",
-      "revision": 3,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-8FCE60EB9CC6A3",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-97228D56B85B10",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-BEBD2808276D59",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-C3F77CB577744A",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-AB17082D0A9773",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-7468615CAB3272",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-A32DFCF3FAE681",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-D26790D0107D9C",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-3633408A53E7C8",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-C252068E5DFD6D",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-70917F3891C8A7",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-B764328961837E",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-B00455DA00A09E",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-7B002D942AEBB4",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-1396DCFD292940",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-C8246884B9EAC7",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 3,
-      "new_source_count": 3
-    },
-    {
-      "id": "GF-AAE7B6B3745DC0",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-92D2061F81CF6F",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 2
-    },
-    {
-      "id": "GF-ABD64101B078BB",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-8E4D4259C70D1D",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-F2B4CCDF3DB3F9",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-B430F0121B40C5",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-13BD423E0255B4",
-      "revision": 3,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 2
-    },
-    {
-      "id": "GF-0BD07B00BF6C7E",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-BFE5EF56CBF3EA",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-CC4ADE5E0500A5",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-9FEF3CE30E77ED",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-3287BDEDDB926D",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-99DF72443AA4EE",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-7805D6FC59C29B",
-      "revision": 48,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-720F2E20ACD04C",
+      "id": "GF-A86BF4E9C886B3",
       "revision": 6,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-01AAB67F956322",
-      "revision": 4,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-170BF8BEB211D6",
-      "revision": 9,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-7296097D7182A2",
-      "revision": 6,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-BB26BCC3DEC4A3",
-      "revision": 5,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-C22000873A0606",
-      "revision": 3,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 24,
-      "new_source_count": 24
-    },
-    {
-      "id": "GF-D64B94641EA910",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
+      "at": "2026-11-08T20:48:57.045954Z",
       "change": "published-source-set-updated",
       "previous_source_count": 2,
       "new_source_count": 2
     },
     {
-      "id": "GF-C71A012079D274",
-      "revision": 12,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-AD293C13D19DA4",
-      "revision": 8,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 3,
-      "new_source_count": 4
-    },
-    {
-      "id": "GF-8E01122096DFB2",
-      "revision": 4,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-6E010128780630",
-      "revision": 8,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-92F91345B4965C",
-      "revision": 4,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-3894656E8B2DC7",
+      "id": "GF-D54A2705946475",
       "revision": 5,
-      "at": "2026-11-08T16:47:10.317875Z",
+      "at": "2026-11-08T20:48:57.045954Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-C287A20CE71B1E",
+      "id": "GF-166C015BC2721D",
+      "revision": 3,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-F22B3713C0B135",
+      "revision": 3,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-9472977A4BC5BF",
+      "revision": 3,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-E729963ED7945F",
+      "revision": 3,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-CF59CC6040F6F6",
+      "revision": 3,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-ACA4C035CD0426",
+      "revision": 2,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-55D14A8B72D36E",
+      "revision": 3,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-4E31B2CF5A4CAA",
+      "revision": 3,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-5F3E0D44216DBC",
+      "revision": 3,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-06D76EC316EB4D",
+      "revision": 3,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-91F3A14FCB5563",
+      "revision": 3,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-6DFF1694C2FFDE",
+      "revision": 3,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-E877F53DA9599A",
       "revision": 4,
-      "at": "2026-11-08T16:47:10.317875Z",
+      "at": "2026-11-08T20:48:57.045954Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-66BA5A61434450",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-3CC146BA5835F9",
-      "revision": 3,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-807FB960430A42",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-DBE7C7F0C04F69",
+      "id": "GF-AC6EAB5DA05BBC",
       "revision": 5,
-      "at": "2026-11-08T16:47:10.317875Z",
+      "at": "2026-11-08T20:48:57.045954Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-40FCBE2858FB06",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
+      "id": "GF-2B7C7B72359AB5",
+      "revision": 4,
+      "at": "2026-11-08T20:48:57.045954Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-161B2504187C5B",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-D84CC1CBC75899",
+      "id": "GF-97B739BC847545",
       "revision": 3,
-      "at": "2026-11-08T16:47:10.317875Z",
+      "at": "2026-11-08T20:48:57.045954Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-D95C7F92DC7852",
+      "id": "GF-5DB20435372A97",
+      "revision": 3,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-FA7C392C8B0A9D",
       "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
+      "at": "2026-11-08T20:48:57.045954Z",
       "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 2
+      "previous_source_count": 1,
+      "new_source_count": 1
     },
     {
-      "id": "GF-AD860B2241FC13",
+      "id": "GF-1BB3BD0DFDA342",
       "revision": 3,
-      "at": "2026-11-08T16:47:10.317875Z",
+      "at": "2026-11-08T20:48:57.045954Z",
       "change": "published-source-set-updated",
-      "previous_source_count": 2,
-      "new_source_count": 2
+      "previous_source_count": 1,
+      "new_source_count": 1
     },
     {
-      "id": "GF-60231F92481A88",
+      "id": "GF-18082241D34B10",
+      "revision": 3,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-DE7BC17C8D7333",
+      "revision": 3,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-C329F8DBC67A95",
+      "revision": 5,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-E985CA0FB3421C",
+      "revision": 4,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-FDF2869BB16CC8",
+      "revision": 3,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-1B87C8C69441B8",
+      "revision": 3,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-E3B47399C78BCA",
+      "revision": 5,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-9B1CD1044FFBE9",
+      "revision": 3,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-F9C42CC96DD5DA",
+      "revision": 3,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-9B2057339719D8",
       "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
+      "at": "2026-11-08T20:48:57.045954Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-C7868C1D6D1C2C",
+      "id": "GF-5086C94AC8545C",
+      "revision": 4,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-27310E4963CD2A",
+      "revision": 3,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-7965EF7C0F0988",
+      "revision": 3,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-B75C3CF290BB80",
+      "revision": 3,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-0A53615B5E7263",
+      "revision": 3,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-20CCE3981C5D50",
       "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
+      "at": "2026-11-08T20:48:57.045954Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-D56B4583B54FFA",
-      "revision": 3,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-C39A3E11E07509",
-      "revision": 3,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-17A43ABEE96344",
-      "revision": 3,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-B4A88931036D25",
-      "revision": 3,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-F8A0C80D6F07A9",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-6E306A2606F78D",
+      "id": "GF-80D4C49EC98244",
       "revision": 7,
-      "at": "2026-11-08T16:47:10.317875Z",
+      "at": "2026-11-08T20:48:57.045954Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-3E53119150E1E1",
+      "id": "GF-C2EBB1EA018F8B",
       "revision": 3,
-      "at": "2026-11-08T16:47:10.317875Z",
+      "at": "2026-11-08T20:48:57.045954Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-9E47C3B2205106",
+      "id": "GF-1F897EA619F09C",
       "revision": 3,
-      "at": "2026-11-08T16:47:10.317875Z",
+      "at": "2026-11-08T20:48:57.045954Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-A0B809CEB11E80",
-      "revision": 3,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-42C0098C58AAB7",
-      "revision": 3,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-5EDD4A38074A23",
-      "revision": 7,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-84BCEF474D0BD0",
-      "revision": 3,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-9BA6C00BA581F4",
-      "revision": 5,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-49D180F6AD0322",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-0F811D83ECB11B",
-      "revision": 3,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-E8C3909E09CDA4",
-      "revision": 3,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-08131673692579",
+      "id": "GF-DDD039E5C53379",
       "revision": 4,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-087378113471DF",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-4D472A5D36BDEF",
-      "revision": 3,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-1C15964349A47E",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-BCA0D1BEF7A3E4",
-      "revision": 4,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-3C006F0B04C8DE",
-      "revision": 4,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-E776870F10053C",
-      "revision": 4,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-6657ED80825BFA",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-3D107B33661FBA",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-EA142AA432905D",
-      "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-FE0FB1CDBFC344",
-      "revision": 6,
-      "at": "2026-11-08T16:47:10.317875Z",
+      "at": "2026-11-08T20:48:57.045954Z",
       "change": "published-source-set-updated",
       "previous_source_count": 2,
       "new_source_count": 2
     },
     {
-      "id": "GF-346B0F34A26226",
+      "id": "GF-A01A5CD45E85C0",
+      "revision": 3,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-3EF210857F0FD6",
+      "revision": 3,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-DCE9765ED49722",
+      "revision": 3,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-84627A2457AECC",
+      "revision": 4,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-157E248CF7162B",
       "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
+      "at": "2026-11-08T20:48:57.045954Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-C5478607AA1C28",
-      "revision": 3,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-9E59A5AB581826",
-      "revision": 3,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-94AF335241F7EC",
+      "id": "GF-5DF9F75417FA56",
       "revision": 4,
-      "at": "2026-11-08T16:47:10.317875Z",
+      "at": "2026-11-08T20:48:57.045954Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-2FB11E8903AE9F",
+      "id": "GF-22E492D433FD19",
+      "revision": 3,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-524EAE61052919",
       "revision": 4,
-      "at": "2026-11-08T16:47:10.317875Z",
+      "at": "2026-11-08T20:48:57.045954Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-617AFB871E99D6",
-      "revision": 3,
-      "at": "2026-11-08T16:47:10.317875Z",
+      "id": "GF-17A3A966A8BFDC",
+      "revision": 6,
+      "at": "2026-11-08T20:48:57.045954Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-91BCAE60CFE881",
-      "revision": 4,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-52C0079BD886F3",
-      "revision": 3,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-CF1A879BE1598D",
-      "revision": 3,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-412C29030E4A39",
-      "revision": 3,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-E831B6A5004FE7",
-      "revision": 4,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-1F84F2421826F8",
-      "revision": 4,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-C5F4D196B12702",
-      "revision": 3,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-8B4E19471F1482",
-      "revision": 3,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-3DD21BC869E789",
-      "revision": 3,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-4F280AA1ADC74C",
-      "revision": 3,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-74845F0533F6A1",
-      "revision": 3,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-D15002659BE32D",
-      "revision": 3,
-      "at": "2026-11-08T16:47:10.317875Z",
-      "change": "published-source-set-updated",
-      "previous_source_count": 1,
-      "new_source_count": 1
-    },
-    {
-      "id": "GF-265395825C3B3C",
+      "id": "GF-3126039F1D3D10",
       "revision": 2,
-      "at": "2026-11-08T16:47:10.317875Z",
+      "at": "2026-11-08T20:48:57.045954Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-B6EB273D1F8BFF",
-      "revision": 3,
-      "at": "2026-11-08T16:47:10.317875Z",
+      "id": "GF-B743F27E01F9E1",
+      "revision": 4,
+      "at": "2026-11-08T20:48:57.045954Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-8BF9822F499D9E",
-      "revision": 3,
-      "at": "2026-11-08T16:47:10.317875Z",
+      "id": "GF-8B4F6224F35800",
+      "revision": 4,
+      "at": "2026-11-08T20:48:57.045954Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-9EC210008E672A",
+      "id": "GF-395DE49BF5AC23",
       "revision": 3,
-      "at": "2026-11-08T16:47:10.317875Z",
+      "at": "2026-11-08T20:48:57.045954Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-C4DC333269E195",
-      "revision": 3,
-      "at": "2026-11-08T16:47:10.317875Z",
+      "id": "GF-DE77A260F99EA3",
+      "revision": 4,
+      "at": "2026-11-08T20:48:57.045954Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1
     },
     {
-      "id": "GF-79AC4DB47E7AC7",
+      "id": "GF-63833D791C1B1F",
+      "revision": 5,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-00B8F2E4DF9012",
+      "revision": 2,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-67817DB18B1039",
+      "revision": 6,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-733D44CB123F91",
+      "revision": 6,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-C4AA6BC0ABE392",
+      "revision": 4,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-77E7319C90881C",
+      "revision": 2,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-AF306B1ED43653",
+      "revision": 5,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 2,
+      "new_source_count": 2
+    },
+    {
+      "id": "GF-0ABACF96C6B426",
+      "revision": 2,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-3FF59D3D5152CB",
+      "revision": 4,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-C36252C2FB42D5",
+      "revision": 4,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-DC94AF992229C3",
+      "revision": 4,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-1873D7F7E64A07",
       "revision": 3,
-      "at": "2026-11-08T16:47:10.317875Z",
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-167DADBB494B9C",
+      "revision": 3,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-3C2C4E6402B20B",
+      "revision": 5,
+      "at": "2026-11-08T20:48:57.045954Z",
+      "change": "published-source-set-updated",
+      "previous_source_count": 1,
+      "new_source_count": 1
+    },
+    {
+      "id": "GF-D8BED73D14ACF1",
+      "revision": 3,
+      "at": "2026-11-08T20:48:57.045954Z",
       "change": "published-source-set-updated",
       "previous_source_count": 1,
       "new_source_count": 1

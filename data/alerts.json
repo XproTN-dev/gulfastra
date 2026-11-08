@@ -1,73 +1,7 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-08T16:47:11.528040Z",
-  "alerts": [
-    {
-      "id": "GF-FBF78B183426F5",
-      "level": "review",
-      "title": "Iran says tanker hit mine, caught fire east of Strait of Hormuz - marketscreener.com",
-      "published_at": "2026-11-08T16:32:22Z",
-      "countries": [
-        "Iran"
-      ],
-      "category": "transport",
-      "topic": "maritime",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "marketscreener.com",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPc3NpZFZJLTZqNXVldDhSVF91VmNrdDVMb0JjU2lKRzlmSk5TUHlCb1Q3TjRjNXRQLUhJcG51bjZYd3AtbVdBNUtBbnMtam1SNGJSclJKZ29NcDlyUjV0QlNIZTVncjlqQUhpRlFEZHRQSmEyUVN6UE9Ec0FmTkZDOGFVMy10WFhMQzdqbzRtMzFEVlhwYUV0LUY5elprcnlDWDRUaDVReXZYcnhZZFg0WmNUWjUxZw?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-946361B81C2F54",
-      "level": "review",
-      "title": "الحرس الثوري الإيراني: انفجار ٣ ناقلات نفط في مضيق هرمز - شفقنا العراق",
-      "published_at": "2026-11-08T16:12:01Z",
-      "countries": [
-        "Iran",
-        "Iraq"
-      ],
-      "category": "security",
-      "topic": "maritime",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "شفقنا العراق",
-          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBBUm1NUFN3UlM5ZDc5eGlEdEdvY090MVJEVUVWN0dXbGNWRUZJTUFlQUhaRlVKcVg2eXFPSDJlZ3VJdXlMSmg3blRvRlg?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-B07B088B3E3E2C",
-      "level": "review",
-      "title": "وسط إدانات لاستمرار الاعتداءات على أراضى السعودية.. تدمير 5 صواريخ ومسيرة أطلقها الحوثيون تجاه المملكة.. أضرار مادية محدودة دون إصابات بمحاولة استهداف مبنى تابع لأرامكو.. فجر اليمن: تنفيذ 875 عملية خلال 24 ساعة - اليوم السابع",
-      "published_at": "2026-11-08T15:40:00Z",
-      "countries": [
-        "Saudi",
-        "Yemen"
-      ],
-      "category": "security",
-      "topic": "missile",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "اليوم السابع",
-          "url": "https://news.google.com/rss/articles/CBMilwRBVV95cUxQbW5HYjBUOHVTZk9oY2JIcHBrOEZrNmZsRjFCcXhKeTg0TExwNzU5OWU4MHE5UTV3ZnVNUFg1U0N2dVE4bzl2OUxLWTdXSUJLYzFwZ1hMWEJ3NDRtLVlkckczWlp4ZDBQaTdmR3g5ZlhqZnpEN1dQZEJnUTc5YVFQbDkxWV9rOWZOOWRLUk9LZWNweWJacEJvQ25QN0FaVVVUQkV1U1lVZ1ljLTd6V0drTE9lTWtMWlNPOUVGV1VNclMtMFJrOWU4THozTDR1eC1FVXJuNzNqWi1yZTZtSlZTQVFVcXVaSjFKRkp4ei14aVJhMEhYQS0wTm1ubDAyQ1FNb2N2cnpCOXRfTS1Vc1JGMHc1VUM0WWRLMEVOcHF6UkdMc3NEVVlVdl93ZHVaelUydjNObVhuc2l3b09sTWtoOHI5R0lNM01xTDlMMjZyNWp5R0Izay1fV1dLQ3VzLUpOS1BVWXFDRWpTelZzUXJFeDVZQnVlRndYeEdkNlEtamlrcHVjc0RxZlZHek9tZnlNdmFnZEkwcko3T3cwZk93M3NIMFJRYW03aXVxRGVNR3MtVEV4MDVEdGc1dmFxelRPcnZaRW15ZW8xdUUzUkhkOFhfYWV2Q0ZuLWplSW5VZkRCSDhiNFQwWEw3dk5Wc0tPcWRpRGRpODBsOXpjekF0LTM3TmV1a0xYWXVxSFh5VG56NEZZemxj0gGSBEFVX3lxTFAyWmg3eGlYRXUzd1I1eWZPRDc2Wm9QT2JrV0tJWWpvQWMzb2F3aGd0aHJ5blg4OVlWVzBxVmFDdjl6Vkk0TldmM0VyN2d1RU1lZ19OVDNYMmVJMVJNbmJnQUw1UWFCU0dXOTdpeElpc2w2Y2g1eHRpZU1xbFg2TmxoTGxJc0ljbEpsVHYtUE83Rllxc05GSk53SHQ2YnBHNEpaME8yWEJTX21ZOE9hZTgtNDNKYm9FYk5iZFMwbFhlckRmUXpKWGxlNERTa2pNb3RKamJRbkpBU2RRY3NCaThKR0ZHeTQ3WFpkQjJ3RVhaVHBIdmEzTmczRDhZaGtKaUx6N21WeHUtVkViUUxUcDJGaHZCSUxNQkNoTjdTcGlWRlg4UFF6TjNZWDdsYUYtWFZRdWcwMWFSTXlRRWhEVElOMGNLTldlZVFmdmVvYW5ja0pOZXQ4c25qM25hNHJGU09GMl9jSWo5U0xxTFZRemJrYW12RFluMk5LZ1ViWU9xTU1OSzE5VjlBVlhjdGRCcnJvb09jMmQxTHAxVkgyMWZzUENDc0taWVhMY0k2ZlNRNm5mYVBfQmp5S2ZBamRCNjVTY1FRLUFyQjJ3RmJWOWhSeGk1QWlrZkJqbm05d01wNzhfVlJjbHA1LTlaaURGLVpWUUVjM1ZTRHhiZEE2cHhLcm1ZeEJDYUQ3N2lxNUttc1BR?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    }
-  ],
+  "generated_at": "2026-11-08T20:48:58.222815Z",
+  "alerts": [],
   "new_alert_ids": [],
   "critical_count": 0,
   "notice": "CRITICAL REPORTING means multiple named outlets published related headlines. This is NOT confirmation, real-time detection or official emergency advice."

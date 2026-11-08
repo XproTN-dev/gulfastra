@@ -1,10 +1,10 @@
 # Gulfastra | Open-source situation report
 Window: last 24 hours (publication-based)
-Coverage groups: 280 | linked headlines: 325
+Coverage groups: 254 | linked headlines: 298
 IMPORTANT: Unverified published reporting; not confirmed attacks or official safety advice.
 
-## Security (218 coverage groups)
-- هل باتت ضربات الحوثيون على السعودية أكثر دقة؟ (1 headlines; single-source)
+## Security (204 coverage groups)
+- هل باتت ضربات الحوثيين على السعودية أكثر دقة؟ (1 headlines; single-source)
   - France 24 · الشرق الأوسط: https://www.france24.com/ar/%D9%81%D9%8A%D8%AF%D9%8A%D9%88/20261108-%D9%87%D9%84-%D8%A8%D8%A7%D8%AA%D8%AA-%D8%B6%D8%B1%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A%D9%88%D9%86-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%A3%D9%83%D8%AB%D8%B1-%D8%AF%D9%82%D8%A9
 - الرئيس الأوكراني: روسيا أطلقت أكثر من 3 آلاف مسيرة و115 صاروخا على أوكرانيا خلال أسبوع - Qatar news agency (1 headlines; single-source)
   - Qatar news agency: https://news.google.com/rss/articles/CBMijwVBVV95cUxQY3NzX2R1M01kYzlVcGtaVmxxS1FCN1JxNDc2QmpESXNIbC1hcVF4eVFESTRrbXFlYVIwaVpfenVqTy04OUFtWUpUM0pSQW5VT1R3emIyRjBRSjZUbFN2S2wyQWEyemNQZUFadXN3RlYyZ0wwcWJyTVBpREJRWEJRR01ZMDU2Nk52RUV3NkJzRXFtbkFTcnBGMmNSZjVDdG9BZlpxSzdQQ0V0czhLc3RfQXNzc0V6TWs3TUFlU3VmYS1CLVk3bXV0cEFYTVFzQlFiQ0dYcXliX3JjSkZuRHNCRVNyckd1NzhHQ2lCTEtncFVVZzRqUkFoVWxHQTRrQWZLNlRoaHg1bTh0MXAwelBHNGdCX2ExU25zR01MTzdxQUNBU1BkdGppTUJFNjJ0aEtoUXBPa2g2cVdjYU43YkdaV1dReEpEenF0NlkzUjlhS0FCaXpFVXhZVmg3X0hQRE1PYnMwRnJaUmlBd1UwYnpXc3pOVmJoeUoySV9qeUNnWGY2T0xEaXhqb2pieWFCUGJscVk1ZHZ0OFZXRjVGaTZvV1VFd05yeUl3VzJ0VmZnaWgtRnlkY3UzbFFKcHp6RGFYV0xFckMwZUthTHhSRHpLZUFqbERua0ZLZ1J6QXBiT244b1lucHp6cmFPYTFWTDh3S3RZdWoxOEZBNXNnY2dtUTI4akNUdnRjdjJXdzNmVnctaTJwSGlDaGlBSXZ4NzVISWFYckRGZEN6VWhaSUxEbWlpVy0tSTh0dmxTalBLWjBKWUI0d2pPbW02YzZvMEEwc01Pa0M2WlJ6bzAxeFlLdGFyaDlHU0g2elM3eHR6VkNLcnNSV0hlOHpYc2hJd3k4SUlFakplVVdiTkdsY1Rn?oc=5
@@ -34,7 +34,7 @@ IMPORTANT: Unverified published reporting; not confirmed attacks or official saf
 - وسط إدانات لاستمرار الاعتداءات على أراضى السعودية.. تدمير 5 صواريخ ومسيرة أطلقها الحوثيون تجاه المملكة.. أضرار مادية محدودة دون إصابات بمحاولة استهداف مبنى تابع لأرامكو.. فجر اليمن: تنفيذ 875 عملية خلال 24 ساعة - اليوم السابع (1 headlines; single-source)
   - اليوم السابع: https://news.google.com/rss/articles/CBMilwRBVV95cUxQbW5HYjBUOHVTZk9oY2JIcHBrOEZrNmZsRjFCcXhKeTg0TExwNzU5OWU4MHE5UTV3ZnVNUFg1U0N2dVE4bzl2OUxLWTdXSUJLYzFwZ1hMWEJ3NDRtLVlkckczWlp4ZDBQaTdmR3g5ZlhqZnpEN1dQZEJnUTc5YVFQbDkxWV9rOWZOOWRLUk9LZWNweWJacEJvQ25QN0FaVVVUQkV1U1lVZ1ljLTd6V0drTE9lTWtMWlNPOUVGV1VNclMtMFJrOWU4THozTDR1eC1FVXJuNzNqWi1yZTZtSlZTQVFVcXVaSjFKRkp4ei14aVJhMEhYQS0wTm1ubDAyQ1FNb2N2cnpCOXRfTS1Vc1JGMHc1VUM0WWRLMEVOcHF6UkdMc3NEVVlVdl93ZHVaelUydjNObVhuc2l3b09sTWtoOHI5R0lNM01xTDlMMjZyNWp5R0Izay1fV1dLQ3VzLUpOS1BVWXFDRWpTelZzUXJFeDVZQnVlRndYeEdkNlEtamlrcHVjc0RxZlZHek9tZnlNdmFnZEkwcko3T3cwZk93M3NIMFJRYW03aXVxRGVNR3MtVEV4MDVEdGc1dmFxelRPcnZaRW15ZW8xdUUzUkhkOFhfYWV2Q0ZuLWplSW5VZkRCSDhiNFQwWEw3dk5Wc0tPcWRpRGRpODBsOXpjekF0LTM3TmV1a0xYWXVxSFh5VG56NEZZemxj0gGSBEFVX3lxTFAyWmg3eGlYRXUzd1I1eWZPRDc2Wm9QT2JrV0tJWWpvQWMzb2F3aGd0aHJ5blg4OVlWVzBxVmFDdjl6Vkk0TldmM0VyN2d1RU1lZ19OVDNYMmVJMVJNbmJnQUw1UWFCU0dXOTdpeElpc2w2Y2g1eHRpZU1xbFg2TmxoTGxJc0ljbEpsVHYtUE83Rllxc05GSk53SHQ2YnBHNEpaME8yWEJTX21ZOE9hZTgtNDNKYm9FYk5iZFMwbFhlckRmUXpKWGxlNERTa2pNb3RKamJRbkpBU2RRY3NCaThKR0ZHeTQ3WFpkQjJ3RVhaVHBIdmEzTmczRDhZaGtKaUx6N21WeHUtVkViUUxUcDJGaHZCSUxNQkNoTjdTcGlWRlg4UFF6TjNZWDdsYUYtWFZRdWcwMWFSTXlRRWhEVElOMGNLTldlZVFmdmVvYW5ja0pOZXQ4c25qM25hNHJGU09GMl9jSWo5U0xxTFZRemJrYW12RFluMk5LZ1ViWU9xTU1OSzE5VjlBVlhjdGRCcnJvb09jMmQxTHAxVkgyMWZzUENDc0taWVhMY0k2ZlNRNm5mYVBfQmp5S2ZBamRCNjVTY1FRLUFyQjJ3RmJWOWhSeGk1QWlrZkJqbm05d01wNzhfVlJjbHA1LTlaaURGLVpWUUVjM1ZTRHhiZEE2cHhLcm1ZeEJDYUQ3N2lxNUttc1BR?oc=5
 
-## Transport (36 coverage groups)
+## Transport (32 coverage groups)
 - Iran says tanker hit mine, caught fire east of Strait of Hormuz - marketscreener.com (1 headlines; single-source)
   - marketscreener.com: https://news.google.com/rss/articles/CBMitgFBVV95cUxPc3NpZFZJLTZqNXVldDhSVF91VmNrdDVMb0JjU2lKRzlmSk5TUHlCb1Q3TjRjNXRQLUhJcG51bjZYd3AtbVdBNUtBbnMtam1SNGJSclJKZ29NcDlyUjV0QlNIZTVncjlqQUhpRlFEZHRQSmEyUVN6UE9Ec0FmTkZDOGFVMy10WFhMQzdqbzRtMzFEVlhwYUV0LUY5elprcnlDWDRUaDVReXZYcnhZZFg0WmNUWjUxZw?oc=5
 - مرصد هرمز | ملاحة تتراجع وسط حوادث.. وواشنطن تشدد الضغط على إيران - الشرق بلومبرغ (1 headlines; single-source)
@@ -64,7 +64,9 @@ IMPORTANT: Unverified published reporting; not confirmed attacks or official saf
 - اندلاع حريق في ناقلة نفط شمال غرب ولاية خصب بسلطنة عمان - المصري اليوم (1 headlines; single-source)
   - المصري اليوم: https://news.google.com/rss/articles/CBMiX0FVX3lxTE5kTDNwa3htYko0Mms5MC1nSHkxVFFvTE81bGdKUVNyNzR1dkVSZHpqbWl2UF91NDdyMmc2YjJSNnRxbHRJWURfMkxvZEJOZUtSRURpWmJudmY2STZkYUhN?oc=5
 
-## Diplomacy (26 coverage groups)
+## Diplomacy (18 coverage groups)
+- Qatar Signs General Agreement to Connect GCC Countries with Railway Project (1 headlines; single-source)
+  - Qatar News Agency · Qatar RSS: https://qna.org.qa/en/News-Area/News/2026-11/8/qatar-signs-general-agreement-to-connect-gcc-countries-with-railway-project
 - Qatar, UAE Sign Record of Exchange of Instruments of Ratification for Air Transport Agreement (1 headlines; single-source)
   - Qatar News Agency · Qatar RSS: https://qna.org.qa/en/News-Area/News/2026-11/8/qatar-uae-sign-record-of-exchange-of-instruments-of-ratification-for-air-transport-agreement
 - مجتبى خامنئي بين التهدئة والتهديد.. كيف يدير إيران من خلف الكواليس؟ - الشرق للأخبار (1 headlines; single-source)
@@ -91,5 +93,3 @@ IMPORTANT: Unverified published reporting; not confirmed attacks or official saf
   - الجزيرة نت · RSS عربي: https://www.aljazeera.net/sport/2026/11/8/%d8%b1%d8%b3%d9%85%d9%8a%d8%a7-%d8%a7%d9%84%d8%a7%d8%aa%d8%ad%d8%a7%d8%af-%d8%a7%d9%84%d8%ae%d9%84%d9%8a%d8%ac%d9%8a-%d9%8a%d8%b5%d8%af%d8%b1-%d9%82%d8%b1%d8%a7%d8%b1%d9%87-%d9%81%d9%8a?traffic_source=rss
 - ‘No good options’: Iran war caught between Trump's midterm troubles, Israel's election shake-up - The Jerusalem Post (1 headlines; single-source)
   - The Jerusalem Post: https://news.google.com/rss/articles/CBMiakFVX3lxTE5QM1VwazJFcmdvM3pZNktGY2MtcEduUDRkY2g4aXlqaFV3Rm84MmVjcW9hSkRiSHRhd1VuREtlVkI5d0VORk9IWnNyWWJxV0ZHRDVRbnZQRTNlVW1aUHZVRGRtMXhCYXUtWUE?oc=5
-- Donald Trump’s power is on the wane. What next for Russia, Israel – and the rest of us?  | Simon Tisdall (1 headlines; single-source)
-  - The Guardian · Middle East: https://www.theguardian.com/commentisfree/2026/nov/08/donald-trump-power-russia-israel-us-president
