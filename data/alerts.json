@@ -1,69 +1,57 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-08T03:20:14.504368Z",
+  "generated_at": "2026-11-08T10:38:07.809397Z",
   "alerts": [
     {
-      "id": "GF-6B43B71BF30915",
+      "id": "GF-DF66390C8822EF",
       "level": "review",
-      "title": "One Pinoy dead in Persian Gulf tanker explosion - Philstar.com",
-      "published_at": "2026-11-08T02:56:00Z",
-      "countries": [],
-      "category": "security",
-      "topic": "maritime",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "Philstar.com",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORjR3M3A0MWVnOXU2TTRXRy1hTEl2Rzc5SnEwSFJuOVJSY0Q5a0NTNFc0OWpSaklSeUVub1pJSkJQMmM5bG1TSzZieG42SlZ5OFNmRXVPYXVqMlhQR2ZIRV9GcGNSc1RVTXhOZi1STTZBMmFBNWhBaE1ULXBkdFdjRkstbmxCYzRvM0VzNXpGaHJ3RXhJZ05IZkRlSmJVSFXSAaYBQVVfeXFMTlFCT1E1Z3QtS1dCQUdsaV9HcmdKS2puVFdfNTBHQV9VajJQQ2cwWWhfd3NpSUM0Z2oyZ0tTZkhuY1pUOVhoYkVScjBQbVhJMVlMNUxoQmdRTUJFWVBNZmFONFpPVi1jUlAtT2x3NXJ1SVVDZU5BVkg4MExFWTd4bU9qenBOUmFBcGVMblgxenhQZW5CcGRtQ2NmQTk3enZQcDFJY0RpZw?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-2E82F7819FEA72",
-      "level": "review",
-      "title": "اشتعال ناقلتي نفط في مضيق هرمز.. والحرس الثوري يكشف تفاصيل الانفجار - بوابة أخبار اليوم الإلكترونية",
-      "published_at": "2026-11-08T02:11:51Z",
-      "countries": [],
-      "category": "security",
-      "topic": "maritime",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "بوابة أخبار اليوم الإلكترونية",
-          "url": "https://news.google.com/rss/articles/CBMi8AJBVV95cUxQTTZWTEphNkdUREFsU0ZrS2M5NzNEU1BJeVlGTGRWQlNaUXdrbjNlZlZrMk5Tc2IyWU81VmY2eFdVUmhSRWRKb3pLa09wS3l2YzRnT3ItQ0NyaFdfZDhRSjVIWloyZ05DRkl2RmhjdGFKTFdCVERmOXpoZ0o1aG5xTUllZVpFRDBRamRRODJkVHlaRkxMU3VjdTFPa3A5NDVRTlFyY25lVThIVFUxRVVHbURGZjh6Z0xncTZiRndVVUd1MWpndmZacWljNVR3VVB6QnVwSEsyemo1eTRVMVhRNDZnYXJNWGVEbS1ISzQzYWhBNUNnZkp2ZFQzaGxFeVVFY0Q2TUJKeExPVi15dFFORU9OUUxhOXBmR0Z4eTJCWHJpRmlXOTVOQTNhckFFY2I5ZHZpM1VMcVJha2RsWEUxc0E5djM5bnFmOEswa092eDlxeF81QnJDLTU5eENUT19NS1lyUnF2d19YWm0wOW9Kdw?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-44E9F00A77EAB2",
-      "level": "review",
-      "title": "Saudi Arabia under attack: Houthis claim missile, drone strikes on Aramco oil facilities, Riyadh airport - Moneycontrol.com",
-      "published_at": "2026-11-08T01:31:58Z",
+      "title": "التصعيد بين واشنطن وطهران.. انفجارات فى إيران وحرائق بناقلات نفط فى هرمز - اليوم السابع",
+      "published_at": "2026-11-08T09:00:00Z",
       "countries": [
-        "Saudi",
-        "Yemen"
+        "Iran"
+      ],
+      "category": "security",
+      "topic": "maritime",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "اليوم السابع",
+          "url": "https://news.google.com/rss/articles/CBMijgRBVV95cUxNZ19yZVk3eGZRa1ZnWTg0dmUydDVOOWMyTjdHV3lyeEpmVlBSczgtSEd2aTZEN0h5LTBnOTVXeGpWTmtpRkExNnZETUJiLURyZVU4eGtHMVMwU3hvaWFNdFVSN3NfY3lyRUtjcmlucEdPN1dPVnlJWXdrUmxQdmE0N3ZRZ3VWMUtURmZod1QzaTJGY3o4aXFUWXNRbDd5MVo3aUNnQk5ERFF1NlNtSzYxS2pYby1qaDdNSU9yOUtINFd5WTA4RWZLNE45YzFyVk5DYnh5bXp4enBBX2s0UEJtZGIwQmtNVUhjc056VnhhMmpIam1aS2Y2cGRCeDhhYngydUViZEV6dUVoN0FlYzRSbnlkelNlbFB5blJ6RVR2NU1TYXplemctbF9ZdDVRbmlGNE9FMzVXbUQ4Nl9xM0YydG1OWmhDd1A5QVo5Z1RhNGc3TENPU3Z1TDR3N0lPVmVyakdyTDFWSlBkemFNd2JrRWkxMXVIZHNvQ2c3Qlh0bHdoTGFzTXNMeEpfbVA2bWhrN1lNTDNudWZPQWFKNjJybnpnVnFsQzRxLWxkUlZlc0ktaXFaOUxmaXhFUlZwTjh3Ykhpd0NSTkZGQk41djUzU0gyXzBUZ3V3bWo3V3R4bTRvUld2R1dScFZpdzYwN3l5T1lmYUxlN09yVEVsTWl0OFBqdVB4Y1FLbjlZTk130gGIBEFVX3lxTE14b1dnV0xidG1sM09LNUtOVUxkcUZMajAxcXFuODg1OVNxeFNYLU43bmdNTWJqVVBBaFJLdm96M1pFUzNVbEQ4bDI4Z1lhSmxZZDVlQjg3TEVhMXVVRlFhVzQzWHY0SlpuXzRXbmJfVjdEUmNFaWRZam5wX2ZxZ1NIOHgzelBBN1ROeW8wYzNhUHNjRThlTXhkU1VsV1Nxd25waUJpd0h1MTZHQkRKLVJUUFp1aS1WcUhhd3JMNldDTEVuQzljR2V6NHV5M0JnalJLeFNnelBITGMwOG05cHJmell5Vk40cEM1bE1zSkJTLXpJNW5MMFRFd0w5OC1meWFudjhGYk9RcFJ0SVZ2MFdwTU5zel9xVkJsVGkzZUxWRkxnNnhFTmtqNnh6ZC1zbmRqT1Z1NjVHSzQ5YWVaMFdNbWpCVTdZSTE1THJkTUMyQXlvRTc2WDllNG9TbHJGTEVZRWNkSG1jaUpsZFNHY2FrSzFwZlNsa1V6RW9WMGNJSElMN2xKbUhWazNuRkV6UVlHcHd2d0Jlczhic3JqZkFqWUFtTVRmUjk0aklsbEtSejMyRkwxWDlXdWlveW5mTjR0VmJnTVgyLW5DTFMxZVprbXJfVWJTVDl6NklsQVdTSnVrZFhGM2V2Q0xNZWRIVlEyWUdrcGRCWjV6RU85Yjd5YTUtLVhjbEs?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-FBE087172C3CFE",
+      "level": "critical-reporting",
+      "title": "التحالف العربي يسقط 5 صواريخ وطائرة مسيرة واحدة استهدفت السعودية منذ فجر اليوم - آخر خبر",
+      "published_at": "2026-11-08T08:47:10Z",
+      "countries": [
+        "Saudi"
       ],
       "category": "security",
       "topic": "missile",
-      "outlet_count": 1,
+      "outlet_count": 2,
       "article_count": 2,
       "source_urls": [
         {
-          "name": "Moneycontrol.com",
-          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQemlmYWhlS25RNDd3N2phb1VmMU8tT1UzOHRVWjhiNmVZZ2FFRlp6QmFvelBwcnFHZGxaTlZCUVBfTE14VU92UElYR3NxaWJmbzZxWXpyQ1ctZnFvZkRxS0p5X25ycXBNU1VtUU9oY0wxY2dKSjFjVm1pYkk3UW0wekQzR3E3RVdzdG1PNWo2RnNGelBkcmlQeTh2WjI4bkhUTVlwV09FZW9td1dkS2tjNUlHT1k5YWIyb0ZCTUtaeVNndXIydF85MXFOOHdtUXh2Z0dPWldjSFF2bk02dTZBTFNzNXczY3EtQWRlTFd3SdIB9AFBVV95cUxNQkpNZGxvaDRQdV93N1FJMVBGWHFJZTZucmRZUFJWS3c1ZEdLeGVDd1h1MFBQR0EwdUo4dVo5TWxpY0VDSUVTaUxGSV92NFhPakkzaGVuT05DUG1uTlF4UGhBbjdMbFc2LXd6cWlLemgzS0E1N3lrR0hCYkcwR1YyWWl0YVBvblFUaWxQRmRFbEdKY0l1eG9zMnhVcEdLR09JY2dhOTc2WHJmQlpWTWxPc0w4dkpURTFmYVR4RXEzVGJYZjdLelhmRTU2MzZ6dzNrZlJVS29Xc0d3NC1NOElTZ2hfN2RGZktORENMWlJXelVYak5P?oc=5"
+          "name": "آخر خبر",
+          "url": "https://news.google.com/rss/articles/CBMihgVBVV95cUxNWjVsUTMwX0FfZC01YXFIQzZUUEZOWWdjMnRHWGpuLWF6Q2c1U3lFX0x6c25MbkJnY0F3SVN1QVZzRmZ2a3ZxSlZxMjRwUHZ0T1o4T0xhbi1UYU5ocjBoVFEwaHdXUlgtaTN4b3FhMllHVDJyM09OZl8xX2tfNDJxb0J6Nl9fNmVNckNWWnFlTVJyWUZsRFZPZ0VydFM1MGhaR05BSldGczV0eWxqa2g2aXVYY2xiLXBGRVFORmQ0WGJEdURkX2lVWDBCYm1feEVEWmwxdzdIS1laQmQ4Y2x6WEhNMklHRmlfdjNQN0VtZTRtZ0UzcGtPeEMxclpmTXQxdThiS0NOaW8yMTVFRmRsRHNzMHA2ei1YNHd1WHhnZk16b01RUXN5Ry1iZzhmRldYa1BlZVJ3dkxnREY1VERjckJfZGVmQ1ZuZmZHa1ZKb3ZZZElJanhaamZGbW1oZmdqYVFLLV95OTlXazMwbVJuLWZTUUh2SmJkSlpQUm1tcWdHUWViTHdKT3BKOGNOSGttTFlhd2NwX3dCLWRSRjBxSWRScVExZFhBQ0tuS2k2RnVBbWd5MFFNcnVUbFlmbk0yX1Z5bi0tNlVCd2tuaHEwazNRNmJLQVc5YURLMWhnZXZDZHJ3TUF3akdzMl8xSjBtZzUwR0VlX1oycVpaQUZxTXFvbzFzZXlzYl9VZkgzTGMxaXRPMmx6RVd1bktHanFWYmVkS1M5OWhwaFF1OGl4OW9JbUNhMFlvREctM2RGdDlHTksyWmk5QW1PMEd5dV9NV0hqTTRycVpvTkFwWmE5Vk9yd2RTVG1qTjRhTjVrNUpiR3RId1JpRlhZQm94OF9pNDJPZklR?oc=5"
+        },
+        {
+          "name": "شبكة تواصل الإخبارية",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBUYTI0XzR5TjBKNXdwQ011VXlrMm4xVG9idExvM1p0czdscHNweHlMdzNXWi1oTlBwc1BYNTYyRFNiYXNYamRyWFFWZnF2bFY5bFFj?oc=5"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
       "verification": "unverified-reporting"
     }
   ],
-  "new_alert_ids": [],
-  "critical_count": 0,
+  "new_alert_ids": [
+    "GF-FBE087172C3CFE"
+  ],
+  "critical_count": 1,
   "notice": "CRITICAL REPORTING means multiple named outlets published related headlines. This is NOT confirmation, real-time detection or official emergency advice."
 }
