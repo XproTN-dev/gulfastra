@@ -1,23 +1,64 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-09T00:09:24.374300Z",
+  "generated_at": "2026-11-09T06:32:20.552589Z",
   "alerts": [
     {
-      "id": "GF-FB4D83869EB4EB",
+      "id": "GF-12B9E3E82F7743",
       "level": "review",
-      "title": "تدمير منصتي صواريخ استهدفتا الرياض - جريدة الرياض",
-      "published_at": "2026-11-08T23:10:33Z",
+      "title": "UAE flights hit by fresh Saudi cancellations and airport delays - Travels Dubai",
+      "published_at": "2026-11-09T05:34:16Z",
       "countries": [
-        "Saudi"
+        "Saudi",
+        "UAE"
       ],
-      "category": "security",
-      "topic": "missile",
+      "category": "transport",
+      "topic": "aviation",
       "outlet_count": 1,
       "article_count": 1,
       "source_urls": [
         {
-          "name": "جريدة الرياض",
-          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5PSnItR0dNU1IwZkNGc2hlY2NoU0NxVENta0hLaW5TSjNDUWdQazhtbW02eGlMUndPQ2laYzJkNENNSlBSYUE?oc=5"
+          "name": "Travels Dubai",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZF9HMzVHdDRJSWVrX0tzemp5aWJwbV9BSXhuOXVzVjJaeUlwV2ZxRDk5anV5cmVtQWdMaWNfeERYcGZHaFVQVWtiWWZwdnFTSGNCVmlhVU1YWUYtQ0dndWFoc2NBVGRmQUNVWUkzNXljSXVYQUR0NHd1cHdIV2lUQ3cxaTJCbE10N3h1SDljLXJQekFQQlpCMEk5cjcwQQ?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-61F0829C8C62B0",
+      "level": "review",
+      "title": "US strike on bulker marks new escalation as Hormuz ship casualties mount - Lloyd's List",
+      "published_at": "2026-11-09T05:15:00Z",
+      "countries": [],
+      "category": "security",
+      "topic": "maritime",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "Lloyd's List",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTU5leHNTdmExcGhfaUMxNEhubXR4TjFlckdUQmFnU1RwcWJIM3NSeDRIN3V4MzhQdThjR25zOXNKN2g4cU02azNyWXZocS0tdVJOTlR5V1FrQW1weTd6MmZWSXktWlFXbVdaOFBJc1ExSElZdFVCZ2xtemFmbzFsNzFFbXNma1RMOV9TeldxcVhtMzVXVUpyaXB6U1luRC1NYXFCOHJ4NUI5Vm5uUGc?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-1F36CB038140B0",
+      "level": "review",
+      "title": "Middle East latest: Trump plays down prospect of new strikes on Iran - The National",
+      "published_at": "2026-11-09T05:03:30Z",
+      "countries": [
+        "Iran"
+      ],
+      "category": "security",
+      "topic": "regional",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "The National",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQRkdzMDFwVFNGNEFRbmVXNUZ4MG5RTDExMlVPcmIxek5OaEpFOFp2c0NVUEhzcWt5TWVVb3NhUDQ5SzJQZjhqaU41ZnVEMldQRGNNTk1CWm9pS2h6WmxHdlpKMHlqZ3BFaXBDaXdRTzIyNlNTY19FY0MxelZ6bEh3MjFB?oc=5"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
