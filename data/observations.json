@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "updated_at": "2026-11-09T16:49:59.430648Z",
+  "updated_at": "2026-11-10T00:29:39.062123Z",
   "observations": [
     {
       "id": "usgs:us7000tx3n",
@@ -140,19 +140,6 @@
       "magnitude": 4,
       "coordinates_quality": "observed",
       "classification": "observed-natural-hazard"
-    },
-    {
-      "id": "eonet:EONET_26038",
-      "kind": "natural-event",
-      "source": "NASA EONET",
-      "title": "Wildfire in Ethiopia, Sudan 1033471",
-      "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26038/geojson",
-      "occurred_at": "2026-10-26T19:00:00Z",
-      "published_at": "2026-10-26T19:00:00Z",
-      "lon": 35.310584309003,
-      "lat": 12.379291891826,
-      "coordinates_quality": "observed",
-      "classification": "observed-natural-hazard"
     }
   ],
   "health": [
@@ -160,24 +147,24 @@
       "source": "USGS",
       "ok": true,
       "count": 5,
-      "last_run": "2026-11-09T16:49:46.708261Z"
+      "last_run": "2026-11-10T00:29:35.746344Z"
     },
     {
       "source": "NASA EONET",
       "ok": true,
-      "count": 1,
-      "last_run": "2026-11-09T16:49:46.708261Z"
+      "count": 0,
+      "last_run": "2026-11-10T00:29:35.746344Z"
     },
     {
       "source": "Cloudflare Radar",
       "ok": null,
       "state": "not-configured",
       "requires_secret": "CF_RADAR_TOKEN",
-      "last_run": "2026-11-09T16:49:46.708261Z"
+      "last_run": "2026-11-10T00:29:35.746344Z"
     },
     {
       "source": "NASA FIRMS",
-      "last_run": "2026-11-09T16:49:59.430648Z",
+      "last_run": "2026-11-10T00:29:39.062123Z",
       "ok": null,
       "state": "not-configured",
       "requires_secret": "NASA_FIRMS_MAP_KEY"
