@@ -1,44 +1,23 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-10T21:32:03.158849Z",
+  "generated_at": "2026-11-11T01:27:59.874672Z",
   "alerts": [
     {
-      "id": "GF-4AE8F779597DC0",
+      "id": "GF-F8DD73286F1DA4",
       "level": "review",
-      "title": "الحرس الثوري الإيراني يعلن انفجار ناقلة نفط ثالثة في مضيق هرمز - بوابة الشروق",
-      "published_at": "2026-11-10T21:26:33Z",
+      "title": "Middle East latest: Ship attacked in UAE waters, says operator Adnoc - The National",
+      "published_at": "2026-11-11T00:38:21Z",
       "countries": [
-        "Iran"
+        "UAE"
       ],
       "category": "security",
-      "topic": "maritime",
-      "outlet_count": 1,
-      "article_count": 4,
-      "source_urls": [
-        {
-          "name": "بوابة الشروق",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMl9RSGh1LV9UYUotNlk1QV8yZVBERWlqYXllTXc3T2RScDVnYUVVRUk5VUI1MmpGWHNRZUFkeTFWRC1Ib3h2ckhqYlhfN1M1VzV4cDhKSjhmV1RQQmNjemd0VnhDTGc4SG45Q2t6NlpaLWFocGt2eWlSSjRCT2g4Mmo4TXpGQnJBS0tYWjJfdGs0R09DSncxSVJ0Sm5ydDNuOGlZOVhMbw?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-4D37071004A6C6",
-      "level": "review",
-      "title": "التحالف يعلن اعتراض صواريخ ومسيرات حوثية استهدفت الرياض - أخبار حياة",
-      "published_at": "2026-11-10T20:01:08Z",
-      "countries": [
-        "Saudi"
-      ],
-      "category": "security",
-      "topic": "interception",
+      "topic": "regional",
       "outlet_count": 1,
       "article_count": 1,
       "source_urls": [
         {
-          "name": "أخبار حياة",
-          "url": "https://news.google.com/rss/articles/CBMizgJBVV95cUxQOGg2MnR5dXVtMEVoNEZVMjMxYTktUjlZdnR6aUZpU2Yzc1lrM0txOTVMU09LSk5mNk9sUHZzbDNUdDNPNlcxTjZHTzZFaXFZT2tORWZoUzg1TEhkTkFKd3ZUMkFxZGlxNi15VFg3Y1EzQW5OR19UOU9UQnlGOF9NOVByRXgtYi1XOGFqUkZ1SWk5VERhM214TU5nbmtKbjRHX1BhbmlqYWRyRmJJWDVkVzMxaWhzTFk4Wk1Wc0FvSldaY0JqNWlpNThaWHU2UU15X2pDQmhndjlNbXp2LW04cTlsM2J1QWROaDNWTzJfb1YzUjNlSEZaR3FFTmdyajN2bjZ3UUQ5N0ZIMUFRNEFxNlF3OGJUVGFSbld5YmV0bE9TckZJYlM0a2pkV2c4Wl90R0NITzJSZ0Nwc2x2REhidVpIQ2FZdVJ4bG1JamZn?oc=5"
+          "name": "The National",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdTMwLTRPRTZsZHJPR0lQTVNtNHdyWWxZNHMydXJzUjEySVZIZzJfUFlvbXZfQWJPc25aSm5kM3lzNmxFMFVMdFl3NTZLZWVjZnZPaTFyWjZtcl9peGd6ZlpDU2hnQmxDVFBLRlF1cVR3U2QwR2R4dWRRNEFDaDBzSTY2YUFWZEsyZ3dIOGQwX2tudV81a1pRRXQtVzl0TWYw?oc=5"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
