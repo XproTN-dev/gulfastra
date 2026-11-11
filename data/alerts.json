@@ -1,12 +1,12 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-11T08:17:15.133286Z",
+  "generated_at": "2026-11-11T16:21:58.566350Z",
   "alerts": [
     {
-      "id": "GF-6D25F238D8B4A3",
+      "id": "GF-02195DF25C38F9",
       "level": "review",
-      "title": "Iran says tanker struck mine, caught fire in Hormuz - The Hindu",
-      "published_at": "2026-11-11T08:07:00Z",
+      "title": "Iran claims tanker hit mine in Strait of Hormuz - safety4sea",
+      "published_at": "2026-11-11T14:58:00Z",
       "countries": [
         "Iran"
       ],
@@ -16,8 +16,29 @@
       "article_count": 1,
       "source_urls": [
         {
-          "name": "The Hindu",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPc1ZZcnlxTFVsWndwT0JUNk9SRHlfTXpzbmRWV29pSENocjR0OTRfdk8xS0JMaVJ6Q0djSW1JeWowalpVcFg3YURKX21MNEJteDlweldfUC0wMFRZQzh3SThTWW1xRk4tUXhwZk1ZTk1mMjRPT2lrR1hqTHZyX0V3WEpVRzY4RUNjQlFjaFpZREJoTGlKcHFkTWxDN3EyM2VPNjRUN1FTT09hZExvNG9OZDU5RnbSAbsBQVVfeXFMTlZIZXRBWm1aekpOdXZVMHFfZGhhTHBNWGxWdVhRVVhCR2tlelhzSmpPOERRZE1raTJ2OEhCeTFrWHdUMTNHUFFWRnlIOWJDWWtsMVNXVnQzb3BYdC1FWGV3MnRvVjl5YUFqdEt0TFp5WlNwZjBfMFdaU0p4eC1YeFIxT3hnakFrRDRkUGp5dlFOYlFVVWg0Nkh0OUxqaXFwUnVodzFtOU1fQ2hKT0p0QnJ3dXhXNUtid2VpMA?oc=5"
+          "name": "safety4sea",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1PY3h1VEhEY3FvQ2p3Um1zd0VoWnNGSlpPNHU2MlhjXzViZW9GbFI1VkJiYzVaaGxXMzhYSHBRRlhrYi1iT2piaVF5WWNQR0RzaF9jQnM0ZkNrcm5uU003dFZwOFE1dTZWREUxVE9yV05ZdDFKc3I1dURNQQ?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-7F4DC8F6564D6B",
+      "level": "review",
+      "title": "Iran reports new tanker explosion in Strait of Hormuz - 巴士的報",
+      "published_at": "2026-11-11T14:38:00Z",
+      "countries": [
+        "Iran"
+      ],
+      "category": "security",
+      "topic": "maritime",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "巴士的報",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSVN3SXVmbmpnSC1qS0pEbzNsdVZ4NE85c3Jjcm5jTGJlTlBfeThRNWxsbEZRUUVYY1BEOVVzNlRoOHFmTUtxdGFHMGJuZW5xVXFPWjNaRlQ1RHFDX1JMMjZhUTI0Z1I2aFpvakZleU1sN2lTaUdCY192YU9VdG9PX21yd1AtX3FIT1pwcDBRQkZ2cFpTYXFxZzhOaFdXd05VcURrZG1yUGk?oc=5"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
