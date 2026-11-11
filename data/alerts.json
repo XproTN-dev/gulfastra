@@ -1,33 +1,33 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-11T16:21:58.566350Z",
+  "generated_at": "2026-11-11T22:54:02.103747Z",
   "alerts": [
     {
-      "id": "GF-02195DF25C38F9",
+      "id": "GF-BE48396A06AF8B",
       "level": "review",
-      "title": "Iran claims tanker hit mine in Strait of Hormuz - safety4sea",
-      "published_at": "2026-11-11T14:58:00Z",
+      "title": "KAN reports Israeli military preparing for possible strike on Iran — Anadolu Agency - UA.NEWS",
+      "published_at": "2026-11-11T21:46:09Z",
       "countries": [
         "Iran"
       ],
-      "category": "transport",
-      "topic": "maritime",
+      "category": "security",
+      "topic": "regional",
       "outlet_count": 1,
       "article_count": 1,
       "source_urls": [
         {
-          "name": "safety4sea",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1PY3h1VEhEY3FvQ2p3Um1zd0VoWnNGSlpPNHU2MlhjXzViZW9GbFI1VkJiYzVaaGxXMzhYSHBRRlhrYi1iT2piaVF5WWNQR0RzaF9jQnM0ZkNrcm5uU003dFZwOFE1dTZWREUxVE9yV05ZdDFKc3I1dURNQQ?oc=5"
+          "name": "UA.NEWS",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVGdHNUZxVi16c2R4dDJrVl9DWEpUZUNFSjRHUDQ5Q3U4ODlSVEhyVW9FTDNlU2J4bHRpRFBMWDhxZUdacE1hdVNKdUdfNHBkRzMxeUJKM0NNcFB5WWhnMW1mRmNQN3BVTC1heFpPNHVra3NrZ1cxNVgyWGN3eTY3WHFEd3U4WGp3LXlxOEtLSXFKOS15a002YTJhSWszd0h3VV9aUEpxZXEzODUzMGFPWVlpVEdtY3p0RWpab0hMR3d1TmxD?oc=5"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
       "verification": "unverified-reporting"
     },
     {
-      "id": "GF-7F4DC8F6564D6B",
+      "id": "GF-84FB9CD0B98DFF",
       "level": "review",
-      "title": "Iran reports new tanker explosion in Strait of Hormuz - 巴士的報",
-      "published_at": "2026-11-11T14:38:00Z",
+      "title": "NCC Fajr Attacked in Hormuz as Iran Claims 2 Ships Struck - https://houseofsaud.com/",
+      "published_at": "2026-11-11T21:43:33Z",
       "countries": [
         "Iran"
       ],
@@ -37,8 +37,29 @@
       "article_count": 1,
       "source_urls": [
         {
-          "name": "巴士的報",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSVN3SXVmbmpnSC1qS0pEbzNsdVZ4NE85c3Jjcm5jTGJlTlBfeThRNWxsbEZRUUVYY1BEOVVzNlRoOHFmTUtxdGFHMGJuZW5xVXFPWjNaRlQ1RHFDX1JMMjZhUTI0Z1I2aFpvakZleU1sN2lTaUdCY192YU9VdG9PX21yd1AtX3FIT1pwcDBRQkZ2cFpTYXFxZzhOaFdXd05VcURrZG1yUGk?oc=5"
+          "name": "https://houseofsaud.com/",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE01Z200eHAzT2RyMmJoSXE3eUdVamtYZFlSRWVFTWFDbEdSWThNLUlfQ2lEenNiZHNVTXE5ZzVwcUtLa3YwV0JxelZFb0JCb1IwazV2djNIelVjWnZ3Qko4MTRLbjhDVzdaOGR4VURYck5YVk5I?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-2525B13A010100",
+      "level": "review",
+      "title": "عدن تحت نيران الصواريخ.. انفجارات تهزّ المدينة وهجوم يستهدف معسكرات التحالف السعودي - جنوبية",
+      "published_at": "2026-11-11T21:26:28Z",
+      "countries": [
+        "Saudi"
+      ],
+      "category": "security",
+      "topic": "missile",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "جنوبية",
+          "url": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxPRnE5cGlNZ0VFWVJ4UTJwODlaaGtJZ21LdFFxVVhWVUw4M3hiZVZ0Q0wxQVRsMzRJMWJFaG9TUWVnbEtqNF9pcGppYTlCRUgyaUc2dnB1SWk2cW1HNXdyWFI4ejZWUS1QQVZjSVJUQWFfTmtGMkgyTlBwNVhnemd3SC1kNWYzYk85NloyakV4RGhhT0JmbFFJM0F5V1U2bG5TcWRUaWQ5eEtJalBsZVR3anpZMklYbWJXSndlbHJwVW92UUFYeW94aDMxb0ZRNWxpTTIzX3BDelIwUGtzRi1FOWlmYVgwanBVbGFaWWtpOXJneTF3WDRSX1FqYXFTaVRFTUpxdFpGWTZGQnNsNl9KaDJIOWQ1dmdZbXlvS1hvUC1mbnotbk9CVFBYRlR0VjZYRHRUY1dLOEw5bzl0cUxqNHQ3LUEzcTF0RXZZaFRfdlY?oc=5"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
