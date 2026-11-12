@@ -1,14 +1,14 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-12T11:52:54.964803Z",
+  "generated_at": "2026-11-12T19:32:54.690123Z",
   "alerts": [
     {
-      "id": "GF-3A36745B818F45",
+      "id": "GF-495005D42C8734",
       "level": "review",
-      "title": "مقتل 10 شرطيين و18 مسلحا في هجوم على قوات أمنية في شمال غرب باكستان - Qatar news agency",
-      "published_at": "2026-11-12T11:10:14Z",
+      "title": "Al Jazeera reports from Gaza hospital attacked by Israel",
+      "published_at": "2026-11-12T18:03:02Z",
       "countries": [
-        "Qatar"
+        "Israel"
       ],
       "category": "security",
       "topic": "regional",
@@ -16,29 +16,29 @@
       "article_count": 1,
       "source_urls": [
         {
-          "name": "Qatar news agency",
-          "url": "https://news.google.com/rss/articles/CBMihwRBVV95cUxQOEtmbmtxTkJPeW9VcEloS1lPa3N3RlpIZy1vczM3QTZRS0pEdFNBOFQ1eE4wSW1IWC1XOE54YUV5VG1zRGhTOEZKNl91Y3FLclZCa0hXam0xNi02OENFZ1ljUWRDcnZKa0Y1UXJYVk9aMVEyWnUzYUR1UGt2b3JndWRRVXdhX0k0aGxEZXR1MGJ3dTc4VWNHZUV3dTdoekU2b0gyVUpCOC03NWxZRWhkMWFTb1RwVEo0Ri05c0pTMTVaNDhIaUxlNXhBSXhfamotSHFLVXZ4aVFHdFZFa3VUVGhVNkU5LVdaQ3o2aU1lRDVSY2NWN2E5dHN6elZKRm5HTDNidm41cXJNa3h0YktaRUk1aDg2eG5kM3dBTXpuaEFhbEZLNE9Eb0MwbnVsUnpfNm8xMGltSk5EREhQVUo4LVU4cHRlYXdhUlJuczRUYi1nZTR6RTZKeEZsR3JKbGlXekh1LXAwakQwUjRuYUdpZnNlU3ZQMW0wN2dzOVdTVHI3RG02SUJKRFVzQ1ZZdU5FMGpPWlF4QzZKNlotS20yMmhNWnVEYmJiNm1LdUl0Tm5aTzJsS2I4a2tOMFhObkFDY3FUcmNqcDgzeWJsNkxHQ3phbWhYVmtVZ3l6M0MyRUFYYmVvbHpUV0tOcnI4eHNNSlFadV93bnJlMHB0RV9VSzZqUmMwSWM?oc=5"
+          "name": "Al Jazeera RSS",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/al-jazeera-reports-from-gaza-hospital-attacked-by-israel?traffic_source=rss"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
       "verification": "unverified-reporting"
     },
     {
-      "id": "GF-5BBB64525580C4",
+      "id": "GF-7714412A87F1E6",
       "level": "review",
-      "title": "الحرس الثورى الإيرانى: انفجارات تعطل ناقلتى نفط بمضيق هرمز - اليوم السابع",
-      "published_at": "2026-11-12T10:46:00Z",
+      "title": "تصعيد جديد في مضيق هرمز.. إيران تعلن انفجارات في 4 ناقلات نفط - صوت بيروت إنترناشونال",
+      "published_at": "2026-11-12T17:38:35Z",
       "countries": [
         "Iran"
       ],
       "category": "security",
       "topic": "maritime",
       "outlet_count": 1,
-      "article_count": 2,
+      "article_count": 1,
       "source_urls": [
         {
-          "name": "اليوم السابع",
-          "url": "https://news.google.com/rss/articles/CBMi7gNBVV95cUxNOXZzc0xlRmhRRVRRbFd3RXVIcER4ZHFjclJMaUxtb3dIeVlxSHBPTUVEZFhVbEpNTHFvMzJHckdBVkUxQ1prMms2dTZNeDlNTHVDWEt2WGg0a1M0bU50UURRTThXYUswaWpQQU5PZFpCa0hIalpZTHZMN2FmYVRYYmVEZWMydnJuOXlFTDJtX19oSW44TjN6aWI1bzZwZXFtVXNKTVM5dGFyNkY3anB4NGc5ekI2TzNCREdETXM2ME50Q3l1czQ1dWd6ek84SDBldGVscVFJcHdQYzVSXzVlRXlEenFidDlId1pqYkpnd1NzdDdRWElYbTQyQ2p3aW4xMmNPOEdfLVJ2YlRHeTJyRGR2MEZreWRGazRsSWNnR0hvZGpRX1Q1SC1wUENXQmxTaC1CNWotOHpYTWNkcnRseWhaeDdLY3JJOTBLM1FRRTBybUpuckxwdG1QQlZEREdvNGQ0RjhVZ0RHeHMyb1NvTnQycldjV1pTNFNIc0pKcTJyWHBVb2dIR1N4NGotcmZvMk8tOXdFdDI3alFBVWRESFVwZnN1YjQ0LVpfbExVNnlQVEhEMFFjZUo0a3RfOFRLVEFYUXJMY3hZcDlrM3ZGS2loUHE0UjdtVEExRTFieG1sMUpHcUMzR2pUX1NUZ9IB6ANBVV95cUxQaFRqTXo4Ri11dzNhZjc0bnNKRGRjaDRSNzRCTWl6aGhlSnk0aHVzTjZEVFpOU3htNFdGdDlUMlUzM2RsZ2ZDMHI1QUJia2VNb1hIOEVuT202LTRXaXNfdlE5QVB0YWVtSEdfVlVrR0lJZXl3ZFNMOTBHM2NYM0s3amVEMzlxTHo3Rnd1eXAtZFJDdnhKa0VPOVZqSDFTWG1QQWVqNGxSN0FERkhCUEVlZV8xNVVKeVV3UFdidXUxQ0w0QXRMUnJZX1EzNzN2UEkyUFlMVVN3SndLaHZCNmZpMTFjcGdRMjFqeFJDaDQtak11Q2JReDhDdnNKdnBYRjljZHlScjdIcV9URU5VR1dsWldreTIyVFFDTmhJZW5ZU1J1MHJuOEhZOGFESkZudHgxV2NBRVRnazJWa3ZybTkwdzhwSEhXYU83T19JS3NDYTZEck5DZGRMd29sczYwRWhidUJibHVhUTNXSmNna0J2MnRQbnVMODF3dVZKdmI5ZGpucldXQlJGNTRQMGpSRWl5Y1V3dEF4dDVoZXRJM2EwS2Izem1FMjNrbVBsSFV2NVhBR1lrLU1OUEJkdmdjdXVQR1ZlbV8yX3hlTk9TY3phamRxVVNidGtKY1l5ajU1dlRRVmlfek5LcA?oc=5"
+          "name": "صوت بيروت إنترناشونال",
+          "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxNRHZYSDBNdEZoV0k4X1Izamg0clA0aGM2NjJ1WDZMWlZUM3JsY3g4bkFxUm1zQzg1NEROLS1EM1NrS2R0cnpuR050Q20wWVpPcFpSekpFaUF5cGFRanpHbFVSaDdyZGQxdGlEQjM0OFowMURLV3MxYVltN2lmZ0M1RUNMbm9tbVZIZVRVUU9relhyTjg1djNkN2ZlZXFJel84RXEycUpVYmhKS1Q0TjVpNF85RHRYaTN3ejFZN0NrZ1RlLVdzZzItVmtPNmRWb2dFNXVScjUtSlNLcVYxcDdiaVBxbkJTS1FxNnJsa1dFb0dMVDFTZVlmaTZTM09JNWdRM051RTlHNTZoYzVhV1FRWUVCX3E4NEdUMnNxX1JLMUF2WUVickhTUEJGT3R0dkNKR0xJazJ0NDVib3k2OXFUaVcyX1JOMnhwWlVocGlWSEIwZw?oc=5"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
