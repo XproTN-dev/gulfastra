@@ -1,71 +1,7 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-11T22:54:02.103747Z",
-  "alerts": [
-    {
-      "id": "GF-BE48396A06AF8B",
-      "level": "review",
-      "title": "KAN reports Israeli military preparing for possible strike on Iran — Anadolu Agency - UA.NEWS",
-      "published_at": "2026-11-11T21:46:09Z",
-      "countries": [
-        "Iran"
-      ],
-      "category": "security",
-      "topic": "regional",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "UA.NEWS",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVGdHNUZxVi16c2R4dDJrVl9DWEpUZUNFSjRHUDQ5Q3U4ODlSVEhyVW9FTDNlU2J4bHRpRFBMWDhxZUdacE1hdVNKdUdfNHBkRzMxeUJKM0NNcFB5WWhnMW1mRmNQN3BVTC1heFpPNHVra3NrZ1cxNVgyWGN3eTY3WHFEd3U4WGp3LXlxOEtLSXFKOS15a002YTJhSWszd0h3VV9aUEpxZXEzODUzMGFPWVlpVEdtY3p0RWpab0hMR3d1TmxD?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-84FB9CD0B98DFF",
-      "level": "review",
-      "title": "NCC Fajr Attacked in Hormuz as Iran Claims 2 Ships Struck - https://houseofsaud.com/",
-      "published_at": "2026-11-11T21:43:33Z",
-      "countries": [
-        "Iran"
-      ],
-      "category": "security",
-      "topic": "maritime",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "https://houseofsaud.com/",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE01Z200eHAzT2RyMmJoSXE3eUdVamtYZFlSRWVFTWFDbEdSWThNLUlfQ2lEenNiZHNVTXE5ZzVwcUtLa3YwV0JxelZFb0JCb1IwazV2djNIelVjWnZ3Qko4MTRLbjhDVzdaOGR4VURYck5YVk5I?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-2525B13A010100",
-      "level": "review",
-      "title": "عدن تحت نيران الصواريخ.. انفجارات تهزّ المدينة وهجوم يستهدف معسكرات التحالف السعودي - جنوبية",
-      "published_at": "2026-11-11T21:26:28Z",
-      "countries": [
-        "Saudi"
-      ],
-      "category": "security",
-      "topic": "missile",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "جنوبية",
-          "url": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxPRnE5cGlNZ0VFWVJ4UTJwODlaaGtJZ21LdFFxVVhWVUw4M3hiZVZ0Q0wxQVRsMzRJMWJFaG9TUWVnbEtqNF9pcGppYTlCRUgyaUc2dnB1SWk2cW1HNXdyWFI4ejZWUS1QQVZjSVJUQWFfTmtGMkgyTlBwNVhnemd3SC1kNWYzYk85NloyakV4RGhhT0JmbFFJM0F5V1U2bG5TcWRUaWQ5eEtJalBsZVR3anpZMklYbWJXSndlbHJwVW92UUFYeW94aDMxb0ZRNWxpTTIzX3BDelIwUGtzRi1FOWlmYVgwanBVbGFaWWtpOXJneTF3WDRSX1FqYXFTaVRFTUpxdFpGWTZGQnNsNl9KaDJIOWQ1dmdZbXlvS1hvUC1mbnotbk9CVFBYRlR0VjZYRHRUY1dLOEw5bzl0cUxqNHQ3LUEzcTF0RXZZaFRfdlY?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    }
-  ],
+  "generated_at": "2026-11-12T03:39:18.361663Z",
+  "alerts": [],
   "new_alert_ids": [],
   "critical_count": 0,
   "notice": "CRITICAL REPORTING means multiple named outlets published related headlines. This is NOT confirmation, real-time detection or official emergency advice."
