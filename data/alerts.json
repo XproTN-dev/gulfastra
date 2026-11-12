@@ -1,7 +1,50 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-12T03:39:18.361663Z",
-  "alerts": [],
+  "generated_at": "2026-11-12T11:52:54.964803Z",
+  "alerts": [
+    {
+      "id": "GF-3A36745B818F45",
+      "level": "review",
+      "title": "مقتل 10 شرطيين و18 مسلحا في هجوم على قوات أمنية في شمال غرب باكستان - Qatar news agency",
+      "published_at": "2026-11-12T11:10:14Z",
+      "countries": [
+        "Qatar"
+      ],
+      "category": "security",
+      "topic": "regional",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "Qatar news agency",
+          "url": "https://news.google.com/rss/articles/CBMihwRBVV95cUxQOEtmbmtxTkJPeW9VcEloS1lPa3N3RlpIZy1vczM3QTZRS0pEdFNBOFQ1eE4wSW1IWC1XOE54YUV5VG1zRGhTOEZKNl91Y3FLclZCa0hXam0xNi02OENFZ1ljUWRDcnZKa0Y1UXJYVk9aMVEyWnUzYUR1UGt2b3JndWRRVXdhX0k0aGxEZXR1MGJ3dTc4VWNHZUV3dTdoekU2b0gyVUpCOC03NWxZRWhkMWFTb1RwVEo0Ri05c0pTMTVaNDhIaUxlNXhBSXhfamotSHFLVXZ4aVFHdFZFa3VUVGhVNkU5LVdaQ3o2aU1lRDVSY2NWN2E5dHN6elZKRm5HTDNidm41cXJNa3h0YktaRUk1aDg2eG5kM3dBTXpuaEFhbEZLNE9Eb0MwbnVsUnpfNm8xMGltSk5EREhQVUo4LVU4cHRlYXdhUlJuczRUYi1nZTR6RTZKeEZsR3JKbGlXekh1LXAwakQwUjRuYUdpZnNlU3ZQMW0wN2dzOVdTVHI3RG02SUJKRFVzQ1ZZdU5FMGpPWlF4QzZKNlotS20yMmhNWnVEYmJiNm1LdUl0Tm5aTzJsS2I4a2tOMFhObkFDY3FUcmNqcDgzeWJsNkxHQ3phbWhYVmtVZ3l6M0MyRUFYYmVvbHpUV0tOcnI4eHNNSlFadV93bnJlMHB0RV9VSzZqUmMwSWM?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-5BBB64525580C4",
+      "level": "review",
+      "title": "الحرس الثورى الإيرانى: انفجارات تعطل ناقلتى نفط بمضيق هرمز - اليوم السابع",
+      "published_at": "2026-11-12T10:46:00Z",
+      "countries": [
+        "Iran"
+      ],
+      "category": "security",
+      "topic": "maritime",
+      "outlet_count": 1,
+      "article_count": 2,
+      "source_urls": [
+        {
+          "name": "اليوم السابع",
+          "url": "https://news.google.com/rss/articles/CBMi7gNBVV95cUxNOXZzc0xlRmhRRVRRbFd3RXVIcER4ZHFjclJMaUxtb3dIeVlxSHBPTUVEZFhVbEpNTHFvMzJHckdBVkUxQ1prMms2dTZNeDlNTHVDWEt2WGg0a1M0bU50UURRTThXYUswaWpQQU5PZFpCa0hIalpZTHZMN2FmYVRYYmVEZWMydnJuOXlFTDJtX19oSW44TjN6aWI1bzZwZXFtVXNKTVM5dGFyNkY3anB4NGc5ekI2TzNCREdETXM2ME50Q3l1czQ1dWd6ek84SDBldGVscVFJcHdQYzVSXzVlRXlEenFidDlId1pqYkpnd1NzdDdRWElYbTQyQ2p3aW4xMmNPOEdfLVJ2YlRHeTJyRGR2MEZreWRGazRsSWNnR0hvZGpRX1Q1SC1wUENXQmxTaC1CNWotOHpYTWNkcnRseWhaeDdLY3JJOTBLM1FRRTBybUpuckxwdG1QQlZEREdvNGQ0RjhVZ0RHeHMyb1NvTnQycldjV1pTNFNIc0pKcTJyWHBVb2dIR1N4NGotcmZvMk8tOXdFdDI3alFBVWRESFVwZnN1YjQ0LVpfbExVNnlQVEhEMFFjZUo0a3RfOFRLVEFYUXJMY3hZcDlrM3ZGS2loUHE0UjdtVEExRTFieG1sMUpHcUMzR2pUX1NUZ9IB6ANBVV95cUxQaFRqTXo4Ri11dzNhZjc0bnNKRGRjaDRSNzRCTWl6aGhlSnk0aHVzTjZEVFpOU3htNFdGdDlUMlUzM2RsZ2ZDMHI1QUJia2VNb1hIOEVuT202LTRXaXNfdlE5QVB0YWVtSEdfVlVrR0lJZXl3ZFNMOTBHM2NYM0s3amVEMzlxTHo3Rnd1eXAtZFJDdnhKa0VPOVZqSDFTWG1QQWVqNGxSN0FERkhCUEVlZV8xNVVKeVV3UFdidXUxQ0w0QXRMUnJZX1EzNzN2UEkyUFlMVVN3SndLaHZCNmZpMTFjcGdRMjFqeFJDaDQtak11Q2JReDhDdnNKdnBYRjljZHlScjdIcV9URU5VR1dsWldreTIyVFFDTmhJZW5ZU1J1MHJuOEhZOGFESkZudHgxV2NBRVRnazJWa3ZybTkwdzhwSEhXYU83T19JS3NDYTZEck5DZGRMd29sczYwRWhidUJibHVhUTNXSmNna0J2MnRQbnVMODF3dVZKdmI5ZGpucldXQlJGNTRQMGpSRWl5Y1V3dEF4dDVoZXRJM2EwS2Izem1FMjNrbVBsSFV2NVhBR1lrLU1OUEJkdmdjdXVQR1ZlbV8yX3hlTk9TY3phamRxVVNidGtKY1l5ajU1dlRRVmlfek5LcA?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    }
+  ],
   "new_alert_ids": [],
   "critical_count": 0,
   "notice": "CRITICAL REPORTING means multiple named outlets published related headlines. This is NOT confirmation, real-time detection or official emergency advice."
