@@ -1,31 +1,143 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-13T00:41:04.240922Z",
+  "generated_at": "2026-11-13T07:22:39.806403Z",
   "alerts": [
     {
-      "id": "GF-AEBCAE1E7B7D8E",
-      "level": "review",
-      "title": "Yemen’s Houthis renew strikes on Saudi Arabia as UNSC extends sanctions",
-      "published_at": "2026-11-12T23:52:38Z",
+      "id": "GF-6DDF6C64288DEC",
+      "level": "critical-reporting",
+      "title": "Dubai Airports Suspends SpiceJet Check-In Services Over Rs 35.85 Crore Unpaid Dues; Four Flights Cancelled - Pragativadi",
+      "published_at": "2026-11-13T07:16:38Z",
       "countries": [
-        "Saudi",
-        "Yemen"
+        "UAE"
+      ],
+      "category": "transport",
+      "topic": "aviation",
+      "outlet_count": 2,
+      "article_count": 3,
+      "source_urls": [
+        {
+          "name": "Pragativadi",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZDl2WHB6QVdNNy1OalpqUVhjRXZJLVpWRmJHTWpNX2VPYWprc1ZETVB2bjBKUUIxYUdWQ29IMWEySVFPNWcwS0pOUWl5ZmdoaVJqNVBBZm55bzQzdDJocXRoREJ6Q08xcjBWQ2hyRlp1WWFTWW5PMXVqS2FObnhFalZTZUhyZ2dQVW5KQThyeVAwZHh0WEpVWFNQTWZpSXdzdEVXb1l0X2dZTG9xOEh0aWhUMjlxbTdoeU5RUHpJZXVzcmNId2loTFFR?oc=5"
+        },
+        {
+          "name": "ABP Live English",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNR21ua1Z6d3Qzb1B0NnBaN1NJVHpIM3VON1BtSXYtbG16c3M2TUswbENJQ2ZKbnVDbkFYeHlhU3RPQlRCci1tY1JPX0FBbzJqV1IwSGxsai1SYnAzNmlvZ0NHdEdDWXR5SnUwZTRCd0dIUWt1TFR0dzU2YTNGNy1lLTlYUFk3V0pHYzRMSkUyS1QtMmw2OUkwZzdwX0hFemd6QU9GUW83bmFMYTV4eVJHM0xncEpWVmIwdm5EU29tem15eGtUWjgyeFJ1MWhTemJDRDFsclQ1aDRMX1hBRlpUYS1JODRuM0JqUXg40gHwAUFVX3lxTE1pM2N3X0Jybm9yeE5JZHEwXzRXaWxlZmp0RUJnb1hMQU9pZTZYc3pSV2IwRmFuWmJaN2RRV0E3bFZxQUI3OEFWM1Q5VVU4NU9DREZjTXFTMmcxVGcwS2xyWl9DMlJoZHhCaTNIb3VobkZXNDlaSWxsNHpicWlEelpNdXc1TzlfcmpMRWtLb0JhYmxnOUhZclVBWXktVGE1LUtXcldyWkthUktfbm5RTDg3aUx0Ykd1U0JuUUhuaXhFbkFhUXo4QU9zUVVfS1VHZGphMW9ZQnliQUpOT1doRHFrYm5RMjN2TFVNWEh5czVWNg?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-95B191D449D739",
+      "level": "review",
+      "title": "Iran says tanker carrying liquefied gas hit mine, exploded in Hormuz - The Times of Israel",
+      "published_at": "2026-11-13T06:58:07Z",
+      "countries": [
+        "Iran",
+        "Israel"
       ],
       "category": "security",
-      "topic": "sanctions",
+      "topic": "maritime",
       "outlet_count": 1,
       "article_count": 1,
       "source_urls": [
         {
-          "name": "Al Jazeera RSS",
-          "url": "https://www.aljazeera.com/news/2026/11/12/yemens-houthis-renew-strikes-on-saudi-arabia-as-unsc-extends-sanctions?traffic_source=rss"
+          "name": "The Times of Israel",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZ1VFbWFUR1hRdXZuYW43dDVyeUI1d1F2eVFJNnpUSVk1eFJueTh6dmx4N2Zvd1hxaW5wdkhLZVEyei11VmU1ajhreGYxajdnOGtFY2tEWWRkYWtCVGJpY0R4Y2dLdExzMTRmU3puVDdxWENsM1RfdmJWZ3lIRE02M2h6LW5KZ2pmXzlUSXp0TzVxM0Fydm9zcmxJVmNma1dJcVdxUjBoWjVJNnZIVTRkUmZ2SQ?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-53DC0E171434C4",
+      "level": "review",
+      "title": "SpiceJet’s Dubai Flights Cancelled After dnata Check-In Services Halted - Live From A Lounge",
+      "published_at": "2026-11-13T06:56:48Z",
+      "countries": [
+        "UAE"
+      ],
+      "category": "transport",
+      "topic": "aviation",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "Live From A Lounge",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZHN4X0wwQ1p1dzdzY29QUWRNT1VmZzlKVHNraFVBcWE0WFlwZEh1SlZabHBQY3lBRm44LWVSMzR4blhUUVRFbl9oUW02YzB2clk4QlNBNFBseWR4bXVvZ2dCUGpsaTRXRG5IUmtzSTJzc2RZQW83OXJPZU05MnpMcDF2blFrOGtJRm1xU1VzLWxBekhsdVktbVFjSXJ0cnNp?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-53DDCC0D63595B",
+      "level": "review",
+      "title": "إيران: انفجار بناقلة غاز مسال في مضيق هرمز بعد اصطدامها بلغم بحري - Reuters",
+      "published_at": "2026-11-13T06:44:00Z",
+      "countries": [
+        "Iran"
+      ],
+      "category": "security",
+      "topic": "maritime",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBBX1EyZHZPSkh3d2RZSVYycE4zTUU4TFlrNWNuRzBLTnQ4MEJ6S3h4Wnc5ZGRITk9hRFJaUVFVWVZia0RSVTBIVkJBRjJfQkFVdkdDRlc5X0htVzBReGRjXzdwOFZXcWc5UURSNG5zUHRXaXFoT1p2ZFAwMA?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-CB66F221AB1EC5",
+      "level": "review",
+      "title": "SpiceJet Hit By Dubai Airport Suspension Over Rs 35 Crore Dues, 4 Flights Cancelled - Times Now",
+      "published_at": "2026-11-13T05:37:01Z",
+      "countries": [
+        "UAE"
+      ],
+      "category": "transport",
+      "topic": "aviation",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "Times Now",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOZFIxZXFBYWhfNmxEZktfUFdUcnY0dUpHaDhZbG1FZUpvWG9oUmhIaDBQNnBPNWtfeERDd0VlRVlUWnlmZzljOFVkQ3I5SWdQTmFpRjlXeFMwOFExT3lPSlpHZ19raEN6RUdJX1huY25ET3kyczUzQUdWWXJnTUVyZHA2cnpBSi0zQmNwWHZRMllKLUlYeERvazE0NTMxNUVFTEZSdC1pdkN3bXRmTGNRMGwwdTBGOFNpdmFJczg3cnhjTHo0TklyVXV3VVR1dHV6R3lybGVXdTJJRVRjbjRsenlrMlBnOVF3VmZj0gHwAUFVX3lxTFBTdFkxRUVPMXZnV1BFZC1LamxRRVkzYnZ2SEU2aklaeFFWblo1WTlSN1h6NTdmQlplTFQ0N3hlU3IteW80Tl8xR2lmYmhfVGRObTBnSFB6bEJieThvOE0zc2pqWmg2OC1zdmFVZVAwYjQxQlhxMkpKUmZlWjhQOWJRNUxWVUpjdG5ISWcycGlLSDJkNDFEb0VWUTl3cV9rdl9Gb2U0UWhLellCdTBtMlBFVS15UGw2b01pcTJiWXY1SGE1MzVHRzhidE9May0zak5INkNUOVMtQWdkOElfZUduTEdHS25faGZDbEYxaTFHVw?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-89829005D64CAF",
+      "level": "review",
+      "title": "الحرس الثوري الإيراني: استهدفنا رادار إنذار مبكر في البحرين ردًّا على هجوم في \"سيريك\" - CNN Arabic",
+      "published_at": "2026-11-13T05:30:51Z",
+      "countries": [
+        "Bahrain",
+        "Iran"
+      ],
+      "category": "security",
+      "topic": "regional",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "CNN Arabic",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQY2N3NmpfOTRqRmU4MWU4dW9rcXoydmM4UWNmd3IyV09YaWhoVHAxYXdwRFRjUUttRlRndlBMc2ZBVUlURndLamJqTF9ZaEN3Mk9RMlBLS0R5c2pCM0tfaU1Sak5uMC1kOXpnUHcwS192QzItVVJLeXhSNHZBT1o2cFNPb281OWFMY3hULVl1Zk1talE?oc=5"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
       "verification": "unverified-reporting"
     }
   ],
-  "new_alert_ids": [],
-  "critical_count": 0,
+  "new_alert_ids": [
+    "GF-6DDF6C64288DEC"
+  ],
+  "critical_count": 1,
   "notice": "CRITICAL REPORTING means multiple named outlets published related headlines. This is NOT confirmation, real-time detection or official emergency advice."
 }
