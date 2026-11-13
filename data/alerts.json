@@ -1,122 +1,33 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-13T07:22:39.806403Z",
+  "generated_at": "2026-11-13T15:35:12.741297Z",
   "alerts": [
     {
-      "id": "GF-6DDF6C64288DEC",
-      "level": "critical-reporting",
-      "title": "Dubai Airports Suspends SpiceJet Check-In Services Over Rs 35.85 Crore Unpaid Dues; Four Flights Cancelled - Pragativadi",
-      "published_at": "2026-11-13T07:16:38Z",
-      "countries": [
-        "UAE"
-      ],
-      "category": "transport",
-      "topic": "aviation",
-      "outlet_count": 2,
-      "article_count": 3,
-      "source_urls": [
-        {
-          "name": "Pragativadi",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZDl2WHB6QVdNNy1OalpqUVhjRXZJLVpWRmJHTWpNX2VPYWprc1ZETVB2bjBKUUIxYUdWQ29IMWEySVFPNWcwS0pOUWl5ZmdoaVJqNVBBZm55bzQzdDJocXRoREJ6Q08xcjBWQ2hyRlp1WWFTWW5PMXVqS2FObnhFalZTZUhyZ2dQVW5KQThyeVAwZHh0WEpVWFNQTWZpSXdzdEVXb1l0X2dZTG9xOEh0aWhUMjlxbTdoeU5RUHpJZXVzcmNId2loTFFR?oc=5"
-        },
-        {
-          "name": "ABP Live English",
-          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNR21ua1Z6d3Qzb1B0NnBaN1NJVHpIM3VON1BtSXYtbG16c3M2TUswbENJQ2ZKbnVDbkFYeHlhU3RPQlRCci1tY1JPX0FBbzJqV1IwSGxsai1SYnAzNmlvZ0NHdEdDWXR5SnUwZTRCd0dIUWt1TFR0dzU2YTNGNy1lLTlYUFk3V0pHYzRMSkUyS1QtMmw2OUkwZzdwX0hFemd6QU9GUW83bmFMYTV4eVJHM0xncEpWVmIwdm5EU29tem15eGtUWjgyeFJ1MWhTemJDRDFsclQ1aDRMX1hBRlpUYS1JODRuM0JqUXg40gHwAUFVX3lxTE1pM2N3X0Jybm9yeE5JZHEwXzRXaWxlZmp0RUJnb1hMQU9pZTZYc3pSV2IwRmFuWmJaN2RRV0E3bFZxQUI3OEFWM1Q5VVU4NU9DREZjTXFTMmcxVGcwS2xyWl9DMlJoZHhCaTNIb3VobkZXNDlaSWxsNHpicWlEelpNdXc1TzlfcmpMRWtLb0JhYmxnOUhZclVBWXktVGE1LUtXcldyWkthUktfbm5RTDg3aUx0Ykd1U0JuUUhuaXhFbkFhUXo4QU9zUVVfS1VHZGphMW9ZQnliQUpOT1doRHFrYm5RMjN2TFVNWEh5czVWNg?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-95B191D449D739",
+      "id": "GF-AD70C8A5885AFA",
       "level": "review",
-      "title": "Iran says tanker carrying liquefied gas hit mine, exploded in Hormuz - The Times of Israel",
-      "published_at": "2026-11-13T06:58:07Z",
+      "title": "عام / ارتفاع عدد قتلى الهجوم المسلح على مدينة تيرا غرب النيجر - وكالة الأنباء السعودية",
+      "published_at": "2026-11-13T15:07:53Z",
       "countries": [
-        "Iran",
-        "Israel"
+        "Saudi"
       ],
       "category": "security",
-      "topic": "maritime",
+      "topic": "regional",
       "outlet_count": 1,
       "article_count": 1,
       "source_urls": [
         {
-          "name": "The Times of Israel",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZ1VFbWFUR1hRdXZuYW43dDVyeUI1d1F2eVFJNnpUSVk1eFJueTh6dmx4N2Zvd1hxaW5wdkhLZVEyei11VmU1ajhreGYxajdnOGtFY2tEWWRkYWtCVGJpY0R4Y2dLdExzMTRmU3puVDdxWENsM1RfdmJWZ3lIRE02M2h6LW5KZ2pmXzlUSXp0TzVxM0Fydm9zcmxJVmNma1dJcVdxUjBoWjVJNnZIVTRkUmZ2SQ?oc=5"
+          "name": "وكالة الأنباء السعودية",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFB2WVBjX0VMT3lBQzVfbFZaLXpVOWFEOTdNSDNEQTJ5dGx5SnRuMGNidWlrTG9sNi1LUW9fSC1XT04teXdWU2c?oc=5"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
       "verification": "unverified-reporting"
     },
     {
-      "id": "GF-53DC0E171434C4",
+      "id": "GF-8192B72FBF3578",
       "level": "review",
-      "title": "SpiceJet’s Dubai Flights Cancelled After dnata Check-In Services Halted - Live From A Lounge",
-      "published_at": "2026-11-13T06:56:48Z",
-      "countries": [
-        "UAE"
-      ],
-      "category": "transport",
-      "topic": "aviation",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "Live From A Lounge",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZHN4X0wwQ1p1dzdzY29QUWRNT1VmZzlKVHNraFVBcWE0WFlwZEh1SlZabHBQY3lBRm44LWVSMzR4blhUUVRFbl9oUW02YzB2clk4QlNBNFBseWR4bXVvZ2dCUGpsaTRXRG5IUmtzSTJzc2RZQW83OXJPZU05MnpMcDF2blFrOGtJRm1xU1VzLWxBekhsdVktbVFjSXJ0cnNp?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-53DDCC0D63595B",
-      "level": "review",
-      "title": "إيران: انفجار بناقلة غاز مسال في مضيق هرمز بعد اصطدامها بلغم بحري - Reuters",
-      "published_at": "2026-11-13T06:44:00Z",
-      "countries": [
-        "Iran"
-      ],
-      "category": "security",
-      "topic": "maritime",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBBX1EyZHZPSkh3d2RZSVYycE4zTUU4TFlrNWNuRzBLTnQ4MEJ6S3h4Wnc5ZGRITk9hRFJaUVFVWVZia0RSVTBIVkJBRjJfQkFVdkdDRlc5X0htVzBReGRjXzdwOFZXcWc5UURSNG5zUHRXaXFoT1p2ZFAwMA?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-CB66F221AB1EC5",
-      "level": "review",
-      "title": "SpiceJet Hit By Dubai Airport Suspension Over Rs 35 Crore Dues, 4 Flights Cancelled - Times Now",
-      "published_at": "2026-11-13T05:37:01Z",
-      "countries": [
-        "UAE"
-      ],
-      "category": "transport",
-      "topic": "aviation",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "Times Now",
-          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOZFIxZXFBYWhfNmxEZktfUFdUcnY0dUpHaDhZbG1FZUpvWG9oUmhIaDBQNnBPNWtfeERDd0VlRVlUWnlmZzljOFVkQ3I5SWdQTmFpRjlXeFMwOFExT3lPSlpHZ19raEN6RUdJX1huY25ET3kyczUzQUdWWXJnTUVyZHA2cnpBSi0zQmNwWHZRMllKLUlYeERvazE0NTMxNUVFTEZSdC1pdkN3bXRmTGNRMGwwdTBGOFNpdmFJczg3cnhjTHo0TklyVXV3VVR1dHV6R3lybGVXdTJJRVRjbjRsenlrMlBnOVF3VmZj0gHwAUFVX3lxTFBTdFkxRUVPMXZnV1BFZC1LamxRRVkzYnZ2SEU2aklaeFFWblo1WTlSN1h6NTdmQlplTFQ0N3hlU3IteW80Tl8xR2lmYmhfVGRObTBnSFB6bEJieThvOE0zc2pqWmg2OC1zdmFVZVAwYjQxQlhxMkpKUmZlWjhQOWJRNUxWVUpjdG5ISWcycGlLSDJkNDFEb0VWUTl3cV9rdl9Gb2U0UWhLellCdTBtMlBFVS15UGw2b01pcTJiWXY1SGE1MzVHRzhidE9May0zak5INkNUOVMtQWdkOElfZUduTEdHS25faGZDbEYxaTFHVw?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-89829005D64CAF",
-      "level": "review",
-      "title": "الحرس الثوري الإيراني: استهدفنا رادار إنذار مبكر في البحرين ردًّا على هجوم في \"سيريك\" - CNN Arabic",
-      "published_at": "2026-11-13T05:30:51Z",
+      "title": "Iran claims strike on US radar in Bahrain retaliation for Sirik telecom attack - The Jerusalem Post",
+      "published_at": "2026-11-13T14:31:52Z",
       "countries": [
         "Bahrain",
         "Iran"
@@ -127,8 +38,84 @@
       "article_count": 1,
       "source_urls": [
         {
-          "name": "CNN Arabic",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQY2N3NmpfOTRqRmU4MWU4dW9rcXoydmM4UWNmd3IyV09YaWhoVHAxYXdwRFRjUUttRlRndlBMc2ZBVUlURndLamJqTF9ZaEN3Mk9RMlBLS0R5c2pCM0tfaU1Sak5uMC1kOXpnUHcwS192QzItVVJLeXhSNHZBT1o2cFNPb281OWFMY3hULVl1Zk1talE?oc=5"
+          "name": "The Jerusalem Post",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5qZWhoaVp5V1BxSWw2MC1OU21JR0xpMVhxeHBuaWFCak9tZlFwN2ZXdHItWnQ1Mk5iRExJdWpFLTJEMklfMC15ZXFwNnNpN3hlY1laUkUxdWhKQ0FuMXVTUjZVc2RCaWEzNXc?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-CF1DD9ED5E7558",
+      "level": "critical-reporting",
+      "title": "US military downs 2 Iranian attack drones as Iran claims a strike on a US radar in Bahrain - Boston Herald",
+      "published_at": "2026-11-13T14:25:38Z",
+      "countries": [
+        "Bahrain",
+        "Iran"
+      ],
+      "category": "security",
+      "topic": "drone",
+      "outlet_count": 4,
+      "article_count": 4,
+      "source_urls": [
+        {
+          "name": "Boston Herald",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPMTNaOC1LajRGNHhuRURPT0ppUVNReWxtOHNhY1NaRE9SRV92aGxLdm05TVBVWXl1N2c3MTd2SmJJWkNDRHhHcE9kNnBlV09jS2dqZnJIR1lDdTV3a0tHbThFN2NFSVNVaEtuV3dzTjIybVdrdmZCSHFXZm1rM3lHU21rSmJqbzhvU2c?oc=5"
+        },
+        {
+          "name": "WTOP News",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOT1oyTEJaRTVCVVl5ZEZZTFVlR0RkVi1SSWVUeklDdVBuVXlNTEc5NWI5SjdCbUROaW9KQXA1eDNqLWJNNnlpSUFyUlk1MmFMcEg0QXZWR0pNZWVUUjlXbHB4dU94cF9fZ1FYc2JtZ09NYUpMcGpiZ1BPRWM5c2FEdXZoMlQ5NlYyejR6b0o3dTZPRzd4ZmlCbXFZNE0yWEtSN3dQMTA5UlRtdjcwNkRTczJMNzJVZkkzUVhJYi1mbUhpUQ?oc=5"
+        },
+        {
+          "name": "The Bakersfield Californian",
+          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNMWlRZTVsWnZUekF0azJ2VS1Ib0dCdDRWVUNkR3Ntb0NkWGs0TFNqSzQzamNMMzJTZFY2WmhYdFZuRkMxTVBlaVpvMUpLbkZKLXQ1WEVVMkh4SEZqMHpRYlFJY05ycjVZZGhrWUFyZEo1aXlGWXVMNTJlWDZ5UVlJMXVWeU5QejZZWngydU01RncwS29HUWtkeWdnQXg3OGVMYnhKOUxFaWJUOEgtblM3Yk1DakxMSG5BVENuQmt3cEc0OGc0VkV2NWlYa3VaOXExaFM2NUNINnRuWHMySTBocm9jcUhSb2FjWTN2ajZhTnVDYnpwSmc?oc=5"
+        },
+        {
+          "name": "News-Press NOW",
+          "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOUElYWlZDQ0Z4Z0hRUWJtb3lzTDg1c1RKOUdMVFZISTFFZEc1b3lGRTdEckY1U0hLSmFoV180RTc4NFlqSmVWdFFRV0lGUGZjS2dqRzRUc3JfVXNzbmtkWFQ0NlpXTW00c1hDQTdlZ1NVVGoyZ1BDeHItVUN2aGRjQ1hacWhVd096UlFxWHJoOGFsUmcydkxuV2FIX0tSN2I1MU9pR3JOR2F5VU9RandEbUNHM1pnVDVmU29UWWstNFdpeHV0UHZWZ3VGYnZ1XzFGcDFGRXNJaVpPMWswOTBsWktvOUFmeVNYM2U5VmVPLTFIR1RLdmdZRkRINzhMZnZMamZFLXhyanZJa1g5?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-AEF15216200D92",
+      "level": "review",
+      "title": "Can Netanyahu launch a strike on Iran before he leaves? - Al Jazeera",
+      "published_at": "2026-11-13T14:21:35Z",
+      "countries": [
+        "Iran"
+      ],
+      "category": "security",
+      "topic": "regional",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTDVpZXM0aE93SXF5aVY4RzJ0VWpkdExxa09ab0VsdEpkUWVLRDJWZk9QbzJ1ZDRRRXRTaHBxYUlPcEp4VlhqY1JnVlVEaTU3UFBaVk0yajY4MWlkZm1kSmZIOWVSampraEd5TnZ1TnlNVWJER2g5R0p3cl8ycmRraEg5S2ktaTV4OTFQaGJlbTVta21SYlpPM1BnUzLSAaIBQVVfeXFMTS1nUFo2cWt1eGhEcG9uNTQ3R05sMzZzSU9seGsweFlYMFRlNXBQS21uRU44SEtrczhpekRVaW11Uk15N0tkbzhMcENKWk5FOXdLcmh0MGhwaEdRbGVkdzFINUo4MjNyVld1ZXVXQWQ2c3lvWUFoZlY2ZFgtcEJUSjREVFpZZDdoUnFwNGc0bGlSZXAyWHluNEJDTC1DZjNlRDFn?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-2BACF60A633D3D",
+      "level": "review",
+      "title": "Can Netanyahu launch a strike on Iran before he leaves?",
+      "published_at": "2026-11-13T14:16:20Z",
+      "countries": [
+        "Iran"
+      ],
+      "category": "security",
+      "topic": "regional",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "Al Jazeera RSS",
+          "url": "https://www.aljazeera.com/news/2026/11/13/can-netanyahu-launch-a-strike-on-iran-before-he-leaves?traffic_source=rss"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
@@ -136,7 +123,7 @@
     }
   ],
   "new_alert_ids": [
-    "GF-6DDF6C64288DEC"
+    "GF-CF1DD9ED5E7558"
   ],
   "critical_count": 1,
   "notice": "CRITICAL REPORTING means multiple named outlets published related headlines. This is NOT confirmation, real-time detection or official emergency advice."
