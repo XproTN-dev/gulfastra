@@ -1,44 +1,24 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-12T19:32:54.690123Z",
+  "generated_at": "2026-11-13T00:41:04.240922Z",
   "alerts": [
     {
-      "id": "GF-495005D42C8734",
+      "id": "GF-AEBCAE1E7B7D8E",
       "level": "review",
-      "title": "Al Jazeera reports from Gaza hospital attacked by Israel",
-      "published_at": "2026-11-12T18:03:02Z",
+      "title": "Yemen’s Houthis renew strikes on Saudi Arabia as UNSC extends sanctions",
+      "published_at": "2026-11-12T23:52:38Z",
       "countries": [
-        "Israel"
+        "Saudi",
+        "Yemen"
       ],
       "category": "security",
-      "topic": "regional",
+      "topic": "sanctions",
       "outlet_count": 1,
       "article_count": 1,
       "source_urls": [
         {
           "name": "Al Jazeera RSS",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/al-jazeera-reports-from-gaza-hospital-attacked-by-israel?traffic_source=rss"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-7714412A87F1E6",
-      "level": "review",
-      "title": "تصعيد جديد في مضيق هرمز.. إيران تعلن انفجارات في 4 ناقلات نفط - صوت بيروت إنترناشونال",
-      "published_at": "2026-11-12T17:38:35Z",
-      "countries": [
-        "Iran"
-      ],
-      "category": "security",
-      "topic": "maritime",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "صوت بيروت إنترناشونال",
-          "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxNRHZYSDBNdEZoV0k4X1Izamg0clA0aGM2NjJ1WDZMWlZUM3JsY3g4bkFxUm1zQzg1NEROLS1EM1NrS2R0cnpuR050Q20wWVpPcFpSekpFaUF5cGFRanpHbFVSaDdyZGQxdGlEQjM0OFowMURLV3MxYVltN2lmZ0M1RUNMbm9tbVZIZVRVUU9relhyTjg1djNkN2ZlZXFJel84RXEycUpVYmhKS1Q0TjVpNF85RHRYaTN3ejFZN0NrZ1RlLVdzZzItVmtPNmRWb2dFNXVScjUtSlNLcVYxcDdiaVBxbkJTS1FxNnJsa1dFb0dMVDFTZVlmaTZTM09JNWdRM051RTlHNTZoYzVhV1FRWUVCX3E4NEdUMnNxX1JLMUF2WUVickhTUEJGT3R0dkNKR0xJazJ0NDVib3k2OXFUaVcyX1JOMnhwWlVocGlWSEIwZw?oc=5"
+          "url": "https://www.aljazeera.com/news/2026/11/12/yemens-houthis-renew-strikes-on-saudi-arabia-as-unsc-extends-sanctions?traffic_source=rss"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
