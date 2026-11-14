@@ -1,29 +1,7 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-14T15:06:38.474792Z",
-  "alerts": [
-    {
-      "id": "GF-EB586C7A75A1BA",
-      "level": "review",
-      "title": "خلال 12 يوماً.. مقتل وإصابة 136 مدنياً جراء هجمات الحوثي على تعز - العربية",
-      "published_at": "2026-11-14T14:20:00Z",
-      "countries": [
-        "Yemen"
-      ],
-      "category": "security",
-      "topic": "regional",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "العربية",
-          "url": "https://news.google.com/rss/articles/CBMi3wNBVV95cUxPMkpoOWNEc2pLaE5IR2xTd1lPS09nVThXZjF0bG92MmtIMXpaRjNDOS1VRVhsdTZXc0RJZjloQVRIVUNWN0R4a2dpQzBKdk1iYjBnVlpQanV4SVU4NHdEWm5vZEY0dndrV2VkWWczaWhhcmlwWXpIdWJINVl5NGNmY0JNcTk2Q0dGQTQtNjRUbFZ6d0dKQ2h0a09lWDVVZE9EYnY0R19NQTQ2THZNSHdjcUhzZTA5T0RrN0VqdlZiX2xqdWlnYWk3Y2Nnd2tZSEZ4X2FKbTVpZ2gzcU1BbVIyekZTWUc4X29ncnhPcG4yM3FjdG04ZG1nLWY1ZlN5VnY5OHBhbVdDNmFfbFBZLWFycU1TRHRFTDRXemYzdWxVNWVzRm93WWlBVFhMUVNkdENFcVNGSUh1MzNGV3RNTTAzZE5PRWs2UDlaYWhMVG4wTHZpdlJvZVZHa3JpMHJqLW1kdDBuWkR3N09IOEY3RUJjRnYwWUs1c3lMeF9yaDBIczNfUHRMTWFpYUdQYktvMkczS3NsR3BFcUFacGpDREk2TnpBN3NCUUxXU3VUSlVtdTdlcURSUG1TR29sWE5rNFBORTlXWTRCTFlKbUJ0SXFqbUpiUUxwQTlscTB3U3FSONIB5ANBVV95cUxOM0dFTlRIUHV2a1hrajlJbkpXVGdMbXpUZU1MN254MmlmMzk5c2VKX0lKTzJPLW4zV0FnSEFhQVRqREpKS09mWENfZ0sxcy1iZE80VkJpdFh1WnUtMnZSaFZzY05kZ0VmenlrSW5PWFZ1emJGTUdlcFVaSURBTmNKdHdFMFpKT3dDdUtjb3o2M2owLWg5Q0FXcG11Mkt0YVVQSV91UUNDVjg2S2RjX2hXcUx1QTM2LWNOb0pXdUVUeXdvYU8yVGlneGl5S1lBS0NiRHBsWGV0cldZcjAxSi00cUp6dTI2Zm1mbEdFWEFDSldyT0cyeFp3dVZJTlljNXUxUGo2YVFhQXMzaFBIWFJZZC1MaGQ2cVN1TkJkbm5HMWhEQ1ZReUUyd21NbENuM2xLZ3EyeTN1OXo3SXdjNmtkZjRRSFRSdlVoNE9XZWVJaGI0S0RrNk9fd2I3MEhBaFVSU0J3OUxzRjVYa1dNb0pkY2V2YlZiX2FVUnFlcE42RFRmN0xTY2VCWmw3LTdRRkdzYXJLeldrY3VKNVBfVnJ1Mk1DUTRnSVFicGRMRURRRmhILUg1SklHT0RPT0pacVdCc0xlVzdkUzlTQXF0NFNIZEVELXRUVy1BNUhxN3MxSTR3d1M2?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    }
-  ],
+  "generated_at": "2026-11-14T19:55:41.029437Z",
+  "alerts": [],
   "new_alert_ids": [],
   "critical_count": 0,
   "notice": "CRITICAL REPORTING means multiple named outlets published related headlines. This is NOT confirmation, real-time detection or official emergency advice."
