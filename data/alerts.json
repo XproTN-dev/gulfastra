@@ -1,7 +1,27 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-14T19:55:41.029437Z",
-  "alerts": [],
+  "generated_at": "2026-11-14T23:46:26.337140Z",
+  "alerts": [
+    {
+      "id": "GF-C1F1404A074626",
+      "level": "review",
+      "title": "انفجارات «هرمز» تعمّق الأزمة بين واشنطن وطهران - المصري اليوم",
+      "published_at": "2026-11-14T22:01:00Z",
+      "countries": [],
+      "category": "security",
+      "topic": "maritime",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "المصري اليوم",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9pODJBdU5DUG9jOGFNZFBYU2lXTlJoRHRHQU03MnpKaERmcE9BaTBZT3ludW9uY3RqZWdVV0NOVHhCSzF4V25WUFg3TV82a0pJYURRVmhDU2o3Z29VNHlR?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    }
+  ],
   "new_alert_ids": [],
   "critical_count": 0,
   "notice": "CRITICAL REPORTING means multiple named outlets published related headlines. This is NOT confirmation, real-time detection or official emergency advice."
