@@ -1,45 +1,23 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-15T11:05:39.208834Z",
+  "generated_at": "2026-11-15T17:41:59.221242Z",
   "alerts": [
     {
-      "id": "GF-B9946F32A9395B",
+      "id": "GF-F650758E627B4B",
       "level": "review",
-      "title": "انفجارات في البحرين وايران تعلن مهاجمة قاعدة أميركية بالمسيّرات - مونت كارلو الدولية",
-      "published_at": "2026-11-15T10:43:41Z",
+      "title": "انفجار جسم من مخلفات الحرب يودي بحياة طفلة خلال نزهة في العراق - زاد الاردن",
+      "published_at": "2026-11-15T16:11:50Z",
       "countries": [
-        "Bahrain"
+        "Iraq"
       ],
       "category": "security",
-      "topic": "drone",
-      "outlet_count": 1,
-      "article_count": 3,
-      "source_urls": [
-        {
-          "name": "مونت كارلو الدولية",
-          "url": "https://news.google.com/rss/articles/CBMiigVBVV95cUxPUk53OTlSeFRqbjdkLVN1R2dxVkd5YWFXTXh5Mk5CallJRUE4aTFxdElrel92OElMMWtWVnc3ZjlQMzB0MUhlY05kdFdMV3lNYzdJSU9TLXJHbGxhNk5ndUM3WUtoMC1LQ0pvaFBkUTZ6ODJVMDI2dTBNbS15OTN5ZkJKVzFsOV9xYnNreV81SWxyZFNlMGJha0dhaDNtSGN2RG5ELUpnUWxqNkpnU0VMaWYxR2VpV19Eek9jWDd1UHAyNzBfZUhqZXVlc2lpOU12aDBJU1N0dmFOYmYyakdjd3oyd19PVHlpS19VT0F2M3ZSQnhLOFE3eC1jYU9rYjRlNnRsWXRGOW83cU1ubjNfWnhBbm16SjFNM1BuOEdfeF9TV1JiWWpRSWZ6LWcwcERfZzhENWhtRHdGMURGY003dWFoYU1rSkFFWF9Ed0hJY295RHpzZkFuRGFpeHlQcUpJU2VMdTF6Q08wNmw1ajFNbHhYMVFBVDdUZ19QQ3dJbzFpYmkwQi1ZSHN0YnozaTZ5MWlVS0pkZkNKdGV0WHViNmFQR2xUQzd5TGV6TWh1X3pvY09yWUdmOVV6R21EbkZYRVFtVDAzWVJET3kyZUNfUU91WXdFSTBxTVY2anlWSVNBY3hULTRwTHN1SHF2eFBGRnpuWmN4YS1oTFJ6MUlwQkV4akExZDRGWUc2TDlDZC0xN09jTjg4NmVaX3p4dUxwOUNueEgtSzdyTWhLejNlTHVxcHZKT3V1alBiVDBCMmdSZDhTRUhQX2huODB6eXAwb29XMUg5VmhINXdpNjdNYm1ESnBfVHNNM1NmeHJ4TW11eUhCSk5oNlpqclBEdGZMZGNqcXAycDJUUQ?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-95B0F56F7BD409",
-      "level": "review",
-      "title": "Bahrain Says It Intercepted Iranian Attacks As Tehran Claims Strike On US Base - Radio Free Europe/Radio Liberty",
-      "published_at": "2026-11-15T10:19:36Z",
-      "countries": [
-        "Bahrain",
-        "Iran"
-      ],
-      "category": "security",
-      "topic": "interception",
+      "topic": "regional",
       "outlet_count": 1,
       "article_count": 1,
       "source_urls": [
         {
-          "name": "Radio Free Europe/Radio Liberty",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQN3N3OTdtcVBkc0JrU3pkcHd5TzJGcEpMQnVjTjJEXzlkam5XLUJ6b2NYZXNwd3FQMktXZmhDRHJyWTRLeldVXzFIMEJJcjNKSVQwRGhBMUw0ZUY0MFVmVFd3VDNBTjFseGhyVXYxQjVNVkx2ZjByTXhwNEhVcXMtdkpRTFp1RXFrYmw2bnNvdTRJRVpMelpRZHliOFd4RmxKUlVWQ2Z2VmFGOG91X3JEUFpDazFjZXY1cmFLWkZYekhFUdIBxAFBVV95cUxPbjFDcE1DMDVmNHdGQlBhMnVaWm96M2dZN0hZV1RBekVLY1o1UHczR2duVHQtVzg1NGdCZG9MUEN3RXZjVjRCMHBxX21oSHIweVpOYnVyay16d1dWUmtKbkEtdlVHQ2R4TVg5VTYxcDR6NU5UNHllZHdYN3JZVXZidS1UdDI3dFpCN2hNMWswOTM0cFQ3TUNJaG5oUlFNeHI5TzFGZGpScnV0QS0tYnNFR3Z1VEptekF4Y19oRk9uczNKRXFj?oc=5"
+          "name": "زاد الاردن",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE92NjBvVWZ2TmtUZmxjbXZmVEM5ZC1tMENxVHJJaUZCSUdvLXVqY0szWEtRM09iRUVEV1RndElVNDIyV2h3Q0NnR3pvSFNsTW5RbW9sUkltMElBTmZ3S3lzRU1pTTA0NDRkemc?oc=5"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
