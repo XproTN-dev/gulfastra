@@ -1,21 +1,66 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-14T23:46:26.337140Z",
+  "generated_at": "2026-11-15T03:12:21.867647Z",
   "alerts": [
     {
-      "id": "GF-C1F1404A074626",
+      "id": "GF-4E6B2EFF2EAB53",
       "level": "review",
-      "title": "انفجارات «هرمز» تعمّق الأزمة بين واشنطن وطهران - المصري اليوم",
-      "published_at": "2026-11-14T22:01:00Z",
-      "countries": [],
+      "title": "«انفجارات وصفارات إنذار في البحرين».. أنباء عن اعتراض مسيّرات إيرانية فوق البحر وتقارير عن تعليق رحلات المطار - صحيفة المرصد",
+      "published_at": "2026-11-15T02:21:42Z",
+      "countries": [
+        "Bahrain",
+        "Iran"
+      ],
       "category": "security",
+      "topic": "interception",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "صحيفة المرصد",
+          "url": "https://news.google.com/rss/articles/CBMirgZBVV95cUxNbUFULVQ5aHEwWjZmSGd5Vk5rSWlIclpsbl9EeE9KRUtVQVFwNGkyWWdNQk1WX2dNTS1uclJBYnNJbm5iNTBpN1FOZ1hPR3JtaTVuSWNLUjdiZTR1VVFrX2pXdWlPMFdPVjBYNm9mTkt1dVdYb1dLYS1ab3FpQlc3c0FBU2ROTVdLOXFVTlFrUDRKSWtSdlBQczhTVmhaWGRzS3lLaUJaYXRQdnBXM2p1bnc1U2JEWmo0dVlrYmI2VjUzM215ZDRLMFJXcTlPTlRreTBXemRuNy13S2FId2cyRVJtSkZHS1NDbEw2TUhPMExYLVNwRjJjUmR1eWF1X3pyaWRBeV9LTFQwLWxBMGdvYjBod2VZNG9peVFIVExOWVJXUi1IRzZlQk02aElBS0xBUExQUlhXLVVDVWhOVDJYY3E0SEZfeWV4cDFNT1JoczNGTlBjZ2gtNDdLVHE2c1JLR1p6MlBkRlpqdXJ6dzhWT1NaTTFjcWFOM1JXM0xWZ2VNMlhqUWFGTk1qZ2RXX2tJYkZrNlI4cHVzSDNNWWRNT2xxN2t5SmszMW1FNEZ6bkR5TUhXTDQ0ZGxMd0JteXBabmJuaExLclJfMTFrdFdXYTc5YVJ4WUdIb1YyZU9NaXR2WlZHQmhKSTFoX3RYWS1vWTRtSkhOWGE5a3RMM1lfNDN3LW15akp6Zm0yU0llWG1oR2gzc2M1MmxZLXZLckk1WHFCMXU1SXhwRWRKVVoyRHY3bUg2RXJqNTkxOWdjWUdBdnZ3Vk10TXBSeTVOWlJoUHh6cDhkdWFsZlRSNE1qS1ZQU2hMYTRmUkV0ZWF4N1M4aTZXeUFlUEJZVl9tU05UT19SYXgtLXRKdVVqZEJuZWdMSkVJVWhNUUhWc2JuUkp4c0RVQWNaV1E0OTVkZ2NqWlM1aHR1c0NpWFI2UW9Lcm5SYVdEZVdSSUxpZFhIQ2lQRU9BREJPbGNPcHBDNzNKVFpieng3bWRXZ29mVE5lcWR4ZEJkQkpkOHZhdlRYS28tZkxURUYySmk5UEh2Vmt3a2VVTDRkejNZQldVdFFQeU1QbGRseDJXZUdKQXpR?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-92B5FEF187A6B7",
+      "level": "review",
+      "title": "اعتراض صاروخين باليستيين استهدفا العاصمة السعودية الرياض - جريدة القدس",
+      "published_at": "2026-11-15T02:13:25Z",
+      "countries": [
+        "Saudi"
+      ],
+      "category": "security",
+      "topic": "interception",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "جريدة القدس",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdGZjYWRJTzdqcnNlenZxN3hBendMNkszMzJmN01VaTA3aW9FY1FqdkFBZXA4d3FFdkpvbG5hTHhwYUdPSVd1cldXVFMwWGw1SkE1TG9HeGlRMXJoRnpFWFhYOXR1VG8xNExkYzdNLTdDQTBoMmxwbi0xSnE4MjJCdXNaaVF4Q3J3ZVBjTQ?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-944F4536C77510",
+      "level": "review",
+      "title": "Iran's Revolutionary Guard says gas tanker struck mine in Strait of Hormuz - qz.com",
+      "published_at": "2026-11-15T01:48:12Z",
+      "countries": [
+        "Iran"
+      ],
+      "category": "transport",
       "topic": "maritime",
       "outlet_count": 1,
       "article_count": 1,
       "source_urls": [
         {
-          "name": "المصري اليوم",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9pODJBdU5DUG9jOGFNZFBYU2lXTlJoRHRHQU03MnpKaERmcE9BaTBZT3ludW9uY3RqZWdVV0NOVHhCSzF4V25WUFg3TV82a0pJYURRVmhDU2o3Z29VNHlR?oc=5"
+          "name": "qz.com",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBHYlRwbmh0TWU4dERuU2JjRU1fQ2FlNlBZVktzSEdSMkR3RV9PT0lKOGhSUGRvcGJnSE9TZUFZN0RHZjRKU3JkclA3VFFWODFueHJzWGxhaWFqVDMzNV9VTTNlRjJXT2N0aVE?oc=5"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
