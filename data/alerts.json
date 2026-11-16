@@ -1,51 +1,7 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-15T22:07:35.721719Z",
-  "alerts": [
-    {
-      "id": "GF-276900C0CE646C",
-      "level": "review",
-      "title": "إحباط هجوم استهدف نقاطا أمنية شمالي العراق - Qatar news agency",
-      "published_at": "2026-11-15T22:03:28Z",
-      "countries": [
-        "Iraq",
-        "Qatar"
-      ],
-      "category": "security",
-      "topic": "regional",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "Qatar news agency",
-          "url": "https://news.google.com/rss/articles/CBMiiANBVV95cUxNa3JDSzdvMjROTE1LTUNpUWh3bUJiSFZYLTh2MHg2aTdaUU9Md1lobEpBR1dKcWVUeERUeXZqSkJSSDRnY2JxemtkR29aSDR1cHR5bTF6ZHNEM1kwdGw2eUl0ZVVFcmQzMmZCbWhkeEdoQXlVMnR5aVRubFVPaF9hcTZXRjdOckFaU1VKXzJrdTZoZTkyaW5CbzhxcS1MMkVhWmJ4bzVSakhYenQwTG5zM0djMHNkMW9Ga2JXTzhwRDNOMmg3MUVGVnY2THNqdFJyeVZMZS1LVUNTcTlfZ3BEclNIck9sYlAweXNwSTg4aWo4ekdJTkVtcm1peGdwZ0ZraG1pY2FPSnJ4Rmw4TXdKTG9CZHN4VDV1OHdQM1ZVSW8wOU0xYmQ5Mkc1NUNfUV9XQWpYbWhkVmVpdFo1QkxaQ1F3Tzl5NUVYNEFPaGxGZFdkelRxOGxHelpORVBFRTVybnV6ZWN2SEZaV1lhQ2dCMGdXYXFzMUhKZHBwQ1VZcFNBTTFtYXFyNw?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-66542147123815",
-      "level": "review",
-      "title": "ما حقيقة فيديو الانفجارات الناتجة عن الهجوم الإيراني على البحرين؟ - المصري اليوم",
-      "published_at": "2026-11-15T20:45:00Z",
-      "countries": [
-        "Iran"
-      ],
-      "category": "security",
-      "topic": "regional",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "المصري اليوم",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9seG5ZSkdBMDNrVWxPbGNkSE5tRmNsNk1PYVRmNGp1cDlyVXdrUEp4OWQweDZRT1Q1NWxRd2ljekJFcEVnTEpEelYxRURyYVVhZjRubzFiNkljV3FjNTFF?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    }
-  ],
+  "generated_at": "2026-11-16T02:04:40.394429Z",
+  "alerts": [],
   "new_alert_ids": [],
   "critical_count": 0,
   "notice": "CRITICAL REPORTING means multiple named outlets published related headlines. This is NOT confirmation, real-time detection or official emergency advice."
