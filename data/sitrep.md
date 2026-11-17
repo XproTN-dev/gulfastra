@@ -1,9 +1,21 @@
 # Gulfastra | Open-source situation report
 Window: last 24 hours (publication-based)
-Coverage groups: 202 | linked headlines: 223
+Coverage groups: 132 | linked headlines: 151
 IMPORTANT: Unverified published reporting; not confirmed attacks or official safety advice.
 
-## Security (131 coverage groups)
+## Security (94 coverage groups)
+- UAE Strongly Condemns Renewed Iranian Attacks on Bahrain (1 headlines; single-source)
+  - Qatar News Agency · General RSS: https://qna.org.qa/en/News-Area/News/2026-11/17/uae-strongly-condemns-renewed-iranian-attacks-on-bahrain
+- Kuwait Strongly Condemns Continued Iranian Attacks on Bahrain (1 headlines; single-source)
+  - Qatar News Agency · General RSS: https://qna.org.qa/en/News-Area/News/2026-11/17/kuwait-strongly-condemns-continued-iranian-attacks-on-bahrain
+- Saudi Arabia Condemns Renewed Iranian Attacks on Bahrain (1 headlines; single-source)
+  - Qatar News Agency · General RSS: https://qna.org.qa/en/News-Area/News/2026-11/17/saudi-arabia-condemns-renewed-iranian-attacks-on-bahrain
+- GCC Secretary-General Condemns Continued Iranian Attacks on Bahrain (1 headlines; single-source)
+  - Qatar News Agency · General RSS: https://qna.org.qa/en/News-Area/News/2026-11/17/gcc-secretary-general-condemns-continued-iranian-attacks-on-bahrain
+- Inferno engulfs gas tanker in strait of Hormuz after reported strike – video (1 headlines; single-source)
+  - The Guardian · Middle East: https://www.theguardian.com/world/video/2026/nov/17/inferno-engulfs-gas-tanker-in-strait-of-hormuz-after-reported-strike-video
+- Qatar Strongly Condemns Iran's Continued Attacks on Bahrain (1 headlines; single-source)
+  - Qatar News Agency · Qatar RSS: https://qna.org.qa/en/News-Area/News/2026-11/17/qatar-strongly-condemns-irans-continued-attacks-on-bahrain
 - البحرين تعلن التصدي لهجمات بمسيّرات إيرانية - بوابة الوسط (1 headlines; single-source)
   - بوابة الوسط: https://news.google.com/rss/articles/CBMiU0FVX3lxTE93ZnpjdFhmSVl0Z2hkUXdkY1pySENpT3p4TmNOQTBoSTdVTXdsSzBsQWVpZDZLWS1feXh4SzBtWGNwQ2NkcmVkcWtUTTd4ejFLeV9J?oc=5
 - Rubio backs Bahrain as Iran renews strikes on US military sites - The Arab Weekly (1 headlines; single-source)
@@ -22,22 +34,10 @@ IMPORTANT: Unverified published reporting; not confirmed attacks or official saf
 - البحرين اعتراض وتدمير عدد من الاعتداءات الجوية الإيرانية - Menafn (9 headlines; multi-publisher-unverified)
   - Menafn: https://news.google.com/rss/articles/CBMi5wNBVV95cUxOSlVFWmRqdFExSFVVbld4SGE3YlpuWWhHTzVwdlJhQlFVc3BZbG54SDR2WnhzTnl2ZGhVbjZpeXE2cFViSlY0dERPMk5pSjMwcjFINjZHLXl5VmVFalR2cjlNY1JTX3VhWlV3Y1d6eF9Ua3JNb3JJd3JUVG8tdTJrTmVrYVBRa0piT25HOURpaUR1ODZYZm9sVWZWV1R4NGdGQmtNZXAxaFRCNlFXMi1QMVZMd0k3ZFZESDdHUHplT3paTEp6UElQLUlyaXc1VjlKdmdUUnUzbnRfT1RUWl9XOTVRdk95bmZCVWE0R29sQWhMVGxXRGZ1S0ZYeDVMTkZ6Y3I4cUIxcVhaeXNwdWI0UHRiY2tmTTBrdzVKVno0NmZ6NW15R1I4WGx6VTNuSFlVbWp3NU9QVURmcUx3alQxaUZiQlJWcGZ4Y0w1N0hYcHRuckRVYlNSNUVVeUdwYjJIRjNLazBPeGp0YlhCM19vbWpnSDdsQzhzOWFZejdtd2hWSUkxOURfa0hVaXltMXN1OXRFbXo5ckFTckgzcmdTZWFabl9aZ2JUN3VDS1VWamJ5NjJkRG5tWk1DdDdxVEhpeDl5NkNLaF9fUldyQ1NrQVhGSVREY0ttSEtZZnE2ejZZVGh4Umdz?oc=5
   - جريدة الأنباء الكويتية: https://news.google.com/rss/articles/CBMiSEFVX3lxTE9HQ19ieVpCVnlsNHNvS3FsbFpxRVhBcklvaUNnOWppeTJFd0Q2VDJRT3pGWThlcGppWE5hbVhoQmNGUHZaa2ZDcA?oc=5
-- هجمات جوية واعتراضات بين إيران والبحرين - جريدة الصباح نيوز (1 headlines; single-source)
-  - جريدة الصباح نيوز: https://news.google.com/rss/articles/CBMisgNBVV95cUxQOU8wbl9WemNtdzBjUVVZT3BGUmFUOWUxUF83M1BCNWxBbFNjeWRPb3JheFhTNWt5ejVZQzViekNId3AtR29EZXpzWUNfLVE4aVNxU1FrSnlMd0pfZ1JHR0E3eWpZUDNXVVl6NVpMR2ZfVzNLYkxxWVVtVy1idnVySG5Pb0NhUk9zVzlSN2d3T3VrdDJ1QldXR0pIQmVGbmZsc0RjLTVKblMzZldheHJNZWx3THhGR29rZmJfOEViWDRKUGxPZWtzdjR2OUJPR2dLdmdUUTdHWnRzVWhaRThpY21sWHFDU2I2TnYzb0w0OTFrRzdWRXJZUEQ2clQ1YXkzQ2RmdFhrejFueHdqUlFZemZUYzREQmRGdS1NMXJOVmpsUWRtVnY0aHZld0R1d3FvcnhGVExCSHAwV05wT2hoX2tkLS1ZNnA4d2pJNEVvTTFFcmRDaGdKUHNCVkdoT1JDNE1BaHlCTzRuTmo5TUdGOHhfdDVFY3VrYW53YWFUU0lQWV9kam9XTTVQQWdKc2VPUXlVNlJnNXpURDBnbXFzUXRnQ2NRTWR0LVBlVlVMRUg1Zw?oc=5
-- Drone Attack Just 68 Miles From Lusail International Circuit Intensifies Pressure on F1's Qatar, Abu Dhabi Finale - Yahoo Sports (1 headlines; single-source)
-  - Yahoo Sports: https://news.google.com/rss/articles/CBMigAFBVV95cUxOSGZtMFpYS1BKd25FejZvN2JvSEd1YzI1cEF4akN1SGZlR3pPaXAycEZVT3VuRHNaZzE0NnNXcG0xMEdYVUM2Qm5DaWROazB2UjRkaUhhSmZnV0hsbnpIZlRHZFVkbTVvTmtFbUNWWWN4VXQwUEZ1SDF6MWRSUTJxbw?oc=5
-- Whistleblower raises alarms over deadly Iran attack on US troops - NewsNation (1 headlines; single-source)
-  - NewsNation: https://news.google.com/rss/articles/CBMimAFBVV95cUxPeV9pdmZQVjUxd05aOHlUSk1pYTNKdWs3eWo4bFF0ZHotV3Q5cmVQZGxGVngxWVl4LXlzck8yaFdCZ2RvSk9IdkRQb2FrOXhNNE9CZTJ1M3lCdERJYzBkREpBamp3S2pNNWctSXJzTHIteGJRSXZaOExNbkhxdTlNUnllQV85OFZwaHhEY0ZLbl9KN0U5ZTFSX9IBngFBVV95cUxOVmd6V0V4TVNGdm0xS2tTdVloRThSR3pKSXloNU5XY2gydTFpSzA4NGZHYzJJYXVmQ3B3bDVROHl0TWI1UnhLei03dnBwZ3VueDMzMVZZSEkwUW9ka1JNamRxU2NNaW9NYnUyRFo1ak13aUw2WUJ1RlpEMVNwSEZLZWpNTjhJSVE3YXNXa3FrUGFNUVByQ3MwWFY3VmFEQQ?oc=5
-- Iran’s Revolutionary Guard says it seized US drone near Strait of Hormuz - Muslim Network TV (3 headlines; multi-publisher-unverified)
-  - Muslim Network TV: https://news.google.com/rss/articles/CBMiowFBVV95cUxNcklGZVlSbVVrQVVDemVVSzY1VW5qZENpdV8yRkhYYmc1dkpkN0tRcWZLaG5mQldJekxMcUhTaXh0d0VTZDVCMGZQT25lcU9hMFlNTXUyYnhkRjZQeVdQaDd4QTFyMC02aDJOeGg3a253ZTdERkEwZ1ZBbWdONnIwWTVMSEFoQXBYSGMzVDZ2QUZ2dWpLcmRDUFNTNFhINU0yZkVv?oc=5
-  - Anadolu Ajansı: https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZUFlX0JhSlVGXzZjOUZTX3BrYlVHTWw0dVRSdmhRLV9hck1ERC1QMTNCeHhTaFl4cnpOWFlVellrczJlR056YWZkdkJQSFpmaGhXQlFsQUdTVTFBc0YyM2RDQjA1MXFYTlk4UGdLYjJqOW5IQ1Q5b2laOEJ6eTRYWEpmOWZTRXoyd2p0OUJoT2poQ2hDNDFQQTI4eGxBdkVBQmxtUjRlWjhsbHJFdlJPZzlHbmRSU1Zk?oc=5
-- Iran claims drone attack on US radar system at base in Bahrain - Euronews.com (2 headlines; multi-publisher-unverified)
-  - Euronews.com: https://news.google.com/rss/articles/CBMiswFBVV95cUxPTjZESDh1NEZDS2VHZGsyR1RlYkN4NjlabFV4ZDdISm44MHZ6RlJzODhQb2xuUGhfSTFOalU1N0wxWUxpem81T2lJekhsdUphbnRuOUJNemYtVlB3X0ZmMU9YY2FsV1RVMHNHRkFMV0ZDSExQN1ZnaFNTc1FZM2wwZHRLOGx0RXJSbGN6elRZWXlVdEhyVmp5cXBKQ2J5bFNlYmtRQUtJNW8yRWdyNk1pRzhmdw?oc=5
-  - Anadolu Ajansı: https://news.google.com/rss/articles/CBMirAFBVV95cUxQY0xGNTBEUEljN3NQWWk0WTRCcGZxQU4tSlUybGgxU1hyNWdydGliLVM5NGtRS1ktYTVReVdSV1NqQlFJN3RjZmdRdVRwV2ZiSm41OVlic1BnVVpRek51UVVzSGU4X0swblg5SGg1MHA3T2wtY2JsWldiaTZsX3FTLW5lMGw0NTlHMFJZaUh6R0Vyd3lXTzMzZmtZNzQ0UUZ0Zk51eDFTcEJDck54?oc=5
-- A 2-month lull ends with Iran’s third strike on US targets in Bahrain - News4JAX (1 headlines; single-source)
-  - News4JAX: https://news.google.com/rss/articles/CBMitAFBVV95cUxQd2hzaWEzVzM5UkhEM1hjbmtnZzdHYlg4Vy1zRFJXeFNVWGhYX0lveWdub0RMaHZBQ1hEa0I3dEJ2WnRSdU5ibmF5ZkduM2J4UDJEa3FOdEJJSmR4WXZDdTFHNmt4LUc4RWVTa01qb2xWQVBaY1RxbFk3QkJqNTV3XzBpbmpEMk9QN0hpTzhCMmNfdW5MNGs5eXA0WHlPeGo4UG9ZUHRrOE13eTJodnNmbm9NVkU?oc=5
 
-## Transport (49 coverage groups)
+## Transport (22 coverage groups)
+- Iraqi PM heads to Lebanon amid push to explore oil routes beyond Hormuz (1 headlines; single-source)
+  - Al Jazeera RSS: https://www.aljazeera.com/economy/2026/11/17/iraq-pm-heads-to-lebanon-amid-push-to-explore-oil-routes-beyond-hormuz?traffic_source=rss
 - Another Tanker Catches Fire in Eastern Strait of Hormuz - WANA News Agency (1 headlines; single-source)
   - WANA News Agency: https://news.google.com/rss/articles/CBMigAFBVV95cUxPS0Rya09HWmRVX1g0MFNkUlVHRl9manhUUnYyNV81WlpITlFpd0s5aFp1SDZmejBOSVNTaEJlOGw0bnh3b3pfSC1iZ1JZUVBtVmExNGNva0NQZ1J1ZDRXQU94MnZ0UVZUbXRNcnpld2kwSzZmSm5lZmtlSnVVeHo2Tg?oc=5
 - Oil tanker struck twice in Strait of Hormuz, catches fire: UK maritime agency - Anadolu Ajansı (1 headlines; single-source)
@@ -66,10 +66,16 @@ IMPORTANT: Unverified published reporting; not confirmed attacks or official saf
   - CNBC: https://news.google.com/rss/articles/CBMicEFVX3lxTE9QemdsV2FWUHQ2dVJCOXJBN21EUUIyazhEMjFaLVNickZFalVGS0JXNkpnWGZTeUdmd09CSjdUWnR2M0l3Y1FMTEI3ZlgydTRpY1NhUVdTSFNlYW9URWQwb1ZncTNIRm1BZVJRRk5qQVHSAXZBVV95cUxNeExueUJISjdkcldnanBSTUFFUU9MMXY2MzNjZkc1TzFjWGw3dmJnYnRKWUpCT19DRm56UUFLOVRueFoxVXFOWXgzVVJQUm0wUzJGZnFzWWtwZURDbFdPZEFURUlrSENDV1FmWXF2MUhBXzNUQnh3?oc=5
 - Iran reports fourth tanker damaged by mine near Strait of Hormuz - Yahoo (1 headlines; single-source)
   - Yahoo: https://news.google.com/rss/articles/CBMilgFBVV95cUxPcHAwcEVCV1dZdDZRTTJhY0tyREJZdGo0ZHdvN09STWROdzhlOHdiVVdpUWNfTGRxOF9fUGVEYjRQRVhOT05CSUo3NHNOdVBUSVNfZGJnZnNzVENoRDRZek9Ed2dZc2k2S1p3dkotaDVEZ01nV1pvQ1Mtd0FHU1d5OWcxOGFUYkZ5RGhPQnZUOXNkbnJhUWc?oc=5
-- Alternative Routes for Middle East Oil and Gas Due to Hormuz Disruption - EnergyNow.com (1 headlines; single-source)
-  - EnergyNow.com: https://news.google.com/rss/articles/CBMipAFBVV95cUxNNE1fMzFiSjhrOFpJV21kajdMYkJEd20zcGM4Sm0yREpWU09IZnBwX0VyUk9LTWlHYWhDYXZCOS04eng0d1lPdVlKX2pZUjFwYzAwZkM4NWlDazVaSUFfRHlLaTczenpiZTdrb0lXd09XZTRiWHpNVGYxcDRjaHhoZ3JvcVFtb1VZM29raVc4RE9kUXBZWVdkbmktRU5FbV9hb1Fweg?oc=5
 
-## Diplomacy (22 coverage groups)
+## Diplomacy (16 coverage groups)
+- Trump warns Iran over reported ‘dirty bomb’ threat plans against Washington (1 headlines; single-source)
+  - Al Jazeera RSS: https://www.aljazeera.com/video/newsfeed/2026/11/17/trump-warns-iran-over-reported-dirty-bomb-threat-plans-against-washington?traffic_source=rss
+- Qatar Participates in 20th Francophonie Summit (1 headlines; single-source)
+  - Qatar News Agency · Qatar RSS: https://qna.org.qa/en/News-Area/News/2026-11/17/qatar-participates-in-20th-francophonie-summit
+- Qatar Affirms that a Just and Comprehensive Solution to Palestinian Cause is Only Guarantee of Lasting Peace in Region (1 headlines; single-source)
+  - Qatar News Agency · Qatar RSS: https://qna.org.qa/en/News-Area/News/2026-11/17/qatar-affirms-that-a-just-and-comprehensive-solution-to-palestinian-cause-is-only-guarantee-of-lasting-peace-in-region
+- Arab Cultural House in Berlin Hosts Promotional Event for Web Summit Qatar 2027 (1 headlines; single-source)
+  - Qatar News Agency · Qatar RSS: https://qna.org.qa/en/News-Area/News/2026-11/17/arab-cultural-house-in-berlin-hosts-promotional-event-for-web-summit-qatar-2027
 - Trump says US takes Iran nuclear threat ‘very seriously’, rules out Tehran getting atomic weapons - Business Upturn (1 headlines; single-source)
   - Business Upturn: https://news.google.com/rss/articles/CBMiywFBVV95cUxQTlU3WWRlTVhxVkMxQlZMZnRzSlEyX0E5VTlTTDhma1IxSlJndW1Xb05zSkJSZmtXTlZURjBLcWFTV2lzWm16LXctSnJxYnFnUER6OHEzbVZOZldpNjFFanNhUjFuQWlqUUtSNTZwaWVBVmhOR3UwcEJOZEVwaFFCS2VOVUxYQVBPZnBTZ2t1UVpIOWdBdHBWOWg5Xzk0RTlQcFo5S215eEhGZWx5eW9ma2c1NG5yOUY4U1ZFQk1id0xFdXZCMEphd1VRUQ?oc=5
 - عاجل | الخارجية القطرية: الوساطة لحل الأزمة بين واشنطن وطهران لا تزال مستمرة - الجزيرة نت (1 headlines; single-source)
@@ -90,11 +96,3 @@ IMPORTANT: Unverified published reporting; not confirmed attacks or official saf
   - Qatar news agency: https://news.google.com/rss/articles/CBMivwVBVV95cUxNWWVCMHRKTnBkdHVCR3g1b3pDNmN4Y3BQT2RncV9VTWxCUGRraWxoNmFkV3g4Yk5zcTJVV0k0Y01NdGN2TEJ3TzIzelVBZzZ4UUFlbG9RUkpOSTFIZnhvbTZuTHlIcTdXYXRuSUFzeE1ma0J0emk4Y0RsWFpiNFRtQTluRmZiMWpBSFp1Snh4UWc1STFDVi1ENjdocmF0STV0V0ZtN3lZaHg4ZVJ3aVg5bjBWcXlFX1huNzlpazQzNGxkQjNyR21DekhYR2lHbGJnM1A5VW1mT2t3VTBseWp1eXh1dzZFekpqdXNTN0tpd0dZTTdIN25TVjdkaEs4elR1VFB4Q0w1djVxTTdJRGN1Wi1LeURoaDhNZkdCMXVjdXc3RFpXVlZnNHNlSHVMS0stWVVBR0VKTzREZXJFeG1hcWR4cEYwS0t6cERlbkdINVY1ZWtfRnBUczdLR2RObWEzbzZVRk1KeFdWb0loaURrNC1venNpMWRyc3dRQkVQakduaERSMWthcDJEZ3ByN20yQldVejhaNG9WRS01RG90RDRQN0VQd1VidHJ3M2RfSk9Nd2h1WEI3c0pSSU04Rkx3UjBYcDVyUnExSWJ0VTJEXzEzVVpudEdmbG5KUW5PbUI0QWkzUnJZeXZNMGt2aUE4UTl2UmFWalhxMG5QWENaR0tXQ29ROTROUTdjcHBla3B3OFNWU0NCWWw0N2FlOWdoVDJXN29FZUVqb2Q3bVZfOTZkS29oT0dLWVc4WEh0bFJrZ0xoeWMtWDZNeW1nY00wMHVMaE1JNFdDdDE1MTQtTElvcjd5ZnFHVE1pd2MwQ05vWTc5Z3BCMFhjdzV0QnpfWnRvTWdTLVE3RTVpb2tJOFhzT1dmTC0tN0N3SWhDT2laeTlacmRNZ3dhYTd6c1J5cmVaZjF1V0xlNjJ3amdr?oc=5
 - الاتحاد الأوروبي يقرر المضي قدما في اتفاق شراكة مع سوريا - Qatar news agency (1 headlines; single-source)
   - Qatar news agency: https://news.google.com/rss/articles/CBMi5ANBVV95cUxPX0tLMUpwVzlhOGh5dTNVam9yR2RKSzZ0VXBneXRhWVgtQnhqUUZKNFJxN3lLX0dvY0g2T0lzNThwSDQwNFhGTHZhaF9xUlZkUnFmQ3FfWlRfd08yT2xKSGd3VGhlbWc1RVFHXzl1bE8ySWZrOURHUGFFUFUzNDNqUzFfTkhKYkJRZ3ZMRTVmTk9wSWVER3ZiNnJIamtJS29kRUxEakRCd3g1dWJQV0FtWVA3MmNtbDhLVWJmS2N2TkQxX2Q5S3MxeWpLeVcxc05mNDB2RkQ2UTdhUTZHRUlHRUREWW1ScGJJMVJVY21Dd3R4RW1oaTVHSm5RTXNmLWsyNjNDV0RfeHFoS3VjeTFUdEU3VWtnSUhKYmhkU1JSdGYyMmg4TDNNTVNmaDJDRjJRWjE1Q1ZkcUJSOXVkSGFPbE1JU3FxWUFoMk9ONXBRSmE1MXNMUDc3Q29CU0JET2cyT3J3bHZFNmp2MUFZanlUYjAyQmVLSThKS1d4SUstM3pZWmFmazU2RXdYdVdVU2tTbXlUcS1Xbm5vdEVySzE4YVV3bm5FSGE1TklTWXRLbmhFUjRsbkd5X3lrSnlMZFZWS1MyOU9iVHc4WU9BMm9oMDNqX0h3MnVjX1ZhdkxvMmVXZ0N2?oc=5
-- Sultan of Oman, President of Uzbekistan Discuss Regional, International Issues (1 headlines; single-source)
-  - Qatar News Agency · General RSS: https://qna.org.qa/en/News-Area/News/2026-11/16/sultan-of-oman-president-of-uzbekistan-discuss-regional-international-issues
-- Prime Minister and Minister of Foreign Affairs, Saudi Foreign Minister Hold Phone Call (1 headlines; single-source)
-  - Qatar News Agency · Qatar RSS: https://qna.org.qa/en/News-Area/News/2026-11/16/prime-minister-and-minister-of-foreign-affairs-saudi-foreign-minister-hold-phone-call
-- Trump says 'I don't think about Americans' financial situation' in Iran negotiations - ABC News - Breaking News, Latest News and Videos (1 headlines; single-source)
-  - ABC News - Breaking News, Latest News and Videos: https://news.google.com/rss/articles/CBMiowFBVV95cUxOekNlMWY5WUN0NWxrcW9iRXM1Yk5VWGxCeGh3MGRaeTFCR2VkM0djcVl0bFZGZFNLd0l3dTVTSjJ0UGM5WS1mRzN1bXZtQWJybDdzelF3ODlzQzVmOWxyWHl0RndpM2x1ZXoyeFZWbnlqR1B0dVFJOFphNGJLMVZyN0RUYUJIMnZaeWdzTXVuamJfblptU3VSdGV4NWhfOFVBQ0xN0gGoAUFVX3lxTE9zbFlKVVB3bjJLd09qVzdyMVZyMVpXZk1ROFk1Mkg3bElhTkpFQWMzQmh0Znp2eng4b3VWb2NoUC1Vc1FYLUlfUldaUTVuMExBN0Jrck02TmE3T0c5ZW5TaFZ3QVNtNHJtSjNpNXhlb1ppNC1GS2pWR29SNWNaVlFUUHdGWU1NWjdfTEdhQ3JBdjlFNnp6VTVBb09mOEtlRGlKbjAtLWQ4SQ?oc=5
-- Third US aircraft carrier arrives in the Middle East as Trump keeps options open in the Iran war - AP News (1 headlines; single-source)
-  - AP News: https://news.google.com/rss/articles/CBMiogFBVV95cUxNYmZiWEcxLU9Xck9JR2h3VDIwa1VETmRCam5zQm1BWmhNcGhZS0pBdi1BZGRZLXhZT3VmUG5wYld2N1gydV8teDVFc0UtNVljakJ5Q1JNRkRUb0dqRDRfX0p4QVBGdkZRaWd3Y1J6aFdZWlZhVGt5LWxzcG9mRHVPYnBXZFFrSXVqYXkxd081YzdlNTN1T05yVTgwZUIzSUhQQWc?oc=5
