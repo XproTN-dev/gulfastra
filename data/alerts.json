@@ -1,7 +1,136 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-17T02:41:51.435133Z",
-  "alerts": [],
+  "generated_at": "2026-11-17T11:13:57.115773Z",
+  "alerts": [
+    {
+      "id": "GF-08AC56187E5F3D",
+      "level": "review",
+      "title": "Rubio backs Bahrain as Iran renews strikes on US military sites - The Arab Weekly",
+      "published_at": "2026-11-17T10:47:55Z",
+      "countries": [
+        "Bahrain",
+        "Iran"
+      ],
+      "category": "security",
+      "topic": "regional",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "The Arab Weekly",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPdkRLVmQ0OTNZaU03ME45VU9RSTllUXBjWDJMcmdHTkp5dnFGUDN0NTZWdGZnRm1vOTI2WFlVM3hGSGphUE1RSjV2dFB5X2pPVWhDZk9taHk0UmRpN1ZfaTRUYU14dGEtaWVOcE9BUnpZWXpCcWtKbjRBallReVMzTGc0SkRkb2dXQXJvWG8ybw?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-0B8B39BC55A5C0",
+      "level": "review",
+      "title": "A 2-month lull ends with Iran’s third strike on US targets in Bahrain - News4JAX",
+      "published_at": "2026-11-17T10:07:42Z",
+      "countries": [
+        "Bahrain",
+        "Iran"
+      ],
+      "category": "security",
+      "topic": "regional",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "News4JAX",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQd2hzaWEzVzM5UkhEM1hjbmtnZzdHYlg4Vy1zRFJXeFNVWGhYX0lveWdub0RMaHZBQ1hEa0I3dEJ2WnRSdU5ibmF5ZkduM2J4UDJEa3FOdEJJSmR4WXZDdTFHNmt4LUc4RWVTa01qb2xWQVBaY1RxbFk3QkJqNTV3XzBpbmpEMk9QN0hpTzhCMmNfdW5MNGs5eXA0WHlPeGo4UG9ZUHRrOE13eTJodnNmbm9NVkU?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-B68E4DC7EAAC6F",
+      "level": "review",
+      "title": "A 2-month lull ends with Iran’s third strike on US targets in Bahrain - WSLS",
+      "published_at": "2026-11-17T10:07:42Z",
+      "countries": [
+        "Bahrain",
+        "Iran"
+      ],
+      "category": "security",
+      "topic": "regional",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "WSLS",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNM3VpT2p0Rk4xcWxwRmF4Ym51VHJocThUU0s4RjZlcnlKa19qbDNaLVIwS3l2S1Vyc1lJdjhUSGxRSFdUcWhBUnlsdnBKRVljREFQczZWMHVSNkR6N0ozcjBSZGYzZ1R4UkxnaFc3dTVwZDJaZ2FEWjEtV2Q2cUMyRWtKMi1oMThsRTN4bXRSMnRISmdTWGQwUDRNQU1Fc0N1TXpwWVdCLS1oX2huamRz?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-A07C68FDF76FFC",
+      "level": "review",
+      "title": "A 2-month lull ends with Iran’s third strike on US targets in Bahrain - AP News",
+      "published_at": "2026-11-17T10:07:00Z",
+      "countries": [
+        "Bahrain",
+        "Iran"
+      ],
+      "category": "security",
+      "topic": "regional",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQU2lESUxmdF9UMGE1eWlZcmZkUFJtNWxyNm5kZWM0cTExSGtIZXRxNTZNTjR3OXlqeFlQMjlWYWdjenZnazlJRUo1NlRndVRZWWY0VFVBcUJybG1NRTRhVkdtZFd4SUZiVlFPRWNLcmFVQjlYM3lZUUFlbUhuT0JJckg5cjNYZ2xEMlNjNVhuMVliMkRnWlFXVw?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-5A202260A95A93",
+      "level": "review",
+      "title": "Oil tanker struck twice in Strait of Hormuz, catches fire: UK maritime agency - Anadolu Ajansı",
+      "published_at": "2026-11-17T10:03:12Z",
+      "countries": [],
+      "category": "transport",
+      "topic": "maritime",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "Anadolu Ajansı",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQampXUHFqLTA1OE94S2ZXcXl2ZFVJcEZOVno4VnJRcWhuc0NFc01IQjBMcFNIcFh6TU85LU8xU1JTNU9GbTZGNC02LTVvbWQtOHNUUkhTMk80VHdhNEpWcmo4ZEg3bGdvQXdmQldQZ3ZJTDNKN3NkVzA3aTJlSWY1U0dWcXpGWmhDLWttYTIwRkVCVVpzMi0tRnhWdWZsWmZuM2xmRE1uQ0JheXV2T2tBTWNjRXlFZTdVYnFQdWVR?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-A6D5DB458BCB9C",
+      "level": "review",
+      "title": "IRGC Claims Drone Strike on U.S. Radar at Bahrain’s Isa Air Base - IranWire",
+      "published_at": "2026-11-17T09:53:26Z",
+      "countries": [
+        "Bahrain"
+      ],
+      "category": "security",
+      "topic": "drone",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "IranWire",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPejEtNFFNWmpUdjl6V01Mdy0zemFFd0RNaFBhOERqWWhnZGlrSHBtQTQ3Y2J3NjFWa3pOQjEwUl9MOXM1WGZPU2JrNDdYRGxaMzhtZTBsbnFkaTNRZmNfaGY0SWRrc3hrZUxsUlN2R1pBMUdrZVVlZTZJSFowb05RQ2EtOTRGTEMzdThnOFFoMWhhSUx1SzFGajF5Zkx6SUk?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    }
+  ],
   "new_alert_ids": [],
   "critical_count": 0,
   "notice": "CRITICAL REPORTING means multiple named outlets published related headlines. This is NOT confirmation, real-time detection or official emergency advice."
