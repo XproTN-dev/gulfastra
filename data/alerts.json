@@ -1,68 +1,46 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-18T10:20:24.583118Z",
+  "generated_at": "2026-11-18T18:56:08.762157Z",
   "alerts": [
     {
-      "id": "GF-B74D213F8C8A73",
+      "id": "GF-EB2AF7694A09F7",
       "level": "review",
-      "title": "هجوم إيران على الكويت استهدف \"معدات عسكرية أميركية\" واستهداف سفينة إماراتية في هرمز - شبكة تواصل الإخبارية",
-      "published_at": "2026-11-18T09:30:48Z",
+      "title": "US War on Iran, Day 265: Tehran Retaliates With Strikes on Gulf States - EA WorldView",
+      "published_at": "2026-11-18T17:37:35Z",
       "countries": [
-        "Iran",
-        "Kuwait"
+        "Iran"
       ],
       "category": "security",
-      "topic": "maritime",
+      "topic": "regional",
       "outlet_count": 1,
       "article_count": 1,
       "source_urls": [
         {
-          "name": "شبكة تواصل الإخبارية",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1Hc3c5V0NZdDhBU2FZM3ZPVkFsRjh1anZiLWtIWWhMVzZiYllCZGZnWEVQSGlmbktIYVN5dlQ0QTB4V2NlUExBTjlMTjJ3dG5mUkxn?oc=5"
+          "name": "EA WorldView",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNaHp3aV9OQ3NBaU02ZnhiSW1ya3VOTXhONFVnUkVWSFAzR2JXTnJfUFNZVVVYVFJUYVBCa3NMWE1uSDVLSG9jLXhOZUxhcms5cUZBUktYeFlXYW5mTE5jU3l5cVd1QXZvWHhhX1dLdnBsWGhvcEV6Y3oyN0JwTE4yMDdkYw?oc=5"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
       "verification": "unverified-reporting"
     },
     {
-      "id": "GF-0705825E697D95",
+      "id": "GF-0C8D74971D2E64",
       "level": "review",
-      "title": "Iran Launches New Strikes on US Military Facilities in Kuwait and Bahrain Amid Peace Talks - https://globalpost.com/",
-      "published_at": "2026-11-18T09:29:16Z",
+      "title": "Iran reports strikes on US military assets in Kuwait and Bahrain - Tehran Times",
+      "published_at": "2026-11-18T17:30:22Z",
       "countries": [
         "Bahrain",
         "Iran",
         "Kuwait"
       ],
       "category": "security",
-      "topic": "diplomacy",
+      "topic": "regional",
       "outlet_count": 1,
       "article_count": 1,
       "source_urls": [
         {
-          "name": "https://globalpost.com/",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdmVYTW1PZ0pGdWtQV0V5dEdDeThqdkRQaFhCQVRhTUNhaTZlcTdmV3Y0YlY1ZXUxU19JUWlRNzVKc21FWExWMW9iX050QjBPUm1Ocl9haDdVUWhWN0hHUEEyd0N3dERTOTV1dUZNakp1dVU4RllKNkVaZ1hBSWtLckl0LUZJak44X19IQU5zTzJqblRiZFFTWloxY0JvMUtzTDk3THRLVVdpaXhKMFJIMWhGdmVkV2ViaVctdm1rTQ?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-665AB95C5A08CA",
-      "level": "review",
-      "title": "الدفاعات السعودية تدمر صاروخا حوثيا استهدف الرياض - المنشر الإخباري",
-      "published_at": "2026-11-18T08:57:13Z",
-      "countries": [
-        "Saudi"
-      ],
-      "category": "security",
-      "topic": "missile",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "المنشر الإخباري",
-          "url": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxNNG5nazB2Zlo3QzlJd1RCQUo0SGNBUDhzM1NTUkdiWl8yMVlGYm1nekFkTW84WUxSOFA5NDIwa0hGUHQ2aTNxZ083SGRFOG85djZWdXRzV1JuWnk5akFXak1tcXdKcmRKaGRKcDVmbTR2Z1hVSGNyR1NncEJXQXBQci1tbHJpVzJGay02Q2dqano0dFpVQVNzSDBOclpCc19ZWGxHRTBVMWdqZjJ3eFExSVlUNlc0TEwwSzN5WnRxWV9jTXRaQ2IyVWx5S2M5NWxiRmpKT0hwckRPeGZRRDJyRWthaGtvTEwzWEdvdl9uRGRhek1mRkVSYzNRdkJvajRQZGFZcGlpNFdKVE5GZUJTRjFWbzhLYlZ1RmlJT0ZDeVFXcjdRX3NTejFJbEhzMExqWC1PNVpUUXB2OVVzSVUtOF8tSG16SzZLS2tlelRvYVU?oc=5"
+          "name": "Tehran Times",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQT1M1YmFsNzBRTzhrSTJmY1JYX2FRTHVJUXRKbVZ6OHhGcnA3aHJyeGNIUUIwSVJtYUJGU0pUVnd3YnNsMTNSQ2hkc0ZmQURmdExhUHpVRFBWYVNrMlZnTkdTT0ZrYjJBcGRpTmFOVlNabHpNcUpocF91WmxTZGFFeGNSMENFU085dnNHekNUZ1g4TjctdmEteklkRndHSHRUWV8wSVI0TQ?oc=5"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
