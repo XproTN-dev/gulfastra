@@ -1,25 +1,68 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-18T02:14:54.300718Z",
+  "generated_at": "2026-11-18T10:20:24.583118Z",
   "alerts": [
     {
-      "id": "GF-0F660E5BBAECC1",
+      "id": "GF-B74D213F8C8A73",
       "level": "review",
-      "title": "Kuwait, Bahrain come under attack amid heightened tensions between United States, Iran - The Jerusalem Post",
-      "published_at": "2026-11-18T00:26:18Z",
+      "title": "هجوم إيران على الكويت استهدف \"معدات عسكرية أميركية\" واستهداف سفينة إماراتية في هرمز - شبكة تواصل الإخبارية",
+      "published_at": "2026-11-18T09:30:48Z",
+      "countries": [
+        "Iran",
+        "Kuwait"
+      ],
+      "category": "security",
+      "topic": "maritime",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "شبكة تواصل الإخبارية",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1Hc3c5V0NZdDhBU2FZM3ZPVkFsRjh1anZiLWtIWWhMVzZiYllCZGZnWEVQSGlmbktIYVN5dlQ0QTB4V2NlUExBTjlMTjJ3dG5mUkxn?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-0705825E697D95",
+      "level": "review",
+      "title": "Iran Launches New Strikes on US Military Facilities in Kuwait and Bahrain Amid Peace Talks - https://globalpost.com/",
+      "published_at": "2026-11-18T09:29:16Z",
       "countries": [
         "Bahrain",
         "Iran",
         "Kuwait"
       ],
       "category": "security",
-      "topic": "regional",
+      "topic": "diplomacy",
       "outlet_count": 1,
       "article_count": 1,
       "source_urls": [
         {
-          "name": "The Jerusalem Post",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9QeTRlNmtkbFdLalhzVlY2NTZkb3hQOS1qQkFOUzJUZEVJMUxINmsyalNEM1JnMnRwYmJpRXE3S2RNTTNsdHIwbVZKRmY1a3BEdXhlNXZ4Qmllek1Z?oc=5"
+          "name": "https://globalpost.com/",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdmVYTW1PZ0pGdWtQV0V5dEdDeThqdkRQaFhCQVRhTUNhaTZlcTdmV3Y0YlY1ZXUxU19JUWlRNzVKc21FWExWMW9iX050QjBPUm1Ocl9haDdVUWhWN0hHUEEyd0N3dERTOTV1dUZNakp1dVU4RllKNkVaZ1hBSWtLckl0LUZJak44X19IQU5zTzJqblRiZFFTWloxY0JvMUtzTDk3THRLVVdpaXhKMFJIMWhGdmVkV2ViaVctdm1rTQ?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-665AB95C5A08CA",
+      "level": "review",
+      "title": "الدفاعات السعودية تدمر صاروخا حوثيا استهدف الرياض - المنشر الإخباري",
+      "published_at": "2026-11-18T08:57:13Z",
+      "countries": [
+        "Saudi"
+      ],
+      "category": "security",
+      "topic": "missile",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "المنشر الإخباري",
+          "url": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxNNG5nazB2Zlo3QzlJd1RCQUo0SGNBUDhzM1NTUkdiWl8yMVlGYm1nekFkTW84WUxSOFA5NDIwa0hGUHQ2aTNxZ083SGRFOG85djZWdXRzV1JuWnk5akFXak1tcXdKcmRKaGRKcDVmbTR2Z1hVSGNyR1NncEJXQXBQci1tbHJpVzJGay02Q2dqano0dFpVQVNzSDBOclpCc19ZWGxHRTBVMWdqZjJ3eFExSVlUNlc0TEwwSzN5WnRxWV9jTXRaQ2IyVWx5S2M5NWxiRmpKT0hwckRPeGZRRDJyRWthaGtvTEwzWEdvdl9uRGRhek1mRkVSYzNRdkJvajRQZGFZcGlpNFdKVE5GZUJTRjFWbzhLYlZ1RmlJT0ZDeVFXcjdRX3NTejFJbEhzMExqWC1PNVpUUXB2OVVzSVUtOF8tSG16SzZLS2tlelRvYVU?oc=5"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
