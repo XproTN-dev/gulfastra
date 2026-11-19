@@ -1,72 +1,7 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-19T17:43:16.937440Z",
-  "alerts": [
-    {
-      "id": "GF-8B40DDC4EACACE",
-      "level": "review",
-      "title": "الدفاع المدني السعودي: أضرار مادية جراء هجوم حوثي استهدف برجاً في المركز المالي بالرياض - بلقيس نت",
-      "published_at": "2026-11-19T17:13:00Z",
-      "countries": [
-        "Saudi"
-      ],
-      "category": "security",
-      "topic": "regional",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "بلقيس نت",
-          "url": "https://news.google.com/rss/articles/CBMilAVBVV95cUxPVmpOeWVZRUx3bVlmdVRsejVCZkhMUFNkb0Fyc2VkcEx3WDVXaHFjTUR6MGJxMmQwMHp0Tnpyc2trajBtcmtzM1pRNHRaZF84ajFta1p1N2JkOE82S2oxd0VheE8zaXFFZkVLbHRSVUU1ckthLU9uclppNmUtUVRpS2dOYUpnaHBNWnZyX0lmRzJXVW1MVXBjNnNPUEg3TGFUOFM3RHVGSVBaZHlJT3gyT29CNXdKT08tWmZBM3drdTE1cjdSckhuRV84c3JuejVTOWl1eHFIbHBDM3FaeGZlRFVPVnZnN0QxTkhKZ3RRYnpJZ0tMQW9xa19HVHBMUWpmQlVVa0tZaHhmLWJuQzcyc3hYZVRGT2lWN2NfdnJKWEE0a1dGMVByWjlvVUFwanRLOEUtck03Vk5EaHljWE82c1RzQ0FjOTRjYTZtY1VkcF9hVW54ZGNlNXZWQ0N5SDRyS1pjNGhXN1V2bkp1WWNhUFZTazdBTkd3SkRXMkhZalI3amU1RXVVMVh3TWtqMWRGd0JXYmJlNVU5TXBMY3BHd1lOZURKbFhFUGdGNFhYUVV1b0djeWFUbmo3b2tPZC03TnpwZzBKM0sxTjRpSEthQlVLSEI5OGdDaWxEbzJ6Tkk2Rm50YV9Da05ZZEJ2UUNtTl9mVUxheGFGSUk0eFFHbU0tMkdGb3JJUV8yaUxEakk5eXNGT2N2c0pjRmRtTExwY2F5MW8zUnJXa3pLQWdFRGVRXzFtdGtDN1RXOUxLWnVWSUJLTE1UMXIyYmVoVFFZNzdqZHh6cDY5VmJXOWU2MmY2eHhqQUV0RlhwZFhJWVh2T1pRbWd3aUR3elhLekZMdnQ1bWwxUDJOcFkxdklPVGQ3V1M?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-3F539FE0723E7C",
-      "level": "review",
-      "title": "الدفاع المدنى السعودى: هجوم حوثي على أحد أبراج المركز المالى بالرياض دون إصابات - اليوم السابع",
-      "published_at": "2026-11-19T15:57:00Z",
-      "countries": [
-        "Saudi"
-      ],
-      "category": "security",
-      "topic": "regional",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "اليوم السابع",
-          "url": "https://news.google.com/rss/articles/CBMi9wNBVV95cUxQNXFXcXBZRWx1M0xYLUhuZzQydnc1SUl2WE11TnU5eDh0dnY3RDZldlplUlhmeXJ5ZTZvWWpMOEFXUEFicktRQkc1aUVTWU5qby1DQmxadzdET1RDN3V2YUoxX2Q1U3NXb0NkNEJBckpsWU1EU1NaMTc0cEJsYkNaSlZnM2J5SE9TWDJ2UVRMVHRMVUg1czRGdGVBZE80MlhDSzFMNkVYUVdTaVVpZjBaR1dURVNKZVVhWmxPTVNtNmVvQ2tReC15SExJXzQwd1lFRHFqQzlJZUxKQVlPazVDcGJ1em1JV0RzX1hocTBsVXA5N01kX0ZORnpuR3VOXzA4VjBONkE5Sjk3UGo3WGhIM1VUdWZkbXVnTTJsN05rczdBVTJSQ29HeEN6ODNYUDFvTjJrbURWT0RZTnF6MmpGTjRqT0hmTWZYOUpYX2tHSjAzLW9leV92ZzJIQl9MSUJDTVRvM3hlTzVTU2pkdHMyTmFJZlo5VVhSTHVvS1dybkg2cl9mMGJsaEl5WG53d2l3amJJdzdCRXpiM3U0eEZmQl9BYmdsZWlwZ0NvQ0RGX0R4d1E2TWNvVlFraFE4clNCNmxuczhXdW10QTR5NG1ZdmFUOGhnLWpGX0pXdE9JTGNnTWpEZUx0SGFtckZQLUFuaG9BQlJOVdIB8gNBVV95cUxQV1BpVFNud01RUERWZFh6enJ5UlViSVBXMmp0a3BqYWVXdmxzWEVTczhwbW5nVGI0ekRPZWpDNEVNbWFQclQxYTJQcVZOend0M09qVzZiZU5HR2stQ3p4VUttZTRqOHlJX0s1MWRUcEQ4N19IbzBhVEQwcEpsVkhnc1h0WG9HNDJWMWZLWUo2b1dlbmhlUlVyZjMzMTkwaTJacXdzTmYxeDRzeUYxSk5Od2V5TTdTZVFiSm9SYjBMY19hX19lc25PcUE5Ym93VWQ0UE9NSjZiYklIaW1tYmZBZ0pqM1dSS2QtNWpDZzItT0VjTGVaRlNTMUtiYU84Mi1TUU5MN2E2Nm96OFB6WklnUUE3NzNMMWpuZUxRTUVfMjB1ckFScFVKalpKRGtkZlVGdkFYd1gxVHpkY2tVQ2VRc0p3bktkcTR3QVAydVAtVm9uTWdzd2c4QXE0ak4zQlRaRC1PRk0yMUdnb2d3NEFJTXVKNXRjLWgyV3RhUk5FZXJJdXVwcXp4OUJpX0E0T0RfVFJEekxPbGFka0YxUVpuU3Nvc25SQjJxQThvNmQ2bWUzZE9rVnhuMjMzNjE4Z0FpeEVRYlJpcDJqSGZvX202el93ZmpZaG9zQ2JVZmZfRHFaSDlBR3FkeHVKZlFNcVYtSnc?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-FD279B2590BBB3",
-      "level": "review",
-      "title": "Middle East latest: Saudi Arabia confirms strike on PIF tower and condemns Houthi attacks - The National",
-      "published_at": "2026-11-19T15:53:44Z",
-      "countries": [
-        "Saudi",
-        "Yemen"
-      ],
-      "category": "security",
-      "topic": "regional",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "The National",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPam9XS0tmcEhaa3NBUzd2bUJ5ME1FWktqN2hhaVFzd2k0MlVDaExwX0EyUW84Ylg2QkNFZ2FMTC1RbkZ2VGtUNV9xQzhMQ1lhcklId3JXbGQ1dTBHNDg3Qm0wT1RBWEZYRGFIUjZ0YVZlcHI3NUcyZV9yNFdaam9qX1FHZUtIbnFpRU5EU2dxMnRXZ2lRNlpfYTFJWQ?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    }
-  ],
+  "generated_at": "2026-11-19T23:54:49.131944Z",
+  "alerts": [],
   "new_alert_ids": [],
   "critical_count": 0,
   "notice": "CRITICAL REPORTING means multiple named outlets published related headlines. This is NOT confirmation, real-time detection or official emergency advice."
