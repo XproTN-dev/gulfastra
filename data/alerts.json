@@ -1,14 +1,15 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-20T06:20:55.490919Z",
+  "generated_at": "2026-11-20T15:39:54.563578Z",
   "alerts": [
     {
-      "id": "GF-9A75532E993F82",
+      "id": "GF-ED424BFD63C347",
       "level": "review",
-      "title": "Israeli strikes on Lebanon, a missile attack on Riyadh, and fires on tankers – the main news from the Middle East - Українські Національні Новини (УНН)",
-      "published_at": "2026-11-20T06:00:19Z",
+      "title": "عام / التحالف: استهدفنا قدرات تشغيلية بميناء الحديدة ساهمت بعمليات تهريب ونقل الأسلحة والصواريخ الباليستية - وكالة الأنباء السعودية",
+      "published_at": "2026-11-20T14:05:45Z",
       "countries": [
-        "Saudi"
+        "Saudi",
+        "Yemen"
       ],
       "category": "security",
       "topic": "missile",
@@ -16,8 +17,8 @@
       "article_count": 1,
       "source_urls": [
         {
-          "name": "Українські Національні Новини (УНН)",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSWlXVnFMSDVxeXZFZmtRc2dweUVka09WLWtVNG5yVmk4aUt5S2M3VUE2Sm1nOEEzaFRGdm5UcENRUU9Ta3haTWZta0s5YWlvb0xySmMyY0p3QlBhWUx1bXR5V2tmcXZZdWxWR0JRUXEwNWp1SzMwM0NtTV8tX0NVLWUwNlBLZG5lNDVnS1lGUWNuWE9KREh0ckNGbjY2dERPeTlKeDFnQUZ3YjE3UXhWTDY5OVhpRUUtZmdsUjZqZzUxSUFuay1HY29fbE3SAcsBQVVfeXFMUExaSU5vcWxFMkozQWZhNHNzb0NZTHRhQmhEaUx6Q19GYTRaa1NuOC1BZjVuVDBBbGl2UENodzZWU2RuZkh4d2VJMkJ2LTQ3bEtkUUN1OVFpNDJzd09mOVlLdC1aSEV1NEo1dWloSVF2YUlwNFg3YkMwbWlya0Exang2a3pnZW1ycUdnSlJ3NDRwcmdpeF83b1B3ZlV4UzBaSTRkNTVMTFRTbGVOMm5tTld4TjRoalFkQ01RSlJuOUJ2cUxBNFprMzM3SG8?oc=5"
+          "name": "وكالة الأنباء السعودية",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFB6WnZhZFhnVEY1aG5VcEdXX3N6T3dQUlZpcHJXMXFoTHNsOVJsNkRmZjF6ZmVhMS12UWtyODJIczdORXFJZXc?oc=5"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
