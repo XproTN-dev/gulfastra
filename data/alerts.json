@@ -1,50 +1,7 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-21T18:10:33.315317Z",
-  "alerts": [
-    {
-      "id": "GF-9FA839123EB819",
-      "level": "review",
-      "title": "Gold Star families frustrated with Pentagon investigation into Iran drone strike that killed 6 soldiers - CBS News",
-      "published_at": "2026-11-21T17:02:37Z",
-      "countries": [
-        "Iran"
-      ],
-      "category": "security",
-      "topic": "drone",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "CBS News",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQcFlHd1lLa29JeElZX3p5aXdWU1JQZU1mMmVvQndCb2lGbHNsaGJmV1ZyUjZBdEd3aG9XRUF1a1dyWkJxOGRvZnZJQ044Wm5jSmxBalBQbmJManAzdHZYaFBCczJncUdTdjh3V3FtUnF1UUpTbXdHZFVVc09XMWRKRlZqcjd0RUNsRV85eXRUMA?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-2D189A83EA7D8C",
-      "level": "review",
-      "title": "US rejects Iran’s claim of missile strike on F-16 over Gulf - Egyptian Gazette",
-      "published_at": "2026-11-21T16:37:09Z",
-      "countries": [
-        "Iran"
-      ],
-      "category": "security",
-      "topic": "missile",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "Egyptian Gazette",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZTMyLUJsZVQzT2dnaHV2QVlxTW1sR2hOVDBvam1EdXJfM3dkaE1TUS1FYUpZX2dEaGNGczN1ZEFDMFhkYS1Hb0NRdmgxcHVCa0tKVS1VdTZwc25DcDRoTnhDSE1NdWYxcURuWW1fVklCMnVqNGU5X0hWVHRfYUFXNkJycmhyNUFlR09nYjZ2U2h2M3dQQ1FVWkVR?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    }
-  ],
+  "generated_at": "2026-11-21T23:20:59.712741Z",
+  "alerts": [],
   "new_alert_ids": [],
   "critical_count": 0,
   "notice": "CRITICAL REPORTING means multiple named outlets published related headlines. This is NOT confirmation, real-time detection or official emergency advice."

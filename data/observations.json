@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "updated_at": "2026-11-21T18:10:37.971586Z",
+  "updated_at": "2026-11-21T23:21:13.905446Z",
   "observations": [
     {
       "id": "usgs:us7000tyvt",
@@ -126,32 +126,6 @@
       "magnitude": 4.3,
       "coordinates_quality": "observed",
       "classification": "observed-natural-hazard"
-    },
-    {
-      "id": "eonet:EONET_26295",
-      "kind": "natural-event",
-      "source": "NASA EONET",
-      "title": "Wildfire in Ethiopia, Sudan 1033702",
-      "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26295/geojson",
-      "occurred_at": "2026-11-07T19:00:00Z",
-      "published_at": "2026-11-07T19:00:00Z",
-      "lon": 35.374725689892,
-      "lat": 11.864266635565,
-      "coordinates_quality": "observed",
-      "classification": "observed-natural-hazard"
-    },
-    {
-      "id": "eonet:EONET_26493",
-      "kind": "natural-event",
-      "source": "NASA EONET",
-      "title": "Wildfire in Sudan 1033867",
-      "url": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26493/geojson",
-      "occurred_at": "2026-11-07T19:00:00Z",
-      "published_at": "2026-11-07T19:00:00Z",
-      "lon": 34.929124313744,
-      "lat": 12.542020736403,
-      "coordinates_quality": "observed",
-      "classification": "observed-natural-hazard"
     }
   ],
   "health": [
@@ -159,24 +133,24 @@
       "source": "USGS",
       "ok": true,
       "count": 4,
-      "last_run": "2026-11-21T18:10:33.479666Z"
+      "last_run": "2026-11-21T23:20:59.854520Z"
     },
     {
       "source": "NASA EONET",
       "ok": true,
       "count": 1,
-      "last_run": "2026-11-21T18:10:33.479666Z"
+      "last_run": "2026-11-21T23:20:59.854520Z"
     },
     {
       "source": "Cloudflare Radar",
       "ok": null,
       "state": "not-configured",
       "requires_secret": "CF_RADAR_TOKEN",
-      "last_run": "2026-11-21T18:10:33.479666Z"
+      "last_run": "2026-11-21T23:20:59.854520Z"
     },
     {
       "source": "NASA FIRMS",
-      "last_run": "2026-11-21T18:10:37.971586Z",
+      "last_run": "2026-11-21T23:21:13.905446Z",
       "ok": null,
       "state": "not-configured",
       "requires_secret": "NASA_FIRMS_MAP_KEY"
