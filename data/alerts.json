@@ -1,14 +1,14 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-20T22:22:15.856214Z",
+  "generated_at": "2026-11-21T03:20:46.775965Z",
   "alerts": [
     {
-      "id": "GF-E9A6C53201FA41",
+      "id": "GF-F25F29C5897FE8",
       "level": "review",
-      "title": "مقتل 9 أشخاص في هجمات روسية واسعة على أوكرانيا - Qatar news agency",
-      "published_at": "2026-11-20T21:26:43Z",
+      "title": "توترات عسكرية متصاعدة وسط مخاوف تجدد الحرب.. دوى انفجارات بمحيط \"قشم\" الإيرانية ومعلومات متباينة حول مصدرها.. طهران: أصابعنا على الزناد.. ووزير الخزانة: أقيم بقاعدة عسكرية بسبب تهديدات إيران وسنشدد الضغوط عليها - اليوم السابع",
+      "published_at": "2026-11-21T02:52:00Z",
       "countries": [
-        "Qatar"
+        "Iran"
       ],
       "category": "security",
       "topic": "regional",
@@ -16,8 +16,8 @@
       "article_count": 1,
       "source_urls": [
         {
-          "name": "Qatar news agency",
-          "url": "https://news.google.com/rss/articles/CBMilANBVV95cUxNNjVDYzc2R0Y1dFlFZDExWGZYU1hPQ0VhaXZLV3k2aWJHb0tsNUMtZnNOTW9ELV9RUWtpVVEtTzZxM0JjZ3VKWFZzYUkwUUNpNmh3U1dwYUZGRWh3U1ZQbC03SjRVaWZOMVpjN3RPQkIwWnZaWVh6VlJ1RzJ3cjZRenlaNkJzZXd6YzU1NHNodWxRaUR4QlJkdFVRNEh5cTdJb0NnMmdIZE5sS3NBU0xHOUFMTW9Mck9MendLeF9NWlZ6aF9WM214VnlNYWs3T1ZEcGJGNVNsd2tiSFB4ZHNWbG9Wb2Y2aWU4Y25yOUkyQ1RZby15QnNxcHVIdWMwaDZLMUVRVFF2MGpjbWZEY2d3MENfQXlOU3FOS0dzRkZRUGlqQmprMEdFRVFqTjE1bUw1SmRNU2hmUUF6QS05T00zU3BaU3hhN3c1YXhFVHhFejZlbGtseG9mSU9PYXpJemk2cEt6T3dhaFdydzcwYUl4WHZESHJRZmJvTmVSWE1oYWRpbmNlVUZiVVlRQXFZbHh2MVpxcg?oc=5"
+          "name": "اليوم السابع",
+          "url": "https://news.google.com/rss/articles/CBMihwRBVV95cUxQc3hURXZ3dU5MN2RFcEVxaC1USURsemxFalBvcW5wWFlhZHBGckhzMG5GZXRnTVhQMDJZTzF6ZlJLdzdtb1dISnhvWDNKYjgxVDdjTnA5S3Y2VlVWcTdtMnlBUUNTZXlFSFRzeXJRNW54WG9uYkI5MC1fWnkzdUR2ZkdIbG5RY1JVOW5DRWNicktCZGFkXzhiLVhVSkRrMDdpUWpoeUZWNWlmYXNqMzQ1V25lMjVHdngxTGs2SEd3UUJHUHRQYTNXcE9sajlQaGtVZUNENk93QlZXTXotMWJhWElLUVZGcU1CODg0YmtwUEk4Tng1WmpZaFFrYUZ6c0hXZS1YZE53cnQyVmlWc0FtU1JKUUp4dHZLMG1INUVzTUhGdFlwNnlHTmluM2R2dEZ3UDVkd3pGYUlkSTVLOFF4ZmY5NWVIQkRZZ0pjSXhhUW1weHRvQ0FkSkE5aXEzMU05R0ItVTVodmRISHZRTU9LQURSM21FT2hBWFpFN0xjcFZXZFhxSVlKZ3A4dlg3Z2FEVHo4dEVUQl8zNE5DMnkzYk5kVVhpM3ZocVZ0Ty1hQ1d4SEE3Qi1RaEFVR01BU1RfenlPOHpXWEVISmlMMHlDV19GQVZSZmk0RXhjUndxLWtWeHE4QjM4dUJjbk4xV2FOWnhoN0F0R3ZCaG0wc3FQMy1OMHg0dnPSAYIEQVVfeXFMTUV1b3ZxNnZKYjh6eXpJN0RjNXVmRkpYYnlNYnhvQ08zMEZOVUVndzdDWXFLang1Qk5McmNGam0tWlkwTDhwQ1JNUWJYSkFDYldyVlhNQ1BENEs1ZlFNMWZGTC1NMjFaa2Y5QnBuNzZxSm9hcXB3TC1SOWZWZEI4YldXWFFYSzU2dFlMQ1djTmVvMWRBbmZWQXRfNzZMT3hGYm5PTWc5SDBBUXI0OU9LdVhMMmN6OUFmcTh6T3hGc284WklhVERHM0lCekU5SWY1SHdlZnZkbXl5MnM3SWdOZnI2WVp2T01Del93d0R5b2MyTVBBRjVsb0tyeENkZ1J4Ry1rY2FjU1FIcU5Mdm1CazRNQVMtdk5UdERId1FYUTZUcTI4UzROZVF5MUxOVGxDZWVKamNxYUc3SnVwOWMtd3d1NnI5NGx0S19PLUtkMG1pdTZnQ2JKdFdqellLX29JVWJoY0F2c0VUXzg1Y05jVng2TjkxUUwtejZVOWdCLWFhNnVSajJYeE84ZmoySERiT1dEMjAwVzFsaUNqczBfZUtPNTRpUEVPQU5RNkliMGxGTWJhb01IQVNjSjBCcVlqaHVpWmM1TXprUlJoeWNfQy1BNWZSR2wtS2phNEZ6SHBCeG5qTHRPZHVlUm52MXBlZW9MVmMxX1Y4Szd1UGdNdElRZw?oc=5"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
