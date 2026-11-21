@@ -1,14 +1,35 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-21T03:20:46.775965Z",
+  "generated_at": "2026-11-21T11:30:51.768803Z",
   "alerts": [
     {
-      "id": "GF-F25F29C5897FE8",
+      "id": "GF-161552AAC7B868",
       "level": "review",
-      "title": "توترات عسكرية متصاعدة وسط مخاوف تجدد الحرب.. دوى انفجارات بمحيط \"قشم\" الإيرانية ومعلومات متباينة حول مصدرها.. طهران: أصابعنا على الزناد.. ووزير الخزانة: أقيم بقاعدة عسكرية بسبب تهديدات إيران وسنشدد الضغوط عليها - اليوم السابع",
-      "published_at": "2026-11-21T02:52:00Z",
+      "title": "IRGC Navy Says Oil Tanker Exploded After Striking Naval Mines Near Oman’s Khasab Port: 6 outlets compared - NewsCord",
+      "published_at": "2026-11-21T11:23:44Z",
       "countries": [
-        "Iran"
+        "Oman"
+      ],
+      "category": "security",
+      "topic": "maritime",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "NewsCord",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPMTVjbF9zUV9GY09EVWllbmJGVjJMbVZibTFjMWt6d01iUFhUMVZkNFNuVkFrX2FYQ1V2cC1XOGMyUmFWcTF3cUl3dnEtd3EzT3JkbEo0VzdNVUlWNjczQ2ZPd0Y4ZzVqaTRwTm44UTZVek9FMXZsbEZsVVpHRmk4ckEtUURKRzFNWF91eVprUXlpM00zbEUzUXgwdC1qWXRuZE0wUkxkeG81Y2hQdGpjcm1MUUp3WkJBMkRwR2g3cklNam5GZl8yX0tXNk5oTFFwaEFmd25GVHNkbXMyTlZBdmRSR3QwZHhk?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-ECC73F2F6B9D2E",
+      "level": "review",
+      "title": "قتيلان وإصابة آخرين جراء ضربات روسية على مقاطعتي دنيبروبيتروفسك وخاركيف بأوكرانيا - Qatar news agency",
+      "published_at": "2026-11-21T10:17:08Z",
+      "countries": [
+        "Qatar"
       ],
       "category": "security",
       "topic": "regional",
@@ -16,8 +37,71 @@
       "article_count": 1,
       "source_urls": [
         {
-          "name": "اليوم السابع",
-          "url": "https://news.google.com/rss/articles/CBMihwRBVV95cUxQc3hURXZ3dU5MN2RFcEVxaC1USURsemxFalBvcW5wWFlhZHBGckhzMG5GZXRnTVhQMDJZTzF6ZlJLdzdtb1dISnhvWDNKYjgxVDdjTnA5S3Y2VlVWcTdtMnlBUUNTZXlFSFRzeXJRNW54WG9uYkI5MC1fWnkzdUR2ZkdIbG5RY1JVOW5DRWNicktCZGFkXzhiLVhVSkRrMDdpUWpoeUZWNWlmYXNqMzQ1V25lMjVHdngxTGs2SEd3UUJHUHRQYTNXcE9sajlQaGtVZUNENk93QlZXTXotMWJhWElLUVZGcU1CODg0YmtwUEk4Tng1WmpZaFFrYUZ6c0hXZS1YZE53cnQyVmlWc0FtU1JKUUp4dHZLMG1INUVzTUhGdFlwNnlHTmluM2R2dEZ3UDVkd3pGYUlkSTVLOFF4ZmY5NWVIQkRZZ0pjSXhhUW1weHRvQ0FkSkE5aXEzMU05R0ItVTVodmRISHZRTU9LQURSM21FT2hBWFpFN0xjcFZXZFhxSVlKZ3A4dlg3Z2FEVHo4dEVUQl8zNE5DMnkzYk5kVVhpM3ZocVZ0Ty1hQ1d4SEE3Qi1RaEFVR01BU1RfenlPOHpXWEVISmlMMHlDV19GQVZSZmk0RXhjUndxLWtWeHE4QjM4dUJjbk4xV2FOWnhoN0F0R3ZCaG0wc3FQMy1OMHg0dnPSAYIEQVVfeXFMTUV1b3ZxNnZKYjh6eXpJN0RjNXVmRkpYYnlNYnhvQ08zMEZOVUVndzdDWXFLang1Qk5McmNGam0tWlkwTDhwQ1JNUWJYSkFDYldyVlhNQ1BENEs1ZlFNMWZGTC1NMjFaa2Y5QnBuNzZxSm9hcXB3TC1SOWZWZEI4YldXWFFYSzU2dFlMQ1djTmVvMWRBbmZWQXRfNzZMT3hGYm5PTWc5SDBBUXI0OU9LdVhMMmN6OUFmcTh6T3hGc284WklhVERHM0lCekU5SWY1SHdlZnZkbXl5MnM3SWdOZnI2WVp2T01Del93d0R5b2MyTVBBRjVsb0tyeENkZ1J4Ry1rY2FjU1FIcU5Mdm1CazRNQVMtdk5UdERId1FYUTZUcTI4UzROZVF5MUxOVGxDZWVKamNxYUc3SnVwOWMtd3d1NnI5NGx0S19PLUtkMG1pdTZnQ2JKdFdqellLX29JVWJoY0F2c0VUXzg1Y05jVng2TjkxUUwtejZVOWdCLWFhNnVSajJYeE84ZmoySERiT1dEMjAwVzFsaUNqczBfZUtPNTRpUEVPQU5RNkliMGxGTWJhb01IQVNjSjBCcVlqaHVpWmM1TXprUlJoeWNfQy1BNWZSR2wtS2phNEZ6SHBCeG5qTHRPZHVlUm52MXBlZW9MVmMxX1Y4Szd1UGdNdElRZw?oc=5"
+          "name": "Qatar news agency",
+          "url": "https://news.google.com/rss/articles/CBMipgVBVV95cUxOT1cxYm9VbzBuS2tRTnYzZFlwcEE1UnVzdnBGTkp0UkFvbEdyZDFwN3Z0S1M3RFBFRVh0dFlvSm9ENDRBU3B3ZWhFSnlqZUhtbXhzX21pTEN6U2tzYnEzdE1TRGxmai1YbktodlJ2Xy1TOTV3OEFWc1pZTmJZc2pIeFF5QW5VbHJwX0ZCdzF2QmdiLW1VWFdpNDVKY3VGTVhKSGREakxqTl84QkFlUGJTdDZHTzE3N1AweVJpenVCNnZCU3RsT0lfTktsOXlEOURBQ1VBdnNQSTdDWnAzbE01N0xXR1kyc0lJWnZVSTloZXVVcjJMc2Vsc3FmMl9fNk5lMkFoRWVYN09SZzJrSWl1RnRYR01rZE44Qm5WQWZMMkQ1R0ZaOUN4cnI1M09XVDBod1dSSUZXbUktYjhkNE5DMERKaERVbWxOVW9TTml6Q0NUdklza0pqOEdqM3hOendQTnBjVEt3Qm9QaWtPR055VldFcVQ1YU9RSjNRVUhlSlV2YVRqeDZuSXc5VGM0LXhyUjhKSDNEZHVBOEdGMXdNMU9FZzdBNld3b1lzeG95ZlBVdkFadkh5ZVZINDFQRjRvcVNySy03UmU3X0k4Qk13Q2R6QWFSVjI0My1EaVdXakRGTW1DT3FmMlNPZWhuR01RSS1pdXFJR0VBTzVUVXRqV2lubmVlN0xqS1RkOVA1OHA1SFF2VVJ1WTdqUXZhbzhvNVBxQVBoRGVMS0g3NndXdVVweTRLdnJyMnNkbm02dXRDU0UwdGc2TWhMaVlNQl9fa0RNQXFMdE90WGd6a1k0ZWJJVHRtSkJkQkVWRWg3UDdfdE9FWlhDYjdMWUZzTEZrcVpsUkdUWW1uanJoMExfNnBoYmxNUmRNemxQS1lxRW1HUjNSenc?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-E97D32923063D2",
+      "level": "review",
+      "title": "رئيس وزراء العراق يوجه بتحقيق عاجل في انفجار محطة الهارثة - شبكة رؤية الإخبارية",
+      "published_at": "2026-11-21T09:59:29Z",
+      "countries": [
+        "Iraq"
+      ],
+      "category": "security",
+      "topic": "regional",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "شبكة رؤية الإخبارية",
+          "url": "https://news.google.com/rss/articles/CBMixgJBVV95cUxQTV9pSUo1ck9zaUhaTi03T2pzalVlQWhnQkoySlFfbzdOd2dCQTc1UExXb21OOVd6Y3BhYThoVWQ5bkxfQXBwUmRFeEhEc1VBUVc3Q3VNbTlaOVZPQ1lac1BYem5sTTV2YUhycHZrMS1qY1JPekwwY2ppaXpuN05TbDV5VTczeG41T3dXcFk4U2ZfamZDUWtwSU9aaVJoM3pjTzBWMlBVMVNENkM5cVYyMGxlYVp3MkZxSXFDUUtvckJGaXdYT0JlZ2daMll0Sjc2U0pKU2Z2NS05amxIZzNpcm1zNmZ6cXRwS213OXFOYjBEOElHQURaZ1pPMVBZVU5BbnRaLXpZdUNEeDFXOGVubDFyTEdNcmZESHV5MWl6RjRnckctdnlyQTAtdERzLXFFeWpGSFpsZFRPRXIyTW40MUJLaDNMZw?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-1A8C12FB3A5C4B",
+      "level": "review",
+      "title": "Houthis launch strikes on Saudi Arabia",
+      "published_at": "2026-11-21T09:49:44Z",
+      "countries": [
+        "Saudi"
+      ],
+      "category": "security",
+      "topic": "regional",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "France 24 · Middle East",
+          "url": "https://www.france24.com/en/houthis-launch-strikes-on-saudi-arabia"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-5AE901CC7E1E1F",
+      "level": "review",
+      "title": "رئيس وزراء العراق يوجه بتحقيق عاجل في انفجار محطة الهارثة وتعويض أسر الضحايا - أهل مصر",
+      "published_at": "2026-11-21T09:41:54Z",
+      "countries": [
+        "Iraq"
+      ],
+      "category": "security",
+      "topic": "regional",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "أهل مصر",
+          "url": "https://news.google.com/rss/articles/CBMi-ARBVV95cUxPSDhMZ0ZQWlpQNVpCbVItSXJ4RW82UXZYZnNTRk8teG0zekdlYUM4LU1VdUFiellGS3dvcF9SdXVxSFRxY3YxU19wbEt4WHhPWm9GRERMRXIzYWh1R01VR2tIRXRZZmNzOU53aVZnQVNwTGFkdUUwVUJFelZzNEtrcm5ka3pJZkFuQ29jUkpjQ3dURjRvMktQVnBSODl3MjR4RmJlSnFxRlRYOGt6SDZfdGktY0NHM1hSbC1LRm9LaXRremtqT0ZQQjlpLXp3VXI5LUNpNTJyeFdpUEdjeXR4aTZzUm44ci05VXFEMkxNQmdZSzkyYUVaZjlFZ0thdlNHLXN0b1pIeWY3THk5YzhtQU9RREN5dkJLa3JJZU1jVThUd3I3b3lWTDNnUFVHQndBU1QzNFMwZTg0SEc2b2ZjcFVsSjFaSEtfd2xLUHJWX3FLa3I3M0JCbG9WdjIyYVYxZXRHVWF2YU83MlloMWNxaUxmMGFzdFpFMmdmVThPM2NkUkJmLV9QX051NWo3Z29VRXJYV2lOVUk0NWxFU2FYODdQdEdESU54bW54ZmZYUk5pWFRaYWttUzFQcUpGWHlyRndoWFZlY0szMTVVMFlwSndTSjlVTlZrcmJHRmdrSkVzcWVLV2M3RDhuaF9YMlV1Ym1GZHJlR2tiM1FEd2w5VlpnRUZ1dXJOMDBzbldvUjVXamZ4Q0ZCNVB3dDZoalFnbVVHOERfMHdoZkx4NF94X0lKblJkU0hjcWZGTVVXXzBNTDQ3Vm1VWUJwbjFTenV6djI2dC16aXdENG1OeWw4bTN1bGJrNFhZRkFhQzNEU3haTFhNQmVOeQ?oc=5"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
