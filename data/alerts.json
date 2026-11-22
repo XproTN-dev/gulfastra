@@ -1,14 +1,15 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-22T03:19:15.561109Z",
+  "generated_at": "2026-11-22T11:43:54.966252Z",
   "alerts": [
     {
-      "id": "GF-6094F36660E0DA",
+      "id": "GF-01F88CAAFE712B",
       "level": "review",
-      "title": "Bahrain Says Civilian Facilities Hit By \"Iranian Attack\" - BusinessToday Malaysia",
-      "published_at": "2026-11-22T03:12:10Z",
+      "title": "US Commanders Warn Forces Overstretched as Israel Urges Strike on Iran - Israel Defense",
+      "published_at": "2026-11-22T11:00:37Z",
       "countries": [
-        "Bahrain"
+        "Iran",
+        "Israel"
       ],
       "category": "security",
       "topic": "regional",
@@ -16,8 +17,29 @@
       "article_count": 1,
       "source_urls": [
         {
-          "name": "BusinessToday Malaysia",
-          "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNMlFubkNiei1yTm5tUlVWc01JOG1LOVNjUUVXeGJDRkwxLXNDT3FSNWdnS1RBTzVVLW82LWRnbnZjeG9yd21aekV1anA0blllaW9WYXJGZGczYmRndklIRzVpUUdMY1J6YVNCUUpucTZTc045WDAxcEFJYUxSdnFsUDF5ZnlrSXdRbFVnVFBwd1hrVVZ6R2pEeU05SGFCYWJzMjRFN3BxcXFMdGFKRDVoMlpscTRYVmxjM0ZDN1NsRWtWVGxnNlhZTzNJUlBpTnBQakhPcENGd1BYMnNmQTRnZ0JRSGtXNXJqSlVLVG9Udkw2Y3FhTXdkbUEwS0s2WktVU0tsU3Y3QWRrblNWV21sRlVuN1JkZFFucW8wTC1TR3dHNFU?oc=5"
+          "name": "Israel Defense",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE55Q3pSVTMtNjJRMzlLcWVLM1RCakp3TDR2eE5wX3YwS01tZkswRWtkbXBxVlBHQVdXcFBxbWxWNTY5bjkxajFnQzcwdkRfb3hwM1RkajI4TlQ?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-4BAB02C88E7BBF",
+      "level": "review",
+      "title": "غارات على 6 محافظات يمنية والتحالف يدمر صاروخا ومسيرتين استهدفت السعودية - الجزيرة نت",
+      "published_at": "2026-11-22T10:44:28Z",
+      "countries": [
+        "Saudi"
+      ],
+      "category": "security",
+      "topic": "missile",
+      "outlet_count": 1,
+      "article_count": 2,
+      "source_urls": [
+        {
+          "name": "الجزيرة نت",
+          "url": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxNVl9fdzh3amRPS2VRTHFsUTkyN0F1TUdaUWoxeHlFLVBFNHl4azBBR0F1YUJyVnA5R3kySjJpZi10Y25hYk8xNDhQb2ZJTDBaS0FNbkswSnp2anBqSlc2WDl3TzdWWDJYOU51cjUwUTFIUGlDenJfNlZzSEN5WmJzR1ZlTDl0TkRtV01hV05uSVJYSUg0YkhXei1lX1gtZFBtWFdkVkdvN0dXZkp3b0RHWmFDbHhhQnJRS3I2cUpwUWRxWlFDX1hjVVZwV3hqMGFWZmdCYVlKNjh4T0x5R3h0Q0NpbG40MndYbFdwSFZYRDY5c3pvU3hXZHdMWWdXekZQVVMyOFMwZkhwNDloVFdZSktGMlFFSDJGeWV5YzdvYnY4cXpSZFlXbXdzcGlhd1UtMmN6d09pSXk3RUJPaWk0RXc5UUc2cGJIMVR5aW5BQk9wRWszNzBQZmx1SHFuUQ?oc=5"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
