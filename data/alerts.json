@@ -1,52 +1,55 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-22T11:43:54.966252Z",
+  "generated_at": "2026-11-22T18:40:46.173951Z",
   "alerts": [
     {
-      "id": "GF-01F88CAAFE712B",
-      "level": "review",
-      "title": "US Commanders Warn Forces Overstretched as Israel Urges Strike on Iran - Israel Defense",
-      "published_at": "2026-11-22T11:00:37Z",
+      "id": "GF-2B60C0090B43DB",
+      "level": "critical-reporting",
+      "title": "فنلندا: روسيا تشرع في قطر السفينة التي استهدفتها مسيرات في البلطيق - وكالة عمون الاخبارية",
+      "published_at": "2026-11-22T17:43:43Z",
       "countries": [
-        "Iran",
-        "Israel"
+        "Qatar"
       ],
       "category": "security",
-      "topic": "regional",
-      "outlet_count": 1,
-      "article_count": 1,
+      "topic": "drone",
+      "outlet_count": 2,
+      "article_count": 2,
       "source_urls": [
         {
-          "name": "Israel Defense",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE55Q3pSVTMtNjJRMzlLcWVLM1RCakp3TDR2eE5wX3YwS01tZkswRWtkbXBxVlBHQVdXcFBxbWxWNTY5bjkxajFnQzcwdkRfb3hwM1RkajI4TlQ?oc=5"
+          "name": "وكالة عمون الاخبارية",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9ZQ2M3bzIzU180THhKUmFVbERPSXlQSEtJb29SRURwcnlZOUo0ZFF0dTNKcWRDb0RHc1k2VGFxNi1OOUFnUEN5OFBmSDY2eWl3UDA0?oc=5"
+        },
+        {
+          "name": "العربية",
+          "url": "https://news.google.com/rss/articles/CBMipwRBVV95cUxQcG1mWksybVYwNElaWjRxalRod2pUd2ZzTG1TZmI4X3gwclJmdi1DWEpoVG1CUlFqRUlvemRha25OUXlIQkdPNE1VTFEwZUZKU21oS2hUd0hFTDZYZWJpZHY5cXlBcHdxZU5XQlM1eTR3LTRlVkRTOG9EUGxtUi1yMm9kOFM0dkZaczh5Y3FueVZJTTVkeEpSS21IZ3BmY1BQZG0xb09LTm1FbUVreGhJRnFvNUJKWk9sM2xmRFFxSFpjYndOTl9EODBGQkprWTM1QVllN19lZVFXY0cxYzAya015cVBwR0w0N3htMVpwZHMtRGdPeHAwdVlNMVlhaU9nN2g3NkJXdnVrNm9zV21RM0ZhQlRtaVpObGk3dS0wVU1uVHRlZmJHVVVOZWgwVGo2WXVldTVyOVFyUHA2alQwOGp4MDNIWmQ0SjdZZnh6YkxtcnZXRC1kSTJzNDUyU2l2dDJHVS1TN245VXdVSEpObXE4dS01SGtubWY4Z0Jza1RHdEMzOGpfajZVenVOTV9uWV80WWZ2WXdSMWF4UFlLLXItS0JOTE1TTTNPam5QbGRMYUdYTHhMR0NXMy1LMFdEY2dXS1dvZHBadGROaVdtbzVwZm4zSTFQSmg3Vld3cnN5MUJIZkJGNTJyTjE0ZktMekJGaVJYZTN5T01FUFVuZ0VObmNQbE0zb09aYmxZTTFzWWNrZVFhbGtTZGN5T3ZLVDVGX3VxY9IBrARBVV95cUxNa2hhOExxSklkUW1Ya2xWNFVKZVZWU2FkMko2WVkydW9yNHd5Ym9oeDNRajJGdHVrUTBpckFyMkJDMWZXSWhXU0RBQWwxaVVNZ0JaUmpEa21sc1dZZE1odEdyVmdBSTlXQm1lMEZvR3U1TG1ncm84bWdENXVPZS1ncFJPS2YyelpaVzI5aWwtckZ6VWZuck9wWjZ5X2R3ZU51c09vVmROUkN2RC1rUlROYjQ5M2c4dTMxNnE1OVNxLVFuS0RmQnFFbFRGcy0yeGNHTTB0M0UtelRnRmVZd1pUTVRFVHlscDNMR3lIM0ZQTGYwSnZCNmM5NzVac3FYS3VxX25iaFltMGZXT3hPWEh3UkozbERrdVJZdEJCZXpqbWhKRjMwTVg3WDdLYjhqVFZpMGZ1d1EyS0hWemVFZ2dGN1hkWUN5a1poenU2VjdicDdmdWhOTzhNTFNnWUlCQTlicUhpSzVrcFowN1g2ZDQxRXJidDk0ZGZIcDRaVE5ORG9CNnVrVFlaLXNEdC1oXzUwTFBtZkhrdngxLVNXQzAwVWY1UUlaQ3FFTzIta3ZnbmRzVUxDTXlYaHFHeVBoRVBOVjE2TlBYZUI2UnZmaVBMYXRWOENvRV84aTdSbXFzRXdkQ0FNcXgxZkxhMTI3WEFiWEp2Q1BpX1YzNWJPSnNlVkh4QnhPaEx6QXF5ajBiTTdXUWNkR1hyLU1kLXFnVFdRWDM2RnJabUNkSjB0?oc=5"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
       "verification": "unverified-reporting"
     },
     {
-      "id": "GF-4BAB02C88E7BBF",
+      "id": "GF-BE915F93E7AA20",
       "level": "review",
-      "title": "غارات على 6 محافظات يمنية والتحالف يدمر صاروخا ومسيرتين استهدفت السعودية - الجزيرة نت",
-      "published_at": "2026-11-22T10:44:28Z",
-      "countries": [
-        "Saudi"
-      ],
+      "title": "سباح بريطاني يقضي 3 أيام في مضيق هرمز وسط الانفجارات (فيديو) - الجزيرة نت",
+      "published_at": "2026-11-22T17:30:00Z",
+      "countries": [],
       "category": "security",
-      "topic": "missile",
+      "topic": "maritime",
       "outlet_count": 1,
-      "article_count": 2,
+      "article_count": 1,
       "source_urls": [
         {
           "name": "الجزيرة نت",
-          "url": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxNVl9fdzh3amRPS2VRTHFsUTkyN0F1TUdaUWoxeHlFLVBFNHl4azBBR0F1YUJyVnA5R3kySjJpZi10Y25hYk8xNDhQb2ZJTDBaS0FNbkswSnp2anBqSlc2WDl3TzdWWDJYOU51cjUwUTFIUGlDenJfNlZzSEN5WmJzR1ZlTDl0TkRtV01hV05uSVJYSUg0YkhXei1lX1gtZFBtWFdkVkdvN0dXZkp3b0RHWmFDbHhhQnJRS3I2cUpwUWRxWlFDX1hjVVZwV3hqMGFWZmdCYVlKNjh4T0x5R3h0Q0NpbG40MndYbFdwSFZYRDY5c3pvU3hXZHdMWWdXekZQVVMyOFMwZkhwNDloVFdZSktGMlFFSDJGeWV5YzdvYnY4cXpSZFlXbXdzcGlhd1UtMmN6d09pSXk3RUJPaWk0RXc5UUc2cGJIMVR5aW5BQk9wRWszNzBQZmx1SHFuUQ?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMizgJBVV95cUxNSUtXRzhOS0RIQk5jaU80SU4xSFRlalVQdFdXSXE5WU5yYWNydE11cHh5T2lyNkV3S1h1TjdkNm0tNW5qbzBNQ09yZDIzSkFCaEc4dUcyNW9FSlNkTExScnFrak5jUjV0em9yN0ctRlVIemp2eVM2TFFlWUhrdDVNcEtiWEhsNi1WeG1WUzBBcHlrYzdiM2RQZV8zdk5xR2ZtM1pRT0lFWEFuWmtEQ3g5ZFlzaUZxNTlhWVY0M09SLVdzY1hRb2diVUw5bWNtV3BzSTdPZWlWeWJRTUpncmpRMmx3a1JIdUZ2X2c0QUVxcWdyVk1EcUthTmhoSVhuRDJnZGJOdExCN1k0d0pNeWxqQnNMcjk0UHF5TWhidmYzRllNNUE3QWhFVFBUZnZUNy02UUVMUEJ1S3lMWmdvRkZfejFNbHNjMzcyanNsR0xR?oc=5"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
       "verification": "unverified-reporting"
     }
   ],
-  "new_alert_ids": [],
-  "critical_count": 0,
+  "new_alert_ids": [
+    "GF-2B60C0090B43DB"
+  ],
+  "critical_count": 1,
   "notice": "CRITICAL REPORTING means multiple named outlets published related headlines. This is NOT confirmation, real-time detection or official emergency advice."
 }

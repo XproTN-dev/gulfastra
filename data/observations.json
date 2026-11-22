@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "updated_at": "2026-11-22T11:43:58.816191Z",
+  "updated_at": "2026-11-22T18:40:49.622411Z",
   "observations": [
     {
       "id": "usgs:us7000tyvt",
@@ -119,24 +119,24 @@
       "source": "USGS",
       "ok": true,
       "count": 4,
-      "last_run": "2026-11-22T11:43:55.191675Z"
+      "last_run": "2026-11-22T18:40:46.400140Z"
     },
     {
       "source": "NASA EONET",
       "ok": true,
-      "count": 1,
-      "last_run": "2026-11-22T11:43:55.191675Z"
+      "count": 0,
+      "last_run": "2026-11-22T18:40:46.400140Z"
     },
     {
       "source": "Cloudflare Radar",
       "ok": null,
       "state": "not-configured",
       "requires_secret": "CF_RADAR_TOKEN",
-      "last_run": "2026-11-22T11:43:55.191675Z"
+      "last_run": "2026-11-22T18:40:46.400140Z"
     },
     {
       "source": "NASA FIRMS",
-      "last_run": "2026-11-22T11:43:58.816191Z",
+      "last_run": "2026-11-22T18:40:49.622411Z",
       "ok": null,
       "state": "not-configured",
       "requires_secret": "NASA_FIRMS_MAP_KEY"
