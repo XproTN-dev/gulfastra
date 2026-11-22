@@ -1,55 +1,30 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-22T18:40:46.173951Z",
+  "generated_at": "2026-11-22T23:52:24.183798Z",
   "alerts": [
     {
-      "id": "GF-2B60C0090B43DB",
-      "level": "critical-reporting",
-      "title": "فنلندا: روسيا تشرع في قطر السفينة التي استهدفتها مسيرات في البلطيق - وكالة عمون الاخبارية",
-      "published_at": "2026-11-22T17:43:43Z",
-      "countries": [
-        "Qatar"
-      ],
-      "category": "security",
-      "topic": "drone",
-      "outlet_count": 2,
-      "article_count": 2,
-      "source_urls": [
-        {
-          "name": "وكالة عمون الاخبارية",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9ZQ2M3bzIzU180THhKUmFVbERPSXlQSEtJb29SRURwcnlZOUo0ZFF0dTNKcWRDb0RHc1k2VGFxNi1OOUFnUEN5OFBmSDY2eWl3UDA0?oc=5"
-        },
-        {
-          "name": "العربية",
-          "url": "https://news.google.com/rss/articles/CBMipwRBVV95cUxQcG1mWksybVYwNElaWjRxalRod2pUd2ZzTG1TZmI4X3gwclJmdi1DWEpoVG1CUlFqRUlvemRha25OUXlIQkdPNE1VTFEwZUZKU21oS2hUd0hFTDZYZWJpZHY5cXlBcHdxZU5XQlM1eTR3LTRlVkRTOG9EUGxtUi1yMm9kOFM0dkZaczh5Y3FueVZJTTVkeEpSS21IZ3BmY1BQZG0xb09LTm1FbUVreGhJRnFvNUJKWk9sM2xmRFFxSFpjYndOTl9EODBGQkprWTM1QVllN19lZVFXY0cxYzAya015cVBwR0w0N3htMVpwZHMtRGdPeHAwdVlNMVlhaU9nN2g3NkJXdnVrNm9zV21RM0ZhQlRtaVpObGk3dS0wVU1uVHRlZmJHVVVOZWgwVGo2WXVldTVyOVFyUHA2alQwOGp4MDNIWmQ0SjdZZnh6YkxtcnZXRC1kSTJzNDUyU2l2dDJHVS1TN245VXdVSEpObXE4dS01SGtubWY4Z0Jza1RHdEMzOGpfajZVenVOTV9uWV80WWZ2WXdSMWF4UFlLLXItS0JOTE1TTTNPam5QbGRMYUdYTHhMR0NXMy1LMFdEY2dXS1dvZHBadGROaVdtbzVwZm4zSTFQSmg3Vld3cnN5MUJIZkJGNTJyTjE0ZktMekJGaVJYZTN5T01FUFVuZ0VObmNQbE0zb09aYmxZTTFzWWNrZVFhbGtTZGN5T3ZLVDVGX3VxY9IBrARBVV95cUxNa2hhOExxSklkUW1Ya2xWNFVKZVZWU2FkMko2WVkydW9yNHd5Ym9oeDNRajJGdHVrUTBpckFyMkJDMWZXSWhXU0RBQWwxaVVNZ0JaUmpEa21sc1dZZE1odEdyVmdBSTlXQm1lMEZvR3U1TG1ncm84bWdENXVPZS1ncFJPS2YyelpaVzI5aWwtckZ6VWZuck9wWjZ5X2R3ZU51c09vVmROUkN2RC1rUlROYjQ5M2c4dTMxNnE1OVNxLVFuS0RmQnFFbFRGcy0yeGNHTTB0M0UtelRnRmVZd1pUTVRFVHlscDNMR3lIM0ZQTGYwSnZCNmM5NzVac3FYS3VxX25iaFltMGZXT3hPWEh3UkozbERrdVJZdEJCZXpqbWhKRjMwTVg3WDdLYjhqVFZpMGZ1d1EyS0hWemVFZ2dGN1hkWUN5a1poenU2VjdicDdmdWhOTzhNTFNnWUlCQTlicUhpSzVrcFowN1g2ZDQxRXJidDk0ZGZIcDRaVE5ORG9CNnVrVFlaLXNEdC1oXzUwTFBtZkhrdngxLVNXQzAwVWY1UUlaQ3FFTzIta3ZnbmRzVUxDTXlYaHFHeVBoRVBOVjE2TlBYZUI2UnZmaVBMYXRWOENvRV84aTdSbXFzRXdkQ0FNcXgxZkxhMTI3WEFiWEp2Q1BpX1YzNWJPSnNlVkh4QnhPaEx6QXF5ajBiTTdXUWNkR1hyLU1kLXFnVFdRWDM2RnJabUNkSjB0?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-BE915F93E7AA20",
+      "id": "GF-9CDFF443440AE6",
       "level": "review",
-      "title": "سباح بريطاني يقضي 3 أيام في مضيق هرمز وسط الانفجارات (فيديو) - الجزيرة نت",
-      "published_at": "2026-11-22T17:30:00Z",
-      "countries": [],
+      "title": "مصادر العربية: انفجارات عنيفة في مدينة الحديدة باليمن #العربية - العربية",
+      "published_at": "2026-11-22T23:17:43Z",
+      "countries": [
+        "Yemen"
+      ],
       "category": "security",
-      "topic": "maritime",
+      "topic": "regional",
       "outlet_count": 1,
       "article_count": 1,
       "source_urls": [
         {
-          "name": "الجزيرة نت",
-          "url": "https://news.google.com/rss/articles/CBMizgJBVV95cUxNSUtXRzhOS0RIQk5jaU80SU4xSFRlalVQdFdXSXE5WU5yYWNydE11cHh5T2lyNkV3S1h1TjdkNm0tNW5qbzBNQ09yZDIzSkFCaEc4dUcyNW9FSlNkTExScnFrak5jUjV0em9yN0ctRlVIemp2eVM2TFFlWUhrdDVNcEtiWEhsNi1WeG1WUzBBcHlrYzdiM2RQZV8zdk5xR2ZtM1pRT0lFWEFuWmtEQ3g5ZFlzaUZxNTlhWVY0M09SLVdzY1hRb2diVUw5bWNtV3BzSTdPZWlWeWJRTUpncmpRMmx3a1JIdUZ2X2c0QUVxcWdyVk1EcUthTmhoSVhuRDJnZGJOdExCN1k0d0pNeWxqQnNMcjk0UHF5TWhidmYzRllNNUE3QWhFVFBUZnZUNy02UUVMUEJ1S3lMWmdvRkZfejFNbHNjMzcyanNsR0xR?oc=5"
+          "name": "العربية",
+          "url": "https://news.google.com/rss/articles/CBMijgRBVV95cUxQYnVCQXExRF9sazdzdlhRakVqaEJvYi15eGpCYVc0Rm95VHJzOTlhWVpVYVFGcVpBblFJTElVa243RWN5cjM5THE0MElCQl9UdWpETUthdExuUnU3dElJNWo4WEtpZU1xWWVwdGxhaXFNY1NjRzJtN1VwTFhBc2hWMW5INmdRXzJNU1ZnMzZaV2cxelBzRk45d05LekwzRjhKUDlhZEIzRjMtVHo2YWhTczlBaVdsY2FSWVlPWlJ1SDFOb2lmNWwyOTViV21JblUxdU9QcHlLTmZnQ09jVGp6S2dndDZLVHhuNkJiUzFURjc1bzhKZVRhbzdxdXF4bjMtLVpmYnZoSnFjeXd3SFh6MjFrdlJLeDdNazhOWTRsRFczR0hPeTYxdUxYcTAxbTNuSDJ1YWFLRGxhNlNKcmllZzlVYXMydkxEeUJQTDluUS16dHNENWdYbm1ZWTJqbXBlSTNFQjVldmxtMnE5SmhJekJhMzB4alctQUg4MTdJcnIyUlFzYndIZEpRcWVtbmJ0d1A4VktqUFpiT0tzcXh2ZDNweWNGN2FVSUpmOHJ4Vk1YWjJLWEVHSGpKWkZQUFJycmJNU2RWZjIyN0dJaE1KcUVQeXRVTVhQdWVYLUtESDZzeGNsSUxkUnhJV05qRFp3LWw1aXlqbDRfV1ZhQVlPYzJXZy1rc1lmY1BhWDJB0gGTBEFVX3lxTFBOR0xIVWlsdUdERVF5bGthLWMzY1M3Q1VfX0J3ZUs3S09RX2pFVzROUWtDTHNibFJ3MzVMdDNKRFU1bVphNjNRTDBDUzdDdlJ5UVU3S3JhNVpmY3BZSE1uZ0tXOTh1X2V1MFRkRGItUzJzMVY3NjFjWGNpVmttMjUzSHlKWHZOdnpaNnJwRGpnT2pkck9KM1llbVAwenUtWnI4VVdyT2dNbWJtb3FmWGlHR25qUXAzSzNBUkxtdnVMVzF3NEJSS2MtU3h2UUJNVkljWjNyaG5YUnR2STV0dFJzUmZMZ2txQ0VBT2wwdE8zLS1aRlV6MF9JUDdTc01BZmRTOTFMems1alk5VEM1VlYyRV81WDRlbE9BTWY2WWJ4U1FDLThLazNIZVJqMW9Pb016WFlHeW5sdWtJLTNxc25EblN4SlpiVE5ad1p6dW1HYVVUaG96VGM4ZG5LNWFjTHF2MnhER18xS00yVHFvX3VBenp6MXZRS2ZjSkVWalpkVER3T0xlV1lDMkh2QXpNUEtoUFZXVmU1cTNDaTZrZnliU2FBeHowSkR0T0h1MnBudzVwenZJOFVRYVcwZ2dSYmJ2Q2c0VnFzbElESkFjYm5GUERkVGpZNWpwZU9KNy1yRExRZGNwYUQ0X01RSVZGVHl4Uk84TmZFUEl1bXV4cDJSUDk0dFdnSDVMV3FjQkZyclhMSQ?oc=5"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
       "verification": "unverified-reporting"
     }
   ],
-  "new_alert_ids": [
-    "GF-2B60C0090B43DB"
-  ],
-  "critical_count": 1,
+  "new_alert_ids": [],
+  "critical_count": 0,
   "notice": "CRITICAL REPORTING means multiple named outlets published related headlines. This is NOT confirmation, real-time detection or official emergency advice."
 }
