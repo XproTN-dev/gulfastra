@@ -1,29 +1,7 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-23T05:36:32.108654Z",
-  "alerts": [
-    {
-      "id": "GF-F487F6FE93F3E3",
-      "level": "review",
-      "title": "إيران: انفجار ناقلتين عملاقتين بمضيق هرمز بعد اصطدامهما بألغام بحرية - بوابة الشروق",
-      "published_at": "2026-11-23T04:19:47Z",
-      "countries": [
-        "Iran"
-      ],
-      "category": "security",
-      "topic": "maritime",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "بوابة الشروق",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVEdMZEx5dW1XT3BBZ01hSXdTcHF5SnZBaTdvNlp1dzBFeW1EMkRKakR3cW1ZVW5HZDF2TWJPbGNYSzZnTjlhaGlnTmJ2WV9jaVItNGxsZVcwQ2JyaElTR2FkZkJrendiN1RrZDc0NzgwQzlQTFBPNTkyNE9EUXlQYjQ1VUx6WkZhZDNQTWJPc01Fdnp2MnNlNi1adUkyMUQ3TEdidDJSOA?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    }
-  ],
+  "generated_at": "2026-11-23T16:29:19.251633Z",
+  "alerts": [],
   "new_alert_ids": [],
   "critical_count": 0,
   "notice": "CRITICAL REPORTING means multiple named outlets published related headlines. This is NOT confirmation, real-time detection or official emergency advice."
