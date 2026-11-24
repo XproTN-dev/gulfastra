@@ -1,21 +1,24 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-24T13:32:47.592704Z",
+  "generated_at": "2026-11-24T23:15:24.732185Z",
   "alerts": [
     {
-      "id": "GF-213CF0FBC1DDA4",
+      "id": "GF-A428AEDD529777",
       "level": "review",
-      "title": "انفجار 4 ناقلات نفط إثر اصطدامها بلغم أثناء عبورها في مضيق هرمز - صدى البلد",
-      "published_at": "2026-11-24T11:36:00Z",
-      "countries": [],
+      "title": "11 injured in Houthi drone attack on Riyadh tower, Saudi civil defence says - Al Jazeera",
+      "published_at": "2026-11-24T21:33:15Z",
+      "countries": [
+        "Saudi",
+        "Yemen"
+      ],
       "category": "security",
-      "topic": "maritime",
+      "topic": "drone",
       "outlet_count": 1,
       "article_count": 1,
       "source_urls": [
         {
-          "name": "صدى البلد",
-          "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1Kb1gxVFBSN0xwMUFMLWEtQUFCa2UzOFJMbUlqWU83U05rQkRkMXgzS3cySFpvbGFPMFFCOEZWVnVGM2FNMHIw?oc=5"
+          "name": "Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQT3JsaU96a05ySk9rVHZIazNjQmt6Z2ZCZF9nRWFSVHVqa0s1LVhhRXhVc1VSMjNfWHhQTVZyZU9GZEtsZHRRVU5yVGVUYmVwZkRDNC1iSmYyWDc0UTdhV2pOenhuWDFkQ0ZWWkhwcTFoN2tsU3JjcllUWWJkcDBvUHU4MTAzSi0zX05oM0NLQVpua1VFNmJfcWE3cmh1al82V29SdDhCSkc4d9IBrwFBVV95cUxPQ1M5eHo1Rk9NaE5DM2hNbGF1akUxczVaekNKRWRUN3JxZ0ZJd05TYno2b2o2bVU0ZWJxWE5GWE5kT19lRHR6Z3k0TVpkaXFuY2dBMXNmaFE2YWpubno0VGZFUFlEbEJqY2NKODVWX09BVUpEUGZTXzRrY3RZWi1YUFdtaUN2amFOSm1sNXJRRzA3TW84Sk0wcUJYN1NCSEpKbV9ZZk8zNUtZSzJVdjFV?oc=5"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
