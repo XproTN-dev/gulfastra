@@ -1,7 +1,27 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-24T03:00:46.476061Z",
-  "alerts": [],
+  "generated_at": "2026-11-24T13:32:47.592704Z",
+  "alerts": [
+    {
+      "id": "GF-213CF0FBC1DDA4",
+      "level": "review",
+      "title": "انفجار 4 ناقلات نفط إثر اصطدامها بلغم أثناء عبورها في مضيق هرمز - صدى البلد",
+      "published_at": "2026-11-24T11:36:00Z",
+      "countries": [],
+      "category": "security",
+      "topic": "maritime",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "صدى البلد",
+          "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1Kb1gxVFBSN0xwMUFMLWEtQUFCa2UzOFJMbUlqWU83U05rQkRkMXgzS3cySFpvbGFPMFFCOEZWVnVGM2FNMHIw?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    }
+  ],
   "new_alert_ids": [],
   "critical_count": 0,
   "notice": "CRITICAL REPORTING means multiple named outlets published related headlines. This is NOT confirmation, real-time detection or official emergency advice."
