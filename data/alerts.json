@@ -1,21 +1,44 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-25T05:30:06.004299Z",
+  "generated_at": "2026-11-25T15:59:39.871885Z",
   "alerts": [
     {
-      "id": "GF-1C73180573599A",
+      "id": "GF-5591E149ED5F22",
       "level": "review",
-      "title": "انفجار ناقلتين للنفط مخالفتين في مسار غير مسموح به في مضيق هرمز - تسنیم",
-      "published_at": "2026-11-25T05:01:43Z",
-      "countries": [],
+      "title": "Iran's army says an oil tanker hit a naval mine and caught fire in the Strait of Hormuz, Fars reports - Middle East Eye",
+      "published_at": "2026-11-25T14:35:00Z",
+      "countries": [
+        "Iran"
+      ],
+      "category": "transport",
+      "topic": "maritime",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "Middle East Eye",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNeEtQeGdScGRxM05taFVDZDR1R3VOUjBYcUR3ZzFOTmpVY0RFQmNpZTlOVzVQTHZTa2RwUmxwekxJWWRacU1hWGJMVmlzcGk2bDQxeUFEN2pGLXlfRmNyb2doY00xbEJjX1lsaDB4NG9RS2djZTBEUnI5VjA4M3pIcThZUkd3UGRRY0MxREh4SUpOUFFfRjF6V1FCTmFjcHhVUWlWaTBaREppMWFnU0NfTzRHVzFaTktUSlExVmJqSUpOS0NPTnNz?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-A45FB2781E6137",
+      "level": "review",
+      "title": "Four More Ships Attacked in Hormuz as Iran Expands Blacklist to Tugboats - Global Trade Magazine",
+      "published_at": "2026-11-25T14:06:56Z",
+      "countries": [
+        "Iran"
+      ],
       "category": "security",
       "topic": "maritime",
       "outlet_count": 1,
       "article_count": 1,
       "source_urls": [
         {
-          "name": "تسنیم",
-          "url": "https://news.google.com/rss/articles/CBMikgRBVV95cUxPOXI4WUJUVkJmemdJLWJvU0YwY0V3VnYxcVBOTkI3MHFxRGkwbmdIMDlCdm5VWW4tVEcxT3ZqaGJyZTlicTNVLTJPa2xHMFRjd2IxN0RfaUhCMjdTeWpZMXFSbF93NHEyUmJ5VnNubWQ5YzMzcDN6Y1BsMGw4Mko4d093V3ZkZVd5S29saXBKV3h1SElpOUd3bHRzbThCVWRVMlFwREdCemV3WE5lOUpGa0IzUU1zOW9VNVdKaVF3VWhjbEVuMk5SSGNuTmZFYjZQWkZIcGQwQmpVbU95TlJqOERBV3F2ZUdxSmd5ZXVIS1pvLU5LNUZYUWdSM0NQbFBKZUNISk5wWkhSN2hFVnFuZ3NMTmJEcE9BcTJyZzIxUWMxQWdndWRlalI3R2hYNDVXdlVaUEQxTlItVGJSbFVqYmtvWU94VU05cDJPb0cxcXQ1bG5mOWM5MDVuRnRVZC1aTy0zajVjZGg2dTVmZGJTUDBUVktFaXg5czhoRDJ0TkV6cmwzTkVDaEZqRlg2aGFKdVJpNldYRS1XXzNfeTR4UEZMUC1mZzMzYzVodFpKcTdOVUZyTVVDUS1kVEloa0NraUllbXhwejJfQWJ1QzdpRkdOenU2TEw1aEhlUFB0Z08yUlBhc0tvRmN5Z0tJNklmOGlENWhENHA4QVlHQmZ4aDNKR0d3U3gyTkdTb2k2blZDQdIBlwRBVV95cUxQUDh1anFCR0lkQktvRXoyYWlGazdRdzByMFNJSTFjdlhRbFJaMFM5b3ZWbzk3TzFlX3RHWG4yZDhXb3hITTktMWRQUUs1MkhsU3JHRkVlTDM0VmZVNGhMTXE5X3V5N2t1aEd5YWpmWjFtdl9tVkUyWTdwVWl5c3BnVy0yWWQzWnIzbU0tZkdGSmFDQ0JXNFlQUmhWYWlfREhKYzk2Z19LYm9Hem9yaDd0OFl0M1hiZ3FuaWpwWG1WSjdveTlqY1NUeDdYVm1ZT3JWR0dJdE5vMENCdXlxaWVMZDlqUmVnYTZGNTZNNXlCTnhmTnRKcHdCOUN2T2JRN2J4Y2s4dVZBNjA1bWpxVlhkUzlLWnd5bG5yem5UZ1VJZEVzNXJOVFNrZlRrZ3lqc1BTbUs3c1FpaFBDUUQ3bGRSN21PVEJkUGFGSFlGbnRJMnF0b19md2tPTlVPN2wyT1BHUDM2ajk5bHpwSmIwMms1cnpHcjZQV1JqR2JwRXRaNlE0MkstY1M5N0NBanFoamJRZ3dlTmttZUxFa0FVTHJ5TFZxOGZRYUxFN1JGN1hkeDR2cDRPc21YdWlCWkRlVU43d3RaRHZfalBWLTFqSzUtdlBzZHlLZ2o4OHVNNnE4ZS1zOGlOU1d6V3ZRMGZNSEZkVndtNnhZTWJHdW5TSXBfZEVNQVdRc1FXbWRaQ2d5bUpPckFKWW5n?oc=5"
+          "name": "Global Trade Magazine",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOb0o0R0dSZGs1LU51ODhZRU1uN1hyT0F6bVJYb1ZCbDBDdlhDQ015aW9qUGNRNmlGbXdTcHFmN3ZDVm9EaWJhVGQza2Z4VDlqVEtOT0VsaHhJYWdmSWpGcVhDRzg1STlkaWpNbENqb0RvYjB5UUtacXZYTXNKelZpbUstWGRXaC0wdHI3bGVuVWs3RlVicV8tc2FIdXplUWVnZ0RHYURxZw?oc=5"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
