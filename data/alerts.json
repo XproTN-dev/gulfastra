@@ -1,24 +1,21 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-24T23:15:24.732185Z",
+  "generated_at": "2026-11-25T05:30:06.004299Z",
   "alerts": [
     {
-      "id": "GF-A428AEDD529777",
+      "id": "GF-1C73180573599A",
       "level": "review",
-      "title": "11 injured in Houthi drone attack on Riyadh tower, Saudi civil defence says - Al Jazeera",
-      "published_at": "2026-11-24T21:33:15Z",
-      "countries": [
-        "Saudi",
-        "Yemen"
-      ],
+      "title": "انفجار ناقلتين للنفط مخالفتين في مسار غير مسموح به في مضيق هرمز - تسنیم",
+      "published_at": "2026-11-25T05:01:43Z",
+      "countries": [],
       "category": "security",
-      "topic": "drone",
+      "topic": "maritime",
       "outlet_count": 1,
       "article_count": 1,
       "source_urls": [
         {
-          "name": "Al Jazeera",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQT3JsaU96a05ySk9rVHZIazNjQmt6Z2ZCZF9nRWFSVHVqa0s1LVhhRXhVc1VSMjNfWHhQTVZyZU9GZEtsZHRRVU5yVGVUYmVwZkRDNC1iSmYyWDc0UTdhV2pOenhuWDFkQ0ZWWkhwcTFoN2tsU3JjcllUWWJkcDBvUHU4MTAzSi0zX05oM0NLQVpua1VFNmJfcWE3cmh1al82V29SdDhCSkc4d9IBrwFBVV95cUxPQ1M5eHo1Rk9NaE5DM2hNbGF1akUxczVaekNKRWRUN3JxZ0ZJd05TYno2b2o2bVU0ZWJxWE5GWE5kT19lRHR6Z3k0TVpkaXFuY2dBMXNmaFE2YWpubno0VGZFUFlEbEJqY2NKODVWX09BVUpEUGZTXzRrY3RZWi1YUFdtaUN2amFOSm1sNXJRRzA3TW84Sk0wcUJYN1NCSEpKbV9ZZk8zNUtZSzJVdjFV?oc=5"
+          "name": "تسنیم",
+          "url": "https://news.google.com/rss/articles/CBMikgRBVV95cUxPOXI4WUJUVkJmemdJLWJvU0YwY0V3VnYxcVBOTkI3MHFxRGkwbmdIMDlCdm5VWW4tVEcxT3ZqaGJyZTlicTNVLTJPa2xHMFRjd2IxN0RfaUhCMjdTeWpZMXFSbF93NHEyUmJ5VnNubWQ5YzMzcDN6Y1BsMGw4Mko4d093V3ZkZVd5S29saXBKV3h1SElpOUd3bHRzbThCVWRVMlFwREdCemV3WE5lOUpGa0IzUU1zOW9VNVdKaVF3VWhjbEVuMk5SSGNuTmZFYjZQWkZIcGQwQmpVbU95TlJqOERBV3F2ZUdxSmd5ZXVIS1pvLU5LNUZYUWdSM0NQbFBKZUNISk5wWkhSN2hFVnFuZ3NMTmJEcE9BcTJyZzIxUWMxQWdndWRlalI3R2hYNDVXdlVaUEQxTlItVGJSbFVqYmtvWU94VU05cDJPb0cxcXQ1bG5mOWM5MDVuRnRVZC1aTy0zajVjZGg2dTVmZGJTUDBUVktFaXg5czhoRDJ0TkV6cmwzTkVDaEZqRlg2aGFKdVJpNldYRS1XXzNfeTR4UEZMUC1mZzMzYzVodFpKcTdOVUZyTVVDUS1kVEloa0NraUllbXhwejJfQWJ1QzdpRkdOenU2TEw1aEhlUFB0Z08yUlBhc0tvRmN5Z0tJNklmOGlENWhENHA4QVlHQmZ4aDNKR0d3U3gyTkdTb2k2blZDQdIBlwRBVV95cUxQUDh1anFCR0lkQktvRXoyYWlGazdRdzByMFNJSTFjdlhRbFJaMFM5b3ZWbzk3TzFlX3RHWG4yZDhXb3hITTktMWRQUUs1MkhsU3JHRkVlTDM0VmZVNGhMTXE5X3V5N2t1aEd5YWpmWjFtdl9tVkUyWTdwVWl5c3BnVy0yWWQzWnIzbU0tZkdGSmFDQ0JXNFlQUmhWYWlfREhKYzk2Z19LYm9Hem9yaDd0OFl0M1hiZ3FuaWpwWG1WSjdveTlqY1NUeDdYVm1ZT3JWR0dJdE5vMENCdXlxaWVMZDlqUmVnYTZGNTZNNXlCTnhmTnRKcHdCOUN2T2JRN2J4Y2s4dVZBNjA1bWpxVlhkUzlLWnd5bG5yem5UZ1VJZEVzNXJOVFNrZlRrZ3lqc1BTbUs3c1FpaFBDUUQ3bGRSN21PVEJkUGFGSFlGbnRJMnF0b19md2tPTlVPN2wyT1BHUDM2ajk5bHpwSmIwMms1cnpHcjZQV1JqR2JwRXRaNlE0MkstY1M5N0NBanFoamJRZ3dlTmttZUxFa0FVTHJ5TFZxOGZRYUxFN1JGN1hkeDR2cDRPc21YdWlCWkRlVU43d3RaRHZfalBWLTFqSzUtdlBzZHlLZ2o4OHVNNnE4ZS1zOGlOU1d6V3ZRMGZNSEZkVndtNnhZTWJHdW5TSXBfZEVNQVdRc1FXbWRaQ2d5bUpPckFKWW5n?oc=5"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
