@@ -1,14 +1,14 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-26T00:12:43.831520Z",
+  "generated_at": "2026-11-26T08:32:45.988382Z",
   "alerts": [
     {
-      "id": "GF-F4CDD9036BE5BE",
+      "id": "GF-4D8F9F30099A23",
       "level": "review",
-      "title": "Palestinian journalist killed by Israel in Gaza wins Rory Peck prize",
-      "published_at": "2026-11-25T23:06:06Z",
+      "title": "سياسي / وزارة الخارجية تعرب عن إدانة المملكة واستنكارها الشديدين للهجوم الإرهابي الذي استهدف أحد مواقع قوات الأمن السورية في الحسكة - وكالة الأنباء السعودية",
+      "published_at": "2026-11-26T08:08:09Z",
       "countries": [
-        "Israel"
+        "Saudi"
       ],
       "category": "security",
       "topic": "regional",
@@ -16,29 +16,8 @@
       "article_count": 1,
       "source_urls": [
         {
-          "name": "The Guardian · Middle East",
-          "url": "https://www.theguardian.com/media/2026/nov/25/palestinian-journalist-killed-by-israel-in-gaza-wins-rory-peck-prize"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-9DDC891FF01611",
-      "level": "review",
-      "title": "السعودية تدمر صاروخين باليستيين استهدفا الرياض وتؤكد عدم وجود إصابات - المصري اليوم",
-      "published_at": "2026-11-25T23:02:00Z",
-      "countries": [
-        "Saudi"
-      ],
-      "category": "security",
-      "topic": "missile",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "المصري اليوم",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1pLWlQeVZSR2d6Z3A5WnZvV3lXTjB3TXhlVmt4eFpLVDNxX3BhbnRNXzFrejBkRmc3YngzY1dqTWduV05XQVRyMlpvZmE0eHMtR3BHY2Q1TDFLcUQ3TFpv?oc=5"
+          "name": "وكالة الأنباء السعودية",
+          "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5IdzJvUDVRWGdhRTN0TEp4dE1KcHhsSnRDeTU4Tm0tQVdGTW5KWXhiYk9aQ1A0aGgtalZwTUR1OXA?oc=5"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
