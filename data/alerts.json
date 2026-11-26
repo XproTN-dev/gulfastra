@@ -1,44 +1,44 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-25T15:59:39.871885Z",
+  "generated_at": "2026-11-26T00:12:43.831520Z",
   "alerts": [
     {
-      "id": "GF-5591E149ED5F22",
+      "id": "GF-F4CDD9036BE5BE",
       "level": "review",
-      "title": "Iran's army says an oil tanker hit a naval mine and caught fire in the Strait of Hormuz, Fars reports - Middle East Eye",
-      "published_at": "2026-11-25T14:35:00Z",
+      "title": "Palestinian journalist killed by Israel in Gaza wins Rory Peck prize",
+      "published_at": "2026-11-25T23:06:06Z",
       "countries": [
-        "Iran"
+        "Israel"
       ],
-      "category": "transport",
-      "topic": "maritime",
+      "category": "security",
+      "topic": "regional",
       "outlet_count": 1,
       "article_count": 1,
       "source_urls": [
         {
-          "name": "Middle East Eye",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNeEtQeGdScGRxM05taFVDZDR1R3VOUjBYcUR3ZzFOTmpVY0RFQmNpZTlOVzVQTHZTa2RwUmxwekxJWWRacU1hWGJMVmlzcGk2bDQxeUFEN2pGLXlfRmNyb2doY00xbEJjX1lsaDB4NG9RS2djZTBEUnI5VjA4M3pIcThZUkd3UGRRY0MxREh4SUpOUFFfRjF6V1FCTmFjcHhVUWlWaTBaREppMWFnU0NfTzRHVzFaTktUSlExVmJqSUpOS0NPTnNz?oc=5"
+          "name": "The Guardian · Middle East",
+          "url": "https://www.theguardian.com/media/2026/nov/25/palestinian-journalist-killed-by-israel-in-gaza-wins-rory-peck-prize"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
       "verification": "unverified-reporting"
     },
     {
-      "id": "GF-A45FB2781E6137",
+      "id": "GF-9DDC891FF01611",
       "level": "review",
-      "title": "Four More Ships Attacked in Hormuz as Iran Expands Blacklist to Tugboats - Global Trade Magazine",
-      "published_at": "2026-11-25T14:06:56Z",
+      "title": "السعودية تدمر صاروخين باليستيين استهدفا الرياض وتؤكد عدم وجود إصابات - المصري اليوم",
+      "published_at": "2026-11-25T23:02:00Z",
       "countries": [
-        "Iran"
+        "Saudi"
       ],
       "category": "security",
-      "topic": "maritime",
+      "topic": "missile",
       "outlet_count": 1,
       "article_count": 1,
       "source_urls": [
         {
-          "name": "Global Trade Magazine",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOb0o0R0dSZGs1LU51ODhZRU1uN1hyT0F6bVJYb1ZCbDBDdlhDQ015aW9qUGNRNmlGbXdTcHFmN3ZDVm9EaWJhVGQza2Z4VDlqVEtOT0VsaHhJYWdmSWpGcVhDRzg1STlkaWpNbENqb0RvYjB5UUtacXZYTXNKelZpbUstWGRXaC0wdHI3bGVuVWs3RlVicV8tc2FIdXplUWVnZ0RHYURxZw?oc=5"
+          "name": "المصري اليوم",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1pLWlQeVZSR2d6Z3A5WnZvV3lXTjB3TXhlVmt4eFpLVDNxX3BhbnRNXzFrejBkRmc3YngzY1dqTWduV05XQVRyMlpvZmE0eHMtR3BHY2Q1TDFLcUQ3TFpv?oc=5"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
