@@ -1,14 +1,14 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-26T08:32:45.988382Z",
+  "generated_at": "2026-11-26T18:37:39.208709Z",
   "alerts": [
     {
-      "id": "GF-4D8F9F30099A23",
+      "id": "GF-817F8C5B07054F",
       "level": "review",
-      "title": "سياسي / وزارة الخارجية تعرب عن إدانة المملكة واستنكارها الشديدين للهجوم الإرهابي الذي استهدف أحد مواقع قوات الأمن السورية في الحسكة - وكالة الأنباء السعودية",
-      "published_at": "2026-11-26T08:08:09Z",
+      "title": "الإمارات تدين هجوما استهدف قوى الأمن بسوريا وتؤكد رفضها العنف والإرهاب - العين الإخبارية",
+      "published_at": "2026-11-26T18:28:42Z",
       "countries": [
-        "Saudi"
+        "UAE"
       ],
       "category": "security",
       "topic": "regional",
@@ -16,8 +16,355 @@
       "article_count": 1,
       "source_urls": [
         {
-          "name": "وكالة الأنباء السعودية",
-          "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5IdzJvUDVRWGdhRTN0TEp4dE1KcHhsSnRDeTU4Tm0tQVdGTW5KWXhiYk9aQ1A0aGgtalZwTUR1OXA?oc=5"
+          "name": "العين الإخبارية",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBDa3BGSDlqVGFmbzRsQ3FLY3BBNEJTQzBPbmplNjlqS1JnQmpJR0V3WEdLemUxU2h6YjVoRDYzcUhOa0s0b1pNVWZVSnpiMDBzU0FMTjduZ3Z6Ty1hTGJidmRWQmJXejNkQm5ud0x1Z2hkV3h6dGtUY05PRjFWem8?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-825DE9981E1E99",
+      "level": "review",
+      "title": "الكويت تعلن مقتل وإصابة 4 أشخاص في هجوم بمسيرات وطهران تنفي مسؤوليتها - جريدة القدس",
+      "published_at": "2026-11-26T18:27:54Z",
+      "countries": [
+        "Kuwait"
+      ],
+      "category": "security",
+      "topic": "drone",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "جريدة القدس",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTGNGRVl1Y1kzZW5mVWpfVm0ya0NsdHVuWXlQenRZclEzTjVaRlpENXhZbG1XVE52NlZxTUNwSFhnLWlkXzVfOEdDUjdDQ29kMV82cGhOY21wN2FzcHROOHZxMXQtMjJISWdEVERqNVRDd0NBMC0wRHYyM0lHUmMybV9SWQ?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-B8688E8007D15F",
+      "level": "review",
+      "title": "Araghchi says Iran not behind drone attack that killed two in Kuwait - Middle East Eye",
+      "published_at": "2026-11-26T18:15:00Z",
+      "countries": [
+        "Iran",
+        "Kuwait"
+      ],
+      "category": "security",
+      "topic": "drone",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "Middle East Eye",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQY3pxWWJLeXcwX1BIOXhPcDlIcEJnTGMtTktVaGRmbkRYSXdxMzNWLTRrOW0zRnJmQjVmc1hNZlU2cFk1OWRSUjdnaUtnaFBpaXI2OFRPOGVRRDZtYzBMd0QxbUpiU1Zsc3JiUUNnNDV6RXJCcmxoNnpJcTNqQkpZQnZFVnpib3BqOXpmbGVDdHJZRjBqLWFtMFdHcmktdlF0LXUxUTNXWjRXdnl3V3lHQUs4djhmWFpt?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-E6EA85F6A995DF",
+      "level": "review",
+      "title": "\"العلم الزائف\".. أول تعليق إيراني على هجوم الكويت ومقتل إيطاليين - CNN Arabic",
+      "published_at": "2026-11-26T18:12:35Z",
+      "countries": [
+        "Iran",
+        "Kuwait"
+      ],
+      "category": "security",
+      "topic": "regional",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "CNN Arabic",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQUwyUTdBUU9kekZYTVBGYTdYSjZkTTZNZVJYOVgtcDFlY19rOXk4Qnd3WUVJU1FyaWwwSjZNa2s1UHRDamtXUTdqcFloTlhmUWsxQVlrSkVqR2lhejAyY3BzX3YxdzlHNU1MY0FFOGRJV0VvNnZWaUpPME1KcXlaWmcxNEdCMi10LXAxVWtKTC1DVTh2ci15MUVJd2EwbVFpTjJXR2sza19xNGZ1NzFqdXZn?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-19C5CE80F7C2A9",
+      "level": "review",
+      "title": "Middle East latest: Two Italians killed in Iranian drone attack in Kuwait - The National",
+      "published_at": "2026-11-26T18:11:15Z",
+      "countries": [
+        "Kuwait"
+      ],
+      "category": "security",
+      "topic": "drone",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "The National",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZjlZcjNRWExvSC0zaURTVmE2YjJuTHI5Z3ZQb3dxMGtCS09EMEVwNVc3T1hzTnZ5Z3czZGhqWDRNU2tNb1RTTFZOempjZHFKNE95SG54NjBGSlBHb2VqVlRqTTlwd3h0UUcyd3lGMDZuejRyamV5cmg5cVBlNlVZeVdNTDlyXzRhRjR1Qm1pbWI?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-8E097F39A48932",
+      "level": "review",
+      "title": "هجوم بالمسيّرات يقتل فنيَّين إيطاليَّين في محطة للدفاع الجوي الكويتي - Elaph",
+      "published_at": "2026-11-26T18:02:24Z",
+      "countries": [
+        "Kuwait"
+      ],
+      "category": "security",
+      "topic": "drone",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "Elaph",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB5SXRkakRDQ3NlS3VkQ1pRMGEwTUwtbHd0S2JMcVFiNW9JZXBUTlk3VjUwZm9aaWg0bERPNHZOM0VPUnJHeWJSNzNBeVJUZ0lIV2JaTkpyVnZCcHM?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-BEFEBC6909E06F",
+      "level": "review",
+      "title": "مقتل إيطالييَن في هجوم بمسيّرات في الكويت نُسب إلى إيران - زاكروس عربية",
+      "published_at": "2026-11-26T18:00:54Z",
+      "countries": [
+        "Iran",
+        "Kuwait"
+      ],
+      "category": "security",
+      "topic": "drone",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "زاكروس عربية",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE0teWtEb0hDNU5oNHhnZmE3MHI2TG5QekRWTDc4TjQ3c2VfdmVXNC1waGV3X0R3QUpKNC1GQy1JVVJUSmg0VFhLRV9mSm45MDN0UE9VSFVZOA?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-FAD2A88F834F4B",
+      "level": "review",
+      "title": "Iran Rejects Blame for Deadly Drone Strike on Kuwait’s Air Defense System - Belaaz",
+      "published_at": "2026-11-26T17:16:57Z",
+      "countries": [
+        "Iran",
+        "Kuwait"
+      ],
+      "category": "security",
+      "topic": "interception",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "Belaaz",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOWHBQazlhTnZRX3JSWDlabjdCdllQUVNXNTF1a1pEalotRTZUVk93eHZWRm9USHdsQ1ljbVl2N2lmeTFNYUxDb3gtSW9SRWt4Y2F3TklkWl9naUc1VkpHNFd2YUM3aHpGSWFDOGs3QmxqQkZ5TjNKTWd4UUFWdEM5dVphanZxX01UMEVDZFY3THB6bEhvR1dzVG80Zkw?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-F1243321E3BFF7",
+      "level": "review",
+      "title": "\"وفاة مأساوية\": رئيسة الوزراء ميلوني تنعى مقتل إيطاليين اثنين في الكويت في هجوم إيراني - صدى البلد",
+      "published_at": "2026-11-26T17:12:00Z",
+      "countries": [
+        "Iran",
+        "Kuwait"
+      ],
+      "category": "security",
+      "topic": "regional",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "صدى البلد",
+          "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1TQ1VrZDdDcmdXSDRHN0NOZGV3RzctZmJKQXE1SzRFQTNQVW5DZlJQQ0VGRml6aDg2TDI3OWdqSXlEdFJiUVBj?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-E9D34B0F55297D",
+      "level": "review",
+      "title": "إيران تنفي شن هجوم أسفر عن مقتل إيطالييَن في الكويت - LBCI Lebanon",
+      "published_at": "2026-11-26T16:59:42Z",
+      "countries": [
+        "Iran",
+        "Kuwait"
+      ],
+      "category": "security",
+      "topic": "regional",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "LBCI Lebanon",
+          "url": "https://news.google.com/rss/articles/CBMitANBVV95cUxPamJWOWNSb29Ld21qRUp3STM3dEFkQ1RjNXNhTmtTN0lvaUdYN013Z1JGNjdqWjJLeEVYWjhnU2ZOLW1NNGRmekREdWxzWVhwR0NYLTg2Vzh1ampxdml1dGRYTjY2bW03d3dBU3paMk1KZUZwX1h3VzB3dEJQc1h5YVRNWG9QQU1DYjlaWFVKSTBrVzQyUi0zVzB6RWNtVFhJWUE3MTBVbUdrZXp4d0l2NXdleG0tZnVOeWFQVEMtRUdhV0lLa2NLN3M5LTRFTVpOdU1HWS1WVTNvVGJJbmFlRHhRc1ZYdVBUWjZQa1R4bjZ3c0NHQm9yd1ozaGhsc1BIaGxBV0FJTlNvbFI2WWtXV1M0Xzg0V3hNZ0xCaUxfZGpLUXAyNllfc3ExNGtLUjNVcW5BeHJ6Y1Q4bEszUVhQcGlHUlpiUTJjcksyY3l0alEtMEw2ZVo3UERLMGpjTGg1dHBoWFdpN1ZPcF8wOFRFbDN0V3NPNl9iQkdJT1R6bW91R3dseGRoNU9RQnhPTUdpREtWYmtQdmRpOVRlM2FXNFBtMlFxekZ4dHlnb3loVWl4TFVD?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-900264EAF23A39",
+      "level": "review",
+      "title": "2 Italians killed in Iranian drone attack in Kuwait, Italy says - CBC",
+      "published_at": "2026-11-26T16:54:56Z",
+      "countries": [
+        "Kuwait"
+      ],
+      "category": "security",
+      "topic": "drone",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "CBC",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNOHptaWQtT2lka1RVUU81Rml5bUdrdl9RS2tQdlBVeWZZYjdwTmFTb25wM0FqWFhfSE82VlVnWFZMWlVBNU1rcFVQWDRXTXk1S0RNMmg5X2xwOVYwYWxHSzFqRXVBc0tPZm9Hb25VWGgzRTJHU2FmU0cwVl9FTkE2dWNKUlJxa3pi?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-DC99D0F659C83F",
+      "level": "review",
+      "title": "إيران تنفي صلتها بهجوم أسفر عن مقتل إيطالييَن في الكويت - بوابة الوسط",
+      "published_at": "2026-11-26T16:54:29Z",
+      "countries": [
+        "Iran",
+        "Kuwait"
+      ],
+      "category": "security",
+      "topic": "regional",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "بوابة الوسط",
+          "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE8wNUtjcVhQeWJkcWk4bDI4Q0ZfRlpWVU93TVlNWWtSWEgtS3IxQ1dJcHUxWTZYbXNEV29zejNVUzRPMWFi?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-6D0D09C4A0C2F1",
+      "level": "review",
+      "title": "إيران تنفي شن هجوم أسفر عن مقتل إيطالييَن في الكويت - Mosaique FM",
+      "published_at": "2026-11-26T16:50:00Z",
+      "countries": [
+        "Iran",
+        "Kuwait"
+      ],
+      "category": "security",
+      "topic": "regional",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "Mosaique FM",
+          "url": "https://news.google.com/rss/articles/CBMinwRBVV95cUxQSmszdTdZMnAxel9jSUE3VkFObzh0ZWtETDY2c3hJYlVWSmdRYTBoc3gtTjhzYkwyQmR3WXdhUkNmZXRpc1lJUVlxekhDR2pHM0RDNGx6b1ZaVFVEdzNibzU4LWV5eWdIaG0xMTVFTDIyWUloSEo3U0ZnU3duR3JQdUVfV1EtTTJlRTRUMUhPVjFXeEpCR0hNZzAtc3FlNERTdXB4dEdMcXNyeGVjODB6aDc1UzZhOG8waTJOY0thLTJxX3JYQXlXSlF5a0Z1ZkZUa3hBd3JpNkN4NTVpajFONGJfUzV4TUlWbXBURmY1TWF4N3hUcnMwZ3dNejl3S1k0T2VLSUVxQjJ6SFlxc3RBbXBBdlYwVUhmdHVoQmExOU1lOVR5NlY1YXc0WWk1MGNNRDNTUm41R1U4MVFuZnlLZE9FaFRDOGNwVmdtUm5qOTBWR1EyRllieU5KVEJOcWJUemM2VWttT2FVcWNRdUNhSXVNVVVqSlFvLUk4Yld0VzctRUUtOVhEU1k3YjRFRWNwY2c0Y1dwNF9MbXFMWmkxdzRaRGZqSDhXTTRzbWd6TU9aeWJQYlNWTzFfUEFBc2txNWNPRGptUmNQaVNMYkZsTjFTZjB3b0ZXd0VRMHdQa3J2ekxmRmUzT0daVk5HRmIydVhGYUV0LUxDUFo0Nk82Q1NWVWF2VjE0UEc2QWpuN0NSM0Z4N1ZDSEJKOFhwX00?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-0244B1E952353E",
+      "level": "review",
+      "title": "هجمات إيران على الكويت وسقوط قتلى وجرحى تستنفر الدوحة.. قطر تحذر من اتساع المواجهة - المشهد اليمني",
+      "published_at": "2026-11-26T16:45:47Z",
+      "countries": [
+        "Iran",
+        "Kuwait",
+        "Qatar"
+      ],
+      "category": "security",
+      "topic": "regional",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "المشهد اليمني",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBjVEtSdWpzS3VYYjdtVGhLSmxuaVVsQ3l2d016RVNmWF94aU51SWU5OEJiNnJmS3JpQzFISGVvdDlXZjdwNGoxTU5ZYUtrN3M?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-995DE153C81E5C",
+      "level": "review",
+      "title": "Two Italians killed by ‘drone strike debris’ in Kuwait - Al Jazeera",
+      "published_at": "2026-11-26T16:43:19Z",
+      "countries": [
+        "Kuwait"
+      ],
+      "category": "security",
+      "topic": "drone",
+      "outlet_count": 1,
+      "article_count": 3,
+      "source_urls": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTTJLR040dFNoUlFYaVk0RF9CMUp2d1drUlVYVkNXWGQ4MldxM0VFTE52MDMzTHNXVmpFVEZjeGUteHlCY00zWjFNcFVVX1ZWOWhLSE9GeF9tRGE2bWVVd1l4eHVtY3hUc0dnN19rbVZfN0k4cUtZcTRwQlgzbXF5NUZmM242RmU2UGVXR2tGRHM1RUNOMF9qdVZDTjBFZFZDOWp1blozM3lhU1VXcVhR0gG0AUFVX3lxTFBoVDAzRnVkN1JNUEliazROM0hQamFsWVF0a3lxZXBISlcwOFhoWndKNnlDU1JVMzZWVXM1aVVLRm1aQXNNOU45bnZIVHlqcUg2R2hCbHY4bEtHaEFqS2dmY0RmUlpRMG9MRTZoZTYxMDRLLXhaLWtla2dzNWY1b0xzMU15R0dlVkdJTW9EeFNHYkdRN0RwT2llT2ZWUVlKQ3IwS1ZrRWRHSXdwMUdGZGVkcjF0WA?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-54DB709F7C89BC",
+      "level": "review",
+      "title": "هجوم إيراني في الكويت يسفر عن مقتل فنيين إيطاليين بموقع حيوي - أخبار الغد",
+      "published_at": "2026-11-26T16:40:47Z",
+      "countries": [
+        "Iran",
+        "Kuwait"
+      ],
+      "category": "security",
+      "topic": "regional",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "أخبار الغد",
+          "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxOdlczRG94OUxMWUNLN1kxX1JUSXlJZU5hQ1RRbjhONm15Z1FXWjV3OXUtNFZpLVdqMTNEalRDWVVqWmZRUUNuLWs4SWdxc281eVRCaDRQQ0owY25IRW02b1gzTVFyRFdqeWtLTkFZQUlQZWdhSV9RSmNPR095ekc2VjlGb2dCRTc5TlVJX0ZjME94SFJDMkNTU3o3SXdwQjZLa01WaktQanV1eEdmSHpfWmhxYldRVFlxLVdnZWxJUDRNQjI1UlRDVEE4QjZURzZjVUNFVlNsNUVWSktCdER4OTgtMlFkUXNQSnpMZFVHWGU1Ym5FdFkzRDZTYXItbnZuMGMxdUtpZG9sSEJoRGlyVVNoRFpZOWZhMFUxUHM0cXhpRnc1Y2ROX1czaUtoVlZST0hV?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-EBA93A647ACEA5",
+      "level": "review",
+      "title": "Italy says two citizens killed in Iranian strike in Kuwait - BBC",
+      "published_at": "2026-11-26T16:39:30Z",
+      "countries": [
+        "Kuwait"
+      ],
+      "category": "security",
+      "topic": "regional",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "BBC",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE82VmIyOXM0dFF5ZVFScjVxU0IzbUV3cU53d1JybkZ3eEJxaUFCTXR4Y0dmS3FjREhrcVZ4QW5GN3AtMHJNdWFDT1JaeWppVkZrXzkteDgzZ0MzTFk?oc=5"
         }
       ],
       "context": "New public reporting; original event time/ongoing status not established.",
