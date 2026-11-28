@@ -1,7 +1,93 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-28T02:12:22.123575Z",
-  "alerts": [],
+  "generated_at": "2026-11-28T10:34:19.176086Z",
+  "alerts": [
+    {
+      "id": "GF-6200BCADDD6FE4",
+      "level": "review",
+      "title": "الحرس الثوري الإيراني يعلن وقوع انفجارين بناقلتي نفط قرب مضيق هرمز - النجاح الإخباري",
+      "published_at": "2026-11-28T09:54:24Z",
+      "countries": [
+        "Iran"
+      ],
+      "category": "security",
+      "topic": "maritime",
+      "outlet_count": 1,
+      "article_count": 2,
+      "source_urls": [
+        {
+          "name": "النجاح الإخباري",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1IYXdfQnRWR2owMTlPcTFuekFKNXlNY1JyUWlRd1BnNzJPOXlPOVNPQUlwT1U0NEdESi1PVnZVT3B5d1pRdnhGTGZrVncteXNPOVl3NC1nVkxBNk8ya09oM2RCM2kwcXN5clE?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-31D8368B3E78AB",
+      "level": "review",
+      "title": "التحالف العربي يعلن إحباط هجوم صاروخي حوثي استهدف العاصمة الرياض - https://alsaudi.news/",
+      "published_at": "2026-11-28T09:35:07Z",
+      "countries": [
+        "Saudi"
+      ],
+      "category": "security",
+      "topic": "missile",
+      "outlet_count": 1,
+      "article_count": 2,
+      "source_urls": [
+        {
+          "name": "https://alsaudi.news/",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5XTmw4cmg1a2piVmlydkRUVVFlUzI4SnFsenROTXNBUXgwUE5pWERuY28xdWx1TjhJNmF5dDlULWQyV1p3Z08xYU4tY0loMkk1?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-5743488C33432A",
+      "level": "review",
+      "title": "Iran Prepares For New Strikes On Us Military; IRGC Bolsters Navy With Advanced Air Defences - The Times of India",
+      "published_at": "2026-11-28T09:03:30Z",
+      "countries": [
+        "Iran"
+      ],
+      "category": "security",
+      "topic": "interception",
+      "outlet_count": 1,
+      "article_count": 1,
+      "source_urls": [
+        {
+          "name": "The Times of India",
+          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQclo3S25pQmlFNG9QQUs1NHhOZ0dHVEdjdXNPcTdrVmo5cl83UEdfTzVZZkY0QXZWR2xmUG44c3RyVmhCemUybS12ZHE2M3djNkNDMVUzQVY5a0g0bGRmc243cHFOY24xd3I2X0JFd3VKSjBaa1BGZmhlREtTTWtOZE5DQXV0SEZjUTVROEptaklNX0tabHQ4Z01wM2NsakZQbU5fbDZQNHYxamx4UTlyOEJWZzlNVUk2dUJWdkR5REJoYTY4bi0zU25vNTloODVLR1J2UW9ZVndUblN1RnhmTWRXZ3NjaG1QWkVQRTBvZklGLTQzSVpCczd2WnVBaTlF0gGGAkFVX3lxTFBvdXVhRnF4QkJ3dWVjMWRvUWNUNEM4MmRLbURidkpXbW9qX0NwT3p6RldQRkpzbmUyM3h3bnJrci05SDdxMkxMZWxJMHQzR3lfZmtCZlRXNlVzY29rR2JvajVGZmRKdXJFUzVVaEpVTWNiaUxEcS1XSjBsS3NTd0x0ZWEzVEMyc1hsOW9sNnViSGlWYTUzdTJTUWhnY2dFYjFwOEVNd3FoNFF4bDROeGV4dDVDT21jLUZyenN0MWNQT3RXWFBYNEM5UWRjeEg2am44YV9NM2Y1ejNmWEJZUF92WUl2Vlg3VVFPYXJobE4wcms4cnJOTUJ2aEUtV0owQTdWa20zd3c?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    },
+    {
+      "id": "GF-A97688C75EBC39",
+      "level": "review",
+      "title": "إيران: انفجار ناقلتي نفط اصطدمتا بألغام شرقي هرمز وقرب سواحل عُمان - بوابة الشروق",
+      "published_at": "2026-11-28T08:46:31Z",
+      "countries": [
+        "Iran",
+        "Oman"
+      ],
+      "category": "security",
+      "topic": "maritime",
+      "outlet_count": 1,
+      "article_count": 2,
+      "source_urls": [
+        {
+          "name": "بوابة الشروق",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUkxYYnFxSkZBblBhRlVHNk9oa0NMWVEzam9fajZtWHZvXzNkWTZpNE1ja0pqaktnbGVSaW4xd2ZIWGVOVVhMSC1iQnRTRnFIOVhfcUJSZmROQ2NKUm1MNFN3TUxUR0l0QkRrc0ZwTXdGS3QwdXdKdUYyajNza0E0emg3cDRIN3NBTF9rckt1OHduMV92RGEzWkNQZk1uUQ?oc=5"
+        }
+      ],
+      "context": "New public reporting; original event time/ongoing status not established.",
+      "verification": "unverified-reporting"
+    }
+  ],
   "new_alert_ids": [],
   "critical_count": 0,
   "notice": "CRITICAL REPORTING means multiple named outlets published related headlines. This is NOT confirmation, real-time detection or official emergency advice."
