@@ -1,73 +1,7 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-27T19:40:40.281036Z",
-  "alerts": [
-    {
-      "id": "GF-A10406D49B2229",
-      "level": "review",
-      "title": "إيطاليا: الطائرة المسيرة التي قتلت مواطنينا في الكويت صُنعت في إيران - المصري اليوم",
-      "published_at": "2026-11-27T19:26:00Z",
-      "countries": [
-        "Iran",
-        "Kuwait"
-      ],
-      "category": "security",
-      "topic": "drone",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "المصري اليوم",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1uV01EUDJCMU16bFNReVJrLWI2WlBZal8yOUx0WXBHT1ZlcDRkcDduRU1NTzJTTzJ2RXVMRTQ4THlZRTZkbGtqY3htNks4ME9tZU9iQVo2blJIdEtxZnNN?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-6D5E2EAB9065EA",
-      "level": "review",
-      "title": "UPDATES: US War on Iran, Day 274 — Strike on Kuwait Kills 2 Italians - EA WorldView",
-      "published_at": "2026-11-27T18:27:11Z",
-      "countries": [
-        "Iran",
-        "Kuwait"
-      ],
-      "category": "security",
-      "topic": "regional",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "EA WorldView",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9kMm9xY2xlR1F4aTRmNVE2V0FBX2hvbVVHVWxUazkzcVN3NXF4dEtiWXJsajhMYTF1X2d2OXFqSjM0VFAwYV9xQjlfYUpES3ktVmRpZGg0cml4WThDZWVJYWlyMkxuS1l2V3JiS1N3NHFEWWRUREYzaWpB?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    },
-    {
-      "id": "GF-5CDB99C036EE4A",
-      "level": "review",
-      "title": "الأمم المتحدة تدين هجوما بمسيرة على الكويت أسفر عن مقتل إيطاليين - المصري اليوم",
-      "published_at": "2026-11-27T18:26:00Z",
-      "countries": [
-        "Kuwait"
-      ],
-      "category": "security",
-      "topic": "drone",
-      "outlet_count": 1,
-      "article_count": 1,
-      "source_urls": [
-        {
-          "name": "المصري اليوم",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1MQ0xhNE5UdUlMdFFORlh0ZFRfbmZYanZCSG5abHd4ZzVTU2hwblhaQjI5TllxYkdSZzBjd29wMjZIVTNoN3A0MGxkS29RLXVXeTFOMmRSU1NZUEhhVTFV?oc=5"
-        }
-      ],
-      "context": "New public reporting; original event time/ongoing status not established.",
-      "verification": "unverified-reporting"
-    }
-  ],
+  "generated_at": "2026-11-28T02:12:22.123575Z",
+  "alerts": [],
   "new_alert_ids": [],
   "critical_count": 0,
   "notice": "CRITICAL REPORTING means multiple named outlets published related headlines. This is NOT confirmation, real-time detection or official emergency advice."
